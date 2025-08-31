@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "APH",
+  "timestamp": "2025-08-25T22:12:03.587138",
+  "data_package": {
+    "metadata": {
+      "symbol": "APH",
+      "package_timestamp": "2025-08-25T22:11:54.608716",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "APH",
+        "current_price": 110.51,
+        "overall_score": 52.29778530763842,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 102.4406,
+        "sma_200": 80.1713
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.484860026661596,
+        "momentum_63d": 28.26417299824665,
+        "momentum_126d": 63.458960226426356,
+        "momentum_acceleration": -23.779312971585053,
+        "roc_21d": 4.484860026661596,
+        "trend_strength_20d": 0.43824448179874,
+        "trend_direction": 1,
+        "ma_ribbon_score": 72.95497253220506,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.002381391796098997
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": -0.19149035367770686,
+        "volatility_compression": 39.028741023844795,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.890723608819805,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.43978919631095,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 61.0,
+        "squeeze": 55.85431115357672,
+        "options": 37.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 4,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "APH",
+        "strike_price": "85",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "25.1",
+        "ask": "25.5",
+        "last_price": "21.5",
+        "mid_price": "25.3",
+        "spread_percent": "1.568627450980392156862745098"
+      },
+      "greeks": {
+        "delta": 0.9685,
+        "gamma": 0.0044,
+        "theta": -0.0199,
+        "vega": 0.0296
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3821
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 1303,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:13.273327",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T10:13:26+00:00",
+            "title": "Did Credo Technology Group Holding's (CRDO) Legal Settlement With Amphenol Unlock New Growth in High-Speed Connectivity?",
+            "content": "Earlier this month, Credo Technology Group Holding Ltd. and Amphenol reached a comprehensive settlement agreement, resolving all pending patent litigation concerning active electrical cable technology between the two companies. This legal resolution eliminates a significant overhang, allowing Credo to focus more closely on growth opportunities in high-speed connectivity for AI and data centers worldwide. We'll now consider how clearing legal distractions could support Credo's efforts to expand its leadership in high-speed connectivity solutions.\n\nExplore 23 top quantum computing companies leading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research.\n\nCredo Technology Group Holding Investment Narrative Recap\n\nTo be a Credo Technology Group shareholder, you need to believe in the accelerating demand for secure, high-speed connectivity solutions, especially as AI and cloud infrastructure expand globally. The recent settlement with Amphenol removes a legal overhang, but it does not materially affect the company’s most important short-term catalyst: adoption and scale-up of its next-generation PCIe and AEC products. The biggest near-term risk remains Credo’s heavy reliance on a single customer for most of its revenue.\n\nAmong recent announcements, Credo’s introduction of the PILOT diagnostics platform in May was particularly relevant. By strengthening product reliability and analytics for hyperscale data centers, PILOT aligns closely with the catalyst of driving faster adoption for new connectivity solutions, now with fewer legal distractions standing in the way. However, investors still need to consider...\n\nRead the full narrative on Credo Technology Group Holding (it's free!)\n\nCredo Technology Group Holding's outlook anticipates $1.0 billion in revenue and $314.5 million in earnings by 2028. This projection is based on a 33.8% annual revenue growth rate and a $262.3 million increase in earnings from the current $52.2 million.\n\nUncover how Credo Technology Group Holding's forecasts yield a $106.33 fair value, a 7% downside to its current price.\n\nExploring Other PerspectivesCRDO Community Fair Values as at Aug 2025\n\nTwenty fair value estimates from the Simply Wall St Community span US$18.78 to US$184.53 per share, showcasing wide-ranging opinions. While many focus on growth potential in high-speed connectivity, the company’s customer concentration risk continues to shape the broader conversation about future earnings stability, explore several viewpoints before deciding where you stand.\n\nStory Continues\n\nExplore 20 other fair value estimates on Credo Technology Group Holding - why the stock might be worth as much as 62% more than the current price!\n\nBuild Your Own Credo Technology Group Holding Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Credo Technology Group Holding research is our analysis highlighting 2 key rewards and 1 important warning sign that could impact your investment decision. Our free Credo Technology Group Holding research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Credo Technology Group Holding's overall financial health at a glance.\n\nWant Some Alternatives?\n\nMarkets shift fast. These stocks won't stay hidden for long. Get the list while it matters:\n\nTrump has pledged to \"unleash\" American oil and gas and these 22 US stocks have developments that are poised to benefit. Outshine the giants: these 20 early-stage AI stocks could fund your retirement. The end of cancer? These 26 emerging AI stocks are developing tech that will allow early identification of life changing diseases like cancer and Alzheimer's.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include CRDO.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T08:01:50+00:00",
+            "title": "AMPHENOL CORP-CL A (NYSE:APH) Exhibits Strong Technicals and Bullish Consolidation Pattern",
+            "content": "Technical analysis often relies on identifying stocks that not only exhibit strong underlying momentum but also present favorable entry points through consolidation patterns. One method for spotting such opportunities involves evaluating two key metrics: the Technical Rating, which assesses the overall health and trend strength of a stock, and the Setup Rating, which identifies periods of price consolidation that may precede a breakout. This dual approach helps investors focus on securities that are both technically sound and poised for potential upward moves, reducing risk while aiming for timely entries.\n\nAMPHENOL CORP-CL A (NYSE:APH [https://www.chartmill.com/stock/quote/APH]) appears as a notable candidate based on this framework. The company, a leading designer and manufacturer of connectors and sensor systems, shows solid technical characteristics alongside a promising consolidation pattern, suggesting it may be well-positioned for investors employing breakout strategies.\n\n[Stock Chart]\n\nTECHNICAL STRENGTH AND MOMENTUM Aphoenol’s Technical Rating of 10 out of 10 indicates exceptional technical health. This top rating reflects strong positive trends across both short-term and long-term timeframes, supported by the stock trading above key moving averages and demonstrating consistent relative strength. Over the past year, APH has outperformed 91% of all stocks, and within its industry, Electronic Equipment, Instruments & Components, it ranks above 70% of peers. Such performance indicates sustained buyer interest and momentum, critical for breakout setups as they rely on underlying strength to fuel upward moves post-consolidation. The stock is currently trading near its 52-week high, aligning with the broader market’s positive trajectory but also highlighting its individual vigor.\n\nSETUP QUALITY AND CONSOLIDATION PATTERN With a Setup Rating of 8, APH displays clear signs of consolidation, characterized by reduced volatility and price action within a narrow range. This pattern often precedes breakouts, as it indicates a temporary pause in the trend where supply and demand reach equilibrium. The technical report notes a defined resistance zone between $109.93 and $111.85, with support situated around $108.61 to $109.21. This structure provides a clear risk-management framework: a breakout above resistance could signal an entry, while a stop-loss below support helps limit downside. The setup suggests APH is forming a bull flag, a typically bullish pattern where prices pull back mildly after a strong advance, potentially offering an optimal entry point for momentum continuation.\n\nIMPLICATIONS FOR BREAKOUT TRADING For technical investors, APH represents a blend of high momentum and refined consolidation. The strong Technical Rating ensures the stock is in a proven uptrend, reducing the probability of false breakouts, while the elevated Setup Rating indicates the consolidation is tight and well-defined, offering a clear signal for entry upon a resistance breach. The average true range (ATR) of approximately 2.71% suggests manageable daily volatility, allowing for precise stop placements and position sizing.\n\nInvestors looking to explore similar technical breakout opportunities can find daily screened results using the Technical Breakout Setups tool [https://www.chartmill.com/stock/stock-screener?sid=202&f=v1_50b500,atrpct_a_1,sl_ta_7_X,sl_se_7_X,p_pg20&s=se&v=3&timeframe=WEEKLY&o1=3&op1=200,16711680&o2=3&op2=50,255&o3=1], which filters for stocks exhibiting high technical and setup ratings.\n\n_Disclaimer: This analysis is based on technical metrics and historical performance and should not be considered investment advice. Investors should conduct their own research and consider their risk tolerance before making any trading decisions._\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T04:08:12+00:00",
+            "title": "Amphenol (APH) Expands Defense, AI Reach With $1 Billion Trexon Deal",
+            "content": "Amphenol Corporation (NYSE:APH) is one of the best stocks to invest in for long-term growth. On August 18, electronic equipment giant Amphenol Corporation (NYSE:APH) said it will buy cable assembly firm Trexon for about $1 billion in cash. The acquisition will help the company get exposure to the rising defense spending and expand its military portfolio.Amphenol (APH) Expands Defense, AI Reach With $1 Billion Trexon Deal\n\nThe company’s CEO, Adam Norwitt, said, “Trexon’s unique portfolio of high-reliability cable assembly products will be highly complementary to our existing offerings in the defense market.\n\nAmphenol has been on an acquisition spree. The company acquired CommScope’s Connectivity and Cable Solutions segment in a $10.5 billion deal earlier this month.  The company will be able to tap into the burgeoning demand for the segment’s AI-driven applications and high-speed data center infrastructure.\n\nAmphenol expects the acquisition to be accretive to its earnings per share in the first year after closing the deal, which is likely to happen in the fourth quarter of this year.\n\nAmphenol Corporation (NYSE:APH) has seen steady revenue growth over the years and has been able to expand its margin steadily, too. and is trading at a forward P/E of 35.19x.\n\nWhile we acknowledge the potential of APH as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you're looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 10 Best High Growth Consumer Stocks to Buy Now and 10 Best Growth Stocks to Buy According to Analysts\n\nDisclosure: None.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T19:15:34+00:00",
+            "title": "Key deals this week: Vital Energy, Dayforce, Nexstar Media, Workday, Salesforce and more",
+            "content": "Here's a list of key deals reported across sectors this week:\n\nVital Energy (NYSE:VTLE [https://seekingalpha.com/symbol/VTLE]) +6.4% post-market Friday following [https://seekingalpha.com/news/4488539-crescent-energy-nears-deal-for-permian-basin-producer-vital-energy---reuters] a report that Crescent Energy (NYSE:CRGY [https://seekingalpha.com/symbol/CRGY]) is in advanced talks to acquire [https://www.reuters.com/business/energy/crescent-energy-nears-deal-us-shale-peer-vital-energy-sources-say-2025-08-22/] the smaller Permian Basin producer, in a deal that could be announced as soon as next week; no further details are known.\n\nAir Liquide (OTCPK:AIQUF [https://seekingalpha.com/symbol/AIQUF]) (OTCPK:AIQUY [https://seekingalpha.com/symbol/AIQUY]) said Friday it agreed to acquire [https://seekingalpha.com/news/4488269-air-liquide-to-buy-south-koreas-dig-airgas-in-3_3b-deal] South Korea's DIG Airgas from Macquarie Asia-Pacific Infrastructure Fund 2 for €2.85B (~$3.3B) including debt.\n\nCenovus Energy (NYSE:CVE [https://seekingalpha.com/symbol/CVE]) agreed to acquire [https://seekingalpha.com/news/4488255-cenovus-energy-to-buy-meg-energy-in-c79b-deal-topping-strathcona-bid] MEG Energy (OTCPK:MEGEF [https://seekingalpha.com/symbol/MEGEF]) in a cash and stock deal valued at C$7.9B (~US$5.7B) including debt, creating one of Canada's largest oil sands companies, the companies announced Friday.\n\nDayforce (NYSE:DAY [https://seekingalpha.com/symbol/DAY]) has entered into a definitive agreement with Thoma Bravo to become a privately held company in an all-cash transaction [https://seekingalpha.com/news/4487847-dayforce-to-go-private-in-123-billion-deal-with-thoma-bravo] with an enterprise value of $12.3 billion.\n\nLowe's Companies (NYSE:LOW [https://seekingalpha.com/symbol/LOW]) has agreed to acquire [https://seekingalpha.com/news/4487312-lowes-to-acquire-foundation-building-materials-for-88b] interior building products distributor Foundation Building Materials (FBM) for around $8.8 billion in cash.\n\nNexstar Media (NASDAQ:NXST [https://seekingalpha.com/symbol/NXST]) to acquire [https://seekingalpha.com/news/4486898-nexstar-to-acquire-tegna-for-62-billion-in-accretive-deal-tegna-shares-rise] all outstanding shares of Tegna (NYSE:TGNA [https://seekingalpha.com/symbol/TGNA]) for $22.00 per share in a cash transaction valued at $6.2 billion, including debt, the companies said on Tuesday.\n\nSalesforce (NYSE:CRM [https://seekingalpha.com/symbol/CRM]) has agreed to purchase [https://seekingalpha.com/news/4486745-salesforce-to-acquire-ai-firm-regrello] Regrello, an AI-native solution that it plans to integrate with Agentforce and Slack.\n\nYext (NYSE:YEXT [https://seekingalpha.com/symbol/YEXT]) chairman and CEO Michael Walrath has offered [https://seekingalpha.com/news/4486493-yext-stock-jumps-as-ceo-submits-proposal-to-buy-rest-of-the-co-for-9share] to buy all remaining Yext shares he doesn’t own for $9 each in cash.\n\nAmphenol Corp. (NYSE:APH [https://seekingalpha.com/symbol/APH]) agreed to acquire [https://seekingalpha.com/news/4486508-amphenol-agrees-to-acquire-trexon-for-1b] Trexon for about $1 billion in cash.\n\nWorkday (NASDAQ:WDAY [https://seekingalpha.com/symbol/WDAY]) announced [https://seekingalpha.com/news/4488114-workday-to-acquire-candidate-experience-ai-agent-paradox]on Thursday a definitive agreement to acquire the candidate experience AI agent Paradox.\n\nMORE ON M&A TICKERS, ETC.\n\n \t* Palo Alto Networks: Deserving Dip [https://seekingalpha.com/article/4807894-palo-alto-networks-deserving-dip]\n \t* Notable analyst calls this week: Nike, Microsoft and Sarepta among top picks [https://seekingalpha.com/news/4476593-notable-analyst-calls-this-week-nike-microsoft-and-sarepta-among-top-picks]\n \t* Piper Sandler signals robust advisory pipeline and G Squared acquisition as momentum builds [https://seekingalpha.com/news/4476586-piper-sandler-signals-robust-advisory-pipeline-and-g-squared-acquisition-as-momentum-builds]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T10:10:38+00:00",
+            "title": "Should Investors Reconsider Amphenol After Its 64% Surge and Updated Fair Value Estimates?",
+            "content": "Thinking about whether to buy, hold, or sell Amphenol? You are not alone. The stock has been flashing on many investors’ radars, especially after a remarkable surge over the past year. If you have watched the ticker lately, you will see it is up roughly 64% in the past twelve months, and nearly 58% year-to-date. That is not just market noise. These kinds of moves are often fueled by strong demand for the company’s products or a shift in the market’s view of its long-term potential. In Amphenol’s case, both factors appear to be in play.\n\nEven looking back further, Amphenol has delivered total returns of nearly 320% over five years, outpacing many of its peers and the broader tech sector. With that kind of track record, it is no wonder investors are weighing whether now is the time to get in, or to take profits if you have been along for the ride. The story driving this performance includes steady top and bottom-line growth, as Amphenol’s annual revenue climbed 10% and net income ticked up 12% most recently. But as with any stock on a run, the key question now is valuation. Is Amphenol’s current price justified by its fundamentals?\n\nDigging into various valuation checks, Amphenol comes in with a value score of just 1 out of 6, suggesting it is only undervalued by one metric according to standard models. However, that headline number barely scratches the surface. Next, we will look at the strengths and weaknesses of each valuation approach, and wrap up with a perspective you probably will not find anywhere else.\n\nAmphenol delivered 63.9% returns over the last year. See how this stacks up to the rest of the Electronic industry.\n\nApproach 1: Amphenol Cash Flows\n\nThe Discounted Cash Flow (DCF) model estimates a company’s intrinsic value by projecting its future free cash flows and discounting them back to their present worth. This approach focuses on what the business can realistically generate in cash over time, rather than just its accounting profits.\n\nAmphenol’s current Free Cash Flow stands at $3.0 billion. Analysts expect this number to grow steadily, with projections reaching $8.5 billion by 2035. These forecasts are built from a series of stepwise increases each year, reflecting both industry trends and the company’s operational momentum.\n\nBased on these projected cash flows, the DCF model arrives at an estimated intrinsic fair value of $97.67 per share. Comparing that value to where Amphenol trades today, the model suggests the stock is about 12% overvalued. In other words, according to this method, investors are currently willing to pay a premium above what the company’s future cash generation might justify.\n\nStory Continues\n\nResult: OVERVALUED APH Discounted Cash Flow as at Aug 2025\n\nOur DCF analysis suggests Amphenol may be overvalued by 12.0%. Find undervalued stocks based on DCF analysis or create your own screener to find better value opportunities.\n\nApproach 2: Amphenol Price vs Earnings\n\nThe Price-to-Earnings (PE) ratio is a widely used way to assess value for companies that are profitable and steadily growing, like Amphenol. This multiple helps investors understand how much they are paying today for each dollar of the company’s current earnings. Because it directly ties market value to actual profitability, the PE ratio provides a clear lens for evaluating businesses with established earnings power.\n\nGrowth expectations and risk both shape what is considered a fair PE ratio. Higher growth rates or more predictable profits often justify higher multiples, since investors are willing to pay now for greater earnings in the future. In contrast, uncertain outlooks or elevated risks can suppress the PE ratio a stock deserves. As a result, context matters; what is high for one industry might be perfectly normal for another.\n\nAmphenol currently trades at a PE of 42x. For comparison, its industry average is 24x, and the leading peer group averages about 49x. Simply Wall St’s Fair Ratio for Amphenol is 30x, taking into account key factors such as growth, margins, and business risk. The gap between the current PE and the Fair Ratio suggests Amphenol is trading at a notable premium to what would typically be warranted for its profile as assessed by these models.\n\nResult: OVERVALUED NYSE:APH PE Ratio as at Aug 2025\n\nPE ratios tell one story, but what if the real opportunity lies elsewhere? Discover companies where insiders are betting big on explosive growth.\n\nUpgrade Your Decision Making: Choose your Amphenol Narrative\n\nBeyond just the numbers, investment decisions are often shaped by Narratives. These are simple yet powerful stories that connect your view of a company’s future to hard data like fair value, revenue, earnings, and margins. Narratives allow you to craft a clear perspective about Amphenol by tying together its business drivers, growth potential, and your assumptions about where it is headed.\n\nWithin Simply Wall St, Narratives are available to everyone as an easy and intuitive way to link a company’s story to actual financial forecasts and, ultimately, to an actionable value estimate. This means you can see how your expectations translate directly into a fair value and instantly compare it to Amphenol’s current price, making investment decisions far more transparent. In addition, Narratives on the platform update automatically when new earnings reports or industry news comes in, helping your investment thesis stay relevant in real time.\n\nFor Amphenol, for example, one Narrative might project rapid growth fueled by AI-driven datacenters and strategic acquisitions, supporting a bullish fair value of $127 per share. Alternatively, a more cautious Narrative could highlight risks like tech sector volatility and acquisition integration challenges, pointing to a bearish fair value of $85 per share.\n\nDo you think there's more to the story for Amphenol? Create your own Narrative to let the Community know!NYSE:APH Community Fair Values as at Aug 2025\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include APH.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Amphenol Corporation",
+          "sector": "Technology",
+          "industry": "Electronic Components",
+          "employees": 125000,
+          "description": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Harsh Environment Solutions, Communications Solutions, and Interconnect an"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.52,
+          "profit_margin": 0.169,
+          "operating_margin": 0.2562,
+          "roe": 0.3105,
+          "roa": 0.125,
+          "revenue_growth_yoy": 0.565,
+          "earnings_growth_yoy": 1.098,
+          "eps_estimate_current_year": 3.0397,
+          "eps_estimate_next_year": 3.4026,
+          "dividend_yield": 0.0061,
+          "dividend_per_share": 0.66,
+          "revenue_ttm": 18818000896,
+          "revenue_per_share": 15.559,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 43.3968,
+          "forward_pe": 37.037,
+          "price_to_sales": 7.0953,
+          "price_to_book": 11.591,
+          "enterprise_value": 138355932698,
+          "ev_to_revenue": 7.3523,
+          "ev_to_ebitda": 27.3053
+        },
+        "technical_data": {
+          "beta": 1.133,
+          "52_week_high": 112.35,
+          "52_week_low": 56.3503,
+          "50_day_ma": 102.4406,
+          "200_day_ma": 80.1713,
+          "short_interest": 0.0124,
+          "short_ratio": 1.49
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.66,
+          "forward_dividend_yield": 0.006,
+          "payout_ratio": 0.2651,
+          "dividend_date": "2025-10-08",
+          "ex_dividend_date": "2025-09-16",
+          "last_split_date": "2024-06-12",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0556,
+          "target_price": 115.375,
+          "strong_buy": 8,
+          "buy": 4,
+          "hold": 5,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1220920064,
+          "percent_institutions": 96.976,
+          "percent_insiders": 0.5640000000000001,
+          "shares_float": 1212936287
+        },
+        "balance_latest_sheet": {
+          "total_assets": 25668.4,
+          "total_debt": 8062.4,
+          "cash_and_equivalents": 3207.0,
+          "net_debt": 4855.4,
+          "working_capital": 5694.3,
+          "shareholders_equity": 11519.3,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 5650.3,
+          "gross_profit": 2053.3,
+          "operating_income": 1430.8,
+          "net_income": 1091.3,
+          "ebitda": 1638.4,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 36.34,
+          "operating_margin": 25.32,
+          "net_margin": 19.31
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1416.8,
+          "free_cash_flow": 1119.7,
+          "capex": 297.1,
+          "net_income": 1100.8,
+          "cash_change": 1549.8,
+          "dividends_paid": 199.6,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.6771,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 100.74,
+            "high": 101,
+            "low": 98.88,
+            "close": 99.44,
+            "volume": 5507700
+          },
+          {
+            "date": "2025-07-16",
+            "open": 99.8,
+            "high": 100.58,
+            "low": 98.61,
+            "close": 100.55,
+            "volume": 6241000
+          },
+          {
+            "date": "2025-07-17",
+            "open": 100.1,
+            "high": 102.08,
+            "low": 100.1,
+            "close": 101.96,
+            "volume": 6959000
+          },
+          {
+            "date": "2025-07-18",
+            "open": 103,
+            "high": 103.7,
+            "low": 102.34,
+            "close": 103.34,
+            "volume": 6319500
+          },
+          {
+            "date": "2025-07-21",
+            "open": 103.04,
+            "high": 104.16,
+            "low": 102.52,
+            "close": 103.71,
+            "volume": 6509400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.77,
+            "high": 103.88,
+            "low": 101.1,
+            "close": 101.78,
+            "volume": 8825700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 107.23,
+            "high": 108.85,
+            "low": 95.19,
+            "close": 100.71,
+            "volume": 30058100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 102.79,
+            "high": 105.1,
+            "low": 102.18,
+            "close": 104.46,
+            "volume": 14014600
+          },
+          {
+            "date": "2025-07-25",
+            "open": 104.79,
+            "high": 106.02,
+            "low": 104.67,
+            "close": 105.02,
+            "volume": 7303600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.91,
+            "high": 107.15,
+            "low": 105.04,
+            "close": 106.7,
+            "volume": 8368800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 107.82,
+            "high": 108.55,
+            "low": 104.97,
+            "close": 105.31,
+            "volume": 9476600
+          },
+          {
+            "date": "2025-07-30",
+            "open": 105.31,
+            "high": 106.01,
+            "low": 104.29,
+            "close": 105.49,
+            "volume": 7247600
+          },
+          {
+            "date": "2025-07-31",
+            "open": 106.8,
+            "high": 108.2,
+            "low": 106.27,
+            "close": 106.51,
+            "volume": 15268000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 105.29,
+            "high": 105.32,
+            "low": 102.76,
+            "close": 104.31,
+            "volume": 8736100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 108.56,
+            "high": 108.75,
+            "low": 106.41,
+            "close": 108.63,
+            "volume": 8998000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 108.66,
+            "high": 109.9,
+            "low": 107.01,
+            "close": 107.93,
+            "volume": 10434700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 108.25,
+            "high": 109.5,
+            "low": 107.54,
+            "close": 109.5,
+            "volume": 6507700
+          },
+          {
+            "date": "2025-08-07",
+            "open": 109.59,
+            "high": 110.38,
+            "low": 107.83,
+            "close": 108.55,
+            "volume": 5794200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 109.16,
+            "high": 110.6,
+            "low": 108.5,
+            "close": 109.98,
+            "volume": 5052400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 110.25,
+            "high": 111,
+            "low": 109.25,
+            "close": 109.81,
+            "volume": 4859600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 110.16,
+            "high": 111.87,
+            "low": 109.79,
+            "close": 111.85,
+            "volume": 7075400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 112.12,
+            "high": 112.35,
+            "low": 107.67,
+            "close": 109.83,
+            "volume": 9871600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 109.01,
+            "high": 110.83,
+            "low": 108.77,
+            "close": 110.74,
+            "volume": 6247100
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.55,
+            "high": 110.72,
+            "low": 107.52,
+            "close": 109.21,
+            "volume": 6535500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 110,
+            "high": 111.38,
+            "low": 109.72,
+            "close": 111.06,
+            "volume": 6809200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 110.81,
+            "high": 112.02,
+            "low": 109.18,
+            "close": 109.98,
+            "volume": 7000600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 109.3,
+            "high": 109.46,
+            "low": 104.71,
+            "close": 108.65,
+            "volume": 9011700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 108.52,
+            "high": 109.48,
+            "low": 107.89,
+            "close": 108.81,
+            "volume": 7320500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 109.01,
+            "high": 111.17,
+            "low": 108.43,
+            "close": 109.36,
+            "volume": 7552500
+          },
+          {
+            "date": "2025-08-25",
+            "open": 109.58,
+            "high": 111.48,
+            "low": 109.5508,
+            "close": 109.73,
+            "volume": 3325626
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.839737582005624,
+        "return_63d": 24.22732933318239,
+        "pct_above_sma50": 7.559429723816276,
+        "sma_50": 102.7432,
+        "new_55d_high": "False",
+        "high_55d": 112.35,
+        "rsi": 55.639097744360896,
+        "rsi_in_range": "True",
+        "adx": 15.589986220240723,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.561742458762416,
+        "bb_width": 7.270748968960361,
+        "keltner_width": 10.343636759148362,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 832707028.6506001,
+        "adv_shares": 7656231.3,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.33051280513075,
+        "final_score": 43.33051280513075,
+        "sub_scores": {
+          "trend_momentum": 18.890723608819805,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.43978919631095,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 4.484860026661597,
+          "ret_63d": 28.26417299824664,
+          "rsi14": 55.639097744360896,
+          "adx14": 20.5310617353906,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: APH\n• Current Price: $110.51\n• Overall Score: 52.29778530763842\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 102.4406\n• Sma 200: 80.1713\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.484860026661596\n• Momentum 63D: 28.26417299824665\n• Momentum 126D: 63.458960226426356\n• Momentum Acceleration: -23.779312971585053\n• Roc 21D: 4.484860026661596\n• Trend Strength 20D: 0.43824448179874\n• Trend Direction: 1\n• Ma Ribbon Score: 72.95497253220506\n• Breakout Strength: 0.0\n• Price Velocity: -0.002381391796098997\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: -0.19149035367770686\n• Volatility Compression: 39.028741023844795\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.890723608819805\n• Squeeze Breakout: 4.0\n• Options Quality: 14.43978919631095\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 61.0\n• Squeeze: 55.85431115357672\n• Options: 37.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: APH\n• Strike Price: $85\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $25.1\n• Ask: $25.5\n• Last: $21.5\n• Mid: $25.3\n• Spread: 1.568627450980392156862745098%\n\n**GREEKS ANALYSIS**\n• Delta: 0.9685\n• Gamma: 0.0044\n• Theta: -0.0199\n• Vega: 0.0296\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3821\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 1303\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Amphenol Corporation\n• Sector: Technology\n• Industry: Electronic Components\n• EPS (TTM): $2.52\n• Profit Margin: 16.9%\n• ROE: 31.1%\n• P/E Ratio: 43.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T10:13:26+00:00: Did Credo Technology Group Holding's (CRDO) Legal Settlement With Amphenol Unloc...\n• 2025-08-25T08:01:50+00:00: AMPHENOL CORP-CL A (NYSE:APH) Exhibits Strong Technicals and Bullish Consolidati...\n• 2025-08-25T04:08:12+00:00: Amphenol (APH) Expands Defense, AI Reach With $1 Billion Trexon Deal...\n• 2025-08-23T19:15:34+00:00: Key deals this week: Vital Energy, Dayforce, Nexstar Media, Workday, Salesforce ...\n• 2025-08-23T10:10:38+00:00: Should Investors Reconsider Amphenol After Its 64% Surge and Updated Fair Value ...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR APH\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the APH opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:12:03.586754",
+    "estimated_tokens": 2339
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"APH\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 15,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"APH shows strong technical momentum with price well above both 50 and 200 SMAs and a positive MA ribbon score of 72.95. The stock is in a volatility squeeze with multiple timeframe compression, though momentum is slightly negative. Options positioning shows good liquidity with tight spreads, but upcoming earnings create near-term risk.\",\n    \"opportunities\": [\n        \"Strong technical trend with price significantly above moving averages\",\n        \"Multi-timeframe squeeze setup with 39% volatility compression\",\n        \"Solid fundamentals with 16.9% profit margin and 31.1% ROE\"\n    ],\n    \"risks\": [\n        \"Negative squeeze momentum (-0.19)\",\n        \"Upcoming earnings on 2025-09-30\",\n        \"Relatively high P/E ratio of 43.4x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS calls with $85 strike for 2025-10-17 expiration given strong delta of 0.969\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Use tight stops given negative squeeze momentum and high P/E multiple\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative price velocity (-0.002)\"\n    ],\n    \"notes\": \"Options contract shows excellent delta exposure but timing is complicated by upcoming earnings. Consider waiting for earnings catalyst before position entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "APH",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 15,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "APH shows strong technical momentum with price well above both 50 and 200 SMAs and a positive MA ribbon score of 72.95. The stock is in a volatility squeeze with multiple timeframe compression, though momentum is slightly negative. Options positioning shows good liquidity with tight spreads, but upcoming earnings create near-term risk.",
+      "opportunities": [
+        "Strong technical trend with price significantly above moving averages",
+        "Multi-timeframe squeeze setup with 39% volatility compression",
+        "Solid fundamentals with 16.9% profit margin and 31.1% ROE"
+      ],
+      "risks": [
+        "Negative squeeze momentum (-0.19)",
+        "Upcoming earnings on 2025-09-30",
+        "Relatively high P/E ratio of 43.4x"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS calls with $85 strike for 2025-10-17 expiration given strong delta of 0.969",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Use tight stops given negative squeeze momentum and high P/E multiple"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative price velocity (-0.002)"
+      ],
+      "notes": "Options contract shows excellent delta exposure but timing is complicated by upcoming earnings. Consider waiting for earnings catalyst before position entry."
+    },
+    "tokens_used": 2548,
+    "cost": 0.02548,
+    "response_time": 8.976067781448364,
+    "success": true
+  },
+  "cost": 0.02548,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8561,
+    "response_length": 1635
+  }
+}

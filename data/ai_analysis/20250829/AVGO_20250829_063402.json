@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "AVGO",
+  "timestamp": "2025-08-29T06:34:02.726226",
+  "data_package": {
+    "metadata": {
+      "symbol": "AVGO",
+      "package_timestamp": "2025-08-29T06:33:50.376776",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AVGO",
+        "current_price": 308.65,
+        "overall_score": 50.90531280962712,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 285.1406,
+        "sma_200": 225.7511
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.992597977661745,
+        "momentum_63d": 27.557135182047354,
+        "momentum_126d": 56.04145601617794,
+        "momentum_acceleration": -25.56453720438561,
+        "roc_21d": 1.992597977661745,
+        "trend_strength_20d": 0.000482692150205101,
+        "trend_direction": 1,
+        "ma_ribbon_score": 84.68448574225454,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.01286319757751997
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": -0.819213378920489,
+        "volatility_compression": 17.61299109013474,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.344702881989967,
+        "squeeze_breakout": 4.0,
+        "options_quality": 22.06854930725345,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 55.0,
+        "squeeze": 52.64194866352021,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 12,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "AVGO",
+        "strike_price": "300",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "30.5",
+        "ask": "30.85",
+        "last_price": "30.75",
+        "mid_price": "30.675",
+        "spread_percent": "1.134521880064829821717990276"
+      },
+      "greeks": {
+        "delta": 0.6101,
+        "gamma": 0.006,
+        "theta": -0.1609,
+        "vega": 0.5717
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4261
+      },
+      "liquidity_metrics": {
+        "volume": 568,
+        "open_interest": 2524,
+        "volume_oi_ratio": 0.22503961965134706
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:33.446184",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T04:26:59+00:00",
+            "title": "Citi Reiterates Buy on Broadcom (AVGO) Amid AI, Wireless Market Optimism",
+            "content": "Broadcom Inc. (NASDAQ:AVGO) is one of the most profitable tech stocks to invest in now. On August 26, Citi’s Christopher Danely reiterated a Buy rating on Broadcom Inc. (NASDAQ:AVGO) with a $315 price target, citing the company’s momentum in artificial intelligence. He expects Q3 FY 2025 earnings to exceed consensus, driven by strong demand for AI-related services from major customers, including Google and Meta. AI sales are projected to represent nearly 30% of Broadcom’s fiscal 2025 revenue.Citi Reiterates Buy on Broadcom (AVGO) Amid AI, Wireless Market Optimism\n\nDanely acknowledged concerns about potential margin pressure from AI, but noted that recovery in Broadcom Inc.’s (NASDAQ:AVGO) non-AI semiconductor business could offset those risks. Reflecting this view, he has raised revenue and earnings forecasts for the coming years. Broadcom’s expansion into wireless and other markets is also seen as providing additional growth avenues.\n\nEarlier in July, Danely had already increased his price target to $315 from $285 in a Q2 preview, arguing that sector concerns over tariffs had not materialized. He anticipated a cyclical upturn driven by demand recovery and inventory restocking, which would further support his bullish stance on Broadcom Inc. (NASDAQ:AVGO).\n\nBroadcom Inc. (NASDAQ:AVGO) is a global technology company that designs, develops, and supplies a wide range of semiconductor and infrastructure software solutions.\n\nWhile we acknowledge the potential of AVGO as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you’re looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: Top 10 Stocks to Buy and Hold Foreverand 15 Best Data Center Stocks to Buy Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T04:14:13+00:00",
+            "title": "Broadcom (AVGO) and Canonical Announce An Expanded Collaboration",
+            "content": "Broadcom Inc. (NASDAQ:AVGO) is one of the Top Technology Stocks to Buy According to Hedge Funds. On August 26,Broadcom Inc. (NASDAQ:AVGO) and Canonical announced an expanded collaboration to support customers in shipping modern container-based and AI applications faster and more securely. By bringing Canonical’s trusted open-source software with VMware Cloud Foundation (VCF), the alliance aims to help customers ramp up innovation, with lower costs and less risk. Overall, the partnership tends to combine the leading cloud OS with the industry’s first unified private cloud platform to ramp up the cloud native innovation.Broadcom (AVGO) and Canonical Announce An Expanded Collaboration\n\nAlso, Broadcom Inc. (NASDAQ:AVGO) and Walmart announced a strategic collaboration to deliver a modern private cloud and edge environment. Broadcom Inc. (NASDAQ:AVGO) has been named as the strategic vendor for virtualization software solutions, leveraging VCF to unify Walmart’s globally distributed operations. This relationship is expected to improve the shopping experience, enhance operational efficiency, and ramp up the development and delivery of innovative services.\n\nBaron Funds, an investment management company, released its Q2 2025 investor letter. Here is what the fund said:\n\n“Broadcom Inc. (NASDAQ:AVGO) is a leading semiconductor and enterprise software company, generating approximately 60% of revenue from semiconductors and 40% from software. The company is strategically positioned at the intersection of high-performance AI compute and networking infrastructure, while also demonstrating disciplined execution in software. Broadcom has continued its leadership in networking silicon from the cloud era to the AI era and emerged as the most reliable silicon partner for AI foundational model builders to design custom chips to train and inference their frontier models. Shares rose during the quarter on continued momentum in Broadcom’s AI product lines. In its April quarter, Broadcom reported over $15 billion in total revenue, up 20%; over $4.4 billion in AI revenue, up 40%; and over $6.6 billion in software revenue, up 25%. Broadcom continued to demonstrate excellent profitability, with operating margins over 65% and free cash flow margins at 43%. On the company’s earnings call and during other public appearances, Broadcom CEO Hock Tan confirmed that all programs supporting the company’s projected $60 billion to $90 billion serviceable addressable AI market by 2027 were “on track,” inference demand had emerged as an important AI revenue opportunity, and that the company’s AI revenue growth should accelerate to the 50% to 60% level for fiscal years 2025 and 2026.”\n\nStory Continues\n\nWhile we acknowledge the potential of AVGO as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you’re looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 13 Cheap AI Stocks to Buy According to Analysts and 11 Unstoppable Growth Stocks to Invest in Now\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T22:22:24+00:00",
+            "title": "S&amp;P 500 Posts a New Record High on a Resilient US Economy",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Thursday closed up by +0.32%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +0.16%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +0.58%.  September E-mini S&P futures (ESU25) rose +0.32%, and September E-mini Nasdaq futures (NQU25) rose +0.56%.\n\nStock indexes rallied on Thursday, with the S&P 500 posting a new all-time high and the Nasdaq 100 posting a 1.5-week high.  Signs that the US economy is holding up pushed stock prices higher on Thursday after Q2 GDP was revised higher than expected, showing the economy expanded more than initially estimated.  Also, US weekly initial unemployment claims fell as expected, easing concerns about the labor market.  Strength in software stocks and chip makers led the overall market higher on Thursday.Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nLimiting gains in stocks on Thursday was some disappointing earnings news.  Hormel Foods fell more than -13% after reporting weaker-than-expected Q3 adjusted EPS and forecasting Q4 adjusted EPS below consensus.  Additionally, there's some weakness in AI stocks following Nvidia's sales forecast, which fell short of lofty expectations.  Nvidia fell -0.79% after reporting weaker-than-expected Q2 data center revenue and giving a revenue forecast that was seen as underwhelming.\n\nUS Q2 GDP was revised upward to +3.3% (q/q annualized) from the previously reported +3.0%, stronger than expectations of +3.1%.\n\nUS weekly initial unemployment claims fell -5,000 to 229,000, close to expectations of 230,000.\n\nUS Jul pending home sales fell -0.4% m/m, weaker than expectations of -0.2% m/m.\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nThe markets this week are focusing on any fresh tariff news or developments on ending the Ukraine-Russian war.  On Friday, July personal spending is expected to climb +0.3% m/m, and July personal income is expected to rise +0.4% m/m.   Also, the July core PCE price index, the Fed's preferred inflation gauge, is expected to climb +0.2% m/m and +2.9% y/y.  In addition, the Aug MNI Chicago PMI is expected to fall -0.6 to 46.5.  Finally, the University of Michigan's final-Aug US consumer sentiment index is expected to be unrevised at 58.6.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 86% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 53% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Thursday settled higher.  The Euro Stoxx 50 closed up +0.07%.  China's Shanghai Composite closed up +1.14%.  Japan's Nikkei Stock 225 closed up +0.73%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Thursday closed up +4 ticks, and the 10-year T-note yield fell -2.3 bp to 4.209%.\n\nSep T-notes climbed to a 4-month nearest-futures high on Thursday, and the 10-year T-note yield fell to a 2-week low of 4.201%.  T-notes moved higher on Thursday, benefiting from positive carryover from Wednesday, when New York Fed President Williams stated that at some point, it will be appropriate for the Fed to move rates down, as it is still in a \"modestly restrictive\" stance on policy.\n\nGains in T-notes are limited after the US Q2 GDP was revised higher than expected and after weekly jobless claims declined as expected, which are hawkish factors for Fed policy.  Also, weak demand for the Treasury's $44 billion auction of 7-year T-notes was bearish for T-note prices as the auction had a bid-to-cover ratio of 2.49, weaker than the 10-auction average of 2.66.\n\nEuropean government bond yields on Thursday moved lower.  The 10-year German bund yield fell to a 2-week low of 2.679% and finished down -0.5 bp to 2.695%.  10-year UK gilt yield fell -3.6 bp to 4.699%.\n\nThe Eurozone's August economic confidence indicator unexpectedly fell -0.5 to 95.2, weaker than expectations of an increase to 96.0.\n\nEurozone July new car registrations rose 7.4% year-over-year to 914,680, the biggest increase in 15 months.\n\nThe summary of the July 23-24 ECB meeting showed that policymakers deemed the risks to inflation to be \"broadly balanced\" and that the Eurozone economy has so far remained resilient to headwinds ranging from tariffs to wars.\n\nSwaps are discounting the chances at 3% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers rallied on Thursday to provide support to the broader market.  Marvell Technology (MRVL) closed up more than +4%, and Micron Technology (MU) and Broadcom (AVGO) closed up more than +3%.  Also, Advanced Micro Devices (AMD), Applied Materials (AMAT), and NXP Semiconductors NV (NXPI) closed up more than +1%.\n\nSnowflake (SNOW) closed up more than +18% to lead software stocks higher after reporting Q2 product revenue of $1.09 billion, better than the consensus of $1.04 billion, and raising its 2026 product revenue forecast to $4.40 billion from a previous estimate of $4.33 billion, stronger than the consensus of $4.34 billion.  Also, Datadog (DDOG) closed up more than +6% to lead gainers in the S&P 500 and Nasdaq 100, and MongoDB (MDB) closed up more than +7%.  In addition, Cloudflare (NET) closed up more than +3% and Atlassian (TEAM) closed up more than +2%.  Finally, Salesforce (CRM) closed up more than +1% to lead the gainers in the Dow Jones Industrials.\n\nPure Storage (PSTG) closed up more than +31% after reporting Q2 revenue of $861 million, above the consensus of $845.9 million, and raising its 2026 revenue forecast to $3.60 billion-$3.63 billion from a previous forecast of $3.52 billion, stronger than the consensus of $3.52 billion.\n\nPhibro Animal Health Corp (PAHC) closed up more than +18% after forecasting 2026 net sales of $1.43 billion to $1.48 billion, above the consensus of $1.42 billion.\n\nAgilent Technologies (A) closed up more than +5% after reporting Q3 net revenue of $1.74 billion, above the consensus of $1.67 billion, and raising its full-year revenue estimate to $6.91 billion-$6.93 billion from a previous estimate of $6.73 billion-$6.81billion.\n\nHP Inc. (HPQ) closed up more than +4% after reporting Q3 net revenue of $13.93 billion, better than the consensus of $13.74 billion.\n\nBurlington Stores (BURL) closed up more than +4% after reporting Q2 adjusted EPS of $1.59, well above the consensus of $1.27, and raising its full-year adjusted EPS forecast to $9.19-$9.59 from a previous forecast of $8.70-$9.30, the midpoint above the consensus of $9.26.\n\nFive Below (FIVE) closed up more than +3% after reporting Q2 comparable sales rose +12.4%, stronger than the consensus of +9.14%, and raising its full-year net sales forecast to $4.44 billion-$4.52 billion from a previous forecast of $4.33 billion-$4.42 billion.\n\nHormel Foods (HRL) closed down more than -13% to lead losers in the S&P 500 after reporting Q3 adjusted EPS of 35 cents, below the consensus of 40 cents, and forecasting Q4 adjusted EPS of 38 cents-40 cents, weaker than the consensus of 49 cents.\n\nNvidia (NVDA) closed down -0.79% after reporting Q2 data center revenue of $41.10 billion, below the consensus of $41.29 billion.\n\nCooper Cos (COO) closed down more than -12% after cutting its full-year revenue forecast to $4.08 billion-$4.10 billion from a previous forecast of $4.11 billion-$4.15 billion, weaker than the consensus of $4.12 billion.\n\nVeeva Systems (VEEV) closed down more than -7% after reporting Q2 adjusted gross margin of 77.5%, below the consensus of 78.2%.\n\nNutanix (NTNX) closed down more than -5% after forecasting Q1 revenue of $670 million-$680 million, the midpoint below the consensus of $677 million.\n\nBrown-Forman (BF.B) closed down more than -4% after reporting Q1 EPS of 36 cents, below the consensus of 37 cents.\n\nBest Buy (BBY) closed down more than -3% despite reporting better-than-expected Q2 EPS after warning that tariffs continue to weigh on its business ahead of the crucial holiday season.\n\nEarnings Reports(8/29/2025)\n\nLionsgate Studios Corp (LION).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T22:05:05+00:00",
+            "title": "S&amp;P, Dow score record high closes as Nvidia results buttress AI rally",
+            "content": "STORY: Wall Street's main indexes gained ground on Thursday, with the Dow ticking up marginally for a record high close, the S&P 500 climbing about a third of a percent to also notch a record high close, and the tech-heavy Nasdaq adding more than half a percent.\n\nShares of Nvidia fell less than one percent on trade uncertainties with China, and despite a 56% surge in quarterly revenue that confirmed demand for AI technology remains strong.\n\nOther AI heavyweights rose, including Alphabet and Amazon, with chipmaker Broadcom rising almost 3%.\n\nBut Ben McMillan, chief investment officer and co-founder of IDX Advisors, believes macro-economic factors may pressure high-flying stocks in the months ahead.\n\n\"I do think we're starting getting into the back half of the year where investors should urge some caution as it relates to the risk-on trade. Back to basics, diversification, you know, taking profits, rotating out of, potentially, sectors that have done very well. And the market is just, I think it's kind of in looking-at-data mode. Seeing what's gonna happen to the Fed. And then also just waiting for data to come in that's gonna determine one way or another, if we're not, whether or not we have a recession in the back half.\" Related Videos\n\n04:50\n\n4 goals of Lisa Cook's lawsuit against Trump, the Fed, & Powell\n\nYahoo Finance Video • 1 hour ago 01:58\n\nWalgreens is officially private: Here's what happens now\n\nYahoo Finance Video • 2 hours ago 02:33\n\nNvidia CFO: Can't Pay US 15% Until Trump's Plan Formalized\n\nBloomberg • 3 hours ago 02:23\n\nNutanix stock slips: CEO explains what investors may be missing\n\nYahoo Finance Video • 3 hours ago\n\nOther stocks on the move included chip maker Marvell Technology, which slid about 8% in extended trading after the company forecast third-quarter revenue below Wall Street estimates, as economic uncertainty and tariff concerns weighed on overall demand.\n\nShares of Caterpillar dropped about 3% in after-hours trading as the construction equipment maker raised its estimate of tariff-related costs for 2025.\n\nAnd shares of Dell fell more than 4% in extended trading after the company gave a third-quarter profit outlook that disappointed investors.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T21:15:24+00:00",
+            "title": "Why Broadcom Stock Beat the Market Today",
+            "content": "Key Points\n\nAn analyst cranked his price target higher on the shares. He also maintained his equivalent of a buy recommendation.10 stocks we like better than Broadcom ›\n\nHardly for the first time in this \"year of the chip stock\" on the back of eager artificial intelligence (AI) adoption, Broadcom(NASDAQ: AVGO) was the subject of an analyst's price target raise on Thursday. This was compounded by the disappointment about a peer company's recent performance, resulting in some investors fleeing to Broadcom.\n\nUltimately, Broadcom stock closed Thursday's trading session nearly 3% higher, easily trouncing the S&P 500 index's 0.3% increase.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\nA $20 change\n\nThursday's Broadcom booster was Oppenheimer's Rick Schafer, who upped his fair value assessment on the company to $325 per share. That was a bit of distance up from his preceding $305. In making that change he maintained his outperform (buy, in other words) recommendation on the shares.\n\nImage source: Getty Images.\n\nIt's no coincidence that Schafer's updated take came one week before the company is scheduled to post its third-quarter results. His new analysis addressed both that quarter and the following frame, according to reports, with Schafer predicting that both will be impressive given the monster appetite for artificial intelligence (AI) solutions.\n\nOne of Broadcom's major appeals these days is its expertise in application-specific integrated circuits (ASICs), essentially custom chips for advanced functionalities like AI. Schafer pointed out that the company is a leader in this product category.\n\nLooking good next to the big peer\n\nOn Thursday, Broadcom also benefited from the fact that it is not Nvidia. The chip giant stumbled that day, tripped up by a second quarter of fiscal 2026 earnings report that left many investors disappointed. It's likely more than a few of these folks defected to Broadcom as a better play on AI processing hardware.\n\nShould you invest $1,000 in Broadcom right now?\n\nBefore you buy stock in Broadcom, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Broadcom wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $659,823!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,113,120!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,068% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nEric Volkman has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Nvidia. The Motley Fool recommends Broadcom. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Broadcom Inc",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 37000,
+          "description": "Broadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions worldwide. The company operates in two segments, Semiconductor Solutions and Infrastructure Software. It provides Ethernet switching and routing custom silicon solutions, optical and cop"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.73,
+          "profit_margin": 0.2264,
+          "operating_margin": 0.3177,
+          "roe": 0.1898,
+          "roa": 0.0801,
+          "revenue_growth_yoy": 0.164,
+          "earnings_growth_yoy": 1.881,
+          "eps_estimate_current_year": 6.6679,
+          "eps_estimate_next_year": 8.2683,
+          "dividend_yield": 0.0077,
+          "dividend_per_share": 2.3,
+          "revenue_ttm": 57045999616,
+          "revenue_per_share": 12.176,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 113.0586,
+          "forward_pe": 36.63,
+          "price_to_sales": 25.4483,
+          "price_to_book": 20.2946,
+          "enterprise_value": 1470027161444,
+          "ev_to_revenue": 25.7692,
+          "ev_to_ebitda": 48.6104
+        },
+        "technical_data": {
+          "beta": 1.167,
+          "52_week_high": 317.35,
+          "52_week_low": 133.3784,
+          "50_day_ma": 285.1406,
+          "200_day_ma": 225.7511,
+          "short_interest": 0.0104,
+          "short_ratio": 2.51
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.36,
+          "forward_dividend_yield": 0.0079,
+          "payout_ratio": 0.3938,
+          "dividend_date": "2025-06-30",
+          "ex_dividend_date": "2025-06-20",
+          "last_split_date": "2024-07-15",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5952,
+          "target_price": 302.6447,
+          "strong_buy": 30,
+          "buy": 7,
+          "hold": 5,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 4703470080,
+          "percent_institutions": 79.81,
+          "percent_insiders": 2.015,
+          "shares_float": 405722760
+        },
+        "balance_latest_sheet": {
+          "total_assets": 164630.0,
+          "total_debt": 67282.0,
+          "net_debt": 57810.0,
+          "working_capital": 1584.0,
+          "shareholders_equity": 69586.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.97
+        },
+        "income_latest_statement": {
+          "total_revenue": 15004.0,
+          "gross_profit": 10197.0,
+          "operating_income": 5829.0,
+          "net_income": 4965.0,
+          "ebitda": 10194.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 67.96,
+          "operating_margin": 38.85,
+          "net_margin": 33.09
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 6555.0,
+          "free_cash_flow": 6411.0,
+          "capex": 144.0,
+          "net_income": 4965.0,
+          "cash_change": 165.0,
+          "dividends_paid": 2785.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-07-31",
+            "estimate": 1.66,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 287.11,
+            "high": 287.53,
+            "low": 281,
+            "close": 283.34,
+            "volume": 15012400
+          },
+          {
+            "date": "2025-07-21",
+            "open": 283.96,
+            "high": 290.54,
+            "low": 283.63,
+            "close": 288.21,
+            "volume": 17726800
+          },
+          {
+            "date": "2025-07-22",
+            "open": 287.65,
+            "high": 288,
+            "low": 276.43,
+            "close": 278.59,
+            "volume": 16564800
+          },
+          {
+            "date": "2025-07-23",
+            "open": 276.78,
+            "high": 284,
+            "low": 273,
+            "close": 283.69,
+            "volume": 20556200
+          },
+          {
+            "date": "2025-07-24",
+            "open": 289.79,
+            "high": 291.2,
+            "low": 283.5,
+            "close": 288.71,
+            "volume": 16413800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 288.07,
+            "high": 292.59,
+            "low": 287.27,
+            "close": 290.18,
+            "volume": 12476200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 292.46,
+            "high": 295.45,
+            "low": 290.59,
+            "close": 294.3,
+            "volume": 13683400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 297.5,
+            "high": 302.19,
+            "low": 294.87,
+            "close": 297.42,
+            "volume": 19210800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 297.15,
+            "high": 303.26,
+            "low": 295.8,
+            "close": 302.62,
+            "volume": 16738900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 302.8,
+            "high": 306.95,
+            "low": 290.23,
+            "close": 293.7,
+            "volume": 25488500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 286.54,
+            "high": 292.64,
+            "low": 281.61,
+            "close": 288.64,
+            "volume": 21428100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 292.2,
+            "high": 298.48,
+            "low": 291.4,
+            "close": 297.72,
+            "volume": 17164600
+          },
+          {
+            "date": "2025-08-05",
+            "open": 297.81,
+            "high": 301.2,
+            "low": 291.45,
+            "close": 292.93,
+            "volume": 18477500
+          },
+          {
+            "date": "2025-08-06",
+            "open": 292.9,
+            "high": 302.81,
+            "low": 291.9,
+            "close": 301.67,
+            "volume": 17392100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 306.17,
+            "high": 310.34,
+            "low": 299.88,
+            "close": 303.76,
+            "volume": 16319400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 304.05,
+            "high": 307.87,
+            "low": 302.55,
+            "close": 304.97,
+            "volume": 12458700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 305.05,
+            "high": 308.31,
+            "low": 301.29,
+            "close": 303.9,
+            "volume": 12396400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 306.63,
+            "high": 313.44,
+            "low": 304.67,
+            "close": 312.83,
+            "volume": 17609600
+          },
+          {
+            "date": "2025-08-13",
+            "open": 316.75,
+            "high": 317.35,
+            "low": 304.75,
+            "close": 309.09,
+            "volume": 17371200
+          },
+          {
+            "date": "2025-08-14",
+            "open": 307.01,
+            "high": 314.17,
+            "low": 307,
+            "close": 311.23,
+            "volume": 15717600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 311.03,
+            "high": 311.5,
+            "low": 299.76,
+            "close": 306.34,
+            "volume": 22806900
+          },
+          {
+            "date": "2025-08-18",
+            "open": 302.7,
+            "high": 306.17,
+            "low": 299,
+            "close": 305.76,
+            "volume": 14724700
+          },
+          {
+            "date": "2025-08-19",
+            "open": 302.42,
+            "high": 302.9,
+            "low": 292.39,
+            "close": 294.91,
+            "volume": 20149600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 295.46,
+            "high": 295.49,
+            "low": 281.87,
+            "close": 291.17,
+            "volume": 23600500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 290.06,
+            "high": 292.39,
+            "low": 286.17,
+            "close": 289.6,
+            "volume": 14946300
+          },
+          {
+            "date": "2025-08-22",
+            "open": 291.75,
+            "high": 300.09,
+            "low": 289.01,
+            "close": 294,
+            "volume": 16301300
+          },
+          {
+            "date": "2025-08-25",
+            "open": 292.81,
+            "high": 298.4,
+            "low": 291.71,
+            "close": 294.23,
+            "volume": 15124700
+          },
+          {
+            "date": "2025-08-26",
+            "open": 294.35,
+            "high": 300.25,
+            "low": 293.99,
+            "close": 298.01,
+            "volume": 25689100
+          },
+          {
+            "date": "2025-08-27",
+            "open": 297.53,
+            "high": 301.18,
+            "low": 293.78,
+            "close": 300.25,
+            "volume": 13830300
+          },
+          {
+            "date": "2025-08-28",
+            "open": 302.93,
+            "high": 311,
+            "low": 302.33,
+            "close": 308.65,
+            "volume": 18887500
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.090228123935985,
+        "return_63d": 27.504440864212825,
+        "pct_above_sma50": 7.796631953345523,
+        "sma_50": 286.3262,
+        "new_55d_high": "False",
+        "high_55d": 317.35,
+        "rsi": 53.25318246110321,
+        "rsi_in_range": "True",
+        "adx": 17.010703315481003,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.0644743236675853,
+        "bb_width": 9.86434909346965,
+        "keltner_width": 12.60982715953374,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 5294451865.815001,
+        "adv_shares": 17619805.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 55.413252189243416,
+        "final_score": 55.413252189243416,
+        "sub_scores": {
+          "trend_momentum": 18.344702881989967,
+          "squeeze_breakout": 4.0,
+          "options_quality": 22.06854930725345,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.9925979776617364,
+          "ret_63d": 27.557135182047343,
+          "rsi14": 53.25318246110321,
+          "adx14": 18.69243518586083,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AVGO\n• Current Price: $308.65\n• Overall Score: 50.90531280962712\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 285.1406\n• Sma 200: 225.7511\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.992597977661745\n• Momentum 63D: 27.557135182047354\n• Momentum 126D: 56.04145601617794\n• Momentum Acceleration: -25.56453720438561\n• Roc 21D: 1.992597977661745\n• Trend Strength 20D: 0.000482692150205101\n• Trend Direction: 1\n• Ma Ribbon Score: 84.68448574225454\n• Breakout Strength: 0.0\n• Price Velocity: 0.01286319757751997\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: -0.819213378920489\n• Volatility Compression: 17.61299109013474\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.344702881989967\n• Squeeze Breakout: 4.0\n• Options Quality: 22.06854930725345\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 55.0\n• Squeeze: 52.64194866352021\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: AVGO\n• Strike Price: $300\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $30.5\n• Ask: $30.85\n• Last: $30.75\n• Mid: $30.675\n• Spread: 1.134521880064829821717990276%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6101\n• Gamma: 0.006\n• Theta: -0.1609\n• Vega: 0.5717\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4261\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 568\n• Open Interest: 2524\n• Volume/OI Ratio: 0.22503961965134706\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Broadcom Inc\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $2.73\n• Profit Margin: 22.6%\n• ROE: 19.0%\n• P/E Ratio: 113.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T04:26:59+00:00: Citi Reiterates Buy on Broadcom (AVGO) Amid AI, Wireless Market Optimism...\n• 2025-08-29T04:14:13+00:00: Broadcom (AVGO) and Canonical Announce An Expanded Collaboration...\n• 2025-08-28T22:22:24+00:00: S&amp;P 500 Posts a New Record High on a Resilient US Economy...\n• 2025-08-28T22:05:05+00:00: S&amp;P, Dow score record high closes as Nvidia results buttress AI rally...\n• 2025-08-28T21:15:24+00:00: Why Broadcom Stock Beat the Market Today...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AVGO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AVGO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:34:02.725774",
+    "estimated_tokens": 2322
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AVGO\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AVGO shows strong technical momentum with price well above both SMAs and an 84.68 MA ribbon score, while experiencing a volatility squeeze with 2 timeframe compression. The options contract shows good liquidity with tight spreads (1.13%) and balanced Greeks, though elevated IV at 42.61% warrants caution.\",\n    \"opportunities\": [\n        \"Strong technical trend with price significantly above 50/200 SMAs\",\n        \"Multi-timeframe squeeze setup with 17.61 compression score\",\n        \"Tight option spreads (1.13%) with healthy Volume/OI ratio of 0.225\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-25.56)\",\n        \"Elevated implied volatility at 42.61%\",\n        \"High P/E ratio of 113.1 suggests rich valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread to reduce impact of high IV\",\n        \"entry_timing\": \"Wait for momentum acceleration to stabilize before entry\",\n        \"risk_management\": \"Use 300 strike as support level, consider 30% stop loss\"\n    },\n    \"red_flags\": [\n        \"Upcoming earnings on 2025-07-31 increases event risk\",\n        \"Negative momentum acceleration needs monitoring\"\n    ],\n    \"notes\": \"While technical setup is promising, high valuation and negative momentum acceleration suggest careful position sizing and hedge consideration\"\n}",
+    "parsed_analysis": {
+      "symbol": "AVGO",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "AVGO shows strong technical momentum with price well above both SMAs and an 84.68 MA ribbon score, while experiencing a volatility squeeze with 2 timeframe compression. The options contract shows good liquidity with tight spreads (1.13%) and balanced Greeks, though elevated IV at 42.61% warrants caution.",
+      "opportunities": [
+        "Strong technical trend with price significantly above 50/200 SMAs",
+        "Multi-timeframe squeeze setup with 17.61 compression score",
+        "Tight option spreads (1.13%) with healthy Volume/OI ratio of 0.225"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-25.56)",
+        "Elevated implied volatility at 42.61%",
+        "High P/E ratio of 113.1 suggests rich valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread to reduce impact of high IV",
+        "entry_timing": "Wait for momentum acceleration to stabilize before entry",
+        "risk_management": "Use 300 strike as support level, consider 30% stop loss"
+      },
+      "red_flags": [
+        "Upcoming earnings on 2025-07-31 increases event risk",
+        "Negative momentum acceleration needs monitoring"
+      ],
+      "notes": "While technical setup is promising, high valuation and negative momentum acceleration suggest careful position sizing and hedge consideration"
+    },
+    "tokens_used": 2527,
+    "cost": 0.02527,
+    "response_time": 12.347167491912842,
+    "success": true
+  },
+  "cost": 0.02527,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8494,
+    "response_length": 1619
+  }
+}

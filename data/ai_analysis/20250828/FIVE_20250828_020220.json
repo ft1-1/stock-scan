@@ -1,0 +1,616 @@
+{
+  "success": true,
+  "symbol": "FIVE",
+  "timestamp": "2025-08-28T02:02:20.198135",
+  "data_package": {
+    "metadata": {
+      "symbol": "FIVE",
+      "package_timestamp": "2025-08-28T02:02:10.335346",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 68.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "FIVE",
+        "current_price": 144.41,
+        "overall_score": 49.12858974358974,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 133.937,
+        "sma_200": 102.2229
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.5865432895775053,
+        "momentum_63d": 26.94268635724331,
+        "momentum_126d": 61.858327729208696,
+        "momentum_acceleration": -23.356143067665805,
+        "roc_21d": 3.5865432895775053,
+        "trend_strength_20d": 0.6141509309875168,
+        "trend_direction": 1,
+        "ma_ribbon_score": 85.01540361664293,
+        "breakout_strength": 85.55239547862999,
+        "price_velocity": 0.007314728828052131
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 16.0,
+        "squeeze_momentum": 0.3809422173900208,
+        "volatility_compression": 24.5,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.786349892547058,
+        "squeeze_breakout": 4.0,
+        "options_quality": 0,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 64.0,
+        "squeeze": 58.675,
+        "options": 10.0,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "ranking": 24,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "FIVE",
+        "strike_price": "60",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "83.6",
+        "ask": "88",
+        "mid_price": "85.8",
+        "spread_percent": "5.00"
+      },
+      "greeks": {
+        "delta": 1.0,
+        "gamma": 0.0,
+        "theta": -0.0067,
+        "vega": 0.0
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 54,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:08.460743",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T22:22:00+00:00",
+            "title": "NVIDIA Tops Estimates, Grows +41% on Data Center",
+            "content": "Wednesday, August 27, 2025\r\n\r\nIt was another quietly positive day for the stock market, with all four major indexes closing in the green this Hump Day. The Dow gathered another +147 points, +0.32%, while the S&P 500 — notching another all-time closing high in the process — gained +15 points, +0.24%. The Nasdaq was +14, +0.21%, and the small-cap Russell 2000 came in +15 points, +0.64%. Bond yields cooled a few basis points among the 10-year, 2-year and 30-year t-bills.\n\nNVIDIA Reports Healthy Q2, Adds Buyback\n\nThe biggest earnings news of this week just came across the wires in the past few minutes: NVIDIA NVDA, the supreme AI stock play in the world, easily beat estimates on both top and bottom lines — estimates that were already quite extraordinarily high. Earnings of $1.05 per share outpaced the $1.00 expected, and well past the 68 cents per share reported in the year-ago quarter.\r\n\r\nRevenues of $46.7 billion nicely surpassed the $46.14 billion in the Zacks consensus, with $41.1 billion 9n revenues coming from its Data Center segment alone. That’s up +5% quarter over quarter and +56% year over year. Estimates were for +53.6% revenue growth. These are astonishing numbers for the $4+ trillion market cap giant. Adjusted Gross Margins reached +72.7% for the quarter — another magnificent number, though off the +75% NVIDIA was posting a year ago. \r\n\r\nAnd the good news just keeps coming: a $60 billion share buyback was OK’d by the company, which has already awarded shareholders $23.4 billion through the first half of the fiscal year. NVIDIA has $56.8 billion in cash. Yet shares are down -3% on the news; the stock is up +35% year to date, and roughly +90% from its April lows.\n\nOther Earnings Reports This Afternoon: URBN, FIVE, SNOW\n\nUrban Outfitters URBN also put up strong numbers in its Q2 report after today’s close, with earnings of $1.58 per share zooming ahead of the $1.44 anticipated. Revenues of $1.50 billion in the quarter topped consensus of $1.48 billion and amounted to +11.3% year to date. All four of its main brand stores — Anthropologie, Free People, Urban Outfitters and Nully — built gains from the year-ago quarter.\r\n\r\nFive Below FIVE scorched earnings estimates by 20 cents to 81 cents per share on $1.0 billion in revenues, ahead of the $997.3 million expected. Comps came in at +12.4% in the quarter, and guidance for next quarter is way up on both earnings and sales. Shares are up +2.5% in late trading, adding to its +37.5% gains year to date.\r\n\r\nSnowflake SNOW shares are up +12.7% after posting a Q2 report that was beyond expectations: earnings of 35 cents per share swept ahead of the 26 cents in the Zacks consensus on $1.01 billion in sales, which beat the $1.09 billion estimated and +32% year over year. The cloud-based data analytics firm has now beaten earnings estimates in all but one quarter for now 17 quarters.\r\n\r\nQuestions or comments about this article and/or author? Click here>>\n\nStory Continues\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nUrban Outfitters, Inc. (URBN) : Free Stock Analysis Report\n\nFive Below, Inc. (FIVE) : Free Stock Analysis Report\n\nSnowflake Inc. (SNOW) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T22:17:00+00:00",
+            "title": "Five Below Lifts View as More Shoppers Look for Value",
+            "content": "The discount retailer raised its full-year outlook after sales soared in the second quarter thanks to rising demand for low-cost goods.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T21:15:01+00:00",
+            "title": "Five Below (FIVE) Surpasses Q2 Earnings and Revenue Estimates",
+            "content": "Five Below (FIVE) came out with quarterly earnings of $0.81 per share, beating the Zacks Consensus Estimate of $0.61 per share. This compares to earnings of $0.54 per share a year ago. These figures are adjusted for non-recurring items.\n\nThis quarterly report represents an earnings surprise of +32.79%. A quarter ago, it was expected that this discount retailer would post earnings of $0.83 per share when it actually produced earnings of $0.86, delivering a surprise of +3.61%.\n\nOver the last four quarters, the company has surpassed consensus EPS estimates four times.\n\nFive Below, which belongs to the Zacks Retail - Miscellaneous industry, posted revenues of $1.03 billion for the quarter ended July 2025, surpassing the Zacks Consensus Estimate by 2.96%. This compares to year-ago revenues of $830.07 million. The company has topped consensus revenue estimates four times over the last four quarters.\n\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\n\nFive Below shares have added about 35.3% since the beginning of the year versus the S&P 500's gain of 9.9%.\n\nWhat's Next for Five Below?\n\nWhile Five Below has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\n\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\n\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\n\nAhead of this earnings release, the estimate revisions trend for Five Below was mixed. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #3 (Hold) for the stock. So, the shares are expected to perform in line with the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here.\n\nIt will be interesting to see how estimates for the coming quarters and the current fiscal year change in the days ahead. The current consensus EPS estimate is -$0.01 on $923.9 million in revenues for the coming quarter and $4.69 on $4.42 billion in revenues for the current fiscal year.\n\nStory Continues\n\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Retail - Miscellaneous is currently in the top 31% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\n\nBuild-A-Bear (BBW), another stock in the same industry, has yet to report results for the quarter ended July 2025. The results are expected to be released on August 28.\n\nThis toy retailer is expected to post quarterly earnings of $0.67 per share in its upcoming report, which represents a year-over-year change of +4.7%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\n\nBuild-A-Bear's revenues are expected to be $114.74 million, up 2.6% from the year-ago quarter.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nFive Below, Inc. (FIVE) : Free Stock Analysis Report\n\nBuild-A-Bear Workshop, Inc. (BBW) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T21:13:01+00:00",
+            "title": "Dow Jones Futures: Nvidia Falls On Earnings, Leads Big Movers Late",
+            "content": "The stock market crept higher into Nvidia earnings. Snowflake, CrowdStrike and Urban Outfitters also were active late.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T21:10:46+00:00",
+            "title": "FIVE BELOW (NASDAQ:FIVE) Surpasses Q2 Earnings and Revenue Estimates, Stock Rises",
+            "content": "FIVE BELOW (NASDAQ:FIVE [https://www.chartmill.com/stock/quote/FIVE/profile]) delivered a robust second-quarter earnings report that significantly surpassed analyst expectations, driving notable positive momentum in after-hours trading. The discount retailer posted impressive growth figures, reflecting strong consumer demand and effective execution of its value-focused retail strategy.\n\nEARNINGS AND REVENUE PERFORMANCE\n\nThe company reported quarterly revenue of $1.03 billion, marking a substantial 23.7% increase compared to the same period last year. This figure comfortably exceeded the analyst consensus estimate of $1.01 billion. Even more striking was the performance on profitability. FIVE BELOW reported adjusted earnings per share (EPS) of $0.81, which was a remarkable 29.4% higher than the average analyst estimate of $0.63. This significant beat on the bottom line indicates not only strong sales but also effective margin management and operational efficiency during the quarter. The company also highlighted a comparable sales increase of 12.4%, underscoring healthy performance at existing stores and suggesting the brand's resonance with its target demographic remains powerful.\n\nMARKET REACTION AND FORWARD GUIDANCE\n\nThe market's immediate reaction to these results was decisively positive. The stock was up approximately 2.35% in after-hours trading following the announcement, a clear signal that investors were pleased with the outperformance. This positive sentiment is further supported by the company's outlook for the upcoming quarter. Management provided revenue guidance with a midpoint of $960 million for Q3, which is approximately 3.8% above the analyst consensus estimate of $947.8 million. This confident forward look suggests that management believes the current tailwinds are not a one-off event but part of a sustainable growth trajectory. By providing guidance that exceeds expectations, the company has effectively given the market reason to be optimistic about the remainder of the fiscal year.\n\nPRESS RELEASE SUMMARY AND CONTEXT\n\nThe core announcement from the company's press release centered on the twin pillars of a 23.7% surge in net sales to $1.0 billion and a 12.4% jump in comparable sales. It also clearly distinguished between its GAAP diluted EPS of $0.77 and the adjusted figure of $0.81. The news summaries corroborate this story of a clear beat on both the top and bottom lines, with particular emphasis on the strength of the EPS surprise and the optimistic guidance for the next quarter. This context paints a picture of a company successfully navigating the economic landscape and gaining market share.\n\nFor a more detailed breakdown of historical earnings, future estimates, and analyst projections, you can review the data here [https://www.chartmill.com/stock/quote/FIVE/earnings-estimates].\n\n_Disclaimer: This article is for informational purposes only and does not constitute financial advice, a recommendation to buy, sell, or hold any security, or an endorsement of any investment strategy. Investors should conduct their own research and consult with a qualified financial advisor before making any investment decisions._\n",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Five Below Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Specialty Retail",
+          "employees": 7300,
+          "description": "Five Below, Inc. operates as a specialty value retailer in the United States. It offers socks, jewelry, hair accessories, cozy loungewear, and t-shirts, as well as personal care essentials, skincare, fragrance, and branded cosmetics; and personalized living space products, such as lamps, posters, fr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.78,
+          "profit_margin": 0.0653,
+          "operating_margin": 0.0524,
+          "roe": 0.153,
+          "roa": 0.0504,
+          "revenue_growth_yoy": 0.195,
+          "earnings_growth_yoy": 0.311,
+          "eps_estimate_current_year": 4.9337,
+          "eps_estimate_next_year": 5.0328,
+          "revenue_ttm": 4035191040,
+          "revenue_per_share": 73.335,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 29.7029,
+          "forward_pe": 29.2398,
+          "price_to_sales": 1.9372,
+          "price_to_book": 4.163,
+          "enterprise_value": 9086226122,
+          "ev_to_revenue": 2.2517,
+          "ev_to_ebitda": 17.6315
+        },
+        "technical_data": {
+          "beta": 1.059,
+          "52_week_high": 146.66,
+          "52_week_low": 52.38,
+          "50_day_ma": 133.937,
+          "200_day_ma": 102.2229,
+          "short_interest": 0.0678,
+          "short_ratio": 3.15
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.5909,
+          "target_price": 141.1053,
+          "strong_buy": 6,
+          "buy": 2,
+          "hold": 13,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 55058000,
+          "percent_institutions": 108.219,
+          "percent_insiders": 2.064,
+          "shares_float": 50799819
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4452.802,
+          "total_debt": 1975.118,
+          "net_debt": 1547.656,
+          "working_capital": 611.373,
+          "shareholders_equity": 1858.062,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 1.06
+        },
+        "income_latest_statement": {
+          "total_revenue": 970.527,
+          "gross_profit": 323.913,
+          "operating_income": 50.847,
+          "net_income": 41.148,
+          "ebitda": 97.411,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 33.37,
+          "operating_margin": 5.24,
+          "net_margin": 4.24
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 132.662,
+          "free_cash_flow": 96.453,
+          "capex": 36.209,
+          "net_income": 41.148,
+          "cash_change": 95.744,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-10-31",
+            "estimate": 0.0198,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-10-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 136.78,
+            "high": 141.42,
+            "low": 136.7,
+            "close": 139.67,
+            "volume": 1865296
+          },
+          {
+            "date": "2025-07-18",
+            "open": 140.05,
+            "high": 140.46,
+            "low": 137.8,
+            "close": 139.97,
+            "volume": 1396816
+          },
+          {
+            "date": "2025-07-21",
+            "open": 140.89,
+            "high": 142.13,
+            "low": 137.4747,
+            "close": 139.92,
+            "volume": 1281365
+          },
+          {
+            "date": "2025-07-22",
+            "open": 139.86,
+            "high": 141.17,
+            "low": 136.43,
+            "close": 139.7,
+            "volume": 1406921
+          },
+          {
+            "date": "2025-07-23",
+            "open": 140.38,
+            "high": 140.51,
+            "low": 137.085,
+            "close": 139.37,
+            "volume": 877270
+          },
+          {
+            "date": "2025-07-24",
+            "open": 139.39,
+            "high": 139.85,
+            "low": 136.5147,
+            "close": 137.04,
+            "volume": 810786
+          },
+          {
+            "date": "2025-07-25",
+            "open": 137.62,
+            "high": 140.07,
+            "low": 137.13,
+            "close": 138.67,
+            "volume": 753699
+          },
+          {
+            "date": "2025-07-28",
+            "open": 140.1,
+            "high": 142.985,
+            "low": 139.1482,
+            "close": 142.45,
+            "volume": 1127733
+          },
+          {
+            "date": "2025-07-29",
+            "open": 142.5,
+            "high": 143.88,
+            "low": 138.38,
+            "close": 139.41,
+            "volume": 1392953
+          },
+          {
+            "date": "2025-07-30",
+            "open": 140.07,
+            "high": 140.78,
+            "low": 135.56,
+            "close": 138.9,
+            "volume": 924270
+          },
+          {
+            "date": "2025-07-31",
+            "open": 139.09,
+            "high": 139.09,
+            "low": 135.24,
+            "close": 136.52,
+            "volume": 889591
+          },
+          {
+            "date": "2025-08-01",
+            "open": 134.45,
+            "high": 136.05,
+            "low": 130,
+            "close": 133.16,
+            "volume": 1246631
+          },
+          {
+            "date": "2025-08-04",
+            "open": 135.5,
+            "high": 136.66,
+            "low": 134.28,
+            "close": 136.53,
+            "volume": 976211
+          },
+          {
+            "date": "2025-08-05",
+            "open": 136.75,
+            "high": 139.1309,
+            "low": 135.03,
+            "close": 135.81,
+            "volume": 736044
+          },
+          {
+            "date": "2025-08-06",
+            "open": 135.9,
+            "high": 136.46,
+            "low": 134.22,
+            "close": 135.53,
+            "volume": 737910
+          },
+          {
+            "date": "2025-08-07",
+            "open": 135.81,
+            "high": 136.8024,
+            "low": 131.91,
+            "close": 132.71,
+            "volume": 1332791
+          },
+          {
+            "date": "2025-08-08",
+            "open": 133.6,
+            "high": 134.62,
+            "low": 132.02,
+            "close": 133.52,
+            "volume": 721830
+          },
+          {
+            "date": "2025-08-11",
+            "open": 134.38,
+            "high": 136.255,
+            "low": 131.4,
+            "close": 131.94,
+            "volume": 987618
+          },
+          {
+            "date": "2025-08-12",
+            "open": 135.93,
+            "high": 138.6,
+            "low": 133.99,
+            "close": 137.98,
+            "volume": 1196289
+          },
+          {
+            "date": "2025-08-13",
+            "open": 138.21,
+            "high": 139.73,
+            "low": 137.16,
+            "close": 138.3,
+            "volume": 991599
+          },
+          {
+            "date": "2025-08-14",
+            "open": 134.77,
+            "high": 135.185,
+            "low": 131.52,
+            "close": 134.36,
+            "volume": 1005982
+          },
+          {
+            "date": "2025-08-15",
+            "open": 134.12,
+            "high": 135.12,
+            "low": 132,
+            "close": 135.03,
+            "volume": 743982
+          },
+          {
+            "date": "2025-08-18",
+            "open": 135.18,
+            "high": 141.925,
+            "low": 134.895,
+            "close": 141.88,
+            "volume": 1359880
+          },
+          {
+            "date": "2025-08-19",
+            "open": 141.22,
+            "high": 143,
+            "low": 139.745,
+            "close": 141.48,
+            "volume": 1140286
+          },
+          {
+            "date": "2025-08-20",
+            "open": 139.98,
+            "high": 141.46,
+            "low": 138,
+            "close": 139.28,
+            "volume": 1395591
+          },
+          {
+            "date": "2025-08-21",
+            "open": 138.45,
+            "high": 141.98,
+            "low": 136.23,
+            "close": 141.78,
+            "volume": 1166071
+          },
+          {
+            "date": "2025-08-22",
+            "open": 141.69,
+            "high": 144.68,
+            "low": 139.75,
+            "close": 141.81,
+            "volume": 1182020
+          },
+          {
+            "date": "2025-08-25",
+            "open": 141.82,
+            "high": 143.6594,
+            "low": 140.39,
+            "close": 140.49,
+            "volume": 928016
+          },
+          {
+            "date": "2025-08-26",
+            "open": 140.53,
+            "high": 143.66,
+            "low": 140.29,
+            "close": 141.98,
+            "volume": 1179553
+          },
+          {
+            "date": "2025-08-27",
+            "open": 142.14,
+            "high": 146.66,
+            "low": 142.07,
+            "close": 144.41,
+            "volume": 2744528
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.966882649388042,
+        "return_63d": 23.776463529613434,
+        "pct_above_sma50": 7.2095668261335595,
+        "sma_50": 134.6988,
+        "new_55d_high": "False",
+        "high_55d": 146.66,
+        "rsi": 69.13015042511444,
+        "rsi_in_range": "True",
+        "adx": 14.897563486279136,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.0279308912125202,
+        "bb_width": 10.84325056823607,
+        "keltner_width": 12.712121835590686,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 156059110.38374996,
+        "adv_shares": 1133121.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 32.78634989254706,
+        "final_score": 32.78634989254706,
+        "sub_scores": {
+          "trend_momentum": 17.786349892547058,
+          "squeeze_breakout": 4.0,
+          "options_quality": 0,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.586543289577504,
+          "ret_63d": 26.942686357243307,
+          "rsi14": 69.13015042511444,
+          "adx14": 15.438112794583802,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 80.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 68.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: FIVE\n• Current Price: $144.41\n• Overall Score: 49.12858974358974\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 133.937\n• Sma 200: 102.2229\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.5865432895775053\n• Momentum 63D: 26.94268635724331\n• Momentum 126D: 61.858327729208696\n• Momentum Acceleration: -23.356143067665805\n• Roc 21D: 3.5865432895775053\n• Trend Strength 20D: 0.6141509309875168\n• Trend Direction: 1\n• Ma Ribbon Score: 85.01540361664293\n• Breakout Strength: 85.55239547862999\n• Price Velocity: 0.007314728828052131\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 16.0\n• Squeeze Momentum: 0.3809422173900208\n• Volatility Compression: 24.5\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.786349892547058\n• Squeeze Breakout: 4.0\n• Options Quality: 0\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 64.0\n• Squeeze: 58.675\n• Options: 10.0\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: FIVE\n• Strike Price: $60\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $83.6\n• Ask: $88\n• Last: $N/A\n• Mid: $85.8\n• Spread: 5.00%\n\n**GREEKS ANALYSIS**\n• Delta: 1.0\n• Gamma: 0.0\n• Theta: -0.0067\n• Vega: 0.0\n• Rho: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 54\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Five Below Inc\n• Sector: Consumer Cyclical\n• Industry: Specialty Retail\n• EPS (TTM): $4.78\n• Profit Margin: 6.5%\n• ROE: 15.3%\n• P/E Ratio: 29.7\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T22:22:00+00:00: NVIDIA Tops Estimates, Grows +41% on Data Center...\n• 2025-08-27T22:17:00+00:00: Five Below Lifts View as More Shoppers Look for Value...\n• 2025-08-27T21:15:01+00:00: Five Below (FIVE) Surpasses Q2 Earnings and Revenue Estimates...\n• 2025-08-27T21:13:01+00:00: Dow Jones Futures: Nvidia Falls On Earnings, Leads Big Movers Late...\n• 2025-08-27T21:10:46+00:00: FIVE BELOW (NASDAQ:FIVE) Surpasses Q2 Earnings and Revenue Estimates, Stock Rise...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-10-31\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 68.8%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR FIVE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the FIVE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:02:20.197787",
+    "estimated_tokens": 2311
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"FIVE\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 30,\n        \"options_quality\": 8,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 7\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"FIVE shows strong technical momentum with price well above both SMAs and impressive 126D momentum of 61.86%. The stock is in a confirmed squeeze with multiple timeframe confirmation and strong breakout score of 100, though options liquidity is concerning.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 SMA (133.94) and 200 SMA (102.22)\",\n        \"Multi-timeframe squeeze setup with 3 concurrent squeezes and 100 breakout score\",\n        \"Recent positive earnings surprise with improved guidance\"\n    ],\n    \"risks\": [\n        \"Poor options liquidity with 0 volume and only 54 open interest\",\n        \"High implied volatility spread of 5%\",\n        \"Negative momentum acceleration (-23.36) suggesting potential slowdown\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider stock position instead of options due to liquidity concerns\",\n        \"entry_timing\": \"Favorable with confirmed squeeze and strong MA ribbon score of 85.02\",\n        \"risk_management\": \"Use smaller position size due to options liquidity risk; consider tight stops below 50 SMA\"\n    },\n    \"red_flags\": [\n        \"Extremely poor options liquidity metrics\",\n        \"Wide bid-ask spread of 5%\"\n    ],\n    \"notes\": \"Data completeness of 68.8% affects confidence; missing some options chain data points. Consider alternative instruments or direct stock position given options liquidity concerns.\"\n}",
+    "parsed_analysis": {
+      "symbol": "FIVE",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 30,
+        "options_quality": 8,
+        "iv_value": 12,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 7
+      },
+      "confidence": "medium",
+      "thesis": "FIVE shows strong technical momentum with price well above both SMAs and impressive 126D momentum of 61.86%. The stock is in a confirmed squeeze with multiple timeframe confirmation and strong breakout score of 100, though options liquidity is concerning.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 SMA (133.94) and 200 SMA (102.22)",
+        "Multi-timeframe squeeze setup with 3 concurrent squeezes and 100 breakout score",
+        "Recent positive earnings surprise with improved guidance"
+      ],
+      "risks": [
+        "Poor options liquidity with 0 volume and only 54 open interest",
+        "High implied volatility spread of 5%",
+        "Negative momentum acceleration (-23.36) suggesting potential slowdown"
+      ],
+      "option_contract": {
+        "recommendation": "Consider stock position instead of options due to liquidity concerns",
+        "entry_timing": "Favorable with confirmed squeeze and strong MA ribbon score of 85.02",
+        "risk_management": "Use smaller position size due to options liquidity risk; consider tight stops below 50 SMA"
+      },
+      "red_flags": [
+        "Extremely poor options liquidity metrics",
+        "Wide bid-ask spread of 5%"
+      ],
+      "notes": "Data completeness of 68.8% affects confidence; missing some options chain data points. Consider alternative instruments or direct stock position given options liquidity concerns."
+    },
+    "tokens_used": 2545,
+    "cost": 0.02545,
+    "response_time": 9.85863733291626,
+    "success": true
+  },
+  "cost": 0.02545,
+  "processing_metadata": {
+    "data_completeness_score": 68.75,
+    "prompt_length": 8477,
+    "response_length": 1704
+  }
+}

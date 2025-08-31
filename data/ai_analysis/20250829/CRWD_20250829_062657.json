@@ -1,0 +1,613 @@
+{
+  "success": true,
+  "symbol": "CRWD",
+  "timestamp": "2025-08-29T06:26:57.660326",
+  "data_package": {
+    "metadata": {
+      "symbol": "CRWD",
+      "package_timestamp": "2025-08-29T06:26:46.790134",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 61.25,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CRWD",
+        "current_price": 442.0,
+        "overall_score": 53.48025641025641,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 461.9564,
+        "sma_200": 408.4665
+      },
+      "momentum_metrics": {
+        "momentum_21d": -4.566555111734854,
+        "momentum_63d": -3.663825984612367,
+        "momentum_126d": 16.242373237954975,
+        "momentum_acceleration": -0.9027291271224875,
+        "roc_21d": -4.566555111734854,
+        "trend_strength_20d": 0.4091814781369372,
+        "trend_direction": -1,
+        "ma_ribbon_score": 49.97299447444133,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.013305218858242162
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": 1.0131267340981975,
+        "volatility_compression": 49.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 9.030001256097016,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.142586964618257,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 74.0,
+        "momentum": 46.0,
+        "squeeze": 57.35,
+        "options": 43.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CRWD",
+        "strike_price": "430",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "31.1",
+        "ask": "31.55",
+        "last_price": "31.3",
+        "mid_price": "31.325",
+        "spread_percent": "1.426307448494453248811410460"
+      },
+      "greeks": {
+        "delta": 0.6228,
+        "gamma": 0.0064,
+        "theta": -0.2543,
+        "vega": 0.6215
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3651
+      },
+      "liquidity_metrics": {
+        "volume": 394,
+        "open_interest": 639,
+        "volume_oi_ratio": 0.6165884194053208
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:16.728063",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T21:05:39+00:00",
+            "title": "Earnings live: Nvidia stock edges lower as investors digest results, Gap and Dell sink, Affirm pops",
+            "content": "Second quarter earnings season is winding down, and with most of the reports in, the results have been mostly positive.\n\nOver 92% of S&P 500 index companies have reported results, and as of Aug. 18, analysts expected S&P 500 companies to report an 11% jump in earnings per share during the second quarter.\n\nCompanies had lower expectations to clear coming into the quarter — analysts expected S&P 500 earnings to rise 5% in Q2, the slowest pace of earnings growth since Q4 2023 — amid President Trump's tariffs, stocks' lofty valuations, and uncertainty about the health of the US economy.\n\nNvidia (NVDA) results on Wednesday after the bell highlights the week.\n\nOther companies reporting include PDD Holdings (PDD), Alibaba (BABA), Okta (OKTA), Abercrombie & Fitch (ANF), CrowdStrike (CRWD), Five Below (FIVE), HP (HP), Kohl's (KSS), Snowflake (SNOW), J.M. Smucker (SJM), Urban Outfitters (URBN), Affirm (AFRM), Best Buy (BBY), Bath & Body Works (BBWI), Dick's Sporting Goods (DKS), Dell (DELL), Dollar General (DG), Gap (GAP), Petco (WOOF), Wolfspeed (WOLF), Bank of Montreal (BMO), MongoDB (MDB), and Ulta (ULTA).\n\nMeanwhile, markets will continue to digest last week's commentary on the health of consumer spending from Walmart (WMT), Target (TGT), Home Depot (HD), and Lowe's (LOW).\n\nHere are the latest updates from corporate America.LIVE306 updates\n\nFeatured\n\nWed, August 27, 2025 at 8:26 PM UTC\n\nGrace O'Donnell\n\nNvidia stock falls after data center revenue misses estimates\n\nNvidia (NVDA) stock dropped on Thursday after the AI chipmaker reported a Q2 data center miss. The Jensen Huang-led company beat estimates on the top and bottom lines and issued Q3 revenue guidance above expectations.\n\nHere's what Nvidia reported against Wall Street analyst estimates, according to Bloomberg data:\n\nFor the third quarter, Nvidia forecast revenue of around $54 billion plus or minus 2%. Expectations were for $53.4 billion.\n\nNvidia stock declined about 0.8% on Thursday. It initially fell 4% after hours following the report's release. Going into the report, options showed traders had priced in a post-earnings swing of roughly 6% — or about $260 billion — in Nvidia shares.\n\nRead more here.\n\n13 mins ago\n\nGrace O'Donnell\n\nGap stock falls on cautious margin outlook\n\nYahoo Finance's Brian Sozzi reports:\n\nRead more here. 53 mins ago\n\nGrace O'Donnell\n\nDell lifts annual forecasts on AI server sales boom\n\nDell (DELL) revenue and adjusted earnings beat estimates, the company reported Thursday. While it raised its full-year forecast, its third quarter profit guidance disappointed, sending shares 4% lower after hours.\n\nRevenue for the second quarter came in at $29.78 billion, beating estimates of $29.17 billion. Excluding items, Dell slightly beat profit estimates with adjusted earnings per share of $2.32.\n\nReuters reports:\n\nRead more here. 57 mins ago\n\nGrace O'Donnell\n\nMarvell Technology stock drops on softer-than-expected Q3 guidance\n\nShares of semiconductor company Marvell Technology (MRVL) dropped 8% after hours on Thursday after the company's third quarter guidance came in a bit light.\n\nReuters reports:\n\nRead more here. Today at 2:32 PM UTC\n\nBrooke DiPalma\n\nBest Buy stock dips after the company reiterates guidance, citing uncertainty\n\nBest Buy (BBY) beat all of Wall Street’s key metrics, including revenue, earnings, and same-store sales growth, but maintained its full-year outlook, which slightly disappointed investors. The stock fell 4% in early trading on Thursday.\n\nFor the year, same-store sales are expected to be in a range of down 1% to up 1%. Revenue is forecast to be in the range of $41.1 billion to $41.9 billion, while adjusted earnings per share are guided to be between $6.15 and $6.30.\n\n\"The low end of the range would certainly say we're giving lots of room for a consumer to potentially be more impacted by tariffs,\" CEO Corie Barry said on a call with media, \"but the reason we're pointing to the high end is we don't see evidence that that is going to happen.\"\n\nWall Street expects revenue of $41.36 billion and adjusted earnings of $6.14 for the full fiscal year, per Bloomberg consensus estimates.\n\nBarry said the company plans to lean into promotions this holiday season to ensure it's driving demand for consumers, who have been seeking value for the last year and a half.\n\nRead more here. Today at 1:19 PM UTC\n\nBrooke DiPalma\n\nBuild-A-Bear Workshop stock soars after posting record revenue, raising guidance\n\nBuild-A-Bear Workshop (BBW) stock moved higher Thursday after the experiential retailer beat Wall Street's expectations with record revenue and raised its full-year guidance.\n\nIn the second quarter, revenue grew 11.1% to a record $124.2 million, higher than the street's expected $116 million, per Bloomberg consensus data. It delivered adjusted earnings of $0.94, more than the forecasted $0.69.\n\n\"This unprecedented start to the year is largely a result of a long-term focus on monetizing Build-A-Bear's unique position in the marketplace, multi-generational appeal and exceptional brand recognition to scale the business with innovative initiatives across three strategic pillars,\" CEO and President Sharon Price John told investors on its earnings call.\n\nThe company also raised its 2025 fiscal-year guidance.\n\n\"When considering these results were achieved in a wide variety of economic challenges and geopolitical shifts, they serve as a valuable source of confidence in our team, our brand, our plans and the company's future,\" Price John told investors, \"With that in mind, while we understand a meaningful portion of the year remains and acknowledge the potential for some economic uncertainty ahead, we also believe it is appropriate to increase our 2025 guidance at this juncture.\"\n\nIt now expects revenue to grow on a mid-to-high single-digit basis, up from the previously expected mid-single-digit increase.\n\nIt also plans to open more locations, now in the range of at least 50 to 60. Today at 12:47 PM UTC\n\nGrace O'Donnell\n\nBath & Body Works posts quarterly profit miss as costs weigh\n\nReuters reports:\n\nRead more here. Today at 12:24 PM UTC\n\nGrace O'Donnell\n\nBurlington Stores CEO says next several months will be 'challenging' due to tariffs\n\nBurlington Stores expects the next several months to be \"challenging\" as it battles higher tariff costs.\n\nStill, the off-price retailer raised its financial targets for the year and now sees earnings per share in a range of $9.19 to $9.59 instead of the previously forecast $8.70 to $9.30.\n\n“The environment has become more uncertain since March, especially with regard to tariffs,\" the company's CEO, Michael O’Sullivan, said in a statement. \"We anticipate that tariffs will put significant pressure on our merchandise margin, but we are confident that, as long as tariffs do not increase from current levels, we can offset this pressure elsewhere in the P&L. These offsets, together with our Q1 earnings favorability, provide a path to achieving our original guidance.”\n\nBurlington's Q2 results were better than expected. The retailer reported earnings per share of $1.47 on $2.7 billion in revenue. Wall Street expected earnings of $1.25 per share on revenue of $2.6 billion, according to S&P Global Market Intelligence. Today at 12:15 PM UTC\n\nGrace O'Donnell\n\nDick's raises outlook on strong sporting goods demand\n\nDick’s Sporting Goods (DKS) stock rose modestly ahead of the opening bell after the retailer beat earnings estimates and reported an upbeat outlook for the year.\n\nEarnings per share of $4.71 beat expectations of $4.28 per share. Revenue of $3.64 billion also beat estimates for $3.60 billion.\n\nMore from Bloomberg:\n\nRead more here. Today at 12:11 PM UTC\n\nGrace O'Donnell\n\nHormel Foods sees quarterly profit below estimates as commodity costs rise\n\nReuters reports:\n\nRead more here. Today at 12:07 PM UTC\n\nGrace O'Donnell\n\nChina slowdown, auto competition weighs on Li Auto's outlook\n\nBeijing-based automaker Li Auto (LI) missed earnings and revenue expectations in the second quarter and said it expected sales to decline in 2025, sending shares 3% lower in premarket trading.\n\nCompetitive pressure is rising in China from other electric vehicle makers, including SUV-focused ones such as AITO and Nio's (NIO) new brand, Onvo. Chinese automakers are also contending with a broader slowdown.\n\nSecond quarter revenue declined 4.5% year over year to 30.2 billion yuan ($4.2 billion), while Wall Street expected 31.8 billion yuan ($4.4 billion).\n\nThe automaker delivered 111,074 vehicles, below its prior guidance of 123,000 to 128,000 vehicles.\n\nFor the full year, Li Auto said it expects to deliver between 90,000 and 95,000 vehicles, representing an annual decrease of 41.1% to 37.8%. Revenue is anticipated to be between RMB24.8 billion ($3.5 billion) and RMB26.2 billion ($3.7 billion), representing a year-over-year decrease of 42.1% to 38.8%.\n\nLi Auto said it expects to deliver between 90,000 and 95,000 vehicles for the third quarter, with revenue projected at 24.8 billion yuan to 26.2 billion yuan, down 39%-42% from a year earlier.\n\nLi Auto stock fell 3% in premarket trading. Today at 11:46 AM UTC\n\nGrace O'Donnell\n\nDollar General stock pops after guidance raise\n\nDollar General (DG) raised its financial outlook for 2025 on Thursday as it benefited from consumers becoming more cost-conscious.\n\nThe dollar store chain now sees full-year profits of $5.80 to $6.30 per share, compared to its previous expectation of approximately $5.20 to $5.80 per share. It expects same-store sales to increase 2.1% to 2.6%, compared to its previous expectation of approximately 1.5% to 2.5%.\n\nIn the second quarter, Dollar General stores saw an increase in traffic as its value proposition drew wealthier customers. The company reported earnings of $1.86 per share on $10.7 billion in net sales. Both measures were well ahead of Wall Street estimates.\n\n“Our improved execution, along with our progress advancing key initiatives, is resonating with both existing and new customers as we further enhance our value and convenience proposition,\" CEO Todd Vasos said in a statement.\n\nDollar General stock popped 6% premarket. You can listen to its 9 a.m. ET earnings call here.\n\nRead more here. Wed, August 27, 2025 at 10:35 PM UTC\n\nWatch Nvidia CEO Jensen Huang live on Yahoo Finance Wed, August 27, 2025 at 10:20 PM UTC\n\nBrett LoGiurato\n\nNvidia's Huang sees China as $50B opportunity\n\nOne other highlight from the Nvidia earnings call on China: CEO Jensen Huang says the market could represent a $50 billion opportunity for Nvidia this year.\n\nFrom the call (h/t The Transcript on Twitter):\n\nAll China-related geopolitical and regulatory caveats apply, of course! Wed, August 27, 2025 at 9:20 PM UTC\n\nBrett LoGiurato\n\nNvidia says it could ship $2 billion to $5 billion of H20 chips to China\n\nFrom the earnings call, Yahoo Finance's Allie Canal notes some guidance upside for Nvidia — provided that there's some certainty around regulation.\n\nHere's Kress from the call:\n\nKress later added that \"there is interest\" for the H20s and that \"a select number of our China based customers have received licenses over the past few weeks.\" Wed, August 27, 2025 at 9:00 PM UTC\n\nGrace O'Donnell\n\nNvidia revenue growth continues to moderate as Jensen Huang says Blackwell demand 'is extraordinary'\n\nNvidia's earnings call has begun. You can listen to it live here.\n\nFor more context on Nvidia's quarter and what it means for the company, Yahoo Finance's Daniel Howley breaks down the numbers:\n\nRead more here Wed, August 27, 2025 at 8:49 PM UTC\n\nGrace O'Donnell\n\nFive Below beats on top and bottom lines, stock rises\n\nDiscount retailer Five Below (FIVE) benefited from consumers seeking value, even as tariffs created headwinds for the company\n\nFive Below beat expectations on the top and bottom lines. Revenue of $1.02 billion surpassed estimates of $996 million. Earnings per share of $0.81 also beat estimates of $0.63.\n\nFor the third quarter, net sales are expected to be in the range of $950 million to $970 million, representing comparable sales growth of 5% to 7% and assuming the opening of about 50 new stores. Net income is expected to be in the range of $5 million-$12 million.\n\nThe stock gained about 3% after hours. Wed, August 27, 2025 at 8:43 PM UTC\n\nBrett LoGiurato\n\nAI-related stocks fall in tandem with Nvidia\n\nShares of other AI-related stocks fell in after-hours trading after Nvidia's (NVDA) somewhat underwhelming results.\n\nAMD (AMD) stock fell nearly 2%, while TSM (TSM) shares lost nearly 1%. Broadcom (AVGO) was down around 1.5%, and SMCI was also off over 2%.\n\nNvidia pared some immediate post-results losses, but shares were down over 3% as of 4:45 p.m. ET. Wed, August 27, 2025 at 8:37 PM UTC\n\nGrace O'Donnell\n\nHP beats third-quarter revenue estimates on AI PC adoption, Windows 11 upgrade\n\nReuters reports:\n\nRead more here. Wed, August 27, 2025 at 8:35 PM UTC\n\nGrace O'Donnell\n\nCrowdStrike stock falls after Q3 outlook falls short of expectations\n\nCrowdStrike (CRWD) shares fell 6% after the cybersecurity company's third quarter forecast disappointed.\n\nThe company expects current-quarter revenue to be between $1.21 billion and $1.22 billion, compared with analysts' average estimate of $1.23 billion, according to data compiled by LSEG. The more cautious outlook signaled cautious spending by clients facing economic uncertainty.\n\nEarnings per share of $0.93 beat estimates of $0.83 per share. Revenue reached $1.17 billion, a 21% increase and above the company's guidance of between $1.14 billion and $1.15 billion. Revenue was boosted by 20% subscription revenue growth, which hit $4.66 billion.\n\nCrowdStrike also announced it would acquire Onum to evolve its Falcon platform for security information and event management.\n\nRead more here from Reuters. Wed, August 27, 2025 at 8:32 PM UTC\n\nBrian Sozzi\n\nQuick Nvidia call outs\n\nI know the early focus is on Nvidia's (NVDA) data center sales miss, but keep in mind two things:\n\n1. Jensen calling out the \"extraordinary\" Blackwell demand.\n\n2. Q3 gross margin was seen gaining ground versus Q2 as the Blackwell ramp continues.\n\nStory Continues\n\nFor the latest earnings reports and analysis, earnings whispers and expectations, and company earnings news, click here\n\nRead the latest financial and business news from Yahoo Finance",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T21:04:31+00:00",
+            "title": "S&amp;P 500, Dow Notch New Highs as GDP Data Buoy Wall Street",
+            "content": "The S&P 500 and the Dow Jones Industrial Average climbed to fresh record highs on Thursday amid sign\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:55:07+00:00",
+            "title": "CrowdStrike Slips After Soft Outlook Reveals Lingering Damage From 2024 Outage",
+            "content": "This article first appeared on GuruFocus.\n\nCrowdStrike (CRWD, Financials) is still paying for last summer's tech disaster. The cybersecurity company saw its shares slide more than 3% Thursday after issuing a muted revenue outlook for the third quarter a signal that the fallout from its 2024 software update glitch hasn't fully cleared.\n\nWarning! GuruFocus has detected 2 Warning Sign with CRWD. Is CRWD fairly valued? Test your thesis with our free DCF calculator.\n\nThe issue dates back to a botched Falcon sensor update that disrupted critical Windows systems, taking down everything from banks and hospitals to airports. While CrowdStrike moved quickly to patch the problem, the event triggered a wave of rebates, discounts, and customer concessions that are now dragging on revenue recognition.\n\nExecutives say these rebate-linked effects are temporary BTIG analysts expect most of the $50 million impact to fade by fiscal 2027. But in the near term, they're complicating the company's ability to show clean top-line growth.\n\nStill, it's not all doom and gloom. Second-quarter revenue rose 21%, underscoring steady cybersecurity demand in a world increasingly focused on AI-powered threat prevention. Morningstar analysts noted that the post-earnings drop seemed more about inflated expectations than anything fundamentally broken.\n\nCrowdStrike has also been expanding its footprint beyond endpoint protection, adding tools for identity verification, cloud security, and full-stack security operations areas that analysts say are gaining traction.\n\nEven so, at least 10 brokerages trimmed their price targets following Wednesday's results, suggesting Wall Street wants to see more clarity before hitting the buy button again.\n\nThe stock has climbed 23.5% year to date, but Thursday's premarket slide could knock roughly $3.5 billion off its valuation if losses hold.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:25:00+00:00",
+            "title": "These Stocks Moved the Most Today: Nvidia, Snowflake, Pure Storage, CrowdStrike, Hormel Foods, Cooper, HP, and More",
+            "content": "FEATURE Stocks rose Thursday and the tech-heavy traded higher even as earnings results from Nvidia, the world’s most valuable company, failed to push the stock higher. These stocks made notable moves Thursday: Nvidia declined 0.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T19:55:42+00:00",
+            "title": "CrowdStrike (CRWD) Stock Is Up, What You Need To Know",
+            "content": "What Happened?\n\nShares of cybersecurity platform provider CrowdStrike (NASDAQ:CRWD) jumped 3.8% in the afternoon session after investors looked past a soft third-quarter forecast and focused on the company's solid second-quarter earnings results.\n\nThe cybersecurity firm surpassed analyst estimates for the quarter, reporting revenue of $1.17 billion and adjusted earnings of $0.93 per share. Despite this performance, the company's revenue guidance for the next quarter came in slightly below consensus estimates, which initially caused the stock to slide in after-hours trading. However, the morning's rally suggests investors were instead focusing on positive metrics, such as the 20.6% year-over-year growth in Annual Recurring Revenue (ARR) to $4.66 billion and a 4.6% increase in the company's full-year adjusted earnings guidance.\n\nAfter the initial pop the shares cooled down to $440.54, up 4.3% from previous close.\n\nIs now the time to buy CrowdStrike? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nCrowdStrike’s shares are quite volatile and have had 18 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 21 days ago when the stock dropped 5.6% on the news that industry bellwether, Fortinet, reported underwhelming second-quarter earnings. The primary concern for investors stemmed from the revelation that the company is already 40-50% of the way through a major firewall refresh cycle, a faster pace than analysts had anticipated. This news suggests that a significant driver of recent growth may be short-lived, and underlying product revenue growth appears weaker than previously thought. The commentary from the industry leader, coupled with multiple analyst downgrades, fueled fears of a broader slowdown in the cybersecurity sector. This led to a ripple effect, dragging down shares of other cybersecurity companies as investors re-evaluate the industry's near-term growth prospects.\n\nCrowdStrike is up 26.8% since the beginning of the year, but at $440.54 per share, it is still trading 14.3% below its 52-week high of $514.10 from July 2025. Investors who bought $1,000 worth of CrowdStrike’s shares 5 years ago would now be looking at an investment worth $3,713.\n\nToday’s young investors likely haven’t read the timeless lessons in Gorilla Game: Picking Winners In High Technology because it was written more than 20 years ago when Microsoft and Apple were first establishing their supremacy. But if we apply the same principles, then enterprise software stocks leveraging their own generative AI capabilities may well be the Gorillas of the future. So, in that spirit, we are excited to present our Special Free Report on a profitable, fast-growing enterprise software stock that is already riding the automation wave and looking to catch the generative AI next.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Crowdstrike Holdings Inc",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "employees": 10363,
+          "description": "CrowdStrike Holdings, Inc. provides cybersecurity solutions in the United States and internationally. Its unified platform provides cloud-delivered protection of endpoints, cloud workloads, identity, and data through a software as a service (SaaS) subscription-based model. The company offers corpora"
+        },
+        "financial_metrics": {
+          "eps_ttm": -1.19,
+          "profit_margin": -0.0417,
+          "operating_margin": -0.107,
+          "roe": -0.0574,
+          "roa": -0.0147,
+          "revenue_growth_yoy": 0.198,
+          "earnings_growth_yoy": 5.333,
+          "eps_estimate_current_year": 3.7627,
+          "eps_estimate_next_year": 4.4271,
+          "revenue_ttm": 4136022016,
+          "revenue_per_share": 16.795,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 120.4819,
+          "price_to_sales": 26.8186,
+          "price_to_book": 30.5241,
+          "enterprise_value": 101506015814,
+          "ev_to_revenue": 24.5419,
+          "ev_to_ebitda": 609.4261
+        },
+        "technical_data": {
+          "beta": 1.132,
+          "52_week_high": 517.9799,
+          "52_week_low": 242.25,
+          "50_day_ma": 461.9564,
+          "200_day_ma": 408.4665,
+          "short_interest": 0.0275,
+          "short_ratio": 2.5
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.2745,
+          "target_price": 468.9506,
+          "strong_buy": 27,
+          "buy": 12,
+          "hold": 11,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 250955008,
+          "percent_institutions": 75.813,
+          "percent_insiders": 3.131,
+          "shares_float": 244639575
+        },
+        "balance_latest_sheet": {
+          "total_assets": 8720.362,
+          "total_debt": 785.398,
+          "net_debt": -3828.755,
+          "working_capital": 2788.264,
+          "shareholders_equity": 3450.877,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.23
+        },
+        "income_latest_statement": {
+          "total_revenue": 1103.434,
+          "gross_profit": 814.291,
+          "operating_income": -124.656,
+          "net_income": -110.207,
+          "ebitda": -19.115,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 73.8,
+          "operating_margin": -11.3,
+          "net_margin": -9.99
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 384.107,
+          "free_cash_flow": 280.919,
+          "capex": 103.188,
+          "net_income": -110.993,
+          "cash_change": 290.957,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 472.31,
+            "high": 477.26,
+            "low": 465.76,
+            "close": 475.96,
+            "volume": 2903393
+          },
+          {
+            "date": "2025-07-21",
+            "open": 478.715,
+            "high": 490.04,
+            "low": 474.11,
+            "close": 481.58,
+            "volume": 3416152
+          },
+          {
+            "date": "2025-07-22",
+            "open": 481.5,
+            "high": 485.4558,
+            "low": 470,
+            "close": 471.23,
+            "volume": 1975565
+          },
+          {
+            "date": "2025-07-23",
+            "open": 471.23,
+            "high": 471.9999,
+            "low": 454.04,
+            "close": 461.52,
+            "volume": 3024019
+          },
+          {
+            "date": "2025-07-24",
+            "open": 463.98,
+            "high": 468.5,
+            "low": 460.12,
+            "close": 462.03,
+            "volume": 2486054
+          },
+          {
+            "date": "2025-07-25",
+            "open": 462,
+            "high": 470.81,
+            "low": 460.3,
+            "close": 467.92,
+            "volume": 1794737
+          },
+          {
+            "date": "2025-07-28",
+            "open": 471,
+            "high": 476.57,
+            "low": 468,
+            "close": 472.18,
+            "volume": 1825776
+          },
+          {
+            "date": "2025-07-29",
+            "open": 473.87,
+            "high": 480.72,
+            "low": 458,
+            "close": 465.51,
+            "volume": 2749934
+          },
+          {
+            "date": "2025-07-30",
+            "open": 463.52,
+            "high": 466.68,
+            "low": 453.42,
+            "close": 463.15,
+            "volume": 2117492
+          },
+          {
+            "date": "2025-07-31",
+            "open": 465.76,
+            "high": 467.9,
+            "low": 453.76,
+            "close": 454.57,
+            "volume": 2832848
+          },
+          {
+            "date": "2025-08-01",
+            "open": 448.95,
+            "high": 454,
+            "low": 438.09,
+            "close": 446.66,
+            "volume": 3014399
+          },
+          {
+            "date": "2025-08-04",
+            "open": 452.9,
+            "high": 457.49,
+            "low": 448,
+            "close": 454.86,
+            "volume": 1882796
+          },
+          {
+            "date": "2025-08-05",
+            "open": 454.63,
+            "high": 457.8,
+            "low": 438.5001,
+            "close": 441.75,
+            "volume": 3104579
+          },
+          {
+            "date": "2025-08-06",
+            "open": 445,
+            "high": 451.9,
+            "low": 442.0101,
+            "close": 451.69,
+            "volume": 2035670
+          },
+          {
+            "date": "2025-08-07",
+            "open": 451.69,
+            "high": 451.985,
+            "low": 422,
+            "close": 425,
+            "volume": 5710129
+          },
+          {
+            "date": "2025-08-08",
+            "open": 431,
+            "high": 434.5,
+            "low": 420.42,
+            "close": 424.49,
+            "volume": 3632121
+          },
+          {
+            "date": "2025-08-11",
+            "open": 423.82,
+            "high": 434,
+            "low": 419.74,
+            "close": 426.43,
+            "volume": 2525352
+          },
+          {
+            "date": "2025-08-12",
+            "open": 428.01,
+            "high": 438.3,
+            "low": 427.49,
+            "close": 435.8,
+            "volume": 2314312
+          },
+          {
+            "date": "2025-08-13",
+            "open": 440,
+            "high": 442.425,
+            "low": 427.8601,
+            "close": 432.12,
+            "volume": 2461103
+          },
+          {
+            "date": "2025-08-14",
+            "open": 432.34,
+            "high": 435,
+            "low": 419.81,
+            "close": 424.86,
+            "volume": 2911580
+          },
+          {
+            "date": "2025-08-15",
+            "open": 425.28,
+            "high": 428.932,
+            "low": 423.0001,
+            "close": 427.9,
+            "volume": 2264392
+          },
+          {
+            "date": "2025-08-18",
+            "open": 426,
+            "high": 428.97,
+            "low": 421.6985,
+            "close": 426.34,
+            "volume": 2252677
+          },
+          {
+            "date": "2025-08-19",
+            "open": 431,
+            "high": 436,
+            "low": 415.9,
+            "close": 418.6,
+            "volume": 2786833
+          },
+          {
+            "date": "2025-08-20",
+            "open": 417.425,
+            "high": 420.94,
+            "low": 409.31,
+            "close": 419.17,
+            "volume": 2212608
+          },
+          {
+            "date": "2025-08-21",
+            "open": 417.79,
+            "high": 417.9299,
+            "low": 413.66,
+            "close": 414.06,
+            "volume": 1800410
+          },
+          {
+            "date": "2025-08-22",
+            "open": 415,
+            "high": 423.9926,
+            "low": 412.5508,
+            "close": 420.55,
+            "volume": 2202292
+          },
+          {
+            "date": "2025-08-25",
+            "open": 422.61,
+            "high": 425.9999,
+            "low": 418.525,
+            "close": 418.83,
+            "volume": 2413277
+          },
+          {
+            "date": "2025-08-26",
+            "open": 419.32,
+            "high": 425,
+            "low": 416.7,
+            "close": 417.6,
+            "volume": 3146731
+          },
+          {
+            "date": "2025-08-27",
+            "open": 421.6,
+            "high": 427.415,
+            "low": 419.98,
+            "close": 422.61,
+            "volume": 8119591
+          },
+          {
+            "date": "2025-08-28",
+            "open": 410,
+            "high": 442.17,
+            "low": 409.2501,
+            "close": 442,
+            "volume": 9981803
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -2.7652506764634697,
+        "return_63d": -6.230774126482382,
+        "pct_above_sma50": -4.319974785499256,
+        "sma_50": 461.9564000000001,
+        "new_55d_high": "False",
+        "high_55d": 517.9799,
+        "rsi": 61.81352044258535,
+        "rsi_in_range": "True",
+        "adx": 46.51414993028088,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.1346696832579206,
+        "bb_width": 11.138413431241698,
+        "keltner_width": 12.893310802405797,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1434163115.8865,
+        "adv_shares": 3338632.75,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 43.17258822071527,
+        "final_score": 43.17258822071527,
+        "sub_scores": {
+          "trend_momentum": 9.030001256097016,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.142586964618257,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": -4.566555111734849,
+          "ret_63d": -3.6638259846123677,
+          "rsi14": 61.81352044258535,
+          "adx14": 42.49373994896007,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 50.0,
+      "overall_score": 61.25,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CRWD\n• Current Price: $442.0\n• Overall Score: 53.48025641025641\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 461.9564\n• Sma 200: 408.4665\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -4.566555111734854\n• Momentum 63D: -3.663825984612367\n• Momentum 126D: 16.242373237954975\n• Momentum Acceleration: -0.9027291271224875\n• Roc 21D: -4.566555111734854\n• Trend Strength 20D: 0.4091814781369372\n• Trend Direction: -1\n• Ma Ribbon Score: 49.97299447444133\n• Breakout Strength: 0.0\n• Price Velocity: 0.013305218858242162\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: 1.0131267340981975\n• Volatility Compression: 49.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 9.030001256097016\n• Squeeze Breakout: 4.0\n• Options Quality: 19.142586964618257\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 74.0\n• Momentum: 46.0\n• Squeeze: 57.35\n• Options: 43.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CRWD\n• Strike Price: $430\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $31.1\n• Ask: $31.55\n• Last: $31.3\n• Mid: $31.325\n• Spread: 1.426307448494453248811410460%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6228\n• Gamma: 0.0064\n• Theta: -0.2543\n• Vega: 0.6215\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3651\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 394\n• Open Interest: 639\n• Volume/OI Ratio: 0.6165884194053208\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Crowdstrike Holdings Inc\n• Sector: Technology\n• Industry: Software - Infrastructure\n• EPS (TTM): $-1.19\n• Profit Margin: -4.2%\n• ROE: -5.7%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T21:05:39+00:00: Earnings live: Nvidia stock edges lower as investors digest results, Gap and Del...\n• 2025-08-28T21:04:31+00:00: S&amp;P 500, Dow Notch New Highs as GDP Data Buoy Wall Street...\n• 2025-08-28T20:55:07+00:00: CrowdStrike Slips After Soft Outlook Reveals Lingering Damage From 2024 Outage...\n• 2025-08-28T20:25:00+00:00: These Stocks Moved the Most Today: Nvidia, Snowflake, Pure Storage, CrowdStrike,...\n• 2025-08-28T19:55:42+00:00: CrowdStrike (CRWD) Stock Is Up, What You Need To Know...\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 61.2%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CRWD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CRWD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:26:57.659806",
+    "estimated_tokens": 2361
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CRWD\",\n    \"rating\": 53,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CRWD shows mixed signals with a squeeze setup and decent options liquidity, but faces technical weakness with negative momentum and price below SMA50. The options chain offers reasonable quality with 1.43% spreads, though recent earnings reaction and fundamental metrics suggest caution.\",\n    \"opportunities\": [\n        \"Active squeeze setup with 2 timeframe confirmation\",\n        \"Reasonable options liquidity with tight spreads (1.43%)\",\n        \"Strong 126D momentum at 16.24% despite recent pullback\"\n    ],\n    \"risks\": [\n        \"Negative 21D momentum (-4.57%) and price below SMA50\",\n        \"Poor fundamentals with negative EPS and profit margins\",\n        \"Recent earnings-related price weakness\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferred entry on LEAPS calls due to current technical weakness\",\n        \"entry_timing\": \"Wait for price to stabilize above SMA50 (461.96) before entry\",\n        \"risk_management\": \"Use 0.62 delta for position sizing, monitor squeeze resolution direction\"\n    },\n    \"red_flags\": [\n        \"Negative momentum acceleration (-0.90)\",\n        \"Recent earnings volatility impact\",\n        \"Deteriorating technical picture\"\n    ],\n    \"notes\": \"Data completeness at 61.2% - missing key volatility metrics and complete options chain analysis may impact assessment accuracy\"\n}",
+    "parsed_analysis": {
+      "symbol": "CRWD",
+      "rating": 53,
+      "component_scores": {
+        "trend_momentum": 15,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "CRWD shows mixed signals with a squeeze setup and decent options liquidity, but faces technical weakness with negative momentum and price below SMA50. The options chain offers reasonable quality with 1.43% spreads, though recent earnings reaction and fundamental metrics suggest caution.",
+      "opportunities": [
+        "Active squeeze setup with 2 timeframe confirmation",
+        "Reasonable options liquidity with tight spreads (1.43%)",
+        "Strong 126D momentum at 16.24% despite recent pullback"
+      ],
+      "risks": [
+        "Negative 21D momentum (-4.57%) and price below SMA50",
+        "Poor fundamentals with negative EPS and profit margins",
+        "Recent earnings-related price weakness"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferred entry on LEAPS calls due to current technical weakness",
+        "entry_timing": "Wait for price to stabilize above SMA50 (461.96) before entry",
+        "risk_management": "Use 0.62 delta for position sizing, monitor squeeze resolution direction"
+      },
+      "red_flags": [
+        "Negative momentum acceleration (-0.90)",
+        "Recent earnings volatility impact",
+        "Deteriorating technical picture"
+      ],
+      "notes": "Data completeness at 61.2% - missing key volatility metrics and complete options chain analysis may impact assessment accuracy"
+    },
+    "tokens_used": 2573,
+    "cost": 0.025730000000000003,
+    "response_time": 10.866191625595093,
+    "success": true
+  },
+  "cost": 0.025730000000000003,
+  "processing_metadata": {
+    "data_completeness_score": 61.25,
+    "prompt_length": 8661,
+    "response_length": 1632
+  }
+}

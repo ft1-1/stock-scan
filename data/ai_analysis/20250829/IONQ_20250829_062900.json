@@ -1,0 +1,623 @@
+{
+  "success": true,
+  "symbol": "IONQ",
+  "timestamp": "2025-08-29T06:29:00.713466",
+  "data_package": {
+    "metadata": {
+      "symbol": "IONQ",
+      "package_timestamp": "2025-08-29T06:28:47.808218",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "IONQ",
+        "current_price": 43.3,
+        "overall_score": 53.0889559163046,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 41.578,
+        "sma_200": 34.9717
+      },
+      "momentum_metrics": {
+        "momentum_21d": 8.57572718154462,
+        "momentum_63d": 0.23148148148146833,
+        "momentum_126d": 73.82577278201524,
+        "momentum_acceleration": 8.344245700063151,
+        "roc_21d": 8.57572718154462,
+        "trend_strength_20d": 0.020167787685547087,
+        "trend_direction": -1,
+        "ma_ribbon_score": 85.77833925075873,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.03158245581148942
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 46.0,
+        "squeeze_momentum": 0.0795862358520016,
+        "volatility_compression": 70.95665020160632,
+        "is_consolidating": "False",
+        "breakout_score": 17.493435063200838,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.528561115187202,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.66339393939389,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 65.0,
+        "squeeze": 60.64349753024095,
+        "options": 42.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 7,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "IONQ",
+        "strike_price": "40",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "8.2",
+        "ask": "8.3",
+        "last_price": "8.15",
+        "mid_price": "8.25",
+        "spread_percent": "1.204819277108433734939759036"
+      },
+      "greeks": {
+        "delta": 0.6551,
+        "gamma": 0.0217,
+        "theta": -0.0394,
+        "vega": 0.076
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.8242
+      },
+      "liquidity_metrics": {
+        "volume": 39,
+        "open_interest": 863,
+        "volume_oi_ratio": 0.04519119351100811
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:21.897015",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T21:06:43+00:00",
+            "title": "Quantum Computing Stocks Rally After Cluster of Positive Headlines",
+            "content": "This article first appeared on GuruFocus.\n\nAug 28 - Quantum stocks rally on Thursday after a string of validating headlines shifts investor focus from distant potential to nearer-term commercialization. A high-profile IBMAMD partnership to pair quantum systems with classical supercomputing sets the tone, and company-level news fills in the details: earnings beats, technical milestones, and fresh financing. Together, those items prompt a quick re-rating across the sector.\n\nWarning! GuruFocus has detected 4 Warning Signs with IONQ. Is IONQ fairly valued? Test your thesis with our free DCF calculator.\n\nAlso, IonQ just got a \"Buy\" rating from a top analyst, which lifted the stock higher as well.\n\nMarket moves vary by name. IonQ (NYSE:IONQ) jumps roughly 3% during the cluster of buying, reflecting a mix of upbeat guidance and transaction news. Rigetti (NASDAQ:RGTI) posts an intraday lift up to about 9% after unveiling a multi-chip system and updating its roadmap. D-Wave (NYSE:QBTS) sees smaller gains, near 3%, while Quantum Computing Inc. (NASDAQ:QUBT) records a sharper pop of roughly 4% on the same day.\n\nTraders note that intraday highs often exceed official close prints, so exact percentages differ by source.\n\nCash in is being spurred by analyst upgrades and the theme coverage and both ETFs and options and momentum folks are toddling in. But the business component remains emerging; it is not always cash flow even when the hardware capabilities are reached. Foresee the market holding a little ready, as the investors attempt to sort the accents of reality out of headline inflammation.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:49:00+00:00",
+            "title": "IonQ (IONQ) Enhances Board With Industry Veterans William Teuber Jr. And Jim Frankola",
+            "content": "IonQ recently announced the appointment of William J. Teuber Jr. and Jim Frankola to its Board of Directors, bolstering its leadership with significant experience in finance and technology. Last week, IonQ's stock experienced an 11% rise, aligning with broader market increases, as the S&P 500 reached record highs amid positive economic data and anticipation of potential interest rate cuts by the Federal Reserve. While major tech stocks like Nvidia and Snowflake also posted strong movements, IonQ's leadership changes potentially added weight to its positive momentum, reflecting investor confidence in its strategic direction.\n\nWe've discovered 3 warning signs for IonQ (1 is potentially serious!) that you should be aware of before investing here.IONQ Revenue & Expenses Breakdown as at Aug 2025\n\nExplore 23 top quantum computing companies leading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research.\n\nIonQ's shares have demonstrated a significant increase, showing a very large gain over the past three years. This impressive performance stands alongside its 1-year return, which surpassed both the US Tech industry and US Market returns, with the industry achieving a 2.4% return and the market achieving a 17.5% return during this period. The substantial share price rise indicates robust investor interest in the company's quantum computing capabilities and strategic advancements.\n\nThe executive and board additions might contribute positively to IonQ's revenue growth forecasts, expected to increase by 41% annually. Such leadership changes could potentially enhance strategic execution. However, IonQ remains unprofitable, reporting a net loss of US$176.84 million in Q2 2025. Despite the short-term volatility, analysts have set a consensus price target of US$51.00, indicating a prospective price appreciation from the current share price of US$41.42, reflecting further confidence in IonQ's growth trajectory amidst its evolving developments.\n\nLearn about IonQ's future growth trajectory here.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nStory Continues\n\nCompanies discussed in this article include IONQ.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T14:48:00+00:00",
+            "title": "Can Rigetti Computing's Margin Recover After Second-Quarter Pressure?",
+            "content": "Rigetti Computing’s RGTI second-quarter 2025 results gave investors a closer look at the pressures weighing on margins as it balances financial discipline with technology progress. Revenues slipped to $1.8 million from $3.1 million a year earlier, largely due to the expiration of the U.S. National Quantum Initiative while awaiting reauthorization. More striking was the drop in gross margin, which fell to 31% from 64% a year ago. Management attributed the weakness to a heavier mix of lower-margin development contracts, including those tied to the United Kingdom’s National Quantum Computing Centre.\n\nWith operating expenses climbing to $20.4 million from $18.1 million last year, Rigetti’s operating loss widened to $19.9 million compared with $16.1 million in the prior-year period. While the balance sheet has been bolstered by $350 million in new equity proceeds, leaving the company with $571.6 million in cash and investments and no debt, the second-quarter results underscore that margins remain fragile and heavily dependent on contract mix.\n\nOn the technology front, Rigetti advanced with the launch of Cepheus-1-36Q, the industry’s largest multichip quantum computer, achieving 99.5% fidelity and halved error rates compared with Ankaa-3. Management reiterated plans for a 100+ qubit system by year-end, underscoring the promise of its chiplet approach. While these milestones build credibility, they have yet to translate into steady, high-margin revenues, leaving margins exposed to contract mix and funding cycles.\n\nPeers Updates\n\nIonQ IONQ continues to position itself differently, focusing on trapped-ion architectures and expanding partnerships with major cloud providers to broaden commercial access. This strategy has helped IonQ secure a more diverse set of enterprise agreements, including with Fortune 500 companies, providing revenue sources beyond government contracts. While this model supports steadier revenue visibility, IonQ faces its own scalability hurdles, particularly in advancing gate speeds, which could limit long-term efficiency compared with superconducting approaches.\n\nArqit Quantum ARQQ follows yet another route, concentrating on software and encryption rather than hardware. Its QuantumCloud platform seeks to deliver large-scale symmetric key agreement for cybersecurity, offering a more near-term use case as enterprises prepare for post-quantum security risks. While this approach shields Arqit from hardware margin pressures, its financial outlook hinges on broader adoption of quantum-safe encryption, which remains at an early stage and is dependent on customer conversion.\n\nStory Continues\n\nRigetti’s Price Performance, Valuation and Estimates\n\nShares of RGTI have gained 0.8% in the year-to-date period compared with the industry’s growth of 18.8%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, Rigetti trades at a price-to-book ratio of 9.01, above the industry average. RGTI carries a Value Score of F.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for Rigetti’s 2025 earnings implies a significant 86.1% rise from the year-ago period.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe company currently carries a Zacks Rank #2 (Buy). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nArqit Quantum Inc. (ARQQ) : Free Stock Analysis Report\n\nIonQ, Inc. (IONQ) : Free Stock Analysis Report\n\nRigetti Computing, Inc. (RGTI) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T13:02:00+00:00",
+            "title": "IonQ Stock Gets a Buy Rating. Why It’s Poised to Dominate  Quantum Computing.",
+            "content": "There’s no question about it: The quantum computing hype train has taken off. Pure-play peers Rigetti Computing and D-Wave Quantum have seen quadruple-digit gains over the past 12 months. B. Riley analyst Craig Ellis was the latest to join the chorus of support as he initiated coverage on IonQ with a Buy rating and $61 price target, suggesting nearly 50% upside to Wednesday’s closing price.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T12:00:00+00:00",
+            "title": "IonQ Stock: A High-Stakes Play on the Quantum Future",
+            "content": "Key Points\n\nQuantum computing is poised to unlock trillion-dollar opportunities in medicine, finance, and AI. IonQ's revenue is growing rapidly at 82% year over year, and the company holds over $1.6 billion in cash. Substantial financial losses and an extremely high valuation make IonQ a highly speculative investment. 10 stocks we like better than IonQ ›\n\nFor decades, quantum computing has felt like a technology that's perpetually just around the corner. Unlike failed promises of the past, however, quantum machines are now a reality, crunching numbers in university labs and tech-giant data centers. The question is not if quantum computing works, but when it will become commercially valuable.\n\nFor IonQ(NYSE: IONQ), the first pure-play quantum company on the public market, that timeline will determine if today's stock is tomorrow's big winner or a cautionary tale about investing too early in transformative tech.Image source: Getty Images.\n\nThe trillion-dollar promise of quantum\n\nMarket projections are staggering. McKinsey estimates quantum computing could generate $1.3 trillion in value by 2040, a figure echoed by other major analysts. This isn't about incremental improvements; quantum computers are designed to solve problems that would take classical machines millions of years.\n\nImagine pharmaceutical companies precisely modeling protein folding to create new drugs, financial firms optimizing global portfolios in real time, or logistics companies routing supply chains with perfect efficiency. The technology's power comes from qubits, which can exist in multiple states at once, allowing for the parallel processing of an exponential number of calculations.\n\nIonq's niche: The trapped ion advantage\n\nWhile tech giants focus on superconducting qubits, IonQ has chosen a different path: trapped-ion technology. By trapping individual atoms in electromagnetic fields, IonQ achieves an industry-leading 99.8% two-qubit gate fidelity. This extreme accuracy is critical, as quantum errors compound exponentially.\n\nThe strategy is showing early signs of success. The company reported $20.7 million in Q2 2025 revenue, an 81.5% increase year over year, and raised its full-year guidance to between $82 million and $100 million. Major clients like Hyundai, Airbus, and GE Research are already using IonQ's systems.\n\nBy integrating with cloud platforms like Amazon's AWS, Microsoft Azure, and Alphabet's Google Cloud, IonQ is embedding its technology directly into existing enterprise workflows. The company holds over $1.6 billion in cash after completing a $1 billion equity offering, providing a substantial runway for growth investments and strategic acquisitions.\n\nStory Continues\n\nThe sobering reality: Risk and competition\n\nDespite its technical promise, IonQ operates with significant losses, posting a net loss of $177.5 million in the second quarter alone. With a $12 billion market cap, the company trades at nearly 140 times its forward revenue guidance, a valuation that prices in success that may never materialize.\n\nCompetition is also fierce. IBM already offers 1,000-qubit systems, PsiQuantum is promising million-qubit machines by 2030, and Alphabet's latest chips boast breakthrough error correction. Beyond direct rivals, there's a fundamental uncertainty.\n\nNo one knows which quantum architecture will ultimately win. IonQ could execute its strategy perfectly and still be rendered obsolete if another technology proves more scalable. That's a real risk potential shareholders shouldn't brush off lightly.\n\nThe verdict: A high-risk, high-reward proposition\n\nAn investment in IonQ depends on two critical factors: the commercial timeline of quantum computing and the long-term viability of trapped-ion architecture. The company pairs legitimate technology leadership with immense financial losses and unproven economics.\n\nFor an investor with a high tolerance for risk, IonQ offers asymmetric upside. The stock could multiply in value if quantum computing delivers on its promise by 2030. The key is prudent position sizing. A small allocation of 1% to 2% of a portfolio could capture the potential gains while limiting the downside.\n\nThink of IonQ as you would a biotech company before its first blockbuster drug. While most experimental drugs fail, the winners can generate a 100-fold return. Quantum computing may follow a similar path, rewarding the early believers who backed the eventual winner in a race that has just begun.\n\nShould you invest $1,000 in IonQ right now?\n\nBefore you buy stock in IonQ, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and IonQ wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $661,220!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,114,162!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,069% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nGeorge Budwell has positions in IonQ and Microsoft. The Motley Fool has positions in and recommends Alphabet, Amazon, International Business Machines, and Microsoft. The Motley Fool recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.\n\nIonQ Stock: A High-Stakes Play on the Quantum Future was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "IONQ Inc",
+          "sector": "Technology",
+          "industry": "Computer Hardware",
+          "employees": 407,
+          "description": "IonQ, Inc. develops quantum computers and networks in the United States. It sells access to quantum computers of various qubit capacities. The company also makes access to its quantum computers through cloud platforms, such as Amazon Web Services (AWS) Amazon Braket, Microsoft's Azure Quantum, and G"
+        },
+        "financial_metrics": {
+          "eps_ttm": -2.06,
+          "profit_margin": 0,
+          "operating_margin": -7.7603,
+          "roe": -0.5656,
+          "roa": -0.246,
+          "revenue_growth_yoy": 0.818,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.718,
+          "eps_estimate_next_year": -0.996,
+          "revenue_ttm": 52370000,
+          "revenue_per_share": 0.23,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 0,
+          "price_to_sales": 234.7748,
+          "price_to_book": 10.5844,
+          "enterprise_value": 11771047977,
+          "ev_to_revenue": 224.767,
+          "ev_to_ebitda": -10.3315
+        },
+        "technical_data": {
+          "beta": 2.537,
+          "52_week_high": 54.74,
+          "52_week_low": 6.54,
+          "50_day_ma": 41.578,
+          "200_day_ma": 34.9717,
+          "short_interest": 0.1395,
+          "short_ratio": 2.01
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.4,
+          "target_price": 51,
+          "strong_buy": 3,
+          "buy": 1,
+          "hold": 1,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 296840992,
+          "percent_institutions": 45.062999999999995,
+          "percent_insiders": 3.2039999999999997,
+          "shares_float": 289419819
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1346.608,
+          "total_debt": 19.265,
+          "net_debt": -120.802,
+          "working_capital": 545.253,
+          "shareholders_equity": 1161.633,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.02
+        },
+        "income_latest_statement": {
+          "total_revenue": 20.694,
+          "gross_profit": 1.751,
+          "operating_income": -146.492,
+          "net_income": -176.838,
+          "ebitda": -182.183,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 8.46,
+          "operating_margin": -707.9,
+          "net_margin": -854.54
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -85.088,
+          "free_cash_flow": -88.589,
+          "capex": 3.501,
+          "net_income": -201.852,
+          "cash_change": 143.512,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.29,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 44.87,
+            "high": 47.64,
+            "low": 44.02,
+            "close": 46.51,
+            "volume": 25760410
+          },
+          {
+            "date": "2025-07-21",
+            "open": 46.81,
+            "high": 47.725,
+            "low": 44.42,
+            "close": 44.43,
+            "volume": 23906961
+          },
+          {
+            "date": "2025-07-22",
+            "open": 44.52,
+            "high": 44.54,
+            "low": 41.29,
+            "close": 41.94,
+            "volume": 18995740
+          },
+          {
+            "date": "2025-07-23",
+            "open": 42.74,
+            "high": 43.54,
+            "low": 41.785,
+            "close": 43.28,
+            "volume": 14455130
+          },
+          {
+            "date": "2025-07-24",
+            "open": 42.89,
+            "high": 44.64,
+            "low": 42.25,
+            "close": 43.9,
+            "volume": 18006270
+          },
+          {
+            "date": "2025-07-25",
+            "open": 44.24,
+            "high": 44.25,
+            "low": 42.94,
+            "close": 43.17,
+            "volume": 13392030
+          },
+          {
+            "date": "2025-07-28",
+            "open": 43.92,
+            "high": 44.53,
+            "low": 41.435,
+            "close": 42.34,
+            "volume": 16976721
+          },
+          {
+            "date": "2025-07-29",
+            "open": 43.01,
+            "high": 44.21,
+            "low": 40.3501,
+            "close": 40.53,
+            "volume": 21070279
+          },
+          {
+            "date": "2025-07-30",
+            "open": 40.975,
+            "high": 41.86,
+            "low": 39.23,
+            "close": 39.88,
+            "volume": 17861420
+          },
+          {
+            "date": "2025-07-31",
+            "open": 41.12,
+            "high": 42.275,
+            "low": 39.62,
+            "close": 39.87,
+            "volume": 21572670
+          },
+          {
+            "date": "2025-08-01",
+            "open": 38.94,
+            "high": 39.1926,
+            "low": 37.25,
+            "close": 38.12,
+            "volume": 20028189
+          },
+          {
+            "date": "2025-08-04",
+            "open": 38.99,
+            "high": 40.6956,
+            "low": 38.42,
+            "close": 39.86,
+            "volume": 16131420
+          },
+          {
+            "date": "2025-08-05",
+            "open": 40.64,
+            "high": 42.44,
+            "low": 40.13,
+            "close": 42.02,
+            "volume": 22060461
+          },
+          {
+            "date": "2025-08-06",
+            "open": 43.6,
+            "high": 43.6,
+            "low": 40.78,
+            "close": 41.23,
+            "volume": 23969631
+          },
+          {
+            "date": "2025-08-07",
+            "open": 38.98,
+            "high": 41.5778,
+            "low": 38.61,
+            "close": 40.49,
+            "volume": 27970430
+          },
+          {
+            "date": "2025-08-08",
+            "open": 40.51,
+            "high": 42.3688,
+            "low": 40.4101,
+            "close": 41.85,
+            "volume": 20441529
+          },
+          {
+            "date": "2025-08-11",
+            "open": 41.95,
+            "high": 46.82,
+            "low": 41.41,
+            "close": 44.94,
+            "volume": 35598848
+          },
+          {
+            "date": "2025-08-12",
+            "open": 44.65,
+            "high": 44.97,
+            "low": 42.63,
+            "close": 43,
+            "volume": 20835609
+          },
+          {
+            "date": "2025-08-13",
+            "open": 43.23,
+            "high": 43.5,
+            "low": 40.75,
+            "close": 41.21,
+            "volume": 20702320
+          },
+          {
+            "date": "2025-08-14",
+            "open": 40.51,
+            "high": 41.12,
+            "low": 39.28,
+            "close": 41.03,
+            "volume": 16638150
+          },
+          {
+            "date": "2025-08-15",
+            "open": 40.78,
+            "high": 40.8289,
+            "low": 39.42,
+            "close": 40.23,
+            "volume": 10334820
+          },
+          {
+            "date": "2025-08-18",
+            "open": 40,
+            "high": 40.5,
+            "low": 39.01,
+            "close": 40.23,
+            "volume": 8204336
+          },
+          {
+            "date": "2025-08-19",
+            "open": 40.22,
+            "high": 40.29,
+            "low": 36.585,
+            "close": 36.8,
+            "volume": 18738430
+          },
+          {
+            "date": "2025-08-20",
+            "open": 37.38,
+            "high": 37.41,
+            "low": 34.77,
+            "close": 36.79,
+            "volume": 16401260
+          },
+          {
+            "date": "2025-08-21",
+            "open": 37.25,
+            "high": 37.3771,
+            "low": 36.45,
+            "close": 37.17,
+            "volume": 10120960
+          },
+          {
+            "date": "2025-08-22",
+            "open": 37.1,
+            "high": 39.92,
+            "low": 36.65,
+            "close": 39.78,
+            "volume": 15199380
+          },
+          {
+            "date": "2025-08-25",
+            "open": 39.7,
+            "high": 39.82,
+            "low": 38.53,
+            "close": 38.68,
+            "volume": 12158680
+          },
+          {
+            "date": "2025-08-26",
+            "open": 38.85,
+            "high": 40.92,
+            "low": 38.71,
+            "close": 40.75,
+            "volume": 13548860
+          },
+          {
+            "date": "2025-08-27",
+            "open": 41.02,
+            "high": 42.6701,
+            "low": 40.77,
+            "close": 41.42,
+            "volume": 17335750
+          },
+          {
+            "date": "2025-08-28",
+            "open": 41.55,
+            "high": 43.73,
+            "low": 41.45,
+            "close": 43.3,
+            "volume": 16109085
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 8.602959618760973,
+        "return_63d": 7.337630143777872,
+        "pct_above_sma50": 3.878780899738961,
+        "sma_50": 41.68320000000001,
+        "new_55d_high": "False",
+        "high_55d": 47.88,
+        "rsi": 53.63408521303258,
+        "rsi_in_range": "True",
+        "adx": 7.490525381486601,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.6991108545034646,
+        "bb_width": 21.368379714670166,
+        "keltner_width": 24.466473276362773,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 733122547.2929999,
+        "adv_shares": 18126407.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.19195505458109,
+        "final_score": 48.19195505458109,
+        "sub_scores": {
+          "trend_momentum": 15.528561115187202,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.66339393939389,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 8.575727181544623,
+          "ret_63d": 0.23148148148146586,
+          "rsi14": 53.63408521303258,
+          "adx14": 7.617272824370231,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: IONQ\n• Current Price: $43.3\n• Overall Score: 53.0889559163046\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 41.578\n• Sma 200: 34.9717\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 8.57572718154462\n• Momentum 63D: 0.23148148148146833\n• Momentum 126D: 73.82577278201524\n• Momentum Acceleration: 8.344245700063151\n• Roc 21D: 8.57572718154462\n• Trend Strength 20D: 0.020167787685547087\n• Trend Direction: -1\n• Ma Ribbon Score: 85.77833925075873\n• Breakout Strength: 0.0\n• Price Velocity: 0.03158245581148942\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 46.0\n• Squeeze Momentum: 0.0795862358520016\n• Volatility Compression: 70.95665020160632\n• Is Consolidating: False\n• Breakout Score: 17.493435063200838\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.528561115187202\n• Squeeze Breakout: 4.0\n• Options Quality: 17.66339393939389\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 65.0\n• Squeeze: 60.64349753024095\n• Options: 42.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: IONQ\n• Strike Price: $40\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $8.2\n• Ask: $8.3\n• Last: $8.15\n• Mid: $8.25\n• Spread: 1.204819277108433734939759036%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6551\n• Gamma: 0.0217\n• Theta: -0.0394\n• Vega: 0.076\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.8242\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 39\n• Open Interest: 863\n• Volume/OI Ratio: 0.04519119351100811\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: IONQ Inc\n• Sector: Technology\n• Industry: Computer Hardware\n• EPS (TTM): $-2.06\n• ROE: -56.6%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T21:06:43+00:00: Quantum Computing Stocks Rally After Cluster of Positive Headlines...\n• 2025-08-28T17:49:00+00:00: IonQ (IONQ) Enhances Board With Industry Veterans William Teuber Jr. And Jim Fra...\n• 2025-08-28T14:48:00+00:00: Can Rigetti Computing's Margin Recover After Second-Quarter Pressure?...\n• 2025-08-28T13:02:00+00:00: IonQ Stock Gets a Buy Rating. Why It’s Poised to Dominate  Quantum Computing....\n• 2025-08-28T12:00:00+00:00: IonQ Stock: A High-Stakes Play on the Quantum Future...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR IONQ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the IONQ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:29:00.713161",
+    "estimated_tokens": 2318
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"IONQ\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"IONQ shows strong technical momentum with an 85.8 MA ribbon score and multiple squeeze conditions, but faces significant fundamental challenges with negative EPS and ROE. The options setup offers decent liquidity with tight spreads (1.2%), though elevated IV at 82% suggests caution.\",\n    \"opportunities\": [\n        \"Strong technical trend with SMA50 (41.58) above SMA200 (34.97)\",\n        \"Active squeeze condition with 46-day duration and positive momentum\",\n        \"Tight option spreads (1.2%) with reasonable OI (863) for LEAPS\",\n        \"Multiple positive news catalysts in quantum computing sector\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -$2.06 EPS and -56.6% ROE\",\n        \"Earnings approaching on 2025-09-30\",\n        \"High implied volatility at 82.42%\",\n        \"Relatively low options volume (39) despite decent open interest\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread instead of outright calls to mitigate high IV\",\n        \"entry_timing\": \"Defer entry until after earnings report due to near-term event risk\",\n        \"risk_management\": \"Use 40-strike LEAPS for better theta decay profile, consider 30% stop loss\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 30 days\",\n        \"Negative earnings and poor fundamental metrics\",\n        \"Low daily options volume could impact exit liquidity\"\n    ],\n    \"notes\": \"While technical setup is compelling, fundamental weakness and upcoming earnings create elevated risk profile. Consider reducing position size or waiting for earnings clarity.\"\n}",
+    "parsed_analysis": {
+      "symbol": "IONQ",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "IONQ shows strong technical momentum with an 85.8 MA ribbon score and multiple squeeze conditions, but faces significant fundamental challenges with negative EPS and ROE. The options setup offers decent liquidity with tight spreads (1.2%), though elevated IV at 82% suggests caution.",
+      "opportunities": [
+        "Strong technical trend with SMA50 (41.58) above SMA200 (34.97)",
+        "Active squeeze condition with 46-day duration and positive momentum",
+        "Tight option spreads (1.2%) with reasonable OI (863) for LEAPS",
+        "Multiple positive news catalysts in quantum computing sector"
+      ],
+      "risks": [
+        "Poor fundamentals with -$2.06 EPS and -56.6% ROE",
+        "Earnings approaching on 2025-09-30",
+        "High implied volatility at 82.42%",
+        "Relatively low options volume (39) despite decent open interest"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread instead of outright calls to mitigate high IV",
+        "entry_timing": "Defer entry until after earnings report due to near-term event risk",
+        "risk_management": "Use 40-strike LEAPS for better theta decay profile, consider 30% stop loss"
+      },
+      "red_flags": [
+        "Imminent earnings event within 30 days",
+        "Negative earnings and poor fundamental metrics",
+        "Low daily options volume could impact exit liquidity"
+      ],
+      "notes": "While technical setup is compelling, fundamental weakness and upcoming earnings create elevated risk profile. Consider reducing position size or waiting for earnings clarity."
+    },
+    "tokens_used": 2587,
+    "cost": 0.025869999999999997,
+    "response_time": 12.90138053894043,
+    "success": true
+  },
+  "cost": 0.025869999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8485,
+    "response_length": 1867
+  }
+}

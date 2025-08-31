@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "NKE",
+  "timestamp": "2025-08-29T06:24:56.241219",
+  "data_package": {
+    "metadata": {
+      "symbol": "NKE",
+      "package_timestamp": "2025-08-29T06:24:45.648568",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NKE",
+        "current_price": 77.92,
+        "overall_score": 54.98162472282247,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 73.2462,
+        "sma_200": 70.4049
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.6171100678142862,
+        "momentum_63d": 26.822916666666675,
+        "momentum_126d": -2.624343914021488,
+        "momentum_acceleration": -25.205806598852387,
+        "roc_21d": 1.6171100678142862,
+        "trend_strength_20d": 0.7425310123820036,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.00461896933314625
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 11.0,
+        "squeeze_momentum": 0.1190088324782333,
+        "volatility_compression": 70.15672152997972,
+        "is_consolidating": "False",
+        "breakout_score": 30.014561523463005,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.454563336410526,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.340800000000016,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 64.0,
+        "squeeze": 60.523508229496954,
+        "options": 42.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 3,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NKE",
+        "strike_price": "75",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.95",
+        "ask": "6.05",
+        "last_price": "6",
+        "mid_price": "6.00",
+        "spread_percent": "1.652892561983471074380165289"
+      },
+      "greeks": {
+        "delta": 0.6428,
+        "gamma": 0.0343,
+        "theta": -0.0456,
+        "vega": 0.1076
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3774
+      },
+      "liquidity_metrics": {
+        "volume": 21,
+        "open_interest": 4118,
+        "volume_oi_ratio": 0.005099562894609034
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:09.852182",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T01:27:54+00:00",
+            "title": "Nike Reportedly To Cut More Jobs",
+            "content": "(RTTNews) - Nike (NKE) is planning another round of job cuts to help the company grow again, according to CNBC. The layoffs will affect fewer than 1% of Nike's office staff. It's not clear how many people will lose their jobs, but the EMEA region and Converse brand won't be affected.\n\nBack in February, Nike reportedly said it would cut 2% of its workforce—over 1,500 jobs—as part of a bigger plan to reorganize. This new round of layoffs is part of CEO Elliott Hill's effort to change how teams work inside the company.\n\nEarlier, under former CEO John Donahoe, Nike changed its business setup. Instead of organizing by sport, the company started dividing its products into women's, men's, and kids' categories to grow its lifestyle business. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T22:00:00+00:00",
+            "title": "Athletic footwear shift: Why Nike's dominance is slipping",
+            "content": "Nike's (NKE) lead in athletic retail could be slipping, according to Stifel.\n\nPeter McGoldrick, Stifel sports and lifestyle brands analyst, joins Market Domination Overtime with Yahoo Finance Senior Business Reporter Ines Ferré to break down how changing trends and style preferences are reshaping the space.\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination Overtime.\n\nVideo Transcript\n\n00:00 Speaker A\n\nStifel conducted checks at 110 different athletic specialty and sporting goods retail doors. What we're seeing is Nike's dominance in this space is being tested. Nike's popularity was 38% for the most popular store. That's down 23 percentage points year-over-year and the lowest level we've ever seen dating back to the beginning of our checks in 2008. So, that's still a leadership position, but their their leadership is narrowing and we're seeing the greater competition from the likes of New Balance and Adidas.\n\n00:42 Speaker B\n\nAnd what is it that are that consumers are sort of gravitating towards? Is it the specific designs? Is it price points?\n\n00:55 Speaker A\n\nFor sure. So we're seeing greater diversity of style choice than we've ever seen before. And what I'd point to here is the retro runner craze. This is led by New Balance. It's the hottest part of the market, but it's also the most crowded with uh credible offerings from New Balance, Nike, Asics and increasingly Saucony. So, people are moving towards this retro runner style and the hoops classics, which is a an area of the market that is dominated by Nike and Jordan, is losing steam.\n\n01:29 Speaker B\n\nAnd what about e-commerce? Because Nike has been big in e-commerce. Uh what's their popularity like there?\n\n01:39 Speaker A\n\nSure. So we actually saw Nike e-commerce increase year-over-year. and what we believe is going on there is Nike is long the default brand purchase for back to school. but in a uh physical environment where people can touch and feel the product, there are other alternatives that consumers are moving towards. and again, I'd point out New Balance and Adidas.  Related Videos\n\n03:41\n\nFurniture stocks fall on Trump's tariff threats: What to know\n\nYahoo Finance Video • 3 days ago 02:26\n\nEthereum hit a record high over the weekend: Here's what to know\n\nYahoo Finance Video • 3 days ago 02:11\n\nStablecoin adoption is driving demand for US Treasury bills\n\nYahoo Finance Video • 6 days ago 04:50\n\n4 goals of Lisa Cook's lawsuit against Trump, the Fed, & Powell\n\nYahoo Finance Video • 2 hours ago\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T21:23:00+00:00",
+            "title": "Gap Beat Earnings. The Stock Is Dropping.",
+            "content": "Gap topped second-quarter earnings expectations, but the stock fell Thursday after the retailer warned that tariffs would affect profit margins. Shares of Gap, which owns Old Navy, Gap, Banana Republic, and Athleta, were down 6% in after-hours trading Thursday. The company’s adjusted earnings per share for the quarter ended Aug. 2 were 57 cents, ahead of expectations for 55 cents a share.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:15:24+00:00",
+            "title": "Gap CEO on earnings: One of our most important brands has begun its turnaround",
+            "content": "When classic American brands get a visit by the tariff man.\n\nGap (GAP) reported better-than-expected second quarter earnings on Thursday evening, powered again by its namesake division. The business has turned the corner amid more fashionable wares and frequent online marketing blitzes.\n\nMeanwhile, Old Navy continued its steady performance while the long-struggling Banana Republic division showed signs of moving beyond an inflection point.\n\nGap CEO Richard Dickson tells me he believes the upscale brand has finally begun its long-sought-after turnaround.\n\nBut the company took a more cautious approach to its full-year margin outlook amid more certainty on tariffs. The downward guidance tweak could feed some concerns as Gap enters the key fall selling season.\n\n\"Given Gap's portfolio positioning (Old Navy in the value channel), we do not view pricing power as a significant offset to tariffs (implying gross margin pressure to Gap). While top line trends across most of the portfolio seem solid, lack of visibility into gross margin pressures abating make it difficult to see upside to EPS,\" Citi analyst Paul Lejuez said.\n\nEarnings analysis\n\nNet sales: Flat year over year to $3.7 billion, vs. $3.73 billion estimate Comparable sales:\n\nOld Navy: +2% compared to +5% last year, vs. +2.03% estimate Banana Republic: +4% compared to 0% last year, vs. +0.4% estimate Gap: +4% compared to +3% last year, vs. +3.83% estimate Athleta: -9% compared to -4% last year, vs. -5.83% estimate Gross margin: 41.2% compared to 42.6% last year, vs. 41.9% estimate Diluted earnings per share: $0.57 vs. $0.54 estimate\n\nWhat else caught our attention\n\nTrade war effects: Inventory levels rose 9% from the prior year. Trend watch: The company's same-store sales have gained for six straight quarters. Flush with cash: The company's total cash position surged 13% year over year to $2.4 billion. Warning:If tariffs stay in place at current levels, it could cost Gap $250 million to $300 million this year. Guidance does not include this impact, Gap says. The company adds it could mitigate about half of the tariff impact, bringing a $100 million to $150 million potential hit to operating income.\n\nGuidance:\n\n2025\n\nNet sales: +1% to +2% (reiteration) Operating margin: +6.7% to +7% (last year: 7.4%; previous estimate: 7.86% to 7.9%) Q3 2025\n\nNet sales: +1.5% to 2.5% (estimate: +3%) Gross margin: down 150 to 170 basis points year over year\n\nBrian Sozzi is Yahoo Finance's Executive Editor and a member of Yahoo Finance's editorial leadership team. Follow Sozzi on X @BrianSozzi, Instagram, and LinkedIn. Tips on stories? Email brian.sozzi@yahoofinance.com.\n\nStory Continues\n\nClick here for the latest stock market news and in-depth analysis, including events that move stocks\n\nRead the latest financial and business news from Yahoo Finance\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:15:12+00:00",
+            "title": "Nike-Apple and 2 Other Brand Collabs That Sent Stocks Soaring — Are They Still Good Investments?",
+            "content": "When powerhouse brands join forces — think tech meets athletics or fashion meets value — both consumer excitement and stock markets often respond. Legendary partnerships like Nike x Apple, Target x Missoni, and Adidas x Yeezy didn’t just spark media buzz, they triggered clear stock performance gains.\n\nBut are these brand collaborations still smart investments today, especially for U.S. investors?\n\nRead More: Self-Made Millionaires Suggest 5 Stocks You Should Never Sell\n\nFind Out: The 5 Car Brands Named the Least Reliable of 2025\n\nBrand collabs like Nike-Apple, Target-Missoni, and Adidas-Yeezy delivered immediate stock boosts.\n\nAccording to finance expert Andrew Lokenauth with Be Fluent in Finance, “Successful brand collabs typically provide a short-term stock boost–but long-term performance depends on fundamentals.”\n\nBelow, explore three standout deals he says shaped markets — and whether they’re still worth a bet now.\n\nNike-Apple Tech Tie-Up: Boosting Stocks by 8%\n\nNearly 20 years ago, Nike and Apple first teamed up for the Nike + iPod Sport Kit — cutting-edge tech that merged fitness tracking with digital music-which was designed to “change the way people run,” former Nike President and CEO Mark Parker said in the 2006 press release announcing the partnership.\n\nIt was a highly successful alliance that led to several other collaborations over the last two decades. One key reason this partnership has thrived is the smooth integration between both platforms — a hallmark of Apple’s ecosystem, which helped solidify brand loyalty and lure new customers for both, the CMO Club reported.\n\nIn terms of the financial impact, Lokenauth said the partnership “sent both stocks up about 8% in the following month.” He explained, “Apple’s stock jumped from $65 to $71, while Nike saw gains from $42 to $45. I remember watching this unfold — it was a perfect marriage of tech and athletics that transformed both sectors.”\n\nNike and Apple have continued to team up over the years, and Lokenauth explained that Apple remains a strong buy.\n\n“Their services revenue keeps growing (now over $85B annually), and their brand collaborations continue driving hardware sales,” he said. “I’ve held Apple stock for years and keep adding on dips.”\n\nFor Nike, it’s a safe bet to invest long-term.\n\nStory Continues\n\n“Their direct-to-consumer strategy is working ($5B+ in digital sales), and partnerships with tech companies keep them innovative,” said Lokenauth. “I’ve been steadily accumulating shares under $100.”\n\nTarget Meets Missoni: 22% Stock Jump — but Can It Last?\n\nIn 2011, Target sent fashionistas into a frenzy with its collaboration with the high-end brand Missoni. Shoppers could get their hands on luxury goods without taking out a loan, while Missoni attracted a new customer base.\n\n“Working with Target to create a mass collection that reflects the spirit of Missoni has been extremely energizing,” said Angela Missoni in a 2011 press release. “Each piece is special to me because so much thought and care went into every aspect of the design.”\n\nAccording to Lokenauth, “The Target x Missoni was mind-blowing.” He said, “Target’s stock soared 22% to $51.40 after the collection sold out in hours. I actually tried buying some pieces myself, but the website crashed — that’s how insane the demand was.”\n\nTarget has had a rough few years with the pandemic, inflation, less exciting collaborations, political ties, and DEI rollback, per CNBC. The outlet reported  shares have dropped 61% since 2021, and Lokenauth agrees that investing in Target right now is “trickier.”\n\nHe explained, “While their designer collabs still generate buzz, margins are getting squeezed by inflation and inventory issues. I’d wait for a better entry point — maybe around $130-140.”\n\nAdidas-Yeezy Empire: $2 Billion, Then Earnings Eroded\n\nOne of the most lucrative deals between a musician and the fashion world was between Adidas and Kanye West. In 2021, Yeezy was valued at between $3.2 billion and $4.7 billion, Bloomberg reported, and Lokenauth said, “Adidas x Yeezy (2015-2022) drove Adidas stock up roughly 30% in the first year.”\n\nHe added, “The collab generated about $2 billion annually for Adidas before ending. I’d watched this partnership evolve from footwear to a full fashion empire.”\n\nHowever, in 2022, Adidas terminated its partnership with the rapper due to antisemitism remarks, per CNN, and is still recovering from the blowout, Lokenauth said.\n\n“At current prices ($30-35 range), there’s decent upside potential,” he explained. “They’re refocusing on core products and new collabs. I started building a small position recently.”\n\nBrand collaborations can be financially rewarding as an investor, but Lokenauth suggests “looking beyond the hype and focus on solid business metrics.”\n\nMore From GOBankingRates\n\nRachel Cruze: The Real Reason Couples Fight About Money  6 Best Items Retirees Should Buy at Costco During Labor Day  4 Things You Should Do When Your Salary Hits $100K  The New Retirement Problem Boomers Are Facing\n\nThis article originally appeared on GOBankingRates.com: Nike-Apple and 2 Other Brand Collabs That Sent Stocks Soaring — Are They Still Good Investments?\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Nike Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Footwear & Accessories",
+          "employees": 77800,
+          "description": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic and casual footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company of"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.16,
+          "profit_margin": 0.0695,
+          "operating_margin": 0.0289,
+          "roe": 0.2329,
+          "roa": 0.062,
+          "revenue_growth_yoy": -0.12,
+          "earnings_growth_yoy": -0.862,
+          "eps_estimate_current_year": 2.1498,
+          "eps_estimate_next_year": 1.8652,
+          "dividend_yield": 0.0201,
+          "dividend_per_share": 1.57,
+          "revenue_ttm": 46308999168,
+          "revenue_per_share": 31.187,
+          "most_recent_quarter": "2025-05-31"
+        },
+        "valuation": {
+          "pe_ratio": 36.0741,
+          "forward_pe": 45.8716,
+          "price_to_sales": 2.485,
+          "price_to_book": 8.7253,
+          "enterprise_value": 117154086585,
+          "ev_to_revenue": 2.5298,
+          "ev_to_ebitda": 25.9765
+        },
+        "technical_data": {
+          "beta": 1.276,
+          "52_week_high": 89.1136,
+          "52_week_low": 51.9349,
+          "50_day_ma": 73.2462,
+          "200_day_ma": 70.4049,
+          "short_interest": 0.045,
+          "short_ratio": 3.94
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.6,
+          "forward_dividend_yield": 0.0205,
+          "payout_ratio": 0.7407,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-02",
+          "last_split_date": "2015-12-24",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7073,
+          "target_price": 78.9094,
+          "strong_buy": 13,
+          "buy": 6,
+          "hold": 20,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 1188019968,
+          "percent_institutions": 84.142,
+          "percent_insiders": 1.399,
+          "shares_float": 1170505094
+        },
+        "balance_latest_sheet": {
+          "total_assets": 36579.0,
+          "total_debt": 11018.0,
+          "cash_and_equivalents": 7464.0,
+          "net_debt": 3554.0,
+          "working_capital": 12796.0,
+          "shareholders_equity": 13213.0,
+          "quarter_date": "2025-05-31",
+          "debt_to_equity": 0.83
+        },
+        "income_latest_statement": {
+          "total_revenue": 11097.0,
+          "gross_profit": 4469.0,
+          "operating_income": 321.0,
+          "net_income": 211.0,
+          "ebitda": 318.0,
+          "quarter_date": "2025-05-31",
+          "gross_margin": 40.27,
+          "operating_margin": 2.89,
+          "net_margin": 1.9
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 463.0,
+          "free_cash_flow": 363.0,
+          "capex": 100.0,
+          "net_income": 211.0,
+          "cash_change": -1137.0,
+          "dividends_paid": 591.0,
+          "quarter_date": "2025-05-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-08-31",
+            "estimate": 0.27,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-08-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 73.28,
+            "high": 73.28,
+            "low": 72.12,
+            "close": 72.47,
+            "volume": 8801000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 72.93,
+            "high": 74.81,
+            "low": 72.91,
+            "close": 74.02,
+            "volume": 12743900
+          },
+          {
+            "date": "2025-07-22",
+            "open": 74.07,
+            "high": 75.54,
+            "low": 74.04,
+            "close": 75.39,
+            "volume": 11297500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 76.15,
+            "high": 77.21,
+            "low": 75.82,
+            "close": 76.75,
+            "volume": 16428100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 76.51,
+            "high": 77.54,
+            "low": 75.41,
+            "close": 75.42,
+            "volume": 10037800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 75.91,
+            "high": 76.57,
+            "low": 75.53,
+            "close": 76.27,
+            "volume": 7208400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 79,
+            "high": 79.99,
+            "low": 77.56,
+            "close": 79.24,
+            "volume": 22631100
+          },
+          {
+            "date": "2025-07-29",
+            "open": 78.76,
+            "high": 79.37,
+            "low": 77.76,
+            "close": 78.33,
+            "volume": 12885500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 77.78,
+            "high": 78.3,
+            "low": 75.96,
+            "close": 76.68,
+            "volume": 14601700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 76.35,
+            "high": 76.4,
+            "low": 74.31,
+            "close": 74.69,
+            "volume": 16700000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 73.44,
+            "high": 74.7,
+            "low": 72.53,
+            "close": 74.62,
+            "volume": 11911600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 75.03,
+            "high": 75.26,
+            "low": 74.16,
+            "close": 74.82,
+            "volume": 8839000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 74.91,
+            "high": 75.71,
+            "low": 74.24,
+            "close": 74.38,
+            "volume": 6533800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 74.47,
+            "high": 75.98,
+            "low": 74.25,
+            "close": 75.48,
+            "volume": 7579800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 76.32,
+            "high": 76.35,
+            "low": 74,
+            "close": 74.35,
+            "volume": 8717600
+          },
+          {
+            "date": "2025-08-08",
+            "open": 74.2,
+            "high": 74.96,
+            "low": 73.39,
+            "close": 74.19,
+            "volume": 6739000
+          },
+          {
+            "date": "2025-08-11",
+            "open": 74.32,
+            "high": 74.79,
+            "low": 73.05,
+            "close": 74.02,
+            "volume": 6985700
+          },
+          {
+            "date": "2025-08-12",
+            "open": 74.72,
+            "high": 75.72,
+            "low": 74.34,
+            "close": 74.9,
+            "volume": 6397700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 75.48,
+            "high": 77.69,
+            "low": 75.19,
+            "close": 77.2,
+            "volume": 13472600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 75.91,
+            "high": 76.6,
+            "low": 75.35,
+            "close": 76.39,
+            "volume": 7990500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 76.74,
+            "high": 77.5,
+            "low": 76.16,
+            "close": 76.97,
+            "volume": 9767700
+          },
+          {
+            "date": "2025-08-18",
+            "open": 77.11,
+            "high": 78.26,
+            "low": 76.85,
+            "close": 77.43,
+            "volume": 9069100
+          },
+          {
+            "date": "2025-08-19",
+            "open": 78.2,
+            "high": 78.79,
+            "low": 76.68,
+            "close": 76.88,
+            "volume": 7684800
+          },
+          {
+            "date": "2025-08-20",
+            "open": 76.69,
+            "high": 77.56,
+            "low": 76.16,
+            "close": 76.26,
+            "volume": 6282600
+          },
+          {
+            "date": "2025-08-21",
+            "open": 75.7,
+            "high": 76.23,
+            "low": 75.13,
+            "close": 76.18,
+            "volume": 6354900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 76.54,
+            "high": 79.14,
+            "low": 76.25,
+            "close": 78.38,
+            "volume": 10985900
+          },
+          {
+            "date": "2025-08-25",
+            "open": 78.47,
+            "high": 80.17,
+            "low": 78.39,
+            "close": 79.17,
+            "volume": 12488900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 79,
+            "high": 79.48,
+            "low": 78.38,
+            "close": 78.65,
+            "volume": 6874800
+          },
+          {
+            "date": "2025-08-27",
+            "open": 78.96,
+            "high": 79.51,
+            "low": 77.65,
+            "close": 78.06,
+            "volume": 12636700
+          },
+          {
+            "date": "2025-08-28",
+            "open": 78.58,
+            "high": 78.66,
+            "low": 77.72,
+            "close": 77.92,
+            "volume": 7475200
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.324541437943505,
+        "return_63d": 28.602079551081033,
+        "pct_above_sma50": 5.862948783092356,
+        "sma_50": 73.6046,
+        "new_55d_high": "False",
+        "high_55d": 80.17,
+        "rsi": 67.44621141253508,
+        "rsi_in_range": "True",
+        "adx": 29.669881545786467,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.214450718685835,
+        "bb_width": 8.628400458938529,
+        "keltner_width": 9.043540546560756,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 666925080.9375,
+        "adv_shares": 8739395.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.795363336410546,
+        "final_score": 50.795363336410546,
+        "sub_scores": {
+          "trend_momentum": 18.454563336410526,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.340800000000016,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.617110067814287,
+          "ret_63d": 26.822916666666675,
+          "rsi14": 67.44621141253508,
+          "adx14": 27.02168828759201,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NKE\n• Current Price: $77.92\n• Overall Score: 54.98162472282247\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 73.2462\n• Sma 200: 70.4049\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.6171100678142862\n• Momentum 63D: 26.822916666666675\n• Momentum 126D: -2.624343914021488\n• Momentum Acceleration: -25.205806598852387\n• Roc 21D: 1.6171100678142862\n• Trend Strength 20D: 0.7425310123820036\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.00461896933314625\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 11.0\n• Squeeze Momentum: 0.1190088324782333\n• Volatility Compression: 70.15672152997972\n• Is Consolidating: False\n• Breakout Score: 30.014561523463005\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.454563336410526\n• Squeeze Breakout: 4.0\n• Options Quality: 17.340800000000016\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 64.0\n• Squeeze: 60.523508229496954\n• Options: 42.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NKE\n• Strike Price: $75\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.95\n• Ask: $6.05\n• Last: $6\n• Mid: $6.00\n• Spread: 1.652892561983471074380165289%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6428\n• Gamma: 0.0343\n• Theta: -0.0456\n• Vega: 0.1076\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3774\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 21\n• Open Interest: 4118\n• Volume/OI Ratio: 0.005099562894609034\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Nike Inc\n• Sector: Consumer Cyclical\n• Industry: Footwear & Accessories\n• EPS (TTM): $2.16\n• Profit Margin: 7.0%\n• ROE: 23.3%\n• P/E Ratio: 36.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T01:27:54+00:00: Nike Reportedly To Cut More Jobs...\n• 2025-08-28T22:00:00+00:00: Athletic footwear shift: Why Nike's dominance is slipping...\n• 2025-08-28T21:23:00+00:00: Gap Beat Earnings. The Stock Is Dropping....\n• 2025-08-28T20:15:24+00:00: Gap CEO on earnings: One of our most important brands has begun its turnaround...\n• 2025-08-28T20:15:12+00:00: Nike-Apple and 2 Other Brand Collabs That Sent Stocks Soaring — Are They Still G...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-08-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NKE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NKE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:24:56.240812",
+    "estimated_tokens": 2319
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NKE\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NKE shows positive technical momentum with price above both 50 and 200 SMAs, supported by a current squeeze condition. However, imminent earnings and negative news sentiment around job cuts create near-term risk, while options metrics show moderate but not optimal conditions.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (50SMA: 73.24, 200SMA: 70.40)\",\n        \"Active volatility squeeze with 11-day duration and 70.15% compression\",\n        \"Reasonable options spread of 1.65% with healthy open interest of 4,118\"\n    ],\n    \"risks\": [\n        \"Imminent earnings release on 2025-08-31\",\n        \"Negative news sentiment regarding potential job cuts\",\n        \"Declining momentum acceleration (-25.20)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread instead of outright calls to reduce cost basis\",\n        \"entry_timing\": \"Defer entry until after earnings report due to event risk\",\n        \"risk_management\": \"Use 75 strike as support level, consider rolling down if price breaks below 50SMA at 73.24\"\n    },\n    \"red_flags\": [\n        \"Earnings in 3 days presents immediate binary risk\",\n        \"Recent negative headlines about workforce reduction\"\n    ],\n    \"notes\": \"While technical setup shows promise, timing is problematic due to imminent earnings. Consider reassessing after earnings for clearer risk/reward.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NKE",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NKE shows positive technical momentum with price above both 50 and 200 SMAs, supported by a current squeeze condition. However, imminent earnings and negative news sentiment around job cuts create near-term risk, while options metrics show moderate but not optimal conditions.",
+      "opportunities": [
+        "Price trending above key moving averages (50SMA: 73.24, 200SMA: 70.40)",
+        "Active volatility squeeze with 11-day duration and 70.15% compression",
+        "Reasonable options spread of 1.65% with healthy open interest of 4,118"
+      ],
+      "risks": [
+        "Imminent earnings release on 2025-08-31",
+        "Negative news sentiment regarding potential job cuts",
+        "Declining momentum acceleration (-25.20)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread instead of outright calls to reduce cost basis",
+        "entry_timing": "Defer entry until after earnings report due to event risk",
+        "risk_management": "Use 75 strike as support level, consider rolling down if price breaks below 50SMA at 73.24"
+      },
+      "red_flags": [
+        "Earnings in 3 days presents immediate binary risk",
+        "Recent negative headlines about workforce reduction"
+      ],
+      "notes": "While technical setup shows promise, timing is problematic due to imminent earnings. Consider reassessing after earnings for clearer risk/reward."
+    },
+    "tokens_used": 2537,
+    "cost": 0.025370000000000004,
+    "response_time": 10.590057373046875,
+    "success": true
+  },
+  "cost": 0.025370000000000004,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8475,
+    "response_length": 1677
+  }
+}

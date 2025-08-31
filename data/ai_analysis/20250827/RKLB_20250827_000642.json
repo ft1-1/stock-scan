@@ -1,0 +1,613 @@
+{
+  "success": true,
+  "symbol": "RKLB",
+  "timestamp": "2025-08-27T00:06:42.536296",
+  "data_package": {
+    "metadata": {
+      "symbol": "RKLB",
+      "package_timestamp": "2025-08-27T00:06:31.779716",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 61.25,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "RKLB",
+        "current_price": 48.59,
+        "overall_score": 52.960256410256406,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 40.9262,
+        "sma_200": 27.6112
+      },
+      "momentum_metrics": {
+        "momentum_21d": 6.694746176014195,
+        "momentum_63d": 67.35048678720446,
+        "momentum_126d": 137.32741617357001,
+        "momentum_acceleration": -60.65574061119027,
+        "roc_21d": 6.694746176014195,
+        "trend_strength_20d": 0.025598894332628432,
+        "trend_direction": 1,
+        "ma_ribbon_score": 90.0,
+        "breakout_strength": 83.39906914484057,
+        "price_velocity": 0.033382508891180177
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 8.0,
+        "squeeze_momentum": -0.029262206567346648,
+        "volatility_compression": 0.0,
+        "is_consolidating": "False",
+        "breakout_score": 88.3083276826215,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 24.40784685175796,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.529568352788573,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 60.0,
+        "squeeze": 50.0,
+        "options": 42.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 4,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "RKLB",
+        "strike_price": "47",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.35",
+        "ask": "6.5",
+        "last_price": "6.35",
+        "mid_price": "6.425",
+        "spread_percent": "2.307692307692307692307692308"
+      },
+      "greeks": {
+        "delta": 0.6102,
+        "gamma": 0.0275,
+        "theta": -0.0541,
+        "vega": 0.0704
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.7611
+      },
+      "liquidity_metrics": {
+        "volume": 207,
+        "open_interest": 911,
+        "volume_oi_ratio": 0.22722283205268934
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:01:49.953445",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T19:31:40+00:00",
+            "title": "Notable Tuesday Option Activity: RKLB, FLG, ASTS",
+            "content": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Rocket Lab Corp (Symbol: RKLB), where a total of 185,976 contracts have traded so far, representing approximately 18.6 million underlying shares.  That amounts to about 99.2% of RKLB's average daily trading volume over the past month of 18.7 million shares.  Especially high volume was seen for the $53 strike call option expiring August 29, 2025, with 16,774 contracts trading so far today, representing approximately 1.7 million underlying shares of RKLB.  Below is a chart showing RKLB's trailing twelve month trading history, with the $53 strike highlighted in orange:\n\nFlagstar Financial Inc (Symbol: FLG) options are showing a volume of 49,363 contracts thus far today.  That number of contracts represents approximately 4.9 million underlying shares, working out to a sizeable 79.5% of FLG's average daily trading volume over the past month, of 6.2 million shares. Especially high volume was seen for the $14 strike call option expiring October 17, 2025, with 24,153 contracts trading so far today, representing approximately 2.4 million underlying shares of FLG.  Below is a chart showing FLG's trailing twelve month trading history, with the $14 strike highlighted in orange:\n\nAnd AST SpaceMobile Inc (Symbol: ASTS) options are showing a volume of 68,018 contracts thus far today.  That number of contracts represents approximately 6.8 million underlying shares, working out to a sizeable 77.3% of ASTS's average daily trading volume over the past month, of 8.8 million shares. Particularly high volume was seen for the $53 strike call option expiring August 29, 2025, with 3,340 contracts trading so far today, representing approximately 334,000 underlying shares of ASTS.  Below is a chart showing ASTS's trailing twelve month trading history, with the $53 strike highlighted in orange:\n\nFor the various different available expirations for RKLB options, FLG options,  or ASTS options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  Louis Bacon Stock Picks\r\n  Top Ten Hedge Funds Holding PFLT\r\n  RVMD Stock Predictions\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T15:18:36+00:00",
+            "title": "AT&amp;T Expands 5G Empire With $23 Billion EchoStar Spectrum Acquisition",
+            "content": "EchoStar Corp. (NASDAQ:SATS) shares climbed on Tuesday after AT&T Inc. (NYSE:T) revealed plans to purchase spectrum licenses worth $23 billion in an all-cash transaction.\n\nThe move aims to bolster AT&T’s wireless and fiber network capacity while positioning the company as a long-term leader in advanced connectivity across the U.S.\n\nThe acquisition will deliver roughly 50 MHz of low-band and mid-band spectrum nationwide, covering more than 400 markets.\n\nAlso Read: Rocket Lab (RKLB) Stock Soars: What’s Fueling The Rally?\n\nThe deal is expected to close by mid-2026, pending regulatory approvals and other conditions.\n\nThrough this agreement, AT&T will gain about 30 MHz of 3.45 GHz mid-band spectrum and 20 MHz of 600 MHz low-band spectrum.\n\nThese additions will support AT&T’s 5G deployment plans while enhancing its ability to expand home internet offerings such as AT&T Internet Air.\n\nThe licenses also provide an avenue for the company to move legacy copper-based customers onto next-generation broadband and wireless services.\n\nAs part of the transaction, AT&T and EchoStar agreed to extend their wholesale network services deal. This arrangement enables EchoStar to continue offering mobile service under the Boost Mobile brand while leveraging AT&T’s network infrastructure.\n\n“This acquisition bolsters and expands our spectrum portfolio while enhancing customers’ 5G wireless and home internet experience in even more markets,” said John Stankey, chairman and CEO of AT&T.\n\nHe emphasized the company’s strategy of blending wireless and fiber services to create the strongest connectivity platform in the country.\n\nAT&T said it will finance the purchase through existing cash and incremental borrowings.\n\nThe company anticipates its debt-to-EBITDA ratio to rise temporarily to about 3x after closing, with a return to its leverage target of 2.5x over the following three years.\n\nAT&T also reaffirmed its 2025 guidance, including a $20 billion share repurchase program spanning 2025 through 2027.\n\nThe acquisition strengthens AT&T’s spectrum portfolio as it continues to battle rivals such as Verizon Communications Inc. (NYSE:VZ) and T-Mobile U.S. Inc. (NASDAQ:TMUS) in the race for nationwide 5G leadership.\n\nAccording to Benzinga Pro, T stock has gained over 45% in the past year. Investors can gain exposure to the stock via iShares U.S. Telecommunications ETF (BATS:IYZ).\n\n“The proceeds of this transaction will be used for, among other things, retiring certain debt obligations and funding EchoStar’s continued operations and growth initiatives,” said Hamid Akhavan, CEO and president, EchoStar. “We continue to evaluate strategic opportunities for our remaining spectrum portfolio in partnership with the U.S. government and wireless industry participants.”\n\nStory Continues\n\nAccording to Benzinga Pro, SATS stock has gained over 173% in the past year. Investors can gain exposure to the stock via Procure Space ETF (NASDAQ:UFO).\n\nPrice Action: SATS shares are trading higher by 80.19% to $54.14 at last check Tuesday. T shares are trading lower by 1.49% to $28.31 at the time of publication.\n\nRead Next:\n\nWhy Trump Media Stock Is Gaining Today\n\nPhoto by Jason Taylor AG via Shutterstock\n\nUp Next: Transform your trading with Benzinga Edge's one-of-a-kind market trade ideas and tools. Click now to access unique insights that can set you ahead in today's competitive market.\n\nGet the latest stock analysis from Benzinga?\n\nAT&T (T): Free Stock Analysis Report ECHOSTAR (SATS): Free Stock Analysis Report\n\nThis article AT&T Expands 5G Empire With $23 Billion EchoStar Spectrum Acquisition originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:31:55+00:00",
+            "title": "Rocket Lab Stock Climbs as $24M CHIPS Award and Neutron Launch Site Go Live",
+            "content": "This article first appeared on GuruFocus.\n\nAug 26 - Rocket Lab (NASDAQ:RKLB) rallied about 6% on Monday and 2% on early Tuesday after the company said it will boost U.S. investments to expand semiconductor manufacturing capacity and will open its Neutron launch complex in Virginia this week. The stock jumped as investors cheered the CHIPS-Actbacked funding and the prospect of a near-term operational milestone.\n\nIs RKLB fairly valued? Test your thesis with our free DCF calculator.\n\nRocket Lab said the initiative will shore up supply for space-grade solar cells and electro-optical sensors used in national-security missions; the company expects support from a roughly $23.9 million award under the CHIPS and Science Act.\n\nThe market also reacted to the planned opening of Launch Complex-3 in Wallops, Virginia, where Rocket Lab will base its medium-lift, reusable Neutron rocket. Management reaffirmed its target for a first Neutron flight before year-end, though some short-sellers and critics have pushed the timeline into 2026.\n\nAnalysts say a successful Neutron debut would validate Rocket Lab's leap into larger, reusable launchers and boost aftermarket revenue from government semiconductor work, but cautious investors may wait for a successful initial flight before stepping in.\n\nIs RKLB Stock a Buy?Rocket Lab Stock Climbs as $24M CHIPS Award and Neutron Launch Site Go Live\n\nBased on the one year price targets offered by 12 analysts, the average target price for Rocket Lab Corp is $44.87 with a high estimate of $55.00 and a low estimate of $20.00. The average target implies a downside of -4.97% from the current price of $47.22.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T10:06:46+00:00",
+            "title": "Rocket Lab (RKLB): Evaluating Valuation After Major U.S. Semiconductor Expansion and Federal Backing",
+            "content": "If you’ve been watching Rocket Lab (RKLB), the company’s headline-grabbing move this week probably made you wonder what all the fuss is about. Rocket Lab just announced a bold new investment to expand its U.S. semiconductor manufacturing capacity for space-grade components, and it’s not doing it alone. With a $23.9 million award from the Department of Commerce as part of the CHIPS and Science Act, Rocket Lab is relying on government support to strengthen its role in national security space missions and bolster the domestic supply chain for high-tech hardware.\n\nInvestors are taking note as this commitment signals more than just business as usual. Over the past year, Rocket Lab’s shares have returned just over 6%, while a dramatic surge over the past three months saw the stock jump 64%. That kind of momentum, coming after a string of expansion announcements such as a $275 million acquisition and aggressive hiring plans, suggests shifting views around the company’s long-term opportunity and risk profile.\n\nWith the market clearly responding to these changes, it’s worth asking: is Rocket Lab undervalued after this run, or is the market already pricing in every bit of future growth?\n\nMost Popular Narrative: 48.9% Overvalued\n\nAccording to the narrative by KiwiInvest, Rocket Lab’s current valuation is considered significantly above its fair value. This suggests the recent rally may have pushed the stock into overheated territory.\n\nRocket Lab needs to start achieving positive net margins so it can transform from being a company that burns shareholder funds into one that earns enough cash to self-invest into its growth. Neutron's successful operation should be that turning point, but Neutron's failure would risk the entire company.\n\nLooking for the inside story behind this valuation call? This perspective centers on bold revenue ambitions, a new flagship launch platform, and a surprising set of future profitability assumptions. Which key growth targets and margin shifts are at the heart of this overvaluation logic? Curious about what financial leap could turn the whole story upside down? Read on for the eye-opening metrics driving this narrative’s fair value calculation.\n\nResult: Fair Value of $31.72 (OVERVALUED)\n\nHave a read of the narrative in full and understand what's behind the forecasts.\n\nHowever, operational hurdles for Neutron or stronger competition from SpaceX could quickly challenge these bullish projections and change Rocket Lab’s market trajectory.\n\nFind out about the key risks to this Rocket Lab narrative.\n\nAnother View: SWS DCF Model Offers a Different Perspective\n\nWhile the first narrative points to Rocket Lab being overvalued, our DCF model also suggests the stock is trading above its fair value. This raises the question of whether there is genuine cause for concern or if it simply reflects different perspectives on growth potential.\n\nStory Continues\n\nLook into how the SWS DCF model arrives at its fair value.RKLB Discounted Cash Flow as at Aug 2025\n\nSimply Wall St performs a discounted cash flow (DCF) on every stock in the world every day (check out Rocket Lab for example). We show the entire calculation in full. You can track the result in your watchlist or portfolio and be alerted when this changes, or use our stock screener to discover undervalued stocks based on their cash flows. If you save a screener we even alert you when new companies match - so you never miss a potential opportunity.\n\nBuild Your Own Rocket Lab Narrative\n\nIf you see Rocket Lab’s story differently or want to explore the numbers for yourself, creating your own narrative takes just a few minutes. Do it your way.\n\nA great starting point for your Rocket Lab research is our analysis highlighting 1 key reward and 1 important warning sign that could impact your investment decision.\n\nReady for More Smart Portfolio Moves?\n\nWhy settle for just one promising idea when the market is overflowing with untapped potential? Broaden your search and accelerate your strategy by exploring some of the market’s most exciting trends and hidden gems. Here’s where you can find your next advantage:\n\nBoost your income potential by targeting established companies offering reliable returns with dividend stocks with yields > 3%. Tap into companies transforming healthcare with breakthrough artificial intelligence in healthcare AI stocks. Catch the next growth surge by uncovering market leaders currently trading below their real value with undervalued stocks based on cash flows.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include RKLB.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T03:36:54+00:00",
+            "title": "A Look Back at Aerospace Stocks’ Q2 Earnings: Rocket Lab (NASDAQ:RKLB) Vs The Rest Of The Pack",
+            "content": "Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let’s have a look at Rocket Lab (NASDAQ:RKLB) and its peers.\n\nAerospace companies often possess technical expertise and have made significant capital investments to produce complex products. It is an industry where innovation is important, and lately, emissions and automation are in focus, so companies that boast advances in these areas can take market share. On the other hand, demand for aerospace products can ebb and flow with economic cycles and geopolitical tensions, which can be particularly painful for companies with high fixed costs.\n\nThe 14 aerospace stocks we track reported a strong Q2. As a group, revenues beat analysts’ consensus estimates by 2.6% while next quarter’s revenue guidance was 0.8% below.\n\nWhile some aerospace stocks have fared somewhat better than others, they have collectively declined. On average, share prices are down 1.7% since the latest earnings results.\n\nRocket Lab (NASDAQ:RKLB)\n\nBecoming the first private company in the Southern Hemisphere to reach space, Rocket Lab (NASDAQ:RKLB) offers rockets designed for launching small satellites.\n\nRocket Lab reported revenues of $144.5 million, up 36% year on year. This print exceeded analysts’ expectations by 7%. Overall, it was a very strong quarter for the company with a solid beat of analysts’ EBITDA estimates and an impressive beat of analysts’ adjusted operating income estimates.Rocket Lab Total Revenue\n\nInterestingly, the stock is up 7.3% since reporting and currently trades at $47.46.\n\nIs now the time to buy Rocket Lab? Access our full analysis of the earnings results here, it’s free.\n\nBest Q2: AerSale (NASDAQ:ASLE)\n\nProviding a one-stop shop that integrates multiple services and product offerings, AerSale (NASDAQ:ASLE) delivers full-service support to mid-life commercial aircraft.\n\nAerSale reported revenues of $107.4 million, up 39.3% year on year, outperforming analysts’ expectations by 24.4%. The business had an incredible quarter with a beat of analysts’ EPS estimates and a solid beat of analysts’ EBITDA estimates.AerSale Total Revenue\n\nAerSale scored the biggest analyst estimates beat and fastest revenue growth among its peers. The market seems happy with the results as the stock is up 44.1% since reporting. It currently trades at $8.89.\n\nIs now the time to buy AerSale? Access our full analysis of the earnings results here, it’s free.\n\nWeakest Q2: Astronics (NASDAQ:ATRO)\n\nIntegrating power outlets into many Boeing aircraft, Astronics (NASDAQ:ATRO) is a provider of technologies and services to the global aerospace, defense, and electronics industries.\n\nStory Continues\n\nAstronics reported revenues of $204.7 million, up 3.3% year on year, falling short of analysts’ expectations by 1.7%. It was a slower quarter as it posted a significant miss of analysts’ EBITDA estimates.\n\nInterestingly, the stock is up 3.5% since the results and currently trades at $36.62.\n\nRead our full analysis of Astronics’s results here.\n\nHexcel (NYSE:HXL)\n\nFounded shortly after World War II by a group of engineers from UC Berkley, Hexcel (NYSE:HXL) manufactures lightweight composite materials primarily for the aerospace and defense sectors.\n\nHexcel reported revenues of $489.9 million, down 2.1% year on year. This number surpassed analysts’ expectations by 3%. Zooming out, it was a satisfactory quarter as it also logged full-year EPS guidance exceeding analysts’ expectations but a miss of analysts’ EBITDA estimates.\n\nThe stock is flat since reporting and currently trades at $62.37.\n\nRead our full, actionable report on Hexcel here, it’s free.\n\nTextron (NYSE:TXT)\n\nListed on the NYSE in 1947, Textron (NYSE:TXT) provides products and services in the aerospace, defense, industrial, and finance sectors.\n\nTextron reported revenues of $3.72 billion, up 5.4% year on year. This result beat analysts’ expectations by 2.4%. Overall, it was a very strong quarter as it also put up a solid beat of analysts’ EBITDA estimates and an impressive beat of analysts’ organic revenue estimates.\n\nThe stock is down 7.4% since reporting and currently trades at $80.76.\n\nRead our full, actionable report on Textron here, it’s free.\n\nMarket Update\n\nAs a result of the Fed’s rate hikes in 2022 and 2023, inflation has come down from frothy levels post-pandemic. The general rise in the price of goods and services is trending towards the Fed’s 2% goal as of late, which is good news. The higher rates that fought inflation also didn't slow economic activity enough to catalyze a recession. So far, soft landing. This, combined with recent rate cuts (half a percent in September 2024 and a quarter percent in November 2024) have led to strong stock market performance in 2024. The icing on the cake for 2024 returns was Donald Trump’s victory in the U.S. Presidential Election in early November, sending major indices to all-time highs in the week following the election. Still, debates around the health of the economy and the impact of potential tariffs and corporate tax cuts remain, leaving much uncertainty around 2025.\n\nWant to invest in winners with rock-solid fundamentals? Check out our 9 Best Market-Beating Stocks and add them to your watchlist. These companies are poised for growth regardless of the political or macroeconomic climate.\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Rocket Lab USA Inc.",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 2100,
+          "description": "Rocket Lab Corporation, a space company, provides launch services and space systems solutions in the United States, Canada, Japan, and internationally. The company provides launch services, spacecraft design services, spacecraft components, spacecraft manufacturing, and other spacecraft and on-orbit"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.46,
+          "profit_margin": -0.4587,
+          "operating_margin": -0.4127,
+          "roe": -0.4045,
+          "roa": -0.1013,
+          "revenue_growth_yoy": 0.36,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.2624,
+          "eps_estimate_next_year": -0.0207,
+          "revenue_ttm": 504263008,
+          "revenue_per_share": 0.998,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 0,
+          "price_to_sales": 45.1739,
+          "price_to_book": 33.0867,
+          "enterprise_value": 22589560073,
+          "ev_to_revenue": 44.7972,
+          "ev_to_ebitda": -16.437
+        },
+        "technical_data": {
+          "beta": 2.179,
+          "52_week_high": 53.44,
+          "52_week_low": 5.74,
+          "50_day_ma": 40.9262,
+          "200_day_ma": 27.6112,
+          "short_interest": 0.127,
+          "short_ratio": 2.4
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1333,
+          "target_price": 45.4,
+          "strong_buy": 7,
+          "buy": 3,
+          "hold": 5,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 482412992,
+          "percent_institutions": 64.716,
+          "percent_insiders": 1.7670000000000001,
+          "shares_float": 424253774
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1553.233,
+          "total_debt": 498.135,
+          "net_debt": -65.946,
+          "working_capital": 629.631,
+          "shareholders_equity": 688.485,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.72
+        },
+        "income_latest_statement": {
+          "total_revenue": 144.498,
+          "gross_profit": 46.388,
+          "operating_income": -59.639,
+          "net_income": -66.414,
+          "ebitda": -59.639,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 32.1,
+          "operating_margin": -41.27,
+          "net_margin": -45.96
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -23.242,
+          "free_cash_flow": -55.284,
+          "capex": 32.042,
+          "net_income": -66.414,
+          "cash_change": 260.737,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 45.55,
+            "high": 48.07,
+            "low": 44.86,
+            "close": 47.69,
+            "volume": 26770891
+          },
+          {
+            "date": "2025-07-17",
+            "open": 48.7,
+            "high": 53.44,
+            "low": 48.6,
+            "close": 51.33,
+            "volume": 46760168
+          },
+          {
+            "date": "2025-07-18",
+            "open": 50.65,
+            "high": 51.85,
+            "low": 47.91,
+            "close": 51.39,
+            "volume": 32919641
+          },
+          {
+            "date": "2025-07-21",
+            "open": 50.05,
+            "high": 51.58,
+            "low": 46.85,
+            "close": 47.19,
+            "volume": 29305900
+          },
+          {
+            "date": "2025-07-22",
+            "open": 45.99,
+            "high": 47.87,
+            "low": 44.46,
+            "close": 46.88,
+            "volume": 24381740
+          },
+          {
+            "date": "2025-07-23",
+            "open": 47.62,
+            "high": 49.28,
+            "low": 46.93,
+            "close": 49.15,
+            "volume": 18179910
+          },
+          {
+            "date": "2025-07-24",
+            "open": 49.3,
+            "high": 49.62,
+            "low": 47.31,
+            "close": 48.13,
+            "volume": 12600550
+          },
+          {
+            "date": "2025-07-25",
+            "open": 47.9,
+            "high": 48.23,
+            "low": 46.45,
+            "close": 47.43,
+            "volume": 14517930
+          },
+          {
+            "date": "2025-07-28",
+            "open": 47.955,
+            "high": 48.165,
+            "low": 44.41,
+            "close": 45.11,
+            "volume": 20928730
+          },
+          {
+            "date": "2025-07-29",
+            "open": 45.41,
+            "high": 45.51,
+            "low": 42.83,
+            "close": 43.79,
+            "volume": 14706520
+          },
+          {
+            "date": "2025-07-30",
+            "open": 43.86,
+            "high": 46.56,
+            "low": 43.36,
+            "close": 46.44,
+            "volume": 16853439
+          },
+          {
+            "date": "2025-07-31",
+            "open": 46.37,
+            "high": 47.72,
+            "low": 45.43,
+            "close": 45.92,
+            "volume": 13041470
+          },
+          {
+            "date": "2025-08-01",
+            "open": 43.195,
+            "high": 46.17,
+            "low": 42.315,
+            "close": 44.81,
+            "volume": 16566289
+          },
+          {
+            "date": "2025-08-04",
+            "open": 45.1,
+            "high": 45.8,
+            "low": 44.0701,
+            "close": 44.54,
+            "volume": 11625060
+          },
+          {
+            "date": "2025-08-05",
+            "open": 45.12,
+            "high": 45.38,
+            "low": 43.13,
+            "close": 44.75,
+            "volume": 10920430
+          },
+          {
+            "date": "2025-08-06",
+            "open": 44.71,
+            "high": 45.1,
+            "low": 43.67,
+            "close": 44.1,
+            "volume": 8051641
+          },
+          {
+            "date": "2025-08-07",
+            "open": 44.185,
+            "high": 44.58,
+            "low": 43.1,
+            "close": 44.21,
+            "volume": 21522061
+          },
+          {
+            "date": "2025-08-08",
+            "open": 47.54,
+            "high": 49.92,
+            "low": 43.5,
+            "close": 44.69,
+            "volume": 39170199
+          },
+          {
+            "date": "2025-08-11",
+            "open": 44.65,
+            "high": 46.1,
+            "low": 41.505,
+            "close": 45.02,
+            "volume": 24893551
+          },
+          {
+            "date": "2025-08-12",
+            "open": 45.37,
+            "high": 47.27,
+            "low": 43.42,
+            "close": 43.43,
+            "volume": 20922199
+          },
+          {
+            "date": "2025-08-13",
+            "open": 44,
+            "high": 44.7,
+            "low": 42.44,
+            "close": 43,
+            "volume": 14523640
+          },
+          {
+            "date": "2025-08-14",
+            "open": 42.76,
+            "high": 45.69,
+            "low": 42.01,
+            "close": 42.81,
+            "volume": 18472930
+          },
+          {
+            "date": "2025-08-15",
+            "open": 42.975,
+            "high": 44.88,
+            "low": 41.75,
+            "close": 44.27,
+            "volume": 14183120
+          },
+          {
+            "date": "2025-08-18",
+            "open": 44.3,
+            "high": 47.08,
+            "low": 44.03,
+            "close": 44.97,
+            "volume": 21268930
+          },
+          {
+            "date": "2025-08-19",
+            "open": 45.1,
+            "high": 45.16,
+            "low": 40.9,
+            "close": 40.92,
+            "volume": 24104830
+          },
+          {
+            "date": "2025-08-20",
+            "open": 40.21,
+            "high": 40.86,
+            "low": 38.26,
+            "close": 40.69,
+            "volume": 20325039
+          },
+          {
+            "date": "2025-08-21",
+            "open": 40.78,
+            "high": 41.87,
+            "low": 40.22,
+            "close": 41.53,
+            "volume": 14951470
+          },
+          {
+            "date": "2025-08-22",
+            "open": 40.97,
+            "high": 44.684,
+            "low": 40.4194,
+            "close": 44.38,
+            "volume": 18818250
+          },
+          {
+            "date": "2025-08-25",
+            "open": 45.16,
+            "high": 49.59,
+            "low": 44.05,
+            "close": 47.22,
+            "volume": 30133230
+          },
+          {
+            "date": "2025-08-26",
+            "open": 47.73,
+            "high": 50.92,
+            "low": 47,
+            "close": 48.13,
+            "volume": 47653828
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 9.910938570449883,
+        "return_63d": 66.36709298306258,
+        "pct_above_sma50": 17.422173675587135,
+        "sma_50": 41.380599999999994,
+        "new_55d_high": "False",
+        "high_55d": 53.44,
+        "rsi": 61.845972957084065,
+        "rsi_in_range": "True",
+        "adx": 16.001553545786376,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 6.805994182422606,
+        "bb_width": 17.19643990409191,
+        "keltner_width": 29.55048660120015,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 903550156.60745,
+        "adv_shares": 20400080.3,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 56.93741520454653,
+        "final_score": 56.93741520454653,
+        "sub_scores": {
+          "trend_momentum": 24.40784685175796,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.529568352788573,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 6.694746176014199,
+          "ret_63d": 67.35048678720446,
+          "rsi14": 61.845972957084065,
+          "adx14": 15.743572295768205,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 50.0,
+      "overall_score": 61.25,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: RKLB\n• Current Price: $48.59\n• Overall Score: 52.960256410256406\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 40.9262\n• Sma 200: 27.6112\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 6.694746176014195\n• Momentum 63D: 67.35048678720446\n• Momentum 126D: 137.32741617357001\n• Momentum Acceleration: -60.65574061119027\n• Roc 21D: 6.694746176014195\n• Trend Strength 20D: 0.025598894332628432\n• Trend Direction: 1\n• Ma Ribbon Score: 90.0\n• Breakout Strength: 83.39906914484057\n• Price Velocity: 0.033382508891180177\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 8.0\n• Squeeze Momentum: -0.029262206567346648\n• Volatility Compression: 0.0\n• Is Consolidating: False\n• Breakout Score: 88.3083276826215\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 24.40784685175796\n• Squeeze Breakout: 4.0\n• Options Quality: 17.529568352788573\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 60.0\n• Squeeze: 50.0\n• Options: 42.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: RKLB\n• Strike Price: $47\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.35\n• Ask: $6.5\n• Last: $6.35\n• Mid: $6.425\n• Spread: 2.307692307692307692307692308%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6102\n• Gamma: 0.0275\n• Theta: -0.0541\n• Vega: 0.0704\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.7611\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 207\n• Open Interest: 911\n• Volume/OI Ratio: 0.22722283205268934\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Rocket Lab USA Inc.\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $-0.46\n• Profit Margin: -45.9%\n• ROE: -40.5%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T19:31:40+00:00: Notable Tuesday Option Activity: RKLB, FLG, ASTS...\n• 2025-08-26T15:18:36+00:00: AT&amp;T Expands 5G Empire With $23 Billion EchoStar Spectrum Acquisition...\n• 2025-08-26T12:31:55+00:00: Rocket Lab Stock Climbs as $24M CHIPS Award and Neutron Launch Site Go Live...\n• 2025-08-26T10:06:46+00:00: Rocket Lab (RKLB): Evaluating Valuation After Major U.S. Semiconductor Expansion...\n• 2025-08-26T03:36:54+00:00: A Look Back at Aerospace Stocks’ Q2 Earnings: Rocket Lab (NASDAQ:RKLB) Vs The Re...\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 61.2%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR RKLB\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the RKLB opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:06:42.535981",
+    "estimated_tokens": 2364
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"RKLB\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 5,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"RKLB shows strong technical momentum with price above both SMAs and impressive 126D momentum of 137%, but faces fundamental challenges with negative margins and earnings. The current squeeze setup and breakout score of 88 suggest potential for a continued move higher, though options pricing indicates moderate premiums.\",\n    \"opportunities\": [\n        \"Strong technical trend with price well above 50/200 SMAs (40.92/27.61)\",\n        \"Multi-timeframe squeeze setup with high breakout score (88.31)\",\n        \"Decent options liquidity with moderate 2.3% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -45.9% profit margin and -40.5% ROE\",\n        \"Negative momentum acceleration (-60.66)\",\n        \"High implied volatility at 76.11% suggesting expensive premiums\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread to reduce premium cost given high IV\",\n        \"entry_timing\": \"Wait for momentum acceleration to stabilize before entry\",\n        \"risk_management\": \"Use 47 strike as support level, consider 30% stop loss on spread\"\n    },\n    \"red_flags\": [\n        \"Significant negative momentum acceleration\",\n        \"Poor fundamental metrics could limit upside potential\",\n        \"Missing critical IV rank/percentile data\"\n    ],\n    \"notes\": \"Analysis confidence reduced due to missing IV rank/percentile data and incomplete volatility metrics. Consider additional due diligence on volatility conditions.\"\n}",
+    "parsed_analysis": {
+      "symbol": "RKLB",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 5,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "RKLB shows strong technical momentum with price above both SMAs and impressive 126D momentum of 137%, but faces fundamental challenges with negative margins and earnings. The current squeeze setup and breakout score of 88 suggest potential for a continued move higher, though options pricing indicates moderate premiums.",
+      "opportunities": [
+        "Strong technical trend with price well above 50/200 SMAs (40.92/27.61)",
+        "Multi-timeframe squeeze setup with high breakout score (88.31)",
+        "Decent options liquidity with moderate 2.3% bid-ask spread"
+      ],
+      "risks": [
+        "Poor fundamentals with -45.9% profit margin and -40.5% ROE",
+        "Negative momentum acceleration (-60.66)",
+        "High implied volatility at 76.11% suggesting expensive premiums"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread to reduce premium cost given high IV",
+        "entry_timing": "Wait for momentum acceleration to stabilize before entry",
+        "risk_management": "Use 47 strike as support level, consider 30% stop loss on spread"
+      },
+      "red_flags": [
+        "Significant negative momentum acceleration",
+        "Poor fundamental metrics could limit upside potential",
+        "Missing critical IV rank/percentile data"
+      ],
+      "notes": "Analysis confidence reduced due to missing IV rank/percentile data and incomplete volatility metrics. Consider additional due diligence on volatility conditions."
+    },
+    "tokens_used": 2605,
+    "cost": 0.02605,
+    "response_time": 10.754424810409546,
+    "success": true
+  },
+  "cost": 0.02605,
+  "processing_metadata": {
+    "data_completeness_score": 61.25,
+    "prompt_length": 8665,
+    "response_length": 1757
+  }
+}

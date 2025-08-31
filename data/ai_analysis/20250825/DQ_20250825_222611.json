@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "DQ",
+  "timestamp": "2025-08-25T22:26:11.739772",
+  "data_package": {
+    "metadata": {
+      "symbol": "DQ",
+      "package_timestamp": "2025-08-25T22:26:02.108954",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "DQ",
+        "current_price": 23.77,
+        "overall_score": 49.415648665743404,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 19.598,
+        "sma_200": 18.2438
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.663230240549817,
+        "momentum_63d": 74.07137654770574,
+        "momentum_126d": 17.56025577963601,
+        "momentum_acceleration": -71.40814630715592,
+        "roc_21d": 2.663230240549817,
+        "trend_strength_20d": 0.23714067904561115,
+        "trend_direction": 1,
+        "ma_ribbon_score": 90.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.007986739439963909
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": 0.00799589566377312,
+        "volatility_compression": 64.62418629401076,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 21.657563430259938,
+        "squeeze_breakout": 4.0,
+        "options_quality": 9.686338797814185,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 58.0,
+        "squeeze": 59.693627944101614,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 18,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "DQ",
+        "strike_price": "15",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "9",
+        "ask": "9.3",
+        "last_price": "8.28",
+        "mid_price": "9.15",
+        "spread_percent": "3.225806451612903225806451613"
+      },
+      "greeks": {
+        "delta": 0.9324,
+        "gamma": 0.0155,
+        "theta": -0.0119,
+        "vega": 0.0118
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.9298
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 1217,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:47.886680",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T15:22:50+00:00",
+            "title": "DAQO New Energy Q2 2025 Earnings Preview",
+            "content": " \t* DAQO New Energy (NYSE:DQ [https://seekingalpha.com/symbol/DQ]) is scheduled to announce Q2 earnings results on Tuesday, August 26th, after market close.\nThe consensus EPS Estimate is -$0.42 [https://seekingalpha.com/symbol/DQ/earnings/estimates] and the consensus Revenue Estimate is $140.54MOver the last 2 years, DQ has beaten EPS estimates [https://seekingalpha.com/symbol/DQ/earnings/eps-surprise-summary] 50% of the time and has beaten revenue estimates 63% of the time. \n\nMORE ON DAQO NEW ENERGY\n\n \t* Daqo New Energy: Stock Is A Hold Despite Low Production Guidance In 2025 [https://seekingalpha.com/article/4791590-daqo-new-energy-stock-is-a-hold-despite-low-production-guidance-in-2025]\n \t* China’s solar installations fall in June as new rules take hold [https://seekingalpha.com/news/4470354-chinas-solar-installations-fall-in-june-as-new-rules-take-hold]\n \t* Daqo New Energy double upgraded at GLJ as China seeks to curb price war [https://seekingalpha.com/news/4466540-daqo-new-energy-double-upgraded-at-glj-as-china-seeks-to-curb-price-war]\n \t* Seeking Alpha’s Quant Rating on DAQO New Energy [https://seekingalpha.com/symbol/DQ/ratings/quant-ratings]\n \t* Historical earnings data for DAQO New Energy [https://seekingalpha.com/symbol/DQ/earnings]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:43:41+00:00",
+            "title": "Asian Equities Traded in the US as American Depositary Receipts Open Week Higher in Monday Trading",
+            "content": "Asian equities traded in the US as American depositary receipts kicked off the week higher Monday mo\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T12:00:58+00:00",
+            "title": "Earnings week ahead: NVDA, BABA, SNOW, CRWD, OKTA, MRVL, DELL, PDD, LI, BBY, and more",
+            "content": "[Rolled newspaper with the headline Quarterly Results]\nZerbor\n\nNext week marks the final stretch of August earnings, and it’s stacked with market-moving names across AI, tech, retail, financials, and energy.\n\nOn the tech front, results from NVIDIA (NASDAQ:NVDA [https://seekingalpha.com/symbol/NVDA]), Alibaba (NYSE:BABA [https://seekingalpha.com/symbol/BABA]), CrowdStrike (NASDAQ:CRWD [https://seekingalpha.com/symbol/CRWD]), Snowflake (NYSE:SNOW [https://seekingalpha.com/symbol/SNOW]), Marvell Technology (NASDAQ:MRVL [https://seekingalpha.com/symbol/MRVL]), Okta (NASDAQ:OKTA [https://seekingalpha.com/symbol/OKTA]), Dell (NYSE:DELL [https://seekingalpha.com/symbol/DELL]), MongoDB (NASDAQ:MDB [https://seekingalpha.com/symbol/MDB]), and Autodesk (NASDAQ:ADSK [https://seekingalpha.com/symbol/ADSK]) will provide a pulse check on AI adoption, cloud spending, and enterprise software demand.\n\nIn retail, investors will be watching Best Buy (NYSE:BBY [https://seekingalpha.com/symbol/BBY]), Dollar General (NYSE:DG [https://seekingalpha.com/symbol/DG]), Ulta Beauty (NASDAQ:ULTA [https://seekingalpha.com/symbol/ULTA]), Kohl’s (NYSE:KSS [https://seekingalpha.com/symbol/KSS]), Abercrombie & Fitch (NYSE:ANF [https://seekingalpha.com/symbol/ANF]), The Gap (GAP [https://seekingalpha.com/symbol/GAP]), DICK’S Sporting Goods (NYSE:DKS [https://seekingalpha.com/symbol/DKS]), Urban Outfitters (NASDAQ:URBN [https://seekingalpha.com/symbol/URBN]), Bath & Body Works (NYSE:BBWI [https://seekingalpha.com/symbol/BBWI]), and Victoria’s Secret (NYSE:VSCO [https://seekingalpha.com/symbol/VSCO]) for clues on consumer resilience heading into the holiday season.\n\nFinancial heavyweights including Toronto-Dominion (NYSE:TD [https://seekingalpha.com/symbol/TD]), Bank of Nova Scotia (NYSE:BNS [https://seekingalpha.com/symbol/BNS]), Royal Bank of Canada (NYSE:RY [https://seekingalpha.com/symbol/RY]), Bank of Montreal (NYSE:BMO [https://seekingalpha.com/symbol/BMO]), and Canadian Imperial Bank of Commerce (NYSE:CM [https://seekingalpha.com/symbol/CM]) will shed light on credit demand and lending trends.\n\nMeanwhile, Li Auto (NASDAQ:LI [https://seekingalpha.com/symbol/LI]), PDD Holdings (NASDAQ:PDD [https://seekingalpha.com/symbol/PDD]), Trip.com (TCOM [https://seekingalpha.com/symbol/TCOM]), Frontline (FRO [https://seekingalpha.com/symbol/FRO]), Sibanye Stillwater (SBSW [https://seekingalpha.com/symbol/SBSW]), Daqo New Energy (DQ [https://seekingalpha.com/symbol/DQ]), Hormel Foods (HRL [https://seekingalpha.com/symbol/HRL]), and J.M. Smucker (SJM [https://seekingalpha.com/symbol/SJM]) round out a diverse slate of reports spanning EVs, commodities, energy, and consumer staples.\n\nWith NVIDIA’s AI momentum, China’s tech giants, and U.S. retailers all reporting in the same week, markets are set for a busy and potentially volatile close to August.\n\nBelow is a rundown of major earnings reports due in the week of August 25 to August 29:\n\nMONDAY, AUGUST 25\n\nPINDUODUO (NASDAQ:PDD [https://seekingalpha.com/symbol/PDD])\n\nChinese e-commerce giant Pinduoduo (PDD [https://seekingalpha.com/symbol/PDD]) is set to release its Q2 results before the market opens on Monday. Analysts are projecting a significant Y/Y decline in profits, exceeding 37%.\n\nDespite this forecast, PDD's stock has been a standout performer in 2025, with a YTD gain of approximately 27%, far outpacing the broader market.\n\nThe company's performance has led to a split in opinion among analysts. While Wall Street maintains a bullish stance with a Buy rating, Seeking Alpha's Quant system has assigned a Hold rating [https://seekingalpha.com/symbol/PDD/ratings/quant-ratings#source=firstLevelUrl%3Asymbol%7CbiSectionAsset%3ARatingSummary%7CbiName%3AQuant_rating].\n\nSA Investing Group Leader Envision Research also maintains [https://seekingalpha.com/article/4807017-jdcom-vs-pdd-evaluation-makes-me-favor-pdd-amid-trade-conflicts] a Buy, noting that while recent trade tensions have increased uncertainty for both JD.com (JD [https://seekingalpha.com/symbol/JD]) and PDD, Pinduoduo is better positioned for resilience. Drawing from Peter Lynch’s investment principles, the analysis highlights PDD’s superior profitability, valuation, and operating metrics compared to JD, reinforcing its leadership in China’s fast-growing e-commerce market.\n\n \t* Consensus EPS Estimates: $2.06\n \t* Consensus Revenue Estimates: $14.36B\n \t* Earnings Insight: Pinduoduo has beaten EPS estimates in 6 of the past 8 quarters, and revenue expectations in 4 of those reports.\n\nALSO REPORTING: HEICO Corporation (HEI [https://seekingalpha.com/symbol/HEI]), Sasol (SSL [https://seekingalpha.com/symbol/SSL]), Semtech (SMTC [https://seekingalpha.com/symbol/SMTC]), StealthGas (GASS [https://seekingalpha.com/symbol/GASS]), and more.\n\nTUESDAY, AUGUST 26\n\nOKTA (NASDAQ:OKTA [https://seekingalpha.com/symbol/OKTA])\n\nOkta (OKTA [https://seekingalpha.com/symbol/OKTA]) is scheduled to report its Q2 results after the market closes on Tuesday, with analysts forecasting robust performance. Expectations are for a 17% Y/Y increase in profits and more than 10% growth in sales.\n\nJust days ahead of earnings, Seeking Alpha’s Quant Rating upgraded Okta to Buy from Hold [https://seekingalpha.com/symbol/OKTA/ratings/quant-ratings#source=firstLevelUrl%3Asymbol%7CbiSectionAsset%3ARatingSummary%7CbiName%3AQuant_rating], aligning with Wall Street analysts who also maintain a Buy rating.\n\nAccording to a Seeking Alpha contributor, Star Investments, Okta's valuation is particularly appealing [https://seekingalpha.com/article/4808675-oktas-growth-strategies-a-case-for-long-term-investment]. The company's price-to-free cash flow (P/FCF) multiple suggests a potential 27% upside from its July 31 closing price. This positive outlook is supported by Okta's consistent market leadership, as evidenced by its eighth consecutive year as a \"Leader\" in Gartner's 2024 Magic Quadrant. The company is also actively pursuing four key growth initiatives to ensure sustained revenue expansion over the medium and long term.\n\nAnother author, Roman Luzgin, highlights [https://seekingalpha.com/article/4807828-okta-fair-valuation-with-high-speculative-upside] additional factors that make Okta a compelling investment. He notes that the company's financial stability, low debt, and reasonable valuation ratios limit downside risk and create a favorable risk/reward profile. Furthermore, he suggests that recent acquisition rumors and sector-wide M&A trends could drive a significant premium, offering substantial speculative upside for Okta shareholders.\n\n \t* Consensus EPS Estimates: $0.85\n \t* Consensus Revenue Estimates: $711.84M\n \t* Earnings Insight: The company has consecutively outperformed EPS and revenue expectations in straight 8 quarters.\n\nALSO REPORTING: Bank of Nova Scotia (NYSE:BNS [https://seekingalpha.com/symbol/BNS]), MongoDB (NASDAQ:MDB [https://seekingalpha.com/symbol/MDB]), Bank of Montreal (NYSE:BMO [https://seekingalpha.com/symbol/BMO]), Box (BOX [https://seekingalpha.com/symbol/BOX]), Daqo New Energy (DQ [https://seekingalpha.com/symbol/DQ]), EHang Holdings Limited (EH [https://seekingalpha.com/symbol/EH]), and more.\n\nWEDNESDAY, AUGUST 27\n\nNVIDIA (NASDAQ:NVDA [https://seekingalpha.com/symbol/NVDA])\n\nNvidia (NVDA [https://seekingalpha.com/symbol/NVDA]) is set to be the centerpiece of this week's earnings calendar, with its Q2 report scheduled for release after the market closes on Wednesday.\n\nAnalysts are forecasting ~50% Y/Y growth in both sales and profits, fueled by relentless demand for AI chips and accelerating data center momentum.\n\nWhile Wall Street analysts maintain a Strong Buy consensus, Seeking Alpha’s Quant system remains more cautious, rating NVDA a Hold [https://seekingalpha.com/symbol/NVDA/ratings/quant-ratings#source=firstLevelUrl%3Asymbol%7CbiSectionAsset%3ARatingSummary%7CbiName%3AQuant_rating] on valuation concerns.\n\nAdding to skepticism, SA contributor Bears of Wall Street reiterates a Sell [https://seekingalpha.com/article/4815643-nvidia-sell-before-its-too-late], warning that Nvidia’s renewed ability to sell H20 AI accelerators in China may provide only limited upside, given its overexposure to a handful of major customers and rising risk as hyperscale’s develop in-house AI chips.\n\nSimilarly, SA author Hawkinvest maintains a Strong Sell [https://seekingalpha.com/article/4814625-nvidia-is-8-percent-of-the-sp-500-index-history-shows-beast-mode-may-end], noting that while Nvidia is an exceptional company, its stock is “priced for perfection.” With NVDA trading at 40x earnings and 20x revenues, competition intensifying, and the stock now comprising 8% of the S&P 500, making it vulnerable to a pullback, particularly ahead of the earnings report.\n\n \t* Consensus EPS Estimates: $1.01\n \t* Consensus Revenue Estimates: $45.97B\n \t* Earnings Insight: Nvidia outperformed revenue and EPS estimates all the last 8 quarters.\n\nALSO REPORTING: CrowdStrike (NASDAQ:CRWD [https://seekingalpha.com/symbol/CRWD]), Snowflake (NYSE:SNOW [https://seekingalpha.com/symbol/SNOW]), HP (HPQ [https://seekingalpha.com/symbol/HPQ]), Royal Bank of Canada (NYSE:RY [https://seekingalpha.com/symbol/RY]), Veeva Systems (VEEV [https://seekingalpha.com/symbol/VEEV]), Agilent Technologies (A [https://seekingalpha.com/symbol/A]), Kohl's (NYSE:KSS [https://seekingalpha.com/symbol/KSS]), Nutanix (NTNX [https://seekingalpha.com/symbol/NTNX]), NetApp (NTAP [https://seekingalpha.com/symbol/NTAP]), Pure Storage (PSTG [https://seekingalpha.com/symbol/PSTG]), J.M. Smucker (SJM [https://seekingalpha.com/symbol/SJM]), and more.\n\nTHURSDAY, AUGUST 28\n\nDELL TECHNOLOGIES (NYSE:DELL [https://seekingalpha.com/symbol/DELL])\n\nDell Technologies (DELL [https://seekingalpha.com/symbol/DELL]) is set to deliver its Q2 print on Thursday after market hours. Analysts expect a strong result with profit growth of more than 20% Y/Y on sales growth of near 17%.\n\nThe stock is up about 11% in 2025, and sentiment remains broadly bullish. Both Wall Street analysts and Seeking Alpha’s Quant Rating system assign it a Buy [https://seekingalpha.com/symbol/DELL/ratings/quant-ratings#source=firstLevelUrl%3Asymbol%7CbiSectionAsset%3ARatingSummary%7CbiName%3AQuant_rating].\n\nSA Investing Group Leader Danil Sereda remains bullish [https://seekingalpha.com/article/4813586-dell-why-the-best-is-coming-q2-earnings-preview] on Dell (DELL [https://seekingalpha.com/symbol/DELL]), noting the stock has doubled since his April call but still has strong AI server and PC refresh drivers. He sees Q2 earnings and potential guidance upgrades as catalysts, while partnerships with Nvidia and Elastic support a shift toward higher-margin, software-like revenue. Despite risks around AI server margins, he maintains a Buy rating with 22% upside potential.\n\n \t* Consensus EPS Estimates: $2.29\n \t* Consensus Revenue Estimates: $29.19B\n \t* Earnings Insight: DELL has beaten EPS estimates in 6 of the past 8 quarters, and revenue expectations in 5 of those reports.\n\nALSO REPORTING: Marvell Technology Group (NASDAQ:MRVL [https://seekingalpha.com/symbol/MRVL]), TD Bank Group (NYSE:TD [https://seekingalpha.com/symbol/TD]), Li Auto (NASDAQ:LI [https://seekingalpha.com/symbol/LI]), Best Buy (NYSE:BBY [https://seekingalpha.com/symbol/BBY]), Autodesk (NASDAQ:ADSK [https://seekingalpha.com/symbol/ADSK]), Affirm Holdings (AFRM [https://seekingalpha.com/symbol/AFRM]), ULTA Beauty (NASDAQ:ULTA [https://seekingalpha.com/symbol/ULTA]), Dollar General Corporation (NYSE:DG [https://seekingalpha.com/symbol/DG]), Hormel Foods (HRL [https://seekingalpha.com/symbol/HRL]), Ambarella (AMBA [https://seekingalpha.com/symbol/AMBA]), Elastic N.V. (ESTC [https://seekingalpha.com/symbol/ESTC]), Bath & Body Works (NYSE:BBWI [https://seekingalpha.com/symbol/BBWI]), Baozun (BZUN [https://seekingalpha.com/symbol/BZUN]), Canadian Imperial Bank of Commerce (NYSE:CM [https://seekingalpha.com/symbol/CM]), Victoria's Secret & Co. (NYSE:VSCO [https://seekingalpha.com/symbol/VSCO]), DICK'S Sporting Goods (NYSE:DKS [https://seekingalpha.com/symbol/DKS]), SentinelOne (S [https://seekingalpha.com/symbol/S]), and more.\n\nFRIDAY, AUGUST 29\n\nALIBABA (NYSE:BABA [https://seekingalpha.com/symbol/BABA])\n\nAlibaba (BABA [https://seekingalpha.com/symbol/BABA]) is set to report its FQ1 earnings on Friday, a report that will be a key indicator for China's consumer recovery and the broader sentiment toward Chinese tech stocks. Analyst consensus points to approximately 4% Y/Y revenue growth but a 6% decline in profits, highlighting the mixed outlook.\n\nWall Street analysts remain bullish, assigning Alibaba a Strong Buy rating, driven by expectations of improved efficiency, expanding cloud margins, and steady e-commerce demand. However, Seeking Alpha’s Quant Rating system maintains a Hold [https://seekingalpha.com/symbol/BABA/ratings/quant-ratings#source=firstLevelUrl%3Asymbol%7CbiSectionAsset%3ARatingSummary%7CbiName%3AQuant_rating], reflecting lingering concerns around growth sustainability and macroeconomic risks.\n\nEnvision Research, a Seeking Alpha Investing Group leader, also holds a neutral stance [https://seekingalpha.com/article/4815439-alibaba-and-bridgewaters-china-exit]. The firm points to heightened systemic and geopolitical risks, citing the notable exit of Bridgewater Associates from US-listed Chinese stocks, including BABA. This factor, along with the suspension of the \"De minimis\" exemption, which poses threats to Alibaba's cross-border e-commerce business, is seen as largely offsetting the appeal of the company's low P/E and attractive PEG ratios. On a positive note, Envision Research does see promise for accelerated demand within Alibaba's cloud and AI segments.\n\nIn contrast, Andres Cardenal, another Seeking Alpha Investing Group leader, presents a Strong Buy argument [https://seekingalpha.com/article/4812079-alibaba-undervalued-ai-opportunity]. He contends that while Alibaba's decade-long underperformance underscores the risks of Chinese stocks, the current negative sentiment creates a compelling contrarian opportunity.\n\nCardenal highlights the company's aggressive \"all-in AI\" pivot, its leadership in open-source models, and its cloud growth, which position it as a top AI player in China. Despite competitive pressures, he notes that Alibaba remains highly profitable with strong financials and a valuation significantly below its global AI peers, suggesting an asymmetric upside, though active risk management is essential.\n\n \t* Consensus EPS Estimates: $2.15\n \t* Consensus Revenue Estimates: $35.32B\n \t* Earnings Insight: The company has beaten EPS estimates in 5 of the past 8 quarters, and revenue estimates in 4 of those reports.\n\n ALSO REPORTING: BRP (DOOO [https://seekingalpha.com/symbol/DOOO]), Frontline (FRO [https://seekingalpha.com/symbol/FRO]), Lanvin Group (LANV [https://seekingalpha.com/symbol/LANV]), and more. \n\nMORE ON RELATED STOCKS:\n\n \t* Alibaba: Why This Could Be The Breakout Quarter (Earnings Preview) [https://seekingalpha.com/article/4815952-alibaba-stock-why-this-could-be-breakout-quarter-earnings-preview]\n \t* Nvidia: Sell Before It's Too Late [https://seekingalpha.com/article/4815643-nvidia-sell-before-its-too-late]\n \t* Dollar General: Why This Discount Retail Giant Is Poised For A Rebound [https://seekingalpha.com/article/4815495-dollar-general-why-this-discount-retail-giant-is-poised-for-a-rebound]\n \t* Ulta stands out within beauty category for tariff insulation, growth outlook -- Barclays [https://seekingalpha.com/news/4488275-ulta-stands-out-within-beauty-category-for-tariff-insulation-growth-outlook---barclays]\n \t* Nvidia chief praises TSMC, says buying its stock is 'very smart' [https://seekingalpha.com/news/4488203-nvidia-chief-praises-tsmc-says-buying-its-stock-is-very-smart]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-19T06:40:36+00:00",
+            "title": "Analysis-China's overcapacity crackdown faces litmus test in solar sector",
+            "content": "By Joe Cash and Colleen Howe\n\nBEIJING (Reuters) -China’s efforts to curb industrial overcapacity face their first test in the indebted and bloated polysilicon sector, a key cog in solar cell production, where analysts say it is easiest for Beijing to intervene but still difficult to succeed.\n\nUnder the plan, devised by industry players in the presence of Chinese regulators, big producers will pool 50 billion yuan ($7 billion) to buy out the least efficient facilities and shut them down, then form a cartel to halt relentless price wars.\n\nIdeally, when prices rise, the loss-making producers will turn profitable and reimburse the debt incurred in the process. Reduced output and higher polysilicon costs would force solar panel makers - which can produce roughly twice as much annually as the world buys and have been a source of trade tensions between China and the West - to consolidate.\n\nBut analysts see risks at every stage of this plan.\n\nFirst, it is unclear if the industry can agree who’s in or who’s out of the cartel.\n\nGCL Technology Holdings, one of the biggest producers, said earlier this month cartel planning was close to wrapping up but declined to provide details of the other participants.\n\nBanks - whose incentive to finance this acquisition is to ensure that what they rate as a \"safe\" sector doesn’t turn to \"risky\" - would likely be involved in the process, said Dan Wang, China director at Eurasia Group.\n\nAnalysts warn local authorities, who have strived to fulfil Beijing’s strategic green energy vision by handing out subsidies, tax breaks and cheap land to the sector, may not want the solar supply chains on their turf to shut.\n\n\"Which local government is going to let go of their industry first?\" said Max Zenglein, senior economist for the Asia-Pacific at The Conference Board research group. \"They’re going to be very cautious.\"\n\nFinally, even if the cartel does form, any success creates the conditions for failure: after prices climb, members might be tempted to raise output and reap the profits.\n\nReformers face all these risks despite the industry having fewer players and fewer supply chain inputs than most other sectors in the world’s second-largest economy, where overcapacity is endemic and deflationary, and threatens trade relations and long-term growth.\n\n\"Success is hardly a foregone conclusion,\" Gavekal Dragonomics analysts Tilly Zhang and Wei He said in a note.\n\nIf the overcapacity crackdown \"fails to get traction in polysilicon, it will struggle in the many other industries\" where the government has less capacity to foster swift changes, they said.\n\nGCL’s peer Tongwei declined to comment. Polysilicon producers Daqo New Energy (NYSE:DQ) and TBEA did not respond to requests for comment.\n\nThe solar and metals industry associations, the National Development and Reform Commission (NDRC)- China’s state planner - and the Ministry of Industry and Information Technology also did not respond to requests for comment.\n\nIS EVERYONE GAME?\n\nOver the past five years, the top four Chinese manufacturers alone built about two-thirds of the industry’s capacity, which stood at 3.25 million metric tons at the end of 2024, according to Bernreuter Research, a consultancy.\n\nIn 2025, Bernreuter anticipates an average utilisation of 35%-40%, down from 57% last year.\n\nMorningstar estimates about 965,000 tons of polysilicon capacity was built or is still under construction this year, citing the China Photovoltaic Industry Association.\n\nPast attempts to get the solar industry to self-regulate have failed. Last October, the solar industry body proposed a price floor for solar modules, but the temptation for manufacturers to undercut competitors proved too enticing.\n\nThe NDRC called for a ban on new production in an online meeting in February.\n\nStill, Karamay, a city in the northwestern region of Xinjiang announced a 3 billion yuan solar module manufacturing plant as recently as May, Chinese media reported. The Xinjiang energy regulator did not respond to phone calls from Reuters.\n\nA new 140,000-ton polysilicon manufacturing plant in Qinghai, a major provincial investor, also started test operations in March, according to a trade media report. The energy regulator for northwestern China, which includes Qinghai, did not respond to a faxed request for comment.\n\nPAIN THRESHOLD\n\nIn the event that the polysilicon cartel overcomes industry and local government opposition, it can raise prices to levels that the least competitive firms in the downstream solar panels sector cannot afford, forcing their exit, analysts say.\n\n\"Unless I see a lot of defaults all of a sudden really shrinking the size of the industry, I don’t see how this is going to work,\" said Alicia Garcia-Herrrero, Asia-Pacific chief economist at Natixis.\n\nShe said that would test the Chinese leadership’s tolerance for a bloodbath in an industry that it had championed as a national priority.\n\nThe case for protecting strategic priorities also applies to other sectors, from electric vehicles and batteries to shipbuilding, all with supply chains much more complex than solar.\n\n\"It’s very easy to build capacity to burn money, but then to scale it down and direct that in a healthy manner is much more difficult,\" said The Conference Board’s Zenglein.\n\n($1 = 7.1815 Chinese yuan renminbi) </p>",
+            "url": null
+          },
+          {
+            "date": "2025-08-18T18:25:36+00:00",
+            "title": "Daqo New Energy Stock Sees RS Rating Rise To 91",
+            "content": "Daqo New Energy stock saw a welcome improvement to its Relative Strength (RS) Rating on Monday, with an upgrade from 86 to 91. Looking For The Best Stocks To Buy And Watch? Start Here IBD's proprietary RS Rating tracks technical performance by using a 1 (worst) to 99 (best) score that shows how a stock's price action over the last 52 weeks matches up against other publicly traded companies.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Daqo New Energy Corp ADR",
+          "sector": "Technology",
+          "industry": "Semiconductor Equipment & Materials",
+          "employees": 4749,
+          "description": "Daqo New Energy Corp., together with its subsidiaries, manufactures and sells polysilicon to photovoltaic product manufacturers in the People's Republic of China. Its products are used in ingots, wafers, cells, and modules for solar power solutions. The company was formerly known as Mega Stand Inter"
+        },
+        "financial_metrics": {
+          "eps_ttm": -6.51,
+          "profit_margin": -0.5863,
+          "operating_margin": -0.9204,
+          "roe": -0.0933,
+          "roa": -0.0474,
+          "revenue_growth_yoy": -0.702,
+          "earnings_growth_yoy": -0.933,
+          "eps_estimate_current_year": -2.34,
+          "eps_estimate_next_year": -1.6504,
+          "revenue_ttm": 737683008,
+          "revenue_per_share": 11.098,
+          "most_recent_quarter": "2025-03-31"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 21.3675,
+          "price_to_sales": 2.078,
+          "price_to_book": 0.3541,
+          "enterprise_value": -563626486,
+          "ev_to_revenue": 3.3284,
+          "ev_to_ebitda": 6.669
+        },
+        "technical_data": {
+          "beta": 0.48,
+          "52_week_high": 30.85,
+          "52_week_low": 12.41,
+          "50_day_ma": 19.598,
+          "200_day_ma": 18.2438,
+          "short_interest": 0.1063,
+          "short_ratio": 1.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2020-11-17",
+          "last_split_factor": "5:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7778,
+          "target_price": 21.944,
+          "strong_buy": 2,
+          "buy": 3,
+          "hold": 4,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 67056700,
+          "percent_institutions": 46.341,
+          "percent_insiders": 18.126,
+          "shares_float": 216692286
+        },
+        "balance_latest_sheet": {
+          "total_assets": 6310.686,
+          "cash_and_equivalents": 791.93,
+          "net_debt": -791.93,
+          "working_capital": 2118.589,
+          "shareholders_equity": 4329.201,
+          "quarter_date": "2025-03-31"
+        },
+        "income_latest_statement": {
+          "total_revenue": 123.914,
+          "gross_profit": -81.535,
+          "operating_income": -114.053,
+          "net_income": -71.837,
+          "ebitda": -61.90675,
+          "quarter_date": "2025-03-31",
+          "gross_margin": -65.8,
+          "operating_margin": -92.04,
+          "net_margin": -57.97
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -38.881,
+          "free_cash_flow": -96.513,
+          "capex": 57.632,
+          "net_income": -71.837,
+          "cash_change": -246.419,
+          "quarter_date": "2025-03-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-06-30",
+            "estimate": -0.9967,
+            "symbol": null
+          },
+          {
+            "date": "2025-09-30",
+            "estimate": -0.5867,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-06-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 19.8,
+            "high": 20.365,
+            "low": 19.58,
+            "close": 19.73,
+            "volume": 1228323
+          },
+          {
+            "date": "2025-07-16",
+            "open": 20.33,
+            "high": 20.36,
+            "low": 19.62,
+            "close": 19.83,
+            "volume": 985600
+          },
+          {
+            "date": "2025-07-17",
+            "open": 20.1,
+            "high": 21.73,
+            "low": 19.84,
+            "close": 20.9,
+            "volume": 1566100
+          },
+          {
+            "date": "2025-07-18",
+            "open": 21.06,
+            "high": 21.1,
+            "low": 20.38,
+            "close": 20.69,
+            "volume": 1345200
+          },
+          {
+            "date": "2025-07-21",
+            "open": 20.81,
+            "high": 21.32,
+            "low": 20.8,
+            "close": 21.06,
+            "volume": 690700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 22.24,
+            "high": 25.46,
+            "low": 22.24,
+            "close": 24.6,
+            "volume": 4906600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 23.86,
+            "high": 23.9,
+            "low": 22.65,
+            "close": 23.19,
+            "volume": 2360800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 24.49,
+            "high": 25.54,
+            "low": 23.89,
+            "close": 25.05,
+            "volume": 1984900
+          },
+          {
+            "date": "2025-07-25",
+            "open": 24.43,
+            "high": 24.54,
+            "low": 23.2,
+            "close": 23.28,
+            "volume": 1650500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 22.81,
+            "high": 23.2,
+            "low": 22.06,
+            "close": 22.94,
+            "volume": 1533500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 23.96,
+            "high": 25.44,
+            "low": 22.61,
+            "close": 23.31,
+            "volume": 2173500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 23.51,
+            "high": 23.51,
+            "low": 22.45,
+            "close": 22.63,
+            "volume": 1552400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 22.71,
+            "high": 23.42,
+            "low": 21.64,
+            "close": 21.76,
+            "volume": 1649200
+          },
+          {
+            "date": "2025-08-01",
+            "open": 21.64,
+            "high": 21.89,
+            "low": 20.53,
+            "close": 20.67,
+            "volume": 876300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 20.74,
+            "high": 21.34,
+            "low": 20.44,
+            "close": 20.65,
+            "volume": 768400
+          },
+          {
+            "date": "2025-08-05",
+            "open": 21.01,
+            "high": 21.64,
+            "low": 20.6,
+            "close": 21.41,
+            "volume": 664200
+          },
+          {
+            "date": "2025-08-06",
+            "open": 21.41,
+            "high": 22.45,
+            "low": 21.15,
+            "close": 21.91,
+            "volume": 1157800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 22.45,
+            "high": 22.7,
+            "low": 21.38,
+            "close": 21.59,
+            "volume": 786500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 21.59,
+            "high": 21.76,
+            "low": 21.06,
+            "close": 21.21,
+            "volume": 432600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 22.03,
+            "high": 22.26,
+            "low": 21.49,
+            "close": 21.9,
+            "volume": 579000
+          },
+          {
+            "date": "2025-08-12",
+            "open": 21.51,
+            "high": 21.84,
+            "low": 21.01,
+            "close": 21.78,
+            "volume": 534200
+          },
+          {
+            "date": "2025-08-13",
+            "open": 21.8,
+            "high": 22.44,
+            "low": 21.64,
+            "close": 21.8,
+            "volume": 504500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 20.95,
+            "high": 21.3,
+            "low": 20.73,
+            "close": 21.26,
+            "volume": 398000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 22.11,
+            "high": 23.91,
+            "low": 22,
+            "close": 22.97,
+            "volume": 1547100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 23,
+            "high": 23.06,
+            "low": 22.46,
+            "close": 23,
+            "volume": 652900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 22.99,
+            "high": 23.29,
+            "low": 21.79,
+            "close": 22.55,
+            "volume": 1066300
+          },
+          {
+            "date": "2025-08-20",
+            "open": 22.35,
+            "high": 22.98,
+            "low": 22.06,
+            "close": 22.83,
+            "volume": 607000
+          },
+          {
+            "date": "2025-08-21",
+            "open": 22.51,
+            "high": 22.67,
+            "low": 22.16,
+            "close": 22.47,
+            "volume": 345000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 22.54,
+            "high": 23.03,
+            "low": 22.05,
+            "close": 22.86,
+            "volume": 839900
+          },
+          {
+            "date": "2025-08-25",
+            "open": 23.95,
+            "high": 24.47,
+            "low": 23.61,
+            "close": 23.9,
+            "volume": 1390914
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.184829991281592,
+        "return_63d": 70.8363116511794,
+        "pct_above_sma50": 20.102670857038916,
+        "sma_50": 19.7914,
+        "new_55d_high": "False",
+        "high_55d": 25.54,
+        "rsi": 68.22840409956078,
+        "rsi_in_range": "True",
+        "adx": 23.8769400034565,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.236401673640168,
+        "bb_width": 15.934286385439375,
+        "keltner_width": 22.571239629674164,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 20492218.541099995,
+        "adv_shares": 926285.7,
+        "liquidity_tier": "medium",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.34390222807412,
+        "final_score": 46.34390222807412,
+        "sub_scores": {
+          "trend_momentum": 21.657563430259938,
+          "squeeze_breakout": 4.0,
+          "options_quality": 9.686338797814185,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 2.6632302405498187,
+          "ret_63d": 74.07137654770575,
+          "rsi14": 68.22840409956078,
+          "adx14": 24.284641154641225,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: DQ\n• Current Price: $23.77\n• Overall Score: 49.415648665743404\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 19.598\n• Sma 200: 18.2438\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.663230240549817\n• Momentum 63D: 74.07137654770574\n• Momentum 126D: 17.56025577963601\n• Momentum Acceleration: -71.40814630715592\n• Roc 21D: 2.663230240549817\n• Trend Strength 20D: 0.23714067904561115\n• Trend Direction: 1\n• Ma Ribbon Score: 90.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.007986739439963909\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: 0.00799589566377312\n• Volatility Compression: 64.62418629401076\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 21.657563430259938\n• Squeeze Breakout: 4.0\n• Options Quality: 9.686338797814185\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 58.0\n• Squeeze: 59.693627944101614\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: DQ\n• Strike Price: $15\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $9\n• Ask: $9.3\n• Last: $8.28\n• Mid: $9.15\n• Spread: 3.225806451612903225806451613%\n\n**GREEKS ANALYSIS**\n• Delta: 0.9324\n• Gamma: 0.0155\n• Theta: -0.0119\n• Vega: 0.0118\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.9298\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 1217\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Daqo New Energy Corp ADR\n• Sector: Technology\n• Industry: Semiconductor Equipment & Materials\n• EPS (TTM): $-6.51\n• Profit Margin: -58.6%\n• ROE: -9.3%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T15:22:50+00:00: DAQO New Energy Q2 2025 Earnings Preview...\n• 2025-08-25T14:43:41+00:00: Asian Equities Traded in the US as American Depositary Receipts Open Week Higher...\n• 2025-08-24T12:00:58+00:00: Earnings week ahead: NVDA, BABA, SNOW, CRWD, OKTA, MRVL, DELL, PDD, LI, BBY, and...\n• 2025-08-19T06:40:36+00:00: Analysis-China's overcapacity crackdown faces litmus test in solar sector...\n• 2025-08-18T18:25:36+00:00: Daqo New Energy Stock Sees RS Rating Rise To 91...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-06-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR DQ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the DQ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:26:11.739444",
+    "estimated_tokens": 2315
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"DQ\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 12,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 2,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"DQ shows positive technical momentum with price above both SMAs and strong MA ribbon score (90), but faces significant fundamental challenges with negative EPS and poor margins. The current squeeze setup and positive momentum are partially offset by deteriorating financial metrics and upcoming earnings risk.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (19.59) and 200 SMA (18.24)\",\n        \"Active volatility squeeze with 4-day duration and 64.6% compression\",\n        \"Strong MA ribbon score of 90 indicating solid trend structure\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -6.51 EPS and -58.6% profit margin\",\n        \"Upcoming earnings on June 30th creates event risk\",\n        \"Negative momentum acceleration (-71.4) suggests potential trend weakening\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferred LEAPS call position given high delta (0.93) and minimal theta decay (-0.0119)\",\n        \"entry_timing\": \"Wait until after earnings report to avoid event risk\",\n        \"risk_management\": \"Use smaller position size due to fundamental weakness and moderate options liquidity (OI: 1217, no volume)\"\n    },\n    \"red_flags\": [\n        \"Severely negative fundamentals (EPS -6.51, profit margin -58.6%)\",\n        \"Zero current options volume indicating potential liquidity issues\",\n        \"Earnings report within 30 days\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental weakness and upcoming earnings create significant risks. Options liquidity metrics are incomplete, suggesting careful position sizing is crucial.\"\n}",
+    "parsed_analysis": {
+      "symbol": "DQ",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 12,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 2,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "DQ shows positive technical momentum with price above both SMAs and strong MA ribbon score (90), but faces significant fundamental challenges with negative EPS and poor margins. The current squeeze setup and positive momentum are partially offset by deteriorating financial metrics and upcoming earnings risk.",
+      "opportunities": [
+        "Price trending above both 50 SMA (19.59) and 200 SMA (18.24)",
+        "Active volatility squeeze with 4-day duration and 64.6% compression",
+        "Strong MA ribbon score of 90 indicating solid trend structure"
+      ],
+      "risks": [
+        "Poor fundamentals with -6.51 EPS and -58.6% profit margin",
+        "Upcoming earnings on June 30th creates event risk",
+        "Negative momentum acceleration (-71.4) suggests potential trend weakening"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferred LEAPS call position given high delta (0.93) and minimal theta decay (-0.0119)",
+        "entry_timing": "Wait until after earnings report to avoid event risk",
+        "risk_management": "Use smaller position size due to fundamental weakness and moderate options liquidity (OI: 1217, no volume)"
+      },
+      "red_flags": [
+        "Severely negative fundamentals (EPS -6.51, profit margin -58.6%)",
+        "Zero current options volume indicating potential liquidity issues",
+        "Earnings report within 30 days"
+      ],
+      "notes": "While technical setup shows promise, fundamental weakness and upcoming earnings create significant risks. Options liquidity metrics are incomplete, suggesting careful position sizing is crucial."
+    },
+    "tokens_used": 2589,
+    "cost": 0.025890000000000003,
+    "response_time": 9.627986669540405,
+    "success": true
+  },
+  "cost": 0.025890000000000003,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8471,
+    "response_length": 1889
+  }
+}

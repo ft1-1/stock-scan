@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "KO",
+  "timestamp": "2025-08-30T08:21:43.505244",
+  "data_package": {
+    "metadata": {
+      "symbol": "KO",
+      "package_timestamp": "2025-08-30T08:21:34.153661",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "KO",
+        "current_price": 68.99,
+        "overall_score": 51.97692307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 69.7286,
+        "sma_200": 68.1021
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.6202680807188015,
+        "momentum_63d": -4.3134535367545075,
+        "momentum_126d": -3.1175396713944656,
+        "momentum_acceleration": 5.933721617473309,
+        "roc_21d": 1.6202680807188015,
+        "trend_strength_20d": 0.12415538510997068,
+        "trend_direction": -1,
+        "ma_ribbon_score": 49.135114738225965,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0032340214152324132
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": -0.07120921734546436,
+        "volatility_compression": 70.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 7.232687098689672,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.138882051282083,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 59.0,
+        "momentum": 55.0,
+        "squeeze": 60.5,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 4,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "KO",
+        "strike_price": "67.5",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "3.2",
+        "ask": "3.3",
+        "last_price": "3.25",
+        "mid_price": "3.25",
+        "spread_percent": "3.030303030303030303030303030"
+      },
+      "greeks": {
+        "delta": 0.6315,
+        "gamma": 0.064,
+        "theta": -0.0177,
+        "vega": 0.1249
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.1778
+      },
+      "liquidity_metrics": {
+        "volume": 112,
+        "open_interest": 1379,
+        "volume_oi_ratio": 0.08121827411167512
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:16:47.642219",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T21:25:39+00:00",
+            "title": "Why Tesla (TSLA) Shares Are Trading Lower Today",
+            "content": "What Happened?\n\nShares of electric vehicle pioneer Tesla (NASDAQ:TSLA) fell 4% in the afternoon session after markets pulled back, with the decline concentrated in the tech space, as investors engaged in profit-taking following a robust week that saw the S&P 500 hit a new record.\n\nAdding to the pressure, new inflation data, specifically the Core PCE, showed an acceleration in July, signaling that rising prices remain a risk despite being in line with expectations. This confluence of factors, including market highs heading into a historically weak September, led to a pullback, with the Nasdaq Composite shedding 1.15%. While the Federal Reserve has hinted at potential rate cuts, the focus on inflation and the jobs market continues to influence investor sentiment.\n\nAlso, a recent study suggested that consumer demand for the company's Full Self-Driving feature is weaker than believed, raising questions about a key potential growth driver.\n\nLastly, new data from the European Automobile Manufacturers Association revealed a 40% year-over-year drop in Tesla's car sales in Europe for July.\n\nThe shares closed the day at $334, down 3.4% from previous close.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks. Is now the time to buy Tesla? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nTesla’s shares are extremely volatile and have had 46 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 1 day ago when the stock dropped 1.3% on the news that reports revealed a significant slump in its European sales for July, fueling concerns about increasing competition. The electric vehicle maker's sales in Europe plunged by approximately 40% year-over-year, with various reports showing a drop to around 8,800 vehicles. This decline is particularly concerning as the broader European EV market expanded. Compounding the issue, Chinese rival BYD's sales surged, with its new car registrations outselling Tesla in the region. This consistent loss of ground in major markets is weighing on investor sentiment.\n\nTesla is down 12.1% since the beginning of the year, and at $333.44 per share, it is trading 30.5% below its 52-week high of $479.86 from December 2024. Investors who bought $1,000 worth of Tesla’s shares 5 years ago would now be looking at an investment worth $2,007.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T21:05:59+00:00",
+            "title": "Dillard's, iHeartMedia, Arlo Technologies, America's Car-Mart, and e.l.f. Beauty Shares Are Falling, What You Need To Know",
+            "content": "What Happened?\n\nA number of stocks fell in the afternoon session after markets pulled back with the decline concentrated in the tech space as investors engaged in profit-taking following a robust week that saw the S&P 500 hit a new record.\n\nAdding to the pressure, new inflation data, specifically the Core PCE, showed an acceleration in July, signaling that rising prices remain a risk despite being in line with expectations. This confluence of factors, including market highs heading into a historically weak September, led to a pullback, with the Nasdaq Composite shedding 1.15%. While the Federal Reserve has hinted at potential rate cuts, the focus on inflation and the jobs market continues to influence investor sentiment.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks.\n\nAmong others, the following stocks were impacted:\n\nDepartment Store company Dillard's (NYSE:DDS) fell 3.6%. Is now the time to buy Dillard's? Access our full analysis report here, it’s free. Broadcasting company iHeartMedia (NASDAQ:IHRT) fell 3.9%. Is now the time to buy iHeartMedia? Access our full analysis report here, it’s free. Specialized Technology company Arlo Technologies (NYSE:ARLO) fell 3.2%. Is now the time to buy Arlo Technologies? Access our full analysis report here, it’s free. Vehicle Retailer company America's Car-Mart (NASDAQ:CRMT) fell 3.4%. Is now the time to buy America's Car-Mart? Access our full analysis report here, it’s free. Personal Care company e.l.f. Beauty (NYSE:ELF) fell 3.8%. Is now the time to buy e.l.f. Beauty? Access our full analysis report here, it’s free.\n\nZooming In On iHeartMedia (IHRT)\n\niHeartMedia’s shares are extremely volatile and have had 73 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 10 days ago when the stock dropped 3.1% on the news that investors took some profits off the table as markets awaited signals on future monetary policy from the Federal Reserve's Jackson Hole symposium later in the week.\n\nThe downturn in the market was largely attributed to a significant sell-off in megacap tech and chipmaker shares. Nvidia, Advanced Micro Devices (AMD), and Broadcom all saw notable drops, dragging down the VanEck Semiconductor ETF. Other major tech-related companies like Tesla, Meta Platforms, and Netflix were also under pressure. A key reason for this trend is that much of the recent market gains have been concentrated in the \"AI trade,\" which includes these large technology and semiconductor companies. So this could also mean that some investors are locking in some gains ahead of more definitive feedback from the Fed.\n\nStory continues\n\niHeartMedia is up 5.4% since the beginning of the year, but at $2.13 per share, it is still trading 18.4% below its 52-week high of $2.61 from December 2024. Investors who bought $1,000 worth of iHeartMedia’s shares 5 years ago would now be looking at an investment worth $231.02.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T21:05:42+00:00",
+            "title": "Orion, Blink Charging, Applied Digital, Domo, and Urban Outfitters Shares Are Falling, What You Need To Know",
+            "content": "What Happened?\n\nA number of stocks fell in the afternoon session after markets pulled back with the decline concentrated in the tech space as investors engaged in profit-taking following a robust week that saw the S&P 500 hit a new record.\n\nAdding to the pressure, new inflation data, specifically the Core PCE, showed an acceleration in July, signaling that rising prices remain a risk despite being in line with expectations. This confluence of factors, including market highs heading into a historically weak September, led to a pullback, with the Nasdaq Composite shedding 1.15%. While the Federal Reserve has hinted at potential rate cuts, the focus on inflation and the jobs market continues to influence investor sentiment.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks.\n\nAmong others, the following stocks were impacted:\n\nConstruction and Maintenance Services company Orion (NYSE:ORN) fell 3.1%. Is now the time to buy Orion? Access our full analysis report here, it’s free. Renewable Energy company Blink Charging (NASDAQ:BLNK) fell 5.7%. Is now the time to buy Blink Charging? Access our full analysis report here, it’s free. Enterprise Networking company Applied Digital (NASDAQ:APLD) fell 3.9%. Is now the time to buy Applied Digital? Access our full analysis report here, it’s free. Data Analytics company Domo (NASDAQ:DOMO) fell 6.4%. Is now the time to buy Domo? Access our full analysis report here, it’s free. Apparel Retailer company Urban Outfitters (NASDAQ:URBN) fell 3.4%. Is now the time to buy Urban Outfitters? Access our full analysis report here, it’s free.\n\nZooming In On Domo (DOMO)\n\nDomo’s shares are extremely volatile and have had 30 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 2 days ago when the stock gained 8.4% on the news that the company announced it signed a strategic collaboration agreement with Amazon Web Services (AWS) to accelerate the adoption of generative artificial intelligence solutions.\n\nThe partnership is designed to help mutual customers of both companies build AI-powered solutions by leveraging Domo's AI platform and AWS's cloud infrastructure. The collaboration specifically centers on Domo AI, the company's suite of AI tools that includes features like natural language querying and automated insights. This positive development follows other recent good news for the company. Just a day prior, analysts at TD Cowen upgraded Domo's stock rating to Buy from Hold and significantly raised their price target, citing a belief that the company is \"turning the corner\" on key strategic initiatives that could drive sustained growth.\n\nStory Continues\n\nDomo is up 107% since the beginning of the year, but at $14.69 per share, it is still trading 16.4% below its 52-week high of $17.57 from August 2025. Investors who bought $1,000 worth of Domo’s shares 5 years ago would now be looking at an investment worth $360.76.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:26:20+00:00",
+            "title": "Why Vertiv (VRT) Stock Is Trading Lower Today",
+            "content": "What Happened?\n\nShares of data center products and services company Vertiv (NYSE:VRT) fell 5.2% in the afternoon session after a broader market pullback that particularly impacted the technology and semiconductor sectors. The decline was not isolated to Vertiv, as major indices retreated from recent all-time highs. The S&P 500 dropped by 0.7%, while the tech-heavy Nasdaq Composite fell 1.2%. The semiconductor industry faced significant pressure, with the PHLX Semiconductor Index declining by over 3%. This sector-wide downturn also affected major technology companies, including Nvidia and Broadcom, which experienced notable drops. The broad-based selling in the tech space appears to be the primary driver behind the pressure on Vertiv's shares.\n\nThe shares closed the day at $127.59, down 4.9% from previous close.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks. Is now the time to buy Vertiv? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nVertiv’s shares are extremely volatile and have had 43 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 1 day ago when the stock gained 4.1% on the news that the company announced its acquisition of Waylay NV, a Belgium-based specialist in automation and generative AI software. This strategic move is designed to strengthen Vertiv's AI-driven monitoring and optimization technologies for digital infrastructure. The acquisition will enhance the company's ability to help customers increase uptime and optimize energy usage in their data centers. This is particularly relevant as the rise of AI workloads continues to drive higher-density power and cooling demands. By integrating Waylay's hyper-automation and AI platforms, Vertiv is positioning itself to better serve the evolving needs of the critical digital infrastructure market.\n\nVertiv is up 7.5% since the beginning of the year, but at $127.15 per share, it is still trading 17.2% below its 52-week high of $153.49 from January 2025. Investors who bought $1,000 worth of Vertiv’s shares 5 years ago would now be looking at an investment worth $7,834.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:26:10+00:00",
+            "title": "Why Stratasys (SSYS) Shares Are Falling Today",
+            "content": "What Happened?\n\nShares of 3D printing company Stratasys (NASDAQ:SSYS) fell 5.2% in the afternoon session after investors sold off technology stocks amid a wider market retreat.\n\nThe broader market pulled back from recent all-time highs, with the S&P 500 declining 0.8% and the tech-heavy Nasdaq Composite falling 1.3%. Stratasys, being part of the technology sector, appeared to be caught in the downdraft. No company-specific news was available to explain the decline, indicating that the stock's movement was likely influenced by the negative market sentiment rather than a fundamental change in the company's outlook.\n\nThe shares closed the day at $10.66, down 5% from previous close.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks. Is now the time to buy Stratasys? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nStratasys’s shares are very volatile and have had 26 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 16 days ago when the stock dropped 12.5% on the news that the company lowered its full-year financial outlook, citing prolonged macroeconomic challenges.\n\nWhile its second-quarter earnings of $0.03 per share met analyst estimates and revenue of $138.1 million was slightly ahead of forecasts, investors focused on the bleak forecast. Stratasys cut its full-year 2025 revenue guidance to a range of $550 million to $560 million, significantly below the consensus estimate of $572.5 million. The earnings outlook was also slashed, with the company now expecting adjusted earnings per share of $0.13 to $0.16, less than half the $0.32 analysts had projected. CEO Dr. Yoav Zeif attributed the revision to \"prolonged macroeconomic uncertainty and restrained customer capital spending,\" noting that an expected recovery is taking longer than anticipated.\n\nStratasys is up 22.8% since the beginning of the year, but at $10.68 per share, it is still trading 16.9% below its 52-week high of $12.85 from February 2025. Investors who bought $1,000 worth of Stratasys’s shares 5 years ago would now be looking at an investment worth $718.71.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "The Coca-Cola Company",
+          "sector": "Consumer Defensive",
+          "industry": "Beverages - Non-Alcoholic",
+          "employees": 69700,
+          "description": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and other beverages."
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.82,
+          "profit_margin": 0.2589,
+          "operating_margin": 0.3466,
+          "roe": 0.4237,
+          "roa": 0.0894,
+          "revenue_growth_yoy": 0.014,
+          "earnings_growth_yoy": 0.573,
+          "eps_estimate_current_year": 2.9811,
+          "eps_estimate_next_year": 3.2214,
+          "dividend_yield": 0.0291,
+          "dividend_per_share": 1.99,
+          "revenue_ttm": 47061999616,
+          "revenue_per_share": 10.929,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 24.4645,
+          "forward_pe": 22.9358,
+          "price_to_sales": 6.3089,
+          "price_to_book": 10.2921,
+          "enterprise_value": 329347693346,
+          "ev_to_revenue": 6.9982,
+          "ev_to_ebitda": 18.485
+        },
+        "technical_data": {
+          "beta": 0.437,
+          "52_week_high": 73.8549,
+          "52_week_low": 59.7511,
+          "50_day_ma": 69.7286,
+          "200_day_ma": 68.1021,
+          "short_interest": 0.0083,
+          "short_ratio": 2.53
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.04,
+          "forward_dividend_yield": 0.0298,
+          "payout_ratio": 0.6901,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-15",
+          "last_split_date": "2012-08-13",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.3462,
+          "target_price": 78.7044,
+          "strong_buy": 14,
+          "buy": 8,
+          "hold": 3,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 4303669760,
+          "percent_institutions": 65.58699999999999,
+          "percent_insiders": 9.878,
+          "shares_float": 3870761363
+        },
+        "balance_latest_sheet": {
+          "total_assets": 104333.0,
+          "total_debt": 49446.0,
+          "cash_and_equivalents": 9590.0,
+          "net_debt": 39856.0,
+          "working_capital": 4665.0,
+          "shareholders_equity": 28585.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.73
+        },
+        "income_latest_statement": {
+          "total_revenue": 12535.0,
+          "gross_profit": 7821.0,
+          "operating_income": 4280.0,
+          "net_income": 3810.0,
+          "ebitda": 5520.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 62.39,
+          "operating_margin": 34.14,
+          "net_margin": 30.39
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 3811.0,
+          "free_cash_flow": 3369.0,
+          "capex": 442.0,
+          "net_income": 3810.0,
+          "cash_change": 1389.0,
+          "dividends_paid": 2194.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.787,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 70.19,
+            "high": 70.62,
+            "low": 69.93,
+            "close": 70.07,
+            "volume": 17811700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 69.45,
+            "high": 70.26,
+            "low": 68.69,
+            "close": 69.66,
+            "volume": 22339900
+          },
+          {
+            "date": "2025-07-23",
+            "open": 69.66,
+            "high": 69.74,
+            "low": 68.6,
+            "close": 69.16,
+            "volume": 21030000
+          },
+          {
+            "date": "2025-07-24",
+            "open": 69.26,
+            "high": 69.55,
+            "low": 68.99,
+            "close": 69.1,
+            "volume": 12511400
+          },
+          {
+            "date": "2025-07-25",
+            "open": 69.13,
+            "high": 69.23,
+            "low": 68.75,
+            "close": 69.17,
+            "volume": 12574800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 68.74,
+            "high": 68.9,
+            "low": 68.06,
+            "close": 68.09,
+            "volume": 13668800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 68.34,
+            "high": 69.42,
+            "low": 68.15,
+            "close": 69.38,
+            "volume": 16223400
+          },
+          {
+            "date": "2025-07-30",
+            "open": 69.11,
+            "high": 69.33,
+            "low": 68.53,
+            "close": 68.75,
+            "volume": 10448200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 68.15,
+            "high": 68.65,
+            "low": 67.74,
+            "close": 67.89,
+            "volume": 17193400
+          },
+          {
+            "date": "2025-08-01",
+            "open": 68.6,
+            "high": 69.04,
+            "low": 68.27,
+            "close": 68.86,
+            "volume": 16107500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 68.72,
+            "high": 69.08,
+            "low": 68.31,
+            "close": 68.96,
+            "volume": 10701500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 68.9,
+            "high": 69.49,
+            "low": 68.75,
+            "close": 69.05,
+            "volume": 11993400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 69.12,
+            "high": 69.8,
+            "low": 68.63,
+            "close": 69.51,
+            "volume": 10783000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 69.46,
+            "high": 70.72,
+            "low": 69.33,
+            "close": 70.43,
+            "volume": 15790800
+          },
+          {
+            "date": "2025-08-08",
+            "open": 70.36,
+            "high": 70.87,
+            "low": 70.08,
+            "close": 70.34,
+            "volume": 9232700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 70.3,
+            "high": 70.86,
+            "low": 69.96,
+            "close": 70.75,
+            "volume": 10909400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 70.82,
+            "high": 71.06,
+            "low": 70.22,
+            "close": 70.71,
+            "volume": 11061100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 70.69,
+            "high": 70.77,
+            "low": 70.23,
+            "close": 70.46,
+            "volume": 10356500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 70.38,
+            "high": 70.46,
+            "low": 69.39,
+            "close": 69.55,
+            "volume": 10722400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 69.74,
+            "high": 70.39,
+            "low": 69.57,
+            "close": 69.92,
+            "volume": 12381100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 69.98,
+            "high": 70.05,
+            "low": 69.05,
+            "close": 69.13,
+            "volume": 14094900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 69.3,
+            "high": 70.22,
+            "low": 69.24,
+            "close": 70.13,
+            "volume": 13862200
+          },
+          {
+            "date": "2025-08-20",
+            "open": 70.74,
+            "high": 71.71,
+            "low": 70.41,
+            "close": 70.7,
+            "volume": 17530800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 70.6,
+            "high": 70.91,
+            "low": 70.33,
+            "close": 70.66,
+            "volume": 8840400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 70.96,
+            "high": 71.02,
+            "low": 69.92,
+            "close": 70.13,
+            "volume": 12999600
+          },
+          {
+            "date": "2025-08-25",
+            "open": 70.11,
+            "high": 70.23,
+            "low": 68.72,
+            "close": 68.93,
+            "volume": 13634600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 69.04,
+            "high": 69.08,
+            "low": 68.58,
+            "close": 68.73,
+            "volume": 17964200
+          },
+          {
+            "date": "2025-08-27",
+            "open": 68.82,
+            "high": 68.87,
+            "low": 68.47,
+            "close": 68.83,
+            "volume": 11562700
+          },
+          {
+            "date": "2025-08-28",
+            "open": 68.88,
+            "high": 68.9,
+            "low": 68.28,
+            "close": 68.36,
+            "volume": 16209900
+          },
+          {
+            "date": "2025-08-29",
+            "open": 68.67,
+            "high": 69.14,
+            "low": 68.43,
+            "close": 68.99,
+            "volume": 14597800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.1887888469358052,
+        "return_63d": -4.1805555555555625,
+        "pct_above_sma50": -1.053005986443733,
+        "sma_50": 69.7242,
+        "new_55d_high": "False",
+        "high_55d": 72.45,
+        "rsi": 37.60563380281688,
+        "rsi_in_range": "False",
+        "adx": 21.26492784810282,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.319756486447312,
+        "bb_width": 4.545235968177808,
+        "keltner_width": 5.223003011616229,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 889645344.5749999,
+        "adv_shares": 12761450.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 36.371569149971755,
+        "final_score": 31.371569149971755,
+        "sub_scores": {
+          "trend_momentum": 7.232687098689672,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.138882051282083,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 1.6202680807188008,
+          "ret_63d": -4.313453536754508,
+          "rsi14": 37.60563380281688,
+          "adx14": 18.75488384985388,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: KO\n• Current Price: $68.99\n• Overall Score: 51.97692307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 69.7286\n• Sma 200: 68.1021\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.6202680807188015\n• Momentum 63D: -4.3134535367545075\n• Momentum 126D: -3.1175396713944656\n• Momentum Acceleration: 5.933721617473309\n• Roc 21D: 1.6202680807188015\n• Trend Strength 20D: 0.12415538510997068\n• Trend Direction: -1\n• Ma Ribbon Score: 49.135114738225965\n• Breakout Strength: 0.0\n• Price Velocity: -0.0032340214152324132\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: -0.07120921734546436\n• Volatility Compression: 70.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 7.232687098689672\n• Squeeze Breakout: 4.0\n• Options Quality: 14.138882051282083\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 59.0\n• Momentum: 55.0\n• Squeeze: 60.5\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: KO\n• Strike Price: $67.5\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $3.2\n• Ask: $3.3\n• Last: $3.25\n• Mid: $3.25\n• Spread: 3.030303030303030303030303030%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6315\n• Gamma: 0.064\n• Theta: -0.0177\n• Vega: 0.1249\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.1778\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 112\n• Open Interest: 1379\n• Volume/OI Ratio: 0.08121827411167512\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: The Coca-Cola Company\n• Sector: Consumer Defensive\n• Industry: Beverages - Non-Alcoholic\n• EPS (TTM): $2.82\n• Profit Margin: 25.9%\n• ROE: 42.4%\n• P/E Ratio: 24.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T21:25:39+00:00: Why Tesla (TSLA) Shares Are Trading Lower Today...\n• 2025-08-29T21:05:59+00:00: Dillard's, iHeartMedia, Arlo Technologies, America's Car-Mart, and e.l.f. Beauty...\n• 2025-08-29T21:05:42+00:00: Orion, Blink Charging, Applied Digital, Domo, and Urban Outfitters Shares Are Fa...\n• 2025-08-29T20:26:20+00:00: Why Vertiv (VRT) Stock Is Trading Lower Today...\n• 2025-08-29T20:26:10+00:00: Why Stratasys (SSYS) Shares Are Falling Today...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR KO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the KO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:21:43.504879",
+    "estimated_tokens": 2318
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"KO\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"options_quality\": 16,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"KO shows mixed technical signals with a weak uptrend (price above SMA200 but below SMA50) and is currently in a volatility squeeze with 70% compression. Strong fundamentals with 25.9% profit margin and 42.4% ROE provide support, but momentum indicators suggest caution.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 70% compression indicating potential breakout\",\n        \"Solid fundamentals with strong profit margins and ROE\",\n        \"Options have reasonable liquidity with 3% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative 63-day momentum at -4.31%\",\n        \"Price velocity negative at -0.0032\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call at $67.50 strike offers balanced exposure with 0.63 delta\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, add on breakout confirmation\",\n        \"risk_management\": \"Monitor squeeze momentum (-0.07) for direction confirmation, keep position size moderate due to earnings risk\"\n    },\n    \"red_flags\": [\n        \"Earnings report in 30 days increases short-term risk\",\n        \"Multi-timeframe momentum indicators showing weakness\"\n    ],\n    \"notes\": \"Options Greeks profile (0.63 delta, low theta) suitable for longer-term position, but current technical weakness suggests careful entry timing\"\n}",
+    "parsed_analysis": {
+      "symbol": "KO",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 15,
+        "options_quality": 16,
+        "iv_value": 12,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "KO shows mixed technical signals with a weak uptrend (price above SMA200 but below SMA50) and is currently in a volatility squeeze with 70% compression. Strong fundamentals with 25.9% profit margin and 42.4% ROE provide support, but momentum indicators suggest caution.",
+      "opportunities": [
+        "Active volatility squeeze with 70% compression indicating potential breakout",
+        "Solid fundamentals with strong profit margins and ROE",
+        "Options have reasonable liquidity with 3% bid-ask spread"
+      ],
+      "risks": [
+        "Negative 63-day momentum at -4.31%",
+        "Price velocity negative at -0.0032",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call at $67.50 strike offers balanced exposure with 0.63 delta",
+        "entry_timing": "Consider partial position now with squeeze setup, add on breakout confirmation",
+        "risk_management": "Monitor squeeze momentum (-0.07) for direction confirmation, keep position size moderate due to earnings risk"
+      },
+      "red_flags": [
+        "Earnings report in 30 days increases short-term risk",
+        "Multi-timeframe momentum indicators showing weakness"
+      ],
+      "notes": "Options Greeks profile (0.63 delta, low theta) suitable for longer-term position, but current technical weakness suggests careful entry timing"
+    },
+    "tokens_used": 2536,
+    "cost": 0.02536,
+    "response_time": 9.347422122955322,
+    "success": true
+  },
+  "cost": 0.02536,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8476,
+    "response_length": 1669
+  }
+}

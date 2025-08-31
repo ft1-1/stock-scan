@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "KO",
+  "timestamp": "2025-08-27T00:24:52.495585",
+  "data_package": {
+    "metadata": {
+      "symbol": "KO",
+      "package_timestamp": "2025-08-27T00:24:41.556034",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "KO",
+        "current_price": 68.77,
+        "overall_score": 49.94561663683774,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 69.8996,
+        "sma_200": 68.0171
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.9399324423557065,
+        "momentum_63d": -4.2490944552800185,
+        "momentum_126d": -3.8606798153587794,
+        "momentum_acceleration": 5.189026897635725,
+        "roc_21d": 0.9399324423557065,
+        "trend_strength_20d": 0.12324943995384156,
+        "trend_direction": -1,
+        "ma_ribbon_score": 48.55875447814004,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0039902578887673675
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": 0.027836110815771305,
+        "volatility_compression": 10.623118663821984,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 6.4317941516672645,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.891217847769006,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 54.0,
+        "momentum": 55.0,
+        "squeeze": 56.5934677995733,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 22,
+        "percentile": 98.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "KO",
+        "strike_price": "67.5",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "3.15",
+        "ask": "3.2",
+        "last_price": "3.25",
+        "mid_price": "3.175",
+        "spread_percent": "1.562500"
+      },
+      "greeks": {
+        "delta": 0.6133,
+        "gamma": 0.0631,
+        "theta": -0.0177,
+        "vega": 0.1285
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.1807
+      },
+      "liquidity_metrics": {
+        "volume": 155,
+        "open_interest": 1339,
+        "volume_oi_ratio": 0.1157580283793876
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:41.363358",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T20:00:00+00:00",
+            "title": "Vector Capital to Acquire Showpad",
+            "content": "Will Combine Showpad and Bigtincan Into a Global Leader in the Revenue Enablement Market Growing to $12B in 20301\n\nSAN FRANCISCO, August 26, 2025--(BUSINESS WIRE)--Vector Capital Management, L.P., a leading private equity firm specializing in transformational investments in established technology businesses, today announced an agreement to acquire Showpad, a leader in AI revenue enablement technology with headquarters in Chicago and Ghent, Belgium.\n\nCustomers in over 50 countries — including Coca-Cola, Dow, DuPont, GE Healthcare, Kaiser Permanente and Schneider Electric — leverage Showpad to bring together marketing and revenue teams to engage buyers and add value at every interaction. The company is a Forrester Wave™ leader in multiple categories2, and a \"Customers’ Choice\" for Revenue Enablement Platforms3 on Gartner® Peer Insights™.\n\nAfter the transaction closes, Vector will combine Showpad with Bigtincan Holdings, which it acquired in April 2025. The combined entity will operate under the Showpad brand. It will deliver a complete AI-powered revenue enablement solution across all aspects of buyer-seller engagement with broad geographic diversity, and combined R&D resources to accelerate innovation market-wide.\n\nBigtincan is a five-time leader in The Aragon Research Globe™for Sales Enablement Platforms and has received multiple awards for AI and other innovations. Over 1,000 companies — including Abbott, AT&T, Clorox, Merck, Winnebago, and 100 of the Fortune 500 — use Bigtincan’s AI-powered sales enablement solutions to augment, automate and modernize seller and buyer engagement.\n\n\"The combination of Bigtincan with Showpad brings together best-in-class innovation and market leaders with thousands of customers,\" said Amish Mehta, Chief Investment Officer and Managing Director at Vector Capital. \"The combined company will lead the digital and AI-fueled buyer and seller engagement and drive a new generation of experiences that people and brands love.\"\n\nInsight Partners, a large investor in Showpad, will roll over its full investment into the combined company. The completion of the transaction is subject to customary conditions, including regulatory approval. Further terms were not disclosed, and the transaction is expected to close in 2025.\n\nWatershed Moment in AI-Powered Revenue Enablement Market\n\n\"The merger of Showpad and Bigtincan represents a watershed moment for the sales enablement market,\" said Jim Lundy, Founder and Lead Analyst at Aragon Research. \"By uniting complementary strengths in content, readiness, and AI, the combined company is poised to deliver on the market's unmet demand for AI-centric sales enablement platforms that are easier to deploy, simpler to use and more impactful for revenue teams worldwide.\"\n\nStory Continues\n\n\"Our unwavering focus on driving success for customers fueled a record-breaking year of growth for Showpad in 2024,\" said Hendrik Isebaert, CEO of Showpad. \"Together we will deliver a breadth of flexible solutions and an incredible team to help customers engage with buyers in new and creative ways they never thought possible.\"\n\n\"Evolving preferences and rapid technology advancements are aggressively transforming buying and selling behaviors,\" said Jim Hopkins, Chairman of Bigtincan. \"We invested early and heavily in AI, and our combined global R&D resources will accelerate innovation so customers can rapidly reap the benefits of AI and emerging future innovations.\"\n\nSidley Austin LLP is serving as legal counsel, Deloitte LLP is serving as tax advisor and Alvarez & Marsal is serving as financial advisor to Vector Capital. Cleary Gottlieb Steen & Hamilton LLP is acting as legal counsel and TD Securities is acting as financial advisor to Showpad.\n\n\"Vector Capital has a long history of building category-defining technology companies,\" said Rob Amen, Managing Director at Vector Capital. \"Both companies bring impressive industry expertise and commitment to excellence. Together, they will continue to drive the future and set industry standards and best practices globally.\"\n\nFor more, visit our acquisition information page and follow Bigtincan, Showpad and Vector Capital on LinkedIn.\n\nAbout Vector Capital Management, L.P.\n\nVector Capital is a leading San Francisco-based investment firm focused on transformational investments in middle-market technology and technology-enabled businesses. Founded in 1997, Vector manages over $4 billion of capital across credit and private equity strategies on behalf of a high-quality group of global limited partners. For nearly 28 years, Vector has combined technology investments with operational transformation to deliver breakthrough results. For more information, visit www.vectorcapital.com.\n\n1 Grand View Research, Sales Enablement Platform Market Size Report, 2030. 2 Forrester Wave™: Revenue Enablement Platforms, Q3 2024, and Sales Readiness Solutions, Q4 2023 reports. 3 Gartner, Gartner Peer Insights 'Voice of the Customer': Revenue Enablement Platforms, Peer Contributors, April 2024.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250826870353/en/\n\nContacts\n\nBryan Scanlon\r\nLook Left Marketing\r\nvector@lookleftmarketing.com \r\n+1 (925) 759-3265\n\nVector Capital:\r\nNathaniel Garnick / Grace Cartwright\r\nGasthalter & Co.\r\n+1 (212) 257-4170 - vector@gasthalter.com\n\nShowpad:\r\nMoon Kang\r\n+2 (804) 601-0583\r\nmoon.kang@showpad.com\n\nBigtincan:\r\nDenise Iverson\r\n+1 (214) 509-8557\r\ndenise.iverson@bigtincan.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T18:55:54+00:00",
+            "title": "Flagstar Financial (FLG) Stock Trades Up, Here Is Why",
+            "content": "What Happened?\n\nShares of regional banking company Flagstar Financial (NYSE:FLG) jumped 5.7% in the afternoon session after Citigroup raised its price target on the stock while maintaining a 'Buy' rating.\n\nThe financial services giant increased its target for Flagstar from $15.50 to $16.50, representing a 6.45% increase and signaling a positive outlook on the company's future performance. This endorsement from a major financial institution, under the analysis of Ben Gerlinger, suggests growing confidence in the stock's value. The reaffirmation of the 'Buy' rating, coupled with a higher price objective, likely encouraged investors, contributing to the stock's upward movement during trading.\n\nAfter the initial pop the shares cooled down to $13.15, up 4.7% from previous close.\n\nIs now the time to buy Flagstar Financial? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nFlagstar Financial’s shares are very volatile and have had 22 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 4 days ago when the stock gained 5.2% on the news that the major indices rebounded, as Fed Chair Jerome Powell delivered dovish remarks at the much-awaited Jackson Hole symposium.\n\nPowell suggested that with inflation risks moderating and unemployment remaining low, the Federal Reserve might consider a shift in its monetary policy stance, including potential interest rate cuts. This outlook eased market concerns about prolonged high interest rates and their impact on economic growth. The prospect of lower borrowing costs bolstered investor confidence, particularly in sectors that have lagged, leading to a broad rally across the market.\n\nFlagstar Financial is up 42.3% since the beginning of the year, and at $13.15 per share, it is trading close to its 52-week high of $13.22 from February 2025. Investors who bought $1,000 worth of Flagstar Financial’s shares 5 years ago would now be looking at an investment worth $484.70.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T18:55:51+00:00",
+            "title": "Why Byrna (BYRN) Shares Are Getting Obliterated Today",
+            "content": "What Happened?\n\nShares of non-lethal weapons company Byrna (NASDAQ:BYRN) fell 5.4% in the afternoon session after investors appeared to take profits after a significant rally the previous day.\n\nThe stock had jumped the previous day after the non-lethal weapons company announced positive results from a new AI-driven advertising campaign. Byrna reported a 50% surge in web traffic and a 31% increase in sales on its website during the first 21 days of August. The company also noted that sessions on its Amazon store grew by 75% compared to the 2025 average. The successful campaign, which reduced customer acquisition costs, drove the stock higher in the prior session. The decline appears to be a technical pullback as traders lock in gains from that news-driven surge, a move potentially amplified by broader market weakness.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks. Is now the time to buy Byrna? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nByrna’s shares are extremely volatile and have had 74 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 1 day ago when the stock gained 6.4% on the news that the company reported a 50% surge in web traffic and a 31% increase in sales after launching a new AI-driven advertising campaign.\n\nThe personal defense technology company announced that its new proprietary AI-driven advertising process has led to a record 50,000 average daily web sessions in the first 21 days of August, a 50% increase. The successful campaign, titled \"We Don't Sell Bananas,\" has garnered over 66 million views and has already translated into higher sales. Byrna reported that sales on its own website rose 31% during the period, while sessions on its Amazon store grew 75% compared to the 2025 average. Furthermore, the AI strategy has proven highly cost-effective, reducing customer acquisition costs by 43% to just $0.53 per visitor. Investors are reacting positively to the news that the company's innovative marketing is successfully boosting consumer engagement and sales.\n\nByrna is down 29.5% since the beginning of the year, and at $19.96 per share, it is trading 41.6% below its 52-week high of $34.19 from February 2025. Investors who bought $1,000 worth of Byrna’s shares 5 years ago would now be looking at an investment worth $1,034.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nVer comentarios",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T18:55:43+00:00",
+            "title": "Why Globalstar (GSAT) Stock Is Trading Up Today",
+            "content": "What Happened?\n\nShares of satellite communications provider Globalstar (NASDAQ:GSAT) jumped 4.8% in the afternoon session after a major deal was announced by a peer company.\n\nDISH TV operator EchoStar announced it was selling low- and mid-band spectrum allocations to AT&T for a substantial $23 billion. While the news does not directly involve Globalstar, such a large transaction for spectrum assets often generates positive momentum for other companies in the industry that hold similar assets. Investors may be speculating that the high valuation placed on EchoStar's spectrum highlights the potential unrealized value of Globalstar's own spectrum portfolio, leading to increased buying interest in the stock.\n\nAfter the initial pop the shares cooled down to $28.01, up 4.8% from previous close.\n\nIs now the time to buy Globalstar? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nGlobalstar’s shares are extremely volatile and have had 39 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 4 days ago when the stock gained 4% on the news that the major indices rebounded, as Fed Chair Jerome Powell delivered dovish remarks at the much-awaited Jackson Hole symposium.\n\nPowell suggested that with inflation risks moderating and unemployment remaining low, the Federal Reserve might consider a shift in its monetary policy stance, including potential interest rate cuts. This outlook eased market concerns about prolonged high interest rates and their impact on economic growth. The prospect of lower borrowing costs bolstered investor confidence, particularly in sectors that have lagged, leading to a broad rally across the market.\n\nGlobalstar is down 11.9% since the beginning of the year, and at $28.01 per share, it is trading 18.5% below its 52-week high of $34.35 from December 2024. Investors who bought $1,000 worth of Globalstar’s shares 5 years ago would now be looking at an investment worth $5,556.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T17:42:30+00:00",
+            "title": "Verizon Communications (VZ) Welcomes Coca-Cola Executive Jennifer Mann to Board of Directors",
+            "content": "Verizon Communications recently appointed Jennifer K. Mann to its Board of Directors, an addition that enhances its leadership team with diverse industry expertise. Over the past month, Verizon's stock price rose by 3%. This movement aligns with broader market trends that followed optimistic speculation on potential Fed rate cuts. During this period, Verizon also launched the Google Pixel 10 series and expanded its partnership with Staples, both initiatives likely contributing positively to its market sentiment. Meanwhile, the new headquarters in New York City underscores Verizon's strategic commitment to connectivity and innovation.\n\nBe aware that Verizon Communications is showing 1 weakness in our investment analysis.VZ Revenue & Expenses Breakdown as at Aug 2025\n\nAI is about to change healthcare. These 28 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10b in market cap - there's still time to get in early.\n\nThe recent appointment of Jennifer K. Mann to Verizon's Board of Directors could positively influence the company by providing a fresh perspective and diverse expertise, possibly aiding in strategic initiatives such as the 5G expansion and partnerships like the one with Staples. These developments could bolster investor confidence and align with Verizon’s focus on connectivity and revenue growth through both fixed wireless access and fiber broadband expansion. This may support analysts' projections of a 1.8% annual revenue growth and an improvement in profit margins from 13.3% to 15.3% over the next few years.\n\nOver a longer-term period of three years, Verizon's total shareholder returns, including dividends, amounted to 24.87%. This figure contrasts with its more recent performance, where over the past year, Verizon underperformed the US Telecom industry, which returned 23.3%, and the broader US market, which returned 15.5%. The stock's current price of $44.23 reflects a market consensus that aligns closely with the average analyst price target of $48.74, indicating a moderate 7.8% upside. Analysts expect Verizon's earnings to reach US$22.2 billion by August 2028, provided that execution on strategic priorities is effective and market conditions remain supportive.\n\nGain insights into Verizon Communications' historical outcomes by reviewing our past performance report.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nStory Continues\n\nCompanies discussed in this article include VZ.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "The Coca-Cola Company",
+          "sector": "Consumer Defensive",
+          "industry": "Beverages - Non-Alcoholic",
+          "employees": 69700,
+          "description": "The Coca-Cola Company, a beverage company, manufactures and sells various nonalcoholic beverages in the United States and internationally. The company provides sparkling soft drinks and flavors; water, sports, coffee, and tea; juice, value-added dairy, and plant-based beverages; and other beverages."
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.82,
+          "profit_margin": 0.2589,
+          "operating_margin": 0.3466,
+          "roe": 0.4237,
+          "roa": 0.0894,
+          "revenue_growth_yoy": 0.014,
+          "earnings_growth_yoy": 0.573,
+          "eps_estimate_current_year": 2.9793,
+          "eps_estimate_next_year": 3.2192,
+          "dividend_yield": 0.0284,
+          "dividend_per_share": 1.99,
+          "revenue_ttm": 47061999616,
+          "revenue_per_share": 10.929,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 24.4433,
+          "forward_pe": 23.5294,
+          "price_to_sales": 6.3034,
+          "price_to_book": 10.5586,
+          "enterprise_value": 336965184382,
+          "ev_to_revenue": 7.16,
+          "ev_to_ebitda": 18.9126
+        },
+        "technical_data": {
+          "beta": 0.437,
+          "52_week_high": 73.8549,
+          "52_week_low": 59.7511,
+          "50_day_ma": 69.8996,
+          "200_day_ma": 68.0171,
+          "short_interest": 0.0083,
+          "short_ratio": 2.18
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.04,
+          "forward_dividend_yield": 0.0291,
+          "payout_ratio": 0.6901,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-15",
+          "last_split_date": "2012-08-13",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.3462,
+          "target_price": 78.7044,
+          "strong_buy": 14,
+          "buy": 8,
+          "hold": 3,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 4303669760,
+          "percent_institutions": 65.575,
+          "percent_insiders": 9.878,
+          "shares_float": 3870761363
+        },
+        "balance_latest_sheet": {
+          "total_assets": 104333.0,
+          "total_debt": 49446.0,
+          "cash_and_equivalents": 9590.0,
+          "net_debt": 39856.0,
+          "working_capital": 4665.0,
+          "shareholders_equity": 28585.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.73
+        },
+        "income_latest_statement": {
+          "total_revenue": 12535.0,
+          "gross_profit": 7821.0,
+          "operating_income": 4280.0,
+          "net_income": 3810.0,
+          "ebitda": 5520.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 62.39,
+          "operating_margin": 34.14,
+          "net_margin": 30.39
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 3811.0,
+          "free_cash_flow": 3369.0,
+          "capex": 442.0,
+          "net_income": 3810.0,
+          "cash_change": 1389.0,
+          "dividends_paid": 2194.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.787,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 69.35,
+            "high": 69.5,
+            "low": 68.79,
+            "close": 69.27,
+            "volume": 13178300
+          },
+          {
+            "date": "2025-07-17",
+            "open": 69.81,
+            "high": 70.69,
+            "low": 69.51,
+            "close": 70.59,
+            "volume": 20464700
+          },
+          {
+            "date": "2025-07-18",
+            "open": 70.44,
+            "high": 70.7,
+            "low": 69.83,
+            "close": 69.85,
+            "volume": 14928000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 70.19,
+            "high": 70.62,
+            "low": 69.93,
+            "close": 70.07,
+            "volume": 17811700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 69.45,
+            "high": 70.26,
+            "low": 68.69,
+            "close": 69.66,
+            "volume": 22339900
+          },
+          {
+            "date": "2025-07-23",
+            "open": 69.66,
+            "high": 69.74,
+            "low": 68.6,
+            "close": 69.16,
+            "volume": 21030000
+          },
+          {
+            "date": "2025-07-24",
+            "open": 69.26,
+            "high": 69.55,
+            "low": 68.99,
+            "close": 69.1,
+            "volume": 12511400
+          },
+          {
+            "date": "2025-07-25",
+            "open": 69.13,
+            "high": 69.23,
+            "low": 68.75,
+            "close": 69.17,
+            "volume": 12574800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 68.74,
+            "high": 68.9,
+            "low": 68.06,
+            "close": 68.09,
+            "volume": 13668800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 68.34,
+            "high": 69.42,
+            "low": 68.15,
+            "close": 69.38,
+            "volume": 16223400
+          },
+          {
+            "date": "2025-07-30",
+            "open": 69.11,
+            "high": 69.33,
+            "low": 68.53,
+            "close": 68.75,
+            "volume": 10448200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 68.15,
+            "high": 68.65,
+            "low": 67.74,
+            "close": 67.89,
+            "volume": 17193400
+          },
+          {
+            "date": "2025-08-01",
+            "open": 68.6,
+            "high": 69.04,
+            "low": 68.27,
+            "close": 68.86,
+            "volume": 16107500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 68.72,
+            "high": 69.08,
+            "low": 68.31,
+            "close": 68.96,
+            "volume": 10701500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 68.9,
+            "high": 69.49,
+            "low": 68.75,
+            "close": 69.05,
+            "volume": 11993400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 69.12,
+            "high": 69.8,
+            "low": 68.63,
+            "close": 69.51,
+            "volume": 10783000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 69.46,
+            "high": 70.72,
+            "low": 69.33,
+            "close": 70.43,
+            "volume": 15790800
+          },
+          {
+            "date": "2025-08-08",
+            "open": 70.36,
+            "high": 70.87,
+            "low": 70.08,
+            "close": 70.34,
+            "volume": 9232700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 70.3,
+            "high": 70.86,
+            "low": 69.96,
+            "close": 70.75,
+            "volume": 10909400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 70.82,
+            "high": 71.06,
+            "low": 70.22,
+            "close": 70.71,
+            "volume": 11061100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 70.69,
+            "high": 70.77,
+            "low": 70.23,
+            "close": 70.46,
+            "volume": 10356500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 70.38,
+            "high": 70.46,
+            "low": 69.39,
+            "close": 69.55,
+            "volume": 10722400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 69.74,
+            "high": 70.39,
+            "low": 69.57,
+            "close": 69.92,
+            "volume": 12381100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 69.98,
+            "high": 70.05,
+            "low": 69.05,
+            "close": 69.13,
+            "volume": 14094900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 69.3,
+            "high": 70.22,
+            "low": 69.24,
+            "close": 70.13,
+            "volume": 13862200
+          },
+          {
+            "date": "2025-08-20",
+            "open": 70.74,
+            "high": 71.71,
+            "low": 70.41,
+            "close": 70.7,
+            "volume": 17530800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 70.6,
+            "high": 70.91,
+            "low": 70.33,
+            "close": 70.66,
+            "volume": 8840400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 70.96,
+            "high": 71.02,
+            "low": 69.92,
+            "close": 70.13,
+            "volume": 12999600
+          },
+          {
+            "date": "2025-08-25",
+            "open": 70.11,
+            "high": 70.23,
+            "low": 68.72,
+            "close": 68.93,
+            "volume": 13634600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 69.04,
+            "high": 69.08,
+            "low": 68.575,
+            "close": 68.73,
+            "volume": 10057277
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -0.936869414816938,
+        "return_63d": -3.4012649332396365,
+        "pct_above_sma50": -1.458138695126357,
+        "sma_50": 69.7876,
+        "new_55d_high": "False",
+        "high_55d": 72.69,
+        "rsi": 44.672131147540995,
+        "rsi_in_range": "False",
+        "adx": 17.558117786447074,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.413138367525098,
+        "bb_width": 4.882716587561192,
+        "keltner_width": 5.573108496300719,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 866467289.5485752,
+        "adv_shares": 12435038.85,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 40.323011999436275,
+        "final_score": 35.323011999436275,
+        "sub_scores": {
+          "trend_momentum": 6.4317941516672645,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.891217847769006,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 0.9399324423557065,
+          "ret_63d": -4.249094455280023,
+          "rsi14": 44.672131147540995,
+          "adx14": 15.743892886544472,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: KO\n• Current Price: $68.77\n• Overall Score: 49.94561663683774\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 69.8996\n• Sma 200: 68.0171\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.9399324423557065\n• Momentum 63D: -4.2490944552800185\n• Momentum 126D: -3.8606798153587794\n• Momentum Acceleration: 5.189026897635725\n• Roc 21D: 0.9399324423557065\n• Trend Strength 20D: 0.12324943995384156\n• Trend Direction: -1\n• Ma Ribbon Score: 48.55875447814004\n• Breakout Strength: 0.0\n• Price Velocity: -0.0039902578887673675\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: 0.027836110815771305\n• Volatility Compression: 10.623118663821984\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 6.4317941516672645\n• Squeeze Breakout: 4.0\n• Options Quality: 18.891217847769006\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 54.0\n• Momentum: 55.0\n• Squeeze: 56.5934677995733\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: KO\n• Strike Price: $67.5\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $3.15\n• Ask: $3.2\n• Last: $3.25\n• Mid: $3.175\n• Spread: 1.562500%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6133\n• Gamma: 0.0631\n• Theta: -0.0177\n• Vega: 0.1285\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.1807\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 155\n• Open Interest: 1339\n• Volume/OI Ratio: 0.1157580283793876\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: The Coca-Cola Company\n• Sector: Consumer Defensive\n• Industry: Beverages - Non-Alcoholic\n• EPS (TTM): $2.82\n• Profit Margin: 25.9%\n• ROE: 42.4%\n• P/E Ratio: 24.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T20:00:00+00:00: Vector Capital to Acquire Showpad...\n• 2025-08-26T18:55:54+00:00: Flagstar Financial (FLG) Stock Trades Up, Here Is Why...\n• 2025-08-26T18:55:51+00:00: Why Byrna (BYRN) Shares Are Getting Obliterated Today...\n• 2025-08-26T18:55:43+00:00: Why Globalstar (GSAT) Stock Is Trading Up Today...\n• 2025-08-26T17:42:30+00:00: Verizon Communications (VZ) Welcomes Coca-Cola Executive Jennifer Mann to Board ...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR KO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the KO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:24:52.495185",
+    "estimated_tokens": 2312
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"KO\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"options_quality\": 17,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"KO presents a moderately bullish setup with a confirmed volatility squeeze and strong fundamentals, though momentum is mixed. The LEAPS option offers good liquidity with reasonable spreads, while the stock shows consolidation near its 200-day SMA with multiple timeframe squeeze potential.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze setup (3 concurrent squeezes) with 10.62 compression ratio\",\n        \"Strong fundamentals with 25.9% profit margin and 42.4% ROE\",\n        \"Options have tight 1.56% bid-ask spread with healthy 0.61 delta\"\n    ],\n    \"risks\": [\n        \"Negative 63D and 126D momentum (-4.24% and -3.86% respectively)\",\n        \"Trading below 50-day SMA (69.89) showing intermediate weakness\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Nov 2025 67.5 CALL for directional exposure with ample time value\",\n        \"entry_timing\": \"Wait for confirmation of squeeze breakout and price to reclaim 50-day SMA\",\n        \"risk_management\": \"Size position conservatively due to mixed momentum signals; consider partial profit taking at 50% gain\"\n    },\n    \"red_flags\": [\n        \"Price showing negative momentum across multiple timeframes\",\n        \"Earnings report within 35 days could increase volatility\"\n    ],\n    \"notes\": \"While squeeze setup is promising, the mixed momentum signals suggest waiting for stronger confirmation before entry. Monitor for improvement in momentum metrics and potential break above 50-day SMA.\"\n}",
+    "parsed_analysis": {
+      "symbol": "KO",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 15,
+        "options_quality": 17,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "KO presents a moderately bullish setup with a confirmed volatility squeeze and strong fundamentals, though momentum is mixed. The LEAPS option offers good liquidity with reasonable spreads, while the stock shows consolidation near its 200-day SMA with multiple timeframe squeeze potential.",
+      "opportunities": [
+        "Multiple timeframe squeeze setup (3 concurrent squeezes) with 10.62 compression ratio",
+        "Strong fundamentals with 25.9% profit margin and 42.4% ROE",
+        "Options have tight 1.56% bid-ask spread with healthy 0.61 delta"
+      ],
+      "risks": [
+        "Negative 63D and 126D momentum (-4.24% and -3.86% respectively)",
+        "Trading below 50-day SMA (69.89) showing intermediate weakness",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Nov 2025 67.5 CALL for directional exposure with ample time value",
+        "entry_timing": "Wait for confirmation of squeeze breakout and price to reclaim 50-day SMA",
+        "risk_management": "Size position conservatively due to mixed momentum signals; consider partial profit taking at 50% gain"
+      },
+      "red_flags": [
+        "Price showing negative momentum across multiple timeframes",
+        "Earnings report within 35 days could increase volatility"
+      ],
+      "notes": "While squeeze setup is promising, the mixed momentum signals suggest waiting for stronger confirmation before entry. Monitor for improvement in momentum metrics and potential break above 50-day SMA."
+    },
+    "tokens_used": 2569,
+    "cost": 0.02569,
+    "response_time": 10.937238693237305,
+    "success": true
+  },
+  "cost": 0.02569,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8452,
+    "response_length": 1827
+  }
+}

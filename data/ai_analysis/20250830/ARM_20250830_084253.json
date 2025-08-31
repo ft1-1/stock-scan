@@ -1,0 +1,627 @@
+{
+  "success": true,
+  "symbol": "ARM",
+  "timestamp": "2025-08-30T08:42:53.925982",
+  "data_package": {
+    "metadata": {
+      "symbol": "ARM",
+      "package_timestamp": "2025-08-30T08:42:45.509349",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "ARM",
+        "current_price": 138.31,
+        "overall_score": 47.95075936257168,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 148.0764,
+        "sma_200": 135.7072
+      },
+      "momentum_metrics": {
+        "momentum_21d": -2.1679929266136146,
+        "momentum_63d": 11.056688614099883,
+        "momentum_126d": 5.0269572480826215,
+        "momentum_acceleration": -13.224681540713497,
+        "roc_21d": -2.1679929266136146,
+        "trend_strength_20d": 0.000576405296683679,
+        "trend_direction": -1,
+        "ma_ribbon_score": 46.76791705455186,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0007058362641059413
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 3.0,
+        "squeeze_momentum": 0.7496295134825521,
+        "volatility_compression": 67.46120952161989,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 8.32442120627927,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.958056140350855,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 45.0,
+        "squeeze": 60.11918142824298,
+        "options": 43.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 25,
+        "percentile": 98.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "ARM",
+        "strike_price": "135",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "15.1",
+        "ask": "15.3",
+        "last_price": "15.85",
+        "mid_price": "15.2",
+        "spread_percent": "1.307189542483660130718954248"
+      },
+      "greeks": {
+        "delta": 0.603,
+        "gamma": 0.0118,
+        "theta": -0.0832,
+        "vega": 0.2548
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4938
+      },
+      "liquidity_metrics": {
+        "volume": 1,
+        "open_interest": 853,
+        "volume_oi_ratio": 0.0011723329425556857
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:57.817797",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T22:18:14+00:00",
+            "title": "Stocks Settle Lower as Tech Shares Selloff",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed down by -0.64%, the Dow Jones Industrials Index ($DOWI) (DIA) closed down by -0.20%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed down by -1.22%.  September E-mini S&P futures (ESU25) fell -0.68%, and September E-mini Nasdaq futures (NQU25) fell -1.31%.\n\nStock indexes retreated on Friday, weighed down by weakness in technology stocks.  Marvell Technology tumbled more than -18% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies fell more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan's US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan's inflation expectations were unexpectedly revised lower. In addition, dovish comments from Fed Governor Waller and San Francisco Fed President Daly were bullish for stocks as they signaled their support for Fed rate cuts.\n\nUS July personal spending rose +0.5% m/m, the most in four months, and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed's 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan's Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nLate Thursday, Fed Governor Christopher Waller stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nSan Francisco Fed President Mary Daly signaled she's open to lower interest rates soon, saying, \"It will soon be time to recalibrate policy to better match our economy.\" She added that tariff-related price increases \"will be a one-off\" and it \"will take time before we know that for certain, but we can't wait for perfect certainty without risking harm to the labor market.\"\n\nRegarding tariffs, President Trump on Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 88% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled mixed.  The Euro Stoxx 50 fell to a 2-week low and closed down -0.83%.  China's Shanghai Composite closed up +0.37%.  Japan's Nikkei Stock 225 closed down -0.26.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) Friday closed down -2.5 ticks, and the 10-year T-note yield rose +2.4 bp to 4.227%.\n\nSep T-notes posted modest losses on Friday after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes were limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan's Aug inflation expectations were revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields on Friday moved higher.  The 10-year German bund yield rose +2.9 bp to 2.724%.  10-year UK gilt yield rose +2.2 bp to 4.722%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers sold off on Friday, led by an -18% plunge in Marvell Technology (MRVL) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Lam Research (LRCX) closed down more than -4%, and Broadcom (AVGO), Nvidia (NVDA), and Advanced Micro Devices (AMD) closed down more than -3%.  In addition, ARM Holdings Plc (ARM), ASML Holding NV (ASML), Applied Materials (AMAT), KLA Corp (KLAC), Intel (INTC), ON Semiconductor Corp (ON), and Micron Technology (MU) all closed down by more than 2%.\n\nDell Technologies (DELL) closed down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI) closed down more than -5% and Hewlett Packard Enterprise (HPE) closed down more than -2%.\n\nUlta Beauty (ULTA) closed down more than -7% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers.\n\nCaterpillar (CAT) closed down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year.\n\nDollar General (DG) closed down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects \"more pressure\" in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4.\n\nCryptocurrency-exposed stocks fell Friday after the price of Bitcoin (^BTCUSD) dropped more than -3% to a 7-week low.  As a result, Galaxy Digital (GLXY) closed down more than -4%, and Coinbase Global (COIN) and Strategy (MSTR) closed down more than -1%.\n\nAutodesk (ADSK) closed up more than +9% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA) closed up more than +16% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%.\n\nAffirm Holdings (AFRM) closed up more than +10% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million.\n\nSentinelOne (S) closed up more than +6% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion.\n\nCelsius Holdings (CELH) closed up more than +5% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nManaged healthcare stocks gained on Friday.  Molina Healthcare (MOH) closed up more than +3%, and Elevance Health (ELV) and Centene (CNC) closed up more than +2%.  Also, UnitedHealth Group (UNH) closed up more than +2% to lead gainers in the Dow Jones Industrials.  In addition, Humana (HUM) and CVS Health (CVS) closed up more than +1%.\n\nEarnings Reports(9/2/2025)\n\nAcademy Sports & Outdoors Inc (ASO), HealthEquity Inc (HQY), Signet Jewelers Ltd (SIG), Zscaler Inc (ZS).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:34:22+00:00",
+            "title": "Stocks Settle Lower as Tech Shares Selloff",
+            "content": "The S&P 500 Index ($SPX [https://www.barchart.com/futures/quotes/$SPX/overview]) (SPY [https://www.barchart.com/etfs-funds/quotes/SPY/overview]) on Friday closed down by -0.64%, the Dow Jones Industrials Index ($DOWI [https://www.barchart.com/futures/quotes/$DOWI/overview]) (DIA [https://www.barchart.com/etfs-funds/quotes/DIA/overview]) closed down by -0.20%, and the Nasdaq 100 Index ($IUXX [https://www.barchart.com/futures/quotes/$IUXX/overview]) (QQQ [https://www.barchart.com/etfs-funds/quotes/QQQ/overview]) closed down by -1.22%.  September E-mini S&P futures (ESU25 [https://www.barchart.com/futures/quotes/ES*0/overview]) fell -0.68%, and September E-mini Nasdaq futures (NQU25 [https://www.barchart.com/futures/quotes/NQ*0/overview]) fell -1.31%. \n\nStock indexes retreated on Friday, weighed down by weakness in technology stocks.  Marvell Technology tumbled more than -18% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies fell more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers.   \n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan's US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan's inflation expectations were unexpectedly revised lower. In addition, dovish comments from Fed Governor Waller and San Francisco Fed President Daly were bullish for stocks as they signaled their support for Fed rate cuts. \n\nUS July personal spending rose +0.5% m/m, the most in four months, and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed's 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan's Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nLate Thursday, Fed Governor Christopher Waller stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nSan Francisco Fed President Mary Daly signaled she's open to lower interest rates soon, saying, \"It will soon be time to recalibrate policy to better match our economy.\" She added that tariff-related price increases \"will be a one-off\" and it \"will take time before we know that for certain, but we can't wait for perfect certainty without risking harm to the labor market.\"\n\nRegarding tariffs, President Trump on Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.  \n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 88% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates. \n\nOverseas stock markets on Friday settled mixed.  The Euro Stoxx 50 fell to a 2-week low and closed down -0.83%.  China's Shanghai Composite closed up +0.37%.  Japan's Nikkei Stock 225 closed down -0.26.\n\nINTEREST RATES\n\nSeptember 10-year T-notes (ZNU5 [https://www.barchart.com/futures/quotes/ZN*0/overview]) Friday closed down -2.5 ticks, and the 10-year T-note yield rose +2.4 bp to 4.227%. \n\nSep T-notes posted modest losses on Friday after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes were limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan's Aug inflation expectations were revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields on Friday moved higher.  The 10-year German bund yield rose +2.9 bp to 2.724%.  10-year UK gilt yield rose +2.2 bp to 4.722%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS STOCK MOVERS\n\nChipmakers sold off on Friday, led by an -18% plunge in Marvell Technology (MRVL [https://www.barchart.com/stocks/quotes/MRVL/overview]) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Lam Research (LRCX [https://www.barchart.com/stocks/quotes/LRCX/overview]) closed down more than -4%, and Broadcom (AVGO [https://www.barchart.com/stocks/quotes/AVGO/overview]), Nvidia (NVDA [https://www.barchart.com/stocks/quotes/NVDA/overview]), and Advanced Micro Devices (AMD [https://www.barchart.com/stocks/quotes/AMD/overview]) closed down more than -3%.  In addition, ARM Holdings Plc (ARM [https://www.barchart.com/stocks/quotes/ARM/overview]), ASML Holding NV (ASML [https://www.barchart.com/stocks/quotes/ASML/overview]), Applied Materials (AMAT [https://www.barchart.com/stocks/quotes/AMAT/overview]), KLA Corp (KLAC [https://www.barchart.com/stocks/quotes/KLAC/overview]), Intel (INTC [https://www.barchart.com/stocks/quotes/INTC/overview]), ON Semiconductor Corp (ON [https://www.barchart.com/stocks/quotes/ON/overview]), and Micron Technology (MU [https://www.barchart.com/stocks/quotes/MU/overview]) all closed down by more than 2%.   \n\nDell Technologies (DELL [https://www.barchart.com/stocks/quotes/DELL/overview]) closed down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI [https://www.barchart.com/stocks/quotes/SMCI/overview]) closed down more than -5% and Hewlett Packard Enterprise (HPE [https://www.barchart.com/stocks/quotes/HPE/overview]) closed down more than -2%. \n\nUlta Beauty (ULTA [https://www.barchart.com/stocks/quotes/ULTA/overview]) closed down more than -7% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers. \n\nCaterpillar (CAT [https://www.barchart.com/stocks/quotes/CAT/overview]) closed down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year. \n\nDollar General (DG [https://www.barchart.com/stocks/quotes/DG/overview]) closed down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects \"more pressure\" in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4. \n\nCryptocurrency-exposed stocks fell Friday after the price of Bitcoin (^BTCUSD [https://www.barchart.com/crypto/quotes/%5EBTCUSD/overview]) dropped more than -3% to a 7-week low.  As a result, Galaxy Digital (GLXY [https://www.barchart.com/stocks/quotes/GLXY/overview]) closed down more than -4%, and Coinbase Global (COIN [https://www.barchart.com/stocks/quotes/COIN/overview]) and Strategy (MSTR [https://www.barchart.com/stocks/quotes/MSTR/overview]) closed down more than -1%. \n\nAutodesk (ADSK [https://www.barchart.com/stocks/quotes/ADSK/overview]) closed up more than +9% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA [https://www.barchart.com/stocks/quotes/AMBA/overview]) closed up more than +16% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%. \n\nAffirm Holdings (AFRM [https://www.barchart.com/stocks/quotes/AFRM/overview]) closed up more than +10% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million. \n\nSentinelOne (S [https://www.barchart.com/stocks/quotes/S/overview]) closed up more than +6% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion. \n\nCelsius Holdings (CELH [https://www.barchart.com/stocks/quotes/CELH/overview]) closed up more than +5% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nManaged healthcare stocks gained on Friday.  Molina Healthcare (MOH [https://www.barchart.com/stocks/quotes/MOH/overview]) closed up more than +3%, and Elevance Health (ELV [https://www.barchart.com/stocks/quotes/ELV/overview]) and Centene (CNC [https://www.barchart.com/stocks/quotes/CNC/overview]) closed up more than +2%.  Also, UnitedHealth Group (UNH [https://www.barchart.com/stocks/quotes/UNH/overview]) closed up more than +2% to lead gainers in the Dow Jones Industrials.  In addition, Humana (HUM [https://www.barchart.com/stocks/quotes/HUM/overview]) and CVS Health (CVS [https://www.barchart.com/stocks/quotes/CVS/overview]) closed up more than +1%.    \n\nEARNINGS REPORTS(9/2/2025)\n\nAcademy Sports & Outdoors Inc (ASO), HealthEquity Inc (HQY), Signet Jewelers Ltd (SIG), Zscaler Inc (ZS).\n\n_ On the date of publication, Rich Asplund [https://www.barchart.com/news/authors/5/rich-asplund] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T17:00:18+00:00",
+            "title": "Stocks Retreat as Tech Stocks Slump and Inflation Pressures Persist",
+            "content": "The S&P 500 Index ($SPX) (SPY) today is down by -0.74%, the Dow Jones Industrials Index ($DOWI) (DIA) is down by -0.43%, and the Nasdaq 100 Index ($IUXX) (QQQ) is down by -1.28%.  September E-mini S&P futures (ESU25) are down -0.74%, and September E-mini Nasdaq futures (NQU25) are down -1.24%.\n\nStock indexes are moving lower today, weighed down by weakness in technology stocks.  Marvell Technology is down more than -16% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies is down more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan’s US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed’s preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan’s inflation expectations were unexpectedly revised lower. In addition, Autodesk is up more than +7% after reporting stronger-than-expected Q2 net revenue and forecasting Q3 revenue above consensus.\n\nUS July personal spending rose +0.5% m/m, the most in four months and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed’s preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed’s 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan’s Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nDovish comments late Thursday from Fed Governor Christopher Waller were supportive of stocks, as he stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, “With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.”\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations’ digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India’s purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 89% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets today are mixed.  The Euro Stoxx 50 fell to a 2-week low and is down -0.49%.  China’s Shanghai Composite closed up +0.37%.  Japan’s Nikkei Stock 225 closed down -0.26.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) today are down -3 ticks, and the 10-year T-note yield is up +2.1 bp to 4.225%.\n\nSep T-notes are under pressure today after the US July core PCE price index, the Fed’s preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes are limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan’s Aug inflation expectations were unexpectedly revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields today are moving higher.  The 10-year German bund yield is up +1.9 bp to 2.714%.  10-year UK gilt yield is up +2.1 bp to 4.720%.\n\nThe ECB’s July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers are under pressure today, led by a -16% plunge in Marvell Technology (MRVL) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Broadcom (AVGO) and Lam Research (LRCX) are down more than -4%, and Nvidia (NVDA) and Advanced Micro Devices (AMD) are down more than -3%.  In addition, ARM Holdings Plc (ARM), ASML Holding NV (ASML), Applied Materials (AMAT), KLA Corp (KLAC), and Micro Technology (MU) are down more than -2%.\n\nDell Technologies (DELL) is down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI) is down more than -5% and Hewlett Packard Enterprise (HPE) is down more than -2%.\n\nCaterpillar (CAT) is down more than -4% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year.\n\nUlta Beauty (ULTA) is down more than -5% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers.\n\nIonQ Inc. (IONQ) is down more than -3% after filing for a potential offering of up to 12.4 million shares of its stock by multiple shareholders.\n\nDollar General (DG) is down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects “more pressure” in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4.\n\nAutodesk (ADSK) is up more than +7% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA) is up more than +17% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%.\n\nAffirm Holdings (AFRM) is up more than +12% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million.\n\nSentinelOne (S) is up more than +4% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion.\n\nCelsius Holdings (CELH) is up more than +4% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings’ board of directors.\n\nEarnings Reports(8/29/2025)\n\nLionsgate Studios Corp (LION).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:45:19+00:00",
+            "title": "Stocks Decline on Weakness in Tech Stocks and Sticky Inflation Pressures",
+            "content": "The S&P 500 Index ($SPX) (SPY) today is down by -0.31%, the Dow Jones Industrials Index ($DOWI) (DIA) is down by -0.12%, and the Nasdaq 100 Index ($IUXX) (QQQ) is down by -0.92%.  September E-mini S&P futures (ESU25) are down -0.46%, and September E-mini Nasdaq futures (NQU25) are down -0.87%.\n\nStock indexes are moving lower today, weighed down by weakness in technology stocks.  Marvell Technology is down more than -16% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies is down more than -9% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStock indexes recovered from their worst levels on signs of resilient US consumer demand after July personal spending rose by the most in four months.  However, price pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose as expected by the most in five months.\n\nUS July personal spending rose +0.5% m/m, the most in four months and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed’s 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nDovish comments late Thursday from Fed Governor Christopher Waller were supportive for stocks, as he stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nThe markets this week are focusing on any fresh tariff news or developments on ending the Ukraine-Russian war.  Later today, the University of Michigan's final-Aug US consumer sentiment index is expected to be unrevised at 58.6.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 85% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets today are mixed.  The Euro Stoxx 50 fell to a 2-week low and is down -0.26%.  China's Shanghai Composite closed up +0.37%. Japan's Nikkei Stock 225 closed down -0.26.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) today are down -4 ticks, and the 10-year T-note yield is up +2.5 bp to 4.228%.\n\nSep T-notes are under pressure today after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes are limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.\n\nEuropean government bond yields today are moving higher.  The 10-year German bund yield is up +1.4 bp to 2.709%.  10-year UK gilt yield is up +2.5 bp to 4.724%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers are under pressure today, led by a -16% plunge in Marvell Technology (MRVL) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Nvidia (NVDA), Lam Research (LRCX), ARM Holdings Plc (ARM), ASML Holding NV (ASML), Broadcom (AVGO), Advanced Micro Devices (AMD), Applied Materials (AMAT), KLA Corp (KLAC), and ON Semiconductor Corp (ON) are down more than +1%.\n\nDell Technologies (DELL) is down more than -9% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI) is down more than -4% and Hewlett Packard Enterprise (HPE) is down more than -1%.\n\nCaterpillar (CAT) is down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year.\n\nUlta Beauty (ULTA) is down more than -4% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers.\n\nIonQ Inc (IONQ) is down more than -2% after filing for a potential offering of up to 12.4 million shares of its stock by multiple shareholders..\n\nAutodesk (ADSK) is up more than +9% to lead gainers in the S&P 500 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA) is up more than +23% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%.\n\nAffirm Holdings (AFRM) is up more than +18% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million.\n\nSentinelOne (S) is up more than +4% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion.\n\nCelsius Holdings (CELH) is up more than +3% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nEarnings Reports(8/29/2025)\n\nLionsgate Studios Corp (LION).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:26:36+00:00",
+            "title": "Stocks Retreat as Tech Stocks Slump and Inflation Pressures Persist",
+            "content": "The S&P 500 Index ($SPX [https://www.barchart.com/futures/quotes/$SPX/overview]) (SPY [https://www.barchart.com/etfs-funds/quotes/SPY/overview]) today is down by -0.74%, the Dow Jones Industrials Index ($DOWI [https://www.barchart.com/futures/quotes/$DOWI/overview]) (DIA [https://www.barchart.com/etfs-funds/quotes/DIA/overview]) is down by -0.43%, and the Nasdaq 100 Index ($IUXX [https://www.barchart.com/futures/quotes/$IUXX/overview]) (QQQ [https://www.barchart.com/etfs-funds/quotes/QQQ/overview]) is down by -1.28%.  September E-mini S&P futures (ESU25 [https://www.barchart.com/futures/quotes/ES*0/overview]) are down -0.74%, and September E-mini Nasdaq futures (NQU25 [https://www.barchart.com/futures/quotes/NQ*0/overview]) are down -1.24%. \n\nStock indexes are moving lower today, weighed down by weakness in technology stocks.  Marvell Technology is down more than -16% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies is down more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers.   \n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan’s US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed’s preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan’s inflation expectations were unexpectedly revised lower. In addition, Autodesk is up more than +7% after reporting stronger-than-expected Q2 net revenue and forecasting Q3 revenue above consensus. \n\nUS July personal spending rose +0.5% m/m, the most in four months and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed’s preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed’s 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan’s Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nDovish comments late Thursday from Fed Governor Christopher Waller were supportive of stocks, as he stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, “With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.”\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations’ digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.  \n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India’s purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 89% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates. \n\nOverseas stock markets today are mixed.  The Euro Stoxx 50 fell to a 2-week low and is down -0.49%.  China’s Shanghai Composite closed up +0.37%.  Japan’s Nikkei Stock 225 closed down -0.26.\n\nINTEREST RATES\n\nSeptember 10-year T-notes (ZNU5 [https://www.barchart.com/futures/quotes/ZN*0/overview]) today are down -3 ticks, and the 10-year T-note yield is up +2.1 bp to 4.225%. \n\nSep T-notes are under pressure today after the US July core PCE price index, the Fed’s preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes are limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan’s Aug inflation expectations were unexpectedly revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields today are moving higher.  The 10-year German bund yield is up +1.9 bp to 2.714%.  10-year UK gilt yield is up +2.1 bp to 4.720%.\n\nThe ECB’s July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS STOCK MOVERS\n\nChipmakers are under pressure today, led by a -16% plunge in Marvell Technology (MRVL [https://www.barchart.com/stocks/quotes/MRVL/overview]) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Broadcom (AVGO [https://www.barchart.com/stocks/quotes/AVGO/overview]) and Lam Research (LRCX [https://www.barchart.com/stocks/quotes/LRCX/overview]) are down more than -4%, and Nvidia (NVDA [https://www.barchart.com/stocks/quotes/NVDA/overview]) and Advanced Micro Devices (AMD [https://www.barchart.com/stocks/quotes/AMD/overview]) are down more than -3%.  In addition, ARM Holdings Plc (ARM [https://www.barchart.com/stocks/quotes/ARM/overview]), ASML Holding NV (ASML [https://www.barchart.com/stocks/quotes/ASML/overview]), Applied Materials (AMAT [https://www.barchart.com/stocks/quotes/AMAT/overview]), KLA Corp (KLAC [https://www.barchart.com/stocks/quotes/KLAC/overview]), and Micro Technology (MU [https://www.barchart.com/stocks/quotes/MU/overview]) are down more than -2%.   \n\nDell Technologies (DELL [https://www.barchart.com/stocks/quotes/DELL/overview]) is down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI [https://www.barchart.com/stocks/quotes/SMCI/overview]) is down more than -5% and Hewlett Packard Enterprise (HPE [https://www.barchart.com/stocks/quotes/HPE/overview]) is down more than -2%. \n\nCaterpillar (CAT [https://www.barchart.com/stocks/quotes/CAT/overview]) is down more than -4% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year. \n\nUlta Beauty (ULTA [https://www.barchart.com/stocks/quotes/ULTA/overview]) is down more than -5% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers. \n\nIonQ Inc. (IONQ [https://www.barchart.com/stocks/quotes/IONQ/overview]) is down more than -3% after filing for a potential offering of up to 12.4 million shares of its stock by multiple shareholders. \n\nDollar General (DG [https://www.barchart.com/stocks/quotes/DG/overview]) is down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects “more pressure” in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4. \n\nAutodesk (ADSK [https://www.barchart.com/stocks/quotes/ADSK/overview]) is up more than +7% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA [https://www.barchart.com/stocks/quotes/AMBA/overview]) is up more than +17% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%. \n\nAffirm Holdings (AFRM [https://www.barchart.com/stocks/quotes/AFRM/overview]) is up more than +12% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million. \n\nSentinelOne (S [https://www.barchart.com/stocks/quotes/S/overview]) is up more than +4% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion. \n\nCelsius Holdings (CELH [https://www.barchart.com/stocks/quotes/CELH/overview]) is up more than +4% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings’ board of directors.   \n\nEARNINGS REPORTS(8/29/2025)\n\nLionsgate Studios Corp (LION).\n\n_ On the date of publication, Rich Asplund [https://www.barchart.com/news/authors/5/rich-asplund] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Arm Holdings plc American Depositary Shares",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 8330,
+          "description": "Arm Holdings plc architects, develops, and licenses central processing unit products and related technologies for semiconductor companies and original equipment manufacturers. The company is involved in the licensing, marketing, research, and development of microprocessors, systems intellectual prop"
+        },
+        "financial_metrics": {
+          "eps_ttm": 0.66,
+          "profit_margin": 0.1696,
+          "operating_margin": 0.1083,
+          "roe": 0.1103,
+          "roa": 0.0552,
+          "revenue_growth_yoy": 0.121,
+          "earnings_growth_yoy": -0.429,
+          "eps_estimate_current_year": 1.611,
+          "eps_estimate_next_year": 1.8849,
+          "revenue_ttm": 4120999936,
+          "revenue_per_share": 3.912,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 215.9849,
+          "forward_pe": 81.3008,
+          "price_to_sales": 36.641,
+          "price_to_book": 21.5496,
+          "enterprise_value": 148488083057,
+          "ev_to_revenue": 36.0321,
+          "ev_to_ebitda": 154.1932
+        },
+        "technical_data": {
+          "52_week_high": 182.88,
+          "52_week_low": 80,
+          "50_day_ma": 148.0764,
+          "200_day_ma": 135.7072,
+          "short_interest": 0.1129,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.8,
+          "target_price": 152.5909,
+          "strong_buy": 17,
+          "buy": 5,
+          "hold": 14,
+          "sell": 1,
+          "strong_sell": 3
+        },
+        "institutional_data": {
+          "shares_outstanding": 1059260032,
+          "percent_institutions": 95.675,
+          "percent_insiders": 0.152,
+          "shares_float": 133794060
+        },
+        "balance_latest_sheet": {
+          "total_assets": 9395.0,
+          "total_debt": 396.0,
+          "net_debt": -1560.0,
+          "working_capital": 4136.0,
+          "shareholders_equity": 7007.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.06
+        },
+        "income_latest_statement": {
+          "total_revenue": 1053.0,
+          "gross_profit": 993.0,
+          "operating_income": 107.0,
+          "net_income": 130.0,
+          "ebitda": 206.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 94.3,
+          "operating_margin": 10.16,
+          "net_margin": 12.35
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 332.0,
+          "free_cash_flow": 171.0,
+          "capex": 161.0,
+          "net_income": 130.0,
+          "cash_change": -129.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.33,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 159.15,
+            "high": 164.58,
+            "low": 158.1891,
+            "close": 161.92,
+            "volume": 5462802
+          },
+          {
+            "date": "2025-07-22",
+            "open": 161,
+            "high": 162.1318,
+            "low": 153.24,
+            "close": 156.5,
+            "volume": 5167949
+          },
+          {
+            "date": "2025-07-23",
+            "open": 156.96,
+            "high": 159.7499,
+            "low": 155.7142,
+            "close": 159.28,
+            "volume": 3398613
+          },
+          {
+            "date": "2025-07-24",
+            "open": 160,
+            "high": 161.75,
+            "low": 157.9,
+            "close": 159.99,
+            "volume": 2228382
+          },
+          {
+            "date": "2025-07-25",
+            "open": 160,
+            "high": 164.58,
+            "low": 159.14,
+            "close": 163.17,
+            "volume": 3151871
+          },
+          {
+            "date": "2025-07-28",
+            "open": 165.02,
+            "high": 166.88,
+            "low": 162.0368,
+            "close": 164.37,
+            "volume": 4027941
+          },
+          {
+            "date": "2025-07-29",
+            "open": 164,
+            "high": 166.2475,
+            "low": 160.78,
+            "close": 163.47,
+            "volume": 3546455
+          },
+          {
+            "date": "2025-07-30",
+            "open": 162.32,
+            "high": 165.25,
+            "low": 161.36,
+            "close": 163.325,
+            "volume": 4885275
+          },
+          {
+            "date": "2025-07-31",
+            "open": 148.35,
+            "high": 149,
+            "low": 139.11,
+            "close": 141.375,
+            "volume": 22624869
+          },
+          {
+            "date": "2025-08-01",
+            "open": 137.995,
+            "high": 140.06,
+            "low": 135.25,
+            "close": 137.58,
+            "volume": 7673360
+          },
+          {
+            "date": "2025-08-04",
+            "open": 140.1,
+            "high": 140.6098,
+            "low": 138.25,
+            "close": 140.05,
+            "volume": 4866896
+          },
+          {
+            "date": "2025-08-05",
+            "open": 140.5,
+            "high": 140.88,
+            "low": 135.21,
+            "close": 137.23,
+            "volume": 4384607
+          },
+          {
+            "date": "2025-08-06",
+            "open": 137.41,
+            "high": 137.8,
+            "low": 135.01,
+            "close": 136.12,
+            "volume": 3241026
+          },
+          {
+            "date": "2025-08-07",
+            "open": 137.77,
+            "high": 139.68,
+            "low": 134.61,
+            "close": 135.57,
+            "volume": 4269209
+          },
+          {
+            "date": "2025-08-08",
+            "open": 136.67,
+            "high": 139.45,
+            "low": 135.36,
+            "close": 138.5,
+            "volume": 3483747
+          },
+          {
+            "date": "2025-08-11",
+            "open": 139.52,
+            "high": 146.43,
+            "low": 139.25,
+            "close": 141.05,
+            "volume": 5673358
+          },
+          {
+            "date": "2025-08-12",
+            "open": 142.85,
+            "high": 143,
+            "low": 140.42,
+            "close": 142.39,
+            "volume": 4004257
+          },
+          {
+            "date": "2025-08-13",
+            "open": 143.45,
+            "high": 145.2,
+            "low": 141.39,
+            "close": 141.6,
+            "volume": 3335791
+          },
+          {
+            "date": "2025-08-14",
+            "open": 140.29,
+            "high": 140.68,
+            "low": 138.27,
+            "close": 140.55,
+            "volume": 4927774
+          },
+          {
+            "date": "2025-08-15",
+            "open": 140.55,
+            "high": 141.78,
+            "low": 137.77,
+            "close": 138.91,
+            "volume": 3434478
+          },
+          {
+            "date": "2025-08-18",
+            "open": 137.91,
+            "high": 141.5102,
+            "low": 137.5295,
+            "close": 141.06,
+            "volume": 2892949
+          },
+          {
+            "date": "2025-08-19",
+            "open": 140.93,
+            "high": 142.8,
+            "low": 133.7,
+            "close": 134.01,
+            "volume": 4751607
+          },
+          {
+            "date": "2025-08-20",
+            "open": 132.7,
+            "high": 133.13,
+            "low": 127.03,
+            "close": 131.16,
+            "volume": 5838744
+          },
+          {
+            "date": "2025-08-21",
+            "open": 130.89,
+            "high": 133.63,
+            "low": 130.21,
+            "close": 133.28,
+            "volume": 4107208
+          },
+          {
+            "date": "2025-08-22",
+            "open": 133,
+            "high": 140.35,
+            "low": 132.68,
+            "close": 137.92,
+            "volume": 4041485
+          },
+          {
+            "date": "2025-08-25",
+            "open": 138.295,
+            "high": 139,
+            "low": 136,
+            "close": 137.78,
+            "volume": 1870929
+          },
+          {
+            "date": "2025-08-26",
+            "open": 138.34,
+            "high": 141.41,
+            "low": 137.85,
+            "close": 140.26,
+            "volume": 2515358
+          },
+          {
+            "date": "2025-08-27",
+            "open": 140.27,
+            "high": 141.96,
+            "low": 138.83,
+            "close": 140.66,
+            "volume": 2499461
+          },
+          {
+            "date": "2025-08-28",
+            "open": 140.6,
+            "high": 143.7996,
+            "low": 139.7574,
+            "close": 142.55,
+            "volume": 2882933
+          },
+          {
+            "date": "2025-08-29",
+            "open": 140.67,
+            "high": 140.78,
+            "low": 137.31,
+            "close": 138.31,
+            "volume": 3615984
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.5306003779619056,
+        "return_63d": 9.72194676926738,
+        "pct_above_sma50": -6.4977663843549625,
+        "sma_50": 147.9216,
+        "new_55d_high": "False",
+        "high_55d": 168.3099,
+        "rsi": 45.820622330689424,
+        "rsi_in_range": "False",
+        "adx": 26.13148877702041,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.3440351384570874,
+        "bb_width": 9.057160490315619,
+        "keltner_width": 13.358953694704947,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 530517513.6423999,
+        "adv_shares": 3831890.05,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 42.282477346630124,
+        "final_score": 37.282477346630124,
+        "sub_scores": {
+          "trend_momentum": 8.32442120627927,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.958056140350855,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -2.1679929266136155,
+          "ret_63d": 11.056688614099874,
+          "rsi14": 45.820622330689424,
+          "adx14": 25.46395284543474,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: ARM\n• Current Price: $138.31\n• Overall Score: 47.95075936257168\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 148.0764\n• Sma 200: 135.7072\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -2.1679929266136146\n• Momentum 63D: 11.056688614099883\n• Momentum 126D: 5.0269572480826215\n• Momentum Acceleration: -13.224681540713497\n• Roc 21D: -2.1679929266136146\n• Trend Strength 20D: 0.000576405296683679\n• Trend Direction: -1\n• Ma Ribbon Score: 46.76791705455186\n• Breakout Strength: 0.0\n• Price Velocity: 0.0007058362641059413\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 3.0\n• Squeeze Momentum: 0.7496295134825521\n• Volatility Compression: 67.46120952161989\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 8.32442120627927\n• Squeeze Breakout: 4.0\n• Options Quality: 18.958056140350855\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 45.0\n• Squeeze: 60.11918142824298\n• Options: 43.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: ARM\n• Strike Price: $135\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $15.1\n• Ask: $15.3\n• Last: $15.85\n• Mid: $15.2\n• Spread: 1.307189542483660130718954248%\n\n**GREEKS ANALYSIS**\n• Delta: 0.603\n• Gamma: 0.0118\n• Theta: -0.0832\n• Vega: 0.2548\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4938\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 1\n• Open Interest: 853\n• Volume/OI Ratio: 0.0011723329425556857\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Arm Holdings plc American Depositary Shares\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $0.66\n• Profit Margin: 17.0%\n• ROE: 11.0%\n• P/E Ratio: 216.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T22:18:14+00:00: Stocks Settle Lower as Tech Shares Selloff...\n• 2025-08-29T20:34:22+00:00: Stocks Settle Lower as Tech Shares Selloff...\n• 2025-08-29T17:00:18+00:00: Stocks Retreat as Tech Stocks Slump and Inflation Pressures Persist...\n• 2025-08-29T15:45:19+00:00: Stocks Decline on Weakness in Tech Stocks and Sticky Inflation Pressures...\n• 2025-08-29T15:26:36+00:00: Stocks Retreat as Tech Stocks Slump and Inflation Pressures Persist...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR ARM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the ARM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:42:53.925492",
+    "estimated_tokens": 2325
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"ARM\",\n    \"rating\": 47,\n    \"component_scores\": {\n        \"trend_momentum\": 12,\n        \"options_quality\": 15,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"ARM shows mixed signals with a squeeze in play (67.46% compression) but deteriorating momentum (-13.22 acceleration). While options quality is decent with tight spreads (1.31%), the imminent earnings and high P/E ratio (216) present significant risks.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 3-day duration and 2 timeframe confirmation\",\n        \"Tight option spreads (1.31%) with decent open interest (853)\",\n        \"Price above 200 SMA (135.70) suggesting longer-term uptrend intact\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-13.22) and below 50 SMA (148.07)\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Very high P/E ratio of 216 suggesting potential overvaluation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferring new positions until after earnings\",\n        \"entry_timing\": \"Unfavorable near-term entry due to earnings and negative momentum\",\n        \"risk_management\": \"If entering, use smaller position size and consider spreads to reduce earnings risk\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event in <30 days\",\n        \"Significant negative momentum acceleration\",\n        \"Extremely high P/E ratio\"\n    ],\n    \"notes\": \"Low volume/OI ratio (0.001) suggests potential liquidity concerns despite tight spreads. Technical indicators show conflicting signals between timeframes.\"\n}",
+    "parsed_analysis": {
+      "symbol": "ARM",
+      "rating": 47,
+      "component_scores": {
+        "trend_momentum": 12,
+        "options_quality": 15,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "ARM shows mixed signals with a squeeze in play (67.46% compression) but deteriorating momentum (-13.22 acceleration). While options quality is decent with tight spreads (1.31%), the imminent earnings and high P/E ratio (216) present significant risks.",
+      "opportunities": [
+        "Active volatility squeeze with 3-day duration and 2 timeframe confirmation",
+        "Tight option spreads (1.31%) with decent open interest (853)",
+        "Price above 200 SMA (135.70) suggesting longer-term uptrend intact"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-13.22) and below 50 SMA (148.07)",
+        "Earnings coming up on 2025-09-30",
+        "Very high P/E ratio of 216 suggesting potential overvaluation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferring new positions until after earnings",
+        "entry_timing": "Unfavorable near-term entry due to earnings and negative momentum",
+        "risk_management": "If entering, use smaller position size and consider spreads to reduce earnings risk"
+      },
+      "red_flags": [
+        "Imminent earnings event in <30 days",
+        "Significant negative momentum acceleration",
+        "Extremely high P/E ratio"
+      ],
+      "notes": "Low volume/OI ratio (0.001) suggests potential liquidity concerns despite tight spreads. Technical indicators show conflicting signals between timeframes."
+    },
+    "tokens_used": 2544,
+    "cost": 0.025439999999999997,
+    "response_time": 8.413398504257202,
+    "success": true
+  },
+  "cost": 0.025439999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8505,
+    "response_length": 1673
+  }
+}

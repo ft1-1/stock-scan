@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "symbol": "RKT",
+  "timestamp": "2025-08-28T02:01:22.009806",
+  "data_package": {
+    "metadata": {
+      "symbol": "RKT",
+      "package_timestamp": "2025-08-28T02:01:09.774554",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "RKT",
+        "current_price": 18.08,
+        "overall_score": 49.28307489422872,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 15.6802,
+        "sma_200": 13.6265
+      },
+      "momentum_metrics": {
+        "momentum_21d": 18.947368421052627,
+        "momentum_63d": 40.481740481740474,
+        "momentum_126d": 38.226299694189585,
+        "momentum_acceleration": -21.534372060687847,
+        "roc_21d": 18.947368421052627,
+        "trend_strength_20d": 0.41004860215381406,
+        "trend_direction": 1,
+        "ma_ribbon_score": 76.25768428773264,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.004680458043055324
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": -0.05804393991711535,
+        "volatility_compression": 21.871727243521406,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 26.43105820824121,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.19503531274745,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 71.0,
+        "squeeze": 8.28075908652821,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 23,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "RKT",
+        "strike_price": "17",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.08",
+        "ask": "2.13",
+        "last_price": "2.34",
+        "mid_price": "2.105",
+        "spread_percent": "2.347417840375586854460093897"
+      },
+      "greeks": {
+        "delta": 0.6516,
+        "gamma": 0.0939,
+        "theta": -0.0156,
+        "vega": 0.0248
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.5873
+      },
+      "liquidity_metrics": {
+        "volume": 229,
+        "open_interest": 17395,
+        "volume_oi_ratio": 0.013164702500718597
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:05.119165",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T16:52:24+00:00",
+            "title": "FHA allows Fannie Mae, Freddie Mac to approve Rocket Cos.-Mr. Cooper deal",
+            "content": "[M&A - concept waiting for mergers and acquisitions.3D rendering on yellow background.]\nfengdr/iStock via Getty Images\n\nThe U.S. Federal Housing Finance Agency allowed government-sponsored enterprises ((GSEs)) Fannie Mae (OTCQB:FNMA [https://seekingalpha.com/symbol/FNMA]) and Freddie Mac (OTCQB:FMCC [https://seekingalpha.com/symbol/FMCC]) to approve Rocket Companies' (NYSE:RKT [https://seekingalpha.com/symbol/RKT]) proposed acquisition of mortgage servicer Mr. Cooper Group (NASDAQ:COOP [https://seekingalpha.com/symbol/COOP]).\n\nThe FHFA, which oversees the two mortgage giants, said its staff analyzed the proposed merger of two of Fannie (OTCQB:FNMA [https://seekingalpha.com/symbol/FNMA]) and Freddie's (OTCQB:FMCC [https://seekingalpha.com/symbol/FMCC]) largest individual seller-servicer counterparties. \"Staff independently recommended that the enterprises approve the combined entity to do business with them so long as Fannie Mae and Freddie Mac each retain strict counterparty concentration risk limits at 20% and impose other appropriate financial and operating safeguards to protect the enterprises and the mortgage market,\" an FHFA statement said [https://www.fhfa.gov/news/news-release/us-federal-housing-allows-fannie-freddie-approve-rocket-mr-cooper-acquisition?utm_medium=email&utm_source=govdelivery].\n\nThe statement emphasized that, to ensure the safety and soundness of the mortgage market, no market participant, i.e., mortgage servicer, should have more than 20% of Fannie or Freddie's servicing market.\n\nFannie Mae (OTCQB:FNMA [https://seekingalpha.com/symbol/FNMA]) and Freddie Mac (OTCQB:FMCC [https://seekingalpha.com/symbol/FMCC]) don't originate mortgages, but they acquire mortgages and bundle them into securities that are sold, with guarantees that the GSEs will make good on defaults, making the two companies an important source of liquidity in the mortgage market.\n\nIn Wednesday afternoon trading, Rocket Companies (NYSE:RKT [https://seekingalpha.com/symbol/RKT]) stock dropped 3.3%, Mr. Cooper (NASDAQ:COOP [https://seekingalpha.com/symbol/COOP]) ticked up 0.1%, Fannie Mae (OTCQB:FNMA [https://seekingalpha.com/symbol/FNMA]) increased 3.0%, and Freddie Mac (OTCQB:FMCC [https://seekingalpha.com/symbol/FMCC]) gained 2.0%.\n\nMORE ON MR. COOPER, ROCKET COS., ETC.\n\n \t* Rocket Companies: Not Cheap, But Not The Same Business, Either (Rating Upgrade) [https://seekingalpha.com/article/4815247-rocket-companies-not-cheap-but-not-the-same-business-either-rating-upgrade]\n \t* Chart Of The Day: The Phoenix Known As Fannie Mae [https://seekingalpha.com/article/4812150-chart-of-day-phoenix-fannie-mae]\n \t* Excerpt: Rocket And Mr. Cooper - A Transformative, Synergy-Rich Merger [https://seekingalpha.com/article/4808415-rocket-and-mr-cooper-a-transformative-synergy-rich-merger]\n \t* Gap between mortgage rates, 10-year treasury yield hits lowest level in over three years [https://seekingalpha.com/news/4489135-gap-between-mortgage-rates-10-year-treasury-yield-hits-lowest-level-in-over-three-years]\n \t* Freddie Mac mortgage portfolio grows 2.6% in July [https://seekingalpha.com/news/4488984-freddie-mac-mortgage-portfolio-grows-26-in-july]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T04:36:13+00:00",
+            "title": "2 Safe-and-Steady Stocks Worth Your Attention and 1 We Brush Off",
+            "content": "A stock with low volatility can be reassuring, but it doesn’t always mean strong long-term performance. Investors who prioritize stability may miss out on higher-reward opportunities elsewhere.\n\nFinding the right balance between safety and returns isn’t easy, which is why StockStory is here to help. Keeping that in mind, here are two low-volatility stocks providing safe-and-steady growth and one that may not deliver the returns you need.\n\nOne Stock to Sell:\n\nTFS Financial (TFSL)\n\nRolling One-Year Beta: 0.56\n\nTracing its roots back to 1938 during the Great Depression era when savings and loans were vital to homeownership, TFS Financial (NASDAQ:TFSL) is a savings and loan holding company that provides mortgage lending, deposit services, and other retail banking products primarily in Ohio and Florida.\n\nWhy Should You Dump TFSL?\n\nNet interest income trends were unexciting over the last five years as its 2.8% annual growth was below the typical banking firm Net interest margin of 1.7% is well below other banks, signaling its loans aren’t very profitable Flat tangible book value per share over the last two years suggest it must find different ways to enhance shareholder value during this cycle\n\nTFS Financial’s stock price of $14.06 implies a valuation ratio of 2.1x forward P/B. Dive into our free research report to see why there are better opportunities than TFSL.\n\nTwo Stocks to Watch:\n\nLennox (LII)\n\nRolling One-Year Beta: 0.90\n\nBased in Texas and founded over a century ago, Lennox (NYSE:LII) is a climate control solutions company offering heating, ventilation, air conditioning, and refrigeration (HVACR) goods.\n\nWhy Does LII Stand Out?\n\nDisciplined cost controls and effective management resulted in a strong long-term operating margin of 16.3%, and its operating leverage amplified its profits over the last five years Earnings growth has trumped its peers over the last two years as its EPS has compounded at 22.2% annually Stellar returns on capital showcase management’s ability to surface highly profitable business ventures\n\nAt $567.63 per share, Lennox trades at 23.3x forward P/E. Is now the time to initiate a position? Find out in our full research report, it’s free.\n\nRocket Companies (RKT)\n\nRolling One-Year Beta: -0.10\n\nBorn in Detroit during the 1980s and evolving into a tech-driven financial powerhouse, Rocket Companies (NYSE:RKT) is a fintech company that provides digital mortgage lending, real estate services, and personal finance solutions through its technology platform.\n\nWhy Is RKT on Our Radar?\n\nMarket share will likely rise over the next 12 months as its expected net interest income growth of 47.8% is robust Market-beating return on equity illustrates that management has a knack for investing in profitable ventures\n\nStory continues\n\nRocket Companies is trading at $18.99 per share, or 3.5x forward P/B. Is now the right time to buy? See for yourself in our full research report, it’s free.\n\nStocks We Like Even More\n\nTrump’s April 2025 tariff bombshell triggered a massive market selloff, but stocks have since staged an impressive recovery, leaving those who panic sold on the sidelines.\n\nTake advantage of the rebound by checking out our Top 9 Market-Beating Stocks. This is a curated list of our High Quality stocks that have generated a market-beating return of 183% over the last five years (as of March 31st 2025).\n\nStocks that made our list in 2020 include now familiar names such as Nvidia (+1,545% between March 2020 and March 2025) as well as under-the-radar businesses like the once-micro-cap company Tecnoglass (+1,754% five-year return). Find your next big winner with StockStory today for free. Find your next big winner with StockStory today. Find your next big winner with StockStory today\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:22:52+00:00",
+            "title": "Gap between mortgage rates, 10-year treasury yield hits lowest level in over three years",
+            "content": "[Real estate investment concept. Man touch virtual house icon for analyzing mortgage loan home and insurance real property mortgage. interest rate, Investment planning, business real estate.]\nsaifulasmee chede\n\nThe difference between mortgage rates and 10-year treasury yield (US10Y [https://seekingalpha.com/symbol/US10Y]) has dropped to its lowest level in more than three years, according to [https://seekingalpha.com/pr/20211303-redfin-reports-the-mortgage-spread-has-dropped-to-a-3-year-low-that-s-good-news-for] the Rocket Companies (NYSE:RKT [https://seekingalpha.com/symbol/RKT]) unit Redfin (RDFN).\n\nThe dip in \"mortgage spread\" can lead to mortgage rates to fall, even without the Federal Reserve cutting interest rates, said the August 26 report.\n\nThe spread was 2.26 percentage points as of August 22, down from about 2.5 at the start of summer and 2.68 a year earlier.\n\nThe report noted that the spread is falling, but has room to decrease further to more typical levels of about 1.5-2 percentage points.\n\n\"It's important to note that if the Fed cuts interest rates as expected in September—or more than expected—mortgage rates may fall more than anticipated because the spread is also falling,\" said Chen Zhao, Redfin's head of economics research.\n\nMORE ON ROCKET COMPANIES\n\n \t* Rocket Companies: Not Cheap, But Not The Same Business, Either (Rating Upgrade) [https://seekingalpha.com/article/4815247-rocket-companies-not-cheap-but-not-the-same-business-either-rating-upgrade]\n \t* Excerpt: Rocket And Mr. Cooper - A Transformative, Synergy-Rich Merger [https://seekingalpha.com/article/4808415-rocket-and-mr-cooper-a-transformative-synergy-rich-merger]\n \t* Rocket Companies, Inc. 2025 Q2 - Results - Earnings Call Presentation [https://seekingalpha.com/article/4807202-rocket-companies-inc-2025-q2-results-earnings-call-presentation]\n \t* Home sales falling through at highest rate in years - Redfin [https://seekingalpha.com/news/4488609-home-purchase-agreement-cancellations-redfin]\n \t* Real estate stocks surge after Powell signals rate change ahead [https://seekingalpha.com/news/4488382-real-estate-stocks-surge-after-powell-signals-rate-change-ahead]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:00:00+00:00",
+            "title": "Redfin Reports the Mortgage Spread Has Dropped to a 3-Year Low. That’s Good News for Homebuyers and Refinancers.",
+            "content": "The difference between mortgage rates and the 10-year treasury yield has narrowed, signaling a potential boost for homebuyers. A decrease in the mortgage spread can cause mortgage rates to fall, even without the Fed cutting interest rates.\n\nSEATTLE, August 26, 2025--(BUSINESS WIRE)--The gap between 10-year treasury yields and mortgage rates (known as the mortgage spread) has dropped to its lowest level in over three years, allowing mortgage rates to fall more than treasury yields. That’s according to a new report from Redfin, the real estate brokerage powered by Rocket.\n\nShop Top Mortgage Rates\n\nYour Path to Homeownership  Learn More\n\nA quicker path to financial freedom  Learn More\n\nPersonalized rates in minutes  Learn More\n\nPowered by Money.com - Yahoo may earn commission from the links above.\n\nThe spread was 2.26 percentage points as of August 22, down from about 2.5 at the start of summer and 2.68 a year earlier. That’s good news for house hunters and homeowners looking to refinance because, setting aside Fed policy, it means mortgage lenders are offering lower rates.\n\nThe mortgage spread fell to around 1.5 percentage points—lower than usual—in 2021, when mortgage rates were sitting at record lows. It doubled in 2022 and 2023 to levels usually seen during financial turmoil because mortgage rates increased, markets became more uncertain, and lenders were trying to hedge their risks by charging more interest.\n\nNow, the spread is slowly falling, but it has more room to fall before returning to more typical levels, around 1.5-2 percentage points. That means there’s more potential for mortgage rates to fall more than treasury yields.\n\n\"Think of the spread like a restaurant meal,\" said Chen Zhao, Redfin’s head of economics research. \"The treasury yield is the cost of raw ingredients, the mortgage rate is the price of the meal on the table, and the spread is the restaurant’s markup, which covers the cost of the chef, rent on the restaurant, profit margin, etc. Regardless of the cost of raw ingredients, if the restaurant has a lower markup, that lowers the customer’s bill. Similarly, regardless of the Fed’s actions, a lower mortgage spread helps lower mortgage rates.\"\n\nWhy the Mortgage Spread Dropping Matters for Homebuyers and Homeowners\n\nA lower mortgage spread equals lower mortgage rates. If the spread continues to decline, mortgage rates could fall more than they already have.\n\n\"It’s important to note that if the Fed cuts interest rates as expected in September—or more than expected—mortgage rates may fall more than anticipated because the spread is also falling,\" Zhao said.\n\nIt’s also worth noting that it is a buyer’s market, with many sellers open to negotiations, including lowering their price, because many homes have been sitting on the market for a long time. Combined with lower rates, now may be a good time to lock in a lower monthly housing payment.\n\nStory Continues\n\nA homebuyer on a $3,000 monthly budget can afford a $439,000 home with a 6.55% mortgage rate, roughly today’s average. That means that homebuyer has gained roughly $20,000 in purchasing power since May, when rates hit a recent peak of 7.08%.\n\nRedfin agents in some parts of the country have reported that homebuyers started responding to lower mortgage rates over the weekend.\n\nTo view the full report, including a chart, please visit:\r\nhttps://www.redfin.com/news/mortgage-spread-narrows/\n\nAbout Redfin\n\nRedfin is a technology-driven real estate company with the country's most-visited real estate brokerage website. As part of Rocket Companies (NYSE: RKT), Redfin is creating an integrated homeownership platform from search to close to make the dream of homeownership more affordable and accessible for everyone. Redfin’s clients can see homes first with on-demand tours, easily apply for a home loan with Rocket Mortgage, and save thousands in fees while working with a top local agent.\n\nYou can find more information about Redfin and get the latest housing market data and research at Redfin.com/news. For more information about Rocket Companies, visit RocketCompanies.com.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250826453191/en/\n\nContacts\n\nContact Redfin Journalist Services: \r\nAngela Cherry\r\npress@redfin.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:00:00+00:00",
+            "title": "The kids are out of the house, and I saved for college. How are they still spending so much of my money?",
+            "content": "The costs of having a kid in college may be more than you expect, including when unforeseen expenses come up, financial experts say. - MarketWatch photo illustration/iStockphoto\n\nAfter saving for her two children’s college educations, financial planner Betsy Hutchins expected her household finances to ease up a bit when they left for school.\n\nIn reality, it didn’t exactly work out that way.\n\nMost Read from MarketWatch\n\nI am a 65-year old single woman with 25 credit cards. How do I cancel them without hurting my credit score? We’re in our 70s and have $1.4 million. We pay $1,750 in rent. Will we run out of money in retirement? Forget about Fed rate cuts for a second — and worry about how markets are running so low on extra cash\n\nHer daughter, who recently graduated from college, required mental healthcare during her second year, resulting in unexpected medical costs. Hutchins also said she traveled back and forth between home and her daughter’s school “to spend time with her and make sure everything was OK.” As a result, she estimates, she accrued an additional $5,000 to $6,000 in expenses that year.\n\nWith her son now in college, Hutchins no longer has children living at home — but she is still giving him a $200 monthly allowance to cover some necessary expenses, like gas, and give him some experience managing money for entertainment, she said. While the allowance is roughly half what she gave him for food and activities when he was home, she realizes that the costs of having a kid in college will likely fluctuate, including when unforeseen expenses come up.\n\nWith classes back in session around the country, parents who had saved for years and are sending their teens to college for the first time “may be expecting that there’s going to be a little more breathing room at home” now that the kids are out, Hutchins, the owner of Forward Financial Planning, told MarketWatch. But based on her experience, “I don’t know that necessarily that would be the case.”\n\nJust as college marks a transition for young adults, it is also a transition for parents, who reach a crossroads that requires re-evaluating — among many other things — their household finances as they settle into a new normal. For many parents, it is a period during which their kids still require some financial support, albeit in different ways from when they were younger, and new scenarios arise that require a financial cushion.\n\nOmen Quelvog, a financial planner and founder of Formynder Wealth Management, has one adult child in the military and will soon have another in college. “I thought that our finances would just kind of naturally free up and we’d be spending less money,” he said. “I think what I didn’t realize, what I didn’t see coming, was that your kids are always your kids.”\n\nStory Continues\n\nMarketWatch asked financial planners how parents of college kids can prepare for these financial shifts. They said that while some household bills like groceries, utilities and subscriptions tend to go down, others go up — particularly if some share of parents’ salaries starts going to tuition and other school expenses. While parents may have ideas about how they’d like to save or spend their extra cash, they added, it is wise to take stock before making any major changes.\n\n“When there’s a big change like this, it really requires a full review,” Alanna Morey, a financial planner and private wealth advisor at Ameriprise, told MarketWatch. “What are your expenses now? How have things changed? And have any goals changed now that you’re out of this period of life?”\n\nHow families pay for college\n\nFor the 2024-25 school year, the average annual total cost to attend a four-year college ranged from about $30,000 at a public, in-state university to $63,000 at private colleges, according to data from the College Board.\n\nFor the typical family with a kid in college, who pay about $30,800 per year for their education, the largest source of funding (38%) comes from parents’ income and savings — which includes their current income, 529 college savings and other savings accounts, and retirement-savings withdrawals — according to Sallie Mae’s “How America Pays for College 2025” report. This is followed by scholarships and grants (27%), student loans (12%) and parent loans (11%).\n\nRead: Brace yourself: This is exactly how much you should have saved for your kid’s college by the time they’re 5, 13 and 18\n\nMore than half (58%) of parents rely on their current income to cover some share of these expenses; they spent $9,550 of their income on average during the last academic year, Sallie Mae data show. This averages out to about $800 each month, which can significantly impact a household’s budget.\n\nHutchins said that while she was able to put away enough to cover two-and-a-half years of college costs for her son, “from a budgeting perspective, our expenses will go back up” to pay for tuition and fees when those savings run out in his junior year.\n\nSome parents also continue to deal with college costs well after their children graduate. While federal student loans are the most common form of college debt, it’s not uncommon for parents to borrow as well: 11% of families took out a Parent PLUS loan; 11% put expenses on parent credit cards; 9% took out a private loan; 7% took a loan from their retirement account; and 6% took out a home-equity line of credit, according to Sallie Mae.\n\nFinancial planners generally advise parents against prioritizing their children’s college costs over their own retirements.\n\nRelated:Parents are draining money from retirement accounts and home equity to pay for college. They should do this for their kids instead.\n\nOnce college is done, parents should “look to see if there are any holes anywhere,” Morey said. “Have you accumulated debt while your children have been in school? Is there anything that we should pay down? Do you have a good cash cushion in the bank for yourselves? We know you’ve been focused on getting your child through school, but what about you?”\n\nHopefully, parents in this position will “be able to increase some savings that have been neglected” for years, Morey added.\n\nHow to prepare for the financial transition of having kids in college — beyond tuition\n\nCreate a separate $5,000 college emergency fund.\n\n“There will be expenses you did not anticipate, no matter how careful you are with your student’s budget. Consider setting aside $5,000 extra in your emergency fund for the college years,” Cynthia Meyer, a financial planner with Real Life Planning, told MarketWatch.\n\nThis would be in addition to a parent’s standard emergency fund worth six months of living expenses in case of unemployment.\n\n“I made all kinds of financial mistakes while I was in my 20s,” Quelvog told MarketWatch. It is rewarding to have the money available to continue to support them when they need it — “because they will need it,” he said — and it also provides an opportunity to teach financial lessons.\n\nMore on this:Your cash emergency fund probably isn’t going to cut it in this economy\n\nRebudget to account for hidden college costs — and come to an agreement with your child about how to cover them.\n\nAlong with your child, budget for miscellaneous expenses like entertainment, transportation and travel back home, which can add up to anywhere from hundreds to thousands of dollars, and reach an understanding about who will take responsibility for these costs.\n\n“Talk with the student about financial responsibility and what kind of financial help you will or won’t provide,” Betty Wang, a financial planner with BW Financial Planning, told MarketWatch.\n\nSome parents continue to pay for these expenses in college, while others start to shift some financial responsibilities to their children.\n\nIn October 2024, about 41.4% of full-time college students and 76.5% of part-time college students were employed, according to the Bureau of Labor Statistics.\n\nEstablish boundaries if your child takes longer than four years to graduate.\n\nMore than 1 in 5 bachelor’s degree holders took longer than four years to graduate in 2023. But it’s important not to let your child’s college costs derail your own retirement goals.\n\n“Make sure your student is planning their classes carefully every semester,” Meyer said. “Let your student know if they will need to borrow more for any classes beyond four years.”\n\nGive yourself three months to understand your new normal before making huge spending changes.\n\nWith their teens out of the house, parents may have lots of plans for their money, but it is wise to “move slowly with any budget changes,” Quelvog said. “Take a few months and watch where the changes occur. It’s not just in the grocery budget; there are little areas that add up, such as electricity usage, water usage or maybe a subscription you had that only your teen used.”\n\nFor instance, Quelvog noted, when his child left for the military, the household grocery budget fell by $300 per month. His son got his own auto insurance, which lowered the household insurance premium by more than $100 each month, and the family spent about $30 less each month on gas for the car.\n\n(For parents sending their kids to college without a car, Wang said that even listing your child as a “student away” or “occasional” driver may drop your auto-insurance premiums, depending on the company and the child’s driving record.)\n\nOnce you’re dialed into your new normal, you’ll know how much you can safely change in your budget — “whether that be more dates, more travel or even more savings,” Quelvog said.\n\nCreate a plan for any newfound cash\n\n“Extra money finds its way into cracks and crevices here and there, and if people aren’t careful, it could wind up just getting spent needlessly” instead of going toward more impactful goals, Quelvog said.\n\n“You absolutely can reduce expenses when your kids leave the house,” he added, so make a plan for what to do with that extra money when you identify how much there is.\n\nFor instance, Quelvog said he and his wife are putting more money toward their IRAs. “You can really name your goals. If you want to go on cruises or whatever the case might be, it’s really a great time to re-evaluate what is important to you,” he said.\n\nCalculate the financial impact of downsizing your home\n\nPerhaps not immediately after a child leaves for college, but eventually, many parents seek to downsize their home to reduce the money spent on housing and the time spent on upkeep.\n\nHowever, home-affordability issues today have eroded the incentives typically associated with downsizing; 1 in 3 baby boomers in a Redfin RKT survey this year said they never plan to sell, with many citing financial reasons. Some said their home is paid off, others noted that home prices are too high right now to trade down, and some didn’t want to give up their low mortgage rate.\n\n“Even if they downsized, they may have a nearly identical monthly payment,” the real-estate brokerage noted in a separate report.\n\nYour home “is one of your largest assets,” Ameriprise’s Morey said. With the kids out of the house, “you may need to sell it at some point to continue living the lifestyle that you want to live in retirement.”\n\nWhat’s important is understanding whether the trade-off is worth it in today’s housing market.\n\nMost Read from MarketWatch\n\nNo one is expecting a global boom. This former hedge-fund manager says it’s coming and has a way to play it. Lisa Cook, take the money and run\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Rocket Companies Inc",
+          "sector": "Financial Services",
+          "industry": "Mortgage Finance",
+          "employees": 14200,
+          "description": "Rocket Companies, Inc., provides spanning mortgage, real estate, and personal finance services in the United States and Canada. It operates through two segments, Direct to Consumer and Partner Network. The company offers Rocket Mortgage, a mortgage lender service; Rocket Close, an appraisal manageme"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.03,
+          "profit_margin": -0.0001,
+          "operating_margin": 0.1432,
+          "roe": -0.0014,
+          "roa": 0.0128,
+          "revenue_growth_yoy": 0.05,
+          "earnings_growth_yoy": -0.825,
+          "eps_estimate_current_year": 0.2243,
+          "eps_estimate_next_year": 0.6795,
+          "dividend_yield": 0,
+          "dividend_per_share": 0,
+          "revenue_ttm": 5151649792,
+          "revenue_per_share": 33.96,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 95.2381,
+          "price_to_sales": 7.7599,
+          "price_to_book": 5.3511,
+          "enterprise_value": 54715240448,
+          "ev_to_revenue": 10.2181,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 2.294,
+          "52_week_high": 20.2321,
+          "52_week_low": 9.5198,
+          "50_day_ma": 15.6802,
+          "200_day_ma": 13.6265,
+          "short_interest": 0.4394,
+          "short_ratio": 4.61
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0.0567,
+          "payout_ratio": 0.04,
+          "dividend_date": "2025-04-03",
+          "ex_dividend_date": "2025-03-20",
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.1667,
+          "target_price": 17.1667,
+          "strong_buy": 1,
+          "buy": 0,
+          "hold": 11,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 138400000,
+          "percent_institutions": 88.551,
+          "percent_insiders": 1.359,
+          "shares_float": 247659860
+        },
+        "balance_latest_sheet": {
+          "total_assets": 30360.222,
+          "total_debt": 20338.041,
+          "cash_and_equivalents": 5090.631,
+          "net_debt": 15224.719,
+          "shareholders_equity": 7448.928,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.73
+        },
+        "income_latest_statement": {
+          "total_revenue": 1306.49,
+          "gross_profit": 1278.964,
+          "operating_income": 172.859,
+          "net_income": -1.785,
+          "ebitda": 200.385,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 97.89,
+          "operating_margin": 13.23,
+          "net_margin": -0.14
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 797.005,
+          "free_cash_flow": 866.835,
+          "capex": 69.83,
+          "net_income": 212.268,
+          "cash_change": 3684.712,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.0562,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 13.64,
+            "high": 14.035,
+            "low": 13.53,
+            "close": 13.78,
+            "volume": 15451500
+          },
+          {
+            "date": "2025-07-18",
+            "open": 13.99,
+            "high": 14.06,
+            "low": 13.66,
+            "close": 13.99,
+            "volume": 11635000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 14.24,
+            "high": 15.29,
+            "low": 14.24,
+            "close": 15.04,
+            "volume": 38174400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 15.425,
+            "high": 16.37,
+            "low": 15.33,
+            "close": 16,
+            "volume": 51748400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 17.32,
+            "high": 17.32,
+            "low": 15.87,
+            "close": 16.21,
+            "volume": 64280900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 15.89,
+            "high": 16,
+            "low": 14.83,
+            "close": 14.86,
+            "volume": 26582300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 14.8,
+            "high": 15.127,
+            "low": 14.6,
+            "close": 15,
+            "volume": 16723700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 14.89,
+            "high": 15.07,
+            "low": 14.58,
+            "close": 15.04,
+            "volume": 11515100
+          },
+          {
+            "date": "2025-07-29",
+            "open": 15.06,
+            "high": 15.625,
+            "low": 15.02,
+            "close": 15.2,
+            "volume": 16740300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 15.15,
+            "high": 15.262,
+            "low": 14.52,
+            "close": 14.66,
+            "volume": 17555900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 14.75,
+            "high": 15.255,
+            "low": 14.5,
+            "close": 14.77,
+            "volume": 23503000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 15.915,
+            "high": 17.23,
+            "low": 15.83,
+            "close": 16.54,
+            "volume": 55979400
+          },
+          {
+            "date": "2025-08-04",
+            "open": 16.75,
+            "high": 17.095,
+            "low": 16.48,
+            "close": 16.88,
+            "volume": 20091900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 16.9,
+            "high": 18.155,
+            "low": 16.65,
+            "close": 18.03,
+            "volume": 31737600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 17.96,
+            "high": 18.35,
+            "low": 17.54,
+            "close": 18.12,
+            "volume": 24927800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 18.37,
+            "high": 18.455,
+            "low": 17.5,
+            "close": 17.55,
+            "volume": 13395500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 17.645,
+            "high": 17.645,
+            "low": 16.74,
+            "close": 16.81,
+            "volume": 12929400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 16.935,
+            "high": 17.35,
+            "low": 16.93,
+            "close": 17.11,
+            "volume": 9832900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 17.59,
+            "high": 18.48,
+            "low": 17.57,
+            "close": 18.27,
+            "volume": 23177700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 18.6,
+            "high": 19.665,
+            "low": 18.5,
+            "close": 19.62,
+            "volume": 32836000
+          },
+          {
+            "date": "2025-08-14",
+            "open": 18.99,
+            "high": 19.22,
+            "low": 18.545,
+            "close": 18.72,
+            "volume": 22158200
+          },
+          {
+            "date": "2025-08-15",
+            "open": 19.05,
+            "high": 19.115,
+            "low": 18.51,
+            "close": 18.53,
+            "volume": 11259100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 18.5,
+            "high": 18.5,
+            "low": 17.69,
+            "close": 17.83,
+            "volume": 11885700
+          },
+          {
+            "date": "2025-08-19",
+            "open": 18.17,
+            "high": 18.44,
+            "low": 17.805,
+            "close": 18.44,
+            "volume": 17699700
+          },
+          {
+            "date": "2025-08-20",
+            "open": 18.42,
+            "high": 18.57,
+            "low": 17.76,
+            "close": 17.76,
+            "volume": 14486000
+          },
+          {
+            "date": "2025-08-21",
+            "open": 17.6,
+            "high": 17.68,
+            "low": 17.13,
+            "close": 17.58,
+            "volume": 14954600
+          },
+          {
+            "date": "2025-08-22",
+            "open": 17.68,
+            "high": 19.625,
+            "low": 17.55,
+            "close": 19.21,
+            "volume": 30245700
+          },
+          {
+            "date": "2025-08-25",
+            "open": 18.9,
+            "high": 19.08,
+            "low": 18.6,
+            "close": 18.73,
+            "volume": 14800700
+          },
+          {
+            "date": "2025-08-26",
+            "open": 18.82,
+            "high": 18.98,
+            "low": 18.43,
+            "close": 18.94,
+            "volume": 18239100
+          },
+          {
+            "date": "2025-08-27",
+            "open": 18.89,
+            "high": 19,
+            "low": 18.06,
+            "close": 18.08,
+            "volume": 23512719
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 23.328785811732594,
+        "return_63d": 38.33205814843151,
+        "pct_above_sma50": 14.668425592368953,
+        "sma_50": 15.7672,
+        "new_55d_high": "False",
+        "high_55d": 19.665,
+        "rsi": 52.652652652652634,
+        "rsi_in_range": "True",
+        "adx": 43.366570957993765,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.553097345132745,
+        "bb_width": 24.499977292820127,
+        "keltner_width": 22.483274705382886,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 382236000.24219996,
+        "adv_shares": 21382635.95,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 57.62609352098866,
+        "final_score": 52.62609352098866,
+        "sub_scores": {
+          "trend_momentum": 26.43105820824121,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.19503531274745,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 18.947368421052623,
+          "ret_63d": 40.48174048174047,
+          "rsi14": 52.652652652652634,
+          "adx14": 42.294418620313955,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: RKT\n• Current Price: $18.08\n• Overall Score: 49.28307489422872\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 15.6802\n• Sma 200: 13.6265\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 18.947368421052627\n• Momentum 63D: 40.481740481740474\n• Momentum 126D: 38.226299694189585\n• Momentum Acceleration: -21.534372060687847\n• Roc 21D: 18.947368421052627\n• Trend Strength 20D: 0.41004860215381406\n• Trend Direction: 1\n• Ma Ribbon Score: 76.25768428773264\n• Breakout Strength: 0.0\n• Price Velocity: 0.004680458043055324\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: -0.05804393991711535\n• Volatility Compression: 21.871727243521406\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 26.43105820824121\n• Squeeze Breakout: 4.0\n• Options Quality: 16.19503531274745\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 71.0\n• Squeeze: 8.28075908652821\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: RKT\n• Strike Price: $17\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.08\n• Ask: $2.13\n• Last: $2.34\n• Mid: $2.105\n• Spread: 2.347417840375586854460093897%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6516\n• Gamma: 0.0939\n• Theta: -0.0156\n• Vega: 0.0248\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.5873\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 229\n• Open Interest: 17395\n• Volume/OI Ratio: 0.013164702500718597\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Rocket Companies Inc\n• Sector: Financial Services\n• Industry: Mortgage Finance\n• EPS (TTM): $-0.03\n• Profit Margin: -0.0%\n• ROE: -0.1%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T16:52:24+00:00: FHA allows Fannie Mae, Freddie Mac to approve Rocket Cos.-Mr. Cooper deal...\n• 2025-08-27T04:36:13+00:00: 2 Safe-and-Steady Stocks Worth Your Attention and 1 We Brush Off...\n• 2025-08-26T12:22:52+00:00: Gap between mortgage rates, 10-year treasury yield hits lowest level in over thr...\n• 2025-08-26T12:00:00+00:00: Redfin Reports the Mortgage Spread Has Dropped to a 3-Year Low. That’s Good News...\n• 2025-08-26T12:00:00+00:00: The kids are out of the house, and I saved for college. How are they still spend...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR RKT\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the RKT opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:01:22.009492",
+    "estimated_tokens": 2339
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"RKT\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 5,\n        \"fundamentals\": 4,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"RKT shows strong momentum with price above both SMAs and positive 21/63/126D momentum metrics, but faces headwinds from poor fundamentals and upcoming earnings risk. The options setup offers decent liquidity with moderate spreads, though IV conditions are not particularly compelling.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 and 200 SMAs (15.68 and 13.63)\",\n        \"Solid momentum metrics across timeframes (+18.95% 21D, +40.48% 63D)\",\n        \"Good options liquidity with tight 2.35% spread and healthy open interest (17,395)\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with negative EPS (-$0.03) and ROE (-0.1%)\",\n        \"Earnings approaching on 2025-09-30\",\n        \"Negative momentum acceleration (-21.53) suggests potential slowdown\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact and define risk\",\n        \"entry_timing\": \"Wait until after earnings report due to event risk\",\n        \"risk_management\": \"Use 17 strike as support level, consider rolling down if price breaks below 50 SMA at 15.68\"\n    },\n    \"red_flags\": [\n        \"Upcoming earnings within 35 days\",\n        \"Negative fundamental metrics\",\n        \"Decelerating momentum\"\n    ],\n    \"notes\": \"While technical setup is promising, fundamental weakness and earnings timing suggest caution. Consider waiting for earnings catalyst before entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "RKT",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 5,
+        "fundamentals": 4,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "RKT shows strong momentum with price above both SMAs and positive 21/63/126D momentum metrics, but faces headwinds from poor fundamentals and upcoming earnings risk. The options setup offers decent liquidity with moderate spreads, though IV conditions are not particularly compelling.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 and 200 SMAs (15.68 and 13.63)",
+        "Solid momentum metrics across timeframes (+18.95% 21D, +40.48% 63D)",
+        "Good options liquidity with tight 2.35% spread and healthy open interest (17,395)"
+      ],
+      "risks": [
+        "Poor fundamentals with negative EPS (-$0.03) and ROE (-0.1%)",
+        "Earnings approaching on 2025-09-30",
+        "Negative momentum acceleration (-21.53) suggests potential slowdown"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact and define risk",
+        "entry_timing": "Wait until after earnings report due to event risk",
+        "risk_management": "Use 17 strike as support level, consider rolling down if price breaks below 50 SMA at 15.68"
+      },
+      "red_flags": [
+        "Upcoming earnings within 35 days",
+        "Negative fundamental metrics",
+        "Decelerating momentum"
+      ],
+      "notes": "While technical setup is promising, fundamental weakness and earnings timing suggest caution. Consider waiting for earnings catalyst before entry."
+    },
+    "tokens_used": 2567,
+    "cost": 0.02567,
+    "response_time": 12.231719732284546,
+    "success": true
+  },
+  "cost": 0.02567,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8559,
+    "response_length": 1712
+  }
+}

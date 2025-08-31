@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "NVO",
+  "timestamp": "2025-08-30T08:45:55.286961",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVO",
+      "package_timestamp": "2025-08-30T08:45:47.188988",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVO",
+        "current_price": 56.46,
+        "overall_score": 47.26926269674084,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 60.81,
+        "sma_200": 76.6143
+      },
+      "momentum_metrics": {
+        "momentum_21d": 19.949012109623965,
+        "momentum_63d": -21.034965034965033,
+        "momentum_126d": -37.716492002206294,
+        "momentum_acceleration": 40.983977144589,
+        "roc_21d": 19.949012109623965,
+        "trend_strength_20d": 0.8809391975892785,
+        "trend_direction": -1,
+        "ma_ribbon_score": 49.74110769866737,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0017426873127101227
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 1.0005594812308474,
+        "volatility_compression": 71.41132066059194,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 12.0,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.82456470588238,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 72.0,
+        "squeeze": 15.71169809908879,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 28,
+        "percentile": 98.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVO",
+        "strike_price": "55",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "4.2",
+        "ask": "4.3",
+        "last_price": "4.2",
+        "mid_price": "4.25",
+        "spread_percent": "2.325581395348837209302325581"
+      },
+      "greeks": {
+        "delta": 0.6012,
+        "gamma": 0.0441,
+        "theta": -0.0383,
+        "vega": 0.0793
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4262
+      },
+      "liquidity_metrics": {
+        "volume": 261,
+        "open_interest": 7939,
+        "volume_oi_ratio": 0.032875677037410254
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:18:05.378337",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T19:59:58+00:00",
+            "title": "Sector Update: Health Care Stocks Higher Late Afternoon",
+            "content": "Health care stocks rose late Friday afternoon with the NYSE Health Care Index and the Health Care Se\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:06:08+00:00",
+            "title": "Mounjaro Price Bomb Sparks UK Pharmacy Rebellion--Wegovy Cashes In",
+            "content": "This article first appeared on GuruFocus.\n\nEli Lilly (NYSE:LLY) just pulled the pin on a pricing grenadeand UK pharmacies are ducking for cover. After jacking up Mounjaro's list price by as much as 170%, some pharmacies are refusing to pass the full cost onto patients. Zava, now being acquired by Hims & Hers Health, raised its highest-dose price by just 55% to 309.99, still below Lilly's new 330 benchmark. Pharmacy2U froze its prices for existing patients, even as others like Superdrug ran completely out of stock amid a nationwide shortage. Demand isn't slowing eitherone in five UK adults sought obesity meds last year, and that number's not getting smaller.\n\nWarning! GuruFocus has detected 6 Warning Signs with MCO. Is LLY fairly valued? Test your thesis with our free DCF calculator.\n\nBut here's the kicker: Boots is flipping Lilly's price hike into a marketing weapon. The UK giant will charge 335 for Mounjaro's top dose from September 1, but it's dangling a Switch to Wegovy offer that saves patients 129. Novo Nordisk (NYSE:NVO) couldn't have asked for better timing. With customer hotline wait times now stretching up to 60 minutes, the message is loud and clearLilly's move is pushing patients to reconsider their options, and Wegovy is waiting with open arms and lower prices.\n\nUnder the surface, this isn't just a price warit's a pharmacy turf battle. Asda's online doctor, which works with Zava, is slightly undercutting Zava itself. Some players are racing to lock in new customers before the September 1 reset, while others are content riding out the shortage storm. For investors, this chaos signals something deeper: pricing power in the obesity drug market may no longer sit with the drugmakers alone. Pharmacies are becoming the new gatekeepersand Wegovy just found its wedge.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T17:37:06+00:00",
+            "title": "Sector Update: Health Care Stocks Advance Friday Afternoon",
+            "content": "Health care stocks rose Friday afternoon, with the NYSE Health Care Index and the Health Care Select\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T16:10:05+00:00",
+            "title": "Warren Buffett Detailed Fundamental Analysis - NVO",
+            "content": "Below is Validea's guru fundamental report for NOVO NORDISK A/S (ADR) (NVO). Of the 22 guru strategies we follow,  NVO rates highest using our Patient Investor model based on the published strategy of Warren Buffett. This strategy seeks out firms with long-term, predictable profitability and low debt that trade at reasonable valuations.\n\nNOVO NORDISK A/S (ADR) (NVO) is a large-cap growth stock in the Biotechnology & Drugs industry. The rating using this strategy is 86% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. EARNINGS PREDICTABILITY:PASSDEBT SERVICE:PASSRETURN ON EQUITY:PASSRETURN ON TOTAL CAPITAL:PASSFREE CASH FLOW:PASSUSE OF RETAINED EARNINGS:PASSSHARE REPURCHASE:PASSINITIAL RATE OF RETURN:FAILEXPECTED RETURN:PASS\n\nDetailed Analysis of NOVO NORDISK A/S (ADR)\n\nNVO Guru Analysis\n\nNVO Fundamental Analysis\n\nMore Information on Warren Buffett\n\nWarren Buffett Portfolio\n\nTop Warren Buffett Stocks\n\nAbout Warren Buffett: Warren Buffett is considered by many to be the greatest investor of all time. As the chairman of Berkshire Hathaway, Buffett has consistently outperformed the S&P 500 for decades, and in the process has become one of the world's richest men. (Forbes puts his net worth at $37 billion.) Despite his fortune, Buffett is known for living a modest lifestyle, by billionaire standards. His primary residence remains the gray stucco Nebraska home he purchased for $31,500 nearly 50 years ago, according to Forbes, and his folksy Midwestern manner and penchant for simple pleasures -- a cherry Coke, a good burger, and a good book are all near the top of the list -- have been well-documented.\n\nAdditional Research Links\n\nTop Healthcare Stocks\n\nDividend Aristocrats 2024\n\nWide Moat Stocks\n\nRecession Proof Stocks\n\nHigh Insider Ownership Stocks\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T16:00:00+00:00",
+            "title": "DEADLINE ALERT for FLYW, LMT, SOC, NVO: Law Offices of Howard G. Smith Reminds Investors of Opportunity to Lead Securities Fraud Class Actions",
+            "content": "BENSALEM, Pa., Aug.  29, 2025  (GLOBE NEWSWIRE) -- Law Offices of Howard G. Smith reminds investors that class action lawsuits have been filed on behalf of shareholders of the following publicly-traded companies. Investors have until the deadlines listed below to file a lead plaintiff motion.\n\nInvestors suffering losses on their investments are encouraged to contact the Law Offices of Howard G. Smith to discuss their legal rights in these class actions at (215) 638-4847 or by email to howardsmith@howardsmithlaw.com.\n\nFlywire Corporation (NASDAQ: FLYW)\r\nClass Period: February 28, 2024 – February 25, 2025\r\nLead Plaintiff Deadline: September 23, 2025\n\nThe complaint alleges that throughout the Class Period the defendants made false and/or misleading statements and/or failed to disclose that: (1) the strength and sustainability of Flywire’s revenue growth was overstated; (2) the negative impact that permit- and visa-related restrictions were having and were likely to have on Flywire’s business was understated; and (3) as a result, Defendants’ positive statements about the Company’s business, operations, and prospects were materially misleading and/or lacked a reasonable basis at all relevant times.\n\nLockheed Martin Corporation (NYSE: LMT)\r\nClass Period: January 23, 2024 – July 21, 2025\r\nLead Plaintiff Deadline: September 26, 2025\n\nThe complaint alleges that throughout the Class Period the defendants made false and/or misleading statements and/or failed to disclose: (1) that Lockheed Martin lacked effective internal controls regarding its purportedly risk adjusted contracts including the reporting of its risk adjusted profit booking rate; (2) that Lockheed Martin lacked effective procedures to perform reasonably accurate comprehensive reviews of program requirements, technical complexities, schedule, and risks; (3) that Lockheed Martin overstated its ability to deliver on its contract commitments in terms of cost, quality and schedule; (4) that, as a result, the Company was reasonably likely to report significant losses; and (5) that, as a result of the foregoing, Defendants’ positive statements about the Company’s business, operations, and prospects were materially misleading and/or lacked a reasonable basis.\n\nSable Offshore Corp. (NYSE: SOC) \r\nClass Period: May 19, 2025 – June 3, 2025\r\nLead Plaintiff Deadline: September 26, 2025\n\nThe complaint alleges that throughout the Class Period the defendants made false and/or misleading statements and/or failed to disclose that: (1) Defendants represented that Sable Offshore Corp. had restarted oil production off the coast of California when it had not; and (2) as a result, Defendants’ positive statements about the Company’s business, operations, and prospects were materially misleading and/or lacked a reasonable basis at all relevant times.\n\nNovo Nordisk A/S (NYSE: NVO)\r\nClass Period: May 7, 2025 – July 28, 2025\r\nLead Plaintiff Deadline: September 30, 2025\n\nThe complaint alleges that throughout the Class Period the defendants made false and/or misleading statements and/or failed to disclose that: (1) Novo Nordisk repeatedly ignored and minimized the significance of the personalization exception for GLP-1 compounding, greatly overestimated its ability to capture patients coming off of compounded treatments, and was ultimately ill equipped to capitalize upon the purported significant unmet patient population; and (2) as a result, Defendants’ positive statements about the Company’s business, operations, and prospects were materially misleading and/or lacked a reasonable basis at all relevant times.\n\nTo be a member of these class actions, you need not take any action at this time; you may retain counsel of your choice or take no action and remain an absent member of the class action. If you wish to learn more about these class actions, or if you have any questions concerning this announcement or your rights or interests with respect to these matters, please contact Howard G. Smith, Esquire, of Law Offices of Howard G. Smith, 3070 Bristol Pike, Suite 112, Bensalem, Pennsylvania 19020, by telephone at (215) 638-4847 or by email to howardsmith@howardsmithlaw.com, or visit our website at www.howardsmithlaw.com.\n\nThis press release may be considered Attorney Advertising in some jurisdictions under the applicable law and ethical rules.\n\nContacts\r\nLaw Offices of Howard G. Smith\r\nHoward G. Smith, Esquire\r\n215-638-4847\r\n888-638-4847\r\nhowardsmith@howardsmithlaw.com\r\nwww.howardsmithlaw.com",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Novo Nordisk A/S",
+          "sector": "Healthcare",
+          "industry": "Drug Manufacturers - General",
+          "employees": 78387,
+          "description": "Novo Nordisk A/S, together with its subsidiaries, engages in the research and development, manufacture, and distribution of pharmaceutical products in Europe, the Middle East, Africa, Mainland China, Hong Kong, Taiwan, North America, and internationally. It operates in two segments, Diabetes and Obe"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.89,
+          "profit_margin": 0.3561,
+          "operating_margin": 0.4352,
+          "roe": 0.7917,
+          "roa": 0.2182,
+          "revenue_growth_yoy": 0.129,
+          "earnings_growth_yoy": 0.327,
+          "eps_estimate_current_year": 24.8343,
+          "eps_estimate_next_year": 25.4987,
+          "dividend_yield": 0.0306,
+          "dividend_per_share": 11.65,
+          "revenue_ttm": 311937990656,
+          "revenue_per_share": 70.144,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 14.5141,
+          "forward_pe": 14.6199,
+          "price_to_sales": 0.7973,
+          "price_to_book": 9.5684,
+          "enterprise_value": 261252552382,
+          "ev_to_revenue": 5.3685,
+          "ev_to_ebitda": 10.848
+        },
+        "technical_data": {
+          "beta": 0.274,
+          "52_week_high": 134.9007,
+          "52_week_low": 44.5478,
+          "50_day_ma": 60.81,
+          "200_day_ma": 76.6143,
+          "short_interest": 0.0062,
+          "short_ratio": 0.89
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.73,
+          "forward_dividend_yield": 0.0306,
+          "payout_ratio": 0.0675,
+          "dividend_date": "2025-08-26",
+          "ex_dividend_date": "2025-08-18",
+          "last_split_date": "2023-09-20",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.5,
+          "target_price": 63.7964,
+          "strong_buy": 4,
+          "buy": 1,
+          "hold": 5,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 3368560128,
+          "percent_institutions": 9.343,
+          "percent_insiders": 0.006,
+          "shares_float": 3187938882
+        },
+        "balance_latest_sheet": {
+          "total_assets": 482153.0,
+          "total_debt": 99268.0,
+          "net_debt": 80833.0,
+          "working_capital": -44817.0,
+          "shareholders_equity": 168066.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.59
+        },
+        "income_latest_statement": {
+          "total_revenue": 76857.0,
+          "gross_profit": 64011.0,
+          "operating_income": 33449.0,
+          "net_income": 26503.0,
+          "ebitda": 43596.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 83.29,
+          "operating_margin": 43.52,
+          "net_margin": 34.48
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 40785.0,
+          "free_cash_flow": 24510.0,
+          "capex": 16275.0,
+          "net_income": 26503.0,
+          "cash_change": -20503.0,
+          "dividends_paid": 174.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 5.89,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 64.75,
+            "high": 65.33,
+            "low": 64.12,
+            "close": 64.92,
+            "volume": 8280700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 65.52,
+            "high": 66.97,
+            "low": 65.45,
+            "close": 66.78,
+            "volume": 8970300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 68.97,
+            "high": 70.38,
+            "low": 68.88,
+            "close": 70.03,
+            "volume": 11980400
+          },
+          {
+            "date": "2025-07-24",
+            "open": 70.65,
+            "high": 71.38,
+            "low": 70.22,
+            "close": 70.73,
+            "volume": 10161000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 71.02,
+            "high": 71.8,
+            "low": 70.58,
+            "close": 71.7,
+            "volume": 7350200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 71,
+            "high": 71.28,
+            "low": 68.47,
+            "close": 69,
+            "volume": 7156200
+          },
+          {
+            "date": "2025-07-29",
+            "open": 53.95,
+            "high": 55.37,
+            "low": 53.51,
+            "close": 53.94,
+            "volume": 110735600
+          },
+          {
+            "date": "2025-07-30",
+            "open": 51.26,
+            "high": 51.37,
+            "low": 49.6,
+            "close": 50.03,
+            "volume": 65866200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 48.96,
+            "high": 49.3,
+            "low": 46.9,
+            "close": 47.07,
+            "volume": 50372500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 48.27,
+            "high": 49.03,
+            "low": 47.55,
+            "close": 48.19,
+            "volume": 34787400
+          },
+          {
+            "date": "2025-08-04",
+            "open": 49.08,
+            "high": 49.21,
+            "low": 48.36,
+            "close": 48.81,
+            "volume": 20691900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 47.88,
+            "high": 48.2,
+            "low": 47.12,
+            "close": 47.22,
+            "volume": 21508400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 45.97,
+            "high": 46.49,
+            "low": 45.05,
+            "close": 45.38,
+            "volume": 37438100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 48.47,
+            "high": 49.1,
+            "low": 47.92,
+            "close": 48.76,
+            "volume": 40780500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 50.7,
+            "high": 51.3,
+            "low": 50.11,
+            "close": 51.08,
+            "volume": 23367500
+          },
+          {
+            "date": "2025-08-11",
+            "open": 50.4,
+            "high": 50.7,
+            "low": 49.79,
+            "close": 49.87,
+            "volume": 16177600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 49.42,
+            "high": 50.31,
+            "low": 49.38,
+            "close": 49.78,
+            "volume": 10921900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 50.28,
+            "high": 51.24,
+            "low": 50.24,
+            "close": 50.9,
+            "volume": 19443200
+          },
+          {
+            "date": "2025-08-14",
+            "open": 50.48,
+            "high": 50.95,
+            "low": 49.87,
+            "close": 50.95,
+            "volume": 12620600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 51.44,
+            "high": 52.75,
+            "low": 51.37,
+            "close": 52.41,
+            "volume": 17622500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 54.6,
+            "high": 54.99,
+            "low": 53.75,
+            "close": 53.75,
+            "volume": 32445100
+          },
+          {
+            "date": "2025-08-19",
+            "open": 54.57,
+            "high": 55.48,
+            "low": 54.02,
+            "close": 54.78,
+            "volume": 25993700
+          },
+          {
+            "date": "2025-08-20",
+            "open": 54.33,
+            "high": 54.63,
+            "low": 53.83,
+            "close": 54.3,
+            "volume": 14100700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 54.8,
+            "high": 55.85,
+            "low": 54.57,
+            "close": 55.45,
+            "volume": 12883200
+          },
+          {
+            "date": "2025-08-22",
+            "open": 56.71,
+            "high": 57.51,
+            "low": 56.64,
+            "close": 56.98,
+            "volume": 17913400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 57.43,
+            "high": 58.34,
+            "low": 56.25,
+            "close": 56.34,
+            "volume": 16185000
+          },
+          {
+            "date": "2025-08-26",
+            "open": 55.02,
+            "high": 55.37,
+            "low": 54.6,
+            "close": 55.34,
+            "volume": 12869500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 55.68,
+            "high": 56.63,
+            "low": 55.32,
+            "close": 56.44,
+            "volume": 11697700
+          },
+          {
+            "date": "2025-08-28",
+            "open": 56.72,
+            "high": 56.76,
+            "low": 55.71,
+            "close": 56.11,
+            "volume": 9542500
+          },
+          {
+            "date": "2025-08-29",
+            "open": 56.05,
+            "high": 56.53,
+            "low": 55.71,
+            "close": 56.46,
+            "volume": 9104500
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 17.161236771114346,
+        "return_63d": -22.477001235754493,
+        "pct_above_sma50": -7.1534287123828335,
+        "sma_50": 60.81,
+        "new_55d_high": "False",
+        "high_55d": 81.44,
+        "rsi": 78.23479005998291,
+        "rsi_in_range": "False",
+        "adx": 50.32591411190338,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.9737867516826086,
+        "bb_width": 26.666502881734772,
+        "keltner_width": 12.7799661281422,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1007245865.8124999,
+        "adv_shares": 19165375.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 44.82456470588238,
+        "final_score": 44.82456470588238,
+        "sub_scores": {
+          "trend_momentum": 12.0,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.82456470588238,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 19.949012109623965,
+          "ret_63d": -21.034965034965037,
+          "rsi14": 78.23479005998291,
+          "adx14": 48.88074896418728,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVO\n• Current Price: $56.46\n• Overall Score: 47.26926269674084\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 60.81\n• Sma 200: 76.6143\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 19.949012109623965\n• Momentum 63D: -21.034965034965033\n• Momentum 126D: -37.716492002206294\n• Momentum Acceleration: 40.983977144589\n• Roc 21D: 19.949012109623965\n• Trend Strength 20D: 0.8809391975892785\n• Trend Direction: -1\n• Ma Ribbon Score: 49.74110769866737\n• Breakout Strength: 0.0\n• Price Velocity: -0.0017426873127101227\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 1.0005594812308474\n• Volatility Compression: 71.41132066059194\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 12.0\n• Squeeze Breakout: 4.0\n• Options Quality: 17.82456470588238\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 72.0\n• Squeeze: 15.71169809908879\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVO\n• Strike Price: $55\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $4.2\n• Ask: $4.3\n• Last: $4.2\n• Mid: $4.25\n• Spread: 2.325581395348837209302325581%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6012\n• Gamma: 0.0441\n• Theta: -0.0383\n• Vega: 0.0793\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4262\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 261\n• Open Interest: 7939\n• Volume/OI Ratio: 0.032875677037410254\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Novo Nordisk A/S\n• Sector: Healthcare\n• Industry: Drug Manufacturers - General\n• EPS (TTM): $3.89\n• Profit Margin: 35.6%\n• ROE: 79.2%\n• P/E Ratio: 14.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T19:59:58+00:00: Sector Update: Health Care Stocks Higher Late Afternoon...\n• 2025-08-29T19:06:08+00:00: Mounjaro Price Bomb Sparks UK Pharmacy Rebellion--Wegovy Cashes In...\n• 2025-08-29T17:37:06+00:00: Sector Update: Health Care Stocks Advance Friday Afternoon...\n• 2025-08-29T16:10:05+00:00: Warren Buffett Detailed Fundamental Analysis - NVO...\n• 2025-08-29T16:00:00+00:00: DEADLINE ALERT for FLYW, LMT, SOC, NVO: Law Offices of Howard G. Smith Reminds I...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:45:55.286527",
+    "estimated_tokens": 2320
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVO\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 20,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 8,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NVO shows strong fundamentals with 35.6% profit margin and 79.2% ROE, but faces technical weakness trading below both 50 and 200 SMAs. Options setup shows decent liquidity and moderate spreads, though upcoming earnings create near-term risk.\",\n    \"opportunities\": [\n        \"Strong fundamental metrics with high profit margins and ROE\",\n        \"Decent options liquidity with 2.3% bid-ask spread\",\n        \"Positive 21-day momentum at 19.95%\"\n    ],\n    \"risks\": [\n        \"Trading below both 50 SMA (60.81) and 200 SMA (76.61)\",\n        \"Negative 126-day momentum (-37.72%)\",\n        \"Upcoming earnings on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure given mixed technical picture\",\n        \"entry_timing\": \"Defer entry until after earnings catalyst\",\n        \"risk_management\": \"Use 55 strike as support level, consider vertical spread to reduce cost basis\"\n    },\n    \"red_flags\": [\n        \"Earnings within 30 days\",\n        \"Significant negative longer-term momentum\",\n        \"Price trading below major moving averages\"\n    ],\n    \"notes\": \"While fundamentals remain strong, technical weakness and upcoming earnings suggest caution in position sizing and timing. Options Greeks profile (0.60 delta, low theta) supports longer-dated strategy.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVO",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 20,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 8,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "NVO shows strong fundamentals with 35.6% profit margin and 79.2% ROE, but faces technical weakness trading below both 50 and 200 SMAs. Options setup shows decent liquidity and moderate spreads, though upcoming earnings create near-term risk.",
+      "opportunities": [
+        "Strong fundamental metrics with high profit margins and ROE",
+        "Decent options liquidity with 2.3% bid-ask spread",
+        "Positive 21-day momentum at 19.95%"
+      ],
+      "risks": [
+        "Trading below both 50 SMA (60.81) and 200 SMA (76.61)",
+        "Negative 126-day momentum (-37.72%)",
+        "Upcoming earnings on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure given mixed technical picture",
+        "entry_timing": "Defer entry until after earnings catalyst",
+        "risk_management": "Use 55 strike as support level, consider vertical spread to reduce cost basis"
+      },
+      "red_flags": [
+        "Earnings within 30 days",
+        "Significant negative longer-term momentum",
+        "Price trading below major moving averages"
+      ],
+      "notes": "While fundamentals remain strong, technical weakness and upcoming earnings suggest caution in position sizing and timing. Options Greeks profile (0.60 delta, low theta) supports longer-dated strategy."
+    },
+    "tokens_used": 2524,
+    "cost": 0.025240000000000002,
+    "response_time": 8.092941999435425,
+    "success": true
+  },
+  "cost": 0.025240000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8486,
+    "response_length": 1614
+  }
+}

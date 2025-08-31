@@ -1,0 +1,650 @@
+{
+  "success": true,
+  "symbol": "NUE",
+  "timestamp": "2025-08-24T22:48:08.451524",
+  "data_package": {
+    "metadata": {
+      "symbol": "NUE",
+      "package_timestamp": "2025-08-24T22:47:58.202995",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NUE",
+        "current_price": 147.93,
+        "overall_score": 51.76592320307295,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 137.6092,
+        "sma_200": 129.8335
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.595913172594216,
+        "momentum_63d": 33.64350889872618,
+        "momentum_126d": 9.391407232123063,
+        "momentum_acceleration": -29.047595726131966,
+        "roc_21d": 4.595913172594216,
+        "trend_strength_20d": 0.26115070113212446,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.003579635702452344
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 19.0,
+        "squeeze_momentum": 0.17454518564139163,
+        "volatility_compression": 43.522226427218065,
+        "is_consolidating": "False",
+        "breakout_score": 76.84212264391824,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.062803405132634,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.6838871794872,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 58.0,
+        "squeeze": 61.52833396408271,
+        "options": 39.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 10,
+        "percentile": 99.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NUE",
+        "strike_price": "145",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "9",
+        "ask": "9.2",
+        "last_price": "9.1",
+        "mid_price": "9.1",
+        "spread_percent": "2.173913043478260869565217391"
+      },
+      "greeks": {
+        "delta": 0.5989,
+        "gamma": 0.0209,
+        "theta": -0.0748,
+        "vega": 0.2204
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3238
+      },
+      "liquidity_metrics": {
+        "volume": 16,
+        "open_interest": 666,
+        "volume_oi_ratio": 0.024024024024024024
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-24T22:38:27.862682",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T23:00:02+00:00",
+            "title": "3 Dividend Aristocrats You’ll Wish You Owned Before the Next Rally",
+            "content": "Dividend investing isn’t as glamorous as, say, day trading or growth stock investing. I’ve seen enough people describe income-centric strategies as the investment equivalent of watching white paint dry. And despite being a conservative dividend investor, I find the comparison utterly funny and eerily accurate. But one of the advantages of dividend investing - especially if you invest in ultra-safe companies like the ones in the Dividend Aristocrats list - is the security and consistency it brings.\n\nSure, they don’t have double-digit yields. Sometimes, they don’t even have single-digit yields. But what they do offer is reliability and the promise of potential price and dividend growth over longer investing horizons, making them perfect for retirement portfolios.\n\nMore News from Barchart\n\nOur exclusive Barchart Brief newsletter is your FREE midday guide to what's moving stocks, sectors, and investor sentiment - delivered right when you need the info most. Subscribe today!\n\nAnd, if you’re looking to enhance your chances of returns, you can limit your selection to stocks that have both favorable fundamentals and technicals. But since we’re all busy and nobody really has the time to delve into fundamental metrics and technical indicators of thousands of stocks, I can show you how to identify ripe opportunities using just a handful of indicators, courtesy of Barchart’s Stock Screener and proprietary analysis tools. Here’s how it works.\n\nHow I Came Up With The Following Stocks\n\nWith Barchart’s Stock Screener, I used the following filters:\n\nOverall Buy/Sell/Hold Signal: Buy. This filter is based on Barchart Opinion, the website’s proprietary analysis tool that combines 13 popular technical indicators to provide stock ratings. A “Buy” recommendation means that most of the indicators suggest a bullish trend. Overall Opinion %: More than 70%. Through this filter, I am limiting the results to Dividend Aristocrats with a weighted score of over 70%, so that I get a list of companies that offer the best chance for a favorable upside price movement. Current Analysts Rating: 4.5 to 5 (Strong Buy). Next, I’ve limited the results to stocks that have high analyst scores. Wall Street analyst ratings reflect the company's business and prospects, so the focus is on fundamental metrics. Though some analysts may have different analysis processes than others, a consensus Strong Buy means Wall Street is quite optimistic about the stock. Watchlists: Dividend Aristocrats only.\n\nAfter running the scan, I got exactly three companies, which I arranged from highest to lowest opinion percentage score:\n\nStory Continues\n\nWith that out of the way, let’s get started with the top one:\n\nS&P Global Inc (SPGI)\n\nFirst on the list is S&P Global, one of the most prominent financial services companies worldwide. The company offers market analytics, credit ratings, mobility insights, and the establishment and management of indices, some of which serve as barometers for entire markets and industries. Even newbie investors would recognize the S&P 500, and even the basis for this article - the Dividend Aristocrats list - comes from S&P Global.\n\nThe company currently pays $3.84 annually, translating to a yield of approximately 0.7%, which is relatively low by most standards. S&P Global has maintained low yields for almost all of its dividend-paying history.\n\nBut that’s not why dividend investors and analysts love the stock. In the last 20 years, SPGI has returned over 1,000% to investors on price appreciation alone. Right now, Wall Street gives the stock a 4.71 average score, while Barchart Opinion echoes the assessment with a 100% Strong Buy recommendation.\n\nNucor Corp (NUE)\n\nNucor Corporation is a producer of steel and steel products. The company is the largest steel manufacturer in North America and operates over 300 mills and recycling facilities that service data centers, automotive companies, energy outfits, and, of course, the construction industry.\n\nNucor currently pays $2.20 per share per year, which translates to a roughly 1.5% yield. Analysts rate NUE a borderline Strong Buy with a 4.5 average score, while Barchart Opinion rates it an 88% Strong Buy.\n\nWalmart Inc (WMT)\n\nLast but not least is Walmart, the retail behemoth that operates over 10,750 brick-and-mortar stores to service over 255 million customers weekly. The company also operates a growing e-commerce platform and has a presence in over 19 countries.\n\nLike S&P Global, Walmart has a relatively low yield: around 0.96% based off its 94-cent annual payout. But, like the other companies on this list, WMT has proven itself as a winner for long-term investors, returning over 550% in the last 20 years.\n\nAnalysts rate WMT stock a 4.78 average score - the highest on this list, while it maintains an 80% Strong Buy rating from Barchart Opinion.\n\nFinal Thoughts\n\nThese three Dividend Aristocrats, while offering low yields, provide investors the opportunity for above-average growth over the long term, based on analyst expectations and technical analysis. However, no stock list will ever be the end-all, be-all of dividend investing. Market dynamics - and, indeed, personal priorities - can be fluid, so make sure you do your research and ensure that you’re investing in companies that fit your investment thesis.\n\nOn the date of publication, Rick Orford did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T12:25:16+00:00",
+            "title": "Nucor Stock: Is Wall Street Bullish or Bearish?",
+            "content": "Nucor Corporation (NUE), based in Charlotte, North Carolina, manufactures and sells steel and steel products. Valued at $32.9 billion by market cap, the company’s products include carbon and alloy steel, steel joints, steel deck, cold-finished steel, steel grinding balls, steel bearing products, and metal building systems. Nucor also brokers ferrous and nonferrous metals, pig iron, HBI, and DRI, supplies ferro-alloys, and processes ferrous and nonferrous scrap.\n\nShares of this steel titan have underperformed the broader market over the past year. NUE has declined 2.2% over this time frame, while the broader S&P 500 Index ($SPX) has rallied nearly 13.3%. However, in 2025, NUE’s stock rose 22.7%, surpassing the SPX’s 8.3% rise on a YTD basis.\n\nMore News from Barchart\n\nDollar Moves Higher on Hawkish Fed Comments Dollar Climbs as Bond Yields Rise on US Economic Strength Dollar Tumbles and Gold Jumps as Powell Opens Door to Fed Rate Cuts Tired of missing midday reversals? The FREE Barchart Brief newsletter keeps you in the know. Sign up now!\n\nNarrowing the focus, NUE’s underperformance is also apparent compared to the VanEck Steel ETF (SLX). The exchange-traded fund has gained about 3.4% over the past year. However, NUE’s returns on a YTD basis outshine the ETF’s 17.6% gains over the same time frame.www.barchart.com\n\nOn Jul. 28, NUE shares closed down marginally after reporting its Q2 results. Its EPS of $2.60 missed Wall Street expectations of $2.62. The company’s revenue was $8.5 billion, exceeding Wall Street forecasts of $8.4 billion.\n\nFor the current fiscal year, ending in December, analysts expect NUE’s EPS to fall 7.3% to $8.25 on a diluted basis. The company’s earnings surprise history is mixed. It beat the consensus estimate in three of the last four quarters while missing the forecast on another occasion.\n\nAmong the 14 analysts covering NUE stock, the consensus is a “Strong Buy.” That’s based on 10 “Strong Buy” ratings, one “Moderate Buy,” and three “Holds.”www.barchart.com\n\nThis configuration is more bullish than a month ago, with nine analysts suggesting a “Strong Buy.”\n\nOn Aug. 13,Wells Fargo & Company (WFC) analyst Timna Tanners maintained a “Hold” rating on NUE and set a price target of $145, implying a potential upside of 1.2% from current levels.\n\nThe mean price target of $158.17 represents a 10.4% premium to NUE’s current price levels. The Street-high price target of $182 suggests an ambitious upside potential of 27.1%.\n\nOn the date of publication, Neha Panjwani did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\n查看留言",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T10:41:00+00:00",
+            "title": "Highlights From Berkshire Hathaway Earnings: 3 Key Trends Investors Should Track",
+            "content": "Key Points\n\nBerkshire Hathaway stock is down since the start of the second quarter, but there’s more to the story. Berkshire’s operating businesses are doing quite well, although insurance profitability is inconsistent.  Although Berkshire hasn’t bought back any shares, it wasn’t as much of a net seller of stocks as it seems.10 stocks we like better than Berkshire Hathaway ›\n\nBerkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B) reported its second-quarter earnings a couple of weeks ago, but it just recently gave investors a glimpse of changes in its $300 billion stock portfolio. Now that we have a complete picture of how Berkshire's second quarter went, it's a good time to take a look at some of the key trends to watch.\n\nWarren Buffett announced his intention in May to step down as Berkshire's CEO, and since that time, the stock has declined by more than 10%. Do the numbers say that investors should be concerned, or that the business is running smoothly?\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nImage source: Getty Images.\n\nBerkshire's operating businesses are doing well\n\nAlthough Berkshire's stock portfolio and its massive stockpile of cash get many headlines, the core of Berkshire Hathaway is its operating businesses. With over 60 subsidiaries that include GEICO, Duracell, BNSF Railroad, a massive utility business, and many others, these are the engines that generate the capital for Berkshire to invest in stocks or add to its bank account.\n\nIn the second quarter, Berkshire's operating earnings declined by about 4% year over year, but that doesn't tell the whole story. The decline was mainly due to $877 million in on-paper foreign currency \"losses\" from Berkshire's non-dollar-denominated debt, compared with a gain of $446 million in the second quarter of 2024, as well as a decline in underwriting profits from the insurance businesses. Underwriting profits can be rather inconsistent because of natural disasters and other factors, so if they trend upward over time, there's no need for concern.\n\nIn fact, if we back out the underwriting income and the foreign exchange fluctuations, Berkshire's operating earnings grew by about 10% year over year. There was solid growth in the railroad and energy businesses, as well as the broad manufacturing, service, and retail category that includes dozens of other Berkshire subsidiaries.\n\nStill no buybacks\n\nBerkshire Hathaway's share repurchase plan doesn't have a formal limit as many companies do. In fact, it allows the company to repurchase shares whenever Buffett feels the stock is priced below its intrinsic value.\n\nAfter spending billions of dollars buying back stock in most quarters since the modern version of the buyback authorization has been in place, Berkshire abruptly stopped buying back stock a few quarters ago. There was much speculation that with the steep decline in Berkshire's stock that occurred after Buffett announced his retirement, but that turned out to not be the case. Berkshire spent exactly $0 on buybacks in the second quarter.\n\nThere are a few potential explanations. Maybe Buffett doesn't believe Berkshire is at a substantial discount to intrinsic value. Or maybe Buffett is simply deciding to conserve capital until after he formally steps down as CEO at the end of the year, and plans to leave things like buyback decisions to his successors. But in any case, Berkshire's buybacks, or lack thereof, are worth keeping an eye on.\n\nBuffett wasn't as much of a stock seller as it seems\n\nBerkshire's second-quarter earnings were released nearly two weeks before the company's stock portfolio activity was revealed. And based on the earnings report, it appeared that Berkshire was a net seller of stocks.\n\nTechnically, that was true. But if we exclude sales of some Apple(NASDAQ: AAPL) and Bank of America(NYSE: BAC), which have been ongoing for some time, it turns out that Berkshire was a net buyer. In fact, Berkshire added shares to six existing positions and opened six new ones. Buffett and his team added to Chevron(NYSE: CVX), Constellation Brands (NYSE: STZ), Pool Corp.(NASDAQ: POOL), and more. And in addition to the new UnitedHealth (NYSE: UNH) investment that has been in the headlines, Berkshire also bought a roughly $850 million stake in Nucor(NYSE: NUE), opened positions in homebuilders Lennar(NYSE: LEN) and D.R. Horton(NYSE: DHI), and bought a (relatively) small position in billboard leader Lamar Advertising(NASDAQ: LAMR).\n\nThe bottom line on Berkshire Hathaway\n\nIn a nutshell, Berkshire Hathaway's operating businesses are doing quite well, and although Berkshire hasn't bought back any of its own stock, management is finding more attractive opportunities to put money to work than in the preceding few quarters. With $344 billion in the bank and a new CEO set to take the helm at the end of the year, it will be interesting to watch the massive conglomerate evolve in the post-Buffett era.\n\nShould you invest $1,000 in Berkshire Hathaway right now?\n\nBefore you buy stock in Berkshire Hathaway, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Berkshire Hathaway wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $654,781!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,076,588!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,055% — a market-crushing outperformance compared to 183% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nBank of America is an advertising partner of Motley Fool Money. Matt Frankel has positions in Bank of America and Berkshire Hathaway. The Motley Fool has positions in and recommends Apple, Berkshire Hathaway, Chevron, D.R. Horton, and Lennar. The Motley Fool recommends Constellation Brands and UnitedHealth Group. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T10:41:00+00:00",
+            "title": "Highlights From Berkshire Hathaway Earnings: 3 Key Trends Investors Should Track",
+            "content": "Key Points\n\nBerkshire Hathaway stock is down since the start of the second quarter, but there’s more to the story. Berkshire’s operating businesses are doing quite well, although insurance profitability is inconsistent. Although Berkshire hasn’t bought back any shares, it wasn’t as much of a net seller of stocks as it seems. 10 stocks we like better than Berkshire Hathaway ›\n\nBerkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B) reported its second-quarter earnings a couple of weeks ago, but it just recently gave investors a glimpse of changes in its $300 billion stock portfolio. Now that we have a complete picture of how Berkshire's second quarter went, it's a good time to take a look at some of the key trends to watch.\n\nWarren Buffett announced his intention in May to step down as Berkshire's CEO, and since that time, the stock has declined by more than 10%. Do the numbers say that investors should be concerned, or that the business is running smoothly?Image source: Getty Images.\n\nBerkshire's operating businesses are doing well\n\nAlthough Berkshire's stock portfolio and its massive stockpile of cash get many headlines, the core of Berkshire Hathaway is its operating businesses. With over 60 subsidiaries that include GEICO, Duracell, BNSF Railroad, a massive utility business, and many others, these are the engines that generate the capital for Berkshire to invest in stocks or add to its bank account.\n\nIn the second quarter, Berkshire's operating earnings declined by about 4% year over year, but that doesn't tell the whole story. The decline was mainly due to $877 million in on-paper foreign currency \"losses\" from Berkshire's non-dollar-denominated debt, compared with a gain of $446 million in the second quarter of 2024, as well as a decline in underwriting profits from the insurance businesses. Underwriting profits can be rather inconsistent because of natural disasters and other factors, so if they trend upward over time, there's no need for concern.\n\nIn fact, if we back out the underwriting income and the foreign exchange fluctuations, Berkshire's operating earnings grew by about 10% year over year. There was solid growth in the railroad and energy businesses, as well as the broad manufacturing, service, and retail category that includes dozens of other Berkshire subsidiaries.\n\nStill no buybacks\n\nBerkshire Hathaway's share repurchase plan doesn't have a formal limit as many companies do. In fact, it allows the company to repurchase shares whenever Buffett feels the stock is priced below its intrinsic value.\n\nStory Continues\n\nAfter spending billions of dollars buying back stock in most quarters since the modern version of the buyback authorization has been in place, Berkshire abruptly stopped buying back stock a few quarters ago. There was much speculation that with the steep decline in Berkshire's stock that occurred after Buffett announced his retirement, but that turned out to not be the case. Berkshire spent exactly $0 on buybacks in the second quarter.\n\nThere are a few potential explanations. Maybe Buffett doesn't believe Berkshire is at a substantial discount to intrinsic value. Or maybe Buffett is simply deciding to conserve capital until after he formally steps down as CEO at the end of the year, and plans to leave things like buyback decisions to his successors. But in any case, Berkshire's buybacks, or lack thereof, are worth keeping an eye on.\n\nBuffett wasn't as much of a stock seller as it seems\n\nBerkshire's second-quarter earnings were released nearly two weeks before the company's stock portfolio activity was revealed. And based on the earnings report, it appeared that Berkshire was a net seller of stocks.\n\nTechnically, that was true. But if we exclude sales of some Apple(NASDAQ: AAPL) and Bank of America(NYSE: BAC), which have been ongoing for some time, it turns out that Berkshire was a net buyer. In fact, Berkshire added shares to six existing positions and opened six new ones. Buffett and his team added to Chevron(NYSE: CVX), Constellation Brands (NYSE: STZ), Pool Corp.(NASDAQ: POOL), and more. And in addition to the new UnitedHealth (NYSE: UNH) investment that has been in the headlines, Berkshire also bought a roughly $850 million stake in Nucor(NYSE: NUE), opened positions in homebuilders Lennar(NYSE: LEN) and D.R. Horton(NYSE: DHI), and bought a (relatively) small position in billboard leader Lamar Advertising(NASDAQ: LAMR).\n\nThe bottom line on Berkshire Hathaway\n\nIn a nutshell, Berkshire Hathaway's operating businesses are doing quite well, and although Berkshire hasn't bought back any of its own stock, management is finding more attractive opportunities to put money to work than in the preceding few quarters. With $344 billion in the bank and a new CEO set to take the helm at the end of the year, it will be interesting to watch the massive conglomerate evolve in the post-Buffett era.\n\nShould you buy stock in Berkshire Hathaway right now?\n\nBefore you buy stock in Berkshire Hathaway, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Berkshire Hathaway wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $654,781!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,076,588!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,055% — a market-crushing outperformance compared to 183% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nBank of America is an advertising partner of Motley Fool Money. Matt Frankel has positions in Bank of America and Berkshire Hathaway. The Motley Fool has positions in and recommends Apple, Berkshire Hathaway, Chevron, D.R. Horton, and Lennar. The Motley Fool recommends Constellation Brands and UnitedHealth Group. The Motley Fool has a disclosure policy.\n\nHighlights From Berkshire Hathaway Earnings: 3 Key Trends Investors Should Track was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T15:03:02+00:00",
+            "title": "Trump expands 50% tariff on steel and aluminum to 400 additional product types",
+            "content": "The Department of Commerce announced that President Donald Trump’s 50% tariff on imported steel and aluminum products has been expanded to cover more than 400 additional categories.\n\nThe expanded tariff list, published Friday by U.S. Customs and Border Protection and entered into the Federal Register on Tuesday, took effect Monday.\n\nThe new duties now apply to a wide range of goods, including auto parts, electric vehicle components, railcars, marine engines, construction equipment, wind turbines, cranes, chemicals, plastics, and household items such as refrigerators, freezers, dryers, and furniture components.\n\n“Today’s action expands the reach of the steel and aluminum tariffs and shuts down avenues for circumvention — supporting the continued revitalization of the American steel and aluminum industries,” Jeffrey Kessler, Commerce Department Secretary for Industry and Security, said in a news release.\n\nThe move follows petitions from U.S. steelmakers, including Cleveland-Cliffs and Nucor, urging the administration to broaden import duties to cover more derivative products.\n\nIndustry experts said the expansion marks a significant shift in how steel and aluminum imports are regulated.\n\n“Auto parts, chemicals, plastics, furniture components — basically, if it’s shiny, metallic, or remotely related to steel or aluminum, it’s probably on the list,” Brian Baldwin, vice president of customs at Kuehne + Nagel International AG, wrote on LinkedIn.\n\nIn 2024, the U.S. imported nearly $33 billion worth of steel and aluminum, according to SteelRadar. Canada remains the largest supplier, followed by Brazil and Mexico.\n\nThe Mexican Institute for Competitiveness (IMCO) estimates the tariffs will affect 4.7% of Mexican exports to the U.S.\n\n“Aluminum and steel are vital for the manufacture of products ranging from utensils to airplanes and railroad equipment,” IMCO researcher Isaac Cruz wrote earlier this year. “U.S. manufacturers benefit from competitive prices that would be lost if tariffs were implemented; the same is true for American consumers and families.”\n\nMexico has requested an exemption from the new tariffs.\n\n“We’re discussing the application of tariffs on steel products because they’re stretching the boundaries and adding more things, and that could hurt us,” Marcelo Ebrard, Mexico’s economy secretary, said on Saturday, according to Opportimes. “But, at the end of the day, what do we want to achieve? A position (on tariffs) for Mexico that’s better than any other country.”\n\nThe post Trump expands 50% tariff on steel and aluminum to 400 additional product types appeared first on FreightWaves.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Nucor Corp",
+          "sector": "Basic Materials",
+          "industry": "Steel",
+          "employees": 32700,
+          "description": "Nucor Corporation engages in the manufacture and sale of steel and steel products. The company operates in three segments: Steel Mills, Steel Products, and Raw Materials. The Steel Mills segment produces hot-rolled, cold-rolled, and galvanized sheet steel products; plate steel products; wide-flange "
+        },
+        "financial_metrics": {
+          "eps_ttm": 5.58,
+          "profit_margin": 0.0421,
+          "operating_margin": 0.1087,
+          "roe": 0.073,
+          "roa": 0.0392,
+          "revenue_growth_yoy": 0.047,
+          "earnings_growth_yoy": -0.03,
+          "eps_estimate_current_year": 8.4245,
+          "eps_estimate_next_year": 11.3582,
+          "dividend_yield": 0.0153,
+          "dividend_per_share": 2.19,
+          "revenue_ttm": 30805999616,
+          "revenue_per_share": 131.931,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 26.5108,
+          "forward_pe": 18.8679,
+          "price_to_sales": 1.1022,
+          "price_to_book": 1.6654,
+          "enterprise_value": 38353178674,
+          "ev_to_revenue": 1.245,
+          "ev_to_ebitda": 10.586
+        },
+        "technical_data": {
+          "beta": 1.751,
+          "52_week_high": 168.2381,
+          "52_week_low": 97.1816,
+          "50_day_ma": 137.6092,
+          "200_day_ma": 129.8335,
+          "short_interest": 0.0351,
+          "short_ratio": 3.23
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.2,
+          "forward_dividend_yield": 0.0149,
+          "payout_ratio": 0.3602,
+          "dividend_date": "2025-08-11",
+          "ex_dividend_date": "2025-06-30",
+          "last_split_date": "2006-06-01",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4,
+          "target_price": 154.9869,
+          "strong_buy": 5,
+          "buy": 5,
+          "hold": 5,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 229535008,
+          "percent_institutions": 77.294,
+          "percent_insiders": 3.2649999999999997,
+          "shares_float": 221237741
+        },
+        "balance_latest_sheet": {
+          "total_assets": 34217.0,
+          "total_debt": 6881.0,
+          "cash_and_equivalents": 1946.0,
+          "net_debt": 4935.0,
+          "working_capital": 7573.0,
+          "shareholders_equity": 20389.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.34
+        },
+        "income_latest_statement": {
+          "total_revenue": 8456.0,
+          "gross_profit": 1223.0,
+          "operating_income": 919.0,
+          "net_income": 603.0,
+          "ebitda": 1284.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 14.46,
+          "operating_margin": 10.87,
+          "net_margin": 7.13
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 732.0,
+          "free_cash_flow": -222.0,
+          "capex": 954.0,
+          "net_income": 706.0,
+          "cash_change": -1210.0,
+          "dividends_paid": 129.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": 1.47,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": 0.65,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": 0.65,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": 2.45,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 128,
+            "high": 128.85,
+            "low": 126.7,
+            "close": 128.68,
+            "volume": 3125300
+          },
+          {
+            "date": "2025-01-29",
+            "open": 126.75,
+            "high": 128.78,
+            "low": 125.76,
+            "close": 126.87,
+            "volume": 2738900
+          },
+          {
+            "date": "2025-01-28",
+            "open": 121.97,
+            "high": 127.79,
+            "low": 119.3,
+            "close": 126.55,
+            "volume": 4913300
+          },
+          {
+            "date": "2025-01-27",
+            "open": 122.69,
+            "high": 123.27,
+            "low": 121.16,
+            "close": 121.97,
+            "volume": 3103900
+          },
+          {
+            "date": "2025-01-24",
+            "open": 124,
+            "high": 124.54,
+            "low": 121.36,
+            "close": 122.17,
+            "volume": 2399900
+          },
+          {
+            "date": "2025-01-23",
+            "open": 122.08,
+            "high": 124.39,
+            "low": 121.82,
+            "close": 122.06,
+            "volume": 3000000
+          },
+          {
+            "date": "2025-01-22",
+            "open": 124.74,
+            "high": 125.83,
+            "low": 121.66,
+            "close": 122.09,
+            "volume": 2739800
+          },
+          {
+            "date": "2025-01-21",
+            "open": 126.5,
+            "high": 127.74,
+            "low": 124.11,
+            "close": 125.07,
+            "volume": 2220400
+          },
+          {
+            "date": "2025-01-17",
+            "open": 124.27,
+            "high": 126.14,
+            "low": 123.81,
+            "close": 124.53,
+            "volume": 1858500
+          },
+          {
+            "date": "2025-01-16",
+            "open": 123.9,
+            "high": 124.2,
+            "low": 122.73,
+            "close": 123.36,
+            "volume": 1189100
+          },
+          {
+            "date": "2025-01-15",
+            "open": 124.27,
+            "high": 124.3,
+            "low": 121.93,
+            "close": 123.08,
+            "volume": 2054600
+          },
+          {
+            "date": "2025-01-14",
+            "open": 123.25,
+            "high": 123.58,
+            "low": 120.04,
+            "close": 121.75,
+            "volume": 2501700
+          },
+          {
+            "date": "2025-01-13",
+            "open": 118.36,
+            "high": 123.55,
+            "low": 117.6,
+            "close": 122.88,
+            "volume": 3023300
+          },
+          {
+            "date": "2025-01-10",
+            "open": 116.72,
+            "high": 118.84,
+            "low": 116.24,
+            "close": 118.16,
+            "volume": 2647800
+          },
+          {
+            "date": "2025-01-08",
+            "open": 120.53,
+            "high": 121,
+            "low": 116.93,
+            "close": 118.18,
+            "volume": 2360000
+          },
+          {
+            "date": "2025-01-07",
+            "open": 120.76,
+            "high": 123.45,
+            "low": 120.24,
+            "close": 121.28,
+            "volume": 2223100
+          },
+          {
+            "date": "2025-01-06",
+            "open": 118.25,
+            "high": 121.82,
+            "low": 118.03,
+            "close": 120.62,
+            "volume": 3500000
+          },
+          {
+            "date": "2025-01-03",
+            "open": 114.86,
+            "high": 116.07,
+            "low": 112.25,
+            "close": 115.45,
+            "volume": 2080200
+          },
+          {
+            "date": "2025-01-02",
+            "open": 117.8,
+            "high": 118.68,
+            "low": 114.38,
+            "close": 114.48,
+            "volume": 1383100
+          },
+          {
+            "date": "2024-12-31",
+            "open": 115.97,
+            "high": 117.68,
+            "low": 115.7,
+            "close": 116.71,
+            "volume": 1240000
+          },
+          {
+            "date": "2024-12-30",
+            "open": 116.73,
+            "high": 116.73,
+            "low": 115.18,
+            "close": 115.86,
+            "volume": 1448600
+          },
+          {
+            "date": "2024-12-27",
+            "open": 118.09,
+            "high": 120.31,
+            "low": 116.73,
+            "close": 117.28,
+            "volume": 1330800
+          },
+          {
+            "date": "2024-12-26",
+            "open": 116.72,
+            "high": 119.06,
+            "low": 115.74,
+            "close": 118.64,
+            "volume": 1565300
+          },
+          {
+            "date": "2024-12-24",
+            "open": 116.58,
+            "high": 117.87,
+            "low": 115.71,
+            "close": 117.43,
+            "volume": 886500
+          },
+          {
+            "date": "2024-12-23",
+            "open": 116.5,
+            "high": 116.84,
+            "low": 114.88,
+            "close": 116.61,
+            "volume": 1668600
+          },
+          {
+            "date": "2024-12-20",
+            "open": 114.67,
+            "high": 117.92,
+            "low": 113.94,
+            "close": 116.58,
+            "volume": 10452500
+          },
+          {
+            "date": "2024-12-19",
+            "open": 118.4,
+            "high": 120.12,
+            "low": 115.29,
+            "close": 115.78,
+            "volume": 2869000
+          },
+          {
+            "date": "2024-12-18",
+            "open": 121.49,
+            "high": 123.16,
+            "low": 117.57,
+            "close": 117.96,
+            "volume": 2605800
+          },
+          {
+            "date": "2024-12-17",
+            "open": 121.91,
+            "high": 124.74,
+            "low": 119.44,
+            "close": 120.98,
+            "volume": 3290400
+          },
+          {
+            "date": "2024-12-16",
+            "open": 124,
+            "high": 126.1,
+            "low": 123.01,
+            "close": 124.16,
+            "volume": 3090900
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.440032915038054,
+        "return_63d": 36.353580975205105,
+        "pct_above_sma50": 7.500079936515888,
+        "sma_50": 137.6092,
+        "new_55d_high": "False",
+        "high_55d": 151.32,
+        "rsi": 70.57497181510715,
+        "rsi_in_range": "False",
+        "adx": 28.524878716349175,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.8094368958291054,
+        "bb_width": 9.216506007858833,
+        "keltner_width": 11.710203458680137,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 230220760.59999993,
+        "adv_shares": 1620400.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.746690584619834,
+        "final_score": 45.746690584619834,
+        "sub_scores": {
+          "trend_momentum": 19.062803405132634,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.6838871794872,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 4.595913172594224,
+          "ret_63d": 33.64350889872618,
+          "rsi14": 70.57497181510715,
+          "adx14": 26.92056388621209,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NUE\n• Current Price: $147.93\n• Overall Score: 51.76592320307295\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 137.6092\n• Sma 200: 129.8335\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.595913172594216\n• Momentum 63D: 33.64350889872618\n• Momentum 126D: 9.391407232123063\n• Momentum Acceleration: -29.047595726131966\n• Roc 21D: 4.595913172594216\n• Trend Strength 20D: 0.26115070113212446\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.003579635702452344\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 19.0\n• Squeeze Momentum: 0.17454518564139163\n• Volatility Compression: 43.522226427218065\n• Is Consolidating: False\n• Breakout Score: 76.84212264391824\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.062803405132634\n• Squeeze Breakout: 4.0\n• Options Quality: 16.6838871794872\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 58.0\n• Squeeze: 61.52833396408271\n• Options: 39.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NUE\n• Strike Price: $145\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $9\n• Ask: $9.2\n• Last: $9.1\n• Mid: $9.1\n• Spread: 2.173913043478260869565217391%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5989\n• Gamma: 0.0209\n• Theta: -0.0748\n• Vega: 0.2204\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3238\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 16\n• Open Interest: 666\n• Volume/OI Ratio: 0.024024024024024024\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Nucor Corp\n• Sector: Basic Materials\n• Industry: Steel\n• EPS (TTM): $5.58\n• Profit Margin: 4.2%\n• ROE: 7.3%\n• P/E Ratio: 26.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T23:00:02+00:00: 3 Dividend Aristocrats You’ll Wish You Owned Before the Next Rally...\n• 2025-08-22T12:25:16+00:00: Nucor Stock: Is Wall Street Bullish or Bearish?...\n• 2025-08-21T10:41:00+00:00: Highlights From Berkshire Hathaway Earnings: 3 Key Trends Investors Should Track...\n• 2025-08-21T10:41:00+00:00: Highlights From Berkshire Hathaway Earnings: 3 Key Trends Investors Should Track...\n• 2025-08-20T15:03:02+00:00: Trump expands 50% tariff on steel and aluminum to 400 additional product types...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NUE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NUE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-24T22:48:08.450731",
+    "estimated_tokens": 2328
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NUE\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NUE shows strong technical momentum with price above both SMAs and a perfect MA ribbon score of 100, while experiencing a volatility squeeze with multiple timeframe compression. However, declining momentum acceleration and upcoming earnings create near-term risks.\",\n    \"opportunities\": [\n        \"Strong MA structure with price above both 50 SMA (137.61) and 200 SMA (129.83)\",\n        \"Multi-timeframe squeeze (3 counts) with 19-day duration suggests potential breakout\",\n        \"Options have reasonable liquidity with 2.17% bid-ask spread and 666 open interest\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-29.05) indicates slowing upward momentum\",\n        \"Earnings approaching on 9/30/24 creates event risk\",\n        \"Relatively high P/E ratio of 26.5x with modest profit margins of 4.2%\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS Call spread using $145 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Wait until after earnings report unless taking partial position now\",\n        \"risk_management\": \"Use 50% options premium as stop loss, consider rolling up if stock breaks above $155\"\n    },\n    \"red_flags\": [\n        \"Earnings in 30 days creates significant event risk\",\n        \"Declining momentum acceleration needs monitoring\"\n    ],\n    \"notes\": \"Options Greeks profile (0.59 delta, -0.07 theta) suggests good positioning for directional play, but consider spread strategies to mitigate time decay and IV risk\"\n}",
+    "parsed_analysis": {
+      "symbol": "NUE",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NUE shows strong technical momentum with price above both SMAs and a perfect MA ribbon score of 100, while experiencing a volatility squeeze with multiple timeframe compression. However, declining momentum acceleration and upcoming earnings create near-term risks.",
+      "opportunities": [
+        "Strong MA structure with price above both 50 SMA (137.61) and 200 SMA (129.83)",
+        "Multi-timeframe squeeze (3 counts) with 19-day duration suggests potential breakout",
+        "Options have reasonable liquidity with 2.17% bid-ask spread and 666 open interest"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-29.05) indicates slowing upward momentum",
+        "Earnings approaching on 9/30/24 creates event risk",
+        "Relatively high P/E ratio of 26.5x with modest profit margins of 4.2%"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS Call spread using $145 strike as lower leg to reduce cost basis",
+        "entry_timing": "Wait until after earnings report unless taking partial position now",
+        "risk_management": "Use 50% options premium as stop loss, consider rolling up if stock breaks above $155"
+      },
+      "red_flags": [
+        "Earnings in 30 days creates significant event risk",
+        "Declining momentum acceleration needs monitoring"
+      ],
+      "notes": "Options Greeks profile (0.59 delta, -0.07 theta) suggests good positioning for directional play, but consider spread strategies to mitigate time decay and IV risk"
+    },
+    "tokens_used": 2574,
+    "cost": 0.02574,
+    "response_time": 10.245828628540039,
+    "success": true
+  },
+  "cost": 0.02574,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8514,
+    "response_length": 1784
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "timestamp": "2025-08-22T06:38:25.178701",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAPL",
+      "package_timestamp": "2025-08-22T06:38:13.485225",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAPL",
+        "current_price": 224.9,
+        "overall_score": 42.644136180693096,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 211.6606,
+        "sma_200": 220.9975
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.019845902404856,
+        "roc_21d": 5.019845902404856,
+        "trend_strength_20d": 0.5901781499602101,
+        "trend_direction": 0,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.006841960903493561
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "volatility_compression": 31.5994111513082,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 9.174605027628607,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.892816326530582,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 5.0,
+        "technical": 55.0,
+        "momentum": 58.0,
+        "squeeze": 9.73991167269623,
+        "options": 47.0,
+        "quality": 30.46153846153846
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "AAPL",
+        "strike_price": "220",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.2",
+        "ask": "12.3",
+        "last_price": "12.3",
+        "mid_price": "12.25",
+        "spread_percent": "0.8130081300813008130081300813"
+      },
+      "greeks": {
+        "delta": 0.628,
+        "gamma": 0.0168,
+        "theta": -0.0892,
+        "vega": 0.3361
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2533
+      },
+      "liquidity_metrics": {
+        "volume": 383,
+        "open_interest": 14355,
+        "volume_oi_ratio": 0.026680599094392198
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-22T06:38:13.256791",
+        "market_status": "pre_market",
+        "market_trend": "unknown",
+        "volatility_index": {
+          "level": 16.6,
+          "change": 0.91,
+          "change_percent": 5.7999,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T06:30:00+00:00",
+            "title": "Delårsrapport for perioden 1. januar – 30. juni 2025",
+            "content": "Silkeborg, den 22. august 2025\n\nFondsbørsmeddelelse nr. 6 / 2025\n\nVedr.:            Delårsrapport for perioden 1. januar – 30. juni 2025\n\nBestyrelsen for Papirfabrikken Invest A/S har i dag behandlet og godkendt delårsrapport for perioden 1. januar – 30. juni 2025.\n\nDelårsrapporten er vedhæftet.\n\nVedhæftede filer\n\nPapirfabrikken-2025-06-30-daPapirfabrikken-2025-06-30-da",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:15:00+00:00",
+            "title": "Bekaert - Update on the Share Buyback Program and Liquidity Agreement",
+            "content": "Update on the Share Buyback Program and the Liquidity Agreement\n\nPeriod from 14 August 2025 to 20 August 2025\n\nShare Buyback Program\r\nOn 31 July 2025, Bekaert announced the start of the next tranche of its share buyback program, for a total maximum consideration of up to € 25 million. As announced previously, the purpose of the Program is to cancel all shares repurchased.\n\nBekaert announces today that during the period from 14 August 2025 to 20 August 2025, Kepler Cheuvreux SA on behalf of Bekaert has bought 38 266 shares.\n\nThe table below provides an overview of the transactions under the Program during the period from 14 August 2025 to 20 August 2025:\n\nRepurchase of sharesDateMarketNumber of SharesAverage Price paid (€)Highest Price \r\npaid (€)Lowest Price \r\npaid (€)Total \r\nAmount (€)14 August 2025Euronext Brussels7 36537.7137.9037.50277 734 MTF CBOE    — MTF Turquoise    — MTF Aquis    —15 August 2025Euronext Brussels8 00037.7137.8537.60301 680 MTF CBOE    — MTF Turquoise    — MTF Aquis    —18 August 2025Euronext Brussels6 90137.4837.5537.30258 649 MTF CBOE    — MTF Turquoise    — MTF Aquis    —19 August 2025Euronext Brussels8 00038.0938.6037.60304 720 MTF CBOE    — MTF Turquoise    — MTF Aquis    —20 August 2025Euronext Brussels8 00038.9339.1038.75311 440 MTF CBOE————— MTF Turquoise————— MTF Aquis—————Total 38 26638.0039.1037.051 454 223\n\nLiquidity agreement\r\nIn relation to the renewed liquidity agreement with Kepler Cheuvreux announced on 25 June 2024, Bekaert announces today that Kepler Cheuvreux on behalf of Bekaert has bought 2 576 shares during the period from 14 August 2025 to 20 August 2025 on Euronext Brussels. During the same period, Kepler Cheuvreux on behalf of Bekaert has sold 2 800 shares on Euronext Brussels.\n\nThe tables below provide an overview of the transactions under the liquidity agreement during the period from 14 August 2025 to 20 August 2025:\n\nPurchase of sharesDateNumber of SharesAverage Price (€)Highest Price (€)Lowest Price (€)Total Amount (€)14 August 20251 25837.7238.0537.3047 45215 August 202550037.6037.6037.6018 80018 August 202558537.4437.5037.3021 90219 August 202500.000.000.00020 August 202523338.7738.8038.609 033Total2 576   97 188\n\nSale of sharesDateNumber of SharesAverage Price (€)Highest Price (€)Lowest Price (€)Total Amount (€)14 August 202500.000.000.00015 August 202520037.8037.8037.807 56018 August 202500.000.000.00019 August 20252 40038.3538.8037.8092 04020 August 202520039.0039.0039.007 800Total2 800   107 400\n\nThe balance held by Bekaert under the liquidity agreement at the end of the period is 33 355 shares.\n\nOn 20 August 2025 after closing of the market, Bekaert holds 2 449 477 own shares, or 4.65% of the total number of the outstanding shares.\n\nThis information is also made available on the investor relations pages of our website.\n\nAttachment\n\np250822E - Bekaert - Update on the Share Buyback Program and the Liquidity Agreement",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "Financière de Tubize - Bijeenroeping van de buitengewone vergadering van aandeelhouders van 24 september 2025",
+            "content": "Bijeenroeping van de Buitengewone Vergadering van aandeelhouders van 24 september 2025\n\nDe aandeelhouders worden uitgenodigd om deel te nemen aan de buitengewone vergadering die zal gehouden worden op 24 september 2025, om 10 uur te 1050 Brussel, Marsveldplein 5, om de hieronder vermelde agenda te bespreken.\n\nDe algemene vergadering zal op hybride wijze worden georganiseerd, zowel persoonlijk als digitaal, in overeenstemming met artikel 7:137, §1 van het Wetboek van vennootschappen en verenigingen via het Microsoft Teams platform. De inloglink wordt per e-mail verstuurd naar aandeelhouders die op afstand willen deelnemen en die de hieronder beschreven toelatingsformaliteiten hebben vervuld.\n\nAgenda van de gewone algemene vergadering van 24 september 2025\n\nZoals besproken op de jaarlijkse algemene vergadering van afgelopen april, wil de raad van bestuur zijn expertise op het gebied van biofarma versterken om UCB zo goed mogelijk te ondersteunen en bij te dragen aan de ontwikkeling van een duurzaam biofarma-ecosysteem in België, in het Verenigd Koninkrijk en andere geografische gebieden die relevant zijn voor UCB.\n\nMet dit in het achterhoofd en om profielen van hoge kwaliteit aan te trekken, leek het noodzakelijk om een vergoeding aan te bieden die beter aansluit bij de praktijken die van kracht zijn binnen de biofarma-sector. Het bezoldigingsbeleid dat ter stemming werd voorgelegd aan de algemene vergadering werd opgesteld op basis van een vergelijkende studie uitgevoerd door een gespecialiseerd adviesbureau.\n\nWe stellen ook voor om de benoeming van twee nieuwe bestuurders goed te keuren wiens vaardigheden de biofarma-expertise van de raad aanzienlijk zullen versterken.\n\n1.      Wijzigingen aan het remuneratiebeleid.\n\nVoorstel tot besluit: goedkeuring van de wijzigingen aan het remuneratiebeleid opgesteld in overeenstemming met artikel 7:89/1 van het Wetboek van vennootschappen en verenigingen. De herziene versie, die ter goedkeuring wordt voorgelegd aan de Buitengewone Algemene Vergadering, is beschikbaar op de website van de vennootschap [www.financiere-tubize.be].\n\n2.      Raad van bestuur – Benoemingen.\n\na)   Voorstel tot besluit: met onmiddellijke ingang, de bevestiging van de coöptatie van mevrouw Carinne Brouillon als Bestuurder, die plaatsvond bij besluit van de raad van bestuur op 6 juni 2025, goed te keuren, waarbij haar mandaat zal eindigen na afloop van de jaarlijkse algemene vergadering in 2029.\n\nb)   Voorstel tot besluit: bevestigen dat mevrouw Carinne Brouillon, benoemd is als onafhankelijk bestuurder, aangezien ze beantwoordt aan de voorwaarden van onafhankelijkheid van artikel 7:87 van het Wetboek van vennootschappen en verenigingen en de Corporate Governance Code 2020.De raad van bestuur bevestigt geen indicatie te hebben van enig element dat de onafhankelijkheid van mevrouw Carinne Brouillon in twijfel zou kunnen trekken.\n\nc)   Voorstel tot besluit: met onmiddellijke ingang, de bevestiging van de coöptatie van mevrouw Iris Löw-Friedrich als Bestuurder, die plaatsvond bij besluit van de raad van bestuur op 6 juni 2025, goed te keuren, waarbij haar mandaat zal eindigen na afloop van de jaarlijkse algemene vergadering in 2029.\n\nFormaliteiten om toegelaten te worden tot de algemene vergadering\n\nHet recht om deel te nemen aan of vertegenwoordigd te zijn op de algemene vergadering en om er het stemrecht uit te oefenen, kan slechts verleend worden op grond van de boekhoudkundige registratie van de aandelen op naam van de aandeelhouder, op de veertiende dag voor de algemene vergadering om vierentwintig uur (Belgische tijd) (hetzij woensdag 10 september 2025, de “Registratiedatum”), hetzij door hun inschrijving in het register van de aandelen op naam van de Vennootschap, hetzij door hun inschrijving op rekening bij een erkende rekeninghouder of bij een vereffeningsinstelling, ongeacht het aantal aandelen dat de aandeelhouder bezit op de dag van de algemene vergadering.\n\nDe aandeelhouder moet bovendien melden dat hij/zij wil deelnemen aan de algemene vergadering. De houders van aandelen op naam sturen daartoe het bij de oproepingsbrief gevoegde kennisgevingsformulier ondertekend naar de Vennootschap. De houders van gedematerialiseerde aandelen sturen het attest naar de Vennootschap dat is opgesteld door een erkende rekeninghouder of vereffeningsinstelling en waaruit blijkt met hoeveel aandelen, die op de Registratiedatum op hun naam op rekening ingeschreven zijn, zij hebben aangegeven te willen deelnemen aan de algemene vergadering. Het kennisgevingsformulier of attest moet uiterlijk op de zesde dag voor de datum van de vergadering (hetzij donderdag 18 september 2025) bij de Vennootschap toekomen via e-mail op het adres investorrelations@financiere-tubize.be.\n\nStemmen bij volmacht\n\nDe aandeelhouders kunnen, overeenkomstig de bepalingen van de artikelen 7:142 tot 7:145 van het Wetboek van vennootschappen en verenigingen, zich laten vertegenwoordigen door een mandataris.\n\nDe volmachten moeten schriftelijk worden opgesteld op basis van de door de raad van bestuur opgemaakte formulieren, en moeten ondertekend worden door de aandeelhouder. De houders van aandelen op naam vinden het formulier bij hun oproeping. Voor de houders van gedematerialiseerde aandelen is het formulier beschikbaar op de website van de Vennootschap www.financiere-tubize.be. Het formulier moet bij de Vennootschap toekomen, uiterlijk op de zesde dag voor de datum van de vergadering (hetzij donderdag 18 september 2025), via e-mail op het adres investorrelations@financiere-tubize.be.\n\nDigitale deelname en stemmen\n\nAandeelhouders kunnen op afstand deelnemen aan de algemene vergadering, via het Microsoft Teams platform. Aandeelhouders die van deze manier van deelname gebruik willen maken, worden verzocht dit expliciet te vermelden in hun bericht van deelname.\n\nAandeelhouders kunnen ook digitaal stemmen. In dat geval hoeft geen volmacht te worden gegeven.\n\nIn overeenstemming met artikel 7:137 van het Wetboek van vennootschappen en verenigingen stelt het Microsoft Teams platform aandeelhouders in staat om:\n\n(i)   het verloop van de vergadering rechtstreeks, gelijktijdig en zonder onderbreking te volgen;\n\n(ii)   tijdens de vergadering te stemmen over alle agendapunten zonder een gevolmachtigde te hoeven aanwijzen;\n\n(iii)   deel te nemen aan discussies en hun recht uit te oefenen om vragen te stellen.\n\nAandeelhouders die langs elektronische weg deelnemen aan de algemene vergadering worden geacht aanwezig te zijn voor de berekening van de meerderheid. Het Microsoft Teams platform stelt de Vennootschap ook in staat om de identiteit en status van deelnemers te verifiëren.\n\nAandeelhouders die hebben voldaan aan de formaliteiten om te worden toegelaten, ontvangen tijdig elektronisch instructies over hoe ze verbinding kunnen maken met de vergadering.\n\nInschrijving van bijkomende onderwerpen op de agenda en indienen van nieuwevoorstellen tot besluit\n\nEén of meer aandeelhouders die samen minstens 3% van het maatschappelijk kapitaal bezitten, kunnen onderwerpen op de agenda van de vergadering laten plaatsen en voorstellen tot besluit indienen met betrekking tot in de agenda opgenomen of daarin op te nemen te behandelen onderwerpen.\n\nDe verzoeken worden schriftelijk geformuleerd en gaan, naargelang het geval, vergezeld van de tekst van de te behandelen onderwerpen en bijbehorende voorstellen tot besluit, of van de tekst van de op de agenda te plaatsen voorstellen tot besluit. Er wordt een postadres of e-mailadres in vermeld waarnaar de Vennootschap een bericht van ontvangst van deze verzoeken kan sturen. De Vennootschap moet deze verzoeken uiterlijk op de tweeëntwintigste dag voor de datum van de algemene vergadering ontvangen (hetzij dinsdag 2 september 2025), via e-mail op het adres investorrelations@financiere-tubize.be.\n\nAandeelhouders die van dit recht wensen gebruik te maken, moeten samen met hun verzoek het bewijs leveren dat zij in het bezit zijn van ten minste 3% van het maatschappelijk kapitaal, hetzij op grond van een certificaat waaruit de inschrijving blijkt van de desbetreffende aandelen in het register van de aandelen op naam van de Vennootschap, hetzij aan de hand van een door een erkende rekeninghouder of vereffeningsinstelling opgesteld attest waaruit blijkt dat het desbetreffende aantal gedematerialiseerde aandelen op hun naam op rekening is ingeschreven. Zij moeten tevens overgaan tot de boekhoudkundige registratie van ten minste 3% van het maatschappelijk kapitaal.\n\nIn het geval dat aandeelhouders gebruik maken van dit recht, zal de Vennootschap uiterlijk op de vijftiende dag voor de datum van de algemene vergadering (hetzij dinsdag 9 september 2025), volgens dezelfde modaliteiten als de oorspronkelijke agenda, een agenda bekend maken die aangevuld is met de bijkomende te behandelen onderwerpen en de bijbehorende voorstellen tot besluit, en/of louter met de voorstellen tot besluit. Tegelijkertijd stelt de Vennootschap, op haar website, de gewijzigde formulieren voor het stemmen bij volmacht ter beschikking van haar aandeelhouders.\n\nRecht om vragen te stellen aan de bestuurders\n\nZodra de oproeping gepubliceerd is, kunnen de aandeelhouders die voldoen aan de formaliteiten om toegelaten te worden tot de vergadering, schriftelijk vragen stellen over de verslagen van de bestuurders en van de commissaris en over de agendapunten, waarop tijdens de algemene vergadering zal geantwoord worden door, naargelang het geval, de bestuurders of de commissaris, althans voor zover de mededeling van gegevens of feiten niet van die aard is dat zij nadelig zou zijn voor de zakelijke belangen van de Vennootschap of voor de vertrouwelijkheid waartoe de Vennootschap, haar bestuurders zich hebben verbonden. Die vragen kunnen worden verstuurd naar de maatschappelijke zetel van de Vennootschap of via e-mail op het adres investorrelations@financiere-tubize.be en moeten toekomen bij de Vennootschap uiterlijk op de zesde dag voor de datum van de vergadering (hetzij donderdag 18 september 2025).\n\nInformatie op de website\n\nOp de website van de Vennootschap, www.financiere-tubize.be, kan volgende informatie geraadpleegd worden:\n\nDe huidige bijeenroepingDe volmachtformulierenHet totale aantal aandelen en stemrechten op datum van de bijeenroepingAan de gewone algemene vergadering voor te leggen stukken:\n\nOntwerp van remuneratiebeleid,Profiel van de voorgestelde nieuwe bestuurders.\n\nDe houders van aandelen op naam ontvangen een kopie van deze documenten. De overige aandeelhouders kunnen gratis een kopie van deze documenten verkrijgen door deze aan te vragen via e-mail op het adres investorrelations@financiere-tubize.be.\n\nDe raad van bestuur",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "Middlefield Canadian Income PCC - Update on Proposed Rollover into UCITS ETF",
+            "content": "Middlefield Canadian Income PCC (the “Company”)\r\nIncluding Middlefield Canadian Income – GBP PC (the “Fund”), a cell of the Company\r\nRegistered No:  93546 Legal Entity Identifier: 2138007ENW3JEJXC8658\n\n22 August 2025\n\nUpdate on Proposed Rollover into UCITS ETF\n\nOn 2 May 2025, Middlefield Canadian Income PCC (the “Company”) and Middlefield Canadian Income – GBP PC (the “Fund”) announced their intention to propose a voluntary winding up of the Company and the Fund, together with the option for shareholders of the Fund (“Shareholders”) to receive shares in a newly established, actively managed, listed and London Stock Exchange traded fund in the form of an authorised UCITS (Undertakings for Collective Investment in Transferable Securities) (the “ETF”) in exchange for their shareholding in the Fund (the “Transaction”).\n\nThe ETF will be managed by Middlefield Limited, the Company’s investment manager (“Middlefield”), and will offer Shareholders continued exposure to the Company’s existing investment objective and policy. Shareholders who do not wish to continue their exposure via the ETF (whether with respect to their entire shareholding, or part thereof) will be able to participate in an uncapped cash exit at close to the Company’s net asset value per share or elect to receive a combination of both shares in the ETF and cash.\n\nAs previously announced, Middlefield has appointed HANetf, a leading white-label provider of exchange traded products, to advise on the structuring and establishment of the ETF. In addition to managing the initial set-up, HANetf will provide ongoing operational, administrative and marketing support to Middlefield in its role as manager of the ETF. The ETF will be domiciled in Ireland.\n\nBy way of update, the Company and Fund are pleased to report that, following the conclusion of a customary ten-week application process, HANetf has secured the approval of the Central Bank of Ireland (“Central Bank”) for the establishment of the ETF. Following Central Bank approval, HANetf submitted an application to the Financial Conduct Authority (the “FCA”) for the ETF’s formal recognition by the FCA under the Overseas Fund Regime (“Listing Approval”). It is expected that admission to trading of the ETF’s shares on Euronext Dublin, Ireland’s main stock exchange, and the London Stock Exchange plc will occur in Q4 2025.\n\nOnce Listing Approval has been granted, the Fund intends to publish a circular to Shareholders giving details of the Transaction and convening a separate class meeting and general meeting of Shareholders at which resolutions will be put forward for approval of the Transaction (the “Circular”). The Circular is expected to be published in September 2025.\n\nIn anticipation of the Transaction being implemented, and in order to minimise costs, the Fund has not taken out new borrowings as existing loans under its credit facility with Royal Bank of Canada have fallen due. These loans have now been fully repaid, leaving the Fund ungeared. The Fund intends to remain fully invested going forward.\n\nClearance has been received from HM Revenue & Customs under Section 138 of the Taxation of Chargeable Gains Act 1992 to the effect that the exchange of shares in the Fund for shares in the ETF should constitute a scheme of reconstruction for the purposes of UK taxation of chargeable gains. Accordingly, Shareholders who are subject to UK capital gains tax or corporation tax on chargeable gains should, in general, be able to roll over their investment into the ETF without triggering an immediate liability to UK capital gains tax or corporation tax on chargeable gains.\n\nFor further information, please contact:\n\nMiddlefield Canadian Income – GBP PC via Investec Bank plc\r\nMichael Phair (Chairman)\n\nInvestec Bank plc\r\nCorporate Broker\r\nHelen Goldsmith/Denis Flanagan\r\nTel: 020 7597 4000\n\nJTC Fund Solutions (Jersey) Limited\r\nSecretary\r\nMatt Tostevin/Hilary Jones/Jade Livesey\r\nTel: 01534 700 000\n\nBurson Buchanan\r\nPR Advisers\r\nCharles Ryland/Henry Wilson\r\nTel: 020 7466 5000",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "NBPE - Transaction in Own Shares",
+            "content": "NB Private Equity Partners Announces Transaction in Own Shares\n\nSt Peter Port, Guernsey 22 August 2025\n\nNB Private Equity Partners (“NBPE” or the “Company”) today announces details of Class A Shares bought back pursuant to general authority granted by shareholders of the Company on 12 June 2025 and the share buy-back agreement with Jefferies International Limited.\n\nTransaction on London Stock Exchange\n\nDate of purchase of Shares 21 August 2025Number of Shares purchased 3,000 Class A SharesHighest price/lowest price paid £14.20 / £14.14ISIN for the SharesGG00B1ZBD492\n\nAll Class A Shares bought back will be cancelled. Following the cancellation, the number of outstanding Class A Shares is 45,416,760‬. The Company also has 3,150,408 Class A shares held in treasury. For reporting purposes under the FCA's Disclosure Guidance and Transparency Rules the market should use the figure of 45,416,760 voting rights when determining if they are required to notify their interest in, or a change to their interest in the Company.\n\nFor further information, please contact:\n\nNBPE Investor Relations +44 20 3214 9002\r\nLuke Mason NBPrivateMarketsIR@nb.com\n\nKaso Legg Communications +44 (0)20 3882 6644\n\nCharles Gorman        nbpe@kl-communications.com\r\nLuke Dampier\r\nCharlotte Francis\n\nAbout NB Private Equity Partners Limited\r\nNBPE invests in direct private equity investments alongside market leading private equity firms globally. NB Alternatives Advisers LLC (the “Investment Manager”), an indirect wholly owned subsidiary of Neuberger Berman Group LLC, is responsible for sourcing, execution and management of NBPE. The vast majority of direct investments are made with no management fee / no carried interest payable to third-party GPs, offering greater fee efficiency than other listed private equity companies. NBPE seeks capital appreciation through growth in net asset value over time while paying a bi-annual dividend.\n\nLEI number: 213800UJH93NH8IOFQ77\n\nAbout Neuberger Berman\n\nNeuberger Berman is an employee-owned, private, independent investment manager founded in 1939 with over 2,800 employees in 26 countries. The firm manages $538 billion of equities, fixed income, private equity, real estate and hedge fund portfolios for global institutions, advisors and individuals. Neuberger's investment philosophy is founded on active management, fundamental research and engaged ownership. The firm has been named by Pensions & Investments as the #1 or #2 Best Place to Work in Money Management for each of the last eleven years (firms with more than 1,000 employees). Visit www.nb.com for more information, including www.nb.com/disclosure-global-communications for information on awards. Data as of June 30, 2025.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Apple Inc",
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "employees": 150000,
+          "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai"
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.6,
+          "profit_margin": 0.243,
+          "operating_margin": 0.2999,
+          "roe": 1.4981,
+          "roa": 0.2455,
+          "revenue_growth_yoy": 0.096,
+          "earnings_growth_yoy": 0.121,
+          "eps_estimate_current_year": 7.3832,
+          "eps_estimate_next_year": 7.9458,
+          "dividend_yield": 0.0045,
+          "dividend_per_share": 1.01,
+          "revenue_ttm": 408624988160,
+          "revenue_per_share": 27.173,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 34.0758,
+          "forward_pe": 28.3286,
+          "price_to_sales": 8.1679,
+          "price_to_book": 50.9506,
+          "enterprise_value": 3400402543900,
+          "ev_to_revenue": 8.3216,
+          "ev_to_ebitda": 23.9979
+        },
+        "technical_data": {
+          "beta": 1.165,
+          "52_week_high": 259.18,
+          "52_week_low": 168.7968,
+          "50_day_ma": 211.6606,
+          "200_day_ma": 220.9975,
+          "short_interest": 0.0071,
+          "short_ratio": 2.05
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.04,
+          "forward_dividend_yield": 0.0046,
+          "payout_ratio": 0.1548,
+          "dividend_date": "2025-08-14",
+          "ex_dividend_date": "2025-08-11",
+          "last_split_date": "2020-08-31",
+          "last_split_factor": "4:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.913,
+          "target_price": 228.7593,
+          "strong_buy": 20,
+          "buy": 7,
+          "hold": 16,
+          "sell": 1,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 14840399872,
+          "percent_institutions": 63.658,
+          "percent_insiders": 1.97,
+          "shares_float": 14814270914
+        },
+        "balance_latest_sheet": {
+          "total_assets": 331495.0,
+          "total_debt": 101698.0,
+          "cash_and_equivalents": 9583.0,
+          "net_debt": 71233.0,
+          "working_capital": -18629.0,
+          "shareholders_equity": 65830.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.54
+        },
+        "income_latest_statement": {
+          "total_revenue": 94036.0,
+          "gross_profit": 43718.0,
+          "operating_income": 28202.0,
+          "net_income": 23434.0,
+          "ebitda": 31032.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 46.49,
+          "operating_margin": 29.99,
+          "net_margin": 24.92
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27867.0,
+          "free_cash_flow": 24405.0,
+          "capex": 3462.0,
+          "net_income": 23434.0,
+          "cash_change": 8107.0,
+          "dividends_paid": 3945.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "current_market_data": {
+        "change": -1.11,
+        "change_percent": -0.4911,
+        "volume": 30389868
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": 0.95,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": 2.34,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": 1.62,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": 1.41,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-08-21",
+            "open": 226.28,
+            "high": 226.52,
+            "low": 223.7804,
+            "close": 224.9,
+            "volume": 30389868
+          },
+          {
+            "date": "2025-08-20",
+            "open": 229.98,
+            "high": 230.47,
+            "low": 225.77,
+            "close": 226.01,
+            "volume": 42263900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 231.28,
+            "high": 232.87,
+            "low": 229.35,
+            "close": 230.56,
+            "volume": 39402600
+          },
+          {
+            "date": "2025-08-18",
+            "open": 231.7,
+            "high": 233.12,
+            "low": 230.11,
+            "close": 230.89,
+            "volume": 37476200
+          },
+          {
+            "date": "2025-08-15",
+            "open": 234,
+            "high": 234.28,
+            "low": 229.34,
+            "close": 231.59,
+            "volume": 56038700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 234.06,
+            "high": 235.12,
+            "low": 230.85,
+            "close": 232.78,
+            "volume": 51916300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 231.07,
+            "high": 235,
+            "low": 230.43,
+            "close": 233.33,
+            "volume": 69878500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 228.01,
+            "high": 230.8,
+            "low": 227.07,
+            "close": 229.65,
+            "volume": 55626200
+          },
+          {
+            "date": "2025-08-11",
+            "open": 227.92,
+            "high": 229.56,
+            "low": 224.76,
+            "close": 227.18,
+            "volume": 61806100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 220.83,
+            "high": 231,
+            "low": 219.25,
+            "close": 229.35,
+            "volume": 113854000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 218.88,
+            "high": 220.85,
+            "low": 216.58,
+            "close": 220.03,
+            "volume": 90224800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 205.63,
+            "high": 215.38,
+            "low": 205.59,
+            "close": 213.25,
+            "volume": 108483100
+          },
+          {
+            "date": "2025-08-05",
+            "open": 203.4,
+            "high": 205.34,
+            "low": 202.16,
+            "close": 202.92,
+            "volume": 44155100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 204.51,
+            "high": 207.88,
+            "low": 201.68,
+            "close": 203.35,
+            "volume": 75109300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 210.87,
+            "high": 213.58,
+            "low": 201.5,
+            "close": 202.38,
+            "volume": 104434500
+          },
+          {
+            "date": "2025-07-31",
+            "open": 208.49,
+            "high": 209.84,
+            "low": 207.16,
+            "close": 207.57,
+            "volume": 80698400
+          },
+          {
+            "date": "2025-07-30",
+            "open": 211.9,
+            "high": 212.39,
+            "low": 207.72,
+            "close": 209.05,
+            "volume": 45512500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 214.18,
+            "high": 214.81,
+            "low": 210.82,
+            "close": 211.27,
+            "volume": 51411700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 214.03,
+            "high": 214.85,
+            "low": 213.06,
+            "close": 214.05,
+            "volume": 37858000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 214.7,
+            "high": 215.24,
+            "low": 213.4,
+            "close": 213.88,
+            "volume": 40268800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 213.9,
+            "high": 215.69,
+            "low": 213.53,
+            "close": 213.76,
+            "volume": 46022600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 215,
+            "high": 215.15,
+            "low": 212.41,
+            "close": 214.15,
+            "volume": 46989300
+          }
+        ],
+        "data_points": 22,
+        "date_range": {
+          "start": "2025-08-21",
+          "end": "2025-07-23"
+        }
+      },
+      "risk_metrics": {
+        "sharpe_ratio": 0.039,
+        "sortino_ratio": 0.052,
+        "max_drawdown": -0.334,
+        "volatility_annual": 0.321,
+        "downside_deviation": 0.238,
+        "beta": 1.0,
+        "calculation_period": "2024-08-22 to 2025-08-22",
+        "data_points": 249
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.21145209580839,
+        "rsi": 75.25796321220278,
+        "rsi_in_range": "False",
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.343032458870611,
+        "bb_width": 20.223819023097793,
+        "keltner_width": 9.585759721865477,
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 13586311199.2658,
+        "adv_shares": 61840428.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 5,
+        "news_activity": "low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.06742135415919,
+        "final_score": 44.06742135415919,
+        "sub_scores": {
+          "trend_momentum": 9.174605027628607,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.892816326530582,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 5.0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 5.019845902404851,
+          "ret_63d": 0,
+          "rsi14": 75.25796321220278,
+          "adx14": 0,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAPL\n• Current Price: $224.9\n• Overall Score: 42.644136180693096\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 211.6606\n• Sma 200: 220.9975\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.019845902404856\n• Roc 21D: 5.019845902404856\n• Trend Strength 20D: 0.5901781499602101\n• Trend Direction: 0\n• Breakout Strength: 0.0\n• Price Velocity: -0.006841960903493561\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Volatility Compression: 31.5994111513082\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 9.174605027628607\n• Squeeze Breakout: 4.0\n• Options Quality: 19.892816326530582\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 5.0\n• Technical: 55.0\n• Momentum: 58.0\n• Squeeze: 9.73991167269623\n• Options: 47.0\n• Quality: 30.46153846153846\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: AAPL\n• Strike Price: $220\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.2\n• Ask: $12.3\n• Last: $12.3\n• Mid: $12.25\n• Spread: 0.8130081300813008130081300813%\n\n**GREEKS ANALYSIS**\n• Delta: 0.628\n• Gamma: 0.0168\n• Theta: -0.0892\n• Vega: 0.3361\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2533\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 383\n• Open Interest: 14355\n• Volume/OI Ratio: 0.026680599094392198\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**LIVE MARKET DATA**\n• Current Price: $N/A\n• Change: $-1.11 (-0.4911%)\n• Volume: 30389868\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Apple Inc\n• Sector: Technology\n• Industry: Consumer Electronics\n• EPS (TTM): $6.6\n• Profit Margin: 24.3%\n• ROE: 149.8%\n• P/E Ratio: 34.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T06:30:00+00:00: Delårsrapport for perioden 1. januar – 30. juni 2025...\n• 2025-08-22T06:15:00+00:00: Bekaert - Update on the Share Buyback Program and Liquidity Agreement...\n• 2025-08-22T06:00:00+00:00: Financière de Tubize - Bijeenroeping van de buitengewone vergadering van aandeel...\n• 2025-08-22T06:00:00+00:00: Middlefield Canadian Income PCC - Update on Proposed Rollover into UCITS ETF...\n• 2025-08-22T06:00:00+00:00: NBPE - Transaction in Own Shares...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-22T06:38:25.178668",
+    "estimated_tokens": 2299
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAPL\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 17,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 7,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AAPL shows moderate upward momentum trading above its 50-day SMA with strong fundamentals, but faces valuation concerns with a 34.1 P/E ratio. The options contract offers good liquidity with tight spreads, though implied volatility suggests limited premium opportunity.\",\n    \"opportunities\": [\n        \"Strong financial metrics with 24.3% profit margin and 149.8% ROE\",\n        \"Tight option spreads (0.81%) with healthy OI of 14,355\",\n        \"Trading above 50-day SMA (211.66) showing positive technical structure\"\n    ],\n    \"risks\": [\n        \"Elevated P/E ratio of 34.1x suggests rich valuation\",\n        \"Momentum indicators showing deceleration (Price Velocity -0.006)\",\n        \"Upcoming earnings in September creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS Call spread to reduce premium exposure given high valuation\",\n        \"entry_timing\": \"Current entry suboptimal due to decelerating momentum and pre-earnings period\",\n        \"risk_management\": \"Use 50-day SMA at 211.66 as key technical stop level\"\n    },\n    \"red_flags\": [\n        \"Earnings event within 40 days\",\n        \"Negative price velocity despite overall uptrend\"\n    ],\n    \"notes\": \"Options Greeks profile (0.628 delta, -0.0892 theta) suggests good directional exposure with manageable time decay for LEAPS position\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAPL",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 17,
+        "iv_value": 8,
+        "squeeze_volatility": 6,
+        "fundamentals": 7,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "AAPL shows moderate upward momentum trading above its 50-day SMA with strong fundamentals, but faces valuation concerns with a 34.1 P/E ratio. The options contract offers good liquidity with tight spreads, though implied volatility suggests limited premium opportunity.",
+      "opportunities": [
+        "Strong financial metrics with 24.3% profit margin and 149.8% ROE",
+        "Tight option spreads (0.81%) with healthy OI of 14,355",
+        "Trading above 50-day SMA (211.66) showing positive technical structure"
+      ],
+      "risks": [
+        "Elevated P/E ratio of 34.1x suggests rich valuation",
+        "Momentum indicators showing deceleration (Price Velocity -0.006)",
+        "Upcoming earnings in September creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS Call spread to reduce premium exposure given high valuation",
+        "entry_timing": "Current entry suboptimal due to decelerating momentum and pre-earnings period",
+        "risk_management": "Use 50-day SMA at 211.66 as key technical stop level"
+      },
+      "red_flags": [
+        "Earnings event within 40 days",
+        "Negative price velocity despite overall uptrend"
+      ],
+      "notes": "Options Greeks profile (0.628 delta, -0.0892 theta) suggests good directional exposure with manageable time decay for LEAPS position"
+    },
+    "tokens_used": 2506,
+    "cost": 0.02506,
+    "response_time": 11.692514896392822,
+    "success": true
+  },
+  "cost": 0.02506,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8396,
+    "response_length": 1629
+  }
+}

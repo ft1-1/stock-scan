@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "GE",
+  "timestamp": "2025-08-25T22:27:13.179207",
+  "data_package": {
+    "metadata": {
+      "symbol": "GE",
+      "package_timestamp": "2025-08-25T22:27:02.653078",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "GE",
+        "current_price": 266.65,
+        "overall_score": 48.998348758170906,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 259.7888,
+        "sma_200": 212.3004
+      },
+      "momentum_metrics": {
+        "momentum_21d": -1.8336463050922205,
+        "momentum_63d": 14.52811546887754,
+        "momentum_126d": 34.17039907402748,
+        "momentum_acceleration": -16.36176177396976,
+        "roc_21d": -1.8336463050922205,
+        "trend_strength_20d": 0.3121626296811553,
+        "trend_direction": 1,
+        "ma_ribbon_score": 49.9785100515759,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0013524729638412225
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 9.0,
+        "squeeze_momentum": -0.884616985710219,
+        "volatility_compression": 59.60307826381669,
+        "is_consolidating": "False",
+        "breakout_score": 0.21960058226882245,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 10.281510890640348,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.843285491419667,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 48.0,
+        "squeeze": 63.940461739572505,
+        "options": 39.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 19,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "GE",
+        "strike_price": "260",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "15.8",
+        "ask": "16.25",
+        "last_price": "16.31",
+        "mid_price": "16.025",
+        "spread_percent": "2.769230769230769230769230769"
+      },
+      "greeks": {
+        "delta": 0.6296,
+        "gamma": 0.0128,
+        "theta": -0.1224,
+        "vega": 0.3838
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2906
+      },
+      "liquidity_metrics": {
+        "volume": 631,
+        "open_interest": 285,
+        "volume_oi_ratio": 2.2140350877192985
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:50.138148",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T19:48:15+00:00",
+            "title": "Korean Air expected to announce order for about 100 Boeing airplanes, sources say",
+            "content": "By David Shepardson\n\nWASHINGTON (Reuters) -Korean Air is expected to announce an order on Monday for about 100 Boeing airplanes coinciding with the visit of South Korean President Lee Jae Myung to Washington, sources told Reuters.\n\nThe order, the largest in the Korean air carrier's history, is expected to include a mix of 787s, 777s and 737 Boeing airplanes, the sources said. Boeing Commercial Airplanes CEO Stephanie Pope and Korean Air CEO Cho Won-tae were both attending an event of business leaders with the South Korean leader in Washington.\n\nBoeing declined to comment.\n\nIn March, South Korea's industry ministry said Korean Air said would soon finalize a $32.7 billion deal for new Boeing and GE Aerospace engines. Korean Air last year said it would order 20 777-9 and 20 787-10 planes from Boeing, with options for an additional 10 aircraft, and signed a memorandum of understanding in 2024.\n\nMany countries negotiating trade deals with the Trump administration have announced or plan to announce significant Boeing airplane orders.\n\n(Reporting by David Shepardson; Editing by Leslie Adler)",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T18:33:00+00:00",
+            "title": "David Gardner on &amp;quot;Rule Breaker Investing&amp;quot;",
+            "content": "In this podcast, former Motley Fool podcast host Chris Hill -- now host of the podcast Money Unplugged -- returns as a guest host to interview Motley Fool co-founder David Gardner about his upcoming book, Rule Breaker Investing: How to Pick the Best Stocks of the Future and Build Lasting Wealth.\n\nDavid reveals his first-ever Rule Breaker stock (before he'd even coined the phrase), names names on current dark clouds investors may be able to see through, and brings Rule Breaker thinking to diverse topics, from portfolio construction to sports betting.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\nTo catch full episodes of all The Motley Fool's free podcasts, check out our podcast center. When you're ready to invest, check out this top 10 list of stocks to buy.\n\nA full transcript is below.\n\nWhere to invest $1,000 right now\n\nWhen our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor’s total average return is 1,057%* — a market-crushing outperformance compared to 185% for the S&P 500.\n\nThey just revealed what they believe are the 10 best stocks for investors to buy right now, available when you joinStock Advisor.\n\nSee the stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nThis podcast was recorded on August 20, 2025.\n\nChris Hill: Welcome back to Rule Breaker Investing and our Authors in August series. Now in its eighth year, David, thank you for the invitation and for appropriately setting expectations at the beginning of last week's episode, when you told your listeners, I would be here hosting the show, and you said, and I just hope we don't screw it up. I thought, Oh, that's exactly how I feel, as well.\n\nDavid Gardner: Chris, I'm so honored to have you in that chair this week. You and I talked briefly about this. I think in the now 11th year of hosting a weekly podcast, I've never once given away the host chair. We did co-hosts at least once. We've done some memorable things together on this podcast. But if I were to think, who would I want to host this podcast in my absence on any given week, I could easily imagine the host of money unplugged, but this particular week, to have you interview me about my book is really special. Thank you.\n\nChris Hill: It's my pleasure. David, typically, when you are talking with authors, you are asking questions about their origin, where they grew up, all that thing. I'm going to go ahead and assume that a fair number of people listening right now are familiar with some of the broader strokes of your origin story of growing up in Washington, DC, learning about investing from your father. But specific to this new book you've written, I would like to drill down on a specific time period because you've talked and written about your father invests from when you were born in 1966, and in 1984, you turn 18, and he hands you the portfolio and says, Here you go. This is now your portfolio. What I'm curious about is the subsequent decade. From 1984 to, let's just say 1994, when the seeds of Rule Breaker Investing are planted, you know, maybe showing some green shoots. But that's not the sort of thing that I imagine happened overnight. You get this portfolio from your father. Obviously, you're 18-years-old. He's a mentor to you in more ways than one. You're going to check in with him about the decisions you make, but it's your decision to make. Do you start selling positions that first year? Do you start looking at this collection of stocks and think to yourself, Boy, I don't know. I don't know that This seems like a fine company for the past 20 years, but I don't know that I want this for the next 20.\n\nDavid Gardner: There was definitely some of that, Chris, and I appreciate you starting there. I think the first thing that I did, which probably slightly surprised Dad, but he was still supportive, is I moved the account. It had been at a long standing, well known bank. The broker that we both used to call in our trades had been in his wedding, and I'm like, Dad, I'm actually going to move this to Schwab, because there's this new thing, discount brokerages, and they charge less. This old line bank that you've been using since your wedding, they're actually charging me not just quite a lot for commissions, but there's, like, annual semi annual maintenance fees that just come out of nowhere that are a percent of assets. I think I can do better. I moved the account to Schwab, and it still sits there years later. I was definitely changing it up, but having inherited from my father really good understanding around business focused investing, something that you know so well, Chris, something that we've talked about at the Motley Fools. Since we launched in 1994 on AOL, we're really focused on the businesses themselves, and Dad had stocked the portfolio with good businesses. I will say that I did end up selling the largest position a few years later. It was the Washington Post Company and phenomenal company. Of course, the product was on our doorstep every morning waking up as kids. By what you know, he was exemplifying that for us. But AOL was oncoming. I was kind of like, I think AOL maybe is a better place to put this money than the Washington Post. Even though I'd gotten to meet Warren Buffett at a Washington Post annual meeting. There were, you know, the Graham family phenomenal company. But I did start shaking up the portfolio a little bit myself, which I think he wanted us to do as his kids.\n\nChris Hill: Do you consider AOL to be the first rule Breaker stock that you ever bought? I mean, it certainly has many of the qualities and first mover advantage, that sort of thing. I mean, it was for those who don't remember, in the 1990s, AOL definitely passes the snap test. I'm curious if it was that's your first rule Breaker stock or was it something else?\n\nDavid Gardner: It really was my first rule Breaker stock. I wouldn't have used that phrase at the time because I didn't yet know what rule Breaker investing was or would be, but it was such a great exemplar. To me, the future me looking back, realizing the traits that AOL possessed as a company and as a stock were just so Rule Breakery and it was a phenomenal investment. I had made previous investment, Chris. When I took over at 18, I didn't just, I did eventually sell that Washington Post and go into America online, but that was more me in my 20s. Some of my early moves were into what I would call and have called faker breakers, like, companies that look like they're going to be breaking the rules, but don't end up great. TCBY, do you remember the country's best yogurt?\n\nChris Hill: Absolutely.\n\nDavid Gardner: Of course you do. You and I are of a certain age, and it's healthier than ice cream. It's expanding. It's franchised. They're coming out of Little Rock, Arkansas, and it was a phenomenal stock in the summer of 1986. I think it went up 50%, split three for two, went up 50% again, slit three for two again. I cared about stock splits more back then than I do now. It didn't endit was a good concept at the time, but not a timeless concept. There ended up being a lot of competition. I had stocks that I thought were going to be monsters, but nothing ever emerged in the way that AOL did, and I learned a lot from its rise.\n\nChris Hill: When do you start to put some of these pieces together, and more importantly, than when, I'm curious how you start putting them together, because as you just said, you're making these decisions, you're getting experience of stocks that appear to do well and then turns out the underlying business crumbles for one reason or another. How do you start figuring out, these are the types of things I'm looking for in companies, beyond the solid business fundamentals that you learned about from your dad?\n\nDavid Gardner: That part about how companies can sometimes crumble after we bought them, that continues to be true for me in my 50s, just as it was in my 20s Peloton. The list goes on of, you know, companies that haven't fulfilled what I was hoping for from them. That's an important part of Rule Breaker investing, and I definitely include that in the book. But I think for me, Chris, it was an experience, first of all, picking stocks in front of an online public audience, AOL back in the day. We weren't charging. We didn't have charge services back then. You were with us as early as back then, we had a few books coming out. We had a newspaper column. We had a radio show. There were ways we could get paid. We had AOL dial up fees. People were still paying $4 an hour to come online. We got 10% of that at keyword Fool. There were ways to make money, but the act of picking stocks being accountable to an anonymous global public. At an early age was, no doubt, such an important thing for both Tom and me and you and all of us who are in our 20s or early 30s starting on this new medium and picking stocks. I think that for me, the magnet moment was when I missed one, and I decided that's going to be the last one I ever miss. Here's in a nutshell what happened. Yahoo looked to me like a great stock, a great company. It was pre Google. Yahoo, as you'll remember, was dominant. It was at $29 a share. I decided running my own valuation scheme, my own research, that it was only worth not 29 but 25.5. I'm like, Okay, I will recommend Yahoo when it gets down to my price, which I think is a fair price of 25.5. It's overvalued right now at 29. History will show that Yahoo never did make it down to 25.5. Instead, it basically went to 1,000 over the succeeding five years. I watched a stock that I had at 30, and I never none our readers did either.\n\nNone of our Fool community enjoyed the incredible 30 bagger rise of Yahoo. It was all premised on me going, It's a little overvalued. It doesn't hit what I'm looking for, so I'm not going to buy. Once that happened, when you miss a 30 bag or something that you felt good about, you thought you were in the right space, and it was just a minor valuation concern. I said, I'm not going to make that mistake again. But one thing I did learn from that, and it's steadied us well ever since you've already used the phrase, looking for companies that are top dogs and first movers in important emerging industry you really should overpay for those companies almost every time. You're going to have some losers. Some of them Peloton, don't work out, but the ones that do work out so fantastically that they wipe out all your losers. For me, Chris, that was, like, the iconic I missed it in front of a worldwide membership that never got to enjoy the rise of that stock because I decided it was a little overvalued.\n\nChris Hill: I want to highlight a couple of things in the book and have you expand on a 2025 version of something that you've written about. One of the things you write about that I appreciate is you take a little bit of time to remind us of the conventional wisdom of the 1990s and early 2000s that in hindsight, look ridiculous. But at the time, they were bedrock belief systems. I mean, I remember being with you when you were doing an interview on television, and the majority of people are skeptical of online commerce. Who in their right mind is going to type their credit card information into a website? That's absurd. That's not safe. Again, in hindsight, it's hilarious. At the time, that's what you were fighting against. I'm curious, is there a bit of conventional wisdom that you see right now, whether it's a specific industry, a trend, a specific company that you find yourself on the other side of thinking, I don't think this conventional wisdom is correct.\n\nDavid Gardner: Well, I guess, mainly when I think about that, I think about things that people are pessimistic about. Those are the areas that I find myself most interested in because as a lifelong optimist, I have generally found myself rewarded when I believe something will happen and be good and everybody else or many other people seem to think it's not going to work out, and if it did, it would be bad. The Internet is a great example of that. I would say it's f too buzzwordish these days to even go there, Chris, but artificial intelligence, I think, is just phenomenal development for humanity. I really I'm so excited about the possibility just like any powerful tool, the Internet being a recent example, it will be used for good, and yet, the headlines always seem to be about the negatives and the fears about AI replacing jobs and AI making bad decisions and guiding us, making us all stupid. The list goes on of skepticism about AI. While I would have also been skeptical about aspects of the Internet back in the day, we're not happy go lucky, Pollyanna ish. We can't see any downside to things, but I would say, in general, when I hear negativity around artificial intelligence, I think, Yeah, that makes me want to buy a little bit more.\n\nChris Hill: Speaking of negativity, one of the things you write about is the concept of dark clouds that if you as an investor can see through the dark clouds that are hovering over an industry or a company, that can be an incredible competitive advantage. One of the examples you cite that I vividly remember is when Disney bought Marvel. Paid billions for it. There were people skeptical of the price Disney was paying. And I remember being in the office talking with you about it, and you said, Don't look at the price. Don't look at the price tag. Look at the underlying intellectual property. Marvel has the intellectual property rights to literally thousands of characters. That's God knows how many TV series and movies and that sort of thing. Is there a business today that you look at that has some clouds around it getting attention, and it makes you think to yourself, because of the clouds, a lot of people are missing fill in the blank.\n\nDavid Gardner: Well, I think that this is an ironic and funny answer, but as some of these great Rule Breakers have become really big, the world starts rooting against them. This is kind of a natural American, especially for the Americans, listening. This is a cheer on the underdog and we start to, you know, hate on Facebook. Even though 2 billion people are using it, it ends up being always in danger of negative publicity, what's Zuck doing, etc. We see the same thing around Jet Bezos and the same thing around Elon Musk a weird part of me wants to point out that these are all phenomenal companies that are doing mostly good most of the time in this and at scale and are for profit and are creating huge amounts of jobs and possibilities for all of us that we're probably taking for granted. Part of me wants to say a dark cloud is hating on the rulemakers. I wouldn't, but, you know, I'm not a fan of every big company, but especially ones that are innovating, and I think that's such an important point for rule Breaker investors. It's always Chris and everyone listening. It's always about who are the innovators out there? Companies like GE were once very innovative and then lost that, and sometimes they can start fighting back or Kodak starts fighting back against digital cameras because it's not going to have film, and that's a big part of their profit base. There is a natural tendency for some really big companies to get dodgy and slower. But I think a dark cloud is that I think we should appreciate and recognize greatness of these big companies, I throw Netflix in there as well. It's not quite as big as the others, but these big dogs are really taking us places that no one else can, and I think that's worth buying and holding.\n\nChris Hill: Well, and part of that negativity only part, but it is part. Part of it has nothing to do with the business or the people running it. Part of it just has to do with the market cap of the company. There are always going to be those investors on Wall Street who say, Well, look, how much bigger can this thing get? They cite the I think it's the law of large numbers, which I think we need to revisit the law of large numbers.\n\nDavid Gardner: You're right. They do cite it, and they're incorrectly citing it when they use it, but keep going.\n\nChris Hill: No, but I think that is part of the negativity. And it is part of the argument against companies the size of Apple, Facebook,Microsoft, etc.\n\nDavid Gardner: Well, let me jump in with one level down because when I think about Rule Breakers, they're not all Apple yet. But within their industries, a company like Exxon Enterprise, the former Taser, providing great tools for law enforcement nationally, increasingly globally. Phenomenal company passes the SNAP test, which you referenced earlier, an important little section of the book. Intuitive Surgical. Robotic surgery, robot assisted surgery, the DaVinci surgical robot. Most people, I submit, if you tap them on the subway or ask them at a cocktail party, Hey, ever heard of Intuitive Surgical? Most people are going to say no. That is such a good sign for investors. I think looking at companies that have Blue Ocean opportunities, no one is really competing with them. They're not as big as Apple. They're not as well known as Facebook. Yet, you can see the rule Breaker in and, you know, both of those particular companies are stocks we've held for a long time and rule Breakers. A lot of listeners have one or both of those companies, and the dark cloud I can see through there is people just not being willing to allow technology to do all that it really can. People were skeptical of the taser. Doctors were very skeptical of the Davinci surgical robot, especially if there were older doctors who didn't want to be trained in it. I think especially love finding situations where people are doubters or haters around companies that are using technology to do better things.\n\nChris Hill: Just like on this podcast in the book, you don't shy away from stocks that you've picked that have gone down that are significant losers, 50% or more, that sort of thing. One of the things I've wondered about in the past is because you're a very even keeled person. I've wondered about sort of like how you think like Medication, Chris.\n\nDavid Gardner: It's incredible. But she stuff I stuck I use.\n\nChris Hill: I have had the thought before it. But when David's in private, it's [laughs] just him and he's looking at his portfolio when he sees a.\n\nDavid Gardner: Kombucha. It's the power of Kombucha, my friend.\n\nChris Hill: Well, it turns out the answer is something you shared in the book, and I'm going to directly quote from one of my favorite passages of the book because it was informative to me. You're right. When a stock of mine struggles, I prefer to let it recover on its own. You got yourself into this mess, I fume, the scolding parent. Now, get yourself out of it. I know you're not in the habit of looking back, but you've talked about rule fakers, faker breakers. Is there one in your past that you look back on and you think, but I really thought that one was going to make it. I'm genuinely surprised that that one didn't turn out to be a little bit better and a little bit bigger.\n\nDavid Gardner: I could almost pick an entire sector, Chris, because when I've dipped my toe into the biotech pool, I find myself frequently falling into it altogether because there was no water in there, and I thought that there was. People told me, It's OK. The water's fine. But think about a company like Moderna. This is a phenomenal company. It saved a lot of lives. It came up from a standing start nearly during COVID, it found the vaccine that saved lives. You'd think Moderna, which we recommended at $81 in January of 2021, right in the face of it. It was a monster winner. Over the succeeding couple of years, you'd think that that would have been a really good stock pick. I now see five years later, well, almost five years, we're down 83% with Moderna, and that was a winner. I write about this some in the book. I've watched Amazon go from 95 down to seven. We watched Netflix drop two thirds of its value during Quickstar Those are happy stories of companies that turned it around, but there are any number GP, didn't work out so well for me. Any number of companies where each time that I picked a stock for the Motley Fool, I was like, I like this stock. I would buy this stock, and many of them, I did. Our money's where our mouth is generally the Motley Fool. I usually go in with some weird combination of confidence, but I guess I would say humility. I just know I'm wrong about some of my picks. I just can't figure out which ones before I pick them. I think part of being a rule-breaker, I hope, part of being a rule-breaker investor is recognizing that you are going to have some huge winners that turn to losers. You're also going to have some flat out losers. But best of all, you're going to have some huge winners, and that final group wipes out all your previous examples. Another one that comes quickly to mind, Chris, 3D systems. 3D printing, literally, up eight or nine times in value after one year of our pick, and we ended up selling at a significant loss. Yeah, each of these is a promising company out front with a new technology. They don't always pan out.\n\nChris Hill: I'm assuming there are people out there who if they know a little bit about your stock picking, what they know is surface level. That's the guy who bought Amazon in 1997. He bought Netflix in the early 2000, that thing. But one of the things that this book demonstrates is your discipline as an investor, in portfolio construction, in reviewing on a quarterly basis. I mean, these are these are things that you lay out for the reader. Did your father lay the groundwork for that discipline or is it something that you developed in other ways?\n\nDavid Gardner: Well, that's very kind, and I would say I don't actually think of myself as a particularly disciplined person. If I have discipline in me, some of it must come from my parents. Perhaps some of it is genetic, but most of it I'm going to attribute to a past guest on this podcast, David Allen, who wrote a wonderful book called Getting Things Done, that I read somewhere around 2003 or four, which means I was basically in my mid to late 30s and I felt incredibly disorganized. I had a young family, which you've had at the same time, Chris, right along with me, very busy growing business and professional life. I just felt like, I'm just a mess. I'm not organized. Encountering Getting Things Done, the GTD system, for me, if there's any discipline in me, it comes from some of the learning from that very simple, very readable book that I hope stands the test of time because it's been so helpful for me. Of course, books like Atomic Habits in recent years, huge seller for James Clear, also a guest in this podcast. I want to bring authors on to this podcast this week accepted that will be incredibly practically helpful for listeners, not just for your investing or your business, but your life. Again, if there is any discipline in this capital F fool who doesn't think he's particularly disciplined, I credit it to GTD.\n\nChris Hill: But just to push back a little bit, I mean, there's a section in this book about portfolio construction, and you write about the importance of diversifying both by industry type and company size. You're also quick to point out that people shouldn't feel necessary to invest in absolutely every industry. This question comes under the umbrella of invest the way the world is going. What are one or two industries of which you would say, people really should be invested in this industry. If you look at your portfolio and you don't see this industry reflected, you need to change that.\n\nDavid Gardner: There's a combination for me of obvious answers to that question that may be boring to give the answers on this packs, but I'd still give them. The Internet, I think you've heard of it, companies that have really achieved dominant positions serving the world, whether it's Amazon or Apple, but even one level down salesforce, Shopify. I mean, these are all companies that frankly, each of the companies I just mentioned with the exception of of Apple didn't really exist 30 years ago. It's incredible. Or even Shopify, I mean, companies have sprung up in just the last 15 to 20 years ten plus years after the Internet started. I continue to love and look at the Internet as a source of great companies. Also, they're always just a click away, so I feel like I can research them a lot more easily. But then, I would almost say without filling it up with an industry or say AI is another one or something like that. I think looking at every industry and asking yourself, who is the most innovative company? Who is the top dog and first mover with innovation in that industry. You can go to a company like Chipotle. I mean, just healthier, fast casual food. There are a lot of Chipotle imitators, and Chipotle is absolutely a Rule Breaker. You think about a company like, Well, I already mentioned Exxon Enterprise or Intuitive Surgical, they are category leaders for what they're doing. They're in completely different industries. Trex has been a wonderful investment for rulebreaker investors. Talking about composite outdoor decking or, Old Dominion Freight Line, which is a brilliant, lighter than truckload logistics trucking company, where they don't really have unionized truckers because they treat their employees really well. Multigenerational family business, also Major League Baseball's sponsor. That's another great example of a Rule Breaker. Each of them is just a completely different industry that they hail from, but they're each the innovators. They're each the winners, and Chris Hill, what do winners do?\n\nChris Hill: They keep winning.\n\nDavid Gardner: They keep winning, not every single time and not every game, but that's the safest bet. You and I have grown up in a world all of us have where the most frequent financial disclaimer is past performance is no guarantee of future results, which is some of the worst advice you can ever encounter. Past performance is often the very single best indicator we have of future results. Yeah, the Rule Breaker in me can't not call that out. But I appreciate the question, and I tend not to go for industries as much as I like to bottoms up, pick individual companies and just look for who the winners are Tesla.\n\nChris Hill: You just reminded me of one of my favorite sayings, which is that the battle goes not always to the strong nor the race to the swift, but that's the way to bet.\n\nDavid Gardner: I love it. Since I think you've actually taken the time to read some of my book, and I really appreciate that, that horse racing analogies come very naturally to me, and I really love to think about horse racing, even though I can't really ride horses myself. I was always allergic. But some of the analogies that we can draw made me think of when you talked about the race to the swift and that's where the bet is, what I love about the stock market, and we feature this in the six principles of the rulebreaker portfolio later in the book. What I love about the stock market is you actually can bet during the horse race. You can go, You know what? Secretariat, baby, we are out front ten legs already, Chris Hill. I'm going down to the betting window right now, and I'm going to put it on secretariat what do winners do? But so much of the world thinks secretariat has already won or is about to trip and fall, or I don't know, there are other fears that people introduce. The whole race is going to change in the middle, and secretariat won't do very well. We have been so well rewarded with Rule Breakers, not every type of company, not cyclicals, not faker breakers, but with Rule Breakers, you get to invest the whole race.\n\nChris Hill: You get to just like in horse racing, I suppose, you get to bet on multiple horses. When I was looking at the home improvement industry and was thinking, Oh, should I buy Home Depot or Lowe's? Finally, it just occurred to me like, Oh, I can buy both.[laughs] I don't have to choose which one that is the leader or I think is going to overtake the other. I just I can buy shares of both.\n\nDavid Gardner: It's absolutely true. Just to heal, This is not a story I tell in the book. I've told it once or twice in the podcast. I'll just go back there briefly again. But I made the mistake of betting on just one of the two horses in an important industry to me, back in the day, the 1990s as a lifelong video gamer that continues in my late 50s, but I recognize the benefits of graphical cards that we could insert in our PCs and have better graphics for our video games. I decided a company called 3D FX was going to be my horse. They had a rival that I was actively cheering against because it was like North Carolina and, or I don't know, Notre Dame and Southern Cal. Who is Notre Dame's rival? But anyway, I was there going, I got my guys. We're going to take down these other guys. The other guys happened in 3D FX's industry to be NVDA. I was actively not investing in cheering against NVDA, as not only did it win the race, it literally bought out my company for a song at a later point, showing that I'd clearly bet on the wrong horse. Had I bet on both horses, I would be even happier than I am today, but I am also awfully happy that I got over my rivals and my envy, and I decided in 2005 on Tax Day to recommend NVDA stock to Motley Full Stock Advisor members. You get to invest the whole race. You should invest in more than one horse. I actually like buying if you're talking about a good field like the Kentucky Derby, I like buying all 22 of them. 22 is not a bad number to start a portfolio. 20 stocks or so I think is a great way to start a portfolio these days. Yeah, don't get too hung up on Home Depot. They're going to crush Lowe's or just vice versa, you're right. They're both winners. That's one other very capital F foolish point to underline, which is that too many people think life is zero sum, and it's all about trade offs. If I win, that means you must lose. We see that in sports. You and I are a huge sports fan, so we know one team wins, the other team loses. That's not true in business, and that's definitely not true in life. Life is much more a co up game. We're all trying to win together and help each other win.\n\nChris Hill: I want to go back to AI for a second, because you provide some helpful tips in the book about how investors can use AI to track their stocks, review their portfolio. What role do you think AI will play in actual stock picking? Because there are plenty of people who look at the universe of investing and think, I'm just going to have a robot do this for me.\n\nDavid Gardner: Yeah, and I would be the first to say, go for it. If you see ways that artificial intelligence can improve your life, make better decisions, possibly lower your costs or both, or a third thing that floats your boat, I would say, go for it. I personally don't think that AI is going to pick stocks in any magical new way that beats the market better than you or I might. I think there are two key reasons for that for me, anyway. The first is that AI has already been trying to beat the market for the longest time. It's not like AI just showed up in the financial markets. As soon as we developed the computer, somebody started trying to make their computer trade on the Internet. Without them being around and make money for free, and believe me, at scale that has occurred over the last 30 years, at massive scale, most of the trading volume on the New York Stock Exchange or the NASDAQ today is algorithmic computer driven. It's not dumb computers. They've been trying to make those computers as smart as they can not just last year with Chat GPT. No. For the last 30 years. If you have been investing well and beating the market over the last 30 years, I think there are very good reasons that will continue. In part, Chris, it's because AI is on both sides of the trade. If AI, by the way, were only on one side of the trade, I'd start saying, let's go with the AI, because the other side is not going to be as smart. If AI is all the buyers that I'm like, we're with the buyers. The sellers are going to be wrong, it's going to be a buying frenzy. Let's go with the AI. But AIs are on both sides of so many trades today. You can see AI trading against itself. Usually in an incredibly short term way. There isn't enough long term data to really feed into AI to know for certain what's going to beat the market over 25 years. But if you talk about the next 25 minutes, people have all kinds of Coca Amy schemes as to how they're going to make a lot of money in the next 25 minutes. Most of CNBC's coverage, most of the market media's coverage, Chris, as you well know, is all about today. Chris Hill, you still like Cloud computing stocks after yesterday?\n\nChris Hill: After yesterday?\n\nDavid Gardner: We've had experiences like that. I write about that in the book. We don't need to go there right now if you don't want to, but the unbelievably short term view of the vast majority of market coverage and the computers that are driving the volume mean I feel very comfortable in my little Rule Breakery space sitting. I'm not going to say above the fray. I'll just say aside from the fray, playing the same game. But by completely different standards with a totally different approach. In the same way that Moneyball came along and started saying, we actually think the way people are reading baseball, they're misunderstanding the real value being created out there. They just count batting average. They don't look at the walks hitters are drawing, and they don't recognize the value of that or the quality of the hit with slugging percentage, etc. Baseball has advanced so much in the last 30 years because people started asking smarter questions that were real. I think a lot of the questions around AI and market trading are just so short term, they're irrelevant to you and me. Actually, I think they hold others back.\n\nChris Hill: I want to ask you a couple of questions about the book Write Large and the process of writing it, because I know that one of the areas of your life where you are disciplined is note taking, and that was helpful to you in writing this book. But was there any part of the book that surprised you as it came together?\n\nDavid Gardner: Thank you. First of all, I so loved writing it. I think the most surprising thing to me was truly I didn't need deadlines. My brother Tom and I have written a number of books in the past. I'd never written a full book myself. I wrote halves of lots of books that I love doing. But the truth was always that I needed deadlines. I was like, I'm the guy who pulls the Double all nighter to get it in there on time. That's sad. I expected fully having not written a book ever purely by myself and having not written any book for 15 years, I started thinking, it's going to be that all over again, but I'm just going to go through with it because I really want to finish this final stock market book for me, and I loved writing it. I had so much I had way more material than I could ever use. I did take a lot of notes. I had 15 years of notes. I organized them in an Excel spreadsheet row by row with the talking point that I wanted to include in the book, and then I started rating and ranking each of them based on how good I thought the point was. That was one way to score it. The other way I scored my spreadsheet, talking points was, if I don't say it, will anyone else ever say it? Of course, I gave tens zero to ten. I gave tens to the points where if I don't say it, I don't think anybody ever will, and if everybody else is saying it, I tend to give that a one, two or three and not include it in the book. Yeah, I think the biggest surprise for me was I had so much fun writing it, I didn't need any deadlines.\n\nDavid Gardner: There were other surprises that came. I guess one I'll refer to very quickly is I decided after finishing Part 1 of the book, as a non-fiction book, I think we all feel some pressure to summarize the points that you've made in Part 1 of the book. You're going to have a section that summarizes with bullets what we've just gone over. There are three parts to the book. And I decided, You know what? I'm going to break the rules a little bit here. I'm just going to write a story. I'm going to make the points, if you've read them, implicit, if you look carefully within a little story that I'll tell. I had so much fun as somebody who majored in creative writing at the University of North Carolina at Chapel Hill, I had so much fun just constructing a simple story of people that we can relate to who are Rule Breaker or not at all. Then as I finished Part 2, and 3 of the book, I realized, I'm going to continue that story, and that was not something I was ever planning. I actually loved doing that. That's a unique part of the book. I don't think many investing books have a fable that is serially continued through the book. It's not a huge deal. It's not the tail that wags the dog, but that was a surprise.\n\nChris Hill: This strikes me as one of those books, and I will just say for context, for anyone who's hearing my voice for the first time or the first time in a long time, I've encountered hundreds and hundreds of books about investing and money and business, because in all my years of hosting Motley Fool Money and Market Foolery, my name got on the distribution list of major publishers. I would say somewhere between 15-20 books per month would come to my desk and I would glance through them, and maybe one out of 20, I would think, oh, this seems worth talking about. No shade against the authors of the other 19 books. I'm sure they were perfectly fine, but it's a little bit like the point you were just saying of, if everyone else is going to say this, I don't know that I necessarily need to say this as well. All of that is context to this question. I think this is one of those books that people are going to give as a gift. They're going to buy it for themselves, but they're also going to give it to a gift because there are plenty of people who are interested in investing, and then there's a level below them. Like, everyone who's a stock market investor, has at least three friends who they pay lip service to being interested. They're not as interested, but they feel like maybe they should be, so they'll talk at a barbecue or a cocktail party, just like, hey, so how's the investing thing? That thing. I think yours is one of those books that investors are going to read, and then they're going to give it as a gift to their friend who needs to learn a little bit more. What should they say to their friend? How should they promote this book when they hand it to them?\n\nDavid Gardner: First of all, that's really kind, and thank you, Chris. Second, I hope that they would recognize that we are all investors. At that barbecue, they're surrounded by 20 others. All 20 of those people are investors. But if you actually ask that group of people, raise your hand at the barbecue. If you are an investor, maybe only those three people that that person was connected to or was thinking of would say, OK, yeah, I'm an investor. But truly because you've been around the Motley Fool just about as long as I have, you know that democratizing this subject, making it accessible to people. Reminding us that it's not just an investment of money you're making. We're all investors of time. We all have the same number of hours in the day. You're constantly investing in your own learning or not. You might be misusing the allocation of funds and time that you have. I suspect and hope most listeners wouldn't say they are, but I think all of us, me included, would say, I probably could do that. I probably could make slightly better use of my money or slightly better use of my time, at least. I hope that feeling of handing the book over to a friend and saying, hey, I think you'll get something out of this. I think the fun thing about this book is, well, I see it's my final stock market book, which it is, it's really a book about life and investing and leadership and entrepreneurship. It's ultimately there to connect with whoever's reading it at a human one to one level, not talking down at all, and not holding myself up as some great exemplar, a statue that you should imitate.\n\nYou should try to take on the form or pose that I have with the statue of this book. I hope that person would know they're giving it to somebody saying, I think you'll see something in this that will make you a little bit smarter, happier, and richer. You know that's been the Motley Fool's purpose for now 32 years in counting. I'm just happy that it'll be a book that can be shared. It's been a long time, and I've kept those notes that I referred to over 15 years. I've wanted to do this somewhere 2016/2017, and I was like, I'm going to write. I'm going to write it this year. It didn't happen, and then COVID. I had an excuse. I can't do anything during COVID. But at a certain point, I said, If I get struck by lightning, my biggest regret as I lie there frying, I'll look up at the skies and say, why didn't I write this book? I was getting notes for it for more than a decade. Fortunately, I was not hit by lightning and fortunately a labor of love from last February to last August. It takes about six months to write a book. Takes about a year, as you well know, working within the industry as you have. Takes about a year for that book actually to show up to the public. I'm just so glad that I did it, and I would love it if anybody shares it with a friend. Also, forget about that image of me frying, being hit by lightning. That was not necessary. I know it's an audio medium, Chris, but it's also a visual medium, in a way, and I don't feel good about that. Can you quickly replace that in listeners Minds with something else?\n\nChris Hill: The standard go to is getting hit by a bus, which doesn't involve frying, but it's not necessarily better.[laughs]\n\nDavid Gardner: Let's move on.\n\nChris Hill: Before we get to buy seller Hold, two things I want to hit. The first is the glossary, which was this delightful surprise at the end of the book. You have a glossary of terms, and I'll just read a couple because they're just fun. For sports betting, you define it as one great, big, huge waste of money unless you're the house. For the word trading, you define trading as spending lots of time trying to make money, maybe half the time.[laughs] What is the origin story of the glossary?\n\nDavid Gardner: Well, somewhere near the end of writing the book, I started realizing there are a lot of terms that I've invented or repurposed. We have our own Rule Breaker vocabulary. We don't need to talk about spiffy pops this week authors in August, because I think most of our regular listeners know what I mean when I say spiffy pop. But if you say that to a crowd assembled anywhere, you'll get only a couple of hands that go up. I do point out in Rule Breaker vesting that in the urban dictionary, yes, spiffy pop exists in the urban dictionary, but not yet in the Oxford. But we're headed there. But I'm inventing words as we go. Even Rule Breaker, what is that exactly? I realize Rule breakers take two forms. They are the companies that we invest in, and they are you and me. If we're investing like a rule Breaker. I realize it's important to put definitions to some of these terms. Most of it is a summary of what you've already encountered in the book, but it's a handy, I don't know, six, seven, eight page alphabetical list of Rule Breakery terms that serve as a good summary and reminder for people. Yes, I'm trying to make you laugh at different points. I really do think that trading is spending a lot of time, trying to make money, maybe half the time. You obviously see what I think of trading. Sports betting has shown up in recent years, Chris Hill. I know you know that as a fellow sports fan. I've placed a sports better to myself, not just in the last few years, but in the last few decades when I guess I don't know, it was illegal. I've never used a bookie. I just bet with friends, but sports betting is not a good idea. It's not a good way to spend money, and the amount of money that is being bet these days, and I love ESPN, Disney property as of today still. But ESPN reimagining its own coverage of sports to constantly include the numbers of the bets. This is a very bad financial allocation. Chris Hill, you and I bet. You're betting Boston College. I bet my Bill Belichick led North Carolina Tar Heels. One of us is going to win, one of us is going to lose, and the house is going to make 5-10%, which means if you run the numbers, you and I will tend to lose money over time when we bet on sports. That is such a bad allocation and bad message. Yeah, a $64,000,000,000 industry or so last year, we're calling it out in the Rule Breaker Investing glossary.\n\nChris Hill: My last thing is inspired partly by the glossary, but also other parts of the book. This is an idea I'm going to share with you. If you want to run with this, if you want to get together with your publisher and run with this. It's merch. It's specifically Rule Breaker madness because early in the book, you talk about the four most dangerous words are buy low, sell high, and really instar people should buy high and try not to sell. I'm more than semi serious in this regard, because the thing is, David, these outdated maxims, I low sell high. You never go broke taking a profit. They are still ingrained in the everyday lexicon of investing. I think Rule Breaker magnets would provide daily reminders for investors to fight against the things that they're hearing from coworkers or family members who aren't investing as much as they are, and all they know to do is just repeat those tired old maxims that don't really work anymore.\n\nDavid Gardner: I really appreciate that point. They don't exist yet. There might be a whole industry. Chris, you and I are a little bit free agents. We're not as fully employed as we were maybe 10 years ago. Maybe we go together on this whole magnet business thing. But I really appreciate you calling out. I do part of my style as a writer is, I don't know, every three or four pages in this rather short book, you're going to see a bolded line because I try to punch home lines from time to time, and it's generally those kinds of merch magnet driven possibility lines that I greatly favor. Just before the glossary near the end, there's a things to remember, a couple of pages that just takes some of those maybe magnet lines and tries to capture them all in one place I know, for fellow Rule Breakers.\n\nChris Hill: Let's go to Buy sell or Hold.\n\nDavid Gardner: I would love to play.\n\nChris Hill: This is something any investor can create for themselves. Buy sell or Hold stock watch list.\n\nDavid Gardner: I am a big fan of stock watch list, so I say buy. I think that these days you can track them, whether it's on our site or on another site, back in our day, Chris, and I don't want to date us here, but we used to have to write that stuff down on paper and then look up in the newspaper the next day where the stock price was traded to keep up with the watch list. Not only that, but there are more fascinating companies today and more new innovations and discoveries worth watching. We can't own them all, or we can't own them all at once. Stock watch lists are a great tool, and I'm a listy person, anyway. I just like lists.\n\nChris Hill: Just two years removed from making the playoffs, your favorite baseball team. The Minnesota Twins are currently in fourth place in their own division, and let's face it, they'll need a small miracle to make the playoffs this season. Buy sell or hold the Twins getting to the World Series in the next five years.\n\nDavid Gardner: I'm going to say sell, and I am a lifelong Minnesota Twins fan. I watch almost every game. Last week, when the Minnesota Twins lost once again two out of three to the Yankees in Yankee Stadium, reflecting on the last 37 games played in Yankee Stadium, I believe the Twins are literally six and 31. Out of the last 37 games in Yankee Stadium, the Twins have won six. Last week, I think the Nadir of the Twins season was when they were one hit losing to the Yankees 9-1, and the Twins pitchers Little League baseball, if you will, the Twins pitchers literally walked 11 Yankees as we were one hit. I watched that whole game, and I started asking myself, am I misallocating my own time?\n\nChris Hill: Why am I watching?\n\nDavid Gardner: It is so painful to experience that to lose so many games to the Bronx Bombers that clearly, I don't know, Minnesota Nice might have an inferiority complex around, but if we're really playing the odds, the odds of any team making the World Series the next five years would be lower than 50%. I would even include the Yankees or Dodgers there. Twins chances much lower than that. Sell.\n\nChris Hill: I'm so old. I remember being told these vehicles will be ubiquitous in 2025, buy sell or hold self-driving cars.\n\nDavid Gardner: [laughs] You and I did a podcast once that will re air in about 20 more years or so. We did it from the future. I think the year was 2052, and part of what we did with that podcast from the future co-hosted by Chris Hill and David Gardner for Rule Breaker Investing is we look backwards from 2052 and just looked back at what had happened. You and I found to our surprise, I think, somewhat humorous surprise that self-driving cars still weren't really a thing. It's like the new iPhone in 2052. Better camera. But yeah, I would say that even though we said that from 2052, three years ago, I think I'm starting to become more of a buyer. I'm going to call a hold on this because I have owned Teslas for 13 years, several different ones. Up until about two years ago, I was like, this thing I would never allow to drive. It couldn't recognize stop signs or red lights in urban settings. Within the last two years, it's actually gotten pretty effective. Most of the time, I still drive myself. I enjoy driving. But, Chris, I do think we might be wrong on one prediction we made from the year 2052. I'm going to say hold on the whole self-driving thing.\n\nChris Hill: You've mentioned your alma mater a couple of times. Buy sell or hold, a successful season for University of North Carolina football coach Bill Belichick.\n\nDavid Gardner: It became not just a sports story, became really a national story. Then it was exacerbated by romantic relationships and all kinds of other off field developments. I think, though, what did we say earlier, Chris, about winners? I actually think that Bill Belichick is a winner. I would be taking the over if we were doing sports betting and talking about how many wins the nation now expects North Carolina football, not a topic of previous interest to anybody to have in the year ahead. I'm not even sure what that is. But if people think the Tarsus would be about 500, I'm going to say maybe a game or two above that, because I actually really think Bill Belichick is very smart and a very good football coach.\n\nChris Hill: You've written this publicly, and you've also mentioned it during this conversation, referring to rule Breaker investing as \"my final stock market book.\" Buy sell or hold, David Gardner writing another non-stock market book in the next 10 years.\n\nDavid Gardner: I'm going to say buy on that with a belief that that will happen sooner rather than later. I'm not going to be somebody who comes out with a new book every year or two or wants to be a lifetime author. There are a few songs that I want to sing, and I feel like if I don't sing them, nobody might, and I hope that they'll add value to the world. This is my most important book. I don't think any book I'll write in future if I do will be more important than Rule Breaker Investing. But there is something just about breaking the rules, period. About that approach that we've taken to investing, that actually works in other contexts as well. The contexts I think all the time about on this podcast are investing in business and life. I think if this book is well received and people would like it, and if they won't, I won't do it. But I could imagine writing a book about breaking the rules, just in a more general way. Won't be a stock market book. This is my stock market book, but I guess I'm a buy on that.\n\nChris Hill: The book is Rule Breaker Investing. How to pick the best stocks of the future and build lasting wealth. It is available on September 16th, but you can order it now in all formats, including audiobook, and you should, because it's a terrific read, and if you allow it to, this book will make you a better investor. David Gardner, thank you so much for surrendering the host chair this week and enabling me to join you on the Rule Breaker Investing podcast.\n\nDavid Gardner: Chris, there's nobody. I'd rather take that seat from me for the first time in the history of this podcast. Congratulations on your work with money Unplugged. You have a lot of Fools and a lot of non-Fool fans. They might not even know about the Motley Fool who enjoy following you and your work, and I'm one of them. I'm honored to have you this week on Rule Breaker Investing. In conclusion, I am honored by your presence, and Chris, I feel as if we didn't screw it up this week. Like, that line that you called out recently that I may or may not have said on this podcast.[laughs] I think we're OK. We're good.\n\nChris Hill: I think this was a good conversation, but people will email you. Listeners will weigh in.\n\nDavid Gardner: [laughs] Chris Hill, thank you so much and Fool on.\n\nChris Hill: Fool on.\n\nMary Long: As always, people on this program may have interest in the stocks they talk about, and the Molly Fool may have formal recommendations for or against. Don't buy or sell stocks based solely on what you hear. Learn more about Rule Breaker Investing @bi.fool.com.\n\nDavid Gardner has positions in Amazon, Apple, Intuitive Surgical, Netflix, Old Dominion Freight Line, Tesla, and Walt Disney. The Motley Fool has positions in and recommends Amazon, Apple, Axon Enterprise, Chipotle Mexican Grill, Intuitive Surgical, Meta Platforms, Microsoft, Netflix, Old Dominion Freight Line, Peloton Interactive, Salesforce, Shopify, Tesla, Trex, and Walt Disney. The Motley Fool recommends 3D Systems, GE Aerospace, and Moderna and recommends the following options: long January 2026 $195 calls on Old Dominion Freight Line, long January 2026 $395 calls on Microsoft, short January 2026 $200 calls on Old Dominion Freight Line, short January 2026 $405 calls on Microsoft, and short September 2025 $60 calls on Chipotle Mexican Grill. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:22:36+00:00",
+            "title": "NANO Nuclear Energy Inc. (NNE) Has Gained 89% Since Jim Cramer Said It “Loses A Lot Of Money”",
+            "content": "We recently published Jim Cramer’s 13 Quantum Computing & Nuclear Stock Predictions – See How They Played Out! NANO Nuclear Energy Inc. (NASDAQ:NNE) is one of the stocks Jim Cramer recently discussed.\n\nNANO Nuclear Energy Inc. (NASDAQ:NNE) is a new-age nuclear technology company developing solid-core battery reactors. Its products make the firm one of the most speculative nuclear power stocks. NANO Nuclear Energy Inc. (NASDAQ:NNE)’s shares have gained 31% year-to-date and 89% since Cramer commented on the firm in October. One major catalyst for the stock came in May after President Trump signed an executive order to boost the small nuclear reactor industry in the US. Cramer commented on the firm’s financials, and his worries aren’t unwarranted as NANO Nuclear Energy Inc. (NASDAQ:NNE) posted a net loss of $10.1 million during its fiscal year ending in September 2024 on the back of no revenue:\n\n“I am aware of it. Let’s just be honest… That company loses a lot of money”NANO Nuclear Energy Inc. (NNE) Has Gained 89% Since Jim Cramer Said It \"Loses A Lot Of Money\"\n\nPixabay/Public Domain\n\nCramer’s more recent comments about NANO Nuclear Energy Inc. (NASDAQ:NNE) have advised viewers to sell the stock:\n\n“I think you just sell Nano Energy. I think the first time we’ll see any nuclear… in this country is 2033 and that’ll be done by GE Vernova if it’s lucky.”\n\nWhile we acknowledge the potential of NNE as an investment, our conviction lies in the belief that some AI stocks hold greater promise for delivering higher returns and have limited downside risk. If you are looking for an extremely cheap AI stock that is also a major beneficiary of Trump tariffs and onshoring, see our free report on the best short-term AI stock.\n\nREAD NEXT: 30 Stocks That Should Double in 3 Years and 11 Hidden AI Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:21:59+00:00",
+            "title": "NuScale Power Corporation (SMR) Is A Nuclear Power Stock That Jim Cramer Was Wrong About",
+            "content": "We recently published Jim Cramer’s 13 Quantum Computing & Nuclear Stock Predictions – See How They Played Out! NuScale Power Corporation (NYSE:SMR) is one of the stocks Jim Cramer recently discussed.\n\nNuScale Power Corporation (NYSE:SMR) is a nuclear power generation hardware manufacturer that primarily deals with small and modular nuclear reactors. Its shares have gained 97.8% year-to-date, but would have been even higher had it not been for a 32% dip since late-July. The stock has gained a whopping 192% since Cramer’s October comments, where he warned that the firm was losing a lot of money and it was better to invest in GE Vernova instead. Some catalysts that have driven NuScale Power Corporation (NYSE:SMR)’s performance since July include a weak earnings report and a shareholder selling the stock. Here’s what Cramer said about the firm in October 2024:\n\n“Yes, again, that’s a small scale nuclear module reactor [company]. And I think that company’s losing a lot of money. You might as well go again with GE Vernova, GEV, because that’s something else to fall back on and you still get the nukes.”NuScale Power Corporation (SMR) Is A Nuclear Power Stock That Jim Cramer Was Wrong About\n\nPhoto by Frédéric Paulussen on Unsplash\n\nCramer continues to believe that NuScale Power Corporation (NYSE:SMR) is overvalued, as he recently commented:\n\n“NuScale, okay, here’s the problem with NuScale, it is… really, really high. Here’s the answer with NuScale, if it does an offering here, that’s when I’d buy. I’d wait for the stock offering after what happened with Oklo tonight.”\n\nWhile we acknowledge the potential of SMR as an investment, our conviction lies in the belief that some AI stocks hold greater promise for delivering higher returns and have limited downside risk. If you are looking for an extremely cheap AI stock that is also a major beneficiary of Trump tariffs and onshoring, see our free report on the best short-term AI stock.\n\nREAD NEXT: 30 Stocks That Should Double in 3 Years and 11 Hidden AI Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:21:10+00:00",
+            "title": "GE Vernova Inc. (GEV) Is A Nuclear Power Stock Jim Cramer Was Right About",
+            "content": "We recently published Jim Cramer’s 13 Quantum Computing & Nuclear Stock Predictions – See How They Played Out! GE Vernova Inc. (NYSE:GEV) is one of the stocks Jim Cramer recently discussed.GE Vernova Inc. (GEV) Is A Nuclear Power Stock Jim Cramer Was Right About\n\nGE Vernova Inc. (NYSE:GEV) is one of Cramer’s top nuclear stock picks. The firm makes and sells nuclear reactors, and Cramer is optimistic about its ability to deliver the equipment. Since his comments in February, GE Vernova Inc. (NYSE:GEV)’s shares have gained 69%. One notable catalyst came in July after the shares jumped by 13.7%. The jump came after the firm’s $9.1 billion in revenue and $1.86 in profit-per-share beat analyst estimates of $8.8 billion and profit estimates of $1.50. Seems like Cramer’s enthusiasm about GE Vernova Inc. (NYSE:GEV) was warranted:\n\n“We’re going to talk about the stock of GE Vernova. That’s the power division that was spun off from the old General Electric that so many of you like. Right now, we’ve got several huge themes occurring at once. We know that we have a gigantic number of data centers being put up in the country, correct? Now they require tremendous amount of electricity. They’re big drainers. Our most abundant source of power comes from burning of natural gas. We got more natural gas than any other country.\n\nStory Continues\n\nWhile we acknowledge the potential of GEV as an investment, our conviction lies in the belief that some AI stocks hold greater promise for delivering higher returns and have limited downside risk. If you are looking for an extremely cheap AI stock that is also a major beneficiary of Trump tariffs and onshoring, see our free report on the best short-term AI stock.\n\nREAD NEXT: 30 Stocks That Should Double in 3 Years and 11 Hidden AI Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "GE Aerospace",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 53000,
+          "description": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and mechanical aircraft systems. The company operates through two reportable segments, Commercial Engines & Services, and Defense & Pr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.01,
+          "profit_margin": 0.1864,
+          "operating_margin": 0.209,
+          "roe": 0.3957,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.212,
+          "earnings_growth_yoy": 0.641,
+          "eps_estimate_current_year": 5.8932,
+          "eps_estimate_next_year": 6.9826,
+          "dividend_yield": 0.0048,
+          "dividend_per_share": 1.28,
+          "revenue_ttm": 41611001856,
+          "revenue_per_share": 38.744,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 38.0214,
+          "forward_pe": 45.4545,
+          "price_to_sales": 6.7924,
+          "price_to_book": 14.7708,
+          "enterprise_value": 289666909817,
+          "ev_to_revenue": 6.9611,
+          "ev_to_ebitda": 26.614
+        },
+        "technical_data": {
+          "beta": 1.447,
+          "52_week_high": 281.5,
+          "52_week_low": 158.8126,
+          "50_day_ma": 259.7888,
+          "200_day_ma": 212.3004,
+          "short_interest": 0.012,
+          "short_ratio": 1.92
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.44,
+          "forward_dividend_yield": 0.0054,
+          "payout_ratio": 0.2278,
+          "dividend_date": "2025-07-25",
+          "ex_dividend_date": "2025-07-07",
+          "last_split_date": "2024-04-02",
+          "last_split_factor": "1253:1000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5,
+          "target_price": 297.9333,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1060440000,
+          "percent_institutions": 80.622,
+          "percent_insiders": 0.183,
+          "shares_float": 1056632410
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125256.0,
+          "total_debt": 18887.0,
+          "cash_and_equivalents": 10861.0,
+          "net_debt": 8026.0,
+          "working_capital": 1335.0,
+          "shareholders_equity": 19135.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.99
+        },
+        "income_latest_statement": {
+          "total_revenue": 11023.0,
+          "gross_profit": 4177.0,
+          "operating_income": 2099.0,
+          "net_income": 2028.0,
+          "ebitda": 2858.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 37.89,
+          "operating_margin": 19.04,
+          "net_margin": 18.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2246.0,
+          "free_cash_flow": 1919.0,
+          "capex": 327.0,
+          "net_income": 2000.0,
+          "cash_change": -1390.0,
+          "dividends_paid": 386.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.37,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 263.92,
+            "high": 265.06,
+            "low": 261.74,
+            "close": 264.67,
+            "volume": 9392400
+          },
+          {
+            "date": "2025-07-16",
+            "open": 264,
+            "high": 266.86,
+            "low": 262.03,
+            "close": 266.18,
+            "volume": 11912900
+          },
+          {
+            "date": "2025-07-17",
+            "open": 269.8,
+            "high": 272.8,
+            "low": 258.16,
+            "close": 260.28,
+            "volume": 16260200
+          },
+          {
+            "date": "2025-07-18",
+            "open": 265.4,
+            "high": 269.7,
+            "low": 262.56,
+            "close": 263.27,
+            "volume": 8619800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 263.69,
+            "high": 266.25,
+            "low": 259.58,
+            "close": 262.86,
+            "volume": 5208500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 260.73,
+            "high": 261.5,
+            "low": 254.66,
+            "close": 259,
+            "volume": 4751300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 260.53,
+            "high": 263.73,
+            "low": 259.95,
+            "close": 263.18,
+            "volume": 4689800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 263.56,
+            "high": 269.84,
+            "low": 263.18,
+            "close": 268.01,
+            "volume": 5206700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 268.83,
+            "high": 272.83,
+            "low": 268.26,
+            "close": 271.59,
+            "volume": 4598400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 273.36,
+            "high": 273.44,
+            "low": 267.44,
+            "close": 270.61,
+            "volume": 5006400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 272.73,
+            "high": 273.8,
+            "low": 269.12,
+            "close": 270.31,
+            "volume": 4125300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 270.92,
+            "high": 273.63,
+            "low": 269.51,
+            "close": 273.55,
+            "volume": 4697000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 273.07,
+            "high": 274.94,
+            "low": 269.88,
+            "close": 271.08,
+            "volume": 4524000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 265.53,
+            "high": 270.55,
+            "low": 261.71,
+            "close": 269.38,
+            "volume": 4416300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 270.51,
+            "high": 276.85,
+            "low": 270.22,
+            "close": 276.23,
+            "volume": 3744000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 276.26,
+            "high": 277,
+            "low": 268.62,
+            "close": 272.12,
+            "volume": 4000600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 273.5,
+            "high": 275.05,
+            "low": 269.91,
+            "close": 272.28,
+            "volume": 3576800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 271.95,
+            "high": 272.87,
+            "low": 268.73,
+            "close": 272.02,
+            "volume": 3050400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 273.58,
+            "high": 277.18,
+            "low": 272.58,
+            "close": 275.01,
+            "volume": 4467300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 275.15,
+            "high": 276.41,
+            "low": 272.55,
+            "close": 275.2,
+            "volume": 3360100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 276.04,
+            "high": 280.54,
+            "low": 275.7,
+            "close": 279.63,
+            "volume": 3630100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 281,
+            "high": 281.5,
+            "low": 264.08,
+            "close": 268.86,
+            "volume": 7599600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 272.99,
+            "high": 274.16,
+            "low": 269.48,
+            "close": 269.7,
+            "volume": 4481700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 268.92,
+            "high": 269.7,
+            "low": 265.21,
+            "close": 267.85,
+            "volume": 5203300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 267.9,
+            "high": 269.61,
+            "low": 266.51,
+            "close": 268.45,
+            "volume": 2697000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 266.31,
+            "high": 268.96,
+            "low": 263.8,
+            "close": 265.93,
+            "volume": 3404900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 265.46,
+            "high": 268.94,
+            "low": 263.81,
+            "close": 266.44,
+            "volume": 3854700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 267.14,
+            "high": 271.92,
+            "low": 266.14,
+            "close": 268.71,
+            "volume": 3266400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 269.73,
+            "high": 272.35,
+            "low": 266.37,
+            "close": 266.53,
+            "volume": 5226400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 267,
+            "high": 271.92,
+            "low": 266.6,
+            "close": 266.61,
+            "volume": 3182039
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -1.4781419755367502,
+        "return_63d": 10.269666639093396,
+        "pct_above_sma50": 2.431150440302212,
+        "sma_50": 260.3212,
+        "new_55d_high": "False",
+        "high_55d": 281.5,
+        "rsi": 40.70826306913993,
+        "rsi_in_range": "False",
+        "adx": 20.941359932408606,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.259292599677435,
+        "bb_width": 5.484571263997435,
+        "keltner_width": 8.893892693010482,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1117134804.376775,
+        "adv_shares": 4125396.95,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 40.12479638206001,
+        "final_score": 35.12479638206001,
+        "sub_scores": {
+          "trend_momentum": 10.281510890640348,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.843285491419667,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -1.833646305092218,
+          "ret_63d": 14.528115468877534,
+          "rsi14": 40.70826306913993,
+          "adx14": 19.05593415329493,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: GE\n• Current Price: $266.65\n• Overall Score: 48.998348758170906\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 259.7888\n• Sma 200: 212.3004\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -1.8336463050922205\n• Momentum 63D: 14.52811546887754\n• Momentum 126D: 34.17039907402748\n• Momentum Acceleration: -16.36176177396976\n• Roc 21D: -1.8336463050922205\n• Trend Strength 20D: 0.3121626296811553\n• Trend Direction: 1\n• Ma Ribbon Score: 49.9785100515759\n• Breakout Strength: 0.0\n• Price Velocity: -0.0013524729638412225\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 9.0\n• Squeeze Momentum: -0.884616985710219\n• Volatility Compression: 59.60307826381669\n• Is Consolidating: False\n• Breakout Score: 0.21960058226882245\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 10.281510890640348\n• Squeeze Breakout: 4.0\n• Options Quality: 14.843285491419667\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 48.0\n• Squeeze: 63.940461739572505\n• Options: 39.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: GE\n• Strike Price: $260\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $15.8\n• Ask: $16.25\n• Last: $16.31\n• Mid: $16.025\n• Spread: 2.769230769230769230769230769%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6296\n• Gamma: 0.0128\n• Theta: -0.1224\n• Vega: 0.3838\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2906\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 631\n• Open Interest: 285\n• Volume/OI Ratio: 2.2140350877192985\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: GE Aerospace\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $7.01\n• Profit Margin: 18.6%\n• ROE: 39.6%\n• P/E Ratio: 38.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T19:48:15+00:00: Korean Air expected to announce order for about 100 Boeing airplanes, sources sa...\n• 2025-08-25T18:33:00+00:00: David Gardner on &amp;quot;Rule Breaker Investing&amp;quot;...\n• 2025-08-25T17:22:36+00:00: NANO Nuclear Energy Inc. (NNE) Has Gained 89% Since Jim Cramer Said It “Loses A ...\n• 2025-08-25T17:21:59+00:00: NuScale Power Corporation (SMR) Is A Nuclear Power Stock That Jim Cramer Was Wro...\n• 2025-08-25T17:21:10+00:00: GE Vernova Inc. (GEV) Is A Nuclear Power Stock Jim Cramer Was Right About...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR GE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the GE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:27:13.178762",
+    "estimated_tokens": 2343
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"GE\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"GE shows moderate technical strength with price above both SMAs and positive long-term momentum, but faces near-term momentum deterioration. The presence of a volatility squeeze across multiple timeframes suggests potential for a significant move, though current momentum signals caution.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze setup (3 concurrent squeezes) with 59.6% compression\",\n        \"Strong fundamentals with 18.6% profit margin and 39.6% ROE\",\n        \"Price maintaining above both 50 and 200 SMAs (259.79 and 212.30)\"\n    ],\n    \"risks\": [\n        \"Negative 21-day momentum (-1.83%) and declining momentum acceleration (-16.36)\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Relatively high P/E ratio of 38.0x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread strategy to reduce theta exposure while maintaining upside potential\",\n        \"entry_timing\": \"Wait for momentum stabilization before entry given current negative short-term momentum\",\n        \"risk_management\": \"Consider 260 strike as support level, position size should account for upcoming earnings event\"\n    },\n    \"red_flags\": [\n        \"Negative short-term momentum acceleration\",\n        \"Earnings report in approximately 35 days\"\n    ],\n    \"notes\": \"Options spread of 2.77% and moderate Volume/OI ratio of 2.21 indicate acceptable but not optimal liquidity conditions\"\n}",
+    "parsed_analysis": {
+      "symbol": "GE",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "GE shows moderate technical strength with price above both SMAs and positive long-term momentum, but faces near-term momentum deterioration. The presence of a volatility squeeze across multiple timeframes suggests potential for a significant move, though current momentum signals caution.",
+      "opportunities": [
+        "Multiple timeframe squeeze setup (3 concurrent squeezes) with 59.6% compression",
+        "Strong fundamentals with 18.6% profit margin and 39.6% ROE",
+        "Price maintaining above both 50 and 200 SMAs (259.79 and 212.30)"
+      ],
+      "risks": [
+        "Negative 21-day momentum (-1.83%) and declining momentum acceleration (-16.36)",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Relatively high P/E ratio of 38.0x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread strategy to reduce theta exposure while maintaining upside potential",
+        "entry_timing": "Wait for momentum stabilization before entry given current negative short-term momentum",
+        "risk_management": "Consider 260 strike as support level, position size should account for upcoming earnings event"
+      },
+      "red_flags": [
+        "Negative short-term momentum acceleration",
+        "Earnings report in approximately 35 days"
+      ],
+      "notes": "Options spread of 2.77% and moderate Volume/OI ratio of 2.21 indicate acceptable but not optimal liquidity conditions"
+    },
+    "tokens_used": 2577,
+    "cost": 0.025769999999999998,
+    "response_time": 10.52353024482727,
+    "success": true
+  },
+  "cost": 0.025769999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8572,
+    "response_length": 1739
+  }
+}

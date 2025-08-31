@@ -1,0 +1,108 @@
+# Core application dependencies
+# Requires Python 3.11 or higher
+
+# Async HTTP and web framework
+aiohttp>=3.9.0
+asyncio-throttle>=1.0.0
+
+# Data validation and models
+pydantic>=2.0.0
+typing-extensions>=4.5.0
+
+# Data processing and analysis
+pandas>=2.1.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Financial calculations
+# TA-Lib>=0.4.25  # Requires system libraries, commented for now
+# yfinance>=0.2.0  # Optional, commented for now
+
+# API clients
+anthropic>=0.7.0
+requests>=2.31.0
+httpx>=0.25.0
+
+# Database and caching  
+# aiosqlite>=0.19.0  # Optional for now
+# redis>=5.0.0  # Optional for now
+diskcache>=5.6.0
+
+# Configuration and environment
+python-dotenv>=1.0.0
+# pydantic-settings is included in pydantic v2
+
+# Logging and monitoring
+loguru>=0.7.0
+structlog>=23.2.0
+rich>=13.7.0
+
+# Job scheduling and task management
+# apscheduler>=3.10.0  # Optional for now
+# celery>=5.3.0  # Optional for now
+
+# Testing framework
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-xdist>=3.3.0
+
+# Development tools
+black>=23.9.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.6.0
+pre-commit>=3.5.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
+
+# Performance and profiling
+memory-profiler>=0.61.0
+line-profiler>=4.1.0
+py-spy>=0.3.14
+
+# Retry and resilience
+tenacity>=8.2.0
+backoff>=2.2.0
+
+# Time and date handling
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Encryption and security
+cryptography>=41.0.0
+bcrypt>=4.1.0
+
+# File handling and compression
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Network and HTTP utilities
+urllib3>=2.0.0
+certifi>=2023.7.0
+
+# JSON handling and serialization
+orjson>=3.9.0
+ujson>=5.8.0
+
+# Environment detection
+python-environ>=0.4.54
+
+# Async utilities
+asyncio-mqtt>=0.15.0
+aiofiles>=23.2.0
+
+# Memory and resource management
+psutil>=5.9.0
+resource-monitor>=1.0.0
+
+# Docker and deployment
+gunicorn>=21.2.0
+uvicorn>=0.24.0
+
+# Metrics and monitoring
+prometheus-client>=0.18.0
+statsd>=4.0.0

@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "UPS",
+  "timestamp": "2025-08-30T08:30:48.574012",
+  "data_package": {
+    "metadata": {
+      "symbol": "UPS",
+      "package_timestamp": "2025-08-30T08:30:39.009533",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "UPS",
+        "current_price": 87.44,
+        "overall_score": 50.239939426987284,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 94.5632,
+        "sma_200": 109.2388
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.4856081708449411,
+        "momentum_63d": -10.35472626614723,
+        "momentum_126d": -26.539527850121818,
+        "momentum_acceleration": 11.84033443699217,
+        "roc_21d": 1.4856081708449411,
+        "trend_strength_20d": 0.24341958490916102,
+        "trend_direction": -1,
+        "ma_ribbon_score": 46.70504614392314,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0031088804655915237
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": 0.5497629629714391,
+        "volatility_compression": 70.43387833547355,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 8.330625713135005,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20.323168794326254,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 53.0,
+        "squeeze": 60.565081750321035,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 13,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "UPS",
+        "strike_price": "85",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7",
+        "ask": "7.1",
+        "last_price": "7.1",
+        "mid_price": "7.05",
+        "spread_percent": "1.408450704225352112676056338"
+      },
+      "greeks": {
+        "delta": 0.5803,
+        "gamma": 0.0246,
+        "theta": -0.042,
+        "vega": 0.1632
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3797
+      },
+      "liquidity_metrics": {
+        "volume": 351,
+        "open_interest": 1045,
+        "volume_oi_ratio": 0.33588516746411484
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:28.381992",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T14:54:00+00:00",
+            "title": "Revenue Woes Continue to Plague UPS: Is a Turnaround on the Horizon?",
+            "content": "United Parcel Service UPS is currently suffering from revenue weakness as geopolitical uncertainty and high inflation continue to hurt consumer sentiment and growth expectations. The weak demand scenario due to the economic slowdown has also led to a decline in the volume of packages shipped.\n\nAverage daily volumes on a consolidated basis declined 3.8% year over year in the first half of 2025. Driven by sluggish volumes, total revenues at UPS fell 1.7% year over year in the first six months of 2025. Volumes are expected to remain subdued at least in the near term. UPS’ decision, taken earlier this year, to trim the business with Amazon AMZN is likely to keep near-term volumes subdued. UPS’ management had reached an agreement in principle with Amazon to lower the latter’s volume by more than 50% by June 2026. According to Carol Tome, UPS’ chief executive officer, Amazon was not its most profitable customer. We expect the consolidated average daily volumes to decline by 9.4% in 2025 from 2024’s actuals.\n\nThe trade-related economic uncertainty adds to UPS’ woes. While releasing its second-quarter 2025 results, UPS did not unveil any revenue or operating profit guidance for 2025, citing macroeconomic uncertainty. Volatility is likely to persist in the U.S. stock market going forward due to uncertainty over the timing of the next interest rate cut, new tariffs and ongoing geopolitical tensions. This is likely to keep UPS’ top line under pressure for at least the rest of the year despite its cost-cutting efforts.\n\nUPS’ rival FedEx FDX is also cutting costs to combat the weak demand scenario. FedEx reportedly will lay off more than 480 employees as it reshuffles operations through the Network 2.0 initiative. In the second quarter of 2023, FedEx announced DRIVE, a comprehensive program to improve its long-term profitability. The DRIVE program resulted in $1.8 billion in permanent savings in fiscal 2024. The program resulted in further $2.2 billion cost savings in fiscal 2025. These cost reduction initiatives include reducing flight frequencies, parking aircraft and cutting staff.\n\nUPS’ Price Performance, Valuation & Estimates\n\nShares of UPS have declined in excess of 30% so far this year, underperforming its industry.\n\nYTD Price ComparisonZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, UPS trades at a 12-month forward price-to-earnings ratio of 12.28X, nearly in line with industrial levels.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for UPS’ third-quarter 2025, fourth-quarter 2025, full-year 2025 and full-year 2026 earnings has been revised downward over the past 60 days.\n\nStory Continues\n\nZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nUPS’ Zacks Rank\n\nUPS currently carries a Zacks Rank #4 (Sell).\n\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmazon.com, Inc. (AMZN) : Free Stock Analysis Report\n\nUnited Parcel Service, Inc. (UPS) : Free Stock Analysis Report\n\nFedEx Corporation (FDX) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T03:00:00+00:00",
+            "title": "A Guide to Shopping Online After De Minimis Tariff Rule Ends",
+            "content": "Tariffs will now be applied to all e-commerce packages entering the U.S. Expect to see prices go up—or your options shrink.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T19:19:28+00:00",
+            "title": "$800 Duty-Free Shopping Is Over -- U.S. Tariff Shock Set to Hit Millions of Online Shoppers",
+            "content": "This article first appeared on GuruFocus.\n\nAnalysts and industry experts warn that the U.S. government's decision to end the long-standing de minimis exemption could significantly reshape global e-commerce flows. Starting Friday, parcels valued under $800, which for years entered the U.S. duty-free, will now be subject to tariffs under President Donald Trump's trade measures. In fiscal 2024, nearly 1.4 billion low-value parcels averaging 3.7 million a day entered the U.S. without duties, fueling rapid growth for platforms like Amazon.com Inc. and Shein. With the exemption gone, analysts suggest the cost structure for cross-border online shopping could change materially, especially as consumers face new import fees and delivery delays.\n\nWarning! GuruFocus has detected 5 Warning Sign with UNH. Is FDX fairly valued? Test your thesis with our free DCF calculator.\n\nLogistics specialists highlight two immediate scenarios under the revised policy. Parcels will either be taxed according to Trump-era country-of-origin tariff rates or assessed a temporary flat fee of $80 to $200 per item for the next six months. However, with limited regulatory clarity, global postal services and sellers are pausing U.S. shipments until they receive further instructions, creating friction in an already complex supply chain. Small businesses are among the most exposed, faced with a choice between suspending U.S. orders or shifting to higher-cost express carriers like UPS (NYSE:UPS) and FedEx Corp (NYSE:FDX). According to logistics consultant Derek Lossing, rerouted volumes from halted postal channels could increase pressure on private carriers and may introduce pricing volatility in the near term.\n\nConsumer impact is already visible. Louisiana gamer Chris Pawlukiewicz faced a $934 tariff bill on computer parts ordered from Germany, ultimately paying around 75% of the original purchase price after brokers' fees. Similarly, Alabama college student Josh Gachera received a $190 FedEx invoice weeks after buying $1,029 Italian-made boots from Canada. Trade specialists suggest this is a preview of what's ahead for millions of cross-border shoppers and small retailers navigating the shift. While large e-commerce platforms with stronger infrastructure may absorb some of the cost pressures, analysts note that smaller sellers could struggle to remain competitive if tariffs persist. The next six months could be a critical transition period for retailers, carriers, and consumers alike as global trade patterns adjust to a new regulatory framework.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T15:30:14+00:00",
+            "title": "Why Is UPS (UPS) Up 0.8% Since Last Earnings Report?",
+            "content": "It has been about a month since the last earnings report for United Parcel Service (UPS). Shares have added about 0.8% in that time frame, underperforming the S&P 500.\n\nBut investors have to be wondering, will the recent positive trend continue leading up to its next earnings release, or is UPS due for a pullback? Before we dive into how investors and analysts have reacted as of late, let's take a quick look at its most recent earnings report in order to get a better handle on the important drivers.\n\nEarnings Miss at UPS in Q2\n\nQuarterly earnings per share of $1.55 missed the Zacks Consensus Estimate by a penny and declined 13.4% year over year. Revenues of $21.2 billion surpassed the Zacks Consensus Estimate of $20.8 billion but decreased 2.7% year over year.\n\nOther Aspects of Q2 Earnings Report\n\nU.S. Domestic Package revenues of $14.08 billion declined 0.8% year over year, owing to the expected decline in volume, partially offset by increases in air cargo and revenue per piece. The actual segmental sales figure was higher than our estimation of $13.86 billion. Segmental operating profit (adjusted) fell 1.4% year over year to $982 million. The adjusted operating margin for the segment was 7%.\r\n\r\nRevenues in the International Package division totaled $4.48 billion, which increased 2.6% year over year, owing to a 3.9% increase in average daily volume. The actual segmental sales figure was higher than our estimation of $4.28 billion. Segmental operating profit (adjusted) totaled $682 million, down 17.2% year over year. The adjusted operating margin for the segment was 15.2%.\r\n\r\nSupply Chain Solutions’ revenues of $2.65 billion decreased 18.3% year over year, owing to the impact of the third quarter of 2024 divestiture of Coyote. The actual segmental sales figure was below our estimation of $2.82 billion. Operating profit (on an adjusted basis) fell 13.1% year over year to $212 million. The adjusted operating margin for the segment was 8%.\r\n\r\nThe overall adjusted operating margin was 8.8%.\n\nOutlook\n\nCiting the current macroeconomic uncertainty, UPS did not unveil any revenue or operating profit guidance for 2025. UPS is affirming 2025 guidance for the following metrics.\r\n\r\nCapital expenditures are estimated to be around $3.5 billion, with dividend payments expected to be around $5.5 billion (subject to board approval) and share repurchases of around $1.0 billion (which have been completed).\r\n\r\nThe effective tax rate is expected to be around 23.5%.\r\n\r\nUPS expects to witness $3.5 billion in reductions in expenses due to its network reconfiguration and Efficiency Reimagined initiatives.\n\nStory Continues\n\nHow Have Estimates Been Moving Since Then?\n\nIn the past month, investors have witnessed a downward trend in fresh estimates.\n\nThe consensus estimate has shifted -15.64% due to these changes.\n\nVGM Scores\n\nCurrently, UPS has a subpar Growth Score of D, a score with the same score on the momentum front. However, the stock has a score of B on the value side, putting it in the top 40% for value investors.\n\nOverall, the stock has an aggregate VGM Score of C. If you aren't focused on one strategy, this score is the one you should be interested in.\n\nOutlook\n\nEstimates have been broadly trending downward for the stock, and the magnitude of these revisions indicates a downward shift. It's no surprise UPS has a Zacks Rank #4 (Sell). We expect a below average return from the stock in the next few months.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nUnited Parcel Service, Inc. (UPS) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T09:15:00+00:00",
+            "title": "Guidehouse Research Estimates Annual UPS Capacity Additions in Data Centers Will Grow to Nearly 30 GW by 2034",
+            "content": "Key drivers for ESS adoption include the need for IT system resilience and operational cost management\n\nBOULDER, Colo., Aug. 28, 2025 /PRNewswire/ -- A new report from Guidehouse Research analyzes the global market for energy storage systems (ESS) in data centers.(PRNewsfoto/Guidehouse Insights)\n\nThe market is defined by both established use cases and emerging opportunities. Short-duration uninterruptible power supplies (UPS) are nearly ubiquitous in data centers today, while interest in longer-duration, large-scale ESS is growing—particularly among hyperscalers seeking to meet energy goals. According to a new report from Guidehouse Research, annual UPS capacity additions in data centers are expected to grow globally from 7.7 GW in 2025 to 29.5 GW in 2034, representing a CAGR of 16.1%.\n\n\"As global data center development accelerates, the UPS market is expected to grow in tandem, while large-scale ESS adoption will depend on overcoming physical, financial, and policy-related constraints,\" said Grant Samms, research analyst with Guidehouse Research. \"However, high costs, regulatory uncertainty, scalability limitations, and aging grid infrastructure pose significant challenges, especially for long-duration energy storage (LDES).\"\n\nSeveral key factors are driving ESS adoption in data centers, led by the need to ensure IT system resilience and reliability, which underpins the widespread use of UPS. Resilience goals are also fueling interest in large-scale ESS as operators work to reduce emissions and integrate renewable energy, while cost management opportunities such as peak shaving, load shifting, and participation in grid services markets add further incentive. However, significant barriers remain—particularly for LDES—including high capital costs, policy uncertainty such as trade actions and incentive volatility, and integration challenges with aging grid infrastructure. Safety concerns around Li-ion batteries, though beginning to ease, still contribute to hesitancy among some operators, according to the report.\n\nThe report, Energy Storage Systems for Data Centers, analyzes the market for energy storage systems in data centers over the next decade. Analyses are segmented by world region, storage technology, and data center tier, and include both capacity and revenue projections. An executive summary of the report is available for free download on the Guidehouse Research website.\n\nAbout Guidehouse Research\n\nGuidehouse Research, the dedicated market intelligence arm of Guidehouse, provides research, data, and benchmarking services for today's rapidly changing and highly regulated industries. Our insights are built on in-depth analysis of global clean technology markets. The team's research methodology combines supply-side industry analysis, end-user primary research, and demand assessment, paired with a deep examination of technology trends, to provide a comprehensive view of emerging resilient infrastructure systems. Additional information about Guidehouse Research can be found at guidehouseresearch.com.\n\nStory Continues\n\nAbout Guidehouse\n\nGuidehouse is a global AI-led professional services firm delivering advisory, technology, and managed services to the commercial and government sectors. With an integrated business technology approach, Guidehouse drives efficiency and resilience in the healthcare, financial services, energy, infrastructure, and national security markets. Built to help clients across industries outwit complexity, the firm brings together approximately 18,000 professionals to achieve lasting impact and shape a meaningful future. guidehouse.com\n\n* The information contained in this press release concerning the report, Energy Storage Systems for Data Centers, is a summary and reflects the current expectations of Guidehouse Research based on market data and trend analysis. Market predictions and expectations are inherently uncertain and actual results may differ materially from those contained in this press release or the report. Please refer to the full report for a complete understanding of the assumptions underlying the report's conclusions and the methodologies used to create the report. Neither Guidehouse Research nor Guidehouse undertakes any obligation to update any of the information contained in this press release or the report.\n\nFor more information, contact:\n\nCecile Fradkin for Guidehouse Research\r\n+1.646.941.9139\r\ncfradkin@scprgroup.comCision\n\nView original content to download multimedia:https://www.prnewswire.com/news-releases/guidehouse-research-estimates-annual-ups-capacity-additions-in-data-centers-will-grow-to-nearly-30-gw-by-2034-302536372.html\n\nSOURCE Guidehouse Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "United Parcel Service Inc",
+          "sector": "Industrials",
+          "industry": "Integrated Freight & Logistics",
+          "employees": 490000,
+          "description": "United Parcel Service, Inc., a package delivery and logistics provider, offers transportation and delivery services. It operates through two segments, U.S. Domestic Package and International Package. The U.S. Domestic Package segment offers time-definite delivery services for express letters, docume"
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.72,
+          "profit_margin": 0.0635,
+          "operating_margin": 0.0902,
+          "roe": 0.3491,
+          "roa": 0.07,
+          "revenue_growth_yoy": -0.027,
+          "earnings_growth_yoy": -0.083,
+          "eps_estimate_current_year": 6.5691,
+          "eps_estimate_next_year": 7.3225,
+          "dividend_yield": 0.0749,
+          "dividend_per_share": 6.54,
+          "revenue_ttm": 90312998912,
+          "revenue_per_share": 106.063,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 13.0119,
+          "forward_pe": 13.5318,
+          "price_to_sales": 0.8206,
+          "price_to_book": 4.7055,
+          "enterprise_value": 96734489495,
+          "ev_to_revenue": 1.0711,
+          "ev_to_ebitda": 8.1888
+        },
+        "technical_data": {
+          "beta": 1.097,
+          "52_week_high": 136.3644,
+          "52_week_low": 82.7179,
+          "50_day_ma": 94.5632,
+          "200_day_ma": 109.2388,
+          "short_interest": 0.0269,
+          "short_ratio": 2.25
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 6.56,
+          "forward_dividend_yield": 0.075,
+          "payout_ratio": 0.8675,
+          "dividend_date": "2025-09-04",
+          "ex_dividend_date": "2025-08-18",
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.8438,
+          "target_price": 104.6333,
+          "strong_buy": 14,
+          "buy": 3,
+          "hold": 12,
+          "sell": 2,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 736043008,
+          "percent_institutions": 69.462,
+          "percent_insiders": 0.036000000000000004,
+          "shares_float": 735156480
+        },
+        "balance_latest_sheet": {
+          "total_assets": 70923.0,
+          "total_debt": 28909.0,
+          "cash_and_equivalents": 6194.0,
+          "net_debt": 22715.0,
+          "working_capital": 4610.0,
+          "shareholders_equity": 15750.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.84
+        },
+        "income_latest_statement": {
+          "total_revenue": 21221.0,
+          "gross_profit": 3780.0,
+          "operating_income": 1822.0,
+          "net_income": 1283.0,
+          "ebitda": 2836.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 17.81,
+          "operating_margin": 8.59,
+          "net_margin": 6.05
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 348.0,
+          "free_cash_flow": -775.0,
+          "capex": 1123.0,
+          "net_income": 1283.0,
+          "cash_change": 1392.0,
+          "dividends_paid": -1349.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.36,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 99.56,
+            "high": 99.6,
+            "low": 98.73,
+            "close": 98.9,
+            "volume": 3750200
+          },
+          {
+            "date": "2025-07-22",
+            "open": 99.2,
+            "high": 101.22,
+            "low": 99,
+            "close": 101.14,
+            "volume": 5751700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 101.72,
+            "high": 103.94,
+            "low": 101.4,
+            "close": 103.53,
+            "volume": 5079500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 103.12,
+            "high": 103.5,
+            "low": 102.11,
+            "close": 102.53,
+            "volume": 3676800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 102.87,
+            "high": 104.16,
+            "low": 102.28,
+            "close": 103.56,
+            "volume": 5473600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 103.06,
+            "high": 103.37,
+            "low": 101.28,
+            "close": 101.58,
+            "volume": 7045900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 98.19,
+            "high": 98.19,
+            "low": 90.72,
+            "close": 90.84,
+            "volume": 26112300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 90.79,
+            "high": 91,
+            "low": 87.01,
+            "close": 87.18,
+            "volume": 20976500
+          },
+          {
+            "date": "2025-07-31",
+            "open": 86.9,
+            "high": 87.08,
+            "low": 85.76,
+            "close": 86.16,
+            "volume": 15782000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 85.74,
+            "high": 86.54,
+            "low": 84.28,
+            "close": 84.5,
+            "volume": 11276600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 85.4,
+            "high": 86.11,
+            "low": 84.77,
+            "close": 85.02,
+            "volume": 8579500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 85.02,
+            "high": 87.06,
+            "low": 84.89,
+            "close": 86.78,
+            "volume": 9513400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 86.8,
+            "high": 86.98,
+            "low": 85.73,
+            "close": 86.25,
+            "volume": 6331600
+          },
+          {
+            "date": "2025-08-07",
+            "open": 86.83,
+            "high": 87.67,
+            "low": 86.44,
+            "close": 86.49,
+            "volume": 6839200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 86.5,
+            "high": 87.05,
+            "low": 85.75,
+            "close": 86.67,
+            "volume": 6285100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 87.15,
+            "high": 88.24,
+            "low": 85.73,
+            "close": 86.31,
+            "volume": 8701400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 86.63,
+            "high": 88.28,
+            "low": 86.5,
+            "close": 87.43,
+            "volume": 7308600
+          },
+          {
+            "date": "2025-08-13",
+            "open": 88.11,
+            "high": 88.3,
+            "low": 86.39,
+            "close": 88.18,
+            "volume": 13633200
+          },
+          {
+            "date": "2025-08-14",
+            "open": 87.01,
+            "high": 89.31,
+            "low": 86.66,
+            "close": 88.55,
+            "volume": 12487300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 88.58,
+            "high": 89.41,
+            "low": 88.18,
+            "close": 88.48,
+            "volume": 8897400
+          },
+          {
+            "date": "2025-08-18",
+            "open": 87,
+            "high": 87.44,
+            "low": 86.39,
+            "close": 86.51,
+            "volume": 9385600
+          },
+          {
+            "date": "2025-08-19",
+            "open": 86.85,
+            "high": 88.31,
+            "low": 86.65,
+            "close": 87.8,
+            "volume": 7227600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 87.16,
+            "high": 88.44,
+            "low": 86.88,
+            "close": 86.94,
+            "volume": 7076400
+          },
+          {
+            "date": "2025-08-21",
+            "open": 86.85,
+            "high": 86.92,
+            "low": 85.98,
+            "close": 86.15,
+            "volume": 6193200
+          },
+          {
+            "date": "2025-08-22",
+            "open": 86.45,
+            "high": 89.3,
+            "low": 86.38,
+            "close": 88.82,
+            "volume": 10230700
+          },
+          {
+            "date": "2025-08-25",
+            "open": 88.55,
+            "high": 88.66,
+            "low": 87.48,
+            "close": 87.74,
+            "volume": 6029900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 87.6,
+            "high": 88.27,
+            "low": 87.04,
+            "close": 87.46,
+            "volume": 5478000
+          },
+          {
+            "date": "2025-08-27",
+            "open": 87.61,
+            "high": 88.05,
+            "low": 87.15,
+            "close": 87.86,
+            "volume": 5482200
+          },
+          {
+            "date": "2025-08-28",
+            "open": 88.2,
+            "high": 88.24,
+            "low": 86.46,
+            "close": 87.27,
+            "volume": 8618500
+          },
+          {
+            "date": "2025-08-29",
+            "open": 87.22,
+            "high": 88.54,
+            "low": 87.01,
+            "close": 87.44,
+            "volume": 6834800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.4792899408283997,
+        "return_63d": -10.188989317995071,
+        "pct_above_sma50": -7.532740008798346,
+        "sma_50": 94.5632,
+        "new_55d_high": "False",
+        "high_55d": 106.46,
+        "rsi": 54.55278001611603,
+        "rsi_in_range": "True",
+        "adx": 33.818020013556165,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.9647758462945988,
+        "bb_width": 4.385523575372832,
+        "keltner_width": 7.878941907326108,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 702602921.1,
+        "adv_shares": 8056680.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 43.65379450746126,
+        "final_score": 38.65379450746126,
+        "sub_scores": {
+          "trend_momentum": 8.330625713135005,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20.323168794326254,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 1.485608170844932,
+          "ret_63d": -10.35472626614723,
+          "rsi14": 54.55278001611603,
+          "adx14": 34.002542319542584,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: UPS\n• Current Price: $87.44\n• Overall Score: 50.239939426987284\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 94.5632\n• Sma 200: 109.2388\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.4856081708449411\n• Momentum 63D: -10.35472626614723\n• Momentum 126D: -26.539527850121818\n• Momentum Acceleration: 11.84033443699217\n• Roc 21D: 1.4856081708449411\n• Trend Strength 20D: 0.24341958490916102\n• Trend Direction: -1\n• Ma Ribbon Score: 46.70504614392314\n• Breakout Strength: 0.0\n• Price Velocity: -0.0031088804655915237\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: 0.5497629629714391\n• Volatility Compression: 70.43387833547355\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 8.330625713135005\n• Squeeze Breakout: 4.0\n• Options Quality: 20.323168794326254\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 53.0\n• Squeeze: 60.565081750321035\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: UPS\n• Strike Price: $85\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7\n• Ask: $7.1\n• Last: $7.1\n• Mid: $7.05\n• Spread: 1.408450704225352112676056338%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5803\n• Gamma: 0.0246\n• Theta: -0.042\n• Vega: 0.1632\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3797\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 351\n• Open Interest: 1045\n• Volume/OI Ratio: 0.33588516746411484\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: United Parcel Service Inc\n• Sector: Industrials\n• Industry: Integrated Freight & Logistics\n• EPS (TTM): $6.72\n• Profit Margin: 6.3%\n• ROE: 34.9%\n• P/E Ratio: 13.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T14:54:00+00:00: Revenue Woes Continue to Plague UPS: Is a Turnaround on the Horizon?...\n• 2025-08-29T03:00:00+00:00: A Guide to Shopping Online After De Minimis Tariff Rule Ends...\n• 2025-08-28T19:19:28+00:00: $800 Duty-Free Shopping Is Over -- U.S. Tariff Shock Set to Hit Millions of Onli...\n• 2025-08-28T15:30:14+00:00: Why Is UPS (UPS) Up 0.8% Since Last Earnings Report?...\n• 2025-08-28T09:15:00+00:00: Guidehouse Research Estimates Annual UPS Capacity Additions in Data Centers Will...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR UPS\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the UPS opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:30:48.573690",
+    "estimated_tokens": 2335
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"UPS\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 8,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 8,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"UPS shows mixed signals with deteriorating price trend (below both 50 and 200 SMAs) but exhibits positive momentum acceleration and squeeze potential. Options metrics are favorable with tight spreads and balanced Greeks, though fundamental challenges persist with revenue concerns.\",\n    \"opportunities\": [\n        \"Tight option spreads (1.41%) with good liquidity (1045 OI)\",\n        \"Active volatility squeeze with 70.43% compression and 2 timeframe confirmation\",\n        \"Reasonable valuation with P/E of 13.0 and healthy ROE of 34.9%\"\n    ],\n    \"risks\": [\n        \"Significant downtrend with price well below SMAs (50SMA: 94.56, 200SMA: 109.24)\",\n        \"Negative 126-day momentum (-26.54%)\",\n        \"Upcoming earnings on 2025-09-30 increases event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS Call spread at $85 strike to reduce cost basis while maintaining upside exposure\",\n        \"entry_timing\": \"Wait until after earnings report due to near-term event risk\",\n        \"risk_management\": \"Use 85 strike for better risk/reward, consider rolling position before earnings events\"\n    },\n    \"red_flags\": [\n        \"Earnings report in 30 days presents significant event risk\",\n        \"Persistent revenue concerns noted in recent news coverage\"\n    ],\n    \"notes\": \"While squeeze metrics are positive, the strong downtrend and fundamental headwinds suggest caution. Consider smaller position size and post-earnings entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "UPS",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 8,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 8,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "UPS shows mixed signals with deteriorating price trend (below both 50 and 200 SMAs) but exhibits positive momentum acceleration and squeeze potential. Options metrics are favorable with tight spreads and balanced Greeks, though fundamental challenges persist with revenue concerns.",
+      "opportunities": [
+        "Tight option spreads (1.41%) with good liquidity (1045 OI)",
+        "Active volatility squeeze with 70.43% compression and 2 timeframe confirmation",
+        "Reasonable valuation with P/E of 13.0 and healthy ROE of 34.9%"
+      ],
+      "risks": [
+        "Significant downtrend with price well below SMAs (50SMA: 94.56, 200SMA: 109.24)",
+        "Negative 126-day momentum (-26.54%)",
+        "Upcoming earnings on 2025-09-30 increases event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS Call spread at $85 strike to reduce cost basis while maintaining upside exposure",
+        "entry_timing": "Wait until after earnings report due to near-term event risk",
+        "risk_management": "Use 85 strike for better risk/reward, consider rolling position before earnings events"
+      },
+      "red_flags": [
+        "Earnings report in 30 days presents significant event risk",
+        "Persistent revenue concerns noted in recent news coverage"
+      ],
+      "notes": "While squeeze metrics are positive, the strong downtrend and fundamental headwinds suggest caution. Consider smaller position size and post-earnings entry."
+    },
+    "tokens_used": 2573,
+    "cost": 0.025730000000000003,
+    "response_time": 9.561667203903198,
+    "success": true
+  },
+  "cost": 0.025730000000000003,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8544,
+    "response_length": 1751
+  }
+}

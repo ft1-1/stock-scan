@@ -1,0 +1,612 @@
+{
+  "success": true,
+  "symbol": "WDAY",
+  "timestamp": "2025-08-30T08:32:49.223092",
+  "data_package": {
+    "metadata": {
+      "symbol": "WDAY",
+      "package_timestamp": "2025-08-30T08:32:40.088250",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 61.25,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "WDAY",
+        "current_price": 230.82,
+        "overall_score": 50.09858974358974,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 231.0046,
+        "sma_200": 248.1744
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.6277792309704411,
+        "momentum_63d": -6.818457066731264,
+        "momentum_126d": -12.349054454317606,
+        "momentum_acceleration": 7.446236297701705,
+        "roc_21d": 0.6277792309704411,
+        "trend_strength_20d": 0.14842266094451603,
+        "trend_direction": -1,
+        "ma_ribbon_score": 51.16572141988017,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.008565601309898852
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": 0.750210509991757,
+        "volatility_compression": 38.5,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 8.670022524765464,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.559733333333307,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 59.0,
+        "momentum": 55.0,
+        "squeeze": 55.775,
+        "options": 36.5,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "ranking": 15,
+        "percentile": 99.1
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "WDAY",
+        "strike_price": "230",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "11.1",
+        "ask": "11.3",
+        "last_price": "11",
+        "mid_price": "11.2",
+        "spread_percent": "1.769911504424778761061946903"
+      },
+      "greeks": {
+        "delta": 0.5548,
+        "gamma": 0.0155,
+        "theta": -0.1174,
+        "vega": 0.3318
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3036
+      },
+      "liquidity_metrics": {
+        "volume": 25,
+        "open_interest": 374,
+        "volume_oi_ratio": 0.06684491978609626
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:34.010814",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T17:37:59+00:00",
+            "title": "High Growth Tech Stocks To Watch In US August 2025",
+            "content": "In August 2025, the United States stock market has been experiencing a mixed performance, with major indices like the Dow Jones Industrial Average and S&P 500 retreating slightly from record highs due to a pullback in tech stocks. Despite this volatility, high growth tech stocks remain an area of interest for investors seeking opportunities in sectors driven by innovation and robust demand dynamics.\n\nTop 10 High Growth Tech Companies In The United States\n\nName Revenue Growth Earnings Growth Growth Rating ADMA Biologics 20.60% 23.25% ★★★★★☆ Palantir Technologies 25.17% 31.57% ★★★★★★ Workday 11.51% 29.07% ★★★★★☆ Circle Internet Group 27.36% 78.79% ★★★★★☆ OS Therapies 57.14% 70.11% ★★★★★☆ RenovoRx 65.52% 68.63% ★★★★★☆ Monopar Therapeutics 76.01% 54.38% ★★★★★☆ Gorilla Technology Group 27.68% 129.58% ★★★★★☆ Vanda Pharmaceuticals 22.66% 59.11% ★★★★★☆ Aldeyra Therapeutics 42.88% 74.81% ★★★★★☆\n\nClick here to see the full list of 68 stocks from our US High Growth Tech and AI Stocks screener.\n\nHere's a peek at a few of the choices from the screener.\n\nAldeyra Therapeutics\n\nSimply Wall St Growth Rating: ★★★★★☆\n\nOverview: Aldeyra Therapeutics, Inc. is a biotechnology company focused on discovering and developing therapies for immune-mediated and metabolic diseases, with a market capitalization of $350.39 million.\n\nOperations: Aldeyra Therapeutics focuses on developing therapies for immune-mediated and metabolic diseases. The company's market capitalization stands at $350.39 million, highlighting its position within the biotechnology sector.\n\nAldeyra Therapeutics, despite its current unprofitability, is poised for significant growth with an expected annual profit increase of 74.8% and revenue growth forecast at 42.9% per year, outpacing the US market average of 9.4%. Recent strategic moves include receiving EMA Orphan Designation for ADX-2191 to treat rare lymphomas and FDA Fast Track Designation for retinitis pigmentosa treatments, underscoring its focus on addressing unmet medical needs in ophthalmology. The company's innovative approach in drug development aims to optimize multiple pathways while minimizing toxicity, setting a solid foundation for future profitability and industry impact.\n\nClick to explore a detailed breakdown of our findings in Aldeyra Therapeutics' health report. Evaluate Aldeyra Therapeutics' historical performance by accessing our past performance report.ALDX Revenue and Expenses Breakdown as at Aug 2025\n\nTaskUs\n\nSimply Wall St Growth Rating: ★★★★☆☆\n\nOverview: TaskUs, Inc. is a company that offers outsourced digital services globally, including in the Philippines, the United States, and India, with a market cap of $1.56 billion.\n\nStory Continues\n\nOperations: The company generates revenue primarily through its direct marketing segment, which accounts for $1.10 billion. TaskUs operates in multiple countries, focusing on providing outsourced digital services to a global clientele.\n\nTaskUs has demonstrated robust financial performance, with a notable 24.6% growth in earnings over the past year, outstripping the Professional Services industry's average of 11.3%. This growth trajectory is supported by an expected annual revenue increase of 11.5%, which surpasses the broader U.S market expectation of 9.4%. Additionally, TaskUs has strategically enhanced shareholder value through a recent buyback program where it repurchased shares worth $188.07 million, reflecting confidence in its operational stability and future prospects despite facing legal challenges that are poised for settlement later this year.\n\nDive into the specifics of TaskUs here with our thorough health report. Examine TaskUs' past performance report to understand how it has performed in the past.TASK Revenue and Expenses Breakdown as at Aug 2025\n\nOlo\n\nSimply Wall St Growth Rating: ★★★★☆☆\n\nOverview: Olo Inc. provides an open SaaS platform tailored for the restaurant industry in the United States, with a market capitalization of approximately $1.73 billion.\n\nOperations: The company generates revenue primarily from its Internet Software & Services segment, amounting to $314.33 million.\n\nDespite recent unprofitability, Olo stands out with a projected annual revenue growth of 15.6%, significantly surpassing the US market forecast of 9.4%. This growth is supported by an anticipated earnings increase of 130.64% per year, positioning Olo for potential profitability within three years. The company's focus on innovative software solutions is evident from its R&D investments, which are crucial for maintaining competitive edge in the fast-evolving tech landscape. Recent developments include a significant acquisition by Thoma Bravo for approximately $1.9 billion, underscoring confidence in Olo's strategic value and future prospects in digital ordering systems.\n\nNavigate through the intricacies of Olo with our comprehensive health report here. Gain insights into Olo's historical performance by reviewing our past performance report.OLO Earnings and Revenue Growth as at Aug 2025\n\nKey Takeaways\n\nClick this link to deep-dive into the 68 companies within our US High Growth Tech and AI Stocks screener. Have a stake in these businesses? Integrate your holdings into Simply Wall St's portfolio for notifications and detailed stock reports. Maximize your investment potential with Simply Wall St, the comprehensive app that offers global market insights for free.\n\nSearching for a Fresh Perspective?\n\nExplore high-performing small cap companies that haven't yet garnered significant analyst attention. Fuel your portfolio with companies showing strong growth potential, backed by optimistic outlooks both from analysts and management. Find companies with promising cash flow potential yet trading below their fair value.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include ALDXTASK and OLO.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T18:16:36+00:00",
+            "title": "Analysts Think This Hidden-Gem AI Stock Can Soar 50% From Here",
+            "content": "Workday (WDAY) is accelerating its artificial intelligence (AI) push, coming off a strong second-quarter performance marked by double-digit revenue growth and a surging backlog. The company is doubling down on innovation with the acquisition of Flowise, enabling it to provide customers with the tools to quickly build and deploy tailored AI agents for HR and finance. Additionally, the firm's landmark deal for Paradox’s conversational AI is set to revolutionize frontline hiring.\n\nAt the same time, sentiment around AI adoption is shifting, as nearly 75% of workers say they’re comfortable teaming up with AI agents as collaborators. With both technological momentum and cultural readiness aligning, analysts believe WDAY stock has the potential to soar by as much as 50%.\n\nMore News from Barchart\n\nDear Broadcom Stock Fans, Mark Your Calendars for September 4 After a 222% Surge, Is SoFi Stock Headed Even Higher? CEO Alex Karp Just Sold $60 Million in Palantir Stock. Should You Ditch PLTR Here Too? Tired of missing midday reversals? The FREE Barchart Brief newsletter keeps you in the know. Sign up now!\n\nAbout Workday Stock\n\nWorkday is a leading enterprise software company headquartered in Pleasanton, California, specializing in cloud-based financial management and human capital management solutions with an expanding presence across global markets. Its market capitalization is around $61 billion, reflecting its stature as a prominent large-cap SaaS vendor.\n\nWorkday’s stock has had a notably choppy performance in 2025. While the company delivered a strong Q2 performance, the market responded tepidly to cautiously soft Q3 guidance, resulting in a drop after the earnings release. On a year-to-date (YTD) basis, Workday shares have declined 11%, reflecting broader investor concern over AI-related pressures and subscription growth dynamics.\n\nThere is growing anxiety that AI could erode Workday’s traditional model. While the company is aggressively integrating AI through acquisitions like Paradox and its development of AI agents, market concerns persist about slower adoption rates and long-term disruption risks.\n\nWDAY stock has also slumped 4% over the past month and remains 22% below its 52-week high of $294.www.barchart.com\n\nWhile the stock is currently trading at 63 times forward earnings — a premium compared to its peers despite the selloff — it is currently trading below its own historical average.\n\nWorkday’s Q2 Results Surpassed Projections\n\nWorkday released its fiscal Q2 2026 results on Aug. 21, reporting total revenue of $2.4 billion, a 12.6% year-over-year (YOY) increase and higher than the consensus estimate, while subscription revenue rose 14% YOY to $2.2 billion.\n\nWeiterlesen\n\nProfitability also improved significantly with non-GAAP operating income surging to $680 million, or 29% of revenue. Net income climbed 73% YOY to $228 million, translating to a non-GAAP EPS of $2.21, well above last year’s $1.75 and above analysts’ expectations. The 12-month subscription backlog grew 16.4% to $7.9 billion, reinforcing future revenue visibility.\n\nWorkday is advancing its AI strategy with two significant acquisitions of Flowise and Paradox, a conversational AI recruitment agent, both aimed at accelerating its AI-led talent acquisition solutions.\n\nThe company has also been expanding its ecosystem, launching the Workday Agent Partner Network, unveiling Workday Government, strengthening its Indian presence with a local data center and leadership appointments, and securing new customers like Banamex and Carrefour while expanding ties with Alphabet (GOOGL) and Qantas.\n\nFurther, Workday updated its full-year fiscal 2026 subscription revenue guidance to $8.8 billion (14.2% growth) and non-GAAP operating margin guidance to 29%. However, the company set Q3 subscription expectations at $2.2 billion, representing growth of 14.1% and a 28% non-GAAP operating margin.\n\nAnalysts remain optimistic, as they predict EPS to be around $3.52 for the current fiscal year, up 108% YOY, before surging by another 36.4% annually to $4.80 in the next fiscal year.\n\nWhat Do Analysts Expect for Workday Stock?\n\nWorkday has started to attract renewed attention from analysts. On Aug. 22, TD Cowen reiterated its “Buy” rating on Workday with a $310 price target, praising the company’s latest earnings as a “clean print” that showed a return to strong cRPO growth. The firm highlighted growing AI traction, the Paradox acquisition, and stable macro trends outside the SLED sector.\n\nRBC Capital also reaffirmed its “Outperform” rating and $340 price target on Workday after its Q2 report, noting strong upside potential, and citing early AI adoption and growing momentum in Workday’s partner ecosystem.\n\nOn the other hand, some analysts have largely trimmed expectations on WDAY stock despite generally maintaining favorable ratings. KeyBanc cut its price target on Workday to $285 from $325 but kept an “Overweight” rating, citing uncertainty around the company’s near- to mid-term growth outlook despite a strong Q2 beat.\n\nBernstein lowered its price target on Workday to $304 from $325 as well, but kept an “Outperform” rating, as the firm characterized the recent company guidance as “unimpressive.”\n\nOverall, WDAY stock has a consensus “Moderate Buy” rating. Of the 38 analysts covering the stock, 24 advise a “Strong Buy,” three suggest a “Moderate Buy,” 10 analysts are on the sidelines with a “Hold” rating, and one has a “Strong Sell” rating.\n\nThe average analyst price target for WDAY is $279.86, indicating a potential upside of 22%. The Street-high target price of $340 suggests that the stock could rally as much as 49%.www.barchart.com\n\nOn the date of publication, Subhasree Kar did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\nKommentare anzeigen",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T12:47:00+00:00",
+            "title": "Benepass Named a Strategic Workday Wellness Partner to Streamline and Improve Modern Wellbeing Benefits",
+            "content": "NEW YORK, Aug. 28, 2025 /PRNewswire/ -- Benepass, the leading spending accounts administrator, today announced a strategic partnership with Workday (NASDAQ: WDAY) to become a Workday Wellness partner for financial benefits. Through this partnership, Benepass will integrate directly with Workday Wellness, an AI-powered solution that helps organizations deliver more personalized, impactful employee benefits programs.Benepass Logo\n\nWorkday Wellness revolutionizes employee benefits experiences by offering a real-time view into the benefits and wellness offerings employees use and value most. This partnership will deliver greater administrative efficiency for employers and provide actionable insights that maximize engagement with both employers and employees. Employers will gain powerful tools to measure effectiveness of their benefit offerings and dynamically adapt those benefits to better meet their employees' needs.\n\nBenepass brings real-time connectivity and automation to pre-tax and post-tax spending accounts, including lifestyle, wellness, tuition reimbursement, commuter, FSA, and HSA. The integration is powered by Benepass Connect, its next-generation data infrastructure that standardizes employer eligibility data and syncs it across systems in real time. Benepass Connect adapts to each customer's specific business rules, data formats, and update frequencies. This eliminates the rigidity of traditional file feeds and enables seamless coordination with platforms like Workday.\n\n\"We're thrilled to join the Workday Wellness ecosystem,\" said Jaclyn Chen, CEO at Benepass. \"Employers today are seeking benefit solutions that are flexible, inclusive, and personalized. Together with Workday, and through Benepass Connect, we're making it even easier for companies to offer modern benefits that resonate with today's workforce while reducing administrative complexity. Our product aligns closely with Workday's focus on insight-driven HR, enabling admins to better understand what employees value based on how they use their benefits.\"\n\nThe partnership will enable HR and benefits teams to monitor program effectiveness in real time, identify underutilized offerings, and make informed decisions that boost employee engagement and satisfaction. Employees, in turn, will benefit from intuitive access to their Benepass benefits directly within Workday. This will help drive higher utilization and a more cohesive wellness experience.\n\nBenepass is also a Workday Ventures Partner. Its platform supports more than 400,000 users across 80+ countries, with over $500 million in employee benefits funded. This multifaceted relationship underscores a shared vision for delivering modern, integrated benefits solutions that support today's evolving workforce.\n\nStory Continues\n\nAbout Benepass\n\nBenepass is a benefits capital management platform that helps companies deliver flexible benefits through highly customizable spending and savings accounts. From lifestyle spending accounts and wellness stipends to FSA and HSA, Benepass simplifies benefits administration for HR teams and provides a seamless, personalized experience for employees. Benepass is trusted by leading companies to deliver innovative and impactful benefits programs that support employee wellbeing and engagement.\n\nMedia Contact\n\nJulian Lina\r\nHead of Growth Marketing jlina@getbenepass.comCision\n\nView original content to download multimedia:https://www.prnewswire.com/news-releases/benepass-named-a-strategic-workday-wellness-partner-to-streamline-and-improve-modern-wellbeing-benefits-302540650.html\n\nSOURCE Benepass\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T12:04:57+00:00",
+            "title": "TransUnion says hackers stole 4.4 million customers’ personal information",
+            "content": "Signage outside TransUnion headquarters in Chicago, Illinois, US, on Sunday, Aug. 7, 2022. TransUnion's revenue may rise 28.1% to $3.79 billion in 2022, a bit above consensus bolstered by the acquisition of Verisk Analytics' financial-services unit and strength in its international markets, based on Bloomberg Intelligence analysis. Photographer: Christopher Dilts/Bloomberg | Image Credits:Christopher Dilts / Getty Images\n\nCredit reporting giant TransUnion has disclosed a data breach affecting more than 4.4 million customers’ personal information.\n\nIn a filing with Maine’s attorney general’s office on Thursday, TransUnion attributed the July 28 breach to unauthorized access of a third-party application storing customers’ personal data for its U.S. consumer support operations.\n\nTransUnion claimed “no credit information was accessed,” but provided no immediate evidence for its claim. The data breach notice did not specify what specific types of personal data were stolen.\n\nDavid Blumberg, a spokesperson for TransUnion, did not immediately comment when contacted by TechCrunch.\n\nTransUnion is one of the largest credit reporting agencies in the United States, and stores the financial data of more than 260 million Americans. It’s the latest U.S. corporate giant to have been hacked in recent weeks following a wave of hacks targeting the insurance, retail, and transportation and airline industries.\n\nSeveral companies, including Google, insurance giant Allianz Life, Cisco, and HR giant Workday, reported data breaches of customer data stored in their Salesforce-hosted cloud databases. Following its breach, Google attributed the hacks to an extortion group known as ShinyHunters.\n\nIt’s not clear who is behind the breach at TransUnion, or if the hackers made any demands to the company.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T10:00:00+00:00",
+            "title": "G-P Joins Built on Workday Program",
+            "content": "Customers can build and manage global teams using G-P's AI-powered Employer of Record (EOR) and global HR agent G-P Gia™ directly within Workday\n\nBOSTON, Aug. 28, 2025 /CNW/ -- REMOTE FIRST COMPANY -- G-P (Globalization Partners), recognized as the undisputed leader in global employment by industry analysts, today announced it has joined Built on Workday, a partner program that empowers Workday partners to create and market pre-built apps to solve customers' business and industry challenges. Through the Built on Workday partnership, G-P aims to streamline global employment, empowering customers to seamlessly hire, onboard and manage global talent directly in the Workday platform through G-P's AI-powered global employment solutions, including G-P's AI-powered Employer of Record (EOR) and G-P's global HR agent, G-P Gia.logo (PRNewsfoto/G-P)\n\n\"The future of global work just became more accessible. By joining the Built on Workday program, G-P extends its commitment to innovation with real impact, delivering the technology organizations need to more easily grow and scale into markets around the world,\" said Lori McNally, senior vice president, partners, G-P. \"G-P EOR and G-P Gia will transform how organizations build and manage global teams, removing friction and making global employment faster, smarter and more compliant.\"\n\nThe G-P Developer Platform powers key integrations with leading HCM vendors like Workday, enabling seamless synchronization of workforce data across systems. By allowing developers to effortlessly automate the flow of critical employee information, the platform eliminates manual, repetitive tasks and reduces the risk of errors—enhancing operational efficiency for HR and finance teams while accelerating time-to-value for global workforce management.\n\n\"The G-P Developer Platform is holistic with product APIs, embeddable widgets and developer tools that allow our customers and partners to integrate and extend seamlessly,\" said GK Konduri, senior vice president and head of product, G-P. \"At G-P, our products, built on a serverless, event-driven platform and advanced agentic AI, are extensible with a best in class developer experience, providing a flexible global employment platform to our customers.\"\n\nG-P's AI-powered EOR enables shared Workday and G-P customers to hire in 180+ countries internationally in regions where they do not have an entity. It facilitates the direct integration of global hires into the Workday platform, including demographic details, salary and payslip information and invoices. Any updates to international employee details made in Workday will be automatically reflected in G-P.\n\nStory Continues\n\nAdditionally, the partnership includes an integration with G-P's global HR agent, G-P Gia. Combining G-P's decade of global HR expertise with cutting-edge AI, G-P Gia is designed to be HR's trusted partner, providing guidance on the toughest employment questions, creating contracts and handbooks, analyzing compensation and more in 50 countries and 50 U.S. states. Gia is always up to date with the latest global compliance standards, giving users the confidence to make informed decisions when building and managing global teams.\n\nBuilt on Workday empowers innovation partners to build, manage and deploy apps directly on the Workday platform and deliver them to thousands of customers through Workday Marketplace. This provides partners with opportunities to accelerate and scale their app development while addressing customers' evolving business, industry, and regional challenges.\n\nG-P EOR and G-P Gia will be available soon in the Workday Marketplace. For more information about G-P, visit G-P.com.\n\nAbout G-P G-P (Globalization Partners) is the recognized leader in global employment, ranked No. 1 in every industry analyst report. G-P's global employment platform delivers everything companies of all sizes need to manage the full employee lifecycle with its trusted Global HR Agent, G-P Gia, and AI-powered Employer of Record (EOR) and Contractor products. G-P supports teams in 180+ countries with more than a decade of global employment experience, the largest team of in-country HR, legal, and compliance experts, and its unmatched proprietary knowledge base.\n\nG-P: Global Made Possible™ To learn more, please visit: g-p.com or connect with us via LinkedIn, X, Facebook or check out our Blog.\n\nMedia Contact:\r\ncomms@g-p.comCision\n\nView original content to download multimedia:https://www.prnewswire.com/news-releases/g-p-joins-built-on-workday-program-302540506.html\n\nSOURCE G-PCision\n\nView original content to download multimedia: http://www.newswire.ca/en/releases/archive/August2025/28/c9663.html\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Workday Inc",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "employees": 19517,
+          "description": "Workday, Inc. provides enterprise cloud applications in the United States and internationally. The company offers a suite of financial management applications to maintain accounting information; manage financial processes, such as payables and receivables; identify real-time financial, operational, "
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.15,
+          "profit_margin": 0.0651,
+          "operating_margin": 0.106,
+          "roe": 0.0666,
+          "roa": 0.0282,
+          "revenue_growth_yoy": 0.126,
+          "earnings_growth_yoy": 0.714,
+          "eps_estimate_current_year": 7.1755,
+          "eps_estimate_next_year": 8.4182,
+          "revenue_ttm": 8958999552,
+          "revenue_per_share": 33.663,
+          "most_recent_quarter": "2025-07-31"
+        },
+        "valuation": {
+          "pe_ratio": 107.3581,
+          "forward_pe": 26.3158,
+          "price_to_sales": 6.879,
+          "price_to_book": 6.6517,
+          "enterprise_value": 56599500000,
+          "ev_to_revenue": 6.3176,
+          "ev_to_ebitda": 46.9705
+        },
+        "technical_data": {
+          "beta": 1.238,
+          "52_week_high": 294,
+          "52_week_low": 205.33,
+          "50_day_ma": 231.0046,
+          "200_day_ma": 248.1744,
+          "short_interest": 0.0385,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.2093,
+          "target_price": 279.6194,
+          "strong_buy": 20,
+          "buy": 12,
+          "hold": 11,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 217000000,
+          "percent_institutions": 93.352,
+          "percent_insiders": 0.88,
+          "shares_float": 215023110
+        },
+        "balance_latest_sheet": {
+          "total_assets": 17961.0,
+          "total_debt": 791.0,
+          "net_debt": -473.0,
+          "working_capital": 5462.0,
+          "shareholders_equity": 9172.0,
+          "quarter_date": "2025-07-31",
+          "debt_to_equity": 0.09
+        },
+        "income_latest_statement": {
+          "total_revenue": 2348.0,
+          "gross_profit": 1978.0,
+          "operating_income": 248.0,
+          "net_income": 228.0,
+          "ebitda": 248.0,
+          "quarter_date": "2025-07-31",
+          "gross_margin": 84.24,
+          "operating_margin": 10.56,
+          "net_margin": 9.71
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 616.0,
+          "free_cash_flow": 588.0,
+          "capex": 28.0,
+          "net_income": 228.0,
+          "cash_change": 281.0,
+          "quarter_date": "2025-07-31"
+        }
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 233.27,
+            "high": 235.84,
+            "low": 232.07,
+            "close": 233.71,
+            "volume": 2176300
+          },
+          {
+            "date": "2025-07-22",
+            "open": 234.18,
+            "high": 239.43,
+            "low": 233.75,
+            "close": 239.11,
+            "volume": 2409100
+          },
+          {
+            "date": "2025-07-23",
+            "open": 240,
+            "high": 243.59,
+            "low": 238.32,
+            "close": 241.03,
+            "volume": 1724900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 240.99,
+            "high": 241.51,
+            "low": 236.17,
+            "close": 237.2,
+            "volume": 2115100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 237.96,
+            "high": 242.28,
+            "low": 236.62,
+            "close": 241.74,
+            "volume": 1840600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 241.05,
+            "high": 241.5,
+            "low": 237.64,
+            "close": 238.04,
+            "volume": 1539700
+          },
+          {
+            "date": "2025-07-29",
+            "open": 238.04,
+            "high": 241.75,
+            "low": 237.7,
+            "close": 239.63,
+            "volume": 1910900
+          },
+          {
+            "date": "2025-07-30",
+            "open": 239.91,
+            "high": 240.92,
+            "low": 235.72,
+            "close": 237.68,
+            "volume": 1325200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 236.81,
+            "high": 236.81,
+            "low": 228.52,
+            "close": 229.38,
+            "volume": 4533500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 228.74,
+            "high": 228.74,
+            "low": 221.62,
+            "close": 222.22,
+            "volume": 4088400
+          },
+          {
+            "date": "2025-08-04",
+            "open": 224.44,
+            "high": 226.27,
+            "low": 222.79,
+            "close": 225.12,
+            "volume": 4023900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 226.14,
+            "high": 226.86,
+            "low": 223.78,
+            "close": 224.98,
+            "volume": 3394300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 226.58,
+            "high": 230.17,
+            "low": 225.8,
+            "close": 229.08,
+            "volume": 2317300
+          },
+          {
+            "date": "2025-08-07",
+            "open": 231.42,
+            "high": 233.14,
+            "low": 217.62,
+            "close": 220.98,
+            "volume": 3597700
+          },
+          {
+            "date": "2025-08-08",
+            "open": 221.11,
+            "high": 222.14,
+            "low": 218.41,
+            "close": 222.07,
+            "volume": 2386600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 221.38,
+            "high": 223.27,
+            "low": 211.76,
+            "close": 213.69,
+            "volume": 5092400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 213.36,
+            "high": 214.65,
+            "low": 206.77,
+            "close": 214.6,
+            "volume": 4288800
+          },
+          {
+            "date": "2025-08-13",
+            "open": 216.33,
+            "high": 223.14,
+            "low": 213,
+            "close": 223.07,
+            "volume": 3917400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 222.92,
+            "high": 223.61,
+            "low": 218.71,
+            "close": 221.92,
+            "volume": 3272600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 222.47,
+            "high": 226.16,
+            "low": 221.95,
+            "close": 226.09,
+            "volume": 2888600
+          },
+          {
+            "date": "2025-08-18",
+            "open": 227.22,
+            "high": 232.05,
+            "low": 226.31,
+            "close": 231.85,
+            "volume": 4405800
+          },
+          {
+            "date": "2025-08-19",
+            "open": 230.84,
+            "high": 234.92,
+            "low": 228.82,
+            "close": 229.79,
+            "volume": 2954900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 229.18,
+            "high": 231.72,
+            "low": 227.13,
+            "close": 227.49,
+            "volume": 3977200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 226.01,
+            "high": 228.1,
+            "low": 223.63,
+            "close": 227.58,
+            "volume": 6441500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 213.88,
+            "high": 222.02,
+            "low": 211.31,
+            "close": 221.27,
+            "volume": 8226600
+          },
+          {
+            "date": "2025-08-25",
+            "open": 222.48,
+            "high": 225.13,
+            "low": 220.6,
+            "close": 223.39,
+            "volume": 5028100
+          },
+          {
+            "date": "2025-08-26",
+            "open": 224.98,
+            "high": 227.3,
+            "low": 221.07,
+            "close": 222.88,
+            "volume": 4795500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 224.12,
+            "high": 230.1,
+            "low": 223.13,
+            "close": 229.71,
+            "volume": 3454000
+          },
+          {
+            "date": "2025-08-28",
+            "open": 229.87,
+            "high": 232.45,
+            "low": 227.18,
+            "close": 228.5,
+            "volume": 3043600
+          },
+          {
+            "date": "2025-08-29",
+            "open": 227.69,
+            "high": 230.86,
+            "low": 227.69,
+            "close": 230.82,
+            "volume": 3243500
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.870038700387001,
+        "return_63d": -6.833501513622606,
+        "pct_above_sma50": -0.07991182859561628,
+        "sma_50": 231.00459999999998,
+        "new_55d_high": "False",
+        "high_55d": 253.54,
+        "rsi": 69.37344492196337,
+        "rsi_in_range": "True",
+        "adx": 24.049519709393593,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.903777835542848,
+        "bb_width": 8.782092968983672,
+        "keltner_width": 11.954163074819416,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 907407271.1599998,
+        "adv_shares": 4037515.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 38.22975585809877,
+        "final_score": 38.22975585809877,
+        "sub_scores": {
+          "trend_momentum": 8.670022524765464,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.559733333333307,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 0.6277792309704378,
+          "ret_63d": -6.8184570667312645,
+          "rsi14": 69.37344492196337,
+          "adx14": 17.72307632908987,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 50.0,
+      "overall_score": 61.25,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: WDAY\n• Current Price: $230.82\n• Overall Score: 50.09858974358974\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 231.0046\n• Sma 200: 248.1744\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.6277792309704411\n• Momentum 63D: -6.818457066731264\n• Momentum 126D: -12.349054454317606\n• Momentum Acceleration: 7.446236297701705\n• Roc 21D: 0.6277792309704411\n• Trend Strength 20D: 0.14842266094451603\n• Trend Direction: -1\n• Ma Ribbon Score: 51.16572141988017\n• Breakout Strength: 0.0\n• Price Velocity: 0.008565601309898852\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: 0.750210509991757\n• Volatility Compression: 38.5\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 8.670022524765464\n• Squeeze Breakout: 4.0\n• Options Quality: 14.559733333333307\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 59.0\n• Momentum: 55.0\n• Squeeze: 55.775\n• Options: 36.5\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: WDAY\n• Strike Price: $230\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $11.1\n• Ask: $11.3\n• Last: $11\n• Mid: $11.2\n• Spread: 1.769911504424778761061946903%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5548\n• Gamma: 0.0155\n• Theta: -0.1174\n• Vega: 0.3318\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3036\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 25\n• Open Interest: 374\n• Volume/OI Ratio: 0.06684491978609626\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Workday Inc\n• Sector: Technology\n• Industry: Software - Application\n• EPS (TTM): $2.15\n• Profit Margin: 6.5%\n• ROE: 6.7%\n• P/E Ratio: 107.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T17:37:59+00:00: High Growth Tech Stocks To Watch In US August 2025...\n• 2025-08-28T18:16:36+00:00: Analysts Think This Hidden-Gem AI Stock Can Soar 50% From Here...\n• 2025-08-28T12:47:00+00:00: Benepass Named a Strategic Workday Wellness Partner to Streamline and Improve Mo...\n• 2025-08-28T12:04:57+00:00: TransUnion says hackers stole 4.4 million customers’ personal information...\n• 2025-08-28T10:00:00+00:00: G-P Joins Built on Workday Program...\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 61.2%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR WDAY\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the WDAY opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:32:49.222797",
+    "estimated_tokens": 2350
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"WDAY\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 20,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"WDAY shows mixed technical signals with a squeeze in progress but weakening momentum, trading below its 200 SMA. The options setup offers decent liquidity with reasonable spreads, though elevated P/E ratio and declining momentum suggest caution.\",\n    \"opportunities\": [\n        \"Active squeeze with 4-day duration and positive squeeze momentum of 0.75\",\n        \"Tight option spreads at 1.77% with balanced Greeks profile\",\n        \"Multiple timeframe squeeze count of 2 indicating potential movement catalyst\"\n    ],\n    \"risks\": [\n        \"Negative 126-day momentum at -12.35%\",\n        \"Trading below 200 SMA of 248.17\",\n        \"High P/E ratio of 107.4 suggesting potential overvaluation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact while maintaining upside exposure\",\n        \"entry_timing\": \"Wait for confirmation of squeeze resolution and momentum improvement before entry\",\n        \"risk_management\": \"Use 230 strike as key technical level for position management, consider 1.77% spread cost in position sizing\"\n    },\n    \"red_flags\": [\n        \"Declining multi-timeframe momentum metrics\",\n        \"Price significantly below 200 SMA indicating potential longer-term weakness\"\n    ],\n    \"notes\": \"Data completeness at 61.2% - missing critical IV percentile and historical volatility metrics impacts confidence in volatility-based components of analysis\"\n}",
+    "parsed_analysis": {
+      "symbol": "WDAY",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 20,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "WDAY shows mixed technical signals with a squeeze in progress but weakening momentum, trading below its 200 SMA. The options setup offers decent liquidity with reasonable spreads, though elevated P/E ratio and declining momentum suggest caution.",
+      "opportunities": [
+        "Active squeeze with 4-day duration and positive squeeze momentum of 0.75",
+        "Tight option spreads at 1.77% with balanced Greeks profile",
+        "Multiple timeframe squeeze count of 2 indicating potential movement catalyst"
+      ],
+      "risks": [
+        "Negative 126-day momentum at -12.35%",
+        "Trading below 200 SMA of 248.17",
+        "High P/E ratio of 107.4 suggesting potential overvaluation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact while maintaining upside exposure",
+        "entry_timing": "Wait for confirmation of squeeze resolution and momentum improvement before entry",
+        "risk_management": "Use 230 strike as key technical level for position management, consider 1.77% spread cost in position sizing"
+      },
+      "red_flags": [
+        "Declining multi-timeframe momentum metrics",
+        "Price significantly below 200 SMA indicating potential longer-term weakness"
+      ],
+      "notes": "Data completeness at 61.2% - missing critical IV percentile and historical volatility metrics impacts confidence in volatility-based components of analysis"
+    },
+    "tokens_used": 2580,
+    "cost": 0.025799999999999997,
+    "response_time": 9.131804466247559,
+    "success": true
+  },
+  "cost": 0.025799999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 61.25,
+    "prompt_length": 8606,
+    "response_length": 1717
+  }
+}

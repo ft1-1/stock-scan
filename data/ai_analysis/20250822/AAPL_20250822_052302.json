@@ -1,0 +1,408 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "timestamp": "2025-08-22T05:23:02.353750",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAPL",
+      "package_timestamp": "2025-08-22T05:22:53.386871",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 48.75,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAPL",
+        "current_price": null,
+        "overall_score": 0.0,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 211.6606,
+        "sma_200": 220.9975
+      },
+      "momentum_metrics": {},
+      "squeeze_detection": {},
+      "quantitative_scores": {
+        "technical": 0.0,
+        "momentum": 0.0,
+        "squeeze": 0.0,
+        "options": 0.0,
+        "quality": 0.0
+      },
+      "risk_assessment": {
+        "warnings": [
+          "No historical price data available"
+        ],
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "error": "No option data provided"
+    },
+    "enhanced_stock_data": {
+      "macro_economic_context": {
+        "recent_us_economic_events": [
+          {
+            "date": "2025-08-21 14:00:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": -0.1,
+            "previous": -0.3,
+            "actual": -0.1
+          },
+          {
+            "date": "2025-08-21 14:00:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": -0.2,
+            "previous": -2.7,
+            "actual": 2
+          },
+          {
+            "date": "2025-08-19 12:30:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": -2.2,
+            "previous": 5.9,
+            "actual": 5.2
+          },
+          {
+            "date": "2025-08-15 14:00:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": null,
+            "previous": 0.1,
+            "actual": -0.1
+          },
+          {
+            "date": "2025-08-15 14:00:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": 0.2,
+            "previous": 0.2,
+            "actual": 0.2
+          },
+          {
+            "date": "2025-08-15 13:15:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": -0.1,
+            "previous": 0.3,
+            "actual": null
+          },
+          {
+            "date": "2025-08-15 13:15:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": null,
+            "previous": 0.4,
+            "actual": -0.1
+          },
+          {
+            "date": "2025-08-15 12:30:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": 0.1,
+            "previous": 0.5,
+            "actual": 0.1
+          },
+          {
+            "date": "2025-08-15 12:30:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": 0.5,
+            "previous": 0.9,
+            "actual": 0.5
+          },
+          {
+            "date": "2025-08-15 12:30:00",
+            "country": "US",
+            "event": null,
+            "impact": null,
+            "forecast": 0.3,
+            "previous": 0.8,
+            "actual": 0.2
+          }
+        ],
+        "events_count": 10
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T05:01:00+00:00",
+            "title": "Prosafe SE: Second-quarter results and first half report 2025",
+            "content": "(Figures in brackets refer to the corresponding period last year)\n\n22 Aug 2025 – Prosafe SE reported EBITDA of USD 3.1 million (USD 6.6 million) for the second quarter and USD 7.7 (USD 13.8 million) for the first half of 2025.\n\nOPERATIONS, HSSE AND BACKLOG\n\nGood operating performance on all vessels.Utilisation of 66%, four out of five vessels operating during the quarter\n\nSafe Zephyrus, Safe Eurus and Safe Notos operating at 99% utilisation in BrazilSafe Caledonia commenced operations at the Cap",
+            "sentiment": {
+              "polarity": 0.995,
+              "neg": 0.008,
+              "neu": 0.881,
+              "pos": 0.111
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T05:00:02+00:00",
+            "title": "IBM head of research on how quantum computing will change businesses",
+            "content": "Quantum computing is no longer a distant promise, it’s entering the era of \"quantum advantage\", the point at which quantum machines can outperform the best classical computers on real-world problems.\n\nFrom drug discovery to financial modelling and global logistics, industries are already experimenting with quantum solutions.\n\nQuantum advantage could speed up drug simulations to discover new treatments, optimise financial portfolios in ways classical computers cannot, and improve supply chain eff",
+            "sentiment": {
+              "polarity": 0.995,
+              "neg": 0.043,
+              "neu": 0.826,
+              "pos": 0.131
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T05:00:00+00:00",
+            "title": "Stockwik publicerar delårsrapport 1 januari - 30 juni 2025",
+            "content": "GOD ORGANISK UTVECKLING OCH LYCKAD REFINANSIERING\n\nTack vare fortsatt fokus på effektiviseringar i såväl dotterbolagen som i koncernledningen ökade rörelseresultatet organiskt för femte kvartalet i följd. EBITA ökade med 38,4% och nettoomsättningen med 10,8% jämfört med motsvarande kvartal föregående år. I juni säkrades dessutom koncernens långsiktiga finansiering med en obligation på förbättrade villkor.\n\n1 APRIL - 30 JUNI 2025\n\nNettoomsättning 236,5   (213,6) MSEK. Ökning   med 10,8   procent,",
+            "sentiment": {
+              "polarity": 0.428,
+              "neg": 0,
+              "neu": 0.994,
+              "pos": 0.006
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T05:00:00+00:00",
+            "title": "Stockwik publishes quarterly report January 1 - June 30, 2025",
+            "content": "STRONG ORGANIC GROWTH AND SUCCESSFUL REFINANCING\n\nThanks to continued focus on efficiency improvements both in the subsidiaries and at Group management level, operating profit increased organically for the fifth consecutive quarter. EBITA increased by 38.4% and net sales by 10.8% compared with the same quarter last year. In June, the Group also secured its long-term financing through a bond issue on improved terms.\n\nAPRIL 1 - JUNE 30 2025\n\nNet   sales MSEK 236.5 (213.6). Increase by 10.8 percent",
+            "sentiment": {
+              "polarity": 0.996,
+              "neg": 0.016,
+              "neu": 0.831,
+              "pos": 0.153
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T04:50:42+00:00",
+            "title": "The Westaim GAAP EPS of -$0.01, revenue of $10.5M",
+            "content": " \t* The Westaim press release [https://seekingalpha.com/pr/20208861-westaim-reports-q2-2025-results-for-the-quarter-ended-june-30-2025] (OTCPK:WEDXF [https://seekingalpha.com/symbol/WEDXF]): Q2 GAAP EPS of -$0.01.\n \t* Revenue of $10.5M.\n \t* AUM and Programmatic Capital for the Asset Management segment grew by $1.2 billion during Q2 2025.\n \t* Book value per fully diluted share was $20.46 (C$27.88) at June 30, 2025, compared to $22.88 (C$32.90) at December 31, 2024.\n\nMORE ON THE WESTAIM:\n\n \t* West",
+            "sentiment": {
+              "polarity": 0.599,
+              "neg": 0,
+              "neu": 0.932,
+              "pos": 0.068
+            },
+            "url": null
+          }
+        ],
+        "articles_count": 5,
+        "sentiment_summary": {
+          "overall": "positive",
+          "positive_count": 3,
+          "negative_count": 0,
+          "neutral_count": 2,
+          "total_analyzed": 5
+        }
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Apple Inc",
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "employees": 150000,
+          "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai"
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.6,
+          "profit_margin": 0.243,
+          "operating_margin": 0.2999,
+          "roe": 1.4981,
+          "roa": 0.2455,
+          "revenue_growth_yoy": 0.096,
+          "earnings_growth_yoy": 0.121,
+          "eps_estimate_current_year": 7.3832,
+          "eps_estimate_next_year": 7.9458,
+          "dividend_yield": 0.0045,
+          "dividend_per_share": 1.01,
+          "revenue_ttm": 408624988160,
+          "revenue_per_share": 27.173,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 34.0758,
+          "forward_pe": 28.3286,
+          "price_to_sales": 8.1679,
+          "price_to_book": 50.9506,
+          "enterprise_value": 3400402543900,
+          "ev_to_revenue": 8.3216,
+          "ev_to_ebitda": 23.9979
+        },
+        "technical_data": {
+          "beta": 1.165,
+          "52_week_high": 259.18,
+          "52_week_low": 168.7968,
+          "50_day_ma": 211.6606,
+          "200_day_ma": 220.9975,
+          "short_interest": 0.0071,
+          "short_ratio": 2.05
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.04,
+          "forward_dividend_yield": 0.0046,
+          "payout_ratio": 0.1548,
+          "dividend_date": "2025-08-14",
+          "ex_dividend_date": "2025-08-11",
+          "last_split_date": "2020-08-31",
+          "last_split_factor": "4:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.913,
+          "target_price": 228.7593,
+          "strong_buy": 20,
+          "buy": 7,
+          "hold": 16,
+          "sell": 1,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 14840399872,
+          "percent_institutions": 63.658,
+          "percent_insiders": 1.97,
+          "shares_float": 14814270914
+        },
+        "balance_latest_sheet": {
+          "total_assets": 331495.0,
+          "total_debt": 101698.0,
+          "cash_and_equivalents": 9583.0,
+          "net_debt": 71233.0,
+          "working_capital": -18629.0,
+          "shareholders_equity": 65830.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.54
+        },
+        "income_latest_statement": {
+          "total_revenue": 94036.0,
+          "gross_profit": 43718.0,
+          "operating_income": 28202.0,
+          "net_income": 23434.0,
+          "ebitda": 31032.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 46.49,
+          "operating_margin": 29.99,
+          "net_margin": 24.92
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27867.0,
+          "free_cash_flow": 24405.0,
+          "capex": 3462.0,
+          "net_income": 23434.0,
+          "cash_change": 8107.0,
+          "dividends_paid": 3945.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": 0.95,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": 2.34,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": 1.62,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": 1.41,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "sentiment_analysis": {
+        "latest_date": "2025-08-22",
+        "latest_score": 0.4753,
+        "avg_7day_score": 0.7021714285714287,
+        "data_points": 31
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 0.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 48.75,
+      "missing_fields": [
+        "option_data"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAPL\n• Current Price: $None\n• Overall Score: 0.0\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 211.6606\n• Sma 200: 220.9975\n\n\n\n**QUANTITATIVE SCORING**\n• Technical: 0.0\n• Momentum: 0.0\n• Squeeze: 0.0\n• Options: 0.0\n• Quality: 0.0\n\n## SELECTED OPTION CONTRACT\nNo option contract data provided.\n\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Apple Inc\n• Sector: Technology\n• Industry: Consumer Electronics\n• EPS (TTM): $6.6\n• Profit Margin: 24.3%\n• ROE: 149.8%\n• P/E Ratio: 34.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T05:01:00+00:00: Prosafe SE: Second-quarter results and first half report 2025...\n• 2025-08-22T05:00:02+00:00: IBM head of research on how quantum computing will change businesses...\n• 2025-08-22T05:00:00+00:00: Stockwik publicerar delårsrapport 1 januari - 30 juni 2025...\n• 2025-08-22T05:00:00+00:00: Stockwik publishes quarterly report January 1 - June 30, 2025...\n• 2025-08-22T04:50:42+00:00: The Westaim GAAP EPS of -$0.01, revenue of $10.5M...\n• Overall Sentiment: positive\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n\n\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 48.8%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-22T05:23:02.353719",
+    "estimated_tokens": 1949
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAPL\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 9,\n        \"event_news\": 7\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AAPL shows strong fundamental health with excellent profit margins (24.3%) and ROE (149.8%), though trading below both 50 and 200 SMAs indicates technical weakness. The positive news sentiment and clear earnings visibility (>30 days out) provide a stable backdrop for options strategies.\",\n    \"opportunities\": [\n        \"Exceptional fundamental metrics with 24.3% profit margin\",\n        \"Clear earnings visibility with next report not until September 30\",\n        \"Strong positive news sentiment flow\"\n    ],\n    \"risks\": [\n        \"Trading below both 50 SMA (211.66) and 200 SMA (220.99)\",\n        \"Relatively high P/E ratio at 34.1x\",\n        \"Limited technical momentum indicators available\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider neutral to slightly bullish option strategies given mixed technical/fundamental picture\",\n        \"entry_timing\": \"Wait for confirmation of support above 50 SMA before entry\",\n        \"risk_management\": \"Set stops below recent support levels and size positions conservatively given technical weakness\"\n    },\n    \"red_flags\": [\n        \"Price trading below both major moving averages\",\n        \"Significant data gaps in volatility and options metrics\"\n    ],\n    \"notes\": \"Analysis confidence reduced due to missing data (48.8% completeness) particularly in options and volatility metrics. Scores conservative where data lacking.\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAPL",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 7,
+        "fundamentals": 9,
+        "event_news": 7
+      },
+      "confidence": "medium",
+      "thesis": "AAPL shows strong fundamental health with excellent profit margins (24.3%) and ROE (149.8%), though trading below both 50 and 200 SMAs indicates technical weakness. The positive news sentiment and clear earnings visibility (>30 days out) provide a stable backdrop for options strategies.",
+      "opportunities": [
+        "Exceptional fundamental metrics with 24.3% profit margin",
+        "Clear earnings visibility with next report not until September 30",
+        "Strong positive news sentiment flow"
+      ],
+      "risks": [
+        "Trading below both 50 SMA (211.66) and 200 SMA (220.99)",
+        "Relatively high P/E ratio at 34.1x",
+        "Limited technical momentum indicators available"
+      ],
+      "option_contract": {
+        "recommendation": "Consider neutral to slightly bullish option strategies given mixed technical/fundamental picture",
+        "entry_timing": "Wait for confirmation of support above 50 SMA before entry",
+        "risk_management": "Set stops below recent support levels and size positions conservatively given technical weakness"
+      },
+      "red_flags": [
+        "Price trading below both major moving averages",
+        "Significant data gaps in volatility and options metrics"
+      ],
+      "notes": "Analysis confidence reduced due to missing data (48.8% completeness) particularly in options and volatility metrics. Scores conservative where data lacking."
+    },
+    "tokens_used": 2243,
+    "cost": 0.022430000000000002,
+    "response_time": 8.965989351272583,
+    "success": true
+  },
+  "cost": 0.022430000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 48.75,
+    "prompt_length": 7288,
+    "response_length": 1684
+  }
+}

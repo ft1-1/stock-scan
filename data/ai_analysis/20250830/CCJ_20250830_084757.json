@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "CCJ",
+  "timestamp": "2025-08-30T08:47:57.942872",
+  "data_package": {
+    "metadata": {
+      "symbol": "CCJ",
+      "package_timestamp": "2025-08-30T08:47:48.282873",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CCJ",
+        "current_price": 77.39,
+        "overall_score": 47.0728177105068,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 75.1314,
+        "sma_200": 56.6921
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.283064193247022,
+        "momentum_63d": 32.222791730736375,
+        "momentum_126d": 75.72661217075385,
+        "momentum_acceleration": -28.939727537489354,
+        "roc_21d": 3.283064193247022,
+        "trend_strength_20d": 0.0051666110548928695,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.36141077541119,
+        "breakout_strength": 69.71094626077883,
+        "price_velocity": 0.006799330049525554
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 6.0,
+        "squeeze_momentum": 0.03138068041831124,
+        "volatility_compression": 0.4187100083462639,
+        "is_consolidating": "False",
+        "breakout_score": 34.472720161089605,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.245851193872014,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.602533333333326,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 72.0,
+        "momentum": 55.0,
+        "squeeze": 50.06280650125194,
+        "options": 10.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 30,
+        "percentile": 98.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CCJ",
+        "strike_price": "75",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.3",
+        "ask": "6.5",
+        "last_price": "6.3",
+        "mid_price": "6.4",
+        "spread_percent": "3.076923076923076923076923077"
+      },
+      "greeks": {
+        "delta": 0.6203,
+        "gamma": 0.0305,
+        "theta": -0.054,
+        "vega": 0.1071
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4443
+      },
+      "liquidity_metrics": {
+        "volume": 232,
+        "open_interest": 921,
+        "volume_oi_ratio": 0.251900108577633
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:18:11.428937",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T15:17:48+00:00",
+            "title": "Cameco Maintained at Outperform by RBC Capital Markets, National Bank of Canada",
+            "content": "RBC Capital Markets and National Bank of Canada maintained their outperform ratings on the shares of\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:13:34+00:00",
+            "title": "Cameco Maintained at Outperform at BMO Following Cut to Production Guidance; Price Target Kept at C$120.00",
+            "content": "BMO Capital Markets on Friday maintained its outperform rating on the shares of Cameco (CCO.TO, CCJ)\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T10:21:47+00:00",
+            "title": "Cameco Corp (NYSE:CCJ) Presents a High Growth Momentum and Technical Breakout Opportunity",
+            "content": "Cameco Corp (NYSE:CCJ [https://www.chartmill.com/stock/quote/CCJ]) appears as a notable candidate for investors using a high growth momentum strategy blended with technical breakout analysis. This method focuses on companies showing strong earnings acceleration, solid sales growth, and positive analyst revisions, key traits of the ChartMill High Growth Momentum Rating, while also displaying good technical condition and consolidation patterns that suggest possible breakout chances. The method successfully combines fundamental growth traits with accurate technical entry points, seeking to identify stocks ready for large upward moves.\n\n[Cameco Corp]\n\nFUNDAMENTAL GROWTH MOMENTUM Cameco’s fundamental profile matches well with the standards valued by high growth momentum investors. The company shows outstanding quarterly earnings growth, with the latest quarter revealing a remarkable 407.14% year-over-year rise in EPS. This speed is important for momentum strategies, as it frequently comes before continued positive price performance. Revenue growth stays solid at 46.66% for the same period, showing good underlying demand for uranium and nuclear services. Also, free cash flow per share has jumped by 377.75% over the last year, highlighting better financial condition and operational effectiveness. Analyst opinion has become clearly positive, with next-year EPS estimates adjusted higher by 21.04% over the past three months, showing increasing belief in Cameco’s short-term future. These parts together add to its High Growth Momentum Rating of 6, showing a firm, though not flawless, mix of growth, speed, and outside confirmation.\n\nTECHNICAL STRENGTH AND SETUP QUALITY From a technical viewpoint, Cameco offers an equally notable case. The stock has a perfect Technical Rating of 10, showing better relative strength, a good long-term trend, and steady outperformance against both industry competitors and wider market indices. It is now trading near its 52-week high, having gained 92.53% over the past year, and shows good momentum across various timeframes. More significantly, the Setup Rating of 8 points to a clear consolidation pattern, indicating the stock might be getting ready for a breakout. The technical review finds a defined resistance area around $79.60,$79.92; a clear move above this point could mark the next step upward. Support is strongly set near $74.84,$75.42, giving a sensible level for stop-loss orders to control risk. This blend of technical strength and a high-grade setup is vital for timing entries well, lowering the chance of buying during stretched or overbought situations.\n\nSTRATEGIC IMPLICATIONS AND EXECUTION For investors tracking high growth momentum strategies, Cameco stands for an uncommon meeting of fundamental energy and technical accuracy. The company’s connection to the growing nuclear energy sector, fueled by worldwide moves toward clean and dependable electricity, offers a macroeconomic boost that supports its strong financial and technical measures. The stock’s high liquidity, with average daily volume over 4.6 million shares, further increases its appeal by providing simple entry and exit. Traders and investors thinking about a position might consider entering on a breakout above the $79.92 resistance level, with a stop loss set below the closest support area to restrict downside risk. This careful method fits with the central ideas of momentum investing, where the aim is to join in strong trends while wisely controlling risk.\n\nFor those wanting to look into similar chances, other high growth momentum stocks with good technical setups can be examined using this specialized screen [https://www.chartmill.com/stock/stock-screener?sid=719&f=v1_50b500,atrpct_a_1,sl_ta_7_X,sl_se_7_X,p_pg20,exch_us,sl_ratingHgm_6_X&s=se&v=3].\n\n_Disclaimer: This article is for informational purposes only and does not constitute investment advice. Investors should conduct their own research and consider their risk tolerance before making any investment decisions._\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T10:21:00+00:00",
+            "title": "Cameco and Orano sign historic 15-year agreement with Indigenous-owned Rise Air",
+            "content": "SASKATOON, SK, Aug. 29, 2025 /CNW/ - Cameco Corporation and Orano Canada Inc. have signed a landmark 15-year agreement, worth approximately $500 million, with Rise Air, an Indigenous-owned airline, to provide workforce transportation services for northern Saskatchewan operations.Cameco and Orano sign historic 15-year agreement with Indigenous-owned Rise Air (CNW Group/Rise Air)\n\nThis long-term partnership represents the most significant commitment to date between the companies, building on a relationship that began in 1993 with Orano (then COGEMA) and shortly after with Cameco. Previous agreements with Rise Air have typically spanned three years or less.\n\n\"Securing a 15-year agreement is truly transformative for Rise Air,\" said Derek Nice, CEO of Rise Air. \"It means we can plan for the future with confidence — investing in modern equipment, upgrading our facilities, and expanding hiring and training. Most importantly, it allows us to focus on building long-term careers for residents of northern Saskatchewan.\"\n\nThe agreement underscores Cameco's and Orano's confidence in Rise Air as the right partner to meet their workforce transportation needs, which are essential to continued growth in the north.\n\n\"We are proud to continue our long-standing relationship with Rise Air, a business owned by the Indigenous communities in the Athabasca Basin and dedicated to serving the North. Air transportation is critical to our operations in northern Saskatchewan. Without the ability to fly workers to our remote sites, we cannot operate. This contract ensures continued access to our sites through an exciting new fleet of aircraft. We are jointly committing to a long-term, mutually beneficial partnership focused on providing safe, reliable transportation for our workforce,\" said Tim Gitzel, president and CEO of Cameco.\n\nOrano Canada is committed to maintaining successful operations in northern Saskatchewan, and that is not possible without strong, reliable partnerships in the supply chain.\n\n\"For years we have entrusted Rise Air to support our northern mines by safely moving our most precious resource: our people,\" said Jim Corman, President and CEO of Orano Canada. \"The renewal of this longstanding partnership through the signing of a new contract signifies our confidence in Rise Air and our commitment to continuing to work together, as we prepare for the bright future ahead for the Saskatchewan uranium industry.\"\n\nAs Saskatchewan's largest regional airline, Rise Air plays a vital role in connecting northern communities and supporting regional economic development. This new agreement ensures stability, growth, and continued collaboration for decades to come.\n\nStory continues\n\n\"Cameco and Orano have been partners for our communities and for our regional airline for many years,\" says Coreen Sayazie, Chief of Black Lake First Nation. \"All three of these companies provide job opportunities and economic benefits into the north.  By signing this 15-year agreement, it demonstrates a continued long-term investment, and as both a community leader and a community member, I am happy to see this type of long-term commitment formalized in this way.\"\n\nRise Air is 100% Indigenous owned, with Athabasca Basin Development and Prince Albert Development Corp as owners. The ownership collectively impacts 12 First Nations and four municipalities.\n\n\"As an investor in Rise Air, Prince Albert Development Corporation is pleased to see this agreement take place,\" says Vice Chief Joseph Tsannie, Prince Albert Grand Council. \"All three companies have demonstrated a commitment to investing in our people through creative initiatives such as the Dziret'ai Pilot Training Program. Signing this agreement today is the next phase in what has been an ongoing example of companies working together with our northern communities and investing in the north. We greatly appreciate the relationship with Cameco and Orano over many years and look forward to many more to come.\"\n\n\"Athabasca Basin Development (ABD) has been working together with Cameco and Orano since ABD started over twenty years ago,\" says Anne Robillard, Chair of Athabasca Basin Development. \"They are both valued partners for many of our investments, and Rise Air is one of them. A 15-year commitment like this helps our companies plan important things like workforce training and strengthens one of our largest investments. When our investments are strong, it helps improve service and build wealth for our communities – a huge win for the Athabasca.\"\n\nAbout Cameco Corporation\n\nCameco is one of the largest global providers of the uranium fuel needed to power a secure energy future. Our competitive position is based on our controlling ownership of the world's largest high-grade reserves and low-cost operations, as well as significant investments across the nuclear fuel cycle, including ownership interests in Westinghouse Electric Company and Global Laser Enrichment. Utilities around the world rely on Cameco to provide global nuclear fuel solutions for the generation of safe, reliable, carbon-free nuclear power. Our shares trade on the Toronto and New York stock exchanges. Our head office is in Saskatoon, Saskatchewan, Canada.\n\nAbout Orano Canada Inc.\n\nHeadquartered in Saskatoon, Saskatchewan, Orano Canada Inc. is a leading producer of uranium, accounting for the processing of 16.9 million pounds of uranium concentrate in Canada in 2024. Orano has been exploring for, mining and milling uranium in Canada for more than 60 years. Orano Canada is the operator of the McClean Lake uranium mine and mill and a major partner in the Cigar Lake, McArthur River and Key Lake operations. The company employs over 450 people in Saskatchewan, including about 375 at the McClean Lake operation where over 40% of employees are self-declared Indigenous. As a sustainable uranium producer, Orano Canada is committed to safety, environmental protection and contributing to the prosperity and well-being of neighbouring communities.\n\nOrano Canada Inc. is a subsidiary of the multinational Orano group. As a recognized international operator in the field of nuclear materials, Orano delivers solutions to address present and future global energy and health challenges. Its expertise and mastery of cutting-edge technologies enable Orano to offer its customers high value-added products and services throughout the entire fuel cycle. Every day, the Orano group's 17,000 employees draw on their skills, unwavering dedication to safety and constant quest for innovation, with the commitment to develop know-how in the transformation and control of nuclear materials, for the climate and for a healthy and resource-efficient world, now and tomorrow.\n\nAbout Rise Air\n\nCelebrating 70 years of service in 2025, Rise Air has grown to be Saskatchewan's largest airline, providing public scheduled flights, workforce transportation, cargo services, charters, and medevac flights to 35 airports throughout the province.\n\nRise Air is jointly owned by Athabasca Basin Development and Prince Albert Development Corporation, making it one of Canada's largest indigenous-owned air carriers. The airline operates from bases in Buffalo Narrows, Fond du Lac, La Ronge, Prince Albert, Saskatoon, Stony Rapids, and Wollaston Lake, where it creates careers for indigenous employees and residents of Saskatchewan's north.\n\nRise Air operates 24 aircraft, including ATR 42, Saab 340 and Beech 1900D regional airliners; fast, pressurized King Air and Pilatus PC-12 corporate aircraft; and rugged, versatile Twin Otters. In November 2024 the airline announced it will be the Canadian launch customer for the 68-seat ATR 72-600, the most modern turboprop airliner in production today, placing a $98 million order for three aircraft, with deliveries starting in late 2025.Media Release: PDF (CNW Group/Rise Air)\n\nSOURCE Rise AirCision\n\nView original content to download multimedia: http://www.newswire.ca/en/releases/archive/August2025/29/c3588.html\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T10:12:45+00:00",
+            "title": "Why Uranium Energy (UEC) Is Up 8.9% After Accelerating U.S. Uranium Output and Sector Peers’ Gains",
+            "content": "In recent days, Uranium Energy ramped up production at its ISR mines and advanced U.S.-focused uranium projects, while sector peer Cameco reported very large gains in uranium revenues and earnings. This increased activity aligns with a push for U.S. nuclear fuel independence, drawing market attention despite analyst concerns over Uranium Energy’s near-term earnings outlook. We'll now explore how Uranium Energy’s progress toward domestic uranium production influences its investment narrative amid sector momentum.\n\nThis technology could replace computers: discover 23 stocks that are working to make quantum computing a reality.\n\nWhat Is Uranium Energy's Investment Narrative?\n\nFor anyone considering Uranium Energy, a key belief is that domestic uranium production is at a major turning point, with current U.S. policy momentum driving renewed interest in local supply chains. Recent news of ramped-up production at key ISR mines and progress at projects like Sweetwater fit squarely into this narrative, positioning the company to benefit if U.S. nuclear fuel independence efforts are sustained. However, this push hasn’t translated into visible near-term financial improvement so far, the company recently experienced a sharper share price drop than the broader market, following persistent net losses and no expected change in EPS for the coming quarter. This has shifted the spotlight onto rising operating costs and the challenge of bridging ambitions for production growth with a viable path to profitability, amplifying risks that were already present but now feel more immediate following the latest updates. Catalysts remain largely unchanged, centering on further regulatory wins and any breakthroughs in long-term offtake or partnership agreements. Yet, the market’s swift reaction to recent results signals a heightened sensitivity to financial progress, or lack thereof, from here. \r\n Yet, short-term earnings risks are even more important for investors to keep in mind.\n\nUranium Energy's shares have been on the rise but are still potentially undervalued. Find out how large the opportunity might be.\n\nExploring Other PerspectivesUEC Community Fair Values as at Aug 2025\n\nThe Simply Wall St Community posted 21 unique fair value estimates for Uranium Energy, stretching from just US$0.32 to as high as US$31.46 per share. Opinions on the company’s worth show a wide divergence, which reflects the uncertainty about future profitability risks and market catalysts that are top of mind today. You can see how different assumptions can lead to very different conclusions.\n\nExplore 21 other fair value estimates on Uranium Energy - why the stock might be worth less than half the current price!\n\nStory Continues\n\nBuild Your Own Uranium Energy Narrative\n\nDisagree with this assessment? Create your own narrative in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Uranium Energy research is our analysis highlighting 2 key rewards and 1 important warning sign that could impact your investment decision. Our free Uranium Energy research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Uranium Energy's overall financial health at a glance.\n\nLooking For Alternative Opportunities?\n\nEarly movers are already taking notice. See the stocks they're targeting before they've flown the coop:\n\nThe end of cancer? These 26 emerging AI stocks are developing tech that will allow early identification of life changing diseases like cancer and Alzheimer's. Find companies with promising cash flow potential yet trading below their fair value. Trump has pledged to \"unleash\" American oil and gas and these 22 US stocks have developments that are poised to benefit.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include UEC.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Cameco Corp",
+          "sector": "Energy",
+          "industry": "Uranium",
+          "employees": 0,
+          "description": "Cameco Corporation provides uranium for the generation of electricity. It operates through three segments: Uranium, Fuel Services, and Westinghouse. The Uranium segment engages in the exploration for, mining, milling, purchase, and sale of uranium concentrate. The Fuel Services segment is involved i"
+        },
+        "financial_metrics": {
+          "eps_ttm": 0.88,
+          "profit_margin": 0.1495,
+          "operating_margin": 0.1782,
+          "roe": 0.0825,
+          "roa": 0.0395,
+          "revenue_growth_yoy": 0.465,
+          "earnings_growth_yoy": 8.214,
+          "eps_estimate_current_year": 1.617,
+          "eps_estimate_next_year": 2.1291,
+          "dividend_yield": 0.002,
+          "dividend_per_share": 0.16,
+          "revenue_ttm": 3570216960,
+          "revenue_per_share": 8.202,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 87.9432,
+          "forward_pe": 64.9351,
+          "price_to_sales": 9.4377,
+          "price_to_book": 7.0256,
+          "enterprise_value": 34363835420,
+          "ev_to_revenue": 13.266,
+          "ev_to_ebitda": 42.2551
+        },
+        "technical_data": {
+          "beta": 1.262,
+          "52_week_high": 83.02,
+          "52_week_low": 35,
+          "50_day_ma": 75.1314,
+          "200_day_ma": 56.6921,
+          "short_interest": 0.0236,
+          "short_ratio": 3.64
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.11,
+          "forward_dividend_yield": 0.0014,
+          "payout_ratio": 0.0934,
+          "dividend_date": "2024-12-13",
+          "ex_dividend_date": "2024-11-27",
+          "last_split_date": "2006-02-23",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5263,
+          "target_price": 86.2426,
+          "strong_buy": 10,
+          "buy": 9,
+          "hold": 0,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 435387008,
+          "percent_institutions": 73.319,
+          "percent_insiders": 0.136,
+          "shares_float": 434229318
+        },
+        "balance_latest_sheet": {
+          "total_assets": 9581.556,
+          "total_debt": 995.965,
+          "cash_and_equivalents": 263.848,
+          "net_debt": 279.673,
+          "working_capital": 1193.068,
+          "shareholders_equity": 6741.473,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.15
+        },
+        "income_latest_statement": {
+          "total_revenue": 877.016,
+          "gross_profit": 257.09,
+          "operating_income": 165.951,
+          "net_income": 320.888,
+          "ebitda": 500.83,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 29.31,
+          "operating_margin": 18.92,
+          "net_margin": 36.59
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 465.2,
+          "free_cash_flow": 390.277,
+          "capex": 74.923,
+          "net_income": 320.885,
+          "cash_change": 354.84,
+          "dividends_paid": 0.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.2842,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 79.29,
+            "high": 79.35,
+            "low": 76.21,
+            "close": 77.08,
+            "volume": 5126437
+          },
+          {
+            "date": "2025-07-22",
+            "open": 76.6,
+            "high": 78.36,
+            "low": 75.45,
+            "close": 77.9,
+            "volume": 5325720
+          },
+          {
+            "date": "2025-07-23",
+            "open": 77.5,
+            "high": 79.9,
+            "low": 77.44,
+            "close": 79.15,
+            "volume": 4909000
+          },
+          {
+            "date": "2025-07-24",
+            "open": 79.15,
+            "high": 80.06,
+            "low": 78.87,
+            "close": 79.92,
+            "volume": 3695700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 79.53,
+            "high": 79.92,
+            "low": 77.71,
+            "close": 79.6,
+            "volume": 3508700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 79.88,
+            "high": 79.9,
+            "low": 77.9,
+            "close": 79.14,
+            "volume": 3534900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 79.17,
+            "high": 80.32,
+            "low": 78.18,
+            "close": 78.69,
+            "volume": 3714300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 77.81,
+            "high": 79.05,
+            "low": 76.8,
+            "close": 77.75,
+            "volume": 4376900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 79.95,
+            "high": 80.06,
+            "low": 73.86,
+            "close": 74.93,
+            "volume": 7921500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 72.91,
+            "high": 73.63,
+            "low": 70.82,
+            "close": 72.93,
+            "volume": 6061800
+          },
+          {
+            "date": "2025-08-04",
+            "open": 73.51,
+            "high": 75.38,
+            "low": 73,
+            "close": 75.26,
+            "volume": 3438200
+          },
+          {
+            "date": "2025-08-05",
+            "open": 75.6,
+            "high": 76.57,
+            "low": 73.68,
+            "close": 74.59,
+            "volume": 4324900
+          },
+          {
+            "date": "2025-08-06",
+            "open": 75.44,
+            "high": 77.56,
+            "low": 74.84,
+            "close": 76.55,
+            "volume": 4451900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 76.88,
+            "high": 76.88,
+            "low": 75.13,
+            "close": 76.37,
+            "volume": 3332000
+          },
+          {
+            "date": "2025-08-08",
+            "open": 76.75,
+            "high": 78.71,
+            "low": 76.7,
+            "close": 76.92,
+            "volume": 3769000
+          },
+          {
+            "date": "2025-08-11",
+            "open": 76.51,
+            "high": 78.19,
+            "low": 74.74,
+            "close": 77.67,
+            "volume": 3296200
+          },
+          {
+            "date": "2025-08-12",
+            "open": 77.66,
+            "high": 78.87,
+            "low": 76.96,
+            "close": 78.43,
+            "volume": 3087300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 78.49,
+            "high": 78.96,
+            "low": 73.6,
+            "close": 75.6,
+            "volume": 5341300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 75.5,
+            "high": 77.15,
+            "low": 75.18,
+            "close": 75.55,
+            "volume": 3002800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 75.3,
+            "high": 75.61,
+            "low": 73.36,
+            "close": 75.6,
+            "volume": 2663100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 75.42,
+            "high": 76.95,
+            "low": 74.8,
+            "close": 76.82,
+            "volume": 2658800
+          },
+          {
+            "date": "2025-08-19",
+            "open": 76.48,
+            "high": 76.82,
+            "low": 73.29,
+            "close": 73.82,
+            "volume": 4162400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 72.66,
+            "high": 73.09,
+            "low": 68.96,
+            "close": 70.47,
+            "volume": 8106300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 70.79,
+            "high": 71.52,
+            "low": 70.47,
+            "close": 71.43,
+            "volume": 3032900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 73.64,
+            "high": 75.58,
+            "low": 72.75,
+            "close": 74.91,
+            "volume": 4584000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 75.16,
+            "high": 75.96,
+            "low": 74.45,
+            "close": 74.97,
+            "volume": 2861900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 74.83,
+            "high": 77.32,
+            "low": 74.65,
+            "close": 76.51,
+            "volume": 2837000
+          },
+          {
+            "date": "2025-08-27",
+            "open": 76.45,
+            "high": 76.45,
+            "low": 75.09,
+            "close": 75.28,
+            "volume": 1862200
+          },
+          {
+            "date": "2025-08-28",
+            "open": 75.53,
+            "high": 79.42,
+            "low": 75.47,
+            "close": 78.63,
+            "volume": 3989900
+          },
+          {
+            "date": "2025-08-29",
+            "open": 80.99,
+            "high": 83.02,
+            "low": 76.28,
+            "close": 77.39,
+            "volume": 6953009
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 6.115453174276694,
+        "return_63d": 33.01821931935373,
+        "pct_above_sma50": 3.0061998046089933,
+        "sma_50": 75.1314,
+        "new_55d_high": "False",
+        "high_55d": 83.02,
+        "rsi": 49.39446366782006,
+        "rsi_in_range": "False",
+        "adx": 22.89264108900768,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.8480423827367836,
+        "bb_width": 10.79639824567096,
+        "keltner_width": 15.755988518974085,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 294063990.604825,
+        "adv_shares": 3887755.45,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.84838452720534,
+        "final_score": 46.84838452720534,
+        "sub_scores": {
+          "trend_momentum": 17.245851193872014,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.602533333333326,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.2830641932470206,
+          "ret_63d": 32.22279173073637,
+          "rsi14": 49.39446366782006,
+          "adx14": 19.88904631219871,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CCJ\n• Current Price: $77.39\n• Overall Score: 47.0728177105068\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 75.1314\n• Sma 200: 56.6921\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.283064193247022\n• Momentum 63D: 32.222791730736375\n• Momentum 126D: 75.72661217075385\n• Momentum Acceleration: -28.939727537489354\n• Roc 21D: 3.283064193247022\n• Trend Strength 20D: 0.0051666110548928695\n• Trend Direction: 1\n• Ma Ribbon Score: 82.36141077541119\n• Breakout Strength: 69.71094626077883\n• Price Velocity: 0.006799330049525554\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 6.0\n• Squeeze Momentum: 0.03138068041831124\n• Volatility Compression: 0.4187100083462639\n• Is Consolidating: False\n• Breakout Score: 34.472720161089605\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.245851193872014\n• Squeeze Breakout: 4.0\n• Options Quality: 14.602533333333326\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 72.0\n• Momentum: 55.0\n• Squeeze: 50.06280650125194\n• Options: 10.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CCJ\n• Strike Price: $75\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.3\n• Ask: $6.5\n• Last: $6.3\n• Mid: $6.4\n• Spread: 3.076923076923076923076923077%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6203\n• Gamma: 0.0305\n• Theta: -0.054\n• Vega: 0.1071\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4443\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 232\n• Open Interest: 921\n• Volume/OI Ratio: 0.251900108577633\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Cameco Corp\n• Sector: Energy\n• Industry: Uranium\n• EPS (TTM): $0.88\n• Profit Margin: 14.9%\n• ROE: 8.2%\n• P/E Ratio: 87.9\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T15:17:48+00:00: Cameco Maintained at Outperform by RBC Capital Markets, National Bank of Canada...\n• 2025-08-29T15:13:34+00:00: Cameco Maintained at Outperform at BMO Following Cut to Production Guidance; Pri...\n• 2025-08-29T10:21:47+00:00: Cameco Corp (NYSE:CCJ) Presents a High Growth Momentum and Technical Breakout Op...\n• 2025-08-29T10:21:00+00:00: Cameco and Orano sign historic 15-year agreement with Indigenous-owned Rise Air...\n• 2025-08-29T10:12:45+00:00: Why Uranium Energy (UEC) Is Up 8.9% After Accelerating U.S. Uranium Output and S...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CCJ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CCJ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:47:57.942145",
+    "estimated_tokens": 2344
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CCJ\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 14,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CCJ shows strong technical momentum with a 75.7% 126-day return and all major moving averages aligned bullishly, supported by uranium sector strength. The current squeeze setup and positive MA ribbon score of 82.36 suggest continued upside potential, though near-term momentum is showing signs of deceleration.\",\n    \"opportunities\": [\n        \"Strong long-term momentum with 75.7% 126-day return and bullish MA crossovers\",\n        \"Active squeeze setup with 2 timeframe confirmation and 6-day duration\",\n        \"Solid options liquidity with moderate 3.07% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-28.94) indicates potential slowdown\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"High P/E ratio of 87.9 suggests rich valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Long OCT 2025 $75 Call offers balanced exposure with 0.62 delta\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, add on momentum confirmation\",\n        \"risk_management\": \"Set stops at 30% contract value, consider rolling up on strong moves above $80\"\n    },\n    \"red_flags\": [\n        \"Earnings report in less than 30 days\",\n        \"Momentum deceleration could signal trend exhaustion\"\n    ],\n    \"notes\": \"Volume/OI ratio of 0.25 indicates moderate but acceptable options liquidity. Consider spread strategies to mitigate high implied volatility of 44.43%.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CCJ",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 14,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "CCJ shows strong technical momentum with a 75.7% 126-day return and all major moving averages aligned bullishly, supported by uranium sector strength. The current squeeze setup and positive MA ribbon score of 82.36 suggest continued upside potential, though near-term momentum is showing signs of deceleration.",
+      "opportunities": [
+        "Strong long-term momentum with 75.7% 126-day return and bullish MA crossovers",
+        "Active squeeze setup with 2 timeframe confirmation and 6-day duration",
+        "Solid options liquidity with moderate 3.07% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-28.94) indicates potential slowdown",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "High P/E ratio of 87.9 suggests rich valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Long OCT 2025 $75 Call offers balanced exposure with 0.62 delta",
+        "entry_timing": "Consider partial position now with squeeze setup, add on momentum confirmation",
+        "risk_management": "Set stops at 30% contract value, consider rolling up on strong moves above $80"
+      },
+      "red_flags": [
+        "Earnings report in less than 30 days",
+        "Momentum deceleration could signal trend exhaustion"
+      ],
+      "notes": "Volume/OI ratio of 0.25 indicates moderate but acceptable options liquidity. Consider spread strategies to mitigate high implied volatility of 44.43%."
+    },
+    "tokens_used": 2577,
+    "cost": 0.025769999999999998,
+    "response_time": 9.656678438186646,
+    "success": true
+  },
+  "cost": 0.025769999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8581,
+    "response_length": 1731
+  }
+}

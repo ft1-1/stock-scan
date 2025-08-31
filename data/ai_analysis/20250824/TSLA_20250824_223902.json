@@ -1,0 +1,645 @@
+{
+  "success": true,
+  "symbol": "TSLA",
+  "timestamp": "2025-08-24T22:39:02.240606",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSLA",
+      "package_timestamp": "2025-08-24T22:38:53.361765",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSLA",
+        "current_price": 340.01,
+        "overall_score": 57.37139879755286,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 321.479,
+        "sma_200": 328.4078
+      },
+      "momentum_metrics": {
+        "momentum_21d": 11.369145103177196,
+        "momentum_63d": -0.30201735866761364,
+        "momentum_126d": 0.6542332741266962,
+        "momentum_acceleration": 11.67116246184481,
+        "roc_21d": 11.369145103177196,
+        "trend_strength_20d": 0.33020586694262577,
+        "trend_direction": 1,
+        "ma_ribbon_score": 84.70865058950261,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006099625546723009
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": 0.5461769690302757,
+        "volatility_compression": 49.81585735432592,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.05586541206625,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 68.0,
+        "squeeze": 62.47237860314889,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "TSLA",
+        "strike_price": "330",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "31.6",
+        "ask": "31.7",
+        "last_price": "31.6",
+        "mid_price": "31.65",
+        "spread_percent": "0.3154574132492113564668769716"
+      },
+      "greeks": {
+        "delta": 0.6125,
+        "gamma": 0.006,
+        "theta": -0.2397,
+        "vega": 0.51
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4827
+      },
+      "liquidity_metrics": {
+        "volume": 4580,
+        "open_interest": 5355,
+        "volume_oi_ratio": 0.8552754435107376
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-24T22:37:51.337931",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T23:06:56+00:00",
+            "title": "Tesla Leads Mega-Cap Tech Stock Rally After Powell Points to Possible Rate Cut",
+            "content": "Sven Hoppe / picture alliance / Getty Images Tesla has raised the price of its most expensive Cybertruck by roughly $15,000 to $114,990 in the U.S.\n\nTesla (TSLA) shares soared Friday amid a broader market rally spurred by comments from Federal Reserve Chair Jerome Powell that indicated interest rate cuts could be on the horizon.\n\nThe EV maker’s stock jumped over 6% to close around $340, making it the top gainer among shares of the world's most valuable technology companies, which rallied Friday after being under pressure most of the week. Tesla was also among the top-performing stocks in the S&P 500 and Nasdaq 100 today.\n\nTesla stands to benefit from an environment of lower interest rates, which would make it easier for consumers to finance big-ticket purchases such as autos. The stock, which is prone to volatile price moves, also likely got a boost Friday as investor risk appetite returned along with the prospect of lower interest rates.\n\nHowever, even with Friday’s gains, the stock has lost over 15% of its value this year after a backlash to CEO Elon Musk’s political activities and slump in sales, making it the worst-performing “Magnificent Seven” stock of 2025. The only other member in the red is Apple (AAPL), which has seen its stock decline about 9% over the same period amid worries about the impact of tariffs and its progress in AI.\n\nLast month, Musk warned Tesla could also face a “few rough quarters\" ahead, with the expiration of EV tax credits in September potentially set to weigh on demand, thanks to President Trump’s “One Big Beautiful Bill.”\n\nStill, that hasn’t stopped the company from raising the price of its most expensive Cybertruck by $15,000 to $114,990 in the U.S., according to its website. Its \"Luxe Package\" comes with Supervised Full Self-Driving, and free access to Tesla’s Supercharger network. Prices of Tesla’s other Cybertrucks, which don’t come with the package, didn’t change at $62,490 and $72,450, respectively.\n\nThe move raised speculation that Tesla could be testing demand for bundled access to offerings like its FSD, which is available a la carte with other models for a one-time cost of $8,000.\n\nRead the original article on Investopedia\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T22:19:12+00:00",
+            "title": "Stocks Rally Sharply on Dovish Fed Chair Powell",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed up by +1.52%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +1.89%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +1.54%.  September E-mini S&P futures (ESU25) rose +1.52%, and September E-mini Nasdaq futures (NQU25) rose +1.55%.\n\nStock indexes settled sharply higher on Friday, with the Dow Jones Industrials posting a new all-time high.  Stock prices jumped and bond yields tumbled after comments from Fed Chair Powell opened the door for a Fed rate cut next month.  Fed Chair Powell said downside risks to employment are rising, and the shifting balance of risks may warrant adjusting monetary policy.  The 10-year T-note yield fell to a 1-week low of 4.24% on the comments, and the chances of a Fed rate cut at the September 29-30 FOMC meeting rose to 81% from 71% before Powell spoke. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nFed Chair Powell said, \"The stability of the unemployment rate and other labor market measures allows us to proceed carefully as we consider changes to our policy stance. Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"\n\nComments from Boston Fed President Susan Collins on Friday were slightly hawkish, as she noted that US economic growth is slowing, but overall economic fundamentals are solid, with upside risks to inflation and downside risks to labor.  She added that Fed policy is modestly restrictive, which is appropriate.\n\nOn the geopolitical front, US Vice President Vance said negotiations over ending Russia's war in Ukraine are focused on security guarantees for Ukraine and territory Russia wants to control, including Ukrainian territory that it currently isn't occupying, as the US tries to broker a peace deal between the two countries. The US is working to set up a meeting between Presidents Putin and Zelensky, and if that meeting goes well, President Trump said he'll look to follow up with a trilateral summit with the leaders.\n\nRegarding tariffs, President Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect on Monday and did not exclude goods already in transit.  Last Friday, Mr. Trump said, \"I'll be setting tariffs next week and the week after on steel and on, I would say chips – chips and semiconductors, we'll be setting sometime next week, week after.\" Mr. Trump last week said he planned a 100% tariff on semiconductors but would exempt companies that move chip manufacturing to the US.  Mr. Trump also mentioned 200% or 300% tariffs on chips.\n\nIn other recent tariff news, Mr. Trump last Tuesday extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  On August 5, Mr. Trump said that US tariffs on pharmaceutical imports would be announced \"within the next week or so.\" According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 81% at the September 16-17 FOMC meeting, up from 71% Thursday.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled higher.  The Euro Stoxx 50 rallied to a 5-month high and closed up +0.48%.  China's Shanghai Composite climbed to a new 10-year high and closed up +1.45%.  Japan's Nikkei Stock 225 recovered from a 1.5-week low and closed up +0.05%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Friday closed up +19 ticks, and the 10-year T-note yield fell -7.2 bp to 4.256%.  Sep T-notes rallied to a 1-week high Friday, and the 1-year T-note yield dropped to a 1-week low of 4.240%.  T-note prices jumped Friday on dovish comments from Fed Chair Powell, who said downside risks to employment are rising and the shifting balance of risks may warrant adjusting monetary policy.  Powell's comments boosted the chances for a 25 bp Fed rate cut to 81% at the September 29-30 FOMC meeting from 71% on Thursday.\n\nGains in T-notes are limited by hawkish comments from Boston Fed President Susan Collins, who said modestly restrictive Fed policy is appropriate.  Also, rising inflation expectations are bearish for T-notes after the 10-year breakeven inflation rate rose to a 3-week high on Friday at 2.421%.\n\nEuropean government bond yields on Friday moved lower.  The 10-year German bund yield fell -3.5 bp to 2.722%. The 10-year UK gilt yield fell from a 2.75-month high of 4.759% and finished down -3.7 bp to 4.693%.\n\nGerman Q2 GDP was revised lower to -0.3% q/q and -0.2% y/y from the previously reported -0.1% q/q and unchanged y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nStrength in chipmakers supported gains in the broader market.  ON Semiconductor (ON) closed up more than +6% and GlobalFoundries (GFS) and Intel (INTC) closed up more than +5%.  Also, NXP Semiconductors NV (NXPI) and Microchip Technology (MCHP) closed up more than +4%, and ARM Holdings Plc (ARM) closed up more than +3%.  In addition, Advanced Micro Devices (AMD), Texas Instruments (TXN), Marvell Technology (MRVL), ASML Holding NV (ASML), and Qualcomm (QCOM) closed up more than +2%.\n\nThe Magnificent Seven megacap technology stocks rallied Friday, a bullish factor for the overall market.  Tesla (TSLA) closed up more than +6%, and Alphabet (GOOGL) and Amazon.com (AMZN) closed up more than +3%.  Also, Meta Platforms (META) closed up more than +2%, and Apple (AAPL) and Nvidia (NVDA) closed up more than +1%.  In addition, Microsoft (MSFT) closed up +0.59%.\n\nEconomic optimism boosted airlines and cruise line operators on Friday.  Norwegian Cruise Line Holdings (NCLH), American Airlines Group (AAL), and Alaska Air Group (ALK) closed up more than +7%.  Also, Carnival (CCL), Delta Air Lines (DAL), and Royal Caribbean Cruises Ltd (RCL) closed up more than +6%.  In addition, United Airlines Holdings (UAL) and Southwest Airlines (LUV) closed up more than +5%.\n\nHomebuilders and home building supplies moved higher Friday after the 10-year T-note yield fell to a 1-week low, a supportive factor for housing demand.  Builders FirstSource (BLDR) closed up more than +8%, and Mohawk Industries (MHK) closed up more than +7%.  Also, Lennar (LEN), PulteGroup (PHM), DR Horton (DHI), and Toll Brothers (TOL) closed up more than +5%.\n\nUbiquiti (UI) closed up more than +29% after reporting Q4 revenue of $759.2 million, well above the consensus of $621 million.\n\nZoom Communications (ZM) closed up more than +12% after reporting Q2 revenue of $1.22 billion, better than the consensus of $1.20 billion, and raising its 2026 revenue forecast to $4.83 billion-$4.84 billion from a previous estimate of $4.80 billion-$4.81 billion, stronger than the consensus of $4.81 billion.\n\nQxo Inc (QXO) closed up more than +7% after Benchmark Company LLC initiated coverage on the stock with a recommendation of buy and a price target of $50..\n\nEsab Corp (ESAB) closed up more than +4% after Loop Capital Markets upgraded the stock to buy from hold with a price target of $140.\n\nIntuit (INTU) closed down more than -5% to lead losers in the S&P 500 and Nasdaq 100 after forecasting 2026 adjusted operating income of $8.61 billion-$8.69 billion, the midpoint below the consensus of $8.67 billion.\n\nCSX Corp (CSX) closed down more than -3% after announcing a joint intermodal service with BNSF to ship between California, North Carolina, and Florida.\n\nWorkday (WDAY) closed down more than -2% after reporting an unexpected -$5 million loss in Q2 professional services adjusted gross profit versus expectations of a $9.5 million profit.\n\nTelecommunication stocks were under pressure on Friday.  AT&T (T) and T-Mobile US (TMUS) closed down more than -2%.  Also, Verizon Communications (VZ) closed down more than -1% to lead losers in the Dow Jones Industrials.\n\nEarnings Reports(8/25/2025)\n\nHEICO Corp (HEI), Napco Security Technologies Inc (NSSC), PDD Holdings Inc (PDD), Semtech Corp (SMTC).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T21:08:42+00:00",
+            "title": "Stocks to Watch Recap: Intuit, Nvidia, Workday, Zoom",
+            "content": "↗️Tesla (TSLA): The EV-maker's stock led gains for the Magnificent Seven during the broad market rally, rising 6.2%. Alphabet picked up 3.2%. Nvidia (NVDA) turned around early losses and finished 1.7% higher.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T21:08:42+00:00",
+            "title": "Stocks to Watch Recap: Tesla, Carnival, Intuit, Nvidia",
+            "content": "↗️Tesla (TSLA): The EV-maker's stock led gains for the Magnificent Seven during the broad market rally, rising 6.2%. Alphabet picked up 3.2%. Nvidia (NVDA) turned around early losses and finished 1.7% higher.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T21:03:12+00:00",
+            "title": "Form 144 Block For: 22 August",
+            "content": "",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tesla Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers",
+          "employees": 125665,
+          "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric ve"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.67,
+          "profit_margin": 0.0634,
+          "operating_margin": 0.041,
+          "roe": 0.0818,
+          "roa": 0.0291,
+          "revenue_growth_yoy": -0.118,
+          "earnings_growth_yoy": -0.175,
+          "eps_estimate_current_year": 1.6874,
+          "eps_estimate_next_year": 2.3903,
+          "revenue_ttm": 92719996928,
+          "revenue_per_share": 28.862,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 203.5988,
+          "forward_pe": 181.8182,
+          "price_to_sales": 11.8279,
+          "price_to_book": 14.1848,
+          "enterprise_value": 1073036876748,
+          "ev_to_revenue": 11.5729,
+          "ev_to_ebitda": 79.2377
+        },
+        "technical_data": {
+          "beta": 2.331,
+          "52_week_high": 488.5399,
+          "52_week_low": 202.59,
+          "50_day_ma": 321.479,
+          "200_day_ma": 328.4078,
+          "short_interest": 0.0256,
+          "short_ratio": 0.74
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2022-08-25",
+          "last_split_factor": "3:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.383,
+          "target_price": 306.3207,
+          "strong_buy": 14,
+          "buy": 7,
+          "hold": 16,
+          "sell": 3,
+          "strong_sell": 7
+        },
+        "institutional_data": {
+          "shares_outstanding": 3225449984,
+          "percent_institutions": 50.94800000000001,
+          "percent_insiders": 12.875,
+          "shares_float": 2711473609
+        },
+        "balance_latest_sheet": {
+          "total_assets": 128567.0,
+          "total_debt": 13134.0,
+          "cash_and_equivalents": 963.0,
+          "net_debt": -2453.0,
+          "working_capital": 31125.0,
+          "shareholders_equity": 77314.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.17
+        },
+        "income_latest_statement": {
+          "total_revenue": 22496.0,
+          "gross_profit": 3878.0,
+          "operating_income": 923.0,
+          "net_income": 1172.0,
+          "ebitda": 3068.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 17.24,
+          "operating_margin": 4.1,
+          "net_margin": 5.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2540.0,
+          "free_cash_flow": 146.0,
+          "capex": 2394.0,
+          "net_income": 1190.0,
+          "cash_change": -515.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": 0.58,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": 0.76,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": 0.4147,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": 0.441,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 410.78,
+            "high": 412.5,
+            "low": 384.41,
+            "close": 400.28,
+            "volume": 98092883
+          },
+          {
+            "date": "2025-01-29",
+            "open": 395.21,
+            "high": 398.5899,
+            "low": 384.48,
+            "close": 389.1,
+            "volume": 68033648
+          },
+          {
+            "date": "2025-01-28",
+            "open": 396.91,
+            "high": 400.59,
+            "low": 386.5,
+            "close": 398.09,
+            "volume": 48910680
+          },
+          {
+            "date": "2025-01-27",
+            "open": 394.8,
+            "high": 406.69,
+            "low": 389,
+            "close": 397.15,
+            "volume": 58125512
+          },
+          {
+            "date": "2025-01-24",
+            "open": 414.45,
+            "high": 418.88,
+            "low": 405.78,
+            "close": 406.58,
+            "volume": 56427152
+          },
+          {
+            "date": "2025-01-23",
+            "open": 416.06,
+            "high": 420.73,
+            "low": 408.95,
+            "close": 412.38,
+            "volume": 50690594
+          },
+          {
+            "date": "2025-01-22",
+            "open": 416.81,
+            "high": 428,
+            "low": 414.59,
+            "close": 415.11,
+            "volume": 60963340
+          },
+          {
+            "date": "2025-01-21",
+            "open": 432.64,
+            "high": 433.2,
+            "low": 406.31,
+            "close": 424.07,
+            "volume": 87320891
+          },
+          {
+            "date": "2025-01-17",
+            "open": 421.5,
+            "high": 439.74,
+            "low": 419.75,
+            "close": 426.5,
+            "volume": 94991430
+          },
+          {
+            "date": "2025-01-16",
+            "open": 423.49,
+            "high": 424,
+            "low": 409.13,
+            "close": 413.82,
+            "volume": 68335148
+          },
+          {
+            "date": "2025-01-15",
+            "open": 409.9,
+            "high": 429.8,
+            "low": 405.661,
+            "close": 428.22,
+            "volume": 81375453
+          },
+          {
+            "date": "2025-01-14",
+            "open": 414.34,
+            "high": 422.64,
+            "low": 394.54,
+            "close": 396.36,
+            "volume": 84565023
+          },
+          {
+            "date": "2025-01-13",
+            "open": 383.21,
+            "high": 403.79,
+            "low": 380.07,
+            "close": 403.31,
+            "volume": 67580484
+          },
+          {
+            "date": "2025-01-10",
+            "open": 391.4,
+            "high": 399.28,
+            "low": 377.29,
+            "close": 394.74,
+            "volume": 62287328
+          },
+          {
+            "date": "2025-01-08",
+            "open": 392.95,
+            "high": 402.4999,
+            "low": 387.4,
+            "close": 394.94,
+            "volume": 73038805
+          },
+          {
+            "date": "2025-01-07",
+            "open": 405.83,
+            "high": 414.33,
+            "low": 390,
+            "close": 394.36,
+            "volume": 75699531
+          },
+          {
+            "date": "2025-01-06",
+            "open": 423.2,
+            "high": 426.43,
+            "low": 401.7,
+            "close": 411.05,
+            "volume": 85516531
+          },
+          {
+            "date": "2025-01-03",
+            "open": 381.48,
+            "high": 411.8799,
+            "low": 379.45,
+            "close": 410.44,
+            "volume": 95423328
+          },
+          {
+            "date": "2025-01-02",
+            "open": 390.1,
+            "high": 392.7299,
+            "low": 373.04,
+            "close": 379.28,
+            "volume": 109710703
+          },
+          {
+            "date": "2024-12-31",
+            "open": 423.79,
+            "high": 427.93,
+            "low": 402.54,
+            "close": 403.84,
+            "volume": 76825117
+          },
+          {
+            "date": "2024-12-30",
+            "open": 419.4,
+            "high": 427,
+            "low": 415.75,
+            "close": 417.41,
+            "volume": 64941008
+          },
+          {
+            "date": "2024-12-27",
+            "open": 449.52,
+            "high": 450,
+            "low": 426.5,
+            "close": 431.66,
+            "volume": 82666812
+          },
+          {
+            "date": "2024-12-26",
+            "open": 465.16,
+            "high": 465.3299,
+            "low": 451.02,
+            "close": 454.13,
+            "volume": 76651211
+          },
+          {
+            "date": "2024-12-24",
+            "open": 435.9,
+            "high": 462.78,
+            "low": 435.14,
+            "close": 462.28,
+            "volume": 59551754
+          },
+          {
+            "date": "2024-12-23",
+            "open": 431,
+            "high": 434.51,
+            "low": 415.4112,
+            "close": 430.6,
+            "volume": 72698062
+          },
+          {
+            "date": "2024-12-20",
+            "open": 425.505,
+            "high": 447.08,
+            "low": 417.64,
+            "close": 421.06,
+            "volume": 132216203
+          },
+          {
+            "date": "2024-12-19",
+            "open": 451.88,
+            "high": 456.36,
+            "low": 420.02,
+            "close": 436.17,
+            "volume": 118566094
+          },
+          {
+            "date": "2024-12-18",
+            "open": 466.495,
+            "high": 488.5399,
+            "low": 427.01,
+            "close": 440.13,
+            "volume": 149340797
+          },
+          {
+            "date": "2024-12-17",
+            "open": 475.9,
+            "high": 483.99,
+            "low": 457.5101,
+            "close": 479.86,
+            "volume": 131223000
+          },
+          {
+            "date": "2024-12-16",
+            "open": 441.09,
+            "high": 463.19,
+            "low": 436.15,
+            "close": 463.02,
+            "volume": 114083797
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 7.577675124976267,
+        "return_63d": 0.1974420934755749,
+        "pct_above_sma50": 5.764295646060864,
+        "sma_50": 321.479,
+        "new_55d_high": "False",
+        "high_55d": 357.54,
+        "rsi": 68.6386228633774,
+        "rsi_in_range": "True",
+        "adx": 18.763550931595443,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.5020646451574953,
+        "bb_width": 14.307640136043693,
+        "keltner_width": 14.667229705290097,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 25915703868.72815,
+        "adv_shares": 79735475.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 53.055865412066254,
+        "final_score": 48.055865412066254,
+        "sub_scores": {
+          "trend_momentum": 15.05586541206625,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 11.369145103177193,
+          "ret_63d": -0.3020173586676167,
+          "rsi14": 68.6386228633774,
+          "adx14": 17.952514183951287,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSLA\n• Current Price: $340.01\n• Overall Score: 57.37139879755286\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 321.479\n• Sma 200: 328.4078\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 11.369145103177196\n• Momentum 63D: -0.30201735866761364\n• Momentum 126D: 0.6542332741266962\n• Momentum Acceleration: 11.67116246184481\n• Roc 21D: 11.369145103177196\n• Trend Strength 20D: 0.33020586694262577\n• Trend Direction: 1\n• Ma Ribbon Score: 84.70865058950261\n• Breakout Strength: 0.0\n• Price Velocity: 0.006099625546723009\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: 0.5461769690302757\n• Volatility Compression: 49.81585735432592\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.05586541206625\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 68.0\n• Squeeze: 62.47237860314889\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: TSLA\n• Strike Price: $330\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $31.6\n• Ask: $31.7\n• Last: $31.6\n• Mid: $31.65\n• Spread: 0.3154574132492113564668769716%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6125\n• Gamma: 0.006\n• Theta: -0.2397\n• Vega: 0.51\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4827\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 4580\n• Open Interest: 5355\n• Volume/OI Ratio: 0.8552754435107376\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Tesla Inc\n• Sector: Consumer Cyclical\n• Industry: Auto Manufacturers\n• EPS (TTM): $1.67\n• Profit Margin: 6.3%\n• ROE: 8.2%\n• P/E Ratio: 203.6\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T23:06:56+00:00: Tesla Leads Mega-Cap Tech Stock Rally After Powell Points to Possible Rate Cut...\n• 2025-08-22T22:19:12+00:00: Stocks Rally Sharply on Dovish Fed Chair Powell...\n• 2025-08-22T21:08:42+00:00: Stocks to Watch Recap: Intuit, Nvidia, Workday, Zoom...\n• 2025-08-22T21:08:42+00:00: Stocks to Watch Recap: Tesla, Carnival, Intuit, Nvidia...\n• 2025-08-22T21:03:12+00:00: Form 144 Block For: 22 August...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSLA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TSLA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-24T22:39:02.239970",
+    "estimated_tokens": 2307
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSLA\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 17,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 5,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TSLA shows strong technical momentum with price above both SMAs and positive 21-day momentum of 11.37%. The presence of a volatility squeeze across multiple timeframes combined with tight option spreads presents an attractive setup, though fundamentals remain mixed with high P/E ratio.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 and 200 SMAs\",\n        \"Multi-timeframe squeeze setup with 3 concurrent squeezes\",\n        \"Excellent options liquidity with 0.32% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Elevated P/E ratio of 203.6x suggests rich valuation\",\n        \"Upcoming earnings on 2024-09-30 presents event risk\",\n        \"Relatively low profit margin of 6.3% indicates operational challenges\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call option at $330 strike offers good delta exposure with manageable theta\",\n        \"entry_timing\": \"Consider entry now given strong momentum and squeeze setup\",\n        \"risk_management\": \"Use 30% stop loss and consider rolling position before earnings date\"\n    },\n    \"red_flags\": [\n        \"Earnings report in approximately 30 days\",\n        \"Extremely high P/E ratio indicates valuation risk\"\n    ],\n    \"notes\": \"Options Greeks profile (0.61 delta, -0.24 theta) suggests good risk/reward for directional play, but position sizing should be conservative given fundamental metrics\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSLA",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 17,
+        "iv_value": 9,
+        "squeeze_volatility": 8,
+        "fundamentals": 5,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "TSLA shows strong technical momentum with price above both SMAs and positive 21-day momentum of 11.37%. The presence of a volatility squeeze across multiple timeframes combined with tight option spreads presents an attractive setup, though fundamentals remain mixed with high P/E ratio.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 and 200 SMAs",
+        "Multi-timeframe squeeze setup with 3 concurrent squeezes",
+        "Excellent options liquidity with 0.32% bid-ask spread"
+      ],
+      "risks": [
+        "Elevated P/E ratio of 203.6x suggests rich valuation",
+        "Upcoming earnings on 2024-09-30 presents event risk",
+        "Relatively low profit margin of 6.3% indicates operational challenges"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call option at $330 strike offers good delta exposure with manageable theta",
+        "entry_timing": "Consider entry now given strong momentum and squeeze setup",
+        "risk_management": "Use 30% stop loss and consider rolling position before earnings date"
+      },
+      "red_flags": [
+        "Earnings report in approximately 30 days",
+        "Extremely high P/E ratio indicates valuation risk"
+      ],
+      "notes": "Options Greeks profile (0.61 delta, -0.24 theta) suggests good risk/reward for directional play, but position sizing should be conservative given fundamental metrics"
+    },
+    "tokens_used": 2529,
+    "cost": 0.02529,
+    "response_time": 8.876594305038452,
+    "success": true
+  },
+  "cost": 0.02529,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8433,
+    "response_length": 1685
+  }
+}

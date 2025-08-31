@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "symbol": "XYZ",
+  "timestamp": "2025-08-29T06:35:01.576238",
+  "data_package": {
+    "metadata": {
+      "symbol": "XYZ",
+      "package_timestamp": "2025-08-29T06:34:50.839318",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "XYZ",
+        "current_price": 80.78,
+        "overall_score": 50.48178748754256,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 73.001,
+        "sma_200": 72.3418
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.1113545559994815,
+        "momentum_63d": 29.954954954954964,
+        "momentum_126d": 25.66894835096453,
+        "momentum_acceleration": -25.84360039895548,
+        "roc_21d": 4.1113545559994815,
+        "trend_strength_20d": 0.38684914848002466,
+        "trend_direction": 1,
+        "ma_ribbon_score": 86.78932265410728,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.017768560002795208
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": 0.13673526410098072,
+        "volatility_compression": 60.1621470206493,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.81898380919818,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.371856410256424,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 58.0,
+        "squeeze": 54.02432205309739,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 13,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "XYZ",
+        "strike_price": "80",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.75",
+        "ask": "7.85",
+        "last_price": "7.84",
+        "mid_price": "7.80",
+        "spread_percent": "1.273885350318471337579617834"
+      },
+      "greeks": {
+        "delta": 0.5796,
+        "gamma": 0.0221,
+        "theta": -0.0454,
+        "vega": 0.1519
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4551
+      },
+      "liquidity_metrics": {
+        "volume": 92,
+        "open_interest": 4613,
+        "volume_oi_ratio": 0.019943637546065467
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:36.135043",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T22:03:00+00:00",
+            "title": "Affirm Stock Rises 13% After Earnings. What Has Wall Street Excited.",
+            "content": "The provider of buy-now, pay-later services said in May that tariffs would barely impact future results.\n\nContinue Reading",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:21:00+00:00",
+            "title": "Affirm Reports Earnings Today. What Investors Should Expect From the Fintech.",
+            "content": "The provider of buy-now, pay-later services said in May that tariffs would barely impact future results.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T11:32:25+00:00",
+            "title": "Affirm Earnings, 2026 Outlook Loom: Here's What Could Jolt The Stock",
+            "content": "Fiscal Q4 earnings for Affirm stock are due Thursday. Fiscal 2026 guidance on gross merchandise volume excluding Walmart will be key.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T10:10:46+00:00",
+            "title": "Is Square’s Growth Outlook Shifting After Q2 Beat and Price Target Increases?",
+            "content": "Certainly! Here is the revised article text, with em dashes removed and the formatting improved:\n\nIf you are wondering whether now is the right time to buy, hold, or sell Block stock, you are not alone. The company’s shares have been on a bit of a rollercoaster, from surging almost 20% over the past year to dropping around 8.5% since the start of the year. Just in the past week, Block jumped 7.2% as optimism returned following a wave of analyst upgrades and price target hikes. Both Oppenheimer and TD Cowen lifted their targets into the $90s, citing growth drivers like Cash App reacceleration and improvements in Block’s Square business. These factors have helped shift market perception toward Block’s potential for a rebound.\n\nOf course, headlines only tell part of the story. The company’s five-year stock return is still negative, but its most loyal investors have been rewarded with positive three-year and one-year gains. All of this back and forth has kept Block right in the middle when it comes to its valuation score, coming in at 3 out of 6. This means Block is considered undervalued on half of the common checks, but still has some work to do compared to value investors’ highest standards.\n\nSo, how should you interpret these numbers? Does a middling valuation score mean Block deserves a closer look? In the next section, we will explain exactly how this score is calculated and what each valuation method reveals about where Block stands now. Stick around, as we will also share an even more powerful way to size up Block’s true value potential before you make a move.\n\nBlock delivered 19.5% returns over the last year. See how this stacks up to the rest of the Diversified Financial industry.\n\nApproach 1: Block Excess Returns Analysis\n\nThe Excess Returns Model evaluates a company's ability to generate returns on invested capital above its cost of equity, providing a picture of sustainable value creation over time. This method relies on key indicators, including projected future profits compared to what shareholders require as compensation for their risk.\n\nFor Block, analysts estimate a future average Return on Equity of 10.51%, based on seven analyst projections. The company’s Book Value per share currently stands at $36.31 and is expected to grow to a stable value of $42.28 per share, as forecast by eight analysts. Estimated stable earnings per share are $4.44, while the cost of equity is $3.27 per share. This results in an annual excess return of $1.17 per share. The consistent ability to generate returns in excess of the equity cost is crucial for long-term value growth.\n\nStory Continues\n\nHowever, the Excess Returns Model calculations indicate an intrinsic value that is about 17.8% below the current share price. This suggests that Block stock is currently overvalued according to this measure.\n\nResult: OVERVALUED\n\nHead to the Valuation section of our Company Report for more details on how we arrive at this Fair Value for Block.XYZ Discounted Cash Flow as at Aug 2025\n\nOur Excess Returns analysis suggests Block may be overvalued by 17.8%. Find undervalued stocks or create your own screener to find better value opportunities.\n\nApproach 2: Block Price vs Earnings (PE)\n\nThe Price-to-Earnings (PE) ratio is often a primary metric for valuing profitable companies like Block, as it directly links a company’s share price to its earnings. A reasonable PE ratio reflects how much investors are willing to pay today for a dollar of current earnings, while factoring in their growth expectations and perceptions of risk. Higher expected growth or lower risk typically justifies a higher PE, while the opposite would bring the ratio down.\n\nCurrently, Block trades at a PE ratio of 16.4x. This is just below the Diversified Financial industry average of 16.6x and well below the average of its peers, which stands at 43.1x. While these benchmarks provide a useful reference, they do not capture company-specific factors such as Block’s unique growth profile, margins, or risk levels.\n\nThis is where Simply Wall St’s “Fair Ratio” comes in, which estimates that Block would have a fair PE of 19.8x when accounting for its expected earnings growth, industry position, profit margins, market cap, and business risks. By using the Fair Ratio, investors obtain a more holistic perspective that goes beyond simple peer or industry comparisons and focuses on what is truly justified for Block at this time. Since Block’s current PE ratio of 16.4x is moderately below its Fair Ratio, this suggests the shares could be undervalued based on their fundamentals.\n\nResult: UNDERVALUEDNYSE:XYZ PE Ratio as at Aug 2025\n\nPE ratios tell one story, but what if the real opportunity lies elsewhere? Discover companies where insiders are betting big on explosive growth.\n\nUpgrade Your Decision Making: Choose your Block Narrative\n\nEarlier we mentioned that there is an even better way to understand valuation. Let's introduce you to Narratives. A Narrative is simply your unique story or perspective about a company, connecting the facts and forecasts that matter most to you, such as your personal estimates for future revenue, profit margins, and fair value. Narratives link what you believe about Block's future directly to a financial forecast. This approach then informs your own fair value and buy or sell decisions. They are an easy and accessible tool that millions of investors already use on Simply Wall St’s Community page. Narratives give you the power to visualize how your expectations compare to others and the market price.\n\nNarratives are updated automatically as new information comes in, so your outlook stays relevant, whether there is a major news story or an earnings report. For example, some investors might create a bullish Narrative for Block, expecting $3.4 billion in future earnings and a fair value as high as $154 per share. More cautious investors may project $1.9 billion in earnings and a fair value closer to $35. With Narratives, you can easily see where you stand, update your assumptions at any time, and make confidence-driven investment choices supported by your own research.\n\nDo you think there's more to the story for Block? Create your own Narrative to let the Community know!NYSE:XYZ Community Fair Values as at Aug 2025\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include XYZ.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T08:25:00+00:00",
+            "title": "2 Growth Stocks Down Over 70% Billionaires Are Piling Into",
+            "content": "Key Points\n\nThe latest quarterly Form 13Fs show the wealthiest investors in the world scooping up shares of fallen Wall Street darlings that are trading more than 70% off their all-time highs. Duquesne Family Office's Stanley Druckenmiller and Third Point's Daniel Loeb were adding to their stakes in e-signature leader DocuSign in Q2 2025. Meanwhile, Tiger Global Management's Chase Coleman and Appaloosa Management's David Tepper were buying shares of Block (formerly Square), as the Cash App's gross profit continues to grow.10 stocks we like better than Docusign ›\n\nWall Street's focus on high-growth tech stocks has left other notable names trading well off their highs. Prominent billionaire investors with a record of identifying winners in the stock market are starting to shift money to more reasonably priced tech stocks due for a rebound.\n\nFortunately, wealthy investors who manage multibillion-dollar funds are required to disclose their holdings every quarter on Form 13F with the Securities and Exchange Commission. This provides a treasure trove of promising opportunities for retail investors.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nIn the second quarter, billionaires were buying two stocks of growing companies that are trading well off their previous highs but could be on the verge of a recovery.\n\nImage source: Getty Images.\n\n1. DocuSign\n\nTwo prominent billionaires with a history of making astute investments that earn wealth-building returns were buying shares of beaten-down growth stock DocuSign(NASDAQ: DOCU) in the second quarter.\n\nThe once high-flying stock during the pandemic is sitting 76% below its all-time high in 2021. This has drawn the interest of Stanley Druckenmiller, who manages his wealth through the Duquesne Family Office LLC, and famed activist investor Daniel Loeb of Third Point Capital.\n\nThe eSignature company was all the rage on Wall Street during the pandemic, when digital services were in high demand. The company is not growing as fast as it was in 2020, but it is still growing, and importantly, it is generating healthy profits. What's probably got Druckenmiller and Loeb's attention is that management is aiming for higher revenue growth after launching its new Intelligent Agreement Management (IAM) platform.\n\nWhile the company faces competition in its core e-signature product from digital software leader Adobe, DocuSign is expanding its offering from its flagship electronic signature product to using AI that automates the whole process of working through new business agreements, such as managing and creating contracts, which significantly expands its addressable market.\n\nThe company reported a year-over-year revenue increase of 8% in the most recent quarter. But as demand for artificial intelligence (AI)-powered products continues to grow, management expects top-line growth to accelerate. Sales of IAM exceeded expectations last quarter, putting it on pace to achieve a double-digit percentage of its subscription business by fiscal Q4.\n\nDruckenmiller and Loeb seem to favor DocuSign's promising initiatives with AI-powered products, along with its ability to leverage an extensive partner ecosystem with leading cloud services to drive growth with large enterprises. Moreover, the stock is more reasonably valued, trading at 17 times trailing free cash flow.\n\nThrough his Duquesne Family Office, Druckenmiller initiated a position in the stock of about 1.1 million shares in Q1 and increased the stake to nearly 1.3 million shares in Q2. Meanwhile, Loeb started a new position in the stock in Q2 by purchasing 625,000 shares.\n\nAs the tech bull market continues in 2025, these investors are clearly looking for discounted growth stocks that offer decent growth prospects at an attractive valuation, and they may have found a gem in DocuSign.\n\nImage source: Getty Images.\n\n2. Block\n\nAnother fallen Wall Street darling that is drawing interest from notable billionaires with an impressive record of earning market-beating returns is Block (formerly Square) (NYSE: XYZ), which owns the Cash App.\n\nChase Coleman of Tiger Global Management and David Tepper of Appaloosa Management previously bought shares of Block during the pandemic when the Cash App was driving strong growth for the company. After eventually selling out as momentum faded, they are now adding to their stakes after starting new positions in the stock during the first quarter.\n\nThe stock is down 72% from its previous peak but appears to be on the verge of breaking out to the upside again. Block just reported a strong quarter, showing a notable 14% year-over-year increase in gross profit, driven by growth in Square and accelerating momentum in Cash App.\n\nWhile Square's gross payment volume grew at a solid 10% year over year last quarter, as the company focuses on driving adoption in the restaurant industry, the real momentum with the company right now is with Cash App.\n\nBlock is having success going after younger demographics for its peer-to-peer (P2P) payment business. CEO Jack Dorsey wants to build a complete money hub for customers by expanding its banking tools and launching new products. Over the past year, Cash App processed $218 billion in P2P volume.\n\nThe number of banking actives, or the number of people using Cash App for regular paycheck deposits or spending at least $500 per month, grew 16% year over year to 8 million in Q2. The growing usage of Cash App is opening a huge opportunity in borrowing, where Cash App Borrow has nearly doubled to $18 billion annualized originations, which contributed to Cash App's gross profit increase of 16% year over year in the quarter.\n\nBlock still faces a lot of competition in the payments space, where consumers have several choices for managing money. The stock is a relatively small position for Coleman and Tepper, which accounts for the risk that Block will fail to stand out from a crowded market in the long term.\n\nNonetheless, these investors are piling into it. Coleman doubled his firm's stake to more than 3.9 million shares in Q2, while Tepper increased his stake by 755% to 641,800 shares. These investors may like how Block's business benefits from a network effect advantage. As more people use the Cash App, it increases the value for others to use it when sending money. The company's continued growth suggests it is benefiting from its own set of advantages.\n\nThe stock undoubtedly offers investors better value today after falling sharply over the past few years. With analysts expecting the company to grow earnings at an annualized rate of 18% over the next several years, Block is a promising opportunity that could outperform the market.\n\nShould you invest $1,000 in Docusign right now?\n\nBefore you buy stock in Docusign, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Docusign wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $661,220!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,114,162!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,069% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nJohn Ballard has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Adobe, Block, and Docusign. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Block, Inc",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "employees": 12000,
+          "description": "Block, Inc., together with its subsidiaries, builds ecosystems focused on commerce and financial products and services in the United States and internationally. It operates through two segments: Square and Cash App. The Square segment offers commerce products for restaurants, appointments, retail, p"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.68,
+          "profit_margin": 0.1241,
+          "operating_margin": 0.0818,
+          "roe": 0.1416,
+          "roa": 0.0216,
+          "revenue_growth_yoy": -0.016,
+          "earnings_growth_yoy": 1.811,
+          "eps_estimate_current_year": 2.6068,
+          "eps_estimate_next_year": 3.6362,
+          "revenue_ttm": 23834615808,
+          "revenue_per_share": 38.659,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 17.2607,
+          "forward_pe": 25.5754,
+          "price_to_sales": 2.066,
+          "price_to_book": 2.2224,
+          "enterprise_value": 43645281520,
+          "ev_to_revenue": 1.8312,
+          "ev_to_ebitda": 18.0875
+        },
+        "technical_data": {
+          "beta": 2.711,
+          "52_week_high": 99.26,
+          "52_week_low": 44.27,
+          "50_day_ma": 73.001,
+          "200_day_ma": 72.3418,
+          "short_interest": 0.0393,
+          "short_ratio": 1.31
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1429,
+          "target_price": 85.0194,
+          "strong_buy": 25,
+          "buy": 10,
+          "hold": 12,
+          "sell": 0,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 549574016,
+          "percent_institutions": 76.838,
+          "percent_insiders": 1.2,
+          "shares_float": 543663586
+        },
+        "balance_latest_sheet": {
+          "total_assets": 36858.391,
+          "total_debt": 6122.475,
+          "net_debt": -5199.563,
+          "working_capital": 9636.348,
+          "shareholders_equity": 22157.136,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.28
+        },
+        "income_latest_statement": {
+          "total_revenue": 6054.457,
+          "gross_profit": 2502.639,
+          "operating_income": 779.425,
+          "net_income": 538.458,
+          "ebitda": 775.466,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 41.34,
+          "operating_margin": 12.87,
+          "net_margin": 8.89
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 374.322,
+          "free_cash_flow": 343.012,
+          "capex": 31.31,
+          "net_income": 538.334,
+          "cash_change": -946.603,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.6432,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 72.01,
+            "high": 73.25,
+            "low": 71.17,
+            "close": 72.82,
+            "volume": 10786378
+          },
+          {
+            "date": "2025-07-21",
+            "open": 78.61,
+            "high": 79.44,
+            "low": 76.8,
+            "close": 78.08,
+            "volume": 49143462
+          },
+          {
+            "date": "2025-07-22",
+            "open": 78.46,
+            "high": 79.585,
+            "low": 78.26,
+            "close": 79.27,
+            "volume": 139479528
+          },
+          {
+            "date": "2025-07-23",
+            "open": 79.81,
+            "high": 80.36,
+            "low": 78.45,
+            "close": 79.7,
+            "volume": 13249814
+          },
+          {
+            "date": "2025-07-24",
+            "open": 79.445,
+            "high": 81.13,
+            "low": 79.31,
+            "close": 79.77,
+            "volume": 9377457
+          },
+          {
+            "date": "2025-07-25",
+            "open": 79.755,
+            "high": 81.08,
+            "low": 78.93,
+            "close": 80.74,
+            "volume": 6348691
+          },
+          {
+            "date": "2025-07-28",
+            "open": 81.2,
+            "high": 82.18,
+            "low": 80.365,
+            "close": 80.57,
+            "volume": 9578650
+          },
+          {
+            "date": "2025-07-29",
+            "open": 79.7,
+            "high": 81.06,
+            "low": 77.64,
+            "close": 78.18,
+            "volume": 10631992
+          },
+          {
+            "date": "2025-07-30",
+            "open": 77.705,
+            "high": 78.75,
+            "low": 77.049,
+            "close": 77.59,
+            "volume": 7352217
+          },
+          {
+            "date": "2025-07-31",
+            "open": 76.78,
+            "high": 78.08,
+            "low": 76,
+            "close": 77.26,
+            "volume": 6769769
+          },
+          {
+            "date": "2025-08-01",
+            "open": 75,
+            "high": 75.22,
+            "low": 72.9845,
+            "close": 74.03,
+            "volume": 8235263
+          },
+          {
+            "date": "2025-08-04",
+            "open": 75.02,
+            "high": 76.63,
+            "low": 74.42,
+            "close": 76.12,
+            "volume": 6082223
+          },
+          {
+            "date": "2025-08-05",
+            "open": 75.98,
+            "high": 76.1,
+            "low": 74.0101,
+            "close": 75.29,
+            "volume": 7207358
+          },
+          {
+            "date": "2025-08-06",
+            "open": 75.33,
+            "high": 76.88,
+            "low": 75.33,
+            "close": 76.13,
+            "volume": 6488668
+          },
+          {
+            "date": "2025-08-07",
+            "open": 76.125,
+            "high": 77.37,
+            "low": 76,
+            "close": 76.85,
+            "volume": 14968786
+          },
+          {
+            "date": "2025-08-08",
+            "open": 82.125,
+            "high": 82.5,
+            "low": 73.2,
+            "close": 73.39,
+            "volume": 22800821
+          },
+          {
+            "date": "2025-08-11",
+            "open": 74.08,
+            "high": 74.7575,
+            "low": 72.39,
+            "close": 73.03,
+            "volume": 10171970
+          },
+          {
+            "date": "2025-08-12",
+            "open": 73.58,
+            "high": 75.5,
+            "low": 73.58,
+            "close": 74.54,
+            "volume": 7060824
+          },
+          {
+            "date": "2025-08-13",
+            "open": 74.765,
+            "high": 77.0625,
+            "low": 74.758,
+            "close": 76.95,
+            "volume": 8084345
+          },
+          {
+            "date": "2025-08-14",
+            "open": 76.17,
+            "high": 76.5398,
+            "low": 74.47,
+            "close": 76.04,
+            "volume": 6560309
+          },
+          {
+            "date": "2025-08-15",
+            "open": 76.19,
+            "high": 76.88,
+            "low": 75.23,
+            "close": 75.8,
+            "volume": 6691825
+          },
+          {
+            "date": "2025-08-18",
+            "open": 76,
+            "high": 77.46,
+            "low": 75.76,
+            "close": 76.73,
+            "volume": 6781357
+          },
+          {
+            "date": "2025-08-19",
+            "open": 76.85,
+            "high": 77.25,
+            "low": 74.04,
+            "close": 74.3,
+            "volume": 5387018
+          },
+          {
+            "date": "2025-08-20",
+            "open": 73.58,
+            "high": 74.28,
+            "low": 71.45,
+            "close": 74.18,
+            "volume": 7093111
+          },
+          {
+            "date": "2025-08-21",
+            "open": 73.72,
+            "high": 74.15,
+            "low": 72.51,
+            "close": 74.09,
+            "volume": 6961876
+          },
+          {
+            "date": "2025-08-22",
+            "open": 73.55,
+            "high": 79.385,
+            "low": 73.47,
+            "close": 79.12,
+            "volume": 12035339
+          },
+          {
+            "date": "2025-08-25",
+            "open": 78.39,
+            "high": 80.32,
+            "low": 78.39,
+            "close": 79.08,
+            "volume": 6549253
+          },
+          {
+            "date": "2025-08-26",
+            "open": 78.46,
+            "high": 79.01,
+            "low": 77.73,
+            "close": 78.78,
+            "volume": 5128313
+          },
+          {
+            "date": "2025-08-27",
+            "open": 78.58,
+            "high": 79.685,
+            "low": 78.44,
+            "close": 79.39,
+            "volume": 4027606
+          },
+          {
+            "date": "2025-08-28",
+            "open": 79.98,
+            "high": 81.39,
+            "low": 79.756,
+            "close": 80.78,
+            "volume": 5007264
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.55604452498058,
+        "return_63d": 30.81781376518219,
+        "pct_above_sma50": 10.656018410706697,
+        "sma_50": 73.001,
+        "new_55d_high": "False",
+        "high_55d": 82.5,
+        "rsi": 72.57177764202808,
+        "rsi_in_range": "False",
+        "adx": 24.758860182589558,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.3798836345630088,
+        "bb_width": 11.699312075795437,
+        "keltner_width": 14.3355487062484,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 622515796.9599501,
+        "adv_shares": 8166176.45,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 54.1908402194546,
+        "final_score": 54.1908402194546,
+        "sub_scores": {
+          "trend_momentum": 19.81898380919818,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.371856410256424,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 4.111354555999491,
+          "ret_63d": 29.95495495495497,
+          "rsi14": 72.57177764202808,
+          "adx14": 13.868747624686842,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: XYZ\n• Current Price: $80.78\n• Overall Score: 50.48178748754256\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 73.001\n• Sma 200: 72.3418\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.1113545559994815\n• Momentum 63D: 29.954954954954964\n• Momentum 126D: 25.66894835096453\n• Momentum Acceleration: -25.84360039895548\n• Roc 21D: 4.1113545559994815\n• Trend Strength 20D: 0.38684914848002466\n• Trend Direction: 1\n• Ma Ribbon Score: 86.78932265410728\n• Breakout Strength: 0.0\n• Price Velocity: 0.017768560002795208\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: 0.13673526410098072\n• Volatility Compression: 60.1621470206493\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.81898380919818\n• Squeeze Breakout: 4.0\n• Options Quality: 19.371856410256424\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 58.0\n• Squeeze: 54.02432205309739\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: XYZ\n• Strike Price: $80\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.75\n• Ask: $7.85\n• Last: $7.84\n• Mid: $7.80\n• Spread: 1.273885350318471337579617834%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5796\n• Gamma: 0.0221\n• Theta: -0.0454\n• Vega: 0.1519\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4551\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 92\n• Open Interest: 4613\n• Volume/OI Ratio: 0.019943637546065467\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Block, Inc\n• Sector: Technology\n• Industry: Software - Infrastructure\n• EPS (TTM): $4.68\n• Profit Margin: 12.4%\n• ROE: 14.2%\n• P/E Ratio: 17.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T22:03:00+00:00: Affirm Stock Rises 13% After Earnings. What Has Wall Street Excited....\n• 2025-08-28T17:21:00+00:00: Affirm Reports Earnings Today. What Investors Should Expect From the Fintech....\n• 2025-08-28T11:32:25+00:00: Affirm Earnings, 2026 Outlook Loom: Here's What Could Jolt The Stock...\n• 2025-08-28T10:10:46+00:00: Is Square’s Growth Outlook Shifting After Q2 Beat and Price Target Increases?...\n• 2025-08-28T08:25:00+00:00: 2 Growth Stocks Down Over 70% Billionaires Are Piling Into...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR XYZ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the XYZ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:35:01.575891",
+    "estimated_tokens": 2332
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"XYZ\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"XYZ shows strong technical momentum with price above both SMAs and an 86.79 MA ribbon score, while experiencing a volatility squeeze with 60.16% compression. However, upcoming earnings and decelerating momentum (-25.84 acceleration) warrant caution.\",\n    \"opportunities\": [\n        \"Price trending above both 50 & 200 SMAs with strong MA ribbon score of 86.79\",\n        \"Tight option spread of 1.27% with good open interest of 4,613\",\n        \"Active volatility squeeze with 60.16% compression indicating potential breakout\"\n    ],\n    \"risks\": [\n        \"Momentum acceleration showing significant deceleration at -25.84\",\n        \"Earnings coming up on 2025-09-30 (within 30 days)\",\n        \"Volume/OI ratio very low at 0.019, indicating potential liquidity concerns\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS Call at $80 strike for November 2025 expiration with 0.58 delta\",\n        \"entry_timing\": \"Wait until after earnings report before entry given proximity\",\n        \"risk_management\": \"Use smaller position size due to upcoming earnings and consider rolling before event\"\n    },\n    \"red_flags\": [\n        \"Earnings within 30 days presents significant event risk\",\n        \"Sharp deceleration in momentum could signal trend weakness\"\n    ],\n    \"notes\": \"While technical setup is promising, timing is suboptimal due to upcoming earnings. Consider waiting for post-earnings entry if fundamentals remain strong.\"\n}",
+    "parsed_analysis": {
+      "symbol": "XYZ",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "XYZ shows strong technical momentum with price above both SMAs and an 86.79 MA ribbon score, while experiencing a volatility squeeze with 60.16% compression. However, upcoming earnings and decelerating momentum (-25.84 acceleration) warrant caution.",
+      "opportunities": [
+        "Price trending above both 50 & 200 SMAs with strong MA ribbon score of 86.79",
+        "Tight option spread of 1.27% with good open interest of 4,613",
+        "Active volatility squeeze with 60.16% compression indicating potential breakout"
+      ],
+      "risks": [
+        "Momentum acceleration showing significant deceleration at -25.84",
+        "Earnings coming up on 2025-09-30 (within 30 days)",
+        "Volume/OI ratio very low at 0.019, indicating potential liquidity concerns"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS Call at $80 strike for November 2025 expiration with 0.58 delta",
+        "entry_timing": "Wait until after earnings report before entry given proximity",
+        "risk_management": "Use smaller position size due to upcoming earnings and consider rolling before event"
+      },
+      "red_flags": [
+        "Earnings within 30 days presents significant event risk",
+        "Sharp deceleration in momentum could signal trend weakness"
+      ],
+      "notes": "While technical setup is promising, timing is suboptimal due to upcoming earnings. Consider waiting for post-earnings entry if fundamentals remain strong."
+    },
+    "tokens_used": 2566,
+    "cost": 0.025660000000000002,
+    "response_time": 10.734473466873169,
+    "success": true
+  },
+  "cost": 0.025660000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8530,
+    "response_length": 1739
+  }
+}

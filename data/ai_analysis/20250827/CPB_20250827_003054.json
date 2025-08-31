@@ -1,0 +1,638 @@
+{
+  "success": true,
+  "symbol": "CPB",
+  "timestamp": "2025-08-27T00:30:54.534464",
+  "data_package": {
+    "metadata": {
+      "symbol": "CPB",
+      "package_timestamp": "2025-08-27T00:30:44.831361",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CPB",
+        "current_price": 32.07,
+        "overall_score": 48.98569601705971,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 31.9222,
+        "sma_200": 37.4982
+      },
+      "momentum_metrics": {
+        "momentum_21d": -0.8374689826302826,
+        "momentum_63d": -6.901572510192208,
+        "momentum_126d": -23.259721555448866,
+        "momentum_acceleration": 6.064103527561926,
+        "roc_21d": -0.8374689826302826,
+        "trend_strength_20d": 0.07356077822008002,
+        "trend_direction": 1,
+        "ma_ribbon_score": 69.23159916517574,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.004348051705133327
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 11.0,
+        "squeeze_momentum": -0.026979913479544378,
+        "volatility_compression": 66.95909800455439,
+        "is_consolidating": "False",
+        "breakout_score": 4.86817863267379,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 5.725967381007199,
+        "squeeze_breakout": 4.0,
+        "options_quality": 11.461333333333371,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 72.0,
+        "momentum": 50.0,
+        "squeeze": 65.04386470068316,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Spread 4.0% > 3.5%",
+          "Failed weekly breakout"
+        ],
+        "ranking": 28,
+        "percentile": 98.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CPB",
+        "strike_price": "31",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.45",
+        "ask": "2.55",
+        "last_price": "2.5",
+        "mid_price": "2.50",
+        "spread_percent": "3.921568627450980392156862745"
+      },
+      "greeks": {
+        "delta": 0.6116,
+        "gamma": 0.0759,
+        "theta": -0.013,
+        "vega": 0.06
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3222
+      },
+      "liquidity_metrics": {
+        "volume": 10,
+        "open_interest": 6474,
+        "volume_oi_ratio": 0.0015446400988569664
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:54.710503",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T04:46:04+00:00",
+            "title": "1 Small-Cap Stock to Research Further and 2 Facing Headwinds",
+            "content": "Many small-cap stocks have limited Wall Street coverage, giving savvy investors the chance to act before everyone else catches on. But the flip side is that these businesses have increased downside risk because they lack the scale and staying power of their larger competitors.\n\nThe downside that can come from buying these securities is precisely why we started StockStory - to isolate the long-term winners from the losers so you can invest with confidence. Keeping that in mind, here is one small-cap stock that could be the next big thing and two that could be down big.\n\nTwo Small-Cap Stocks to Sell:\n\nCampbell's (CPB)\n\nMarket Cap: $9.88 billion\n\nWith its iconic canned soup as its cornerstone product, Campbell's (NASDAQ:CPB) is a packaged food company with an illustrious portfolio of brands.\n\nWhy Does CPB Give Us Pause?\n\nFalling unit sales over the past two years imply it may need to invest in product improvements to get back on track Demand will likely fall over the next 12 months as Wall Street expects flat revenue Expenses have increased as a percentage of revenue over the last year as its operating margin fell by 3.6 percentage points\n\nCampbell’s stock price of $33.18 implies a valuation ratio of 10.9x forward P/E. Read our free research report to see why you should think twice about including CPB in your portfolio, it’s free.\n\nPerdoceo Education (PRDO)\n\nMarket Cap: $2.17 billion\n\nFormerly known as Career Education Corporation, Perdoceo Education (NASDAQ:PRDO) is an educational services company that specializes in postsecondary education.\n\nWhy Are We Wary of PRDO?\n\nLackluster 2.9% annual revenue growth over the last two years indicates the company is losing ground to competitors Waning returns on capital imply its previous profit engines are losing steam\n\nPerdoceo Education is trading at $33 per share, or 21.3x forward EV-to-EBITDA. If you’re considering PRDO for your portfolio, see our FREE research report to learn more.\n\nOne Small-Cap Stock to Watch:\n\nOFG Bancorp (OFG)\n\nMarket Cap: $1.99 billion\n\nOriginally founded in 1964 as a federal savings and loan institution, OFG Bancorp (NYSE:OFG) provides banking and financial services including commercial and consumer lending, wealth management, insurance, and trust services primarily in Puerto Rico and the U.S. Virgin Islands.\n\nWhy Are We Fans of OFG?\n\nNon-interest operating profits and efficiency rose over the last four years as it benefited from some fixed cost leverage Share repurchases over the last two years enabled its annual earnings per share growth of 6.3% to outpace its revenue gains Balance sheet strength has increased this cycle as its 11.8% annual tangible book value per share growth over the last five years was exceptional\n\nStory Continues\n\nAt $44.81 per share, OFG Bancorp trades at 1.4x forward P/B. Is now the time to initiate a position? Find out in our full research report, it’s free.\n\nStocks We Like Even More\n\nWhen Trump unveiled his aggressive tariff plan in April 2025, markets tanked as investors feared a full-blown trade war. But those who panicked and sold missed the subsequent rebound that’s already erased most losses.\n\nDon’t let fear keep you from great opportunities and take a look at Top 6 Stocks for this week. This is a curated list of our High Quality stocks that have generated a market-beating return of 183% over the last five years (as of March 31st 2025).\n\nStocks that made our list in 2020 include now familiar names such as Nvidia (+1,545% between March 2020 and March 2025) as well as under-the-radar businesses like the once-micro-cap company Kadant (+351% five-year return). Find your next big winner with StockStory today for free. Find your next big winner with StockStory today. Find your next big winner with StockStory today\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T18:51:00+00:00",
+            "title": "12 Cheap Consumer Stocks for a Rocky Market",
+            "content": "The market is looking frothy, making it a good time to consider stocks that tend to hold up in a selloff.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T12:02:32+00:00",
+            "title": "Stocks to watch next week: Nvidia, Dell, Prudential, JD Sports and Delivery Hero",
+            "content": "Chipmaker Nvidia (NVDA), the world's most valuable listed company, will be the focus for investors next week, with a range of other companies also due to report.\n\nExpectations have become increasingly high around Nvidia's results, so investors will be poring over the chipmaker's second quarter results on Wednesday, looking closely for any surprises to the upside or downside.\n\nAnother US tech company due to release results is computer maker Dell (DELL), which reported \"unprecedented demand\" for its artificial intelligence (AI) optimised servers in its last set of results.\n\nBack in London, insurance and asset management firm Prudential (PRU.L) is scheduled to report, with shares having continued to climb this year.\n\nIn the world of retail, investors will be looking at the latest results from JD Sports (JD.L), with shares facing pressure from concerns about the impacts of US president Donald Trump's tariffs.\n\nIn Germany, Delivery Hero (DHER.DE) is set to report first half results, having maintained full-year guidance on the back of a strong first quarter.\n\nHere's more on what to expect:\n\nNvidia (NVDA) – Reports second quarter results on Wednesday 27 AugustJensen Huang, CEO of Nvidia. 'Nvidia matters whether investors own it directly or not,' said AJ Bell's Danni Hewson and Dan Coatsworth.·picture alliance via Getty Images\n\nChipmaker Nvidia (NVDA), which is the world's biggest company with a stock market capitalisation of $4.3tn (£3.2tn), will be the last of the \"Magnificent 7\" tech behemoths to report this earnings season.\n\nGiven the company's size, AJ Bell's head of financial analysis Danni Hewson and investment analyst Dan Coatsworth said that in many ways \"Nvidia matters whether investors own it directly or not\".\n\nThey pointed out that the Mag 7 represent more than 35% of the market valuation of the S&P 500 (^GSPC) index and more than a fifth of the global stock market capitalisation, \"so if an investor owns an index tracker that follows either the S&P 500 or global benchmarks like the FTSE All-World then they will have exposure to Nvidia.\"\n\n\"Right now, they – or at least Nvidia, Meta (META), Microsoft (MSFT) and Alphabet (GOOGL, GOOG) – are feeding off the splurge in AI-related spending,\" said Hewson and Coatsworth. \"The more the last three spend and promise returns from AI, the more the market likes it, and the more Nvidia likes it, as the company provides the processors that power the data centres that drive the large language models and effort to develop AGI and, to use [Meta CEO] Mark Zuckerberg’s new word, 'superintelligence'.\"\n\nThey said that estimates suggest that more than 40% of Nvidia's sales have come from Meta, Microsoft, Amazon (AMZN) and Alphabet. \"Thus, both the stock market and earnings are increasingly reliant upon a very small group of companies, notably Nvidia,\" they said.\n\nStory Continues\n\nStocks: Create your watchlist and portfolio\n\n\"The company does seem to have the happy knack of demolishing quarterly earnings estimates, even if some argue this is because chief executive Jensen Huang is smart enough to sandbag the forecasts,\" they said. \"The company even managed it in the first quarter, despite a $5bn charge relating to the loss of revenues in China, thanks to president Trump’s tariffs.\"\n\nIn the first quarter, Nvidia beat expectations, posting revenue of $44.1bn compared with an expected $43.29bn. The company reported adjusted adjusted earnings of $0.81 per share. Excluding a $4.5bn charge relating to US government requirements on exports of its H20 chips to China and related tax impacts, adjusted earnings were $0.96 per share.\n\nFor the second quarter, the chipmaker guided to revenue of $45bn, plus or minus 2% for the second quarter.\n\nHewson and Coatsworth said that analysts expect second quarter sales to come in at $45.8bn, representing growth of 52% year-on-year, as well as net income of $23.1bn and headline earnings per share of $1.\n\nInvestors will also be looking closely at the guidance Nvidia offers for the third quarter. Hewson and Coatsworth said that consensus estimates currently expect sales of $52.3bn, net income of $27.4bn and headline earnings per share of $1.16.\n\n\"Watch out also for any comments from Huang on the ongoing US-China trade talks, the deal cut with the Trump White House to cede 15% of all sales on H20 silicon chips into China to the US government and the lurking challenge posed to the more chips, more power, more capex model that is still posed by China’s DeepSeek,\" they added.\n\nNasdaqGS - Delayed Quote•USD\n\n(NVDA)\n\nFollow  View Quote Details\n\n174.98\n\n-0.42\n\n(-0.24%)\n\nAt close: August 21 at 4:00:00 PM EDT  Advanced Chart\n\nDell Technologies (DELL) – Reports second quarter results on Thursday 28 August\n\nDespite posting a mixed set of first quarter results in May, Dell (DELL) shares rose on the back of it reporting strong AI-demand and lifting its earnings forecast for the year.\n\nDell posted net revenue of $23.38bn for the first quarter, besting estimates of $23.15bn, though adjusted earnings per share of $1.55 came in shy of an expected $1.69.\n\nJeff Clarke, vice chairman and chief operating officer of Dell Technologies, said: \"We achieved first-quarter record servers and networking revenue of $6.3bn, and we’re experiencing unprecedented demand for our AI-optimized servers.\n\nRead more:Elon Musk may be banking on his UK energy plan to boost Tesla's fortunes\n\n\"We generated $12.1bn in AI orders this quarter alone, surpassing the entirety of shipments in all of FY25 and leaving us with $14.4bn in backlog.\"\n\nFor the second quarter, Dell said it expected revenue to be between $28.5bn and $29.5bn, which would be up 16% year over year at the midpoint of $29bn. Adjusted earnings per share are expected to be $2.25 at the midpoint, which would represent growth of 15%.\n\nFor the year, Dell guided to revenue of between $101bn and $105.0bn, which would be up 8% year over year at the midpoint of $103bn. The company lifted its adjusted earnings guidance for the year to $9.40 per share at the midpoint, up from a previous forecast of $9.30.\n\nNYSE - Delayed Quote•USD\n\n(DELL)\n\nFollow  View Quote Details\n\n127.83\n\n-0.65\n\n(-0.51%)\n\nAt close: August 21 at 4:00:02 PM EDT  Advanced Chart\n\nPrudential (PRU.L) – Reports half-year results on Wednesday 27 August\n\nShares in Prudential (PRU.L) are up 56.5% year-to-date, currently trading at their highest point in two years.\n\nRichard Hunter, head of markets at Interactive Investor, said: \"Now focused on Asia and Africa, the group is fully aware that such major continents bring significant opportunities. The combined populations of the two continents is around 4 billion, with an estimated $1tn of additional annual gross written premiums by 2033 being the addressable market.\n\n\"Given the recent weakness of consumer confidence in the region, it will be interesting to see whether, if customers are reluctant to spend, they have been saving instead.\"\n\nRead more: Analysts' top emerging market fund and trust picks\n\nHunter said that the group aims by 2027 are \"punchy\", including the target of achieving new business profit growth of between 15% and 20% annually, but added that \"even at this early stage Prudential is confident in achieving these goals\".\n\nIn its first quarter results at the end of April, Prudential reported new business profit of $608m, representing 12% growth on the same period last year.\n\n\"Elsewhere, the focus on digital distribution and the move towards more technology-based solutions continues apace, such as the increasing use of advanced analytics and AI for higher value purposes, which is being selectively trialled,\" said Hunter.\n\n\"Less positively, and from a broader perspective, heightened geopolitical tensions between the West and China cannot be overlooked, with Hong Kong the group’s biggest single country of profit generation during 2024 at $1.1bn.\"\n\nJD Sports (JD.L) – Releases second quarter trading update on Wednesday 27 August\n\nShares in sportswear retailer JD Sports (JD.L) have had a turbulent 2025 amid tariff uncertainty, with the stock down 3.7% year-to-date.\n\nMatt Britzman, senior equity analyst at Hargreaves Lansdown, said that the recent acquisition of American sporting goods retailer Hibbett has made the US JD’s biggest revenue contributor, now accounting for 37% of total sales.\n\n\"This increased exposure leaves the company vulnerable to higher import duties, particularly as most of its products are sourced from Asia,\" he said. \"As a result, JD faces rising cost pressures that will need to be carefully managed.\"\n\n\"Management expects profitability to be weighted toward the second half of the year, with current consensus pointing to full-year underlying pre-tax profit of around £890m ($1.19bn),\" said Britzman. \"Analysts will also keep a close eye on margin trends, particularly in the US, where JD has held firm on pricing despite aggressive discounting by competitors.\"\n\nLSE - Delayed Quote•USD\n\n(JD.L)\n\nFollow  View Quote Details\n\n92.28\n\n+0.34\n\n+(0.37%)\n\nAs of 12:55:45 PM GMT+1. Market Open.  Advanced Chart\n\nDelivery Hero (DHER.DE) – Releases second quarter trading update on Thursday 28 August\n\nIn the first quarter, Delivery Hero (DHER.DE) reported a group gross merchandise value, which refers to the total value of goods sold through its platform in that period, of €12.4bn (£10.7bn), representing 9% growth year-on-year on a like-for-like basis. Total segment revenue grew by 22% year-on-year to €3.5bn.\n\nNiklas Östberg, CEO of Delivery Hero, said: \"We continue to see acceleration in growth across most segments in the first quarter, and we still see enormous opportunities to grow as we expand our service offering.\"\n\nRead more: Stocks that are trending today\n\nOn the back of these results, the food delivery platform said that it was on track to deliver its full-year guidance, expecting gross merchandise value growth of 8% to 10% and total segment revenue growth of 17% to 19%.\n\nThe company expects to deliver adjusted earnings before interest, tax, depreciation and amortisation of €975m to €1.025bn.\n\nInvestors will be looking at the company's second quarter figures, due out on Thursday, for any updates to guidance.\n\nXETRA - Delayed Quote•USD\n\n(DHER.DE)\n\nFollow  View Quote Details\n\n24.11\n\n+0.10\n\n+(0.42%)\n\nAs of 1:57:00 PM GMT+2. Market Open.  Advanced Chart\n\nOther companies reporting next week include:\n\nMonday 25 August\n\nHEICO Corporation (HEI)\n\nBarnes & Noble Education (BNED)\n\nTuesday 26 August\n\nBunzl (BNZL.L)\n\nAshtead Technology (AT.L)\n\nColes (COL.AX)\n\nWednesday 27 August\n\nBYD (1211.HK)\n\nPing-An (2318.HK)\n\nEiffage (FGR.PA)\n\nCrowdstrike (CRWD)\n\nSnowflake (SNOW)\n\nAgilent (A)\n\nHP (HP)\n\nNetApp (NTAP)\n\nJM Smucker (SJM)\n\nAbercrombie & Fitch (ANF)\n\nKohl’s (KSS)\n\nThursday 28 August\n\nChesnara (CSN.L)\n\nHunting (HTG.L)\n\nMacfarlane (MACF.L)\n\nQantas (QAN.AX)\n\nChina Life (2628.HK)\n\nCNOOC (0883.HK)\n\nPernod Ricard (RI.PA)\n\nBrunello Cucinelli (BC.MI)\n\nMarvell (MRVL)\n\nDollar General (DG)\n\nDick’s Sporting Goods (DKS)\n\nHormel (HRL)\n\nCampbell Soup (CPB)\n\nBrown-Forman (BF-B)\n\nFriday 29 August\n\nCosco Shipping (1919.HK)\n\nSAIC Motor (600104.SS)\n\nFrontline (FRO)\n\nYou can read Yahoo Finance's full calendar here.\n\nRead more:\n\nWhat inflation data means for Bank of England's interest rate changes Lower-than-expected UK borrowing offers relief to Reeves as budget looms IBM head of research on how quantum computing will change businesses\n\nDownload the Yahoo Finance app, available for Apple and Android.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T10:32:00+00:00",
+            "title": "Weekly Recap: 15 Consumer Press Releases You Need to See",
+            "content": "A roundup of the most newsworthy consumer and retail announcements from PR Newswire this week, including a collaboration between Cracker Barell and Jordan Davis, a food truck tour from Campbell's, and a new retail media platform from Ace Hardware.\n\nNEW YORK, Aug. 22, 2025 /PRNewswire/ -- With thousands of press releases published each week, it can be difficult to keep up with everything on PR Newswire. To help consumer/retail journalists and consumers stay on top of the week's most newsworthy and popular releases, here's a recap of some major stories from the week that shouldn't be missed.PR Newswire Weekly Consumer Press Release Roundup, Aug. 18-22, 2025.\n\nThe list below includes the headline (with a link to the full text) and an excerpt from each story. Click on the press release headlines to access accompanying multimedia assets that are available for download.\n\nGoodwill® -Your Neighborhood Thrift Store- Invites You to Turn Deals into Good Deeds This National Thrift Shop Day \"This National Thrift Shop Day, we encourage everyone to celebrate their unique style, shop sustainably, and support nonprofit thrift stores that give back to the community,\" said Onney Crawley, Chief Marketing Officer of Goodwill Industries International. \"Every time you shop with Goodwill, you help fund programs that connect people in your local community with the resources and skill-building they need to thrive in the workforce\" Jollibee and Global Girl Group KATSEYE Ignite Partnership to Create Joyful New Connections with Their North American Fans Both Jollibee and KATSEYE are currently taking the world by storm. Recently named the \"best fast food fried chicken\" by USA TODAY for the second year in a row, Jollibee is always looking for ways to bring joy to its community through next-level food and more. Having just sold out their Beautiful Chaos tour, KATSEYE continues to raise the bar, delivering hit after hit. Campbell's® Chunky® and Pabst Blue Ribbon Invite Fans to \"Crack Open a Warm One\" with New Collaboration The two brands are also embarking on a food truck sampling tour this fall at Walmart stores across the country to bring Chunky and Pabst Blue Ribbon fans the ultimate experience closer to home. The one-month-long experience begins Sept. 3 and will feature a fusion of flavor and fun for fans who want to stop by for a bite. Roborock Marks 11th Anniversary with Unbeatable Deals and a Glimpse into the Future of Cleaning Over the last 11 years, Roborock has grown from an ambitious startup into a global leader in smart home cleaning – a journey made possible by the support of its customers. From morning cereal spills to late-night pet messes, the brand has supported families for over a decade. This anniversary campaign celebrates that success and reaffirms the brand's steadfast commitment to innovation and reliability. To Gin & Glory - Aviation American Gin and Wrexham AFC Team Up to Unveil Limited-Edition Commemorative Pack \"Wrexham AFC has defied the odds and built a global fanbase through persistence, passion, and community,\" said Ricky Collett, Global Brand Director for Aviation American Gin. \"And at Aviation, we know what it means to redefine expectations - like reimagining how deliciously versatile Gin can be. As a partner that's been with the team every step of the way, we're proud to raise a glass to this new chapter and bottle the glory.\" Popeyes® Wings are Better Than Ever: Reintroducing Popeyes Wings Lineup Featuring a New Mild Marinated Base on Bone-In Wings Just in Time for Football Season Popeyes new wings lineup spotlights their three bestselling sauce flavors: Signature Hot, Sweet 'N Spicy and Honey BBQ, as well as four all-new dry rubs: Ghost Pepper, Lemon Pepper, Garlic Parm, and Buffalo all featured on a mild marinated based wing. Ace Hardware Launches 'RedVest Media, The Helpful Network,' Offering Brand Partners a Powerful New Retail Media Platform The new retail media network (RMN) is designed to give brands the ability to engage with Ace shoppers with highly targeted, full-funnel advertising across online channels. Brand partners will also have access to real-time performance dashboards to track onsite and offsite campaign impact and eCommerce conversion, with both managed and self-service options available. Pizza Hut Launches New \"Crafted Flatzz\": An Abundantly Topped & Flavorful Hand-Crafted Personal Pizza Built for Adultzz Only Crafted Flatzz is rolling out around the world in more than 20 countries. From Nashville Hot Chicken in the U.S. to Pesto Veggie with Balsamic Drizzle in the United Kingdom, Korean BBQ in Taiwan and Tandoori Chicken in India, in addition to a range of globally consistent recipes, each market brings its own unique twist to this bold new offering. Cracker Barrel Teams up with Country Music Star Jordan Davis to Invite Guests to Discover \"All the More\" this Fall The campaign spotlights \"All the More\" that today's guests – both current and soon-to-be – can discover and love at Cracker Barrel, including crave-worthy new and returning menu items, refreshed restaurant remodels, an enhanced brand look and feel, a limited-time offer and, of course, music from celebrated country music artist Jordan Davis himself, who helps bring it all to life – and to the table for breakfast, lunch, and dinner. Claire's Enters Agreement with Ames Watson to Sell IP and Significant Number of Stores in North America The sale of these stores and Claire's IP to Ames Watson will significantly benefit the Company's efforts to create value through its Restructuring Proceedings. As part of the agreement, Claire's has paused the liquidation process at a significant number of stores. For its other stores in North America, the liquidation process will continue. OIKOS® Announces Tennis Superstar and Five-Time Grand Slam Champion Carlos Alcaraz as Its Global Brand Ambassador OIKOS understands that building strength takes discipline, resilience, and fuel – making Alcaraz an ideal match. Whether it's his determination to prevail after a long rally or mastering the ultimate drop shot, strength is at the core of his game. Fueling his grit, Alcaraz relies on nutritious, high protein options to help him stay at the top, and OIKOS is here to support your strength too. SheaMoisture Honors Black Beauty and Limitless Versatility While Ushering in a New Era with \"Yes, And\" Campaign Starring Serena Page SheaMoisture has partnered with pop culture's favorite, Serena Page, winner of Love Island season 6, as the new brand ambassador and face of its \"Yes, And\" anthem. The video spotlights the Gen Z cultural icon as she transitions effortlessly from beachside bliss to game night at home with the girls to owning the red carpet – always empowered, always evolving, and always SheaMoisture. Chuck E. Cheese Unveils Clawcade-Powered Chuck's Arcade™ At Brea Mall Claw machines take center stage at the 3,600-square-foot arcade, with nearly half the floor dedicated to these skill-based prize machines. Each claw machine is stocked with exclusive, high-demand items from DC Comics, Hello Kitty, Nintendo and more. From limited-edition plush to sought-after collectibles not available for purchase, unique prizes transform every play into a personal treasure hunt. Grand Marnier Presents DS2 Remixed: The Ballet Grand Marnier® deepens its partnership with multi-platinum hip-hop artist and cultural innovator, Future, to present a groundbreaking cultural experience, DS2 REMIXED: THE BALLET. On September 19th, this one-night-only performance starring Future will reimagine the icon's seminal 'DS2' album through the lens of contemporary ballet, choreographed by Emmy winner Ebony Williams. Whirlpool Brand and Big Boi Launch Sweepstakes to Win the Freshest Appliance to Ever Play a Hip-Hop Song Each limited-edition washer is engineered to play the beloved chorus of \"So Fresh, So Clean\" after every cycle, and features a matte black finish, hundreds of hand-placed crystals around the door and knob, and a certified fresh and clean badge with Big Boi's signature of approval.\n\nStory Continues\n\nFor more news like this, check out all of the latest retail-related releases from PR Newswire.\n\nDo you have a retail press release to distribute? Sign up with PR Newswire to share your story with the audiences who matter most.\n\nHelping Journalists Stay Up to Date on Industry News\n\nThese are just a few of the recent press releases that consumers and the media should know about. To be notified of releases relevant to their coverage area, journalists can set up a custom newsfeed with PR Newswire for Journalists.\n\nOnce they're signed up, reporters, bloggers, and freelancers have access to the following free features:\n\nCustomization: Users can create customized newsfeeds that will deliver relevant news right to their inbox. Newsfeed results can be targeted by keywords, industry, subject, geography, and more. Photos and Videos: Thousands of multimedia assets are available to download and include in a journalist or blogger's next story. Subject Matter Experts: Journalists will have access to ProfNet, a database of industry experts to connect with as sources or for quotes in their articles. Related Resources: Our journalist- and blogger-focused blog, Beyond Bylines, features regular media news roundups, writing tips, upcoming events, and more.\n\nAbout PR Newswire\n\nPR Newswire is the industry's leading press release distribution partner with an unparalleled global reach of more than 440,000 newsrooms, websites, direct feeds, journalists and influencers and is available in more than 170 countries and 40 languages. From our award-winning Content Services offerings, integrated media newsroom and microsite products, Investor Relations suite of services, paid placement and social sharing tools, PR Newswire has a comprehensive catalog of solutions to solve the modern-day challenges PR and communications teams face. For 70 years, PR Newswire has been the preferred destination for brands to share their most important news stories across the world.\n\nFor questions, contact the team at media.relations@cision.com.PR Newswire logo (PRNewsfoto/PR Newswire)Cision\n\nView original content to download multimedia:https://www.prnewswire.com/news-releases/weekly-recap-15-consumer-press-releases-you-need-to-see-302536249.html\n\nSOURCE PR Newswire\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T17:17:26+00:00",
+            "title": "Why Food Stocks Might Be Cooked",
+            "content": "Companies like Kraft Heinz, General Mills and Campbell’s can’t seem to catch a break lately. Along with J.M. Smucker and Conagra Brands, this group of major food companies saw comparable sales fall by an average of 1.7% from a year earlier in their latest reported quarters. Conagra chief Sean Connolly, whose brands include Duncan Hines and Marie Callender’s, says the company’s current fiscal year will be the sixth straight, going back to before the pandemic, where inflation pressures are above historical norms.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Campbell’s Co",
+          "sector": "Consumer Defensive",
+          "industry": "Packaged Foods",
+          "employees": 14400,
+          "description": "The Campbell's Company, together with its subsidiaries, manufactures and markets food and beverage products in the United States and internationally. The company operates through Meals & Beverages and Snacks segments. The Meals & Beverages segment engages in the retail and foodservice businesses in "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.5,
+          "profit_margin": 0.0444,
+          "operating_margin": 0.1422,
+          "roe": 0.1166,
+          "roa": 0.0599,
+          "revenue_growth_yoy": 0.045,
+          "earnings_growth_yoy": -0.5,
+          "eps_estimate_current_year": 2.932,
+          "eps_estimate_next_year": 2.674,
+          "dividend_yield": 0.0459,
+          "dividend_per_share": 1.52,
+          "revenue_ttm": 10225000448,
+          "revenue_per_share": 34.312,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 21.68,
+          "forward_pe": 11.9332,
+          "price_to_sales": 0.9482,
+          "price_to_book": 2.553,
+          "enterprise_value": 16633027272,
+          "ev_to_revenue": 1.6267,
+          "ev_to_ebitda": 11.9576
+        },
+        "technical_data": {
+          "beta": 0.083,
+          "52_week_high": 50.7673,
+          "52_week_low": 29.39,
+          "50_day_ma": 31.9222,
+          "200_day_ma": 37.4982,
+          "short_interest": 0.1385,
+          "short_ratio": 4.28
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.56,
+          "forward_dividend_yield": 0.0471,
+          "payout_ratio": 0.5151,
+          "dividend_date": "2025-08-04",
+          "ex_dividend_date": "2025-07-03",
+          "last_split_date": "1997-03-18",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.1304,
+          "target_price": 34.8,
+          "strong_buy": 4,
+          "buy": 2,
+          "hold": 12,
+          "sell": 3,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 298129984,
+          "percent_institutions": 64.00099999999999,
+          "percent_insiders": 35.144,
+          "shares_float": 204532067
+        },
+        "balance_latest_sheet": {
+          "total_assets": 14828.0,
+          "total_debt": 6896.0,
+          "net_debt": 6753.0,
+          "working_capital": -623.0,
+          "shareholders_equity": 3870.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 1.78
+        },
+        "income_latest_statement": {
+          "total_revenue": 2475.0,
+          "gross_profit": 728.0,
+          "operating_income": 308.0,
+          "net_income": 66.0,
+          "ebitda": 275.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 29.41,
+          "operating_margin": 12.44,
+          "net_margin": 2.67
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 135.0,
+          "free_cash_flow": 135.0,
+          "capex": 85.0,
+          "net_income": 66.0,
+          "cash_change": -686.0,
+          "dividends_paid": 116.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-07-31",
+            "estimate": 0.5727,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 30.5,
+            "high": 30.99,
+            "low": 30.34,
+            "close": 30.96,
+            "volume": 4208500
+          },
+          {
+            "date": "2025-07-17",
+            "open": 31.07,
+            "high": 31.53,
+            "low": 30.93,
+            "close": 31.3,
+            "volume": 5890200
+          },
+          {
+            "date": "2025-07-18",
+            "open": 31.36,
+            "high": 31.46,
+            "low": 30.94,
+            "close": 30.98,
+            "volume": 3353100
+          },
+          {
+            "date": "2025-07-21",
+            "open": 31.1,
+            "high": 31.55,
+            "low": 30.7,
+            "close": 30.79,
+            "volume": 3859100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 30.98,
+            "high": 32.39,
+            "low": 30.89,
+            "close": 32.21,
+            "volume": 4735500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 32.39,
+            "high": 33.5,
+            "low": 32.38,
+            "close": 33.31,
+            "volume": 7879700
+          },
+          {
+            "date": "2025-07-24",
+            "open": 33.19,
+            "high": 33.5,
+            "low": 32.74,
+            "close": 32.76,
+            "volume": 6608000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 32.75,
+            "high": 32.8,
+            "low": 32.21,
+            "close": 32.66,
+            "volume": 3777000
+          },
+          {
+            "date": "2025-07-28",
+            "open": 32.47,
+            "high": 32.52,
+            "low": 31.94,
+            "close": 32.24,
+            "volume": 4518400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 32.22,
+            "high": 33.05,
+            "low": 32.22,
+            "close": 32.85,
+            "volume": 4805300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 32.9,
+            "high": 33.17,
+            "low": 31.8,
+            "close": 32.09,
+            "volume": 7179400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 31.7,
+            "high": 32.3,
+            "low": 31.51,
+            "close": 31.92,
+            "volume": 10247500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 32.2,
+            "high": 32.55,
+            "low": 31.91,
+            "close": 32.33,
+            "volume": 4447300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 32.21,
+            "high": 32.66,
+            "low": 32,
+            "close": 32.29,
+            "volume": 5257100
+          },
+          {
+            "date": "2025-08-05",
+            "open": 32.31,
+            "high": 32.79,
+            "low": 32.17,
+            "close": 32.63,
+            "volume": 4008400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 32.63,
+            "high": 32.94,
+            "low": 32.42,
+            "close": 32.69,
+            "volume": 4026900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 32.65,
+            "high": 33.07,
+            "low": 32.45,
+            "close": 32.91,
+            "volume": 4101500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 32.92,
+            "high": 33.08,
+            "low": 32.35,
+            "close": 32.44,
+            "volume": 3082900
+          },
+          {
+            "date": "2025-08-11",
+            "open": 32.51,
+            "high": 32.75,
+            "low": 31.4,
+            "close": 32.11,
+            "volume": 5553600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 32.16,
+            "high": 32.56,
+            "low": 31.92,
+            "close": 32.1,
+            "volume": 5058000
+          },
+          {
+            "date": "2025-08-13",
+            "open": 32.04,
+            "high": 32.81,
+            "low": 31.77,
+            "close": 32.54,
+            "volume": 3755900
+          },
+          {
+            "date": "2025-08-14",
+            "open": 32.45,
+            "high": 32.55,
+            "low": 31.82,
+            "close": 32.4,
+            "volume": 3988000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 32.43,
+            "high": 32.68,
+            "low": 32.14,
+            "close": 32.51,
+            "volume": 4078700
+          },
+          {
+            "date": "2025-08-18",
+            "open": 32.61,
+            "high": 32.73,
+            "low": 32.24,
+            "close": 32.34,
+            "volume": 5531200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 32.45,
+            "high": 32.84,
+            "low": 32.31,
+            "close": 32.69,
+            "volume": 4351400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 32.8,
+            "high": 33.41,
+            "low": 32.34,
+            "close": 32.39,
+            "volume": 4738500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 32.15,
+            "high": 32.61,
+            "low": 31.83,
+            "close": 32.57,
+            "volume": 5061500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 32.73,
+            "high": 33.28,
+            "low": 32.66,
+            "close": 33.14,
+            "volume": 5113200
+          },
+          {
+            "date": "2025-08-25",
+            "open": 33.05,
+            "high": 33.12,
+            "low": 32.47,
+            "close": 32.52,
+            "volume": 4961400
+          },
+          {
+            "date": "2025-08-26",
+            "open": 32.39,
+            "high": 32.48,
+            "low": 31.85,
+            "close": 31.97,
+            "volume": 19637774
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -2.67884322678844,
+        "return_63d": -5.386208937555491,
+        "pct_above_sma50": 0.5650709631292965,
+        "sma_50": 31.889799999999994,
+        "new_55d_high": "False",
+        "high_55d": 34.56,
+        "rsi": 41.92825112107621,
+        "rsi_in_range": "False",
+        "adx": 16.140729059669972,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.3725367532061266,
+        "bb_width": 3.7910127479052598,
+        "keltner_width": 9.353035472070346,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 185137443.13230005,
+        "adv_shares": 5709008.7,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 32.187300714340566,
+        "final_score": 22.187300714340566,
+        "sub_scores": {
+          "trend_momentum": 5.725967381007199,
+          "squeeze_breakout": 4.0,
+          "options_quality": 11.461333333333371,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Spread 4.0% > 3.5%",
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "wide_spread": 5,
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -0.837468982630285,
+          "ret_63d": -6.901572510192211,
+          "rsi14": 41.92825112107621,
+          "adx14": 15.343404072844946,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CPB\n• Current Price: $32.07\n• Overall Score: 48.98569601705971\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 31.9222\n• Sma 200: 37.4982\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.8374689826302826\n• Momentum 63D: -6.901572510192208\n• Momentum 126D: -23.259721555448866\n• Momentum Acceleration: 6.064103527561926\n• Roc 21D: -0.8374689826302826\n• Trend Strength 20D: 0.07356077822008002\n• Trend Direction: 1\n• Ma Ribbon Score: 69.23159916517574\n• Breakout Strength: 0.0\n• Price Velocity: -0.004348051705133327\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 11.0\n• Squeeze Momentum: -0.026979913479544378\n• Volatility Compression: 66.95909800455439\n• Is Consolidating: False\n• Breakout Score: 4.86817863267379\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 5.725967381007199\n• Squeeze Breakout: 4.0\n• Options Quality: 11.461333333333371\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 72.0\n• Momentum: 50.0\n• Squeeze: 65.04386470068316\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CPB\n• Strike Price: $31\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.45\n• Ask: $2.55\n• Last: $2.5\n• Mid: $2.50\n• Spread: 3.921568627450980392156862745%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6116\n• Gamma: 0.0759\n• Theta: -0.013\n• Vega: 0.06\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3222\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 10\n• Open Interest: 6474\n• Volume/OI Ratio: 0.0015446400988569664\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Campbell’s Co\n• Sector: Consumer Defensive\n• Industry: Packaged Foods\n• EPS (TTM): $1.5\n• Profit Margin: 4.4%\n• ROE: 11.7%\n• P/E Ratio: 21.7\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T04:46:04+00:00: 1 Small-Cap Stock to Research Further and 2 Facing Headwinds...\n• 2025-08-22T18:51:00+00:00: 12 Cheap Consumer Stocks for a Rocky Market...\n• 2025-08-22T12:02:32+00:00: Stocks to watch next week: Nvidia, Dell, Prudential, JD Sports and Delivery Hero...\n• 2025-08-22T10:32:00+00:00: Weekly Recap: 15 Consumer Press Releases You Need to See...\n• 2025-08-20T17:17:26+00:00: Why Food Stocks Might Be Cooked...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CPB\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CPB opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:30:54.534093",
+    "estimated_tokens": 2317
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CPB\",\n    \"rating\": 45,\n    \"component_scores\": {\n        \"trend_momentum\": 8,\n        \"options_quality\": 12,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CPB shows concerning technical weakness with price below both 50 and 200 SMAs and significant negative 126-day momentum (-23.26%). While a volatility squeeze is present with 3 timeframe confirmation, the negative squeeze momentum suggests downside risk outweighs potential upside.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 11-day duration and 3 timeframe confirmation\",\n        \"Options have reasonable liquidity with 6474 open interest\",\n        \"Bid-ask spread is moderate at 3.92%\"\n    ],\n    \"risks\": [\n        \"Strong negative momentum with -23.26% 126-day return\",\n        \"Price trading well below 200 SMA of $37.50\",\n        \"Low profit margins at 4.4% indicate fundamental weakness\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Avoid directional calls given negative momentum; consider put spreads if entering\",\n        \"entry_timing\": \"Wait for squeeze resolution and confirmation of direction\",\n        \"risk_management\": \"Keep position size small due to negative momentum and upcoming earnings\"\n    },\n    \"red_flags\": [\n        \"Earnings approaching on July 31st\",\n        \"Significant negative long-term momentum\",\n        \"Below both major moving averages\"\n    ],\n    \"notes\": \"While volatility setup exists, the technical and fundamental picture suggests elevated risk. Consider waiting for positive momentum confirmation before entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CPB",
+      "rating": 45,
+      "component_scores": {
+        "trend_momentum": 8,
+        "options_quality": 12,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "CPB shows concerning technical weakness with price below both 50 and 200 SMAs and significant negative 126-day momentum (-23.26%). While a volatility squeeze is present with 3 timeframe confirmation, the negative squeeze momentum suggests downside risk outweighs potential upside.",
+      "opportunities": [
+        "Active volatility squeeze with 11-day duration and 3 timeframe confirmation",
+        "Options have reasonable liquidity with 6474 open interest",
+        "Bid-ask spread is moderate at 3.92%"
+      ],
+      "risks": [
+        "Strong negative momentum with -23.26% 126-day return",
+        "Price trading well below 200 SMA of $37.50",
+        "Low profit margins at 4.4% indicate fundamental weakness"
+      ],
+      "option_contract": {
+        "recommendation": "Avoid directional calls given negative momentum; consider put spreads if entering",
+        "entry_timing": "Wait for squeeze resolution and confirmation of direction",
+        "risk_management": "Keep position size small due to negative momentum and upcoming earnings"
+      },
+      "red_flags": [
+        "Earnings approaching on July 31st",
+        "Significant negative long-term momentum",
+        "Below both major moving averages"
+      ],
+      "notes": "While volatility setup exists, the technical and fundamental picture suggests elevated risk. Consider waiting for positive momentum confirmation before entry."
+    },
+    "tokens_used": 2535,
+    "cost": 0.025349999999999998,
+    "response_time": 9.700879573822021,
+    "success": true
+  },
+  "cost": 0.025349999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8469,
+    "response_length": 1675
+  }
+}

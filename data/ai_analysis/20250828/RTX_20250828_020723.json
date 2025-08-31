@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "RTX",
+  "timestamp": "2025-08-28T02:07:23.977692",
+  "data_package": {
+    "metadata": {
+      "symbol": "RTX",
+      "package_timestamp": "2025-08-28T02:07:12.869118",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "RTX",
+        "current_price": 159.84,
+        "overall_score": 48.737356649541724,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 151.408,
+        "sma_200": 132.5054
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.7311608961303455,
+        "momentum_63d": 20.316146029356425,
+        "momentum_126d": 25.55180268635614,
+        "momentum_acceleration": -18.58498513322608,
+        "roc_21d": 1.7311608961303455,
+        "trend_strength_20d": 0.04752984173598119,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.004153067577822212
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 7.0,
+        "squeeze_momentum": -0.1429825154766879,
+        "volatility_compression": 70.34778575395485,
+        "is_consolidating": "False",
+        "breakout_score": 84.60850254906435,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.589484351161452,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.181021806853554,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 55.0,
+        "squeeze": 55.55216786309323,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 29,
+        "percentile": 98.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "RTX",
+        "strike_price": "155",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "10.6",
+        "ask": "10.8",
+        "last_price": "10.85",
+        "mid_price": "10.7",
+        "spread_percent": "1.851851851851851851851851852"
+      },
+      "greeks": {
+        "delta": 0.6533,
+        "gamma": 0.0198,
+        "theta": -0.0507,
+        "vega": 0.286
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.24
+      },
+      "liquidity_metrics": {
+        "volume": 13,
+        "open_interest": 721,
+        "volume_oi_ratio": 0.018030513176144243
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:21.748332",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T20:20:00+00:00",
+            "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+            "content": "Revenue of $46.7 billion, up 6% from Q1 and up 56% from a year agoData Center revenue of $41.1 billion, up 5% from Q1 and up 56% from a year agoBlackwell Data Center revenue grew 17% sequentially\n\nSANTA CLARA, Calif., Aug.  27, 2025  (GLOBE NEWSWIRE) -- NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 27, 2025, of $46.7 billion, up 6% from the previous quarter and up 56% from a year ago. NVIDIA’s Blackwell Data Center revenue grew 17% sequentially.\n\nThere were no H20 sales to China-based customers in the second quarter. NVIDIA benefited from a $180 million release of previously reserved H20 inventory, from approximately $650 million in unrestricted H20 sales to a customer outside of China.\n\nFor the quarter, GAAP and non-GAAP gross margins were 72.4% and 72.7%, respectively. Excluding the $180 million release, non-GAAP gross margin for the quarter would have been 72.3%.\n\nFor the quarter, GAAP and non-GAAP earnings per diluted share were $1.08 and $1.05, respectively. Excluding the $180 million release and related tax impact, non-GAAP diluted earnings per share for the quarter would have been $1.04.\n\n“Blackwell is the AI platform the world has been waiting for, delivering an exceptional generational leap — production of Blackwell Ultra is ramping at full speed, and demand is extraordinary,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA NVLink rack-scale computing is revolutionary, arriving just in time as reasoning AI models drive orders-of-magnitude increases in training and inference performance. The AI race is on, and Blackwell is the platform at its center.”\n\nDuring the first half of fiscal 2026, NVIDIA returned $24.3 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the second quarter, the company had $14.7 billion remaining under its share repurchase authorization. On August 26, 2025, the Board of Directors approved an additional $60.0 billion to the Company’s share repurchase authorization, without expiration.\n\nNVIDIA will pay its next quarterly cash dividend of $0.01 per share on October 2, 2025, to all shareholders of record on September 11, 2025.\n\nQ2 Fiscal 2026 Summary\n\nGAAP ($ in millions, except earnings per share)Q2 FY26Q1 FY26Q2 FY25Q/QY/YRevenue$46,743$44,062$30,0406%56%Gross margin72.4%60.5%75.1%11.9 pts(2.7) ptsOperating expenses$5,413$5,030$3,9328%38%Operating income$28,440$21,638$18,64231%53%Net income$26,422$18,775$16,59941%59%Diluted earnings per share$1.08$0.76$0.6742%61%\n\nNon-GAAP($ in millions, except earnings per share)Q2 FY26Q1 FY26Q2 FY25Q/QY/YRevenue$46,743$44,062$30,0406%56%Gross margin72.7%61.0%75.7%11.7 pts(3.0) ptsGross margin excluding H20 related charges/releases, net 72.3%71.3% 1.0 pt Operating expenses$3,795$3,583$2,7926%36%Operating income$30,165$23,275$19,93730%51%Net income$25,783$19,894$16,95230%52%Diluted earnings per share $1.05$0.81$0.6830%54%Diluted earnings per share excluding H20 related charges/releases, net and related tax impact$1.04$0.96 8%\n\nOutlook\r\nNVIDIA’s outlook for the third quarter of fiscal 2026 is as follows:\n\nRevenue is expected to be $54.0 billion, plus or minus 2%. The company has not assumed any H20 shipments to China in the outlook.GAAP and non-GAAP gross margins are expected to be 73.3% and 73.5%, respectively, plus or minus 50 basis points. The company continues to expect to exit the year with non-GAAP gross margins in the mid-70% range.GAAP and non-GAAP operating expenses are expected to be approximately $5.9 billion and $4.2 billion, respectively. Full year fiscal 2026 operating expense growth is expected to be in the high-30% range.GAAP and non-GAAP other income and expense are expected to be an income of approximately $500 million, excluding gains and losses from non-marketable and publicly-held equity securities.GAAP and non-GAAP tax rates are expected to be 16.5%, plus or minus 1%, excluding any discrete items.\n\nHighlights NVIDIA achieved progress since its first quarter earnings announcement in these areas:\n\nData Center\n\nSecond-quarter revenue was $41.1 billion, up 5% from the previous quarter and up 56% from a year ago.Announced that the NVIDIA RTX PRO™ 6000 Blackwell Server Edition GPU is coming to the world’s most popular enterprise servers; Disney, Foxconn, Hitachi Ltd., Hyundai Motor Group, Lilly, SAP and TSMC are among the first to adopt the servers.Introduced NVIDIA® Spectrum-XGS Ethernet to connect distributed data centers for giga-scale AI.Revealed that NVIDIA is working with European nations, including France, Germany, Italy, Spain and the U.K., as well as technology industry leaders to build NVIDIA Blackwell AI infrastructure, including the world’s first industrial AI cloud for European manufacturers, to fuel region’s next industrial transformation.Announced the expansion of NVIDIA DGX Cloud Lepton™ to connect Europe’s developers to NVIDIA’s global compute ecosystem.Collaborated with partners globally to build and accelerate advanced AI supercomputers, including Doudna (U.S.), JUPITER (Germany), Blue Lion (Germany), Isambard (U.K.) and FugakuNEXT (Japan).Revealed that model builders across Europe and the Middle East are optimizing their sovereign large language models with NVIDIA Nemotron™, which will be available on Perplexity.Supported the launch of OpenAI’s open gpt-oss models, delivering industry-leading gpt-oss-120b performance of 1.5 million tokens per second on a single NVIDIA Blackwell GB200 NVL72 rack-scale system.Announced a collaboration with Novo Nordisk and DCAI to advance drug discovery.Revealed that the NVIDIA Blackwell platform delivered the highest performance at scale on every MLPerf Training benchmark.Teamed with Ansys and DCAI to advance quantum algorithms for fluid dynamics using the NVIDIA CUDA-Q™ platform on Denmark’s Gefion supercomputer.Introduced NVFP4, a 4-bit format purpose-built to deliver exceptional inference latency, for pretraining next-generation large language models.\n\nGaming and AI PC\n\nSecond-quarter Gaming revenue was $4.3 billion, up 14% from the previous quarter and up 49% from a year ago.Launched the Blackwell-powered NVIDIA GeForce RTX™ 5060, which quickly became NVIDIA’s fastest-ramping x60-class GPU ever.Made industry-leading NVIDIA DLSS 4 technology available in over 175 games and apps, and coming to top games such as Borderlands 4, Resident Evil Requiem and Phantom Blade Zero. Announced Blackwell coming to GeForce NOW™ with the new Install-to-Play feature, doubling the game library to over 4,500 titles.Partnered with OpenAI on the launch of its newest open-weight models optimized for RTX GPUs for fast, local inference in popular tools like Ollama, llama.cpp and Microsoft AI Foundry Local.\n\nProfessional Visualization\n\nSecond-quarter revenue was $601 million, up 18% from the previous quarter and up 32% from a year ago.Announced NVIDIA RTX PRO 4000 SFF Edition and RTX PRO 2000 Blackwell GPUs.Expanded partnership with Siemens to digitalize and enable the manufacturing factory of the future.Announced new NVIDIA Omniverse™ libraries and software development kits to accelerate physical AI development.\n\nAutomotive and Robotics\n\nSecond-quarter Automotive revenue was $586 million, up 3% from the previous quarter and up 69% from a year ago.Announced that the full-stack NVIDIA DRIVE™ AV software platform is now in full production to accelerate the large-scale deployment of safe, intelligent transportation.Achieved second consecutive win in the End-to-End Driving at Scale category of the Autonomous Grand Challenge at the Computer Vision and Pattern Recognition conference.Commenced initial shipments of the NVIDIA DRIVE AGX Thor™ system-on-a-chip.Announced the general availability of NVIDIA Jetson AGX Thor™ developer kit and production modules, powerful new AI supercomputers designed to power millions of robots across industries.Released the NVIDIA Halos full-stack safety platform for robotic development.Announced new NVIDIA Cosmos™ world foundation models that accelerate the development and deployment of robotics solutions.\n\nCFO Commentary\r\nCommentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.\n\nConference Call and Webcast Information\r\nNVIDIA will conduct a conference call with analysts and investors to discuss its second quarter fiscal 2026 financial results and current financial prospects today at 2 p.m. Pacific time (5 p.m. Eastern time). A live webcast (listen-only mode) of the conference call will be accessible at NVIDIA’s investor relations website, https://investor.nvidia.com. The webcast will be recorded and available for replay until NVIDIA’s conference call to discuss its financial results for its third quarter of fiscal 2026.\n\nNon-GAAP Measures\r\nTo supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. For NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude stock-based compensation expense, acquisition-related and other costs, other, gains/losses from non-marketable and publicly-held equity securities, net, interest expense related to amortization of debt discount, H20 related charges/releases, net and the associated tax impact of these items where applicable. The inclusion of H20 related charges/releases, net in the reconciliations to adjust the related GAAP financial measures was a result of the U.S. government informing NVIDIA in April 2025 that it requires a license for export to China of H20 product. The H20 product was designed primarily for the China market. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases related to property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user’s overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.\n\nNVIDIA CORPORATION CONDENSED CONSOLIDATED STATEMENTS OF INCOME(In millions, except per share data)(Unaudited)   Three Months Ended Six Months Ended July 27, July 28, July 27, July 28, 2025 2024 2025 2024 Revenue$46,743  $30,040  $90,805  $56,084 Cost of revenue 12,890   7,466   30,284   13,105 Gross profit 33,853   22,574   60,521   42,979  Operating expenses Research and development 4,291   3,090   8,280   5,810 Sales, general and administrative 1,122   842   2,163   1,618 Total operating expenses 5,413   3,932   10,443   7,428  Operating income 28,440   18,642   50,078   35,551 Interest income 592   444   1,108   803 Interest expense (62)  (61)  (124)  (125)Other income (expense), net 2,236   189   2,055   264 Total other income (expense), net 2,766   572   3,039   942  Income before income tax 31,206   19,214   53,117   36,493 Income tax expense 4,784   2,615   7,920   5,013 Net income$ 26,422  $ 16,599  $ 45,197  $ 31,480  Net income per share: Basic$1.08  $0.68  $1.85  $1.28 Diluted$1.08  $0.67  $1.84  $1.27  Weighted average shares used in per share computation: Basic 24,366   24,578   24,404   24,599 Diluted 24,532   24,848   24,571   24,869\n\nNVIDIA CORPORATIONCONDENSED CONSOLIDATED BALANCE SHEETS(In millions)(Unaudited)   July 27, January 26, 2025 2025ASSETS  Current assets: Cash, cash equivalents and marketable securities$56,791 $43,210Accounts receivable, net 27,808  23,065Inventories 14,962  10,080Prepaid expenses and other current assets 2,658  3,771Total current assets 102,219  80,126 Property and equipment, net 9,141  6,283Operating lease assets 2,084  1,793Goodwill 5,755  5,188Intangible assets, net 755  807Deferred income tax assets 13,570  10,979Other assets 7,216  6,425Total assets$ 140,740 $ 111,601 LIABILITIES AND SHAREHOLDERS' EQUITY Current liabilities: Accounts payable$9,064 $6,310Accrued and other current liabilities 15,193  11,737Total current liabilities 24,257  18,047 Long-term debt 8,466  8,463Long-term operating lease liabilities 1,831  1,519Other long-term liabilities 6,055  4,245Total liabilities 40,609  32,274 Shareholders' equity 100,131  79,327Total liabilities and shareholders' equity$ 140,740 $ 111,601\n\nNVIDIA CORPORATIONCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS(In millions)(Unaudited)   Three Months Ended Six Months Ended July 27, July 28, July 27, July 28, 2025 2024 2025 2024 Cash flows from operating activities: Net income$26,422  $16,599  $45,197  $31,480 Adjustments to reconcile net income to net cash provided by operating activities: Stock-based compensation expense 1,624   1,154   3,099   2,164 Depreciation and amortization 668   433   1,280   843 Deferred income taxes 18   (1,699)  (2,160)  (3,276)Gains on non-marketable equity securities and publicly-held equity securities, net (2,247)  (193)  (2,073)  (264)Other (100)  (144)  (196)  (288)Changes in operating assets and liabilities, net of acquisitions: Accounts receivable (5,675)  (1,767)  (4,743)  (4,133)Inventories (3,622)  (803)  (4,880)  (1,380)Prepaid expenses and other assets 387   714   946   (12)Accounts payable 1,314   823   2,255   801 Accrued and other current liabilities (4,053)  (888)  3,075   3,314 Other long-term liabilities 629   260   979   584 Net cash provided by operating activities 15,365   14,489   42,779   29,833  Cash flows from investing activities: Proceeds from maturities of marketable securities 3,130   4,094   6,252   8,098 Proceeds from sales of marketable securities 20   15   487   164 Proceeds from sales of non-marketable equity securities 70   50   70   105 Purchases of marketable securities (7,812)  (5,744)  (14,358)  (15,047)Purchase related to property and equipment and intangible assets (1,894)  (977)  (3,122)  (1,346)Purchases of non-marketable equity securities (346)  (344)  (995)  (534)Acquisitions, net of cash acquired (294)  (279)  (677)  (317)Net cash used in investing activities (7,126)  (3,185)  (12,343)  (8,877) Cash flows from financing activities: Proceeds related to employee stock plans -   -   370   285 Payments related to repurchases of common stock (9,721)  (7,158)  (23,815)  (14,898)Payments related to employee stock plan taxes (1,848)  (1,637)  (3,380)  (3,389)Dividends paid (244)  (246)  (488)  (344)Principal payments on property and equipment and intangible assets (21)  (29)  (73)  (69)Repayment of debt -   (1,250)  -   (1,250)Net cash used in financing activities (11,834)  (10,320)  (27,386)  (19,665) Change in cash and cash equivalents (3,595)  984   3,050   1,291 Cash and cash equivalents at beginning of period 15,234   7,587   8,589   7,280 Cash and cash equivalents at end of period$ 11,639  $ 8,571  $ 11,639  $ 8,571    Supplemental disclosures of cash flow information: Cash paid for income taxes, net$8,094  $7,208  $8,451  $7,449\n\nNVIDIA CORPORATION  RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES  (In millions, except per share data)  (Unaudited)   Three Months Ended  Six Months Ended  July 27, April 27, July 28, July 27, July 28,  2025 2025 2024 2025 2024   GAAP cost of revenue $12,890  $17,394  $7,466  $30,284  $13,105  GAAP gross profit $33,853  $26,668  $22,574  $60,521  $42,979  GAAP gross margin  72.4%   60.5%   75.1%   66.6%   76.6%  Acquisition-related and other costs (A)  49   123   118   170   238  Stock-based compensation expense (B)  58   64   40   123   75  Other  -   3   (3)  4   (4)  Non-GAAP cost of revenue $ 12,783  $ 17,204  $ 7,311  $ 29,987  $ 12,796  Non-GAAP gross profit $ 33,960  $ 26,858  $ 22,729  $ 60,818  $ 43,288  Non-GAAP gross margin  72.7%   61.0%   75.7%   67.0%   77.2%  H20 related charges/(releases), net  (180)  4,538     4,358  Non-GAAP gross profit, as adjusted to exclude H20 related charges/releases, net $33,780  $31,396    $65,176  Non-GAAP gross margin, as adjusted to exclude H20 related charges/releases, net   72.3%   71.3%     71.8%   GAAP operating expenses $5,413  $5,030  $3,932  $10,443  $7,428  Stock-based compensation expense (B)  (1,566)  (1,410)  (1,114)  (2,976)  (2,089)  Acquisition-related and other costs (A)  (37)  (37)  (26)  (74)  (48)  Other  (15)  -   -   (15)  -  Non-GAAP operating expenses $3,795  $3,583  $2,792  $7,378  $5,291   GAAP operating income $28,440  $21,638  $18,642  $50,078  $35,551  Total impact of non-GAAP adjustments to operating income  1,725   1,637   1,295   3,362   2,446  Non-GAAP operating income $30,165  $23,275  $19,937  $53,440  $37,997   GAAP total other income (expense), net $2,766  $272  $572  $3,039  $942  (Gains) losses from non-marketable equity securities and publicly-held equity securities, net  (2,247)  175   (193)  (2,073)  (264)  Interest expense related to amortization of debt discount  1   1   1   2   2  Non-GAAP total other income (expense), net $520  $448  $380  $968  $680   GAAP net income $26,422  $18,775  $16,599  $45,197  $31,480  Total pre-tax impact of non-GAAP adjustments  (521)  1,813   1,103   1,291   2,184  Income tax impact of non-GAAP adjustments (C)  (166)  (694)  (750)  (859)  (1,475)  Tax expense from OBBBA*  48   -   -   48   -  Non-GAAP net income $25,783  $19,894  $16,952  $45,677  $32,189  Total pre-tax impact of H20 related charges/(releases), net  (180)  4,538     4,358  Income tax impact of H20 related charges/releases, net  (8)  (797)    (805)  Non-GAAP net income, as adjusted to exclude H20 related charges/releases, net  $25,595  $23,635    $49,230   Diluted net income per share  GAAP $1.08  $0.76  $0.67  $1.84  $1.27  Non-GAAP $1.05  $0.81  $0.68  $1.86  $1.29  Non-GAAP, as adjusted to exclude H20 related charges/releases, net $1.04  $0.96    $2.00   Weighted average shares used in diluted net income per share computation  24,532   24,611   24,848   24,571   24,869   GAAP net cash provided by operating activities $15,365  $27,414  $14,489  $42,779  $29,833  Purchases related to property and equipment and intangible assets  (1,894)  (1,227)  (977)  (3,122)  (1,346)  Principal payments on property and equipment and intangible assets  (21)  (52)  (29)  (73)  (69)  Free cash flow $13,450  $26,135  $13,483  $39,584  $28,418   *Tax expense included represents impact from OBBBA (One Big Beautiful Bill Act)   (A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:  Three Months Ended Six Months Ended  July 27, April 27, July 28, July 27, July 28,  2025 2025 2024 2025 2024  Cost of revenue $49  $123  $118  $170  $238  Research and development $29  $28  $17  $57  $30  Sales, general and administrative $8  $9  $9  $17  $18   (B) Stock-based compensation consists of the following:  Three Months Ended Six Months Ended  July 27, April 27, July 28, July 27, July 28,  2025 2025 2024  2025  2024  Cost of revenue $58  $64  $40  $123  $75  Research and development $1,191  $1,063  $832  $2,254  $1,559  Sales, general and administrative $375  $347  $282  $722  $530   (C) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).\n\nNVIDIA CORPORATIONRECONCILIATION OF GAAP TO NON-GAAP OUTLOOK   Q3 FY2026 Outlook ($ in millions) GAAP gross margin 73.3% Impact of stock-based compensation expense, acquisition-related costs, and other costs 0.2% Non-GAAP gross margin 73.5%  GAAP operating expenses$5,900 Stock-based compensation expense, acquisition-related costs, and other costs (1,700)Non-GAAP operating expenses$ 4,200\n\nAbout NVIDIA\r\nNVIDIA (NASDAQ: NVDA) is the world leader in accelerated computing.\n\nFor further information, contact:\n\nToshiya HariMylene MangalindanInvestor Relations Corporate CommunicationsNVIDIA CorporationNVIDIA Corporationtoshiyah@nvidia.commmangalindan@nvidia.com\n\nCertain statements in this press release including, but not limited to, statements as to: Blackwell as the AI platform the world has been waiting for and being at the center of the AI race; ramping of and demand for Blackwell Ultra; reasoning AI models driving orders-of-magnitude increases in training and inference performance; expectations with respect to growth, performance and benefits of NVIDIA’s products, services and technologies, including Blackwell, and related trends and drivers; expectations with respect to supply and demand for NVIDIA’s products, services and technologies, including Blackwell, and related matters including inventory, production and distribution; expectations with respect to NVIDIA’s third party arrangements, including with its collaborators and partners; expectations with respect to technology developments, including Rubin, and related trends and drivers; future NVIDIA cash dividends or other returns to stockholders; NVIDIA’s financial and business outlook for the third quarter of fiscal 2026 and beyond; projected market growth and trends; expectations with respect to AI and related industries; and other statements that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management’s beliefs and assumptions and on information currently available to management and are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic and political conditions; NVIDIA’s reliance on third parties to manufacture, assemble, package and test NVIDIA’s products; the impact of technological development and competition; development of new products and technologies or enhancements to NVIDIA’s existing product and technologies; market acceptance of NVIDIA’s products or NVIDIA’s partners’ products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of NVIDIA’s products or technologies when integrated into systems; and changes in applicable laws and regulations, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company’s website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.\n\n© 2025 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, GeForce, GeForce NOW, NVIDIA Cosmos, NVIDIA CUDA-Q, NVIDIA DGX Cloud Lepton, NVIDIA DRIVE, NVIDIA DRIVE AGX Thor, NVIDIA GeForce RTX, NVIDIA Jetson AGX Thor, NVIDIA Nemotron, NVIDIA Omniverse, and NVIDIA RTX PRO are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and/or other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.\n\nA photo accompanying this announcement is available at:\r\nhttps://www.globenewswire.com/NewsRoom/AttachmentNg/24a5522e-6258-4e72-9c8a-a57178db4b41",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T20:20:00+00:00",
+            "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2026",
+            "content": "NVIDIA\n\nNVIDIA corporate headquartersNVIDIA corporate headquarters in Silicon Valley\n\nRevenue of $46.7 billion, up 6% from Q1 and up 56% from a year ago Data Center revenue of $41.1 billion, up 5% from Q1 and up 56% from a year ago Blackwell Data Center revenue grew 17% sequentially\n\nSANTA CLARA, Calif., Aug. 27, 2025 (GLOBE NEWSWIRE) -- NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 27, 2025, of $46.7 billion, up 6% from the previous quarter and up 56% from a year ago. NVIDIA’s Blackwell Data Center revenue grew 17% sequentially.\n\nThere were no H20 sales to China-based customers in the second quarter. NVIDIA benefited from a $180 million release of previously reserved H20 inventory, from approximately $650 million in unrestricted H20 sales to a customer outside of China.\n\nFor the quarter, GAAP and non-GAAP gross margins were 72.4% and 72.7%, respectively. Excluding the $180 million release, non-GAAP gross margin for the quarter would have been 72.3%.\n\nFor the quarter, GAAP and non-GAAP earnings per diluted share were $1.08 and $1.05, respectively. Excluding the $180 million release and related tax impact, non-GAAP diluted earnings per share for the quarter would have been $1.04.\n\n“Blackwell is the AI platform the world has been waiting for, delivering an exceptional generational leap — production of Blackwell Ultra is ramping at full speed, and demand is extraordinary,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA NVLink rack-scale computing is revolutionary, arriving just in time as reasoning AI models drive orders-of-magnitude increases in training and inference performance. The AI race is on, and Blackwell is the platform at its center.”\n\nDuring the first half of fiscal 2026, NVIDIA returned $24.3 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the second quarter, the company had $14.7 billion remaining under its share repurchase authorization. On August 26, 2025, the Board of Directors approved an additional $60.0 billion to the Company’s share repurchase authorization, without expiration.\n\nNVIDIA will pay its next quarterly cash dividend of $0.01 per share on October 2, 2025, to all shareholders of record on September 11, 2025.\n\nQ2 Fiscal 2026 Summary\n\nGAAP  ($ in millions, except earnings per share) Q2 FY26 Q1 FY26 Q2 FY25 Q/Q Y/Y Revenue $46,743 $44,062 $30,040 6% 56% Gross margin 72.4% 60.5% 75.1% 11.9 pts (2.7) pts Operating expenses $5,413 $5,030 $3,932 8% 38% Operating income $28,440 $21,638 $18,642 31% 53% Net income $26,422 $18,775 $16,599 41% 59% Diluted earnings per share $1.08 $0.76 $0.67 42% 61%\n\nNon-GAAP ($ in millions, except earnings per share) Q2 FY26 Q1 FY26 Q2 FY25 Q/Q Y/Y Revenue $46,743 $44,062 $30,040 6% 56% Gross margin 72.7% 61.0% 75.7% 11.7 pts (3.0) pts Gross margin excluding H20 related charges/releases, net  72.3% 71.3%  1.0 pt  Operating expenses $3,795 $3,583 $2,792 6% 36% Operating income $30,165 $23,275 $19,937 30% 51% Net income $25,783 $19,894 $16,952 30% 52% Diluted earnings per share  $1.05 $0.81 $0.68 30% 54% Diluted earnings per share excluding H20 related charges/releases, net and related tax impact $1.04 $0.96  8%\n\nOutlook\r\nNVIDIA’s outlook for the third quarter of fiscal 2026 is as follows:\n\nStory Continues\n\nRevenue is expected to be $54.0 billion, plus or minus 2%. The company has not assumed any H20 shipments to China in the outlook. GAAP and non-GAAP gross margins are expected to be 73.3% and 73.5%, respectively, plus or minus 50 basis points. The company continues to expect to exit the year with non-GAAP gross margins in the mid-70% range. GAAP and non-GAAP operating expenses are expected to be approximately $5.9 billion and $4.2 billion, respectively. Full year fiscal 2026 operating expense growth is expected to be in the high-30% range. GAAP and non-GAAP other income and expense are expected to be an income of approximately $500 million, excluding gains and losses from non-marketable and publicly-held equity securities. GAAP and non-GAAP tax rates are expected to be 16.5%, plus or minus 1%, excluding any discrete items.\n\nHighlights NVIDIA achieved progress since its first quarter earnings announcement in these areas:\n\nData Center\n\nSecond-quarter revenue was $41.1 billion, up 5% from the previous quarter and up 56% from a year ago. Announced that the NVIDIA RTX PRO™ 6000 Blackwell Server Edition GPU is coming to the world’s most popular enterprise servers; Disney, Foxconn, Hitachi Ltd., Hyundai Motor Group, Lilly, SAP and TSMC are among the first to adopt the servers. Introduced NVIDIA® Spectrum-XGS Ethernet to connect distributed data centers for giga-scale AI. Revealed that NVIDIA is working with European nations, including France, Germany, Italy, Spain and the U.K., as well as technology industry leaders to build NVIDIA Blackwell AI infrastructure, including the world’s first industrial AI cloud for European manufacturers, to fuel region’s next industrial transformation. Announced the expansion of NVIDIA DGX Cloud Lepton™ to connect Europe’s developers to NVIDIA’s global compute ecosystem. Collaborated with partners globally to build and accelerate advanced AI supercomputers, including Doudna (U.S.), JUPITER (Germany), Blue Lion (Germany), Isambard (U.K.) and FugakuNEXT (Japan). Revealed that model builders across Europe and the Middle East are optimizing their sovereign large language models with NVIDIA Nemotron™, which will be available on Perplexity. Supported the launch of OpenAI’s open gpt-oss models, delivering industry-leading gpt-oss-120b performance of 1.5 million tokens per second on a single NVIDIA Blackwell GB200 NVL72 rack-scale system. Announced a collaboration with Novo Nordisk and DCAI to advance drug discovery. Revealed that the NVIDIA Blackwell platform delivered the highest performance at scale on every MLPerf Training benchmark. Teamed with Ansys and DCAI to advance quantum algorithms for fluid dynamics using the NVIDIA CUDA-Q™ platform on Denmark’s Gefion supercomputer. Introduced NVFP4, a 4-bit format purpose-built to deliver exceptional inference latency, for pretraining next-generation large language models.\n\nGaming and AI PC\n\nSecond-quarter Gaming revenue was $4.3 billion, up 14% from the previous quarter and up 49% from a year ago. Launched the Blackwell-powered NVIDIA GeForce RTX™ 5060, which quickly became NVIDIA’s fastest-ramping x60-class GPU ever. Made industry-leading NVIDIA DLSS 4 technology available in over 175 games and apps, and coming to top games such as Borderlands 4, Resident Evil Requiem and Phantom Blade Zero.  Announced Blackwell coming to GeForce NOW™ with the new Install-to-Play feature, doubling the game library to over 4,500 titles. Partnered with OpenAI on the launch of its newest open-weight models optimized for RTX GPUs for fast, local inference in popular tools like Ollama, llama.cpp and Microsoft AI Foundry Local.\n\nProfessional Visualization\n\nSecond-quarter revenue was $601 million, up 18% from the previous quarter and up 32% from a year ago. Announced NVIDIA RTX PRO 4000 SFF Edition and RTX PRO 2000 Blackwell GPUs. Expanded partnership with Siemens to digitalize and enable the manufacturing factory of the future. Announced new NVIDIA Omniverse™ libraries and software development kits to accelerate physical AI development.\n\nAutomotive and Robotics\n\nSecond-quarter Automotive revenue was $586 million, up 3% from the previous quarter and up 69% from a year ago. Announced that the full-stack NVIDIA DRIVE™ AV software platform is now in full production to accelerate the large-scale deployment of safe, intelligent transportation. Achieved second consecutive win in the End-to-End Driving at Scale category of the Autonomous Grand Challenge at the Computer Vision and Pattern Recognition conference. Commenced initial shipments of the NVIDIA DRIVE AGX Thor™ system-on-a-chip. Announced the general availability of NVIDIA Jetson AGX Thor™ developer kit and production modules, powerful new AI supercomputers designed to power millions of robots across industries. Released the NVIDIA Halos full-stack safety platform for robotic development. Announced new NVIDIA Cosmos™ world foundation models that accelerate the development and deployment of robotics solutions.\n\nCFO Commentary\r\nCommentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.\n\nConference Call and Webcast Information\r\nNVIDIA will conduct a conference call with analysts and investors to discuss its second quarter fiscal 2026 financial results and current financial prospects today at 2 p.m. Pacific time (5 p.m. Eastern time). A live webcast (listen-only mode) of the conference call will be accessible at NVIDIA’s investor relations website, https://investor.nvidia.com. The webcast will be recorded and available for replay until NVIDIA’s conference call to discuss its financial results for its third quarter of fiscal 2026.\n\nNon-GAAP Measures\r\nTo supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP operating income, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. For NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude stock-based compensation expense, acquisition-related and other costs, other, gains/losses from non-marketable and publicly-held equity securities, net, interest expense related to amortization of debt discount, H20 related charges/releases, net and the associated tax impact of these items where applicable. The inclusion of H20 related charges/releases, net in the reconciliations to adjust the related GAAP financial measures was a result of the U.S. government informing NVIDIA in April 2025 that it requires a license for export to China of H20 product. The H20 product was designed primarily for the China market. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases related to property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user’s overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.\n\nNVIDIA CORPORATION CONDENSED CONSOLIDATED STATEMENTS OF INCOME (In millions, except per share data) (Unaudited)   Three Months Ended  Six Months Ended July 27,  July 28,  July 27,  July 28, 2025  2024  2025  2024  Revenue $ 46,743   $ 30,040   $ 90,805   $ 56,084  Cost of revenue  12,890    7,466    30,284    13,105  Gross profit  33,853    22,574    60,521    42,979   Operating expenses  Research and development  4,291    3,090    8,280    5,810  Sales, general and administrative  1,122    842    2,163    1,618  Total operating expenses  5,413    3,932    10,443    7,428   Operating income  28,440    18,642    50,078    35,551  Interest income  592    444    1,108    803  Interest expense  (62 )   (61 )   (124 )   (125 ) Other income (expense), net  2,236    189    2,055    264  Total other income (expense), net  2,766    572    3,039    942   Income before income tax  31,206    19,214    53,117    36,493  Income tax expense  4,784    2,615    7,920    5,013  Net income $ 26,422   $ 16,599   $ 45,197   $ 31,480   Net income per share:  Basic $ 1.08   $ 0.68   $ 1.85   $ 1.28  Diluted $ 1.08   $ 0.67   $ 1.84   $ 1.27   Weighted average shares used in per share computation:  Basic  24,366    24,578    24,404    24,599  Diluted  24,532    24,848    24,571    24,869\n\nNVIDIA CORPORATION CONDENSED CONSOLIDATED BALANCE SHEETS (In millions) (Unaudited)   July 27,  January 26, 2025  2025 ASSETS   Current assets:  Cash, cash equivalents and marketable securities $ 56,791  $ 43,210 Accounts receivable, net  27,808   23,065 Inventories  14,962   10,080 Prepaid expenses and other current assets  2,658   3,771 Total current assets  102,219   80,126  Property and equipment, net  9,141   6,283 Operating lease assets  2,084   1,793 Goodwill  5,755   5,188 Intangible assets, net  755   807 Deferred income tax assets  13,570   10,979 Other assets  7,216   6,425 Total assets $ 140,740  $ 111,601  LIABILITIES AND SHAREHOLDERS' EQUITY  Current liabilities:  Accounts payable $ 9,064  $ 6,310 Accrued and other current liabilities  15,193   11,737 Total current liabilities  24,257   18,047  Long-term debt  8,466   8,463 Long-term operating lease liabilities  1,831   1,519 Other long-term liabilities  6,055   4,245 Total liabilities  40,609   32,274  Shareholders' equity  100,131   79,327 Total liabilities and shareholders' equity $ 140,740  $ 111,601\n\nNVIDIA CORPORATION CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) (Unaudited)   Three Months Ended  Six Months Ended July 27,  July 28,  July 27,  July 28, 2025  2024  2025  2024  Cash flows from operating activities:  Net income $ 26,422   $ 16,599   $ 45,197   $ 31,480  Adjustments to reconcile net income to net cash provided by operating activities:  Stock-based compensation expense  1,624    1,154    3,099    2,164  Depreciation and amortization  668    433    1,280    843  Deferred income taxes  18    (1,699 )   (2,160 )   (3,276 ) Gains on non-marketable equity securities and publicly-held equity securities, net  (2,247 )   (193 )   (2,073 )   (264 ) Other  (100 )   (144 )   (196 )   (288 ) Changes in operating assets and liabilities, net of acquisitions:  Accounts receivable  (5,675 )   (1,767 )   (4,743 )   (4,133 ) Inventories  (3,622 )   (803 )   (4,880 )   (1,380 ) Prepaid expenses and other assets  387    714    946    (12 ) Accounts payable  1,314    823    2,255    801  Accrued and other current liabilities  (4,053 )   (888 )   3,075    3,314  Other long-term liabilities  629    260    979    584  Net cash provided by operating activities  15,365    14,489    42,779    29,833   Cash flows from investing activities:  Proceeds from maturities of marketable securities  3,130    4,094    6,252    8,098  Proceeds from sales of marketable securities  20    15    487    164  Proceeds from sales of non-marketable equity securities  70    50    70    105  Purchases of marketable securities  (7,812 )   (5,744 )   (14,358 )   (15,047 ) Purchase related to property and equipment and intangible assets  (1,894 )   (977 )   (3,122 )   (1,346 ) Purchases of non-marketable equity securities  (346 )   (344 )   (995 )   (534 ) Acquisitions, net of cash acquired  (294 )   (279 )   (677 )   (317 ) Net cash used in investing activities  (7,126 )   (3,185 )   (12,343 )   (8,877 )  Cash flows from financing activities:  Proceeds related to employee stock plans  -    -    370    285  Payments related to repurchases of common stock  (9,721 )   (7,158 )   (23,815 )   (14,898 ) Payments related to employee stock plan taxes  (1,848 )   (1,637 )   (3,380 )   (3,389 ) Dividends paid  (244 )   (246 )   (488 )   (344 ) Principal payments on property and equipment and intangible assets  (21 )   (29 )   (73 )   (69 ) Repayment of debt  -    (1,250 )   -    (1,250 ) Net cash used in financing activities  (11,834 )   (10,320 )   (27,386 )   (19,665 )  Change in cash and cash equivalents  (3,595 )   984    3,050    1,291  Cash and cash equivalents at beginning of period  15,234    7,587    8,589    7,280  Cash and cash equivalents at end of period $ 11,639   $ 8,571   $ 11,639   $ 8,571    Supplemental disclosures of cash flow information:  Cash paid for income taxes, net $ 8,094   $ 7,208   $ 8,451   $ 7,449\n\nNVIDIA CORPORATION  RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES  (In millions, except per share data)  (Unaudited)   Three Months Ended   Six Months Ended  July 27,  April 27,  July 28,  July 27,  July 28,  2025  2025  2024  2025  2024   GAAP cost of revenue  $ 12,890   $ 17,394   $ 7,466   $ 30,284   $ 13,105  GAAP gross profit  $ 33,853   $ 26,668   $ 22,574   $ 60,521   $ 42,979  GAAP gross margin   72.4%    60.5%    75.1%    66.6%    76.6%  Acquisition-related and other costs (A)   49    123    118    170    238  Stock-based compensation expense (B)   58    64    40    123    75  Other   -    3    (3 )   4    (4 )  Non-GAAP cost of revenue  $ 12,783   $ 17,204   $ 7,311   $ 29,987   $ 12,796  Non-GAAP gross profit  $ 33,960   $ 26,858   $ 22,729   $ 60,818   $ 43,288  Non-GAAP gross margin   72.7%    61.0%    75.7%    67.0%    77.2%  H20 related charges/(releases), net   (180 )   4,538      4,358  Non-GAAP gross profit, as adjusted to exclude H20 related charges/releases, net  $ 33,780   $ 31,396     $ 65,176  Non-GAAP gross margin, as adjusted to exclude H20 related charges/releases, net    72.3%    71.3%      71.8%   GAAP operating expenses  $ 5,413   $ 5,030   $ 3,932   $ 10,443   $ 7,428  Stock-based compensation expense (B)   (1,566 )   (1,410 )   (1,114 )   (2,976 )   (2,089 )  Acquisition-related and other costs (A)   (37 )   (37 )   (26 )   (74 )   (48 )  Other   (15 )   -    -    (15 )   -  Non-GAAP operating expenses  $ 3,795   $ 3,583   $ 2,792   $ 7,378   $ 5,291   GAAP operating income  $ 28,440   $ 21,638   $ 18,642   $ 50,078   $ 35,551  Total impact of non-GAAP adjustments to operating income   1,725    1,637    1,295    3,362    2,446  Non-GAAP operating income  $ 30,165   $ 23,275   $ 19,937   $ 53,440   $ 37,997   GAAP total other income (expense), net  $ 2,766   $ 272   $ 572   $ 3,039   $ 942  (Gains) losses from non-marketable equity securities and publicly-held equity securities, net   (2,247 )   175    (193 )   (2,073 )   (264 )  Interest expense related to amortization of debt discount   1    1    1    2    2  Non-GAAP total other income (expense), net  $ 520   $ 448   $ 380   $ 968   $ 680   GAAP net income  $ 26,422   $ 18,775   $ 16,599   $ 45,197   $ 31,480  Total pre-tax impact of non-GAAP adjustments   (521 )   1,813    1,103    1,291    2,184  Income tax impact of non-GAAP adjustments (C)   (166 )   (694 )   (750 )   (859 )   (1,475 )  Tax expense from OBBBA*   48    -    -    48    -  Non-GAAP net income  $ 25,783   $ 19,894   $ 16,952   $ 45,677   $ 32,189  Total pre-tax impact of H20 related charges/(releases), net   (180 )   4,538      4,358  Income tax impact of H20 related charges/releases, net   (8 )   (797 )     (805 )  Non-GAAP net income, as adjusted to exclude H20 related charges/releases, net   $ 25,595   $ 23,635     $ 49,230   Diluted net income per share  GAAP  $ 1.08   $ 0.76   $ 0.67   $ 1.84   $ 1.27  Non-GAAP  $ 1.05   $ 0.81   $ 0.68   $ 1.86   $ 1.29  Non-GAAP, as adjusted to exclude H20 related charges/releases, net  $ 1.04   $ 0.96     $ 2.00   Weighted average shares used in diluted net income per share computation   24,532    24,611    24,848    24,571    24,869   GAAP net cash provided by operating activities  $ 15,365   $ 27,414   $ 14,489   $ 42,779   $ 29,833  Purchases related to property and equipment and intangible assets   (1,894 )   (1,227 )   (977 )   (3,122 )   (1,346 )  Principal payments on property and equipment and intangible assets   (21 )   (52 )   (29 )   (73 )   (69 )  Free cash flow  $ 13,450   $ 26,135   $ 13,483   $ 39,584   $ 28,418   *Tax expense included represents impact from OBBBA (One Big Beautiful Bill Act)   (A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:  Three Months Ended  Six Months Ended  July 27,  April 27,  July 28,  July 27,  July 28,  2025  2025  2024  2025  2024  Cost of revenue  $ 49   $ 123   $ 118   $ 170   $ 238  Research and development  $ 29   $ 28   $ 17   $ 57   $ 30  Sales, general and administrative  $ 8   $ 9   $ 9   $ 17   $ 18   (B) Stock-based compensation consists of the following:  Three Months Ended  Six Months Ended  July 27,  April 27,  July 28,  July 27,  July 28,  2025  2025  2024   2025   2024  Cost of revenue  $ 58   $ 64   $ 40   $ 123   $ 75  Research and development  $ 1,191   $ 1,063   $ 832   $ 2,254   $ 1,559  Sales, general and administrative  $ 375   $ 347   $ 282   $ 722   $ 530   (C) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).\n\nNVIDIA CORPORATION RECONCILIATION OF GAAP TO NON-GAAP OUTLOOK   Q3 FY2026 Outlook ($ in millions)  GAAP gross margin  73.3%  Impact of stock-based compensation expense, acquisition-related costs, and other costs  0.2%  Non-GAAP gross margin  73.5%   GAAP operating expenses $ 5,900  Stock-based compensation expense, acquisition-related costs, and other costs  (1,700 ) Non-GAAP operating expenses $ 4,200\n\nAbout NVIDIA\r\nNVIDIA (NASDAQ: NVDA) is the world leader in accelerated computing.\n\nFor further information, contact:\n\nToshiya Hari Mylene Mangalindan Investor Relations Corporate Communications NVIDIA Corporation NVIDIA Corporation toshiyah@nvidia.com mmangalindan@nvidia.com\n\nCertain statements in this press release including, but not limited to, statements as to: Blackwell as the AI platform the world has been waiting for and being at the center of the AI race; ramping of and demand for Blackwell Ultra; reasoning AI models driving orders-of-magnitude increases in training and inference performance; expectations with respect to growth, performance and benefits of NVIDIA’s products, services and technologies, including Blackwell, and related trends and drivers; expectations with respect to supply and demand for NVIDIA’s products, services and technologies, including Blackwell, and related matters including inventory, production and distribution; expectations with respect to NVIDIA’s third party arrangements, including with its collaborators and partners; expectations with respect to technology developments, including Rubin, and related trends and drivers; future NVIDIA cash dividends or other returns to stockholders; NVIDIA’s financial and business outlook for the third quarter of fiscal 2026 and beyond; projected market growth and trends; expectations with respect to AI and related industries; and other statements that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management’s beliefs and assumptions and on information currently available to management and are subject to risks and uncertainties that could cause results to be materially different than expectations. Important factors that could cause actual results to differ materially include: global economic and political conditions; NVIDIA’s reliance on third parties to manufacture, assemble, package and test NVIDIA’s products; the impact of technological development and competition; development of new products and technologies or enhancements to NVIDIA’s existing product and technologies; market acceptance of NVIDIA’s products or NVIDIA’s partners’ products; design, manufacturing or software defects; changes in consumer preferences or demands; changes in industry standards and interfaces; unexpected loss of performance of NVIDIA’s products or technologies when integrated into systems; and changes in applicable laws and regulations, as well as other factors detailed from time to time in the most recent reports NVIDIA files with the Securities and Exchange Commission, or SEC, including, but not limited to, its annual report on Form 10-K and quarterly reports on Form 10-Q. Copies of reports filed with the SEC are posted on the company’s website and are available from NVIDIA without charge. These forward-looking statements are not guarantees of future performance and speak only as of the date hereof, and, except as required by law, NVIDIA disclaims any obligation to update these forward-looking statements to reflect future events or circumstances.\n\n© 2025 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, GeForce, GeForce NOW, NVIDIA Cosmos, NVIDIA CUDA-Q, NVIDIA DGX Cloud Lepton, NVIDIA DRIVE, NVIDIA DRIVE AGX Thor, NVIDIA GeForce RTX, NVIDIA Jetson AGX Thor, NVIDIA Nemotron, NVIDIA Omniverse, and NVIDIA RTX PRO are trademarks and/or registered trademarks of NVIDIA Corporation in the U.S. and/or other countries. Other company and product names may be trademarks of the respective companies with which they are associated. Features, pricing, availability and specifications are subject to change without notice.\n\nA photo accompanying this announcement is available at:\r\nhttps://www.globenewswire.com/NewsRoom/AttachmentNg/24a5522e-6258-4e72-9c8a-a57178db4b41",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T19:44:12+00:00",
+            "title": "U.S. clears $104M missile sale to NATO procurement agency",
+            "content": "[AIM-120 AMRAAM air to air missile on the wing tip of an F-16 Fig]\nmtcurado\n\nThe U.S. State Department gave the green light for a possible $103.9 million sale of AIM-9X Sidewinder missiles and associated equipment to the NATO Support and Procurement Agency, the Pentagon announced Wednesday.\n\nAccording to the Defense Department’s statement, RTX (NYSE:RTX [https://seekingalpha.com/symbol/RTX]) will serve as the primary contractor for the proposed deal.\n\n \n\nMORE ON RTX\n\n \t* RTX: FOMO Drives New Heights - Wait For A Dip-Buying Opportunity [https://seekingalpha.com/article/4808613-rtx-fomo-drives-new-heights-wait-for-a-dip-buying-opportunity]\n \t* RTX: Fighting The Wall Of Reality [https://seekingalpha.com/article/4808655-rtx-fighting-the-wall-of-reality]\n \t* RTX Corporation: Backlog Growth And Big Market Opportunity Face Cash Drain And Tariff Risks [https://seekingalpha.com/article/4808633-rtx-corporation-backlog-growth-big-market-opportunity-faces-cash-drain-tariffs-risks]\n \t* RTX secures $2.88B Navy contract modification [https://seekingalpha.com/news/4488612-rtx-secures-2_88b-navy-contract-modification]\n \t* RTX subsidiary signs deal with Diehl Defence for Stinger missile production [https://seekingalpha.com/news/4486815-rtx-subsidiary-signs-deal-with-diehl-defence-for-stinger-missile-production]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T17:25:04+00:00",
+            "title": "NVIDIA (NVDA) Expands AI Innovations With Galbot, Broadcom, And Industry Leaders",
+            "content": "NVIDIA is integrating its cutting-edge AI technologies across various industry sectors. This includes enhancing VMware Cloud Foundation with Broadcom and deploying RTX PRO Servers across major enterprises like Disney and TSMC. Over the past quarter, NVDA's stock soared 35%, reflecting momentum from these initiatives. Meanwhile, the market saw a 1.3% rise as investors anticipated positive earnings across tech stocks. Noteworthy collaborations, including Galbot's adoption of NVIDIA's Jetson AGX Thor, likely bolstered investor confidence amidst a generally rising market, further lifting NVDA amidst broader optimism ahead of its earnings report.\n\nWe've discovered 1 weakness for NVIDIA that you should be aware of before investing here.NVDA Earnings Per Share Growth as at Aug 2025\n\nExplore 23 top quantum computing companies leading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research.\n\nNVIDIA's recent advances, including AI integrations with VMware and deployments in enterprises like Disney, underscore significant strides in the technology sector. Over the past five years, the company's total shareholder return has been very large, a testament to its substantial growth and innovation. Over the past year, NVIDIA outperformed the US Semiconductor industry, which returned 34.4%, and the broader US market with a 16.2% return. This context highlights NVIDIA's robust standing in an evolving market landscape.\n\nThese initiatives may bolster NVIDIA's revenue and earnings forecasts, as its AI technologies solidify its presence across critical industries like data centers and autonomous vehicles. The focus on Blackwell architecture and AI model scaling is expected to support competitive positioning and enhance margins by increasing infrastructure investments. This focus could, therefore, positively influence revenue projections, supporting the analysts' assumptions of significant growth. The current share price of US$181.77, compared to the consensus price target of US$194.22, suggests room for potential appreciation but means it currently trades at a 6.85% discount to analyst targets. As NVIDIA continues to leverage partnerships and product expansions, investor sentiment appears positive in anticipation of further earnings potential.\n\nUnlock comprehensive insights into our analysis of NVIDIA stock in this financial health report.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nStory Continues\n\nCompanies discussed in this article include NVDA.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:04:18+00:00",
+            "title": "RTX Factor-Based Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for RTX CORP (RTX). Of the 22 guru strategies we follow,  RTX rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nRTX CORP (RTX) is a large-cap growth stock in the Aerospace & Defense industry. The rating using this strategy is 50% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:FAIL\n\nDetailed Analysis of RTX CORP\n\nRTX Guru Analysis\n\nRTX Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop S&P 500 Stocks\n\nTop Russell 2000 Stocks\n\nHigh Earnings Yield Stocks\n\nHigh Free Cash Flow Yield Stocks\n\nSmall-Cap Value Stocks\n\nLow Volatility Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Raytheon Technologies Corp",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 186000,
+          "description": "RTX Corporation, an aerospace and defense company, provides systems and services for the commercial, military, and government customers in the United States and internationally. It operates through three segments: Collins Aerospace, Pratt & Whitney, and Raytheon. The Collins Aerospace Systems segmen"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.55,
+          "profit_margin": 0.0735,
+          "operating_margin": 0.1155,
+          "roe": 0.1032,
+          "roa": 0.037,
+          "revenue_growth_yoy": 0.094,
+          "earnings_growth_yoy": 14.25,
+          "eps_estimate_current_year": 5.9671,
+          "eps_estimate_next_year": 6.6564,
+          "dividend_yield": 0.0164,
+          "dividend_per_share": 2.57,
+          "revenue_ttm": 83598999552,
+          "revenue_per_share": 62.562,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 35.0703,
+          "forward_pe": 26.8097,
+          "price_to_sales": 2.5549,
+          "price_to_book": 3.423,
+          "enterprise_value": 252404119334,
+          "ev_to_revenue": 3.0192,
+          "ev_to_ebitda": 17.6284
+        },
+        "technical_data": {
+          "beta": 0.672,
+          "52_week_high": 160.21,
+          "52_week_low": 111.2107,
+          "50_day_ma": 151.408,
+          "200_day_ma": 132.5054,
+          "short_interest": 0.0106,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.72,
+          "forward_dividend_yield": 0.0174,
+          "payout_ratio": 0.4352,
+          "dividend_date": "2025-09-04",
+          "ex_dividend_date": "2025-08-15",
+          "last_split_date": "2020-04-03",
+          "last_split_factor": "15890:10000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1667,
+          "target_price": 162.5,
+          "strong_buy": 12,
+          "buy": 4,
+          "hold": 8,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1338540032,
+          "percent_institutions": 83.322,
+          "percent_insiders": 0.079,
+          "shares_float": 1223373688
+        },
+        "balance_latest_sheet": {
+          "total_assets": 167139.0,
+          "total_debt": 43595.0,
+          "cash_and_equivalents": 4782.0,
+          "net_debt": 38813.0,
+          "working_capital": 325.0,
+          "shareholders_equity": 62398.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 21581.0,
+          "gross_profit": 4376.0,
+          "operating_income": 2106.0,
+          "net_income": 1657.0,
+          "ebitda": 3596.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 20.28,
+          "operating_margin": 9.76,
+          "net_margin": 7.68
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 458.0,
+          "free_cash_flow": -72.0,
+          "capex": 530.0,
+          "net_income": 1725.0,
+          "cash_change": -366.0,
+          "dividends_paid": 910.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.42,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 150.56,
+            "high": 151.99,
+            "low": 150.19,
+            "close": 151.5,
+            "volume": 4326500
+          },
+          {
+            "date": "2025-07-18",
+            "open": 151.81,
+            "high": 152.85,
+            "low": 151.08,
+            "close": 151.5,
+            "volume": 5928600
+          },
+          {
+            "date": "2025-07-21",
+            "open": 151.98,
+            "high": 153.39,
+            "low": 151.06,
+            "close": 151.56,
+            "volume": 7116000
+          },
+          {
+            "date": "2025-07-22",
+            "open": 145.48,
+            "high": 150.27,
+            "low": 143.56,
+            "close": 149.17,
+            "volume": 10722700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 150,
+            "high": 156.59,
+            "low": 149.11,
+            "close": 156.49,
+            "volume": 8667100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 156.25,
+            "high": 157.24,
+            "low": 155.15,
+            "close": 155.22,
+            "volume": 4865300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 155.21,
+            "high": 157.33,
+            "low": 154.26,
+            "close": 156.88,
+            "volume": 4728200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 157.15,
+            "high": 157.33,
+            "low": 155.63,
+            "close": 156.07,
+            "volume": 4022900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 157.73,
+            "high": 158.79,
+            "low": 156.33,
+            "close": 157.12,
+            "volume": 4341800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 157.45,
+            "high": 158.73,
+            "low": 156.42,
+            "close": 158.4,
+            "volume": 3998700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 158.11,
+            "high": 158.23,
+            "low": 156.75,
+            "close": 157.57,
+            "volume": 4796000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 156.29,
+            "high": 157.48,
+            "low": 153.75,
+            "close": 156.81,
+            "volume": 4420700
+          },
+          {
+            "date": "2025-08-04",
+            "open": 157.13,
+            "high": 158.41,
+            "low": 156.74,
+            "close": 157.38,
+            "volume": 3961900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 157.27,
+            "high": 158.04,
+            "low": 155.76,
+            "close": 156.33,
+            "volume": 4993900
+          },
+          {
+            "date": "2025-08-06",
+            "open": 156.65,
+            "high": 157.73,
+            "low": 155.64,
+            "close": 155.75,
+            "volume": 4112100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 154.65,
+            "high": 155.76,
+            "low": 153.24,
+            "close": 155.76,
+            "volume": 5105800
+          },
+          {
+            "date": "2025-08-08",
+            "open": 156.6,
+            "high": 156.92,
+            "low": 154.72,
+            "close": 154.86,
+            "volume": 3667300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 154.73,
+            "high": 155.67,
+            "low": 154.14,
+            "close": 154.8,
+            "volume": 3572900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 154.97,
+            "high": 155.93,
+            "low": 154.56,
+            "close": 155.49,
+            "volume": 2962300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 156,
+            "high": 156.34,
+            "low": 152.66,
+            "close": 155.71,
+            "volume": 5012300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 155.6,
+            "high": 156.33,
+            "low": 154.65,
+            "close": 155.08,
+            "volume": 2766600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 154.26,
+            "high": 154.87,
+            "low": 153.33,
+            "close": 154.09,
+            "volume": 4593800
+          },
+          {
+            "date": "2025-08-18",
+            "open": 154.43,
+            "high": 156.18,
+            "low": 154.4,
+            "close": 155.5,
+            "volume": 3679300
+          },
+          {
+            "date": "2025-08-19",
+            "open": 154.57,
+            "high": 155.13,
+            "low": 153.21,
+            "close": 153.66,
+            "volume": 3008600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 153.77,
+            "high": 157.11,
+            "low": 153.09,
+            "close": 156.59,
+            "volume": 3766500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 156.79,
+            "high": 157.75,
+            "low": 156.22,
+            "close": 156.32,
+            "volume": 3179800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 157.05,
+            "high": 157.94,
+            "low": 156.21,
+            "close": 156.24,
+            "volume": 4252700
+          },
+          {
+            "date": "2025-08-25",
+            "open": 156.63,
+            "high": 157.64,
+            "low": 156,
+            "close": 156.27,
+            "volume": 2431100
+          },
+          {
+            "date": "2025-08-26",
+            "open": 156.76,
+            "high": 159.7,
+            "low": 156.38,
+            "close": 159.57,
+            "volume": 5096100
+          },
+          {
+            "date": "2025-08-27",
+            "open": 159.97,
+            "high": 160.21,
+            "low": 159.01,
+            "close": 159.84,
+            "volume": 2263751
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.9090909090909076,
+        "return_63d": 18.575667655786344,
+        "pct_above_sma50": 5.382803826060355,
+        "sma_50": 151.6756,
+        "new_55d_high": "False",
+        "high_55d": 160.21,
+        "rsi": 64.97797356828201,
+        "rsi_in_range": "True",
+        "adx": 28.40247088647153,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.381694194194193,
+        "bb_width": 3.983949978191468,
+        "keltner_width": 5.658316831154692,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 606321591.0315499,
+        "adv_shares": 3882172.55,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 47.77050615801501,
+        "final_score": 47.77050615801501,
+        "sub_scores": {
+          "trend_momentum": 17.589484351161452,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.181021806853554,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.731160896130346,
+          "ret_63d": 20.31614602935643,
+          "rsi14": 64.97797356828201,
+          "adx14": 26.245106983298474,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: RTX\n• Current Price: $159.84\n• Overall Score: 48.737356649541724\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 151.408\n• Sma 200: 132.5054\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.7311608961303455\n• Momentum 63D: 20.316146029356425\n• Momentum 126D: 25.55180268635614\n• Momentum Acceleration: -18.58498513322608\n• Roc 21D: 1.7311608961303455\n• Trend Strength 20D: 0.04752984173598119\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 50.0\n• Price Velocity: 0.004153067577822212\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 7.0\n• Squeeze Momentum: -0.1429825154766879\n• Volatility Compression: 70.34778575395485\n• Is Consolidating: False\n• Breakout Score: 84.60850254906435\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.589484351161452\n• Squeeze Breakout: 4.0\n• Options Quality: 15.181021806853554\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 55.0\n• Squeeze: 55.55216786309323\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: RTX\n• Strike Price: $155\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $10.6\n• Ask: $10.8\n• Last: $10.85\n• Mid: $10.7\n• Spread: 1.851851851851851851851851852%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6533\n• Gamma: 0.0198\n• Theta: -0.0507\n• Vega: 0.286\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.24\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 13\n• Open Interest: 721\n• Volume/OI Ratio: 0.018030513176144243\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Raytheon Technologies Corp\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $4.55\n• Profit Margin: 7.3%\n• ROE: 10.3%\n• P/E Ratio: 35.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T20:20:00+00:00: NVIDIA Announces Financial Results for Second Quarter Fiscal 2026...\n• 2025-08-27T20:20:00+00:00: NVIDIA Announces Financial Results for Second Quarter Fiscal 2026...\n• 2025-08-27T19:44:12+00:00: U.S. clears $104M missile sale to NATO procurement agency...\n• 2025-08-27T17:25:04+00:00: NVIDIA (NVDA) Expands AI Innovations With Galbot, Broadcom, And Industry Leaders...\n• 2025-08-27T16:04:18+00:00: RTX Factor-Based Stock Analysis...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR RTX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the RTX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:07:23.977394",
+    "estimated_tokens": 2323
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"RTX\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"RTX shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces near-term headwinds from negative momentum acceleration (-18.58) and upcoming earnings risk. The current squeeze setup (7 days duration) with 70.3% volatility compression suggests potential for a significant move.\",\n    \"opportunities\": [\n        \"Strong MA structure with price above both 50 SMA (151.40) and 200 SMA (132.50)\",\n        \"High breakout score (84.61) with confirmed squeeze condition\",\n        \"Reasonable options spread (1.85%) indicating decent liquidity\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-18.58) suggesting potential trend weakness\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Below average profit margin (7.3%) and relatively high P/E (35.1)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using 155 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively due to earnings risk and use spread structure to minimize theta decay\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative momentum acceleration trend\"\n    ],\n    \"notes\": \"While technical setup is promising, earnings timing and fundamental metrics suggest caution in position sizing. Consider waiting for earnings catalyst before full position commitment.\"\n}",
+    "parsed_analysis": {
+      "symbol": "RTX",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "RTX shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces near-term headwinds from negative momentum acceleration (-18.58) and upcoming earnings risk. The current squeeze setup (7 days duration) with 70.3% volatility compression suggests potential for a significant move.",
+      "opportunities": [
+        "Strong MA structure with price above both 50 SMA (151.40) and 200 SMA (132.50)",
+        "High breakout score (84.61) with confirmed squeeze condition",
+        "Reasonable options spread (1.85%) indicating decent liquidity"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-18.58) suggesting potential trend weakness",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Below average profit margin (7.3%) and relatively high P/E (35.1)"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using 155 strike as lower leg to reduce cost basis",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively due to earnings risk and use spread structure to minimize theta decay"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative momentum acceleration trend"
+      ],
+      "notes": "While technical setup is promising, earnings timing and fundamental metrics suggest caution in position sizing. Consider waiting for earnings catalyst before full position commitment."
+    },
+    "tokens_used": 2571,
+    "cost": 0.02571,
+    "response_time": 11.106431722640991,
+    "success": true
+  },
+  "cost": 0.02571,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8497,
+    "response_length": 1788
+  }
+}

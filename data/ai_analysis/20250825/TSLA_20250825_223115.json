@@ -1,0 +1,622 @@
+{
+  "success": true,
+  "symbol": "TSLA",
+  "timestamp": "2025-08-25T22:31:15.240520",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSLA",
+      "package_timestamp": "2025-08-25T22:31:04.827460",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSLA",
+        "current_price": 346.0,
+        "overall_score": 47.648641589594,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 321.479,
+        "sma_200": 328.4078
+      },
+      "momentum_metrics": {
+        "momentum_21d": 9.662722267923819,
+        "momentum_63d": 2.1394471621382825,
+        "momentum_126d": 4.861888482134768,
+        "momentum_acceleration": 7.523275105785537,
+        "roc_21d": 9.662722267923819,
+        "trend_strength_20d": 0.4620583788734302,
+        "trend_direction": 1,
+        "ma_ribbon_score": 86.48090312928001,
+        "breakout_strength": 52.34940932722631,
+        "price_velocity": 0.007192826267742735
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.8179609699151209,
+        "volatility_compression": 42.390617089030776,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.05874018177092,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 71.0,
+        "squeeze": 16.358592563354616,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 23,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "TSLA",
+        "strike_price": "340",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "30.2",
+        "ask": "30.3",
+        "last_price": "30.25",
+        "mid_price": "30.25",
+        "spread_percent": "0.3300330033003300330033003300"
+      },
+      "greeks": {
+        "delta": 0.5977,
+        "gamma": 0.0061,
+        "theta": -0.253,
+        "vega": 0.5127
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4814
+      },
+      "liquidity_metrics": {
+        "volume": 1954,
+        "open_interest": 6352,
+        "volume_oi_ratio": 0.30761964735516373
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:08:02.707640",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T21:36:13+00:00",
+            "title": "Tesla rejected $60 million settlement before losing $243 million Autopilot verdict",
+            "content": "By Mike Scarcella\n\n(Reuters) -Billionaire Elon Musk’s electric vehicle company Tesla rejected a $60 million settlement proposal in a lawsuit over the 2019 fatal crash of an Autopilot-equipped Model S before a jury this month awarded a $243 million verdict in the case.\n\nLawyers for the plaintiffs disclosed the settlement proposal in a filing on Monday in the federal court in Miami, Florida, as part of a request for legal fees from Tesla.\n\nThey said Florida law entitles them to the legal fees the plaintiffs accrued since May 30, when the settlement was proposed.\n\nTesla and a lawyer representing the company in the case did not immediately respond to requests for comment. Attorneys for the plaintiffs had no immediate comment.\n\nThe trial focused on an April 2019 crash involving a 2019 Model S featuring Autopilot driver-assistance software. The driver’s Tesla struck the victims’ parked Chevrolet Tahoe as they were standing beside it on a shoulder.\n\nJurors awarded the estate of Naibel Benavides Leon, who was killed, and her boyfriend Dillon Angulo, who was seriously injured, a combined $129 million in compensatory damages, plus $200 million in punitive damages. Tesla was held liable for 33% of the compensatory damages, or $42.6 million, and all of the punitive damages.\n\nJurors found the driver liable for 67% of the compensatory damages, but he was not a defendant.\n\nTesla has denied any wrongdoing, and said the verdict “only works to set back automotive safety and jeopardize Tesla’s and the entire industry’s efforts to develop and implement life-saving technology.” Tesla has said it will appeal.\n\nThe plaintiffs’ lawyers have said the trial was the first involving the wrongful death of a third party resulting from Autopilot.\n\nTesla has faced similar lawsuits over its vehicles’ self-driving capabilities, but they have been resolved or dismissed without getting to trial. </p>",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T21:30:15+00:00",
+            "title": "Tesla rejected $60 million settlement before losing $243 million Autopilot verdict",
+            "content": "By Mike Scarcella\n\n(Reuters) -Billionaire Elon Musk’s electric vehicle company Tesla rejected a $60 million settlement proposal in a lawsuit over the 2019 fatal crash of an Autopilot-equipped Model S before a jury this month awarded a $243 million verdict in the case.\n\nLawyers for the plaintiffs disclosed the settlement proposal in a filing on Monday in the federal court in Miami, Florida, as part of a request for legal fees from Tesla.\n\nThey said Florida law entitles them to the legal fees the plaintiffs accrued since May 30, when the settlement was proposed.\n\nTesla and a lawyer representing the company in the case did not immediately respond to requests for comment. Attorneys for the plaintiffs had no immediate comment.\n\nThe trial focused on an April 2019 crash involving a 2019 Model S featuring Autopilot driver-assistance software. The driver’s Tesla struck the victims' parked Chevrolet Tahoe as they were standing beside it on a shoulder.\n\nJurors awarded the estate of Naibel Benavides Leon, who was killed, and her boyfriend Dillon Angulo, who was seriously injured, a combined $129 million in compensatory damages, plus $200 million in punitive damages. Tesla was held liable for 33% of the compensatory damages, or $42.6 million, and all of the punitive damages.\n\nJurors found the driver liable for 67% of the compensatory damages, but he was not a defendant.\n\nTesla has denied any wrongdoing, and said the verdict “only works to set back automotive safety and jeopardize Tesla's and the entire industry's efforts to develop and implement life-saving technology.” Tesla has said it will appeal.\n\nThe plaintiffs’ lawyers have said the trial was the first involving the wrongful death of a third party resulting from Autopilot.\n\nTesla has faced similar lawsuits over its vehicles' self-driving capabilities, but they have been resolved or dismissed without getting to trial.\n\n(Reporting by Mike Scarcella; Editing by David Bario and Nia Williams)\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T21:28:00+00:00",
+            "title": "Levi &amp; Korsinsky Notifies Tesla, Inc. Investors of a Class Action Lawsuit and Upcoming Deadline – TSLA",
+            "content": "NEW YORK, Aug.  25, 2025  (GLOBE NEWSWIRE) -- Levi & Korsinsky, LLP notifies investors in Tesla, Inc. (\"Tesla, Inc.\" or the \"Company\") (NASDAQ: TSLA) of a class action securities lawsuit.\n\nCLASS DEFINITION: The lawsuit seeks to recover losses on behalf of Tesla, Inc. investors who were adversely affected by alleged securities fraud between April 19, 2023 and June 22, 2025. Follow the link below to get more information and be contacted by a member of our team:\n\nhttps://zlk.com/pslra-1/tesla-inc-lawsuit-submission-form-2?prid=163042&wire=3\n\nTSLA investors may also contact Joseph E. Levi, Esq. via email at jlevi@levikorsinsky.com or by telephone at (212) 363-7500.\n\nCASE DETAILS: The filed complaint alleges that defendants made false statements and/or concealed that: (i) Tesla overstated the effectiveness of its autonomous driving technology; (ii) there was thus a significant risk that the Company’s autonomous driving vehicles, including the Robotaxi, would operate dangerously and/or in violation of traffic laws; (iii) the foregoing increased the likelihood that Tesla would become subject to heightened regulatory scrutiny; (iv) accordingly, Tesla’s business and/or financial prospects were overstated; and (v) as a result, the Company’s public statements were materially false and misleading at all relevant times\n\nWHAT'S NEXT? If you suffered a loss in Tesla, Inc. during the relevant time frame, you have until October 3, 2025 to request that the Court appoint you as lead plaintiff. Your ability to share in any recovery doesn't require that you serve as a lead plaintiff.\n\nNO COST TO YOU: If you are a class member, you may be entitled to compensation without payment of any out-of-pocket costs or fees. There is no cost or obligation to participate.\n\nWHY LEVI & KORSINSKY: Over the past 20 years, the team at Levi & Korsinsky has secured hundreds of millions of dollars for aggrieved shareholders and built a track record of winning high-stakes cases. Our firm has extensive expertise representing investors in complex securities litigation and a team of over 70 employees to serve our clients. For seven years in a row, Levi & Korsinsky has ranked in ISS Securities Class Action Services’ Top 50 Report as one of the top securities litigation firms in the United States.\n\nCONTACT:\r\nLevi & Korsinsky, LLP \r\nJoseph E. Levi, Esq.\r\nEd Korsinsky, Esq.\r\n33 Whitehall Street, 17th Floor\r\nNew York, NY 10004\r\njlevi@levikorsinsky.com\r\nTel: (212) 363-7500\r\nFax: (212) 363-7171\r\nwww.zlk.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T21:19:59+00:00",
+            "title": "What is driving the EV sales slowdown, according to one analyst",
+            "content": "Sales of new electric vehicles are starting to slow. In the video above, RBC Capital Markets lead equity analyst for global autos Tom Narayan explains one thing that may be causing the slowdown.\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination.\n\nVideo Transcript\n\n00:00 Speaker A\n\nThe gap is widening between new and used EV prices, the report from our next guest showing that used EVs are selling at 45% discount compared to their new counterparts. We're navigating how to play the EV sector with the Yahoo Finance playbook and joining now got Tom Norion, lead equity analyst of Global Autos at RBC Capital Markets. Tom, it is great to see you. Uh you know, so we talk, Tom, about the EV slowdown. We'll talk about different factors, you know, maybe it's politics or or range worries, but you're focusing on a different variable, Tom, which is used prices for EVs. Walk us through it. What are you seeing there?\n\n00:50 Tom Norion\n\nYeah, it's interesting how this I think is being forgotten a lot by uh by the market and the media in some cases. There's a lot of focus on culture wars and range anxiety that gets a lot of attention. But when you really look at what's driving the EV slowdown, we think it has to do with used EV pricing being so much below new EV pricing. Uh so much so as you pointed out in that chart, it's like a 45% discount. If you can get a Tesla Model Y for $13,000, why would you buy one for 50, right? Um whereas on the ICE side, right? Internal combustion engine side, the discount between new and used is only about uh 25%. Uh so what we're noticing is really, and we're seeing it in the data, if you look at California vehicle sales in 2024, um the new EVs fell off in 24 versus 23, but used just absolutely spiked. Uh so much so so that you can't ignore that type of data. It's clear that what people are doing is they're seeing the deals that you can get on used EVs and they're buying the used EVs instead of the new EVs.\n\n02:53 Speaker A\n\nSo let me ask Tom, if that's the trend, then as investors, how do we want to be positioned to play that theme? Who are some of the winners you would call out from it?\n\n03:09 Tom Norion\n\nYeah, we think that what this trend means is that this EV slowdown has legs. It will likely continue, right? Because you're going to have new uh EV prices go up because of tariffs and whatnot. Also, you had a lot of people on leases, right? They leased an EV back in like 2022 post pandemic. Now it's 2025, three years have gone by and it's time to return that car and they're buying a used EV instead of a new EV. So we think this continues. Who do we like? We like the legacy OEMs. That's like Ford and GM who can sell internal combustion engine cars. Uh we like those guys. We also like auto suppliers that are tied to those legacy OEMs. Uh you know, suppliers that are tied to Ford and GM. Who are we worried about? It's the pure play EV guys. Maybe your Rivians, your Lucids, to a lesser extent Tesla, although we think that stock trades on other things. Um but really it's you want to own, I think, names that benefit from internal combustion engine uh sales and less so on companies that are completely dependent on EV sales.\n\n04:56 Speaker A\n\nBut correct me if I'm wrong, Tom. GM and Ford, do you I thought you had a you had an outperform on GM and a sector perform on Ford. Is that still the case? And if so, how come?\n\n05:15 Tom Norion\n\nYeah, that's true. Um and that's a lot of that just has to do with kind of comparing the two against each other. Um we tend to we do we do like GM uh more than Ford right now for for a number of thing reasons, but the thesis on Ford, we're kind of warming up a little bit to it, honestly. Um and a lot of it has to do with this dynamic itself. The fact that the EV slowdown continues. Now they can they don't have to sell as many EVs. They can sell more large SUVs and pickup trucks which are cash machines. So if that continues, we could change our view on Ford potentially. Right now, it's just more of a relative bias towards uh GM right now, but that's definitely warming up.\n\n06:22 Speaker A\n\nAnd you also talked time there. I heard you mention the names you thought, okay, that could be disadvantaged by this EV slowdown and you mentioned some of those pure play EV names, the Lucid, the Rivian. But I know you still like Tesla. Why do you still like Tesla here, Tom? Is that is that the new affordable model on the way in Q4? Is it the robotaxi play? Explain it to us.\n\n07:00 Tom Norion\n\nYeah, I think this one has less to do with cars at all, right? And it's very much to do with the robo taxi. Also, you know what's been really, I'm getting calls on a lot lately is humanoid robots. Um you know, if you asked me this, I think you did ask me this maybe a few months ago, I would have been like, you know, I don't know. I need to do some work on it. But the more I'm reading on it, the more the market seems to be warming up to obviously AI and on this humanoid robot topic. Um this has some legs too. So I think the reason why I like Tesla is I do think there's a lot of growth here um in non-cars. Um so while I am worried for them on car sales because of the EV slowdown, I do think especially from the retail investor point of view, um there's a lot to potentially like on the AI play, especially with robo taxi and this humanoid robot thing.  Related Videos\n\n07:18\n\nNavigating airline stocks as fares rise & travel trends shift\n\nYahoo Finance Video • 6 days ago 04:54\n\nCould Trump's Intel deal could be the new norm?\n\nYahoo Finance Video • 1 hour ago 01:02\n\nEvacuations Ordered as Wildfires Expand in California’s Napa County\n\nWSJ • 23 hours ago 04:41\n\nRobeco's Chow on the Fed's Next Move\n\nBloomberg • 18 hours ago\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T20:31:14+00:00",
+            "title": "Former Twitter CEO Parag Agrawal Raises $30M For Parallel Web Systems To Challenge OpenAI GPT-5 With Deep Research API",
+            "content": "Parag Agrawal, the former Twitter CEO ousted after Elon Musk's 2022 takeover, has reemerged in Silicon Valley with Parallel Web Systems, a startup promising to push artificial intelligence beyond current limits.\n\nThe company raised $30 million from Khosla Ventures, Index Ventures, and First Round Capital to launch its flagship product, the Deep Research application programming interface, Entrepreneur reports.\n\nDeep Research API Targets Benchmarks Against GPT-5\n\nParallel's Deep Research API already handles millions of requests daily, ranging from document discovery to code debugging and workflow automation. According to Entrepreneur, the system integrates eight research engines designed for specific functions like long-form synthesis, cross-disciplinary analysis, and knowledge retrieval.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\nBenchmark tests published by the company claim the system has already outperformed OpenAI's GPT-5 on research-oriented tasks that require multi-step reasoning and contextual synthesis.\n\nOn BrowseComp, which measures how well systems navigate the live web to answer open-ended questions, Parallel reached 58% accuracy compared with GPT-5's 41% and a human baseline of 25%. On DeepResearch Bench, which evaluates long-form research tasks across 22 fields, Parallel achieved an 82% win rate against the reference standard, surpassing GPT-5's 66%.\n\nParallel Web Systems attributes this performance to infrastructure built from the ground up for AI agents, delivering structured, verifiable, and real-time results.\n\nIndependent reviews remain limited, but Entrepreneur says demonstrations show the product can manage complex queries, execute multi-hop reasoning, and generate outputs with factual provenance.\n\nTrending: 7 Million Gamers Already Trust Gameflip With Their Digital Assets — Now You Can Own a Stake in the Platform\n\nA ‘Programmatic Web' Built for AI Agents\n\nPalo Alto-based Parallel Web Systems describes its mission as preparing for a shift where AI agents become the primary users of the web. \"AIs will use the web far more than humans ever have,\" the company wrote in the announcement.\n\nThe firm advocates for a \"programmatic web\" designed specifically for machine consumption, built with declarative interfaces, transparent attribution, and value-driven open markets where sources and contributors are directly credited. Parallel Web Systems argues that the existing web, optimized for human clicks and ad impressions, cannot adequately serve AI systems that need scalable access to factual information.\n\nStory continues\n\nPotential applications of this model extend to legal analysis, market intelligence, and scientific research, where Entrepreneur says autonomous systems need reliable access to live data rather than static training sets. Parallel emphasizes system and organization controls 2 Type 2 certification, and enterprise readiness to meet developer demands across industries.\n\nSee Also: 2,000 High Earners Manage $6B With This AI Platform — Learn More\n\nAgrawal's Second Act in Tech\n\nAgrawal's exit from Twitter came after months of conflict with Musk. In 2022, Musk accused Twitter of misleading shareholders and tried to walk away from his $44 billion acquisition. Twitter's board sued Musk to enforce the deal, a legal battle that Agrawal was forced to fight while still leading the company.\n\nThe first thing Musk did after closing the purchase was fire most of the executive team, including Agrawal, without severance. Friends and colleagues urged Agrawal to take a break, but Bloomberg says he instead returned to Palo Alto, where he spent his time reading research papers, writing code, and considering what to build next.\n\nAgrawal views Parallel as a chance to define himself beyond Twitter, telling Bloomberg, \"I don't think Twitter defines me. If I do a good job, I'm hoping this company will define me.\"\n\nRead Next: Shaquille O'Neal Wants People to Take Heart Health Seriously — This AI-ECG Could Make That Easier\n\nImage: Shutterstock\n\nUNLOCKED: 5 NEW TRADES EVERY WEEK. Click now to get top trade ideas daily, plus unlimited access to cutting-edge tools and strategies to gain an edge in the markets.\n\nGet the latest stock analysis from Benzinga?\n\nAPPLE (AAPL): Free Stock Analysis Report TESLA (TSLA): Free Stock Analysis Report\n\nThis article Former Twitter CEO Parag Agrawal Raises $30M For Parallel Web Systems To Challenge OpenAI GPT-5 With Deep Research API originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tesla Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers",
+          "employees": 125665,
+          "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric ve"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.67,
+          "profit_margin": 0.0634,
+          "operating_margin": 0.041,
+          "roe": 0.0818,
+          "roa": 0.0291,
+          "revenue_growth_yoy": -0.118,
+          "earnings_growth_yoy": -0.175,
+          "eps_estimate_current_year": 1.6874,
+          "eps_estimate_next_year": 2.3903,
+          "revenue_ttm": 92719996928,
+          "revenue_per_share": 28.862,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 203.5988,
+          "forward_pe": 181.8182,
+          "price_to_sales": 11.8279,
+          "price_to_book": 14.1848,
+          "enterprise_value": 1073036876748,
+          "ev_to_revenue": 11.5729,
+          "ev_to_ebitda": 79.2377
+        },
+        "technical_data": {
+          "beta": 2.331,
+          "52_week_high": 488.5399,
+          "52_week_low": 202.59,
+          "50_day_ma": 321.479,
+          "200_day_ma": 328.4078,
+          "short_interest": 0.0256,
+          "short_ratio": 0.74
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2022-08-25",
+          "last_split_factor": "3:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.383,
+          "target_price": 306.3207,
+          "strong_buy": 14,
+          "buy": 7,
+          "hold": 16,
+          "sell": 3,
+          "strong_sell": 7
+        },
+        "institutional_data": {
+          "shares_outstanding": 3225449984,
+          "percent_institutions": 50.94800000000001,
+          "percent_insiders": 12.875,
+          "shares_float": 2711473609
+        },
+        "balance_latest_sheet": {
+          "total_assets": 128567.0,
+          "total_debt": 13134.0,
+          "cash_and_equivalents": 963.0,
+          "net_debt": -2453.0,
+          "working_capital": 31125.0,
+          "shareholders_equity": 77314.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.17
+        },
+        "income_latest_statement": {
+          "total_revenue": 22496.0,
+          "gross_profit": 3878.0,
+          "operating_income": 923.0,
+          "net_income": 1172.0,
+          "ebitda": 3068.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 17.24,
+          "operating_margin": 4.1,
+          "net_margin": 5.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2540.0,
+          "free_cash_flow": 146.0,
+          "capex": 2394.0,
+          "net_income": 1190.0,
+          "cash_change": -515.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.5062,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 319.675,
+            "high": 321.2,
+            "low": 310.5,
+            "close": 310.78,
+            "volume": 77556352
+          },
+          {
+            "date": "2025-07-16",
+            "open": 312.8,
+            "high": 323.5,
+            "low": 312.62,
+            "close": 321.67,
+            "volume": 97284789
+          },
+          {
+            "date": "2025-07-17",
+            "open": 323.15,
+            "high": 324.34,
+            "low": 317.0601,
+            "close": 319.41,
+            "volume": 73922875
+          },
+          {
+            "date": "2025-07-18",
+            "open": 321.66,
+            "high": 330.9,
+            "low": 321.42,
+            "close": 329.65,
+            "volume": 94254992
+          },
+          {
+            "date": "2025-07-21",
+            "open": 334.4,
+            "high": 338,
+            "low": 326.88,
+            "close": 328.49,
+            "volume": 75768797
+          },
+          {
+            "date": "2025-07-22",
+            "open": 329.74,
+            "high": 335.4098,
+            "low": 321.55,
+            "close": 332.11,
+            "volume": 77370367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 330.9,
+            "high": 336.2,
+            "low": 328.67,
+            "close": 332.56,
+            "volume": 92553758
+          },
+          {
+            "date": "2025-07-24",
+            "open": 310,
+            "high": 310.15,
+            "low": 300.41,
+            "close": 305.3,
+            "volume": 156966000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 308.74,
+            "high": 323.63,
+            "low": 308.01,
+            "close": 316.06,
+            "volume": 148227016
+          },
+          {
+            "date": "2025-07-28",
+            "open": 318.45,
+            "high": 330.49,
+            "low": 315.69,
+            "close": 325.59,
+            "volume": 112673797
+          },
+          {
+            "date": "2025-07-29",
+            "open": 325.55,
+            "high": 326.25,
+            "low": 318.25,
+            "close": 321.2,
+            "volume": 87358867
+          },
+          {
+            "date": "2025-07-30",
+            "open": 322.18,
+            "high": 324.4499,
+            "low": 311.6164,
+            "close": 319.04,
+            "volume": 83931938
+          },
+          {
+            "date": "2025-07-31",
+            "open": 319.605,
+            "high": 321.37,
+            "low": 306.1,
+            "close": 308.27,
+            "volume": 85270922
+          },
+          {
+            "date": "2025-08-01",
+            "open": 306.205,
+            "high": 309.31,
+            "low": 297.82,
+            "close": 302.63,
+            "volume": 89121445
+          },
+          {
+            "date": "2025-08-04",
+            "open": 309.08,
+            "high": 312.1186,
+            "low": 303.0001,
+            "close": 309.26,
+            "volume": 78683914
+          },
+          {
+            "date": "2025-08-05",
+            "open": 308.95,
+            "high": 312.4499,
+            "low": 305.5,
+            "close": 308.72,
+            "volume": 57961281
+          },
+          {
+            "date": "2025-08-06",
+            "open": 307.89,
+            "high": 320.47,
+            "low": 306.9345,
+            "close": 319.91,
+            "volume": 78523586
+          },
+          {
+            "date": "2025-08-07",
+            "open": 319.79,
+            "high": 322.4,
+            "low": 316.16,
+            "close": 322.27,
+            "volume": 66658672
+          },
+          {
+            "date": "2025-08-08",
+            "open": 321.43,
+            "high": 335.15,
+            "low": 320.98,
+            "close": 329.65,
+            "volume": 91200320
+          },
+          {
+            "date": "2025-08-11",
+            "open": 335,
+            "high": 346.64,
+            "low": 334.15,
+            "close": 339.03,
+            "volume": 105320203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 345,
+            "high": 345.26,
+            "low": 332.94,
+            "close": 340.84,
+            "volume": 80690109
+          },
+          {
+            "date": "2025-08-13",
+            "open": 341.5,
+            "high": 348.98,
+            "low": 338.2,
+            "close": 339.38,
+            "volume": 67838891
+          },
+          {
+            "date": "2025-08-14",
+            "open": 335.76,
+            "high": 340.4699,
+            "low": 330.4,
+            "close": 335.58,
+            "volume": 75000656
+          },
+          {
+            "date": "2025-08-15",
+            "open": 337.655,
+            "high": 339.3,
+            "low": 327.02,
+            "close": 330.56,
+            "volume": 74319789
+          },
+          {
+            "date": "2025-08-18",
+            "open": 329.62,
+            "high": 336.27,
+            "low": 329.59,
+            "close": 335.16,
+            "volume": 56956551
+          },
+          {
+            "date": "2025-08-19",
+            "open": 335.79,
+            "high": 340.55,
+            "low": 327.85,
+            "close": 329.31,
+            "volume": 75956000
+          },
+          {
+            "date": "2025-08-20",
+            "open": 329.22,
+            "high": 331.37,
+            "low": 314.6,
+            "close": 323.9,
+            "volume": 77481766
+          },
+          {
+            "date": "2025-08-21",
+            "open": 322.08,
+            "high": 324.9,
+            "low": 318.68,
+            "close": 320.11,
+            "volume": 55744449
+          },
+          {
+            "date": "2025-08-22",
+            "open": 321.66,
+            "high": 340.25,
+            "low": 319.69,
+            "close": 340.01,
+            "volume": 94016352
+          },
+          {
+            "date": "2025-08-25",
+            "open": 338.9,
+            "high": 349.53,
+            "low": 335.03,
+            "close": 346.6,
+            "volume": 85756375
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 6.452900887619414,
+        "return_63d": -4.488963597784442,
+        "pct_above_sma50": 7.44380626825924,
+        "sma_50": 322.0288,
+        "new_55d_high": "False",
+        "high_55d": 357.54,
+        "rsi": 71.39146148633387,
+        "rsi_in_range": "False",
+        "adx": 20.77093689407315,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.431151182919792,
+        "bb_width": 15.443412936168219,
+        "keltner_width": 14.604237343340762,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 25560615858.507446,
+        "adv_shares": 78389604.3,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 54.058740181770915,
+        "final_score": 54.058740181770915,
+        "sub_scores": {
+          "trend_momentum": 16.05874018177092,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 9.662722267923819,
+          "ret_63d": 2.139447162138275,
+          "rsi14": 71.39146148633387,
+          "adx14": 19.769199306058162,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSLA\n• Current Price: $346.0\n• Overall Score: 47.648641589594\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 321.479\n• Sma 200: 328.4078\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 9.662722267923819\n• Momentum 63D: 2.1394471621382825\n• Momentum 126D: 4.861888482134768\n• Momentum Acceleration: 7.523275105785537\n• Roc 21D: 9.662722267923819\n• Trend Strength 20D: 0.4620583788734302\n• Trend Direction: 1\n• Ma Ribbon Score: 86.48090312928001\n• Breakout Strength: 52.34940932722631\n• Price Velocity: 0.007192826267742735\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.8179609699151209\n• Volatility Compression: 42.390617089030776\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.05874018177092\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 71.0\n• Squeeze: 16.358592563354616\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: TSLA\n• Strike Price: $340\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $30.2\n• Ask: $30.3\n• Last: $30.25\n• Mid: $30.25\n• Spread: 0.3300330033003300330033003300%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5977\n• Gamma: 0.0061\n• Theta: -0.253\n• Vega: 0.5127\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4814\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 1954\n• Open Interest: 6352\n• Volume/OI Ratio: 0.30761964735516373\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Tesla Inc\n• Sector: Consumer Cyclical\n• Industry: Auto Manufacturers\n• EPS (TTM): $1.67\n• Profit Margin: 6.3%\n• ROE: 8.2%\n• P/E Ratio: 203.6\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T21:36:13+00:00: Tesla rejected $60 million settlement before losing $243 million Autopilot verdi...\n• 2025-08-25T21:30:15+00:00: Tesla rejected $60 million settlement before losing $243 million Autopilot verdi...\n• 2025-08-25T21:28:00+00:00: Levi &amp; Korsinsky Notifies Tesla, Inc. Investors of a Class Action Lawsuit an...\n• 2025-08-25T21:19:59+00:00: What is driving the EV sales slowdown, according to one analyst...\n• 2025-08-25T20:31:14+00:00: Former Twitter CEO Parag Agrawal Raises $30M For Parallel Web Systems To Challen...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSLA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TSLA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:31:15.240167",
+    "estimated_tokens": 2341
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSLA\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 4,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TSLA shows moderate technical strength with price above both SMAs and positive momentum scores, but faces significant headwinds from upcoming earnings and negative news sentiment. Options metrics indicate decent liquidity but elevated IV, while fundamental metrics show concerning valuation with a 203 P/E ratio.\",\n    \"opportunities\": [\n        \"Price momentum positive with 9.66% 21-day ROC\",\n        \"Strong MA Ribbon Score of 86.48\",\n        \"Options have tight bid-ask spread of 0.33%\"\n    ],\n    \"risks\": [\n        \"Earnings approaching on 9/30/2025\",\n        \"Recent negative news regarding Autopilot verdict\",\n        \"High P/E ratio of 203.6 suggests valuation risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure and high IV cost\",\n        \"entry_timing\": \"Defer entry until after earnings catalyst\",\n        \"risk_management\": \"Use defined risk spreads given elevated IV of 48.14% and upcoming earnings\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Multiple negative news items regarding legal issues\",\n        \"Extremely high P/E ratio relative to sector\"\n    ],\n    \"notes\": \"While technical metrics are favorable, the combination of upcoming earnings and negative news flow suggests waiting for better entry point. Options pricing shows elevated implied volatility which may compress post-earnings.\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSLA",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 6,
+        "fundamentals": 4,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "TSLA shows moderate technical strength with price above both SMAs and positive momentum scores, but faces significant headwinds from upcoming earnings and negative news sentiment. Options metrics indicate decent liquidity but elevated IV, while fundamental metrics show concerning valuation with a 203 P/E ratio.",
+      "opportunities": [
+        "Price momentum positive with 9.66% 21-day ROC",
+        "Strong MA Ribbon Score of 86.48",
+        "Options have tight bid-ask spread of 0.33%"
+      ],
+      "risks": [
+        "Earnings approaching on 9/30/2025",
+        "Recent negative news regarding Autopilot verdict",
+        "High P/E ratio of 203.6 suggests valuation risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure and high IV cost",
+        "entry_timing": "Defer entry until after earnings catalyst",
+        "risk_management": "Use defined risk spreads given elevated IV of 48.14% and upcoming earnings"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Multiple negative news items regarding legal issues",
+        "Extremely high P/E ratio relative to sector"
+      ],
+      "notes": "While technical metrics are favorable, the combination of upcoming earnings and negative news flow suggests waiting for better entry point. Options pricing shows elevated implied volatility which may compress post-earnings."
+    },
+    "tokens_used": 2564,
+    "cost": 0.02564,
+    "response_time": 10.410186767578125,
+    "success": true
+  },
+  "cost": 0.02564,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8568,
+    "response_length": 1690
+  }
+}

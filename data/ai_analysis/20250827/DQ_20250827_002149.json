@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "symbol": "DQ",
+  "timestamp": "2025-08-27T00:21:49.681741",
+  "data_package": {
+    "metadata": {
+      "symbol": "DQ",
+      "package_timestamp": "2025-08-27T00:21:39.899634",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "DQ",
+        "current_price": 23.72,
+        "overall_score": 50.558900640300976,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 19.7914,
+        "sma_200": 18.2463
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.400174367916293,
+        "momentum_63d": 69.54967834167262,
+        "momentum_126d": 15.876893014167074,
+        "momentum_acceleration": -66.14950397375632,
+        "roc_21d": 3.400174367916293,
+        "trend_strength_20d": 0.5448303536724655,
+        "trend_direction": 1,
+        "ma_ribbon_score": 89.29623118456779,
+        "breakout_strength": 95.92196306527053,
+        "price_velocity": 0.01039350676759716
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": 0.05414744079598003,
+        "volatility_compression": 36.0659187792633,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.859394539583423,
+        "squeeze_breakout": 4.0,
+        "options_quality": 9.241807909604496,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 75.0,
+        "momentum": 61.0,
+        "squeeze": 55.409887816889494,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 19,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "DQ",
+        "strike_price": "15",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "8.7",
+        "ask": "9",
+        "last_price": "8.28",
+        "mid_price": "8.85",
+        "spread_percent": "3.333333333333333333333333333"
+      },
+      "greeks": {
+        "delta": 0.9809,
+        "gamma": 0.0083,
+        "theta": -0.0041,
+        "vega": 0.0042
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.6293
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 1217,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:35.215086",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T15:30:56+00:00",
+            "title": "Daqo New Energy (DQ) Q2 2025 Earnings Transcript",
+            "content": "Image source: The Motley Fool.\n\nDATE\n\nTuesday, Aug. 26, 2025 at 8 a.m. ET\n\nCALL PARTICIPANTS\n\nChairman and Chief Executive Officer — Xiang Xu\n\nDeputy Chief Executive Officer — Anita Xu\n\nChief Financial Officer — Ming Yang\n\nDirector of Investor Relations — Jessie Zhao\n\nNeed a quote from a Motley Fool analyst? Email pr@fool.com\n\nFull Conference Call Transcript\n\nOperator: Good day and welcome to the Daqo New Energy Corp. Second Quarter 2025 Earnings Conference Call. All participants will be in a listen-only mode. After today's presentation, there will be an opportunity to ask questions. Please note this event is being recorded. I would now like to turn the conference over to Jessie Zhao, Director of Investor Relations. Please go ahead.\n\nJessie Zhao: Hello, everyone. I'm Jessie Zhao, the Investor Relations Director of Daqo New Energy Corp. Thank you for joining our conference call today. Daqo New Energy Corp. just issued its financial results for the 2025, which can be found on our website at www.dqsolar.com. Today, attending the conference call, we have our Chairman and CEO, Mr. Xiang Xu, our Deputy CEO, Ms. Anita Xu, our CFO, Mr. Ming Yang, and myself. Today's call will begin with an update from Mr. Xu on market conditions and company operations, followed by a translation from Mr. Xu for Mr. Xu. And then Mr. Yang will discuss the company's financial performance for the quarter.\n\nAfter that, we will open the floor to Q&A from the audience. Before we begin the formal remarks, I want to remind you that certain statements on today's call, including expected future operational and financial performance and industry growth, are forward-looking statements that are made under the Safe Harbor provisions of The U.S. Private Securities Litigation Reform Act of 1995. These statements involve inherent risks and uncertainties. A number of factors could cause actual results to differ materially from those contained in any forward-looking statement. Further information regarding these and other risks is included in the reports or documents we have filed with or furnished to the Securities and Exchange Commission.\n\nThese statements only reflect our current and preliminary view as of today and may be subject to change. Our ability to achieve these projections is subject to risks and uncertainties. All information provided in today's call is as of today, and we undertake no duty to update such information except as required under applicable law. Also during the call, we will occasionally reference monetary amounts in U.S. Dollar terms. Please keep in mind that our functional currency is the Chinese RMB. We offer these translations into U.S. Dollars solely for the convenience of the audience. Now I will turn the call to our Chairman and CEO, Mr. Xiang Xu. Mr. Xu, please go ahead.\n\nStory Continues\n\nAnita Xu: Thank you, Mr. Xu. Hello, everyone. This is Anita, and I'll now deliver our CEO, Mr. Xu's remarks. So the solar PV industry faced continuous challenges in 2025 with market prices across the solar value chain declining due to industry overcapacity and high inventory levels, remaining below cash cost levels. As a result, Daqo New Energy Corp. recorded quarterly operating and net losses. Nevertheless, we maintained a strong and healthy balance sheet with no financial debt. As of June 30, 2025, the company had a cash balance of CNY599 million, short-term investments of CNY490 million, bank notes receivable of $49 million, and total fixed-term bank deposit balance of $994 million.\n\nIn total, our financial bank deposits and investment assets readily convertible into cash as needed stood at $2.06 billion, providing us with ample financial liquidity. With no financial debt, our solid financial position brings us confidence and strategic resilience to navigate conditions and weak selling prices. Total production volume at our two hot water facilities for the quarter was 29,012 metric tons, within our guidance range of 25,000 metric tons to 28,000 metric tons. Towards the end of the quarter, our Chinese authorities intensified efforts to curb disorderly competition. We proactively scaled back new sales orders in anticipation of future price recovery.\n\nAccordingly, our sales volume for the quarter decreased to 18,126 metric tons from 28,008 metric tons in the first quarter. Due to lower utilization across our factories, idle facility-related costs for the quarter were approximately $1.3 per kilogram, primarily reflecting noncash depreciation expenses. On a positive note, a decline in the cost of silicon metal and reduced energy consumption drove our cash cost lower by 4% to $5.12 per kilogram sequentially, including approximately $0.18 per kilogram related to idle facility maintenance. Overall, polysilicon unit production cost decreased by 4% sequentially to an average of $7.26 per kilogram, with lower unit depreciation costs resulting from higher production.\n\nIn light of the current market conditions, we expect our total polysilicon production volume in 2025 to be approximately 27,000 to 30,000 metric tons. As a result, we anticipate our full-year 2025 production volume to be in a range of 110,000 metric tons to 130,000 metric tons. During the second quarter, the solar PV industry remained in a cyclical trough, although proactive initiatives started to emerge towards the end of the quarter. On the demand side, China experienced a surge in installations under market-based reform policies and set a new global record with a staggering 93 gigawatts of new solar power capacity added in May.\n\nHowever, installations plummeted to 14 gigawatts in June, following front-loading earlier this month, ahead of the May 31, 2025 cutoff date for new projects. Poly market prices trended downward during the quarter, falling from RMB39 to 45 per kilogram in April to RMB32 to RMB35 per kilogram by June. According to industry statistics, overall industry poly production for 2025 year-to-date has been running below overall demand and consumption, with monthly supply of approximately 100,000 to 110,000 metric tons. As a result, energy inventory decreased by approximately 30,000 to 40,000 tons between January and July, leaving overall industry polysilicon inventory lower than at the beginning of the year.\n\nHeading into the third quarter, Chinese authorities have demonstrated increased determination to address irrational competition and energy overcapacity, with the anti-evolution initiative taking a lead role in sectors such as solar PV. On June 29, an article from China's official newspaper People's Daily highlighted the issue of oversupply and disruptive competition in the solar PV industry, calling for measures to curb business competition and promote high-quality development. On June 1, President Xi emphasized the need to regulate disorderly low-price competition and phase out outdated capacity at the Central Financial and Economic Affairs Commission meeting.\n\nThe following day, the Ministry of Industry and Information Technology convened a symposium with four key solar PV companies to accelerate the industry's transition toward high-quality growth. Most recently, on July 24, government authorities released a draft amendment to the price law, representing a significant step towards strengthening market supervision and deterring unfair pricing practices. The draft clarifies criteria for identifying unfair pricing behavior, such as low-price dumping, and strengthens legal accountability for price-related violations. As a result, polysilicon sales prices have rebounded in July, and polysilicon future prices surged significantly, supported by favorable factors such as expected higher spot pool and simultaneous increases in downstream product prices.\n\nFor reference, the 2,500 six-nine contract rose sharply from a low of RMB30 per kilogram in June 2025 to a record high of RMB55 per kilogram in July 2025, the strongest level since 2020. The solar PV industry continues to shift strong long-term prospects. In the medium term, we believe that the combined effect of industry self-discipline and government anti-evolution regulations will foster healthier and more sustainable industry. In the long run, as one of the most effective and sustainable energy sources globally, solar power is expected to remain a key driver of the global energy transition and sustainable development.\n\nLooking ahead, Daqo New Energy Corp. is well-positioned to capitalize on the long-term growth in the global solar PV industry and strengthen its competitive edge by enhancing its higher efficiency in touch technology and optimizing its cost structure through digital transformation and AI adoption. As one of the world's lowest-cost producers with the highest quality in touch products, a strong balance sheet with no financial debt, we are confident in our ability to weather the current market downturn, capitalize on market recovery, and emerge as a leader in the industry positioned to capture further growth. So now I'll turn the call to our CFO, Mr. Ming Yang, who will discuss the company's financial performance for the quarter.\n\nMing, please go ahead.\n\nMing Yang: Thank you, Anita, and hello, everyone. This is Ming Yang, CFO of Daqo New Energy Corp. We appreciate you joining our earnings conference call today. I will now go over the company's second quarter 2025 financial performance. Revenues were $75.2 million compared to $123.9 million in the first quarter of 2025 and $219.9 million in the same quarter of 2024. The decrease in revenue compared to the first quarter of 2025 was primarily due to a decrease in sales volume. Gross loss was $81.4 million compared to $81.5 million in the first quarter of 2025 and $159 million in the second quarter of 2024.\n\nGross margin was negative 108% compared to negative 65.8% in the first quarter of 2025 and negative 72% in the same quarter of 2024. The decrease in gross margin compared to the first quarter of 2025 was primarily because sales volume decreased while idle facility costs remained relatively fixed. SG&A expenses were $32.1 million compared to $35.1 million in the first quarter of 2025 and $37.5 million in the second quarter of 2024. SG&A expenses during the second quarter included $18.6 million in non-cash share-based compensation costs related to the company's share incentive plan compared to $18.6 million in the first quarter of 2025.\n\nThe decline in SG&A expenses in the second quarter compared to the first quarter is a result of lower staffing costs as well as lower sales expenses. R&D expenses were $800,000 compared to $500,000 in the first quarter of 2025 and $1.8 million in the same quarter of 2024. R&D expenses can vary from period to period and reflect R&D activities that take place during the quarter. As a result, the foregoing loss from operations was $115 million compared to $114 million in the first quarter of 2025 and $195.6 million in the same quarter of 2024.\n\nOperating margin was negative 153% compared to negative 92% in the first quarter of 2025 and negative 89% in the same quarter of 2024. Net loss attributable to Daqo New Energy Corp. shareholders was $76.5 million compared to $71.8 million in the first quarter of 2025 and $119.8 million in the second quarter of 2024. Loss per basic ADS was $1.14 compared to $1.07 in the first quarter of 2025 and $1.81 in the second quarter of 2024. Adjusted net loss attributable to Daqo New Energy Corp. shareholders, excluding non-cash share-based compensation costs, was $57.9 million compared to $53.2 million in the first quarter of 2025 and $98.8 million in the same quarter of 2024.\n\nAdjusted loss per basic ADS was $0.86 compared to $0.80 in the first quarter of 2025 and $0.50 in the same quarter of 2024. EBITDA was negative $48 million compared to negative $48.4 million in the first quarter of 2025 and negative $145 million in the second quarter of 2024. EBITDA margin was negative 64% compared to negative 39% in the first quarter of 2025 and negative 66% in the second quarter of 2024. Now on the company's financial condition. As of June 30, 2025, the company had $599 million in cash, cash equivalents, and restricted cash compared to $792 million as of March 31, 2025, and $998 million as of June 30, 2024.\n\nAs of June 30, 2025, short-term investments were $418.8 million compared to $168 million as of March 31, 2025, and $219.5 million as of June 30, 2024. And as of June 30, 2025, notes receivable balance was $49 million compared to $62.7 million as of March 31, 2025, and $80.7 million as of June 30, 2024. Notes receivable balance represents bank notes with maturity within six months. And as of June 30, 2025, the balance of fixed-term deposits within one year was $960.7 million compared to $1.12 billion as of March 31, 2025, and $1.17 billion as of June 30, 2024. Now on the company's cash flows.\n\nFor the six months ended June 30, 2025, net cash used in operating activities was $105.4 million compared to $278.6 million in the same period of 2024. And for the six months ended June 30, 2025, net cash used in investing activities was $342.7 million compared to $1.7 billion in the same period of 2024. The net cash used in investing activities in 2025 includes $87.8 million in the purchase of GP&E and $255 million related to the purchase of short-term investments and fixed-term deposits. And for the six months ended June 30, 2025, net cash used in financing activities was $32,000 compared to $43 million in the same period of 2024. And that concludes our prepared remarks.\n\nWe will now open the call to Q&A from the audience. Operator, please begin.\n\nOperator: Thank you. We will now begin the question and answer session. Our first question today will come from Alan Hon of JPMorgan. Please go ahead.\n\nAlan Hon: Thank you for letting me ask questions, management. I have two questions. The first one is on the policy development. Can you share some color on the latest development on the discussions on the consolidation fund or other policy development right now? And number two is on product prices. I understand like due to the pricing law, I mean the product prices increased towards the 45 to 50% level. But at the same time, I mean the sequential demand supply and channel inventory is also increasing. So how should we think about like the product price in the next three months? Thank you.\n\nAnita Xu: So regarding the latest development in the industry, on August 19, the MIT, also the NDRC, along with the Ministry of Social Affairs and State Administration for Market Regulation and National Energy Administration, jointly held a symposium on the solar PV industry. During that meeting, a number of government officials together with a number of solar PV manufacturers and lower power companies as well as the CPRA and relevant local industrial and information technologies departments attended the meeting. Basically, during the meeting, they reinforced that we have to curb the irrational competition of selling below cost.\n\nFirst, we have to strengthen the industry regulation through strengthening the management of investment in the PV projects and promote the gradual phasing out of outdated production capacity through market-oriented and law-based approaches. Second, they aim to curb low prices in the quarterly competition through improving the price monitoring and also the product pricing mechanism to track down irregular practices such as selling below cost. Lastly, to standardize the product quality, combat processes such as reducing the quality control or things like infringing IP rights. During the meeting, the essence is to support the industry self-regulation and to gradually work towards forming this buyout SPV for acquiring outdated capacity in the industry.\n\nRegarding prices, it will really depend on how this buyout SPV will roll out because we're still in the process of working out the details of such SPV. So it's hard for us right now to say exactly how prices will develop in the coming months. But as we can see recently, prices have increased, especially in the futures market and the expectation of rising prices. Also, if we look at the latest solar projects, that could work as a sign of the industry development. The China Huadian Corporation had a 20 gigawatt project, and from that, the module price was around RMB71 per watt to RMB75 per watt.\n\nSo it has really increased, and it's way above the floor prices for modules right now. We believe that has passed through to the upstream poly sector. So I hope that answers your question.\n\nOperator: Our next question today will come from Philip Shen of ROTH Capital Partners. Please go ahead.\n\nMatt Ingraham: Hi, this is Matt Ingraham on for Phil. Thank you for taking our questions. Kind of following up on the past question is, how sustainable do you think that higher pricing can be with the anti-involution initiatives? And secondly, what's your outlook for industry production volumes? And when would you expect to see the inventory levels be healthy again?\n\nMing Yang: Give us a minute. We're going to translate for Mr. Xu.\n\nAnita Xu: Okay. So first of all, I think one thing that's clear is that there has been consensus that selling below cash cost is unsustainable and very detrimental to the overall industry development. In our view, that's disruptive to the healthy development of the industry and hence, poses legal risks. We will be enforcing the regulations and the laws, and we think that all the industry players are on the same page regarding that. In terms of production volume, I think going forward in the next couple of months, it will be around 100,000 metric tons to around 110,000 metric tons, relatively balanced with demand per month.\n\nMatt Ingraham: Okay. And then you kind of talked about potentially in the past, like acquiring surplus production capacity. Is there an update on that strategy? And do you think we could see anything in the near term?\n\nAnita Xu: Yes. I think we're still in progress for the SPV. The whole picture will become more clear in the coming weeks or the coming months. But all the energy players as well as the power companies and the relevant regulators are all working hard toward coming to a consensus because that would be very remarkable for the industry and could set the tone for similar industries in China, such as EV and also lithium batteries. I think they're starting with solar PV, which is why they are mentioned about solar PV in the news article by People's Daily on June 30. So we are all working very hard towards coming to a result.\n\nWe are quite optimistic about that because that's what the industry should be, and that's good for the overall development of the industry because right now, selling lower cash cost, first of all, none of the companies is making a profit. Secondly, internationally, they have been viewing China or accusing China of antidumping, and that's not something that we want to see as a whole.\n\nOperator: Our next question today will come from Alan Yong of Jefferies. Please go ahead.\n\nAlan Yong: Thanks a lot for taking my question. My question is about the buyback the company just announced. So I saw that the company has approved $100 million of share repurchase program. Wonder what's the thinking behind that? And also, what's the timeline in the buyback?\n\nAnita Xu: Yes. Thank you, Alan. So we actually just authorized this new share repurchase program today in the amount of $100 million until the end of next year. The logic behind this is that we are optimistic about the future of the industry, and we believe we could see a turning point soon. I believe previously, our valuable shareholders have been wondering when we will want to start the share repurchase. The reason why we were hesitant about it is because we believe that relying on the market to rebalance supply and demand will take a relatively long time of approximately two to three years given how strong and all the companies who have expanded their capacity this round are.\n\nHowever, we believe that because we are on the same page towards promoting the healthy development of the industry, we are more optimistic about the future or the outlook of the entire industry. We believe that we want to strengthen the confidence of our shareholders as well, and that's aligned with our overall strategy. In terms of the overall pace of the share repurchase program, I think that would also be contingent upon the market development, but that's definitely the first move we're working towards, strengthening the confidence in the market.\n\nAlan Yong: Given that the stock price of Asia is actually up off IPO price already. So will share price or shareholding reduction on the Asia to fund further buyback in USD back on the table again?\n\nAnita Xu: Yes. I think that's definitely a consideration given that we have been trading above the IPO issue price, right now, it should be around €30. Yes, that's definitely on the table, and we'll consider that. But I think how we want to start this program versus remaining cash on our books right now because previously, we still have a meaningful amount on the list goes. So we will start with that allocation first. But selling on Asia to repurchase on the U.S. is definitely back on the table.\n\nAlan Yong: That's very clear. And following the question from Alan and also Philip on the consolidation initiative. So how do you see yourself in terms of the end game like the amount of volume you will be able to produce? For example, now your guidance is around 110,000 to 130,000 metric tons for the production volume of this year. If the consolidation effort is successful, what do you think will be your production volume going forward?\n\nAnita Xu: I think that depends on a couple of things. If we calculate the amount of overall capacity that's built or in the process of being built, that will be around 3,500,000 metric tons at least. The production volume of how much we have produced per year will really depend on how much capacity is still remaining in the market and the overall demand per year, right? Because I think the fundamentals behind this action are that the supply would meet the demand per year from now on. So I believe that going forward, all the companies will reduce their utilization rates or operate at a utilization rate that would match the demand.\n\nSo it won't be 100%, at least in the coming years.\n\nMing Yang: Great. Thanks, Alan.\n\nOperator: Our next question today will come from Mengwen Wang of Goldman Sachs. Please go ahead.\n\nMengwen Wang: Hi. Thank you, management, for taking my question. I have two questions mainly related to the Polyprice outlook. So first, do we have any color on the benchmark production costs to derive the policy regulated pricing? Because I know there's a lot of news coming in to talk about selling price should not be under the production cost, but do we have any more colors on the definition of the production cost? Secondly, as we mentioned, we have been doing well in terms of sustaining the poly price hike. As a result, our shipment volume declined a bit. So going forward, how do we see how do we balance the price and inventory dynamic? Yes, that's my question. Thanks.\n\nMing Yang: Okay. Thanks, Mengwen, for your question. Our view is that the industry will need to sell at a price above the industry production costs. Our understanding is the industry overall, I would say the average production cost is probably in the mid-forty-ish range. Our view is that because of the Chinese law and the government policy, that will be the minimum poly pricing that industry players will be required to sell to its customers. If you look at the most recent, both transactional pricing as well as futures pricing, in the high kind of the high-40s to the low-50s, that is reflective of this new government policy that requires the industry players to sell above production costs.\n\nSo that is our poly price outlook going forward.\n\nMengwen Wang: Yes. To follow-up the question, if the poly price stays at around RMB50 per kilo and if we don't our product doesn't sell, like we keep piling up our inventory. So how do we see how to like what's our strategy in terms of this kind of situations?\n\nMing Yang: I think there will be industry policies and perhaps government policies supported by the government, and that will require industry supply to balance with industry demand, right? Let's say, just making assumptions, if industry demand is 1,200,000 tons per year in 100,000 tons per month, then the industry sales and the annual production will be consistent with that demand levels. So it will be adjusted so that poly pricing can be maintained at the production costs or above level.\n\nAnita Xu: And to follow-up on your question on inventory, I think for the big picture is people want to manage their inventory. I think the direction is to manage the utilization rates of the company so that we'll not be over demand going forward. For us, we will really have to wait to see how the regulation unfolds in the next coming weeks or the next coming months before we can decide what our strategy will be. Also, to add on, I know there are companies who are participating in the futures market. We've also participated a meaningful amount in the futures market just to hedge against risk and to arbitrage as a strategy.\n\nMengwen Wang: Yes. Thanks, Ming, and thanks, Anita. That's really clear. So to sum up, we are expecting some kind of policy to help the industry cut production into September. We have actively engaged in the polysilicon future market in order to mitigate the volatility of the polysilicon price, right?\n\nAnita Xu: We were registered as the first batch of the companies who are allowed to sell in the futures market. But strategy-wise, it will really depend on the regulations that will come out and yes, and how the spot prices will move.\n\nMengwen Wang: Yes. Sure. How about the policy timeline? Should we expect any meaningful policy kicking into September?\n\nAnita Xu: We are working towards or all of the related parties, including the CPRA, the manufacturers, and the related regulators are working very diligently toward a result coming out from the continuous meetings. However, we cannot guarantee, but we believe that because everyone is on the same page, we are working towards a result or a proposal coming out.\n\nOperator: The next question today will come from Shiwa Xu of CICC. Please go ahead with your question.\n\nShiwa Xu: Thanks, management. This is Shiwa Xu from CICC. My first question is, I thought you lowered the sales volume for the second quarter. So how's the plan on it? What's the plan for utilization rate in the future? My second question is, I saw you keep reducing the production cost. Besides the reduced cash cost, what other ways are there to reduce the cost? Thank you.\n\nAnita Xu: Thank you, Shiwa. So I think for the first question, the reason why the sales volume is meaningfully below the production volume is because prices are really trading at a very low level and below cash cost level. As we are working towards or working out a proposal since the first meeting that was hosted by MIT and NDRC happened in the second quarter, we were waiting to see how the policies will shift or how much capacity will phase out in the future so that we can adjust our sales strategy accordingly. We believe that once the regulations come out, if any, then we will try to maintain our inventory at a healthy level.\n\nMing Yang: Look, I'll follow-up. Regarding utilization rates, I think we're maintaining this 30% to 35% utilization rate. It will be subject to, for example, demand environment and pricing as well as the industry consensus or industry self-discipline in terms of supply and production. It will be a balance of those decisions. But I think currently we're maintaining the 30% to 35% utilization rate for now in the monitoring industry status and progress. In terms of production costs, I think for Q2, it is slightly lower than Q1. It's helped by both improvements in manufacturing efficiency and, for example, lower energy usage, lower metal costs. Currently, we're expecting the cost trend to continue to improve for Q3 as well.\n\nFor example, our current cash cost is approximately, say, $5 per kilogram right now, I think, on the current supplemental cost, which is already lower than our Q2 2025 cost. So that's the current cost status for the company.\n\nShiwa Xu: Thank you.\n\nMing Yang: Okay. Thank you. Goodbye.\n\nOperator: Our next question will come from Gordon Johnson of GLJ Research. Please go ahead.\n\nGordon Johnson: Hey, guys. Thanks for taking the questions. So I guess my first question is, it seems like you guys explicitly said you intentionally held back polysilicon sales in the second quarter. Can we conclude from that you'll sell more in the third quarter, if you can provide some color there? From my calculations, it seems like you're guiding production to increase from 26,000 metric tons at the midpoint in Q2 to 28,500 in Q3 and then 40,700 in Q4. Should we take from that you intend to sell significantly more polysilicon in Q4? And then I have a follow-up. Okay.\n\nAnita Xu: Thank you, Gordon. First of all, I think the reason why we held back or sold relatively a lot lower than our actual production volume was because it was trading at below cash cost. As we don't want to disrupt the overall industry dynamics or I should say, as the industry has guided out, we should not be selling below the production cost. We have adjusted our sales strategy accordingly. Going forward, in the third quarter, you might have seen recently that prices have ticked up. We believe if it's not cutting below our cost, then it makes sense for us to start selling.\n\nLike I said before, I think it will really depend on when and how the regulations will come out, then we would adjust our sales strategies accordingly in the remaining days in the third quarter as well as going forward into the fourth quarter.\n\nGordon Johnson: Okay, that's helpful. Then if I think about you guys said that transactions and the futures market is around the high 40s, low 50s. Based on my calculation, that would suggest the price of around $7.7 for polysilicon USD. Yet your ASP in Q2 was $4.19. So I understand you don't have great visibility, it seems like on what you're going to sell in Q3 until policy is decided. But are you transacting at that price that you highlighted the high 40s, low 50s levels right now? Thank you for the questions.\n\nMing Yang: Gordon, so I think that there's two specific goals that the company is trying to achieve, right? One is based on the government policies and the new law. So I think we will sell at above our production cost for sure. I think the levels indicated are representative of the market current transactional cost. Also, another of our company's sales operations goal is to significantly reduce our inventory at hand as well given the current market dynamic environment where there's opportunity to do that. So we will try our best to do that. I guess one clarification regarding pricing is RMB price that we call actually includes a 13% VAT, okay?\n\nSo I think you have to divide by 1.13 to get to the actual selling price ex VAT. So that's roughly maybe 5.8 range something like that.\n\nGordon Johnson: Right. So I mean does that mean you guys will be gross margin positive in Q3? Thank you.\n\nMing Yang: Let just conclude that we expect to be generating cash from our sales. Because there's a lot of, I guess, noncash depreciation costs related to our idle facility because we're only running at one-third utilization. But I think if you remove the noncash depreciation, I think we're going to generate positive cash margin from sales.\n\nGordon Johnson: Very helpful. Thank you. Thank you.\n\nMing Yang: Okay. Good. Thanks, Gordon. Thank you.\n\nOperator: This will conclude our question and answer session. At this time, I'd like to turn the conference back over to Jessie Zhao for any closing remarks.\n\nJessie Zhao: Thank you, everyone, again for participating in today's conference call. Should you have any further questions, please don't hesitate to contact us. Thank you, and have an awesome day. Goodbye.\n\nOperator: The conference has now concluded. Thank you for attending today's presentation, and you may now disconnect your lines.\n\nDon’t miss this second chance at a potentially lucrative opportunity\n\nEver feel like you missed the boat in buying the most successful stocks? Then you’ll want to hear this.\n\nOn rare occasions, our expert team of analysts issues a “Double Down” stock recommendation for companies that they think are about to pop. If you’re worried you’ve already missed your chance to invest, now is the best time to buy before it’s too late. And the numbers speak for themselves:\n\nNvidia:if you invested $1,000 when we doubled down in 2009,you’d have $466,325!* Apple: if you invested $1,000 when we doubled down in 2008, you’d have $43,173!* Netflix: if you invested $1,000 when we doubled down in 2004, you’d have $656,895!*\n\nRight now, we’re issuing “Double Down” alerts for three incredible companies, available when you joinStock Advisor, and there may not be another chance like this anytime soon.\n\nSee the 3 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nThis article is a transcript of this conference call produced for The Motley Fool. While we strive for our Foolish Best, there may be errors, omissions, or inaccuracies in this transcript. As with all our articles, The Motley Fool does not assume any responsibility for your use of this content, and we strongly encourage you to do your own research, including listening to the call yourself and reading the company's SEC filings. Please see our Terms and Conditions for additional details, including our Obligatory Capitalized Disclaimers of Liability.\n\nThe Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.\n\nDaqo New Energy (DQ) Q2 2025 Earnings Transcript was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T13:17:55+00:00",
+            "title": "Earnings call transcript: Daqo New Energy Q2 2025 reports revenue miss",
+            "content": "Daqo New Energy Corp ADR reported its Q2 2025 earnings, revealing a significant revenue shortfall. The company posted a revenue of $75.2 million, missing the forecasted $130.49 million by 42.38%. Despite the earnings per share (EPS) being better than expected, with an actual EPS of -$0.86 compared to the forecasted -$1, the company’s stock saw a 4.55% increase in premarket trading. According to InvestingPro data, the stock appears undervalued based on its Fair Value analysis, which may explain the market’s positive reaction despite disappointing results. InvestingPro also highlights that the company maintains more cash than debt on its balance sheet, providing financial flexibility during this challenging period.\n\nKey Takeaways\n\nRevenue fell short of expectations by 42.38%.EPS was better than forecasted, at -$0.86 versus -$1.Stock price rose by 4.55% in premarket trading.The company anticipates industry consolidation and regulatory changes.A $100 million share repurchase program has been authorized.\n\nCompany Performance\n\nDaqo New Energy faced a challenging second quarter in 2025, with revenues declining to $75.2 million from $123.9 million in Q1 2025. This drop reflects broader industry pressures, as the solar PV sector experiences a cyclical downturn. Despite the revenue miss, Daqo’s stock price increased, indicating that investors may be focusing on the company’s strategic initiatives and cost management efforts.\n\nFinancial Highlights\n\nRevenue: $75.2 million, down from $123.9 million in Q1 2025.EPS: -$0.86, better than the forecasted -$1.Gross Loss: $81.4 million, with a negative gross margin of 108%.Net Loss: $76.5 million.Cash Balance: $599 million as of June 30, 2025.\n\nEarnings vs. Forecast\n\nDaqo’s revenue of $75.2 million fell significantly short of the $130.49 million forecast, marking a 42.38% miss. However, the EPS came in at -$0.86, slightly better than the expected -$1, providing a modest positive surprise. This mixed performance highlights the challenges in the solar PV market and the company’s efforts to manage costs effectively.\n\nMarket Reaction\n\nDespite the revenue miss, Daqo’s stock rose by 4.55% in premarket trading, reaching $24.51. This increase suggests that investors may be optimistic about the company’s future prospects, possibly influenced by its cost-cutting measures and strategic initiatives such as the authorized share repurchase program. The stock remains within its 52-week range, with a high of $30.85 and a low of $12.41.\n\nOutlook & Guidance\n\nDaqo New Energy is preparing for potential industry consolidation and regulatory changes, which it anticipates will stabilize the market. The company expects polysilicon prices to recover and is maintaining a production volume guidance of 110,000 to 130,000 metric tons for 2025. Additionally, the company has authorized a $100 million share repurchase program, signaling confidence in its long-term value.\n\nExecutive Commentary\n\nAnita Xu, Deputy CEO, emphasized the company’s resilience, stating, \"As one of the world’s lowest-cost producers... we’re confident in our ability to weather the current market downturn.\" She also highlighted the unsustainable nature of selling below cash cost, which is detrimental to the industry’s development.\n\nRisks and Challenges\n\nContinued market downturn in the solar PV industry.Fluctuating polysilicon prices impacting profitability.Potential regulatory changes affecting market dynamics.Reduced sales volumes due to strategic inventory management.High idle facility costs adding to operational expenses.\n\nQ&A\n\nDuring the earnings call, analysts inquired about the company’s strategies for managing inventory and participating in the futures market to mitigate price volatility. The management confirmed efforts to maintain healthy inventory levels and highlighted government initiatives aimed at regulating solar PV pricing.\n\nFull transcript - Daqo New Energy Corp ADR (DQ) Q2 2025:\n\nConference Operator:  Good day and welcome to the DAACO New Energy Second Quarter twenty twenty five Earnings Conference Call. All participants will be in a listen only mode. After today’s presentation, there will be an opportunity to ask questions. Please note this event is being recorded. I would now like to turn the conference over to Jessie Zhao, Director of Investor Relations.\n\nPlease go ahead.\n\nJessie Zhao, Director of Investor Relations, Zako New Energy:  Hello, everyone. I’m Jessie Zhao, the Investor Relations Director of Zako New Energy. Thank you for joining our conference call today. Zako New Energy just issued its financial results for the 2025, which can be found on our website at www.dqsolar.com. Today, attending the conference call, we have our Chairman and CEO, Mr.\n\nJiang Xu our Deputy CEO, Ms. Anita Xu our CFO, Mr. Min Yang and myself. Today’s call will begin with an update from Mr. Xu on market conditions and company operations, followed by a translation from Mr.\n\nXu for Mr.\n\nAnita Xu, Deputy CEO, Zako New Energy:  Xu. And\n\nJessie Zhao, Director of Investor Relations, Zako New Energy:  then Mr. Yang will discuss the company’s financial performance for the quarter. After that, we will open the floor to Q and A from the audience. Before we begin the formal remarks, I want to remind you that certain statements on today’s call, including expected future operational and financial performance and industry growth are forward looking statements that are made under the Safe Harbor provisions of The U. S.\n\nPrivate Securities Litigation Reform Act of 1995. These statements involve inherent risks and uncertainties. A number of factors could cause actual results to differ materially from those contained in any forward looking statement. Further information regarding these and other risks is included in the reports or documents we have filed with or furnished to the Securities and Exchange Commission. These statements only reflect our current and preliminary view as of today and may be subject to change.\n\nOur ability to achieve these projections is subject to risks and uncertainties. All information provided in today’s call is as of today, and we undertake no duty to update such information except as required under applicable law. Also during the call, we also occasion we will occasionally reference monetary amounts in U. S. Dollar terms.\n\nPlease keep in mind that our functional currency is the Chinese RMB. We offer these translations into U. S. Dollars solely for the convenience of the audience. Now I will turn the call to our Chairman and CEO, Mr.\n\nXiang Xu. Mr. Xu, please go ahead.\n\nAnita Xu, Deputy CEO, Zako New Energy:  Thank you, Mr. So hello, everyone. This is Anita, and I’ll now deliver our CEO, Mr. Zhu’s remarks. So the solar PV industry faced continuous challenges in the 2025 with market prices across the solar value chain declining due to industry overcapacity and high inventory levels, remaining below cash cost levels.\n\nAs a result, Zafo New Energy recorded quarterly operating and net losses. Nevertheless, we maintained a strong and healthy balance sheet with no financial debt. As of 06/30/2025, the company had a cash balance of CNY599 million, short term investments of CNY490 million, bank notes receivable of $49,000,000 and total fixed term bank deposit balance of $994,000,000 In total, our financial bank deposits and investment assets readily convertible into cash as needed stood at US2.06 billion dollars providing us with ample financial liquidity. With no financial debt, our solid financial position brings us confidence and strategic resilience to navigate conditions and weak selling prices. Total production volume at our two hot water facility for the quarter was 29,012 metric tons, within our guidance range of 25,000 metric tons to 28,000 metric tons.\n\nTowards the end of the quarter, our Chinese authorities intensified efforts to curb this orderly competition. We proactively scaled back new sales orders in anticipation of future price recovery. Accordingly, our sales volume for the quarter decreased to 18,126 metric tons from 28,008 metric tons in the first quarter. Due to lower utilization across our factories, idle facility related costs for the quarter was approximately US1.3 dollars per kilogram, primarily reflecting noncash depreciation expenses. On a positive note, decline in the cost of silicon metal and and reduced energy consumption drove our cash cost lower by 4% to USD 5.12 per kilogram sequentially, including approximately $0.18 per kilogram related to idle facility maintenance.\n\nOverall, polysilicon unit production cost decreased by 4% sequentially to an average of US7.26 dollars per kilogram, with lower unit depreciation costs resulting from higher production. In light of the current market conditions, we expect our total polysilicon production volume in the 2025 to be approximately 27,000 to 30,000 metric tons. As a result, we anticipate our full year 2025 production volume to be in a range of 110,000 metric tons to 130,000 metric tons. During the second quarter, the solar PV industry remained in a cyclical trough, although proactive initiatives start to emerge towards the end of the quarter. On the demand side, China experienced a surge in installations under market based reform policies and set a new global record with a staggering 93 gigawatts of new solar power capacity added in May.\n\nHowever, installations plummeted to 14 gigawatts in June, falling front loading earlier this month, ahead of the 05/31/2025 cutoff date for new projects. Poly market prices trended downward during the quarter, falling from RMB39 to 45 per kilogram in April to RMB32 to RMB35 per kilogram by the June. According to industry statistics, overall industry poly production for twenty twenty five year to date has been running below overall demand and consumption with monthly supply of approximately 100,000 to 110,000 metric tons. As a result, energy inventory decreased by approximately 30,000 to 40,000 tons between January and July, leaving overall industry polysilicon inventory lower than at the beginning of the year. Heading into the third quarter, Chinese authorities have demonstrated increased determination to address irrational competition and energy overcapacity with the anti evolution initiative taking a lead role in sectors such as solar PV.\n\nOn June 29, an article from China’s official newspaper People’s Daily highlighted the issue of oversupply and disruptive competition in the solar PV industry, calling for measures to curb business competition and promote high quality development. On June 1, President Xi emphasized the need to regulate disorderly low price competition and phased out outdated capacity at the Central Financial and Economic Affairs Commission meeting. The following day, the Ministry of Industry and Information Technology convened a symposium with four key solar PV companies to accelerate the industry’s transition toward high quality growth. Most recently, on July 24, government authorities released a draft amendment to the price law, representing a significant step towards strengthening market supervision and deterring unfair pricing practices. The draft clarifies criteria for identifying unfair pricing behavior, such as low price bumpings and strengthened legal accountability for price related violations.\n\nAs a result, Poly’s pulp sales prices have rebounded in July and Poly’s future prices surged significantly, supported by favorable factors such as expected higher spot pool and simultaneous increases in downstream product prices. For reference, the 2,500 six-nine contract rose sharply from a low of RMB30 per kilogram in June 2025 to a record high of RMB55 per kilogram in July 2025, the strongest level since 2020. The solar PV industry continues to shift strong long term prospects. In the medium term, we believe that the combined effect industry self disappointment, government anti evolution regulations will foster healthier and more sustainable industry. In the long run, as one of the most effective and sustainable energy sources globally, solar power is expected to remain a key driver of the global energy transition and sustainable development.\n\nLooking ahead, DAACO New Energy is well positioned to capitalize on the long term growth in the global solar PV industry and strengthen its competitive edge by enhancing its higher efficiency in touch technology and optimizing its cost structure through digital transformation and AI adoption. As one of the world’s lowest cost producers with the highest cost, highest quality end touch products, a strong balance sheet with no financial debt, We’re confident in our ability to weather the current market downturn, capitalize on market recovery and emerge as a leader in the industry positioned to capture further growth. So now I’ll turn the call to our CFO, Mr. Ming Yang, who will discuss the company’s financial performance for the quarter. Ming, please go ahead.\n\nMin Yang, CFO, Zako New Energy:  Thank you, Anita, and hello, everyone. This is Ming Yang, CFO of Dacunyu Energy. We appreciate you joining our earnings conference call today. I will now go over the company’s second quarter twenty twenty five financial performance. Revenues were $75,200,000 compared to $123,900,000 in the 2025 and $219,900,000 in the same 2020.\n\nThe decrease in revenue compared to the 2025 was primarily due to a decrease in sales volume. Gross loss was $81,400,000 compared to $81,500,000 in the 2025 and $159,000,000 in the 2024. Gross margin was negative 108% compared to negative 65.8% in the 2025 and negative 72 in the same quarter of twenty twenty four. The decrease in gross margin compared to the 2025 was primarily because sales volume decreased while idle facility costs remained relatively fixed. SG and A expenses were $32,100,000 compared to $35,100,000 in the 2025 and $37,500,000 in the 2024.\n\nSG and A expenses during the second quarter included $18,600,000 in non cash share based compensation costs related to the company’s share incentive plan compared to $18,600,000 in the 2025. The decline in SG and A expenses in the second quarter compared to the first quarter is a result of lower staffing costs as well as lower sales expenses. R and D expenses were $800,000 compared to $500,000 in the 2025 and $1,800,000 in the same quarter of twenty twenty four. R and D expenses can vary from period to period and reflect R and D activities that take place during the quarter. As a result, the foregoing loss from operations was $115,000,000 compared to $114,000,000 in the 2025 and $195,600,000 in the same quarter of 2024.\n\nOperating margin was negative 153% compared to negative 92% in the 2025 and negative 89% in the same quarter of 2024. Net loss attributable to Acornu LNG Corp. Shareholders was $76,500,000 compared to $71,800,000 in the 2025 and $119,800,000 in the 2024. Loss per basic ADS was $1.14 compared to $1.07 in the 2025 and $1.81 in the 2024. Adjusted net loss attributable to Daco New Energy Corp.\n\nShareholders excluding non cash share based compensation costs was $57,900,000 compared to $53,200,000 in the 2025 and $98,800,000 in the same 2024. Adjusted loss per basic ADS was $0.86 compared to $0.80 in the 2025 or $0.50 in the same quarter of 2024. EBITDA was negative $48,000,000 compared to negative $48,400,000 in the 2025 and negative $145,000,000 in the 2024. EBITDA margin was negative 64% compared to negative 39% in the 2025 and negative 66% in the 2024. Now on the company’s financial condition.\n\nAs of 06/30/2025, the company had $599,000,000 in cash, cash equivalents and restricted cash compared to $792,000,000 as of 03/31/2025 and $998,000,000 as of 06/30/2024. As of 06/30/2025, short term investments was $418,800,000 compared to $168,000,000 as of 03/31/2025 and $219,500,000 as of 06/30/2024. And as of 06/30/2025, notes receivable balance was $49,000,000 compared to $62,700,000 as of 03/31/2025 and $80,700,000 as of 06/30/2024. Notes receivable balance represent bank notes with maturity within six months. And as of 06/30/2025, the balance of fixed term deposits within one year was $960,700,000 compared to $1,120,000,000 as of 03/31/2025 and $1,170,000,000 as of 06/30/2024.\n\nNow on the company’s cash flows. For the six months ended 06/30/2025, net cash used in operating activities was $105,400,000 compared to $278,600,000 in the same period of 2024. And for the six months ended 06/30/2025, net cash used in investing activities was $342,700,000 compared to $1,700,000,000 in the same period of 2024. The net cash used in investing activities in the 2025 includes $87,800,000 in the purchase of GP and E and $255,000,000 related to purchase of short term investments and fixed term deposits. And for the six months ended 06/30/2025, net cash used in financing activities was $32,000 compared to $43,000,000 in the same period of 2024.\n\nAnd that concludes our prepared remarks. We will now open the call to Q and A from the audience. Operator, please begin.\n\nConference Operator:  Thank you. We will now begin the question and answer session. Our first question today will come from Allen Han of JPMorgan. Please go ahead.\n\nAllen Han, Analyst, JPMorgan:  You for letting me ask questions, management. I have two questions. The first one is on the policy development. Can you share some color on the latest development on the discussions on the consolidation fund or other policy development right now? And number two is on product prices.\n\nI understand like due to the pricing law, I mean the product prices increased towards the 45 to 50% level. But at the same time, I mean the sequential demand supply and channel inventory is also increasing. So how should we think about like the product price in the next three months? Thank you.\n\nAnita Xu, Deputy CEO, Zako New Energy:  So regarding the latest development in industry, August 19, the MIT also the NDRC along with the Ministry of Social Affairs and State Administration for Market Regulation and National Energy Administration, We have jointly held a symposium on the solar PV industry. So during that meeting, a number of government officials together with a number of solar PV manufacturers and lower power companies as well as the CPRA and relevant local industrial and information technologies department, they all attended the meeting. And basically, during the meeting, they have again reinforced that we have to curb the irrational composition of selling below cost. So first, we have to strengthen the industry regulation through strengthening the management of investment in the PV projects and promote the gradual phasing out of outdated production capacity through market oriented and law based approaches. And second of all, they aim to curb low prices in the quarterly competition, so through improving the price monitoring and also the product pricing mechanism to track down irregular practices such as selling the low cost.\n\nAnd lastly, to standardize the product quality, so combat processes such as reducing the quality control or things like imprinting IP rights. And I think during the meeting, the essence is to support the industry industry self regulation and to gradually work towards forming this buyout SPV for acquiring outdated capacity in the industry. And regarding prices, it will really depend on how this buyout of TV will roll out because we’re still under the progress of working out the details of such TV. So it’s hard for us right now to say exactly how prices will develop in the coming months. But I think as we can see recently, prices have increased, especially in the futures market and the expectation of rising prices.\n\nAlso, if we look at the latest solar projects that could work as a sign of the industry development. The China Huadian Corporation, they had a 20 gigawatt project. And from that, the module like this was around RMB71 per watt to RMB75 per watt. So it has really increased, and it’s way above the floor prices for modules right now. And we believe that has passed through to the upstream poly sector.\n\nSo I hope that answers your question.\n\nAllen Han, Analyst, JPMorgan:  Our\n\nConference Operator:  next question today will come from Philip Shen of ROTH Capital Partners. Please go ahead.\n\nMatt Ingram, Analyst, ROTH Capital Partners:  Hi, this is Matt Ingram on for Phil. Thank you for taking our questions. Kind of following up on the past question is, how sustainable do you think that higher pricing can be when with the anti involution initiatives? And secondly, what’s your outlook for industry production volumes? And when would you expect to see the inventory levels be healthy again?\n\nMin Yang, CFO, Zako New Energy:  Give us a minute. We’re going to translate for Mr. Shiba.\n\nAnita Xu, Deputy CEO, Zako New Energy:  Okay. So first of all, I think one thing that’s clear is that there has been consensus that selling below cash cost is unsustainable and very detrimental to the overall industry development. And in our view, that’s disruptive to the healthy development of the industry and hence, pose illegal risks. And hence, we won’t be we would be enforcing the regulations and the laws, and we think that all the industries all the industry players are on the same page regarding that. And in terms of production volume, I think going forward in the next couple of months, it will be around 100,000 metric tons to around 110,000 metric tons, relatively balanced with demand.\n\nMin Yang, CFO, Zako New Energy:  Per month?\n\nAnita Xu, Deputy CEO, Zako New Energy:  Per month.\n\nMatt Ingram, Analyst, ROTH Capital Partners:  Okay. And then you kind of talked about potentially in the past, like acquiring surplus production capacity. Is there an update on that strategy? And do you think we could see anything in the near term?\n\nAnita Xu, Deputy CEO, Zako New Energy:  Yes. I think we’re still under first of we’re still in progress for the NPV. And I think the whole picture will become more clear in the coming weeks or the coming months. But all the energy players as well as the power companies and the relevant regulators are all working hard toward coming to a consensus because that would be very remarkable for the industry and could set the tone for similar industries in China, such as EV and also lithium batteries. I think they’re starting with solar PV, which is why they are mentioned about solar PV in the news article by People’s Daily on June 30.\n\nSo we are all working very hard towards coming to a result. And we are quite optimistic about that because that’s what the industry should be, and that’s good for the overall development of the industry because right now, selling lower cash cost, first of all, none of the company is making a profit. And second of all, internationally, they have been viewing China or accusing China of antidumping, and that’s not something that we want to see as a whole.\n\nMatt Ingram, Analyst, ROTH Capital Partners:  Our\n\nConference Operator:  next question today will come from Allen Yong of Jefferies. Please go ahead.\n\nAllen Yong, Analyst, Jefferies:  Thanks a lot for taking my question. My question is about the buyback the company just announced. So I saw that the company has approved $100,000,000 of share repurchase program. Wonder if what’s the thinking behind that? And also, what’s the time line in the buyback?\n\nAnita Xu, Deputy CEO, Zako New Energy:  Yes. Thank you, Alan. So we actually just authorized this new share repurchase program today of in the amount of $100,000,000 until the end of next year. And the logic behind this is that we are optimistic about the future of the industry, and we believe we could see a turning point soon. I believe previously, our valuable shareholders have been wondering when will we want to start the share repurchase.\n\nAnd the reason why we were hesitant about it is because we believe that we just rely on the market to rebalance supply and demand. Will take a relatively long time of approximately two to three years given how strong and all the companies who have expanded their capacity this round are. However, we believe that because we are on the same page towards promoting the healthy development of the industry, and hence, we are more optimistic about the future or the outlook of the entire industry. And we believe that we want to strengthen the confidence of our shareholders as well, and that’s aligned with our overall strategy. And in terms of the overall pace of the share repurchase program, I think that would also be contingent upon the market development, but that’s definitely the first move we’re working towards, strengthening the confidence in the market.\n\nAllen Yong, Analyst, Jefferies:  Given that the stock price of Asia is actually up off IPO price already. So will share price or shareholding reduction on the Asia to fund further buyback in USD back on the table again? Yes.\n\nAnita Xu, Deputy CEO, Zako New Energy:  I think that’s definitely a consideration given that we have been trading above the IPO issue price, right now, it should be around €30 And yes, that’s definitely on the table, and we’ll consider that. But I think how we want to start this program versus remaining cash on our goes right now because previously, we still have a meaningful amount on the list goes. So we will start with that allocation first. But selling on Asia to repurchase on The U. S.\n\nIs definitely back on the table.\n\nAllen Yong, Analyst, Jefferies:  That’s very clear. And following the question from Alan and also Philip on the consolidation initiative. So how do you see yourself in terms of the end game like amount of volume you will be able to produce? For example, now your guidance is around eleven thousand one hundred and ten and one hundred and thirty thousand of hydro plants for the production volume of this year. If the consolidation export is successful, what do you think will be your production volume going forward?\n\nAnita Xu, Deputy CEO, Zako New Energy:  I think that depends on a couple of things. So if we calculate the amount of overall capacity that’s built or in the process of being built, that will be around 3,500,000 metric tons at least. And the production volume of how much we have produced per year will really depend on how much capacity are still remaining in the market and the overall demand per year, right? Because I think the fundamentals behind this action is that the supply would meet the demand per year from now on. So I believe that going forward, all the companies will reduce their utilization rates or operate at a utilization rate that would match the demand.\n\nSo it won’t be 100%, at least in the coming years.\n\nMin Yang, CFO, Zako New Energy:  Great. Thanks, Alan.\n\nConference Operator:  Our next question today will come from Mengwen Wang of Goldman Sachs. Please go ahead.\n\nMengwen Wang, Analyst, Goldman Sachs:  Hi. Thank you, management for taking my question. I have two questions mainly related to the Polyprice outlook. So first, like do we have any color on the benchmark production costs to derive the policy regulated pricing? Because I know there’s a lot of news coming in to talk about selling price should not be under the production cost, but do we have any more colors on the definition of the production cost?\n\nAnd secondly, as we mentioned, like the we have been doing well in terms of to sustain the poly price hike. And as a result, our shipment volume declined a bit. So going forward, how do we see how do we balance the price and inventory, the dynamic? Yes, that’s my question. Thanks.\n\nMin Yang, CFO, Zako New Energy:  Okay. Thanks, Mohan, for your question. So our view is that the industry will need to sell at a price above the industry production costs. And our understanding is the industry overall, I would say the average production cost probably in the mid-forty ish range. So our view is that because of the Chinese law and the government policy is that that’s kind of that will be the minimum poly pricing that industry players will be required to sell to its customers.\n\nAnd I think if you look at the most recent, I think both transactional pricing as well as futures pricing, in the high kind of the high-40s to the low So that is reflective of this new government policy that requires the industry players to sell above production costs. So that is our poly price outlook going forward.\n\nMengwen Wang, Analyst, Goldman Sachs:  Yes. To follow-up the question, if the poly price stay at around RMB50 per kilo and if we don’t our product don’t sell, like we keep piling up our inventory. So how do we see how to like what’s our strategy in terms of this kind of situations?\n\nMin Yang, CFO, Zako New Energy:  I think there will be industry policies and perhaps government policies supported by the government, but and that will require industry supply to balance with industry demand, right? Let’s say, just making assumptions, If industry demand say is 1,200,000 tons per year in 100,000 tons per month, then the industry sales and the annual production will be consistent with that demand levels. So it will be adjusted so that poly pricing can be maintained at the production costs or above level.\n\nAnita Xu, Deputy CEO, Zako New Energy:  And to follow-up on your question on inventory, I think for big picture is people want to manage their inventory. I think the direction is to manage the utilization rates of the company so that we’ll not be over demand going forward. And for us, we will really have to wait to see how the regulation unfolds in the next coming weeks or the next coming months that before we can decide what our strategy will be. And also to add on, I know there are companies who are participating in the futures market. We’ve also participated a meaningful amount in the futures market just to hedge against risk and to arbitrage as a strategy.\n\nYes. Thanks,\n\nMengwen Wang, Analyst, Goldman Sachs:  Yan, and thanks, Anita. That’s really clear. So to sum up, we are expecting some kind of policy to help the industry cut production into September. And we have actively engaged in the polysilicon future market in order to mitigate the volatility of the polysilicon price, right?\n\nAnita Xu, Deputy CEO, Zako New Energy:  We I mean we were registered as the first batch of the companies who are allowed to sell in the futures market. But strategy wise, it will really depend on the regulations will come out and yes, and how the spot prices will move.\n\nMengwen Wang, Analyst, Goldman Sachs:  Yes. Sure. How about the policy time line? Is that should we expect any meaningful policy kicking into September?\n\nAnita Xu, Deputy CEO, Zako New Energy:  We are working towards or all of the related parties, including the CPI, the manufacturers and the related regulators are working very diligently toward a result coming out from the continuous meetings. However, we cannot guarantee, but we believe that because everyone is on the same page, we are working towards a result or a proposal coming out.\n\nConference Operator:  The next question today will come from Shiwa Xu of CICC. Please go ahead with your question.\n\nShiwa Xu, Analyst, CICC:  Thanks, management. This is Sohui Hu from SICC. And my first question is, I thought you lowered the sales volume for second quarter. So how’s the plan on it? And what’s the plan for utilization rate in the future?\n\nAnd my second question is, I saw you keep reduced the production cost. Besides the reduced cash cost, so what other ways are there to reduce the cost? Thank you.\n\nAnita Xu, Deputy CEO, Zako New Energy:  Thank you, Sukwei. So I think for the first question, the reason why the sales volume is meaningfully below the production volume because prices are really trading at a very low level and below cost cost level. And as we are working towards or working out a proposal since and the first meeting that was hosted and hosted by MIT and DRC were happening in the second quarter. So we were waiting to see how the policies will shift or how much capacity will phase out in the future so that we can adjust our sales strategy accordingly. And we believe that once the regulations comes out, if any, then we will try to maintain our inventory at a healthy level.\n\nMin Yang, CFO, Zako New Energy:  Look, I’ll follow-up. So regarding utilization rates, so I think we’re maintaining this 30% to 35% utilization rate. I think it will be subject to, for example, demand environment and pricing as well as the industry consensus or industry self discipline in terms of supply and production. So you’ll be a balance of those decisions. But I think currently we’re maintaining the 30% to 35% utilization rate for now in the monitoring industry status and progress.\n\nIn terms of production costs, I think for Q2, it is slightly lower than Q1. I think it’s helped by both improvements in manufacturing efficiency and for example lower energy usage, lower metal And currently, we’re expecting the cost trend to continue to improve for Q3 as well. So for example, our current cash cost is approximately, say, 5 per kilogram right now, I think, on the current supplemental cost, which is already lower than our Q2 twenty twenty five cost. So that’s the current cost status for the company.\n\nShiwa Xu, Analyst, CICC:  Thank you.\n\nMin Yang, CFO, Zako New Energy:  Okay. Thank you. Goodbye.\n\nConference Operator:  Our next question will come from Gordon Johnson\n\nMin Yang, CFO, Zako New Energy:  of\n\nConference Operator:  GLJ Research. Please go ahead.\n\nGordon Johnson, Analyst, GLJ Research:  Hey, guys. Thanks for taking the questions. So I guess my first question is, it seems like you guys explicitly said you intentionally held back polysilicon sales in the second quarter. So can we conclude from that that you’ll sell more in the third quarter, if you can provide some color there? And then from my calculations, it seems like you’re guiding production to increase from 26,000 metric tons at the midpoint in Q2 to 28,500 in Q3 and then 40,700 in Q4.\n\nShould we take from that you intend to sell significantly more polysilicon in Q4? And then I have a follow-up. Okay.\n\nAnita Xu, Deputy CEO, Zako New Energy:  Thank you, Gordon. So first of all, I think the reason why we held back or sold relatively a lot lower than our actual production volume was because it was trading at below cash cost. And as we don’t want to disrupt the overall the industry dynamics or I should say, as the industry has guided out, we should not be selling below the production cost. We have adjusted our sales strategy accordingly. And going forward, in the third quarter, you might have seen recently that prices have ticked up.\n\nAnd we believe if it’s not cutting below our cost, then it makes sense for us to start selling. And like I said before, I think it will really depend on when and how the regulations will come out, then we would adjust our sales strategies accordingly in the remaining days in the third quarter as well as going forward into the fourth quarter.\n\nGordon Johnson, Analyst, GLJ Research:  Okay, that’s helpful. And then if I think about you guys said that transactions and the futures market is around the high 40s, low 50s. Based on my calculation, that would suggest the price of around $7.7 for polysilicon USD. Yet your ASP in Q2 was $4.19 So I understand you don’t have great visibility, it seems like on what you’re going to sell in Q3 until policy is decided. But are you transacting at that price that you highlighted the high 49slow 50s levels right now?\n\nThank you for the questions.\n\nMin Yang, CFO, Zako New Energy:  Gordon, so I think that there’s two specific goals that the company is trying to achieve, right? So one is based on the I think the government policies and the new law. So I think we will sell at below above our production cost for sure. And I think the levels indicated is representative of the market current transactional cost. And also one of our another of our company’s sales operations goal is to significantly reduce our inventory at hand as well given the current market dynamic environment where there’s opportunity to do that.\n\nSo we will try our best to do that. And I guess one clarification regarding pricing is RMB price that we call actually includes a 13% VAT, okay? So I think you have to divide by 1.3 to get to the actual selling price ex VAT. So that’s ramp up roughly maybe 5.8 range something like that.\n\nGordon Johnson, Analyst, GLJ Research:  Right. So I mean does that mean you guys will be gross margin positive in Q3? Thank you.\n\nMin Yang, CFO, Zako New Energy:  Let just conclude that we expect to be cash generating cash from our sales. Because there’s a lot of, I guess, noncash depreciation costs related to our idle facility because we’re only running at onethree utilization. But I think if you you remove the non cash depreciation, I think we’re going to generate positive cash margin from sales.\n\nGordon Johnson, Analyst, GLJ Research:  Very helpful. Thank you. Thank you.\n\nMin Yang, CFO, Zako New Energy:  Okay. Good. Thanks, Gordon. Thank you.\n\nConference Operator:  This will conclude our question and answer session. At this time, I’d like to turn the conference back over to Jessie Zhao for any closing remarks.\n\nJessie Zhao, Director of Investor Relations, Zako New Energy:  Thank you, everyone, again for participating in today’s conference call. Should you have any further questions, please don’t hesitate to contact us. Thank you, and have an awesome day. Goodbye.\n\nConference Operator:  The conference has now concluded. Thank you for attending today’s presentation, and you may now disconnect your lines.\n\nThis article was generated with the support of AI and reviewed by an editor. For more information see our T&C.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:10:01+00:00",
+            "title": "Daqo New Energy (DQ) Reports Q2 Loss, Lags Revenue Estimates",
+            "content": "Daqo New Energy (DQ) came out with a quarterly loss of $1.14 per share versus the Zacks Consensus Estimate of a loss of $1.16. This compares to a loss of $1.81 per share a year ago. These figures are adjusted for non-recurring items.\n\nThis quarterly report represents an earnings surprise of +1.72%. A quarter ago, it was expected that this solar panel parts maker would post a loss of $1.02 per share when it actually produced a loss of $1.07, delivering a surprise of -4.9%.\n\nOver the last four quarters, the company has surpassed consensus EPS estimates just once.\n\nDaqo, which belongs to the Zacks Chemical - Specialty industry, posted revenues of $75.19 million for the quarter ended June 2025, missing the Zacks Consensus Estimate by 44.88%. This compares to year-ago revenues of $219.91 million. The company has topped consensus revenue estimates two times over the last four quarters.\n\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\n\nDaqo shares have added about 22.9% since the beginning of the year versus the S&P 500's gain of 9.5%.\n\nWhat's Next for Daqo?\n\nWhile Daqo has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\n\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\n\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\n\nAhead of this earnings release, the estimate revisions trend for Daqo was mixed. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #3 (Hold) for the stock. So, the shares are expected to perform in line with the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here.\n\nIt will be interesting to see how estimates for the coming quarters and the current fiscal year change in the days ahead. The current consensus EPS estimate is -$0.98 on $162 million in revenues for the coming quarter and -$3.97 on $794.42 million in revenues for the current fiscal year.\n\nStory Continues\n\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Chemical - Specialty is currently in the bottom 30% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\n\nH. B. Fuller (FUL), another stock in the same industry, has yet to report results for the quarter ended August 2025.\n\nThis adhesives company is expected to post quarterly earnings of $1.24 per share in its upcoming report, which represents a year-over-year change of +9.7%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\n\nH. B. Fuller's revenues are expected to be $891.95 million, down 2.8% from the year-ago quarter.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nDAQO New Energy Corp. (DQ) : Free Stock Analysis Report\n\nH. B. Fuller Company (FUL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:06:50+00:00",
+            "title": "Daqo New Energy announces $100M share repurchase program",
+            "content": " \t* Daqo New Energy (NYSE:DQ [https://seekingalpha.com/symbol/DQ]) announced a $100 million share repurchase program, effective Tuesday through December 31, 2026.\n \t* The company expects to fund the repurchase primarily out of its existing cash balance.\n \t* DQ -12.13% premarket to $21.0.\n \t* Source: Press Release [https://seekingalpha.com/pr/20211260-daqo-new-energy-announces-100-million-share-repurchase-program] \n\nMORE ON DAQO NEW ENERGY\n\n \t* Daqo New Energy: Stock Is A Hold Despite Low Production Guidance In 2025 [https://seekingalpha.com/article/4791590-daqo-new-energy-stock-is-a-hold-despite-low-production-guidance-in-2025]\n \t* DAQO New Energy Q2 2025 Earnings Preview [https://seekingalpha.com/news/4488843-daqo-new-energy-q2-2025-earnings-preview]\n \t* China’s solar installations fall in June as new rules take hold [https://seekingalpha.com/news/4470354-chinas-solar-installations-fall-in-june-as-new-rules-take-hold]\n \t* Seeking Alpha’s Quant Rating on DAQO New Energy [https://seekingalpha.com/symbol/DQ/ratings/quant-ratings]\n \t* Historical earnings data for DAQO New Energy [https://seekingalpha.com/symbol/DQ/earnings]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T11:20:21+00:00",
+            "title": "DAQO New Energy Non-GAAP EPADS of -$0.86 misses by $0.44, revenue of $75.19M",
+            "content": " \t* DAQO New Energy press release [https://seekingalpha.com/pr/20211162-daqo-new-energy-announces-unaudited-second-quarter-2025-results] (NYSE:DQ [https://seekingalpha.com/symbol/DQ]): Q2 Non-GAAP EPADS of -$0.86 misses by $0.44.\n \t* Revenue of $75.19M (-65.8% Y/Y).\n\nMORE ON DAQO NEW ENERGY\n\n \t* Daqo New Energy: Stock Is A Hold Despite Low Production Guidance In 2025 [https://seekingalpha.com/article/4791590-daqo-new-energy-stock-is-a-hold-despite-low-production-guidance-in-2025]\n \t* DAQO New Energy Q2 2025 Earnings Preview [https://seekingalpha.com/news/4488843-daqo-new-energy-q2-2025-earnings-preview]\n \t* China’s solar installations fall in June as new rules take hold [https://seekingalpha.com/news/4470354-chinas-solar-installations-fall-in-june-as-new-rules-take-hold]\n \t* Seeking Alpha’s Quant Rating on DAQO New Energy [https://seekingalpha.com/symbol/DQ/ratings/quant-ratings]\n \t* Historical earnings data for DAQO New Energy [https://seekingalpha.com/symbol/DQ/earnings]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Daqo New Energy Corp ADR",
+          "sector": "Technology",
+          "industry": "Semiconductor Equipment & Materials",
+          "employees": 4749,
+          "description": "Daqo New Energy Corp., together with its subsidiaries, manufactures and sells polysilicon to photovoltaic product manufacturers in the People's Republic of China. Its products are used in ingots, wafers, cells, and modules for solar power solutions. The company was formerly known as Mega Stand Inter"
+        },
+        "financial_metrics": {
+          "eps_ttm": -6.51,
+          "profit_margin": -0.5863,
+          "operating_margin": -0.9204,
+          "roe": -0.0933,
+          "roa": -0.0474,
+          "revenue_growth_yoy": -0.702,
+          "earnings_growth_yoy": -0.933,
+          "eps_estimate_current_year": -2.34,
+          "eps_estimate_next_year": -1.6504,
+          "revenue_ttm": 737683008,
+          "revenue_per_share": 11.098,
+          "most_recent_quarter": "2025-03-31"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 21.3675,
+          "price_to_sales": 2.1726,
+          "price_to_book": 0.3702,
+          "enterprise_value": -493887502,
+          "ev_to_revenue": 3.3284,
+          "ev_to_ebitda": 6.669
+        },
+        "technical_data": {
+          "beta": 0.48,
+          "52_week_high": 30.85,
+          "52_week_low": 12.41,
+          "50_day_ma": 19.7914,
+          "200_day_ma": 18.2463,
+          "short_interest": 0.1063,
+          "short_ratio": 1.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2020-11-17",
+          "last_split_factor": "5:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7778,
+          "target_price": 21.944,
+          "strong_buy": 2,
+          "buy": 3,
+          "hold": 4,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 67056700,
+          "percent_institutions": 46.341,
+          "percent_insiders": 18.126,
+          "shares_float": 216692286
+        },
+        "balance_latest_sheet": {
+          "total_assets": 6310.686,
+          "cash_and_equivalents": 791.93,
+          "net_debt": -791.93,
+          "working_capital": 2118.589,
+          "shareholders_equity": 4329.201,
+          "quarter_date": "2025-03-31"
+        },
+        "income_latest_statement": {
+          "total_revenue": 123.914,
+          "gross_profit": -81.535,
+          "operating_income": -114.053,
+          "net_income": -71.837,
+          "ebitda": -61.90675,
+          "quarter_date": "2025-03-31",
+          "gross_margin": -65.8,
+          "operating_margin": -92.04,
+          "net_margin": -57.97
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -38.881,
+          "free_cash_flow": -96.513,
+          "capex": 57.632,
+          "net_income": -71.837,
+          "cash_change": -246.419,
+          "quarter_date": "2025-03-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.5867,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 20.33,
+            "high": 20.36,
+            "low": 19.62,
+            "close": 19.83,
+            "volume": 985600
+          },
+          {
+            "date": "2025-07-17",
+            "open": 20.1,
+            "high": 21.73,
+            "low": 19.84,
+            "close": 20.9,
+            "volume": 1566100
+          },
+          {
+            "date": "2025-07-18",
+            "open": 21.06,
+            "high": 21.1,
+            "low": 20.38,
+            "close": 20.69,
+            "volume": 1345200
+          },
+          {
+            "date": "2025-07-21",
+            "open": 20.81,
+            "high": 21.32,
+            "low": 20.8,
+            "close": 21.06,
+            "volume": 690700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 22.24,
+            "high": 25.46,
+            "low": 22.24,
+            "close": 24.6,
+            "volume": 4906600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 23.86,
+            "high": 23.9,
+            "low": 22.65,
+            "close": 23.19,
+            "volume": 2360800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 24.49,
+            "high": 25.54,
+            "low": 23.89,
+            "close": 25.05,
+            "volume": 1984900
+          },
+          {
+            "date": "2025-07-25",
+            "open": 24.43,
+            "high": 24.54,
+            "low": 23.2,
+            "close": 23.28,
+            "volume": 1650500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 22.81,
+            "high": 23.2,
+            "low": 22.06,
+            "close": 22.94,
+            "volume": 1533500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 23.96,
+            "high": 25.44,
+            "low": 22.61,
+            "close": 23.31,
+            "volume": 2173500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 23.51,
+            "high": 23.51,
+            "low": 22.45,
+            "close": 22.63,
+            "volume": 1552400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 22.71,
+            "high": 23.42,
+            "low": 21.64,
+            "close": 21.76,
+            "volume": 1649200
+          },
+          {
+            "date": "2025-08-01",
+            "open": 21.64,
+            "high": 21.89,
+            "low": 20.53,
+            "close": 20.67,
+            "volume": 876300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 20.74,
+            "high": 21.34,
+            "low": 20.44,
+            "close": 20.65,
+            "volume": 768400
+          },
+          {
+            "date": "2025-08-05",
+            "open": 21.01,
+            "high": 21.64,
+            "low": 20.6,
+            "close": 21.41,
+            "volume": 664200
+          },
+          {
+            "date": "2025-08-06",
+            "open": 21.41,
+            "high": 22.45,
+            "low": 21.15,
+            "close": 21.91,
+            "volume": 1157800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 22.45,
+            "high": 22.7,
+            "low": 21.38,
+            "close": 21.59,
+            "volume": 786500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 21.59,
+            "high": 21.76,
+            "low": 21.06,
+            "close": 21.21,
+            "volume": 432600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 22.03,
+            "high": 22.26,
+            "low": 21.49,
+            "close": 21.9,
+            "volume": 579000
+          },
+          {
+            "date": "2025-08-12",
+            "open": 21.51,
+            "high": 21.84,
+            "low": 21.01,
+            "close": 21.78,
+            "volume": 534200
+          },
+          {
+            "date": "2025-08-13",
+            "open": 21.8,
+            "high": 22.44,
+            "low": 21.64,
+            "close": 21.8,
+            "volume": 504500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 20.95,
+            "high": 21.3,
+            "low": 20.73,
+            "close": 21.26,
+            "volume": 398000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 22.11,
+            "high": 23.91,
+            "low": 22,
+            "close": 22.97,
+            "volume": 1547100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 23,
+            "high": 23.06,
+            "low": 22.46,
+            "close": 23,
+            "volume": 652900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 22.99,
+            "high": 23.29,
+            "low": 21.79,
+            "close": 22.55,
+            "volume": 1066300
+          },
+          {
+            "date": "2025-08-20",
+            "open": 22.35,
+            "high": 22.98,
+            "low": 22.06,
+            "close": 22.83,
+            "volume": 607000
+          },
+          {
+            "date": "2025-08-21",
+            "open": 22.51,
+            "high": 22.67,
+            "low": 22.16,
+            "close": 22.47,
+            "volume": 345000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 22.54,
+            "high": 23.03,
+            "low": 22.05,
+            "close": 22.86,
+            "volume": 839900
+          },
+          {
+            "date": "2025-08-25",
+            "open": 23.95,
+            "high": 24.51,
+            "low": 23.61,
+            "close": 23.9,
+            "volume": 1491300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 24.8,
+            "high": 25.9,
+            "low": 23.2305,
+            "close": 23.72,
+            "volume": 2719437
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.7589017589017597,
+        "return_63d": 74.28361498897868,
+        "pct_above_sma50": 18.673577618123225,
+        "sma_50": 19.9876,
+        "new_55d_high": "False",
+        "high_55d": 25.9,
+        "rsi": 63.90168970814134,
+        "rsi_in_range": "True",
+        "adx": 24.62143746818287,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.2507377740303545,
+        "bb_width": 16.519395775590468,
+        "keltner_width": 22.436771463024424,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 21226800.065475,
+        "adv_shares": 958601.85,
+        "liquidity_tier": "medium",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 47.10120244918792,
+        "final_score": 47.10120244918792,
+        "sub_scores": {
+          "trend_momentum": 22.859394539583423,
+          "squeeze_breakout": 4.0,
+          "options_quality": 9.241807909604496,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.4001743679162866,
+          "ret_63d": 69.5496783416726,
+          "rsi14": 63.90168970814134,
+          "adx14": 24.597470505338833,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: DQ\n• Current Price: $23.72\n• Overall Score: 50.558900640300976\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 19.7914\n• Sma 200: 18.2463\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.400174367916293\n• Momentum 63D: 69.54967834167262\n• Momentum 126D: 15.876893014167074\n• Momentum Acceleration: -66.14950397375632\n• Roc 21D: 3.400174367916293\n• Trend Strength 20D: 0.5448303536724655\n• Trend Direction: 1\n• Ma Ribbon Score: 89.29623118456779\n• Breakout Strength: 95.92196306527053\n• Price Velocity: 0.01039350676759716\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: 0.05414744079598003\n• Volatility Compression: 36.0659187792633\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.859394539583423\n• Squeeze Breakout: 4.0\n• Options Quality: 9.241807909604496\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 75.0\n• Momentum: 61.0\n• Squeeze: 55.409887816889494\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: DQ\n• Strike Price: $15\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $8.7\n• Ask: $9\n• Last: $8.28\n• Mid: $8.85\n• Spread: 3.333333333333333333333333333%\n\n**GREEKS ANALYSIS**\n• Delta: 0.9809\n• Gamma: 0.0083\n• Theta: -0.0041\n• Vega: 0.0042\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.6293\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 1217\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Daqo New Energy Corp ADR\n• Sector: Technology\n• Industry: Semiconductor Equipment & Materials\n• EPS (TTM): $-6.51\n• Profit Margin: -58.6%\n• ROE: -9.3%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T15:30:56+00:00: Daqo New Energy (DQ) Q2 2025 Earnings Transcript...\n• 2025-08-26T13:17:55+00:00: Earnings call transcript: Daqo New Energy Q2 2025 reports revenue miss...\n• 2025-08-26T12:10:01+00:00: Daqo New Energy (DQ) Reports Q2 Loss, Lags Revenue Estimates...\n• 2025-08-26T12:06:50+00:00: Daqo New Energy announces $100M share repurchase program...\n• 2025-08-26T11:20:21+00:00: DAQO New Energy Non-GAAP EPADS of -$0.86 misses by $0.44, revenue of $75.19M...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR DQ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the DQ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:21:49.681213",
+    "estimated_tokens": 2319
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"DQ\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 23,\n        \"options_quality\": 8,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 3,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"DQ shows strong technical momentum with price above both SMAs and positive MA ribbon score (89.29), but faces significant fundamental challenges with negative EPS and profit margins. The current squeeze setup (5 days duration) and multi-timeframe squeeze count of 2 suggest potential volatility expansion ahead.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (19.79) and 200 SMA (18.24)\",\n        \"Strong MA ribbon score of 89.29 indicating solid trend structure\",\n        \"Active volatility squeeze with 5-day duration suggesting potential breakout\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -$6.51 EPS and -58.6% profit margin\",\n        \"Earnings coming up on 2025-09-30 (event risk)\",\n        \"Low options volume (0) despite decent open interest (1217)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferred entry due to upcoming earnings and poor fundamentals\",\n        \"entry_timing\": \"Wait until after earnings report on 9/30 for clearer picture\",\n        \"risk_management\": \"Wide bid-ask spread (3.33%) requires strict limit orders; consider smaller position size\"\n    },\n    \"red_flags\": [\n        \"Negative earnings and profit margins indicate fundamental weakness\",\n        \"Zero options volume indicates potential liquidity issues\",\n        \"Imminent earnings event within 35 days\"\n    ],\n    \"notes\": \"While technical setup appears promising, fundamental weakness and upcoming earnings create significant risk. Options liquidity concerns warrant caution in position sizing.\"\n}",
+    "parsed_analysis": {
+      "symbol": "DQ",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 23,
+        "options_quality": 8,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 3,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "DQ shows strong technical momentum with price above both SMAs and positive MA ribbon score (89.29), but faces significant fundamental challenges with negative EPS and profit margins. The current squeeze setup (5 days duration) and multi-timeframe squeeze count of 2 suggest potential volatility expansion ahead.",
+      "opportunities": [
+        "Price trending above both 50 SMA (19.79) and 200 SMA (18.24)",
+        "Strong MA ribbon score of 89.29 indicating solid trend structure",
+        "Active volatility squeeze with 5-day duration suggesting potential breakout"
+      ],
+      "risks": [
+        "Poor fundamentals with -$6.51 EPS and -58.6% profit margin",
+        "Earnings coming up on 2025-09-30 (event risk)",
+        "Low options volume (0) despite decent open interest (1217)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferred entry due to upcoming earnings and poor fundamentals",
+        "entry_timing": "Wait until after earnings report on 9/30 for clearer picture",
+        "risk_management": "Wide bid-ask spread (3.33%) requires strict limit orders; consider smaller position size"
+      },
+      "red_flags": [
+        "Negative earnings and profit margins indicate fundamental weakness",
+        "Zero options volume indicates potential liquidity issues",
+        "Imminent earnings event within 35 days"
+      ],
+      "notes": "While technical setup appears promising, fundamental weakness and upcoming earnings create significant risk. Options liquidity concerns warrant caution in position sizing."
+    },
+    "tokens_used": 2577,
+    "cost": 0.025769999999999998,
+    "response_time": 9.77750301361084,
+    "success": true
+  },
+  "cost": 0.025769999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8487,
+    "response_length": 1826
+  }
+}

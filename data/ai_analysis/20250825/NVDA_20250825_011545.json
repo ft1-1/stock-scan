@@ -1,0 +1,639 @@
+{
+  "success": true,
+  "symbol": "NVDA",
+  "timestamp": "2025-08-25T01:15:45.031652",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVDA",
+      "package_timestamp": "2025-08-25T01:15:36.070872",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVDA",
+        "current_price": 177.99,
+        "overall_score": 52.87692307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 166.9966,
+        "sma_200": 137.8551
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.446183953033268,
+        "momentum_63d": 33.99834374764736,
+        "momentum_126d": 32.40348136576657,
+        "momentum_acceleration": -31.55215979461409,
+        "roc_21d": 2.446183953033268,
+        "trend_strength_20d": 0.010368599699539483,
+        "trend_direction": 1,
+        "ma_ribbon_score": 71.84361412101754,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0025824030381805586
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": -0.6056263028326013,
+        "volatility_compression": 0.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.582869351395168,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 55.0,
+        "squeeze": 50.0,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 7,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVDA",
+        "strike_price": "175",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "13.45",
+        "ask": "13.55",
+        "last_price": "13.5",
+        "mid_price": "13.50",
+        "spread_percent": "0.7380073800738007380073800738"
+      },
+      "greeks": {
+        "delta": 0.5887,
+        "gamma": 0.0135,
+        "theta": -0.1104,
+        "vega": 0.2712
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4132
+      },
+      "liquidity_metrics": {
+        "volume": 23645,
+        "open_interest": 47111,
+        "volume_oi_ratio": 0.5018997686315297
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:49.861203",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T01:00:00+00:00",
+            "title": "Automotive Refinish Coatings Market worth $13.85 billion by 2030, at a CAGR of 3.68%, says MarketsandMarkets™",
+            "content": "Delray Beach, FL, Aug.  24, 2025  (GLOBE NEWSWIRE) -- In terms of value, the Automotive Refinish Coatings Market is estimated to grow from USD 11.12 billion in 2024 to USD 13.85 billion by 2030, at a CAGR of 3.68%, as per the recent study by MarketsandMarkets™. The used car ecosystem is increasingly becoming more organized and quality-conscious as the certified pre-owned (CPO) programs and digital car-selling platforms continue to spread. Users of secondhand cars are demanding an almost new look and vehicles; thus, sellers must recondition them cosmetically prior to selling them in the market. The application of refinish coatings can play a primary role in bringing such transformation, and it can be used to remove all the visual imperfections, correct original paint finishes, and protect the surface of the exterior against additional deterioration. The increasing sophistication of the used car dealership has demanded the need for high-performance coatings that can be rapidly applied and have an enduring outcome.\n\nDownload PDF Brochure: https://www.marketsandmarkets.com/pdfdownloadNew.asp?id=9257396\n\nBrowse in-depth TOC on “Automotive Refinish Coatings Market”\n\n123 - Market Data Tables\r\n48 – Figures\r\n190 - Pages\n\nList of Key Players in Automotive Refinish Coatings Market:\n\n3M      Company (US)Tesa      SE (Germany)Nitto      Denko Corporation (Japan)LINTEC      Corporation (Japan)Intertape      Polymer Group, Inc. (Canada)Avery      Dennison Corporation (US)Lohmann      GmbH & Co. KG (Germany)Berry      Global Group, Inc. (US)Scapa      Group plc (Mativ Holdings) (US)Saint-Gobain      S.A. (France)\n\nDrivers, Opportunities and Challenges in Automotive Refinish Coatings Market:\n\nDrivers: Expanding      automotive aftermarket servicesRestraint: Shift      toward paintless repair techniques Opportunity: Adoption of eco-friendly coatingsChallenge: Stringent      Environmental Regulations\n\nGet Sample Pages: https://www.marketsandmarkets.com/requestsampleNew.asp?id=9257396\n\nKey Findings of the Study:\n\nThe      basecoat segment is projected to be the second-fastest-growing segment in      the automotive refinish coatings market during the forecast periodThe      acrylic segment accounted for the second-largest share in the automotive      refinish coatings market in 2024The      commercial vehicles segment held the second-largest share in the      automotive refinish coatings market in 2024.North      America was the second-largest region in the global automotive refinish      coatings market in terms of value in 2024.\n\nBased on layer type, the automotive refinish coatings market is divided into primer, basecoat, clearcoat, and other layer types. Clearcoat held the largest share in the automotive refinish coatings market in 2024. The dominance of this can be attributed to the fact that clearcoats are an essential component of imparting aesthetic brilliance and long-term durability of surfaces that have been repaired. Clearcoats are a final layer of protection over the basecoat and the primer, as they protect the basecoat and the primer against environmental decline, chemicals, and ultraviolet radiation. With modernly fitted luxurious cars having elaborate design features and bright colors, it has become necessary to repair them without the paint being affected after being touched. Thus, clearcoats improve the amount of gloss retention and color brightness and allow the refinished surface to match the factory finish, fueling the growth of the segment in the market.\n\nBased on resin type, the automotive refinish coatings market is segmented into polyurethane acrylic, epoxy, alkyd, and other resin types. The polyurethane segment held the largest share in the automotive refinish coatings market in 2024. The greater portion is due to the rising popularity of a durable finish that maintains its beauty over the years. Polyurethane resin provides better abrasion resistance, chemical resistance, and UV resistance in a market where there is a growing requirement to have technical capabilities besides the visual aspects of contending against tough environmental conditions. Polyurethane coatings retain their structural and aesthetic appeal over a long time, regardless of intense sunshine or changing weather patterns, which lack in other resin types. In addition to private auto owners, automotive repair businesses, and companies managing vehicle fleets highly value polyurethane resins due to their longevity and ability to maintain resale value.\n\nGet Customization on this Report: https://www.marketsandmarkets.com/requestCustomizationNew.asp?id=9257396\n\nBased on vehicle type, the automotive refinish coatings market is divided into passenger cars and commercial vehicles. The passenger cars segment dominated the automotive refinish coatings market in 2024. The rapid development and integration of modern digital color matching technologies throughout automotive service centers, especially in the ecosystem for passenger car maintenance, is the reason for this dominance. Digital color-matching technologies have made it possible for automotive repair facilities to improve the accuracy and uniformity of refinish coatings, as customers seek flawless restorations that mimic factory finishes. Such technologies have given technicians the ability to perfectly duplicate complex OEM color palettes and effects, such as metallic or pearls, with a precision that could not be found before. This technological sophistication is essential in the case of passenger cars, in which the compelling presentation implies the critical value of the resale price and brand image.\n\nBased on the region, Asia Pacific was the largest market of automotive refinish coatings, in terms of value, in 2024. The growth can be attributed to the steady rise in the middle-class population in developing economies like India, Indonesia, and the Philippines. The affordable finance and growing disposable income have also seen a large fraction of this population buying personal vehicles, and in most cases, the used or second-hand ones. With the growth in the number of vehicles that are owned and used, the need to perform refinishing jobs to improve or re-establish the aesthetics as well as the functional values of vehicles grows. Refinish coatings play an important role in enhancing the look of the surface and weather resistance, as well as prolonging the years of usage of the vehicle. Such ownership trend also stimulates the need for affordable repair services, and automotive refinish coatings are at the center of it. In these countries, the local body shops and independent garages, which comprise a predominant share of vehicle service providers, need cost-efficiency and yet enhanced refinish products, driving the demand.\n\nBrowse Adjacent Markets Coatings Adhesives Sealants and Elastomers Market Research Reports & Consulting\n\nRelated Reports:\n\nSeptic      Tanks MarketDenim      Finishing Agents MarketTexture      Paint MarketHydrogen      Storage MarketFlow      Chemistry Market",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:38:03+00:00",
+            "title": "Asia shares bounce as markets count on US rate cuts",
+            "content": "By Wayne Cole\n\nSYDNEY (Reuters) -Asian share markets rallied on Monday as investors celebrated the likely resumption of interest rate cuts in the United States, while hoping AI-superstar Nvidia's results this week will help justify the sector's stratospheric valuations.\n\nFederal Reserve Chair Jerome Powell's dovish change of course has seen futures price in an 84% chance of a quarter-point rate cut in September, and at least 100 basis points of easing to 3.25-3.5% by the middle of next year.\n\nThe shift shoved Treasury yields and the dollar lower, flattering the outlook for corporate earnings, though it also implies policymakers now see more danger of a downturn in employment and the economy.\n\n\"The news reinforces our view that the Fed will ease in response to softening labor demand and that risk to our forecast for a material downshift in global growth this quarter is skewed to the upside,\" said Bruce Kasman, global head of economic research at JPMorgan.\n\nThe market's euphoria will also be tested by a reading on U.S. personal consumption prices on Friday that is expected to show core inflation creeping up to its highest since late 2023 at 2.9%.\n\n\"The report should reinforce the message that a rebound in service price inflation is combining with tariff-related pressures to push core inflation towards a 4% annualised rate,\" warned Kasman.\n\nAny upside surprise to inflation would also challenge the rally in longer-dated Treasuries, especially given a whopping $183 billion in new debt is being sold this week.\n\nYields on 10-year notes held steady at 4.263%, having dived 7 basis points on Friday.\n\nFor now, investors were content to follow Wall Street's lead and Japan's Nikkei rose 0.8%. South Korean stocks gained 0.7% and Australia's index 0.9%.\n\nMSCI's broadest index of Asia-Pacific shares outside Japan added 0.4%.\n\nEYEING NVIDIA\n\nEUROSTOXX 50 futures and DAX futures were flat. S&P 500 futures and Nasdaq futures were both little changed after climbing in Friday.\n\nAll eyes are on Nvidia's results on Wednesday when it is forecast to boast a 48% rise in earnings per share on revenue of $45.9 billion for its second fiscal quarter.\n\nOptions imply the shares could swing almost 6% in either direction depending on the outcome, causing waves in the broader market given the company's $4 trillion valuation.\n\nAnalysts will be keen to hear more on the outlook for shipments to China and details of the deal with President Donald Trump to pay the U.S. government 15% of the revenue from sales of some advanced chips in the Asian giant.\n\nStory Continues\n\nTrump on Friday announced the U.S. will also purchase a 9.9% stake in Intel for $8.9 billion, or $20.47 per share, which represents a discount of about $4 from Intel's closing share price of $24.80.\n\nIn currency markets, the dollar had steadied for the moment at 147.28 yen after dropping 1% on Friday from a top of 148.77. The euro stood at $1.1702, having bounced from a trough of $1.1583 on Friday.\n\nThe European Central Bank is still expected to hold interest rates unchanged at its policy meeting in September, though sources told Reuters that discussions about further cuts may well resume in the autumn if the economy weakens.\n\nCommodity markets were encouraged by the drop in the dollar, with gold at $3,365 an ounce after jumping 1% late last week. [GOL/]\n\nOil prices were further supported by the lack of progress on talks between Russia and Ukraine, which keeps sanctions on Russian supplies. [O/R]\n\nBrent was a fraction firmer at $67.31 a barrel, while U.S. crude added 0.2% to $63.78 per barrel.\n\n(Reporting by Wayne ColeEditing by Shri Navaratnam)",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:22:00+00:00",
+            "title": "Terumo to acquire OrganOx Limited, a leading innovator in organ preservation devices, marking strategic entry into the organ transplantation-related sector",
+            "content": "- Expanding opportunities for organ transplantation worldwide and contributing to the advancement of transplant medicine -\n\nOXFORD, United Kingdom and MADISON, N.J., Aug.  24, 2025  (GLOBE NEWSWIRE) -- Terumo Corporation (TSE: 4543, “Terumo”) today announced that Terumo has entered into a definitive agreement dated August 23, 2025, with OrganOx Limited (“OrganOx” or the “Company”), a leading innovator in organ preservation devices, and its shareholders to acquire all outstanding shares of OrganOx. Upon completion of the transaction, OrganOx will become a wholly owned subsidiary of Terumo. The total transaction value is approximately USD $1.5 billion*1.\n\nFounded in 2008 by Professor Peter Friend and Professor Constantin Coussios as a spin-off from the University of Oxford, OrganOx is a pioneering medical technology company specializing in advanced organ preservation devices for Normothermic Machine Perfusion (NMP). NMP and other ex-vivo machine perfusion (EVMP) technologies can preserve organs longer by circulating oxygen and nutrient rich perfusate through the organ at near-body temperature. In addition, NMP devices enable real-time monitoring of organ condition during storage and transport. This aims to help prevent the transplantation of organs with impaired function—with the goal of improving transplant success rates—as well as leading to a more effective use of organs from marginal donors.\n\nThe acquisition marks Terumo’s strategic entry into the organ transplantation-related sector—a field with significant unmet medical needs and strong growth potential. By combining Terumo’s long-standing expertise in designing medical devices and equipment with OrganOx’s advanced capabilities in NMP, the Company aims to deliver innovative organ preservation devices globally. Terumo seeks to broaden access for patients in need of transplants and contribute to the advancement of transplantation medicine, by aiming to address key challenges in organ transplantation, including improving organ utilization rates, enabling the use of marginal donor*2 organs, enhancing post-transplant outcomes, and reducing the burden on healthcare professionals through minimizing nighttime and emergency procedures.\n\n“OrganOx is a pioneer and leader in organ transplantation technology,” said Oern R. Stuge MD, MBA, and Executive Chairman of OrganOx. “Today’s announced transaction is expected to expand the adoption of our transplantation technology platform by leveraging Terumo’s global infrastructure to benefit more patients around the globe.”\n\nTerumo has built a strong relationship with OrganOx through active collaboration over the years and strengthened this partnership through a strategic investment made in March 2025 via its corporate venture capital arm, Terumo Ventures.\n\n“This transaction represents an important milestone for OrganOx and its shareholders,” said Craig Marshall, Chief Executive Officer of OrganOx. “We look forward to continuing our rich history of collaboration with Terumo to continue harnessing our collective innovations to improve patient care.”\n\nOrganOx’s liver NMP device, metra, received FDA approval in 2021 and was launched in the U.S. market in 2022. The device has also obtained regulatory approvals in the EU, UK, Australia, and Canada, and is currently being commercialized in all these regions. To date, the device has been used in over 6,000 liver transplant procedures worldwide.\n\n“Our NMP technology uniquely addresses the quadruple aim of healthcare by benefiting patients, healthcare providers, population health, and the cost of care,” said Steve Deitsch, OrganOx’s Chief Financial Officer. “Thank you to our top tier group of investors, including among others Business Growth Fund (BGF), Lauxera Capital, HealthQuest Capital, Sofina, Oxford University, Longwall Ventures, Technikos, Oxford Investment Consultants, and Intuitive Ventures who provided both the capital and leadership to enable the value creation inherent in today’s announced $1.5 billion transaction.”\n\nPerella Weinberg Partners and Piper Sandler served as OrganOx’s financial advisors and Latham & Watkins acted as legal counsel to OrganOx in this transaction.\n\n*1 This figure is a preliminary estimate as of today. The final transaction value will be determined upon completion of the acquisition, following adjustments for OrganOx’s cash and cash equivalents, interest-bearing debt, and working capital.\r\n*2 Marginal donors are individuals who fall outside the standard criteria for organ donation—due to factors such as advanced age, pre-existing medical conditions, or donation following cardiac death. Expanding the use of organs from marginal donors is expected to increase the availability of transplantable organs and contribute to reducing the number of patients on transplant waiting lists.\n\nAbout OrganOx\n\nOrganOx is a commercial stage organ technology company, spun out of the University of Oxford in 2008, dedicated to developing technologies to improve outcomes for patients with acute or chronic organ failure. The OrganOx metra® is a normothermic machine perfusion (NMP) platform approved in the U.S., Europe, Canada, and Australia. It has been utilized in over 6,000 liver transplants to date to keep donor livers in a metabolically active state outside the body so that functional assessment of the organ can be performed prior to transplant, leading to an increased number of organs available for transplant. Learn more at www.organox.com.\n\nAbout Terumo\n\nTerumo (TSE: 4543) is a global leader in medical technology and has been committed to “Contributing to Society through Healthcare” for 100 years. Based in Tokyo and operating globally, Terumo employs more than 30,000 associates worldwide to provide innovative medical solutions in more than 160 countries and regions. The company started as a Japanese thermometer manufacturer, and has been supporting healthcare ever since. Now, its extensive business portfolio ranges from vascular intervention and cardio-surgical solutions, blood transfusion and cell therapy technology, to medical products essential for daily clinical practice such as transfusion systems, diabetes care, and peritoneal dialysis treatments. Terumo will further strive to be of value to patients, medical professionals, and society at large.\n\nOrganOx Investor Relations:\r\nSteve Deitsch\r\nChief Financial Officer, OrganOx\r\ninvestorrelations@organox.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:05:25+00:00",
+            "title": "US stock futures steady after Wall St soars on dovish Powell; Nvidia earnings due",
+            "content": "Investing.com-- U.S. stock index futures steadied on Sunday evening after Wall Street rallied sharply on dovish comments from Federal Reserve Chair Jerome Powell, which heralded interest rate cuts in the near-term.\n\nFocus this week is squarely on earnings from artificial intelligence major NVIDIA Corporation (NASDAQ:NVDA), for more cues on the fast-growing industry.\n\nFutures rose after Wall Street rallied on Friday, reversing a bulk of recent losses as investors ratcheted up bets that the Fed will cut interest rates in September.\n\nBut technology shares still remained fragile after a sharp selldown through most of last week, with caution ahead of Nvidia expected to keep the sector subdued.\n\nS&P 500 Futures were flat at 6,483.25 points, while Nasdaq 100 Futures were steady at 23,572.0 points by 19:17 ET (23:17 GMT). Dow Jones Futures hovered around 45,711.0 points.\n\nPowell signals potential rate cut, Wall St rallies\n\nPowell, speaking at the Jackson Hole Symposium on Friday, said the central bank could possibly cut rates in September amid increasing risks to the labor market.\n\nBut the Fed Chair warned that the decision was not set in stone, especially as risks from inflation remained. Fed policymakers have repeatedly cited uncertainty over the inflationary impact of President Donald Trump’s trade tariffs.\n\nStill, Powell’s comments were relatively dovish when compared to recent signaling from the Fed, and saw markets ramp up bets on a September rate cut. Wall Street indexes also rose sharply following his comments, reversing most of last week’s losses.\n\nThe S&P 500 rose 1.5% to 6,466.91 points on Friday. The NASDAQ Composite rose 1.9% to 21,496, while the Dow Jones Industrial Average rose 1.9% to a record-high 45,631.74 points.\n\nFed fund futures prices showed markets pricing in a 82.9% chance the Fed will cut rates by 25 basis points in September, up from the prior day’s possibility of 73.1%, CME Fedwatch showed.\n\nNvidia awaited for more cues on AI\n\nFocus this week is squarely on second-quarter earnings from AI major NVIDIA Corporation (NASDAQ:NVDA), which are due on Wednesday.\n\nThe company is widely regarded as a bellwether for AI demand, and is expected to mostly log another strong quarter.\n\nBut focus will be on the company’s China sales, which are likely to have fallen further amid brief U.S. export curbs and increased Chinese scrutiny towards AI chips. Nvidia was seen halting production of its China-specific H20 chip last week.\n\nNvidia’s earnings also come following an extended rout in tech shares, as investors questioned just how profitable the AI industry will remain in the coming quarters.\n\nOutside Nvidia, Dell Technologies Inc (NYSE:DELL), Dick’s Sporting Goods Inc (NYSE:DKS),  Best Buy  Co Inc (NYSE:BBY), Dollar General Corporation (NYSE:DG), and Abercrombie & Fitch Company (NYSE:ANF) are also set to report earnings this week.\n\nSecond-quarter gross domestic product data is also on tap this week, coming after preliminary data released in late-July showed strong growth.",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T23:58:31+00:00",
+            "title": "Stock market today: Dow, S&amp;P 500, Nasdaq futures steady after record surge with Nvidia earnings in focus",
+            "content": "US stock futures were little changed after Wall Street’s powerful rally to close out last week with eyes all on Nvidia (NVDA) earnings for the week ahead.\n\nFutures attached to the Dow Jones Industrial Average (YM=F) and S&P 500 (ES=F) hovered near the baseline. Nasdaq 100 (NQ=F) futures dipped 0.1%.\n\nCBOT - Delayed Quote•USD\n\n(YM=F)\n\nSuivre  View Quote Details\n\n45,725.00\n\n+10.00\n\n+(0.02%)\n\nAs of 8:03:40 PM EDT. Market Open.  YM=FES=F NQ=F\n\nAdvanced Chart\n\nOn Friday, the Dow Jones Industrial Average (^DJI) surged over 800 points, or 1.8%, to 45,631.74, to its first record of 2025. The S&P 500 (^GSPC) gained 1.5%, finishing just shy of a fresh all-time high. The Nasdaq Composite (^IXIC) jumped 1.9% as investors cheered signals from Federal Reserve Chair Jerome Powell that rate cuts could start as early as September.\n\nWith earnings season continuing to roll on, Nvidia, the most valuable stock in the S&P 500, reports results after the closing bell Wednesday. Analysts see the chipmaker posting earnings of $1.01 per share on $46.13 billion in revenue. Price targets have been climbing in the lead-up, reflecting optimism that demand for AI hardware remains high.\n\nNvidia stock has already had a monster run: Shares are sitting near a record high, up 32% year to date while nearly doubling since April’s market low. Wednesday’s report acts as a litmus test for Nvidia as well as the broader market, as investors eyed a potential rotation out of tech before the end-of-week rally. Meanwhile, Dell (DELL) and Marvell Technology (MRVL) report Thursday.\n\nLooking ahead, the spotlight turns to Friday’s July PCE inflation report, the Fed's preferred inflation gauge. Economists expect core PCE to rise 2.9% year over year, slightly higher than June’s 2.8%.\n\nComing soon\n\nLIVE COVERAGE BEGINS SOON\n\nStock market coverage for Monday, Aug 25, 2025.\n\nAfficher les commentaires",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "NVIDIA Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 36000,
+          "description": "NVIDIA Corporation, a computing infrastructure company, provides graphics and compute and networking solutions in the United States, Singapore, Taiwan, China, Hong Kong, and internationally. The Compute & Networking segment includes its Data Centre accelerated computing platforms and artificial inte"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.1,
+          "profit_margin": 0.5169,
+          "operating_margin": 0.4911,
+          "roe": 1.1546,
+          "roa": 0.5324,
+          "revenue_growth_yoy": 0.692,
+          "earnings_growth_yoy": 0.267,
+          "eps_estimate_current_year": 2.9539,
+          "eps_estimate_next_year": 4.4343,
+          "dividend_yield": 0.0002,
+          "dividend_per_share": 0.04,
+          "revenue_ttm": 148514996224,
+          "revenue_per_share": 6.059,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 57.4161,
+          "forward_pe": 39.5257,
+          "price_to_sales": 29.2277,
+          "price_to_book": 51.7723,
+          "enterprise_value": 4298335281999,
+          "ev_to_revenue": 28.9421,
+          "ev_to_ebitda": 47.2511
+        },
+        "technical_data": {
+          "beta": 2.145,
+          "52_week_high": 184.48,
+          "52_week_low": 86.614,
+          "50_day_ma": 166.9966,
+          "200_day_ma": 137.8551,
+          "short_interest": 0.0082,
+          "short_ratio": 1.17
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.04,
+          "forward_dividend_yield": 0.0002,
+          "payout_ratio": 0.012,
+          "dividend_date": "2025-07-03",
+          "ex_dividend_date": "2025-06-11",
+          "last_split_date": "2024-06-10",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5238,
+          "target_price": 191.8804,
+          "strong_buy": 43,
+          "buy": 12,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 24387600384,
+          "percent_institutions": 68.688,
+          "percent_insiders": 4.317,
+          "shares_float": 23420096000
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125254.0,
+          "total_debt": 10285.0,
+          "net_debt": -4949.0,
+          "working_capital": 63393.0,
+          "shareholders_equity": 83843.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.12
+        },
+        "income_latest_statement": {
+          "total_revenue": 44062.0,
+          "gross_profit": 26668.0,
+          "operating_income": 21638.0,
+          "net_income": 18775.0,
+          "ebitda": 22584.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 60.52,
+          "operating_margin": 49.11,
+          "net_margin": 42.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27414.0,
+          "free_cash_flow": 26187.0,
+          "capex": 1227.0,
+          "net_income": 18775.0,
+          "cash_change": 6645.0,
+          "dividends_paid": 244.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-07-31",
+            "estimate": 1,
+            "symbol": null
+          },
+          {
+            "date": "2025-10-31",
+            "estimate": 1.19,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 165.37,
+            "high": 165.49,
+            "low": 162.02,
+            "close": 164.07,
+            "volume": 136975812
+          },
+          {
+            "date": "2025-07-15",
+            "open": 171.19,
+            "high": 172.4,
+            "low": 169.195,
+            "close": 170.7,
+            "volume": 230627391
+          },
+          {
+            "date": "2025-07-16",
+            "open": 171.06,
+            "high": 171.75,
+            "low": 168.9,
+            "close": 171.37,
+            "volume": 158831500
+          },
+          {
+            "date": "2025-07-17",
+            "open": 172.02,
+            "high": 174.16,
+            "low": 170.83,
+            "close": 173,
+            "volume": 160841109
+          },
+          {
+            "date": "2025-07-18",
+            "open": 173.64,
+            "high": 174.25,
+            "low": 171.26,
+            "close": 172.41,
+            "volume": 146456406
+          },
+          {
+            "date": "2025-07-21",
+            "open": 172.75,
+            "high": 173.38,
+            "low": 171,
+            "close": 171.38,
+            "volume": 123126094
+          },
+          {
+            "date": "2025-07-22",
+            "open": 171.34,
+            "high": 171.39,
+            "low": 164.58,
+            "close": 167.03,
+            "volume": 193114297
+          },
+          {
+            "date": "2025-07-23",
+            "open": 169.53,
+            "high": 171.26,
+            "low": 167.97,
+            "close": 170.78,
+            "volume": 154082203
+          },
+          {
+            "date": "2025-07-24",
+            "open": 172.44,
+            "high": 173.83,
+            "low": 171.3,
+            "close": 173.74,
+            "volume": 128984602
+          },
+          {
+            "date": "2025-07-25",
+            "open": 173.61,
+            "high": 174.72,
+            "low": 172.96,
+            "close": 173.5,
+            "volume": 122316797
+          },
+          {
+            "date": "2025-07-28",
+            "open": 174.02,
+            "high": 177,
+            "low": 173.97,
+            "close": 176.75,
+            "volume": 140023500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 177.96,
+            "high": 179.38,
+            "low": 175.02,
+            "close": 175.51,
+            "volume": 154077500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 176.51,
+            "high": 179.89,
+            "low": 176.04,
+            "close": 179.27,
+            "volume": 174312188
+          },
+          {
+            "date": "2025-07-31",
+            "open": 182.9,
+            "high": 183.3,
+            "low": 175.93,
+            "close": 177.87,
+            "volume": 221685406
+          },
+          {
+            "date": "2025-08-01",
+            "open": 174.09,
+            "high": 176.54,
+            "low": 170.89,
+            "close": 173.72,
+            "volume": 204528984
+          },
+          {
+            "date": "2025-08-04",
+            "open": 175.16,
+            "high": 180.2,
+            "low": 174.52,
+            "close": 180,
+            "volume": 148174594
+          },
+          {
+            "date": "2025-08-05",
+            "open": 179.62,
+            "high": 180.26,
+            "low": 175.9,
+            "close": 178.26,
+            "volume": 156407594
+          },
+          {
+            "date": "2025-08-06",
+            "open": 176.325,
+            "high": 179.9,
+            "low": 176.25,
+            "close": 179.42,
+            "volume": 137192297
+          },
+          {
+            "date": "2025-08-07",
+            "open": 181.57,
+            "high": 183.88,
+            "low": 178.795,
+            "close": 180.77,
+            "volume": 151878406
+          },
+          {
+            "date": "2025-08-08",
+            "open": 181.55,
+            "high": 183.3,
+            "low": 180.4,
+            "close": 182.7,
+            "volume": 123396703
+          },
+          {
+            "date": "2025-08-11",
+            "open": 182.05,
+            "high": 183.84,
+            "low": 180.25,
+            "close": 182.06,
+            "volume": 138323203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 182.96,
+            "high": 184.48,
+            "low": 179.46,
+            "close": 183.16,
+            "volume": 145729203
+          },
+          {
+            "date": "2025-08-13",
+            "open": 182.615,
+            "high": 183.97,
+            "low": 179.35,
+            "close": 181.59,
+            "volume": 179871703
+          },
+          {
+            "date": "2025-08-14",
+            "open": 179.75,
+            "high": 183.02,
+            "low": 179.46,
+            "close": 182.02,
+            "volume": 129554000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 181.88,
+            "high": 181.9,
+            "low": 178.0417,
+            "close": 180.45,
+            "volume": 156602203
+          },
+          {
+            "date": "2025-08-18",
+            "open": 180.6,
+            "high": 182.9375,
+            "low": 180.59,
+            "close": 182.01,
+            "volume": 132008000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 182.43,
+            "high": 182.5,
+            "low": 175.49,
+            "close": 175.64,
+            "volume": 185229203
+          },
+          {
+            "date": "2025-08-20",
+            "open": 175.165,
+            "high": 176,
+            "low": 168.801,
+            "close": 175.4,
+            "volume": 215142703
+          },
+          {
+            "date": "2025-08-21",
+            "open": 174.85,
+            "high": 176.9,
+            "low": 173.81,
+            "close": 174.98,
+            "volume": 140040891
+          },
+          {
+            "date": "2025-08-22",
+            "open": 172.61,
+            "high": 178.59,
+            "low": 171.2,
+            "close": 177.99,
+            "volume": 172789427
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.5878962536023105,
+        "return_63d": 35.57011196587708,
+        "pct_above_sma50": 6.583008276815222,
+        "sma_50": 166.9966,
+        "new_55d_high": "False",
+        "high_55d": 184.48,
+        "rsi": 45.64746643568647,
+        "rsi_in_range": "False",
+        "adx": 32.77470764439884,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.725147480195518,
+        "bb_width": 6.487486092343175,
+        "keltner_width": 10.857761170024595,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 28698913496.3139,
+        "adv_shares": 160348385.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 55.58286935139517,
+        "final_score": 50.58286935139517,
+        "sub_scores": {
+          "trend_momentum": 17.582869351395168,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 2.446183953033265,
+          "ret_63d": 33.99834374764736,
+          "rsi14": 45.64746643568647,
+          "adx14": 31.36394329079028,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVDA\n• Current Price: $177.99\n• Overall Score: 52.87692307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 166.9966\n• Sma 200: 137.8551\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.446183953033268\n• Momentum 63D: 33.99834374764736\n• Momentum 126D: 32.40348136576657\n• Momentum Acceleration: -31.55215979461409\n• Roc 21D: 2.446183953033268\n• Trend Strength 20D: 0.010368599699539483\n• Trend Direction: 1\n• Ma Ribbon Score: 71.84361412101754\n• Breakout Strength: 0.0\n• Price Velocity: -0.0025824030381805586\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: -0.6056263028326013\n• Volatility Compression: 0.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.582869351395168\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 55.0\n• Squeeze: 50.0\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVDA\n• Strike Price: $175\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $13.45\n• Ask: $13.55\n• Last: $13.5\n• Mid: $13.50\n• Spread: 0.7380073800738007380073800738%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5887\n• Gamma: 0.0135\n• Theta: -0.1104\n• Vega: 0.2712\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4132\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 23645\n• Open Interest: 47111\n• Volume/OI Ratio: 0.5018997686315297\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: NVIDIA Corporation\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $3.1\n• Profit Margin: 51.7%\n• ROE: 115.5%\n• P/E Ratio: 57.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T01:00:00+00:00: Automotive Refinish Coatings Market worth $13.85 billion by 2030, at a CAGR of 3...\n• 2025-08-25T00:38:03+00:00: Asia shares bounce as markets count on US rate cuts...\n• 2025-08-25T00:22:00+00:00: Terumo to acquire OrganOx Limited, a leading innovator in organ preservation dev...\n• 2025-08-25T00:05:25+00:00: US stock futures steady after Wall St soars on dovish Powell; Nvidia earnings du...\n• 2025-08-24T23:58:31+00:00: Stock market today: Dow, S&amp;P 500, Nasdaq futures steady after record surge w...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVDA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVDA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:15:45.031064",
+    "estimated_tokens": 2330
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVDA\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 17,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 8,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NVDA shows strong technical momentum with price above both SMAs and positive MA ribbon score of 71.84, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, decelerating momentum (-31.55 acceleration) and upcoming earnings present near-term risks.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 and 200 SMAs\",\n        \"Excellent liquidity with 47,111 open interest and tight 0.74% spread\",\n        \"Robust fundamentals with 51.7% profit margin and 115.5% ROE\"\n    ],\n    \"risks\": [\n        \"Significant momentum deceleration (-31.55)\",\n        \"Earnings approaching on 2025-07-31\",\n        \"High P/E ratio of 57.4 suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS Call spread to reduce theta decay and IV exposure\",\n        \"entry_timing\": \"Wait until after earnings release due to event risk\",\n        \"risk_management\": \"Use 175 strike as support level, consider rolling down if momentum deterioration continues\"\n    },\n    \"red_flags\": [\n        \"Earnings within 30 days\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"Options have favorable Greeks profile with 0.59 delta and moderate theta, but upcoming earnings create significant event risk that should be avoided\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVDA",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 17,
+        "iv_value": 9,
+        "squeeze_volatility": 7,
+        "fundamentals": 8,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NVDA shows strong technical momentum with price above both SMAs and positive MA ribbon score of 71.84, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, decelerating momentum (-31.55 acceleration) and upcoming earnings present near-term risks.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 and 200 SMAs",
+        "Excellent liquidity with 47,111 open interest and tight 0.74% spread",
+        "Robust fundamentals with 51.7% profit margin and 115.5% ROE"
+      ],
+      "risks": [
+        "Significant momentum deceleration (-31.55)",
+        "Earnings approaching on 2025-07-31",
+        "High P/E ratio of 57.4 suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS Call spread to reduce theta decay and IV exposure",
+        "entry_timing": "Wait until after earnings release due to event risk",
+        "risk_management": "Use 175 strike as support level, consider rolling down if momentum deterioration continues"
+      },
+      "red_flags": [
+        "Earnings within 30 days",
+        "Negative momentum acceleration"
+      ],
+      "notes": "Options have favorable Greeks profile with 0.59 delta and moderate theta, but upcoming earnings create significant event risk that should be avoided"
+    },
+    "tokens_used": 2528,
+    "cost": 0.025279999999999997,
+    "response_time": 8.95728087425232,
+    "success": true
+  },
+  "cost": 0.025279999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8524,
+    "response_length": 1589
+  }
+}

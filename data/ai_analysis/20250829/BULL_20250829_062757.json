@@ -1,0 +1,610 @@
+{
+  "success": true,
+  "symbol": "BULL",
+  "timestamp": "2025-08-29T06:27:57.952127",
+  "data_package": {
+    "metadata": {
+      "symbol": "BULL",
+      "package_timestamp": "2025-08-29T06:27:47.272712",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 61.25,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BULL",
+        "current_price": 14.67,
+        "overall_score": 53.464067504057006,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 12.4356,
+        "sma_200": 12.7629
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.16129032258065,
+        "momentum_63d": 17.926045016077175,
+        "momentum_126d": 25.599315068493155,
+        "momentum_acceleration": -12.764754693496524,
+        "roc_21d": 5.16129032258065,
+        "trend_strength_20d": 0.011184425419116299,
+        "trend_direction": 1,
+        "ma_ribbon_score": 49.42360963954931,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006390900191965865
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 10.0,
+        "squeeze_momentum": -0.02406648751263407,
+        "volatility_compression": 70.68259201557531,
+        "is_consolidating": "False",
+        "breakout_score": -14.03972262064998,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.858900939369796,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20.668902538902568,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 55.0,
+        "squeeze": 65.60238880233629,
+        "options": 46.0,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 6,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BULL",
+        "strike_price": "15",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.02",
+        "ask": "2.05",
+        "last_price": "2.05",
+        "mid_price": "2.035",
+        "spread_percent": "1.463414634146341463414634146"
+      },
+      "greeks": {
+        "delta": 0.5719,
+        "gamma": 0.0776,
+        "theta": -0.0209,
+        "vega": 0.0216
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.9188
+      },
+      "liquidity_metrics": {
+        "volume": 840,
+        "open_interest": 7489,
+        "volume_oi_ratio": 0.11216450794498597
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:20.247845",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T20:16:07+00:00",
+            "title": "Webull Corporation Q2 Loss Rises",
+            "content": "(RTTNews) - Webull Corporation (BULL) released Loss for its second quarter of -$518.9 million\n\nThe company's earnings totaled -$518.9 million, or -$1.20 per share.  This compares with -$22.7 million, or -$0.16 per share, last year.\n\nThe company's revenue for the period rose 46.3% to $131.5 million from $89.9 million last year.\n\nWebull Corporation earnings at a glance (GAAP) :\n\n-Earnings: -$518.9 Mln. vs. -$22.7 Mln. last year. -EPS: -$1.20 vs. -$0.16 last year. -Revenue: $131.5 Mln vs. $89.9 Mln last year. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:05:24+00:00",
+            "title": "Webull Corporation GAAP EPS of -$1.20, revenue of $131.5M",
+            "content": " \t* Webull Corporation press release [https://seekingalpha.com/pr/20215304-webull-reports-second-quarter-2025-financial-results] (NASDAQ:BULL [https://seekingalpha.com/symbol/BULL]): Q2 GAAP EPS of -$1.20.\n \t* Revenue of $131.5M.\n \t* Adjusted operating expenses increased 20% year-over-year to $108.2 million.\n \t* Loss before income taxes totaled $21.4 million for the quarter, representing a year-over-year increase of $11.1 million. The increase was primarily due to expensing $11.0 million of equity offering costs. \n \t* Adjusted operating profit totaled $23.3 million for the quarter, representing a year-over-year improvement of $23.6 million and an increase of 18% year-over-year.\n \t* Adjusted operating profit per share was $0.05 for the quarter and $0.18 for the six months ended June 30, 2025, representing an increase of $0.05 and $0.17 from the same prior year comparative periods.\n \t* \n\nMORE ON WEBULL CORPORATION\n\n \t* Webull Q2 Earnings: A Make-Or-Break Moment [https://seekingalpha.com/article/4816765-webull-q2-earnings-a-make-or-break-moment]\n \t* Webull: 3 Reasons To Aggressively Buy The Dip (Rating Upgrade) [https://seekingalpha.com/article/4816764-webull-3-reasons-to-aggressively-buy-the-dip]\n \t* Webull: Valuation Stretched, Profitability Uncertain; Sell [https://seekingalpha.com/article/4807451-webull-valuation-stretched-profitability-uncertain-sell]\n \t* Webull relaunches crypto trading for U.S. customers on Monday [https://seekingalpha.com/news/4488708-webull-relaunches-crypto-trading-for-us-customers-on-monday---report]\n \t* Webull stock jumps on crypto unit reintegration announcement [https://seekingalpha.com/news/4468415-webull-stock-jumps-on-crypto-unit-reintegration-announcement]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T16:10:07+00:00",
+            "title": "As Webull Brings Back Crypto Trading, Is BULL Stock a Buy?",
+            "content": "Webull (BULL [https://www.webull.com/news/12860855480435712#:~:text=Q1%20Results%3A%20Webull%20reported%20first,of%20six%20cents%20per%20share.]) recently reintroduced crypto trading for U.S. customers after a two-year hiatus. This month's relaunch brings 24/7 crypto trading back into Webull’s main app (Webull Pay), supporting over 50 digital assets [https://seekingalpha.com/news/4488708-webull-relaunches-crypto-trading-for-us-customers-on-monday---report], from Bitcoin (BTCUSD) [https://www.barchart.com/quotes/^BTCUSD] and Ethereum (ETHUSD) [https://www.barchart.com/quotes/^ETHUSD] to Solana (SOLUSD) [https://www.barchart.com/quotes/^SOLUSD], directly alongside stocks and options. For Webull’s over 24 million users, this means seamless access to crypto markets on the same platform. The move follows a successful trial in Brazil and company restructuring, and analysts expect it to boost trading volume by around 30% post-launch.\n\nIn short, Webull’s comeback signals renewed retail access to crypto and a more integrated trading experience. For investors, this move raises a pressing question: as Webull doubles down on crypto, is BULL stock worth buying today?\n\nABOUT BULL STOCK\n\nHeadquartered in Saint Petersburg, Florida, Webull is a global digital investment platform that gives retail investors access to securities trading through its licensed broker-dealer. The company recently went public on April 11, a move that has accelerated its growth and drawn increased attention from investors. \n\nValued at a small market cap of $7 billion, this new IPO company's shares slid 9% this month but remain about 23% higher year-to-date. [https://www.barchart.com/stocks/quotes/BULL/performance] The stock trades 40% up from its 52-week low of $10.18.\n\nIn terms of valuation, Webull trades at a 5x sales ratio, which is 55% higher than the sector median of 3.2x, indicating that investors are pricing in stronger growth expectations and a premium for its expanding user base and potential in crypto-driven revenues.\n www.barchart.com [https://www.barchart.com/stocks/quotes/BULL/interactive-chart] \n\nEARNINGS SPOTLIGHT: Q2 RESULTS ON DECK\n\nWebull will release its second-quarter results after the market closes on Thursday, and investors are watching closely. The company has drawn attention with the relaunch of its cryptocurrency trading platform, a move that could play a big role in shaping near-term sentiment.\n\nIn Q1, Webull posted revenue of $117.37 million [https://www.webull.com/news/12860855480435712#:~:text=Q1%20Results%3A%20Webull%20reported%20first,of%20six%20cents%20per%20share.], up 32% year-over-year (YoY), while reporting a loss of $0.06 per share. Customer assets climbed 45%, and registered users rose 17% to 24.1 million, showing steady growth across its platform.\n\nThe balance sheet looks supportive. Cash and cash equivalents stood at about $297.5 million (plus materially large customer-segregated balances). Management did not issue formal revenue or EPS guidance for Q2 or the full fiscal year, and published analyst consensus figures remain scarce ahead of the Q2 release. Some market observers have crudely annualized Q1 to suggest a FY topline in the $470 million to $550 million range if growth sustains.\n\nThe big focus now shifts to how Webull’s push into crypto impacts its topline. The firm reintroduced digital asset trading in Brazil during June and expanded it again this week to the U.S., giving customers access to more than 50 cryptos. \n\nWHAT DOES WEBULL CRYPTO MOVE MEAN FOR INVESTORS\n\nThe relaunch of crypto trading on Webull's platform is providing traders with additional venues in which they can leap into Bitcoin. That said, this does not mean you have to automatically pour money into BULL. As Bitcoin prices rise, your bank account will increase your gains; however, when the market retreats, it will also add to the losses. Fund rebalancing and volatility drag may eat up your investment in turbulent markets. Glitches in technology or regulatory changes could be the reason the price stubbornly nudges as well.\n\nBULL is attractive here for traders seeking short-term exposure, not for investors looking for longer-term, buy-and-hold positions. This means you should only think of BULL as a strategy game. Consider your position sizing, stop-loss strategies, and practice risk management. Continue to do your own research on Webull and respond to company news appropriately.\n\n_ On the date of publication, Nauman Khan [https://www.barchart.com/news/authors/413/nauman-khan] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:01:12+00:00",
+            "title": "Webull brings crypto trading back to main US platform",
+            "content": "Webull Corporation (BULL) announced it has reintegrated cryptocurrency trading into its main platform for US users. The feature allows customers to manage their Webull Pay accounts directly within the Webull app, eliminating the need to use a separate standalone application.\n\nThe platform now offers 24/7 real-time trading of over 50 digital assets, including Bitcoin, Ethereum, and Solana. Previously, US users needed to open and access a separate Webull Pay account through a dedicated app to trade cryptocurrencies.\n\n\"By reintegrating crypto trading into the Webull app, we are making it easier for customers to access and manage their entire portfolio, whether they’re trading stocks, options, or digital assets,\" said Anthony Denier, US CEO and Group President at Webull.\n\nStephen Yip, CEO of Webull Pay, stated that the integration aims to deliver \"a more unified and convenient experience that reflects how modern investors want to manage their portfolios.\"\n\nCryptocurrency trading on Webull is currently available in the US and Brazil, with the company planning additional market rollouts in coming months. The announcement was made in a press release statement.\n\nWebull operates as an online investment platform serving more than 24 million registered users globally across 14 markets in North America, Asia Pacific, Europe, and Latin America. The company offers trading services for stocks, ETFs, options, futures, fractional shares, and digital assets.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:00:00+00:00",
+            "title": "Investment Platform Webull Brings Back Crypto Trading to U.S.",
+            "content": "Webull Corp. (BULL) reintroduced cryptocurrency trading for U.S. users, integrating the feature directly into its core investment app, the company said Monday.\n\nThe move means traders no longer need to access Webull Pay separately to buy or sell cryptocurrencies. Instead, they can open and manage accounts and trade digital assets alongside stocks and options in one place.\n\nThe Nasdaq-listed company said the revamped service supports 24/7 trading of more than 50 tokens, including bitcoin (BTC), ether (ETH) and solana (SOL).\n\nCrypto trading was available on Webull until 2023, when the Webull Pay digital asset business became a separate entity.\n\n\"Now, with a new administration prioritizing regulatory clarity and adoption of digital assets, the environment has never been more favorable for bringing crypto back to Webull. We believe this is the right time to reintroduce crypto trading to our U.S. users,\" Anthony Denier, U.S. CEO and group president at Webull, said in emailed comments.\n\nCrypto trading on Webull is currently available in the U.S. and Brazil, with further market expansions planned in the coming months.\n\nRead more: FLOKI Lists on Webull Pay, Unlocking Access to 24M Users Amid Volatile Trading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Webull Corp",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "employees": 1194,
+          "description": "Webull Corporation operates as a digital investment platform. Its platform enables retail investors to trade securities through its licensed broker dealer in the United States, Canada, the United Kingdom, Australia, Hong Kong, Indonesia, Singapore, Malaysia, Thailand, Japan, South Africa, the Nether"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.24,
+          "profit_margin": 0.0068,
+          "operating_margin": 0.1661,
+          "roe": -0.0006,
+          "roa": -0.0002,
+          "revenue_growth_yoy": 0.308,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": 0,
+          "eps_estimate_next_year": 0,
+          "revenue_ttm": 417404416,
+          "revenue_per_share": 2.999,
+          "most_recent_quarter": "2025-03-31"
+        },
+        "valuation": {
+          "pe_ratio": 11.7903,
+          "forward_pe": 0,
+          "price_to_sales": 16.9771,
+          "price_to_book": 0,
+          "enterprise_value": 10680423461,
+          "ev_to_revenue": 25.5108,
+          "ev_to_ebitda": 578.2878
+        },
+        "technical_data": {
+          "beta": -0.2,
+          "52_week_high": 79.56,
+          "52_week_low": 9.54,
+          "50_day_ma": 12.4356,
+          "200_day_ma": 12.7629,
+          "short_interest": 0.0213,
+          "short_ratio": 0.74
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 401712000,
+          "percent_institutions": 41.198,
+          "percent_insiders": 21.041,
+          "shares_float": 34024397
+        },
+        "balance_latest_sheet": {
+          "total_assets": 2023.502999,
+          "total_debt": 13.703079,
+          "net_debt": -283.777411,
+          "working_capital": 512.222483,
+          "shareholders_equity": 628.424722,
+          "quarter_date": "2025-03-31",
+          "debt_to_equity": 0.02
+        },
+        "income_latest_statement": {
+          "total_revenue": 117.369,
+          "gross_profit": 94.123,
+          "operating_income": 20.587,
+          "net_income": 13.086,
+          "ebitda": 20.587,
+          "quarter_date": "2025-03-31",
+          "gross_margin": 80.19,
+          "operating_margin": 17.54,
+          "net_margin": 11.15
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 38.433,
+          "free_cash_flow": 37.972231,
+          "capex": 0.46077,
+          "net_income": 10.620818,
+          "cash_change": 29.673711,
+          "quarter_date": "2025-03-31"
+        }
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 14.65,
+            "high": 17.22,
+            "low": 14.3812,
+            "close": 16.89,
+            "volume": 55290987
+          },
+          {
+            "date": "2025-07-21",
+            "open": 15.435,
+            "high": 16.6,
+            "low": 14.575,
+            "close": 14.62,
+            "volume": 30819943
+          },
+          {
+            "date": "2025-07-22",
+            "open": 14.72,
+            "high": 17.05,
+            "low": 14.35,
+            "close": 16.97,
+            "volume": 27656668
+          },
+          {
+            "date": "2025-07-23",
+            "open": 17.2,
+            "high": 17.91,
+            "low": 16.29,
+            "close": 17.74,
+            "volume": 29467665
+          },
+          {
+            "date": "2025-07-24",
+            "open": 17.74,
+            "high": 18.32,
+            "low": 15.91,
+            "close": 16.09,
+            "volume": 22451483
+          },
+          {
+            "date": "2025-07-25",
+            "open": 15.855,
+            "high": 16.65,
+            "low": 15.32,
+            "close": 16.045,
+            "volume": 16633133
+          },
+          {
+            "date": "2025-07-28",
+            "open": 16.15,
+            "high": 16.34,
+            "low": 15.4,
+            "close": 15.72,
+            "volume": 12227343
+          },
+          {
+            "date": "2025-07-29",
+            "open": 15.25,
+            "high": 15.48,
+            "low": 13.65,
+            "close": 13.69,
+            "volume": 23938688
+          },
+          {
+            "date": "2025-07-30",
+            "open": 13.87,
+            "high": 14.29,
+            "low": 13.7,
+            "close": 13.95,
+            "volume": 13740836
+          },
+          {
+            "date": "2025-07-31",
+            "open": 13.89,
+            "high": 14.41,
+            "low": 13.62,
+            "close": 14.19,
+            "volume": 13428458
+          },
+          {
+            "date": "2025-08-01",
+            "open": 13.465,
+            "high": 13.7,
+            "low": 13.05,
+            "close": 13.33,
+            "volume": 12452915
+          },
+          {
+            "date": "2025-08-04",
+            "open": 13.44,
+            "high": 14.43,
+            "low": 13.38,
+            "close": 14.29,
+            "volume": 10601267
+          },
+          {
+            "date": "2025-08-05",
+            "open": 14.32,
+            "high": 15.248,
+            "low": 14.2642,
+            "close": 14.84,
+            "volume": 11258703
+          },
+          {
+            "date": "2025-08-06",
+            "open": 14.775,
+            "high": 16.1405,
+            "low": 14.72,
+            "close": 15.41,
+            "volume": 16892447
+          },
+          {
+            "date": "2025-08-07",
+            "open": 15.73,
+            "high": 15.8999,
+            "low": 15.06,
+            "close": 15.32,
+            "volume": 11120097
+          },
+          {
+            "date": "2025-08-08",
+            "open": 15.38,
+            "high": 15.73,
+            "low": 14.76,
+            "close": 15,
+            "volume": 9188883
+          },
+          {
+            "date": "2025-08-11",
+            "open": 15.25,
+            "high": 16.41,
+            "low": 14.855,
+            "close": 14.88,
+            "volume": 16746196
+          },
+          {
+            "date": "2025-08-12",
+            "open": 15.185,
+            "high": 15.8614,
+            "low": 15.05,
+            "close": 15.63,
+            "volume": 9676955
+          },
+          {
+            "date": "2025-08-13",
+            "open": 15.67,
+            "high": 16.05,
+            "low": 15,
+            "close": 15.015,
+            "volume": 10899667
+          },
+          {
+            "date": "2025-08-14",
+            "open": 14.83,
+            "high": 15.8497,
+            "low": 14.67,
+            "close": 15.45,
+            "volume": 10043845
+          },
+          {
+            "date": "2025-08-15",
+            "open": 15.63,
+            "high": 16.1299,
+            "low": 15.05,
+            "close": 16.005,
+            "volume": 12045678
+          },
+          {
+            "date": "2025-08-18",
+            "open": 16.294,
+            "high": 17.08,
+            "low": 15.552,
+            "close": 15.97,
+            "volume": 17611912
+          },
+          {
+            "date": "2025-08-19",
+            "open": 16,
+            "high": 16.32,
+            "low": 14.93,
+            "close": 14.93,
+            "volume": 12212995
+          },
+          {
+            "date": "2025-08-20",
+            "open": 14.85,
+            "high": 14.87,
+            "low": 14.0492,
+            "close": 14.34,
+            "volume": 11356767
+          },
+          {
+            "date": "2025-08-21",
+            "open": 14.17,
+            "high": 14.46,
+            "low": 13.91,
+            "close": 14.27,
+            "volume": 4886844
+          },
+          {
+            "date": "2025-08-22",
+            "open": 14.01,
+            "high": 15.515,
+            "low": 13.81,
+            "close": 15.41,
+            "volume": 11011105
+          },
+          {
+            "date": "2025-08-25",
+            "open": 15.37,
+            "high": 15.64,
+            "low": 14.93,
+            "close": 14.96,
+            "volume": 8236299
+          },
+          {
+            "date": "2025-08-26",
+            "open": 15,
+            "high": 15.3,
+            "low": 14.75,
+            "close": 15,
+            "volume": 6689080
+          },
+          {
+            "date": "2025-08-27",
+            "open": 14.88,
+            "high": 14.9599,
+            "low": 14.35,
+            "close": 14.44,
+            "volume": 7928266
+          },
+          {
+            "date": "2025-08-28",
+            "open": 14.595,
+            "high": 14.7499,
+            "low": 14.28,
+            "close": 14.67,
+            "volume": 11962390
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.3826638477801296,
+        "return_63d": 25.599315068493155,
+        "pct_above_sma50": 4.741573194153902,
+        "sma_50": 14.005899999999999,
+        "new_55d_high": "False",
+        "high_55d": 18.32,
+        "rsi": 47.51131221719457,
+        "rsi_in_range": "False",
+        "adx": 21.805200125403513,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 7.06676891615542,
+        "bb_width": 17.006455063984426,
+        "keltner_width": 27.647516247472304,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 166648806.39690003,
+        "adv_shares": 11141115.55,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.52780347827236,
+        "final_score": 45.52780347827236,
+        "sub_scores": {
+          "trend_momentum": 14.858900939369796,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20.668902538902568,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 5.161290322580658,
+          "ret_63d": 17.926045016077175,
+          "rsi14": 47.51131221719457,
+          "adx14": 18.870984710123803,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 50.0,
+      "overall_score": 61.25,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BULL\n• Current Price: $14.67\n• Overall Score: 53.464067504057006\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 12.4356\n• Sma 200: 12.7629\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.16129032258065\n• Momentum 63D: 17.926045016077175\n• Momentum 126D: 25.599315068493155\n• Momentum Acceleration: -12.764754693496524\n• Roc 21D: 5.16129032258065\n• Trend Strength 20D: 0.011184425419116299\n• Trend Direction: 1\n• Ma Ribbon Score: 49.42360963954931\n• Breakout Strength: 0.0\n• Price Velocity: 0.006390900191965865\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 10.0\n• Squeeze Momentum: -0.02406648751263407\n• Volatility Compression: 70.68259201557531\n• Is Consolidating: False\n• Breakout Score: -14.03972262064998\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.858900939369796\n• Squeeze Breakout: 4.0\n• Options Quality: 20.668902538902568\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 55.0\n• Squeeze: 65.60238880233629\n• Options: 46.0\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BULL\n• Strike Price: $15\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.02\n• Ask: $2.05\n• Last: $2.05\n• Mid: $2.035\n• Spread: 1.463414634146341463414634146%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5719\n• Gamma: 0.0776\n• Theta: -0.0209\n• Vega: 0.0216\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.9188\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 840\n• Open Interest: 7489\n• Volume/OI Ratio: 0.11216450794498597\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Webull Corp\n• Sector: Technology\n• Industry: Software - Application\n• EPS (TTM): $1.24\n• Profit Margin: 0.7%\n• ROE: -0.1%\n• P/E Ratio: 11.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T20:16:07+00:00: Webull Corporation Q2 Loss Rises...\n• 2025-08-28T20:05:24+00:00: Webull Corporation GAAP EPS of -$1.20, revenue of $131.5M...\n• 2025-08-28T16:10:07+00:00: As Webull Brings Back Crypto Trading, Is BULL Stock a Buy?...\n• 2025-08-25T13:01:12+00:00: Webull brings crypto trading back to main US platform...\n• 2025-08-25T13:00:00+00:00: Investment Platform Webull Brings Back Crypto Trading to U.S....\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 61.2%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BULL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BULL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:27:57.951853",
+    "estimated_tokens": 2350
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BULL\",\n    \"rating\": 64,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 4,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BULL shows positive momentum with price above both SMAs and strong squeeze potential (70.68% compression), but faces headwinds from decelerating momentum (-12.76) and weak fundamentals. The options setup offers decent liquidity with tight spreads (1.46%), making it suitable for a measured bullish position with strict risk management.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (12.43) and 200 SMA (12.76)\",\n        \"Strong volatility compression (70.68%) with 3 timeframe squeeze active\",\n        \"Options have tight bid-ask spread (1.46%) with healthy OI (7,489)\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-12.76)\",\n        \"Poor fundamentals with negative ROE (-0.1%)\",\n        \"Recent earnings miss with Q2 loss increase\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 $15 Calls with 0.57 delta for balanced exposure\",\n        \"entry_timing\": \"Wait for squeeze momentum to turn positive from current -0.024\",\n        \"risk_management\": \"Set stops based on squeeze breakout level, consider partial profit taking at resistance\"\n    },\n    \"red_flags\": [\n        \"Deteriorating earnings performance\",\n        \"Negative momentum acceleration trend\"\n    ],\n    \"notes\": \"Data completeness at 61.2% - missing key volatility metrics (IV rank/percentile) limits confidence in volatility assessment\"\n}",
+    "parsed_analysis": {
+      "symbol": "BULL",
+      "rating": 64,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 4,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "BULL shows positive momentum with price above both SMAs and strong squeeze potential (70.68% compression), but faces headwinds from decelerating momentum (-12.76) and weak fundamentals. The options setup offers decent liquidity with tight spreads (1.46%), making it suitable for a measured bullish position with strict risk management.",
+      "opportunities": [
+        "Price trending above both 50 SMA (12.43) and 200 SMA (12.76)",
+        "Strong volatility compression (70.68%) with 3 timeframe squeeze active",
+        "Options have tight bid-ask spread (1.46%) with healthy OI (7,489)"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-12.76)",
+        "Poor fundamentals with negative ROE (-0.1%)",
+        "Recent earnings miss with Q2 loss increase"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 $15 Calls with 0.57 delta for balanced exposure",
+        "entry_timing": "Wait for squeeze momentum to turn positive from current -0.024",
+        "risk_management": "Set stops based on squeeze breakout level, consider partial profit taking at resistance"
+      },
+      "red_flags": [
+        "Deteriorating earnings performance",
+        "Negative momentum acceleration trend"
+      ],
+      "notes": "Data completeness at 61.2% - missing key volatility metrics (IV rank/percentile) limits confidence in volatility assessment"
+    },
+    "tokens_used": 2566,
+    "cost": 0.025660000000000002,
+    "response_time": 10.677400827407837,
+    "success": true
+  },
+  "cost": 0.025660000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 61.25,
+    "prompt_length": 8611,
+    "response_length": 1658
+  }
+}

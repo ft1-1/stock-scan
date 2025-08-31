@@ -1,0 +1,621 @@
+{
+  "success": true,
+  "symbol": "NCLH",
+  "timestamp": "2025-08-28T01:53:15.709655",
+  "data_package": {
+    "metadata": {
+      "symbol": "NCLH",
+      "package_timestamp": "2025-08-28T01:53:05.368329",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NCLH",
+        "current_price": 24.88,
+        "overall_score": 51.216571000540355,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 22.603,
+        "sma_200": 22.5945
+      },
+      "momentum_metrics": {
+        "momentum_21d": 6.279367791542072,
+        "momentum_63d": 41.84720638540479,
+        "momentum_126d": -0.6786427145708651,
+        "momentum_acceleration": -35.56783859386272,
+        "roc_21d": 6.279367791542072,
+        "trend_strength_20d": 0.07422644356076147,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.83435915670475,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.009030041618532315
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 15.0,
+        "squeeze_momentum": -0.0796631664365072,
+        "volatility_compression": 67.43270856502023,
+        "is_consolidating": "False",
+        "breakout_score": 0.23081184806899474,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 20.597838093402846,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.743537254901957,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 60.0,
+        "squeeze": 60.11490628475303,
+        "options": 36.5,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "ranking": 15,
+        "percentile": 99.1
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NCLH",
+        "strike_price": "24",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.02",
+        "ask": "2.06",
+        "last_price": "2.03",
+        "mid_price": "2.04",
+        "spread_percent": "1.941747572815533980582524272"
+      },
+      "greeks": {
+        "delta": 0.6355,
+        "gamma": 0.0989,
+        "theta": -0.0157,
+        "vega": 0.0347
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4116
+      },
+      "liquidity_metrics": {
+        "volume": 44,
+        "open_interest": 372,
+        "volume_oi_ratio": 0.11827956989247312
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:41.893369",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T13:43:00+00:00",
+            "title": "Carnival Bets on Private Island Strategy: Can it Fuel Yield Growth?",
+            "content": "Carnival Corporation & plc CCL is sharpening its focus on high-margin, experience-led assets with the debut of Celebration Key, a $600 million exclusive Caribbean destination designed to enhance pricing power and deepen guest engagement. The resort features 275,000 square feet of freshwater lagoons, the world’s largest swim-up bar, an iconic “Suncastle” attraction and more than 30 dining and retail venues spread across five themed zones. Built to host over two million visitors annually — with expansion plans that could double capacity by 2028 — the project underscores the company’s ambition to turn private islands into durable yield drivers.\r\n\r\nEarly signals are encouraging. Celebration Key quickly became one of the most searched cruise destinations on Google, and itineraries featuring the new port are already securing booking premiums in line with management’s expectations. Carnival has also committed incremental marketing spend to build brand heat, reinforcing Celebration Key as a marquee differentiator in an increasingly competitive Caribbean market.\r\n\r\nThe company is also expanding its broader “Paradise Collection” of private destinations, including RelaxAway (Half Moon Cay) and Isla Tropicale (Mahogany Bay). These enhancements are designed to increase guest throughput, improve infrastructure and elevate experiences through amenities such as beach clubs, expanded pools and upgraded berthing facilities. By strengthening this curated network of exclusive stops, Carnival aims to capture more onboard and pre-cruise spending while creating a pricing umbrella across itineraries.\r\n\r\nThe strategy carries risks. Celebration Key’s operating expenses are expected to pressure near-term cost comparisons, while safety concerns following two drowning incidents in August underscore the operational complexities of managing large-scale water attractions. Still, Carnival has maintained its outlook for roughly 5% net yield growth in fiscal 2025, supported by record bookings and robust per-passenger spend. Successful execution could position its private island portfolio as a durable catalyst for yield expansion, strengthening the company’s competitive edge in the experience-led cruise market.\n\nHow It Stacks Up to Competitors Like RCL & NCLH\n\nRoyal Caribbean Cruises Ltd. RCL continues to focus on private-island monetization. Management projects 2025 net yield growth of 3.5%-4%, explicitly crediting the “continued success of our private destinations” as a key driver. RCL is broadening its land-based portfolio with Royal Beach Club Paradise Island (2025), Royal Beach Club Cozumel (2026) and Perfect Day Mexico (2027), in addition to the Costa Maya port acquisition. These projects, described as “engineered to generate premium yields,” build on the proven halo effect of Perfect Day at CocoCay.\r\n\r\nNorwegian Cruise Line Holdings Ltd. NCLH is repositioning its island strategy with a major refresh of Great Stirrup Cay, highlighted by Great Tides, a 6-acre waterpark scheduled for summer 2026. Supporting upgrades include expanded piers, pools, clubs and beach capacity — all designed to boost both guest throughput and onboard capture. Management forecasts 1 million visitors in 2026, climbing to 1.2 million in 2027. Executives framed the island build-out as a “return on experience” initiative — an investment in both guest satisfaction and long-term revenue per passenger, aimed at narrowing NCLH’s competitive gap with RCL and Carnival.\n\nStory Continues\n\nCCL’s Price Performance, Valuation & Estimates\n\nShares of Carnival have rallied 33.3% in the past three months compared with the industry’s growth of 12%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, CCL trades at a forward price-to-earnings ratio of 14.45X, significantly below the industry’s average of 19.63X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for CCL’s fiscal 2025 and 2026 earnings implies a year-over-year uptick of 40.9% and 13%, respectively. The EPS estimates for fiscal 2025 and 2026 have increased in the past 60 days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCCL stock currently carries a Zacks Rank #2 (Buy). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCarnival Corporation (CCL) : Free Stock Analysis Report\n\nRoyal Caribbean Cruises Ltd. (RCL) : Free Stock Analysis Report\n\nNorwegian Cruise Line Holdings Ltd. (NCLH) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:40:03+00:00",
+            "title": "Here's Why Norwegian Cruise Line (NCLH) is a Strong Value Stock",
+            "content": "For new and old investors, taking full advantage of the stock market and investing with confidence are common goals.\n\nAchieving those goals is made easier with the Zacks Style Scores, a unique set of guidelines that rates stocks based on popular investing methodologies, namely value, growth, and momentum. The Style Scores can help you narrow down which stocks are better for your portfolio and which ones can beat the market over the long-term.\n\nWhy Investors Should Pay Attention to This Value Stock\n\nFinding good stocks at good prices, and discovering which companies are trading under their true value, are what value investors like to focus on. So, the Value Style Score takes into account ratios like P/E, PEG, Price/Sales, and Price/Cash Flow to highlight the most attractive and discounted stocks.\n\nNorwegian Cruise Line (NCLH)\n\nNorwegian Cruise Line Holdings Ltd., a Bermuda Limited company, is a leading cruise line operator. It owns and operates three brands — Oceania Cruises, Regent Seven Seas Cruises and Norwegian Cruise Line. The company, founded in 1966, is headquartered in Miami, FL.\n\nNCLH sits at a Zacks Rank #3 (Hold), holds a Value Style Score of A, and has a VGM Score of A. Compared to the Leisure and Recreation Services industry's P/E of 22.5X, shares of Norwegian Cruise Line are trading at a forward P/E of 12.2X. NCLH also has a PEG Ratio of 1, a Price/Cash Flow ratio of 6X, and a Price/Sales ratio of 1.2X.\n\nValue investors don't just pay attention to a company's valuation ratios; positive earnings play a crucial role, too. Two analysts revised their earnings estimate upwards in the last 60 days for fiscal 2025. The Zacks Consensus Estimate has increased $0.01 to $2.04. NCLH has an average earnings surprise of 29.1%.\n\nWith strong valuation and earnings metrics, a good Zacks Rank, and top-tier Value and VGM Style Scores, investors should strongly think about adding NCLH to their portfolios.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNorwegian Cruise Line Holdings Ltd. (NCLH) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:00:00+00:00",
+            "title": "WMS Expands on 20-Year Partnership with Norwegian Cruise Line Holdings Ltd.",
+            "content": "MIRAMAR, FLORIDA, Aug.  27, 2025  (GLOBE NEWSWIRE) -- WMS, the leading global provider of cruise wireless connectivity, announces the expansion of its long-time partnership with Norwegian Cruise Line Holdings Ltd. (NCLH), a leading global cruise company that operates Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises. This contract extension highlights WMS as the NCLH preferred partner for onboard cellular connectivity for guests and crew. NCLH was the first cruise operator to install a cellular network on an ocean-going cruise ship in 2004, and the partnership started what became a 20th Anniversary celebration for WMS last year.\n\n“Our teams came together two decades ago with a shared goal to expand and enhance connectivity options onboard,” said Pramod Arora, president and CEO, WMS. “With an increasing demand for data, voice, and texting services at sea and on land, we are pleased to complement NCLH ship Wi-Fi service to provide seamless, affordable, and predictable connectivity for guests and crew to stay in touch with family, friends, and colleagues, sharing memories, and relaxing or working worry-free.”\n\nWMS enables cellular voice, text, and email connectivity for 2.2 million annual NCLH passengers. As the cruise operator’s wireless connectivity provider, WMS handles the installation, management, and maintenance of onboard cellular networks and services, in addition to helping NCLH brands communicate connectivity options for guests and crew. While Wi-Fi is optimal for heavy data users for high bandwidth applications such as streaming video, cellular is well suited for the moderate data user who sends texts, emails, or makes voice calls. Some passengers choose both Wi-Fi and cellular for their multiple devices, family members, and applications.\n\n“WMS has been a value-driving partner for two decades,” said Chad Berkshire, executive vice president and chief commercial officer at NCLH. “Key to our connectivity ecosystem, we can deliver on the variety of guest and crew needs to drive satisfaction in their overall cruising experience.”\n\nWMS started innovating in 2004 when it revolutionized maritime communications by launching the first cellular service on an NCLH cruise ship. Since then, WMS became the first to offer 3G, 4G, and 5G connectivity at sea. WMS continuously invests in the latest wireless technology, enabling leading connectivity services. WMS expert engineers, onboard technicians, and network management center professionals focus on delivering leading cellular connectivity in the most challenging environments. Through 400+ cellular roaming partners, WMS continuously tailors its offerings, now including day passes, cruise plans, and eSIM data services. WMS is agnostic in terms of satellite operators for cellular backhaul, aligning with all cruise line infrastructure investments. In 2023, WMS became the first to integrate with low Earth orbit satellite technology, including Starlink, and in 2024 WMS offered the first live 5G cellular service on ocean-going cruise lines.\n\nAbout WMS:\r\nWMS is the premier global provider of cruise wireless connectivity services. WMS pioneered the first wireless network on a cruise ship 20 years ago and, as an award-winning technology leader, remains the trusted strategic partner for connectivity in the most challenging and hard-to-reach places. The company is headquartered in Miramar, FL. with additional operations in Atlanta, GA. For more information on WMS, visit https://www.wmsatsea.com/.\n\nMedia Contact:\r\nCathy Angel / Anna Pool, +1-863-698-2145, WMSPR@HemsworthCommunications.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:00:00+00:00",
+            "title": "WMS Expands on 20-Year Partnership with Norwegian Cruise Line Holdings Ltd.",
+            "content": "Cruise Industry Leaders Come Together to Enhance Connectivity for Guests & Crew\n\nMIRAMAR, FLORIDA, Aug. 27, 2025 (GLOBE NEWSWIRE) -- WMS, the leading global provider of cruise wireless connectivity, announces the expansion of its long-time partnership with Norwegian Cruise Line Holdings Ltd. (NCLH), a leading global cruise company that operates Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises. This contract extension highlights WMS as the NCLH preferred partner for onboard cellular connectivity for guests and crew. NCLH was the first cruise operator to install a cellular network on an ocean-going cruise ship in 2004, and the partnership started what became a 20th Anniversary celebration for WMS last year.\n\n“Our teams came together two decades ago with a shared goal to expand and enhance connectivity options onboard,” said Pramod Arora, president and CEO, WMS. “With an increasing demand for data, voice, and texting services at sea and on land, we are pleased to complement NCLH ship Wi-Fi service to provide seamless, affordable, and predictable connectivity for guests and crew to stay in touch with family, friends, and colleagues, sharing memories, and relaxing or working worry-free.”\n\nWMS enables cellular voice, text, and email connectivity for 2.2 million annual NCLH passengers. As the cruise operator’s wireless connectivity provider, WMS handles the installation, management, and maintenance of onboard cellular networks and services, in addition to helping NCLH brands communicate connectivity options for guests and crew. While Wi-Fi is optimal for heavy data users for high bandwidth applications such as streaming video, cellular is well suited for the moderate data user who sends texts, emails, or makes voice calls. Some passengers choose both Wi-Fi and cellular for their multiple devices, family members, and applications.\n\n“WMS has been a value-driving partner for two decades,” said Chad Berkshire, executive vice president and chief commercial officer at NCLH. “Key to our connectivity ecosystem, we can deliver on the variety of guest and crew needs to drive satisfaction in their overall cruising experience.”\n\nWMS started innovating in 2004 when it revolutionized maritime communications by launching the first cellular service on an NCLH cruise ship. Since then, WMS became the first to offer 3G, 4G, and 5G connectivity at sea. WMS continuously invests in the latest wireless technology, enabling leading connectivity services. WMS expert engineers, onboard technicians, and network management center professionals focus on delivering leading cellular connectivity in the most challenging environments. Through 400+ cellular roaming partners, WMS continuously tailors its offerings, now including day passes, cruise plans, and eSIM data services. WMS is agnostic in terms of satellite operators for cellular backhaul, aligning with all cruise line infrastructure investments. In 2023, WMS became the first to integrate with low Earth orbit satellite technology, including Starlink, and in 2024 WMS offered the first live 5G cellular service on ocean-going cruise lines.\n\nStory Continues\n\nAbout WMS:\r\nWMS is the premier global provider of cruise wireless connectivity services. WMS pioneered the first wireless network on a cruise ship 20 years ago and, as an award-winning technology leader, remains the trusted strategic partner for connectivity in the most challenging and hard-to-reach places. The company is headquartered in Miramar, FL. with additional operations in Atlanta, GA. For more information on WMS, visit https://www.wmsatsea.com/.\n\nMedia Contact:\r\nCathy Angel / Anna Pool, +1-863-698-2145, WMSPR@HemsworthCommunications.com\n\nCONTACT: Liz DeCastro WMS 1-954-235-4782 liz.decastro@wmsatsea.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T16:03:45+00:00",
+            "title": "NCLH Quantitative Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for NORWEGIAN CRUISE LINE HOLDINGS LTD (NCLH). Of the 22 guru strategies we follow,  NCLH rates highest using our Contrarian Investor model based on the published strategy of David Dreman. This contrarian strategy finds the most unpopular mid- and large-cap stocks in the market and looks for improving fundamentals.\n\nNORWEGIAN CRUISE LINE HOLDINGS LTD (NCLH) is a mid-cap value stock in the Water Transportation industry. The rating using this strategy is 64% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSEARNINGS TREND:FAILEPS GROWTH RATE IN THE IMMEDIATE PAST AND FUTURE:PASSP/E RATIO:FAILPRICE/CASH FLOW (P/CF) RATIO:PASSPRICE/BOOK (P/B) VALUE:FAILPRICE/DIVIDEND (P/D) RATIO:FAILCURRENT RATIO:FAILPAYOUT RATIO:PASSRETURN ON EQUITY:PASSPRE-TAX PROFIT MARGINS:PASSYIELD:FAILLOOK AT THE TOTAL DEBT/EQUITY:FAIL\n\nDetailed Analysis of NORWEGIAN CRUISE LINE HOLDINGS LTD\n\nNCLH Guru Analysis\n\nNCLH Fundamental Analysis\n\nMore Information on David Dreman\n\nDavid Dreman Portfolio\n\nAbout David Dreman: Dreman's Kemper-Dreman High Return Fund was one of the best-performing mutual funds ever, ranking as the best of 255 funds in its peer groups from 1988 to 1998, according to Lipper Analytical Services. At the time Dreman published Contrarian Investment Strategies: The Next Generation, the fund had been ranked number one in more time periods than any of the 3,175 funds in Lipper's database. In addition to managing money, Dreman is also a longtime Forbes magazine columnist.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nFactor-Based ETF Portfolios\n\nHarry Browne Permanent Portfolio\n\nRay Dalio All Weather Portfolio\n\nHigh Shareholder Yield Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Norwegian Cruise Line Holdings Ltd",
+          "sector": "Consumer Cyclical",
+          "industry": "Travel Services",
+          "employees": 41700,
+          "description": "Norwegian Cruise Line Holdings Ltd., together with its subsidiaries, operates as a cruise company in North America, Europe, the Asia-Pacific, and internationally. It operates the Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises brands. The company's brands provide accommodations"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.46,
+          "profit_margin": 0.0752,
+          "operating_margin": 0.1684,
+          "roe": 0.6357,
+          "roa": 0.0459,
+          "revenue_growth_yoy": 0.061,
+          "earnings_growth_yoy": -0.808,
+          "eps_estimate_current_year": 2.0252,
+          "eps_estimate_next_year": 2.5198,
+          "revenue_ttm": 9560993792,
+          "revenue_per_share": 21.64,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 16.9589,
+          "forward_pe": 12.0773,
+          "price_to_sales": 1.1704,
+          "price_to_book": 7.0948,
+          "enterprise_value": 24715125749,
+          "ev_to_revenue": 2.585,
+          "ev_to_ebitda": 10.3651
+        },
+        "technical_data": {
+          "beta": 2.25,
+          "52_week_high": 29.29,
+          "52_week_low": 14.21,
+          "50_day_ma": 22.603,
+          "200_day_ma": 22.5945,
+          "short_interest": 0.0761,
+          "short_ratio": 1.71
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.25,
+          "target_price": 30.1667,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 451936992,
+          "percent_institutions": 79.485,
+          "percent_insiders": 0.39899999999999997,
+          "shares_float": 448344184
+        },
+        "balance_latest_sheet": {
+          "total_assets": 21595.817,
+          "total_debt": 13763.411,
+          "net_debt": 13579.396,
+          "working_capital": -5215.305,
+          "shareholders_equity": 1569.57,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 8.77
+        },
+        "income_latest_statement": {
+          "total_revenue": 2517.497,
+          "gross_profit": 1060.65,
+          "operating_income": 423.836,
+          "net_income": 29.992,
+          "ebitda": 442.735999,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 42.13,
+          "operating_margin": 16.84,
+          "net_margin": 1.19
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 714.851,
+          "free_cash_flow": 381.21,
+          "capex": 333.641,
+          "net_income": 29.992,
+          "cash_change": -0.344,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.16,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 23.17,
+            "high": 23.71,
+            "low": 23.09,
+            "close": 23.6,
+            "volume": 12123400
+          },
+          {
+            "date": "2025-07-18",
+            "open": 23.82,
+            "high": 23.87,
+            "low": 23.58,
+            "close": 23.59,
+            "volume": 8903800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 23.64,
+            "high": 23.76,
+            "low": 23.17,
+            "close": 23.19,
+            "volume": 11727500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 23.56,
+            "high": 23.66,
+            "low": 22.86,
+            "close": 23.6,
+            "volume": 17029500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 23.89,
+            "high": 24.44,
+            "low": 23.87,
+            "close": 24.32,
+            "volume": 14824500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 24.11,
+            "high": 24.26,
+            "low": 23.48,
+            "close": 23.5,
+            "volume": 12064100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 23.63,
+            "high": 23.86,
+            "low": 23.32,
+            "close": 23.82,
+            "volume": 9160300
+          },
+          {
+            "date": "2025-07-28",
+            "open": 24.01,
+            "high": 24.33,
+            "low": 23.63,
+            "close": 23.88,
+            "volume": 13968700
+          },
+          {
+            "date": "2025-07-29",
+            "open": 23.2,
+            "high": 23.87,
+            "low": 23.13,
+            "close": 23.41,
+            "volume": 16225800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 23.53,
+            "high": 23.79,
+            "low": 23.15,
+            "close": 23.4,
+            "volume": 15354900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 26.12,
+            "high": 27.1,
+            "low": 25.17,
+            "close": 25.56,
+            "volume": 40679300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 24.99,
+            "high": 25.08,
+            "low": 23.72,
+            "close": 24.5,
+            "volume": 21122000
+          },
+          {
+            "date": "2025-08-04",
+            "open": 24.74,
+            "high": 25.37,
+            "low": 24.68,
+            "close": 25.34,
+            "volume": 16998200
+          },
+          {
+            "date": "2025-08-05",
+            "open": 25.34,
+            "high": 25.35,
+            "low": 24.53,
+            "close": 25,
+            "volume": 11242800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 25.15,
+            "high": 25.17,
+            "low": 24.63,
+            "close": 24.81,
+            "volume": 10431100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 25.11,
+            "high": 25.48,
+            "low": 24.28,
+            "close": 24.47,
+            "volume": 15433200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 24.62,
+            "high": 24.63,
+            "low": 23.98,
+            "close": 24,
+            "volume": 12286700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 23.93,
+            "high": 24.12,
+            "low": 23.58,
+            "close": 23.73,
+            "volume": 11320900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 23.96,
+            "high": 24.45,
+            "low": 23.91,
+            "close": 24.24,
+            "volume": 14475500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 24.38,
+            "high": 24.88,
+            "low": 24.28,
+            "close": 24.76,
+            "volume": 12511700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 24.3,
+            "high": 24.45,
+            "low": 23.99,
+            "close": 24.36,
+            "volume": 10984300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 24.46,
+            "high": 24.56,
+            "low": 24.13,
+            "close": 24.3,
+            "volume": 9341100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 24.22,
+            "high": 24.92,
+            "low": 23.96,
+            "close": 24.58,
+            "volume": 12343200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 24.52,
+            "high": 24.65,
+            "low": 24.27,
+            "close": 24.43,
+            "volume": 12209100
+          },
+          {
+            "date": "2025-08-20",
+            "open": 24.22,
+            "high": 24.23,
+            "low": 23.52,
+            "close": 23.85,
+            "volume": 14377800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 23.46,
+            "high": 23.5,
+            "low": 23.13,
+            "close": 23.36,
+            "volume": 13258900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 23.53,
+            "high": 25.18,
+            "low": 23.4,
+            "close": 25.05,
+            "volume": 20636000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 24.82,
+            "high": 24.97,
+            "low": 24.61,
+            "close": 24.64,
+            "volume": 10449400
+          },
+          {
+            "date": "2025-08-26",
+            "open": 24.63,
+            "high": 24.84,
+            "low": 24.29,
+            "close": 24.76,
+            "volume": 12351500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 24.58,
+            "high": 25.015,
+            "low": 24.53,
+            "close": 24.88,
+            "volume": 7332483
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 6.324786324786327,
+        "return_63d": 41.363636363636346,
+        "pct_above_sma50": 8.792611897224214,
+        "sma_50": 22.8692,
+        "new_55d_high": "False",
+        "high_55d": 27.1,
+        "rsi": 53.37726523887974,
+        "rsi_in_range": "True",
+        "adx": 16.337786916399825,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.815313504823154,
+        "bb_width": 8.742808025178906,
+        "keltner_width": 15.485791775849606,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 355436016.20865,
+        "adv_shares": 14489259.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.3413753483048,
+        "final_score": 50.3413753483048,
+        "sub_scores": {
+          "trend_momentum": 20.597838093402846,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.743537254901957,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 6.279367791542079,
+          "ret_63d": 41.8472063854048,
+          "rsi14": 53.37726523887974,
+          "adx14": 17.04640769882102,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NCLH\n• Current Price: $24.88\n• Overall Score: 51.216571000540355\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 22.603\n• Sma 200: 22.5945\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 6.279367791542072\n• Momentum 63D: 41.84720638540479\n• Momentum 126D: -0.6786427145708651\n• Momentum Acceleration: -35.56783859386272\n• Roc 21D: 6.279367791542072\n• Trend Strength 20D: 0.07422644356076147\n• Trend Direction: 1\n• Ma Ribbon Score: 83.83435915670475\n• Breakout Strength: 0.0\n• Price Velocity: 0.009030041618532315\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 15.0\n• Squeeze Momentum: -0.0796631664365072\n• Volatility Compression: 67.43270856502023\n• Is Consolidating: False\n• Breakout Score: 0.23081184806899474\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 20.597838093402846\n• Squeeze Breakout: 4.0\n• Options Quality: 14.743537254901957\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 60.0\n• Squeeze: 60.11490628475303\n• Options: 36.5\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NCLH\n• Strike Price: $24\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.02\n• Ask: $2.06\n• Last: $2.03\n• Mid: $2.04\n• Spread: 1.941747572815533980582524272%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6355\n• Gamma: 0.0989\n• Theta: -0.0157\n• Vega: 0.0347\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4116\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 44\n• Open Interest: 372\n• Volume/OI Ratio: 0.11827956989247312\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Norwegian Cruise Line Holdings Ltd\n• Sector: Consumer Cyclical\n• Industry: Travel Services\n• EPS (TTM): $1.46\n• Profit Margin: 7.5%\n• ROE: 63.6%\n• P/E Ratio: 17.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T13:43:00+00:00: Carnival Bets on Private Island Strategy: Can it Fuel Yield Growth?...\n• 2025-08-27T13:40:03+00:00: Here's Why Norwegian Cruise Line (NCLH) is a Strong Value Stock...\n• 2025-08-27T13:00:00+00:00: WMS Expands on 20-Year Partnership with Norwegian Cruise Line Holdings Ltd....\n• 2025-08-27T13:00:00+00:00: WMS Expands on 20-Year Partnership with Norwegian Cruise Line Holdings Ltd....\n• 2025-08-26T16:03:45+00:00: NCLH Quantitative Stock Analysis...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NCLH\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NCLH opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:53:15.708754",
+    "estimated_tokens": 2332
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NCLH\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NCLH shows positive momentum with price above both SMAs and strong MA ribbon score (83.83), but faces decelerating momentum (-35.57). The stock is in a volatility squeeze with moderate compression (67.43%), suggesting potential for a directional move, though earnings risk looms near-term.\",\n    \"opportunities\": [\n        \"Price trading above both 50 and 200 SMAs (22.60, 22.59)\",\n        \"Strong MA ribbon score of 83.83 indicating trend strength\",\n        \"Options have reasonable spreads (1.94%) with good delta (0.635)\"\n    ],\n    \"risks\": [\n        \"Significant momentum deceleration (-35.57)\",\n        \"Upcoming earnings on 2025-09-30\",\n        \"Low options volume/OI ratio (0.118)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 $24 Calls for long-term directional exposure\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Use 50% options premium as stop loss, consider rolling down if momentum continues to decelerate\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative squeeze momentum (-0.0797)\",\n        \"Low options trading volume (44 contracts)\"\n    ],\n    \"notes\": \"While technical setup shows promise, low options liquidity and near-term earnings risk suggest careful position sizing and timing considerations are crucial\"\n}",
+    "parsed_analysis": {
+      "symbol": "NCLH",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "NCLH shows positive momentum with price above both SMAs and strong MA ribbon score (83.83), but faces decelerating momentum (-35.57). The stock is in a volatility squeeze with moderate compression (67.43%), suggesting potential for a directional move, though earnings risk looms near-term.",
+      "opportunities": [
+        "Price trading above both 50 and 200 SMAs (22.60, 22.59)",
+        "Strong MA ribbon score of 83.83 indicating trend strength",
+        "Options have reasonable spreads (1.94%) with good delta (0.635)"
+      ],
+      "risks": [
+        "Significant momentum deceleration (-35.57)",
+        "Upcoming earnings on 2025-09-30",
+        "Low options volume/OI ratio (0.118)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 $24 Calls for long-term directional exposure",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Use 50% options premium as stop loss, consider rolling down if momentum continues to decelerate"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative squeeze momentum (-0.0797)",
+        "Low options trading volume (44 contracts)"
+      ],
+      "notes": "While technical setup shows promise, low options liquidity and near-term earnings risk suggest careful position sizing and timing considerations are crucial"
+    },
+    "tokens_used": 2542,
+    "cost": 0.025419999999999998,
+    "response_time": 10.338519096374512,
+    "success": true
+  },
+  "cost": 0.025419999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8535,
+    "response_length": 1638
+  }
+}

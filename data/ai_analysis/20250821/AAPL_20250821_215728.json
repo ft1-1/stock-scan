@@ -1,0 +1,175 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "timestamp": "2025-08-21T21:57:28.581109",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAPL",
+      "package_timestamp": "2025-08-21T21:57:19.031661",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 52.916666666666664,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAPL",
+        "current_price": 175.5,
+        "overall_score": 85.5,
+        "confidence_level": "high",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "rsi": 58.2,
+        "macd": 1.25
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.045,
+        "momentum_score": 80.0
+      },
+      "squeeze_detection": {
+        "is_squeeze": true,
+        "squeeze_strength": 0.75
+      },
+      "quantitative_scores": {
+        "technical": 85,
+        "momentum": 80,
+        "squeeze": 90,
+        "options": 85,
+        "quality": 88
+      },
+      "risk_assessment": {
+        "ranking": 1,
+        "percentile": 95.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "symbol": "AAPL240315C00170000",
+        "underlying_symbol": "AAPL",
+        "strike_price": 170.0,
+        "expiration_date": "2024-03-15",
+        "days_to_expiration": 45,
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": 8.5,
+        "ask": 8.75,
+        "mid_price": 8.625,
+        "spread_percent": 2.857142857142857
+      },
+      "greeks": {
+        "delta": 0.65,
+        "gamma": 0.03,
+        "theta": -0.08,
+        "vega": 0.25
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.28
+      },
+      "liquidity_metrics": {
+        "volume": 850,
+        "open_interest": 1250,
+        "volume_oi_ratio": 0.68
+      },
+      "selection_metrics": {
+        "option_score": 85,
+        "selection_reason": "Best call option (score: 85)"
+      }
+    },
+    "enhanced_stock_data": {
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2024-01-15",
+            "title": "Apple announces...",
+            "content": null,
+            "sentiment": "positive",
+            "url": null
+          }
+        ],
+        "articles_count": 1,
+        "sentiment_summary": {
+          "overall": "positive",
+          "positive_count": 1,
+          "negative_count": 0,
+          "neutral_count": 0,
+          "total_analyzed": 1
+        }
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Apple Inc.",
+          "sector": "Technology"
+        },
+        "financial_metrics": {
+          "eps_ttm": 5.95,
+          "profit_margin": 0.253
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 66.66666666666666,
+      "technical_score": 40.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 10.0,
+      "overall_score": 52.916666666666664,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAPL\n• Current Price: $175.5\n• Overall Score: 85.5\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Rsi: 58.2\n• Macd: 1.25\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.045\n• Momentum Score: 80.0\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Strength: 0.75\n\n**QUANTITATIVE SCORING**\n• Technical: 85\n• Momentum: 80\n• Squeeze: 90\n• Options: 85\n• Quality: 88\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: AAPL240315C00170000\n• Underlying: AAPL\n• Strike Price: $170.0\n• Expiration: 2024-03-15\n• Days to Expiration: 45\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $8.5\n• Ask: $8.75\n• Last: $N/A\n• Mid: $8.625\n• Spread: 2.857142857142857%\n\n**GREEKS ANALYSIS**\n• Delta: 0.65\n• Gamma: 0.03\n• Theta: -0.08\n• Vega: 0.25\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.28\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 850\n• Open Interest: 1250\n• Volume/OI Ratio: 0.68\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Apple Inc.\n• Sector: Technology\n• Industry: N/A\n• EPS (TTM): $5.95\n• Profit Margin: 25.3%\n\n**NEWS ANALYSIS (1 articles)**\n• 2024-01-15: Apple announces......\n• Overall Sentiment: positive\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 52.9%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-21T21:57:28.581081",
+    "estimated_tokens": 2033
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAPL\",\n    \"rating\": 82,\n    \"component_scores\": {\n        \"trend_momentum\": 30,\n        \"options_quality\": 17,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 7\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AAPL shows strong technical momentum with RSI at 58.2 and positive MACD, supported by a confirmed volatility squeeze setup. The March 170 calls offer attractive positioning with moderate spreads and strong delta, while fundamentals remain solid with 25.3% profit margins.\",\n    \"opportunities\": [\n        \"Confirmed volatility squeeze with 0.75 strength indicating potential breakout\",\n        \"Strong options liquidity with 2.85% spread and healthy volume/OI ratio\",\n        \"Positive technical setup with RSI 58.2 and MACD 1.25\"\n    ],\n    \"risks\": [\n        \"Implied volatility data incomplete for full valuation assessment\",\n        \"45 days to expiration exposure to time decay\",\n        \"Technology sector exposure during uncertain market conditions\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"AAPL March 170 Calls offer balanced exposure with 0.65 delta and manageable theta of -0.08\",\n        \"entry_timing\": \"Current squeeze setup suggests immediate entry opportunity\",\n        \"risk_management\": \"Consider 2:1 reward/risk ratio with stops below recent support levels\"\n    },\n    \"red_flags\": [\n        \"Missing IV percentile and historical volatility data limits volatility analysis confidence\"\n    ],\n    \"notes\": \"Analysis based on 52.9% data completeness - particularly limited in volatility metrics which affects confidence in IV scoring\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAPL",
+      "rating": 82,
+      "component_scores": {
+        "trend_momentum": 30,
+        "options_quality": 17,
+        "iv_value": 12,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 7
+      },
+      "confidence": "medium",
+      "thesis": "AAPL shows strong technical momentum with RSI at 58.2 and positive MACD, supported by a confirmed volatility squeeze setup. The March 170 calls offer attractive positioning with moderate spreads and strong delta, while fundamentals remain solid with 25.3% profit margins.",
+      "opportunities": [
+        "Confirmed volatility squeeze with 0.75 strength indicating potential breakout",
+        "Strong options liquidity with 2.85% spread and healthy volume/OI ratio",
+        "Positive technical setup with RSI 58.2 and MACD 1.25"
+      ],
+      "risks": [
+        "Implied volatility data incomplete for full valuation assessment",
+        "45 days to expiration exposure to time decay",
+        "Technology sector exposure during uncertain market conditions"
+      ],
+      "option_contract": {
+        "recommendation": "AAPL March 170 Calls offer balanced exposure with 0.65 delta and manageable theta of -0.08",
+        "entry_timing": "Current squeeze setup suggests immediate entry opportunity",
+        "risk_management": "Consider 2:1 reward/risk ratio with stops below recent support levels"
+      },
+      "red_flags": [
+        "Missing IV percentile and historical volatility data limits volatility analysis confidence"
+      ],
+      "notes": "Analysis based on 52.9% data completeness - particularly limited in volatility metrics which affects confidence in IV scoring"
+    },
+    "tokens_used": 2285,
+    "cost": 0.022850000000000002,
+    "response_time": 9.549001693725586,
+    "success": true
+  },
+  "cost": 0.022850000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 52.916666666666664,
+    "prompt_length": 7485,
+    "response_length": 1657
+  }
+}

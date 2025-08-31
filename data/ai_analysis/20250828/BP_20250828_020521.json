@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "BP",
+  "timestamp": "2025-08-28T02:05:21.736837",
+  "data_package": {
+    "metadata": {
+      "symbol": "BP",
+      "package_timestamp": "2025-08-28T02:05:11.843511",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BP",
+        "current_price": 34.89,
+        "overall_score": 48.793976174121774,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 32.383,
+        "sma_200": 31.0005
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.855582524271844,
+        "momentum_63d": 20.55977885279889,
+        "momentum_126d": 6.762545899632806,
+        "momentum_acceleration": -14.704196328527045,
+        "roc_21d": 5.855582524271844,
+        "trend_strength_20d": 0.6089114751943432,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 51.258054106455106,
+        "price_velocity": 0.005933879775214623
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.008313514288509634,
+        "volatility_compression": 63.90176990662327,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 21.3654132238049,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.630253103007055,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 69.0,
+        "squeeze": 14.58526548599349,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 27,
+        "percentile": 98.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BP",
+        "strike_price": "33",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.58",
+        "ask": "2.63",
+        "last_price": "2.63",
+        "mid_price": "2.605",
+        "spread_percent": "1.901140684410646387832699620"
+      },
+      "greeks": {
+        "delta": 0.6874,
+        "gamma": 0.0854,
+        "theta": -0.017,
+        "vega": 0.0457
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3212
+      },
+      "liquidity_metrics": {
+        "volume": 94,
+        "open_interest": 2962,
+        "volume_oi_ratio": 0.03173531397704254
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:14.818226",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T17:29:47+00:00",
+            "title": "BP refinery in Whiting, Indiana, back to normal operations",
+            "content": "By Nicole Jao\n\n(Reuters) -BP's 440,000-barrel-per-day refinery in Whiting, Indiana, is back to operating at normal rates after taking multiple units offline due to a severe thunderstorm last week, industry monitor IIR said on Wednesday.\n\nOperations at the Whiting refinery were affected due to flooding after a thunderstorm swept through the region.\n\nBP did not immediately respond to a request for comment.\n\nThe Whiting refinery, the largest in the U.S. Midwest, produces a wide range of liquid fuels, including gasoline, diesel and jet fuel.\n\nThe outage triggered a sharp increase in gasoline prices in Ohio, Wisconsin and Michigan, said Patrick De Haan, head of petroleum analysis at GasBuddy.\n\n(Reporting by Nicole Jao in New York; Editing by Leslie Adler)\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:29:00+00:00",
+            "title": "Energy &amp; Utilities Roundup: Market Talk",
+            "content": "Find insight on BP, Genesis Energy, Worley, Viva Energy and more in the latest Market Talks covering energy and utilities.\n\nContinue Reading\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:45:00+00:00",
+            "title": "Exxon Holds Talks on Russia Return: Report. Ukraine Is Still a Hurdle for Oil Majors.",
+            "content": "Exxon has held talks with Russia's Rosneft about working together on the Sakhalin fields, The Wall Street Journal reported.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:30:00+00:00",
+            "title": "BP Awards Baker Hughes Major Service Role at Tangguh LNG Plant",
+            "content": "BP plc BP has appointed U.S.-based energy technology company Baker Hughes BKR to deliver long-term support services for the Tangguh LNG project in Papua Barat, Indonesia, one of the nation’s most important energy developments.\n\nUnder the new 90-month service agreement, Baker Hughes will provide spare parts, repair, and field service engineering support for critical turbomachinery at the facility. This includes heavy-duty gas turbines, steam turbines, and compressors serving the plant’s three LNG trains. The deal is designed to ensure reliability and performance as the Tangguh complex expands its role in meeting Asia-Pacific’s growing demand for liquefied natural gas.\n\nPart of Tangguh’s Next Growth Phase\n\nThe award builds on a long-standing relationship between BP and Baker Hughes at Tangguh, dating back to 2009. In 2024, the technology company was also selected to supply additional power and compression systems for BP’s Tangguh UCC project, a $7 billion expansion sanctioned in late 2024. Construction activities, led by Saipem, are now underway.\n\nThe Tangguh UCC development aims to unlock around 3 trillion cubic feet of additional gas resources, with first production from the Ubadari gas field expected in 2028, per media reports. This will extend feed gas supply to the LNG plant and enhance Indonesia’s position as a key regional supplier.\n\nLocal Partnerships and Regional Commitment\n\nFor the new contract, Baker Hughes is working with PT Imeco Inter Sarana as a local consortium partner to meet Indonesian content requirements. The company framed the deal as evidence of its continuing support for Indonesia’s energy future, while also underlining the facility’s strategic importance to regional LNG markets.\n\nAccording to Baker Hughes, Tangguh LNG remains a cornerstone of Indonesia’s long-term energy strategy — playing a critical role in supplying safe and reliable gas across Asia-Pacific. The agreement is expected to strengthen the facility’s operational resilience and production continuity.\n\nZacks Rank and Key Picks\n\nBP and BKR currently carry a Zacks Rank #3 (Hold) each.\n\nInvestors interested in the energy sector may look at a couple of better-ranked stocks like Antero Midstream Corporation AM and Precision Drilling Corporation PDS. While Precision Drilling sports a Zacks Rank #1 (Strong Buy) at present, Antero Midstream carries a Zacks Rank #2 (Buy). You can see the complete list of today’s Zacks #1 Rank stocks here.\n\nStory Continues\n\nAntero Midstream generates stable cash flow by providing midstream services under long-term contracts with Antero Resources. The company prioritizes debt reduction by effectively utilizing free cash flow after dividends. Antero Midstream’s higher dividend yield compared to its sub-industry peers reflects its commitment to generating shareholder returns.\n\nAM’s earnings beat estimates in two of the trailing four quarters, met once and missed in the other, delivering an average surprise of 1.13%.\n\nPrecision Drilling is an oilfield services company. It provides contract drilling, well servicing and strategic support services to the oil and gas industry in North America and internationally. It provides land drilling, directional drilling, turnkey drilling, camp and catering services, and procures and distributes oilfield supplies.\n\nPDS’ earnings beat estimates in two of the trailing four quarters and missed in the other two, delivering an average surprise of 977.7%. The Zacks Consensus Estimate for 2025 earnings indicates a 14.2% year-over-year decline.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nBP p.l.c. (BP) : Free Stock Analysis Report\n\nAntero Midstream Corporation (AM) : Free Stock Analysis Report\n\nPrecision Drilling Corporation (PDS) : Free Stock Analysis Report\n\nBaker Hughes Company (BKR) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:21:00+00:00",
+            "title": "Shell Inches Closer to Securing Rahmat Gas Field Rights in Egypt",
+            "content": "Shell plc SHEL, a British multinational oil and gas company, is on the verge of a major strategic breakthrough in the Eastern Mediterranean, as it is close to getting the development rights for Egypt’s offshore Rahmat gas field, a site regarded as a major untapped resource in the region, according to Zawya News Agency. This significant move would not only strengthen Shell’s presence in the region but also reflect its renewed commitment to high-potential deepwater assets as global energy demand continues to evolve.\n\nStrategic Importance of the Rahmat Field\n\nSituated in the northeastern Mediterranean, the Rahmat field is a deepwater resource estimated to contain approximately 1.3 trillion cubic feet (“TCF”) of natural gas alongside 80 million barrels (MMbbl) of condensate. This assessment comes from geological information provided by the Pharaonic Petroleum Company, a partnership between the London-based oil and gas company BP plc BP and the Egyptian government. These substantial reserves rank Rahmat among the region’s most valuable undeveloped assets, attracting significant interest from international energy companies keen to leverage the increasing importance of Mediterranean gas discoveries.\n\nThis opportunity re-emerged after BP relinquished its concession to the field two years ago due to challenges in meeting development deadlines. The setback created an opening for other international players to step in and Shell is reportedly leading the race, having submitted the highest offer during a recent international bidding round. The competitive bidding, which wrapped up in early July 2025, featured 13 offshore blocks, with the highly valued Rahmat field included.\n\nEgypt’s Renewed Energy Strategy and Offshore Potential\n\nIn March 2025, Egypt’s Ministry of Petroleum and Mineral Resources launched a highly anticipated tender process, offering seven undeveloped Mediterranean fields, including Rahmat, along with six exploration concessions located in the Gulf of Suez and the Western Desert. The move signaled a strategic pivot by Egypt to unlock value from its offshore and onshore reserves, drawing fresh investments from both local and international energy companies.\n\nThis renewed licensing round aligns with Egypt’s broader goal to become a regional energy hub, especially in liquefied natural gas (“LNG”) exports. With the Rahmat field’s development, Shell would not only access significant hydrocarbon volumes but also potentially integrate production into Egypt’s existing LNG infrastructure, further enhancing export potential to Europe and beyond.\n\nStory Continues\n\nShell’s Expanding Footprint in Egypt\n\nIf finalized, this deal will represent a notable expansion of Shell’s footprint in Egypt, reinforcing its long-standing relationship with the North African nation. For decades, Shell has operated within Egypt’s energy sector, focusing on onshore oil, offshore deepwater gas fields and LNG export activities. However, acquiring the Rahmat concession would mark a significant deepening of Shell’s strategic interest in the Eastern Mediterranean basin, a region that has rapidly become one of the most competitive frontiers for gas exploration.\n\nThe proximity of the Rahmat field to existing infrastructure, including other major discoveries like Zohr, enhances the field’s commercial viability. By leveraging proven technology, operational expertise and strategic partnerships, Shell is well-positioned to expedite development timelines and deliver first gas faster than industry norms.\n\nCompetitive Landscape and Outlook\n\nShell’s reported victory in the Rahmat bidding round reflects a broader trend of international oil majors returning to Egypt, drawn by favorable investment terms, robust geological data and increased market demand for cleaner energy sources like natural gas. In response to the energy transition, Shell and similar companies are focusing on natural gas as a key bridging resource, with the Rahmat asset exemplifying this approach through its significant reserves, regional demand compatibility and export versatility.\n\nThe outcome of this deal could set the stage for further investments in Egypt, both by Shell and competitors seeking to secure a stake in the next phase of Mediterranean gas development. It also highlights Egypt’s ability to attract top-tier international players, even amid global economic and geopolitical uncertainties.\n\nConclusion\n\nThe potential prospective transfer of the Rahmat field development rights to Shell represents a significant turning point for both the corporation and the energy landscape in Egypt. As Shell advances negotiations, the industry is watching closely. If confirmed, this deal will be a defining milestone in Shell’s regional strategy and a clear indication of Egypt’s ascent as a critical node in the global energy supply chain. With vast reserves, supportive policies and strong infrastructure, the Rahmat field may soon become a cornerstone in Shell’s global gas portfolio and a powerful symbol of Egypt’s energy renaissance.\n\nSHEL's Zacks Rank & Key Picks\n\nCurrently, SHEL and BP have a Zacks Rank #3 (Hold) each.\n\nInvestors interested in the energy sector might look at some better-ranked stocks like Repsol REPYY and Precision Drilling PDS, each currently sporting a Zacks Rank #1 (Strong Buy). You can see the complete list of today’s Zacks #1 Rank stocks here.\n\nRepsol is a global energy company known for its integrated operations spanning exploration, production, refining and marketing of oil and gas. It actively pursues innovation and sustainability initiatives to transition toward cleaner energy solutions while maintaining a strong presence in key international markets. Repsol is valued at $18.92 billion.\n\nPrecision Drilling is a leading provider of drilling and well-servicing services to the oil and gas industry, known for its advanced technology and operational expertise. The company focuses on delivering efficient and safe drilling solutions across North America. Precision Drilling is valued at $750.86 million.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nBP p.l.c. (BP) : Free Stock Analysis Report\n\nPrecision Drilling Corporation (PDS) : Free Stock Analysis Report\n\nRepsol SA (REPYY) : Free Stock Analysis Report\n\nShell PLC Unsponsored ADR (SHEL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "BP PLC ADR",
+          "sector": "Energy",
+          "industry": "Oil & Gas Integrated",
+          "employees": 100500,
+          "description": "BP p.l.c., an integrated energy company, provides carbon products and services. The company operates through Gas & Low Carbon Energy, Oil Production & Operations, and Customers & Products segments. It engages in the production of natural gas and integrated gas and power; gas trading; operation of so"
+        },
+        "financial_metrics": {
+          "eps_ttm": 0.25,
+          "profit_margin": 0.0031,
+          "operating_margin": 0.0913,
+          "roe": 0.0205,
+          "roa": 0.0234,
+          "revenue_growth_yoy": -0.013,
+          "earnings_growth_yoy": -0.678,
+          "eps_estimate_current_year": 2.5981,
+          "eps_estimate_next_year": 2.9369,
+          "dividend_yield": 0.0571,
+          "dividend_per_share": 0.323,
+          "revenue_ttm": 184805998592,
+          "revenue_per_share": 17.4285,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 138.68,
+          "forward_pe": 14.0845,
+          "price_to_sales": 0.4836,
+          "price_to_book": 1.5087,
+          "enterprise_value": 128152036461,
+          "ev_to_revenue": 0.687,
+          "ev_to_ebitda": 4.4276
+        },
+        "technical_data": {
+          "beta": 0.39,
+          "52_week_high": 35.0759,
+          "52_week_low": 24.4639,
+          "50_day_ma": 32.383,
+          "200_day_ma": 31.0005,
+          "short_interest": 0.0058,
+          "short_ratio": 1.81
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2,
+          "forward_dividend_yield": 0.0571,
+          "payout_ratio": 0.7209,
+          "dividend_date": "2025-09-19",
+          "ex_dividend_date": "2025-08-15",
+          "last_split_date": "1999-10-04",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7059,
+          "target_price": 36.96,
+          "strong_buy": 4,
+          "buy": 4,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 2577819904,
+          "percent_institutions": 12.379,
+          "percent_insiders": 0.004,
+          "shares_float": 14967013019
+        },
+        "balance_latest_sheet": {
+          "total_assets": 284737.0,
+          "total_debt": 74982.0,
+          "cash_and_equivalents": 35067.0,
+          "net_debt": 39915.0,
+          "working_capital": 17982.0,
+          "shareholders_equity": 59240.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.27
+        },
+        "income_latest_statement": {
+          "total_revenue": 47178.826,
+          "gross_profit": 8504.472,
+          "operating_income": 5912.151,
+          "net_income": 1648.279,
+          "ebitda": 8455.904,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 18.03,
+          "operating_margin": 12.53,
+          "net_margin": 3.49
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 6349.263,
+          "free_cash_flow": 3056.644,
+          "capex": 3292.619,
+          "net_income": 1648.279,
+          "cash_change": 1293.0,
+          "dividends_paid": -1259.446,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.6543,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 31.78,
+            "high": 32.16,
+            "low": 31.71,
+            "close": 32.09,
+            "volume": 3858700
+          },
+          {
+            "date": "2025-07-18",
+            "open": 32.5,
+            "high": 32.58,
+            "low": 31.9,
+            "close": 31.99,
+            "volume": 6224700
+          },
+          {
+            "date": "2025-07-21",
+            "open": 32.39,
+            "high": 32.45,
+            "low": 32.11,
+            "close": 32.23,
+            "volume": 6890300
+          },
+          {
+            "date": "2025-07-22",
+            "open": 32.41,
+            "high": 32.73,
+            "low": 32.38,
+            "close": 32.52,
+            "volume": 6791100
+          },
+          {
+            "date": "2025-07-23",
+            "open": 32.85,
+            "high": 33.07,
+            "low": 32.64,
+            "close": 32.71,
+            "volume": 12579500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 32.39,
+            "high": 32.56,
+            "low": 31.97,
+            "close": 32.13,
+            "volume": 12436000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 32,
+            "high": 32.24,
+            "low": 31.65,
+            "close": 32.2,
+            "volume": 7033600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 32.32,
+            "high": 32.73,
+            "low": 32.31,
+            "close": 32.67,
+            "volume": 5528400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 32.64,
+            "high": 32.97,
+            "low": 32.42,
+            "close": 32.96,
+            "volume": 4878000
+          },
+          {
+            "date": "2025-07-30",
+            "open": 32.32,
+            "high": 32.49,
+            "low": 31.96,
+            "close": 32.25,
+            "volume": 7183900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 31.86,
+            "high": 32.3,
+            "low": 31.8,
+            "close": 32.15,
+            "volume": 5346000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 32.04,
+            "high": 32.12,
+            "low": 31.59,
+            "close": 31.75,
+            "volume": 8591900
+          },
+          {
+            "date": "2025-08-04",
+            "open": 32.21,
+            "high": 32.64,
+            "low": 31.98,
+            "close": 32.49,
+            "volume": 13559300
+          },
+          {
+            "date": "2025-08-05",
+            "open": 32.92,
+            "high": 33.6,
+            "low": 32.69,
+            "close": 33.6,
+            "volume": 14440000
+          },
+          {
+            "date": "2025-08-06",
+            "open": 34.15,
+            "high": 34.66,
+            "low": 33.74,
+            "close": 33.88,
+            "volume": 11067700
+          },
+          {
+            "date": "2025-08-07",
+            "open": 34.21,
+            "high": 34.63,
+            "low": 34.1,
+            "close": 34.19,
+            "volume": 10582300
+          },
+          {
+            "date": "2025-08-08",
+            "open": 34.11,
+            "high": 34.38,
+            "low": 33.93,
+            "close": 34.14,
+            "volume": 6304000
+          },
+          {
+            "date": "2025-08-11",
+            "open": 34.22,
+            "high": 34.34,
+            "low": 33.88,
+            "close": 33.95,
+            "volume": 4857200
+          },
+          {
+            "date": "2025-08-12",
+            "open": 34.05,
+            "high": 34.38,
+            "low": 33.96,
+            "close": 34.07,
+            "volume": 4688900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 33.94,
+            "high": 34.31,
+            "low": 33.92,
+            "close": 34.31,
+            "volume": 7190800
+          },
+          {
+            "date": "2025-08-14",
+            "open": 34,
+            "high": 34.65,
+            "low": 33.9,
+            "close": 34.64,
+            "volume": 9440700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 34,
+            "high": 34.63,
+            "low": 33.95,
+            "close": 34.33,
+            "volume": 10608200
+          },
+          {
+            "date": "2025-08-18",
+            "open": 33.96,
+            "high": 34.17,
+            "low": 33.8,
+            "close": 34.05,
+            "volume": 5690359
+          },
+          {
+            "date": "2025-08-19",
+            "open": 34.03,
+            "high": 34.24,
+            "low": 33.715,
+            "close": 33.82,
+            "volume": 4964993
+          },
+          {
+            "date": "2025-08-20",
+            "open": 33.95,
+            "high": 34.1099,
+            "low": 33.78,
+            "close": 33.88,
+            "volume": 6028705
+          },
+          {
+            "date": "2025-08-21",
+            "open": 33.83,
+            "high": 34.06,
+            "low": 33.685,
+            "close": 34.05,
+            "volume": 4933529
+          },
+          {
+            "date": "2025-08-22",
+            "open": 34.08,
+            "high": 34.75,
+            "low": 34.04,
+            "close": 34.74,
+            "volume": 7453876
+          },
+          {
+            "date": "2025-08-25",
+            "open": 34.61,
+            "high": 35,
+            "low": 34.59,
+            "close": 34.97,
+            "volume": 5124677
+          },
+          {
+            "date": "2025-08-26",
+            "open": 34.46,
+            "high": 34.71,
+            "low": 34.345,
+            "close": 34.67,
+            "volume": 5592006
+          },
+          {
+            "date": "2025-08-27",
+            "open": 34.47,
+            "high": 35.0759,
+            "low": 34.45,
+            "close": 34.89,
+            "volume": 8118111
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 8.186046511627909,
+        "return_63d": 19.609187521426115,
+        "pct_above_sma50": 7.494084590357886,
+        "sma_50": 32.4576,
+        "new_55d_high": "False",
+        "high_55d": 35.0759,
+        "rsi": 60.23391812865505,
+        "rsi_in_range": "True",
+        "adx": 45.24530473936836,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.7441673832043547,
+        "bb_width": 10.226562436678858,
+        "keltner_width": 7.183341409388698,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 262238900.0598,
+        "adv_shares": 7729162.8,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 51.99566632681196,
+        "final_score": 51.99566632681196,
+        "sub_scores": {
+          "trend_momentum": 21.3654132238049,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.630253103007055,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 5.855582524271852,
+          "ret_63d": 20.559778852798893,
+          "rsi14": 60.23391812865505,
+          "adx14": 45.191822291824046,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BP\n• Current Price: $34.89\n• Overall Score: 48.793976174121774\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 32.383\n• Sma 200: 31.0005\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.855582524271844\n• Momentum 63D: 20.55977885279889\n• Momentum 126D: 6.762545899632806\n• Momentum Acceleration: -14.704196328527045\n• Roc 21D: 5.855582524271844\n• Trend Strength 20D: 0.6089114751943432\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 51.258054106455106\n• Price Velocity: 0.005933879775214623\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.008313514288509634\n• Volatility Compression: 63.90176990662327\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 21.3654132238049\n• Squeeze Breakout: 4.0\n• Options Quality: 15.630253103007055\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 69.0\n• Squeeze: 14.58526548599349\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BP\n• Strike Price: $33\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.58\n• Ask: $2.63\n• Last: $2.63\n• Mid: $2.605\n• Spread: 1.901140684410646387832699620%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6874\n• Gamma: 0.0854\n• Theta: -0.017\n• Vega: 0.0457\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3212\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 94\n• Open Interest: 2962\n• Volume/OI Ratio: 0.03173531397704254\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: BP PLC ADR\n• Sector: Energy\n• Industry: Oil & Gas Integrated\n• EPS (TTM): $0.25\n• Profit Margin: 0.3%\n• ROE: 2.1%\n• P/E Ratio: 138.7\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T17:29:47+00:00: BP refinery in Whiting, Indiana, back to normal operations...\n• 2025-08-27T16:29:00+00:00: Energy &amp; Utilities Roundup: Market Talk...\n• 2025-08-27T13:45:00+00:00: Exxon Holds Talks on Russia Return: Report. Ukraine Is Still a Hurdle for Oil Ma...\n• 2025-08-27T12:30:00+00:00: BP Awards Baker Hughes Major Service Role at Tangguh LNG Plant...\n• 2025-08-27T12:21:00+00:00: Shell Inches Closer to Securing Rahmat Gas Field Rights in Egypt...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BP\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BP opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:05:21.736275",
+    "estimated_tokens": 2318
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BP\",\n    \"rating\": 63,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 4,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BP shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces headwinds from weak fundamentals and upcoming earnings risk. The LEAPS option provides good liquidity with tight spreads, though implied volatility conditions are neutral.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above key moving averages (SMA50: 32.38, SMA200: 31.00)\",\n        \"Tight option spreads (1.90%) with healthy open interest of 2,962 contracts\",\n        \"Positive 63-day momentum of 20.56% indicates sustained uptrend\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with low profit margin (0.3%) and high P/E ratio (138.7)\",\n        \"Upcoming earnings on 2025-09-30 creates near-term event risk\",\n        \"Negative momentum acceleration (-14.70) suggests potential trend weakening\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 $33 CALL for longer-term bullish exposure\",\n        \"entry_timing\": \"Current entry suboptimal due to upcoming earnings - wait until after report\",\n        \"risk_management\": \"Use 30% stop loss and consider rolling up if delta exceeds 0.80\"\n    },\n    \"red_flags\": [\n        \"Earnings report in next 30 days\",\n        \"Extremely weak fundamentals relative to sector\"\n    ],\n    \"notes\": \"Option has favorable delta (0.68) for directional exposure but consider waiting for earnings catalyst to pass before entry\"\n}",
+    "parsed_analysis": {
+      "symbol": "BP",
+      "rating": 63,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 6,
+        "fundamentals": 4,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "BP shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces headwinds from weak fundamentals and upcoming earnings risk. The LEAPS option provides good liquidity with tight spreads, though implied volatility conditions are neutral.",
+      "opportunities": [
+        "Strong technical trend with price above key moving averages (SMA50: 32.38, SMA200: 31.00)",
+        "Tight option spreads (1.90%) with healthy open interest of 2,962 contracts",
+        "Positive 63-day momentum of 20.56% indicates sustained uptrend"
+      ],
+      "risks": [
+        "Poor fundamentals with low profit margin (0.3%) and high P/E ratio (138.7)",
+        "Upcoming earnings on 2025-09-30 creates near-term event risk",
+        "Negative momentum acceleration (-14.70) suggests potential trend weakening"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 $33 CALL for longer-term bullish exposure",
+        "entry_timing": "Current entry suboptimal due to upcoming earnings - wait until after report",
+        "risk_management": "Use 30% stop loss and consider rolling up if delta exceeds 0.80"
+      },
+      "red_flags": [
+        "Earnings report in next 30 days",
+        "Extremely weak fundamentals relative to sector"
+      ],
+      "notes": "Option has favorable delta (0.68) for directional exposure but consider waiting for earnings catalyst to pass before entry"
+    },
+    "tokens_used": 2548,
+    "cost": 0.02548,
+    "response_time": 9.890882968902588,
+    "success": true
+  },
+  "cost": 0.02548,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8477,
+    "response_length": 1716
+  }
+}

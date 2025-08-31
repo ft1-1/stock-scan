@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "RTX",
+  "timestamp": "2025-08-25T01:16:46.010464",
+  "data_package": {
+    "metadata": {
+      "symbol": "RTX",
+      "package_timestamp": "2025-08-25T01:16:36.588901",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "RTX",
+        "current_price": 156.24,
+        "overall_score": 52.74049206633062,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 150.8246,
+        "sma_200": 132.1111
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.657131812910714,
+        "momentum_63d": 16.536137838442617,
+        "momentum_126d": 26.725606294103333,
+        "momentum_acceleration": -15.879006025531902,
+        "roc_21d": 0.657131812910714,
+        "trend_strength_20d": 0.2914995582313103,
+        "trend_direction": 1,
+        "ma_ribbon_score": 81.56004919916155,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0028299505280060754
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": -0.3923231673839224,
+        "volatility_compression": 70.45229964691805,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.859963385945548,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.350739393939419,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 62.0,
+        "momentum": 53.0,
+        "squeeze": 60.567844947037706,
+        "options": 42.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 8,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "RTX",
+        "strike_price": "155",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.7",
+        "ask": "5.85",
+        "last_price": "5.92",
+        "mid_price": "5.775",
+        "spread_percent": "2.564102564102564102564102564"
+      },
+      "greeks": {
+        "delta": 0.5739,
+        "gamma": 0.0321,
+        "theta": -0.0536,
+        "vega": 0.2362
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2028
+      },
+      "liquidity_metrics": {
+        "volume": 100,
+        "open_interest": 763,
+        "volume_oi_ratio": 0.1310615989515072
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:52.620456",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-24T11:07:00+00:00",
+            "title": "Forget About Palantir's $10 Billion Army Contract. This News Is Much Bigger.",
+            "content": "Key Points\n\nThe U.S. Pentagon awarded Palantir $10 billion last month. On that same day, it awarded RTX $50 billion -- 5x as much money. RTX has been hired to keep Patriot missiles in supply and in service for the next 20 years. 10 stocks we like better than RTX ›\n\nBy now, you've probably heard the news: Last month, rising defense technology starPalantir Technologies(NASDAQ: PLTR) won a $10 billion contract from the U.S. Army, consolidating 75 separate, smaller contracts into a single award, guaranteeing Palantir about $1 billion in annual revenue for the next 10 years.\n\nThis was big news for Palantir, to be sure. It's almost certainly part of the reason why Palantir stock is up $20 so far this month, adding $45 billion to its market capitalization.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nBut Palantir's $10 billion contract win wasn't the biggest award the U.S. Pentagon handed out on Aug. 1. Not even close.\n\nA Patriot missile produced by RTX launches. Image source: RTX.\n\nPalantir vs. Raytheon\n\nLost in all the talk about Palantir's massive contract win earlier this month was an even bigger contract awarded to one of the defense contracting companies that Palantir is trying to supplant: RTX (NYSE: RTX), the company formerly known as Raytheon.\n\nOn Aug. 1, the U.S. Defense Logistics Agency (DLA) announced, as just one of several contracts awarded by the Pentagon that day, a gigantic $50billion contract awarded to RTX -- 5x the size of Palantir's win. This \"umbrella\" contract, said the Defense Department, encompasses \"RTX systems and end-item production, spare parts, services, and other types of support.\"\n\nSupport for what, you may ask? Well, DoD didn't say it straight out in its official announcement exactly. But digging around for other sources discussing the same award, I quickly found the answer: Ordering on behalf of the Army, the DLA has secured RTX support for its Patriot air defense systems for the next 20 years.\n\nSaluting Patriot\n\nGovConWire.com, for example, specifically describes the RTX award as a \"$50B umbrella contract for Patriot missiles.\" It further makes clear that the contract will run for an almost unprecedented 20-year term, and is not dependent upon renewal of \"option periods.\"\n\nGranted, to be 100% accurate, one must note that the \"$50 billion\" value is described as the \"maximum\" value the contract might reach. Still, assuming the Army does max out its allotted funds, that works out to $2.5 billion in annual Patriot revenue for RTX, every year, for the next 20 years.\n\nAnd that's a huge deal.\n\nHow much is $2.5 billion worth?\n\nAll this being said, context is important -- especially for investors contemplating an investment in RTX stock.\n\nRTX is, after all, a giant industrial company with multiple business segments, ranging from Collins Aerospace airplane parts to Pratt & Whitney airplane engines to Raytheon -- formerly the name of the entire company, but now just the name of the defense business. All of RTX produced sales of $80.7 billion last year, with revenue streams divided roughly equally among the three main business divisions. Raytheon in particular did sales of $26.7 billion last year -- so the company's big Patriot contract amounts to about 9.4% of Raytheon's total annual revenue.\n\nOf the three divisions, Collins is by far RTX's most profitable unit, pulling down a fat 14.5% operating profit margin on its $28.3 billion in revenue. Pratt is the least profitable division at present, earning only a 7.1% margin, while Raytheon is somewhere in the middle, earning $0.097 per $1 in sales.\n\nInvestors can expect, therefore, that the new Patriot contract will earn RTX something on the order of $243 million annually, before taxes, at its current profit margin -- perhaps a bit more, if RTX generates cost efficiencies from producing Patriots at scale.\n\nIs RTX stock a buy?\n\nNow, $243 million is a lot of money, and no one's saying different. Still, investors need to realize that even $243 million annually is only about 4% of what RTX earned over the last 12 months. You also need to consider that RTX was already selling Patriots to the Army before this contract was awarded, so not all the $2.5 billion a year in Patriot revenue from the contract, nor all the $243 million in profit, is going to be new, incremental revenue and profit added onto what RTX was already making.\n\nAs a result -- and crazy as this sounds to say out loud -- I do not believe that even RTX's gigantic $50 billion Patriot win is going to noticeably increase the 8.7% long-term earnings growth rate that analysts polled by S&P Global Market Intelligence estimate for RTX. That's a shame, because at its current valuation of 33.5 times trailing earnings, RTX shares look far too expensive to buy with just a single-digit growth rate to support them.\n\nThe bottom line: $50 billion contract or no $50 billion contract, RTX stock remains a sell for me.\n\nShould you invest $1,000 in RTX right now?\n\nBefore you buy stock in RTX, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and RTX wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nRich Smith has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Palantir Technologies and S&P Global. The Motley Fool recommends RTX. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T20:23:00+00:00",
+            "title": "The 1 Thing Investors in GE Aerospace and RTX Need to Know Before Buying Stock (And Why Airplanes Are Set to Look Dramatically Different in the Future)",
+            "content": "Key Points\n\nRTX is adopting a more conservative approach by continuously improving existing technology.  Boeing may well line up with a ducted engine, possibly from RTX or Rolls-Royce or both, and Airbus could use a CFM International RISE. The stakes are rising in the battle over aircraft engines. 10 stocks we like better than GE Aerospace ›\n\nGE Aerospace's (NYSE: GE) joint venture, CFM International, and RTX's (NYSE: RTX) Pratt & Whitney produce rival engines in the Airbus A320neo. In addition, the CFM engine, LEAP, is the sole engine option on the Boeing 737 MAX. Together, these two narrowbody aircraft are the workhorses of the sky. It's difficult for ordinary travelers to tell the aircraft apart, and even harder to distinguish the engines on the Airbus A320neo. However, that's all set to change in the future, because the CFM engine in development, RISE, could revolutionize the aerospace industry.\n\nWhy it matters\n\nAircraft engines are a hugely essential factor in the industry. Both GE Aerospace and RTX's Pratt & Whitney rely on the same business model. They spend billions on researching and developing aircraft engines, selling them to airlines at a loss, but generating lucrative aftermarket revenue over decades. It creates an unusual dynamic where selling more engines (good) generates near-term losses, but adds significant long-term value to GE and RTX.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nAs such, engine manufacturers must be a certified engine supplier on a new aircraft program. In addition, they must demonstrate efficacy and reliability on airplanes to compete for engine orders, as is currently the case on the Airbus A320neo family of airplanes.\n\nNew engines are not only critical to GE Aerospace and RTX but also an essential part of Boeing and Airbus' development plans and the aerospace industry at large. Consequently, GE (via CFM International), RTX, and the UK's Rolls-Royce are competing over the development of engines for the next generation of narrow bodies.\n\nThe next generation of engines and airplanes\n\nThe two (airplanes and engines in development) can't be separated, not least because they are developed in concert. It's likely to be a fierce battle with RTX's Pratt & Whitney electing to evolve its geared turbofan (GTF) engine, currently used as one of the two options on the Airbus A320neo.\n\nHowever, CFM International is taking a revolutionary path. RISE stands for Revolutionary Innovation for Sustainable Engines, which uses an open fan architecture. As you can see below, the engines won't have a traditional case (nacelle) and look vastly different from current engines, or the GTF in development by Pratt & Whitney.\n\nThe unducted fan (meaning it doesn't have the nacelle around it) allows for a larger diameter fan, which can move more air around the engine (bypass flow) relative to the volume of air moving through the engine (core flow), giving it a higher bypass ratio and therefore more efficiency. For reference, it's the bypass flow that's responsible for most of the thrust.\n\nAccording to GE Aerospace, the LEAP engine \"has a bypass ratio of 11:1.\" However, \"an open fan could achieve a bypass ratio above 70:1. And this translates to a 20% reduction in fuel and emissions compared with the most advanced engines flying today.\"\n\nImage source: CFM International.\n\nBoeing and Airbus\n\nUnfortunately, Boeing's difficulties with the 737 MAX in recent years and the debt taken on during the pandemic mean the company needs to  improve execution and ramp 737 MAX production before embarking on starting development of a new airplane. Still, it's widely reported that  it issued a request for information to engine manufacturers for a ducted propulsion system.  This would imply it's not looking to use an open fan architecture as developed in CFM's RISE program.\n\nWhat's not in doubt is CFM's commitment to open fan technology, with a spokesperson recently noting, \"As part of the CFM RISE demonstration program, we're advancing innovative new technologies to meet our customers' needs and believe Open Fan is the most promising path to achieve a step change in efficiency and durability.\"\n\nAirbus is collaborating with CFM on RISE and intends to conduct flight tests of an Airbus A380 by 2030 . Additionally, Airbus has highlighted the potential of open fan technology.\n\nImage source: CFM International.\n\nWhere next for the industry?\n\nIt will be many years before Boeing and Airbus bring new narrowbodies into service, but the research & development work will need to be completed in advance. If Boeing adopts a ducted propulsion approach, and Airbus adopts an open fan approach, then its airplanes and engines will look significantly different in a decade's time.\n\nRTX's approach of continuously improving its existing GTF technology is arguably less risky, but CFM's open fan could revolutionize the industry. Under these circumstances, Boeing could end up at a competitive disadvantage if it doesn't adopt open fan architecture and Airbus does. Another way of looking at it is that Boeing's financial position doesn't allow it to take the lead in new airplane development, and it may well adopt open fan architecture in the future if it proves successful.\n\nWhatever the various outcomes will be, the stakes are rising for RTX and GE, and investors need to factor that into their thinking about the stocks before we get there.\n\nShould you invest $1,000 in GE Aerospace right now?\n\nBefore you buy stock in GE Aerospace, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and GE Aerospace wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nLee Samaha has no position in any of the stocks mentioned. The Motley Fool recommends GE Aerospace and RTX. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T16:00:02+00:00",
+            "title": "Should You Buy Nvidia Stock Before August 27?",
+            "content": "Nvidia (NVDA) is more than just a chipmaker. It is now the foundation of the artificial intelligence (AI) industry. Its graphic processing units (GPUs) power everything from advanced large language models to self-driving cars, data centers, cloud computing platforms, and even government-funded AI projects. Its finances have skyrocketed in recent years, with data center revenue surging to unimaginable levels.\n\nOver the last five years, Nvidia’s stock has returned 1,230%. It has become the world’s most valuable company, surpassing the $4 trillion mark and even challenging tech giants such as Microsoft (MSFT) and Apple (AAPL).\n\nMore News from Barchart\n\nNvidia CEO Jensen Huang: ‘Anybody Who Wants to Buy’ Taiwan Semiconductor Stock ‘is a Very Smart Person’ This Nvidia-Backed Stock Just Announced a New Technical Breakthrough That Could Rival Tesla A Reverse Stock Split Won’t End Lucid’s Woes: Should You Buy LCID Stock or Steer Clear? Tired of missing midday reversals? The FREE Barchart Brief newsletter keeps you in the know. Sign up now!\n\nSo far this year, the stock is up 30.2%, outperforming the broader market. Nvidia will report its second-quarter fiscal 2026 earnings on Aug. 27, and Wall Street anticipates another strong quarter. Let us see if the stock is a buy ahead of earnings.www.barchart.com\n\nAnother Strong Quarter Expected Amid U.S.-China Tensions\n\nNvidia began fiscal 2026 with a record-breaking quarter of $44 billion in revenue, a 69% increase year-over-year. Adjusted earnings increased 33% to $0.81 per share, with adjusted gross margins reaching 61%. Data center revenue alone reached $39 billion, a 73% increase, showing Nvidia’s global dominance in AI workloads.\n\nThe first quarter also highlighted the delicate geopolitical challenges that the company must navigate. On April 9, new U.S. government export controls had a direct impact on Nvidia’s H20 GPU, a data center chip designed specifically for China. Unlike previous restrictions, this did not provide a grace period for the company to sell its existing inventory. Although Nvidia recognized $4.6 billion in H20 revenue prior to April 9, an additional $2.5 billion in H20 revenue could not be shipped at all in the first quarter. The company also had to report a $4.5 billion charge for inventory write-downs and purchase obligations.\n\nDespite the U.S.-China tensions, Blackwell has more than made up the difference, accounting for roughly 70% of Data Center compute revenue in Q1. Nvidia has already started sampling the new upgraded GB300 (Blackwell Ultra) with major cloud service providers. Aside from the Data Center, Nvidia’s gaming revenue reached a record $3.8 billion, up 42%. Gamers and creators are now adopting Blackwell GPUs, and the new RTX 5060 and 5060 Ti, which start at $299, bring AI-powered gaming into the mainstream. Automotive revenue increased 72% year on year to $567 million, driven by demand for new energy vehicles (NEVs) and the adoption of self-driving systems.\n\nStory Continues\n\nNvidia also reported nearly 100 AI factories in operation this quarter, spanning industries and geographies ranging from telecoms like AT&T (T) and Telenor (TELNY) to automakers like BYD (BYDDY) and Foxconn, as well as sovereign clouds in Saudi Arabia, Taiwan, and the United Arab Emirates. Even as the company aggressively invests in growth, it is committed to returning money to shareholders. Nvidia returned a record $14.3 billion to shareholders through buybacks and dividends in the first quarter.\n\nNvidia’s Strengths Could Help Retain Its AI Crown\n\nNvidia has a moat with its CUDA ecosystem because thousands of machine learning frameworks, libraries, and tools are optimized for CUDA, resulting in high switching costs. Furthermore, Nvidia sells more than just chips, providing everything required to run large-scale AI workloads. The company has maintained a relentless pace of product development, with each new release delivering next-generation performance. The company has a first-mover advantage in hyperscalers and is the primary hardware provider for AI. Furthermore, CEO Jensen Huang believes that Agentic AI and Sovereign AI are the company’s next growth engines. These strengths could help Nvidia keep its AI crown and report another strong quarter.\n\nManagement expects revenue of $45 billion (plus or minus 2%) in the second quarter, with growth across all segments despite an $8 billion revenue loss in China due to H20 export controls. Margins could reach the mid-70% range by year-end, thanks to Blackwell.\n\nAnalysts covering the stock predict a 53% increase in second-quarter revenue to $46 billion, with adjusted earnings up 48% to $1.01 per share.\n\nTrading at 40 times forward earnings, Nvidia stock is pricey. Risk-averse investors may want to accumulate shares in the $153 to $154 range to invest with a margin of safety.\n\nIs Nvidia Stock a Buy, Hold, or Sell on Wall Street?\n\nComing to Wall Street, Nvidia holds an overall “Strong Buy” rating. Ahead of the Q2 earnings, Wedbush increased the price target on NVDA to $210 from $175, reiterating an “Outperform” rating. The firm cited strong demand trends and an improving sales environment in China as potential drivers of continued growth in the coming quarters.\n\nSimilarly, Oppenheimer analyst Rick Schafer also reiterated a “Buy” rating with a target price of $200.\n\nOut of the 46 analysts that cover the stock, 38 have a “Strong Buy” recommendation, with two “Moderate Buy” ratings, five “Hold” ratings, and two “Strong Sell” ratings. The average target price for Nvidia stock is $192.67, which implies potential upside of 10.1% over the next 12 months. The high price estimate implies the stock can rally as much as 43% from current levels.www.barchart.com\n\nOn the date of publication, Sushree Mohanty did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T11:57:53+00:00",
+            "title": "Uber Leads 5 Stocks Near Buy Points As Market Rebounds",
+            "content": "Uber, JPMorgan and RTX are stocks to watch. The market jumped Friday as Fed chief Powell hinted at rate cuts.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T10:00:00+00:00",
+            "title": "Nvidia Stock Is Poised to Benefit From Rising Use of AI in Defense Systems and Global Surge in Defense Spending",
+            "content": "Key Points\n\nGlobal defense priorities are shifting to include greater spending on advanced technologies, such as artificial intelligence (AI). These trends should benefit Nvidia, which is the dominant provider of AI chips and related technologies.10 stocks we like better than Nvidia ›\n\nNvidia(NASDAQ: NVDA), the leader in artificial intelligence (AI) chips and related technology, is poised to benefit from two trends in the defense industry:\n\n1. The global surge in defense spending\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\n2. The \"teching up\" of defense systems\n\nThere are many reasons to be bullish on Nvidia stock as a long-term investment -- and this is yet another one. However, this topic is significantly under-covered in the financial press, so I decided to dig in.\n\nImage source: Getty Images.\n\nWhy the scarcity of data on Nvidia's connections to defense applications?\n\nI think there are likely several reasons for the scarcity of information about Nvidia's connections to defense applications. First, there's little doubt that some of the uses of Nvidia's tech are classified, so there would be no press releases or management discussions of them.\n\nAnother reason likely stems from the topic of AI being used in warfare makes some folks anxious. Thus, Nvidia might shy away from publicizing defense-related news, as the company's success depends upon increasing adoption of AI.\n\nMoreover, unlike, say, AI-powered analytics company Palantir Technologies, Nvidia has a consumer business, so it wouldn't want to risk turning off some consumers. In its fiscal first quarter, Nvidia's consumer-focused gaming business brought in $3.8 billion, accounting for 8.6% of total revenue.\n\nTrend 1: The global surge in defense spending\n\nEurope's and NATO's increased investments in defense\n\nIn March, Ursula von der Leyen, president of the European Commission, wrote: \"And Europe is ready to massively boost its defence spending.\" [My emphasis.]\n\nThen in June at the NATO (North Atlantic Treaty Organization) Summit, Alliance members \"agreed to increase their annual defense spending, ultimately up to 5% of their gross domestic product\" by 2035, the U.S. Department of Defense (DOD) reported.\n\nThis agreement represents a huge increase. In 2024, NATO members excluding the United States (30 European members plus Canada), on average, invested 2.02% of their GDP on defense, according to NATO. That number gets boosted to the mid-two-percentage points when we add in the U.S., as we contributed about 3.4% of our GDP.\n\nSome defense-related stocks and defense exchange-traded funds (ETFs) are already benefiting from rising investments in defense. In the first half of 2025, Rheinmetall, Germany's largest defense contractor, experienced a 36% year-over-year surge in its defense revenue. In 2025, Rheinmetall stock has soared 189% through this writing on Aug. 19, crushing the S&P 500's (SNPINDEX: ^GSPC) 9.9% return.\n\nThe U.S. also plans to notably increase defense spending\n\nPresident Donald Trump's request for a fiscal year 2026 national defense budget is $1.01 trillion, which is a 13.4% increase from fiscal year 2025's enacted level. (Our country's fiscal year begins on Oct. 1 each year.) This legislation is making its way through Congress, as of this writing on Aug. 19.\n\nTrend 2: The \"teching up\" of defense spending\n\nThe second global defense spending trend is the increasing prioritization of cutting-edge technologies, such as AI; autonomous systems (which includes autonomous drones); space-based systems; and cybersecurity. (There is some overlap in these categories.)\n\nHigher defense spending on AI will naturally benefit Nvidia, the AI chip leader\n\nThis trend will naturally benefit Nvidia because its graphics processing units (GPUs) are the dominant chips by far for processing AI workloads. This includes AI training, often done in data centers, and AI inferencing, which is increasingly done \"at the edge.\" This means within the machine in which an AI application is deployed, such as a cellphone, a drone, or a vehicle.\n\nPresident Trump's \"Unleashing American Drone Dominance\" executive order\n\nIn June, President Trump signed an executive order (EO) called \"Unleashing American Drone Dominance,\" aimed at speeding up U.S. drone production. There's a section in this EO called \"Delivering Drones to Our Warfighters,\" which should result in increased use of drones in the military.\n\nU.S. defense giant Northrop Grumman's (NYSE: NOC) CEO Kathy Warden addressed the topic of autonomous systems -- which includes autonomous drones -- in late July on the company's Q2earnings call \"Our investment in Beacon [a flying-mission test bed] also supports the administration's call for more next-generation autonomous systems.\"\n\nDrones for a wide variety of uses are increasingly becoming autonomous, thanks to AI. This trend could benefit Nvidia, as its Jetson embedded AI computing platform can act as the \"brains\" of drones and other types of robots.\n\nVenture capital is flowing into \"defense tech\" companies\n\nThe \"teching up\" of defense spending has led to a growing category of companies called \"defense tech\" companies. These are tech companies whose products are used in defense applications, though not necessarily exclusively.\n\nIn 2024, global venture capital (VC) funding for defense-related tech companies jumped 33% year over year to $31 billion, according to consulting giant McKinsey & Company. The biggest investment areas were AI ($12 billion), next-generation communication networks, and autonomous systems ($4 billion each).\n\nNvidia's involvement in defense applications\n\nNvidia's \"U.S. Public Sector\" partners\n\nData source: Nvidia.\n\nWithin the \"system integrators\" category, Nvidia's \"U.S. Public Sector\" website page lists that it's working with four major defense contractors (Leidos, Lockheed Martin, Northrop Grumman, and RTX's Raytheon unit) and three management consulting firms that do much government work (Accenture, Booz Allen Hamilton, and Deloitte).\n\nThe website page also contains a list of \"solutions providers\" that Nvidia works with. These include Dell and Hewlett Packard Enterprise. Both make computer servers that integrate Nvidia chips, so they're likely selling some of these systems to the government. The other 12 companies are privately held.\n\nThis doesn't mean that all of Nvidia's tech that's used in defense-related applications is sold to one of the partners listed in its U.S. public sector website section. These are just the entities that it's publicizing that it's directly working with.\n\nNvidia's partnership with Northrop Grumman seems particularly deep\n\nMy research suggests Northrop and Nvidia have a long-standing and deep relationship. Northrop's name came up more often in my research than did those of other large defense contractors.\n\nHere's a part of a press release, titled \"Northrop Grumman to Accelerate AI Innovation with Nvidia Software,\" released in May 2024:\n\nNorthrop Grumman ... announced today an agreement for access and use of Nvidia AI software to accelerate development of some of the most advanced systems.\" [Emphasis mine.]\n\nThis industry-leading agreement ... gives Northrop Grumman access to Nvidia's extensive portfolio of AI and generative AI software, its platforms, and frameworks, including Nvidia Omniverse. [Omniverse is generally used for simulation purposes.]\n\nIndeed, this looks like an \"industry-leading agreement,\" as Northrop termed it. Not surprisingly, the release is very general. We can probably assume that many, if not most, of those \"advanced systems\" it mentions are defense-related.\n\nIn June 2025, Northrop released a press release titled \"Northrop Grumman Expanding Its Use of Nvidia AI Technology to Advance Solutions for Space.\" It reads in part:\n\n[Northrop] is expanding its use of Nvidia technology, including adding space applications to the Nvidia Omniverse simulation platform and leveraging the Nvidia Isaac Lab framework for the training, development and deployment of artificial intelligence (AI) for cognitive spacecraft operations.\n\nIsaac Lab is Nvidia's framework for robot learning. It would seem that Northrop plans to use Nvidia's AI tech to make certain spacecraft -- perhaps satellites? -- autonomous.\n\nDefense tech company Mercury Systems and Nvidia have been working together for many years\n\nDefense tech company Mercury Systems touts that it's been working with Nvidia for over 20 years. Here's a snippet from an introduction to a May 2025 Mercury video: \"As a preferred partner, Mercury is bringing Nvidia's latest GPU and artificial intelligence (AI) technologies to some of the most demanding environments on Earth and beyond, revolutionizing aerospace and defense applications by instantaneously turning data into actionable insights.\"\n\nBasically, what Mercury does is provide \"ruggedized\" versions of Nvidia's products to the defense and aerospace industries.\n\nNvidia's tech was used in military equipment (tanks, fighter jets) as far back as at least 2012\n\nI don't know how long Nvidia has been involved with the defense industry, but it's been for quite some time.\n\nI found a December 2012 Nvidia press release for a contract with DARPA (the U.S. Defense Department's research arm) that included: \"Nvidia processors are used in a wide variety of embedded applications today, including automobiles made by [four higher-end auto manufacturers], aircraft including the F-22 Raptor, and U.S. Army tanks.\" [Emphasis mine.]\n\nThe F-22 Raptor is a stealth fighter jet of the U.S. Air Force. In 2005, it began entering service. These aircraft are still in use, but no longer produced. Lockheed Martin and Boeing were the prime contractors.\n\nMy guess is that the F-22 and the U.S. Army tanks used Nvidia's tech for digital instrument or related displays.\n\nSolid government demand for Nvidia's GPU-equipped professional workstations and Jetson platform\n\nIn my search of government public records for request for proposals (RFPs), Nvidia's name popped up a lot. A good number of these RFPs from defense-related agencies (and other governmental agencies) included Nvidia's GPU-equipped professional workstations and its Jetson platform. This AI-powered embedded platform is used to develop autonomous drones and other robots, and makes Nvidia one of the top robotics stocks.\n\nNvidia's tech considered \"unique\" and \"essential\" by a Naval agency\n\nHere's an example of the type of entry that Nvidia investors should love: In July, an agency that's part of the Navy specified that it wanted to purchase perpetual licenses for 250 Nvidia RTX Workstations and five-year support service for the 250 units.\n\nThe agency had to justify being specific with brand and product and not open to other products: \"The justification outlines ... and emphasizes the urgency and uniqueness of the products, which are deemed essential for fulfilling agency needs.\" [Emphases mine.]\n\nThis wording suggests the requesting agency does not believe this Nvidia product has any relevant competition.\n\nIncreasing global defense budgets + increasing defense spending on AI = bullish for Nvidia stock\n\nIn short, defense budgets around the world are increasing, and these budgets are increasingly prioritizing advanced technologies, including AI. Nvidia's position as the leading maker of AI-enabling chips and platforms make it well positioned to benefit from these two secular global trends.\n\nShould you invest $1,000 in Nvidia right now?\n\nBefore you buy stock in Nvidia, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Nvidia wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nBeth McKenna has positions in Nvidia. The Motley Fool has positions in and recommends Accenture Plc, Nvidia, and Palantir Technologies. The Motley Fool recommends Lockheed Martin, RTX, and Rheinmetall Ag. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Raytheon Technologies Corp",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 186000,
+          "description": "RTX Corporation, an aerospace and defense company, provides systems and services for the commercial, military, and government customers in the United States and internationally. It operates through three segments: Collins Aerospace, Pratt & Whitney, and Raytheon. The Collins Aerospace Systems segmen"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.55,
+          "profit_margin": 0.0735,
+          "operating_margin": 0.1155,
+          "roe": 0.1032,
+          "roa": 0.037,
+          "revenue_growth_yoy": 0.094,
+          "earnings_growth_yoy": 14.25,
+          "eps_estimate_current_year": 5.9671,
+          "eps_estimate_next_year": 6.6564,
+          "dividend_yield": 0.0164,
+          "dividend_per_share": 2.57,
+          "revenue_ttm": 83598999552,
+          "revenue_per_share": 62.562,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 34.3385,
+          "forward_pe": 26.2467,
+          "price_to_sales": 2.5016,
+          "price_to_book": 3.3516,
+          "enterprise_value": 247946775050,
+          "ev_to_revenue": 2.9659,
+          "ev_to_ebitda": 17.3171
+        },
+        "technical_data": {
+          "beta": 0.672,
+          "52_week_high": 158.0938,
+          "52_week_low": 111.2107,
+          "50_day_ma": 150.8246,
+          "200_day_ma": 132.1111,
+          "short_interest": 0.0106,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.72,
+          "forward_dividend_yield": 0.0174,
+          "payout_ratio": 0.4352,
+          "dividend_date": "2025-09-04",
+          "ex_dividend_date": "2025-08-15",
+          "last_split_date": "2020-04-03",
+          "last_split_factor": "15890:10000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1667,
+          "target_price": 162.5,
+          "strong_buy": 12,
+          "buy": 4,
+          "hold": 8,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1338540032,
+          "percent_institutions": 83.321,
+          "percent_insiders": 0.079,
+          "shares_float": 1223373688
+        },
+        "balance_latest_sheet": {
+          "total_assets": 167139.0,
+          "total_debt": 43595.0,
+          "cash_and_equivalents": 4782.0,
+          "net_debt": 38813.0,
+          "working_capital": 325.0,
+          "shareholders_equity": 62398.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 21581.0,
+          "gross_profit": 4376.0,
+          "operating_income": 2106.0,
+          "net_income": 1657.0,
+          "ebitda": 3596.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 20.28,
+          "operating_margin": 9.76,
+          "net_margin": 7.68
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 458.0,
+          "free_cash_flow": -72.0,
+          "capex": 530.0,
+          "net_income": 1725.0,
+          "cash_change": -366.0,
+          "dividends_paid": -910.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.42,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 147.89,
+            "high": 149.57,
+            "low": 147.08,
+            "close": 149.28,
+            "volume": 4461000
+          },
+          {
+            "date": "2025-07-15",
+            "open": 149.8,
+            "high": 150.75,
+            "low": 148.4,
+            "close": 148.68,
+            "volume": 4530500
+          },
+          {
+            "date": "2025-07-16",
+            "open": 148.85,
+            "high": 150.36,
+            "low": 148.26,
+            "close": 150.17,
+            "volume": 3361700
+          },
+          {
+            "date": "2025-07-17",
+            "open": 150.56,
+            "high": 151.99,
+            "low": 150.19,
+            "close": 151.5,
+            "volume": 4326500
+          },
+          {
+            "date": "2025-07-18",
+            "open": 151.81,
+            "high": 152.85,
+            "low": 151.08,
+            "close": 151.5,
+            "volume": 5928600
+          },
+          {
+            "date": "2025-07-21",
+            "open": 151.98,
+            "high": 153.39,
+            "low": 151.06,
+            "close": 151.56,
+            "volume": 7116000
+          },
+          {
+            "date": "2025-07-22",
+            "open": 145.48,
+            "high": 150.27,
+            "low": 143.56,
+            "close": 149.17,
+            "volume": 10722700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 150,
+            "high": 156.59,
+            "low": 149.11,
+            "close": 156.49,
+            "volume": 8667100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 156.25,
+            "high": 157.24,
+            "low": 155.15,
+            "close": 155.22,
+            "volume": 4865300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 155.21,
+            "high": 157.33,
+            "low": 154.26,
+            "close": 156.88,
+            "volume": 4728200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 157.15,
+            "high": 157.33,
+            "low": 155.63,
+            "close": 156.07,
+            "volume": 4022900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 157.73,
+            "high": 158.79,
+            "low": 156.33,
+            "close": 157.12,
+            "volume": 4341800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 157.45,
+            "high": 158.73,
+            "low": 156.42,
+            "close": 158.4,
+            "volume": 3998700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 158.11,
+            "high": 158.23,
+            "low": 156.75,
+            "close": 157.57,
+            "volume": 4796000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 156.29,
+            "high": 157.48,
+            "low": 153.75,
+            "close": 156.81,
+            "volume": 4420700
+          },
+          {
+            "date": "2025-08-04",
+            "open": 157.13,
+            "high": 158.41,
+            "low": 156.74,
+            "close": 157.38,
+            "volume": 3961900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 157.27,
+            "high": 158.04,
+            "low": 155.76,
+            "close": 156.33,
+            "volume": 4993900
+          },
+          {
+            "date": "2025-08-06",
+            "open": 156.65,
+            "high": 157.73,
+            "low": 155.64,
+            "close": 155.75,
+            "volume": 4112100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 154.65,
+            "high": 155.76,
+            "low": 153.24,
+            "close": 155.76,
+            "volume": 5105800
+          },
+          {
+            "date": "2025-08-08",
+            "open": 156.6,
+            "high": 156.92,
+            "low": 154.72,
+            "close": 154.86,
+            "volume": 3667300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 154.73,
+            "high": 155.67,
+            "low": 154.14,
+            "close": 154.8,
+            "volume": 3572900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 154.97,
+            "high": 155.93,
+            "low": 154.56,
+            "close": 155.49,
+            "volume": 2962300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 156,
+            "high": 156.34,
+            "low": 152.66,
+            "close": 155.71,
+            "volume": 5012300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 155.6,
+            "high": 156.33,
+            "low": 154.65,
+            "close": 155.08,
+            "volume": 2766600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 154.26,
+            "high": 154.87,
+            "low": 153.33,
+            "close": 154.09,
+            "volume": 4593800
+          },
+          {
+            "date": "2025-08-18",
+            "open": 154.43,
+            "high": 156.18,
+            "low": 154.4,
+            "close": 155.5,
+            "volume": 3679300
+          },
+          {
+            "date": "2025-08-19",
+            "open": 154.57,
+            "high": 155.13,
+            "low": 153.21,
+            "close": 153.66,
+            "volume": 3008600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 153.77,
+            "high": 157.11,
+            "low": 153.09,
+            "close": 156.59,
+            "volume": 3766500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 156.79,
+            "high": 157.75,
+            "low": 156.22,
+            "close": 156.32,
+            "volume": 3179800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 157.05,
+            "high": 157.94,
+            "low": 156.21,
+            "close": 156.24,
+            "volume": 4252100
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -0.40795512493624836,
+        "return_63d": 18.050623347185503,
+        "pct_above_sma50": 3.5905283355632998,
+        "sma_50": 150.8246,
+        "new_55d_high": "False",
+        "high_55d": 158.79,
+        "rsi": 45.11149228130365,
+        "rsi_in_range": "False",
+        "adx": 27.641544953506987,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.4282514080901174,
+        "bb_width": 3.004230877137398,
+        "keltner_width": 5.723231794307323,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 625585087.0225002,
+        "adv_shares": 4010765.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 44.21070277988497,
+        "final_score": 44.21070277988497,
+        "sub_scores": {
+          "trend_momentum": 13.859963385945548,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.350739393939419,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 0.6571318129107162,
+          "ret_63d": 16.53613783844261,
+          "rsi14": 45.11149228130365,
+          "adx14": 25.434218994296433,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: RTX\n• Current Price: $156.24\n• Overall Score: 52.74049206633062\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 150.8246\n• Sma 200: 132.1111\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.657131812910714\n• Momentum 63D: 16.536137838442617\n• Momentum 126D: 26.725606294103333\n• Momentum Acceleration: -15.879006025531902\n• Roc 21D: 0.657131812910714\n• Trend Strength 20D: 0.2914995582313103\n• Trend Direction: 1\n• Ma Ribbon Score: 81.56004919916155\n• Breakout Strength: 0.0\n• Price Velocity: 0.0028299505280060754\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: -0.3923231673839224\n• Volatility Compression: 70.45229964691805\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.859963385945548\n• Squeeze Breakout: 4.0\n• Options Quality: 15.350739393939419\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 62.0\n• Momentum: 53.0\n• Squeeze: 60.567844947037706\n• Options: 42.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: RTX\n• Strike Price: $155\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.7\n• Ask: $5.85\n• Last: $5.92\n• Mid: $5.775\n• Spread: 2.564102564102564102564102564%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5739\n• Gamma: 0.0321\n• Theta: -0.0536\n• Vega: 0.2362\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2028\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 100\n• Open Interest: 763\n• Volume/OI Ratio: 0.1310615989515072\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Raytheon Technologies Corp\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $4.55\n• Profit Margin: 7.3%\n• ROE: 10.3%\n• P/E Ratio: 34.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-24T11:07:00+00:00: Forget About Palantir's $10 Billion Army Contract. This News Is Much Bigger....\n• 2025-08-23T20:23:00+00:00: The 1 Thing Investors in GE Aerospace and RTX Need to Know Before Buying Stock (...\n• 2025-08-23T16:00:02+00:00: Should You Buy Nvidia Stock Before August 27?...\n• 2025-08-23T11:57:53+00:00: Uber Leads 5 Stocks Near Buy Points As Market Rebounds...\n• 2025-08-23T10:00:00+00:00: Nvidia Stock Is Poised to Benefit From Rising Use of AI in Defense Systems and G...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR RTX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the RTX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:16:46.010114",
+    "estimated_tokens": 2332
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"RTX\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"RTX shows positive technical momentum with price above both SMAs and strong MA ribbon score (81.56), but faces decelerating momentum (-15.87 acceleration). The current volatility squeeze (4 days duration) and moderate compression (70.45%) suggest potential for a directional move, though squeeze momentum is negative.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (150.82) and 200 SMA (132.11)\",\n        \"Multiple timeframe squeeze setup (2 counts) with 70.45% compression\",\n        \"Options spread relatively tight at 2.56% with decent open interest (763)\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-15.87)\",\n        \"Earnings approaching on 2025-09-30\",\n        \"Below average profit margin at 7.3% and high P/E ratio of 34.3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 155 Call for directional exposure with moderate delta (0.57)\",\n        \"entry_timing\": \"Wait for squeeze momentum to turn positive before entry\",\n        \"risk_management\": \"Set stops based on squeeze breakdown and monitor approaching earnings event\"\n    },\n    \"red_flags\": [\n        \"Earnings within 37 days\",\n        \"Negative squeeze momentum (-0.39)\"\n    ],\n    \"notes\": \"Volume/OI ratio is low at 0.13, suggesting potential liquidity constraints. Consider using limit orders and monitoring bid-ask spreads carefully.\"\n}",
+    "parsed_analysis": {
+      "symbol": "RTX",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "RTX shows positive technical momentum with price above both SMAs and strong MA ribbon score (81.56), but faces decelerating momentum (-15.87 acceleration). The current volatility squeeze (4 days duration) and moderate compression (70.45%) suggest potential for a directional move, though squeeze momentum is negative.",
+      "opportunities": [
+        "Price trending above both 50 SMA (150.82) and 200 SMA (132.11)",
+        "Multiple timeframe squeeze setup (2 counts) with 70.45% compression",
+        "Options spread relatively tight at 2.56% with decent open interest (763)"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-15.87)",
+        "Earnings approaching on 2025-09-30",
+        "Below average profit margin at 7.3% and high P/E ratio of 34.3"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 155 Call for directional exposure with moderate delta (0.57)",
+        "entry_timing": "Wait for squeeze momentum to turn positive before entry",
+        "risk_management": "Set stops based on squeeze breakdown and monitor approaching earnings event"
+      },
+      "red_flags": [
+        "Earnings within 37 days",
+        "Negative squeeze momentum (-0.39)"
+      ],
+      "notes": "Volume/OI ratio is low at 0.13, suggesting potential liquidity constraints. Consider using limit orders and monitoring bid-ask spreads carefully."
+    },
+    "tokens_used": 2547,
+    "cost": 0.02547,
+    "response_time": 9.418041229248047,
+    "success": true
+  },
+  "cost": 0.02547,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8533,
+    "response_length": 1658
+  }
+}

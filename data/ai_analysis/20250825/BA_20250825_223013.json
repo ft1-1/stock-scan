@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "symbol": "BA",
+  "timestamp": "2025-08-25T22:30:13.871129",
+  "data_package": {
+    "metadata": {
+      "symbol": "BA",
+      "package_timestamp": "2025-08-25T22:30:04.256396",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BA",
+        "current_price": 227.32,
+        "overall_score": 48.01522803985754,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 221.0042,
+        "sma_200": 185.369
+      },
+      "momentum_metrics": {
+        "momentum_21d": -2.6559684201493168,
+        "momentum_63d": 12.112077485669099,
+        "momentum_126d": 26.1019398588183,
+        "momentum_acceleration": -14.768045905818415,
+        "roc_21d": -2.6559684201493168,
+        "trend_strength_20d": 0.1834201552940313,
+        "trend_direction": 1,
+        "ma_ribbon_score": 50.034707388670114,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.004635226876070186
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 15.0,
+        "squeeze_momentum": 0.17447232048338815,
+        "volatility_compression": 46.27683209781549,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 10.518015468339064,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.24927734806631,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 45.0,
+        "squeeze": 61.94152481467232,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 22,
+        "percentile": 98.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BA",
+        "strike_price": "230",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "9",
+        "ask": "9.1",
+        "last_price": "9",
+        "mid_price": "9.05",
+        "spread_percent": "1.098901098901098901098901099"
+      },
+      "greeks": {
+        "delta": 0.4942,
+        "gamma": 0.0162,
+        "theta": -0.1046,
+        "vega": 0.3449
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2855
+      },
+      "liquidity_metrics": {
+        "volume": 209,
+        "open_interest": 2790,
+        "volume_oi_ratio": 0.07491039426523298
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:56.958739",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T19:48:15+00:00",
+            "title": "Korean Air expected to announce order for about 100 Boeing airplanes, sources say",
+            "content": "By David Shepardson\n\nWASHINGTON (Reuters) -Korean Air is expected to announce an order on Monday for about 100 Boeing airplanes coinciding with the visit of South Korean President Lee Jae Myung to Washington, sources told Reuters.\n\nThe order, the largest in the Korean air carrier's history, is expected to include a mix of 787s, 777s and 737 Boeing airplanes, the sources said. Boeing Commercial Airplanes CEO Stephanie Pope and Korean Air CEO Cho Won-tae were both attending an event of business leaders with the South Korean leader in Washington.\n\nBoeing declined to comment.\n\nIn March, South Korea's industry ministry said Korean Air said would soon finalize a $32.7 billion deal for new Boeing and GE Aerospace engines. Korean Air last year said it would order 20 777-9 and 20 787-10 planes from Boeing, with options for an additional 10 aircraft, and signed a memorandum of understanding in 2024.\n\nMany countries negotiating trade deals with the Trump administration have announced or plan to announce significant Boeing airplane orders.\n\n(Reporting by David Shepardson; Editing by Leslie Adler)",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T16:45:41+00:00",
+            "title": "SpaceX aims to overcome Starship setbacks with tenth flight test",
+            "content": "By Joey Roulette\n\nWASHINGTON (Reuters) -Elon Musk’s SpaceX will try to launch its giant Starship rocket for a tenth time from Texas on Monday to overcome a streak of development setbacks and achieve several long-sought milestones essential to the Mars rocket system’s reusable design.\n\nThe 232-foot (71-meter) tall Super Heavy booster and its 171-foot tall Starship upper half - together taller than New York’s Statue of Liberty - sat stacked on a launch mount at SpaceX’s Starbase rocket facilities ahead of a 7:30 p.m. ET liftoff time.\n\nA liquid oxygen leak at the Starship launchpad nixed a Sunday launch attempt, billionaire Musk wrote on X overnight, adding SpaceX would try again on Monday. It was unclear whether Musk intended to give a pre-launch Starship talk that had been planned but cancelled on Sunday.\n\nDevelopment of SpaceX’s next-generation rocket, key to the company’s powerful launch business and Musk’s goal to send humans to Mars, has faced repeated hiccups this year.\n\nNASA hopes to use the rocket as soon as 2027 for its first crewed moon landing since the Apollo program. SpaceX’s Starlink satellite internet business, a major source of company revenue, is also tied to Starship’s success. Musk aims to use Starship to launch larger batches of Starlink satellites, which have so far been deployed by SpaceX’s workhorse Falcon 9 rocket, into space.\n\n\"In about 6 or 7 years, there will be days where Starship launches more than 24 times in 24 hours,\" Musk said on Sunday, replying to a user on X.\n\nThis year, two Starship testing failures early in flight, another failure in space on its ninth flight, and a massive test stand explosion in June that sent debris flying into nearby Mexican territory have tested SpaceX’s capital-intensive test-to-failure development approach, in which new iterations of rocket prototypes are flown to their technical limits.\n\nThat ethos is markedly different from SpaceX’s rivals such as Jeff Bezos’ Blue Origin, whose New Glenn rocket made an operational debut in January following years of on-the-ground development and testing. The new Vulcan rocket from United Launch Alliance, co-owned by Boeing and Lockheed Martin , had a similar upbringing before its 2024 debut.\n\nWith SpaceX’s approach, testing failures early in Starship’s flight prevent the company from gathering vital technical data needed to advance the rocket’s design.\n\nStill, SpaceX, which Musk expects to record around $15.5 billion in revenue this year, has continued to swiftly produce new Starships for test flights at Starbase, a sprawling and rapidly growing rocket industrial complex. The area was made a municipality in May by local voters, many of them SpaceX workers.\n\nStarship’s setbacks underscore the technical complexities of the latest iteration. The ship is packed with far more capabilities than predecessor models such as increased thrust, a potentially more resilient heat shield and stronger steering flaps crucial to nailing its atmospheric reentry - key traits of its rapidly reusable design that Musk has long pushed for.\n\nSpaceX has a lengthy to-do list for Starship’s development before the rocket begins routine missions envisioned by Musk. That includes demonstrating safe returns from space, payload deployments in orbit and complex in-space propellant refuelings crucial to its moon mission assignments from NASA.\n\nOn Monday, the rocket system will launch from Texas and separate in half dozens of miles in altitude, with its Super Heavy booster returning for a water landing off the Texas coast while Starship ignites its own engines to blast further into space.\n\nIn space, Starship will attempt to deploy mock Starlink satellites and reignite an engine along its suborbital path around the globe. Atmospheric reentry over the Indian Ocean will test its exterior steering flaps and an array of experimental heat shield tiles as the ship blazes through intense friction and heat. </p>",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:14:00+00:00",
+            "title": "Howmet vs. L3Harris: Which Aerospace &amp; Defense Stock Should You Bet On?",
+            "content": "Howmet Aerospace Inc. HWM and L3Harris Technologies, Inc. LHX are two prominent names operating in the aerospace and defense industry. While Howmet is a leading manufacturer of components and systems for jet engines and airframes, L3Harris offers integrated technologies, including avionics, electronic systems, and command and control systems, in the United States and internationally.\r\n\r\nBoth companies have been enjoying significant growth opportunities in the aerospace and defense space on account of the improving air traffic trend and the expansionary U.S. budgetary policy. But which one is a better investment today? Let’s take a closer look at their fundamentals, growth prospects and challenges to make an informed choice.\n\nThe Case for Howmet\n\nThe strongest driver of Howmet’s business at the moment is the commercial aerospace market. The persistent strength in air travel has been driving demand for wide-body aircraft, in turn, supporting continued OEM spending. Pickup in air travel has been favorable for the company as the increased usage of aircraft spurs spending on parts and products that it provides.\r\n\r\nRevenues from the commercial aerospace market increased 8% year over year in the second quarter of 2025, constituting 52% of its business. The sustained strength was attributed to new, more fuel-efficient aircraft with reduced carbon emissions and increased spare demand for engines. The Boeing Company BA is also anticipated to witness a gradual production recovery, particularly in the Boeing 737 MAX aircraft, which is likely to boost demand for Howmet’s products in the market.\r\n\r\nHowmet is also benefiting from solid momentum in the defense business, cushioned by steady government support. HWM continues to witness robust orders for its engine spares for the F-35 program and other legacy fighters. Revenues from the defense aerospace market surged 21% year over year in the second quarter, constituting 17% of the company’s business.\r\n\r\nIt's worth noting that in July 2025, the House of Representatives passed the fiscal year 2026 Defense Appropriations Act, providing a total discretionary allocation of $831.5 billion. Such robust budgetary provisions set the stage for Howmet, which remains focused on its defense business to win more contracts, which is likely to boost its top line.\r\n\r\nHWM’s commitment to rewarding its shareholders through dividend payouts and share buybacks is also encouraging. In the first half of 2025, it paid dividends worth $83 million and repurchased shares for $300 million. In January 2025, the company hiked its quarterly dividend by 25% to 10 cents per share.\r\n\r\nAlso, in July 2024, Howmet’s board approved an increase in the share repurchase program by $2 billion to $2.487 billion of its common stock. As of July 2025, HWM’s total share repurchase authorization available was $1.8 billion.\r\n\r\nThe company’s shareholder-friendly policies are supported by its healthy liquidity position. Exiting the second quarter, Howmet’s cash equivalents and receivables were $545 million, much higher than its short-term maturities of $5 million. In the first six months of the year, HWM generated net cash of $699 million from operating activities, while its free cash flow totaled $478 million.\n\nStory Continues\n\nThe Case for L3Harris\n\nL3Harris is well-positioned to benefit from solid U.S. budget funding provisions. The company claims that its Hypersonic and Ballistic Tracking Space Sensor satellite, known as HBTSS, launched in February 2024, is the only proven on-orbit system capable of tracking the new-range hypersonic missiles. This should provide it with a competitive edge in becoming the primary contractor for the Golden Dome program.\r\n\r\nNotably, the company completed a $125 million expansion at its space manufacturing facility in Fort Wayne, IN, in April 2025, to support the Department of Defense’s urgent need for on-orbit technology to defend the homeland by building the “Golden Dome.”\r\n\r\nWhile the company boasts a solid position in the U.S. defense space, its international presence also remains significant. Evidently, during the second quarter of 2025, the company’s international revenues accounted for approximately 20.7% of its total revenues. L3Harris continues to witness strong demand for its defensive solutions from Asia-Pacific, Latin America and South America, as well as the NATO allies of the United States. \r\n\r\nDuring second-quarter 2025, L3Harris secured software-defined radio awards worth $181 million and $214 million, respectively, from the German and Czech armed forces. The company also signed a memorandum of understanding with Thales UK to develop an integrated short-range air defense (SHORAD) command and control capability.\r\n\r\nHowever, the company’s highly leveraged balance sheet remains a major concern. Exiting second-quarter 2025, L3Harris’ cash and cash equivalents amounted to $0.48 billion. On the other hand, its long-term debt of $10.98 billion remained much above the cash balance. Its current debt of $1.13 billion also came in higher than its cash reserve.\r\n\r\nPersistent shortage of labor in the aerospace-defense industry continues to pose a threat. Due to such labor shortages, manufacturing companies like L3Harris, which supply critical components for the aerospace and defense industry, might be unable to deliver the finished products within the stipulated timeline, which may impact their performance.\n\nThe Zacks Consensus Estimate for HWM & LHX\n\nThe Zacks Consensus Estimate for HWM’s 2025 sales and earnings per share (EPS) implies year-over-year growth of 9.4% and 32.7%, respectively. HWM’s EPS estimates for both 2025 and 2026 have increased over the past 60 days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nWhile the Zacks Consensus Estimate for LHX’s 2025 sales indicates year-over-year growth of 2%, the EPS estimate implies a decline of 19.9%. LHX’s EPS estimates have been trending northward over the past 60 days for both 2025 and 2026.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nPrice Performance and Valuation\n\nIn the past year, Howmet shares have soared 76.9%, while L3Harris stock has gained 20.4%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nHWM is trading at a forward 12-month price-to-earnings ratio of 42.42X, above its median of 28.18X over the last three years. LHX’s forward earnings multiple sits at 23.61X, above its median of 16.34X over the same time frame.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFinal Take on HWM & LHX\n\nL3Harris’ strength in the aerospace and defense markets has been dented by the continued supply-chain challenges and labor shortages. The company’s solid momentum in domestic and international markets adds to its strength. However, its high debt profile remains a major constraint.\r\n\r\nIn contrast, Howmet’s market leadership position and strength in both commercial and defense aerospace markets provide it with a competitive advantage to leverage the long-term demand prospects in the aerospace market. Despite its steeper valuation, HWM holds robust prospects due to strong estimates, stock price appreciation and better prospects for sales and profit growth.\r\n\r\nGiven these factors, HWM seems to be a better pick for investors than LHX currently. While HWM currently carries a Zacks Rank #2 (Buy), LHX has a Zacks Rank #3 (Hold).\r\n\r\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Boeing Company (BA) : Free Stock Analysis Report\n\nL3Harris Technologies Inc (LHX) : Free Stock Analysis Report\n\nHowmet Aerospace Inc. (HWM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T11:52:00+00:00",
+            "title": "Boeing, Union Head Back to Negotiating Table. The Stock Is Up.",
+            "content": "Boeing and representatives from the International Association of Machinists and Aerospace Workers Local 837 will meet again on Monday, trying to resolve a strike impacting Boeing’s defense business that began on Aug. 4. “We look forward to further conversations with the union on Aug. 25 and finding a path forward to end the strike and bring our team back to work,” read an update on Boeing’s website. The rejected offer for IAM 837 workers making F-15 and F-18 fighter jets, among other things, included 40% potential average wage growth over the life of the contract, according to Boeing.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T10:20:57+00:00",
+            "title": "How a Potential Record Aircraft Sale to China Could Impact Boeing (BA) Investors",
+            "content": "Boeing recently entered advanced negotiations with Chinese officials for a potential sale of up to 500 aircraft, which would represent the largest order from China in years and mark a possible turning point in US-China trade relations. This prospective agreement could restore Boeing's commercial presence in the vast Chinese aviation market after an extended period of stagnation due to trade tensions. We’ll now explore how the possibility of this major China order could reshape Boeing’s outlook amid analyst expectations for recovery.\n\nOutshine the giants: these 20 early-stage AI stocks could fund your retirement.\n\nBoeing Investment Narrative Recap\n\nFor investors to consider holding Boeing stock, there needs to be confidence in the company’s ability to restore commercial aircraft deliveries at scale, capitalize on rising global air travel demand, and work through operational and financial setbacks. The recent news of advanced negotiations with China around a possible 500-aircraft order represents what many consider the most significant short-term catalyst, as breaking the sales drought in China could signal a material shift in Boeing’s commercial business. However, successful execution remains contingent on easing of trade tensions and resolution of ongoing certification delays, which still present the biggest operational risk to margin recovery and earnings sustainability.\n\nThe most relevant recent announcement to this high-stakes China development is the record-breaking Qatar Airways order for up to 210 aircraft, including 130 787 Dreamliners and 30 777-9s. This major order demonstrates ongoing demand for Boeing’s widebody jets from international carriers, reinforcing the company’s backlog and providing some visibility into future cash flows, two factors directly linked to the potential impact of the China deal as a near-term demand catalyst. Yet, translating these high-profile commitments into delivered aircraft and positive margins relies on overcoming persistent supply chain challenges and certification hurdles.\n\nBy contrast, investors should be aware that lingering technical and regulatory uncertainties around jet certification may still threaten Boeing’s path to...\n\nRead the full narrative on Boeing (it's free!)\n\nBoeing’s outlook anticipates $114.4 billion in revenue and $7.1 billion in earnings by 2028. Achieving this would require annual revenue growth of 14.9% and a $18.0 billion earnings increase from the current earnings of -$10.9 billion.\n\nUncover how Boeing's forecasts yield a $247.88 fair value, a 8% upside to its current price.\n\nStory Continues\n\nExploring Other PerspectivesBA Community Fair Values as at Aug 2025\n\nSimply Wall St Community members offered 18 fair value estimates for Boeing, ranging widely from US$149 to US$332.90 per share. These differing viewpoints highlight how supply chain risks and margin recovery remain central to the company’s performance; readers can explore several alternative perspectives and analyses on Boeing’s outlook.\n\nExplore 18 other fair value estimates on Boeing - why the stock might be worth 35% less than the current price!\n\nBuild Your Own Boeing Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Boeing research is our analysis highlighting 2 key rewards and 1 important warning sign that could impact your investment decision. Our free Boeing research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Boeing's overall financial health at a glance.\n\nContemplating Other Strategies?\n\nThe market won't wait. These fast-moving stocks are hot now. Grab the list before they run:\n\nThe end of cancer? These 26 emerging AI stocks are developing tech that will allow early identification of life changing diseases like cancer and Alzheimer's. Trump has pledged to \"unleash\" American oil and gas and these 22 US stocks have developments that are poised to benefit. These 13 companies survived and thrived after COVID and have the right ingredients to survive Trump's tariffs. Discover why before your portfolio feels the trade war pinch.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include BA.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "The Boeing Company",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 172000,
+          "description": "The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commerc"
+        },
+        "financial_metrics": {
+          "eps_ttm": -16.55,
+          "profit_margin": -0.1418,
+          "operating_margin": -0.0098,
+          "roe": 0,
+          "roa": -0.0373,
+          "revenue_growth_yoy": 0.349,
+          "earnings_growth_yoy": -0.68,
+          "eps_estimate_current_year": -2.0368,
+          "eps_estimate_next_year": 3.6909,
+          "revenue_ttm": 75326996480,
+          "revenue_per_share": 105.059,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 36.9004,
+          "price_to_sales": 2.31,
+          "price_to_book": 0,
+          "enterprise_value": 204369008773,
+          "ev_to_revenue": 2.7131,
+          "ev_to_ebitda": 111.5619
+        },
+        "technical_data": {
+          "beta": 1.476,
+          "52_week_high": 242.6899,
+          "52_week_low": 128.88,
+          "50_day_ma": 221.0042,
+          "200_day_ma": 185.369,
+          "short_interest": 0.0227,
+          "short_ratio": 2.21
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "dividend_date": "2020-03-06",
+          "ex_dividend_date": "2020-02-13",
+          "last_split_date": "1997-06-09",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1333,
+          "target_price": 247.875,
+          "strong_buy": 16,
+          "buy": 4,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 756158016,
+          "percent_institutions": 74.49,
+          "percent_insiders": 0.073,
+          "shares_float": 724315894
+        },
+        "balance_latest_sheet": {
+          "total_assets": 155120.0,
+          "total_debt": 53323.0,
+          "cash_and_equivalents": 7087.0,
+          "net_debt": 46236.0,
+          "working_capital": 23925.0,
+          "shareholders_equity": -3295.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": -16.18
+        },
+        "income_latest_statement": {
+          "total_revenue": 22749.0,
+          "gross_profit": 2450.0,
+          "operating_income": -255.0,
+          "net_income": -611.0,
+          "ebitda": 609.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 10.77,
+          "operating_margin": -1.12,
+          "net_margin": -2.69
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 227.0,
+          "free_cash_flow": 227.0,
+          "capex": 427.0,
+          "net_income": -612.0,
+          "cash_change": -2367.0,
+          "dividends_paid": 86.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.32,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 230.12,
+            "high": 233.61,
+            "low": 228.42,
+            "close": 230,
+            "volume": 9156844
+          },
+          {
+            "date": "2025-07-16",
+            "open": 232.13,
+            "high": 233.565,
+            "low": 227.3016,
+            "close": 229.9,
+            "volume": 7474340
+          },
+          {
+            "date": "2025-07-17",
+            "open": 230.11,
+            "high": 232.59,
+            "low": 227.75,
+            "close": 231,
+            "volume": 7892608
+          },
+          {
+            "date": "2025-07-18",
+            "open": 231.43,
+            "high": 232.25,
+            "low": 227.52,
+            "close": 229.34,
+            "volume": 5974525
+          },
+          {
+            "date": "2025-07-21",
+            "open": 229.4,
+            "high": 232.5,
+            "low": 228.02,
+            "close": 229.32,
+            "volume": 4183298
+          },
+          {
+            "date": "2025-07-22",
+            "open": 228.3,
+            "high": 230.3084,
+            "low": 225.55,
+            "close": 228.48,
+            "volume": 4737715
+          },
+          {
+            "date": "2025-07-23",
+            "open": 230.32,
+            "high": 235.27,
+            "low": 229.31,
+            "close": 233.88,
+            "volume": 7302900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 233.91,
+            "high": 235.23,
+            "low": 231.05,
+            "close": 231.27,
+            "volume": 6160200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 232.02,
+            "high": 233.31,
+            "low": 228.84,
+            "close": 233.06,
+            "volume": 4628468
+          },
+          {
+            "date": "2025-07-28",
+            "open": 233.24,
+            "high": 236.63,
+            "low": 232.91,
+            "close": 236.41,
+            "volume": 7923759
+          },
+          {
+            "date": "2025-07-29",
+            "open": 239.5,
+            "high": 242.6899,
+            "low": 225.26,
+            "close": 226.08,
+            "volume": 20163650
+          },
+          {
+            "date": "2025-07-30",
+            "open": 227.84,
+            "high": 231.72,
+            "low": 224.35,
+            "close": 225.84,
+            "volume": 9354568
+          },
+          {
+            "date": "2025-07-31",
+            "open": 224.02,
+            "high": 225,
+            "low": 221.15,
+            "close": 221.84,
+            "volume": 7824977
+          },
+          {
+            "date": "2025-08-01",
+            "open": 219.45,
+            "high": 222.46,
+            "low": 215.9,
+            "close": 221.9,
+            "volume": 8572191
+          },
+          {
+            "date": "2025-08-04",
+            "open": 220.15,
+            "high": 222.845,
+            "low": 218.03,
+            "close": 222.34,
+            "volume": 5997263
+          },
+          {
+            "date": "2025-08-05",
+            "open": 222.37,
+            "high": 226.03,
+            "low": 221.065,
+            "close": 224.86,
+            "volume": 5687360
+          },
+          {
+            "date": "2025-08-06",
+            "open": 225.7,
+            "high": 226.57,
+            "low": 224.0448,
+            "close": 225.04,
+            "volume": 3898823
+          },
+          {
+            "date": "2025-08-07",
+            "open": 226.15,
+            "high": 230.39,
+            "low": 224.5801,
+            "close": 227.33,
+            "volume": 4563135
+          },
+          {
+            "date": "2025-08-08",
+            "open": 227.5,
+            "high": 230.9,
+            "low": 227.38,
+            "close": 229.12,
+            "volume": 4724210
+          },
+          {
+            "date": "2025-08-11",
+            "open": 229,
+            "high": 229.32,
+            "low": 225.17,
+            "close": 225.96,
+            "volume": 4872738
+          },
+          {
+            "date": "2025-08-12",
+            "open": 226.95,
+            "high": 232.61,
+            "low": 226.46,
+            "close": 232.61,
+            "volume": 7402161
+          },
+          {
+            "date": "2025-08-13",
+            "open": 233.25,
+            "high": 235.5999,
+            "low": 229.33,
+            "close": 233.37,
+            "volume": 6670421
+          },
+          {
+            "date": "2025-08-14",
+            "open": 231.65,
+            "high": 233.97,
+            "low": 230.86,
+            "close": 233.19,
+            "volume": 5320751
+          },
+          {
+            "date": "2025-08-15",
+            "open": 233.36,
+            "high": 236.45,
+            "low": 231.4277,
+            "close": 235.26,
+            "volume": 6291381
+          },
+          {
+            "date": "2025-08-18",
+            "open": 234.47,
+            "high": 235.157,
+            "low": 229.11,
+            "close": 232.41,
+            "volume": 8456028
+          },
+          {
+            "date": "2025-08-19",
+            "open": 232,
+            "high": 232.4316,
+            "low": 223.75,
+            "close": 225,
+            "volume": 9061071
+          },
+          {
+            "date": "2025-08-20",
+            "open": 224.49,
+            "high": 226.3712,
+            "low": 223.6001,
+            "close": 225.62,
+            "volume": 5015978
+          },
+          {
+            "date": "2025-08-21",
+            "open": 227.13,
+            "high": 227.58,
+            "low": 223.71,
+            "close": 224.46,
+            "volume": 6101140
+          },
+          {
+            "date": "2025-08-22",
+            "open": 225.41,
+            "high": 233.7,
+            "low": 225.24,
+            "close": 230.12,
+            "volume": 8678400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 229.6,
+            "high": 230.25,
+            "low": 226.6,
+            "close": 226.87,
+            "volume": 4588622
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -4.035362294319188,
+        "return_63d": 12.853802914987813,
+        "pct_above_sma50": 2.6430170508780977,
+        "sma_50": 221.4666,
+        "new_55d_high": "False",
+        "high_55d": 242.6899,
+        "rsi": 52.642650539048105,
+        "rsi_in_range": "True",
+        "adx": 16.163593447665644,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.5851787367214687,
+        "bb_width": 7.175824707417908,
+        "keltner_width": 10.30582593830264,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1629131046.0073998,
+        "adv_shares": 7162243.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 43.76729281640537,
+        "final_score": 38.76729281640537,
+        "sub_scores": {
+          "trend_momentum": 10.518015468339064,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.24927734806631,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -2.655968420149313,
+          "ret_63d": 12.112077485669094,
+          "rsi14": 52.642650539048105,
+          "adx14": 12.027008236686084,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BA\n• Current Price: $227.32\n• Overall Score: 48.01522803985754\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 221.0042\n• Sma 200: 185.369\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -2.6559684201493168\n• Momentum 63D: 12.112077485669099\n• Momentum 126D: 26.1019398588183\n• Momentum Acceleration: -14.768045905818415\n• Roc 21D: -2.6559684201493168\n• Trend Strength 20D: 0.1834201552940313\n• Trend Direction: 1\n• Ma Ribbon Score: 50.034707388670114\n• Breakout Strength: 0.0\n• Price Velocity: -0.004635226876070186\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 15.0\n• Squeeze Momentum: 0.17447232048338815\n• Volatility Compression: 46.27683209781549\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 10.518015468339064\n• Squeeze Breakout: 4.0\n• Options Quality: 18.24927734806631\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 45.0\n• Squeeze: 61.94152481467232\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BA\n• Strike Price: $230\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $9\n• Ask: $9.1\n• Last: $9\n• Mid: $9.05\n• Spread: 1.098901098901098901098901099%\n\n**GREEKS ANALYSIS**\n• Delta: 0.4942\n• Gamma: 0.0162\n• Theta: -0.1046\n• Vega: 0.3449\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2855\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 209\n• Open Interest: 2790\n• Volume/OI Ratio: 0.07491039426523298\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: The Boeing Company\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $-16.55\n• Profit Margin: -14.2%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T19:48:15+00:00: Korean Air expected to announce order for about 100 Boeing airplanes, sources sa...\n• 2025-08-25T16:45:41+00:00: SpaceX aims to overcome Starship setbacks with tenth flight test...\n• 2025-08-25T12:14:00+00:00: Howmet vs. L3Harris: Which Aerospace &amp; Defense Stock Should You Bet On?...\n• 2025-08-25T11:52:00+00:00: Boeing, Union Head Back to Negotiating Table. The Stock Is Up....\n• 2025-08-25T10:20:57+00:00: How a Potential Record Aircraft Sale to China Could Impact Boeing (BA) Investors...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:30:13.870801",
+    "estimated_tokens": 2325
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BA\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BA shows mixed technical signals with positive long-term momentum (126D: +26.10%) but concerning short-term weakness (21D: -2.66%). While the stock is in a squeeze with multiple timeframe confirmation, poor fundamentals and upcoming earnings create significant risk.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze setup with 3 concurrent squeezes\",\n        \"Price above both 50 SMA (221.00) and 200 SMA (185.37)\",\n        \"Options have good liquidity with tight 1.1% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-14.77)\",\n        \"Poor fundamentals with -14.2% profit margin and negative EPS\",\n        \"Earnings coming up on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread may be preferred over outright calls given high theta\",\n        \"entry_timing\": \"Wait for momentum acceleration to turn positive before entry\",\n        \"risk_management\": \"Consider rolling or closing before earnings event in September\"\n    },\n    \"red_flags\": [\n        \"Significant negative momentum acceleration\",\n        \"Poor fundamental metrics (negative EPS/margins)\",\n        \"Earnings within 35 days\"\n    ],\n    \"notes\": \"While technical setup shows promise with squeeze conditions, fundamental weakness and upcoming earnings create elevated risk profile. Consider smaller position size or spread strategies to reduce exposure.\"\n}",
+    "parsed_analysis": {
+      "symbol": "BA",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 15,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "BA shows mixed technical signals with positive long-term momentum (126D: +26.10%) but concerning short-term weakness (21D: -2.66%). While the stock is in a squeeze with multiple timeframe confirmation, poor fundamentals and upcoming earnings create significant risk.",
+      "opportunities": [
+        "Multiple timeframe squeeze setup with 3 concurrent squeezes",
+        "Price above both 50 SMA (221.00) and 200 SMA (185.37)",
+        "Options have good liquidity with tight 1.1% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-14.77)",
+        "Poor fundamentals with -14.2% profit margin and negative EPS",
+        "Earnings coming up on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread may be preferred over outright calls given high theta",
+        "entry_timing": "Wait for momentum acceleration to turn positive before entry",
+        "risk_management": "Consider rolling or closing before earnings event in September"
+      },
+      "red_flags": [
+        "Significant negative momentum acceleration",
+        "Poor fundamental metrics (negative EPS/margins)",
+        "Earnings within 35 days"
+      ],
+      "notes": "While technical setup shows promise with squeeze conditions, fundamental weakness and upcoming earnings create elevated risk profile. Consider smaller position size or spread strategies to reduce exposure."
+    },
+    "tokens_used": 2554,
+    "cost": 0.02554,
+    "response_time": 9.612679481506348,
+    "success": true
+  },
+  "cost": 0.02554,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8518,
+    "response_length": 1703
+  }
+}

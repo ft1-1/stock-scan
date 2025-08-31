@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "symbol": "PYPL",
+  "timestamp": "2025-08-29T06:38:03.344662",
+  "data_package": {
+    "metadata": {
+      "symbol": "PYPL",
+      "package_timestamp": "2025-08-29T06:37:52.451613",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "PYPL",
+        "current_price": 70.06,
+        "overall_score": 50.25458892684849,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 71.8996,
+        "sma_200": 75.3835
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.5020800459044736,
+        "momentum_63d": -1.2265613985619688,
+        "momentum_126d": -0.9472642443093476,
+        "momentum_acceleration": 1.7286414444664424,
+        "roc_21d": 0.5020800459044736,
+        "trend_strength_20d": 0.35783453436007173,
+        "trend_direction": -1,
+        "ma_ribbon_score": 49.427969857118065,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.007437973951645338
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": 0.3435538762309621,
+        "volatility_compression": 70.92219499751378,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 12.106021239199109,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.595403921568597,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 54.0,
+        "momentum": 53.0,
+        "squeeze": 60.63832924962707,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 16,
+        "percentile": 99.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "PYPL",
+        "strike_price": "70",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.05",
+        "ask": "5.15",
+        "last_price": "5.15",
+        "mid_price": "5.10",
+        "spread_percent": "1.941747572815533980582524272"
+      },
+      "greeks": {
+        "delta": 0.5598,
+        "gamma": 0.0333,
+        "theta": -0.0314,
+        "vega": 0.1335
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3506
+      },
+      "liquidity_metrics": {
+        "volume": 47,
+        "open_interest": 1598,
+        "volume_oi_ratio": 0.029411764705882353
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:43.464454",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T22:03:00+00:00",
+            "title": "Affirm Stock Rises 13% After Earnings. What Has Wall Street Excited.",
+            "content": "The provider of buy-now, pay-later services said in May that tariffs would barely impact future results.\n\nContinue Reading",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:52:17+00:00",
+            "title": "Affirm (NASDAQ:AFRM) Beats Expectations in Strong Q2, Stock Soars",
+            "content": "Buy now, pay later company Affirm (NASDAQ:AFRM) beat Wall Street’s revenue expectations in Q2 CY2025, with sales up 33% year on year to $876.4 million. Guidance for next quarter’s revenue was better than expected at $870 million at the midpoint, 1.2% above analysts’ estimates. Its GAAP profit of $0.20 per share was 75.9% above analysts’ consensus estimates.\n\nIs now the time to buy Affirm? Find out in our full research report.\n\nAffirm (AFRM) Q2 CY2025 Highlights:\n\nRevenue: $876.4 million vs analyst estimates of $837.4 million (33% year-on-year growth, 4.7% beat) Pre-tax Profit: $71.58 million (8.2% margin, 262% year-on-year growth) EPS (GAAP): $0.20 vs analyst estimates of $0.11 (75.9% beat) Revenue Guidance for Q3 CY2025 is $870 million at the midpoint, above analyst estimates of $859.3 million Market Capitalization: $25.03 billion\n\nCompany Overview\n\nFounded by PayPal co-founder Max Levchin with a mission to create honest financial products, Affirm (NASDAQ:AFRM) provides a payment network that allows consumers to make purchases and pay for them over time with transparent, flexible installment loans.\n\nRevenue Growth\n\nExamining a company’s long-term performance can provide clues about its quality. Any business can have short-term success, but a top-tier one grows for years. Over the last five years, Affirm grew its revenue at an incredible 44.6% compounded annual growth rate. Its growth beat the average financials company and shows its offerings resonate with customers.Affirm Quarterly Revenue\n\nWe at StockStory place the most emphasis on long-term growth, but within financials, a half-decade historical view may miss recent interest rate changes, market returns, and industry trends. Affirm’s annualized revenue growth of 42.5% over the last two years is below its five-year trend, but we still think the results suggest healthy demand.Affirm Year-On-Year Revenue Growth\n\nNote: Quarters not shown were determined to be outliers, impacted by outsized investment gains/losses that are not indicative of the recurring fundamentals of the business.\n\nThis quarter, Affirm reported wonderful year-on-year revenue growth of 33%, and its $876.4 million of revenue exceeded Wall Street’s estimates by 4.7%. Company management is currently guiding for a 24.6% year-on-year increase in sales next quarter.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nStory Continues\n\nKey Takeaways from Affirm’s Q2 Results\n\nIt was good to see Affirm beat analysts’ EPS expectations this quarter. We were also glad its revenue outperformed Wall Street’s estimates. Zooming out, we think this quarter featured some important positives. The stock traded up 8.8% to $87 immediately after reporting.\n\nSure, Affirm had a solid quarter, but if we look at the bigger picture, is this stock a buy? If you’re making that decision, you should consider the bigger picture of valuation, business qualities, as well as the latest earnings. We cover that in our actionable full research report which you can read here, it’s free.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:21:00+00:00",
+            "title": "Affirm Reports Earnings Today. What Investors Should Expect From the Fintech.",
+            "content": "The provider of buy-now, pay-later services said in May that tariffs would barely impact future results.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T15:44:00+00:00",
+            "title": "BNPL Faceoff, Affirm vs. PayPal: Who's Really Checking Out Stronger?",
+            "content": "The buy now, pay later (“BNPL”) boom has shaken up the payments industry, giving shoppers instant flexibility and merchants a conversion boost. Two names lead the conversation: Affirm Holdings, Inc. AFRM, the high-growth disruptor with pay-over-time plans, and PayPal Holdings, Inc. PYPL, the established digital payments giant now doubling down on installment offerings.\n\nThe showdown here is more than growth vs. scale. Investors are asking: Does Affirm’s explosive trajectory outweigh PayPal’s stability and cash firepower, or is the safer play also the smarter one? Let’s dig into the numbers and crown the stronger contender.\n\nThe Case for Affirm\n\nAffirm has been one of the fastest-growing fintech stories of the past few years. With billions in gross merchandise volume (GMV) and deep merchant ties — think Shopify, Costco, World Market, etc. — it has embedded itself across e-commerce checkout. Its AI-driven underwriting and risk models are helping improve loan performance while giving merchants higher conversion and basket sizes.\n\nAFRM’s momentum remains strong. User and merchant growth continues to climb, with nearly 360,000 merchant partners, and analysts see room for further expansion into high-frequency, small-ticket transactions and international markets. Affirm is building a recognizable brand in a space where trust is critical. This will likely increase repeat usage and transaction volume.\n\nBut the bull case has limits. Affirm does not have a sustainable profit-generating history yet and has high debt levels and reliance on credit market conditions. Its long-term debt-to-capital of 71.8% is significantly higher than PayPal’s 35.9%. High rates amplify funding costs, and regulators in many major markets are circling BNPL with potential guardrails that could bite. Its fourth-quarter fiscal 2025 results will give further insight into its operations.\n\nAffirm faces intense competition from established mobile wallets, traditional payment providers, and other BNPL rivals, which can limit its pricing flexibility. Many competitors benefit from broader consumer and merchant networks, diversified product suites, and stronger brand equity, factors that could weigh on Affirm’s market share growth. Walmart’s switch to Klarna underscores the risk. Notably, Klarna is reportedly targeting a September IPO at a valuation of $13–$14 billion, a move that could further intensify competition.\n\nThe Case for PayPal\n\nPayPal brings a very different toolkit to the BNPL fight. Instead of betting solely on installment loans, PayPal is leveraging its 438 million active accounts, merchant APIs, and platforms like Venmo and Braintree to keep users and merchants inside its ecosystem. BNPL is one more hook in an already sticky network. In the second quarter of 2025, its BNPL total payment volume rose more than 20% year over year.\n\nStory Continues\n\nPayPal’s financials underscore its strength. The company generated $1.7 billion in free cash flow in the first half of 2025 and is guiding toward $6-$7 billion for the full year, implying a strong back half ahead. This robust cash generation not only fortifies operations but also fuels shareholder-friendly initiatives. Over the past year, PayPal repurchased $6 billion worth of stock, highlighting its ability to both invest for growth and return capital to investors.\n\nPayPal’s disciplined cost-cutting is paying off, driving margin expansion and giving management confidence to raise 2025 guidance. The company now projects transaction margin growth of 5–6%, up from its earlier 4–5% outlook. Its efficiency edge is further underscored by a return on capital of 16.6%, far ahead of Affirm.\n\nDespite its dominance in digital payments, PayPal is not insulated from intensifying competition in branded checkout and peer-to-peer transfers. As new fintech players flood the space and merchants gain more options, pressure on take rates could temper its revenue growth over time.\n\nValuation: AFRM vs. PYPL\n\nAffirm currently trades at a lofty 6.17X price-to-sales ratio, a valuation that bakes in aggressive growth expectations but leaves little cushion if momentum slows. PayPal, by contrast, is priced at a more grounded 1.94X, offering investors a far more balanced entry point. While Affirm’s premium reflects its growth expectations, PayPal’s valuation looks more compelling for those seeking upside with less risk. PYPL currently carries a Value Score of A, while AFRM carries a Value Score of F.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nPrice Performance Comparison\n\nAffirm has notched a 14.2% gain over the past month, but short bursts of momentum are not unusual for high-growth fintech names, especially in the BNPL space, where valuations swing quickly on headlines. By contrast, PayPal shares dipped 2.7% in the same period, a modest pullback that hardly overshadows its stronger balance sheet, cash generation and scale advantages.\n\nPrice Performance – AFRM, PYPL & S&P 500Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nHow Do Zacks Estimates Compare for AFRM & PYPL?\n\nAnalysts currently lean in PayPal’s favor. Over the past month, it has witnessed 14 upward estimate revisions against no opposite movement for the full-year 2025 earnings, which is pegged at $5.22 per share. The Zacks Consensus Estimate indicates 12.3% year-over-year growth. It beat earnings in each of the past four quarters with an average surprise of 9.9%.\n\nPayPal Holdings, Inc. Price, Consensus and EPS SurprisePayPal Holdings, Inc. Price, Consensus and EPS Surprise\n\nPayPal Holdings, Inc. price-consensus-eps-surprise-chart | PayPal Holdings, Inc. Quote\n\nIn contrast, the consensus estimate for AFRM’s fiscal 2025 earnings of 5 cents witnessed no upward or downward movements over the past month. However, it indicates significant improvement from the year-ago loss of $1.67 per share. It also beat the estimates in all the past four quarters with an average surprise of 102.2%.\n\nAffirm Holdings, Inc. Price, Consensus and EPS SurpriseAffirm Holdings, Inc. Price, Consensus and EPS Surprise\n\nAffirm Holdings, Inc. price-consensus-eps-surprise-chart | Affirm Holdings, Inc. Quote\n\nConclusion\n\nAffirm’s brand strength, rapid merchant adoption, and momentum-driven rally highlight its disruptive appeal. However, the lack of consistent profitability, elevated debt levels, and fierce competition cast a shadow over its growth story. PayPal, by contrast, blends scale, profitability and financial flexibility. With robust free cash flow, shareholder returns, and improving margins, it offers both resilience and upside.\n\nPYPL’s lower valuation and consistent earnings trajectory make it the steadier and smarter bet in the BNPL faceoff. While Affirm currently carries a Zacks Rank #3 (Hold), PayPal has a Zacks Rank #2 (Buy). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nPayPal Holdings, Inc. (PYPL) : Free Stock Analysis Report\n\nAffirm Holdings, Inc. (AFRM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T14:49:00+00:00",
+            "title": "BILL Beats on Q4 Earnings and Revenue Estimates, Authorizes Buyback",
+            "content": "BILL Holdings BILL reported earnings of 53 cents per share in the fourth quarter of fiscal 2025, surpassing the Zacks Consensus Estimate of 41 cents. However, the figure declined from 57 cents per share reported in the year-ago quarter. \r\n\r\nRevenues of $383.3 million exceeded the consensus mark by 2% and increased 11.5% year over year. Alongside results, the company announced a $300 million share repurchase program, reflecting confidence in its cash flow and long-term strategy.\r\n\r\nShares rose 4.57% in the pre-market trading today. \r\n\r\nFor the fiscal year 2025, BILL reported non-GAAP earnings per share of $2.21, up from $2.12 reported in the prior comparable period. Revenues of $1.46 billion reflected an increase of 13% year over year.\n\nBILL Holdings, Inc. Price, Consensus and EPS SurpriseBILL Holdings, Inc. Price, Consensus and EPS Surprise\n\nBILL Holdings, Inc. price-consensus-eps-surprise-chart | BILL Holdings, Inc. Quote\n\nBILL Holdings’ Fourth Quarter in Detail\n\nIn the fourth quarter of fiscal 2025, core revenues, consisting of subscription and transaction fees, were $345.9 million, up 15% year over year. Subscription fees of $68.8 million grew 5%, while transaction fees of $277.1 million surged 18% from the prior-year period. Float revenues, which consist of interest earned on funds held for customers, were $37.4 million, down from $42.4 million in the prior year.\r\n\r\nThe company processed $86 billion in total payment volume (TPV) during the quarter, an increase of 13% year over year. BILL also processed 33 million transactions, up 18% compared with the year-ago period. Its platform served 493,800 businesses, and its standalone network expanded to 8.3 million members, reflecting strong adoption.\n\nOperating Details for BILL Holdings\n\nIn the quarter under review, non-GAAP gross profit was $322.7 million, up 11% year over year, while the gross margin contracted slightly to 84.2% from 85%. Non-GAAP operating income was $56.4 million compared with $60 million in the year-ago quarter, marking a 6% decline.\n\nBILL’s Balance Sheet & Cash Flow\n\nAs of June 30, 2025, cash, cash equivalents and short-term investments totaled $2.22 billion, up from $1.59 billion in the prior year. The company generated $83.8 million in cash flow from operations in the fourth quarter compared with $78.6 million a year ago. BILL generated free cash flow of $68.5 million in the reported quarter. BILL also repurchased $100 million of stock in the fourth quarter and July 2025, ahead of its newly authorized $300 million buyback program.\n\nBILL Provides Q1 & FY26 Guidance\n\nFor the first quarter of fiscal 2026, BILL expects revenues between $385 million and $395 million, suggesting growth of 7-10% year over year. Non-GAAP EPS is projected between 49 and 52 cents. This is below the Zacks Consensus Estimate of 54 cents.\r\n\r\nFor fiscal 2026, BILL projects revenues in the range of $1.59-$1.63 billion, implying growth of 9-11% year over year. Non-GAAP earnings are expected between $2.00 and $2.20 per share. The consensus mark for the same is currently pegged at $2.09.\r\n\r\nCurrently, BILL carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nStory Continues\n\nPerformance of Other Fintechs\n\nPayPal Holdings PYPL reported second-quarter 2025 non-GAAP earnings of $1.40 per share, which surpassed the Zacks Consensus Estimate by 7.7% and jumped 17.6% year over year. Results reflected better-than-expected growth in revenues. \r\n\r\nPayPal saw an uptick in both total payment volume (TPV) and revenues compared to the first quarter, along with another quarter of high single-digit growth in transaction margin dollars. Reflecting this momentum, the company raised its full-year guidance for transaction margin dollars and EPS while maintaining its outlook for free cash flow. Net revenues of $8.3 billion increased 5.1% year over year on a reported basis and 5% on a forex-neutral basis. The figure topped the consensus mark by 2.3%. PayPal has a Zacks Rank #2 (Buy).\r\n\r\nIntuit INTU reported fourth-quarter fiscal 2025 non-GAAP EPS of $2.75, which beat the Zacks Consensus Estimate of $2.65. The bottom line jumped 38.2% from the year-ago quarter.\r\n\r\nIntuit’s results reflected a rise in Global Business Solutions, Consumer, Credit Karma and ProTax revenues year over year. Revenues of $3.83 billion beat the consensus mark of $3.74 billion and increased 20.3% year over year. Intuit has a Zacks Rank #2.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nIntuit Inc. (INTU) : Free Stock Analysis Report\n\nPayPal Holdings, Inc. (PYPL) : Free Stock Analysis Report\n\nBILL Holdings, Inc. (BILL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "PayPal Holdings Inc",
+          "sector": "Financial Services",
+          "industry": "Credit Services",
+          "employees": 24400,
+          "description": "PayPal Holdings, Inc. operates a technology platform that enables digital payments for merchants and consumers worldwide. It operates a two-sided network at scale that connects merchants and consumers that enables its customers to connect, transact, and send and receive payments through online and i"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.67,
+          "profit_margin": 0.1449,
+          "operating_margin": 0.1929,
+          "roe": 0.2292,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.051,
+          "earnings_growth_yoy": 0.194,
+          "eps_estimate_current_year": 5.2099,
+          "eps_estimate_next_year": 5.7409,
+          "revenue_ttm": 32291999744,
+          "revenue_per_share": 32.585,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.0021,
+          "forward_pe": 14.245,
+          "price_to_sales": 2.0728,
+          "price_to_book": 3.3134,
+          "enterprise_value": 68221811054,
+          "ev_to_revenue": 2.1127,
+          "ev_to_ebitda": 9.3957
+        },
+        "technical_data": {
+          "beta": 1.422,
+          "52_week_high": 93.66,
+          "52_week_low": 55.85,
+          "50_day_ma": 71.8996,
+          "200_day_ma": 75.3835,
+          "short_interest": 0.0316,
+          "short_ratio": 2.45
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7447,
+          "target_price": 82.6781,
+          "strong_buy": 16,
+          "buy": 7,
+          "hold": 22,
+          "sell": 0,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 955377984,
+          "percent_institutions": 80.15,
+          "percent_insiders": 0.135,
+          "shares_float": 952111011
+        },
+        "balance_latest_sheet": {
+          "total_assets": 79777.0,
+          "total_debt": 11296.0,
+          "net_debt": 4608.0,
+          "working_capital": 14829.0,
+          "shareholders_equity": 20201.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.56
+        },
+        "income_latest_statement": {
+          "total_revenue": 8288.0,
+          "gross_profit": 3844.0,
+          "operating_income": 1504.0,
+          "net_income": 1261.0,
+          "ebitda": 1882.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 46.38,
+          "operating_margin": 18.15,
+          "net_margin": 15.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 898.0,
+          "free_cash_flow": 692.0,
+          "capex": 206.0,
+          "net_income": 1261.0,
+          "cash_change": -859.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.21,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 74.1,
+            "high": 74.35,
+            "low": 73.284,
+            "close": 74.17,
+            "volume": 9011600
+          },
+          {
+            "date": "2025-07-21",
+            "open": 74.35,
+            "high": 76.23,
+            "low": 74.24,
+            "close": 74.82,
+            "volume": 8200400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 74.765,
+            "high": 76.15,
+            "low": 74.765,
+            "close": 76,
+            "volume": 9094400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 76.925,
+            "high": 77.23,
+            "low": 75.91,
+            "close": 76.66,
+            "volume": 9283200
+          },
+          {
+            "date": "2025-07-24",
+            "open": 77.74,
+            "high": 78.76,
+            "low": 77.35,
+            "close": 77.82,
+            "volume": 10504300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 77.59,
+            "high": 78.815,
+            "low": 77.5,
+            "close": 77.98,
+            "volume": 6888100
+          },
+          {
+            "date": "2025-07-28",
+            "open": 78.51,
+            "high": 79.5,
+            "low": 77.93,
+            "close": 78.22,
+            "volume": 15978400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 71.73,
+            "high": 73.28,
+            "low": 70.31,
+            "close": 71.45,
+            "volume": 42890700
+          },
+          {
+            "date": "2025-07-30",
+            "open": 72.19,
+            "high": 72.205,
+            "low": 69.555,
+            "close": 69.71,
+            "volume": 20790400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 69.475,
+            "high": 70.055,
+            "low": 68.46,
+            "close": 68.76,
+            "volume": 16657600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 68,
+            "high": 68.35,
+            "low": 66.57,
+            "close": 67.11,
+            "volume": 15181100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 67.825,
+            "high": 68.57,
+            "low": 67.275,
+            "close": 68.01,
+            "volume": 11756800
+          },
+          {
+            "date": "2025-08-05",
+            "open": 68.46,
+            "high": 68.67,
+            "low": 67.41,
+            "close": 67.83,
+            "volume": 10714700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 68.3,
+            "high": 69.61,
+            "low": 68.209,
+            "close": 69.42,
+            "volume": 11913000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 70,
+            "high": 70.17,
+            "low": 67.68,
+            "close": 68.22,
+            "volume": 10129300
+          },
+          {
+            "date": "2025-08-08",
+            "open": 68.44,
+            "high": 68.61,
+            "low": 67.42,
+            "close": 67.65,
+            "volume": 9683400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 67.81,
+            "high": 68.48,
+            "low": 66.9,
+            "close": 67.08,
+            "volume": 10118600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 67.24,
+            "high": 68.74,
+            "low": 67.23,
+            "close": 67.97,
+            "volume": 9747500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 68.23,
+            "high": 70.73,
+            "low": 68.15,
+            "close": 70.63,
+            "volume": 12344700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 69.44,
+            "high": 69.82,
+            "low": 68.23,
+            "close": 69.38,
+            "volume": 10695400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 69.57,
+            "high": 70.16,
+            "low": 69.16,
+            "close": 69.23,
+            "volume": 8128000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 69.31,
+            "high": 69.985,
+            "low": 69.23,
+            "close": 69.53,
+            "volume": 8410200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 69.79,
+            "high": 70.365,
+            "low": 68.93,
+            "close": 69.05,
+            "volume": 9052800
+          },
+          {
+            "date": "2025-08-20",
+            "open": 68.94,
+            "high": 69.11,
+            "low": 67.68,
+            "close": 68.08,
+            "volume": 9992300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 67.68,
+            "high": 67.87,
+            "low": 66.925,
+            "close": 67.55,
+            "volume": 7039500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 67.91,
+            "high": 70.15,
+            "low": 67.82,
+            "close": 69.9,
+            "volume": 9394100
+          },
+          {
+            "date": "2025-08-25",
+            "open": 69.65,
+            "high": 69.81,
+            "low": 69.04,
+            "close": 69.48,
+            "volume": 6460300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 69.4,
+            "high": 70.25,
+            "low": 69.18,
+            "close": 70.18,
+            "volume": 9471500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 68.73,
+            "high": 70.08,
+            "low": 68.691,
+            "close": 69.65,
+            "volume": 8648200
+          },
+          {
+            "date": "2025-08-28",
+            "open": 70,
+            "high": 70.56,
+            "low": 69.53,
+            "close": 70.06,
+            "volume": 5876700
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.8906340895869649,
+        "return_63d": -0.3130335799658493,
+        "pct_above_sma50": -2.5585677806274365,
+        "sma_50": 71.8996,
+        "new_55d_high": "False",
+        "high_55d": 79.5,
+        "rsi": 59.868959868959855,
+        "rsi_in_range": "True",
+        "adx": 32.44860704015985,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.25478161575792,
+        "bb_width": 6.3331187478053135,
+        "keltner_width": 9.185726469220048,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 669972732.9525,
+        "adv_shares": 9737905.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 43.701425160767705,
+        "final_score": 43.701425160767705,
+        "sub_scores": {
+          "trend_momentum": 12.106021239199109,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.595403921568597,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 0.5020800459044628,
+          "ret_63d": -1.226561398561965,
+          "rsi14": 59.868959868959855,
+          "adx14": 28.127672057334497,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: PYPL\n• Current Price: $70.06\n• Overall Score: 50.25458892684849\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 71.8996\n• Sma 200: 75.3835\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.5020800459044736\n• Momentum 63D: -1.2265613985619688\n• Momentum 126D: -0.9472642443093476\n• Momentum Acceleration: 1.7286414444664424\n• Roc 21D: 0.5020800459044736\n• Trend Strength 20D: 0.35783453436007173\n• Trend Direction: -1\n• Ma Ribbon Score: 49.427969857118065\n• Breakout Strength: 0.0\n• Price Velocity: 0.007437973951645338\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: 0.3435538762309621\n• Volatility Compression: 70.92219499751378\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 12.106021239199109\n• Squeeze Breakout: 4.0\n• Options Quality: 16.595403921568597\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 54.0\n• Momentum: 53.0\n• Squeeze: 60.63832924962707\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: PYPL\n• Strike Price: $70\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.05\n• Ask: $5.15\n• Last: $5.15\n• Mid: $5.10\n• Spread: 1.941747572815533980582524272%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5598\n• Gamma: 0.0333\n• Theta: -0.0314\n• Vega: 0.1335\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3506\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 47\n• Open Interest: 1598\n• Volume/OI Ratio: 0.029411764705882353\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: PayPal Holdings Inc\n• Sector: Financial Services\n• Industry: Credit Services\n• EPS (TTM): $4.67\n• Profit Margin: 14.5%\n• ROE: 22.9%\n• P/E Ratio: 15.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T22:03:00+00:00: Affirm Stock Rises 13% After Earnings. What Has Wall Street Excited....\n• 2025-08-28T20:52:17+00:00: Affirm (NASDAQ:AFRM) Beats Expectations in Strong Q2, Stock Soars...\n• 2025-08-28T17:21:00+00:00: Affirm Reports Earnings Today. What Investors Should Expect From the Fintech....\n• 2025-08-28T15:44:00+00:00: BNPL Faceoff, Affirm vs. PayPal: Who's Really Checking Out Stronger?...\n• 2025-08-28T14:49:00+00:00: BILL Beats on Q4 Earnings and Revenue Estimates, Authorizes Buyback...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR PYPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the PYPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:38:03.344218",
+    "estimated_tokens": 2335
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"PYPL\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 18,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"PYPL shows mixed technical signals with negative trend direction but positive squeeze setup and decent options liquidity. The stock is trading below both 50 and 200 SMAs but exhibits positive short-term momentum with a confirmed volatility squeeze pattern.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 4-day duration and 70.92% compression\",\n        \"Tight option spreads (1.94%) with good open interest (1598)\",\n        \"Strong fundamentals with 14.5% profit margin and reasonable P/E of 15\"\n    ],\n    \"risks\": [\n        \"Price trading below both 50 and 200 SMAs (71.89, 75.38)\",\n        \"Negative 63-day momentum (-1.23)\",\n        \"Upcoming earnings on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call at $70 strike offers balanced exposure with 0.56 delta\",\n        \"entry_timing\": \"Wait for confirmation of squeeze breakout before entry\",\n        \"risk_management\": \"Consider position sizing due to upcoming earnings and negative longer-term momentum\"\n    },\n    \"red_flags\": [\n        \"Earnings event in 30 days could increase volatility risk\",\n        \"Negative trend direction indicator (-1)\"\n    ],\n    \"notes\": \"Options volume/OI ratio is low at 0.029, suggesting potential liquidity constraints despite tight spreads\"\n}",
+    "parsed_analysis": {
+      "symbol": "PYPL",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 18,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "PYPL shows mixed technical signals with negative trend direction but positive squeeze setup and decent options liquidity. The stock is trading below both 50 and 200 SMAs but exhibits positive short-term momentum with a confirmed volatility squeeze pattern.",
+      "opportunities": [
+        "Active volatility squeeze with 4-day duration and 70.92% compression",
+        "Tight option spreads (1.94%) with good open interest (1598)",
+        "Strong fundamentals with 14.5% profit margin and reasonable P/E of 15"
+      ],
+      "risks": [
+        "Price trading below both 50 and 200 SMAs (71.89, 75.38)",
+        "Negative 63-day momentum (-1.23)",
+        "Upcoming earnings on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call at $70 strike offers balanced exposure with 0.56 delta",
+        "entry_timing": "Wait for confirmation of squeeze breakout before entry",
+        "risk_management": "Consider position sizing due to upcoming earnings and negative longer-term momentum"
+      },
+      "red_flags": [
+        "Earnings event in 30 days could increase volatility risk",
+        "Negative trend direction indicator (-1)"
+      ],
+      "notes": "Options volume/OI ratio is low at 0.029, suggesting potential liquidity constraints despite tight spreads"
+    },
+    "tokens_used": 2528,
+    "cost": 0.025279999999999997,
+    "response_time": 10.890641450881958,
+    "success": true
+  },
+  "cost": 0.025279999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8545,
+    "response_length": 1569
+  }
+}

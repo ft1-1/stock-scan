@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "GE",
+  "timestamp": "2025-08-30T08:25:45.379031",
+  "data_package": {
+    "metadata": {
+      "symbol": "GE",
+      "package_timestamp": "2025-08-30T08:25:36.252847",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "GE",
+        "current_price": 275.2,
+        "overall_score": 51.062904234978106,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 263.3954,
+        "sma_200": 214.6687
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.5198465397668603,
+        "momentum_63d": 11.910861697368953,
+        "momentum_126d": 32.959706251811774,
+        "momentum_acceleration": -10.391015157602093,
+        "roc_21d": 1.5198465397668603,
+        "trend_strength_20d": 0.040964872080235644,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.50716814524192,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006487143992747568
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 13.0,
+        "squeeze_momentum": -0.4180334420240352,
+        "volatility_compression": 70.08826082405668,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.75586906096335,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.211309483248165,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 50.0,
+        "squeeze": 65.5132391236085,
+        "options": 39.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 8,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "GE",
+        "strike_price": "270",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "14.5",
+        "ask": "14.85",
+        "last_price": "14.75",
+        "mid_price": "14.675",
+        "spread_percent": "2.356902356902356902356902357"
+      },
+      "greeks": {
+        "delta": 0.6122,
+        "gamma": 0.0136,
+        "theta": -0.1292,
+        "vega": 0.3834
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.282
+      },
+      "liquidity_metrics": {
+        "volume": 20,
+        "open_interest": 1331,
+        "volume_oi_ratio": 0.015026296018031555
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:16.555831",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T19:43:21+00:00",
+            "title": "Noteworthy Friday Option Activity: C, CVS, GE",
+            "content": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Citigroup Inc (Symbol: C), where a total volume of 61,529 contracts has been traded thus far today, a contract volume which is representative of approximately 6.2 million underlying shares (given that every 1 contract represents 100 underlying shares).  That number works out to 44.8% of C's average daily trading volume over the past month, of 13.7 million shares.  Especially high volume was seen for the $96 strike put option expiring August 29, 2025, with 10,199 contracts trading so far today, representing approximately 1.0 million underlying shares of C.  Below is a chart showing C's trailing twelve month trading history, with the $96 strike highlighted in orange:\n\nCVS Health Corporation (Symbol: CVS) saw options trading volume of 27,810 contracts, representing approximately 2.8 million underlying shares or approximately 43.7% of CVS's average daily trading volume over the past month, of 6.4 million shares. Especially high volume was seen for the $72 strike put option expiring September 05, 2025, with 4,278 contracts trading so far today, representing approximately 427,800 underlying shares of CVS.  Below is a chart showing CVS's trailing twelve month trading history, with the $72 strike highlighted in orange:\n\nAnd General Electric Co (Symbol: GE) saw options trading volume of 17,481 contracts, representing approximately 1.7 million underlying shares or approximately 43.1% of GE's average daily trading volume over the past month, of 4.1 million shares. Particularly high volume was seen for the $300 strike call option expiring November 21, 2025, with 2,655 contracts trading so far today, representing approximately 265,500 underlying shares of GE.  Below is a chart showing GE's trailing twelve month trading history, with the $300 strike highlighted in orange:\n\nFor the various different available expirations for C options, CVS options,  or GE options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  Computers Dividend Stocks\r\n  BMTC shares outstanding history\r\n  Top Ten Hedge Funds Holding MSDI\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T16:00:27+00:00",
+            "title": "Bill Nygren's Strategic Moves: The Kroger Co. Exit and Portfolio Adjustments",
+            "content": "This article first appeared on GuruFocus.\n\nInsights into Bill Nygren (Trades, Portfolio)'s Second Quarter 2025 N-PORT Filing\n\nWarning! GuruFocus has detected 7 Warning Sign with LSE:GLEN. Is GOOGL fairly valued? Test your thesis with our free DCF calculator.\n\nBill Nygren (Trades, Portfolio) recently submitted the N-PORT filing for the second quarter of 2025, providing insights into his investment moves during this period. Bill Nygren (Trades, Portfolio) is the Portfolio Manager of The Oakmark Fund, The Oakmark Select Fund, and the Oakmark Global Select Fund. With an M.S. in Finance from the University of Wisconsin-Madison and a B.S. in Accounting from the University of Minnesota, Nygren is a seasoned value investor. He and his partners focus on companies trading at a substantial discount to their perceived true business value, believing that stock prices will eventually reflect the underlying company's value. Their investment strategy emphasizes stock price discounts, free cash flows, intelligent cash investment, and high manager ownership, viewing each purchase as acquiring a piece of a business rather than just a stock certificate.Bill Nygren's Strategic Moves: The Kroger Co. Exit and Portfolio Adjustments\n\nSummary of New Buy\n\nBill Nygren (Trades, Portfolio) added a total of four stocks to his portfolio, with the most significant addition being Nike Inc (NYSE:NKE). This purchase involved 6,235,000 shares, accounting for 1.94% of the portfolio and valued at $442.93 million. The second largest addition was Amazon.com Inc (NASDAQ:AMZN), with 1,745,000 shares, representing approximately 1.68% of the portfolio and valued at $382.84 million. The third largest addition was Salesforce Inc (NYSE:CRM), with 920,000 shares, accounting for 1.1% of the portfolio and valued at $250.87 million.\n\nKey Position Increases\n\nBill Nygren (Trades, Portfolio) also increased stakes in a total of 29 stocks. The most notable increase was in Airbnb Inc (NASDAQ:ABNB), with an additional 1,742,000 shares, bringing the total to 4,082,000 shares. This adjustment represents a significant 74.44% increase in share count, impacting the portfolio by 1.01%, with a total value of $540.21 million. The second largest increase was in GE HealthCare Technologies Inc (NASDAQ:GEHC), with an additional 2,833,485 shares, bringing the total to 5,268,000. This adjustment represents a significant 116.39% increase in share count, with a total value of $390.20 million.\n\nSummary of Sold Out\n\nBill Nygren (Trades, Portfolio) completely exited three holdings in the second quarter of 2025. The most impactful was The Kroger Co (NYSE:KR), where he sold all 6,800,000 shares, resulting in a -2.06% impact on the portfolio. Additionally, he liquidated all 3,950,000 shares of CVS Health Corp (NYSE:CVS), causing a -1.2% impact on the portfolio.\n\n繼續閱讀\n\nKey Position Reduces\n\nBill Nygren (Trades, Portfolio) also reduced positions in 14 stocks. The most significant changes include a reduction in Deere & Co (NYSE:DE) by 959,400 shares, resulting in a -69.34% decrease in shares and a -2.01% impact on the portfolio. The stock traded at an average price of $489.25 during the quarter and has returned -4.32% over the past three months and 14.08% year-to-date. Additionally, he reduced Kenvue Inc (NYSE:KVUE) by 14,059,000 shares, resulting in an -80.41% reduction in shares and a -1.5% impact on the portfolio. The stock traded at an average price of $22.77 during the quarter and has returned -11.84% over the past three months and -0.81% year-to-date.\n\nPortfolio Overview\n\nAs of the second quarter of 2025, Bill Nygren (Trades, Portfolio)'s portfolio included 56 stocks. The top holdings were 3.87% in Alphabet Inc (NASDAQ:GOOGL), 3.72% in Citigroup Inc (NYSE:C), 3.19% in Charles Schwab Corp (NYSE:SCHW), 2.84% in Intercontinental Exchange Inc (NYSE:ICE), and 2.7% in Phillips 66 (NYSE:PSX).\n\nThe holdings are mainly concentrated in 10 of the 11 industries: Financial Services, Healthcare, Communication Services, Consumer Cyclical, Energy, Industrials, Technology, Consumer Defensive, Basic Materials, and Real Estate.\n\nThis article, generated by GuruFocus, is designed to provide general insights and is not tailored financial advice. Our commentary is rooted in historical data and analyst projections, utilizing an impartial methodology, and is not intended to serve as specific investment guidance. It does not formulate a recommendation to purchase or divest any stock and does not consider individual investment objectives or financial circumstances. Our objective is to deliver long-term, fundamental data-driven analysis. Be aware that our analysis might not incorporate the most recent, price-sensitive company announcements or qualitative information. GuruFocus holds no position in the stocks mentioned herein.\n\n查看留言",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:20:45+00:00",
+            "title": "Zscaler Q4 earnings preview: What to expect",
+            "content": "When Zscaler (NASDAQ:ZS [https://seekingalpha.com/symbol/ZS]) reports fourth quarter earnings on Tuesday, Wall Street expects the cloud security company to post EPS of $0.80, implying a 9.1% decline, while revenue is estimated to increase 19.3% to $707.14 million during the quarter.\n\nAnalysts believe Zscaler can continue to expand both operating and free cash flow margin on the heels of accelerating revenue growth.\n\nZscaler’s CFO Remo Canessa guided [https://seekingalpha.com/news/4453698-zscaler-targets-3b-arr-milestone-and-unveils-z-flex-to-drive-platform-adoption-amid-strong-q3] Q4 revenue in the range of $705 million to $707 million, \"reflecting a year-over-year growth of approximately 19%.\" Gross margin is expected to be approximately 80%, with operating profit between $152 million and $154 million, and earnings per share in the range of $0.79 to $0.80.\n\nCantor reiterated its Overweight rating on Zscaler with a price target of $340.\n\n“We see sustained demand for enterprise SASE solutions and a long growth runway powered by Zero Trust Everywhere platform consolidation, emerging products, and expansion among large customers,” said Cantor analyst Jonathan Ruykhaver.\n\nAs per the Seeking Alpha's Quant Ratings [https://seekingalpha.com/symbol/GE/ratings/quant-ratings#hasComeFromMpArticle=false#source=section%3Amain_content%7Cbutton%3Abody_link%7Cfirst_level_url%3Anews], ZS has a Hold [https://seekingalpha.com/symbol/LMT/ratings/quant-ratings#hasComeFromMpArticle=false#source=section%3Amain_content%7Cbutton%3Abody_link%7Cfirst_level_url%3Anews] rating with a score of 3.34 out of 5. The company received an A- for profitability and B+ for momentum, revisions and growth, but a D- grade in valuation dragged down the rating.\n\nHowever, Seeking Alpha analysts and Wall Street analysts are bullish about the company and rated it as Buy [https://seekingalpha.com/symbol/ZS/ratings/author-ratings].\n\nTruist Securities also reiterated its Buy rating with a price target of $350.\n\n“We also expect Zero Trust for Branch, one of the key pillars of Zero Trust Everywhere, to be a significant growth contributor in FY26, with 59% of the customers who bought the product in FQ3 being new logos (57% in FQ2). In addition, Data Security continues to be a growth vector for ZS, now over $350M of ARR (as of 2FQ25), as customers look to protect their data estate with the proliferation of LLMs,” said Truist Securities analyst Junaid Siddiqui.\n\nShares in the company were up 56.50% since the start of the year, outperforming the broader S&P Index, which gained nearly 10.5% during the same period.\n\nOver the last two years, ZS has beaten EPS estimates [https://seekingalpha.com/symbol/ZS/earnings/eps-surprise-summary] 100% of the time and has beaten revenue estimates 100% of the time.\n\nOver the last three months, EPS estimates have seen 38 upward revisions [https://seekingalpha.com/symbol/ZS/earnings/revisions], compared to two downward moves, while revenue estimates have seen 20 upward revisions against 16 downward revisions.\n\nMORE ON ZSCALER\n\n \t* Zscaler: Expensive But Indispensable [https://seekingalpha.com/article/4817455-zscaler-expensive-but-indispensable]\n \t* Zscaler Is Crucial In A World Gearing Up For Cyber War [https://seekingalpha.com/article/4804904-zscaler-is-crucial-in-a-world-gearing-up-for-cyber-war]\n \t* Zscaler: Growth Deceleration Speaks Volumes (Rating Downgrade) [https://seekingalpha.com/article/4804752-zscaler-growth-deceleration-speaks-volumes-rating-downgrade]\n \t* Zscaler initiated at Neutral following its recent outperformance: B. Riley [https://seekingalpha.com/news/4489205-zscaler-initiated-at-neutral-following-its-recent-outperformance-b-riley]\n \t* Capital market activity in IT sector jumps to $17.91B in June [https://seekingalpha.com/news/4471557-capital-market-activity-in-it-sector-jumps-to-1791b-in-june]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T12:34:44+00:00",
+            "title": "Validea Detailed Fundamental Analysis - GEV",
+            "content": "Below is Validea's guru fundamental report for GE VERNOVA INC (GEV). Of the 22 guru strategies we follow,  GEV rates highest using our Price/Sales Investor model based on the published strategy of Kenneth Fisher. This value strategy rewards stocks with low P/S ratios, long-term profit growth, strong free cash flow and consistent profit margins.\n\nGE VERNOVA INC (GEV) is a large-cap growth stock in the Electric Utilities industry. The rating using this strategy is 48% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. PRICE/SALES RATIO:FAILTOTAL DEBT/EQUITY RATIO:PASSPRICE/RESEARCH RATIO:PASSPRICE/SALES RATIO:FAILLONG-TERM EPS GROWTH RATE:FAILFREE CASH PER SHARE:FAILTHREE YEAR AVERAGE NET PROFIT MARGIN:FAIL\n\nDetailed Analysis of GE VERNOVA INC\n\nGEV Guru Analysis\n\nGEV Fundamental Analysis\n\nMore Information on Kenneth Fisher\n\nKenneth Fisher Portfolio\n\nAbout Kenneth Fisher: The son of Philip Fisher, who is considered the \"Father of Growth Investing\", Kenneth Fisher is a money manager, bestselling author, and longtime Forbes columnist. The younger Fisher wowed Wall Street in the mid-1980s when his book Super Stocks first popularized the idea of using the price/sales ratio (PSR) as a means of identifying attractive stocks. According to his alma mater, Humboldt State University, Fisher is also one of the world's foremost experts on 19th century logging. Appropriately, Fisher's firm, Fisher Investments, is located in a lush forest preserve in Woodside, California, where the contrarian-minded Fisher says he and his employees can get away from Wall Street groupthink.\n\nAdditional Research Links\n\nTop Large-Cap Growth Stocks\n\nFactor-Based Stock Portfolios\n\nDividend Aristocrats 2024\n\nHigh Insider Ownership Stocks\n\nTop S&P 500 Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T12:34:43+00:00",
+            "title": "Validea Detailed Fundamental Analysis - GE",
+            "content": "Below is Validea's guru fundamental report for GENERAL ELECTRIC CO (GE). Of the 22 guru strategies we follow,  GE rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nGENERAL ELECTRIC CO (GE) is a large-cap value stock in the Aerospace & Defense industry. The rating using this strategy is 87% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:FAIL\n\nDetailed Analysis of GENERAL ELECTRIC CO\n\nGE Guru Analysis\n\nGE Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop Large-Cap Growth Stocks\n\nFactor-Based Stock Portfolios\n\nDividend Aristocrats 2023\n\nHigh Insider Ownership Stocks\n\nTop S&P 500 Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "GE Aerospace",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 53000,
+          "description": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and mechanical aircraft systems. The company operates through two reportable segments, Commercial Engines & Services, and Defense & Pr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.02,
+          "profit_margin": 0.1864,
+          "operating_margin": 0.209,
+          "roe": 0.3957,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.212,
+          "earnings_growth_yoy": 0.641,
+          "eps_estimate_current_year": 5.8932,
+          "eps_estimate_next_year": 6.9826,
+          "dividend_yield": 0.0046,
+          "dividend_per_share": 1.28,
+          "revenue_ttm": 41611001856,
+          "revenue_per_share": 38.744,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 39.2023,
+          "forward_pe": 46.9484,
+          "price_to_sales": 7.0134,
+          "price_to_book": 15.2513,
+          "enterprise_value": 298860919302,
+          "ev_to_revenue": 7.1821,
+          "ev_to_ebitda": 27.4587
+        },
+        "technical_data": {
+          "beta": 1.447,
+          "52_week_high": 281.5,
+          "52_week_low": 158.8126,
+          "50_day_ma": 263.3954,
+          "200_day_ma": 214.6687,
+          "short_interest": 0.0111,
+          "short_ratio": 2.07
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.44,
+          "forward_dividend_yield": 0.0052,
+          "payout_ratio": 0.2278,
+          "dividend_date": "2025-07-25",
+          "ex_dividend_date": "2025-07-07",
+          "last_split_date": "2024-04-02",
+          "last_split_factor": "1253:1000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5,
+          "target_price": 297.9333,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1060440000,
+          "percent_institutions": 80.64099999999999,
+          "percent_insiders": 0.183,
+          "shares_float": 1056632410
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125256.0,
+          "total_debt": 18887.0,
+          "cash_and_equivalents": 10861.0,
+          "net_debt": 8026.0,
+          "working_capital": 1335.0,
+          "shareholders_equity": 19135.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.99
+        },
+        "income_latest_statement": {
+          "total_revenue": 11023.0,
+          "gross_profit": 4177.0,
+          "operating_income": 2099.0,
+          "net_income": 2028.0,
+          "ebitda": 2858.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 37.89,
+          "operating_margin": 19.04,
+          "net_margin": 18.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2246.0,
+          "free_cash_flow": 1919.0,
+          "capex": 327.0,
+          "net_income": 2000.0,
+          "cash_change": -1390.0,
+          "dividends_paid": -386.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.37,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 263.69,
+            "high": 266.25,
+            "low": 259.58,
+            "close": 262.86,
+            "volume": 5208500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 260.73,
+            "high": 261.5,
+            "low": 254.66,
+            "close": 259,
+            "volume": 4751300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 260.53,
+            "high": 263.73,
+            "low": 259.95,
+            "close": 263.18,
+            "volume": 4689800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 263.56,
+            "high": 269.84,
+            "low": 263.18,
+            "close": 268.01,
+            "volume": 5206700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 268.83,
+            "high": 272.83,
+            "low": 268.26,
+            "close": 271.59,
+            "volume": 4598400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 273.36,
+            "high": 273.44,
+            "low": 267.44,
+            "close": 270.61,
+            "volume": 5006400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 272.73,
+            "high": 273.8,
+            "low": 269.12,
+            "close": 270.31,
+            "volume": 4125300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 270.92,
+            "high": 273.63,
+            "low": 269.51,
+            "close": 273.55,
+            "volume": 4697000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 273.07,
+            "high": 274.94,
+            "low": 269.88,
+            "close": 271.08,
+            "volume": 4524000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 265.53,
+            "high": 270.55,
+            "low": 261.71,
+            "close": 269.38,
+            "volume": 4416300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 270.51,
+            "high": 276.85,
+            "low": 270.22,
+            "close": 276.23,
+            "volume": 3744000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 276.26,
+            "high": 277,
+            "low": 268.62,
+            "close": 272.12,
+            "volume": 4000600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 273.5,
+            "high": 275.05,
+            "low": 269.91,
+            "close": 272.28,
+            "volume": 3576800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 271.95,
+            "high": 272.87,
+            "low": 268.73,
+            "close": 272.02,
+            "volume": 3050400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 273.58,
+            "high": 277.18,
+            "low": 272.58,
+            "close": 275.01,
+            "volume": 4467300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 275.15,
+            "high": 276.41,
+            "low": 272.55,
+            "close": 275.2,
+            "volume": 3360100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 276.04,
+            "high": 280.54,
+            "low": 275.7,
+            "close": 279.63,
+            "volume": 3630100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 281,
+            "high": 281.5,
+            "low": 264.08,
+            "close": 268.86,
+            "volume": 7599600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 272.99,
+            "high": 274.16,
+            "low": 269.48,
+            "close": 269.7,
+            "volume": 4481700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 268.92,
+            "high": 269.7,
+            "low": 265.21,
+            "close": 267.85,
+            "volume": 5203300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 267.9,
+            "high": 269.61,
+            "low": 266.51,
+            "close": 268.45,
+            "volume": 2697000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 266.31,
+            "high": 268.96,
+            "low": 263.8,
+            "close": 265.93,
+            "volume": 3404900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 265.46,
+            "high": 268.94,
+            "low": 263.81,
+            "close": 266.44,
+            "volume": 3854700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 267.14,
+            "high": 271.92,
+            "low": 266.14,
+            "close": 268.71,
+            "volume": 3266400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 269.73,
+            "high": 272.35,
+            "low": 266.37,
+            "close": 266.53,
+            "volume": 5229300
+          },
+          {
+            "date": "2025-08-25",
+            "open": 267,
+            "high": 271.92,
+            "low": 266.56,
+            "close": 266.61,
+            "volume": 4301600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 267.98,
+            "high": 274.7,
+            "low": 267.42,
+            "close": 273.94,
+            "volume": 4693500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 273.7,
+            "high": 274.7,
+            "low": 272.23,
+            "close": 273.35,
+            "volume": 2705700
+          },
+          {
+            "date": "2025-08-28",
+            "open": 272.5,
+            "high": 276.67,
+            "low": 272.13,
+            "close": 276,
+            "volume": 3388100
+          },
+          {
+            "date": "2025-08-29",
+            "open": 276,
+            "high": 276.28,
+            "low": 271.64,
+            "close": 275.2,
+            "volume": 5037100
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.160516742148635,
+        "return_63d": 11.200905123646356,
+        "pct_above_sma50": 4.481703173252074,
+        "sma_50": 263.3954,
+        "new_55d_high": "False",
+        "high_55d": 281.5,
+        "rsi": 50.0,
+        "rsi_in_range": "True",
+        "adx": 22.05744858031431,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.125363372093026,
+        "bb_width": 5.902023823481698,
+        "keltner_width": 8.61675053679751,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1108983868.83,
+        "adv_shares": 4084610.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 44.967178544211514,
+        "final_score": 44.967178544211514,
+        "sub_scores": {
+          "trend_momentum": 13.75586906096335,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.211309483248165,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.519846539766867,
+          "ret_63d": 11.910861697368947,
+          "rsi14": 50.0,
+          "adx14": 18.89449726828209,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: GE\n• Current Price: $275.2\n• Overall Score: 51.062904234978106\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 263.3954\n• Sma 200: 214.6687\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.5198465397668603\n• Momentum 63D: 11.910861697368953\n• Momentum 126D: 32.959706251811774\n• Momentum Acceleration: -10.391015157602093\n• Roc 21D: 1.5198465397668603\n• Trend Strength 20D: 0.040964872080235644\n• Trend Direction: 1\n• Ma Ribbon Score: 82.50716814524192\n• Breakout Strength: 0.0\n• Price Velocity: 0.006487143992747568\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 13.0\n• Squeeze Momentum: -0.4180334420240352\n• Volatility Compression: 70.08826082405668\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.75586906096335\n• Squeeze Breakout: 4.0\n• Options Quality: 16.211309483248165\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 50.0\n• Squeeze: 65.5132391236085\n• Options: 39.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: GE\n• Strike Price: $270\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $14.5\n• Ask: $14.85\n• Last: $14.75\n• Mid: $14.675\n• Spread: 2.356902356902356902356902357%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6122\n• Gamma: 0.0136\n• Theta: -0.1292\n• Vega: 0.3834\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.282\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 20\n• Open Interest: 1331\n• Volume/OI Ratio: 0.015026296018031555\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: GE Aerospace\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $7.02\n• Profit Margin: 18.6%\n• ROE: 39.6%\n• P/E Ratio: 39.2\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T19:43:21+00:00: Noteworthy Friday Option Activity: C, CVS, GE...\n• 2025-08-29T16:00:27+00:00: Bill Nygren's Strategic Moves: The Kroger Co. Exit and Portfolio Adjustments...\n• 2025-08-29T15:20:45+00:00: Zscaler Q4 earnings preview: What to expect...\n• 2025-08-29T12:34:44+00:00: Validea Detailed Fundamental Analysis - GEV...\n• 2025-08-29T12:34:43+00:00: Validea Detailed Fundamental Analysis - GE...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR GE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the GE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:25:45.378755",
+    "estimated_tokens": 2308
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"GE\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"GE shows strong technical momentum with price above both SMAs and impressive 126D momentum of 32.96%. The presence of a volatility squeeze across 3 timeframes with high compression (70.09%) suggests potential for a significant move, though earnings timing presents near-term risk.\",\n    \"opportunities\": [\n        \"Strong MA Ribbon score of 82.51 indicating solid uptrend\",\n        \"Multi-timeframe squeeze (3 timeframes) with 70.09% compression\",\n        \"Solid fundamentals with 18.6% profit margin and 39.6% ROE\"\n    ],\n    \"risks\": [\n        \"Earnings coming up on 2025-09-30\",\n        \"Negative momentum acceleration (-10.39)\",\n        \"Relatively low volume/OI ratio of 0.015\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $270 strike as lower leg given 0.61 delta and moderate IV of 0.282\",\n        \"entry_timing\": \"Consider partial position now with remainder after earnings\",\n        \"risk_management\": \"Use spread structure to mitigate theta decay of -0.1292 and high option cost\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 30 days\",\n        \"Declining momentum acceleration needs monitoring\"\n    ],\n    \"notes\": \"Options liquidity metrics are limited in the data set - actual execution quality should be verified before trade entry\"\n}",
+    "parsed_analysis": {
+      "symbol": "GE",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "GE shows strong technical momentum with price above both SMAs and impressive 126D momentum of 32.96%. The presence of a volatility squeeze across 3 timeframes with high compression (70.09%) suggests potential for a significant move, though earnings timing presents near-term risk.",
+      "opportunities": [
+        "Strong MA Ribbon score of 82.51 indicating solid uptrend",
+        "Multi-timeframe squeeze (3 timeframes) with 70.09% compression",
+        "Solid fundamentals with 18.6% profit margin and 39.6% ROE"
+      ],
+      "risks": [
+        "Earnings coming up on 2025-09-30",
+        "Negative momentum acceleration (-10.39)",
+        "Relatively low volume/OI ratio of 0.015"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $270 strike as lower leg given 0.61 delta and moderate IV of 0.282",
+        "entry_timing": "Consider partial position now with remainder after earnings",
+        "risk_management": "Use spread structure to mitigate theta decay of -0.1292 and high option cost"
+      },
+      "red_flags": [
+        "Imminent earnings event within 30 days",
+        "Declining momentum acceleration needs monitoring"
+      ],
+      "notes": "Options liquidity metrics are limited in the data set - actual execution quality should be verified before trade entry"
+    },
+    "tokens_used": 2506,
+    "cost": 0.02506,
+    "response_time": 9.124099969863892,
+    "success": true
+  },
+  "cost": 0.02506,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8436,
+    "response_length": 1590
+  }
+}

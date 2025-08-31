@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "TSCO",
+  "timestamp": "2025-08-30T08:35:49.922360",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSCO",
+      "package_timestamp": "2025-08-30T08:35:41.700328",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSCO",
+        "current_price": 61.76,
+        "overall_score": 49.83885474512311,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 57.9962,
+        "sma_200": 54.6498
+      },
+      "momentum_metrics": {
+        "momentum_21d": 8.446005267778744,
+        "momentum_63d": 27.603305785123965,
+        "momentum_126d": 11.580849141824745,
+        "momentum_acceleration": -19.15730051734522,
+        "roc_21d": 8.446005267778744,
+        "trend_strength_20d": 0.7475377396717305,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0005219777507919021
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": 0.0009600901632720177,
+        "volatility_compression": 70.39772227333414,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.34025888506035,
+        "squeeze_breakout": 4.0,
+        "options_quality": 9.094032432432428,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 69.0,
+        "squeeze": 60.55965834100012,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 18,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "TSCO",
+        "strike_price": "55",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.3",
+        "ask": "7.5",
+        "last_price": "8.15",
+        "mid_price": "7.4",
+        "spread_percent": "2.666666666666666666666666667"
+      },
+      "greeks": {
+        "delta": 0.8862,
+        "gamma": 0.0298,
+        "theta": -0.0182,
+        "vega": 0.0433
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2879
+      },
+      "liquidity_metrics": {
+        "volume": 20,
+        "open_interest": 546,
+        "volume_oi_ratio": 0.03663003663003663
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:40.834560",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T23:00:00+00:00",
+            "title": "Some Boring Stocks Are Beating Big Techs. Plus, You Can Sleep at Night.",
+            "content": "Apollo Global chief economist Torsten Sløk offers investors some winning long-term stocks plays from Tractor Supply, Domino’s Pizza, and Old Dominion Freight that beat some of the Mag Seven.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:30:02+00:00",
+            "title": "Viasat Options Activity Surged Wednesday, but These 2 Trades With 143-Day DTEs Look More Attractive",
+            "content": "Viasat (VSAT) [https://www.barchart.com/quotes/VSAT] had a busy day in the options market on Wednesday. Its options volume on the day was 109,914, 11 times its 30-day average. At the same time, its Jan. 16/2026 $35 call had the highest Vol/OI (volume-to-open-interest) ratio at 343.19, more than double that of the second-highest.\n\nI don’t know the last time the provider of global communications solutions had a Vol/OI ratio over 100,000. I went back 24 months, and the second-highest daily volume was 39,655, on Aug. 6. Eight of Viasat’s 10 highest daily volumes for options have come in 2025. \n\nNot surprisingly, Viasat’s shares are up 281% in 2025. Options volumes perk up when stocks make big moves in either direction. Unfortunately, for shareholders holding VSAT since August 2023, they’re back to breakeven despite this year’s big move. \n\nIn fiscal 2022 (March year-end), Viasat had retained earnings of $233.5 million on its balance sheet. By fiscal 2025, the surplus had turned to a deficit of $325.5 million. If not for the sale of assets from its Link-16 Tactical Data Links business (the Link-16 TDL Business) for nearly $2 billion in cash, its deficit would be considerably higher. \n\nThe lack of profitability explains the poor performance of its stock before 2025. While it’s tempting to bet on Viasat options, I’ve identified three alternatives that expire in 143 days that make better long-term investments. \n\nDUOLINGO (DUOL)\n\nDuolingo (DUOL) [https://www.barchart.com/quotes/DUOL] had two unusually active options yesterday, expiring on Jan. 16/2026. \n\nThe $450 call has a profit probability of 15.99% and the $500 call’s profit probability is 11.27%. Both have a low probability of trading at or above breakeven. To do so would require gains of 46.6% and 60.2%, respectively, over the next 143 days. That isn’t happening. \n\nHowever, consider two things before discarding my suggestion. \n\nFirst, Duolingo is operating at a highly efficient level. Despite losing 42% since hitting a 52-week high of $544.93 on May 14, the company continues to grow its top and bottom lines. \n\nOn Aug. 6, it reported second-quarter revenues of $252.3 million, nearly 5% higher than Wall Street expectations, with $0.91, 33 cents higher than the consensus. More importantly, it raised its guidance for 2025. On the top line, it now expects annual revenue of $1.015 billion, up from $991.5 million previously. \n\nOn the bottom line, it expects adjusted EBITDA (earnings before interest, taxes, depreciation and amortization) of $291.8 million at the midpoint of its guidance, representing a 52% increase from $191.9 million a year earlier. \n\nIt continues to grow both its monthly active users and paid subscribers. As long as it continues to do that, it will be fine. \n\nSecondly, the share price only has to appreciate by $65.35 (20.2%) to double your money for the $450 call and $59.29 (18.6%) for the $500 call. The expected move, up or down, between now and Jan. 16 is 26.34%. It’s more than doable. \n\nWith a leverage ratio of between 95% and 97%, it presents a reasonable risk-reward proposition.   \n\nTRACTOR SUPPLY (TSCO)\n\nThe rural lifestyle specialty retailer had one unusually active option yesterday. Although its Vol/OI ratio was nothing to write home about at 2.47, it’s a business I continue to like in the retail space.  \n\nI can’t remember the first time I wrote about the Tennessee-based business. It’s probably more than a decade ago. \n\nI first noticed Tractor Supply (TSCO) [https://www.barchart.com/quotes/TSCO] because there was a retailer in Ontario where I used to live called TSC Stores. It had an identical logo, but only operated in Canada. TSC Stores was the Canadian operations of Tractor Supply until 1979, when its U.S. parent spun it off. TSC stores were acquired by Peavey Industries in 2017 and fully rebranded to Peavey Mart in 2021. Peavey Industries filed for CREDITOR PROTECTION [https://lfpress.com/news/local-news/peavey-mart-why-a-90-store-farm-retail-chain-is-disappearing] in January. But I digress.  \n\nWhat attracted me to Tractor Supply was its niche focus on customers who were neither full-time, large-scale farmers nor city slickers, but rather those individuals who like to spend their weekends and after-work hours tending to their acreage. \n\nIt delivered a breadth of products that you couldn’t get all in one place, providing convenience at reasonable prices. From what I can see on Reddit, some of that has disappeared. Living in Canada, I can’t physically confirm this, but it’s interesting to note. \n\nDespite the headwinds facing Tractor Supply, its stock hit an all-time high of $63.99 on July 1. Its shares are up 16.4% year-to-date and 110.5% over the past five years, 30% higher than the S&P 500. \n\nAnalysts are mixed about its stock. There are 31 covering TSCO. Of those, 16 rate it a Buy [https://www.barchart.com/stocks/quotes/TSCO/analyst-ratings] (3.94 out of 5), with a target price of $63.28, which is slightly higher than its current share price. According to S&P Global Market Intelligence, Tractor Supply is expected to earn $2.10 a share in 2025 and $2.24 in 2026. It trades at x times the 2026 estimate. It trades at 27.6 times the 2026 estimate. That’s at the high end over the past decade.  \n\nWhile I definitely see some valuation concerns, Tractor Supply continues to dominate in this niche category. It will continue to do so until Walmart (WMT) [https://www.barchart.com/quotes/WMT] or Home Depot (HD) [https://www.barchart.com/quotes/HD] decides that they want it instead. \n\nMeanwhile, the Jan. 16/2026 $56 put from yesterday is a good way for options investors who like the stock to generate income while waiting for a better entry point.\n\nThe bid price of $1.45 is an annualized return of 6.9% [($1.45 bid price / $56 strike price - $1.45) * 365 / 143]. It’s not a huge income given the 143-day DTE, but the share price has to fall to $54.55 before you’re out of pocket.  The odds of its share price trading above $54.55 by expiration are about 76%. That’s relatively high. \n\nAt worst, you buy $100 worth of TSCO stock at $54.55. The expected move between now and January, up or down, is 11.06%, indicating that the share price will still be higher than the breakeven point.  \n\n_ On the date of publication, Will Ashworth [https://www.barchart.com/news/authors/120/will-ashworth] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:30:02+00:00",
+            "title": "Viasat Options Activity Surged Wednesday, but These 2 Trades With 143-Day DTEs Look More Attractive",
+            "content": "Viasat (VSAT)had a busy day in the options market on Wednesday. Its options volume on the day was 109,914, 11 times its 30-day average. At the same time, its Jan. 16/2026 $35 call had the highest Vol/OI (volume-to-open-interest) ratio at 343.19, more than double that of the second-highest.\n\nI don’t know the last time the provider of global communications solutions had a Vol/OI ratio over 100,000. I went back 24 months, and the second-highest daily volume was 39,655, on Aug. 6. Eight of Viasat’s 10 highest daily volumes for options have come in 2025.\n\nMore News from Barchart\n\nOptions Traders Are Betting Nvidia Stock Will Move This Much After Earnings Tesla Options Volume Is Surging – Here Are 3 Long Calls For Maximum Gains Tesla Calendar Spread: A Smart Play on Volatility Markets move fast. Keep up by reading our FREE midday Barchart Brief newsletter for exclusive charts, analysis, and headlines.\n\nNot surprisingly, Viasat’s shares are up 281% in 2025. Options volumes perk up when stocks make big moves in either direction. Unfortunately, for shareholders holding VSAT since August 2023, they’re back to breakeven despite this year’s big move.\n\nIn fiscal 2022 (March year-end), Viasat had retained earnings of $233.5 million on its balance sheet. By fiscal 2025, the surplus had turned to a deficit of $325.5 million. If not for the sale of assets from its Link-16 Tactical Data Links business (the Link-16 TDL Business) for nearly $2 billion in cash, its deficit would be considerably higher.\n\nThe lack of profitability explains the poor performance of its stock before 2025. While it’s tempting to bet on Viasat options, I’ve identified three alternatives that expire in 143 days that make better long-term investments.\n\nDuolingo (DUOL)\n\nDuolingo (DUOL)had two unusually active options yesterday, expiring on Jan. 16/2026.\n\nThe $450 call has a profit probability of 15.99% and the $500 call’s profit probability is 11.27%. Both have a low probability of trading at or above breakeven. To do so would require gains of 46.6% and 60.2%, respectively, over the next 143 days. That isn’t happening.\n\nHowever, consider two things before discarding my suggestion.\n\nFirst, Duolingo is operating at a highly efficient level. Despite losing 42% since hitting a 52-week high of $544.93 on May 14, the company continues to grow its top and bottom lines.\n\nOn Aug. 6, it reported second-quarter revenues of $252.3 million, nearly 5% higher than Wall Street expectations, with $0.91, 33 cents higher than the consensus. More importantly, it raised its guidance for 2025. On the top line, it now expects annual revenue of $1.015 billion, up from $991.5 million previously.\n\nStory Continues\n\nOn the bottom line, it expects adjusted EBITDA (earnings before interest, taxes, depreciation and amortization) of $291.8 million at the midpoint of its guidance, representing a 52% increase from $191.9 million a year earlier.\n\nIt continues to grow both its monthly active users and paid subscribers. As long as it continues to do that, it will be fine.\n\nSecondly, the share price only has to appreciate by $65.35 (20.2%) to double your money for the $450 call and $59.29 (18.6%) for the $500 call. The expected move, up or down, between now and Jan. 16 is 26.34%. It’s more than doable.\n\nWith a leverage ratio of between 95% and 97%, it presents a reasonable risk-reward proposition.\n\nTractor Supply (TSCO)\n\nThe rural lifestyle specialty retailer had one unusually active option yesterday. Although its Vol/OI ratio was nothing to write home about at 2.47, it’s a business I continue to like in the retail space.\n\nI can’t remember the first time I wrote about the Tennessee-based business. It’s probably more than a decade ago.\n\nI first noticed Tractor Supply (TSCO) because there was a retailer in Ontario where I used to live called TSC Stores. It had an identical logo, but only operated in Canada. TSC Stores was the Canadian operations of Tractor Supply until 1979, when its U.S. parent spun it off. TSC stores were acquired by Peavey Industries in 2017 and fully rebranded to Peavey Mart in 2021. Peavey Industries filed for creditor protection in January. But I digress.\n\nWhat attracted me to Tractor Supply was its niche focus on customers who were neither full-time, large-scale farmers nor city slickers, but rather those individuals who like to spend their weekends and after-work hours tending to their acreage.\n\nIt delivered a breadth of products that you couldn’t get all in one place, providing convenience at reasonable prices. From what I can see on Reddit, some of that has disappeared. Living in Canada, I can’t physically confirm this, but it’s interesting to note.\n\nDespite the headwinds facing Tractor Supply, its stock hit an all-time high of $63.99 on July 1. Its shares are up 16.4% year-to-date and 110.5% over the past five years, 30% higher than the S&P 500.\n\nAnalysts are mixed about its stock. There are 31 covering TSCO. Of those, 16 rate it a Buy (3.94 out of 5), with a target price of $63.28, which is slightly higher than its current share price. According to S&P Global Market Intelligence, Tractor Supply is expected to earn $2.10 a share in 2025 and $2.24 in 2026. It trades at x times the 2026 estimate. It trades at 27.6 times the 2026 estimate. That’s at the high end over the past decade.\n\nWhile I definitely see some valuation concerns, Tractor Supply continues to dominate in this niche category. It will continue to do so until Walmart (WMT) or Home Depot (HD) decides that they want it instead.\n\nMeanwhile, the Jan. 16/2026 $56 put from yesterday is a good way for options investors who like the stock to generate income while waiting for a better entry point.\n\nThe bid price of $1.45 is an annualized return of 6.9% [($1.45 bid price / $56 strike price - $1.45) * 365 / 143]. It’s not a huge income given the 143-day DTE, but the share price has to fall to $54.55 before you’re out of pocket.  The odds of its share price trading above $54.55 by expiration are about 76%. That’s relatively high.\n\nAt worst, you buy $100 worth of TSCO stock at $54.55. The expected move between now and January, up or down, is 11.06%, indicating that the share price will still be higher than the breakeven point.\n\nOn the date of publication, Will Ashworth did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T14:31:00+00:00",
+            "title": "Petsense by Tractor Supply Kicks off 20th Birthday \"Pawty\" With Nearly $1 Million in Donations to Local Shelters",
+            "content": "Petsense by Tractor Supply celebrates two decades of serving pets out here with month-long celebration highlighting nearly $1 million in donations to local animal shelters this year, a new national campaign with K9s For Warriors, in-store discounts, weekly giveaways and more.\n\nRetailer launches national campaign with K9s For Warriors, celebrates with 20 Deals for 20 Years and in-store events\n\nBRENTWOOD, Tenn., August 28, 2025--(BUSINESS WIRE)--Petsense by Tractor Supply, a wholly owned subsidiary of Tractor Supply Co. (NASDAQ: TSCO), is throwing a \"20th Birthday PAWTY\" this September to celebrate two decades of serving pets out here. Rural America’s go-to pet specialty retailer is holding a month-long celebration to highlight nearly $1 million in donations to local animal shelters this year, a new national campaign with K9s For Warriors, in-store discounts, weekly giveaways and more.\n\nBuilding on its legacy of supporting the communities it serves, Petsense by Tractor Supply will launch a nationwide \"round up\" campaign beginning Sept. 15th to benefit K9s For Warriors, the nation’s leading provider of trained service dogs for veterans with PTSD and other invisible wounds of war. Customers are invited to round up to the nearest dollar on each purchase at checkout through Veterans Day, Nov. 11th, with proceeds going to K9s For Warriors. This marks a significant step forward in the retailer’s continued commitment to supporting both animal welfare and the veteran community.\n\n\"From day one, Petsense by Tractor Supply has been part of the communities we serve, helping families care for their pets and partnering with local shelters and organizations to find them the loving homes they deserve,\" said Neil Tenzer, Senior Vice President of Petsense by Tractor Supply. \"As we celebrate 20 years of serving pets out here, we’re proud of the impact we’ve made and look forward to continue building on that legacy with initiatives like our new campaign with K9s For Warriors.\"\n\nThroughout September, Petsense by Tractor Supply stores nationwide will host \"20 Deals for 20 Years,\" featuring exclusive savings on fan-favorite brands, weekly in-store giveaways on a range of products from treats to toys, weekly social media giveaways and special in-store events to thank customers for two decades of loyalty. Participating locations will also host local adoption events.\n\n\"K9s For Warriors is grateful to Petsense by Tractor Supply for standing with us in our mission to save the lives of both Veterans and rescue dogs,\" said Lindsay Grayson, Chief Revenue Officer at K9s For Warriors. \"Thanks to the Tractor Supply Foundation’s generous commitment over the last two years, more than seven Service Dogs found their purpose in saving Veteran’s lives – transforming not only the Veterans’ lives, but their families too. With Petsense by Tractor Supply’s unwavering support, we will continue to save lives at both ends of the leash.\"\n\nStory Continues\n\nFor more information about the 20th anniversary campaign, store events or the K9s For Warriors partnership, visit www.petsense.com.\n\nAbout Petsense by Tractor Supply\n\nPetsense by Tractor Supply, a wholly owned subsidiary of Tractor Supply Company (NASDAQ: TSCO), is a pet specialty retailer focused on meeting the needs of pet owners, primarily in small and mid-size communities. Founded in 2005, Petsense by Tractor Supply specializes in providing a large assortment of pet food, supplies and services, such as grooming and training, and offering customers a tailored experience while providing the top-quality products they need at a price they love. Petsense by Tractor Supply carries a range of nationally recognized brands including Fromm, Orijen, Acana, Purina Pro Plan, Hill’s Science Diet, Victor, Royal Canin, and NutriSource. Petsense by Tractor Supply is also committed to promoting responsible pet ownership through pet adoptions, community involvement and education. As of June 28, the Company operated 207 total Petsense stores across 23 states. For more information on Petsense by Tractor Supply, visit www.Petsense.com.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250828378951/en/\n\nContacts\n\nBridget Bohan\r\nFINN Partners\r\n603-930-8842\r\nbridget.bohan@finnpartners.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T15:00:00+00:00",
+            "title": "Validea's Top Consumer Discretionary Stocks Based On Warren Buffett - 8/26/2025",
+            "content": "The following are the top rated Consumer Discretionary stocks according to Validea's Patient Investor model based on the published strategy of Warren Buffett. This strategy seeks out firms with long-term, predictable profitability and low debt that trade at reasonable valuations.\n\nTRACTOR SUPPLY CO (TSCO) is a large-cap growth stock in the Personal & Household Prods. industry. The rating according to our strategy based on Warren Buffett is 93% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nCompany Description: Tractor Supply Company is a rural lifestyle retailer in the United States. The Company is focused on supplying the needs of recreational farmers and ranchers. It operates retail stores under the names Tractor Supply Company and Petsense by Tractor Supply. Its stores are located in towns outlying various metropolitan markets and in rural communities. It also offers an expanded assortment of products through the Tractor Supply mobile application and online at TractorSupply.com and Petsense.com. The Company's selection of merchandise consists of various product categories, including livestock, equine and agriculture; companion animal; seasonal and recreation; truck, tool, and hardware, and clothing, gift, and decor. Its brands consist of 4health, American Farmworks, Bit & Bridle, Blue Mountain, C.E. Schmidt, Country Lane, Countyline, Country Tuff, Dumor, Farm Table, Groundwork, Huskee, and JobSmart.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. EARNINGS PREDICTABILITY:PASSDEBT SERVICE:PASSRETURN ON EQUITY:PASSRETURN ON TOTAL CAPITAL:PASSFREE CASH FLOW:PASSUSE OF RETAINED EARNINGS:PASSSHARE REPURCHASE:PASSINITIAL RATE OF RETURN:PASSEXPECTED RETURN:PASS\n\nDetailed Analysis of TRACTOR SUPPLY CO\n\nTSCO Guru Analysis\n\nTSCO Fundamental Analysis\n\nPENSKE AUTOMOTIVE GROUP INC (PAG) is a large-cap value stock in the Retail (Specialty) industry. The rating according to our strategy based on Warren Buffett is 72% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nCompany Description: Penske Automotive Group, Inc. is a diversified international transportation services company. The Company operates dealerships in the United States, the United Kingdom, Canada, Germany, Italy, Japan and Australia. It also distributes and retails commercial vehicles, diesel and gas engines, power systems, and related parts and services principally in Australia and New Zealand. Additionally, it owns 28.9% of Penske Transportation Solutions (PTS). Its segments include Retail Automotive, Retail Commercial Truck, Other and Non-Automotive Investments. Retail Automotive segment consists of its retail automotive dealership operations. Retail Commercial Truck consists of its retail commercial truck dealership operations in the United States and Canada. Other segment consists of its commercial vehicle and power systems distribution operations. Non-Automotive Investments segment consists of its equity method investments in non-automotive operations which includes its investment in PTS and others.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. EARNINGS PREDICTABILITY:PASSDEBT SERVICE:PASSRETURN ON EQUITY:PASSRETURN ON TOTAL CAPITAL:FAILFREE CASH FLOW:PASSUSE OF RETAINED EARNINGS:PASSSHARE REPURCHASE:PASSINITIAL RATE OF RETURN:PASSEXPECTED RETURN:PASS\n\nDetailed Analysis of PENSKE AUTOMOTIVE GROUP INC\n\nPAG Guru Analysis\n\nPAG Fundamental Analysis\n\nWarren Buffett Portfolio\n\nTop Warren Buffett Stocks\n\nAbout Warren Buffett: Warren Buffett is considered by many to be the greatest investor of all time. As the chairman of Berkshire Hathaway, Buffett has consistently outperformed the S&P 500 for decades, and in the process has become one of the world's richest men. (Forbes puts his net worth at $37 billion.) Despite his fortune, Buffett is known for living a modest lifestyle, by billionaire standards. His primary residence remains the gray stucco Nebraska home he purchased for $31,500 nearly 50 years ago, according to Forbes, and his folksy Midwestern manner and penchant for simple pleasures -- a cherry Coke, a good burger, and a good book are all near the top of the list -- have been well-documented.\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tractor Supply Company",
+          "sector": "Consumer Cyclical",
+          "industry": "Specialty Retail",
+          "employees": 52000,
+          "description": "Tractor Supply Company operates as a rural lifestyle retailer in the United States. The company offers various merchandise, including livestock and equine feed and equipment, poultry, fencing, and sprayers and chemicals; companion animal products, such as food, treats, and equipment for dogs, cats, "
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.03,
+          "profit_margin": 0.0718,
+          "operating_margin": 0.1302,
+          "roe": 0.4535,
+          "roa": 0.0903,
+          "revenue_growth_yoy": 0.045,
+          "earnings_growth_yoy": 0.026,
+          "eps_estimate_current_year": 2.1096,
+          "eps_estimate_next_year": 2.3394,
+          "dividend_yield": 0.0144,
+          "dividend_per_share": 0.9,
+          "revenue_ttm": 15148456960,
+          "revenue_per_share": 28.428,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 30.4236,
+          "forward_pe": 29.7619,
+          "price_to_sales": 2.1606,
+          "price_to_book": 13.3323,
+          "enterprise_value": 38533045062,
+          "ev_to_revenue": 2.5437,
+          "ev_to_ebitda": 19.8044
+        },
+        "technical_data": {
+          "beta": 0.74,
+          "52_week_high": 63.7511,
+          "52_week_low": 46.462,
+          "50_day_ma": 57.9962,
+          "200_day_ma": 54.6498,
+          "short_interest": 0.0793,
+          "short_ratio": 7.18
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.92,
+          "forward_dividend_yield": 0.0147,
+          "payout_ratio": 0.2376,
+          "dividend_date": "2025-09-09",
+          "ex_dividend_date": "2025-08-25",
+          "last_split_date": "2024-12-20",
+          "last_split_factor": "5:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.6667,
+          "target_price": 62.5926,
+          "strong_buy": 10,
+          "buy": 5,
+          "hold": 16,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 529952000,
+          "percent_institutions": 99.506,
+          "percent_insiders": 0.251,
+          "shares_float": 528107437
+        },
+        "balance_latest_sheet": {
+          "total_assets": 10558.795,
+          "total_debt": 5557.383,
+          "net_debt": 5331.573,
+          "working_capital": 781.113,
+          "shareholders_equity": 2490.309,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.23
+        },
+        "income_latest_statement": {
+          "total_revenue": 4439.729,
+          "gross_profit": 1517.875,
+          "operating_income": 577.812,
+          "net_income": 430.043,
+          "ebitda": 699.911,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 34.19,
+          "operating_margin": 13.01,
+          "net_margin": 9.69
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 785.8,
+          "free_cash_flow": 575.436,
+          "capex": 210.364,
+          "net_income": 430.043,
+          "cash_change": -5.907,
+          "dividends_paid": -121.979,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.4809,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 56.85,
+            "high": 57.96,
+            "low": 56.84,
+            "close": 57.41,
+            "volume": 4681500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 57.35,
+            "high": 59.15,
+            "low": 57.17,
+            "close": 58.98,
+            "volume": 4773800
+          },
+          {
+            "date": "2025-07-23",
+            "open": 59.25,
+            "high": 60.44,
+            "low": 58.41,
+            "close": 59.62,
+            "volume": 10420300
+          },
+          {
+            "date": "2025-07-24",
+            "open": 63.96,
+            "high": 63.99,
+            "low": 57.98,
+            "close": 59.34,
+            "volume": 15356100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 59.56,
+            "high": 59.82,
+            "low": 58.52,
+            "close": 59.33,
+            "volume": 7589200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 59,
+            "high": 59.25,
+            "low": 57.78,
+            "close": 58.11,
+            "volume": 7983200
+          },
+          {
+            "date": "2025-07-29",
+            "open": 58.11,
+            "high": 59.19,
+            "low": 57.93,
+            "close": 58.59,
+            "volume": 6466900
+          },
+          {
+            "date": "2025-07-30",
+            "open": 58.74,
+            "high": 58.74,
+            "low": 57.5,
+            "close": 57.83,
+            "volume": 4556400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 57.43,
+            "high": 58.17,
+            "low": 56.73,
+            "close": 56.95,
+            "volume": 4179200
+          },
+          {
+            "date": "2025-08-01",
+            "open": 57.02,
+            "high": 57.67,
+            "low": 55.49,
+            "close": 57.63,
+            "volume": 5505300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 57.63,
+            "high": 59.53,
+            "low": 57.48,
+            "close": 59.5,
+            "volume": 5391300
+          },
+          {
+            "date": "2025-08-05",
+            "open": 59.51,
+            "high": 60.06,
+            "low": 59.22,
+            "close": 59.77,
+            "volume": 3357400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 59.72,
+            "high": 60.41,
+            "low": 59.15,
+            "close": 60.25,
+            "volume": 3831500
+          },
+          {
+            "date": "2025-08-07",
+            "open": 60.5,
+            "high": 60.8,
+            "low": 59.49,
+            "close": 60.02,
+            "volume": 2961500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 60.03,
+            "high": 60.17,
+            "low": 59.17,
+            "close": 59.26,
+            "volume": 3277600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 59.37,
+            "high": 59.92,
+            "low": 58.85,
+            "close": 59.53,
+            "volume": 4850000
+          },
+          {
+            "date": "2025-08-12",
+            "open": 59.46,
+            "high": 60.18,
+            "low": 58.9,
+            "close": 59.3,
+            "volume": 4822200
+          },
+          {
+            "date": "2025-08-13",
+            "open": 59.45,
+            "high": 59.94,
+            "low": 59.06,
+            "close": 59.73,
+            "volume": 5140700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 58.89,
+            "high": 59.89,
+            "low": 58.52,
+            "close": 59.69,
+            "volume": 3984200
+          },
+          {
+            "date": "2025-08-15",
+            "open": 59.83,
+            "high": 60.55,
+            "low": 59.79,
+            "close": 60.49,
+            "volume": 3901500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 60.65,
+            "high": 61.73,
+            "low": 60.65,
+            "close": 61.1,
+            "volume": 5652900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 61.24,
+            "high": 62.65,
+            "low": 61.24,
+            "close": 62.28,
+            "volume": 4393100
+          },
+          {
+            "date": "2025-08-20",
+            "open": 62.3,
+            "high": 62.3,
+            "low": 60.95,
+            "close": 61.03,
+            "volume": 3477500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 60.8,
+            "high": 61.28,
+            "low": 60.5,
+            "close": 61,
+            "volume": 2627500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 61.35,
+            "high": 61.69,
+            "low": 61.01,
+            "close": 61.61,
+            "volume": 3230200
+          },
+          {
+            "date": "2025-08-25",
+            "open": 61.46,
+            "high": 62.21,
+            "low": 61.01,
+            "close": 61.52,
+            "volume": 3261800
+          },
+          {
+            "date": "2025-08-26",
+            "open": 61.53,
+            "high": 61.87,
+            "low": 61.12,
+            "close": 61.69,
+            "volume": 4276400
+          },
+          {
+            "date": "2025-08-27",
+            "open": 61.85,
+            "high": 62.89,
+            "low": 61.8,
+            "close": 62.38,
+            "volume": 3587600
+          },
+          {
+            "date": "2025-08-28",
+            "open": 62.3,
+            "high": 62.74,
+            "low": 61.64,
+            "close": 62.65,
+            "volume": 3708300
+          },
+          {
+            "date": "2025-08-29",
+            "open": 62.65,
+            "high": 62.87,
+            "low": 61.63,
+            "close": 61.76,
+            "volume": 5217400
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 7.166406385563066,
+        "return_63d": 29.04304220643543,
+        "pct_above_sma50": 6.489735534397075,
+        "sma_50": 57.9962,
+        "new_55d_high": "False",
+        "high_55d": 63.99,
+        "rsi": 65.29492455418378,
+        "rsi_in_range": "True",
+        "adx": 33.19245952626421,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.863665803108807,
+        "bb_width": 7.3169435444297894,
+        "keltner_width": 7.590220419737211,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 245798401.84000003,
+        "adv_shares": 4047530.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.43429131749278,
+        "final_score": 46.43429131749278,
+        "sub_scores": {
+          "trend_momentum": 22.34025888506035,
+          "squeeze_breakout": 4.0,
+          "options_quality": 9.094032432432428,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 8.446005267778744,
+          "ret_63d": 27.60330578512398,
+          "rsi14": 65.29492455418378,
+          "adx14": 32.298684500725585,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSCO\n• Current Price: $61.76\n• Overall Score: 49.83885474512311\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 57.9962\n• Sma 200: 54.6498\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 8.446005267778744\n• Momentum 63D: 27.603305785123965\n• Momentum 126D: 11.580849141824745\n• Momentum Acceleration: -19.15730051734522\n• Roc 21D: 8.446005267778744\n• Trend Strength 20D: 0.7475377396717305\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.0005219777507919021\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: 0.0009600901632720177\n• Volatility Compression: 70.39772227333414\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.34025888506035\n• Squeeze Breakout: 4.0\n• Options Quality: 9.094032432432428\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 69.0\n• Squeeze: 60.55965834100012\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: TSCO\n• Strike Price: $55\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.3\n• Ask: $7.5\n• Last: $8.15\n• Mid: $7.4\n• Spread: 2.666666666666666666666666667%\n\n**GREEKS ANALYSIS**\n• Delta: 0.8862\n• Gamma: 0.0298\n• Theta: -0.0182\n• Vega: 0.0433\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2879\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 20\n• Open Interest: 546\n• Volume/OI Ratio: 0.03663003663003663\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Tractor Supply Company\n• Sector: Consumer Cyclical\n• Industry: Specialty Retail\n• EPS (TTM): $2.03\n• Profit Margin: 7.2%\n• ROE: 45.4%\n• P/E Ratio: 30.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T23:00:00+00:00: Some Boring Stocks Are Beating Big Techs. Plus, You Can Sleep at Night....\n• 2025-08-28T17:30:02+00:00: Viasat Options Activity Surged Wednesday, but These 2 Trades With 143-Day DTEs L...\n• 2025-08-28T17:30:02+00:00: Viasat Options Activity Surged Wednesday, but These 2 Trades With 143-Day DTEs L...\n• 2025-08-28T14:31:00+00:00: Petsense by Tractor Supply Kicks off 20th Birthday \"Pawty\" With Nearly $1 Millio...\n• 2025-08-26T15:00:00+00:00: Validea's Top Consumer Discretionary Stocks Based On Warren Buffett - 8/26/2025...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSCO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TSCO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:35:49.922079",
+    "estimated_tokens": 2342
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSCO\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 15,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TSCO shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100. The stock is in a volatility squeeze with 70.4% compression, suggesting potential for a significant move, supported by solid fundamentals with 7.2% profit margins and 45.4% ROE.\",\n    \"opportunities\": [\n        \"Strong technical setup with price trending above key moving averages\",\n        \"Active volatility squeeze with 70.4% compression indicating breakout potential\",\n        \"Solid fundamentals with healthy profit margins and ROE\"\n    ],\n    \"risks\": [\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Momentum acceleration is negative at -19.16\",\n        \"Relatively low options volume/OI ratio of 0.037\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call option at $55 strike offers good delta exposure (0.886) with minimal theta decay (-0.0182)\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Use 30% stop loss and consider rolling position after earnings event\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 30 days\",\n        \"Below average options liquidity metrics\"\n    ],\n    \"notes\": \"While technical and squeeze metrics are strong, upcoming earnings and liquidity concerns warrant caution in position sizing\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSCO",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 15,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "TSCO shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100. The stock is in a volatility squeeze with 70.4% compression, suggesting potential for a significant move, supported by solid fundamentals with 7.2% profit margins and 45.4% ROE.",
+      "opportunities": [
+        "Strong technical setup with price trending above key moving averages",
+        "Active volatility squeeze with 70.4% compression indicating breakout potential",
+        "Solid fundamentals with healthy profit margins and ROE"
+      ],
+      "risks": [
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Momentum acceleration is negative at -19.16",
+        "Relatively low options volume/OI ratio of 0.037"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call option at $55 strike offers good delta exposure (0.886) with minimal theta decay (-0.0182)",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Use 30% stop loss and consider rolling position after earnings event"
+      },
+      "red_flags": [
+        "Imminent earnings event within 30 days",
+        "Below average options liquidity metrics"
+      ],
+      "notes": "While technical and squeeze metrics are strong, upcoming earnings and liquidity concerns warrant caution in position sizing"
+    },
+    "tokens_used": 2556,
+    "cost": 0.02556,
+    "response_time": 8.219642877578735,
+    "success": true
+  },
+  "cost": 0.02556,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8570,
+    "response_length": 1657
+  }
+}

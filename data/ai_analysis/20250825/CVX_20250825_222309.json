@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "CVX",
+  "timestamp": "2025-08-25T22:23:09.297676",
+  "data_package": {
+    "metadata": {
+      "symbol": "CVX",
+      "package_timestamp": "2025-08-25T22:23:00.545455",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CVX",
+        "current_price": 158.14,
+        "overall_score": 49.980458608699855,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 151.1098,
+        "sma_200": 150.6458
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.16998191681735,
+        "momentum_63d": 15.863483228357989,
+        "momentum_126d": 0.1963392235100401,
+        "momentum_acceleration": -13.69350131154064,
+        "roc_21d": 2.16998191681735,
+        "trend_strength_20d": 0.27546809204010436,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.003778433487810151
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 18.0,
+        "squeeze_momentum": 0.052120068191887754,
+        "volatility_compression": 70.11785105922587,
+        "is_consolidating": "False",
+        "breakout_score": 81.12072529799754,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.35246353831544,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.046222222222212,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 47.0,
+        "momentum": 53.0,
+        "squeeze": 65.51767765888388,
+        "options": 42.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 15,
+        "percentile": 99.1
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CVX",
+        "strike_price": "155",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.1",
+        "ask": "7.3",
+        "last_price": "7.25",
+        "mid_price": "7.2",
+        "spread_percent": "2.739726027397260273972602740"
+      },
+      "greeks": {
+        "delta": 0.6056,
+        "gamma": 0.0274,
+        "theta": -0.061,
+        "vega": 0.2319
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2334
+      },
+      "liquidity_metrics": {
+        "volume": 30,
+        "open_interest": 2130,
+        "volume_oi_ratio": 0.014084507042253521
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:39.189535",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T13:49:00+00:00",
+            "title": "Buffett Increases Chevron Stake: Is it a Smarter Pick Than ExxonMobil?",
+            "content": "Exxon MobilCorporation XOM and Chevron Corporation CVX are two integrated energy giants. In the past year, CVX has gained 11.4% against XOM’s 2.9% decline.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nNotably, during the second quarter of this year, Warren Buffett's Berkshire Hathaway increased its stake in Chevron by 2.9%, thereby raising its position in the firm to about $19.3 billion, per Stockcircle.  However, before coming to investment conclusions, it would be ideal to compare both the stocks’ fundamentals and valuation parameters.\n\nExxonMobil\n\nOutlook Robust on Guyana Discoveries & Permian Presence\n\nExxonMobil has a strong presence in offshore Guyana resources and the Permian, the most productive basin in the United States.\n\nThe integrated energy company announced that it discovered a massive amount of oil—nearly 11 billion barrels—off the coast of Guyana. To put it simply, this is the largest oil discovery anywhere in the world in the last 15 years. In the region, XOM has three active projects, combinedly producing at a rate of roughly 650,000 barrels per day. XOM expects a total of eight projects in the region to be online by 2030, which will produce a total of 1.7 million barrels of oil equivalent per day (MMBoE/D).\n\nIn the Permian, the energy giant is employing advanced technology to get much more oil out of each well, thereby improving oil recovery. In the most prolific basin, XOM expects to produce 2.3 MMBoE/D by the end of this decade, suggesting a surge from the current 1.6 MMBoE/D.\n\nBetting Big on Earnings & Cash Flows by 2030\n\nExxonMobil expects to generate considerable earnings and cash flows in the years to come. Following its significant investments in Permian, Guyana resources and projects related to chemicals and refining, the integrated energy major anticipates generating $20 billion more in earnings and $30 billion more in cash flow compared to 2024 by the end of 2030.\n\nChevron\n\nHess Acquisition to Create Immediate Financial Benefits\n\nAs Chevron has successfully executed its acquisition of Hess, it has expanded its portfolio with premium assets with long-term growth potential. With the combination of the two companies’ resources and expertise in key regions like Guyana, the Bakken shale and the Gulf of Mexico, CVX is now better positioned to meet growing energy demand while operating smoothly at lower costs.\n\nImportantly, with the combination of the companies, Chevron now projects to achieve $1 billion in annual cost savings by the end of this year, which is six months faster than originally planned. Thus, the integrated energy giant is well poised to generate additional lucrative cash flows for shareholders, which is not far away. It can be said that CVX will continue to return cash to shareholders through both share buybacks and dividends. Notably, the company has already returned more than $5 billion each quarter for 13 consecutive quarters.\n\nStory Continues\n\nXOM vs CVX: Which Stock is Better?\n\nInvestors should also know that both ExxonMobil and Chevron have significantly lower exposure to debt capital. While CVX has a debt-to-capitalization of 16.7%, XOM has a debt-to-capitalization of 12.6%. Thus, both integrated players are well-positioned to navigate uncertainty when business turns unfavorable.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nComing to the valuation story, both CVX and XOM are overvalued compared with the industry’s composite stocks. While CVX is currently trading at a trailing 12-month enterprise value-to-EBITDA (EV/EBITDA) of 7.11x, XOM is trading at a trailing 12-month EV/EBITDA of 7.15x. This represents a premium compared with the broader industry average of 4.36x.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThus, although the outlook remains bright for both ExxonMobil and Chevron, investors shouldn’t rush to bet on the pricey stocks. However, those who have already invested should retain the integrated energy stocks. But investor expectations should differ for XOM and CVX. Those holding CVX can look forward to immediate cash returns from the Hess merger synergies, while XOM shareholders are positioned more for long-term growth. Currently, both CVX and XOM carry a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nChevron Corporation (CVX) : Free Stock Analysis Report\n\nExxon Mobil Corporation (XOM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:46:56+00:00",
+            "title": "How Much Would It Take To Earn $100 A Month From Chevron Stock",
+            "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\n\nChevron Corp. (NYSE:CVX) is a multinational energy company engaged in oil and natural gas exploration, production, and refining, as well as petrochemicals and other energy-related ventures.\n\nIt will report its Q3 2025 earnings on Oct. 31. Wall Street analysts expect the company to post EPS of $1.88, down from $2.51 in the prior-year period. According to data from Benzinga Pro, quarterly revenue is expected to be $43.67 billion, down from $50.67 billion a year earlier.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\nThe 52-week range of Chevron stock price was $132.04 to $168.96.\n\nChevron's dividend yield is 4.40%. It paid $6.84 per share in dividends during the last 12 months.\n\nThe Latest On Chevron\n\nThe company on Aug. 1 announced its Q2 2025 earnings, posting adjusted EPS of $1.77, compared to the consensus estimate of $1.76, and revenues of $44.82 billion, compared to the consensus $43.43 billion, as reported by Benzinga.\n\n\"Second quarter results reflect continued strong execution, record production, and exceptional cash generation,\" said CEO Mike Wirth. Permian Basin production increased to 1 million barrels of oil equivalent per day, and U.S. and worldwide production hit new company records. Cash flow from operations, at similar commodity prices, was one of the highest in company history.\"\n\nIs the market bullish or bearish on Chevron? Check out this article by Benzinga to learn more.\n\nTrending: 7 Million Gamers Already Trust Gameflip With Their Digital Assets — Now You Can Own a Stake in the Platform\n\nHow Can You Earn $100 Per Month As A Chevron Investor?\n\nIf you want to make $100 per month — $1,200 annually — from Chevron dividends, your investment value needs to be approximately $27,273, which is around 172 shares at $158.50 each.\n\nUnderstanding the dividend yield calculations: When making an estimate, you need two key variables — the desired annual income ($1,200) and the dividend yield (4.40% in this case). So, $1,200 / 0.044 = $27,273 to generate an income of $100 per month.\n\nYou can calculate the dividend yield by dividing the annual dividend payments by the current price of the stock.\n\nThe dividend yield can change over time. This is the outcome of fluctuating stock prices and dividend payments on a rolling basis.\n\nStory Continues\n\nSee Also: This Jeff Bezos-backed startup will allow you to become a landlord in just 10 minutes, with minimum investments as low as $100.\n\nFor instance, assume a stock that pays $2 as an annual dividend is priced at $50. Its dividend yield would be $2/$50 = 4%. If the stock price rises to $60, the dividend yield drops to 3.33% ($2/$60). A drop in stock price to $40 will have an inverse effect and increase the dividend yield to 5% ($2/$40).\n\nIn summary, income-focused investors may find Chevron stock an attractive option for making a steady income of $100 per month by owning 172 shares of stock. There may be more upside to come as investors benefit from the company's consistent dividend hikes. Chevron has raised its dividend consecutively for the last 38 years.\n\nRead Next: Shaquille O'Neal wants people to take heart health seriously — this AI-ECG could make that easier.\n\nImage: Shutterstock\n\nThis article How Much Would It Take To Earn $100 A Month From Chevron Stock originally appeared on Benzinga.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:00:21+00:00",
+            "title": "Chevron Corporation (NYSE:CVX) is a favorite amongst institutional investors who own 60%",
+            "content": "Key Insights\n\nInstitutions' substantial holdings in Chevron implies that they have significant influence over the company's share price A total of 25 investors have a majority stake in the company with 45% ownership Using data from analyst forecasts alongside ownership research, one can better assess the future performance of a company\n\nAI is about to change healthcare. These 20 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10bn in marketcap - there is still time to get in early.\n\nTo get a sense of who is truly in control of Chevron Corporation (NYSE:CVX), it is important to understand the ownership structure of the business. We can see that institutions own the lion's share in the company with 60% ownership. That is, the group stands to benefit the most if the stock rises (or lose the most if there is a downturn).\n\nGiven the vast amount of money and research capacities at their disposal, institutional ownership tends to carry a lot of weight, especially with individual investors. As a result, a sizeable amount of institutional money invested in a firm is generally viewed as a positive attribute.\n\nIn the chart below, we zoom in on the different ownership groups of Chevron.\n\nCheck out our latest analysis for Chevron NYSE:CVX Ownership Breakdown August 25th 2025\n\nWhat Does The Institutional Ownership Tell Us About Chevron?\n\nInstitutions typically measure themselves against a benchmark when reporting to their own investors, so they often become more enthusiastic about a stock once it's included in a major index. We would expect most companies to have some institutions on the register, especially if they are growing.\n\nWe can see that Chevron does have institutional investors; and they hold a good portion of the company's stock. This implies the analysts working for those institutions have looked at the stock and they like it. But just like anyone else, they could be wrong. If multiple institutions change their view on a stock at the same time, you could see the share price drop fast. It's therefore worth looking at Chevron's earnings history below. Of course, the future is what really matters.NYSE:CVX Earnings and Revenue Growth August 25th 2025\n\nSince institutional investors own more than half the issued stock, the board will likely have to pay attention to their preferences. Chevron is not owned by hedge funds. Our data shows that The Vanguard Group, Inc. is the largest shareholder with 7.7% of shares outstanding. In comparison, the second and third largest shareholders hold about 6.9% and 6.0% of the stock.\n\nOur studies suggest that the top 25 shareholders collectively control less than half of the company's shares, meaning that the company's shares are widely disseminated and there is no dominant shareholder.\n\nStory Continues\n\nWhile studying institutional ownership for a company can add value to your research, it is also a good practice to research analyst recommendations to get a deeper understand of a stock's expected performance. There are a reasonable number of analysts covering the stock, so it might be useful to find out their aggregate view on the future.\n\nInsider Ownership Of Chevron\n\nThe definition of company insiders can be subjective and does vary between jurisdictions. Our data reflects individual insiders, capturing board members at the very least. The company management answer to the board and the latter should represent the interests of shareholders. Notably, sometimes top-level managers are on the board themselves.\n\nMost consider insider ownership a positive because it can indicate the board is well aligned with other shareholders. However, on some occasions too much power is concentrated within this group.\n\nOur data suggests that insiders own under 1% of Chevron Corporation in their own names. Being so large, we would not expect insiders to own a large proportion of the stock. Collectively, they own US$1.8b of stock. In this sort of situation, it can be more interesting to  see if those insiders have been buying or selling.\n\nGeneral Public Ownership\n\nThe general public-- including retail investors -- own 34% stake in the company, and hence can't easily be ignored. While this group can't necessarily call the shots, it can certainly have a real influence on how the company is run.\n\nPublic Company Ownership\n\nIt appears to us that public companies own 6.0% of Chevron. This may be a strategic interest and the two companies may have related business interests. It could be that they have de-merged. This holding is probably worth investigating further.\n\nNext Steps:\n\nI find it very interesting to look at who exactly owns a company. But to truly gain insight, we need to consider other information, too.\n\nI always like to check for a history of revenue growth. You can too, by accessing this free chart of historic revenue and earnings in this detailed graph.\n\nIf you would prefer discover what analysts are predicting in terms of future growth, do not miss this freereport on analyst forecasts.\n\nNB: Figures in this article are calculated using data from the last twelve months, which refer to the 12-month period ending on the last date of the month the financial statement is dated. This may not be consistent with full year annual report figures.\n\nHave feedback on this article? Concerned about the content?Get in touch with us directly. Alternatively, email editorial-team (at) simplywallst.com.\r\n\r\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:01:18+00:00",
+            "title": "50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit From 9-to-5 – 'I'm Sick Of Corporate World'",
+            "content": "Dividend stocks are gaining attention amid growing expectations that the Federal Reserve will cut interest rates by 25 basis points next month. Data from Purpose Investments showed inflows into the five largest dividend ETFs surged tenfold last month compared with the start of 2024.\n\nIn June, an investor shared his dividend income and portfolio details on r/Dividends, a Reddit community of income investors with over 750,000 followers. The poster, 50, said he's slowly moving from growth to dividend stocks and nearing early retirement.\n\nIn a separate post, the investor said his annual salary is roughly $350,000, but he is \"sick\" of the corporate world and plans to retire soon.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\n\"I'm sick of the corporate world and the 9-5 (I wish it was only 8 hour days!) rat race,\" he wrote. \"Maybe it's a mid-life crisis or maybe I'm just finally thinking ‘I have enough', but I'm hoping to pull the trigger as soon as possible.\"\n\nThe portfolio screenshots shared by the investor showed that his dividend income was about $5,900 per month.\n\nLet's take a look at some of the top dividend stocks in the investor's portfolio.\n\nJPMorgan Nasdaq Equity Premium Income ETF\n\nJPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) is a high-yield covered call ETF that distributes monthly dividend income. The ETF invests in Nasdaq companies and generates extra income by selling call options. The fund has a dividend yield of 11%.\n\nTrending: An EA Co-Founder Shapes This VC Backed Marketplace—Now You Can Invest in Gaming's Next Big Platform\n\nAltria Group\n\nAltria Group (NYSE:MO) has a 7.6% dividend yield and over 50 years of consistent dividend growth history. It's one of the most popular high-yield dividend stocks among income investors on Reddit.\n\nYieldMax MSTR Option Income Strategy ETF\n\nThe YieldMax MSTR Option Income Strategy ETF (NYSE:MSTY) generates income by selling call options on Strategy (NASDAQ:MSTR) stock. The fund is down about 32% so far this year.\n\nPIMCO Dynamic Income Fund\n\nPIMCO Dynamic Income Fund (NYSE:PDI) is a high-yield fixed-income fund that invests in debt securities, including mortgage-backed securities and bonds from developed and emerging markets. PDI yields about 14% and pays monthly dividends.\n\nStory Continues\n\nSee Also: 2,000 High Earners Manage $6B With This AI Platform — Learn More\n\nNEOS Nasdaq-100 High Income ETF\n\nNEOS Nasdaq-100 High Income ETF (NASDAQ:QQQI) exposes investors to Nasdaq 100 companies and generates income by selling covered call options on the index.\n\nGlobal X Nasdaq 100 Covered Call ETF\n\nGlobal X Nasdaq 100 Covered Call ETF (NASDAQ:QYLD) is a notable ETF that earns money by selling covered call options on the Nasdaq-100 Index. The fund was started in 2013 and has since paid monthly income to investors. The fund yields about 12%.\n\nSchwab U.S. Dividend Equity ETF\n\nSchwab U.S. Dividend Equity ETF (NYSE:SCHD) tracks the Dow Jones U.S. Dividend 100 Index and provides exposure to some of the top dividend stocks trading in the U.S., including Chevron (NYSE:CVX), PepsiCo (NYSE:PEP), ConocoPhillips (NYSE:COP) and Altria.\n\nRead Next: The ECG Hasn't Changed in 100 Years — This AI Upgrade Could Help Detect Heart Disease Years Earlier\n\nImage: Shutterstock\n\nUp Next: Transform your trading with Benzinga Edge's one-of-a-kind market trade ideas and tools. Click now to access unique insights that can set you ahead in today's competitive market.\n\nGet the latest stock analysis from Benzinga?\n\nAPPLE (AAPL): Free Stock Analysis Report TESLA (TSLA): Free Stock Analysis Report\n\nThis article 50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit From 9-to-5 – 'I'm Sick Of Corporate World' originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T23:30:00+00:00",
+            "title": "Warren Buffett Owns 10 High-Yield Dividend Stocks. Here's the Best of the Bunch.",
+            "content": "Key Points\n\nChevron has one of the lowest-risk business models in the oil industry. The oil giant has a terrific record of increasing its dividend. It has plenty of fuel to continue growing its high-yielding payout. 10 stocks we like better than Chevron ›\n\nWarren Buffett's company, Berkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B), owns nearly 50 stocks. Of those that trade on U.S. stock exchanges, 10 stocks have dividend yields that are at least double the S&P 500's level of 1.2%.\n\nChevron(NYSE: CVX) stands out as the clear leader. Here's why this oil stock is an unbeatable choice for Buffett followers eager to maximize their dividend income.Image source: Getty Images.\n\nBuilt to weather volatility\n\nChevron's dividend yields around 4.4% -- nearly 4 times the S&P 500. While high-yield stocks can carry added risk, Chevron sets itself apart with one of the industry's most durable business models. This unmatched stability puts its dividend on a solid foundation.\n\nOil prices often swing wildly, but Chevron's powerful business model makes it extremely resilient. Boasting the lowest breakeven level in its sector -- about $30 per barrel -- Chevron reliably generates more cash flow than peers, even when prices drop. Its integrated business combines top-tier production with downstream operations (refining and chemicals) that thrive when prices are low. As evidence, Chevron produced a robust $15 billion in free cash flow last year, easily covering its $11.8 billion in dividends despite some market challenges.\n\nChevron further fortifies its business against commodity price swings with one of the strongest balance sheets in the sector. Its net leverage ratio is currently below 15%, comfortably under its 20%-25% target range, and near the low end of its peer group (well below the S&P 500's average of more than 20%). The company uses its balance sheet strategically, borrowing money during periods of lower oil prices to fund long-term growth projects and repaying this debt when those projects come online during up markets.\n\nTogether, these standout features make Chevron's dividend an exceptionally dependable cornerstone investment for any income-focused portfolio.\n\nAmple fuel to continue growing the payout\n\nChevron has demonstrated the durability of its dividend over the past several decades. The oil giant has increased its dividend for 38 straight years, which includes multiple periods of oil market volatility. It has also delivered peer-leading dividend growth over the past decade, a period during which several rivals reduced their dividends due to market turbulence.\n\nStory Continues\n\nThe oil giant should have plenty of fuel to continue increasing its dividend in the future. Chevron expects to deliver a step change in its free cash flow in 2026. A combination of recently completed expansion projects, cost savings initiatives, and its merger with Hess should add $12.5 billion to its annual free cash flow next year. That assumes oil averages of around $70 per barrel, which is just below the current price point.\n\nChevron expects its free cash flow to continue rising into the 2030s. A major factor is Chevron's acquisition of Hess, which expands the company's portfolio by adding a significant growth engine from Hess' position offshore Guyana. The integration of Hess should drive long-term production and free-cash-flow growth to support Chevron's rising dividend.\n\nThe company aims to continue expanding its legacy oil and gas operations alongside its efforts to build several lower-carbon energy businesses, including its recent entry into the U.S. lithium sector. These investments should help drive continued growth in the coming years as the world slowly transitions to lower-carbon energy sources.\n\nA lower risk, high-yielding dividend growth stock\n\nChevron pays out a rock-solid dividend. Its nearly unmatched stability in the sector empowers it to reliably reward investors with dividend income. Given its clear growth path, Chevron has the fuel to continue increasing its high-yielding payout.\n\nAll these strengths explain why Berkshire Hathaway counts Chevron among its top investments. With nearly $19 billion in Chevron shares -- its fifth-largest position, at 6.5% of the portfolio -- Buffett's company stands to reap substantial dividend income. Investors who follow Berkshire and buy Chevron can confidently expect it to collect its high-yielding payout for years to come.\n\nShould you invest $1,000 in Chevron right now?\n\nBefore you buy stock in Chevron, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Chevron wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nMatt DiLallo has positions in Berkshire Hathaway and Chevron. The Motley Fool has positions in and recommends Berkshire Hathaway and Chevron. The Motley Fool has a disclosure policy.\n\nWarren Buffett Owns 10 High-Yield Dividend Stocks. Here's the Best of the Bunch. was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Chevron Corp",
+          "sector": "Energy",
+          "industry": "Oil & Gas Integrated",
+          "employees": 45298,
+          "description": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. The company operates in two segments, Upstream and Downstream. The Upstream segment engages in the exploration, development, production, and transportati"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.77,
+          "profit_margin": 0.0725,
+          "operating_margin": 0.0944,
+          "roe": 0.0896,
+          "roa": 0.0476,
+          "revenue_growth_yoy": -0.107,
+          "earnings_growth_yoy": -0.404,
+          "eps_estimate_current_year": 7.8209,
+          "eps_estimate_next_year": 9.6419,
+          "dividend_yield": 0.0429,
+          "dividend_per_share": 6.68,
+          "revenue_ttm": 189265002496,
+          "revenue_per_share": 107.606,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 20.3578,
+          "forward_pe": 20,
+          "price_to_sales": 1.6839,
+          "price_to_book": 2.1767,
+          "enterprise_value": 344105603435,
+          "ev_to_revenue": 1.8329,
+          "ev_to_ebitda": 8.5829
+        },
+        "technical_data": {
+          "beta": 0.841,
+          "52_week_high": 165.089,
+          "52_week_low": 129.0148,
+          "50_day_ma": 151.1098,
+          "200_day_ma": 150.6458,
+          "short_interest": 0.0093,
+          "short_ratio": 1.56
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 6.84,
+          "forward_dividend_yield": 0.0432,
+          "payout_ratio": 0.7934,
+          "dividend_date": "2025-09-10",
+          "ex_dividend_date": "2025-08-19",
+          "last_split_date": "2004-09-13",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 168.1304,
+          "strong_buy": 9,
+          "buy": 6,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 2014819968,
+          "percent_institutions": 58.931,
+          "percent_insiders": 6.03,
+          "shares_float": 1613165416
+        },
+        "balance_latest_sheet": {
+          "total_assets": 250820.0,
+          "total_debt": 29467.0,
+          "net_debt": 25406.0,
+          "working_capital": -136.0,
+          "shareholders_equity": 146417.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.2
+        },
+        "income_latest_statement": {
+          "total_revenue": 44375.0,
+          "gross_profit": 5275.0,
+          "operating_income": 3974.0,
+          "net_income": 2490.0,
+          "ebitda": 8765.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 11.89,
+          "operating_margin": 8.96,
+          "net_margin": 5.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 8576.0,
+          "free_cash_flow": 4864.0,
+          "capex": 3712.0,
+          "net_income": 2515.0,
+          "cash_change": -791.0,
+          "dividends_paid": 2934.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 2.02,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 151.6,
+            "high": 152.31,
+            "low": 150.25,
+            "close": 150.69,
+            "volume": 7346300
+          },
+          {
+            "date": "2025-07-16",
+            "open": 150.76,
+            "high": 151.48,
+            "low": 149.22,
+            "close": 149.92,
+            "volume": 7923400
+          },
+          {
+            "date": "2025-07-17",
+            "open": 149.16,
+            "high": 151.84,
+            "low": 148.6,
+            "close": 151.38,
+            "volume": 8359600
+          },
+          {
+            "date": "2025-07-18",
+            "open": 155.02,
+            "high": 155.91,
+            "low": 146.53,
+            "close": 150.04,
+            "volume": 45782600
+          },
+          {
+            "date": "2025-07-21",
+            "open": 151.2,
+            "high": 151.67,
+            "low": 149.13,
+            "close": 149.68,
+            "volume": 17982200
+          },
+          {
+            "date": "2025-07-22",
+            "open": 149.26,
+            "high": 150.94,
+            "low": 148.48,
+            "close": 150.04,
+            "volume": 26196500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 150.91,
+            "high": 153.14,
+            "low": 150.47,
+            "close": 153.12,
+            "volume": 13162800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 152.69,
+            "high": 156,
+            "low": 152.2,
+            "close": 155.83,
+            "volume": 15701000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 155.83,
+            "high": 156.2,
+            "low": 153.96,
+            "close": 154.84,
+            "volume": 7875500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 155.4,
+            "high": 156.55,
+            "low": 154.95,
+            "close": 156.28,
+            "volume": 8755400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 156.68,
+            "high": 157.21,
+            "low": 155.45,
+            "close": 157.03,
+            "volume": 6446000
+          },
+          {
+            "date": "2025-07-30",
+            "open": 156.14,
+            "high": 156.31,
+            "low": 152.7,
+            "close": 153.56,
+            "volume": 9191700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 152,
+            "high": 153.93,
+            "low": 151.14,
+            "close": 151.64,
+            "volume": 10237100
+          },
+          {
+            "date": "2025-08-01",
+            "open": 152.54,
+            "high": 154.65,
+            "low": 150.35,
+            "close": 151.4,
+            "volume": 10706500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 151.25,
+            "high": 152.08,
+            "low": 149.82,
+            "close": 151.04,
+            "volume": 10116600
+          },
+          {
+            "date": "2025-08-05",
+            "open": 151.03,
+            "high": 153.1,
+            "low": 149.9,
+            "close": 153.04,
+            "volume": 8604100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 154.48,
+            "high": 155.16,
+            "low": 152.22,
+            "close": 152.78,
+            "volume": 7840900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 153.79,
+            "high": 155.15,
+            "low": 152.83,
+            "close": 153.16,
+            "volume": 6510400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 153.99,
+            "high": 155.75,
+            "low": 153.5,
+            "close": 155.01,
+            "volume": 6332800
+          },
+          {
+            "date": "2025-08-11",
+            "open": 155.34,
+            "high": 155.93,
+            "low": 152.99,
+            "close": 153.45,
+            "volume": 6169700
+          },
+          {
+            "date": "2025-08-12",
+            "open": 154.09,
+            "high": 156.05,
+            "low": 153.36,
+            "close": 154.44,
+            "volume": 6641600
+          },
+          {
+            "date": "2025-08-13",
+            "open": 154.57,
+            "high": 156.01,
+            "low": 154.2,
+            "close": 155.87,
+            "volume": 6581900
+          },
+          {
+            "date": "2025-08-14",
+            "open": 155.7,
+            "high": 155.7,
+            "low": 154.1,
+            "close": 155.16,
+            "volume": 7337300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 155.48,
+            "high": 158.54,
+            "low": 155.29,
+            "close": 156.55,
+            "volume": 11617000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 156.13,
+            "high": 156.49,
+            "low": 154.75,
+            "close": 155.32,
+            "volume": 8174280
+          },
+          {
+            "date": "2025-08-19",
+            "open": 153.46,
+            "high": 153.94,
+            "low": 151.855,
+            "close": 152,
+            "volume": 8567476
+          },
+          {
+            "date": "2025-08-20",
+            "open": 152.42,
+            "high": 153.49,
+            "low": 151.93,
+            "close": 153.22,
+            "volume": 8076269
+          },
+          {
+            "date": "2025-08-21",
+            "open": 152.82,
+            "high": 155.67,
+            "low": 152.73,
+            "close": 155.55,
+            "volume": 7533625
+          },
+          {
+            "date": "2025-08-22",
+            "open": 155.32,
+            "high": 158.79,
+            "low": 155.32,
+            "close": 158.18,
+            "volume": 9084344
+          },
+          {
+            "date": "2025-08-25",
+            "open": 157.9,
+            "high": 158.32,
+            "low": 157.17,
+            "close": 158.2,
+            "volume": 6966563
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.2285641156897795,
+        "return_63d": 14.779075672930404,
+        "pct_above_sma50": 4.469447938356801,
+        "sma_50": 151.3744,
+        "new_55d_high": "False",
+        "high_55d": 158.79,
+        "rsi": 63.35403726708072,
+        "rsi_in_range": "True",
+        "adx": 20.444007366127988,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.6913716814159325,
+        "bb_width": 5.582069154372075,
+        "keltner_width": 6.9346334826237515,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1255753555.4904997,
+        "adv_shares": 8136807.85,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 47.39868576053765,
+        "final_score": 47.39868576053765,
+        "sub_scores": {
+          "trend_momentum": 16.35246353831544,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.046222222222212,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 2.169981916817343,
+          "ret_63d": 15.863483228358,
+          "rsi14": 63.35403726708072,
+          "adx14": 21.11783500779023,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CVX\n• Current Price: $158.14\n• Overall Score: 49.980458608699855\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 151.1098\n• Sma 200: 150.6458\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.16998191681735\n• Momentum 63D: 15.863483228357989\n• Momentum 126D: 0.1963392235100401\n• Momentum Acceleration: -13.69350131154064\n• Roc 21D: 2.16998191681735\n• Trend Strength 20D: 0.27546809204010436\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.003778433487810151\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 18.0\n• Squeeze Momentum: 0.052120068191887754\n• Volatility Compression: 70.11785105922587\n• Is Consolidating: False\n• Breakout Score: 81.12072529799754\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.35246353831544\n• Squeeze Breakout: 4.0\n• Options Quality: 16.046222222222212\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 47.0\n• Momentum: 53.0\n• Squeeze: 65.51767765888388\n• Options: 42.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CVX\n• Strike Price: $155\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.1\n• Ask: $7.3\n• Last: $7.25\n• Mid: $7.2\n• Spread: 2.739726027397260273972602740%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6056\n• Gamma: 0.0274\n• Theta: -0.061\n• Vega: 0.2319\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2334\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 30\n• Open Interest: 2130\n• Volume/OI Ratio: 0.014084507042253521\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Chevron Corp\n• Sector: Energy\n• Industry: Oil & Gas Integrated\n• EPS (TTM): $7.77\n• Profit Margin: 7.2%\n• ROE: 9.0%\n• P/E Ratio: 20.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T13:49:00+00:00: Buffett Increases Chevron Stake: Is it a Smarter Pick Than ExxonMobil?...\n• 2025-08-25T12:46:56+00:00: How Much Would It Take To Earn $100 A Month From Chevron Stock...\n• 2025-08-25T12:00:21+00:00: Chevron Corporation (NYSE:CVX) is a favorite amongst institutional investors who...\n• 2025-08-25T00:01:18+00:00: 50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit F...\n• 2025-08-24T23:30:00+00:00: Warren Buffett Owns 10 High-Yield Dividend Stocks. Here's the Best of the Bunch....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CVX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CVX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:23:09.297311",
+    "estimated_tokens": 2336
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CVX\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CVX shows positive technical momentum with price above both 50 and 200 SMAs, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty.\",\n    \"opportunities\": [\n        \"Strong MA ribbon score (100) indicating solid trend structure\",\n        \"Multiple timeframe squeeze setup (3 concurrent squeezes) with 70.11% compression\",\n        \"Options contract shows reasonable liquidity with 2.74% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-13.69)\",\n        \"Earnings approaching on 2025-09-30\",\n        \"Below average profit margins at 7.2%\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure given moderate IV environment\",\n        \"entry_timing\": \"Wait until after earnings for clearer directional setup\",\n        \"risk_management\": \"Use 155 strike as key technical pivot; consider scaling position size given medium confidence\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"Volume/OI ratio of 0.014 indicates relatively low options activity; consider limiting position size accordingly\"\n}",
+    "parsed_analysis": {
+      "symbol": "CVX",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "CVX shows positive technical momentum with price above both 50 and 200 SMAs, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty.",
+      "opportunities": [
+        "Strong MA ribbon score (100) indicating solid trend structure",
+        "Multiple timeframe squeeze setup (3 concurrent squeezes) with 70.11% compression",
+        "Options contract shows reasonable liquidity with 2.74% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-13.69)",
+        "Earnings approaching on 2025-09-30",
+        "Below average profit margins at 7.2%"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure given moderate IV environment",
+        "entry_timing": "Wait until after earnings for clearer directional setup",
+        "risk_management": "Use 155 strike as key technical pivot; consider scaling position size given medium confidence"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "Volume/OI ratio of 0.014 indicates relatively low options activity; consider limiting position size accordingly"
+    },
+    "tokens_used": 2516,
+    "cost": 0.025160000000000002,
+    "response_time": 8.749772787094116,
+    "success": true
+  },
+  "cost": 0.025160000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8549,
+    "response_length": 1519
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "success": true,
+  "symbol": "SOC",
+  "timestamp": "2025-08-25T01:18:46.817145",
+  "data_package": {
+    "metadata": {
+      "symbol": "SOC",
+      "package_timestamp": "2025-08-25T01:18:37.639682",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "SOC",
+        "current_price": 28.79,
+        "overall_score": 52.209850696822066,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 26.0342,
+        "sma_200": 24.5112
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.4535938590369819,
+        "momentum_63d": -10.839269123567668,
+        "momentum_126d": 1.0530010530010556,
+        "momentum_acceleration": 11.29286298260465,
+        "roc_21d": 0.4535938590369819,
+        "trend_strength_20d": 0.5705148152927956,
+        "trend_direction": 1,
+        "ma_ribbon_score": 53.68787656184591,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.009532239877324988
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 8.0,
+        "squeeze_momentum": -0.29337168129155333,
+        "volatility_compression": 66.65314288552196,
+        "is_consolidating": "False",
+        "breakout_score": -4.773414079520974,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 8.822842080553476,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.44709803921571,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 56.0,
+        "squeeze": 59.997971432828294,
+        "options": 39.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 10,
+        "percentile": 99.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "SOC",
+        "strike_price": "27.5",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "4.2",
+        "ask": "4.3",
+        "last_price": "4.06",
+        "mid_price": "4.25",
+        "spread_percent": "2.325581395348837209302325581"
+      },
+      "greeks": {
+        "delta": 0.6271,
+        "gamma": 0.0423,
+        "theta": -0.0322,
+        "vega": 0.0424
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.7986
+      },
+      "liquidity_metrics": {
+        "volume": 15,
+        "open_interest": 1425,
+        "volume_oi_ratio": 0.010526315789473684
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:57.694320",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T20:48:00+00:00",
+            "title": "ROSEN, NATIONALLY REGARDED INVESTOR COUNSEL, Encourages Sable Offshore Corp. Investors to Secure Counsel Before Important Deadline in Securities Class Action First Filed by the Firm – SOC",
+            "content": "NEW YORK, Aug.  22, 2025  (GLOBE NEWSWIRE) --\n\nWHY: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Sable Offshore Corp. (NYSE: SOC): (1) between May 19, 2025 and June 3, 2025, both dates inclusive (the “Class Period”); and/or (2) pursuant and/or traceable to Sable’s May 21, 2025 secondary public offering (the “SPO”), of the important September 26, 2025 lead plaintiff deadline in the securities class action first filed by the Firm.\n\nSO WHAT: If you purchased Sable securities during the Class Period you may be entitled to compensation without payment of any out of pocket fees or costs through a contingency fee arrangement.\n\nWHAT TO DO NEXT: To join the Sable class action, go to https://rosenlegal.com/submit-form/?case_id=40629 or call Phillip Kim, Esq. toll-free at 866-767-3653 or email case@rosenlegal.com for information on the class action. A class action lawsuit has already been filed. If you wish to serve as lead plaintiff, you must move the Court no later than September 26, 2025. A lead plaintiff is a representative party acting on behalf of other class members in directing the litigation.\n\nWHY ROSEN LAW: We encourage investors to select qualified counsel with a track record of success in leadership roles. Often, firms issuing notices do not have comparable experience, resources, or any meaningful peer recognition. Many of these firms do not actually litigate securities class actions, but are merely middlemen that refer clients or partner with law firms that actually litigate the cases. Be wise in selecting counsel. The Rosen Law Firm represents investors throughout the globe, concentrating its practice in securities class actions and shareholder derivative litigation. Rosen Law Firm achieved the largest ever securities class action settlement against a Chinese Company at the time. Rosen Law Firm was Ranked No. 1 by ISS Securities Class Action Services for number of securities class action settlements in 2017. The firm has been ranked in the top 4 each year since 2013 and has recovered hundreds of millions of dollars for investors. In 2019 alone the firm secured over $438 million for investors. In 2020, founding partner Laurence Rosen was named by law360 as a Titan of Plaintiffs’ Bar. Many of the firm’s attorneys have been recognized by Lawdragon and Super Lawyers.\n\nDETAILS OF THE CASE: According to the lawsuit, defendants throughout the Class Period made materially false and/or misleading statements and/or failed to disclose that: (1) defendants represented that Sable had restarted oil production off the coast of California when it had not; and (2) as a result, defendants statements about its business, operations, and prospects were materially false and misleading and/or lacked a reasonable basis at all relevant times. When the true details entered the market, the lawsuit claims that investors suffered damages.\n\nTo join the Sable class action, go to https://rosenlegal.com/submit-form/?case_id=40629 call Phillip Kim, Esq. toll-free at 866-767-3653 or email case@rosenlegal.com for information on the class action.\n\nNo Class Has Been Certified. Until a class is certified, you are not represented by counsel unless you retain one. You may select counsel of your choice. You may also remain an absent class member and do nothing at this point. An investor’s ability to share in any potential future recovery is not dependent upon serving as lead plaintiff.\n\nFollow us for updates on LinkedIn: https://www.linkedin.com/company/the-rosen-law-firm or on Twitter: https://twitter.com/rosen_firm or on Facebook: https://www.facebook.com/rosenlawfirm.\n\nAttorney Advertising. Prior results do not guarantee a similar outcome.\n\nContact Information:\n\nLaurence Rosen, Esq.\r\nPhillip Kim, Esq.\r\nThe Rosen Law Firm, P.A.\r\n275 Madison Avenue, 40th Floor\r\nNew York, NY 10016\r\nTel: (212) 686-1060\r\nToll Free: (866) 767-3653\r\nFax: (212) 202-3827\r\ncase@rosenlegal.com\r\nwww.rosenlegal.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:39:00+00:00",
+            "title": "Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of September 26, 2025 in Sable Offshore Corp. Lawsuit – SOC",
+            "content": "NEW YORK, Aug.  22, 2025  (GLOBE NEWSWIRE) -- Levi & Korsinsky, LLP notifies investors in Sable Offshore Corp. (\"Sable Offshore Corp.\" or the \"Company\") (NYSE: SOC) of a class action securities lawsuit.\n\nCLASS DEFINITION: The lawsuit seeks to recover losses on behalf of Sable Offshore Corp. investors who were adversely affected by alleged securities fraud. This lawsuit is on behalf of persons or entities who purchased or otherwise acquired publicly traded Sable Offshore securities between May 19, 2025 and June 3, 2025, inclusive, and/or pursuant and/or traceable to the Company’s May 21, 2025 secondary public offering. Follow the link below to get more information and be contacted by a member of our team:\n\nhttps://zlk.com/pslra-1/sable-offshore-corp-lawsuit-submission-form?prid=162766&wire=3\n\nSOC investors may also contact Joseph E. Levi, Esq. via email at jlevi@levikorsinsky.com or by telephone at (212) 363-7500.\n\nCASE DETAILS: The filed complaint alleges that defendants made false statements and/or concealed that: (1) defendants represented that Sable Offshore Corp. had restarted oil production off the coast of California when it had not; and (2) as a result, defendants statements about Sables business, operations, and prospects, were materially false and misleading and/or lacked a reasonable basis at all relevant times. When the true details entered the market, the lawsuit claims that investors suffered damages.\n\nWHAT'S NEXT? If you suffered a loss in Sable Offshore Corp. during the relevant time frame, you have until September 26, 2025 to request that the Court appoint you as lead plaintiff. Your ability to share in any recovery doesn't require that you serve as a lead plaintiff.\n\nNO COST TO YOU: If you are a class member, you may be entitled to compensation without payment of any out-of-pocket costs or fees. There is no cost or obligation to participate.\n\nWHY LEVI & KORSINSKY: Over the past 20 years, the team at Levi & Korsinsky has secured hundreds of millions of dollars for aggrieved shareholders and built a track record of winning high-stakes cases. Our firm has extensive expertise representing investors in complex securities litigation and a team of over 70 employees to serve our clients. For seven years in a row, Levi & Korsinsky has ranked in ISS Securities Class Action Services’ Top 50 Report as one of the top securities litigation firms in the United States.\n\nCONTACT:\r\nLevi & Korsinsky, LLP \r\nJoseph E. Levi, Esq.\r\nEd Korsinsky, Esq.\r\n33 Whitehall Street, 17th Floor\r\nNew York, NY 10004\r\njlevi@levikorsinsky.com \r\nTel: (212) 363-7500\r\nFax: (212) 363-7171\r\nwww.zlk.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T15:38:00+00:00",
+            "title": "SOC Update: Lawsuit Alleges Sable Offshore Misled Investors on Oil Production – Hagens Berman",
+            "content": "SAN FRANCISCO, Aug.  22, 2025  (GLOBE NEWSWIRE) -- A class-action lawsuit is underway against Sable Offshore Corp. (NYSE: SOC), alleging the company and its executives misrepresented its oil production status to investors. The lawsuit, captioned Johnson v. Sable Offshore Corp., represents those who purchased or acquired the company's publicly traded securities between May 19, 2025, and June 3, 2025. It also includes investors who bought shares in the company's secondary public offering (SPO) on May 21, 2025.\n\nHagens Berman urges Sable investors who suffered substantial losses to submit your losses now.\n\nClass Period: May 19, 2025 – June 3, 2025 Lead Plaintiff Deadline: Sept. 26, 2025 Visit:www.hbsslaw.com/investor-fraud/soc Contact the Firm Now:SOC@hbsslaw.com  844-916-0895\n\nAllegations and Regulatory Scrutiny\n\nAccording to the complaint, Sable Offshore and the underwriters of its SPO misled investors by claiming the company had restarted oil production off the coast of California when it had not. This claim was directly challenged by California Lieutenant Governor Eleni Kounalakis, who stated in a letter that the company’s press release “appears to mischaracterize” its activities. The letter clarified that the oil flows were “well-testing procedures,” not “a resumption of commercial production.” The price of Sable Offshore’s stock fell more than 15% after this information became public on May 28, 2025.\n\nJudicial Intervention and Further Stock Drop\n\nThe lawsuit further alleges that the company’s legal troubles deepened on June 4, 2025, when Sable Offshore revealed that a Santa Barbara County Superior Court judge had issued a temporary restraining order. This order prohibited the company from restarting oil transportation through the Las Flores Pipeline System, pending a hearing on a preliminary injunction. This news reportedly caused the company’s stock to fall even further.\n\nThe litigation now aims to hold the company accountable for what some are calling a calculated maneuver to raise capital under false pretenses. The case, Johnson v. Sable Offshore Corp., et al., is being litigated in the U.S. District Court for the Central District of California.\n\nHagens Berman’s Investigation\n\nNational plaintiffs’ rights law firm, Hagens Berman, is investigating the claims on behalf of investors who suffered substantial losses.\n\nReed Kathrein, the Hagens Berman partner leading the investigation, commented on the situation, “We’re investigating whether Sable Offshore’s press release may have been a calculated maneuver to inflate its stock price and set up the secondary offering, only for investors to suffer devastating losses once the truth came out.”\n\nIf you invested in Sable and have substantial losses, or have knowledge that may assist the firm’s investigation, submit your losses now »\n\nIf you’d like more information and answers to frequently asked questions about the Sable case and our investigation, read more »\n\nWhistleblowers: Persons with non-public information regarding Sable Offshore should consider their options to help in the investigation or take advantage of the SEC Whistleblower program. Under the new program, whistleblowers who provide original information may receive rewards totaling up to 30 percent of any successful recovery made by the SEC. For more information, call Reed Kathrein at 844-916-0895 or email SOC@hbsslaw.com.\n\nAbout Hagens Berman\r\nHagens Berman is a global plaintiffs’ rights complex litigation firm focusing on corporate accountability. The firm is home to a robust practice and represents investors as well as whistleblowers, workers, consumers and others in cases achieving real results for those harmed by corporate negligence and other wrongdoings. Hagens Berman’s team has secured more than $2.9 billion in this area of law. More about the firm and its successes can be found at hbsslaw.com. Follow the firm for updates and news at @ClassActionLaw.\n\nContact: \r\nReed Kathrein, 844-916-0895",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T20:16:00+00:00",
+            "title": "Bragar Eagel &amp; Squire, P.C. Reminds Investors of Flywire, Lockheed Martin, Lineage, and Sable Offshore that Lawsuits Have Been Filed and Encourages Investors to Contact the Firm",
+            "content": "NEW YORK, Aug.  21, 2025  (GLOBE NEWSWIRE) -- Bragar Eagel & Squire, P.C., a nationally recognized shareholder rights law firm, reminds investors that class actions have been commenced on behalf of stockholders of Flywire Corporation (NASDAQ:FLYW), Lockheed Martin Corporation (NYSE:LMT), Lineage, Inc. (NASDAQ:LINE) and Sable Offshore Corporation (NYSE:SOC). Stockholders have until the deadlines below to petition the court to serve as lead plaintiff. Additional information about each case can be found at the link provided.\n\nFlywire Corporation (NASDAQ:FLYW)\n\nClass Period: February 28, 2024 to February 25, 2025\n\nLead Plaintiff Deadline: September 23, 2025\n\nAccording to the complaint, during the class period, defendants failed to disclose that (i) the strength and sustainability of Flywire’s revenue growth was overstated, and (ii) the negative impact that permit- and visa-related restrictions were having and were likely to have on Flywire’s business was understated.\n\nOn February 25, 2025, Flywire issued a press release announcing disappointing fourth quarter and FY 2024 financial results. The same day, during a conference call, the Company revealed it expected “revenue in both [Canadian and Australian] markets to be down over 30% [Y/Y]” because of “recent policy changes” and “new visa rules [that] are starting to affect demand[,]” while also citing headwinds in the Company’s U.S. market on similarly shifting visa trends. On this news, multiple analysts downgraded their recommendation on Flywire and/or cut their price target. Following the disclosures and analyst downgrades and PT cuts, Flywire’s voting common stock price fell $6.59 per share, or 37.36%, to close at $11.05 per share on February 26, 2025.\n\nFor more information on the Flywire lawsuit go to: https://bespc.com/cases/FLYW\n\nLockheed Martin Corporation (NYSE:LMT)\n\nClass Period: January 23, 2024 to July 21, 2025\n\nLead Plaintiff Deadline: September 26, 2025\n\nThe complaint filed in this class action alleges that throughout the Class Period, Defendants made materially false and/or misleading statements, as well as failed to disclose material adverse facts about the Company's business, operations, and prospects. Specifically, Defendants failed to disclose to investors: (1) that Lockheed Martin lacked effective internal controls regarding its purportedly risk adjusted contracts including the reporting of its risk adjusted profit booking rate; (2) that Lockheed Martin lacked effective procedures to perform reasonably accurate comprehensive reviews of program requirements, technical complexities, schedule, and risks; (3) that Lockheed Martin overstated its ability to deliver on its contract commitments in terms of cost, quality and schedule; (4) that, as a result, the Company was reasonably likely to report significant losses; and (5) that, as a result of the foregoing, Defendants' positive statements about the Company's business, operations, and prospects were materially misleading and/or lacked a reasonable basis.\n\nOn October 22, 2024, before the market opened, Lockheed Martin announced it was forced to recognize losses of $80 million on a classified program at the Company's Aeronautics business segment \"due to higher than anticipated costs to achieve program objectives.\" The Company also announced it had recognized a reach-forward loss in its Rotary and Mission Systems segment \"as a result of additional quantity ordering risk identified on fixed-price options.\"\n\nOn this news, the Company's share price fell $37.63 or 6.12% to close at $576.98 on October 22, 2024, on unusually heavy trading volume.\n\nThen, on January 28, 2025, before the market opened, Lockheed Martin announced it was forced to record pre-tax losses of $1.7 billion associated with classified programs at its Aeronautics and Missiles and Fire Control business. The Company explained \"as a result of performance trends\" and \"in contemplation of near-term program milestones,\" it had \"performed a comprehensive review of the program requirements, technical complexities, schedule, and risks\" based on which it recognized $555 million of losses in its Aeronautics program. The Company further reported additional losses of approximately $1.3 billion in its Missiles and Fire Control business due to, among other things, the \"future requirements of the program, discussions with the customer and suppliers.\" As a result, the Company's net earnings in 2024 were $5.3 billion, or $22.31 per share, compared to $6.9 billion, or $27.55 per share, in 2023.\n\nOn this news, the Company's share price fell $46.24 or 9.2% to close at $457.45 on January 28, 2025 on unusually heavy trading volume.\n\nThen, on July 22, 2025, before the market opened, Lockheed Martin disclosed it was forced to record an additional $1.6 billion in pre-tax losses on classified programs, including $950 million in losses related to its Aeronautics Classified program due to \"design, integration, and test challenges, as well as other performance issues.\" The Company also recorded $570 million in losses on its Canadian Maritime Helicopter Program due in part to providing \"additional mission capabilities, enhanced logistical support, fleet life extension, and revised expectations regarding flight hours.\" The Company further recorded a $95 million charge related to its Turkish Utility Helicopter Program due to the \"current status of the program.\" As a result, the Company reported sharply lower net earnings of $342 million, or $1.46 per share, including $1.6 billion of program losses and $169 million of other charges.\n\nOn this news, the Company's share price fell $49.79 or 10.8%, to close at $410.74 on July 22, 2025, on unusually heavy trading volume.\n\nFor more information on the Lockheed Martin lawsuit go to: https://bespc.com/cases/LMT\n\nSable Offshore Corporation (NYSE:SOC)\n\nClass Period: May 19, 2025 to June 3, 2025\n\nLead Plaintiff Deadline: September 26, 2025\n\nAccording to the  Sable Offshore class action lawsuit, on or about May 21, 2025 , Sable Offshore conducted its SPO, issuing 10 million shares of its common stock at the offering price of $29.50 per share for proceeds of $295 million to Sable Offshore. The Sable Offshore class action lawsuit alleges that defendants throughout the Class Period and in the SPO's offering documents represented that Sable Offshore had restarted oil production off the coast of California when it had not.\n\nThe Sable Offshore class action lawsuit further alleges that on May 23, 2025, Eleni Kounalakis, the Lieutenant Governor of California and chair of the California State Lands Commission wrote a letter to Sable Offshore's Vice President of Environmental & Government Affairs, Steve Rusch , stating that a May 19, 2025 Sable Offshore press release \"appears to mischaracterize the nature of recent activities, causing significant public confusion and raising questions regarding Sable's intentions. Your press release also implies that Sable has restarted operations at the Santa Ynez Unit (SYU). However, Commission staff has informed me that the limited volume oil flows are the result of well-testing procedures required by the Bureau of Safety and Environmental Enforcement prior to restart. These activities do not constitute a resumption of commercial production or a full restart of the SYU.\" The May 23 letter was not published on the internet for the general public to view until May 28, 2025 , the complaint  alleges . On this news, the price of Sable Offshore stock fell more than 15%, according to the Sable Offshore class action lawsuit.\n\nThen, on June 4, 2025 , the complaint alleges that Sable Offshore revealed that \"[o]n June 3, 2025 , a Santa Barbara County Superior Court Judge granted ex parte requests from plaintiffs in Center for Biological Diversity, et al. v. California Department of Forestry and Fire Protection, et al. (25CV02244) and Environmental Defense Center, et al. v. California Department of Forestry and Fire Protection, et al. (25CV02247) for temporary restraining orders prohibiting Sable Offshore Corp. ('Sable') from restarting transportation of oil through the Las Flores Pipeline System pending the hearing on an order to show cause regarding a preliminary injunction scheduled for July 18, 2025 .\" On this news, the price of Sable Offshore stock fell further, according to the Sable Offshore class action lawsuit.\n\nFor more information on the Sable Offshore lawsuit go to: https://bespc.com/cases/SOC\n\nLineage, Inc. (NASDAQ:LINE)\n\nLead Plaintiff Deadline: September 30, 2025\n\nOn June 26, 2024, Lineage filed a registration statement for the IPO on Form S-11 with the SEC which, after amendments, was declared effective on July 24, 2024 (the \"Registration Statement\").\n\nOn July 26, 2024, Lineage filed a prospectus for the IPO on Form 424B4 with the SEC, which was incorporated into and formed part of the Registration Statement.\n\nThe complaint alleges that the Registration Statement contained material misrepresentations about Lineage's business, historical financial results, and the industry trends purportedly facing the Company at the time of the IPO. Specifically, the Registration Statement stated that the lingering effects of the COVID-19 pandemic had \"accelerated trends that had a marked short-term impact on cold storage demand and have the potential to be growth engines for the industry in coming years\" after the IPO. In truth, Lineage was in the midst of a sustained downturn, as the Company's customers not only destocked excessive inventory built up during the COVID-19 pandemic, but also shifted to the maintenance of leaner inventories on a go-forward basis and as more cold-storage supply came on line, with Lineage suffering particularly negative effects in terms of occupancy rates and pricing power due to its recent imposition of unsustainable price increases amongst its customer base.\n\nSince the IPO approximately one year ago, the price of Lineage stock has fallen to lows near $40 per share - approximately half the IPO price.\n\nFor more information on the Lineage lawsuit go to: https://bespc.com/cases/LINE\n\nAbout Bragar Eagel & Squire, P.C.:\n\nBragar Eagel & Squire, P.C. is a nationally recognized law firm with offices in New York, California, and South Carolina. The firm represents individual and institutional investors in commercial, securities, derivative, and other complex litigation in state and federal courts across the country. For more information about the firm, please visit www.bespc.com. Attorney advertising. Prior results do not guarantee similar outcomes.\n\nFollow us for updates on LinkedIn, X, and Facebook, and keep up with other news by following Brandon Walker, Esq. on LinkedIn and X.\n\nContact Information:\n\nBragar Eagel & Squire, P.C.\r\nBrandon Walker, Esq. \r\nMarion Passmore, Esq.\r\n(212) 355-4648\r\ninvestigations@bespc.com\r\nwww.bespc.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T19:17:00+00:00",
+            "title": "Sable Offshore Corp. Sued for Securities Law Violations – Investors Should Contact The Gross Law Firm for More Information – SOC",
+            "content": "NEW YORK, Aug.  21, 2025  (GLOBE NEWSWIRE) -- The Gross Law Firm issues the following notice to shareholders of Sable Offshore Corp. (NYSE: SOC).\n\nShareholders who purchased shares of SOC during the class period listed are encouraged to contact the firm regarding possible lead plaintiff appointment. Appointment as lead plaintiff is not required to partake in any recovery.\n\nCONTACT US HERE:\n\nhttps://securitiesclasslaw.com/securities/sable-offshore-corp-loss-submission-form/?id=162518&from=3\n\nCLASS PERIOD: This lawsuit is on behalf of persons or entities who purchased or otherwise acquired publicly traded Sable Offshore securities between May 19, 2025 and June 3, 2025, inclusive, and/or pursuant and/or traceable to the Company’s May 21, 2025 secondary public offering.\n\nALLEGATIONS: The complaint alleges that during the class period, Defendants issued materially false and/or misleading statements and/or failed to disclose that: (1) defendants represented that Sable Offshore Corp. had restarted oil production off the coast of California when it had not; and (2) as a result, defendants statements about Sables business, operations, and prospects, were materially false and misleading and/or lacked a reasonable basis at all relevant times. When the true details entered the market, the lawsuit claims that investors suffered damages.\n\nDEADLINE: September 26, 2025 Shareholders should not delay in registering for this class action. Register your information here: https://securitiesclasslaw.com/securities/sable-offshore-corp-loss-submission-form/?id=162518&from=3\n\nNEXT STEPS FOR SHAREHOLDERS: Once you register as a shareholder who purchased shares of SOC during the timeframe listed above, you will be enrolled in a portfolio monitoring software to provide you with status updates throughout the lifecycle of the case. The deadline to seek to be a lead plaintiff is September 26, 2025. There is no cost or obligation to you to participate in this case.\n\nWHY GROSS LAW FIRM? The Gross Law Firm is a nationally recognized class action law firm, and our mission is to protect the rights of all investors who have suffered as a result of deceit, fraud, and illegal business practices. The Gross Law Firm is committed to ensuring that companies adhere to responsible business practices and engage in good corporate citizenship. The firm seeks recovery on behalf of investors who incurred losses when false and/or misleading statements or the omission of material information by a company lead to artificial inflation of the company's stock. Attorney advertising. Prior results do not guarantee similar outcomes.\n\nCONTACT:\r\nThe Gross Law Firm\r\n15 West 38th Street, 12th floor\r\nNew York, NY, 10018\r\nEmail: dg@securitiesclasslaw.com \r\nPhone: (646) 453-8903",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Sable Offshore Corp.",
+          "sector": "Energy",
+          "industry": "Oil & Gas Drilling",
+          "employees": 161,
+          "description": "Sable Offshore Corp. operates as an independent oil and gas company in the United States. The company operates through three platforms located in federal waters offshore California. It also owns and operates 16 federal leases across approximately 76,000 acres, as well as subsea pipelines that transp"
+        },
+        "financial_metrics": {
+          "eps_ttm": -3.66,
+          "profit_margin": 0,
+          "operating_margin": 0,
+          "roe": -1.7945,
+          "roa": -0.1233,
+          "revenue_growth_yoy": 0,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -2.73,
+          "eps_estimate_next_year": 3.21,
+          "revenue_ttm": 0,
+          "revenue_per_share": 0,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 1666.6667,
+          "price_to_sales": 0,
+          "price_to_book": 6.4287,
+          "enterprise_value": 3511849727,
+          "ev_to_revenue": 0,
+          "ev_to_ebitda": -130.7561
+        },
+        "technical_data": {
+          "beta": 0.613,
+          "52_week_high": 35,
+          "52_week_low": 15.22,
+          "50_day_ma": 26.0342,
+          "200_day_ma": 24.5112,
+          "short_interest": 0.1922,
+          "short_ratio": 3.84
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.8,
+          "target_price": 41,
+          "strong_buy": 4,
+          "buy": 1,
+          "hold": 0,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 99413400,
+          "percent_institutions": 62.90599999999999,
+          "percent_insiders": 21.876,
+          "shares_float": 62650760
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1772.038,
+          "net_debt": -247.141,
+          "working_capital": -754.195,
+          "shareholders_equity": 445.627,
+          "quarter_date": "2025-06-30"
+        },
+        "income_latest_statement": {
+          "total_revenue": 0.0,
+          "gross_profit": -3.172,
+          "operating_income": -128.888,
+          "net_income": -128.066,
+          "ebitda": -96.062,
+          "quarter_date": "2025-06-30"
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -95.013,
+          "free_cash_flow": -95.013,
+          "capex": 129.678,
+          "net_income": -128.066,
+          "cash_change": 58.278,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.07,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 22.1,
+            "high": 23.09,
+            "low": 21.99,
+            "close": 22.75,
+            "volume": 1661400
+          },
+          {
+            "date": "2025-07-15",
+            "open": 22.6,
+            "high": 22.99,
+            "low": 22.22,
+            "close": 22.27,
+            "volume": 1372600
+          },
+          {
+            "date": "2025-07-16",
+            "open": 22.15,
+            "high": 22.32,
+            "low": 21.5,
+            "close": 22.07,
+            "volume": 1926800
+          },
+          {
+            "date": "2025-07-17",
+            "open": 22.29,
+            "high": 29.9,
+            "low": 19.58,
+            "close": 28.34,
+            "volume": 9274600
+          },
+          {
+            "date": "2025-07-18",
+            "open": 30.495,
+            "high": 32.18,
+            "low": 28.03,
+            "close": 31.69,
+            "volume": 11069200
+          },
+          {
+            "date": "2025-07-21",
+            "open": 30.99,
+            "high": 31.48,
+            "low": 29.07,
+            "close": 29.75,
+            "volume": 6743100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 29.5,
+            "high": 30.33,
+            "low": 28.75,
+            "close": 30.18,
+            "volume": 2114300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 29.75,
+            "high": 29.8,
+            "low": 26.49,
+            "close": 28.11,
+            "volume": 4713500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 28.11,
+            "high": 29.05,
+            "low": 27.774,
+            "close": 28.66,
+            "volume": 1527800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 28.56,
+            "high": 28.66,
+            "low": 27.86,
+            "close": 28.64,
+            "volume": 1378800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 28.78,
+            "high": 29.975,
+            "low": 28.53,
+            "close": 29.84,
+            "volume": 1588000
+          },
+          {
+            "date": "2025-07-29",
+            "open": 30,
+            "high": 30.42,
+            "low": 28.72,
+            "close": 29.05,
+            "volume": 2155700
+          },
+          {
+            "date": "2025-07-30",
+            "open": 28.95,
+            "high": 30.33,
+            "low": 28.46,
+            "close": 30.17,
+            "volume": 2034600
+          },
+          {
+            "date": "2025-07-31",
+            "open": 29.58,
+            "high": 31,
+            "low": 29.514,
+            "close": 30.67,
+            "volume": 1633000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 29.79,
+            "high": 29.82,
+            "low": 28.15,
+            "close": 29.62,
+            "volume": 2508300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 29.7,
+            "high": 30.38,
+            "low": 28.82,
+            "close": 29.88,
+            "volume": 2281550
+          },
+          {
+            "date": "2025-08-05",
+            "open": 30.09,
+            "high": 31.74,
+            "low": 29.07,
+            "close": 30.42,
+            "volume": 1856887
+          },
+          {
+            "date": "2025-08-06",
+            "open": 30.46,
+            "high": 30.86,
+            "low": 29.69,
+            "close": 30.12,
+            "volume": 1154600
+          },
+          {
+            "date": "2025-08-07",
+            "open": 30.6,
+            "high": 30.6,
+            "low": 29.02,
+            "close": 29.03,
+            "volume": 1008200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 29.44,
+            "high": 29.803,
+            "low": 28.46,
+            "close": 28.83,
+            "volume": 3075400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 28.51,
+            "high": 29.86,
+            "low": 28.51,
+            "close": 29.09,
+            "volume": 1654500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 29,
+            "high": 29.37,
+            "low": 27.06,
+            "close": 28.48,
+            "volume": 2666000
+          },
+          {
+            "date": "2025-08-13",
+            "open": 28.4,
+            "high": 29.1,
+            "low": 27.76,
+            "close": 28.87,
+            "volume": 1419400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 28.49,
+            "high": 29.81,
+            "low": 28.185,
+            "close": 29.78,
+            "volume": 1321800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 29.7,
+            "high": 29.78,
+            "low": 27.35,
+            "close": 27.55,
+            "volume": 2186300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 27.88,
+            "high": 28.87,
+            "low": 27.55,
+            "close": 28.8,
+            "volume": 1472900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 28.43,
+            "high": 28.57,
+            "low": 27.51,
+            "close": 27.72,
+            "volume": 1158300
+          },
+          {
+            "date": "2025-08-20",
+            "open": 27.61,
+            "high": 27.63,
+            "low": 26.31,
+            "close": 27.09,
+            "volume": 1927800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 27.11,
+            "high": 27.4,
+            "low": 26.53,
+            "close": 27.2,
+            "volume": 1757700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 27.3,
+            "high": 29,
+            "low": 27.28,
+            "close": 28.79,
+            "volume": 1909000
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.5237430167597715,
+        "return_63d": -10.311526479750786,
+        "pct_above_sma50": 10.585307019228543,
+        "sma_50": 26.034200000000002,
+        "new_55d_high": "False",
+        "high_55d": 32.18,
+        "rsi": 45.129579982126906,
+        "rsi_in_range": "False",
+        "adx": 17.542523556902815,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.746613407433136,
+        "bb_width": 14.43873485941117,
+        "keltner_width": 22.848928844968654,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 53408333.49250001,
+        "adv_shares": 1838496.85,
+        "liquidity_tier": "high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 40.26994011976919,
+        "final_score": 35.26994011976919,
+        "sub_scores": {
+          "trend_momentum": 8.822842080553476,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.44709803921571,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 0.45359385903698257,
+          "ret_63d": -10.839269123567663,
+          "rsi14": 45.129579982126906,
+          "adx14": 16.501582092009098,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: SOC\n• Current Price: $28.79\n• Overall Score: 52.209850696822066\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 26.0342\n• Sma 200: 24.5112\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.4535938590369819\n• Momentum 63D: -10.839269123567668\n• Momentum 126D: 1.0530010530010556\n• Momentum Acceleration: 11.29286298260465\n• Roc 21D: 0.4535938590369819\n• Trend Strength 20D: 0.5705148152927956\n• Trend Direction: 1\n• Ma Ribbon Score: 53.68787656184591\n• Breakout Strength: 0.0\n• Price Velocity: 0.009532239877324988\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 8.0\n• Squeeze Momentum: -0.29337168129155333\n• Volatility Compression: 66.65314288552196\n• Is Consolidating: False\n• Breakout Score: -4.773414079520974\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 8.822842080553476\n• Squeeze Breakout: 4.0\n• Options Quality: 16.44709803921571\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 56.0\n• Squeeze: 59.997971432828294\n• Options: 39.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: SOC\n• Strike Price: $27.5\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $4.2\n• Ask: $4.3\n• Last: $4.06\n• Mid: $4.25\n• Spread: 2.325581395348837209302325581%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6271\n• Gamma: 0.0423\n• Theta: -0.0322\n• Vega: 0.0424\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.7986\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 15\n• Open Interest: 1425\n• Volume/OI Ratio: 0.010526315789473684\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Sable Offshore Corp.\n• Sector: Energy\n• Industry: Oil & Gas Drilling\n• EPS (TTM): $-3.66\n• ROE: -179.4%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T20:48:00+00:00: ROSEN, NATIONALLY REGARDED INVESTOR COUNSEL, Encourages Sable Offshore Corp. Inv...\n• 2025-08-22T20:39:00+00:00: Levi &amp; Korsinsky Reminds Shareholders of a Lead Plaintiff Deadline of Septem...\n• 2025-08-22T15:38:00+00:00: SOC Update: Lawsuit Alleges Sable Offshore Misled Investors on Oil Production – ...\n• 2025-08-21T20:16:00+00:00: Bragar Eagel &amp; Squire, P.C. Reminds Investors of Flywire, Lockheed Martin, L...\n• 2025-08-21T19:17:00+00:00: Sable Offshore Corp. Sued for Securities Law Violations – Investors Should Conta...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR SOC\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the SOC opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:18:46.816718",
+    "estimated_tokens": 2338
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"SOC\",\n    \"rating\": 42,\n    \"component_scores\": {\n        \"trend_momentum\": 12,\n        \"options_quality\": 12,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 2,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"SOC shows mixed technical signals with positive short-term momentum but concerning fundamentals. While experiencing a volatility squeeze with 8-day duration and above-MA price action, the negative earnings and legal issues present significant risks.\",\n    \"opportunities\": [\n        \"Price above both 50 and 200 SMAs (26.03, 24.51)\",\n        \"Active volatility squeeze with 66.65% compression\",\n        \"Options have reasonable 2.3% bid-ask spread with good OI (1425)\"\n    ],\n    \"risks\": [\n        \"Negative EPS (-$3.66) and poor ROE (-179.4%)\",\n        \"Multiple active investor lawsuits\",\n        \"Earnings coming up on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Avoid new positions until legal and fundamental picture clarifies\",\n        \"entry_timing\": \"Not optimal - wait until after earnings and legal resolution\",\n        \"risk_management\": \"High fundamental risk requires tight stops if trading; consider spread strategies to limit exposure\"\n    },\n    \"red_flags\": [\n        \"Multiple securities lawsuits pending\",\n        \"Severely negative fundamentals\",\n        \"Earnings within 40 days\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental and legal risks outweigh potential rewards. Options liquidity is adequate but position sizing should be conservative given risks.\"\n}",
+    "parsed_analysis": {
+      "symbol": "SOC",
+      "rating": 42,
+      "component_scores": {
+        "trend_momentum": 12,
+        "options_quality": 12,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 2,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "SOC shows mixed technical signals with positive short-term momentum but concerning fundamentals. While experiencing a volatility squeeze with 8-day duration and above-MA price action, the negative earnings and legal issues present significant risks.",
+      "opportunities": [
+        "Price above both 50 and 200 SMAs (26.03, 24.51)",
+        "Active volatility squeeze with 66.65% compression",
+        "Options have reasonable 2.3% bid-ask spread with good OI (1425)"
+      ],
+      "risks": [
+        "Negative EPS (-$3.66) and poor ROE (-179.4%)",
+        "Multiple active investor lawsuits",
+        "Earnings coming up on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Avoid new positions until legal and fundamental picture clarifies",
+        "entry_timing": "Not optimal - wait until after earnings and legal resolution",
+        "risk_management": "High fundamental risk requires tight stops if trading; consider spread strategies to limit exposure"
+      },
+      "red_flags": [
+        "Multiple securities lawsuits pending",
+        "Severely negative fundamentals",
+        "Earnings within 40 days"
+      ],
+      "notes": "While technical setup shows promise, fundamental and legal risks outweigh potential rewards. Options liquidity is adequate but position sizing should be conservative given risks."
+    },
+    "tokens_used": 2544,
+    "cost": 0.025439999999999997,
+    "response_time": 9.17510986328125,
+    "success": true
+  },
+  "cost": 0.025439999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8560,
+    "response_length": 1616
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "APH",
+  "timestamp": "2025-08-28T01:52:44.355593",
+  "data_package": {
+    "metadata": {
+      "symbol": "APH",
+      "package_timestamp": "2025-08-28T01:52:04.871628",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "APH",
+        "current_price": 110.13,
+        "overall_score": 51.24102417918496,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 103.0914,
+        "sma_200": 80.5798
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.576963251353141,
+        "momentum_63d": 24.963122659707253,
+        "momentum_126d": 66.28416125622827,
+        "momentum_acceleration": -20.38615940835411,
+        "roc_21d": 4.576963251353141,
+        "trend_strength_20d": 0.27262621624484884,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0027105382059566365
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 6.0,
+        "squeeze_momentum": -0.23549693071338568,
+        "volatility_compression": 70.47003674206292,
+        "is_consolidating": "False",
+        "breakout_score": -15.624696569256951,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.278869234862015,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.316000000000024,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 58.0,
+        "squeeze": 60.570505511309435,
+        "options": 37.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 14,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "APH",
+        "strike_price": "105",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "8.3",
+        "ask": "8.5",
+        "last_price": "8.15",
+        "mid_price": "8.4",
+        "spread_percent": "2.352941176470588235294117647"
+      },
+      "greeks": {
+        "delta": 0.6234,
+        "gamma": 0.0235,
+        "theta": -0.0676,
+        "vega": 0.1526
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4018
+      },
+      "liquidity_metrics": {
+        "volume": 2,
+        "open_interest": 524,
+        "volume_oi_ratio": 0.003816793893129771
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:39.700242",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T17:13:00+00:00",
+            "title": "BOX Q2 Earnings Beat Estimates, Revenues Up Y/Y, Shares Rise",
+            "content": "Box BOX reported second-quarter fiscal 2026 non-GAAP earnings of 33 cents per share, which declined 25% year over year. The figure exceeded the Zacks Consensus Estimate by 6.45%.\r\n\r\nTotal revenues of $294 million surpassed the consensus mark by 1.21%. The top line increased 9% year over year on a reported basis and 7% on a constant-currency (cc) basis.\r\n\r\nBox shares were up 1.76% at the time of writing this article. Year to date, BOX climbed up 0.9% compared with the broader Zacks Computer and Technology sector’s return of 12.9%\n\nBox, Inc. Price and Consensus\n\nBox, Inc. price-consensus-chart | Box, Inc. Quote\n\nBOX’s Q2 Metrics in Detail\n\nBillings were $265 million in the reported quarter, increasing 3.3% year over year on a reported basis and 6% on a cc basis. \r\n\r\nThe company generated 63% of its revenues from Suite’s customers in the second quarter of fiscal 2026. \r\n\r\nBox’s net retention rate was 103% at the end of the fiscal second quarter, up 100 bps year over year.\r\n\r\nThe company’s remaining performance obligations (RPO) totaled $1.5 billion, up 16% year over year both on a reported and cc basis. This includes $812 million in short-term RPO (up 12% year over year) and $664 million in long-term RPO (up 21% year over year).\n\nBOX’s Q2 Operating Details\n\nSecond-quarter fiscal 2026 non-GAAP gross margin was 81%, contracting 20 basis points (bps) year over year. Sequentially, gross margin expanded 100 bps.\r\n\r\nAs a percentage of revenues, non-GAAP sales and marketing, non-GAAP research and development and non-GAAP general and administrative expenses fell 100 bps sequentially.\r\n\r\nOn a non-GAAP basis, the company recorded an operating margin of 28.6%, which expanded 20 bps year over year. Sequentially, operating margin expanded 400 bps.\n\nBOX’s Balance Sheet & Cash Flow\n\nAs of July 31, 2025, cash and cash equivalents were $758 million, up from $689.7 million as of April 30, 2025.\r\n\r\nBox generated $46 million in cash from operations in the fiscal second quarter, up from $127.1 million in the previous quarter. The company generated a non-GAAP free cash flow of $35.7 million in the reported quarter.\r\n\r\nIn the second quarter of 2025, Box repurchased approximately 1.2 million shares for $40 million. The company had roughly $112 million under its current buyback capacity.\n\nBOX Initiates Q3 & FY26 Guidance\n\nFor the third quarter of fiscal 2026, Box expects revenues between $298 million and $299 million, suggesting an 8% year-over-year increase. The cc growth rate is pegged at 7%. This includes an expected positive impact of approximately 80 bps due to favorable forex.\r\n\r\nThe non-GAAP operating margin for the fiscal third quarter is expected to be 28%. On a non-GAAP basis, BOX expects earnings of 31-32 cents per share. \r\n\r\nFor fiscal 2026, BOX expects revenues between $1.16 billion and $1.175 billion, indicating a year-over-year increase of 8%. This includes an expected positive impact of approximately 90 bps due to favorable forex.\r\n\r\nThe non-GAAP operating margin for the fiscal year is expected to be 28%. Non-GAAP earnings are expected between $1.26 and $1.28 per share.\n\nStory Continues\n\nZacks Rank & Stocks to Consider\n\nCurrently, Box carries a Zacks Rank #3 (Hold).\r\n\r\nAstera Labs ALAB, Amphenol APH and Reddit RDDT are some better-ranked stocks that investors can consider in the broader Zacks Computer and Technology sector. \r\n\r\nAstera Labs, Amphenol and Reddit each carry a Zacks Rank #1 (Strong Buy) at present. You can see the complete list of today’s Zacks #1 Rank stocks here.\r\n\r\nLong-term earnings growth rate for Astera Labs, Amphenol and Reddit is currently pegged at 47.8%, 20.6% and 34.9%, respectively.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nBox, Inc. (BOX) : Free Stock Analysis Report\n\nReddit Inc. (RDDT) : Free Stock Analysis Report\n\nAstera Labs, Inc. (ALAB) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T17:06:00+00:00",
+            "title": "RF Industries' Backlog Continues to Grow: Can it Spark a Comeback?",
+            "content": "RF Industries RFIL is benefiting from growing adoption of its integrated solutions, with backlog increasing to $15 million at the end of the second quarter of 2025 on bookings of $18.7 million. The company is winning new customers as well as repeat customers, reflecting a strong adoption rate as well as growing credibility and reputation. Strong backlog is expected to drive top-line and bottom-line results, driving shares that have dropped 19.5% in the past month. \r\n\r\nRF Industries expects third-quarter fiscal 2025 sales to be roughly in line with second-quarter sales ($18.9 million) and a significant increase from $16.8 million reported in the year-ago quarter. The company is gaining its footprint among wireless, aerospace, public safety and industrial OEM customers. RFIL is planning to penetrate industries including energy, transportation, wireline telecom and data centers.\r\n\r\nLast month, RF Industries announced that it had received $2.3 million in follow-on orders at the company’s Cables Unlimited division for custom cabling solutions from a leading aerospace company. In June, RFIL received $1.7 million in orders for integrated small cell shrouds and related materials from a Tier 1 wireless carrier customer.\r\n\r\nThe Zacks Consensus Estimate for RFIL’s third-quarter fiscal 2025 revenues is pegged at $18.5 million, suggesting 10% growth from the year-ago quarter.\n\nRFIL Faces Tough Competition in the Connectivity Space\n\nRF Industries faces stiff competition from the likes of Amphenol APH and TE Connectivity TEL in the connectivity and high-speed interconnect domain.\r\n\r\nAPH’s strong portfolio is helping drive order growth. Rising AI workloads and cloud infrastructure upgrades are fueling demand for high-speed interconnects. This momentum is expected to support the Communications Solutions segment. A plethora of acquisitions — CIT, Lutze, CommScope’s Andrew business, LifeSync, Narda-MITEQ, XMA and Q Microwave — have been driving Amphenol’s prospects.\r\n\r\nTE Connectivity is benefiting from strong demand for AI applications as well as energy applications. The company’s Transportation segment is benefiting from strength in Asia, where increased data connectivity trends and the ongoing growth of the electrified powertrain is driving growth. TE Connectivity expects fourth-quarter fiscal 2025 sales to increase 6% organically on a year-over-year basis to $4.55 billion.\n\nRFIL’s Share Price Performance, Valuation & Estimates\n\nRF Industries shares have appreciated 74.7% year to date, outperforming the broader Zacks Computer and Technology sector’s return of 12.6%.\n\nStory Continues\n\nRFIL Stock’s PerformanceZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe RFIL stock is trading at a premium, with a forward 12-month price/sales of 14.81X compared with the Zacks Semiconductors-Radio Frequency industry’s 7.44X. RF Industries has a Value Score of C.\n\nRFIL ValuationZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for fiscal 2025 earnings is pegged at 24 cents per share, unchanged over the past 30 days. The company reported a loss of 9 cents in the year-ago quarter.\n\nRF Industries, Ltd. Price and ConsensusRF Industries, Ltd. Price and Consensus\n\nRF Industries, Ltd. price-consensus-chart | RF Industries, Ltd. Quote\n\nRF Industries currently has a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nTE Connectivity Ltd. (TEL) : Free Stock Analysis Report\n\nRF Industries, Ltd. (RFIL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:08:00+00:00",
+            "title": "OKTA Q2 Earnings Surpass Estimates, Revenues Increase Y/Y, Shares Up",
+            "content": "Okta OKTA reported second-quarter fiscal 2025 earnings of 91 cents per share, beating the Zacks Consensus Estimate by 8.33% and jumping 26.4% year over year.\r\n\r\nTotal revenues increased 12.7% year over year to $728 million and surpassed the consensus mark by 2.37%. The year-over-year upside can be attributed to higher subscription revenues.\r\n\r\nSubscription revenues (97.7% of total revenues) rose 12.5% year over year to $711 million. Professional services and other revenues (2.3% of total revenues) jumped 21.4% year over year to $17 million.\r\n\r\nLocation-wise, revenues from the United States contributed 79.5% to total revenues in the fiscal second quarter. The figure increased 13.8% year over year to $579 million. International revenues contributed 20.5% to total revenues. The figure increased 8.8% year over year to $149 million.\n\nOkta, Inc. Price, Consensus and EPS SurpriseOkta, Inc. Price, Consensus and EPS Surprise\n\nOkta, Inc. price-consensus-eps-surprise-chart | Okta, Inc. Quote\n\nShares were up 4.8% at the time of writing this article. OKTA shares have returned 16.2% year to date, outperforming the broader Zacks and Technology sector’s return of 12.6%.\n\nOkta’s Q2 Top Line Details\n\nCustomers with more than $100K in Annual Contract Value (ACV) increased more than 7% year over year to 4,945. Workforce Identity ACV accounted for 59%, while the rest came from Customer Identity ACV.\r\n\r\nThe dollar-based retention rate in the trailing 12 months was 106%, down 4% from the figure reported in the year-ago quarter.\r\n\r\nRemaining Performance Obligations (RPO) totaled $4.15 billion, up 18% year over year. The current RPO, expected to be recognized over the next 12 months, was $2.27 billion, up 13% year over year.\n\nOkta’s Operating Details\n\nSecond-quarter 2025 non-GAAP gross margin was unchanged on a year-over-year basis at 81.6%.\r\n\r\nAs a percentage of revenues, research and development expenses decreased 170 basis points (bps) year over year to 15%. General and administrative expenses declined 110 bps to 10.7%. Sales and marketing expenses fell 220 bps year over year to 28.2%.\r\n\r\nNon-GAAP operating margin expanded 480 bps year over year to 27.7% in the reported quarter.\n\nOkta’s Balance Sheet\n\nOkta had $2.86 billion in cash, cash equivalents and short-term investments as of July 31, 2025.\r\n\r\nNet cash provided by operations was $167 million in the reported quarter, while free cash flow was $162 million.\n\nOkta Offers Positive Guidance\n\nFor third-quarter fiscal 2026, Okta expects revenues in the range of $728-$730 million, indicating year-over-year growth between 9% and 10%. Current RPO is expected to be between $2.26 billion and $2.27 billion, suggesting year-over-year growth of 10%.\r\n\r\nNon-GAAP operating income is expected in the range of $160-$162 million. Operating margin is expected to be 22%. Non-GAAP earnings are anticipated to be 74-75 cents per share.\r\n\r\nNon-GAAP free cash flow margin is expected to be approximately 21%.\r\n\r\nFor fiscal 2026, revenues are expected to be $2.88-2.89 billion, indicating year-over-year growth between 10% and 11%. Non-GAAP operating income is expected in the range of $730-$740 million. Operating margin is expected between 25% and 26%. Non-GAAP earnings are anticipated to be between $3.33 and $3.38 per share.\r\n\r\nNon-GAAP free cash flow margin is expected to be approximately 28%.\n\nStory Continues\n\nZacks Rank & Other Stocks to Consider\n\nCurrently, Okta has a Zacks Rank #2 (Buy).\r\n\r\nAstera Labs ALAB, Amphenol APH and Reddit RDDT are some other top-ranked stocks that investors can consider in the broader Zacks Computer and Technology sector. \r\n\r\nAstera Labs, Amphenol and Reddit each sport a Zacks Rank #1 (Strong Buy) at present. You can see the complete list of today’s Zacks #1 Rank stocks here.\r\n\r\nLong-term earnings growth rate for Astera Labs, Amphenol and Reddit is currently pegged at 47.8%, 20.6% and 34.9%, respectively.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nOkta, Inc. (OKTA) : Free Stock Analysis Report\n\nReddit Inc. (RDDT) : Free Stock Analysis Report\n\nAstera Labs, Inc. (ALAB) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:01:30+00:00",
+            "title": "Amphenol Corp. (NYSE:APH) Emerges as a High-Growth Momentum and Technical Breakout Candidate",
+            "content": "Amphenol Corp. (NYSE:APH [https://www.chartmill.com/stock/quote/APH]) has appeared as a noteworthy candidate for investors using a high growth momentum plan merged with technical breakout formations. This plan focuses on companies showing solid earnings acceleration, powerful sales growth, and favorable analyst changes, key parts of the ChartMill High Growth Momentum Rating, while also displaying good technical condition and consolidation formations that indicate possible breakout chances. By selecting for stocks with a High Growth Momentum Rating above 4, a Technical Rating above 7, and a Setup Rating above 7, this process seeks to find equities that are not only increasing quickly but are also set for short-term price gains based on chart formations and market momentum.\n\nThe company’s fundamental growth picture is especially notable. Amphenol has reported outstanding quarterly earnings per share (EPS) growth, with the newest quarter rising 84.09% year-over-year, after earlier quarters showing gains of 57.5%, 34.15%, and 28.21%. This quickening in profitability is backed by notable revenue growth, including a 56.53% increase in sales for the most recent quarter and a trailing twelve-month revenue growth of 40.51%. Such numbers are vital to the High Growth Momentum Rating, as they show not only present results but also favorable momentum that could persist. Also, the company has exceeded EPS predictions in each of the past four quarters by an average of over 15%, while also beating revenue forecasts regularly. Analyst outlook has further supported this view, with rises to next-year EPS predictions by 14.4% over the past three months, signaling increasing belief in Amphenol’s future earnings capacity.\n\nFrom a technical viewpoint, Amphenol shows excellent strength. The stock has a perfect Technical Rating of 10, showing its powerful upward trends across various timeframes. It is trading close to its 52-week high, doing better than 90% of all stocks in the market over the past year, and displays favorable trends in both short-term and long-term moving averages. The Setup Rating of 8 points out a consolidation formation that has lately developed, marked by lower volatility and a retreat that could present a good entry chance. According to the technical report [https://www.chartmill.com/stock/quote/APH/technical-analysis], the stock is now showing a bull flag formation, which frequently comes before more upward movement. Resistance is found just above the present price, around $109.98 to $111.85, with support located near $108.65 to $109.73, giving a clear structure for possible trade management.\n\nThis mix of strong fundamental momentum and good technical placement makes Amphenol a notable candidate for investors looking for high-growth chances with specific risk limits. The combination of quickening earnings, growing profit margins, favorable estimate changes, and a helpful chart formation emphasizes the stock’s attraction within a structured growth and momentum plan.\n\nFor those wanting to investigate comparable high-growth, technically set stocks, more screening outcomes are available through this link [https://www.chartmill.com/stock/stock-screener?sid=719&f=v1_50b500,atrpct_a_1,sl_ta_7_X,sl_se_7_X,p_pg20,exch_us,sl_ratingHgm_6_X&s=se&v=3].\n\n_Disclaimer: This article is for informational purposes only and does not constitute investment advice. Investors should conduct their own research and consider their financial situation and risk tolerance before making any investment decisions._\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T04:22:30+00:00",
+            "title": "Truist Reaffirms Buy Rating on Amphenol (APH), Keeps $126 PT",
+            "content": "Amphenol Corporation (NYSE:APH) is one of the must-buy US stocks to invest in. On August 19, Truist Securities reaffirmed its “Buy” rating on Amphenol and kept its price target at $126 following Amphenol’s announcement of its plan to acquire Trexon. Amphenol plans to acquire Trexon, a privately-held company specializing in high-reliability interconnect and cable assemblies for the defense market, for $1 billion in cash. The deal is expected to close in Q4 2025 and is projected to add about 1.3% to Amphenol’s sales and earnings per share within two years.Truist Reaffirms Buy Rating on Amphenol (APH), Keeps $126 PT\n\nAndor Bujdoso/Shutterstock.com\n\nTruist Securities views the Trexon acquisition as a positive move, stating that acquisitions are Amphenol’s “highest-return use of cash.” They highlighted the deal as a factor supporting their “constructive outlook” on the stock. Truist also noted that Trexon is expected to generate $290 million in sales and a 26% EBITDA margin in 2025, contributing to Amphenol’s growth.\n\nThe Trexon deal follows Amphenol’s larger $10.5 billion acquisition of CommScope’s Connectivity and Cable Solutions segment, expected to close in the first half of 2026, pending shareholder approval. Truist sees Amphenol’s ongoing acquisition strategy as a way to expand its product offerings and market reach in the electronics components sector.\n\nAmphenol Corporation (NYSE:APH) is a global electronics manufacturer. It designs, produces, and markets electrical, electronic, and fiber optic connectors, sensors, antennas, and interconnect systems. The company serves diverse end markets, including automotive, aerospace, industrial, IT, and mobile devices. It supports critical applications that require reliable connectivity and high-performance signal transmission.\n\nWhile we acknowledge the potential of APH as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you're looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 10 Must-Buy Small-Cap Stocks to Invest In and 11 Best Alternative Energy Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Amphenol Corporation",
+          "sector": "Technology",
+          "industry": "Electronic Components",
+          "employees": 125000,
+          "description": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Harsh Environment Solutions, Communications Solutions, and Interconnect an"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.51,
+          "profit_margin": 0.169,
+          "operating_margin": 0.2562,
+          "roe": 0.3105,
+          "roa": 0.125,
+          "revenue_growth_yoy": 0.565,
+          "earnings_growth_yoy": 1.098,
+          "eps_estimate_current_year": 3.0397,
+          "eps_estimate_next_year": 3.4026,
+          "dividend_yield": 0.006,
+          "dividend_per_share": 0.66,
+          "revenue_ttm": 18818000896,
+          "revenue_per_share": 15.559,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 43.7849,
+          "forward_pe": 37.3134,
+          "price_to_sales": 7.1304,
+          "price_to_book": 11.6482,
+          "enterprise_value": 139015230098,
+          "ev_to_revenue": 7.3874,
+          "ev_to_ebitda": 27.4354
+        },
+        "technical_data": {
+          "beta": 1.133,
+          "52_week_high": 112.35,
+          "52_week_low": 56.3503,
+          "50_day_ma": 103.0914,
+          "200_day_ma": 80.5798,
+          "short_interest": 0.0124,
+          "short_ratio": 1.49
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.66,
+          "forward_dividend_yield": 0.006,
+          "payout_ratio": 0.2651,
+          "dividend_date": "2025-10-08",
+          "ex_dividend_date": "2025-09-16",
+          "last_split_date": "2024-06-12",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0556,
+          "target_price": 115.375,
+          "strong_buy": 8,
+          "buy": 4,
+          "hold": 5,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1220920064,
+          "percent_institutions": 96.97,
+          "percent_insiders": 0.5640000000000001,
+          "shares_float": 1212936287
+        },
+        "balance_latest_sheet": {
+          "total_assets": 25668.4,
+          "total_debt": 8062.4,
+          "cash_and_equivalents": 3207.0,
+          "net_debt": 4855.4,
+          "working_capital": 5694.3,
+          "shareholders_equity": 11519.3,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 5650.3,
+          "gross_profit": 2053.3,
+          "operating_income": 1430.8,
+          "net_income": 1091.3,
+          "ebitda": 1638.4,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 36.34,
+          "operating_margin": 25.32,
+          "net_margin": 19.31
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1416.8,
+          "free_cash_flow": 1119.7,
+          "capex": 297.1,
+          "net_income": 1100.8,
+          "cash_change": 1549.8,
+          "dividends_paid": -199.6,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.6771,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 100.1,
+            "high": 102.08,
+            "low": 100.1,
+            "close": 101.96,
+            "volume": 6959000
+          },
+          {
+            "date": "2025-07-18",
+            "open": 103,
+            "high": 103.7,
+            "low": 102.34,
+            "close": 103.34,
+            "volume": 6319500
+          },
+          {
+            "date": "2025-07-21",
+            "open": 103.04,
+            "high": 104.16,
+            "low": 102.52,
+            "close": 103.71,
+            "volume": 6509400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.77,
+            "high": 103.88,
+            "low": 101.1,
+            "close": 101.78,
+            "volume": 8825700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 107.23,
+            "high": 108.85,
+            "low": 95.19,
+            "close": 100.71,
+            "volume": 30058100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 102.79,
+            "high": 105.1,
+            "low": 102.18,
+            "close": 104.46,
+            "volume": 14014600
+          },
+          {
+            "date": "2025-07-25",
+            "open": 104.79,
+            "high": 106.02,
+            "low": 104.67,
+            "close": 105.02,
+            "volume": 7303600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.91,
+            "high": 107.15,
+            "low": 105.04,
+            "close": 106.7,
+            "volume": 8368800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 107.82,
+            "high": 108.55,
+            "low": 104.97,
+            "close": 105.31,
+            "volume": 9476600
+          },
+          {
+            "date": "2025-07-30",
+            "open": 105.31,
+            "high": 106.01,
+            "low": 104.29,
+            "close": 105.49,
+            "volume": 7247600
+          },
+          {
+            "date": "2025-07-31",
+            "open": 106.8,
+            "high": 108.2,
+            "low": 106.27,
+            "close": 106.51,
+            "volume": 15268000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 105.29,
+            "high": 105.32,
+            "low": 102.76,
+            "close": 104.31,
+            "volume": 8736100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 108.56,
+            "high": 108.75,
+            "low": 106.41,
+            "close": 108.63,
+            "volume": 8998000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 108.66,
+            "high": 109.9,
+            "low": 107.01,
+            "close": 107.93,
+            "volume": 10434700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 108.25,
+            "high": 109.5,
+            "low": 107.54,
+            "close": 109.5,
+            "volume": 6507700
+          },
+          {
+            "date": "2025-08-07",
+            "open": 109.59,
+            "high": 110.38,
+            "low": 107.83,
+            "close": 108.55,
+            "volume": 5794200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 109.16,
+            "high": 110.6,
+            "low": 108.5,
+            "close": 109.98,
+            "volume": 5052400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 110.25,
+            "high": 111,
+            "low": 109.25,
+            "close": 109.81,
+            "volume": 4859600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 110.16,
+            "high": 111.87,
+            "low": 109.79,
+            "close": 111.85,
+            "volume": 7075400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 112.12,
+            "high": 112.35,
+            "low": 107.67,
+            "close": 109.83,
+            "volume": 9871600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 109.01,
+            "high": 110.83,
+            "low": 108.77,
+            "close": 110.74,
+            "volume": 6247100
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.55,
+            "high": 110.72,
+            "low": 107.52,
+            "close": 109.21,
+            "volume": 6535500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 110,
+            "high": 111.38,
+            "low": 109.72,
+            "close": 111.06,
+            "volume": 6809200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 110.81,
+            "high": 112.02,
+            "low": 109.18,
+            "close": 109.98,
+            "volume": 7000600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 109.3,
+            "high": 109.46,
+            "low": 104.71,
+            "close": 108.65,
+            "volume": 9011700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 108.52,
+            "high": 109.48,
+            "low": 107.89,
+            "close": 108.81,
+            "volume": 7320500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 109.01,
+            "high": 111.17,
+            "low": 108.43,
+            "close": 109.36,
+            "volume": 7552500
+          },
+          {
+            "date": "2025-08-25",
+            "open": 109.58,
+            "high": 111.48,
+            "low": 109.55,
+            "close": 109.73,
+            "volume": 4086900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 109.82,
+            "high": 110.78,
+            "low": 109.73,
+            "close": 109.9,
+            "volume": 10309400
+          },
+          {
+            "date": "2025-08-27",
+            "open": 109.67,
+            "high": 110.65,
+            "low": 109.45,
+            "close": 110.13,
+            "volume": 3779239
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.3985211868423555,
+        "return_63d": 23.852901484480423,
+        "pct_above_sma50": 6.481517291523227,
+        "sma_50": 103.42640000000002,
+        "new_55d_high": "False",
+        "high_55d": 112.35,
+        "rsi": 55.70809248554913,
+        "rsi_in_range": "True",
+        "adx": 18.307280885681216,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.413965313720148,
+        "bb_width": 5.97307332383078,
+        "keltner_width": 9.74361245454919,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 826004570.0883249,
+        "adv_shares": 7562516.95,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.59486923486204,
+        "final_score": 48.59486923486204,
+        "sub_scores": {
+          "trend_momentum": 19.278869234862015,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.316000000000024,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 4.57696325135315,
+          "ret_63d": 24.96312265970726,
+          "rsi14": 55.70809248554913,
+          "adx14": 20.680913326878372,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: APH\n• Current Price: $110.13\n• Overall Score: 51.24102417918496\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 103.0914\n• Sma 200: 80.5798\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.576963251353141\n• Momentum 63D: 24.963122659707253\n• Momentum 126D: 66.28416125622827\n• Momentum Acceleration: -20.38615940835411\n• Roc 21D: 4.576963251353141\n• Trend Strength 20D: 0.27262621624484884\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.0027105382059566365\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 6.0\n• Squeeze Momentum: -0.23549693071338568\n• Volatility Compression: 70.47003674206292\n• Is Consolidating: False\n• Breakout Score: -15.624696569256951\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.278869234862015\n• Squeeze Breakout: 4.0\n• Options Quality: 14.316000000000024\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 58.0\n• Squeeze: 60.570505511309435\n• Options: 37.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: APH\n• Strike Price: $105\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $8.3\n• Ask: $8.5\n• Last: $8.15\n• Mid: $8.4\n• Spread: 2.352941176470588235294117647%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6234\n• Gamma: 0.0235\n• Theta: -0.0676\n• Vega: 0.1526\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4018\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 2\n• Open Interest: 524\n• Volume/OI Ratio: 0.003816793893129771\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Amphenol Corporation\n• Sector: Technology\n• Industry: Electronic Components\n• EPS (TTM): $2.51\n• Profit Margin: 16.9%\n• ROE: 31.1%\n• P/E Ratio: 43.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T17:13:00+00:00: BOX Q2 Earnings Beat Estimates, Revenues Up Y/Y, Shares Rise...\n• 2025-08-27T17:06:00+00:00: RF Industries' Backlog Continues to Grow: Can it Spark a Comeback?...\n• 2025-08-27T16:08:00+00:00: OKTA Q2 Earnings Surpass Estimates, Revenues Increase Y/Y, Shares Up...\n• 2025-08-27T12:01:30+00:00: Amphenol Corp. (NYSE:APH) Emerges as a High-Growth Momentum and Technical Breako...\n• 2025-08-27T04:22:30+00:00: Truist Reaffirms Buy Rating on Amphenol (APH), Keeps $126 PT...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR APH\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the APH opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:52:44.355083",
+    "estimated_tokens": 2331
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"APH\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 15,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"APH shows strong technical momentum with price above both SMAs and 100% MA ribbon score, coupled with an active volatility squeeze setup. The stock demonstrates solid fundamentals with 16.9% profit margins and 31.1% ROE, though elevated P/E ratio warrants caution.\",\n    \"opportunities\": [\n        \"Price showing strong momentum with 66.28% 126-day return\",\n        \"Active volatility squeeze with 70.47% compression and 2 timeframe confirmation\",\n        \"Options have reasonable 2.35% bid-ask spread with decent open interest of 524\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration at -20.39\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Relatively high P/E ratio of 43.8x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call option at $105 strike provides good delta exposure (0.62) with manageable theta decay\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, but reserve capital for post-earnings deployment\",\n        \"risk_management\": \"Use 30% stop loss and consider rolling position before earnings to manage event risk\"\n    },\n    \"red_flags\": [\n        \"Earnings in approximately 30 days\",\n        \"Low options volume (only 2 contracts) despite decent open interest\"\n    ],\n    \"notes\": \"While technical setup is compelling, low options volume could impact trade execution. Consider scaling into position and using limit orders to manage spread risk.\"\n}",
+    "parsed_analysis": {
+      "symbol": "APH",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 15,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "APH shows strong technical momentum with price above both SMAs and 100% MA ribbon score, coupled with an active volatility squeeze setup. The stock demonstrates solid fundamentals with 16.9% profit margins and 31.1% ROE, though elevated P/E ratio warrants caution.",
+      "opportunities": [
+        "Price showing strong momentum with 66.28% 126-day return",
+        "Active volatility squeeze with 70.47% compression and 2 timeframe confirmation",
+        "Options have reasonable 2.35% bid-ask spread with decent open interest of 524"
+      ],
+      "risks": [
+        "Negative momentum acceleration at -20.39",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Relatively high P/E ratio of 43.8x"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call option at $105 strike provides good delta exposure (0.62) with manageable theta decay",
+        "entry_timing": "Consider partial position now with squeeze setup, but reserve capital for post-earnings deployment",
+        "risk_management": "Use 30% stop loss and consider rolling position before earnings to manage event risk"
+      },
+      "red_flags": [
+        "Earnings in approximately 30 days",
+        "Low options volume (only 2 contracts) despite decent open interest"
+      ],
+      "notes": "While technical setup is compelling, low options volume could impact trade execution. Consider scaling into position and using limit orders to manage spread risk."
+    },
+    "tokens_used": 2565,
+    "cost": 0.02565,
+    "response_time": 39.48138070106506,
+    "success": true
+  },
+  "cost": 0.02565,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8528,
+    "response_length": 1735
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "GE",
+  "timestamp": "2025-08-27T00:22:49.933873",
+  "data_package": {
+    "metadata": {
+      "symbol": "GE",
+      "package_timestamp": "2025-08-27T00:22:40.417637",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "GE",
+        "current_price": 274.3,
+        "overall_score": 50.41542141123386,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 260.3212,
+        "sma_200": 212.7746
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.2305531946343387,
+        "momentum_63d": 13.301348333195465,
+        "momentum_126d": 37.47177196768203,
+        "momentum_acceleration": -12.070795138561126,
+        "roc_21d": 1.2305531946343387,
+        "trend_strength_20d": 0.24102444605974288,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.64395423649863,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006023640092516991
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 10.0,
+        "squeeze_momentum": -0.7733605531409147,
+        "volatility_compression": 38.5055000325816,
+        "is_consolidating": "False",
+        "breakout_score": 38.771666439886324,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.569105541217029,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.50428611599297,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 53.0,
+        "squeeze": 60.77582500488724,
+        "options": 43.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 20,
+        "percentile": 98.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "GE",
+        "strike_price": "270",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "14.1",
+        "ask": "14.35",
+        "last_price": "14.3",
+        "mid_price": "14.225",
+        "spread_percent": "1.742160278745644599303135889"
+      },
+      "greeks": {
+        "delta": 0.6007,
+        "gamma": 0.0137,
+        "theta": -0.1219,
+        "vega": 0.3998
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2731
+      },
+      "liquidity_metrics": {
+        "volume": 443,
+        "open_interest": 608,
+        "volume_oi_ratio": 0.7286184210526315
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:37.084740",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T20:44:57+00:00",
+            "title": "U.S. OKs possible $1.85B sale of F-35 sustainment to Poland; GE Aerospace prime contractor",
+            "content": "[General Electric Global Operations Center. Financial troubles have forced GE to seek buyers for many of its divisions.]\njetcityimage/iStock Editorial via Getty Images\n\nThe U.S. State Department has made a determination approving a potential sale [https://www.dsca.mil/Press-Media/Major-Arms-Sales/Article-Display/Article/4285956/poland-f-35-sustainment] of sustainment and related elements of logistics and program support for F-35 jets to the government of Poland for an estimated cost of $1.85B, the U.S. Department of Defense said Tuesday.\n\nGeneral Electric Aerospace (NYSE:GE [https://seekingalpha.com/symbol/GE]) is the principal contractor for the sale.\n\n\"This proposed sale will support the foreign policy and national security objectives of the United States by improving the security of a NATO Ally that is a force for political and economic stability in Europe,\" and the proposed sale \"will improve Poland's capability to meet current and future threats by increasing the reliability of its F-35 fleet,\" the DoD said.\n\nSeparately, hundreds of GE Aerospace (NYSE:GE [https://seekingalpha.com/symbol/GE]) employees in Ohio represented by the United Auto Workers union have voted to strike [https://www.bizjournals.com/cincinnati/news/2025/08/25/ge-aerospace-union-negotiations-uaw-vote-strike.html] after four weeks of unsuccessful negotiations.\n\nMORE ON GE AEROSPACE\n\n \t* GE Aerospace: Don't Sell Despite The Stretched Valuation [https://seekingalpha.com/article/4815248-ge-aerospace-stock-dont-sell-despite-valuation-stretch]\n \t* GE Aerospace: Strong Multi-Year Growth And Compelling Valuation [https://seekingalpha.com/article/4802556-ge-aerospace-strong-multi-year-growth-and-compelling-valuation]\n \t* This Ain't Your Grandpa's GE: Aerospace Engines Firing On All Cylinders [https://seekingalpha.com/article/4802024-this-aint-your-grandpas-ge-aerospace-engines-firing-on-all-cylinders]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T20:13:06+00:00",
+            "title": "Analyst Bullish on GE Vernova (GEV) Amid ‘Early Stages’ of AI Revolution",
+            "content": "We recently published Top 10 Trending Stocks to Watch Ahead of Nvidia Earnings. GE Vernova Inc. (NYSE:GEV) is one of the top trending stocks to watch ahead of Nvidia earnings.\n\nJames Demmert from Main Street Research said in a program on Schwab Network last month that GE Vernova is one of the companies that are needed in the AI revolution.\n\n“We are in the early stages of a very real AI tech revolution. We need more AI chips, where Nvidia comes in. Companies like Palantir are using those chips to build these robust platforms. So we want to make sure we’re going in that direction. And let’s all face it, there’s not enough energy to drive all this AI, the EVs, and the crypto. So we need companies like GE Vernova Inc (NYSE:GEV) to help us build the grid.”Analyst Bullish on GE Vernova (GEV) Amid ‘Early Stages’ of AI Revolution\n\nCopyright: kadmy / 123RF Stock Photo\n\nParnassus Growth Equity Fund stated the following regarding GE Vernova Inc. (NYSE:GEV) in its Q1 2025 investor letter:\n\n“GE Vernova Inc. (NYSE:GEV), an energy equipment manufacturer, was impacted by concerns around the durability of AI and semiconductor spending and the durability of AI supply chain power needs.\n\nWhile we acknowledge the potential of GEV as an investment, our conviction lies in the belief that some AI stocks hold greater promise for delivering higher returns and have limited downside risk. If you are looking for an extremely cheap AI stock that is also a major beneficiary of Trump tariffs and onshoring, see our free report on the best short-term AI stock.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T20:00:00+00:00",
+            "title": "Vector Capital to Acquire Showpad",
+            "content": "Will Combine Showpad and Bigtincan Into a Global Leader in the Revenue Enablement Market Growing to $12B in 20301\n\nSAN FRANCISCO, August 26, 2025--(BUSINESS WIRE)--Vector Capital Management, L.P., a leading private equity firm specializing in transformational investments in established technology businesses, today announced an agreement to acquire Showpad, a leader in AI revenue enablement technology with headquarters in Chicago and Ghent, Belgium.\n\nCustomers in over 50 countries — including Coca-Cola, Dow, DuPont, GE Healthcare, Kaiser Permanente and Schneider Electric — leverage Showpad to bring together marketing and revenue teams to engage buyers and add value at every interaction. The company is a Forrester Wave™ leader in multiple categories2, and a \"Customers’ Choice\" for Revenue Enablement Platforms3 on Gartner® Peer Insights™.\n\nAfter the transaction closes, Vector will combine Showpad with Bigtincan Holdings, which it acquired in April 2025. The combined entity will operate under the Showpad brand. It will deliver a complete AI-powered revenue enablement solution across all aspects of buyer-seller engagement with broad geographic diversity, and combined R&D resources to accelerate innovation market-wide.\n\nBigtincan is a five-time leader in The Aragon Research Globe™for Sales Enablement Platforms and has received multiple awards for AI and other innovations. Over 1,000 companies — including Abbott, AT&T, Clorox, Merck, Winnebago, and 100 of the Fortune 500 — use Bigtincan’s AI-powered sales enablement solutions to augment, automate and modernize seller and buyer engagement.\n\n\"The combination of Bigtincan with Showpad brings together best-in-class innovation and market leaders with thousands of customers,\" said Amish Mehta, Chief Investment Officer and Managing Director at Vector Capital. \"The combined company will lead the digital and AI-fueled buyer and seller engagement and drive a new generation of experiences that people and brands love.\"\n\nInsight Partners, a large investor in Showpad, will roll over its full investment into the combined company. The completion of the transaction is subject to customary conditions, including regulatory approval. Further terms were not disclosed, and the transaction is expected to close in 2025.\n\nWatershed Moment in AI-Powered Revenue Enablement Market\n\n\"The merger of Showpad and Bigtincan represents a watershed moment for the sales enablement market,\" said Jim Lundy, Founder and Lead Analyst at Aragon Research. \"By uniting complementary strengths in content, readiness, and AI, the combined company is poised to deliver on the market's unmet demand for AI-centric sales enablement platforms that are easier to deploy, simpler to use and more impactful for revenue teams worldwide.\"\n\nStory Continues\n\n\"Our unwavering focus on driving success for customers fueled a record-breaking year of growth for Showpad in 2024,\" said Hendrik Isebaert, CEO of Showpad. \"Together we will deliver a breadth of flexible solutions and an incredible team to help customers engage with buyers in new and creative ways they never thought possible.\"\n\n\"Evolving preferences and rapid technology advancements are aggressively transforming buying and selling behaviors,\" said Jim Hopkins, Chairman of Bigtincan. \"We invested early and heavily in AI, and our combined global R&D resources will accelerate innovation so customers can rapidly reap the benefits of AI and emerging future innovations.\"\n\nSidley Austin LLP is serving as legal counsel, Deloitte LLP is serving as tax advisor and Alvarez & Marsal is serving as financial advisor to Vector Capital. Cleary Gottlieb Steen & Hamilton LLP is acting as legal counsel and TD Securities is acting as financial advisor to Showpad.\n\n\"Vector Capital has a long history of building category-defining technology companies,\" said Rob Amen, Managing Director at Vector Capital. \"Both companies bring impressive industry expertise and commitment to excellence. Together, they will continue to drive the future and set industry standards and best practices globally.\"\n\nFor more, visit our acquisition information page and follow Bigtincan, Showpad and Vector Capital on LinkedIn.\n\nAbout Vector Capital Management, L.P.\n\nVector Capital is a leading San Francisco-based investment firm focused on transformational investments in middle-market technology and technology-enabled businesses. Founded in 1997, Vector manages over $4 billion of capital across credit and private equity strategies on behalf of a high-quality group of global limited partners. For nearly 28 years, Vector has combined technology investments with operational transformation to deliver breakthrough results. For more information, visit www.vectorcapital.com.\n\n1 Grand View Research, Sales Enablement Platform Market Size Report, 2030. 2 Forrester Wave™: Revenue Enablement Platforms, Q3 2024, and Sales Readiness Solutions, Q4 2023 reports. 3 Gartner, Gartner Peer Insights 'Voice of the Customer': Revenue Enablement Platforms, Peer Contributors, April 2024.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250826870353/en/\n\nContacts\n\nBryan Scanlon\r\nLook Left Marketing\r\nvector@lookleftmarketing.com \r\n+1 (925) 759-3265\n\nVector Capital:\r\nNathaniel Garnick / Grace Cartwright\r\nGasthalter & Co.\r\n+1 (212) 257-4170 - vector@gasthalter.com\n\nShowpad:\r\nMoon Kang\r\n+2 (804) 601-0583\r\nmoon.kang@showpad.com\n\nBigtincan:\r\nDenise Iverson\r\n+1 (214) 509-8557\r\ndenise.iverson@bigtincan.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T19:05:04+00:00",
+            "title": "Exploring the top movers within the S&amp;P500 index during today's session.",
+            "content": "Get insights into the S&P500 index performance on Tuesday. Explore the top gainers and losers within the S&P500 index in today's session.\n\n[topmovers]\n\nTOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tLLY [https://www.chartmill.com/stock/quote/LLY/profile]\n\t\t4.82%\n\t\tELI LILLY & CO'S (NYSE:LLY [https://www.chartmill.com/stock/quote/LLY/profile]) stock price is advancing with 4.82% to a price of $728.86. The stock is trading 24.47% lower than 6 months ago.\n\n \t\tGEV [https://www.chartmill.com/stock/quote/GEV/profile]\n\t\t3.12%\n\t\tGE VERNOVA INC'S (NYSE:GEV [https://www.chartmill.com/stock/quote/GEV/profile]) shares rose 3.12% to $621.09 during Tuesday's session. The stock is trading 27.34% higher than 3 months ago.\n\n \t\tBA [https://www.chartmill.com/stock/quote/BA/profile]\n\t\t2.98%\n\t\tInvestors celebrated as BOEING CO/THE (NYSE:BA [https://www.chartmill.com/stock/quote/BA/profile]) experienced a 2.98% rise in its shares, closing at $233.62 during Tuesday's session. Shareholders saw the stock price going 29.91% higher is the past 6 months.\n\n \t\tHWM [https://www.chartmill.com/stock/quote/HWM/profile]\n\t\t2.7%\n\t\tExciting news for HOWMET AEROSPACE INC (NYSE:HWM [https://www.chartmill.com/stock/quote/HWM/profile]) as its stock price surged 2.7% to $175.86 during Tuesday's session. The stock is trading 25.36% higher than 6 months ago.\n\n \t\tVST [https://www.chartmill.com/stock/quote/VST/profile]\n\t\t2.46%\n\t\tVISTRA CORP'S (NYSE:VST [https://www.chartmill.com/stock/quote/VST/profile]) shares rose 2.46% to $194.75. The stock is trading 42.21% higher than 6 months ago.\n\n \t\tLUV [https://www.chartmill.com/stock/quote/LUV/profile]\n\t\t2.38%\n\t\tSOUTHWEST AIRLINES CO'S (NYSE:LUV [https://www.chartmill.com/stock/quote/LUV/profile]) stock price is advancing with 2.38% to a price of $33.3.\n\n \t\tPLTR [https://www.chartmill.com/stock/quote/PLTR/profile]\n\t\t2.21%\n\t\tPALANTIR TECHNOLOGIES INC-A (NASDAQ:PLTR [https://www.chartmill.com/stock/quote/PLTR/profile]) rose 2.21% to $160.64 during Tuesday's after hours session. The stock is trading 85.08% higher than 6 months ago.\n\n \t\tTPR [https://www.chartmill.com/stock/quote/TPR/profile]\n\t\t2.09%\n\t\tIn an impressive move, TAPESTRY INC'S (NYSE:TPR [https://www.chartmill.com/stock/quote/TPR/profile]) shares recorded a 2.09% increase, closing at $100.53 during Tuesday's session. Shareholders saw the stock price going 25.36% higher in the past 3 months.\n\n \t\tGE [https://www.chartmill.com/stock/quote/GE/profile]\n\t\t2.09%\n\t\tInvestors celebrated as GENERAL ELECTRIC (NYSE:GE [https://www.chartmill.com/stock/quote/GE/profile]) experienced a 2.09% rise in its shares, closing at $272.18 during Tuesday's session. In the last 6 months the stock gained 28.81%.\n\n \t\tQCOM [https://www.chartmill.com/stock/quote/QCOM/profile]\n\t\t1.96%\n\t\tPositive market sentiment drove QUALCOMM INC'S (NASDAQ:QCOM [https://www.chartmill.com/stock/quote/QCOM/profile]) stock price up by 1.96% to $159.48 during Tuesday's session.\n\nFor the full top gainers list go to our top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n\nTODAY'S TOP LOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tKDP [https://www.chartmill.com/stock/quote/KDP/profile]\n\t\t-6.64%\n\t\tKEURIG DR PEPPER INC'S (NASDAQ:KDP [https://www.chartmill.com/stock/quote/KDP/profile]) shares fell 6.64% to $29.04 during Tuesday's session.\n\n \t\tEBAY [https://www.chartmill.com/stock/quote/EBAY/profile]\n\t\t-4.52%\n\t\tEBAY INC (NASDAQ:EBAY [https://www.chartmill.com/stock/quote/EBAY/profile]) encountered a 4.52% decrease in its shares, reaching $94.1 during Tuesday's session. A press release (eBay to make exporting simple for Canadians with eBay International Shipping [https://www.chartmill.com/news/EBAY/cnw-2025-8-25-ebay-to-make-exporting-simple-for-canadians-with-ebay-international-shipping]) was released yesterday.\n\n \t\tBF.B [https://www.chartmill.com/stock/quote/BF.B/profile]\n\t\t-3.8%\n\t\tBROWN-FORMAN CORP-CLASS B'S (NYSE:BF.B [https://www.chartmill.com/stock/quote/BF.B/profile]) stock price is declining with 3.8% to a price of $29.86. The company is releasing earnings today. The stock is trading 31.91% lower than a year ago.\n\n \t\tERIE [https://www.chartmill.com/stock/quote/ERIE/profile]\n\t\t-3.2%\n\t\tERIE INDEMNITY COMPANY-CL A'S (NASDAQ:ERIE [https://www.chartmill.com/stock/quote/ERIE/profile]) stock price decreased by 3.2% to $351.68. Shareholders saw the stock price going 28.51% lower is the past year.\n\n \t\tMRNA [https://www.chartmill.com/stock/quote/MRNA/profile]\n\t\t-2.94%\n\t\tThe market experienced a downward movement in MODERNA INC'S (NASDAQ:MRNA [https://www.chartmill.com/stock/quote/MRNA/profile]) stock price, closing at $24.61 with a 2.94% decrease during Tuesday's session. The stock is trading 25.24% lower than a month ago.\n\n \t\tDPZ [https://www.chartmill.com/stock/quote/DPZ/profile]\n\t\t-2.83%\n\t\tDOMINO'S PIZZA INC'S (NASDAQ:DPZ [https://www.chartmill.com/stock/quote/DPZ/profile]) stock price decreased by 2.83% to $447.62.\n\n \t\tSTZ [https://www.chartmill.com/stock/quote/STZ/profile]\n\t\t-2.77%\n\t\tThe market experienced a 2.77% downturn in CONSTELLATION BRANDS INC-A'S (NYSE:STZ [https://www.chartmill.com/stock/quote/STZ/profile]) stock price, closing at $159.14 during Tuesday's session. In the last year the share price dropped with 32.0%.\n\n \t\tNOW [https://www.chartmill.com/stock/quote/NOW/profile]\n\t\t-2.6%\n\t\tSERVICENOW INC'S (NYSE:NOW [https://www.chartmill.com/stock/quote/NOW/profile]) shares fell 2.6% to $857.08.\n\n \t\tBG [https://www.chartmill.com/stock/quote/BG/profile]\n\t\t-2.58%\n\t\tBUNGE GLOBAL SA'S (NYSE:BG [https://www.chartmill.com/stock/quote/BG/profile]) stock price is declining with 2.58% to a price of $85.88.\n\n \t\tCBOE [https://www.chartmill.com/stock/quote/CBOE/profile]\n\t\t-2.57%\n\t\tCBOE GLOBAL MARKETS INC (NYSEARCA:CBOE [https://www.chartmill.com/stock/quote/CBOE/profile]) encountered a 2.57% decrease in its shares, reaching $242.68 during Tuesday's session. In the last year the share price increased with 21.27%.\n\nFor the full top loser list go to our top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T17:23:00+00:00",
+            "title": "Top Research Reports for GE Aerospace, AT&amp;T &amp; TotalEnergies",
+            "content": "Monday, August 25, 2025\r\n\r\nThe Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including GE Aerospace (GE), AT&T Inc. (T) and TotalEnergies SE (TTE). These research reports have been hand-picked from the roughly 70 reports published by our analyst team today.\r\n\r\nYou can see all of today’s research reports here >>>\r\n\r\nAhead of Wall Street\r\n\r\nThe daily 'Ahead of Wall Street' article is a must-read for all investors who would like to be ready for that day's trading action. The article comes out before the market's open and attempts to make sense of that morning's economic releases and how they will affect that day's market action. You can read this article for free on our home page and can actually sign up there to get an email notification as this article comes out each morning.\r\n\r\nYou can read today's AWS here >>> Pre-Markets Give Back Some of Friday's Big Gains\r\n\r\nToday's Featured Research Reports\r\n\r\nShares of GE Aerospace have outperformed the Zacks Aerospace - Defense industry as well as the broader market over the year-to-date period (+63.5% vs. +26.6% for the industry and +9.4% for the S&P 500 index). The company has been witnessing strength in its businesses, driven by robust demand for commercial engines, propulsion and additive technologies. Rising U.S. & international defense budgets, geopolitical tensions, positive airline & airframer dynamics and robust demand for commercial air travel augur well for the company. \r\n\r\nIts portfolio-reshaping actions are likely to unlock values for its shareholders. The company raised its dividend by 28.6% to 36 cents per share in February 2025. For 2025, GE Aerospace expects organic revenues to grow in the mid-teens-digit range from the year-ago level. \r\n\r\nHowever, it has been dealing with high costs and expenses related to certain projects and restructuring activities, which are likely to affect its margins and profitability. Also, foreign exchange headwinds might be worrying for the company.\r\n\r\n(You can read the full research report on GE Aerospace here >>>)\r\n\r\nAT&T shares have outperformed the Zacks Wireless National industry over the year-to-date period (+31.2% vs. +18.9%). The company with a customer-centric business model, is witnessing healthy momentum in its postpaid wireless business with a lower churn rate and increased adoption of higher-tier unlimited plans. \r\n\r\nAT&T expects to continue investing in key areas of 5G and fiber and adjust its business according to the evolving market scenario to fuel long-term growth. An integrated fiber expansion strategy is expected to improve the broadband connectivity for both enterprise and consumer markets, while steady 5G deployments are likely to boost end-user experience. \r\n\r\nHowever, the wireline division is struggling with persistent losses in access lines as a result of competitive pressure from voice-over-Internet-protocol service providers. Healthy discounts and freebies to woo customers dent margins. The high debt burden remains a concern.\r\n\r\n(You can read the full research report on AT&T here >>>)\r\n\r\nShares of TotalEnergies have outperformed the Zacks Oil and Gas - Refining and Marketing industry over the year-to-date period (+19.5% vs. +18.6%). The company’s second-quarter results were lower than estimates, while revenues beat it. TTE is gaining from contributions coming from startups, well-spread LNG assets and upstream assets located in the new hydrocarbon-producing regions. \r\n\r\nTotalEnergies benefits from its multi-energy assets spread across the globe. Its free cash flow allows it to increase shareholders’ value. It is investing in clean power generation and lowering emissions. In the past three months, shares of the company have outperformed its industry. \r\n\r\nYet, TotalEnergies operates multiple assets globally, and in some regions, production might be impacted due to security concerns. It remains exposed to acquisition-related risks as these assets contribute a sizable volume to production. The natural field decline will impact production volumes and lower profits. \r\n\r\n(You can read the full research report on TotalEnergies here >>>)\r\n\r\nOther noteworthy reports we are featuring today include Analog Devices, Inc. (ADI), Altria Group, Inc. (MO) and The Williams Companies, Inc. (WMB).\r\n\r\nDirector of Research\r\n\r\nSheraz Mian\r\n\r\nNote: Sheraz Mian heads the Zacks Equity Research department and is a well-regarded expert of aggregate earnings. He is frequently quoted in the print and electronic media and publishes the weekly Earnings Trends and Earnings Preview reports. If you want an email notification each time Sheraz publishes a new article, please click here>>>\n\nStory Continues\n\nToday's Must Read\n\nCommercial Engines & Services Unit to Aid GE Aerospace (GE)\n\nAT&T (T) Rides on Fiber Densification, Healthy 5G Deployments\n\nExpanding LNG & Clean Energy Assets Aid TotalEnergies (TTE)\n\nFeatured Reports\n\nAltria (MO) Benefits From Strategic Pricing Initiatives\r\nPer the Zacks analyst, Altria is benefiting from robust pricing actions. During second quarter 2025, higher pricing strategies aided revenues across the Smokeable Products and Oral Tobacco categories.\n\nWilliams Companies (WMB) to Gain from Transco Expansion\r\nThe Zacks analyst believes that various expansions of Transco pipeline due to rising demand in natural gas drives Williams Companies' earnings potential but high debt raises concern.\n\nCenovus (CVE) to Gain From Production Boost in Narrows Lake\r\nThe Zacks analyst likes Cenovus as it achieves significant milestones on big projects like Narrows Lake. However, high maintenance costs weigh on its margins.\n\nExpansionary Efforts Aid Lamar (LAMR) Amid High Debt Burden\r\nPer the Zacks Analyst, LAMR is likely to gain from its strategic acquisitions, an impressive footprint of outdoor advertising assets and a diversified tenant base. Yet, a high debt burden ails.\n\nIncrease in New Insurance Written Aid MGIC Investment (MTG)\r\nPer the Zacks analyst, MGIC Investment is set to grow on higher insurance in force and annual persistency, lower claims and a strong capital position. Yet, rising expenses weigh on margin expansion.\n\nSolid US Solar Demand Aids SolarEdge (SEDG) Amid Tariff Woes\r\nPer the Zacks analyst, soaring solar demand, especially in the United States, should boost SolarEdge's future revenues. However, heightened import tariffs may hurt the stock.\n\nJetBlue (JBLU) Rides on Improving Air Travel Demand, Labor Costs Ail\r\nPer the Zacks Analyst, improving air-travel demand and strength for bookings is aiding JetBlue's top-line growth. However, increased labor costs weigh on the bottom line.\n\nNew Upgrades\n\nBattery Management System Solutions Aid Analog Devices (ADI)\r\nPer the Zacks analyst, Analog Devices is benefiting from a strong momentum in the electric vehicle space on the back of its robust Battery Management System solutions.\n\nFocus on Alternatives to Support Affiliated Managers (AMG)\r\nPer the Zacks analyst, Affiliated Managers is well-placed for growth, driven by focus on alternatives strategies, successful partnerships, global distribution capability and a solid balance sheet.\n\nMarket Expansion & Low Debt Benefits Green Dot (GDOT)\r\nPer the Zacks analyst, banking-as-a-service account programs are aiding Green Dot to expand its market reach. Low debt allows cash for growth initiatives.\n\nNew Downgrades\n\nNVO's GLP-1 Drug Revenues to Decline Amid Stiff Competition\r\nPer the Zacks Analyst, supply woes and rising competition, including from compounded GLP-1 drugs, weigh on Novo Nordisk's Wegovy and Ozempic momentum.\n\nEscalating Expenses, Stiff Competition Ail Inspire Medical (INSP)\r\nThe Zacks analyst is worried about Inspire Medical's operation in a tough competitive space. Escalating expenses is an added concern.\n\nProject Delays & High Costs Hurt Fluor's (FLR) Prospects\r\nPer the Zacks analyst, Fluor's prospects are hurting from increased project delays alongside high cost and expense structure. Also, foreign exchange risks add to the headwinds.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nGE Aerospace (GE) : Free Stock Analysis Report\n\nAnalog Devices, Inc. (ADI) : Free Stock Analysis Report\n\nAT&T Inc. (T) : Free Stock Analysis Report\n\nWilliams Companies, Inc. (The) (WMB) : Free Stock Analysis Report\n\nAltria Group, Inc. (MO) : Free Stock Analysis Report\n\nTotalEnergies SE Sponsored ADR (TTE) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "GE Aerospace",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 53000,
+          "description": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and mechanical aircraft systems. The company operates through two reportable segments, Commercial Engines & Services, and Defense & Pr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.01,
+          "profit_margin": 0.1864,
+          "operating_margin": 0.209,
+          "roe": 0.3957,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.212,
+          "earnings_growth_yoy": 0.641,
+          "eps_estimate_current_year": 5.8932,
+          "eps_estimate_next_year": 6.9826,
+          "dividend_yield": 0.0048,
+          "dividend_per_share": 1.28,
+          "revenue_ttm": 41611001856,
+          "revenue_per_share": 38.744,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 38.0328,
+          "forward_pe": 45.4545,
+          "price_to_sales": 6.7945,
+          "price_to_book": 14.7708,
+          "enterprise_value": 289666909817,
+          "ev_to_revenue": 6.9611,
+          "ev_to_ebitda": 26.614
+        },
+        "technical_data": {
+          "beta": 1.447,
+          "52_week_high": 281.5,
+          "52_week_low": 158.8126,
+          "50_day_ma": 260.3212,
+          "200_day_ma": 212.7746,
+          "short_interest": 0.012,
+          "short_ratio": 1.92
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.44,
+          "forward_dividend_yield": 0.0054,
+          "payout_ratio": 0.2278,
+          "dividend_date": "2025-07-25",
+          "ex_dividend_date": "2025-07-07",
+          "last_split_date": "2024-04-02",
+          "last_split_factor": "1253:1000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5,
+          "target_price": 297.9333,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1060440000,
+          "percent_institutions": 80.622,
+          "percent_insiders": 0.183,
+          "shares_float": 1056632410
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125256.0,
+          "total_debt": 18887.0,
+          "cash_and_equivalents": 10861.0,
+          "net_debt": 8026.0,
+          "working_capital": 1335.0,
+          "shareholders_equity": 19135.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.99
+        },
+        "income_latest_statement": {
+          "total_revenue": 11023.0,
+          "gross_profit": 4177.0,
+          "operating_income": 2099.0,
+          "net_income": 2028.0,
+          "ebitda": 2858.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 37.89,
+          "operating_margin": 19.04,
+          "net_margin": 18.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2246.0,
+          "free_cash_flow": 1919.0,
+          "capex": 327.0,
+          "net_income": 2000.0,
+          "cash_change": -1390.0,
+          "dividends_paid": 386.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.37,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 264,
+            "high": 266.86,
+            "low": 262.03,
+            "close": 266.18,
+            "volume": 11912900
+          },
+          {
+            "date": "2025-07-17",
+            "open": 269.8,
+            "high": 272.8,
+            "low": 258.16,
+            "close": 260.28,
+            "volume": 16260200
+          },
+          {
+            "date": "2025-07-18",
+            "open": 265.4,
+            "high": 269.7,
+            "low": 262.56,
+            "close": 263.27,
+            "volume": 8619800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 263.69,
+            "high": 266.25,
+            "low": 259.58,
+            "close": 262.86,
+            "volume": 5208500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 260.73,
+            "high": 261.5,
+            "low": 254.66,
+            "close": 259,
+            "volume": 4751300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 260.53,
+            "high": 263.73,
+            "low": 259.95,
+            "close": 263.18,
+            "volume": 4689800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 263.56,
+            "high": 269.84,
+            "low": 263.18,
+            "close": 268.01,
+            "volume": 5206700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 268.83,
+            "high": 272.83,
+            "low": 268.26,
+            "close": 271.59,
+            "volume": 4598400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 273.36,
+            "high": 273.44,
+            "low": 267.44,
+            "close": 270.61,
+            "volume": 5006400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 272.73,
+            "high": 273.8,
+            "low": 269.12,
+            "close": 270.31,
+            "volume": 4125300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 270.92,
+            "high": 273.63,
+            "low": 269.51,
+            "close": 273.55,
+            "volume": 4697000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 273.07,
+            "high": 274.94,
+            "low": 269.88,
+            "close": 271.08,
+            "volume": 4524000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 265.53,
+            "high": 270.55,
+            "low": 261.71,
+            "close": 269.38,
+            "volume": 4416300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 270.51,
+            "high": 276.85,
+            "low": 270.22,
+            "close": 276.23,
+            "volume": 3744000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 276.26,
+            "high": 277,
+            "low": 268.62,
+            "close": 272.12,
+            "volume": 4000600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 273.5,
+            "high": 275.05,
+            "low": 269.91,
+            "close": 272.28,
+            "volume": 3576800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 271.95,
+            "high": 272.87,
+            "low": 268.73,
+            "close": 272.02,
+            "volume": 3050400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 273.58,
+            "high": 277.18,
+            "low": 272.58,
+            "close": 275.01,
+            "volume": 4467300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 275.15,
+            "high": 276.41,
+            "low": 272.55,
+            "close": 275.2,
+            "volume": 3360100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 276.04,
+            "high": 280.54,
+            "low": 275.7,
+            "close": 279.63,
+            "volume": 3630100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 281,
+            "high": 281.5,
+            "low": 264.08,
+            "close": 268.86,
+            "volume": 7599600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 272.99,
+            "high": 274.16,
+            "low": 269.48,
+            "close": 269.7,
+            "volume": 4481700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 268.92,
+            "high": 269.7,
+            "low": 265.21,
+            "close": 267.85,
+            "volume": 5203300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 267.9,
+            "high": 269.61,
+            "low": 266.51,
+            "close": 268.45,
+            "volume": 2697000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 266.31,
+            "high": 268.96,
+            "low": 263.8,
+            "close": 265.93,
+            "volume": 3404900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 265.46,
+            "high": 268.94,
+            "low": 263.81,
+            "close": 266.44,
+            "volume": 3854700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 267.14,
+            "high": 271.92,
+            "low": 266.14,
+            "close": 268.71,
+            "volume": 3266400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 269.73,
+            "high": 272.35,
+            "low": 266.37,
+            "close": 266.53,
+            "volume": 5229300
+          },
+          {
+            "date": "2025-08-25",
+            "open": 267,
+            "high": 271.92,
+            "low": 266.56,
+            "close": 266.61,
+            "volume": 4301600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 267.98,
+            "high": 274.7,
+            "low": 267.42,
+            "close": 273.94,
+            "volume": 2737841
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.3429025933187804,
+        "return_63d": 12.422538679361436,
+        "pct_above_sma50": 5.068411295141484,
+        "sma_50": 261.06800000000004,
+        "new_55d_high": "False",
+        "high_55d": 281.5,
+        "rsi": 52.25420966865838,
+        "rsi_in_range": "True",
+        "adx": 21.862590376709424,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.2610790684091433,
+        "bb_width": 5.574268302582379,
+        "keltner_width": 9.144071909548412,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1114293159.0207999,
+        "adv_shares": 4112147.05,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.073391657209996,
+        "final_score": 43.073391657209996,
+        "sub_scores": {
+          "trend_momentum": 13.569105541217029,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.50428611599297,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 1.2305531946343429,
+          "ret_63d": 13.301348333195474,
+          "rsi14": 52.25420966865838,
+          "adx14": 19.616524939764513,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: GE\n• Current Price: $274.3\n• Overall Score: 50.41542141123386\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 260.3212\n• Sma 200: 212.7746\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.2305531946343387\n• Momentum 63D: 13.301348333195465\n• Momentum 126D: 37.47177196768203\n• Momentum Acceleration: -12.070795138561126\n• Roc 21D: 1.2305531946343387\n• Trend Strength 20D: 0.24102444605974288\n• Trend Direction: 1\n• Ma Ribbon Score: 82.64395423649863\n• Breakout Strength: 0.0\n• Price Velocity: 0.006023640092516991\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 10.0\n• Squeeze Momentum: -0.7733605531409147\n• Volatility Compression: 38.5055000325816\n• Is Consolidating: False\n• Breakout Score: 38.771666439886324\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.569105541217029\n• Squeeze Breakout: 4.0\n• Options Quality: 19.50428611599297\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 53.0\n• Squeeze: 60.77582500488724\n• Options: 43.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: GE\n• Strike Price: $270\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $14.1\n• Ask: $14.35\n• Last: $14.3\n• Mid: $14.225\n• Spread: 1.742160278745644599303135889%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6007\n• Gamma: 0.0137\n• Theta: -0.1219\n• Vega: 0.3998\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2731\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 443\n• Open Interest: 608\n• Volume/OI Ratio: 0.7286184210526315\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: GE Aerospace\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $7.01\n• Profit Margin: 18.6%\n• ROE: 39.6%\n• P/E Ratio: 38.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T20:44:57+00:00: U.S. OKs possible $1.85B sale of F-35 sustainment to Poland; GE Aerospace prime ...\n• 2025-08-26T20:13:06+00:00: Analyst Bullish on GE Vernova (GEV) Amid ‘Early Stages’ of AI Revolution...\n• 2025-08-26T20:00:00+00:00: Vector Capital to Acquire Showpad...\n• 2025-08-26T19:05:04+00:00: Exploring the top movers within the S&amp;P500 index during today's session....\n• 2025-08-26T17:23:00+00:00: Top Research Reports for GE Aerospace, AT&amp;T &amp; TotalEnergies...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR GE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the GE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:22:49.933492",
+    "estimated_tokens": 2332
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"GE\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"GE shows strong technical momentum with price above both SMAs and impressive 126D momentum of 37.47%. The options contract offers reasonable liquidity with tight spreads, though upcoming earnings and decelerating momentum warrant caution.\",\n    \"opportunities\": [\n        \"Strong MA Ribbon Score of 82.64 indicating robust trend\",\n        \"Tight option spread of 1.74% with decent Volume/OI ratio\",\n        \"Multiple timeframe squeeze setup (3 counts) with 38.5 compression score\"\n    ],\n    \"risks\": [\n        \"Momentum acceleration is negative at -12.07\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Relatively high P/E ratio of 38.0\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 270 Call for directional exposure with ample time value\",\n        \"entry_timing\": \"Current squeeze setup suggests waiting for momentum reversal before entry\",\n        \"risk_management\": \"Use 0.60 delta for position sizing, monitor negative momentum acceleration\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"Strong fundamentals with 18.6% profit margin and 39.6% ROE provide good foundation, but timing concerns with earnings approach and momentum deceleration suggest careful entry planning\"\n}",
+    "parsed_analysis": {
+      "symbol": "GE",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "GE shows strong technical momentum with price above both SMAs and impressive 126D momentum of 37.47%. The options contract offers reasonable liquidity with tight spreads, though upcoming earnings and decelerating momentum warrant caution.",
+      "opportunities": [
+        "Strong MA Ribbon Score of 82.64 indicating robust trend",
+        "Tight option spread of 1.74% with decent Volume/OI ratio",
+        "Multiple timeframe squeeze setup (3 counts) with 38.5 compression score"
+      ],
+      "risks": [
+        "Momentum acceleration is negative at -12.07",
+        "Earnings coming up on 2025-09-30",
+        "Relatively high P/E ratio of 38.0"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 270 Call for directional exposure with ample time value",
+        "entry_timing": "Current squeeze setup suggests waiting for momentum reversal before entry",
+        "risk_management": "Use 0.60 delta for position sizing, monitor negative momentum acceleration"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative momentum acceleration"
+      ],
+      "notes": "Strong fundamentals with 18.6% profit margin and 39.6% ROE provide good foundation, but timing concerns with earnings approach and momentum deceleration suggest careful entry planning"
+    },
+    "tokens_used": 2525,
+    "cost": 0.025249999999999998,
+    "response_time": 9.513774156570435,
+    "success": true
+  },
+  "cost": 0.025249999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8523,
+    "response_length": 1580
+  }
+}

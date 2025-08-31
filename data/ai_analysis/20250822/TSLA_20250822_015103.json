@@ -1,0 +1,116 @@
+{
+  "success": true,
+  "symbol": "TSLA",
+  "timestamp": "2025-08-22T01:51:03.918089",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSLA",
+      "package_timestamp": "2025-08-22T01:50:55.586778",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 0.0,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSLA",
+        "current_price": null,
+        "overall_score": 0.0,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {},
+      "momentum_metrics": {},
+      "squeeze_detection": {},
+      "quantitative_scores": {
+        "technical": 0.0,
+        "momentum": 0.0,
+        "squeeze": 0.0,
+        "options": 0.0,
+        "quality": 0.0
+      },
+      "risk_assessment": {
+        "warnings": [
+          "No historical price data available"
+        ],
+        "ranking": 4,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "error": "No option data provided"
+    },
+    "enhanced_stock_data": {
+      "error": "No enhanced data provided"
+    },
+    "data_quality": {
+      "fundamental_score": 0.0,
+      "technical_score": 0.0,
+      "options_score": 0.0,
+      "calendar_score": 0.0,
+      "news_score": 0.0,
+      "overall_score": 0.0,
+      "missing_fields": [
+        "fundamentals",
+        "technical_indicators",
+        "option_data",
+        "calendar_events",
+        "news"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSLA\n• Current Price: $None\n• Overall Score: 0.0\n• Strategy Type: options_screening\n\n\n\n\n**QUANTITATIVE SCORING**\n• Technical: 0.0\n• Momentum: 0.0\n• Squeeze: 0.0\n• Options: 0.0\n• Quality: 0.0\n\n## SELECTED OPTION CONTRACT\nNo option contract data provided.\n\n\n## ENHANCED MARKET DATA\nNo enhanced data provided.\n\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 0.0%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSLA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TSLA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-22T01:51:03.918055",
+    "estimated_tokens": 1723
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSLA\",\n    \"rating\": 35,\n    \"component_scores\": {\n        \"trend_momentum\": 10,\n        \"options_quality\": 8,\n        \"iv_value\": 5,\n        \"squeeze_volatility\": 4,\n        \"fundamentals\": 5,\n        \"event_news\": 3\n    },\n    \"confidence\": \"low\",\n    \"thesis\": \"Due to severely limited data availability, a comprehensive analysis cannot be performed. While TSLA typically offers liquid options markets, the lack of current price, technical, and fundamental data significantly constrains our ability to make strong recommendations.\",\n    \"opportunities\": [\n        \"Historically high options liquidity and tight spreads\",\n        \"Generally strong market interest and trading volume\",\n        \"Typically offers diverse strike prices and expiration choices\"\n    ],\n    \"risks\": [\n        \"Insufficient data to confirm current market conditions\",\n        \"Unable to verify technical setup without price data\",\n        \"Cannot assess current volatility environment\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Defer trading until more complete data is available\",\n        \"entry_timing\": \"Cannot assess optimal timing without current market data\",\n        \"risk_management\": \"Recommend waiting for complete technical and volatility data before entry\"\n    },\n    \"red_flags\": [\n        \"Critical data missing - 0% data completeness reported\",\n        \"Unable to verify current price and market conditions\",\n        \"Cannot confirm current options chain metrics\"\n    ],\n    \"notes\": \"This analysis is severely limited by the lack of provided data. Scores are conservative baseline estimates based on typical TSLA characteristics. Recommend gathering complete current market data before making any trading decisions.\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSLA",
+      "rating": 35,
+      "component_scores": {
+        "trend_momentum": 10,
+        "options_quality": 8,
+        "iv_value": 5,
+        "squeeze_volatility": 4,
+        "fundamentals": 5,
+        "event_news": 3
+      },
+      "confidence": "low",
+      "thesis": "Due to severely limited data availability, a comprehensive analysis cannot be performed. While TSLA typically offers liquid options markets, the lack of current price, technical, and fundamental data significantly constrains our ability to make strong recommendations.",
+      "opportunities": [
+        "Historically high options liquidity and tight spreads",
+        "Generally strong market interest and trading volume",
+        "Typically offers diverse strike prices and expiration choices"
+      ],
+      "risks": [
+        "Insufficient data to confirm current market conditions",
+        "Unable to verify technical setup without price data",
+        "Cannot assess current volatility environment"
+      ],
+      "option_contract": {
+        "recommendation": "Defer trading until more complete data is available",
+        "entry_timing": "Cannot assess optimal timing without current market data",
+        "risk_management": "Recommend waiting for complete technical and volatility data before entry"
+      },
+      "red_flags": [
+        "Critical data missing - 0% data completeness reported",
+        "Unable to verify current price and market conditions",
+        "Cannot confirm current options chain metrics"
+      ],
+      "notes": "This analysis is severely limited by the lack of provided data. Scores are conservative baseline estimates based on typical TSLA characteristics. Recommend gathering complete current market data before making any trading decisions."
+    },
+    "tokens_used": 2058,
+    "cost": 0.02058,
+    "response_time": 8.330691814422607,
+    "success": true
+  },
+  "cost": 0.02058,
+  "processing_metadata": {
+    "data_completeness_score": 0.0,
+    "prompt_length": 6491,
+    "response_length": 1747
+  }
+}

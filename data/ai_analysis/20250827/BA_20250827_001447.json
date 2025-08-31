@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "BA",
+  "timestamp": "2025-08-27T00:14:47.362788",
+  "data_package": {
+    "metadata": {
+      "symbol": "BA",
+      "package_timestamp": "2025-08-27T00:14:35.990650",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BA",
+        "current_price": 234.88,
+        "overall_score": 51.64917449663228,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 221.4666,
+        "sma_200": 185.728
+      },
+      "momentum_metrics": {
+        "momentum_21d": -0.6683304428746601,
+        "momentum_63d": 16.813410933691493,
+        "momentum_126d": 31.727155438379985,
+        "momentum_acceleration": -17.481741376566152,
+        "roc_21d": -0.6683304428746601,
+        "trend_strength_20d": 0.2615626253158977,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.34921036414968,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.008758669597185742
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 16.0,
+        "squeeze_momentum": 0.26502346754654765,
+        "volatility_compression": 32.408380656973115,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.462683182103497,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20.517836684948204,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 48.0,
+        "squeeze": 59.86125709854597,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 12,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BA",
+        "strike_price": "230",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "13.55",
+        "ask": "13.8",
+        "last_price": "13.6",
+        "mid_price": "13.675",
+        "spread_percent": "1.811594202898550724637681159"
+      },
+      "greeks": {
+        "delta": 0.6149,
+        "gamma": 0.0146,
+        "theta": -0.1111,
+        "vega": 0.3388
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2961
+      },
+      "liquidity_metrics": {
+        "volume": 746,
+        "open_interest": 2837,
+        "volume_oi_ratio": 0.26295382446246035
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:16.215741",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T22:44:54+00:00",
+            "title": "Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Tuesday closed up by +0.41%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +0.43%.  September E-mini S&P futures (ESU25) rose +0.43%, and September E-mini Nasdaq futures (NQU25) rose +0.46%.\n\nStock indexes settled higher on Tuesday on some positive US economic news.  The US core capital goods and consumer confidence reports were stronger than expected. Also, the strength in semiconductor makers was supportive of the overall market.  In addition, China is sending Vice Commerce Minister Li Chenggang to the US to meet with US trade officials and negotiators, a move that signals trade talks with China are progressing.Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStock indexes added to their gains Tuesday afternoon when bond yields declined on strong demand for the Treasury's $69 billion auction of 2-year T-notes.  The 10-year T-note yield fell -2 bp to 4.25%.\n\nHowever, fresh concerns over the Fed's independence limited gains in stocks and weighed on the dollar after President Trump moved to fire Fed Governor Lisa Cook, citing \"sufficient cause\" based on the administration’s allegations she made false statements on one or more mortgage loans.  Ms. Cook said she will not resign, and her lawyer pledged to take \"whatever actions are needed to prevent\" the president's \"illegal action.\"\n\nUS July capital goods new orders nondefense ex-aircraft and parts, a proxy for capital spending, rose +1.1% m/m, stronger than expectations of +0.2% m/m.\n\nThe US June S&P Core Logic composite-20 home price index eased to +2.14% y/y from +2.81% y/y in May, the smallest increase in two years.\n\nThe Conference Board US Aug consumer confidence index fell -1.3 to 97.4, stronger than expectations of 96.5.\n\nThe US Aug Richmond Fed manufacturing survey rose +13 to a 5-month high of -7, stronger than expectations of -11.\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nOn the geopolitical front, diplomatic efforts to end the war in Ukraine remain elusive, as the US tries to broker a peace deal between the two countries.  On Sunday, Russian Foreign Minister Lavrov said there was no meeting planned between the leaders of Russia and Ukraine and that there \"needs to be an agenda first\" for a meeting to take place.  \"This agenda is not ready at all.\"\n\nThe markets this week will focus on any fresh tariff news or developments on ending the Ukraine-Russian war.  After Wednesday's close, Nvidia will release its quarterly earnings and guidance.  On Thursday, Q2 GDP is expected to be revised upward by +0.1 to 3.1% (q/q annualized). Also, weekly initial unemployment claims are expected to fall by -5,000 to 230,000.  On Friday, July personal spending is expected to climb +0.3% m/m, and July personal income is expected to rise +0.4% m/m.   Also, the July core PCE price index, the Fed's preferred inflation gauge, is expected to climb +0.2% m/m and +2.9% y/y.  In addition, the Aug MNI Chicago PMI is expected to fall -0.6 to 46.5.  Finally, the University of Michigan's final-Aug US consumer sentiment index is expected to be unrevised at 58.6.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 87% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets closed lower on Tuesday.  The Euro Stoxx 50 fell to a 1.5-week low and closed down -1.11%.  China's Shanghai Composite fell from a new 10-year high and closed down -0.39%.  Japan's Nikkei Stock 225 dropped to a 2-week low and closed down -0.97%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Tuesday closed up +7.5 ticks, and the 10-year T-note yield fell -2.1 bp to 4.254%.\n\nT-notes recovered from early losses on Tuesday and moved higher after strong demand for the Treasury's $69 billion auction of 2-year T-notes sparked short covering in T-note futures.  The auction had a bid-to-cover ratio of 2.69, better than the 10-auction average of 2.62.  T-notes also garnered support when Fed Governor Cook said she has no plans to resign and that \"no cause exists\" for President Trump to fire her.\n\nT-notes initially moved lower on Tuesday after President Trump said he will move to fire Fed Governor Cook, exacerbating investor concerns about the Fed's independence and fanning inflation fears if politics forces interest rates below the neutral rate.  Also, rising inflation expectations undercut T-note prices after the 10-year breakeven inflation expectations rate rose to a 3.5-week high on Tuesday of 2.438%.  In addition, today's stronger-than-expected US core capital goods and consumer confidence reports were bearish for T-notes.\n\nEuropean government bond yields on Tuesday were mixed.  The 10-year German bund yield fell -3.4 bp to 2.723%. 10-year UK gilt yield rose to a 3-month high of 4.765% and finished up +4.7 bp to 4.740%.\n\nThe French Aug consumer confidence indicator unexpectedly fell -1 to a 1.75-year low of 87, weaker than expectations of 89.\n\nSwaps are discounting the chances at 1% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nStrength in semiconductor makers on Tuesday supported gains in the broader market.  Marvell Technology (MRVL) closed up more than +2%.  Also, Nvidia (NVDA), Applied Materials (AMAT), Advanced Micro Devices (AMD), ARM Holdings Plc (ARM), Qualcomm (QCOM), Lam Research (LRCX), and Broadcom (AVGO) closed up more than +1%.\n\nEli Lilly (LLY) closed up more than +5% to lead gainers in the S&P 500 after the company said a second trial of its experimental obesity pill showed patients lost weight and saw significant improvements in blood sugar levels.\n\nBoeing (BA) closed up more than +3% to lead gainers in the Dow Jones Industrials after Reuters reported that Korea Air is expected to announce an order for about 100 Boeing airplanes.\n\nEchoStar (SATS) closed up more than +70% after AT&T announced an agreement to buy spectrum licenses from the company for about $23 billion.\n\nSemtech (SMTC) closed up more than +14% after reporting Q2 adjusted gross margin of 53.2%, above the consensus of 53.0%.\n\nVF Corp (VFC) closed up more than +5% after Baird upgraded the stock to outperform from neutral with a price target of $20.\n\nKinetik Holdings (KNTK) closed up more than +2% after S&P Dow Jones Indices announced the company will replace Pacific Premier Bancorp in the S&P SmallCap 600 effective before the opening of trading on Tuesday, September 2.\n\nKeurig Dr Pepper (KDP) closed down more than 6% to lead the losers in the S&P 500 and Nasdaq 100 after HSBC downgraded the stock to \"hold\" from \"buy.\"\n\nBrown-Forman (BF.B) closed down more than -4% after the company said CFO Cunningham will retire on May 1, 2026.\n\nShoe Carnival (SCVL) closed down more than -4% after Seaport Global Securities downgraded the stock to neutral from buy.\n\nConstellation Brands (STZ) closed down more than -3% after Bank of America downgraded the stock to underperform from neutral with a price target of $150.\n\nGenerac Holdings (GNRC) closed down more than -1% after Citigroup downgraded the stock to neutral from buy.\n\nSalesforce (CRM) closed down more than -1% to lead losers in the Dow Jones Industrials after Oppenheimer & Co. cut its price target on the stock to $315 from $370.\n\nEarnings Reports(8/27/2025)\n\nAgilent Technologies Inc (A), BILL Holdings Inc (BILL), Cooper Cos Inc/The (COO), Crowdstrike Holdings Inc (CRWD), Donaldson Co Inc (DCI), Five Below Inc (FIVE), HP Inc (HPQ), J M Smucker Co/The (SJM), NetApp Inc (NTAP), Nutanix Inc (NTNX), NVIDIA Corp (NVDA), Pure Storage Inc (PSTG), Snowflake Inc (SNOW), Veeva Systems Inc (VEEV), Williams-Sonoma Inc (WSM). On the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here.\n\nMore news from Barchart\n\nInteractive Brokers Is Joining the S&P 500. Should You Buy IBKR Stock Here?Dear Lucid Group Stock Fans, Mark Your Calendars for August 29Trump Media Is Becoming a Crypto Treasury Company. How Should You Play DJT Stock Here?Dear Marvell Stock Fans, Mark Your Calendars for August 28</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T21:02:00+00:00",
+            "title": "Small Stocks Lead Markets Higher",
+            "content": "Smaller firms outperformed recent market leaders like tech and communications stocks. Stocks’ summer climb showed signs of slowing last week, until a speech from Federal Reserve Chair Jerome Powell Friday recharged markets and sent the Dow industrials to a fresh record by opening the door to lower interest rates. This week, a positive earnings season and hopes of a forthcoming rate cut have lifted the share prices of smaller companies and left some investors turning their attention to recently unloved parts of the market.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T20:50:58+00:00",
+            "title": "Dow Jones Futures: Market Rallies Into Nvidia, Tesla Breaks Out; 5 Stocks Near Buy Points",
+            "content": "The stock market rose heading into Nvidia earnings. Tesla stock broke out. Several aerospace and defense stocks are near buy points.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T20:41:43+00:00",
+            "title": "Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields",
+            "content": "The S&P 500 Index ($SPX [https://www.barchart.com/futures/quotes/$SPX/overview]) (SPY [https://www.barchart.com/etfs-funds/quotes/SPY/overview]) on Tuesday closed up by +0.41%, the Dow Jones Industrials Index ($DOWI [https://www.barchart.com/futures/quotes/$DOWI/overview]) (DIA [https://www.barchart.com/etfs-funds/quotes/DIA/overview]) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX [https://www.barchart.com/futures/quotes/$IUXX/overview]) (QQQ [https://www.barchart.com/etfs-funds/quotes/QQQ/overview]) closed up by +0.43%.  September E-mini S&P futures (ESU25 [https://www.barchart.com/futures/quotes/ES*0/overview]) rose +0.43%, and September E-mini Nasdaq futures (NQU25 [https://www.barchart.com/futures/quotes/NQ*0/overview]) rose +0.46%. \n\nStock indexes settled higher on Tuesday on some positive US economic news.  The US core capital goods and consumer confidence reports were stronger than expected. Also, the strength in semiconductor makers was supportive of the overall market.  In addition, China is sending Vice Commerce Minister Li Chenggang to the US to meet with US trade officials and negotiators, a move that signals trade talks with China are progressing.\n\nStock indexes added to their gains Tuesday afternoon when bond yields declined on strong demand for the Treasury's $69 billion auction of 2-year T-notes.  The 10-year T-note yield fell -2 bp to 4.25%. \n\nHowever, fresh concerns over the Fed's independence limited gains in stocks and weighed on the dollar after President Trump moved to fire Fed Governor Lisa Cook, citing \"sufficient cause\" based on the administration’s allegations she made false statements on one or more mortgage loans.  Ms. Cook said she will not resign, and her lawyer pledged to take \"whatever actions are needed to prevent\" the president's \"illegal action.\" \n\nUS July capital goods new orders nondefense ex-aircraft and parts, a proxy for capital spending, rose +1.1% m/m, stronger than expectations of +0.2% m/m.\n\nThe US June S&P Core Logic composite-20 home price index eased to +2.14% y/y from +2.81% y/y in May, the smallest increase in two years.\n\nThe Conference Board US Aug consumer confidence index fell -1.3 to 97.4, stronger than expectations of 96.5.\n\nThe US Aug Richmond Fed manufacturing survey rose +13 to a 5-month high of -7, stronger than expectations of -11.\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.  \n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nOn the geopolitical front, diplomatic efforts to end the war in Ukraine remain elusive, as the US tries to broker a peace deal between the two countries.  On Sunday, Russian Foreign Minister Lavrov said there was no meeting planned between the leaders of Russia and Ukraine and that there \"needs to be an agenda first\" for a meeting to take place.  \"This agenda is not ready at all.\" \n\nThe markets this week will focus on any fresh tariff news or developments on ending the Ukraine-Russian war.  After Wednesday's close, Nvidia will release its quarterly earnings and guidance.  On Thursday, Q2 GDP is expected to be revised upward by +0.1 to 3.1% (q/q annualized). Also, weekly initial unemployment claims are expected to fall by -5,000 to 230,000.  On Friday, July personal spending is expected to climb +0.3% m/m, and July personal income is expected to rise +0.4% m/m.   Also, the July core PCE price index, the Fed's preferred inflation gauge, is expected to climb +0.2% m/m and +2.9% y/y.  In addition, the Aug MNI Chicago PMI is expected to fall -0.6 to 46.5.  Finally, the University of Michigan's final-Aug US consumer sentiment index is expected to be unrevised at 58.6.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 87% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates. \n\nOverseas stock markets closed lower on Tuesday.  The Euro Stoxx 50 fell to a 1.5-week low and closed down -1.11%.  China's Shanghai Composite fell from a new 10-year high and closed down -0.39%.  Japan's Nikkei Stock 225 dropped to a 2-week low and closed down -0.97%.\n\nINTEREST RATES\n\nSeptember 10-year T-notes (ZNU5 [https://www.barchart.com/futures/quotes/ZN*0/overview]) on Tuesday closed up +7.5 ticks, and the 10-year T-note yield fell -2.1 bp to 4.254%. \n\nT-notes recovered from early losses on Tuesday and moved higher after strong demand for the Treasury's $69 billion auction of 2-year T-notes sparked short covering in T-note futures.  The auction had a bid-to-cover ratio of 2.69, better than the 10-auction average of 2.62.  T-notes also garnered support when Fed Governor Cook said she has no plans to resign and that \"no cause exists\" for President Trump to fire her. \n\nT-notes initially moved lower on Tuesday after President Trump said he will move to fire Fed Governor Cook, exacerbating investor concerns about the Fed's independence and fanning inflation fears if politics forces interest rates below the neutral rate.  Also, rising inflation expectations undercut T-note prices after the 10-year breakeven inflation expectations rate rose to a 3.5-week high on Tuesday of 2.438%.  In addition, today's stronger-than-expected US core capital goods and consumer confidence reports were bearish for T-notes.\n\nEuropean government bond yields on Tuesday were mixed.  The 10-year German bund yield fell -3.4 bp to 2.723%. 10-year UK gilt yield rose to a 3-month high of 4.765% and finished up +4.7 bp to 4.740%.\n\nThe French Aug consumer confidence indicator unexpectedly fell -1 to a 1.75-year low of 87, weaker than expectations of 89.\n\nSwaps are discounting the chances at 1% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS STOCK MOVERS\n\nStrength in semiconductor makers on Tuesday supported gains in the broader market.  Marvell Technology (MRVL [https://www.barchart.com/stocks/quotes/MRVL/overview]) closed up more than +2%.  Also, Nvidia (NVDA [https://www.barchart.com/stocks/quotes/NVDA/overview]), Applied Materials (AMAT [https://www.barchart.com/stocks/quotes/AMAT/overview]), Advanced Micro Devices (AMD [https://www.barchart.com/stocks/quotes/AMD/overview]), ARM Holdings Plc (ARM [https://www.barchart.com/stocks/quotes/ARM/overview]), Qualcomm (QCOM [https://www.barchart.com/stocks/quotes/QCOM/overview]), Lam Research (LRCX [https://www.barchart.com/stocks/quotes/LRCX/overview]), and Broadcom (AVGO [https://www.barchart.com/stocks/quotes/AVGO/overview]) closed up more than +1%. \n\nEli Lilly (LLY [https://www.barchart.com/stocks/quotes/GNRC/overview]) closed up more than +5% to lead gainers in the S&P 500 after the company said a second trial of its experimental obesity pill showed patients lost weight and saw significant improvements in blood sugar levels.\n\nBoeing (BA [https://www.barchart.com/stocks/quotes/PDD/overview]) closed up more than +3% to lead gainers in the Dow Jones Industrials after Reuters reported that Korea Air is expected to announce an order for about 100 Boeing airplanes. \n\nEchoStar (SATS [https://www.barchart.com/stocks/quotes/SATS/overview]) closed up more than +70% after AT&T announced an agreement to buy spectrum licenses from the company for about $23 billion. \n\nSemtech (SMTC [https://www.barchart.com/stocks/quotes/SMTC/overview]) closed up more than +14% after reporting Q2 adjusted gross margin of 53.2%, above the consensus of 53.0%.\n\nVF Corp (VFC [https://www.barchart.com/stocks/quotes/VFC/overview]) closed up more than +5% after Baird upgraded the stock to outperform from neutral with a price target of $20.\n\nKinetik Holdings (KNTK [https://www.barchart.com/stocks/quotes/KNTK/overview]) closed up more than +2% after S&P Dow Jones Indices announced the company will replace Pacific Premier Bancorp in the S&P SmallCap 600 effective before the opening of trading on Tuesday, September 2. \n\nKeurig Dr Pepper (KDP [https://www.barchart.com/stocks/quotes/KDP/overview]) closed down more than 6% to lead the losers in the S&P 500 and Nasdaq 100 after HSBC downgraded the stock to \"hold\" from \"buy.\"\n\nBrown-Forman (BF.B [https://www.barchart.com/stocks/quotes/AS/overview]) closed down more than -4% after the company said CFO Cunningham will retire on May 1, 2026.\n\nShoe Carnival (SCVL [https://www.barchart.com/stocks/quotes/SCVL/overview]) closed down more than -4% after Seaport Global Securities downgraded the stock to neutral from buy.\n\nConstellation Brands (STZ [https://www.barchart.com/stocks/quotes/STZ/overview]) closed down more than -3% after Bank of America downgraded the stock to underperform from neutral with a price target of $150.\n\nGenerac Holdings (GNRC [https://www.barchart.com/stocks/quotes/GNRC/overview]) closed down more than -1% after Citigroup downgraded the stock to neutral from buy. \n\nSalesforce (CRM [https://www.barchart.com/stocks/quotes/CRM/overview]) closed down more than -1% to lead losers in the Dow Jones Industrials after Oppenheimer & Co. cut its price target on the stock to $315 from $370.\n\nEARNINGS REPORTS(8/27/2025)\n\nAgilent Technologies Inc (A), BILL Holdings Inc (BILL), Cooper Cos Inc/The (COO), Crowdstrike Holdings Inc (CRWD), Donaldson Co Inc (DCI), Five Below Inc (FIVE), HP Inc (HPQ), J M Smucker Co/The (SJM), NetApp Inc (NTAP), Nutanix Inc (NTNX), NVIDIA Corp (NVDA), Pure Storage Inc (PSTG), Snowflake Inc (SNOW), Veeva Systems Inc (VEEV), Williams-Sonoma Inc (WSM).\n\n_ On the date of publication, Rich Asplund [https://www.barchart.com/news/authors/5/rich-asplund] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T20:40:46+00:00",
+            "title": "Trump Hints at U.S. Trade Leverage Over China as Rare Earth Tensions Resurface",
+            "content": "This article first appeared on GuruFocus.\n\nPresident Donald Trump suggested the U.S. could hold stronger negotiating leverage over China in the ongoing trade discussions, pointing to rare earth magnets and aerospace parts as potential pressure points. China, which currently controls about 90% of global rare earth production, halted most shipments to the U.S. in April before agreeing to resume flows under a trade truce, with July shipments reaching a six-month high. MP Materials (NYSE:MP), the only U.S. rare earths miner, is expected to begin commercial magnet production later this year, supported by Pentagon-backed expansion plans through the decade. While Trump floated the possibility of tariffs of up to 200% if China restricts supply again, he also indicated that current shipments have normalized and suggested the immediate tension may have eased.\n\nWarning! GuruFocus has detected 6 Warning Signs with MP. Is MP fairly valued? Test your thesis with our free DCF calculator.\n\nTalks between Washington and Beijing could gain traction this week as a senior Chinese trade negotiator prepares to visit the U.S., according to the Wall Street Journal. Trump highlighted the significance of U.S. aerospace exports, saying roughly 200 Chinese jets had previously been grounded because of restricted access to Boeing (NYSE:BA) parts. While he eventually authorized the release of those parts, Trump stressed that the U.S. retains significant leverage in aviation supply chains. Market analysts noted that restoring business confidence in China could depend on a broader and more durable trade settlement, with near-term discussions possibly shaping sentiment around both nations manufacturing and technology sectors.\n\nChinese officials expressed a willingness to stabilize relations, saying they aim to advance the steady, sound and sustainable development of bilateral ties while continuing to safeguard sovereignty and security. Trump reaffirmed his great relationship with President Xi Jinping and signaled a possible visit to China, with Octobers APEC summit in South Korea emerging as a potential backdrop for a meeting. Investors are watching closely as progress on domestic magnet production and U.S. tariff flexibility could influence trade dynamics and shape supply chain strategies over the coming quarters.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "The Boeing Company",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 172000,
+          "description": "The Boeing Company, together with its subsidiaries, designs, develops, manufactures, sells, services, and supports commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems, and services worldwide. The company operates through three segments: Commerc"
+        },
+        "financial_metrics": {
+          "eps_ttm": -16.55,
+          "profit_margin": -0.1418,
+          "operating_margin": -0.0098,
+          "roe": 0,
+          "roa": -0.0373,
+          "revenue_growth_yoy": 0.349,
+          "earnings_growth_yoy": -0.68,
+          "eps_estimate_current_year": -2.0368,
+          "eps_estimate_next_year": 3.6909,
+          "revenue_ttm": 75326996480,
+          "revenue_per_share": 105.059,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 36.9004,
+          "price_to_sales": 2.2774,
+          "price_to_book": 0,
+          "enterprise_value": 204369008773,
+          "ev_to_revenue": 2.7131,
+          "ev_to_ebitda": 111.5619
+        },
+        "technical_data": {
+          "beta": 1.476,
+          "52_week_high": 242.6899,
+          "52_week_low": 128.88,
+          "50_day_ma": 221.4666,
+          "200_day_ma": 185.728,
+          "short_interest": 0.0227,
+          "short_ratio": 2.21
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "dividend_date": "2020-03-06",
+          "ex_dividend_date": "2020-02-13",
+          "last_split_date": "1997-06-09",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1333,
+          "target_price": 247.875,
+          "strong_buy": 16,
+          "buy": 4,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 756158016,
+          "percent_institutions": 74.49,
+          "percent_insiders": 0.073,
+          "shares_float": 724315894
+        },
+        "balance_latest_sheet": {
+          "total_assets": 155120.0,
+          "total_debt": 53323.0,
+          "cash_and_equivalents": 7087.0,
+          "net_debt": 46236.0,
+          "working_capital": 23925.0,
+          "shareholders_equity": -3295.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": -16.18
+        },
+        "income_latest_statement": {
+          "total_revenue": 22749.0,
+          "gross_profit": 2450.0,
+          "operating_income": -255.0,
+          "net_income": -611.0,
+          "ebitda": 609.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 10.77,
+          "operating_margin": -1.12,
+          "net_margin": -2.69
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 227.0,
+          "free_cash_flow": 227.0,
+          "capex": 427.0,
+          "net_income": -612.0,
+          "cash_change": -2367.0,
+          "dividends_paid": 86.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.32,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 232.13,
+            "high": 233.565,
+            "low": 227.3016,
+            "close": 229.9,
+            "volume": 7474340
+          },
+          {
+            "date": "2025-07-17",
+            "open": 230.11,
+            "high": 232.59,
+            "low": 227.75,
+            "close": 231,
+            "volume": 7892608
+          },
+          {
+            "date": "2025-07-18",
+            "open": 231.43,
+            "high": 232.25,
+            "low": 227.52,
+            "close": 229.34,
+            "volume": 5974525
+          },
+          {
+            "date": "2025-07-21",
+            "open": 229.4,
+            "high": 232.5,
+            "low": 228.02,
+            "close": 229.32,
+            "volume": 4183298
+          },
+          {
+            "date": "2025-07-22",
+            "open": 228.3,
+            "high": 230.3084,
+            "low": 225.55,
+            "close": 228.48,
+            "volume": 4737715
+          },
+          {
+            "date": "2025-07-23",
+            "open": 230.32,
+            "high": 235.27,
+            "low": 229.31,
+            "close": 233.88,
+            "volume": 7302900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 233.91,
+            "high": 235.23,
+            "low": 231.05,
+            "close": 231.27,
+            "volume": 6160200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 232.02,
+            "high": 233.31,
+            "low": 228.84,
+            "close": 233.06,
+            "volume": 4628468
+          },
+          {
+            "date": "2025-07-28",
+            "open": 233.24,
+            "high": 236.63,
+            "low": 232.91,
+            "close": 236.41,
+            "volume": 7923759
+          },
+          {
+            "date": "2025-07-29",
+            "open": 239.5,
+            "high": 242.6899,
+            "low": 225.26,
+            "close": 226.08,
+            "volume": 20163650
+          },
+          {
+            "date": "2025-07-30",
+            "open": 227.84,
+            "high": 231.72,
+            "low": 224.35,
+            "close": 225.84,
+            "volume": 9354568
+          },
+          {
+            "date": "2025-07-31",
+            "open": 224.02,
+            "high": 225,
+            "low": 221.15,
+            "close": 221.84,
+            "volume": 7824977
+          },
+          {
+            "date": "2025-08-01",
+            "open": 219.45,
+            "high": 222.46,
+            "low": 215.9,
+            "close": 221.9,
+            "volume": 8572191
+          },
+          {
+            "date": "2025-08-04",
+            "open": 220.15,
+            "high": 222.845,
+            "low": 218.03,
+            "close": 222.34,
+            "volume": 5997263
+          },
+          {
+            "date": "2025-08-05",
+            "open": 222.37,
+            "high": 226.03,
+            "low": 221.065,
+            "close": 224.86,
+            "volume": 5687360
+          },
+          {
+            "date": "2025-08-06",
+            "open": 225.7,
+            "high": 226.57,
+            "low": 224.0448,
+            "close": 225.04,
+            "volume": 3898823
+          },
+          {
+            "date": "2025-08-07",
+            "open": 226.15,
+            "high": 230.39,
+            "low": 224.5801,
+            "close": 227.33,
+            "volume": 4563135
+          },
+          {
+            "date": "2025-08-08",
+            "open": 227.5,
+            "high": 230.9,
+            "low": 227.38,
+            "close": 229.12,
+            "volume": 4724210
+          },
+          {
+            "date": "2025-08-11",
+            "open": 229,
+            "high": 229.32,
+            "low": 225.17,
+            "close": 225.96,
+            "volume": 4872738
+          },
+          {
+            "date": "2025-08-12",
+            "open": 226.95,
+            "high": 232.61,
+            "low": 226.46,
+            "close": 232.61,
+            "volume": 7402161
+          },
+          {
+            "date": "2025-08-13",
+            "open": 233.25,
+            "high": 235.5999,
+            "low": 229.33,
+            "close": 233.37,
+            "volume": 6670421
+          },
+          {
+            "date": "2025-08-14",
+            "open": 231.65,
+            "high": 233.97,
+            "low": 230.86,
+            "close": 233.19,
+            "volume": 5320751
+          },
+          {
+            "date": "2025-08-15",
+            "open": 233.36,
+            "high": 236.45,
+            "low": 231.4277,
+            "close": 235.26,
+            "volume": 6291381
+          },
+          {
+            "date": "2025-08-18",
+            "open": 234.47,
+            "high": 235.157,
+            "low": 229.11,
+            "close": 232.41,
+            "volume": 8456028
+          },
+          {
+            "date": "2025-08-19",
+            "open": 232,
+            "high": 232.4316,
+            "low": 223.75,
+            "close": 225,
+            "volume": 9061071
+          },
+          {
+            "date": "2025-08-20",
+            "open": 224.49,
+            "high": 226.3712,
+            "low": 223.6001,
+            "close": 225.62,
+            "volume": 5015978
+          },
+          {
+            "date": "2025-08-21",
+            "open": 227.13,
+            "high": 227.58,
+            "low": 223.71,
+            "close": 224.46,
+            "volume": 6101140
+          },
+          {
+            "date": "2025-08-22",
+            "open": 225.41,
+            "high": 233.7,
+            "low": 225.24,
+            "close": 230.12,
+            "volume": 8678400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 229.6,
+            "high": 230.25,
+            "low": 226.6,
+            "close": 226.87,
+            "volume": 4757569
+          },
+          {
+            "date": "2025-08-26",
+            "open": 228,
+            "high": 234.83,
+            "low": 227.98,
+            "close": 234.83,
+            "volume": 7366566
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.8703113941967446,
+        "return_63d": 16.54094292803971,
+        "pct_above_sma50": 5.727126065913801,
+        "sma_50": 222.1568,
+        "new_55d_high": "False",
+        "high_55d": 242.6899,
+        "rsi": 60.68543986029253,
+        "rsi_in_range": "True",
+        "adx": 17.296145795620728,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.2959161946940325,
+        "bb_width": 7.69216872120617,
+        "keltner_width": 9.471308674631333,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1488367853.4901748,
+        "adv_shares": 6530836.55,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.9805198670517,
+        "final_score": 50.9805198670517,
+        "sub_scores": {
+          "trend_momentum": 15.462683182103497,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20.517836684948204,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": -0.668330442874665,
+          "ret_63d": 16.813410933691486,
+          "rsi14": 60.68543986029253,
+          "adx14": 14.5111916707129,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BA\n• Current Price: $234.88\n• Overall Score: 51.64917449663228\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 221.4666\n• Sma 200: 185.728\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.6683304428746601\n• Momentum 63D: 16.813410933691493\n• Momentum 126D: 31.727155438379985\n• Momentum Acceleration: -17.481741376566152\n• Roc 21D: -0.6683304428746601\n• Trend Strength 20D: 0.2615626253158977\n• Trend Direction: 1\n• Ma Ribbon Score: 83.34921036414968\n• Breakout Strength: 0.0\n• Price Velocity: 0.008758669597185742\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 16.0\n• Squeeze Momentum: 0.26502346754654765\n• Volatility Compression: 32.408380656973115\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.462683182103497\n• Squeeze Breakout: 4.0\n• Options Quality: 20.517836684948204\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 48.0\n• Squeeze: 59.86125709854597\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BA\n• Strike Price: $230\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $13.55\n• Ask: $13.8\n• Last: $13.6\n• Mid: $13.675\n• Spread: 1.811594202898550724637681159%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6149\n• Gamma: 0.0146\n• Theta: -0.1111\n• Vega: 0.3388\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2961\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 746\n• Open Interest: 2837\n• Volume/OI Ratio: 0.26295382446246035\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: The Boeing Company\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $-16.55\n• Profit Margin: -14.2%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T22:44:54+00:00: Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields...\n• 2025-08-26T21:02:00+00:00: Small Stocks Lead Markets Higher...\n• 2025-08-26T20:50:58+00:00: Dow Jones Futures: Market Rallies Into Nvidia, Tesla Breaks Out; 5 Stocks Near B...\n• 2025-08-26T20:41:43+00:00: Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields...\n• 2025-08-26T20:40:46+00:00: Trump Hints at U.S. Trade Leverage Over China as Rare Earth Tensions Resurface...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:14:47.362513",
+    "estimated_tokens": 2320
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BA\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 3,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BA shows strong technical momentum with price above both SMAs and an 83.3 MA ribbon score, but faces fundamental challenges with negative EPS and margins. The presence of a volatility squeeze across 3 timeframes suggests potential for a significant move, though earnings risk looms near-term.\",\n    \"opportunities\": [\n        \"Price trending well above both 50 SMA (221.47) and 200 SMA (185.73)\",\n        \"Multi-timeframe squeeze present with strong breakout score (100)\",\n        \"Options contract shows reasonable liquidity with 1.81% spread\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -$16.55 EPS and -14.2% profit margin\",\n        \"Earnings approaching on 2025-09-30\",\n        \"Negative momentum acceleration (-17.48) suggests potential trend weakening\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread to reduce theta impact while maintaining upside exposure\",\n        \"entry_timing\": \"Consider partial position now with remainder after earnings\",\n        \"risk_management\": \"Use 230 strike as support level, size position small given fundamental weakness\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 35 days\",\n        \"Significant negative earnings and profit margins\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup appears promising, fundamental weakness and upcoming earnings create elevated risk profile. Consider reducing position size or waiting for earnings clarity.\"\n}",
+    "parsed_analysis": {
+      "symbol": "BA",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 3,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "BA shows strong technical momentum with price above both SMAs and an 83.3 MA ribbon score, but faces fundamental challenges with negative EPS and margins. The presence of a volatility squeeze across 3 timeframes suggests potential for a significant move, though earnings risk looms near-term.",
+      "opportunities": [
+        "Price trending well above both 50 SMA (221.47) and 200 SMA (185.73)",
+        "Multi-timeframe squeeze present with strong breakout score (100)",
+        "Options contract shows reasonable liquidity with 1.81% spread"
+      ],
+      "risks": [
+        "Poor fundamentals with -$16.55 EPS and -14.2% profit margin",
+        "Earnings approaching on 2025-09-30",
+        "Negative momentum acceleration (-17.48) suggests potential trend weakening"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread to reduce theta impact while maintaining upside exposure",
+        "entry_timing": "Consider partial position now with remainder after earnings",
+        "risk_management": "Use 230 strike as support level, size position small given fundamental weakness"
+      },
+      "red_flags": [
+        "Imminent earnings event within 35 days",
+        "Significant negative earnings and profit margins",
+        "Declining momentum acceleration"
+      ],
+      "notes": "While technical setup appears promising, fundamental weakness and upcoming earnings create elevated risk profile. Consider reducing position size or waiting for earnings clarity."
+    },
+    "tokens_used": 2565,
+    "cost": 0.02565,
+    "response_time": 11.367962121963501,
+    "success": true
+  },
+  "cost": 0.02565,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8497,
+    "response_length": 1765
+  }
+}

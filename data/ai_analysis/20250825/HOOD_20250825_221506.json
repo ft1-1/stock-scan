@@ -1,0 +1,629 @@
+{
+  "success": true,
+  "symbol": "HOOD",
+  "timestamp": "2025-08-25T22:15:06.525936",
+  "data_package": {
+    "metadata": {
+      "symbol": "HOOD",
+      "package_timestamp": "2025-08-25T22:14:56.186699",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "HOOD",
+        "current_price": 107.7301,
+        "overall_score": 51.74391208109239,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 98.3692,
+        "sma_200": 59.6615
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.947067238912736,
+        "momentum_63d": 70.87224948551527,
+        "momentum_126d": 116.18265571800521,
+        "momentum_acceleration": -67.92518224660253,
+        "roc_21d": 2.947067238912736,
+        "trend_strength_20d": 0.16849462707208016,
+        "trend_direction": 1,
+        "ma_ribbon_score": 72.14318043809526,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.012114588133739734
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 16.0,
+        "squeeze_momentum": -0.20080321887600386,
+        "volatility_compression": 10.566300138976922,
+        "is_consolidating": "False",
+        "breakout_score": -33.49648383699732,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.03128722231892,
+        "squeeze_breakout": 4.0,
+        "options_quality": 21.360971428571446,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 51.58494502084654,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 7,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "HOOD",
+        "strike_price": "105",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.15",
+        "ask": "12.35",
+        "last_price": "12.31",
+        "mid_price": "12.25",
+        "spread_percent": "1.619433198380566801619433198"
+      },
+      "greeks": {
+        "delta": 0.6011,
+        "gamma": 0.0145,
+        "theta": -0.1031,
+        "vega": 0.1586
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.6476
+      },
+      "liquidity_metrics": {
+        "volume": 438,
+        "open_interest": 25152,
+        "volume_oi_ratio": 0.01741412213740458
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:19.648389",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T18:51:10+00:00",
+            "title": "Insider report: The stocks with the biggest recent sales by executives from Circle Internet, Zillow, Applovin and more",
+            "content": "A flurry of stock sales were made in names such as Circle Internet Group and Zillow Group last week as company executives and other corporate insiders offloaded their shares. Insider selling is followed by traders who expect the activity could point to deeper troubles at a company, though the motivations can vary. VerityData tracks the information, which is confirmed against the original Securities and Exchange Commission filings. The list excludes filings where the disclosure explicitly says the sale was conducted pursuant to preplanned 10b5-1 trading plans. Instead, the focus is on discretionary activity. Here are some of the most notable sales from the last week. Circle Internet Group CEO Jeremy Allaire sold 358,000 shares at an average price of $127.08 for a total of $45.5 million, according to regulatory filings . The sale reduced his holdings by 2%, and was made as part of the company's secondary offering . Circle , one of the earliest companies in the cryptocurrency industry, issues USD Coin, the second largest stablecoin in the world. Circle priced its IPO at $31, and shares shot up 168% on its first day of trading on June 5. Since then, the stock has been highly volatile. The secondary offering put pressure on the stock, and it has fallen more than 20% since it was announced on Aug. 12. Shares are trading 57% below the June high. CRCL 3M mountain Circle, over three months Zillow Group Zillow Group co-executive chairman and President Richard Barton sold 350,000 shares at an average price of $85.25 for a total of $29.8 million. The sale reduced holdings by 6%. What's more, co-executive chairman Lloyd Frink sold 250,000 shares at an average price of $85.00 for a total of $21.3 million. Barton and Frink sold outside their typical 10b5-1 trading plans, according to a note from Verity. Barton's last sale outside of a trading plan was 2017. Zillow shares are up nearly 25% quarter to date. Applovin Arash Adam Foroughi, chief executive at the mobile technology company, sold 178,000 shares at an average price of $418.78 for a total of $74.3 million. The sale reduced his holdings by 2%. Applovin shares are up 29% since the quarter began. Monolithic Power Systems Monolithic Power Systems CEO Michael Hsing sold 20,000 shares at an average price of $829.10 for a total of $16.8 million. The sale reduced his holdings by 2%. Verity notes this was a step-out sale after Hsing terminated a 10b5-1 trading plan, his first non-planned sales since 2019. Cardinal Health Cardinal Health CEO Jason Hollar sold 143,000 shares of the global health-care services and products company at an average price of $149.19 for a total of $21.4 million, securities filings show. The sale reduced holdings by 31.3%. Shares are slightly down, by 4%, over the past three months, but are up 24% year to date. . Verity notes a number of executives' sales coincide with stock award vestings: Eight executives, including CEO Jason Hollar, sold at $149.09 following vestings, a negative development as shares of the healthcare conglomerate have pulled back to levels within ~10% of their July all-time high. The activity marks the third such year that insiders have sold their post-vesting stock but this period stands out as it's accelerated each year at successively higher prices. CAH YTD mountain Cardinal Health, year to date Hollar led the activity as he sold 143,600 shares for $21.4 million, which compares with the 170,900 post-tax shares that vested days earlier, and leaves him with 27,300 shares retained from the vesting. CFO Aaron Alt sold 48,200 shares for $7.2 million, accelerating far above his post-vesting sale from last year and selling beyond the 42,800 post-tax shares that vested recently. While the CEO's sales were in line with his vestings, each of the others sold beyond the shares that vested this quarter, and that acceleration near the all-time high leaves us a bit cautious of Cardinal. Willdan Group Thomas Brisbin, director at Willdan Group , sold 125,000 shares of the the technical and consulting services firm to utilities companies, at an average price of $109.58 for a total of $13.7 million. The sale reduced his holdings by 28%. Verity noted that Chairman and former CEO Thomas Brisbin has led selling by four insiders in unusual multi-insider activity this quarter as shares of the technical and consulting services company have risen dramatically over the last several months, surging to new all-time highs. Willdan shares are up 126% over the past three months. Brisbin, who retired as CEO at the end of 2023, cut his non-option holdings by 28% with his sale at no less than $108 and he tacked on an option sale. He has routinely sold short-life options but his deviations to sell non-option shares have been timely, including a sale in November 2024 at $42.49 near a peak. Informatica Informatica CEO Amit Walia sold 508,000 shares of the enterprise cloud data management leader at an average price of $24.71 for a total of $12.6 million. The sale reduced his holdings by 20%. Shares are up about 10% over the past three months. Robinhood Robinhood CFO Jason Warnick, chief financial officer at the trading platform, sold 100,000 shares at an average price of $110.93 for a total of $11.1 million. The sale reduced Warnick's holdings by 16%. Shares are up almost 72% over past three months.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T15:27:41+00:00",
+            "title": "Kalshi hires influencer John Wang to lead prediction marketplace's crypto push",
+            "content": "[Coin on CPU background. data and innovation cryptocurrency technology, Crypto payments.]\n\nPrediction marketplace Kalshi has tapped crypto influencer John Wang, as it looks to build stronger ties to the digital asset world.\n\nPrior to joining Kalshi, Wang was advising early-stage crypto firms and writing content relating to crypto and finance on social media platform X. He had dropped out of the University of Pennsylvania to establish Armor Labs, which another company later acquired.\n\n\"Crypto will be existential to Kalshi’s success just like it is for Robinhood (HOOD [https://seekingalpha.com/symbol/HOOD]), Stripe (STRP), and Coinbase (COIN [https://seekingalpha.com/symbol/COIN]),\" 23-year-old Wang wrote in an X article. \n\n\"Unlike others, Kalshi already has real penetration with mainstream users beyond crypto, strong financials with real paying customers, and structural liquidity advantages that attract Wall Street’s top market makers like SIG,\" he added. \n\nPolymarket, a blockchain-based prediction market rival, does not permit access for U.S. users. \n\nKalshi and Polymarket both saw a surge in popularity ahead of the U.S. presidential election in November. \n\nBloomberg first reported on Kalshi hiring Wang. \n\nMORE ON MARKETS\n\n \t* Kuaishou: Becoming Positive On AI Initiatives And Capital Return (Rating Upgrade) [https://seekingalpha.com/article/4816504-kuaishou-positive-ai-initiatives-and-capital-return-rating-upgrade]\n \t* OverActive Media Corp. (OAMCF) Q2 2025 Earnings Call Transcript [https://seekingalpha.com/article/4816521-overactive-media-corp-oamcf-q2-2025-earnings-call-transcript]\n \t* Kopin: Accretive Defense Pivot Creates Opportunity, But Risks Keep Me At Hold [https://seekingalpha.com/article/4816503-kopin-accretive-defense-pivot-creates-opportunity-but-risks-keep-me-at-hold]\n \t* Seagate climbs 3% to reach record high as year-to-date surge continues [https://seekingalpha.com/news/4488807-seagate-climbs-3-percent-to-reach-record-high-as-year-to-date-surge-continues]\n \t* Grupo Financiero Galicia S.A. Q2 2025 Earnings Preview [https://seekingalpha.com/news/4488846-grupo-financiero-galicia-s-a-q2-2025-earnings-preview]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:46:11+00:00",
+            "title": "Robinhood Abandons Remote Work For Executives In Massive Reversal",
+            "content": "Many of the same corporations that embraced remote work during the pandemic have been gradually calling people back to the office. Robinhood Markets (NASDAQ:HOOD) is the latest company to follow this trend, as CEO Vlad Tenev pulls back from a remote-first environment.\n\n\"Everyone said it was a one-way door, but it turns out it's a two-way door,\" Tenev said in a \"Cheeky Pint\" podcast episode. \"You can reverse pretty much anything.\"\n\nAs a part of Robinhood's updated RTO mandate, executives must now go into the office five days per week. Managers and individual contributors must report to the office four and three days per week, respectively.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\nReturn To Office As A Downsizing Tool\n\nTenev's return-to-office mandate sparked a tidal wave of conversation on Reddit, with many people expressing their dissatisfaction that another big tech company was bringing people back into the office. One commenter mentioned that return-to-office mandates can be a way to mask layoffs.\n\n\"It’s bad press to lay off people. RTO is the new downsizing tool. It’s just a way to purge the rolls while AI takes the jobs,\" the commenter said.\n\nThe 2024 ZipRecruiter Annual Employer Survey backs up this argument. One of its conclusions was that companies that imposed RTO mandates reported annual turnover rates roughly 13% higher than companies that support remote work.\n\nTrending: An EA Co-Founder Shapes This VC Backed Marketplace—Now You Can Invest in Gaming's Next Big Platform\n\nRemote-First Has Worked For Robinhood\n\nTenev told \"Cheeky Pint\" host John Collison that he \"pretty much immediately\" regretted turning Robinhood into a remote-first company. Although a RTO mandate may make sense for a sinking ship, Robinhood stock has soared into another stratosphere.\n\nRobinhood's shares have almost tripled year-to-date, and it's not a meme bubble that's taking Robinhood stock to new highs. The fintech firm delivered 45% year-over-year revenue growth in Q2, while net income more than doubled year-over-year.\n\n\"We delivered strong business results in Q2 driven by relentless product velocity, and we launched tokenization— which I believe is the biggest innovation our industry has seen in the past decade,\" Tenev said in a statement accompanying Q2 results.\n\nStory Continues\n\nRobinhood's success as a company and its soaring stock price make it hard to say that the company's remote-first environment wasn't working.\n\nSee Also: The ECG Hasn't Changed in 100 Years — This AI Upgrade Could Help Detect Heart Disease Years Earlier\n\nDebates Emerge Over Robinhood's RTO Approach For Different Roles\n\nMany tech enthusiasts debated Robinhood's decision to have stricter RTO requirements based on an employee's role. Executives have to return to the office each weekday, while managers and individual contributors don't have to go to work as often.\n\n\"If you're an individual contributor and you're doing work, it's very nice to know that your manager is going through more pain than you,\" Tenev said in a Cheeky Pint interview.\n\nSome people cheered on the move, rationalizing that people who get paid more should go to the office more.\n\n\"So those who shoulder more responsibility are coming in more. What’s actually wrong here? This is the first sensible RTO policy I’ve ever seen. I’ve been a staunch critic of RTO in 99% of the cases,\" one Redditor said.\n\nHowever, another tech enthusiast said on Reddit that Robinhood's RTO mandate only sounds reasonable on the surface.\n\n\"It's reasonable in a false generosity/anchoring sort of way. Like when a store increases the cost of something just prior to a 50% sale to make it look like a good deal,\" the commenter said.\n\nRead Next: In a $34 Trillion Debt Era, The Right AI Could Be Your Financial Advantage — Learn More\n\nImage: Shutterstock\n\nUNLOCKED: 5 NEW TRADES EVERY WEEK. Click now to get top trade ideas daily, plus unlimited access to cutting-edge tools and strategies to gain an edge in the markets.\n\nGet the latest stock analysis from Benzinga?\n\nThis article Robinhood Abandons Remote Work For Executives In Massive Reversal originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:22:29+00:00",
+            "title": "Stock exchanges write to regulators urging clampdown on tokenized equities - report",
+            "content": "UK-based World Federation of Exchanges has written to three regulatory bodies, urging a clampdown on the so-called 'tokenized stocks', Reuters reported [https://www.reuters.com/sustainability/boards-policy-regulation/stock-exchanges-urge-regulators-crack-down-tokenised-stocks-2025-08-25/] on Monday, citing the letter.\n\nThe letter is said to have been sent to the U.S SEC's Crypto Task Force, the European Securities and Markets Authority, and IOSCO's Fintech Task Force.\n\nTokenised equities are blockchain-based tokens created to represent shares in companies, but investors do not become shareholders in the underlying company, the newswire noted.\n\nIn June, Coinbase Global (COIN [https://seekingalpha.com/symbol/COIN]) was reportedly seeking permission [https://seekingalpha.com/news/4458908-coinbase-reportedly-seeking-to-offer-stock-trading-via-blockchain] to offer \"tokenized equities\" to its customers. The move would allow its customers to trade stocks on the blockchain.\n\nSimilarly, Robinhood Markets (HOOD [https://seekingalpha.com/symbol/HOOD]) unveiled [https://seekingalpha.com/news/4463885-robinhood-beefs-up-crypto-push-with-tokenized-stocks-crypto-perpetual-futures-staking] U.S. stock and ETF tokens in the European Union, enabling eligible users to trade more than 200 digital versions of real company shares and ETFs on the blockchain.\n\nLater, OpenAI issued [https://seekingalpha.com/news/4465164-robinhood-ticks-lower-as-openai-rejects-tokenized-equity-tokens] a statement denying any affiliation with the tokenized equity offered by Robinhood, emphasizing that the tokens do not represent real ownership or equity in the company.\n\n\"We are alarmed at the plethora of brokers and crypto-trading platforms offering or intending to offer so-called tokenised U.S. stocks,\" the WFE reportedly wrote in the letter.\n\n\"These products are marketed as stock tokens or the equivalent to stocks when they are not,\" said the group representing the biggest stock exchanges.\n\nThe WFE noted that the companies whose stock is being mimicked could suffer reputational damage if the tokens fail, and regulators should apply securities rules to tokenised assets, according to Reuters.\n\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:01:00+00:00",
+            "title": "Strategy Buys 3,000 More Bitcoins. Why the Stock Is Falling.",
+            "content": "Strategy the world’s largest corporate holder of Bitcoin, said Monday it had snapped up another several thousand tokens. In the period from Aug. 18 to Aug. 24, the company formerly known as MicroStrategy bought 3,081 Bitcoins for around $356.9 million, or $115,829 per token, according to a form filed with the U.S. Securities and Exchange Commission. The latest purchase brought Strategy’s total holdings to 632,457 Bitcoins, acquired at an average price of $73,527 each.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Robinhood Markets Inc",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "employees": 2300,
+          "description": "Robinhood Markets, Inc. operates financial services platform in the United States. Its platform allows users to invest in stocks, exchange-traded funds (ETFs), American depository receipts, options, gold, and cryptocurrencies. The company offers fractional trading, recurring investments, fully-paid "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.97,
+          "profit_margin": 0.5013,
+          "operating_margin": 0.4439,
+          "roe": 0.2354,
+          "roa": 0.0466,
+          "revenue_growth_yoy": 0.45,
+          "earnings_growth_yoy": 1,
+          "eps_estimate_current_year": 1.8757,
+          "eps_estimate_next_year": 2.1063,
+          "revenue_ttm": 3567000064,
+          "revenue_per_share": 4.036,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 55.4924,
+          "forward_pe": 77.5194,
+          "price_to_sales": 27.2358,
+          "price_to_book": 12.0354,
+          "enterprise_value": 96251961166,
+          "ev_to_revenue": 26.984,
+          "ev_to_ebitda": 60.1199
+        },
+        "technical_data": {
+          "beta": 2.37,
+          "52_week_high": 117.7,
+          "52_week_low": 18.71,
+          "50_day_ma": 98.3692,
+          "200_day_ma": 59.6615,
+          "short_interest": 0.0384,
+          "short_ratio": 0.53
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0476,
+          "target_price": 113.0862,
+          "strong_buy": 8,
+          "buy": 6,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 773964032,
+          "percent_institutions": 72.533,
+          "percent_insiders": 0.736,
+          "shares_float": 765300330
+        },
+        "balance_latest_sheet": {
+          "total_assets": 35324.0,
+          "total_debt": 12640.0,
+          "net_debt": 8478.0,
+          "working_capital": 6711.0,
+          "shareholders_equity": 8072.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.57
+        },
+        "income_latest_statement": {
+          "total_revenue": 989.0,
+          "gross_profit": 912.0,
+          "operating_income": 440.0,
+          "net_income": 386.0,
+          "ebitda": 457.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 92.21,
+          "operating_margin": 44.49,
+          "net_margin": 39.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1829.0,
+          "free_cash_flow": 1811.0,
+          "capex": 18.0,
+          "net_income": 386.0,
+          "cash_change": 8602.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.3944,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 99.01,
+            "high": 101.26,
+            "low": 97.16,
+            "close": 99.54,
+            "volume": 45879352
+          },
+          {
+            "date": "2025-07-16",
+            "open": 100.02,
+            "high": 104.62,
+            "low": 99.7002,
+            "close": 103.25,
+            "volume": 54717340
+          },
+          {
+            "date": "2025-07-17",
+            "open": 103.535,
+            "high": 106.6396,
+            "low": 102.72,
+            "close": 105.45,
+            "volume": 39114434
+          },
+          {
+            "date": "2025-07-18",
+            "open": 109.75,
+            "high": 113.4393,
+            "low": 106.95,
+            "close": 109.74,
+            "volume": 74033266
+          },
+          {
+            "date": "2025-07-21",
+            "open": 109,
+            "high": 110.31,
+            "low": 104.07,
+            "close": 104.34,
+            "volume": 46430633
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.71,
+            "high": 105.93,
+            "low": 98.75,
+            "close": 101.85,
+            "volume": 44667367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 102.13,
+            "high": 102.68,
+            "low": 100.5401,
+            "close": 102.08,
+            "volume": 33805207
+          },
+          {
+            "date": "2025-07-24",
+            "open": 103,
+            "high": 103.0399,
+            "low": 100.3201,
+            "close": 101.93,
+            "volume": 26698131
+          },
+          {
+            "date": "2025-07-25",
+            "open": 101.545,
+            "high": 106.39,
+            "low": 101.05,
+            "close": 104.85,
+            "volume": 35637840
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.84,
+            "high": 107.13,
+            "low": 104.66,
+            "close": 106.77,
+            "volume": 30578430
+          },
+          {
+            "date": "2025-07-29",
+            "open": 106.61,
+            "high": 107.42,
+            "low": 103,
+            "close": 103.32,
+            "volume": 30568010
+          },
+          {
+            "date": "2025-07-30",
+            "open": 103.85,
+            "high": 107.46,
+            "low": 103.35,
+            "close": 106.1,
+            "volume": 39913480
+          },
+          {
+            "date": "2025-07-31",
+            "open": 103.865,
+            "high": 109.06,
+            "low": 101.07,
+            "close": 103.05,
+            "volume": 58057602
+          },
+          {
+            "date": "2025-08-01",
+            "open": 97.8,
+            "high": 104.59,
+            "low": 93.36,
+            "close": 99.9,
+            "volume": 76745148
+          },
+          {
+            "date": "2025-08-04",
+            "open": 101.229,
+            "high": 106.79,
+            "low": 97.1532,
+            "close": 106.37,
+            "volume": 46466000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 105.97,
+            "high": 107.3,
+            "low": 103.22,
+            "close": 105.46,
+            "volume": 33460910
+          },
+          {
+            "date": "2025-08-06",
+            "open": 104.505,
+            "high": 105.9,
+            "low": 101.18,
+            "close": 105.65,
+            "volume": 33023520
+          },
+          {
+            "date": "2025-08-07",
+            "open": 107.89,
+            "high": 112.6344,
+            "low": 107.4,
+            "close": 111.23,
+            "volume": 44736008
+          },
+          {
+            "date": "2025-08-08",
+            "open": 111.5,
+            "high": 117,
+            "low": 110.9,
+            "close": 114.63,
+            "volume": 41905727
+          },
+          {
+            "date": "2025-08-11",
+            "open": 116.22,
+            "high": 117.47,
+            "low": 113.39,
+            "close": 113.62,
+            "volume": 36942289
+          },
+          {
+            "date": "2025-08-12",
+            "open": 115.04,
+            "high": 117.7,
+            "low": 113.18,
+            "close": 114.09,
+            "volume": 31527529
+          },
+          {
+            "date": "2025-08-13",
+            "open": 115.65,
+            "high": 116.4,
+            "low": 107.28,
+            "close": 108.62,
+            "volume": 54719727
+          },
+          {
+            "date": "2025-08-14",
+            "open": 107.88,
+            "high": 111.46,
+            "low": 106.31,
+            "close": 110.71,
+            "volume": 34395246
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.73,
+            "high": 114.36,
+            "low": 108.61,
+            "close": 114.17,
+            "volume": 32215891
+          },
+          {
+            "date": "2025-08-18",
+            "open": 113,
+            "high": 115.09,
+            "low": 109.78,
+            "close": 115.02,
+            "volume": 35579152
+          },
+          {
+            "date": "2025-08-19",
+            "open": 116.12,
+            "high": 117.46,
+            "low": 106.5,
+            "close": 107.5,
+            "volume": 49635648
+          },
+          {
+            "date": "2025-08-20",
+            "open": 106.665,
+            "high": 107.98,
+            "low": 99,
+            "close": 105.34,
+            "volume": 56515328
+          },
+          {
+            "date": "2025-08-21",
+            "open": 105.03,
+            "high": 108.21,
+            "low": 104.35,
+            "close": 106.3,
+            "volume": 34679020
+          },
+          {
+            "date": "2025-08-22",
+            "open": 105.53,
+            "high": 111.8825,
+            "low": 103.8,
+            "close": 109.32,
+            "volume": 39922160
+          },
+          {
+            "date": "2025-08-25",
+            "open": 108.49,
+            "high": 109.85,
+            "low": 105.95,
+            "close": 107.94,
+            "volume": 29194569
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.0958134307389733,
+        "return_63d": 63.495910330202975,
+        "pct_above_sma50": 8.762034180302695,
+        "sma_50": 99.05120000000001,
+        "new_55d_high": "False",
+        "high_55d": 117.7,
+        "rsi": 53.3013844515442,
+        "rsi_in_range": "True",
+        "adx": 10.030066403016065,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.9761765795812485,
+        "bb_width": 15.989938768414008,
+        "keltner_width": 23.843077096087914,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 4554614237.399401,
+        "adv_shares": 42010148.2,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 54.39225865089037,
+        "final_score": 49.39225865089037,
+        "sub_scores": {
+          "trend_momentum": 18.03128722231892,
+          "squeeze_breakout": 4.0,
+          "options_quality": 21.360971428571446,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 2.9470672389127373,
+          "ret_63d": 70.87224948551527,
+          "rsi14": 53.3013844515442,
+          "adx14": 8.239207860974387,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: HOOD\n• Current Price: $107.7301\n• Overall Score: 51.74391208109239\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 98.3692\n• Sma 200: 59.6615\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.947067238912736\n• Momentum 63D: 70.87224948551527\n• Momentum 126D: 116.18265571800521\n• Momentum Acceleration: -67.92518224660253\n• Roc 21D: 2.947067238912736\n• Trend Strength 20D: 0.16849462707208016\n• Trend Direction: 1\n• Ma Ribbon Score: 72.14318043809526\n• Breakout Strength: 0.0\n• Price Velocity: -0.012114588133739734\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 16.0\n• Squeeze Momentum: -0.20080321887600386\n• Volatility Compression: 10.566300138976922\n• Is Consolidating: False\n• Breakout Score: -33.49648383699732\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.03128722231892\n• Squeeze Breakout: 4.0\n• Options Quality: 21.360971428571446\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 51.58494502084654\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: HOOD\n• Strike Price: $105\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.15\n• Ask: $12.35\n• Last: $12.31\n• Mid: $12.25\n• Spread: 1.619433198380566801619433198%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6011\n• Gamma: 0.0145\n• Theta: -0.1031\n• Vega: 0.1586\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.6476\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 438\n• Open Interest: 25152\n• Volume/OI Ratio: 0.01741412213740458\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Robinhood Markets Inc\n• Sector: Financial Services\n• Industry: Capital Markets\n• EPS (TTM): $1.97\n• Profit Margin: 50.1%\n• ROE: 23.5%\n• P/E Ratio: 55.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T18:51:10+00:00: Insider report: The stocks with the biggest recent sales by executives from Circ...\n• 2025-08-25T15:27:41+00:00: Kalshi hires influencer John Wang to lead prediction marketplace's crypto push...\n• 2025-08-25T14:46:11+00:00: Robinhood Abandons Remote Work For Executives In Massive Reversal...\n• 2025-08-25T14:22:29+00:00: Stock exchanges write to regulators urging clampdown on tokenized equities - rep...\n• 2025-08-25T14:01:00+00:00: Strategy Buys 3,000 More Bitcoins. Why the Stock Is Falling....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR HOOD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the HOOD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:15:06.525605",
+    "estimated_tokens": 2345
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"HOOD\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"HOOD shows strong momentum with 126D momentum of 116.18% and is trading above both 50 and 200 SMAs, but faces near-term headwinds with negative momentum acceleration (-67.92) and upcoming earnings risk. Options positioning shows decent liquidity with moderate spreads (1.62%) and balanced Greeks profile.\",\n    \"opportunities\": [\n        \"Strong long-term momentum with price well above major moving averages\",\n        \"Active squeeze condition with 16-day duration and multiple timeframe confirmation\",\n        \"Healthy options liquidity with tight bid-ask spread and strong open interest (25,152)\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration (-67.92)\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"High P/E ratio of 55.5x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure while maintaining upside exposure\",\n        \"entry_timing\": \"Current entry suboptimal due to negative momentum acceleration and upcoming earnings\",\n        \"risk_management\": \"Use 105 strike as pivot point, consider rolling down if price breaks below 50 SMA at 98.37\"\n    },\n    \"red_flags\": [\n        \"Earnings report in <40 days increases short-term risk\",\n        \"Negative momentum acceleration suggests potential trend weakening\"\n    ],\n    \"notes\": \"While long-term trend remains positive, short-term technical deterioration and upcoming earnings suggest waiting for better entry point\"\n}",
+    "parsed_analysis": {
+      "symbol": "HOOD",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "HOOD shows strong momentum with 126D momentum of 116.18% and is trading above both 50 and 200 SMAs, but faces near-term headwinds with negative momentum acceleration (-67.92) and upcoming earnings risk. Options positioning shows decent liquidity with moderate spreads (1.62%) and balanced Greeks profile.",
+      "opportunities": [
+        "Strong long-term momentum with price well above major moving averages",
+        "Active squeeze condition with 16-day duration and multiple timeframe confirmation",
+        "Healthy options liquidity with tight bid-ask spread and strong open interest (25,152)"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration (-67.92)",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "High P/E ratio of 55.5x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure while maintaining upside exposure",
+        "entry_timing": "Current entry suboptimal due to negative momentum acceleration and upcoming earnings",
+        "risk_management": "Use 105 strike as pivot point, consider rolling down if price breaks below 50 SMA at 98.37"
+      },
+      "red_flags": [
+        "Earnings report in <40 days increases short-term risk",
+        "Negative momentum acceleration suggests potential trend weakening"
+      ],
+      "notes": "While long-term trend remains positive, short-term technical deterioration and upcoming earnings suggest waiting for better entry point"
+    },
+    "tokens_used": 2596,
+    "cost": 0.025959999999999997,
+    "response_time": 10.336694478988647,
+    "success": true
+  },
+  "cost": 0.025959999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8586,
+    "response_length": 1800
+  }
+}

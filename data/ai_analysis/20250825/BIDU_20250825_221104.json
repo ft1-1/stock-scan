@@ -1,0 +1,612 @@
+{
+  "success": true,
+  "symbol": "BIDU",
+  "timestamp": "2025-08-25T22:11:04.053113",
+  "data_package": {
+    "metadata": {
+      "symbol": "BIDU",
+      "package_timestamp": "2025-08-25T22:10:54.072708",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 61.25,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BIDU",
+        "current_price": 91.92,
+        "overall_score": 52.556923076923084,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 87.7868,
+        "sma_200": 87.8643
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.2444933920704953,
+        "momentum_63d": 9.688581314878899,
+        "momentum_126d": 4.620462046204623,
+        "momentum_acceleration": -8.444087922808404,
+        "roc_21d": 1.2444933920704953,
+        "trend_strength_20d": 0.44013195740034333,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.91810715083862,
+        "breakout_strength": 64.7963267180026,
+        "price_velocity": 0.0041653579503846405
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": 0.2225426375480411,
+        "volatility_compression": 21.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.805087687676624,
+        "squeeze_breakout": 4.0,
+        "options_quality": 21.145600000000016,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 62.0,
+        "momentum": 51.0,
+        "squeeze": 58.15,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 3,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BIDU",
+        "strike_price": "90",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.2",
+        "ask": "6.3",
+        "last_price": "6.33",
+        "mid_price": "6.25",
+        "spread_percent": "1.587301587301587301587301587"
+      },
+      "greeks": {
+        "delta": 0.608,
+        "gamma": 0.031,
+        "theta": -0.0506,
+        "vega": 0.1347
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3542
+      },
+      "liquidity_metrics": {
+        "volume": 422,
+        "open_interest": 3239,
+        "volume_oi_ratio": 0.13028712565606668
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:10.568197",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T17:26:00+00:00",
+            "title": "What's Eating at Restaurant Stocks?",
+            "content": "In this podcast, Motley Fool analysts Rick Munarriz and Alicia Alfiere and contributor Jason Hall dig into problems at favorite chain restaurants. They also look at some companies reporting earnings, and it's report card time for some of this year's biggest gainers.\n\nTo catch full episodes of all The Motley Fool's free podcasts, check out our podcast center. When you're ready to invest, check out this top 10 list of stocks to buy.\n\nA full transcript is below.\n\nShould you buy stock in Chipotle Mexican Grill right now?\n\nBefore you buy stock in Chipotle Mexican Grill, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Chipotle Mexican Grill wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nThis podcast was recorded on August 18, 2025.\n\nRick Munarriz: Indigestion for stocks, interesting companies reporting earnings this week. Incredible gains this year from unlikely companies. Let's dive in to find out right now on Motley Fool Money. I'm Rick Munarriz, and today I'm joined by fellow analyst Alicia Alfiere and Jason Hall with a look at what's eating at restaurant stocks this summer. We'll also look at some of the more surprising companies that have more than doubled this year. But first, it's still earning season. A lot of familiar names are stepping up with fresh financials this week. A lot of obscure ones, too, of course. I want to go around the room to see if there's a company that has your eye, if not your heart, reporting quarterly results this week. Let's start with you, Jason.\n\nJason Hall: TJX companies, it's definitely got my eye, a little bit of my heart, but none of my wallet yet because of valuation, but TJX companies, the parent company of TJ Max, Marshalls, HomeGoods, other clothing and home furnishing retailers, reports Wednesday morning, and I'll be honest with you, Rick. I think besides Costco, TJX may be the best retailer in the US. It is exceptional at two really important things. The one that doesn't get enough credit from the average person or investor is how good of a buyer it is. It's like the release valve for excess inventory, for manufacturers, other retailers, and distributors, it's really good at getting great deals on the cost side of buying that. But here's the thing. The actual hardest part is getting that merchandise in the right stores and the right markets to move it quickly and then turn it into more cash than it paid for it. It's exceptional if that part of its business model is the treasure hunt experience. They cater both to people that have plenty of extra disposable income that are looking for that great deal, but also just to regular people that are looking for value for name brand products at extremely low cost. That combined expertise is a savvy buyer and extremely efficient retail operator results in great margins. It keeps customers coming in across economic environments. If you look last quarter, comps were up 3%. As customers are spending more money, you look at most of the competition in discount retail, you see the other thing, comps are shrinking, people are coming in less and spending less. I'm really interested to see if TJX can continue in operating so well in what's really a challenging environment for discount retail.\n\nStory continues\n\nAlicia Alfiere: Well, so I have a question for you, Jason, on TJX. With the economic uncertainty looming, do you think we're going to see more value shoppers going to TJX to look to find these deals, or do you think these value shoppers are going to be staying home?\n\nJason Hall: I think it's going to do well. I think what we'll see is what we've seen from it in the past, and that is people whose personal finance situation is still fine are going to continue to go there more instead of maybe shopping upstream. They're going to come downstream, whether they have to or not, they're going to choose to because of sentiment. That's probably going to offset some of the other customers that are just truly having to pull back. Its strength as a buyer is going to be a really good situation for it. Particularly if we see tariffs do weird things with inventory levels, they're not going to mess around. They're going to take advantage of that opportunity. I think even if maybe they don't grow as fast, they're definitely going to prove how resilient their business model is.\n\nRick Munarriz: Alicia, what you got?\n\nAlicia Alfiere: Well, so this week, I'm excited to see what is going on with Viking Holdings. It's a company that's close to my heart because my dad, who just turned 70, has wanted to do a European river cruise for a really long time. Viking is smaller than other cruise companies. But it's the top dog in the North American outbound River Cruise market. It's got a strong brand that ranks highly among the affluent 55 older crowd, which Viking believes has been mostly underserved in the cruise industry with the exception of them. By the end of their first quarter, Viking already had 92% of their 2025 capacity booked, so I'm excited to see what comes next for them.\n\nRick Munarriz: I'm a fan of Viking, too. Probably like your dad. I've looked at these cruises. They are not cheap. River Cruises are not your basically carnival big chip with a lot of people and a lot of low prices. Are they susceptible to an economic downturn?\n\nAlicia Alfiere: That's a good question. I think because their focus is so much on this retiree community of 55 and older, Grant, it'd be wonderful to retire at 55. But people that tend to be affluent and retired, I think they have less of a risk, but as with anything that's discretionary, they can potentially take a hit with economic uncertainty.\n\nRick Munarriz: Yeah, thanks. I'm going to go with Baidu. B-A-I-D-U, the company behind China's leading search engine, is going through some growing pains. Revenue has declined in half of the last six years, and Baidu delivered double-digit top-line growth just one of those years. Expectations are low heading into this week's results. Analysts see a 3% year-over-year decline in revenue on a sharp slide in profitability. It's not a good look, but Baidu has come through with double-digit percentage beats on the bottom line and back-to-back quarters. It's also been toiling away in AI, cloud computing, and autonomous driving long before those areas were cool. Those are bets that will pay off over time. In the meantime, you can buy a cash-rich Baidu for less than ten times next year's targets. Baidu.\n\nJason Hall: Thinking about those next bet things, Rick, do you think Baidu is one of the companies that's going to be able to continue to innovate, even as the Chinese market continues to be challenged with access to the best chips for AI?\n\nRick Munarriz: Obviously, the whole AI revolution in China has this whole thing happening right now, caught in the tariff war. I do think that whether they go out on their own or they find ways to do it. Baidu has offices, even in the US. They have places they have intel all over the world. It's not just purely Chinese company. I think they will figure it out. And right now, it's just a very competitive environment, which is why so many companies are Baidu struggling because so many other companies are also struggling to stand out in this environment. Baidu and TJX report on Wednesday morning. Viking disembarks on Tuesday morning. Companies keep earning, we keep learning. Coming up next, Hamburger Helper, what's going on with restaurant stocks? Hungry for more OrderUp.\n\nIt's been a challenging summer for restaurant stocks, particularly rule-breaker chains. Cava took a 17% hit on a single trading day last week after posting disappointing comparable restaurant sales. We saw Wingstop, SweetGreen, and even Chipotle deliver negative comps. What's burning in the kitchen? Let's dig in. Alicia.\n\nAlicia Alfiere: Well, so it looks like the economy is taking a bite out of consumers' desire to dine out, or at the very least, it's making them a lot more price aware. If we look at Chipotle, which is an old school Rule Breaker, in its last quarter, comparable sales fell 4% year over year, and that's a big difference from last year when comparable sales grew 11% year over year. Chipotle talked about how much their traffic has been tracking along with consumer sentiment, and management believes that some consumers are making eating decisions based on price right now. They also mentioned some of their competitors have $5 meals, and they believe that's where a lot of the consumers are heading. Speaking of $5 meals, let's talk about McDonald's. Unlike Chipotle and some other restaurant chains that saw same-store sales declines, McDonald's saw its global comparable sales grow 3.8%, and that's a big improvement from last year when the company's comparable sales fell 1%. By the way, McDonald's saw sales growth in all of their world regions, and McDonald's knows that its affordability was a major driver for its performance and says that the $5 meal deal continues to be a hit, and the company also realizes that the 299 price point, they sell snack wraps for that looks to be attractive to consumers as well. But even with their performance this quarter, McDonald's is still cautious about upcoming quarters and the US consumer. But even they commented that visits from lower-income consumers who tend to eat at McDonald's more than other groups have declined, and the company believes that it'll be really important for them to reengage with these customers. One of the things that they talked about is working with their US franchisees to look at the core menu pricing, but they do have to be careful here. Too many cuts, and McDonald's will be buying their revenue by potentially sacrificing profitability.\n\nRick Munarriz: Just a couple of days ago, I spent $16 on a McDonald Land adult kids meal. It's basically this thing comes with, like, a grimace shake. It comes with a Tin collectible with a little toy with a card game. It seems like McDonalds playing both the low end and the high end. Does that Barbell pricing? Does that sound like it's a good strategy for you, or is that a problem?\n\nAlicia Alfiere: Well, I do think that it's smart to try to hit multiple sides of the consumer continuum, as opposed to really just targeting one group. I think that can help make their revenues less lumpy when we go into different parts of the economic cycle.\n\nRick Munarriz: Ba da, da, da, da, I'm loving it. So, Jason, your thoughts?\n\nJason Hall: $16 when I was a kid, that'd feed a family of four at McDonald's, and everybody would get soft serve ice cream. It's remarkable how that's changed. I'll say this. I think the interesting thing to me, like, the observation as an investor, it's across the sector. It's a lot of what we're seeing a specialty and discount retail, too. It's a clear consumer trend. Consumers are starting to pull back in some areas. And as an investor, honestly, that makes me a little bit more interested and less concerned about individual companies because it means we're less likely to have a company that's struggling in a good market. The market is down and it's weak, and I start looking more closely when negative sentiment like that is happening, especially if it drives stock prices down because it could create some opportunities for investors to buy some really great quality businesses that have strong track records over the long term, and then just hold while the market collapse and we return back to a healthy market at some point in future quarters or even future years, that's one of the ways that long term investors can juice their portfolios and really win over the long term.\n\nRick Munarriz: Basically, the business models aren't broken, just the consumer sentiment is what needs to temporarily come back in some capacity.\n\nJason Hall: That's exactly what it looks like to me.\n\nRick Munarriz: Perfect. When we get back from the break, we'll have fun with some of this year's hottest stocks. Stay with us. We ordered a cake.\n\nFinally, there have been some very surprising stocks that have more than doubled this year. I'm going to play a little game with you guys called beat or defeat. I want you guys to tell me beat, if you think they can continue to beat the market for the rest of the year, the next 4.5 months or so, or defeat, if you think that they're going to actually return back to their norms to improve modals. Don't overthink it. We're going to go over three stocks. The first one, Rule Breaker, Roblox. It's up 117% through Thursday's close, move lower on Friday. But right now, Jason, beat or defeat.\n\nJason Hall: Going to say defeat. Now, in the news right now, there's some things with Louisiana is suing Roblox over some concerns about things with child safety. We won't get into that. But I think looking beyond that, what I see with Roblox right now it was a great business with some really good growth right now, but it just seems like the valuation metrics don't necessarily support a continued run 19 times sales. They lost about $500 million over the trading 12 months, and $500 million of that was stock-based compensation. It's just going to be hard to continue that run at this valuation. I think we're more likely to sell some profit taking before the end of the year that maybe undermines a little bit of that great results that we've had.\n\nRick Munarriz: Alicia?\n\nAlicia Alfiere: I think this one is tricky. I think the Louisiana Attorney General suing Roblox alleging the platform doesn't do enough to protect minors. I think if that's true, that's a big problem. But if Roblox can solve this issue, I think it's actually a good candidate to beat. We've got really impressive metrics happening here, average daily users up 41% year over year, hours of engagement up 58% year over year.\n\nJason Hall: The bookings numbers are incredible.\n\nRick Munarriz: So let's look at Palantir, up 139% this year. Jason, start us off.\n\nJason Hall: Are you sure you want me to start here? I've bought Puts. I'm actually shorting Palantir via puts. They're very long-term, like multiple years out. I'm going to say that now. I'm making a multiple-year bet that the stock is going to decline. Between now and the end of the year, I think that we could start to see some of that happen. Let me say this. I think it is an extraordinary business. But the valuation, I said, Rule Breakers is expensive. Palantir makes Rule Breakers look like a jalapeño. It is incredibly expensive, and the expectations, I think it becomes so dislodged from what the business can realistically do an incredible business can do that I think it's going to struggle, and I think it's going to be defeated by the market.\n\nRick Munarriz: Alicia,\n\nAlicia Alfiere: I agree with Jason here. Last quarter was impressive. Revenues up 48%, cash generating business, management raised guidance. But, wow, it's valuation. Price to sales above 100?\n\nRick Munarriz: Price to salespeople price to sales.\n\nAlicia Alfiere: Right, price to sales. We're not even talking price-to-earnings or anything like that. Priced beyond perfection, defeat.\n\nRick Munarriz: Finally, let's close with former Rule Breaker Celsius up 150%. Alicia, I'll start with you.\n\nAlicia Alfiere: It's acquisition of Alani Nu seems to be helping Celsius, and the top line really accelerated this last quarter. Again, partially due to that acquisition. It has momentum, so I'm thinking it'll be, but anyone who has been watching this stock over the last little bit knows it's been a roller coaster, and it could just as easily fall into that defeat category.\n\nJason Hall: Even as much as the stock has come up, I think the market is still has really low expectations for the business. The Pepsi distribution deal was great until it wasn't. That's a challenge. The core Celsius brands have been pretty flattish. International market is really wide open. Alani Nu expands them and really gives them a lot of control over that cohort of the market where they're really dominant. I think of these three, this is the one that's most likely to beat, so I'm going to say I think it'll be.\n\nRick Munarriz: Alright, great. So, Alicia and Jason, thank you for making this Monday more magic and less manic. As always, people on the program may have interest in the stocks they talk about, and the Motley Fool may have formal recommendations for or against, so don't buy or sell stocks based solely on what you hear. All personal finance content follows Motley Fool Editorial standards and is not approved by advertisers. Advertisers are sponsored content and provided for informational purposes only. To see our full advertising disclosure, please check out our show notes. For Alicia Alfiere, Jason Hall, and the entire Motley Fool Money team, I'm Rick Munarriz. I'll gladly pay you Tuesday for our Motley Fool Money today.\n\nAlicia Alfiere has positions in Costco Wholesale. Jason Hall has positions in Chipotle Mexican Grill and has the following options: long December 2027 $80 puts on Palantir Technologies. Rick Munarriz has positions in Baidu, Costco Wholesale, Sweetgreen, and Viking. The Motley Fool has positions in and recommends Baidu, Chipotle Mexican Grill, Costco Wholesale, Palantir Technologies, Roblox, and TJX Companies. The Motley Fool recommends Cava Group, Sweetgreen, Viking, and Wingstop and recommends the following options: short September 2025 $60 calls on Chipotle Mexican Grill. The Motley Fool has a disclosure policy.\n\nWhat's Eating at Restaurant Stocks? was originally published by The Motley Fool\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T15:34:00+00:00",
+            "title": "Bear of the Day: Baidu (BIDU)",
+            "content": "Baidu (BIDU) reported their June quarter last Wednesday and delivered an earnings beat of 9% vs the Zacks Consensus. But a top-line revenue shortfall was a key disappointment for analysts and investors.\r\n\r\nAnd it's as common for BIDU to deliver earnings beats, as it is for the stock to be a Zacks #5 Rank (Strong Sell). In early 2024, both 2025 and 2026 EPS estimates started off between $14 and $15. Now that the full-year 2025 estimate is below $9, you can see the persistent decline in profits as the Chinese company's advertising revenue has dropped off.\r\n\r\nSo why the beat?\r\n\r\nBaidu’s non-GAAP net income actually missed analyst consensus, while non-GAAP EPS beat expectations by a wide margin. The company’s adjusted net income fell short due to higher costs and weaker revenue, but share repurchases reduced the number of outstanding shares, enabling a significant EPS beat even as net income missed estimates. This reflects a scenario where lower net income is offset by financial engineering, resulting in a positive EPS surprise despite an earnings miss.\r\n\r\nIn the past 90 days, full-year EPS estimates have dropped 10% from $9.61 to $8.66, representing a nearly 18% annual drop in profits vs last year. And the topline is expected to come in flat under $18.5 billion.\r\n\r\nQuarter Details\r\n\r\nBaidu reported Q2 2025 revenue of RMB 32.7 billion ($4.57 billion), down 4% year-over-year, with adjusted net income dropping 35% to RMB 4.8 billion ($669 million), reflecting ongoing weakness in online advertising.\r\n\r\nAI Cloud revenue surged 34% to RMB 10 billion, and Apollo Go robotaxi rides jumped 148%. Online marketing revenue declined 15%, but Baidu maintained a strong cash position (RMB 124.2 billion).\r\n\r\niQIYI's revenue declined by 11% year-over-year to RMB 6.6 billion, missing analyst expectations and reflecting a significant drop compared to Baidu Core, whose revenue fell 2% to RMB 26.3 billion and was much closer to estimates. iQIYI's revenue shortfall was cited as a notable underperformance within Baidu’s segments.\r\n\r\nThe Baidu AI Frontier\r\n\r\nThe bright side for Baidu remains in its opportunities with autonomous vehicles and other AI-driven technologies. The Apollo Go growth numbers were exciting for most watchers.\r\n\r\nHere were comments from Robin Li, Co-founder and CEO of Baidu...\r\n\r\n\"In the second quarter, our AI Cloud business continued to deliver robust and healthy revenue growth, supported by our strengthening full-stack AI capabilities and comprehensive end-to-end AI products and solutions. This performance helped mitigate the near-term pressure on online marketing business, as we intensified the AI transformation of Baidu Search to elevate user experience and establish a stronger foundation for long-term growth.\r\n\r\n\"Apollo Go accelerated global expansion while actively exploring new business models, underscored by our leadership in both left-hand drive and right-hand drive robotaxi markets globally. We remain focused on AI initiatives that offer the greatest long-term value creation potential, where our technology and innovation can make the most meaningful and lasting impact.\"\r\n\r\nChinese Chip Challenger\r\n\r\nIn more AI-related news, Reuters reported last week that Chinese semiconductor design firm Kunlunxin, which is backed by Baidu, had won chip orders worth over a billion yuan ($139 million) for telecom firm China Mobile's AI projects.\r\n\r\nThis is seen as part of the continuing national push for domestic alternatives to NVIDIA (NVDA) GPU systems. From the Reuters Refinitiv article on August 22...\r\n\r\n\"Kunlunxin will supply artificial intelligence chips compatible with Nvidia's CUDA software platform to firms such as H3C Technologies and telecoms equipment maker ZTE that are first-tier suppliers to China Mobile, it said in a statement released late on Thursday.\"\r\n\r\nThe article also recalled that in April, \"Baidu said it had successfully started running a cluster of 30,000 of its self-developed, third generation P800 Kunlun chips, which can support the training of models similar to Chinese AI startup DeepSeek.\"\r\n\r\nFinally, both BIDU and Alibaba (BABA) are trading over 3% higher in the pre-market session as a rally in Chinese stocks is carrying over to US ADRs. BABA will report later this week.\n\nLeer más\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nBaidu, Inc. (BIDU) : Free Stock Analysis Report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nAlibaba Group Holding Limited (BABA) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nVer comentarios",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T10:12:02+00:00",
+            "title": "Can Baidu's (BIDU) Pivot to AI Offset Pressure From Declining Ad Revenue?",
+            "content": "In August 2025, Baidu reported second quarter earnings showing a 4% year-over-year decline in revenue to CNY 32.71 billion, while posting a rise in net income and completing a significant share buyback totaling US$2.23 billion since February 2023. The company also announced a major change to its Hong Kong office location, with headquarters and other contact details remaining the same. While Baidu's core online advertising revenue declined and its generative AI plans face increased competition, the company saw double-digit growth in its AI cloud and autonomous driving businesses, reflecting a shift toward expanding non-advertising income sources despite margin pressures. We'll examine how the core advertising revenue decline and growing AI business influence Baidu's overall investment outlook.\n\nThe end of cancer? These 26 emerging AI stocks are developing tech that will allow early identification of life changing diseases like cancer and Alzheimer's.\n\nBaidu Investment Narrative Recap\n\nTo be a Baidu shareholder today, you need confidence in the company's ability to offset shrinking advertising revenue with ambitious bets on AI cloud and autonomous driving, even as short-term earnings face margin pressure and free cash flow challenges. The latest quarterly update confirms strong double-digit growth in non-advertising segments and a significant share buyback, but neither development meaningfully alters the near-term catalyst: proving Baidu can efficiently scale and monetize its AI businesses to support margin recovery. The greatest risk remains persistent weakness in core online marketing revenue, which could weigh on overall profitability if large-scale AI monetization continues to lag expectations.\n\nAmong recent announcements, the company’s completion of a US$2.23 billion share buyback stands out, reflecting substantial capital returned to shareholders since early 2023. While this move rewards current holders, it does little to address the company’s fundamental operating challenges, the trajectory of AI commercialization remains central to Baidu’s investment case.\n\nYet, investors should remain aware that, despite AI’s promise, prolonged margin pressure from slow advertising recovery and delayed AI search monetization could still pose...\n\nRead the full narrative on Baidu (it's free!)\n\nBaidu's narrative projects CN¥150.8 billion in revenue and CN¥22.3 billion in earnings by 2028. This requires a 4.0% yearly revenue growth and a CN¥3.1 billion decrease in earnings from the current CN¥25.4 billion.\n\nUncover how Baidu's forecasts yield a $99.59 fair value, a 11% upside to its current price.\n\nStory Continues\n\nExploring Other PerspectivesBIDU Community Fair Values as at Aug 2025\n\nSixteen members of the Simply Wall St Community valued Baidu between US$71 and US$151 per share, with a wide range of targets. Amid this diversity, slow progress in monetizing AI search remains a key factor shaping profit outlooks and is something you should consider as you compare different viewpoints.\n\nExplore 16 other fair value estimates on Baidu - why the stock might be worth as much as 68% more than the current price!\n\nBuild Your Own Baidu Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Baidu research is our analysis highlighting 3 key rewards and 1 important warning sign that could impact your investment decision. Our free Baidu research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Baidu's overall financial health at a glance.\n\nContemplating Other Strategies?\n\nEarly movers are already taking notice. See the stocks they're targeting before they've flown the coop:\n\nTrump's oil boom is here - pipelines are primed to profit. Discover the 22 US stocks riding the wave. AI is about to change healthcare. These 27 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10b in market cap - there's still time to get in early. The best AI stocks today may lie beyond giants like Nvidia and Microsoft. Find the next big opportunity with these 20 smaller AI-focused companies with strong growth potential through early-stage innovation in machine learning, automation, and data intelligence that could fund your retirement.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include BIDU.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T09:30:00+00:00",
+            "title": "Hong Kong tops the US as the go-to IPO venue for Chinese start-ups as funds return to Asia",
+            "content": "In the first of a two-part series about Hong Kong's market for initial public offerings, Zhang Shidong and Ao Yulu report that more Chinese companies opted to list in Hong Kong in the first eight months of 2025 than in New York.\n\nHong Kong has overtaken the US as the new listing venue for mainland Chinese companies, marking a major milestone for the world's fourth-largest capital market after a decade of betting on its growth in its much larger and stronger hinterland.\n\nAs many as 46 China-domiciled companies raised a combined HK$118.2 billion (US$16.5 billion) via initial public offerings (IPOs) on the Hong Kong stock exchange so far this year, compared with 16 listings by Chinese companies in the US over the same period, which raked in a mere US$740.9 million, according to data compiled by Bloomberg.\n\nDo you have questions about the biggest topics and trends from around the world? Get the answers with SCMP Knowledge, our new platform of curated content with explainers, FAQs, analyses and infographics brought to you by our award-winning team.\n\nThere is a good reason for flocking to Hong Kong. New shares have jumped by 19.4 per cent on average in their trading debuts in the city this year, with some particularly hot stocks like the metabolic medicine producer Innogen Pharmaceutical Group jumping almost fourfold last week.\n\nBy comparison, new listings in the US have risen by an average of 3.6 per cent over the same period, according to calculations by the Post. After the typical excitement of the first days of trading, those shares have since returned an average of 5.5 per cent.\n\nGuangzhou Innogen Pharmaceutical Group's founder and chairman Wang Qinghua (left) and chief financial officer Jiang Fan during the company's trading debut on the Hong Kong stock exchange on August 15, 2025. Photo: InvestHK alt=Guangzhou Innogen Pharmaceutical Group's founder and chairman Wang Qinghua (left) and chief financial officer Jiang Fan during the company's trading debut on the Hong Kong stock exchange on August 15, 2025. Photo: InvestHK>\n\n\"Hong Kong's capital market has been more active this year and shows signs of continued recovery\", said Kenny Ng, a strategist at China Everbright Securities International. \"The growing rivalry between China and the US has added uncertainty to capital markets, which is why more companies are choosing to list in Hong Kong. There is still the lingering risk of delisting for Chinese stocks in the US, [so] mainland firms tend to prefer the Hong Kong market in the face of such unclear regulatory prospects.\"\n\nStory Continues\n\nThe diverging trends underscore the persistent simmering tensions between China and the US, with the strife widening beyond trade to other areas including technology, military and finance. The Trump administration's heightened regulatory scrutiny has spoiled the IPO appetite of many Chinese companies, among them some of the world's largest offers like Contemporary Amperex Technology (CATL) and Shein.\n\nRobin Zeng Yuqun (fifth from right), the founder and chairman of CATL, struck the ceremonial gong to mark the start of trading at the HKEX Connect Hall in Central on May 20, 2025. Photo: Sun Yeung alt=Robin Zeng Yuqun (fifth from right), the founder and chairman of CATL, struck the ceremonial gong to mark the start of trading at the HKEX Connect Hall in Central on May 20, 2025. Photo: Sun Yeung>\n\nMany US investors, from institutional funds to retail investors, are also steering clear of Chinese stocks listed in New York due to pressure from conservative lawmakers who harangue against providing funds for China. An executive order signed by US President Donald Trump during his first term to \"address the threat from securities investments that finance Communist Chinese military companies\" was absorbed by his successor into a broader order that included surveillance companies. Those orders remain in effect.\n\nThe spat over auditing oversight several years ago, which almost triggered a wholesale delisting of about 300 Chinese companies valued at US$1 trillion, also gave many IPO applicants cause for pause.\n\nHow things have changed in 10 short years. Before Trump's first term starting in 2016, New York was the citadel of fundraising, the preferred listing destination for every Chinese company that could.\n\nHangzhou-based Alibaba Group Holding, the owner of this newspaper, raised US$25 billion on the New York Stock Exchange in 2014, making it the second-largest worldwide IPO in financial history after Saudi Aramco's US$29.4 billion sale in 2019.\n\nGlobal IPO rankings as of August 2025 alt=Global IPO rankings as of August 2025>\n\nAfter Trump took office, US-China relations deteriorated with a slew of tariffs against Chinese exports, many of which are still in place.\n\nAs the trade war spilled over into the Biden administration, relations slumped to the worst level in decades. Amid the tension, a spat broke out over the auditing oversight of US-listed Chinese companies, prompting Gary Gensler, then chairman of the US Securities and Exchange Commission, to threaten in 2022 to expel all the Chinese companies from New York.\n\nThe crisis was averted in late 2022 after the US and China agreed to use Hong Kong as the \"neutral ground\" for the US Public Company Accounting Oversight Board to examine the audit working papers of these US-listed Chinese companies.\n\nStill, the damage to confidence was already done. While the spat was going on, the Hong Kong Exchanges and Clearing (HKEX) was tweaking its listing rules, laying the groundwork to lure US-listed Chinese companies to raise additional funds in Hong Kong.\n\nIn November 2019, Alibaba raised US$12.9 billion in a secondary listing in Hong Kong, in the city's largest IPO to date. That blazed the path for a slew of Chinese tech companies to call Hong Kong their new corporate home: NetEase raised US$2.7 billion in June 2020, Baidu raised US$3.05 billion in March 2021, while Weibo raised US$193 million in December 2021.\n\n\"US listings face a lot of hurdles such as restrictions on investments or financing,\" said Dai Ming, a fund manager at Huichen Asset Management in Shanghai. \"Chinese companies may have to list at discounts, instead of premiums. [That is why] they are more willing to sell shares in Hong Kong. Both the primary and the secondary market are doing very well and valuations can come with premiums.\"\n\nA store of the Chinese tea chain Chagee at a shopping centre in Beijing on July 31, 2025. Chagee's American Depository Receipts were listed in the US in April. Photo: Reuters alt=A store of the Chinese tea chain Chagee at a shopping centre in Beijing on July 31, 2025. Chagee's American Depository Receipts were listed in the US in April. Photo: Reuters>\n\nImproved investor sentiment and the Hong Kong exchange's move to fast track approvals of stock sales by well-established mainland companies have fuelled a boom in Chinese IPOs. Under a new framework, mainland-listed companies with a minimum market capitalization of HK$10 billion are eligible for a faster IPO application process, which would slash the review period to 30 days, according to the HKEX and Hong Kong's securities regulator.\n\nCATL, the Chinese maker of lithium batteries for electric vehicles, has led IPO sales with a US$5.26 billion flotation this year in Hong Kong. The lithium-battery manufacturer and other mega deals from Chinese companies such as Jiangsu Hengrui Pharmaceuticals and Foshan Haitian Flavouring and Food catapulted Hong Kong to the world's busiest IPO market in the first half. IPOs surged 695 per cent from a year ago to US$14.1 billion in the first half, according to a report released by HKEX in late July.\n\nThere are more to come, said HKEX's CEO Bonnie Chan Yiting. There were between 150 and 200 companies \"in the pipeline\", including many US$1-billion-plus jumbo deals, she said in May. This week, the exchange operator reported its best quarter yet, as its interim net profit soared 39 per cent to HK$8.52 billion.\n\nA lion dance to mark the commencement of trading after the Lunar New Year holiday at the Hong Kong stock exchange on February 3, 2025. Photo: Edmond So alt=A lion dance to mark the commencement of trading after the Lunar New Year holiday at the Hong Kong stock exchange on February 3, 2025. Photo: Edmond So>\n\nThree \"formidable\" clusters of companies are tapping Hong Kong's IPO market, Chan said. The first was a group of Chinese A-share companies that are listed in Beijing, Shanghai or Shenzhen seeking to raise additional funds offshore, in the so-called A-H listings.\n\nThe second group was the US-listed Chinese companies that needed a listing sanctuary closer to home and Asia's trading hours to minimise geopolitical risks. The HKEX updated its listing rules in 2017 to allow these companies to seek secondary offerings in Hong Kong.\n\nThe third group was specialist technology companies, often start-ups engaged in artificial intelligence, biomedicine and pharmaceutical producers, robotics and a range of \"innovative\" industries covered by Chapter 18C of the HKEX's listing rules from March 2023.\n\nIn this regard, the HKEX has plenty of room for upgrades and growth. Hong Kong has catapulted to become the world's second-largest IPO destination after New York for biotech companies since the introduction of Chapter 18A for the pharmaceutical industry in 2018. Chapter 18B for special purpose acquisition companies, or so-called blank cheque acquirers, was rolled out in January 2022. The chapters can grow with more alphabets as new industries and funding needs arise, Chan said during an interview in June.\n\nStill, Hong Kong's market, currently the world's fourth largest at US$7 trillion, \"lacks sufficient liquidity\" and the capacity to accommodate a large number of IPOs, particularly large companies from the mainland, said Shen Meng, a director at the Beijing-based investment firm Chanson. \"Regulators are intentionally slowing the [approvals of the] listing process [of companies coming to] Hong Kong.\"\n\n\"Beijing wants to support Hong Kong's role as an international financial centre, but it cannot allow an excessive number of mainland companies to rush [into] the city's fundraising pool as too many listings would be risky with the city's limited liquidity\", Shen said.\n\nShanghai and Shenzhen stock indices in Shanghai on April 16, 2025. Photo: Reuters alt=Shanghai and Shenzhen stock indices in Shanghai on April 16, 2025. Photo: Reuters>\n\nInvestor familiarity, market structure, and a series of reforms - including a revamp of the pricing and public offering rules earlier this month - have helped revive the IPO pipeline of the HKEX, according to analysts. The involvement of cornerstone investors, broader retail participation, and unique market mechanisms have pushed up demand as well.\n\nStill, there are structural differences between the Hong Kong and US markets, said Louis Wong, director at Phillip Capital Management in Hong Kong. Local IPOs often receive massive oversubscription from public investors, which boosts demand in the secondary market, he said.\n\nEverbright's Ng echoed the view, saying the recent changes to lower the allocation ratio have contributed to the strong aftermarket performance.\n\n\"It means retail investors tend to receive fewer shares, prompting them to chase the stock after it starts trading,\" Ng said.\n\nMixue Group's mascot Snow King struck the ceremonial gong during the company's listing ceremony at the Hong Kong stock exchange on March 3, 2025. Photo: Reuters alt=Mixue Group's mascot Snow King struck the ceremonial gong during the company's listing ceremony at the Hong Kong stock exchange on March 3, 2025. Photo: Reuters>\n\nOne in two of the 44 new listings of Chinese companies in Hong Kong in the first half attracted over 100 times oversubscription, according to the HKEX's data. Five of these IPOs were overbought by as much as 1,000 times, according to a report released by Futu Holdings last month. More than 71 per cent of the new listings closed higher on their debut day, according to the report.\n\nThe first trading days of Mixue Group and Chagee Holdings showed the divergence in sentiments for Chinese companies in New York and Hong Kong.\n\nThe shares of Mixue, which operates a chain of food and drink stores, soared 47 per cent during their July debut in Hong Kong. Chagee Holdings, which runs a chain of bubble tea stores around Asia, rose 16 per cent when its shares began trading on Nasdaq in April.\n\nFor Dai, the choice is clear.\n\n\"Companies will go for listings where they can raise more money,\" he said. \"Chinese companies' preference for Hong Kong over the US may become a major pattern going forward.\"\n\nWith additional reporting by Julie Zhang\n\nThis article originally appeared in the South China Morning Post (SCMP), the most authoritative voice reporting on China and Asia for more than a century. For more SCMP stories, please explore the SCMP app or visit the SCMP's Facebook and Twitter pages. Copyright © 2025 South China Morning Post Publishers Ltd. All rights reserved.\n\nCopyright (c) 2025. South China Morning Post Publishers Ltd. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T15:18:22+00:00",
+            "title": "Baidu unveils upgrade to image-to-video model, MuseSteamer 2.0",
+            "content": "[Baidu Headquarters]\nV2images\n\nBaidu (NASDAQ:BIDU [https://seekingalpha.com/symbol/BIDU]) has unveiled MuseSteamer 2.0, an upgrade to its image-to-video model.\n\nThe Chinese internet search giant said the new version delivers breakthroughs in multi-character coordination, life-like ambient sound, and simultaneous output of natural human voices.\n\nThe model is also priced as low as 70% of the industry standard, according to the company. Baidu added that the Turbo version currently provides video outputs at RMB 1.4 per 5 seconds, reducing production costs and making high-quality video creation more accessible.\n\nBaidu noted that the model is now fully available across its complete lineup — Turbo, Lite, Pro, and full audio-enabled versions.\n\nUsers can access the model by searching ‘Baidu MuseSteamer’ on Baidu Search or by logging onto Huixiang, the company's AI video creation platform.\n\nThe company said that enterprise customers can access high-performance video generation services through Qianfan, Baidu's foundation model service platform.\n\nMORE ON BAIDU\n\n \t* Why Baidu's Struggles Could Hide A Big AI Comeback [https://seekingalpha.com/article/4815600-why-baidu-struggles-could-hide-big-ai-comeback]\n \t* Baidu, Inc. (BIDU) Q2 2025 Earnings Call Transcript [https://seekingalpha.com/article/4815324-baidu-inc-bidu-q2-2025-earnings-call-transcript]\n \t* Baidu: Sluggish Core Masks A Deep Value Opportunity [https://seekingalpha.com/article/4814583-baidu-sluggish-core-masks-a-deep-value-opportunity]\n \t* Baidu's mixed Q2 report underscored by AI cloud strength and increasing ad biz pressures [https://seekingalpha.com/news/4487383-baidus-mixed-q2-report-underscored-by-ai-cloud-strength-and-online-marketing-sluggishness]\n \t* Baidu Non-GAAP EPADS of $1.90 beats by $0.04, revenue of $4.57B misses by $10M [https://seekingalpha.com/news/4487300-baidu-non-gaap-epads-of-190-beats-by-004-revenue-of-457b-misses-by-10m]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Baidu Inc",
+          "sector": "Communication Services",
+          "industry": "Internet Content & Information",
+          "employees": 35900,
+          "description": "Baidu, Inc. provides online marketing and non-marketing value added services through an internet platform in the People's Republic of China. It operates in two segments, Baidu Core and iQIYI. The Baidu Core segment offers search-based, feed-based, and other online marketing services; cloud services;"
+        },
+        "financial_metrics": {
+          "eps_ttm": 10.86,
+          "profit_margin": 0.2097,
+          "operating_margin": 0.1002,
+          "roe": 0.0975,
+          "roa": 0.0256,
+          "revenue_growth_yoy": -0.036,
+          "earnings_growth_yoy": 0.351,
+          "eps_estimate_current_year": 57.0597,
+          "eps_estimate_next_year": 63.8068,
+          "revenue_ttm": 132846002176,
+          "revenue_per_share": 385.41,
+          "most_recent_quarter": "2025-03-31"
+        },
+        "valuation": {
+          "pe_ratio": 8.2882,
+          "forward_pe": 11.6959,
+          "price_to_sales": 0.2269,
+          "price_to_book": 0.8074,
+          "enterprise_value": 25685376017,
+          "ev_to_revenue": 1.3884,
+          "ev_to_ebitda": 5.2503
+        },
+        "technical_data": {
+          "beta": 0.335,
+          "52_week_high": 116.25,
+          "52_week_low": 74.71,
+          "50_day_ma": 87.7868,
+          "200_day_ma": 87.8643,
+          "short_interest": 0.0306,
+          "short_ratio": 1.97
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2010-05-12",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0606,
+          "target_price": 99.1993,
+          "strong_buy": 17,
+          "buy": 3,
+          "hold": 12,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 278228000,
+          "percent_institutions": 22.527,
+          "percent_insiders": 3.499,
+          "shares_float": 2118227200
+        },
+        "balance_latest_sheet": {
+          "total_assets": 453982.0,
+          "total_debt": 102053.0,
+          "net_debt": 52851.0,
+          "working_capital": 98965.0,
+          "shareholders_equity": 269747.0,
+          "quarter_date": "2025-03-31",
+          "debt_to_equity": 0.38
+        },
+        "income_latest_statement": {
+          "total_revenue": 32452.0,
+          "gross_profit": 14965.0,
+          "operating_income": 4508.0,
+          "net_income": 7717.0,
+          "ebitda": 9796.0,
+          "quarter_date": "2025-03-31",
+          "gross_margin": 46.11,
+          "operating_margin": 13.89,
+          "net_margin": 23.78
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -6001.0,
+          "free_cash_flow": -8901.0,
+          "capex": 2900.0,
+          "net_income": 7717.0,
+          "cash_change": 13287.0,
+          "quarter_date": "2025-03-31"
+        }
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 90.4,
+            "high": 94.32,
+            "low": 90.21,
+            "close": 93.3,
+            "volume": 12043200
+          },
+          {
+            "date": "2025-07-16",
+            "open": 89.23,
+            "high": 89.35,
+            "low": 86.01,
+            "close": 86.32,
+            "volume": 13675600
+          },
+          {
+            "date": "2025-07-17",
+            "open": 86.58,
+            "high": 87.72,
+            "low": 86.47,
+            "close": 87.51,
+            "volume": 4353300
+          },
+          {
+            "date": "2025-07-18",
+            "open": 88.34,
+            "high": 90.2,
+            "low": 87.74,
+            "close": 87.81,
+            "volume": 5779700
+          },
+          {
+            "date": "2025-07-21",
+            "open": 88.18,
+            "high": 90.35,
+            "low": 87.55,
+            "close": 88.81,
+            "volume": 4199700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 90.12,
+            "high": 93.37,
+            "low": 89.4,
+            "close": 92.45,
+            "volume": 6912400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 94.42,
+            "high": 94.5,
+            "low": 91.65,
+            "close": 93.08,
+            "volume": 4818700
+          },
+          {
+            "date": "2025-07-24",
+            "open": 92.03,
+            "high": 92.16,
+            "low": 90.88,
+            "close": 90.99,
+            "volume": 3929600
+          },
+          {
+            "date": "2025-07-25",
+            "open": 91.5,
+            "high": 91.5,
+            "low": 89.96,
+            "close": 90.8,
+            "volume": 1726600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 90.59,
+            "high": 91.35,
+            "low": 89.03,
+            "close": 89.4,
+            "volume": 2877400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 88.96,
+            "high": 89.09,
+            "low": 86.54,
+            "close": 86.8,
+            "volume": 4450300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 86.76,
+            "high": 87.09,
+            "low": 85.47,
+            "close": 85.94,
+            "volume": 2543800
+          },
+          {
+            "date": "2025-07-31",
+            "open": 86.15,
+            "high": 88.27,
+            "low": 85.86,
+            "close": 87.87,
+            "volume": 4064100
+          },
+          {
+            "date": "2025-08-01",
+            "open": 86.66,
+            "high": 87.13,
+            "low": 85.63,
+            "close": 86.13,
+            "volume": 2619900
+          },
+          {
+            "date": "2025-08-04",
+            "open": 88.28,
+            "high": 88.56,
+            "low": 86.66,
+            "close": 87.64,
+            "volume": 2782000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 87.25,
+            "high": 87.4,
+            "low": 85.76,
+            "close": 85.86,
+            "volume": 3224100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 86.64,
+            "high": 86.86,
+            "low": 85.36,
+            "close": 86.81,
+            "volume": 2926300
+          },
+          {
+            "date": "2025-08-07",
+            "open": 87.83,
+            "high": 88.56,
+            "low": 86.95,
+            "close": 87.47,
+            "volume": 2608400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 87.03,
+            "high": 87.69,
+            "low": 86.3,
+            "close": 87.36,
+            "volume": 1985300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 87.55,
+            "high": 87.55,
+            "low": 84.64,
+            "close": 85.99,
+            "volume": 6991100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 86.13,
+            "high": 88.22,
+            "low": 86.04,
+            "close": 87.83,
+            "volume": 4410900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 90.06,
+            "high": 91.45,
+            "low": 90.01,
+            "close": 91.07,
+            "volume": 4910300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 88.86,
+            "high": 89.59,
+            "low": 88.41,
+            "close": 88.73,
+            "volume": 2621700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 88.87,
+            "high": 90.17,
+            "low": 88.78,
+            "close": 89.85,
+            "volume": 3846400
+          },
+          {
+            "date": "2025-08-18",
+            "open": 90.33,
+            "high": 91.27,
+            "low": 90.12,
+            "close": 90.13,
+            "volume": 2773800
+          },
+          {
+            "date": "2025-08-19",
+            "open": 90.53,
+            "high": 91,
+            "low": 88.95,
+            "close": 89.07,
+            "volume": 3615400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 86.21,
+            "high": 87.98,
+            "low": 84.82,
+            "close": 86.76,
+            "volume": 9324600
+          },
+          {
+            "date": "2025-08-21",
+            "open": 86.67,
+            "high": 88.22,
+            "low": 86.1,
+            "close": 87.61,
+            "volume": 3533700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 88.7,
+            "high": 90.54,
+            "low": 88.14,
+            "close": 90.01,
+            "volume": 4247100
+          },
+          {
+            "date": "2025-08-25",
+            "open": 92.13,
+            "high": 93.25,
+            "low": 91.72,
+            "close": 91.93,
+            "volume": 6354148
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.8299776286353477,
+        "return_63d": 9.54480457578647,
+        "pct_above_sma50": 4.6100340050893776,
+        "sma_50": 87.8692,
+        "new_55d_high": "False",
+        "high_55d": 94.5,
+        "rsi": 64.84107579462108,
+        "rsi_in_range": "True",
+        "adx": 11.941469783499489,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.553573371043186,
+        "bb_width": 8.09249159148972,
+        "keltner_width": 10.664375043772411,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 351438372.8982,
+        "adv_shares": 3991667.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.95068768767664,
+        "final_score": 49.95068768767664,
+        "sub_scores": {
+          "trend_momentum": 13.805087687676624,
+          "squeeze_breakout": 4.0,
+          "options_quality": 21.145600000000016,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.2444933920704893,
+          "ret_63d": 9.688581314878908,
+          "rsi14": 64.84107579462108,
+          "adx14": 12.061267607081614,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 50.0,
+      "overall_score": 61.25,
+      "missing_fields": [
+        "calendar_events"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BIDU\n• Current Price: $91.92\n• Overall Score: 52.556923076923084\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 87.7868\n• Sma 200: 87.8643\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.2444933920704953\n• Momentum 63D: 9.688581314878899\n• Momentum 126D: 4.620462046204623\n• Momentum Acceleration: -8.444087922808404\n• Roc 21D: 1.2444933920704953\n• Trend Strength 20D: 0.44013195740034333\n• Trend Direction: 1\n• Ma Ribbon Score: 83.91810715083862\n• Breakout Strength: 64.7963267180026\n• Price Velocity: 0.0041653579503846405\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: 0.2225426375480411\n• Volatility Compression: 21.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.805087687676624\n• Squeeze Breakout: 4.0\n• Options Quality: 21.145600000000016\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 62.0\n• Momentum: 51.0\n• Squeeze: 58.15\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BIDU\n• Strike Price: $90\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.2\n• Ask: $6.3\n• Last: $6.33\n• Mid: $6.25\n• Spread: 1.587301587301587301587301587%\n\n**GREEKS ANALYSIS**\n• Delta: 0.608\n• Gamma: 0.031\n• Theta: -0.0506\n• Vega: 0.1347\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3542\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 422\n• Open Interest: 3239\n• Volume/OI Ratio: 0.13028712565606668\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Baidu Inc\n• Sector: Communication Services\n• Industry: Internet Content & Information\n• EPS (TTM): $10.86\n• Profit Margin: 21.0%\n• ROE: 9.8%\n• P/E Ratio: 8.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T17:26:00+00:00: What's Eating at Restaurant Stocks?...\n• 2025-08-25T15:34:00+00:00: Bear of the Day: Baidu (BIDU)...\n• 2025-08-25T10:12:02+00:00: Can Baidu's (BIDU) Pivot to AI Offset Pressure From Declining Ad Revenue?...\n• 2025-08-23T09:30:00+00:00: Hong Kong tops the US as the go-to IPO venue for Chinese start-ups as funds retu...\n• 2025-08-22T15:18:22+00:00: Baidu unveils upgrade to image-to-video model, MuseSteamer 2.0...\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 61.2%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BIDU\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BIDU opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:11:04.052578",
+    "estimated_tokens": 2351
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BIDU\",\n    \"rating\": 61,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BIDU shows moderate technical strength with price above both SMAs and positive momentum metrics, supported by an active squeeze setup. However, negative momentum acceleration and mixed fundamental signals suggest caution is warranted.\",\n    \"opportunities\": [\n        \"Price trending above both 50 and 200 SMAs (87.79/87.86)\",\n        \"Active squeeze setup with 3 timeframe confirmation\",\n        \"Attractive valuation with P/E of 8.3 and 21% profit margin\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-8.44)\",\n        \"Bearish recent news sentiment with Bear of the Day designation\",\n        \"Declining ad revenue concerns highlighted in recent analysis\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread strategy preferred over outright calls given mixed signals\",\n        \"entry_timing\": \"Wait for momentum acceleration to stabilize before entry\",\n        \"risk_management\": \"Consider 90 strike LEAPS with defined risk spread structure, manage position size given medium confidence\"\n    },\n    \"red_flags\": [\n        \"Significant negative momentum acceleration\",\n        \"Bearish analyst coverage increasing\"\n    ],\n    \"notes\": \"Data completeness at 61.2% limits confidence in volatility analysis; missing key IV/HV comparative data and complete options chain liquidity metrics\"\n}",
+    "parsed_analysis": {
+      "symbol": "BIDU",
+      "rating": 61,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "BIDU shows moderate technical strength with price above both SMAs and positive momentum metrics, supported by an active squeeze setup. However, negative momentum acceleration and mixed fundamental signals suggest caution is warranted.",
+      "opportunities": [
+        "Price trending above both 50 and 200 SMAs (87.79/87.86)",
+        "Active squeeze setup with 3 timeframe confirmation",
+        "Attractive valuation with P/E of 8.3 and 21% profit margin"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-8.44)",
+        "Bearish recent news sentiment with Bear of the Day designation",
+        "Declining ad revenue concerns highlighted in recent analysis"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread strategy preferred over outright calls given mixed signals",
+        "entry_timing": "Wait for momentum acceleration to stabilize before entry",
+        "risk_management": "Consider 90 strike LEAPS with defined risk spread structure, manage position size given medium confidence"
+      },
+      "red_flags": [
+        "Significant negative momentum acceleration",
+        "Bearish analyst coverage increasing"
+      ],
+      "notes": "Data completeness at 61.2% limits confidence in volatility analysis; missing key IV/HV comparative data and complete options chain liquidity metrics"
+    },
+    "tokens_used": 2557,
+    "cost": 0.02557,
+    "response_time": 9.977935791015625,
+    "success": true
+  },
+  "cost": 0.02557,
+  "processing_metadata": {
+    "data_completeness_score": 61.25,
+    "prompt_length": 8613,
+    "response_length": 1616
+  }
+}

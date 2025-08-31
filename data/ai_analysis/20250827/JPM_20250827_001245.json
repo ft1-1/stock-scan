@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "JPM",
+  "timestamp": "2025-08-27T00:12:45.086116",
+  "data_package": {
+    "metadata": {
+      "symbol": "JPM",
+      "package_timestamp": "2025-08-27T00:12:34.847304",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "JPM",
+        "current_price": 298.75,
+        "overall_score": 52.02167342880879,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 288.246,
+        "sma_200": 259.2593
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.09722408475258833,
+        "momentum_63d": 12.544762335557301,
+        "momentum_126d": 15.994560994561002,
+        "momentum_acceleration": -12.447538250804714,
+        "roc_21d": 0.09722408475258833,
+        "trend_strength_20d": 0.011492243182147073,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.25900486259714,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.005417588310181421
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 16.0,
+        "squeeze_momentum": 0.02323443077954847,
+        "volatility_compression": 53.15834506285699,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.07142439160977,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.399542967244702,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 50.0,
+        "squeeze": 62.973751759428545,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 10,
+        "percentile": 99.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "JPM",
+        "strike_price": "295",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.85",
+        "ask": "13.1",
+        "last_price": "13",
+        "mid_price": "12.975",
+        "spread_percent": "1.908396946564885496183206107"
+      },
+      "greeks": {
+        "delta": 0.5847,
+        "gamma": 0.0146,
+        "theta": -0.1186,
+        "vega": 0.4394
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2379
+      },
+      "liquidity_metrics": {
+        "volume": 119,
+        "open_interest": 2000,
+        "volume_oi_ratio": 0.0595
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:08.262993",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T23:30:54+00:00",
+            "title": "Trump met Bill Gates at the White House on Tuesday- NBC",
+            "content": "Investing.com-- U.S. President Donald Trump met former Microsoft CEO and billionaire Bill Gates in the White House on Tuesday, NBC News reported, citing a senior White House official.\n\nIt was not immediately clear what the two discussed.\n\nThe meeting comes after Trump met several high-profile business executives in recent months, including Nvidia CEO Jensen Huang, JP Morgan CEO Jamie Dimon, and Intel CEO Lip-Bu tan.\n\nTrump had announced a 10% investment in Intel after meeting Tan, and had outlined plans to make similar investments in other chipmakers that were receiving government funding under the CHIPS Act.\n\nGates had earlier this year criticized Trump’s rollback of U.S. Aid and climate incentives.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T19:28:32+00:00",
+            "title": "Notable Tuesday Option Activity: JPM, BOX, CAVA",
+            "content": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in JPMorgan Chase & Co (Symbol: JPM), where a total of 38,882 contracts have traded so far, representing approximately 3.9 million underlying shares.  That amounts to about 50.7% of JPM's average daily trading volume over the past month of 7.7 million shares.  Particularly high volume was seen for the $300 strike call option expiring August 29, 2025, with 12,293 contracts trading so far today, representing approximately 1.2 million underlying shares of JPM.  Below is a chart showing JPM's trailing twelve month trading history, with the $300 strike highlighted in orange:\n\nBox Inc (Symbol: BOX) saw options trading volume of 7,912 contracts, representing approximately 791,200 underlying shares or approximately 48.2% of BOX's average daily trading volume over the past month, of 1.6 million shares. Especially high volume was seen for the $35 strike call option expiring September 19, 2025, with 1,590 contracts trading so far today, representing approximately 159,000 underlying shares of BOX.  Below is a chart showing BOX's trailing twelve month trading history, with the $35 strike highlighted in orange:\n\nAnd CAVA Group Inc (Symbol: CAVA) options are showing a volume of 29,580 contracts thus far today.  That number of contracts represents approximately 3.0 million underlying shares, working out to a sizeable 47.1% of CAVA's average daily trading volume over the past month, of 6.3 million shares. Especially high volume was seen for the $55 strike put option expiring October 03, 2025, with 8,840 contracts trading so far today, representing approximately 884,000 underlying shares of CAVA.  Below is a chart showing CAVA's trailing twelve month trading history, with the $55 strike highlighted in orange:\n\nFor the various different available expirations for JPM options, BOX options,  or CAVA options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  Institutional Holders of FNCH\r\n  TDBK Insider Buying\r\n  WPI Videos\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T17:43:31+00:00",
+            "title": "JPMorgan Chase (JPM) Appoints Jerry Lee As Global Chair Of Investment Banking",
+            "content": "JPMorgan Chase recently strengthened its leadership by appointing Jerry Lee as the Global Chair of Investment Banking. This significant change, alongside other strategic appointments like Rob Otter and David Frame within the company, might have contributed to the 11% price increase over the last quarter. Additionally, substantial share buybacks and increased dividends may have further fueled investor confidence. Despite a decline in net income and basic EPS, the appointment of experienced leaders and a new buyback program offered a counterbalance, aligning with broader market trends, which have remained positive with a 15% rise over the past year.\n\nJPMorgan Chase has 1 risk we think you should know about.JPM Revenue & Expenses Breakdown as at Aug 2025\n\nUncover 13 companies that survived and thrived after COVID and have the right ingredients to survive Trump's tariffs.\n\nThe appointment of Jerry Lee and other leadership changes at JPMorgan Chase may have influenced the positive sentiment seen in the recent 11% share price increase. Over the past five years, the company's total shareholder return, including dividends, reached an impressive 236.61%. This robust longer-term performance highlights JPMorgan Chase's resilience and appeal to investors, despite facing some macroeconomic challenges. However, compared to the US Banks industry, which saw a 24.3% return over the past year, JPMorgan Chase's shorter-term performance exceeded industry averages, suggesting strong relative positioning during recent periods.\n\nLooking ahead, increased expenses and allowances for credit losses, alongside anticipated rate cuts, might present headwinds to revenue and earnings growth. Although strategic leadership appointments could potentially bolster investor confidence and guide financial performance, the firm faces challenges balancing credit loss provisions and expense management. With the current share price at US$294.90 and the price target set at US$305.32, there remains a modest upside potential of around 3.53%. While the current share price is close to analyst targets, any financial impacts from leadership changes and expenses will be crucial to monitoring future market reactions.\n\nGet an in-depth perspective on JPMorgan Chase's performance by reading our balance sheet health report here.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nStory Continues\n\nCompanies discussed in this article include JPM.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T15:32:06+00:00",
+            "title": "The fallout from Visa's U.S. open banking retreat",
+            "content": "Visa is reportedly at least pausing its open banking product in the U.S., drawing attention to new regulatory and financial complications surrounding data sharing.\n\n\"This highlights just how unsettled the space still is. Regulatory uncertainty and the possibility of higher fees could definitely slow adoption, especially for smaller players that can't afford compliance missteps,\" Chris Miller, senior director at Cornerstone Advisors, told American Banker. \"That said, the underlying demand for open banking and embedded payments isn't going away; consumers and businesses both expect smoother, more integrated financial experiences.\"\n\nVisa move was originally reported by Bloomberg. The card network did not return a request for comment.\n\nOpen banking enables third parties to access banking data, payments data and other information with a customer's permission. Payment companies are pursuing open banking technology to enable real-time payments, account-to-account transfers and embedded payments.\n\nWhat are the rules?\n\nBut regulations in the U.S. are in flux. The Consumer Financial Protection Bureau is revamping the rule that will govern open banking, following an earlier CFPB move to scrap the original U.S. open banking rule, called 1033. The 1033 rewrite comes while JPMorganChase considers charging fees to the data aggregators that enable open banking technology.\n\nRegulatory \"assertiveness\" in changing U.S. open banking rules has turned into ambiguity and enabled financial institutions to claim ownership of customer data and monetize access to it, creating uncertainty that threatens to stall progress in embedded payments and broader open banking adoption, according to Enrico Camerinelli, strategic advisor at Datos Insights.\n\n\"The decision from Visa is directly connected to an unintended consequence from the U.S. regulation on open banking to loosen the regulatory requirements and give more freedom and flexibility to banks to run their business,\" Camerinelli said. \"This has created a paradox where financial institutions claim ownership over their customers' data and demand to be paid to share this data.\"\n\nU.S. vs. the worldVisa plans to continue its open banking service in other markets, according to Bloomberg. Payment experts say Visa has more opportunity for open banking outside the U.S., regardless of the American regulatory situation.\n\nUncertainty about regulation is likely part of the thinking, but the decision to pull out of the U.S. is likely more about the market and Visa's presence, or lack thereof, Aaron Press, Research Director of Worldwide Payment Strategies at IDC, told American Banker.\n\nStory continues\n\n\"Visa has not made significant inroads in bank data access compared to its competitors,\" Press said.\n\nVisa rival Mastercard offers open banking through the card network's acquisition of data-aggregator Finicity. Mastercard recently added nine fintechs to its Start Path Open Banking and Embedded Finance accelerator program. Three are based in the U.S.: Link Money, a San Francisco-based pay-by-bank company for merchants; Payitoff, a New York based debt management provider; and Quiltt, a New York and Dallas-based software company that helps streamline open banking, a key strategy for Mastercard.\n\nAnd pure-play data aggregators like Plaid and MX have the largest share of the open banking technology business, according to Press.\n\nRead more about open banking. Open banking | American Banker)\n\nVisa discontinuing open banking in the U.S. is an \"admission\" that Visa was not getting much traction in the U.S, Aaron McPherson, a principal at AFM Consulting, told American Banker, referencing Visa's acquisition of Tink, a Swedish data company.\n\n\"Visa's primary entry into the market, Tink, has been focused on other markets,\" Press said. Visa bought Tink in 2021 for about $2.2 billion, after backing off an earlier deal to acquire Plaid for $5 billion. The Plaid acquisition was called off in early 2021 following a battle with the U.S. Department of Justice. The DOJ contended that Visa was removing a potential competitor in the online debit market by acquiring San Francisco-based Plaid, thus raising antitrust issues.\"I expect Visa to continue to support open banking applications in the U.S. through partners, rather than directly,\" McPherson said. \"Nothing prevents them from getting back in when the market situation is resolved.\"\n\nEmbedded complications\n\nOpen banking can support embedded finance and embedded payments, or it can support offering payments or financial services through third party apps, a strategy banks and fintechs are using to broaden customer relationships.\n\nEmbedded payments are based on the premise that users give permission to use their data in return for the possibility of accessing added services, Camerinelli said, adding that the exchange of proprietary data for embedded access to banking applications is the core of the value proposition. The potential of banks to charge for that data creates challenges for this model.\n\n\"[Easy access to new products] is the answer a bank can give when the client asks why it should give access to their own data,\" he said. \"If the answer goes further to something like 'And, oh, by the way, we're going to sell your data,' I'm not sure this will work,\" Camerinelli said.\n\nThere are also other options to support embedded payments beyond using open banking to share data.\n\n\"I've long thought that open banking's value proposition and therefore opportunity in the U.S. were modest, at best,\" Eric Grover, a principal at Intrepid Ventures, told American Banker. \"Existing payments systems in many respects are superior. They have near-universal acceptance, offer robust consumer protections, rewards, a credit option, and are habit for consumers and merchants, and near-frictionless. Visa's shuttering its U.S. open banking unit puts an exclamation point on it.\"\n\nAnd while embedded payments and embedded banking often co-exist as bank strategies that result from open banking, embedded payments aren't necessarily reliant on open banking, Grover said. \"Virtually all payment systems can be and are being embedded in systems consumers, businesses, and banks use.\"\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T15:06:32+00:00",
+            "title": "Factbox-From Wall Street to academia, who is in Trump’s line of fire?",
+            "content": "(Reuters) -U.S. President Donald Trump has escalated his criticism and actions against executives, corporations and institutions. His unprecedented actions - from novel export deals to frozen university grants - have upended the status quo between the government, law, academia and corporate America.\n\nEarlier this month, Trump questioned if Goldman Sachs CEO David Solomon should remain at the helm, slamming him for the bank’s prediction that tariffs would hurt the U.S. economy.\n\nHere are some influential figures and entities that Trump has publicly criticized:\n\nGOLDMAN SACHS\n\nGoldman’s economic research arm had published a note this month that said U.S. consumers had absorbed 22% of tariff costs through June, and their share could rise to 67% if the recent levies follow the same pattern as the earliest ones.\n\n\"David Solomon and Goldman Sachs refuse to give credit where credit is due,\" Trump said in a post on Truth Social, shortly thereafter.\n\nTrump said it was mostly \"companies and governments, many of them foreign, picking up the tabs\". He also took a dig at Solomon for his former DJ-ing hobby.\n\nINTEL\n\nAt the start of the month, Trump demanded Intel CEO Lip-Bu Tan step down due to China ties. Reuters had reported in April that Tan invested at least $200 million in hundreds of Chinese advanced manufacturing and chip firms, some of which were linked to the Chinese military.\n\n\"The CEO of INTEL is highly CONFLICTED and must resign, immediately. There is no other solution to this problem,\" Trump said in a post on his Truth Social platform.\n\nTan responded to Trump, saying he shared the president’s commitment to advancing U.S. national and economic security and that the Intel board was \"fully supportive of the work we are doing to transform our company\".\n\nAfter a meeting between the two, Trump praised Tan and the U.S. government decided to take a stake in the chipmaker.\n\nTESLA\n\nThe electric automaker’s billionaire tech CEO Elon Musk spent hundreds of millions of dollars supporting Trump’s re-election, a move investors who bid up Tesla stock expected to benefit Musk’s empire.\n\nTrump and Musk, however, fell out in June after Musk criticized Trump’s sweeping tax-cut and spending bill because it was projected to increase federal debt.\n\nResponding to that on Truth Social, Trump threatened to cut federal subsidies and contracts to Musk’s companies and said the billionaire \"just went CRAZY\" after losing the electric-vehicle mandate in the bill.\n\nADRIAN MARDELL, FORMER CEO, JAGUAR LAND ROVER\n\nTrump criticized Jaguar’s rebranding effort in August, calling the campaign \"woke\" and \"stupid\", and linking it to the departure of the company’s CEO.\n\nThe remarks from Trump came as the British carmaker, owned by India’s Tata Motors, announced the retirement of CEO Adrian Mardell, who spent more than three decades at the company.\n\nJaguar last year unveiled a new logo and visual identity as part of a brand refresh aimed at repositioning itself as an electric automaker, a move that drew sharp online backlash and criticism from brand loyalists.\n\nAPPLE\n\nTrump has repeatedly targeted Apple and its boss, Tim Cook, for making U.S.-sold iPhones outside the country and has threatened company-specific tariffs.\n\nIn May, Trump recalled after a meeting in the Qatari capital Doha, that he had confronted Cook about the company’s plan to make most of its iPhones sold in the U.S. at factories in India by the end of 2026.\n\nTrump had said in a social media post he told Cook \"long ago\" that \"I expect their iPhones that will be sold in the United States of America will be manufactured and built in the United States, not India, or anyplace else\".\n\nAt the start of the month, Trump announced Apple would invest an additional $100 billion in the U.S., raising its total domestic commitment to $600 billion over the next four years. Cook also gave Trump a U.S.-made souvenir with a 24-karat gold base.\n\nAMAZON.COM\n\nTrump called Amazon’s former CEO Jeff Bezos in April to complain about a news report that said the company planned to display prices showing the impact of tariffs on ecommerce retailer Amazon.com.\n\nHowever, Amazon said it had only briefly considered listing import charges for some goods in April following Trump’s tariff announcement, but dropped the plan as the White House accused the company of a \"hostile political act\".\n\nTrump later told reporters that Bezos had solved the problem \"very quickly\" and was \"very nice\".\n\nBANK OF AMERICA AND JPMORGAN CHASE\n\nTrump in August alleged that BofA CEO Brian Moynihan and JPMorgan chief Jamie Dimon discriminated against him and his supporters. Earlier he had said they did not provide banking services to conservatives.\n\n\"What you’re doing is wrong,\" Trump said, in a video address at the World Economic Forum in Davos, Switzerland. Trump did not cite evidence or specifics of any wrongdoing, in a question-and-answer session with corporate leaders and CEOs assembled on stage.\n\nHe also referenced JPMorgan’s Dimon. \"You and Jamie and everybody, I hope you’re gonna open your bank to conservatives.\"\n\nBoth lenders have denied the allegations of \"debanking\" on multiple occasions.\n\nWALMART\n\nTrump said in May Walmart and China should \"eat the tariffs\" and not burden American shoppers, after CEO Doug McMillon said the retailer could not absorb all tariff-related costs because of narrow retail margins.\n\n\"Walmart should STOP trying to blame Tariffs as the reason for raising prices throughout the chain. Walmart made BILLIONS OF DOLLARS last year, far more than expected,\" Trump said in a social media post.\n\nWhile Trump did not call out McMillon personally, he publicly criticized Walmart for attributing its price hikes in May to tariffs imposed by his administration.\n\nCOMCAST\n\nTrump criticized Comcast and its cable news network MSNBC for its news coverage of his administration. He said to reporters, \"They’re changing the name because they’re ashamed of it, and they’re disassociating it from NBC,\" referring to MSNBC’s name change to MS NOW.\n\nIn a post on his social media platform last week, Trump also called Comcast a \"weak and ineffective owner ... headed by ... Brian Roberts\".\n\nSMITHSONIAN INSTITUTION:\n\nThe White House has said it will lead an internal review of some Smithsonian museums and exhibitions ahead of the 250th anniversary of the U.S. Declaration of Independence.\n\nIn an executive order in March, Trump said the institution had come under the influence of a \"divisive, race-centered ideology\" in recent years.\n\nHARVARD UNIVERSITY\n\nTrump targeted the country’s oldest and richest university, canceling about $2.5 billion federal grants and mounted efforts to cut off research funding to Harvard, as a part of a larger campaign to force change at U.S. universities, which Trump says are gripped by antisemitic and \"radical left\" ideologies.\n\n\"We are going to be taking away Harvard’s Tax Exempt Status. It’s what they deserve!\" Trump wrote in a post on his social media platform in May.\n\nCOLUMBIA UNIVERSITY\n\nIn March, the Trump administration said it was penalizing Columbia University over how it handled last year’s protests by canceling $400 million in federal funding.\n\n\"This is the first arrest of many to come. We know there are more students at Columbia and other Universities across the Country who have engaged in pro-terrorist, anti-Semitic, anti-American activity, and the Trump Administration will not tolerate it,\" Trump said in a social media post.\n\nThe comments came after the arrest of a Palestinian graduate student Mahmoud Khalil played a prominent role in the protests.\n\nIn July, the university said it will pay over $200 million to the U.S. government in a settlement with Trump’s administration.\n\nLAW FIRMS\n\nTrump targeted law firm Perkins Coie in March with an executive order that suspended security clearances for its employees and restricted their access to federal buildings over its ties to Hillary Clinton and DEI policies.\n\nTrump had said it was \"an absolute honor to sign\" the order. Trump also targeted New York law firm Paul, Weiss, Rifkind, Wharton & Garrison in March with a similar order, which he later withdrew after striking a deal.\n\nLaw firm Covington & Burling faced Trump’s presidential memorandum in February, which suspended security clearances for Peter Koski and all Covington employees who assisted former special counsel Jack Smith, who prosecuted Trump.\n\nCovington had said it would continue representing Jack Smith despite these measures.\n\n\"We’re going to continue holding the people who were responsible for the weaponization of government - who supported it - accountable,\" Trump had said.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "JPMorgan Chase & Co",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "employees": 317160,
+          "description": "JPMorgan Chase & Co. operates as a financial services company worldwide. It operates through three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, cash management, and payments and servi"
+        },
+        "financial_metrics": {
+          "eps_ttm": 19.49,
+          "profit_margin": 0.3452,
+          "operating_margin": 0.4375,
+          "roe": 0.1621,
+          "roa": 0.013,
+          "revenue_growth_yoy": -0.106,
+          "earnings_growth_yoy": -0.144,
+          "eps_estimate_current_year": 19.2906,
+          "eps_estimate_next_year": 20.5517,
+          "dividend_yield": 0.0179,
+          "dividend_per_share": 5.3,
+          "revenue_ttm": 163748003840,
+          "revenue_per_share": 57.936,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.1308,
+          "forward_pe": 15.8228,
+          "price_to_sales": 4.9521,
+          "price_to_book": 2.418,
+          "enterprise_value": 462584086528,
+          "ev_to_revenue": 6.259,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.107,
+          "52_week_high": 301.2931,
+          "52_week_low": 196.2041,
+          "50_day_ma": 288.246,
+          "200_day_ma": 259.2593,
+          "short_interest": 0.0083,
+          "short_ratio": 2.47
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 5.6,
+          "forward_dividend_yield": 0.0189,
+          "payout_ratio": 0.2759,
+          "dividend_date": "2025-07-31",
+          "ex_dividend_date": "2025-07-03",
+          "last_split_date": "2000-06-12",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 305.3182,
+          "strong_buy": 8,
+          "buy": 7,
+          "hold": 9,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 2749750016,
+          "percent_institutions": 74.482,
+          "percent_insiders": 0.46699999999999997,
+          "shares_float": 2735235154
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4552482.0,
+          "total_debt": 485095.0,
+          "net_debt": 64768.0,
+          "shareholders_equity": 356924.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.36
+        },
+        "income_latest_statement": {
+          "total_revenue": 69944.0,
+          "gross_profit": 42063.0,
+          "operating_income": 18284.0,
+          "net_income": 14987.0,
+          "ebitda": 20314.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 60.14,
+          "operating_margin": 26.14,
+          "net_margin": 21.43
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 29547.0,
+          "free_cash_flow": 29547.0,
+          "capex": 0.0,
+          "net_income": 14987.0,
+          "cash_change": -5576.0,
+          "dividends_paid": 4205.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 4.63,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 288.4,
+            "high": 290.73,
+            "low": 283.01,
+            "close": 285.82,
+            "volume": 9979800
+          },
+          {
+            "date": "2025-07-17",
+            "open": 283.44,
+            "high": 290.3,
+            "low": 283.44,
+            "close": 289.9,
+            "volume": 8509500
+          },
+          {
+            "date": "2025-07-18",
+            "open": 289.52,
+            "high": 292.5,
+            "low": 288.23,
+            "close": 291.27,
+            "volume": 12217000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 291,
+            "high": 294.18,
+            "low": 290.58,
+            "close": 290.97,
+            "volume": 7898100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 291.5,
+            "high": 293.63,
+            "low": 289.18,
+            "close": 291.43,
+            "volume": 6717500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 292.84,
+            "high": 296.99,
+            "low": 292.55,
+            "close": 296.76,
+            "volume": 7083500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 297.42,
+            "high": 299.59,
+            "low": 296.2,
+            "close": 296.55,
+            "volume": 7001200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 296.7,
+            "high": 298.9,
+            "low": 295.96,
+            "close": 298.62,
+            "volume": 5918500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 297.66,
+            "high": 299.43,
+            "low": 296.82,
+            "close": 298.28,
+            "volume": 5840417
+          },
+          {
+            "date": "2025-07-29",
+            "open": 300,
+            "high": 301.2931,
+            "low": 296.2,
+            "close": 297.04,
+            "volume": 7635719
+          },
+          {
+            "date": "2025-07-30",
+            "open": 297.42,
+            "high": 300.61,
+            "low": 297.38,
+            "close": 299.63,
+            "volume": 8061700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 299.14,
+            "high": 300.98,
+            "low": 295.5,
+            "close": 296.24,
+            "volume": 14749700
+          },
+          {
+            "date": "2025-08-01",
+            "open": 290.4,
+            "high": 291.8,
+            "low": 284.24,
+            "close": 289.37,
+            "volume": 12007100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 290.26,
+            "high": 294.32,
+            "low": 290.26,
+            "close": 294.26,
+            "volume": 6649500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 294.69,
+            "high": 295.79,
+            "low": 287.24,
+            "close": 291.37,
+            "volume": 7182300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 292.3,
+            "high": 293.29,
+            "low": 290.16,
+            "close": 291.35,
+            "volume": 6330200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 292.94,
+            "high": 293.46,
+            "low": 286.41,
+            "close": 286.94,
+            "volume": 8057100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 288.98,
+            "high": 291.23,
+            "low": 284.71,
+            "close": 288.76,
+            "volume": 6634100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 289.4,
+            "high": 291.32,
+            "low": 288.78,
+            "close": 289.56,
+            "volume": 5510100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 291.5,
+            "high": 294.75,
+            "low": 290.34,
+            "close": 292.85,
+            "volume": 8570900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 293.95,
+            "high": 294.55,
+            "low": 287.16,
+            "close": 290.53,
+            "volume": 8420400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 290.58,
+            "high": 294.2,
+            "low": 289.64,
+            "close": 294.16,
+            "volume": 6322400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 294.84,
+            "high": 295.5,
+            "low": 289.82,
+            "close": 290.49,
+            "volume": 7340500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 290,
+            "high": 291.9,
+            "low": 288.41,
+            "close": 291.53,
+            "volume": 5386900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 290.83,
+            "high": 292.48,
+            "low": 289.53,
+            "close": 290.66,
+            "volume": 6031500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 290.81,
+            "high": 293.33,
+            "low": 287.27,
+            "close": 292.24,
+            "volume": 7374200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 291.94,
+            "high": 292.77,
+            "low": 289.47,
+            "close": 291.47,
+            "volume": 6624000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 293.2,
+            "high": 297.16,
+            "low": 290.13,
+            "close": 296.24,
+            "volume": 8552800
+          },
+          {
+            "date": "2025-08-25",
+            "open": 296.24,
+            "high": 297.35,
+            "low": 294.14,
+            "close": 294.9,
+            "volume": 5856300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 294.16,
+            "high": 298.73,
+            "low": 293.5001,
+            "close": 298.57,
+            "volume": 6702788
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.5150821438190051,
+        "return_63d": 13.313598239022348,
+        "pct_above_sma50": 3.2124196238680374,
+        "sma_50": 289.4516,
+        "new_55d_high": "False",
+        "high_55d": 301.2931,
+        "rsi": 60.62389640965267,
+        "rsi_in_range": "True",
+        "adx": 36.11108226503465,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.8069447700706713,
+        "bb_width": 4.509089108147774,
+        "keltner_width": 7.381669934024006,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 2228757257.5664,
+        "adv_shares": 7618224.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.47096735885447,
+        "final_score": 49.47096735885447,
+        "sub_scores": {
+          "trend_momentum": 16.07142439160977,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.399542967244702,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 0.09722408475258959,
+          "ret_63d": 12.544762335557301,
+          "rsi14": 60.62389640965267,
+          "adx14": 28.61548112836357,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: JPM\n• Current Price: $298.75\n• Overall Score: 52.02167342880879\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 288.246\n• Sma 200: 259.2593\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.09722408475258833\n• Momentum 63D: 12.544762335557301\n• Momentum 126D: 15.994560994561002\n• Momentum Acceleration: -12.447538250804714\n• Roc 21D: 0.09722408475258833\n• Trend Strength 20D: 0.011492243182147073\n• Trend Direction: 1\n• Ma Ribbon Score: 82.25900486259714\n• Breakout Strength: 0.0\n• Price Velocity: 0.005417588310181421\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 16.0\n• Squeeze Momentum: 0.02323443077954847\n• Volatility Compression: 53.15834506285699\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.07142439160977\n• Squeeze Breakout: 4.0\n• Options Quality: 18.399542967244702\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 50.0\n• Squeeze: 62.973751759428545\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: JPM\n• Strike Price: $295\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.85\n• Ask: $13.1\n• Last: $13\n• Mid: $12.975\n• Spread: 1.908396946564885496183206107%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5847\n• Gamma: 0.0146\n• Theta: -0.1186\n• Vega: 0.4394\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2379\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 119\n• Open Interest: 2000\n• Volume/OI Ratio: 0.0595\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: JPMorgan Chase & Co\n• Sector: Financial Services\n• Industry: Banks - Diversified\n• EPS (TTM): $19.49\n• Profit Margin: 34.5%\n• ROE: 16.2%\n• P/E Ratio: 15.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T23:30:54+00:00: Trump met Bill Gates at the White House on Tuesday- NBC...\n• 2025-08-26T19:28:32+00:00: Notable Tuesday Option Activity: JPM, BOX, CAVA...\n• 2025-08-26T17:43:31+00:00: JPMorgan Chase (JPM) Appoints Jerry Lee As Global Chair Of Investment Banking...\n• 2025-08-26T15:32:06+00:00: The fallout from Visa's U.S. open banking retreat...\n• 2025-08-26T15:06:32+00:00: Factbox-From Wall Street to academia, who is in Trump’s line of fire?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR JPM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the JPM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:12:45.085804",
+    "estimated_tokens": 2323
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"JPM\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"JPM shows strong technical momentum with price above both 50 and 200 SMAs and a solid MA ribbon score of 82.26. The presence of a volatility squeeze with 3 timeframe confirmation suggests potential for a significant move, though upcoming earnings create near-term risk.\",\n    \"opportunities\": [\n        \"Strong technical trend with price well above key moving averages\",\n        \"Multi-timeframe squeeze setup with 16-day duration and 3 timeframe confirmation\",\n        \"Reasonable options liquidity with 1.91% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Earnings coming up on 2025-09-30\",\n        \"Negative momentum acceleration (-12.45)\",\n        \"Relatively low volume/OI ratio of 0.0595\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call at $295 strike for Oct 2025 expiration provides balanced exposure with 0.58 delta\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively given upcoming earnings and use 25% stop loss\"\n    },\n    \"red_flags\": [\n        \"Earnings event within 35 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup is compelling, upcoming earnings create elevated near-term risk. Consider staging entries or waiting for earnings catalyst to pass.\"\n}",
+    "parsed_analysis": {
+      "symbol": "JPM",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "JPM shows strong technical momentum with price above both 50 and 200 SMAs and a solid MA ribbon score of 82.26. The presence of a volatility squeeze with 3 timeframe confirmation suggests potential for a significant move, though upcoming earnings create near-term risk.",
+      "opportunities": [
+        "Strong technical trend with price well above key moving averages",
+        "Multi-timeframe squeeze setup with 16-day duration and 3 timeframe confirmation",
+        "Reasonable options liquidity with 1.91% bid-ask spread"
+      ],
+      "risks": [
+        "Earnings coming up on 2025-09-30",
+        "Negative momentum acceleration (-12.45)",
+        "Relatively low volume/OI ratio of 0.0595"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call at $295 strike for Oct 2025 expiration provides balanced exposure with 0.58 delta",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively given upcoming earnings and use 25% stop loss"
+      },
+      "red_flags": [
+        "Earnings event within 35 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "While technical setup is compelling, upcoming earnings create elevated near-term risk. Consider staging entries or waiting for earnings catalyst to pass."
+    },
+    "tokens_used": 2526,
+    "cost": 0.02526,
+    "response_time": 10.236019372940063,
+    "success": true
+  },
+  "cost": 0.02526,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8493,
+    "response_length": 1612
+  }
+}

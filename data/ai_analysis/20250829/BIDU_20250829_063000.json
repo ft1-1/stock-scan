@@ -1,0 +1,617 @@
+{
+  "success": true,
+  "symbol": "BIDU",
+  "timestamp": "2025-08-29T06:30:00.142857",
+  "data_package": {
+    "metadata": {
+      "symbol": "BIDU",
+      "package_timestamp": "2025-08-29T06:29:48.365844",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BIDU",
+        "current_price": 90.97,
+        "overall_score": 52.556923076923084,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 88.1502,
+        "sma_200": 87.8566
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.852920642308589,
+        "momentum_63d": 7.7971323616542225,
+        "momentum_126d": 3.070473600725123,
+        "momentum_acceleration": -1.9442117193456339,
+        "roc_21d": 5.852920642308589,
+        "trend_strength_20d": 0.5445299203471393,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.35466357866198,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0077460015815366216
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 8.0,
+        "squeeze_momentum": 0.2321940336370593,
+        "volatility_compression": 21.0,
+        "is_consolidating": "False",
+        "breakout_score": -0.07757277441212014,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.422532375877925,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.525718654434268,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 61.0,
+        "squeeze": 58.15,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 8,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BIDU",
+        "strike_price": "90",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.4",
+        "ask": "5.5",
+        "last_price": "5.38",
+        "mid_price": "5.45",
+        "spread_percent": "1.818181818181818181818181818"
+      },
+      "greeks": {
+        "delta": 0.5751,
+        "gamma": 0.0331,
+        "theta": -0.0523,
+        "vega": 0.131
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3544
+      },
+      "liquidity_metrics": {
+        "volume": 450,
+        "open_interest": 3106,
+        "volume_oi_ratio": 0.1448808757244044
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:23.657382",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T18:09:00+00:00",
+            "title": "Alphabet Focuses on AI Mode to Boost Search Growth: What's Ahead?",
+            "content": "Alphabet’s GOOGL Search business is benefiting from AI infusion. The company is leading the search domain with 89.57% market share, followed by Microsoft’s MSFT Bing, with 3.88% share, Yandex’s 2.19%, Yahoo!’s 1.49%, DuckDuckGo’s 0.95% and Baidu’s BIDU 0.72%, per the latest data from StatCounter. According to Semrush data, Google handles more than 5 trillion queries annually, and there are an estimated 9.5 million Google searches per minute.\r\n\r\nAlphabet is advancing visual and contextual search capabilities. The Circle to Search feature is now active on more than 300 million devices. The company is adding functionalities to help people explore complex topics and ask follow-up questions without switching apps. AI Overviews now reach more than 2 billion users per month and are available in over 200 countries across 40 languages. Google’s AI-powered Search features are driving deeper engagement, with AI Mode offering advanced reasoning and multimodal responses.\r\n\r\nThe launch of AI Mode in the United States and India — where GOOGL currently has more than 100 million monthly active users — is expected to drive further growth. AI Mode in Search is now expanded to more than 180 countries and territories in English. Alphabet has added new agentic and personalized capabilities, designed to help people complete tasks more efficiently and get results tailored to their interests. Alphabet plans further expansion into more languages and markets soon.\r\n\r\nThe Zacks Consensus Estimate for third-quarter 2025 Google Search and other revenues is pegged at $54.84 billion, indicating 11% growth from the figure reported in the year-ago quarter.\n\nGOOGL Faces Tough Competition\n\nMicrosoft is keeping no stone unturned to improve the capabilities of Bing. MSFT has been integrating AI into Bing thanks to its partnership with OpenAI. The company introduced Copilot Search in Bing in April this year and launched Bing Video Creator in June. \r\n\r\nMeanwhile, Baidu has launched new AI-powered tools to support its search business. Baidu introduced an advanced video generation model that transforms still images into dynamic clips. BIDU’s search box now accepts up to 1,000 Chinese characters, far surpassing the previous 28-character limit. In March 2025, Baidu released ERNIE 4.5, which features multimodal capabilities and ERNIE X1, its first reasoning model. In April, Baidu launched ERNIE 4.5 Turbo and ERNIE X1 Turbo, which deliver improved performance at a much lower cost.\n\nGOOGL’s Share Price Performance, Valuation & Estimates\n\nAlphabet shares have appreciated 9.6% year to date, underperforming the broader Zacks Computer and Technology sector’s return of 12.9%.\n\nStory Continues\n\nGOOGL Stock’s PerformanceZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe GOOGL stock is trading at a premium, with a forward 12-month price/sales of 6.94X compared with the broader sector’s 6.67X. Alphabet has a Value Score of C.\n\nGOOGL ValuationZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for 2025 earnings is pegged at $10 per share, up 0.6% over the past 30 days, suggesting 24.4% growth from fiscal 2024’s reported figure.\n\nAlphabet Inc. Price and ConsensusAlphabet Inc. Price and Consensus\n\nAlphabet Inc. price-consensus-chart | Alphabet Inc. Quote\n\nAlphabet currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMicrosoft Corporation (MSFT) : Free Stock Analysis Report\n\nBaidu, Inc. (BIDU) : Free Stock Analysis Report\n\nAlphabet Inc. (GOOGL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T13:00:04+00:00",
+            "title": "Investors Heavily Search Baidu, Inc. (BIDU): Here is What You Need to Know",
+            "content": "Baidu Inc. (BIDU) is one of the stocks most watched by Zacks.com visitors lately. So, it might be a good idea to review some of the factors that might affect the near-term performance of the stock.\n\nOver the past month, shares of this web search company have returned +4.6%, compared to the Zacks S&P 500 composite's +1.5% change. During this period, the Zacks Internet - Services industry, which Baidu Inc. falls in, has gained 6.7%. The key question now is: What could be the stock's future direction?\n\nWhile media releases or rumors about a substantial change in a company's business prospects usually make its stock 'trending' and lead to an immediate price change, there are always some fundamental facts that eventually dominate the buy-and-hold decision-making.\n\nEarnings Estimate Revisions\n\nHere at Zacks, we prioritize appraising the change in the projection of a company's future earnings over anything else. That's because we believe the present value of its future stream of earnings is what determines the fair value for its stock.\n\nOur analysis is essentially based on how sell-side analysts covering the stock are revising their earnings estimates to take the latest business trends into account. When earnings estimates for a company go up, the fair value for its stock goes up as well. And when a stock's fair value is higher than its current market price, investors tend to buy the stock, resulting in its price moving upward. Because of this, empirical studies indicate a strong correlation between trends in earnings estimate revisions and short-term stock price movements.\n\nBaidu Inc. is expected to post earnings of $1.67 per share for the current quarter, representing a year-over-year change of -29.5%. Over the last 30 days, the Zacks Consensus Estimate has changed -5.9%.\n\nFor the current fiscal year, the consensus earnings estimate of $8.66 points to a change of -17.8% from the prior year. Over the last 30 days, this estimate has remained unchanged.\n\nFor the next fiscal year, the consensus earnings estimate of $10.47 indicates a change of +20.9% from what Baidu Inc. is expected to report a year ago. Over the past month, the estimate has remained unchanged.\n\nHaving a strong externally audited track record, our proprietary stock rating tool, the Zacks Rank, offers a more conclusive picture of a stock's price direction in the near term, since it effectively harnesses the power of earnings estimate revisions. Due to the size of the recent change in the consensus estimate, along with three other factors related to earnings estimates, Baidu Inc. is rated Zacks Rank #5 (Strong Sell).\n\nStory Continues\n\nThe chart below shows the evolution of the company's forward 12-month consensus EPS estimate:\n\n12 Month EPS12-month consensus EPS estimate for BIDU\n\nRevenue Growth Forecast\n\nEven though a company's earnings growth is arguably the best indicator of its financial health, nothing much happens if it cannot raise its revenues. It's almost impossible for a company to grow its earnings without growing its revenue for long periods. Therefore, knowing a company's potential revenue growth is crucial.\n\nIn the case of Baidu Inc., the consensus sales estimate of $4.33 billion for the current quarter points to a year-over-year change of -9.5%. The $18.28 billion and $19.14 billion estimates for the current and next fiscal years indicate changes of -1.1% and +4.7%, respectively.\n\nLast Reported Results and Surprise History\n\nBaidu Inc. reported revenues of $4.57 billion in the last reported quarter, representing a year-over-year change of -2.2%. EPS of $1.9 for the same period compares with $2.89 a year ago.\n\nCompared to the Zacks Consensus Estimate of $4.6 billion, the reported revenues represent a surprise of -0.66%. The EPS surprise was +9.2%.\n\nThe company beat consensus EPS estimates in each of the trailing four quarters. The company topped consensus revenue estimates three times over this period.\n\nValuation\n\nWithout considering a stock's valuation, no investment decision can be efficient. In predicting a stock's future price performance, it's crucial to determine whether its current price correctly reflects the intrinsic value of the underlying business and the company's growth prospects.\n\nWhile comparing the current values of a company's valuation multiples, such as price-to-earnings (P/E), price-to-sales (P/S), and price-to-cash flow (P/CF), with its own historical values helps determine whether its stock is fairly valued, overvalued, or undervalued, comparing the company relative to its peers on these parameters gives a good sense of the reasonability of the stock's price.\n\nAs part of the Zacks Style Scores system, the Zacks Value Style Score (which evaluates both traditional and unconventional valuation metrics) organizes stocks into five groups ranging from A to F (A is better than B; B is better than C; and so on), making it helpful in identifying whether a stock is overvalued, rightly valued, or temporarily undervalued.\n\nBaidu Inc. is graded B on this front, indicating that it is trading at a discount to its peers. Click here to see the values of some of the valuation metrics that have driven this grade.\n\nConclusion\n\nThe facts discussed here and much other information on Zacks.com might help determine whether or not it's worthwhile paying attention to the market buzz about Baidu Inc.. However, its Zacks Rank #5 does suggest that it may underperform the broader market in the near term.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nBaidu, Inc. (BIDU) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T09:30:00+00:00",
+            "title": "Chinese AI model developers push for faster commercial adoption as training costs fall",
+            "content": "Open-source artificial intelligence (AI) models from China are seeing increased adoption across various industries, according to research firm Frost & Sullivan, as major developers step up the commercial application of their systems.\n\nDevelopers such as DeepSeek, Alibaba Group Holding and Baidu have shifted from pushing their models' \"extreme performance\" towards prioritising usability, cost efficiency and broad ecosystem support to accelerate industry adoption, according to Neil Wang, global partner and Greater China chairman at Frost & Sullivan, in an interview with the South China Morning Post on Thursday. Alibaba owns the Post.\n\nAccording to Frost & Sullivan's latest report on China's AI market released on Thursday, the nation has made quick progress in getting more industries to adopt the relevant AI applications.\n\nDo you have questions about the biggest topics and trends from around the world? Get the answers with SCMP Knowledge, our new platform of curated content with explainers, FAQs, analyses and infographics brought to you by our award-winning team.\n\n\"AI applications are evolving from general capabilities to scenario-specific deployment,\" the report said. It pointed out that the country's finance, government, telecommunications and healthcare sectors have each achieved an average AI penetration rate in excess of 60 per cent.\n\nThe government sector saw the highest adoption rate of 95 per cent, followed by finance with a 78 per cent rate.\n\nAlibaba Cloud, the AI and cloud computing unit of Alibaba Group Holding, has built its Qwen family of models into the world's largest open-source AI ecosystem for developers. Photo: Shutterstock alt=Alibaba Cloud, the AI and cloud computing unit of Alibaba Group Holding, has built its Qwen family of models into the world's largest open-source AI ecosystem for developers. Photo: Shutterstock>\n\nThe trend has emerged amid a substantial decline of model training costs, which has lowered the barrier to entry for pursuing AI projects, according to Wang. Training costs have seen a 90 per cent drop this year when compared with 2024, he added.\n\nHis assessment reflected how Chinese AI companies have been narrowing the gap with their US peers through an open-source approach, which makes the source code of AI models available for third-party developers to use, modify and distribute.\n\nOpen-source models from start-ups like DeepSeek and MoonshotAI, along with those from Big Tech firms led by Alibaba AI unit Alibaba Cloud and Baidu, have seen increased adoption across various industries on the back of their low-cost appeal and innovative features.\n\nStory Continues\n\nLower training costs enabled DeepSeek, for example, to sharpen its focus on delivering \"manageable costs, adequate quality and a more user-friendly toolchain\", instead of just targeting greater AI benchmark scores than the competition, Wang said.\n\nHe pointed out that DeepSeek's V3.1 model has a \"more flexible hybrid reasoning mode\", which enables the system to automatically switch between \"deep thinking\" and \"fast response\" modes based on the complexity of the task.\n\nChina's vast market in industrial AI application marks \"a clear advantage\" over the US, as domestic AI firms are \"extremely fast at trial and error and technology iteration\", which opens up opportunities for swift commercial adoption, Wang said.\n\nStill, he said bottlenecks exist in the mainland's AI model segment, as many developers continue to rely heavily on foreign technology providers for \"foundational development software\", such as AI frameworks and compilers.\n\nThis article originally appeared in the South China Morning Post (SCMP), the most authoritative voice reporting on China and Asia for more than a century. For more SCMP stories, please explore the SCMP app or visit the SCMP's Facebook and Twitter pages. Copyright © 2025 South China Morning Post Publishers Ltd. All rights reserved.\n\nCopyright (c) 2025. South China Morning Post Publishers Ltd. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T09:30:00+00:00",
+            "title": "Baidu unveils AI computing platform powered by Chinese chips to push a domestic tech stack",
+            "content": "Baidu, one of China's artificial intelligence champions, on Thursday unveiled its Baige 5.0 AI infrastructure platform - powered by a mix of semiconductors, including those designed by its Kunlunxin unit - to raise the efficiency of DeepSeek's open-source models.\n\nThe Beijing-based AI and internet search giant's upgraded platform delivers a speedier network connection, increased computing power, and enhanced model training and inferencing capabilities, according to executive vice-president Shen Dou, who also serves as president of Baidu AI Cloud Group, speaking at a corporate event held in China's capital on Thursday.\n\nBaige's inferencing system - backed by adaptive and smart resource allocation technologies, which speed up data throughput and lessen communications latency - improved the inferencing efficiency of DeepSeek's R1 reasoning model by around 50 per cent, according to Shen. Inferencing is the process that a trained AI model uses to draw conclusions in response to human queries.\n\nDo you have questions about the biggest topics and trends from around the world? Get the answers with SCMP Knowledge, our new platform of curated content with explainers, FAQs, analyses and infographics brought to you by our award-winning team.\n\n\"That means, with the same time and cost ... we could have the model 'think' 50 per cent more [or] work 50 per cent more,\" Shen said.\n\nThe launch of Baige 5.0 reflects the growing efforts across the mainland's AI and semiconductor sectors to push forward the development of a domestic AI technology stack, reducing the impact of US trade restrictions on China.\n\nBaidu executive vice-president Shen Dou serves as the president of the company's AI Cloud Group. Photo: Handout alt=Baidu executive vice-president Shen Dou serves as the president of the company's AI Cloud Group. Photo: Handout>\n\nShen said the Kunlunxin Super Node, which supports hundreds of interconnected AI chips, had gone live on the Baige 5.0 platform, making it capable of deploying and running a trillion-parameter AI system within minutes. The number of parameters in an AI model dictates the size and complexity of its use.\n\nBaidu unit Kunlunxin designs integrated circuits to compete with those from US semiconductor powerhouse Nvidia and mainland rivals that include Huawei Technologies' HiSilicon and Cambricon Technologies.\n\nKunluxin last week said it won chip orders worth over 1 billion yuan (US$139 million) for the AI projects of state-owned telecommunications network operator China Mobile, according to a Reuters report.\n\nStory Continues\n\nCambricon, meanwhile, on Tuesday reported a revenue surge in the first half of 2025 on the back of \"continued market expansion and active support for the implementation of AI applications\", according to the firm's earnings report.\n\nThe launch of the Kunlunxin Super Node on the Baige platform comes as more Chinese enterprises adopt domestic chips to power AI development projects. This trend received a big boost last week, when Hangzhou-based DeepSeek suggested in a cryptic one-line post on WeChat that China's next-generation AI chips would soon be released.\n\nBaidu's Hong Kong-listed shares closed 1.25 per cent lower to HK$86.60 on Thursday.\n\nThis article originally appeared in the South China Morning Post (SCMP), the most authoritative voice reporting on China and Asia for more than a century. For more SCMP stories, please explore the SCMP app or visit the SCMP's Facebook and Twitter pages. Copyright © 2025 South China Morning Post Publishers Ltd. All rights reserved.\n\nCopyright (c) 2025. South China Morning Post Publishers Ltd. All rights reserved.",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T18:17:13+00:00",
+            "title": "Baidu (BIDU) Faces Ad Slowdown but Gains From AI Cloud Growth",
+            "content": "Baidu, Inc. (NASDAQ:BIDU) is one of the AI Stocks Analysts Are Tracking Closely. On August 21, Benchmark analyst Fawne Jiang lowered the price target on the stock to $115.00 (from $120.00) while maintaining a Buy rating.\n\nThe price target cut reflects the challenges Baidu is facing in its core advertising business, witnessing a 15% year-over-year revenue decline in the second quarter of 2025. With GenAI search monetization still in early stages, the second-quarter ad outlook was “muted”.\n\nOn the other hand, the company’s non-advertising revenue continues to gain traction, accounting for an estimated 40% Baidu Core. This is driven by strong AI Cloud growth, which expanded 34% year-over-year in the first half of 2025, as well as subscription-based revenue for improved stability.Baidu (BIDU) Faces Ad Slowdown but Gains From AI Cloud Growth\n\nThe firm also talked about the company’s autonomous driving service, Apollo Go, which is demonstrating strong performance.\n\n“Apollo Go adds further depth, with fully driverless rides up 148% y/y and global expansion gaining pace through partnerships with Uber and Lyft. While the combination of soft ad trends and continued AI investment may weigh on margins near term, management’s focus on cost efficiency and disciplined execution should help to mitigate the impacts. We believe that the upcoming launch of ERNIE 5.0 and rising engagement with AI-powered search reinforce Baidu’s pivot toward a more diversified, innovation-led model, though execution remains key in this evolving landscape.”\n\nBaidu, Inc. (NASDAQ:BIDU) is a Chinese internet giant and AI pioneer, known for its noteworthy investments in artificial intelligence technology and its position as the dominant search engine within the country.\n\nWhile we acknowledge the potential of BIDU as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you're looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 10 Must-Watch AI Stocks for Investorsand 10 AI Stocks Analysts Are Tracking Closely\n\nDisclosure: None.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Baidu Inc",
+          "sector": "Communication Services",
+          "industry": "Internet Content & Information",
+          "employees": 35900,
+          "description": "Baidu, Inc. provides online marketing and non-marketing value added services through an internet platform in the People's Republic of China. It operates in two segments, Baidu Core and iQIYI. The Baidu Core segment offers search-based, feed-based, and other online marketing services; cloud services;"
+        },
+        "financial_metrics": {
+          "eps_ttm": 10.89,
+          "profit_margin": 0.2097,
+          "operating_margin": 0.1002,
+          "roe": 0.0975,
+          "roa": 0.0256,
+          "revenue_growth_yoy": -0.036,
+          "earnings_growth_yoy": 0.351,
+          "eps_estimate_current_year": 56.4913,
+          "eps_estimate_next_year": 63.2649,
+          "revenue_ttm": 132846002176,
+          "revenue_per_share": 385.41,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 8.3535,
+          "forward_pe": 11.7925,
+          "price_to_sales": 0.2329,
+          "price_to_book": 0.8134,
+          "enterprise_value": 26081050764,
+          "ev_to_revenue": 1.4045,
+          "ev_to_ebitda": 5.3111
+        },
+        "technical_data": {
+          "beta": 0.335,
+          "52_week_high": 116.25,
+          "52_week_low": 74.71,
+          "50_day_ma": 88.1502,
+          "200_day_ma": 87.8566,
+          "short_interest": 0.0245,
+          "short_ratio": 1.43
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2010-05-12",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0606,
+          "target_price": 99.7588,
+          "strong_buy": 17,
+          "buy": 3,
+          "hold": 12,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 278228000,
+          "percent_institutions": 22.529,
+          "percent_insiders": 3.499,
+          "shares_float": 2118227200
+        },
+        "balance_latest_sheet": {
+          "total_assets": 450569.0,
+          "net_debt": 53818.0,
+          "working_capital": 72093.0,
+          "shareholders_equity": 275057.0,
+          "quarter_date": "2025-06-30"
+        },
+        "income_latest_statement": {
+          "total_revenue": 32713.0,
+          "gross_profit": 14356.0,
+          "operating_income": 3277.0,
+          "net_income": 7322.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 43.88,
+          "operating_margin": 10.02,
+          "net_margin": 22.38
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -877.0,
+          "free_cash_flow": -877.0,
+          "capex": 0.0,
+          "net_income": 7322.0,
+          "cash_change": -18809.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 10.68,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 88.34,
+            "high": 90.2,
+            "low": 87.74,
+            "close": 87.81,
+            "volume": 5779700
+          },
+          {
+            "date": "2025-07-21",
+            "open": 88.18,
+            "high": 90.35,
+            "low": 87.55,
+            "close": 88.81,
+            "volume": 4199700
+          },
+          {
+            "date": "2025-07-22",
+            "open": 90.12,
+            "high": 93.37,
+            "low": 89.4,
+            "close": 92.45,
+            "volume": 6912400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 94.42,
+            "high": 94.5,
+            "low": 91.65,
+            "close": 93.08,
+            "volume": 4818700
+          },
+          {
+            "date": "2025-07-24",
+            "open": 92.03,
+            "high": 92.16,
+            "low": 90.88,
+            "close": 90.99,
+            "volume": 3929600
+          },
+          {
+            "date": "2025-07-25",
+            "open": 91.5,
+            "high": 91.5,
+            "low": 89.96,
+            "close": 90.8,
+            "volume": 1726600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 90.59,
+            "high": 91.35,
+            "low": 89.03,
+            "close": 89.4,
+            "volume": 2877400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 88.96,
+            "high": 89.09,
+            "low": 86.54,
+            "close": 86.8,
+            "volume": 4450300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 86.76,
+            "high": 87.09,
+            "low": 85.47,
+            "close": 85.94,
+            "volume": 2543800
+          },
+          {
+            "date": "2025-07-31",
+            "open": 86.15,
+            "high": 88.27,
+            "low": 85.86,
+            "close": 87.87,
+            "volume": 4064100
+          },
+          {
+            "date": "2025-08-01",
+            "open": 86.66,
+            "high": 87.13,
+            "low": 85.63,
+            "close": 86.13,
+            "volume": 2619900
+          },
+          {
+            "date": "2025-08-04",
+            "open": 88.28,
+            "high": 88.56,
+            "low": 86.66,
+            "close": 87.64,
+            "volume": 2782000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 87.25,
+            "high": 87.4,
+            "low": 85.76,
+            "close": 85.86,
+            "volume": 3224100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 86.64,
+            "high": 86.86,
+            "low": 85.36,
+            "close": 86.81,
+            "volume": 2926300
+          },
+          {
+            "date": "2025-08-07",
+            "open": 87.83,
+            "high": 88.56,
+            "low": 86.95,
+            "close": 87.47,
+            "volume": 2608400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 87.03,
+            "high": 87.69,
+            "low": 86.3,
+            "close": 87.36,
+            "volume": 1985300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 87.55,
+            "high": 87.55,
+            "low": 84.64,
+            "close": 85.99,
+            "volume": 6991100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 86.13,
+            "high": 88.22,
+            "low": 86.04,
+            "close": 87.83,
+            "volume": 4410900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 90.06,
+            "high": 91.45,
+            "low": 90.01,
+            "close": 91.07,
+            "volume": 4910300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 88.86,
+            "high": 89.59,
+            "low": 88.41,
+            "close": 88.73,
+            "volume": 2621700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 88.87,
+            "high": 90.17,
+            "low": 88.78,
+            "close": 89.85,
+            "volume": 3846400
+          },
+          {
+            "date": "2025-08-18",
+            "open": 90.33,
+            "high": 91.27,
+            "low": 90.12,
+            "close": 90.13,
+            "volume": 2773800
+          },
+          {
+            "date": "2025-08-19",
+            "open": 90.53,
+            "high": 91,
+            "low": 88.95,
+            "close": 89.07,
+            "volume": 3615400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 86.21,
+            "high": 87.98,
+            "low": 84.82,
+            "close": 86.76,
+            "volume": 9324600
+          },
+          {
+            "date": "2025-08-21",
+            "open": 86.67,
+            "high": 88.22,
+            "low": 86.1,
+            "close": 87.61,
+            "volume": 3533700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 88.7,
+            "high": 90.54,
+            "low": 88.14,
+            "close": 90.01,
+            "volume": 4256900
+          },
+          {
+            "date": "2025-08-25",
+            "open": 92.13,
+            "high": 93.25,
+            "low": 91.72,
+            "close": 91.93,
+            "volume": 6426000
+          },
+          {
+            "date": "2025-08-26",
+            "open": 91.98,
+            "high": 93.06,
+            "low": 91.88,
+            "close": 92.48,
+            "volume": 4429800
+          },
+          {
+            "date": "2025-08-27",
+            "open": 90.1,
+            "high": 90.6,
+            "low": 89.2,
+            "close": 89.86,
+            "volume": 4298300
+          },
+          {
+            "date": "2025-08-28",
+            "open": 89.24,
+            "high": 90.98,
+            "low": 88.66,
+            "close": 90.97,
+            "volume": 2637800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.5279390007966245,
+        "return_63d": 11.074481074481065,
+        "pct_above_sma50": 3.198858312289723,
+        "sma_50": 88.15019999999998,
+        "new_55d_high": "False",
+        "high_55d": 94.5,
+        "rsi": 57.84441547153413,
+        "rsi_in_range": "True",
+        "adx": 12.812670480175669,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.5744751016818745,
+        "bb_width": 9.126186114188293,
+        "keltner_width": 10.569844126391322,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 355699429.53,
+        "adv_shares": 4011135.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.94825103031219,
+        "final_score": 49.94825103031219,
+        "sub_scores": {
+          "trend_momentum": 15.422532375877925,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.525718654434268,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 5.852920642308579,
+          "ret_63d": 7.797132361654224,
+          "rsi14": 57.84441547153413,
+          "adx14": 12.689861627392355,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BIDU\n• Current Price: $90.97\n• Overall Score: 52.556923076923084\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 88.1502\n• Sma 200: 87.8566\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.852920642308589\n• Momentum 63D: 7.7971323616542225\n• Momentum 126D: 3.070473600725123\n• Momentum Acceleration: -1.9442117193456339\n• Roc 21D: 5.852920642308589\n• Trend Strength 20D: 0.5445299203471393\n• Trend Direction: 1\n• Ma Ribbon Score: 82.35466357866198\n• Breakout Strength: 0.0\n• Price Velocity: 0.0077460015815366216\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 8.0\n• Squeeze Momentum: 0.2321940336370593\n• Volatility Compression: 21.0\n• Is Consolidating: False\n• Breakout Score: -0.07757277441212014\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.422532375877925\n• Squeeze Breakout: 4.0\n• Options Quality: 19.525718654434268\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 61.0\n• Squeeze: 58.15\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BIDU\n• Strike Price: $90\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.4\n• Ask: $5.5\n• Last: $5.38\n• Mid: $5.45\n• Spread: 1.818181818181818181818181818%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5751\n• Gamma: 0.0331\n• Theta: -0.0523\n• Vega: 0.131\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3544\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 450\n• Open Interest: 3106\n• Volume/OI Ratio: 0.1448808757244044\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Baidu Inc\n• Sector: Communication Services\n• Industry: Internet Content & Information\n• EPS (TTM): $10.89\n• Profit Margin: 21.0%\n• ROE: 9.8%\n• P/E Ratio: 8.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T18:09:00+00:00: Alphabet Focuses on AI Mode to Boost Search Growth: What's Ahead?...\n• 2025-08-28T13:00:04+00:00: Investors Heavily Search Baidu, Inc. (BIDU): Here is What You Need to Know...\n• 2025-08-28T09:30:00+00:00: Chinese AI model developers push for faster commercial adoption as training cost...\n• 2025-08-28T09:30:00+00:00: Baidu unveils AI computing platform powered by Chinese chips to push a domestic ...\n• 2025-08-27T18:17:13+00:00: Baidu (BIDU) Faces Ad Slowdown but Gains From AI Cloud Growth...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BIDU\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BIDU opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:30:00.142250",
+    "estimated_tokens": 2336
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BIDU\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BIDU shows moderate technical strength with price above both SMAs and positive momentum metrics, supported by an active squeeze setup. However, imminent earnings and mixed fundamental signals create near-term uncertainty despite attractive options characteristics.\",\n    \"opportunities\": [\n        \"Price trending above both 50 and 200 SMAs (90.97 vs 88.15/87.85)\",\n        \"Active squeeze setup with 8-day duration and 3 timeframe confirmation\",\n        \"Attractive options liquidity with tight 1.82% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Earnings coming up on 2025-09-30 (within 30 days)\",\n        \"Negative momentum acceleration (-1.94)\",\n        \"Declining breakout score (-0.078)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure while maintaining upside potential\",\n        \"entry_timing\": \"Defer entry until after earnings report due to event risk\",\n        \"risk_management\": \"Use 90 strike as support level, consider rolling down if price breaks below SMAs\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event creates significant near-term risk\",\n        \"Momentum showing signs of deceleration\"\n    ],\n    \"notes\": \"Options Greeks profile (0.57 delta, -0.05 theta) suggests favorable risk/reward for longer-dated positions, but earnings timing warrants caution\"\n}",
+    "parsed_analysis": {
+      "symbol": "BIDU",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "BIDU shows moderate technical strength with price above both SMAs and positive momentum metrics, supported by an active squeeze setup. However, imminent earnings and mixed fundamental signals create near-term uncertainty despite attractive options characteristics.",
+      "opportunities": [
+        "Price trending above both 50 and 200 SMAs (90.97 vs 88.15/87.85)",
+        "Active squeeze setup with 8-day duration and 3 timeframe confirmation",
+        "Attractive options liquidity with tight 1.82% bid-ask spread"
+      ],
+      "risks": [
+        "Earnings coming up on 2025-09-30 (within 30 days)",
+        "Negative momentum acceleration (-1.94)",
+        "Declining breakout score (-0.078)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure while maintaining upside potential",
+        "entry_timing": "Defer entry until after earnings report due to event risk",
+        "risk_management": "Use 90 strike as support level, consider rolling down if price breaks below SMAs"
+      },
+      "red_flags": [
+        "Imminent earnings event creates significant near-term risk",
+        "Momentum showing signs of deceleration"
+      ],
+      "notes": "Options Greeks profile (0.57 delta, -0.05 theta) suggests favorable risk/reward for longer-dated positions, but earnings timing warrants caution"
+    },
+    "tokens_used": 2546,
+    "cost": 0.02546,
+    "response_time": 11.774507999420166,
+    "success": true
+  },
+  "cost": 0.02546,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8551,
+    "response_length": 1637
+  }
+}

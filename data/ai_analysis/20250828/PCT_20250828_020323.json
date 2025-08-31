@@ -1,0 +1,622 @@
+{
+  "success": true,
+  "symbol": "PCT",
+  "timestamp": "2025-08-28T02:03:23.609812",
+  "data_package": {
+    "metadata": {
+      "symbol": "PCT",
+      "package_timestamp": "2025-08-28T02:03:10.811359",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "PCT",
+        "current_price": 14.86,
+        "overall_score": 49.090012622321545,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 13.9715,
+        "sma_200": 10.5406
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.991440798858772,
+        "momentum_63d": 44.975609756097555,
+        "momentum_126d": 56.91657866948256,
+        "momentum_acceleration": -38.98416895723878,
+        "roc_21d": 5.991440798858772,
+        "trend_strength_20d": 0.04484384479976274,
+        "trend_direction": -1,
+        "ma_ribbon_score": 88.99447705083143,
+        "breakout_strength": 83.2590668956305,
+        "price_velocity": 0.03459529643425248
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": 0.1273027568669735,
+        "volatility_compression": 42.658540402171106,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 21.38512429014721,
+        "squeeze_breakout": 4.0,
+        "options_quality": 12.393433789954331,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 60.0,
+        "squeeze": 56.39878106032567,
+        "options": 10.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 25,
+        "percentile": 98.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "PCT",
+        "strike_price": "16",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.8",
+        "ask": "1.85",
+        "last_price": "1.34",
+        "mid_price": "1.825",
+        "spread_percent": "2.702702702702702702702702703"
+      },
+      "greeks": {
+        "delta": 0.5065,
+        "gamma": 0.0715,
+        "theta": -0.0137,
+        "vega": 0.0287
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.7763
+      },
+      "liquidity_metrics": {
+        "volume": 10,
+        "open_interest": 1221,
+        "volume_oi_ratio": 0.00819000819000819
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:10.946800",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-19T12:30:00+00:00",
+            "title": "Cleveland Browns Achieve True Circularity with PureFive™ Resin in Souvenir Cups",
+            "content": "PureCycle Technologies\n\nORLANDO, Fla., Aug. 19, 2025 (GLOBE NEWSWIRE) -- PureCycle Technologies, Inc. (Nasdaq: PCT) announced today the Cleveland Browns, a professional American football team, will use 100% PureFive™ resin in their 2025 line of player souvenir cups. As PureZero™ partners, the Cleveland Browns and PureCycle have worked together to improve recycling at Huntington Bank Field by delivering polypropylene plastic waste generated at games to PureCycle’s Ironton, Ohio recycling facility. Now the companies are taking it one step further by introducing these sustainable souvenir cups for a true plastics-to-plastics circular solution.\n\nMichele Powell, Cleveland Browns Vice President of Stadium Operations & Event Development said, “This season’s introduction of fully circular player souvenir cups is the latest exciting development from our ongoing sustainability efforts. We’ve worked together with PureCycle for several years to educate fans about recycling at Browns home games and now we’re proud to offer them a sustainable souvenir cup made from recycled PureCycle resin.”\n\nPureCycle CEO Dustin Olson added, “Since the first days of the pilot plant operations, the Browns have been a strong partner by supplying souvenir cups for recycling into high quality PureFive™ resin. It’s been gratifying to watch the relationship grow along with our Company, and to now have our recycled resin landing in the hands of Browns fans this season is a great moment for both organizations. We hope that the Browns’ introduction of recycled content in their concession items will help blaze a trail for more organizations across the sports world who are looking to up their sustainability game.”Cleveland Browns Cup Made with PureFive™ Resin\n\nThe Browns are the first professional sports team to introduce the Run It Back line of cups from Churchill Container. The Run It Back line of cups and containers were introduced by Churchill earlier this year and contain up to 100% PureFive™ resin.\n\nChurchill Container Product Director Erik Johnson said, “The biggest challenge when creating sustainable polypropylene products like the Cleveland Browns’ player souvenir cups is finding a resin that is 100% post-consumer recycled polypropylene and can meet food safety, appearance, odor and processing requirements. Thanks to PureCycle’s dissolution recycling technology, their PureFive™ resin looks and performs similarly to traditional virgin polypropylene resins.”\n\nThe cups will be available for purchase at the Browns first preseason home game on August 23.\n\nAbout PureCycle Technologies\r\nPureCycle Technologies LLC., a subsidiary of PureCycle Technologies, Inc., holds a global license for the only patented dissolution recycling technology, developed by The Procter & Gamble Company (P&G), that is designed to transform polypropylene plastic waste (designated as #5 plastic) into a continuously renewable resource. The unique purification process removes color, odor, and other impurities from #5 plastic waste resulting in our PureFive™ resin that can be recycled and reused multiple times, changing our relationship with plastic. www.purecycle.com\n\nStory Continues\n\nForward-Looking Statements\r\nThis press release contains forward-looking statements, including statements about the continued execution of PureCycle’s business plan, the expected results of tests and trials, the expected timing of commercial sales, and planned future updates. In addition, any statements that refer to projections, forecasts or other characterizations of future events or circumstances, including any underlying assumptions, are forward-looking statements. Forward-looking statements generally relate to future events or PureCycle’s future financial or operating performance and may refer to projections and forecasts. Forward-looking statements are often identified by future or conditional words such as “plan,” “believe,” “expect,” “anticipate,” “intend,” “outlook,” “estimate,” “forecast,” “project,” “continue,” “could,” “may,” “might,” “possible,” “potential,” “predict,” “should,” “would” and other similar words and expressions (or the negative versions of such words or expressions), but the absence of these words does not mean that a statement is not forward-looking. ​\n\nThe forward-looking statements are based on the current expectations of PureCycle’s management and are inherently subject to uncertainties and changes in circumstances and their potential effects and speak only as of the date of this press release. There can be no assurance that future developments will be those that have been anticipated. These forward-looking statements involve a number of risks, uncertainties or other assumptions that may cause actual results or performance to be materially different from those expressed or implied by these forward-looking statements. These risks and uncertainties include, but are not limited to, those factors described in the section entitled “Risk Factors” in each of PureCycle’s Annual Report on Form 10-K for the fiscal year ended December 31, 2024 and PureCycle’s Quarterly Reports on Form 10-Q for various quarterly periods, those discussed and identified in other public filings made with the Securities and Exchange Commission by PureCycle and the following: PCT's ability to obtain funding for its operations and future growth and to continue as a going concern; PCT's ability to meet, and to continue to meet, applicable regulatory requirements for the use of PCT’s PureFive™ resin in food grade applications (including in the United States, Europe, Asia and other future international locations); PCT's ability to comply on an ongoing basis with the numerous regulatory requirements applicable to the PureFive™ resin and PCT’s facilities (including in the United States, Europe, Asia and other future international locations); expectations and changes regarding PCT’s strategies and future financial performance, including its future business plans, expansion plans or objectives, prospective performance and opportunities and competitors, revenues, products and services, pricing, operating expenses, market trends, liquidity, cash flows and uses of cash, capital expenditures, and PCT’s ability to invest in growth initiatives, which could be impacted by significant changes to tariffs on foreign imports; the ability of PCT’s first commercial-scale recycling facility in Lawrence County, Ohio, the Ironton Facility, to be appropriately certified by Leidos, following certain performance and other tests, and commence full-scale commercial operations in a timely and cost-effective manner, or at all; PCT’s ability to meet, and to continue to meet, the requirements imposed upon it and its subsidiaries by the funding for its operations, including the funding for the Ironton Facility; PCT’s ability to minimize or eliminate the many hazards and operational risks at its manufacturing facilities that can result in potential injury to individuals, disrupt its business (including interruptions or disruptions in operations at its facilities), and subject PCT to liability and increased costs; PCT’s ability to complete the necessary funding with respect to, and complete the construction of its new polypropylene recycling facility in Thailand, its first commercial-scale European plant located in Antwerp, Belgium, and the multi-line purification facility to be built in Augusta, Georgia in a timely and cost-effective manner; PCT's ability to execute its growth plan to bring an additional one billion pounds of installed polypropylene recycling capability online before 2030, including its ability to meet related construction, regulatory, and financing requirements; PCT’s ability to procure, sort and process polypropylene plastic waste at its planned plastic waste prep facilities; PCT’s ability to maintain exclusivity under The Procter & Gamble Company license; the implementation, market acceptance and success of PCT’s business model and growth strategy; the success or profitability of PCT’s offtake arrangements; the potential impact of economic, business, and/or competitive factors, including interest rates, availability of capital, economic cycles, and other macro-economic impacts (such as tariffs); changes in the prices and availability of materials (such as steel and other materials needed for the construction of future PreP and purification facilities), including those changes caused by inflation, tariffs and supply chain conditions, such as increased transportation costs, and our ability to obtain such materials in a timely and cost-effective manner; the ability to source feedstock with a high polypropylene content at a reasonable cost; PCT’s future capital requirements and sources and uses of cash; developments and projections relating to PCT’s competitors and industry; the outcome of any legal or regulatory proceedings to which PCT is, or may become, a party including the securities class action and putative class action cases; geopolitical risk and changes in applicable laws or regulations; the possibility that PCT may be adversely affected by other economic, business, and/or competitive factors, including interest rates, availability of capital, economic cycles, and other macro-economic impacts; turnover in employees and increases in employee-related costs; changes in the prices and availability of labor (including labor shortages); any business disruptions due to political or economic instability, pandemics, armed hostilities (including the ongoing conflict between Russia and Ukraine and the conflict in the Middle East); the potential impact of climate change on PCT, including physical and transition risks, higher regulatory and compliance costs, reputational risks, and availability of capital on attractive terms; and operational risk.\n\nPCT undertakes no obligation to update any forward-looking statements made in this press release to reflect events or circumstances after the date of this press release or to reflect new information or the occurrence of unanticipated events, except as required by law.​​\n\nShould one or more of these risks or uncertainties materialize or should any of the assumptions made prove incorrect, actual results may vary in material respects from those projected in these forward-looking statements. You should not rely upon forward-looking statements as predictions of future events.​\n\nA photo accompanying this announcement is available at https://www.globenewswire.com/NewsRoom/AttachmentNg/d437add7-12d1-4591-b4ce-23170c9583a2\n\nCONTACT: PureCycle Contact Christian Bruey cbruey@purecycle.com Investor Relations Contact Eric DeNatale edenatale@purecycle.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-08T07:43:54+00:00",
+            "title": "PureCycle Technologies Inc (PCT) Q2 2025 Earnings Call Highlights: Strategic Expansion and ...",
+            "content": "Release Date: August 07, 2025\n\nFor the complete transcript of the earnings call, please refer to the full earnings call transcript.\n\nPositive Points\n\nPureCycle Technologies Inc (NASDAQ:PCT) successfully raised $300 million in capital, significantly bolstering its liquidity position and enabling global expansion plans. The company plans to bring approximately 1 billion pounds of installed capacity to the market by 2030, with expansion in Asia, Europe, and the US. PCT has achieved significant progress in its commercial pipeline, with 17 customer applications in post-trial discussions and a backlog of trials continuing to build. The company signed its first major commercial agreement with Emerald for approximately 5 million pounds of purified resin, marking a significant step in revenue generation. Operational reliability at the Ironton facility has improved, with on-stream times approaching 90% and successful rate tests at high production levels, indicating strong operational progress.\n\nNegative Points\n\nThe company's growth plans, particularly in Europe, face delays due to the permitting process, which is different in every region and requires careful navigation. Despite progress, the conversion of trials to sales is a complex process involving supply chain and inventory management challenges, which can delay commercialization. The competitive landscape for feedstock is becoming more challenging, with mechanical recyclers increasing uptake, potentially impacting PCT's feedstock sourcing. PCT's financial performance is still in a ramp-up phase, with expectations for EBITDA break-even at the corporate level not anticipated until late Q4 or early Q1. The company's ambitious growth targets, including the development of Gen 2 facilities, present execution risks, particularly in scaling operations to a 300 million pound facility.\n\nQ & A Highlights\n\nWarning! GuruFocus has detected 6 Warning Signs with PCT.\n\nQ: Can you provide more detail on the growth plans and how they have progressed since the last update? A: Dustin Olsson, CEO: We are excited about our growth projects in Thailand, Antwerp, and our Gen 2 facilities. Thailand is particularly promising due to its existing infrastructure and strategic location, which allows us to address plastic pollution in Asia. Antwerp is in the heart of the recycling universe in Europe, and we are optimistic about the returns there. For Gen 2, we are still deciding on the plant size, but it will have a competitive cost structure, aiming to rival Virgin polypropylene facilities.\n\nQ: Can you elaborate on the 17 applications that are post-trial and the likelihood of their success? A: Dustin Olsson, CEO: We have invested in our commercial team to strategically evaluate customer segments. The 17 trials are in late-stage discussions, indicating that our technology works and customers are approving it. The conversion to sales is happening, and we feel good about the ramp-up discussed previously.\n\nStory Continues\n\nQ: How are you thinking about parceling production and choosing the right customers given the high demand? A: Dustin Olsson, CEO: We are not a commodity polypropylene; we are a specialty product in short supply. Our goal is to show that we can make it in various applications, from automotive to food-grade products. We aim to manage margins across segments and maximize shareholder value by creating a slate of optionality through our funnel.\n\nQ: What are the challenges anticipated in scaling to a 300 million pound Gen 2 facility? A: Dustin Olsson, CEO: We have learned a lot from Ironton and are implementing those learnings into the next lines in Antwerp and Thailand. Our R&D team has conducted fundamental research, giving us confidence in scaling operations. The decision on plant size will come down to cost optimization in the next 6 to 12 months.\n\nQ: Can you update us on the revenue ramp and EBITDA break-even targets for Ironton and the corporate level? A: Dustin Olsson, CEO: We expect revenue ramp in both Q3 and Q4. We aim to exit Q3 at a $4 million per month revenue level, which is close to break-even for Ironton. We still target corporate break-even in the Q4 to Q1 timeline, with $8 million per month as the goal for corporate break-even.\n\nFor the complete transcript of the earnings call, please refer to the full earnings call transcript.\n\nThis article first appeared on GuruFocus.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-07T22:50:03+00:00",
+            "title": "PureCycle Technologies, Inc. (PCT) Reports Q2 Loss, Lags Revenue Estimates",
+            "content": "PureCycle Technologies, Inc. (PCT) came out with a quarterly loss of $0.35 per share versus the Zacks Consensus Estimate of a loss of $0.23. This compares to a loss of $0.32 per share a year ago. These figures are adjusted for non-recurring items.\n\nThis quarterly report represents an earnings surprise of -52.17%. A quarter ago, it was expected that this company would post a loss of $0.25 per share when it actually produced a loss of $0.27, delivering a surprise of -8%.\n\nOver the last four quarters, the company has not been able to surpass consensus EPS estimates.\n\nPureCycle Technologies, which belongs to the Zacks Waste Removal Services industry, posted revenues of $1.65 million for the quarter ended June 2025, missing the Zacks Consensus Estimate by 41.07%. This compares to zero revenues a year ago.\n\nThe sustainability of the stock's immediate price movement based on the recently-released numbers and future earnings expectations will mostly depend on management's commentary on the earnings call.\n\nPureCycle Technologies shares have added about 26.8% since the beginning of the year versus the S&P 500's gain of 7.9%.\n\nWhat's Next for PureCycle Technologies?\n\nWhile PureCycle Technologies has outperformed the market so far this year, the question that comes to investors' minds is: what's next for the stock?\n\nThere are no easy answers to this key question, but one reliable measure that can help investors address this is the company's earnings outlook. Not only does this include current consensus earnings expectations for the coming quarter(s), but also how these expectations have changed lately.\n\nEmpirical research shows a strong correlation between near-term stock movements and trends in earnings estimate revisions. Investors can track such revisions by themselves or rely on a tried-and-tested rating tool like the Zacks Rank, which has an impressive track record of harnessing the power of earnings estimate revisions.\n\nAhead of this earnings release, the estimate revisions trend for PureCycle Technologies was mixed. While the magnitude and direction of estimate revisions could change following the company's just-released earnings report, the current status translates into a Zacks Rank #3 (Hold) for the stock. So, the shares are expected to perform in line with the market in the near future. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here.\n\nIt will be interesting to see how estimates for the coming quarters and the current fiscal year change in the days ahead. The current consensus EPS estimate is -$0.18 on $11.2 million in revenues for the coming quarter and -$0.49 on $33.9 million in revenues for the current fiscal year.\n\nStory Continues\n\nInvestors should be mindful of the fact that the outlook for the industry can have a material impact on the performance of the stock as well. In terms of the Zacks Industry Rank, Waste Removal Services is currently in the bottom 26% of the 250 plus Zacks industries. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\n\nConcrete Pumping (BBCP), another stock in the same industry, has yet to report results for the quarter ended July 2025.\n\nThis company is expected to post quarterly earnings of $0.06 per share in its upcoming report, which represents a year-over-year change of -53.9%. The consensus EPS estimate for the quarter has remained unchanged over the last 30 days.\n\nConcrete Pumping's revenues are expected to be $101.4 million, down 7.5% from the year-ago quarter.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nPureCycle Technologies, Inc. (PCT) : Free Stock Analysis Report\n\nCONCRETE PUMPING HOLDINGS, INC. (BBCP) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-07T20:22:03+00:00",
+            "title": "PureCycle Technologies reports Q2 results",
+            "content": "\t* PureCycle Technologies press release [https://seekingalpha.com/pr/20194052-purecycle-technologies-second-quarter-2025-corporate-update] (NASDAQ:PCT [https://seekingalpha.com/symbol/PCT]): Q2 Revenue of $1.7M misses by $1.07M.\n\nMORE ON PURECYCLE TECHNOLOGIES\n\n \t* PureCycle Technologies: Great Technology, No Margin Of Safety [https://seekingalpha.com/article/4799585-purecycle-technologies-great-technology-no-margin-of-safety]\n \t* PureCycle Technologies enters partnership with Emerald Carpets [https://seekingalpha.com/news/4464754-purecycle-technologies-enters-partnership-with-emerald-carpets]\n \t* Seeking Alpha’s Quant Rating on PureCycle Technologies [https://seekingalpha.com/symbol/PCT/ratings/quant-ratings]\n \t* Historical earnings data for PureCycle Technologies [https://seekingalpha.com/symbol/PCT/earnings]\n \t* Financial information for PureCycle Technologies [https://seekingalpha.com/symbol/PCT/income-statement]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-07T20:05:00+00:00",
+            "title": "PureCycle Technologies Second Quarter 2025 Corporate Update",
+            "content": "PureCycle Technologies\n\nORLANDO, Fla., Aug. 07, 2025 (GLOBE NEWSWIRE) -- PureCycle Technologies, Inc. (Nasdaq: PCT), a U.S.-based company revolutionizing plastic recycling, announced today a corporate update for the second quarter ending June 30, 2025.\n\nManagement Commentary\n\nPureCycle CEO Dustin Olson commented, “We have begun to implement our growth plans following our successful $300 million capital raise that was executed in June. Our first expansion steps will be with facilities in Thailand and Belgium. Future facilities, beyond the initial lines in Thailand and Belgium, are expected to house a Gen 2 Purification design with a planned capacity of more than 300 million pounds per year. All these projects are currently expected to be online by 2030 and would give us an installed capacity of one billion pounds across the United States, Europe and Asia.”\n\nOlson continued, “On the commercial front, we continue to make progress with trials in the packaging, film and textile spaces for both food and non-food applications. Our team is now in negotiations with several companies and working through the process to bring these opportunities to commercialization. We continue to see interest in our PureFive™ resin and are still confident we will achieve increased sales in the second half of 2025 that should position us well for 2026.”\n\nCommercial Update\n\nPureCycle’s compounding and trial successes continued during the second quarter of 2025. Through the Company’s various customer interactions, PureCycle is developing a wide-ranging portfolio of PureFive Choice™ resin grades. This includes one-pellet solutions for food-grade film, injection molded and thermoformed applications.\n\nPureCycle has delivered these PureFive Choice™ resin grades to various converters for trials. The resin has been successfully molded into storage totes, coffee lids, dairy containers, pens and a variety of other polypropylene packaging applications. PureCycle is now in post-trial negotiations for more than 15 applications with numerous converters or brand owners.\n\nThe Company previously announced a partnership with Emerald Carpets to drive circularity in the trade show industry. Emerald signed its commercial supply agreement for approximately 5 million pounds of PureFive™ resin over the next 12 months. The PureFive Choice™ resin will be blended into Emerald Carpets’ existing fiber production and allow for trade shows around the world to use carpets made with recycled content.\n\nPureCycle also made progress on the use of PureFive™ resin in biaxially-oriented polypropylene (BOPP) film. The PureFive Choice™ resin grade for film passed an industrial trial for a leading provider of tapes and films. Work has also continued with Germany-based Brückner Maschinenbau GmbH, the world’s leading supplier of production lines for manufacturing a wide range of stretched films. A larger-scale trial with Brückner is scheduled for later this month and, if successful, should provide PureCycle with thousands of meters worth of samples to share with brand owners. BOPP film has a wide range of end-use applications, including food packaging for snacks, candy and baked goods.\n\nStory Continues\n\nPureCycle has continued to advance through the extensive qualification process with Procter & Gamble (P&G) for a variety of applications. Scaled production tests of the spout and dose caps for select bottles of P&G products are scheduled for September. Products with PureFive™ resin are planned to be in production by the end of 2025 and in stores in early 2026.\n\nOperations Update\n\nPureCycle produced 3.4 million pounds of resin in the second quarter of 2025. The Company took a short, planned outage in early June to update and improve certain areas of the Ironton Facility. The plant returned to operations on June 9, and the facility has been running consistently since then. PureCycle continues to assess the upper limits of the Ironton Facility and successfully completed a rate test at 14,000 pounds per hour on August 1.\n\nTo meet expected demand and better streamline its processes, PureCycle will add compounding operations to the Ironton, Ohio purification facility. The Company has begun efforts to install a new twin-screw extruder with multiple feeders to bring approximately 100 million pounds of annual compounding capacity to the site. This will enable the blending of specific resins for key customer applications, including film, thermoforming and thin-wall injection molding applications. The move is expected to eliminate approximately $4 million of annualized third-party costs currently associated with producing the Company’s PureFive Choice™ resin. It should also further reduce the carbon footprint of PureCycle’s overall supply chain. The integration of compounding to the Ironton Facility should be completed late in the fourth quarter of this year.\n\nPureCycle Financial Update\n\nDuring the second quarter of 2025, PureCycle recognized revenue of approximately $1.7 million.\n\nIn the second quarter of 2025, PureCycle sold a total of $11.9 million of certain Southern Ohio Port Authority Exempt Facility Revenue Bonds (PureCycle Project), Tax-Exempt Series 2020A to a number of qualified institutional buyers. Gross proceeds from the sale of revenue bonds were approximately $10.5 million.\n\nIn June 2025, PureCycle raised $300 million from the issuance of Series B convertible perpetual preferred stock with a series of new and existing investors.\n\nAbout PureCycle Technologies \r\nPureCycle Technologies LLC. (“PCT”), a subsidiary of PureCycle Technologies, Inc., holds a global license for the only patented dissolution recycling technology, developed by The Procter & Gamble Company (P&G), that is designed to transform polypropylene plastic waste (designated as #5 plastic) into a continuously renewable resource. The unique purification process removes color, odor, and other impurities from #5 plastic waste resulting in our PureFive™ resin that can be recycled and reused multiple times, changing our relationship with plastic. www.purecycle.com\n\nForward-Looking Statements\r\nThis press release contains forward-looking statements, including statements about the continued execution of PureCycle’s business plan, the expected results of tests and trials, the expected timing of commercial sales, and planned future updates. In addition, any statements that refer to projections, forecasts or other characterizations of future events or circumstances, including any underlying assumptions, are forward-looking statements. Forward-looking statements generally relate to future events or PureCycle’s future financial or operating performance and may refer to projections and forecasts. Forward-looking statements are often identified by future or conditional words such as “plan,” “believe,” “expect,” “anticipate,” “intend,” “outlook,” “estimate,” “forecast,” “project,” “continue,” “could,” “may,” “might,” “possible,” “potential,” “predict,” “should,” “would” and other similar words and expressions (or the negative versions of such words or expressions), but the absence of these words does not mean that a statement is not forward-looking. ​\n\nThe forward-looking statements are based on the current expectations of PureCycle’s management and are inherently subject to uncertainties and changes in circumstances and their potential effects and speak only as of the date of this press release. There can be no assurance that future developments will be those that have been anticipated. These forward-looking statements involve a number of risks, uncertainties or other assumptions that may cause actual results or performance to be materially different from those expressed or implied by these forward-looking statements. These risks and uncertainties include, but are not limited to, those factors described in the section entitled “Risk Factors” in each of PureCycle’s Annual Report on Form 10-K for the fiscal year ended December 31, 2024 and PureCycle’s Quarterly Reports on Form 10-Q for various quarterly periods, those discussed and identified in other public filings made with the Securities and Exchange Commission by PureCycle and the following: PCT's ability to obtain funding for its operations and future growth and to continue as a going concern; PCT's ability to meet, and to continue to meet, applicable regulatory requirements for the use of PCT’s PureFive™ resin in food grade applications (including in the United States, Europe, Asia and other future international locations); PCT's ability to comply on an ongoing basis with the numerous regulatory requirements applicable to the PureFive™ resin and PCT’s facilities (including in the United States, Europe, Asia and other future international locations); expectations and changes regarding PCT’s strategies and future financial performance, including its future business plans, expansion plans or objectives, prospective performance and opportunities and competitors, revenues, products and services, pricing, operating expenses, market trends, liquidity, cash flows and uses of cash, capital expenditures, and PCT’s ability to invest in growth initiatives, which could be impacted by significant changes to tariffs on foreign imports; the ability of PCT’s first commercial-scale recycling facility in Lawrence County, Ohio, the Ironton Facility, to be appropriately certified by Leidos, following certain performance and other tests, and commence full-scale commercial operations in a timely and cost-effective manner, or at all; PCT’s ability to meet, and to continue to meet, the requirements imposed upon it and its subsidiaries by the funding for its operations, including the funding for the Ironton Facility; PCT’s ability to minimize or eliminate the many hazards and operational risks at its manufacturing facilities that can result in potential injury to individuals, disrupt its business (including interruptions or disruptions in operations at its facilities), and subject PCT to liability and increased costs; PCT’s ability to complete the necessary funding with respect to, and complete the construction of its new polypropylene recycling facility in Thailand, its first commercial-scale European plant located in Antwerp, Belgium, and the multi-line purification facility to be built in Augusta, Georgia in a timely and cost-effective manner; PCT's ability to execute its growth plan to bring an additional one billion pounds of installed polypropylene recycling capability online before 2030, including its ability to meet related construction, regulatory, and financing requirements; PCT’s ability to procure, sort and process polypropylene plastic waste at its planned plastic waste prep facilities; PCT’s ability to maintain exclusivity under The Procter & Gamble Company license; the implementation, market acceptance and success of PCT’s business model and growth strategy; the success or profitability of PCT’s offtake arrangements; the potential impact of economic, business, and/or competitive factors, including interest rates, availability of capital, economic cycles, and other macro-economic impacts (such as tariffs); changes in the prices and availability of materials (such as steel and other materials needed for the construction of future PreP and purification facilities), including those changes caused by inflation, tariffs and supply chain conditions, such as increased transportation costs, and our ability to obtain such materials in a timely and cost-effective manner; the ability to source feedstock with a high polypropylene content at a reasonable cost; PCT’s future capital requirements and sources and uses of cash; developments and projections relating to PCT’s competitors and industry; the outcome of any legal or regulatory proceedings to which PCT is, or may become, a party including the securities class action and putative class action cases; geopolitical risk and changes in applicable laws or regulations; the possibility that PCT may be adversely affected by other economic, business, and/or competitive factors, including interest rates, availability of capital, economic cycles, and other macro-economic impacts; turnover in employees and increases in employee-related costs; changes in the prices and availability of labor (including labor shortages); any business disruptions due to political or economic instability, pandemics, armed hostilities (including the ongoing conflict between Russia and Ukraine and the conflict in the Middle East); the potential impact of climate change on PCT, including physical and transition risks, higher regulatory and compliance costs, reputational risks, and availability of capital on attractive terms; and operational risk.\n\nPCT undertakes no obligation to update any forward-looking statements made in this press release to reflect events or circumstances after the date of this press release or to reflect new information or the occurrence of unanticipated events, except as required by law.​​\n\nShould one or more of these risks or uncertainties materialize or should any of the assumptions made prove incorrect, actual results may vary in material respects from those projected in these forward-looking statements. You should not rely upon forward-looking statements as predictions of future events.​\n\nCONTACT: PureCycle Contact Christian Bruey cbruey@purecycle.com   Investor Relations Contact Eric DeNatale edenatale@purecycle.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Purecycle Technologies Holdings Corp",
+          "sector": "Industrials",
+          "industry": "Pollution & Treatment Controls",
+          "employees": 157,
+          "description": "PureCycle Technologies, Inc. engages in the production of recycled polypropylene (PP). The company holds a license for restoring waste PP into ultra-pure recycled PP resin, PureFive, which has various applications, including packaging and labeling for consumer products, textiles, and plastic parts f"
+        },
+        "financial_metrics": {
+          "eps_ttm": -1.7,
+          "profit_margin": 0,
+          "operating_margin": -27.6351,
+          "roe": -0.8494,
+          "roa": -0.1063,
+          "revenue_growth_yoy": 0,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -1.2425,
+          "eps_estimate_next_year": -0.755,
+          "revenue_ttm": 3230000,
+          "revenue_per_share": 0.019,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 142.8571,
+          "price_to_sales": 758.2863,
+          "price_to_book": 23.1694,
+          "enterprise_value": 2439944155,
+          "ev_to_revenue": 755.4007,
+          "ev_to_ebitda": -11.0455
+        },
+        "technical_data": {
+          "beta": 1.945,
+          "52_week_high": 17.37,
+          "52_week_low": 4.5,
+          "50_day_ma": 13.9715,
+          "200_day_ma": 10.5406,
+          "short_interest": 0.3372,
+          "short_ratio": 10.85
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4,
+          "target_price": 14.75,
+          "strong_buy": 2,
+          "buy": 0,
+          "hold": 2,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 180092992,
+          "percent_institutions": 79.633,
+          "percent_insiders": 2.792,
+          "shares_float": 125099867
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1042.472,
+          "total_debt": 723.552,
+          "net_debt": -218.06,
+          "working_capital": 167.777,
+          "shareholders_equity": 98.871,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 7.32
+        },
+        "income_latest_statement": {
+          "total_revenue": 1.65,
+          "gross_profit": -35.604,
+          "operating_income": -45.598,
+          "net_income": -144.24,
+          "ebitda": -118.205,
+          "quarter_date": "2025-06-30",
+          "gross_margin": -2157.82,
+          "operating_margin": -2763.52,
+          "net_margin": -8741.82
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -36.722,
+          "free_cash_flow": -45.327,
+          "capex": 8.605,
+          "net_income": -144.24,
+          "cash_change": 260.482,
+          "dividends_paid": 0.583,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.1942,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 15.82,
+            "high": 16.7,
+            "low": 15.8059,
+            "close": 16.5,
+            "volume": 4469008
+          },
+          {
+            "date": "2025-07-18",
+            "open": 16.72,
+            "high": 17.37,
+            "low": 16.42,
+            "close": 16.92,
+            "volume": 6016982
+          },
+          {
+            "date": "2025-07-21",
+            "open": 16.935,
+            "high": 17.28,
+            "low": 16.3,
+            "close": 16.33,
+            "volume": 3783630
+          },
+          {
+            "date": "2025-07-22",
+            "open": 16.2,
+            "high": 16.38,
+            "low": 15.31,
+            "close": 16.14,
+            "volume": 4335016
+          },
+          {
+            "date": "2025-07-23",
+            "open": 16.33,
+            "high": 16.55,
+            "low": 15.71,
+            "close": 15.89,
+            "volume": 2555150
+          },
+          {
+            "date": "2025-07-24",
+            "open": 15.63,
+            "high": 16,
+            "low": 15.535,
+            "close": 15.58,
+            "volume": 2463501
+          },
+          {
+            "date": "2025-07-25",
+            "open": 15.65,
+            "high": 15.75,
+            "low": 15.25,
+            "close": 15.4,
+            "volume": 2097048
+          },
+          {
+            "date": "2025-07-28",
+            "open": 15.42,
+            "high": 15.58,
+            "low": 14.67,
+            "close": 14.86,
+            "volume": 2515367
+          },
+          {
+            "date": "2025-07-29",
+            "open": 15.1,
+            "high": 15.1799,
+            "low": 13.9644,
+            "close": 14.02,
+            "volume": 3498300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 14.07,
+            "high": 14.16,
+            "low": 13.41,
+            "close": 13.64,
+            "volume": 3263521
+          },
+          {
+            "date": "2025-07-31",
+            "open": 13.64,
+            "high": 13.73,
+            "low": 13.27,
+            "close": 13.41,
+            "volume": 1953434
+          },
+          {
+            "date": "2025-08-01",
+            "open": 13,
+            "high": 13.22,
+            "low": 12.47,
+            "close": 12.62,
+            "volume": 4413950
+          },
+          {
+            "date": "2025-08-04",
+            "open": 12.83,
+            "high": 13.3,
+            "low": 12.7004,
+            "close": 13.28,
+            "volume": 2808603
+          },
+          {
+            "date": "2025-08-05",
+            "open": 13.49,
+            "high": 13.5142,
+            "low": 13,
+            "close": 13.24,
+            "volume": 1964491
+          },
+          {
+            "date": "2025-08-06",
+            "open": 13.27,
+            "high": 13.27,
+            "low": 12.8109,
+            "close": 13,
+            "volume": 2018689
+          },
+          {
+            "date": "2025-08-07",
+            "open": 13.26,
+            "high": 13.4,
+            "low": 12.21,
+            "close": 12.35,
+            "volume": 3488985
+          },
+          {
+            "date": "2025-08-08",
+            "open": 13.2,
+            "high": 14.225,
+            "low": 12.01,
+            "close": 12.35,
+            "volume": 7451944
+          },
+          {
+            "date": "2025-08-11",
+            "open": 12.395,
+            "high": 13.26,
+            "low": 12.38,
+            "close": 12.79,
+            "volume": 3412224
+          },
+          {
+            "date": "2025-08-12",
+            "open": 12.95,
+            "high": 13.615,
+            "low": 12.935,
+            "close": 13.28,
+            "volume": 3000233
+          },
+          {
+            "date": "2025-08-13",
+            "open": 13.51,
+            "high": 13.8051,
+            "low": 13.11,
+            "close": 13.57,
+            "volume": 2742171
+          },
+          {
+            "date": "2025-08-14",
+            "open": 13.25,
+            "high": 13.48,
+            "low": 12.81,
+            "close": 13.35,
+            "volume": 1964379
+          },
+          {
+            "date": "2025-08-15",
+            "open": 13.48,
+            "high": 13.48,
+            "low": 13.05,
+            "close": 13.3,
+            "volume": 2421155
+          },
+          {
+            "date": "2025-08-18",
+            "open": 12.99,
+            "high": 13.16,
+            "low": 12.62,
+            "close": 12.69,
+            "volume": 2708901
+          },
+          {
+            "date": "2025-08-19",
+            "open": 12.64,
+            "high": 12.84,
+            "low": 11.99,
+            "close": 12.21,
+            "volume": 3165682
+          },
+          {
+            "date": "2025-08-20",
+            "open": 12.26,
+            "high": 12.69,
+            "low": 12.1,
+            "close": 12.59,
+            "volume": 2528484
+          },
+          {
+            "date": "2025-08-21",
+            "open": 12.35,
+            "high": 12.625,
+            "low": 12.29,
+            "close": 12.57,
+            "volume": 2051831
+          },
+          {
+            "date": "2025-08-22",
+            "open": 12.65,
+            "high": 13.215,
+            "low": 12.4,
+            "close": 13.015,
+            "volume": 2257256
+          },
+          {
+            "date": "2025-08-25",
+            "open": 12.79,
+            "high": 12.95,
+            "low": 12.6475,
+            "close": 12.72,
+            "volume": 1584799
+          },
+          {
+            "date": "2025-08-26",
+            "open": 12.75,
+            "high": 13.6663,
+            "low": 12.72,
+            "close": 13.6,
+            "volume": 2373993
+          },
+          {
+            "date": "2025-08-27",
+            "open": 13.6,
+            "high": 15.135,
+            "low": 13.5108,
+            "close": 14.86,
+            "volume": 7162841
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 8.944281524926676,
+        "return_63d": 52.41025641025641,
+        "pct_above_sma50": 5.9060814037188125,
+        "sma_50": 14.031300000000002,
+        "new_55d_high": "False",
+        "high_55d": 17.37,
+        "rsi": 71.41638225255973,
+        "rsi_in_range": "False",
+        "adx": 31.435515433749067,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.479946164199194,
+        "bb_width": 18.476730044469715,
+        "keltner_width": 24.978815460227906,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 40080308.9144375,
+        "adv_shares": 3073702.25,
+        "liquidity_tier": "medium",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.77855808010154,
+        "final_score": 48.77855808010154,
+        "sub_scores": {
+          "trend_momentum": 21.38512429014721,
+          "squeeze_breakout": 4.0,
+          "options_quality": 12.393433789954331,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 5.991440798858783,
+          "ret_63d": 44.975609756097555,
+          "rsi14": 71.41638225255973,
+          "adx14": 30.378315252497632,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: PCT\n• Current Price: $14.86\n• Overall Score: 49.090012622321545\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 13.9715\n• Sma 200: 10.5406\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.991440798858772\n• Momentum 63D: 44.975609756097555\n• Momentum 126D: 56.91657866948256\n• Momentum Acceleration: -38.98416895723878\n• Roc 21D: 5.991440798858772\n• Trend Strength 20D: 0.04484384479976274\n• Trend Direction: -1\n• Ma Ribbon Score: 88.99447705083143\n• Breakout Strength: 83.2590668956305\n• Price Velocity: 0.03459529643425248\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: 0.1273027568669735\n• Volatility Compression: 42.658540402171106\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 21.38512429014721\n• Squeeze Breakout: 4.0\n• Options Quality: 12.393433789954331\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 60.0\n• Squeeze: 56.39878106032567\n• Options: 10.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: PCT\n• Strike Price: $16\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.8\n• Ask: $1.85\n• Last: $1.34\n• Mid: $1.825\n• Spread: 2.702702702702702702702702703%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5065\n• Gamma: 0.0715\n• Theta: -0.0137\n• Vega: 0.0287\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.7763\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 10\n• Open Interest: 1221\n• Volume/OI Ratio: 0.00819000819000819\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Purecycle Technologies Holdings Corp\n• Sector: Industrials\n• Industry: Pollution & Treatment Controls\n• EPS (TTM): $-1.7\n• ROE: -84.9%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-19T12:30:00+00:00: Cleveland Browns Achieve True Circularity with PureFive™ Resin in Souvenir Cups...\n• 2025-08-08T07:43:54+00:00: PureCycle Technologies Inc (PCT) Q2 2025 Earnings Call Highlights: Strategic Exp...\n• 2025-08-07T22:50:03+00:00: PureCycle Technologies, Inc. (PCT) Reports Q2 Loss, Lags Revenue Estimates...\n• 2025-08-07T20:22:03+00:00: PureCycle Technologies reports Q2 results...\n• 2025-08-07T20:05:00+00:00: PureCycle Technologies Second Quarter 2025 Corporate Update...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR PCT\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the PCT opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:03:23.609481",
+    "estimated_tokens": 2326
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"PCT\",\n    \"rating\": 51,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 12,\n        \"iv_value\": 7,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 2,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"PCT shows strong technical momentum with 56.9% 126-day return and positive MA ribbon score of 88.9, but faces significant fundamental challenges with negative EPS and ROE. The current squeeze setup (4 days duration) and multi-timeframe compression (2 counts) suggest potential volatility expansion ahead.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 SMA (13.97) and 200 SMA (10.54)\",\n        \"Active volatility squeeze with 42.6% compression level\",\n        \"Options have reasonable liquidity with 1221 open interest and 2.7% spread\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -$1.70 EPS and -84.9% ROE\",\n        \"Negative momentum acceleration (-38.98)\",\n        \"Earnings approaching within 30 days (9/30/2025)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact given high IV of 0.776\",\n        \"entry_timing\": \"Wait for squeeze momentum to turn positive from current 0.127 level\",\n        \"risk_management\": \"Use 16 strike as ceiling given declining momentum acceleration, keep position size small due to fundamental weakness\"\n    },\n    \"red_flags\": [\n        \"Severely negative ROE indicates fundamental business challenges\",\n        \"Upcoming earnings event creates near-term risk\",\n        \"Low daily options volume (10) despite decent open interest\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental weakness and approaching earnings create elevated risk profile. Consider smaller position size or waiting for post-earnings entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "PCT",
+      "rating": 51,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 12,
+        "iv_value": 7,
+        "squeeze_volatility": 6,
+        "fundamentals": 2,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "PCT shows strong technical momentum with 56.9% 126-day return and positive MA ribbon score of 88.9, but faces significant fundamental challenges with negative EPS and ROE. The current squeeze setup (4 days duration) and multi-timeframe compression (2 counts) suggest potential volatility expansion ahead.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 SMA (13.97) and 200 SMA (10.54)",
+        "Active volatility squeeze with 42.6% compression level",
+        "Options have reasonable liquidity with 1221 open interest and 2.7% spread"
+      ],
+      "risks": [
+        "Poor fundamentals with -$1.70 EPS and -84.9% ROE",
+        "Negative momentum acceleration (-38.98)",
+        "Earnings approaching within 30 days (9/30/2025)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact given high IV of 0.776",
+        "entry_timing": "Wait for squeeze momentum to turn positive from current 0.127 level",
+        "risk_management": "Use 16 strike as ceiling given declining momentum acceleration, keep position size small due to fundamental weakness"
+      },
+      "red_flags": [
+        "Severely negative ROE indicates fundamental business challenges",
+        "Upcoming earnings event creates near-term risk",
+        "Low daily options volume (10) despite decent open interest"
+      ],
+      "notes": "While technical setup shows promise, fundamental weakness and approaching earnings create elevated risk profile. Consider smaller position size or waiting for post-earnings entry."
+    },
+    "tokens_used": 2592,
+    "cost": 0.025920000000000002,
+    "response_time": 12.796183347702026,
+    "success": true
+  },
+  "cost": 0.025920000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8518,
+    "response_length": 1853
+  }
+}

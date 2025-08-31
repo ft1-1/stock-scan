@@ -1,0 +1,459 @@
+{
+  "success": true,
+  "symbol": "MSFT",
+  "timestamp": "2025-08-23T02:35:49.891427",
+  "data_package": {
+    "metadata": {
+      "symbol": "MSFT",
+      "package_timestamp": "2025-08-23T02:35:40.336201",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 25.0,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "MSFT",
+        "current_price": 507.23,
+        "overall_score": 42.06171612274033,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {},
+      "momentum_metrics": {
+        "momentum_21d": -0.7144534920137757,
+        "momentum_63d": 11.513432704568439,
+        "momentum_126d": 24.25712255946695,
+        "momentum_acceleration": -12.227886196582215,
+        "roc_21d": -0.7144534920137757,
+        "trend_strength_20d": 0.2085456461009261,
+        "trend_direction": 1,
+        "ma_ribbon_score": 48.78221700417761,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.005003737713715406
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": -1.5127310747590603,
+        "volatility_compression": 56.15976819390826,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 0
+      },
+      "quantitative_scores": {
+        "trend_momentum": 11.024565482210129,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 4.0,
+        "technical": 62.0,
+        "momentum": 48.0,
+        "squeeze": 8.423965229086239,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "MSFT",
+        "strike_price": "500",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "21.3",
+        "ask": "21.45",
+        "last_price": "21.48",
+        "mid_price": "21.375",
+        "spread_percent": "0.6993006993006993006993006993"
+      },
+      "greeks": {
+        "delta": 0.6111,
+        "gamma": 0.0094,
+        "theta": -0.1716,
+        "vega": 0.7613
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2047
+      },
+      "liquidity_metrics": {
+        "volume": 660,
+        "open_interest": 4598,
+        "volume_oi_ratio": 0.14354066985645933
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 418.77,
+            "high": 422.86,
+            "low": 413.16,
+            "close": 414.99,
+            "volume": 54586300
+          },
+          {
+            "date": "2025-01-29",
+            "open": 446.69,
+            "high": 446.88,
+            "low": 440.4,
+            "close": 442.33,
+            "volume": 23581400
+          },
+          {
+            "date": "2025-01-28",
+            "open": 434.6,
+            "high": 448.38,
+            "low": 431.38,
+            "close": 447.2,
+            "volume": 23491700
+          },
+          {
+            "date": "2025-01-27",
+            "open": 424.01,
+            "high": 435.2,
+            "low": 423.5,
+            "close": 434.56,
+            "volume": 35647800
+          },
+          {
+            "date": "2025-01-24",
+            "open": 445.16,
+            "high": 446.65,
+            "low": 441.4,
+            "close": 444.06,
+            "volume": 15549500
+          },
+          {
+            "date": "2025-01-23",
+            "open": 442,
+            "high": 446.75,
+            "low": 441.5,
+            "close": 446.71,
+            "volume": 18389300
+          },
+          {
+            "date": "2025-01-22",
+            "open": 437.56,
+            "high": 447.27,
+            "low": 436,
+            "close": 446.2,
+            "volume": 27803800
+          },
+          {
+            "date": "2025-01-21",
+            "open": 430.2,
+            "high": 430.9,
+            "low": 425.6,
+            "close": 428.5,
+            "volume": 26085700
+          },
+          {
+            "date": "2025-01-17",
+            "open": 434.09,
+            "high": 434.48,
+            "low": 428.17,
+            "close": 429.03,
+            "volume": 26197500
+          },
+          {
+            "date": "2025-01-16",
+            "open": 428.7,
+            "high": 429.49,
+            "low": 424.39,
+            "close": 424.58,
+            "volume": 15300000
+          },
+          {
+            "date": "2025-01-15",
+            "open": 419.13,
+            "high": 428.15,
+            "low": 418.27,
+            "close": 426.31,
+            "volume": 19637800
+          },
+          {
+            "date": "2025-01-14",
+            "open": 417.81,
+            "high": 419.74,
+            "low": 410.72,
+            "close": 415.67,
+            "volume": 16935900
+          },
+          {
+            "date": "2025-01-13",
+            "open": 415.24,
+            "high": 418.5,
+            "low": 412.29,
+            "close": 417.19,
+            "volume": 17604800
+          },
+          {
+            "date": "2025-01-10",
+            "open": 424.63,
+            "high": 424.71,
+            "low": 415.02,
+            "close": 418.95,
+            "volume": 20201100
+          },
+          {
+            "date": "2025-01-08",
+            "open": 423.46,
+            "high": 426.97,
+            "low": 421.54,
+            "close": 424.56,
+            "volume": 15054600
+          },
+          {
+            "date": "2025-01-07",
+            "open": 429,
+            "high": 430.65,
+            "low": 420.8,
+            "close": 422.37,
+            "volume": 18139100
+          },
+          {
+            "date": "2025-01-06",
+            "open": 428,
+            "high": 434.32,
+            "low": 425.48,
+            "close": 427.85,
+            "volume": 20573600
+          },
+          {
+            "date": "2025-01-03",
+            "open": 421.08,
+            "high": 424.03,
+            "low": 419.54,
+            "close": 423.35,
+            "volume": 16662900
+          },
+          {
+            "date": "2025-01-02",
+            "open": 425.53,
+            "high": 426.07,
+            "low": 414.85,
+            "close": 418.58,
+            "volume": 16896500
+          },
+          {
+            "date": "2024-12-31",
+            "open": 426.1,
+            "high": 426.73,
+            "low": 420.66,
+            "close": 421.5,
+            "volume": 13246500
+          },
+          {
+            "date": "2024-12-30",
+            "open": 426.06,
+            "high": 427.55,
+            "low": 421.9,
+            "close": 424.83,
+            "volume": 13158700
+          },
+          {
+            "date": "2024-12-27",
+            "open": 434.6,
+            "high": 435.22,
+            "low": 426.35,
+            "close": 430.53,
+            "volume": 18117700
+          },
+          {
+            "date": "2024-12-26",
+            "open": 439.08,
+            "high": 440.94,
+            "low": 436.63,
+            "close": 438.11,
+            "volume": 8194200
+          },
+          {
+            "date": "2024-12-24",
+            "open": 434.65,
+            "high": 439.6,
+            "low": 434.19,
+            "close": 439.33,
+            "volume": 7164500
+          },
+          {
+            "date": "2024-12-23",
+            "open": 436.74,
+            "high": 437.65,
+            "low": 432.83,
+            "close": 435.25,
+            "volume": 19152500
+          },
+          {
+            "date": "2024-12-20",
+            "open": 433.11,
+            "high": 443.74,
+            "low": 428.63,
+            "close": 436.6,
+            "volume": 64263700
+          },
+          {
+            "date": "2024-12-19",
+            "open": 441.62,
+            "high": 443.18,
+            "low": 436.32,
+            "close": 437.03,
+            "volume": 22963700
+          },
+          {
+            "date": "2024-12-18",
+            "open": 451.32,
+            "high": 452.65,
+            "low": 437.02,
+            "close": 437.39,
+            "volume": 24444500
+          },
+          {
+            "date": "2024-12-17",
+            "open": 451.01,
+            "high": 455.29,
+            "low": 449.57,
+            "close": 454.46,
+            "volume": 22733500
+          },
+          {
+            "date": "2024-12-16",
+            "open": 447.27,
+            "high": 452.18,
+            "low": 445.28,
+            "close": 451.59,
+            "volume": 23598800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -1.2614120807459497,
+        "return_63d": 12.672708694300061
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.997515919799699,
+        "bb_width": 6.8514096185685105,
+        "keltner_width": 7.786533799989116,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 11811320979.067501,
+        "adv_shares": 22745945.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.02456548221013,
+        "final_score": 45.02456548221013,
+        "sub_scores": {
+          "trend_momentum": 11.024565482210129,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 4.0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -0.714453492013778,
+          "ret_63d": 11.513432704568437,
+          "rsi14": 24.419232847109626,
+          "adx14": 37.17396868015684,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 0.0,
+      "technical_score": 0.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 0.0,
+      "overall_score": 25.0,
+      "missing_fields": [
+        "fundamentals",
+        "calendar_events",
+        "news"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: MSFT\n• Current Price: $507.23\n• Overall Score: 42.06171612274033\n• Strategy Type: options_screening\n\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.7144534920137757\n• Momentum 63D: 11.513432704568439\n• Momentum 126D: 24.25712255946695\n• Momentum Acceleration: -12.227886196582215\n• Roc 21D: -0.7144534920137757\n• Trend Strength 20D: 0.2085456461009261\n• Trend Direction: 1\n• Ma Ribbon Score: 48.78221700417761\n• Breakout Strength: 0.0\n• Price Velocity: -0.005003737713715406\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: -1.5127310747590603\n• Volatility Compression: 56.15976819390826\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 0\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 11.024565482210129\n• Squeeze Breakout: 4.0\n• Options Quality: 20\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 4.0\n• Technical: 62.0\n• Momentum: 48.0\n• Squeeze: 8.423965229086239\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: MSFT\n• Strike Price: $500\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $21.3\n• Ask: $21.45\n• Last: $21.48\n• Mid: $21.375\n• Spread: 0.6993006993006993006993006993%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6111\n• Gamma: 0.0094\n• Theta: -0.1716\n• Vega: 0.7613\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2047\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 660\n• Open Interest: 4598\n• Volume/OI Ratio: 0.14354066985645933\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 25.0%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR MSFT\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the MSFT opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-23T02:35:49.890718",
+    "estimated_tokens": 2149
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"MSFT\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 18,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"MSFT shows strong long-term momentum (126D: +24.26%) but recent weakness (21D: -0.71%) suggests consolidation. Options metrics indicate good liquidity with tight spreads (0.70%) and balanced Greeks profile, though recent momentum deceleration (-12.23) warrants caution.\",\n    \"opportunities\": [\n        \"Strong long-term price trend with 126D momentum of +24.26%\",\n        \"Excellent options liquidity with tight bid-ask spread of 0.70%\",\n        \"Balanced options Greeks with moderate delta (0.61) and controlled theta (-0.17)\"\n    ],\n    \"risks\": [\n        \"Negative short-term momentum (-0.71% 21D ROC)\",\n        \"Significant momentum deceleration (-12.23)\",\n        \"No current volatility squeeze setup (squeeze: false)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 500 Call as medium-term bullish position with defined risk\",\n        \"entry_timing\": \"Wait for short-term momentum stabilization before entry\",\n        \"risk_management\": \"Monitor 21D momentum for continued deterioration; consider 15-20% stop loss\"\n    },\n    \"red_flags\": [\n        \"Recent negative momentum acceleration could signal trend reversal\"\n    ],\n    \"notes\": \"Analysis confidence reduced due to 25% data completeness; missing key volatility metrics and fundamental data points could impact accuracy\"\n}",
+    "parsed_analysis": {
+      "symbol": "MSFT",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 18,
+        "iv_value": 11,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "MSFT shows strong long-term momentum (126D: +24.26%) but recent weakness (21D: -0.71%) suggests consolidation. Options metrics indicate good liquidity with tight spreads (0.70%) and balanced Greeks profile, though recent momentum deceleration (-12.23) warrants caution.",
+      "opportunities": [
+        "Strong long-term price trend with 126D momentum of +24.26%",
+        "Excellent options liquidity with tight bid-ask spread of 0.70%",
+        "Balanced options Greeks with moderate delta (0.61) and controlled theta (-0.17)"
+      ],
+      "risks": [
+        "Negative short-term momentum (-0.71% 21D ROC)",
+        "Significant momentum deceleration (-12.23)",
+        "No current volatility squeeze setup (squeeze: false)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 500 Call as medium-term bullish position with defined risk",
+        "entry_timing": "Wait for short-term momentum stabilization before entry",
+        "risk_management": "Monitor 21D momentum for continued deterioration; consider 15-20% stop loss"
+      },
+      "red_flags": [
+        "Recent negative momentum acceleration could signal trend reversal"
+      ],
+      "notes": "Analysis confidence reduced due to 25% data completeness; missing key volatility metrics and fundamental data points could impact accuracy"
+    },
+    "tokens_used": 2373,
+    "cost": 0.02373,
+    "response_time": 9.55327820777893,
+    "success": true
+  },
+  "cost": 0.02373,
+  "processing_metadata": {
+    "data_completeness_score": 25.0,
+    "prompt_length": 7893,
+    "response_length": 1602
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "success": true,
+  "symbol": "STX",
+  "timestamp": "2025-08-25T22:22:10.889149",
+  "data_package": {
+    "metadata": {
+      "symbol": "STX",
+      "package_timestamp": "2025-08-25T22:21:59.965089",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "STX",
+        "current_price": 164.8125,
+        "overall_score": 50.406136523955176,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 147.1292,
+        "sma_200": 108.5273
+      },
+      "momentum_metrics": {
+        "momentum_21d": 8.688448538670565,
+        "momentum_63d": 45.46744722370056,
+        "momentum_126d": 63.86890487609912,
+        "momentum_acceleration": -36.77899868503,
+        "roc_21d": 8.688448538670565,
+        "trend_strength_20d": 0.43179469147918614,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.006807823698777571
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 20.0,
+        "squeeze_momentum": 0.12733196256090992,
+        "volatility_compression": 23.19600378995899,
+        "is_consolidating": "False",
+        "breakout_score": 41.59708507667788,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.77270007773468,
+        "squeeze_breakout": 4.0,
+        "options_quality": 12.099318918918897,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 66.0,
+        "squeeze": 53.47940056849385,
+        "options": 37.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 14,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "STX",
+        "strike_price": "165",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "9.1",
+        "ask": "9.4",
+        "last_price": "9.2",
+        "mid_price": "9.25",
+        "spread_percent": "3.191489361702127659574468085"
+      },
+      "greeks": {
+        "delta": 0.5287,
+        "gamma": 0.0171,
+        "theta": -0.096,
+        "vega": 0.2487
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3706
+      },
+      "liquidity_metrics": {
+        "volume": 63,
+        "open_interest": 830,
+        "volume_oi_ratio": 0.07590361445783132
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:37.348072",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T19:05:05+00:00",
+            "title": "Top S&amp;P500 movers in Monday's session",
+            "content": "Let's delve into the developments on the US markets one hour before the close of the markets on Monday. Below, you'll find the top gainers and losers within the S&P500 index during today's session.\n\n[topmovers]\n\nGAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tWDC [https://www.chartmill.com/stock/quote/WDC/profile]\n\t\t3.62%\n\t\tIn an impressive move, WESTERN DIGITAL CORP'S (NASDAQ:WDC [https://www.chartmill.com/stock/quote/WDC/profile]) shares recorded a 3.62% increase, closing at $79.76 during Monday's session. Shareholders saw the stock price going 53.39% higher in the past 3 months.\n\n \t\tSTX [https://www.chartmill.com/stock/quote/STX/profile]\n\t\t3.54%\n\t\tSEAGATE TECHNOLOGY HOLDINGS'S (NASDAQ:STX [https://www.chartmill.com/stock/quote/STX/profile]) shares rose 3.54% to $164.85. In the last 3 months the share price increased with 41.22%.\n\n \t\tAPA [https://www.chartmill.com/stock/quote/APA/profile]\n\t\t3.37%\n\t\tInvestors celebrated as APA CORP (NASDAQ:APA [https://www.chartmill.com/stock/quote/APA/profile]) experienced a 3.37% rise in its shares, closing at $22.37 during Monday's session. The stock is trading 28.43% higher than 3 months ago.\n\n \t\tDECK [https://www.chartmill.com/stock/quote/DECK/profile]\n\t\t2.8%\n\t\tDECKERS OUTDOOR CORP (NYSE:DECK [https://www.chartmill.com/stock/quote/DECK/profile]) rose 2.8% to $112.15 during Monday's after hours session. In the last 6 months the stock lost 25.56%.\n\n \t\tWYNN [https://www.chartmill.com/stock/quote/WYNN/profile]\n\t\t2.71%\n\t\tWYNN RESORTS LTD'S (NASDAQ:WYNN [https://www.chartmill.com/stock/quote/WYNN/profile]) shares rose 2.71% to $117.41 during Monday's session. In the last 3 months the share price increased with 26.35%.\n\n \t\tDPZ [https://www.chartmill.com/stock/quote/DPZ/profile]\n\t\t2.35%\n\t\tDOMINO'S PIZZA INC (NASDAQ:DPZ [https://www.chartmill.com/stock/quote/DPZ/profile]) experienced a significant 2.35% increase, reaching $461.61 during Monday's session.\n\n \t\tMOS [https://www.chartmill.com/stock/quote/MOS/profile]\n\t\t2.27%\n\t\tMOSAIC CO/THE (NYSE:MOS [https://www.chartmill.com/stock/quote/MOS/profile]) witnessed a notable 2.27% uptick in its shares, reaching $33.29 during Monday's session. In the last 6 months the share price increased with 26.36%.\n\n \t\tADM [https://www.chartmill.com/stock/quote/ADM/profile]\n\t\t2.11%\n\t\tARCHER-DANIELS-MIDLAND CO'S (NYSE:ADM [https://www.chartmill.com/stock/quote/ADM/profile]) shares rose 2.11% to $64.25 during Monday's session. In the last 3 months the stock gained 31.25%.\n\n \t\tTSLA [https://www.chartmill.com/stock/quote/TSLA/profile]\n\t\t2.04%\n\t\tTESLA INC (NASDAQ:TSLA [https://www.chartmill.com/stock/quote/TSLA/profile]) rose 2.04% to $346.94 during Monday's after hours session. A press release (Pomerantz Law Firm Announces the Filing of a Class Action Against Tesla, Inc.  and Certain Officers – TSLA [https://www.chartmill.com/news/TSLA/gnwcq-2025-8-25-pomerantz-law-firm-announces-the-filing-of-a-class-action-against-tesla-inc-and-certain-officers-tsla]) was released earlier today.\n\n \t\tGLW [https://www.chartmill.com/stock/quote/GLW/profile]\n\t\t1.85%\n\t\tWith a 1.85% surge, CORNING INC'S (NYSE:GLW [https://www.chartmill.com/stock/quote/GLW/profile]) stock price reached $66.99 during Monday's session, signaling positive momentum. In the last 3 months the share price increased with 36.0%.\n\nOur top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page will show you the full list.\n\nTODAY'S TOP LOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tKDP [https://www.chartmill.com/stock/quote/KDP/profile]\n\t\t-11.7%\n\t\tDuring Monday's session, KEURIG DR PEPPER INC'S (NASDAQ:KDP [https://www.chartmill.com/stock/quote/KDP/profile]) shares took a tumble, falling 11.7% to $31.02.\n\n \t\tDXCM [https://www.chartmill.com/stock/quote/DXCM/profile]\n\t\t-6.55%\n\t\tDEXCOM INC (NASDAQ:DXCM [https://www.chartmill.com/stock/quote/DXCM/profile]) encountered a 6.55% decrease in its shares, reaching $76.87 during Monday's session.\n\n \t\tMRNA [https://www.chartmill.com/stock/quote/MRNA/profile]\n\t\t-4.81%\n\t\tThe market experienced a downward movement in MODERNA INC'S (NASDAQ:MRNA [https://www.chartmill.com/stock/quote/MRNA/profile]) stock price, closing at $25.82 with a 4.81% decrease during Monday's session. In the last month the stock lost 20.59%.\n\n \t\tCSX [https://www.chartmill.com/stock/quote/CSX/profile]\n\t\t-4.54%\n\t\tCSX CORP'S (NASDAQ:CSX [https://www.chartmill.com/stock/quote/CSX/profile]) shares fell 4.54% to $33.01 during Monday's session.\n\n \t\tJBHT [https://www.chartmill.com/stock/quote/JBHT/profile]\n\t\t-3.94%\n\t\tHUNT (JB) TRANSPRT SVCS INC'S (NASDAQ:JBHT [https://www.chartmill.com/stock/quote/JBHT/profile]) shares fell 3.94% to $144.22 during Monday's session.\n\n \t\tES [https://www.chartmill.com/stock/quote/ES/profile]\n\t\t-3.73%\n\t\tDuring Monday's session, EVERSOURCE ENERGY'S (NYSE:ES [https://www.chartmill.com/stock/quote/ES/profile]) shares took a tumble, falling 3.73% to $64.05.\n\n \t\tCOIN [https://www.chartmill.com/stock/quote/COIN/profile]\n\t\t-3.26%\n\t\tCOINBASE GLOBAL INC -CLASS A'S (NASDAQ:COIN [https://www.chartmill.com/stock/quote/COIN/profile]) shares fell 3.26% to $309.42 during Monday's session. The stock is trading 21.54% higher than 3 months ago.\n\n \t\tIT [https://www.chartmill.com/stock/quote/IT/profile]\n\t\t-3.01%\n\t\tThe market experienced a 3.01% downturn in GARTNER INC'S (NYSE:IT [https://www.chartmill.com/stock/quote/IT/profile]) stock price, closing at $242.38 during Monday's session. In the last month the share price dropped with 29.93%.\n\n \t\tEL [https://www.chartmill.com/stock/quote/EL/profile]\n\t\t-2.82%\n\t\tThere was a notable decline in ESTEE LAUDER COMPANIES-CL A'S (NYSE:EL [https://www.chartmill.com/stock/quote/EL/profile]) shares, as they dropped 2.82% to $88.66 during Monday's session. In the last 3 months the share price increased with 43.24%.\n\n \t\tREGN [https://www.chartmill.com/stock/quote/REGN/profile]\n\t\t-2.73%\n\t\tREGENERON PHARMACEUTICALS'S (NASDAQ:REGN [https://www.chartmill.com/stock/quote/REGN/profile]) stock price is declining with 2.73% to a price of $573.39. In the last year the share price dropped with 50.84%.\n\nOur top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page will show you the full list.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:01:04+00:00",
+            "title": "Monday Sector Leaders: Oil &amp; Gas Refining &amp; Marketing, Computer Peripherals",
+            "content": "In trading on Monday, oil & gas refining & marketing shares were relative leaders, up on the day by about 1.6%.  Leading the group were shares of Aemetis, up about 6.3% and shares of OPAL Fuels up about 5.9% on the day.\n\nAlso showing relative strength are computer peripherals shares, up on the day by about 1.6% as a group, led by Lantronix, trading higher by about 5.5% and Seagate Technology Holdings, trading higher by about 3.6% on Monday.\n\nVIDEO: Monday Sector Leaders: Oil & Gas Refining & Marketing, Computer Peripherals</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T16:35:03+00:00",
+            "title": "Explore the top gainers and losers within the S&amp;P500 index in today's session.",
+            "content": "Curious about the S&P500 stocks that are in motion on Monday? Join us as we explore the top movers within the S&P500 index during today's session.\n\n[topmovers]\n\nTOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tSTX [https://www.chartmill.com/stock/quote/STX/profile]\n\t\t3.62%\n\t\tInvestors celebrated as SEAGATE TECHNOLOGY HOLDINGS (NASDAQ:STX [https://www.chartmill.com/stock/quote/STX/profile]) experienced a 3.62% rise in its shares, closing at $164.98 during Monday's session. In the last 3 months the stock gained 41.22%.\n\n \t\tWDC [https://www.chartmill.com/stock/quote/WDC/profile]\n\t\t3.4%\n\t\tWESTERN DIGITAL CORP'S (NASDAQ:WDC [https://www.chartmill.com/stock/quote/WDC/profile]) shares soared 3.4% to $79.59 during Monday's session. The stock is trading 53.39% higher than 3 months ago.\n\n \t\tDECK [https://www.chartmill.com/stock/quote/DECK/profile]\n\t\t3.35%\n\t\tDECKERS OUTDOOR CORP (NYSE:DECK [https://www.chartmill.com/stock/quote/DECK/profile]) rose 3.35% to $112.75 during Monday's after hours session. The stock is trading 25.56% lower than 6 months ago.\n\n \t\tWYNN [https://www.chartmill.com/stock/quote/WYNN/profile]\n\t\t2.85%\n\t\tWYNN RESORTS LTD'S (NASDAQ:WYNN [https://www.chartmill.com/stock/quote/WYNN/profile]) stock price increased by 2.85% to $117.57. In the last 3 months the share price increased with 26.35%.\n\n \t\tDPZ [https://www.chartmill.com/stock/quote/DPZ/profile]\n\t\t2.33%\n\t\tExciting news for DOMINO'S PIZZA INC (NASDAQ:DPZ [https://www.chartmill.com/stock/quote/DPZ/profile]) as its stock price surged 2.33% to $461.49 during Monday's session.\n\n \t\tNVDA [https://www.chartmill.com/stock/quote/NVDA/profile]\n\t\t2.1%\n\t\tNVIDIA CORP'S (NASDAQ:NVDA [https://www.chartmill.com/stock/quote/NVDA/profile]) stock price increased by 2.1% to $181.72. Today NVDA is releasing earnings. In the last 3 months the stock gained 35.57%.\n\n \t\tAPA [https://www.chartmill.com/stock/quote/APA/profile]\n\t\t2.08%\n\t\tPositive market sentiment drove APA CORP'S (NASDAQ:APA [https://www.chartmill.com/stock/quote/APA/profile]) stock price up by 2.08% to $22.09 during Monday's session. The stock is trading 28.43% higher than 3 months ago.\n\n \t\tGOOGL [https://www.chartmill.com/stock/quote/GOOGL/profile]\n\t\t2.0%\n\t\tALPHABET INC-CL A'S (NASDAQ:GOOGL [https://www.chartmill.com/stock/quote/GOOGL/profile]) stock price is advancing with 2.0% to a price of $210.22. The stock is trading 22.33% higher than 3 months ago.\n\n \t\tGOOG [https://www.chartmill.com/stock/quote/GOOG/profile]\n\t\t1.99%\n\t\tPositive market sentiment drove ALPHABET INC-CL C'S (NASDAQ:GOOG [https://www.chartmill.com/stock/quote/GOOG/profile]) stock price up by 1.99% to $210.83 during Monday's session. In the last 3 months the stock gained 21.89%.\n\n \t\tGLW [https://www.chartmill.com/stock/quote/GLW/profile]\n\t\t1.96%\n\t\tExciting news for CORNING INC (NYSE:GLW [https://www.chartmill.com/stock/quote/GLW/profile]) as its stock price surged 1.96% to $67.06 during Monday's session. The stock is trading 36.0% higher than 3 months ago.\n\nTo see the full list of top gainers you can use our top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n\nTOP LOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tKDP [https://www.chartmill.com/stock/quote/KDP/profile]\n\t\t-7.98%\n\t\tKEURIG DR PEPPER INC'S (NASDAQ:KDP [https://www.chartmill.com/stock/quote/KDP/profile]) stock price faced a 7.98% decline, reaching $32.33 during Monday's session.\n\n \t\tDXCM [https://www.chartmill.com/stock/quote/DXCM/profile]\n\t\t-5.82%\n\t\tDEXCOM INC'S (NASDAQ:DXCM [https://www.chartmill.com/stock/quote/DXCM/profile]) stock price encountered a 5.82% decline, reaching $77.47 during Monday's session.\n\n \t\tMRNA [https://www.chartmill.com/stock/quote/MRNA/profile]\n\t\t-4.35%\n\t\tMODERNA INC'S (NASDAQ:MRNA [https://www.chartmill.com/stock/quote/MRNA/profile]) shares fell 4.35% to $25.94 during Monday's session. In the last month the stock lost 20.59%.\n\n \t\tES [https://www.chartmill.com/stock/quote/ES/profile]\n\t\t-4.3%\n\t\tEVERSOURCE ENERGY (NYSE:ES [https://www.chartmill.com/stock/quote/ES/profile]) encountered a 4.3% decrease in its shares, reaching $63.67 during Monday's session.\n\n \t\tSTZ [https://www.chartmill.com/stock/quote/STZ/profile]\n\t\t-3.22%\n\t\tCONSTELLATION BRANDS INC-A'S (NYSE:STZ [https://www.chartmill.com/stock/quote/STZ/profile]) stock price is declining with 3.22% to a price of $162.23. In the last year the share price dropped with 31.63%.\n\n \t\tEL [https://www.chartmill.com/stock/quote/EL/profile]\n\t\t-2.99%\n\t\tInvestors witnessed a 2.99% decrease in ESTEE LAUDER COMPANIES-CL A'S (NYSE:EL [https://www.chartmill.com/stock/quote/EL/profile]) stock price, which closed at $88.5 during Monday's session. In the last 3 months the stock gained 43.24%.\n\n \t\tCOIN [https://www.chartmill.com/stock/quote/COIN/profile]\n\t\t-2.77%\n\t\tInvestors witnessed a 2.77% decrease in COINBASE GLOBAL INC -CLASS A'S (NASDAQ:COIN [https://www.chartmill.com/stock/quote/COIN/profile]) stock price, which closed at $310.99 during Monday's session. The stock is trading 21.54% higher than 3 months ago.\n\n \t\tALGN [https://www.chartmill.com/stock/quote/ALGN/profile]\n\t\t-2.74%\n\t\tALIGN TECHNOLOGY INC'S (NASDAQ:ALGN [https://www.chartmill.com/stock/quote/ALGN/profile]) stock price faced a 2.74% decline, reaching $145.47 during Monday's session. Earlier today the company had a press release: INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Align Technology, Inc. – ALGN [https://www.chartmill.com/news/ALGN/gnwcq-2025-8-25-investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-align-technology-inc-algn].\n\n \t\tIT [https://www.chartmill.com/stock/quote/IT/profile]\n\t\t-2.59%\n\t\tGARTNER INC'S (NYSE:IT [https://www.chartmill.com/stock/quote/IT/profile]) stock price is declining with 2.59% to a price of $243.44. The stock is trading 29.93% lower than a month ago.\n\n \t\tMRK [https://www.chartmill.com/stock/quote/MRK/profile]\n\t\t-2.56%\n\t\tMERCK & CO. INC.'S (NYSE:MRK [https://www.chartmill.com/stock/quote/MRK/profile]) stock price faced a 2.56% decline, reaching $85.13 during Monday's session. A press release (Merck Demonstrates Ongoing Commitment to Advancing Cardiovascular Disease Management and Patient Care with New Data at the European Society of Cardiology Congress 2025 [https://www.chartmill.com/news/MRK/bizwire-2025-8-25-merck-demonstrates-ongoing-commitment-to-advancing-cardiovascular-disease-management-and-patient-care-with-new-data-at-the-european-society-of-cardiology-congress-2025]) was released earlier today.\n\nFor the full top loser list go to our top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T15:35:19+00:00",
+            "title": "Top Stock Movers Now: Keurig Dr Pepper, RH, Intel, and More",
+            "content": "Kevin Carter / Getty Images Keurig Dr Pepper was the worst-performing stock in the S&P 500 Monday, after the beverage giant announced it was paying $18 billion to purchase Peet's Coffee parent JDE Peet's and intends to separate into two parts: coffee and soft drinks\n\nKey Takeaways\n\nU.S. equities were mixed and little changed ahead of more big corporate earnings reports scheduled for this week. Keurig Dr Pepper is buying coffee maker JDE Peet's and will split into two, coffee and soft drinks. Netflix's \"Kpop Demon Hunters\" scored a big-box office take when it was shown in movie theaters this weekend.\n\nU.S. equities were mixed and little changed at midday as the market awaited more key corporate earnings reports this week, including from Nvidia (NVDA). The Dow Jones Industrial Average and S&P 500 fell, while the Nasdaq gained.\n\nKeurig Dr Pepper (KDP) was the worst-performing stock in the S&P 500 when the beverage giant announced it was paying $18 billion to purchase Peet's Coffee parent JDE Peet's, and intends to split into two parts: coffee and soft drinks.\n\nShares of furniture retailers RH (RH), Wayfair (W), and Williams-Sonoma (WSM) tumbled after President Donald Trump said he would soon be putting tariffs on furniture imports.\n\nAmerican Eagle Outfitters (AEO) shares dropped on a downgrade from Bank of America, which said that while the Sydney Sweeney ad campaign may boost the clothing retailer in the near term, tariffs would likely hurt results.\n\nNetflix (NFLX) shares advanced on indications the biggest streaming service's animated film \"Kpop Demon Hunters,\" which was shown in movie theaters over the weekend, was a box-office hit.\n\nShares of Seagate Technology Holdings (STX) rose on positive comments from Cantor Fitzgerald, which reiterated its \"overweight\" rating on the chipmaker.\n\nIntel (INTC) shares were up again after a 5.5% jump on Friday after the U.S. took about a 10% stake in the struggling semiconductor manufacturer.\n\nOil futures were higher. Gold prices were little changed. The yield on the 10-year Treasury note climbed. The U.S. dollar was up on the euro, pound, and yen. Most major cryptocurrencies traded lower.  TradingView\n\nRead the original article on Investopedia\n\nKommentare anzeigen",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T13:03:26+00:00",
+            "title": "STX Quantitative Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for SEAGATE TECHNOLOGY HOLDINGS PLC (STX). Of the 22 guru strategies we follow,  STX rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nSEAGATE TECHNOLOGY HOLDINGS PLC (STX) is a large-cap growth stock in the Computer Storage Devices industry. The rating using this strategy is 100% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:PASS\n\nDetailed Analysis of SEAGATE TECHNOLOGY HOLDINGS PLC\n\nSTX Guru Analysis\n\nSTX Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nTop Technology Stocks\n\nTop Large-Cap Growth Stocks\n\nHigh Momentum Stocks\n\nTop Chip Stocks\n\nHigh Insider Ownership Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Seagate Technology PLC",
+          "sector": "Technology",
+          "industry": "Computer Hardware",
+          "employees": 30000,
+          "description": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise"
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.77,
+          "profit_margin": 0.1615,
+          "operating_margin": 0.243,
+          "roe": 0.2207,
+          "roa": 0.1529,
+          "revenue_growth_yoy": 0.295,
+          "earnings_growth_yoy": -0.061,
+          "eps_estimate_current_year": 7.9435,
+          "eps_estimate_next_year": 9.9168,
+          "dividend_yield": 0.0185,
+          "dividend_per_share": 2.86,
+          "revenue_ttm": 9096999936,
+          "revenue_per_share": 42.91,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 23.517,
+          "forward_pe": 15.7978,
+          "price_to_sales": 3.7221,
+          "price_to_book": 101.3063,
+          "enterprise_value": 37964333509,
+          "ev_to_revenue": 4.1733,
+          "ev_to_ebitda": 18.2083
+        },
+        "technical_data": {
+          "beta": 1.525,
+          "52_week_high": 165.28,
+          "52_week_low": 62.8562,
+          "50_day_ma": 147.1292,
+          "200_day_ma": 108.5273,
+          "short_interest": 0.1087,
+          "short_ratio": 4.06
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.88,
+          "forward_dividend_yield": 0.0181,
+          "payout_ratio": 0.3531,
+          "dividend_date": "2025-10-09",
+          "ex_dividend_date": "2025-09-30",
+          "last_split_date": "2021-05-19",
+          "last_split_factor": "1:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.9565,
+          "target_price": 163.5263,
+          "strong_buy": 12,
+          "buy": 1,
+          "hold": 8,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 212676992,
+          "percent_institutions": 95.697,
+          "percent_insiders": 0.345,
+          "shares_float": 211920047
+        },
+        "balance_latest_sheet": {
+          "total_assets": 8023.0,
+          "net_debt": -891.0,
+          "working_capital": 1005.0,
+          "shareholders_equity": -453.0,
+          "quarter_date": "2025-06-30"
+        },
+        "income_latest_statement": {
+          "total_revenue": 2444.0,
+          "gross_profit": 914.0,
+          "operating_income": 568.0,
+          "net_income": 488.0,
+          "ebitda": 568.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 37.4,
+          "operating_margin": 23.24,
+          "net_margin": 19.97
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 508.0,
+          "free_cash_flow": 425.0,
+          "capex": 83.0,
+          "net_income": 488.0,
+          "cash_change": 77.0,
+          "dividends_paid": 153.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 2.35,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 150.31,
+            "high": 150.96,
+            "low": 147.8,
+            "close": 149.05,
+            "volume": 2461421
+          },
+          {
+            "date": "2025-07-16",
+            "open": 148.98,
+            "high": 149,
+            "low": 145.51,
+            "close": 147.12,
+            "volume": 2694636
+          },
+          {
+            "date": "2025-07-17",
+            "open": 147.12,
+            "high": 149.645,
+            "low": 146.35,
+            "close": 146.72,
+            "volume": 5155524
+          },
+          {
+            "date": "2025-07-18",
+            "open": 147.61,
+            "high": 149.91,
+            "low": 146.224,
+            "close": 149.075,
+            "volume": 3336593
+          },
+          {
+            "date": "2025-07-21",
+            "open": 149.46,
+            "high": 150.92,
+            "low": 148.03,
+            "close": 149.63,
+            "volume": 3454105
+          },
+          {
+            "date": "2025-07-22",
+            "open": 149,
+            "high": 149.28,
+            "low": 144.76,
+            "close": 146.59,
+            "volume": 3045025
+          },
+          {
+            "date": "2025-07-23",
+            "open": 147.15,
+            "high": 152.83,
+            "low": 147,
+            "close": 152.76,
+            "volume": 4024938
+          },
+          {
+            "date": "2025-07-24",
+            "open": 152.23,
+            "high": 153.88,
+            "low": 151.0761,
+            "close": 152.73,
+            "volume": 2429724
+          },
+          {
+            "date": "2025-07-25",
+            "open": 152.4,
+            "high": 153.33,
+            "low": 148.435,
+            "close": 150.89,
+            "volume": 3125993
+          },
+          {
+            "date": "2025-07-28",
+            "open": 151.48,
+            "high": 152.04,
+            "low": 149.74,
+            "close": 150.46,
+            "volume": 2585241
+          },
+          {
+            "date": "2025-07-29",
+            "open": 151.75,
+            "high": 155.52,
+            "low": 150,
+            "close": 152.68,
+            "volume": 6242766
+          },
+          {
+            "date": "2025-07-30",
+            "open": 141,
+            "high": 148.54,
+            "low": 138.3,
+            "close": 147.42,
+            "volume": 12025070
+          },
+          {
+            "date": "2025-07-31",
+            "open": 148.3,
+            "high": 157.45,
+            "low": 146.9,
+            "close": 157.01,
+            "volume": 7049757
+          },
+          {
+            "date": "2025-08-01",
+            "open": 153.36,
+            "high": 156.61,
+            "low": 150.9165,
+            "close": 154.81,
+            "volume": 3827642
+          },
+          {
+            "date": "2025-08-04",
+            "open": 156.79,
+            "high": 157.618,
+            "low": 152.4,
+            "close": 154.81,
+            "volume": 2510001
+          },
+          {
+            "date": "2025-08-05",
+            "open": 156.8,
+            "high": 157.4,
+            "low": 147.21,
+            "close": 151.74,
+            "volume": 3449766
+          },
+          {
+            "date": "2025-08-06",
+            "open": 153,
+            "high": 153,
+            "low": 146.85,
+            "close": 147.27,
+            "volume": 3776636
+          },
+          {
+            "date": "2025-08-07",
+            "open": 144.98,
+            "high": 148.55,
+            "low": 144.75,
+            "close": 148.1,
+            "volume": 3472524
+          },
+          {
+            "date": "2025-08-08",
+            "open": 149.5,
+            "high": 151.08,
+            "low": 148.56,
+            "close": 150.45,
+            "volume": 1901692
+          },
+          {
+            "date": "2025-08-11",
+            "open": 151.61,
+            "high": 156.1,
+            "low": 151.23,
+            "close": 151.69,
+            "volume": 2759416
+          },
+          {
+            "date": "2025-08-12",
+            "open": 152.23,
+            "high": 158,
+            "low": 152.23,
+            "close": 155.59,
+            "volume": 2362349
+          },
+          {
+            "date": "2025-08-13",
+            "open": 156.35,
+            "high": 157.5,
+            "low": 154.86,
+            "close": 156.92,
+            "volume": 2052634
+          },
+          {
+            "date": "2025-08-14",
+            "open": 155.26,
+            "high": 156.835,
+            "low": 154.2,
+            "close": 155.73,
+            "volume": 2319683
+          },
+          {
+            "date": "2025-08-15",
+            "open": 155.75,
+            "high": 155.75,
+            "low": 152.0501,
+            "close": 154.43,
+            "volume": 1431837
+          },
+          {
+            "date": "2025-08-18",
+            "open": 154.95,
+            "high": 158.82,
+            "low": 154.075,
+            "close": 158.7,
+            "volume": 2016513
+          },
+          {
+            "date": "2025-08-19",
+            "open": 158.09,
+            "high": 158.98,
+            "low": 155.31,
+            "close": 157.93,
+            "volume": 2546564
+          },
+          {
+            "date": "2025-08-20",
+            "open": 157.18,
+            "high": 158.67,
+            "low": 152.5,
+            "close": 158.4,
+            "volume": 2177301
+          },
+          {
+            "date": "2025-08-21",
+            "open": 158.24,
+            "high": 159.36,
+            "low": 153.03,
+            "close": 154.6,
+            "volume": 2300020
+          },
+          {
+            "date": "2025-08-22",
+            "open": 155.12,
+            "high": 160.57,
+            "low": 154.22,
+            "close": 159.21,
+            "volume": 1920072
+          },
+          {
+            "date": "2025-08-25",
+            "open": 159,
+            "high": 165.28,
+            "low": 158.68,
+            "close": 164,
+            "volume": 2513418
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 8.999069520138237,
+        "return_63d": 40.111063648013676,
+        "pct_above_sma50": 11.444208755415417,
+        "sma_50": 147.8879,
+        "new_55d_high": "False",
+        "high_55d": 165.28,
+        "rsi": 67.35560588901474,
+        "rsi_in_range": "True",
+        "adx": 10.277565032122396,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.651414634146341,
+        "bb_width": 11.115919916258122,
+        "keltner_width": 15.551730687920202,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 530620723.562225,
+        "adv_shares": 3432783.05,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.87201899665358,
+        "final_score": 49.87201899665358,
+        "sub_scores": {
+          "trend_momentum": 22.77270007773468,
+          "squeeze_breakout": 4.0,
+          "options_quality": 12.099318918918897,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 8.688448538670567,
+          "ret_63d": 45.46744722370055,
+          "rsi14": 67.35560588901474,
+          "adx14": 10.296774007120993,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: STX\n• Current Price: $164.8125\n• Overall Score: 50.406136523955176\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 147.1292\n• Sma 200: 108.5273\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 8.688448538670565\n• Momentum 63D: 45.46744722370056\n• Momentum 126D: 63.86890487609912\n• Momentum Acceleration: -36.77899868503\n• Roc 21D: 8.688448538670565\n• Trend Strength 20D: 0.43179469147918614\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 50.0\n• Price Velocity: 0.006807823698777571\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 20.0\n• Squeeze Momentum: 0.12733196256090992\n• Volatility Compression: 23.19600378995899\n• Is Consolidating: False\n• Breakout Score: 41.59708507667788\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.77270007773468\n• Squeeze Breakout: 4.0\n• Options Quality: 12.099318918918897\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 66.0\n• Squeeze: 53.47940056849385\n• Options: 37.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: STX\n• Strike Price: $165\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $9.1\n• Ask: $9.4\n• Last: $9.2\n• Mid: $9.25\n• Spread: 3.191489361702127659574468085%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5287\n• Gamma: 0.0171\n• Theta: -0.096\n• Vega: 0.2487\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3706\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 63\n• Open Interest: 830\n• Volume/OI Ratio: 0.07590361445783132\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Seagate Technology PLC\n• Sector: Technology\n• Industry: Computer Hardware\n• EPS (TTM): $6.77\n• Profit Margin: 16.2%\n• ROE: 22.1%\n• P/E Ratio: 23.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T19:05:05+00:00: Top S&amp;P500 movers in Monday's session...\n• 2025-08-25T17:01:04+00:00: Monday Sector Leaders: Oil &amp; Gas Refining &amp; Marketing, Computer Peripher...\n• 2025-08-25T16:35:03+00:00: Explore the top gainers and losers within the S&amp;P500 index in today's sessio...\n• 2025-08-25T15:35:19+00:00: Top Stock Movers Now: Keurig Dr Pepper, RH, Intel, and More...\n• 2025-08-23T13:03:26+00:00: STX Quantitative Stock Analysis...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR STX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the STX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:22:10.888804",
+    "estimated_tokens": 2318
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"STX\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 30,\n        \"options_quality\": 15,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"STX shows strong technical momentum with price well above both 50 and 200 SMAs (147.12/108.52) and perfect MA ribbon score of 100. However, decelerating momentum (-36.77 acceleration) and upcoming earnings create near-term risks despite positive squeeze conditions.\",\n    \"opportunities\": [\n        \"Strong price trend with 63.87% 126-day momentum and 100 MA ribbon score\",\n        \"Active squeeze condition with 2 timeframe confirmation and 23.2% volatility compression\",\n        \"Reasonable options liquidity with 3.19% bid-ask spread and 0.53 delta positioning\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration at -36.77\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Below average options volume/OI ratio of 0.076\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 165 Call for directional exposure with defined risk\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Use 165 strike as key technical level, consider spread to reduce premium risk\"\n    },\n    \"red_flags\": [\n        \"Earnings in approximately 35 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup is strong, timing relative to earnings and momentum deceleration suggest waiting for better entry point. Consider post-earnings entry if technical strength maintains.\"\n}",
+    "parsed_analysis": {
+      "symbol": "STX",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 30,
+        "options_quality": 15,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "STX shows strong technical momentum with price well above both 50 and 200 SMAs (147.12/108.52) and perfect MA ribbon score of 100. However, decelerating momentum (-36.77 acceleration) and upcoming earnings create near-term risks despite positive squeeze conditions.",
+      "opportunities": [
+        "Strong price trend with 63.87% 126-day momentum and 100 MA ribbon score",
+        "Active squeeze condition with 2 timeframe confirmation and 23.2% volatility compression",
+        "Reasonable options liquidity with 3.19% bid-ask spread and 0.53 delta positioning"
+      ],
+      "risks": [
+        "Negative momentum acceleration at -36.77",
+        "Earnings coming up on 2025-09-30",
+        "Below average options volume/OI ratio of 0.076"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 165 Call for directional exposure with defined risk",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Use 165 strike as key technical level, consider spread to reduce premium risk"
+      },
+      "red_flags": [
+        "Earnings in approximately 35 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "While technical setup is strong, timing relative to earnings and momentum deceleration suggest waiting for better entry point. Consider post-earnings entry if technical strength maintains."
+    },
+    "tokens_used": 2534,
+    "cost": 0.025339999999999998,
+    "response_time": 10.92069673538208,
+    "success": true
+  },
+  "cost": 0.025339999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8476,
+    "response_length": 1662
+  }
+}

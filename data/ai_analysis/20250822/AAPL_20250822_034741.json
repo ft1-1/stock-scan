@@ -1,0 +1,128 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "timestamp": "2025-08-22T03:47:41.194794",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAPL",
+      "package_timestamp": "2025-08-22T03:47:32.972751",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 0.0,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAPL",
+        "current_price": 224.9,
+        "overall_score": 32.74413618069309,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {},
+      "momentum_metrics": {
+        "momentum_21d": 5.019845902404856,
+        "roc_21d": 5.019845902404856,
+        "trend_strength_20d": 0.5901781499602101,
+        "trend_direction": 0,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.006841960903493561
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "volatility_compression": 31.5994111513082,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "technical": 55.0,
+        "momentum": 58.0,
+        "squeeze": 9.73991167269623,
+        "options": 0,
+        "quality": 25.46153846153846
+      },
+      "risk_assessment": {
+        "warnings": [
+          "No options data available"
+        ],
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "error": "No option data provided"
+    },
+    "enhanced_stock_data": {},
+    "data_quality": {
+      "fundamental_score": 0.0,
+      "technical_score": 0.0,
+      "options_score": 0.0,
+      "calendar_score": 0.0,
+      "news_score": 0.0,
+      "overall_score": 0.0,
+      "missing_fields": [
+        "fundamentals",
+        "technical_indicators",
+        "option_data",
+        "calendar_events",
+        "news"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAPL\n• Current Price: $224.9\n• Overall Score: 32.74413618069309\n• Strategy Type: options_screening\n\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.019845902404856\n• Roc 21D: 5.019845902404856\n• Trend Strength 20D: 0.5901781499602101\n• Trend Direction: 0\n• Breakout Strength: 0.0\n• Price Velocity: -0.006841960903493561\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Volatility Compression: 31.5994111513082\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Technical: 55.0\n• Momentum: 58.0\n• Squeeze: 9.73991167269623\n• Options: 0\n• Quality: 25.46153846153846\n\n## SELECTED OPTION CONTRACT\nNo option contract data provided.\n\n\n## ENHANCED MARKET DATA\nNo enhanced data provided.\n\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 0.0%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-22T03:47:41.194754",
+    "estimated_tokens": 1855
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAPL\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 20,\n        \"options_quality\": 8,\n        \"iv_value\": 7,\n        \"squeeze_volatility\": 5,\n        \"fundamentals\": 7,\n        \"event_news\": 5\n    },\n    \"confidence\": \"low\",\n    \"thesis\": \"AAPL shows moderate momentum with 21-day ROC of 5.02%, but weak trend strength of 0.59 and negative price velocity suggest deteriorating momentum. Limited volatility compression and absence of squeeze conditions indicate reduced probability of significant directional moves.\",\n    \"opportunities\": [\n        \"Positive 21-day momentum at 5.02%\",\n        \"Multi-timeframe squeeze count of 1 indicates some compression\",\n        \"Technical score of 55 suggests moderate technical setup\"\n    ],\n    \"risks\": [\n        \"Negative price velocity (-0.0068)\",\n        \"Weak trend strength (0.59)\",\n        \"No active squeeze condition present\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Defer new positions until trend strength improves\",\n        \"entry_timing\": \"Currently unfavorable due to weak trend metrics\",\n        \"risk_management\": \"Consider reduced position sizing given momentum deterioration\"\n    },\n    \"red_flags\": [\n        \"Significant data gaps (0% completeness)\",\n        \"Missing options contract data\",\n        \"Missing fundamental and enhanced market data\"\n    ],\n    \"notes\": \"Analysis confidence severely limited by missing data across multiple critical components including options chains, IV metrics, and fundamental indicators\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAPL",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 20,
+        "options_quality": 8,
+        "iv_value": 7,
+        "squeeze_volatility": 5,
+        "fundamentals": 7,
+        "event_news": 5
+      },
+      "confidence": "low",
+      "thesis": "AAPL shows moderate momentum with 21-day ROC of 5.02%, but weak trend strength of 0.59 and negative price velocity suggest deteriorating momentum. Limited volatility compression and absence of squeeze conditions indicate reduced probability of significant directional moves.",
+      "opportunities": [
+        "Positive 21-day momentum at 5.02%",
+        "Multi-timeframe squeeze count of 1 indicates some compression",
+        "Technical score of 55 suggests moderate technical setup"
+      ],
+      "risks": [
+        "Negative price velocity (-0.0068)",
+        "Weak trend strength (0.59)",
+        "No active squeeze condition present"
+      ],
+      "option_contract": {
+        "recommendation": "Defer new positions until trend strength improves",
+        "entry_timing": "Currently unfavorable due to weak trend metrics",
+        "risk_management": "Consider reduced position sizing given momentum deterioration"
+      },
+      "red_flags": [
+        "Significant data gaps (0% completeness)",
+        "Missing options contract data",
+        "Missing fundamental and enhanced market data"
+      ],
+      "notes": "Analysis confidence severely limited by missing data across multiple critical components including options chains, IV metrics, and fundamental indicators"
+    },
+    "tokens_used": 2122,
+    "cost": 0.021220000000000003,
+    "response_time": 8.221547365188599,
+    "success": true
+  },
+  "cost": 0.021220000000000003,
+  "processing_metadata": {
+    "data_completeness_score": 0.0,
+    "prompt_length": 6947,
+    "response_length": 1544
+  }
+}

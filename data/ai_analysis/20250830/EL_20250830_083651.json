@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "EL",
+  "timestamp": "2025-08-30T08:36:51.782382",
+  "data_package": {
+    "metadata": {
+      "symbol": "EL",
+      "package_timestamp": "2025-08-30T08:36:42.281637",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "EL",
+        "current_price": 91.73,
+        "overall_score": 49.62692307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 87.7518,
+        "sma_200": 73.6312
+      },
+      "momentum_metrics": {
+        "momentum_21d": -1.7248767945146768,
+        "momentum_63d": 37.03316402748732,
+        "momentum_126d": 27.562230565985267,
+        "momentum_acceleration": -38.758040822001995,
+        "roc_21d": -1.7248767945146768,
+        "trend_strength_20d": 0.017066154942419916,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.10347479803963,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0012919670237284907
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 17.0,
+        "squeeze_momentum": -0.10540644540823187,
+        "volatility_compression": 35.0,
+        "is_consolidating": "False",
+        "breakout_score": 67.93296812083936,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.01736988381254,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.71183290414877,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 50.0,
+        "squeeze": 60.25,
+        "options": 43.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 19,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "EL",
+        "strike_price": "90",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.75",
+        "ask": "5.9",
+        "last_price": "5.89",
+        "mid_price": "5.825",
+        "spread_percent": "2.542372881355932203389830508"
+      },
+      "greeks": {
+        "delta": 0.5836,
+        "gamma": 0.0314,
+        "theta": -0.0555,
+        "vega": 0.1298
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3736
+      },
+      "liquidity_metrics": {
+        "volume": 56,
+        "open_interest": 1422,
+        "volume_oi_ratio": 0.03938115330520394
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:43.064748",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T04:35:00+00:00",
+            "title": "TOM FORD Unveils Black Orchid Reserve Campaign Starring Tilda Swinton",
+            "content": "NEW YORK, August 29, 2025--(BUSINESS WIRE)--The quest for exceptional rarity. Introducing Tilda Swinton for the new TOM FORD Black Orchid Reserve campaign.\n\n\"It is a profound honour for me to play a part in the history of TOM FORD’s legendary Black Orchid. Transformation, the blurring of boundaries and the celebration of magical properties have always drawn me close; Black Orchid Reserve is precisely such an enchantment.\" — Tilda Swinton\n\nA celebrated actor and artist, Swinton is a singular presence known for her fearless artistry and transformative performances. An Academy Award, BAFTA and Golden Lion for Lifetime Achievement winner, Swinton defies conventions with elegance, intellect and a visionary approach to cinema. Her work transcends definition, shaping the culture through work in film, art and performance.\n\nTOM FORD creative director Haider Ackermann designed the campaign as a cinematic portrait of rarity in its most heightened form. Lensed by Inez and Vinoodh, the campaign images and video — launching on September 1 — show Swinton in fluid motion. A magnetic force of nature. It is a portrait of a woman who awakens the world around her through gaze and gesture, stillness and strength. She is as rare as the Black Orchid – a flower born of the quest for perfection.\n\nBlack Orchid, TOM FORD’s first fragrance, was a revelation when it debuted in 2006. Now, TOM FORD debuts Black Orchid Reserve. The fragrance introduces the Ghost Orchid — a phantom-like flower that is revered as one of the most elusive in the world — with its scent captured by headspace technology the moment the Ghost Orchid blooms. This precious note is a decadent white floral, providing a brilliant contrast to Black Orchid’s rich, dark accords and spice, ushering in a new chapter in the world of TOM FORD’s Black Orchid.\n\nABOUT TOM FORD\n\nTOM FORD IS A GLOBAL LUXURY HOUSE OFFERING EXCEPTIONAL WOMEN’S AND MEN’S FASHION, ACCESSORIES, EYEWEAR AND BEAUTY.\n\nFOUNDED IN 2005 BY TOM FORD, THE HOUSE IS KNOWN FOR SHARP TAILORING AND SEDUCTIVE ELEGANCE. IT HAS A PRESENCE IN MORE THAN 100 COUNTRIES AND TERRITORIES. THE ESTÉE LAUDER COMPANIES BECAME THE SOLE OWNER OF THE TOM FORD BRAND IN 2023, ESTABLISHING LONG-TERM LICENSES WITH THE ERMENEGILDO ZEGNA GROUP FOR FASHION AND ACCESSORIES, AND MARCOLIN FOR EYEWEAR. HAIDER ACKERMANN WAS APPOINTED CREATIVE DIRECTOR IN 2024.\n\nABOUT THE ESTÉE LAUDER COMPANIES\n\nThe Estée Lauder Companies Inc. is one of the world’s leading manufacturers, marketers, and sellers of quality skin care, makeup, fragrance, and hair care products, and is a steward of luxury and prestige brands globally. The company’s products are sold in approximately 150 countries and territories under brand names including: Estée Lauder, Aramis, Clinique, Lab Series, Origins, M·A·C, La Mer, Bobbi Brown Cosmetics, Aveda, Jo Malone London, Bumble and bumble, Darphin Paris, TOM FORD, Smashbox, AERIN Beauty, Le Labo, Editions de Parfums Frédéric Malle, GLAMGLOW, KILIAN PARIS, Too Faced, Dr.Jart+, the DECIEM family of brands, including The Ordinary and NIOD, and BALMAIN Beauty.\n\nStory Continues\n\nELC-B\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250828507187/en/\n\nContacts\n\nMedia Relations: \r\nMeridith Webster\r\nmwebster@estee.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T13:00:00+00:00",
+            "title": "Naples Soap Company Appoints Beauty and Wellness Industry Veteran Carolyn Thielman as Fractional CFO",
+            "content": "Former Estée Lauder finance executive joins as fractional CFO to help drive performance, profitability, and long-term shareholder value\n\nNaples, Florida--(Newsfile Corp. - August 28, 2025) - Naples Soap Company, Inc. (OTCQB: NASO), a national omni-channel retailer specializing in clean beauty skin, hair, and wellness products, announced today the appointment of Carolyn Thielman, CPA, as fractional Chief Financial Officer. Thielman will lead the Company's financial strategy by focusing on growth acceleration, improving operational efficiencies and driving long-term shareholder value.\n\nWith more than 15 years at Estée Lauder in senior-level financial roles for global brands including MAC and Smashbox Cosmetics, Thielman brings a proven track record of successfully scaling beauty and wellness brands. In her work as a fractional CFO, she has guided emerging companies through complex financial landscapes by aligning disciplined financial management with ambitious growth objectives.\n\n\"Carolyn's combination of global beauty industry expertise, financial acumen, and strategic foresight makes her an invaluable addition to our leadership team,\" said Deanna Wallin, Founder & CEO of Naples Soap Company. \"Her insights will be vital as we execute our growth strategy across retail, wholesale, and e-commerce channels to strengthen our position in the U.S. and international markets.\"\n\nAs incoming CFO, Thielman will oversee financial planning, capital allocation, and cash flow management, while partnering with leadership on strategic initiatives and new product innovation. Thielman, based in Los Angeles, also taught business and finance at Fashion Institute of Design and Merchandising (FIDM) University and mentors entrepreneurs through the Women Founders Network. She holds a Bachelor of Science in Accounting from the University at Albany, SUNY.\n\n\"I'm honored to join Naples Soap Company at such an exciting time in its evolution,\" shared Carolyn Thielman. \"The Company has a strong foundation, a great story, a loyal customer base, and a clear mission. My priority is to build financial strategies that fuel growth, strengthen margins, and create enduring value for shareholders.\"\n\nTo view an enhanced version of this graphic, please visit:\r\nhttps://images.newsfilecorp.com/files/11849/264126_4207a967e4b98a45_001full.jpg\n\nThielman succeeds Jim Milner, CPA, who is retiring after serving as CFO for Naples Soap Company for 12 years. Milner will continue to contribute his experience and valuable insights as a valued member of the Company's Board of Directors.\n\nStory Continues\n\n\"I am deeply grateful to Jim for his leadership and steady guidance. He has played a key role in helping Naples Soap Company grow from a small 300 square foot retail shop to what it is today,\" said Wallin. \"The Company now operates 13 retail stores across Florida and sells over 600 Naples Soap Company branded products nationwide through our e-commerce and wholesale divisions. Jim played an integral role in the business combination transaction which resulted in our stock becoming publicly traded on the OTC Markets in 2021 and was instrumental in helping us achieve more than $12 million in sales in 2024. He has left an indelible mark, and we wish him the best in his well-deserved retirement.\"\n\nAbout Naples Soap Company\n\nFounded in 2009, Naples Soap Company specializes in more than 600 premium skin and hair care products made without harsh chemical additives, focusing on natural, nourishing ingredients. The Company operates 13 retail locations in Florida and products are sold online at www.naplessoap.com. Products are also sold at over 400 boutiques, spas, and retail stores throughout the United States through the Company's wholesale division. The Company has built a loyal customer base that values its commitment to sustainability, wellness, and a wide range of trusted bath and body products. Company stock trades on the OTCQB under the ticker symbol NASO.\n\nForward-Looking Statements\n\nThis release includes certain statements that are \"forward-looking statements.\" All statements in this release, other than statements of historical fact, that address events or developments that are expected to occur, are forward-looking statements. Forward-looking statements are generally, but not always, identified by the words like \"anticipate,\" \"believe,\" \"expect,\" \"gear up,\" \"intend,\" \"plan,\" \"predict,\" \"will\" and variations of the same. Although we believe the expectations expressed in such forward-looking statements are based on reasonable assumptions, such statements are not guarantees of future performance and actual results may differ materially from those in the forward-looking statements. Factors that could cause the actual results to differ materially from those in forward-looking statements include our need to obtain additional capital or financing to support our business plans, which may not be available on acceptable terms or at all, market prices, competition, risks inherent in the development and launch of potential products and in new market segments, risks relating to the establishment and maintenance of relationships with athletes, celebrities and influencers, and general economic, market or business conditions. Investors are cautioned that any such statements are not guarantees of future performance and actual results or developments may differ materially from those projected in the forward-looking statements. Forward-looking statements are based on the beliefs, estimates and opinions of Naples Soap Company's management on the date the statements are made. Except as required by applicable securities laws, Naples Soap Company undertakes no obligation to update these forward-looking statements in the event that management's beliefs, estimates or opinions, or other factors, should change.\n\nContacts\n\nHanover International, Inc., Kathy Cusumano, President, investorrelations@naplessoap.com.\n\nTo view the source version of this press release, please visit https://www.newsfilecorp.com/release/264126",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T11:41:23+00:00",
+            "title": "August 2025 Stocks That May Be Trading Below Estimated Value",
+            "content": "As of August 2025, the U.S. stock market is experiencing a notable upswing, with the S&P 500 reaching record highs amid investor anticipation surrounding major earnings reports and economic policy shifts. In this environment of high valuations and market excitement, identifying stocks that may be trading below their estimated value can offer potential opportunities for investors looking to capitalize on underappreciated assets in a robust market landscape.\n\nTop 10 Undervalued Stocks Based On Cash Flows In The United States\n\nName Current Price Fair Value (Est) Discount (Est) Wix.com (WIX) $136.38 $261.96 47.9% Willdan Group (WLDN) $116.26 $231.90 49.9% Peapack-Gladstone Financial (PGC) $28.79 $55.84 48.4% Northwest Bancshares (NWBI) $12.73 $24.41 47.9% Niagen Bioscience (NAGE) $9.765 $18.90 48.3% Lyft (LYFT) $16.25 $30.98 47.5% Investar Holding (ISTR) $23.27 $45.93 49.3% Gold Royalty (GROY) $3.29 $6.56 49.8% Fiverr International (FVRR) $23.19 $45.27 48.8% Excelerate Energy (EE) $24.44 $46.89 47.9%\n\nClick here to see the full list of 193 stocks from our Undervalued US Stocks Based On Cash Flows screener.\n\nLet's review some notable picks from our screened stocks.\n\nAtlassian\n\nOverview: Atlassian Corporation offers collaboration software designed to enhance productivity across organizations globally, with a market cap of approximately $43.09 billion.\n\nOperations: The company's revenue primarily comes from its Software & Programming segment, which generated $5.22 billion.\n\nEstimated Discount To Fair Value: 34.2%\n\nAtlassian is trading at US$171.88, below its estimated fair value of US$261.39, indicating potential undervaluation based on cash flows. The company has completed significant share buybacks totaling over $1 billion and reported revenue growth to $5.22 billion for the year ending June 2025. While currently unprofitable with a net loss of $256.69 million, Atlassian is expected to achieve profitability within three years, supported by strategic partnerships and consistent revenue growth forecasts above the market average.\n\nThe growth report we've compiled suggests that Atlassian's future prospects could be on the up. Navigate through the intricacies of Atlassian with our comprehensive financial health report here.TEAM Discounted Cash Flow as at Aug 2025\n\nAlbemarle\n\nOverview: Albemarle Corporation offers energy storage solutions globally and has a market cap of approximately $9.59 billion.\n\nOperations: The company's revenue segments include Ketjen at $1.02 billion, Specialties at $1.35 billion, and Energy Storage at $2.63 billion.\n\nEstimated Discount To Fair Value: 26.1%\n\nAlbemarle, trading at US$87.68, is valued below its fair value estimate of US$118.58, suggesting potential undervaluation based on cash flows. Despite a dividend yield of 1.85% that isn't well covered by earnings or free cash flow, Albemarle's earnings are forecast to grow significantly over the next three years as it becomes profitable. Recent executive changes aim to enhance operational efficiency and align with strategic goals amidst fluctuating revenue performance and ongoing market adjustments.\n\nStory Continues\n\nOur expertly prepared growth report on Albemarle implies its future financial outlook may be stronger than recent results. Take a closer look at Albemarle's balance sheet health here in our report.ALB Discounted Cash Flow as at Aug 2025\n\nEstée Lauder Companies\n\nOverview: The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide with a market cap of approximately $32.33 billion.\n\nOperations: Revenue segments for Estée Lauder include skin care at $6.96 billion, makeup at $4.21 billion, fragrance at $2.49 billion, and hair care at $565 million.\n\nEstimated Discount To Fair Value: 18.6%\n\nEstée Lauder, priced at US$92.61, trades below its fair value estimate of US$113.75, reflecting potential undervaluation based on cash flows. Despite a challenging year with a net loss of US$1.13 billion and declining sales, the company forecasts positive revenue growth and profitability within three years. However, debt coverage by operating cash flow remains inadequate. Recent leadership appointments aim to drive digital transformation and strengthen brand equity amidst market repositioning challenges.\n\nOur growth report here indicates Estée Lauder Companies may be poised for an improving outlook. Click here and access our complete balance sheet health report to understand the dynamics of Estée Lauder Companies.EL Discounted Cash Flow as at Aug 2025\n\nMake It Happen\n\nDive into all 193 of the Undervalued US Stocks Based On Cash Flows we have identified here. Got skin in the game with these stocks? Elevate how you manage them by using Simply Wall St's portfolio, where intuitive tools await to help optimize your investment outcomes. Streamline your investment strategy with Simply Wall St's app for free and benefit from extensive research on stocks across all corners of the world.\n\nReady For A Different Approach?\n\nExplore high-performing small cap companies that haven't yet garnered significant analyst attention. Diversify your portfolio with solid dividend payers offering reliable income streams to weather potential market turbulence. Fuel your portfolio with companies showing strong growth potential, backed by optimistic outlooks both from analysts and management.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include TEAMALB and EL.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T20:35:00+00:00",
+            "title": "The Estée Lauder Companies to Participate in the Barclays Global Consumer Staples Conference",
+            "content": "NEW YORK, August 27, 2025--(BUSINESS WIRE)--Stéphane de La Faverie, President and Chief Executive Officer, and Amber English, President, Digital and Online, The Americas, of The Estée Lauder Companies Inc. (NYSE: EL) will speak at the Barclays Annual Global Consumer Staples Conference in Boston on Wednesday, September 3, 2025, at 4:30 p.m. ET.\n\nInterested parties can access the live webcast of the fireside chat on Wednesday, September 3rd from 4:30 p.m. – 5:05 p.m. ET at http://www.elcompanies.com/investors. The webcast will be archived on the site.\n\nThe Estée Lauder Companies Inc. is one of the world’s leading manufacturers, marketers and sellers of quality skin care, makeup, fragrance and hair care products, and is a steward of luxury and prestige brands globally. The Company’s products are sold in approximately 150 countries and territories under brand names including: Estée Lauder, Aramis, Clinique, Lab Series, Origins, M·A·C, La Mer, Bobbi Brown Cosmetics, Aveda, Jo Malone London, Bumble and bumble, Darphin Paris, TOM FORD, Smashbox, AERIN Beauty, Le Labo, Editions de Parfums Frédéric Malle, GLAMGLOW, KILIAN PARIS, Too Faced, Dr.Jart+, and the DECIEM family of brands, including The Ordinary and NIOD.\n\nELC-F\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250827546875/en/\n\nContacts\n\nInvestors: Rainey Mancini \r\nrmancini@estee.com\n\nMedia: Brendan Riley \r\nbriley@estee.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T19:05:04+00:00",
+            "title": "Stay informed with the top movers within the S&amp;P500 index on Wednesday.",
+            "content": "Join us in exploring the top gainers and losers within the S&P500 index one hour before the close of the markets on Wednesday as we examine the latest happenings in today's session.\n\n[topmovers]\n\nTODAY'S TOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tALB [https://www.chartmill.com/stock/quote/ALB/profile]\n\t\t7.13%\n\t\tALBEMARLE CORP (NYSE:ALB [https://www.chartmill.com/stock/quote/ALB/profile]) witnessed a notable 7.13% uptick in its shares, reaching $87.34 during Wednesday's session. The stock is trading 46.22% higher than 3 months ago.\n\n \t\tKMX [https://www.chartmill.com/stock/quote/KMX/profile]\n\t\t4.24%\n\t\tCARMAX INC'S (NYSE:KMX [https://www.chartmill.com/stock/quote/KMX/profile]) shares soared 4.24% to $62.2 during Wednesday's session. In the last 6 months the stock lost 28.08%.\n\n \t\tWYNN [https://www.chartmill.com/stock/quote/WYNN/profile]\n\t\t4.05%\n\t\tInvestors celebrated as WYNN RESORTS LTD (NASDAQ:WYNN [https://www.chartmill.com/stock/quote/WYNN/profile]) experienced a 4.05% rise in its shares, closing at $123.9 during Wednesday's session. In the last 3 months the share price increased with 31.52%.\n\n \t\tDDOG [https://www.chartmill.com/stock/quote/DDOG/profile]\n\t\t3.59%\n\t\tPositive market sentiment drove DATADOG INC - CLASS A'S (NASDAQ:DDOG [https://www.chartmill.com/stock/quote/DDOG/profile]) stock price up by 3.59% to $130.85 during Wednesday's session.\n\n \t\tEL [https://www.chartmill.com/stock/quote/EL/profile]\n\t\t3.24%\n\t\tPositive market sentiment drove ESTEE LAUDER COMPANIES-CL A'S (NYSE:EL [https://www.chartmill.com/stock/quote/EL/profile]) stock price up by 3.24% to $92.73 during Wednesday's session. In the last 3 months the share price increased with 34.18%.\n\n \t\tVLO [https://www.chartmill.com/stock/quote/VLO/profile]\n\t\t2.72%\n\t\tPositive market sentiment drove VALERO ENERGY CORP'S (NYSE:VLO [https://www.chartmill.com/stock/quote/VLO/profile]) stock price up by 2.72% to $150.94 during Wednesday's session.\n\n \t\tMPC [https://www.chartmill.com/stock/quote/MPC/profile]\n\t\t2.66%\n\t\tWith a 2.66% surge, MARATHON PETROLEUM CORP'S (NYSE:MPC [https://www.chartmill.com/stock/quote/MPC/profile]) stock price reached $178.13 during Wednesday's session, signaling positive momentum.\n\n \t\tMGM [https://www.chartmill.com/stock/quote/MGM/profile]\n\t\t2.66%\n\t\tMGM RESORTS INTERNATIONAL'S (NYSE:MGM [https://www.chartmill.com/stock/quote/MGM/profile]) shares rose 2.66% to $39.53 during Wednesday's session. A press release (MGM Resorts International Will Present at the BofA Securities 2025 Gaming and Lodging Conference [https://www.chartmill.com/news/MGM/prnews-2025-8-26-mgm-resorts-international-will-present-at-the-bofa-securities-2025-gaming-and-lodging-conference]) was released yesterday.\n\n \t\tAPA [https://www.chartmill.com/stock/quote/APA/profile]\n\t\t2.62%\n\t\tIn an impressive move, APA CORP'S (NASDAQ:APA [https://www.chartmill.com/stock/quote/APA/profile]) shares recorded a 2.62% increase, closing at $22.7 during Wednesday's session. The stock is trading 30.04% higher than 3 months ago.\n\n \t\tBBY [https://www.chartmill.com/stock/quote/BBY/profile]\n\t\t2.62%\n\t\tPositive market sentiment drove BEST BUY CO INC'S (NYSE:BBY [https://www.chartmill.com/stock/quote/BBY/profile]) stock price up by 2.62% to $75.6 during Wednesday's session. BEST BUY CO INC is releasing earnings today. In the last year the share price dropped with 26.62%.\n\nFor the full top gainers list go to our top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n\nLOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tSJM [https://www.chartmill.com/stock/quote/SJM/profile]\n\t\t-4.44%\n\t\tJM SMUCKER CO/THE'S (NYSE:SJM [https://www.chartmill.com/stock/quote/SJM/profile]) shares fell 4.44% to $105.67 during Wednesday's session. JM SMUCKER CO/THE released earnings Yesterday.\n\n \t\tSBAC [https://www.chartmill.com/stock/quote/SBAC/profile]\n\t\t-3.58%\n\t\tThe market experienced a 3.58% downturn in SBA COMMUNICATIONS CORP'S (NASDAQ:SBAC [https://www.chartmill.com/stock/quote/SBAC/profile]) stock price, closing at $211.01 during Wednesday's session.\n\n \t\tRVTY [https://www.chartmill.com/stock/quote/RVTY/profile]\n\t\t-2.39%\n\t\tInvestors witnessed a 2.39% decrease in REVVITY INC'S (NYSE:RVTY [https://www.chartmill.com/stock/quote/RVTY/profile]) stock price, which closed at $89.05 during Wednesday's session. The stock is trading 25.55% lower than a year ago.\n\n \t\tROK [https://www.chartmill.com/stock/quote/ROK/profile]\n\t\t-2.07%\n\t\tThere was a notable decline in ROCKWELL AUTOMATION INC'S (NYSE:ROK [https://www.chartmill.com/stock/quote/ROK/profile]) shares, as they dropped 2.07% to $348.29 during Wednesday's session. The stock is trading 23.86% higher than 6 months ago.\n\n \t\tPLTR [https://www.chartmill.com/stock/quote/PLTR/profile]\n\t\t-1.75%\n\t\tPALANTIR TECHNOLOGIES INC-A'S (NASDAQ:PLTR [https://www.chartmill.com/stock/quote/PLTR/profile]) stock price faced a 1.75% decline, reaching $158.06 during Wednesday's session. In the last 3 months the stock gained 22.07%.\n\n \t\tKR [https://www.chartmill.com/stock/quote/KR/profile]\n\t\t-1.7%\n\t\tThe market experienced a 1.7% downturn in KROGER CO'S (NYSE:KR [https://www.chartmill.com/stock/quote/KR/profile]) stock price, closing at $67.81 during Wednesday's session. The stock is trading 29.66% higher than a year ago.\n\n \t\tEQT [https://www.chartmill.com/stock/quote/EQT/profile]\n\t\t-1.67%\n\t\tDuring Wednesday's session, EQT CORP'S (NYSE:EQT [https://www.chartmill.com/stock/quote/EQT/profile]) shares took a tumble, falling 1.67% to $51.83. A press release (Sempra Infrastructure and EQT Announce Long-Term LNG Supply Agreement from Port Arthur LNG Phase 2 [https://www.chartmill.com/news/EQT/prnews-2025-8-27-sempra-infrastructure-and-eqt-announce-long-term-lng-supply-agreement-from-port-arthur-lng-phase-2]) was released earlier today.\n\n \t\tMCHP [https://www.chartmill.com/stock/quote/MCHP/profile]\n\t\t-1.61%\n\t\tThe market experienced a 1.61% downturn in MICROCHIP TECHNOLOGY INC'S (NASDAQ:MCHP [https://www.chartmill.com/stock/quote/MCHP/profile]) stock price, closing at $66.53 during Wednesday's session.\n\n \t\tFSLR [https://www.chartmill.com/stock/quote/FSLR/profile]\n\t\t-1.61%\n\t\tDuring Wednesday's session, FIRST SOLAR INC'S (NASDAQ:FSLR [https://www.chartmill.com/stock/quote/FSLR/profile]) shares took a tumble, falling 1.61% to $193.56. In the last 3 months the share price increased with 24.44%.\n\n \t\tNSC [https://www.chartmill.com/stock/quote/NSC/profile]\n\t\t-1.51%\n\t\tNORFOLK SOUTHERN CORP'S (NYSE:NSC [https://www.chartmill.com/stock/quote/NSC/profile]) stock price faced a 1.51% decline, reaching $272.48 during Wednesday's session.\n\nFor the full top loser list go to our top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Estee Lauder Companies Inc",
+          "sector": "Consumer Defensive",
+          "industry": "Household & Personal Products",
+          "employees": 40470,
+          "description": "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The company offers skin care products, including moisturizers, serums, cleansers, toners, eye care, body care, exfoliators, acne care and oil correctors, facial masks, and"
+        },
+        "financial_metrics": {
+          "eps_ttm": -3.15,
+          "profit_margin": -0.0791,
+          "operating_margin": 0.0443,
+          "roe": -0.2469,
+          "roa": 0.034,
+          "revenue_growth_yoy": -0.119,
+          "earnings_growth_yoy": -0.516,
+          "eps_estimate_current_year": 1.4865,
+          "eps_estimate_next_year": 2.2155,
+          "dividend_yield": 0.0186,
+          "dividend_per_share": 1.71,
+          "revenue_ttm": 14325999616,
+          "revenue_per_share": 39.783,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 45.2489,
+          "price_to_sales": 2.3054,
+          "price_to_book": 8.5452,
+          "enterprise_value": 39573054275,
+          "ev_to_revenue": 2.7623,
+          "ev_to_ebitda": 271.0483
+        },
+        "technical_data": {
+          "beta": 1.176,
+          "52_week_high": 101.9345,
+          "52_week_low": 48.1235,
+          "50_day_ma": 87.7518,
+          "200_day_ma": 73.6312,
+          "short_interest": 0.0577,
+          "short_ratio": 3.8
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.4,
+          "forward_dividend_yield": 0.0153,
+          "payout_ratio": 0.9333,
+          "dividend_date": "2025-09-16",
+          "ex_dividend_date": "2025-09-02",
+          "last_split_date": "2012-01-23",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.1111,
+          "target_price": 91.4348,
+          "strong_buy": 2,
+          "buy": 1,
+          "hold": 23,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 234347008,
+          "percent_institutions": 95.604,
+          "percent_insiders": 0.43499999999999994,
+          "shares_float": 233186766
+        },
+        "balance_latest_sheet": {
+          "total_assets": 19892.0,
+          "total_debt": 9439.0,
+          "net_debt": 6518.0,
+          "working_capital": 1634.0,
+          "shareholders_equity": 3865.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.44
+        },
+        "income_latest_statement": {
+          "total_revenue": 3407.0,
+          "gross_profit": 2456.0,
+          "operating_income": 8.0,
+          "net_income": -546.0,
+          "ebitda": -123.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 72.09,
+          "operating_margin": 0.23,
+          "net_margin": -16.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 601.0,
+          "free_cash_flow": 394.0,
+          "capex": 207.0,
+          "net_income": -546.0,
+          "cash_change": 290.0,
+          "dividends_paid": -126.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.231,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 87.21,
+            "high": 87.98,
+            "low": 86.04,
+            "close": 86.04,
+            "volume": 2459300
+          },
+          {
+            "date": "2025-07-22",
+            "open": 86.1,
+            "high": 89.12,
+            "low": 85.83,
+            "close": 89,
+            "volume": 3027500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 90.2,
+            "high": 90.43,
+            "low": 88.83,
+            "close": 89.68,
+            "volume": 3629900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 89.01,
+            "high": 90.5,
+            "low": 86.69,
+            "close": 86.77,
+            "volume": 4803700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 89.71,
+            "high": 90.49,
+            "low": 87.03,
+            "close": 90.4,
+            "volume": 7610800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 90.38,
+            "high": 93.09,
+            "low": 90.26,
+            "close": 92.52,
+            "volume": 4329800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 92.91,
+            "high": 93.66,
+            "low": 90.76,
+            "close": 91.4,
+            "volume": 3738800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 92.73,
+            "high": 94.69,
+            "low": 92.06,
+            "close": 93.66,
+            "volume": 5796200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 93.12,
+            "high": 95.3,
+            "low": 92.4,
+            "close": 93.34,
+            "volume": 3758300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 90.6,
+            "high": 91.23,
+            "low": 88.44,
+            "close": 91.04,
+            "volume": 3145600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 91.71,
+            "high": 93,
+            "low": 91.3,
+            "close": 92.5,
+            "volume": 3006000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 92.61,
+            "high": 93.04,
+            "low": 90.54,
+            "close": 90.92,
+            "volume": 2513400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 91.26,
+            "high": 91.53,
+            "low": 89.91,
+            "close": 90.15,
+            "volume": 2350500
+          },
+          {
+            "date": "2025-08-07",
+            "open": 90.99,
+            "high": 91.41,
+            "low": 89.49,
+            "close": 91.22,
+            "volume": 2470600
+          },
+          {
+            "date": "2025-08-08",
+            "open": 91.06,
+            "high": 92.07,
+            "low": 90.41,
+            "close": 90.69,
+            "volume": 2407600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 90.85,
+            "high": 91.8,
+            "low": 88.96,
+            "close": 89.14,
+            "volume": 2821500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 89.61,
+            "high": 92.28,
+            "low": 89.29,
+            "close": 91.7,
+            "volume": 2711900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 92.2,
+            "high": 95.47,
+            "low": 91.78,
+            "close": 95.26,
+            "volume": 3639700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 92.3,
+            "high": 92.3,
+            "low": 88.17,
+            "close": 89.5,
+            "volume": 4713700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 89.77,
+            "high": 91.81,
+            "low": 89.28,
+            "close": 90.97,
+            "volume": 4144900
+          },
+          {
+            "date": "2025-08-18",
+            "open": 91,
+            "high": 92.25,
+            "low": 88.84,
+            "close": 90.74,
+            "volume": 5075500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 91.58,
+            "high": 91.61,
+            "low": 89.59,
+            "close": 89.87,
+            "volume": 6460900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 86,
+            "high": 89.8,
+            "low": 84.42,
+            "close": 86.57,
+            "volume": 12990300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 85.17,
+            "high": 88.52,
+            "low": 84.51,
+            "close": 87.72,
+            "volume": 6316800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 88.21,
+            "high": 91.94,
+            "low": 87.77,
+            "close": 91.23,
+            "volume": 4051400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 90.53,
+            "high": 91.1,
+            "low": 87.97,
+            "close": 88.68,
+            "volume": 4378500
+          },
+          {
+            "date": "2025-08-26",
+            "open": 88.89,
+            "high": 89.89,
+            "low": 88.62,
+            "close": 89.82,
+            "volume": 3811900
+          },
+          {
+            "date": "2025-08-27",
+            "open": 89.91,
+            "high": 93.25,
+            "low": 89.51,
+            "close": 92.61,
+            "volume": 4059600
+          },
+          {
+            "date": "2025-08-28",
+            "open": 93.1,
+            "high": 93.75,
+            "low": 91.4,
+            "close": 91.77,
+            "volume": 1852700
+          },
+          {
+            "date": "2025-08-29",
+            "open": 90.39,
+            "high": 92.33,
+            "low": 90.39,
+            "close": 91.73,
+            "volume": 2357900
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 0.7579086115992945,
+        "return_63d": 37.629407351837955,
+        "pct_above_sma50": 4.129773418698623,
+        "sma_50": 88.09200000000001,
+        "new_55d_high": "False",
+        "high_55d": 95.47,
+        "rsi": 54.35001679543164,
+        "rsi_in_range": "True",
+        "adx": 16.447425510903354,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.308623133108033,
+        "bb_width": 8.296115245328012,
+        "keltner_width": 13.404268239944484,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 372235126.2175,
+        "adv_shares": 4106765.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.729202787961306,
+        "final_score": 46.729202787961306,
+        "sub_scores": {
+          "trend_momentum": 16.01736988381254,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.71183290414877,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": -1.7248767945146737,
+          "ret_63d": 37.03316402748731,
+          "rsi14": 54.35001679543164,
+          "adx14": 15.737889126918683,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: EL\n• Current Price: $91.73\n• Overall Score: 49.62692307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 87.7518\n• Sma 200: 73.6312\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -1.7248767945146768\n• Momentum 63D: 37.03316402748732\n• Momentum 126D: 27.562230565985267\n• Momentum Acceleration: -38.758040822001995\n• Roc 21D: -1.7248767945146768\n• Trend Strength 20D: 0.017066154942419916\n• Trend Direction: 1\n• Ma Ribbon Score: 82.10347479803963\n• Breakout Strength: 0.0\n• Price Velocity: 0.0012919670237284907\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 17.0\n• Squeeze Momentum: -0.10540644540823187\n• Volatility Compression: 35.0\n• Is Consolidating: False\n• Breakout Score: 67.93296812083936\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.01736988381254\n• Squeeze Breakout: 4.0\n• Options Quality: 15.71183290414877\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 50.0\n• Squeeze: 60.25\n• Options: 43.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: EL\n• Strike Price: $90\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.75\n• Ask: $5.9\n• Last: $5.89\n• Mid: $5.825\n• Spread: 2.542372881355932203389830508%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5836\n• Gamma: 0.0314\n• Theta: -0.0555\n• Vega: 0.1298\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3736\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 56\n• Open Interest: 1422\n• Volume/OI Ratio: 0.03938115330520394\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Estee Lauder Companies Inc\n• Sector: Consumer Defensive\n• Industry: Household & Personal Products\n• EPS (TTM): $-3.15\n• Profit Margin: -7.9%\n• ROE: -24.7%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T04:35:00+00:00: TOM FORD Unveils Black Orchid Reserve Campaign Starring Tilda Swinton...\n• 2025-08-28T13:00:00+00:00: Naples Soap Company Appoints Beauty and Wellness Industry Veteran Carolyn Thielm...\n• 2025-08-28T11:41:23+00:00: August 2025 Stocks That May Be Trading Below Estimated Value...\n• 2025-08-27T20:35:00+00:00: The Estée Lauder Companies to Participate in the Barclays Global Consumer Staple...\n• 2025-08-27T19:05:04+00:00: Stay informed with the top movers within the S&amp;P500 index on Wednesday....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR EL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the EL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:36:51.782016",
+    "estimated_tokens": 2336
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"EL\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 16,\n        \"options_quality\": 12,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 4,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"EL shows mixed technical signals with positive MA ribbon score (82.10) and multiple timeframe squeezes, but faces fundamental challenges with negative earnings and margins. The LEAPS option provides decent liquidity with moderate spreads, though current momentum is declining.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze setup (3 concurrent squeezes) with 67.93 breakout score\",\n        \"Price above both 50 and 200 SMAs (87.75 and 73.63 respectively)\",\n        \"Reasonable options liquidity with 2.54% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-38.76) and 21-day momentum (-1.72)\",\n        \"Poor fundamentals with -7.9% profit margin and -24.7% ROE\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 90 Call for longer-term technical recovery play\",\n        \"entry_timing\": \"Wait for momentum stabilization before entry given current negative acceleration\",\n        \"risk_management\": \"Use 50% options premium as maximum loss threshold, consider rolling down if support breaks\"\n    },\n    \"red_flags\": [\n        \"Significant negative earnings (-$3.15 TTM)\",\n        \"Deteriorating momentum metrics\",\n        \"Earnings report within 30 days\"\n    ],\n    \"notes\": \"While technical setup shows potential with squeeze conditions, fundamental weakness and declining momentum suggest elevated risk. Consider smaller position size or waiting for technical confirmation.\"\n}",
+    "parsed_analysis": {
+      "symbol": "EL",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 16,
+        "options_quality": 12,
+        "iv_value": 6,
+        "squeeze_volatility": 8,
+        "fundamentals": 4,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "EL shows mixed technical signals with positive MA ribbon score (82.10) and multiple timeframe squeezes, but faces fundamental challenges with negative earnings and margins. The LEAPS option provides decent liquidity with moderate spreads, though current momentum is declining.",
+      "opportunities": [
+        "Multiple timeframe squeeze setup (3 concurrent squeezes) with 67.93 breakout score",
+        "Price above both 50 and 200 SMAs (87.75 and 73.63 respectively)",
+        "Reasonable options liquidity with 2.54% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-38.76) and 21-day momentum (-1.72)",
+        "Poor fundamentals with -7.9% profit margin and -24.7% ROE",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 90 Call for longer-term technical recovery play",
+        "entry_timing": "Wait for momentum stabilization before entry given current negative acceleration",
+        "risk_management": "Use 50% options premium as maximum loss threshold, consider rolling down if support breaks"
+      },
+      "red_flags": [
+        "Significant negative earnings (-$3.15 TTM)",
+        "Deteriorating momentum metrics",
+        "Earnings report within 30 days"
+      ],
+      "notes": "While technical setup shows potential with squeeze conditions, fundamental weakness and declining momentum suggest elevated risk. Consider smaller position size or waiting for technical confirmation."
+    },
+    "tokens_used": 2585,
+    "cost": 0.02585,
+    "response_time": 9.496832370758057,
+    "success": true
+  },
+  "cost": 0.02585,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8550,
+    "response_length": 1792
+  }
+}

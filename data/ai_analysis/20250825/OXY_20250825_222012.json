@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "OXY",
+  "timestamp": "2025-08-25T22:20:12.011278",
+  "data_package": {
+    "metadata": {
+      "symbol": "OXY",
+      "package_timestamp": "2025-08-25T22:19:58.872133",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "OXY",
+        "current_price": 46.37,
+        "overall_score": 50.58134637685492,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 44.1884,
+        "sma_200": 45.8654
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.779915007828221,
+        "momentum_63d": 12.37587793654638,
+        "momentum_126d": -6.939430405134378,
+        "momentum_acceleration": -8.595962928718158,
+        "roc_21d": 3.779915007828221,
+        "trend_strength_20d": 0.2495129834554866,
+        "trend_direction": 1,
+        "ma_ribbon_score": 84.73404662335402,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.009777182696358721
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 13.0,
+        "squeeze_momentum": 0.0829338415071452,
+        "volatility_compression": 63.48077666439455,
+        "is_consolidating": "False",
+        "breakout_score": 32.016738236213996,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.154796417058684,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.38343804537519,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 47.0,
+        "momentum": 53.0,
+        "squeeze": 64.52211649965918,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 12,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "OXY",
+        "strike_price": "45",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.84",
+        "ask": "2.89",
+        "last_price": "2.84",
+        "mid_price": "2.865",
+        "spread_percent": "1.730103806228373702422145329"
+      },
+      "greeks": {
+        "delta": 0.6599,
+        "gamma": 0.076,
+        "theta": -0.0199,
+        "vega": 0.0648
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2724
+      },
+      "liquidity_metrics": {
+        "volume": 1139,
+        "open_interest": 6092,
+        "volume_oi_ratio": 0.18696651346027576
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:30.525779",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T13:00:01+00:00",
+            "title": "Occidental Petroleum Corporation (OXY) is Attracting Investor Attention: Here is What You Should Know",
+            "content": "Occidental Petroleum (OXY) is one of the stocks most watched by Zacks.com visitors lately. So, it might be a good idea to review some of the factors that might affect the near-term performance of the stock.\n\nOver the past month, shares of this oil and gas exploration and production company have returned +2.5%, compared to the Zacks S&P 500 composite's +2.7% change. During this period, the Zacks Oil and Gas - Integrated - United States industry, which Occidental falls in, has gained 3.7%. The key question now is: What could be the stock's future direction?\n\nWhile media releases or rumors about a substantial change in a company's business prospects usually make its stock 'trending' and lead to an immediate price change, there are always some fundamental facts that eventually dominate the buy-and-hold decision-making.\n\nRevisions to Earnings Estimates\n\nHere at Zacks, we prioritize appraising the change in the projection of a company's future earnings over anything else. That's because we believe the present value of its future stream of earnings is what determines the fair value for its stock.\n\nOur analysis is essentially based on how sell-side analysts covering the stock are revising their earnings estimates to take the latest business trends into account. When earnings estimates for a company go up, the fair value for its stock goes up as well. And when a stock's fair value is higher than its current market price, investors tend to buy the stock, resulting in its price moving upward. Because of this, empirical studies indicate a strong correlation between trends in earnings estimate revisions and short-term stock price movements.\n\nFor the current quarter, Occidental is expected to post earnings of $0.51 per share, indicating a change of -49% from the year-ago quarter. The Zacks Consensus Estimate has changed -17.9% over the last 30 days.\n\nThe consensus earnings estimate of $2.24 for the current fiscal year indicates a year-over-year change of -35.3%. This estimate has changed -2.2% over the last 30 days.\n\nFor the next fiscal year, the consensus earnings estimate of $2.31 indicates a change of +3.4% from what Occidental is expected to report a year ago. Over the past month, the estimate has changed -1.3%.\n\nHaving a strong externally audited track record, our proprietary stock rating tool, the Zacks Rank, offers a more conclusive picture of a stock's price direction in the near term, since it effectively harnesses the power of earnings estimate revisions. Due to the size of the recent change in the consensus estimate, along with three other factors related to earnings estimates, Occidental is rated Zacks Rank #3 (Hold).\n\nStory Continues\n\nThe chart below shows the evolution of the company's forward 12-month consensus EPS estimate:\n\n12 Month EPS12-month consensus EPS estimate for OXY\n\nRevenue Growth Forecast\n\nWhile earnings growth is arguably the most superior indicator of a company's financial health, nothing happens as such if a business isn't able to grow its revenues. After all, it's nearly impossible for a company to increase its earnings for an extended period without increasing its revenues. So, it's important to know a company's potential revenue growth.\n\nIn the case of Occidental, the consensus sales estimate of $6.64 billion for the current quarter points to a year-over-year change of -7.2%. The $26.65 billion and $26.92 billion estimates for the current and next fiscal years indicate changes of -0.9% and +1%, respectively.\n\nLast Reported Results and Surprise History\n\nOccidental reported revenues of $6.46 billion in the last reported quarter, representing a year-over-year change of -6.1%. EPS of $0.39 for the same period compares with $1.03 a year ago.\n\nCompared to the Zacks Consensus Estimate of $6.48 billion, the reported revenues represent a surprise of -0.34%. The EPS surprise was +39.29%.\n\nThe company beat consensus EPS estimates in each of the trailing four quarters. The company topped consensus revenue estimates times over this period.\n\nValuation\n\nWithout considering a stock's valuation, no investment decision can be efficient. In predicting a stock's future price performance, it's crucial to determine whether its current price correctly reflects the intrinsic value of the underlying business and the company's growth prospects.\n\nWhile comparing the current values of a company's valuation multiples, such as price-to-earnings (P/E), price-to-sales (P/S), and price-to-cash flow (P/CF), with its own historical values helps determine whether its stock is fairly valued, overvalued, or undervalued, comparing the company relative to its peers on these parameters gives a good sense of the reasonability of the stock's price.\n\nAs part of the Zacks Style Scores system, the Zacks Value Style Score (which evaluates both traditional and unconventional valuation metrics) organizes stocks into five groups ranging from A to F (A is better than B; B is better than C; and so on), making it helpful in identifying whether a stock is overvalued, rightly valued, or temporarily undervalued.\n\nOccidental is graded B on this front, indicating that it is trading at a discount to its peers. Click here to see the values of some of the valuation metrics that have driven this grade.\n\nBottom Line\n\nThe facts discussed here and much other information on Zacks.com might help determine whether or not it's worthwhile paying attention to the market buzz about Occidental. However, its Zacks Rank #3 does suggest that it may perform in line with the broader market in the near term.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nOccidental Petroleum Corporation (OXY) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T10:18:20+00:00",
+            "title": "Operational Gains and Planned Divestments Might Change The Case For Investing In Occidental Petroleum (OXY)",
+            "content": "In recent months, Occidental Petroleum advanced its exploration and international operations, strengthened reserves, and continued prioritizing debt reduction through planned non-core asset divestments in 2025. These efforts have contributed to an exceptional net income growth record and are expected to support further profitability improvements as the company increases reinvestment and modestly raises its payout ratio over the next three years. We will explore how Occidental's operational execution and balance sheet improvements may influence its investment outlook going forward.\n\nAI is about to change healthcare. These 27 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10b in market cap - there's still time to get in early.\n\nOccidental Petroleum Investment Narrative Recap\n\nTo be comfortable owning Occidental Petroleum, you need confidence in sustained global oil and gas demand, the company's ability to expand reserves and manage costs, and continuing progress in strengthening its balance sheet. The recent news of a 7.8% stock increase and robust net income growth is impressive, but does not materially alter the short-term reliance on stable oil prices as the main catalyst nor does it minimize the continued risk posed by oil price volatility and leverage.\n\nOf several recent updates, Occidental's further debt reduction and commitment to asset divestitures planned for 2025 are particularly relevant here. These steps increase the company’s financial flexibility and may help address potential risks from fluctuating energy prices and capital market conditions, both of which remain focal points for near-term performance. Despite this progress, investors should be aware that persistent oil price swings could challenge Occidental’s stability if...\n\nRead the full narrative on Occidental Petroleum (it's free!)\n\nOccidental Petroleum is projected to reach $28.8 billion in revenue and $3.6 billion in earnings by 2028. This assumes a 2.0% annual revenue growth rate and an earnings increase of $1.9 billion from current earnings of $1.7 billion.\n\nUncover how Occidental Petroleum's forecasts yield a $50.42 fair value, a 10% upside to its current price.\n\nExploring Other PerspectivesOXY Community Fair Values as at Aug 2025\n\nThirty-one members of the Simply Wall St Community estimate a wide fair value range for Occidental Petroleum from US$31.69 to US$103.00 per share. While opinions vary, ongoing exposure to oil price swings highlights why investors should review several independent outlooks when considering the company's longer-term prospects.\n\nStory Continues\n\nExplore 31 other fair value estimates on Occidental Petroleum - why the stock might be worth 31% less than the current price!\n\nBuild Your Own Occidental Petroleum Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Occidental Petroleum research is our analysis highlighting 2 key rewards and 4 important warning signs that could impact your investment decision. Our free Occidental Petroleum research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Occidental Petroleum's overall financial health at a glance.\n\nSeeking Other Investments?\n\nOur daily scans reveal stocks with breakout potential. Don't miss this chance:\n\nFind companies with promising cash flow potential yet trading below their fair value. Trump's oil boom is here - pipelines are primed to profit. Discover the 22 US stocks riding the wave. The best AI stocks today may lie beyond giants like Nvidia and Microsoft. Find the next big opportunity with these 20 smaller AI-focused companies with strong growth potential through early-stage innovation in machine learning, automation, and data intelligence that could fund your retirement.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include OXY.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T16:59:00+00:00",
+            "title": "OXY Stock Outperforms Industry in Three Months: Time to Buy?",
+            "content": "Occidental Petroleum Corporation’s OXY shares have gained 7.9% in the past three months compared with the Zacks Oil and Gas-Integrated-United States industry’s rally of 6%.\r\n\r\nThe company operates in a very competitive industry, but Occidental’s strong presence in the prolific Permian Basin works to its advantage.\r\n\r\nOccidental has outperformed its sector and Zacks S&P 500 Composite’s return in the past three months. Occidental has outperformed some other operators in this space. In the same period, other operators in the same space, like Cactus WHD and DT Midstream DTM.\n\nPrice Performance (Three months)Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nShould you consider adding OXY stock to your portfolio only based on positive price movements? Let’s delve deeper and find out the factors that can help investors decide whether it is a good entry point to add OXY stock to their portfolio.\n\nMajor Catalysts Supporting Occidental’s Outlook\n\nOccidental boasts one of the strongest domestic asset portfolios in the U.S. energy sector. Its extensive position in the Permian Basin, the most prolific oil-producing region in North America offers a reliable base of high-quality, low-cost output. Complementary assets in the Rockies, Gulf of America, and other regions further enhance production capacity. \r\n\r\nThese domestic holdings provide steady cash flows, ensuring operational resilience and underpinning consistent shareholder returns, even during periods of commodity price volatility. Permian Basin is expected to contribute in the range of 768-784 thousand barrels of oil equivalents per day (“Mboed”) in 2025.\r\n\r\nOccidental Petroleum’s exploration efforts continue to expand its oil and gas reserves, strengthening the foundation for long-term production growth and value creation. With global energy demand remaining resilient due to economic and population expansion, the company’s growing resource base secures sustained output capacity while reinforcing its competitive advantage in the upstream sector. Occidental ended 2024 with a proved reserve of 4.6 billion barrels of oil equivalent (BOE) compared with 3.98 billion BOE at the end of 2023. The increase was primarily due to the addition of new domestic oil, gas and NGL reserves.\r\n\r\nOccidental’s international assets play a pivotal role in driving its growth and resilience. International assets, such as Qatar’s Dolphin gas project, Oman’s Mukhaizna oilfields and the UAE’s Al Hosn Gas, contribute significantly to production and cash flow. Occidental expects its international operation to contribute in the range of 233-MBoed in 2025 to total production.\r\n\r\nA key focus for Occidental is strengthening its balance sheet and lowering capital servicing expenses. In the last 13 months, the company has lowered its debt by $7.5 billion. which lowered its annual interest expenses by $410 million. OXY has decided to divest more non-core assets in 2025 and utilize the proceeds to reduce its outstanding debts.\n\nStory Continues\n\nHeadwinds for Occidental Stock\n\nOccidental’s operating results are influenced by shifts in demand and the volatility of both global and local commodity prices. As of Dec. 31, 2024, the company had no active commodity hedges in place, leaving it fully exposed to market fluctuations. A significant decline in commodity prices from current levels could adversely affect OXY’s financial performance.\n\nOXY Stock’s Earnings Surprise History\n\nDue to the stable performance, the company’s earnings beat estimates in each of the trailing four quarters, the average surprise being 25.72%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCactus surpassed earnings estimates in two out of the last four reported quarters and missed expectations in the other two, resulting in an average surprise of 1.71%.\n\nOccidental’s ROE Lower Than the Industry\n\nReturn on equity (“ROE”) is a key indicator of a company’s financial performance. It reflects how effectively a corporation uses shareholders' equity to generate profits and is widely regarded as a measure of profitability and operational efficiency. Occidental’s ROE is lower than the industry average in the trailing 12 months. ROE of OXY was 13.78% compared with the industry average of 14.57%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nDT Midstream’s trailing 12-month ROE is 8.48%, which is lower than its industry.\n\nOXY’s Shares Are Trading at a Premium\n\nOccidental’s shares are currently expensive on a relative basis, with its current trailing 12-month Enterprise Value/Earnings before Interest Tax Depreciation and Amortization (EV/EBITDA TTM) being 5.35X compared with its industry average of 4.6X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nSumming Up\n\nOccidental’s focus on debt reduction, combined with the strength of its domestic and international operations, is expected to support its overall performance.\r\n\r\nHowever, the company continues to face headwinds from volatile commodity prices and returns that remain below industry averages.\r\n\r\nDespite these challenges, holding this Zacks Rank #3 (Hold) stock remains advisable due to its robust U.S. operations and rising high-quality reserves.\r\n\r\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nOccidental Petroleum Corporation (OXY) : Free Stock Analysis Report\n\nCactus, Inc. (WHD) : Free Stock Analysis Report\n\nDT Midstream, Inc. (DTM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T15:01:24+00:00",
+            "title": "Occidental Petroleum Breaks Above 200-Day Moving Average - Bullish for OXY",
+            "content": "In trading on Thursday, shares of Occidental Petroleum Corp (Symbol: OXY) crossed above their 200 day moving average of $61.96, changing hands as high as $62.45 per share.  Occidental Petroleum Corp shares are currently trading up about 1.5% on the day.  The chart below shows the one year performance of OXY shares, versus its 200 day moving average:\n\nLooking at the chart above, OXY's low point in its 52 week range is $55.12 per share, with $71.185 as the 52 week high point — that compares with a last trade of $62.31. The OXY DMA information above was sourced from TechnicalAnalysisChannel.com\n\nClick here to find out which 9 other energy stocks recently crossed above their 200 day moving average »\n\nAlso see:  STE YTD Return\r\n  Top Ten Hedge Funds Holding GAL\r\n  BHI Options Chain\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T11:00:50+00:00",
+            "title": "Has Occidental Petroleum Corporation (NYSE:OXY) Stock's Recent Performance Got Anything to Do With Its Financial Health?",
+            "content": "Occidental Petroleum's (NYSE:OXY) stock is up by 7.8% over the past three months. As most would know, long-term fundamentals have a strong correlation with market price movements, so we decided to look at the company's key financial indicators today to determine if they have any role to play in the recent price movement. Particularly, we will be paying attention to Occidental Petroleum's  ROE today.\n\nReturn on equity or ROE is an important factor to be considered by a shareholder because it tells them how effectively their capital is being reinvested. Put another way, it reveals the company's success at turning shareholder investments into profits.\n\nAI is about to change healthcare. These 20 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10bn in marketcap - there is still time to get in early.\n\nHow Is ROE Calculated?\n\nROE can be calculated by using the formula:\n\nReturn on Equity = Net Profit (from continuing operations) ÷ Shareholders' Equity\n\nSo, based on the above formula, the ROE for Occidental Petroleum is:\n\n6.7% = US$2.4b ÷ US$36b (Based on the trailing twelve months to June 2025).\n\nThe 'return' is the profit over the last twelve months. So, this means that for every $1 of its shareholder's investments, the company generates a profit of $0.07.\n\nCheck out our latest analysis for Occidental Petroleum\n\nWhy Is ROE Important For Earnings Growth?\n\nThus far, we have learned that ROE measures how efficiently a company is generating its profits. Depending on how much of these profits the company reinvests or \"retains\", and how effectively it does so, we are then able to assess a company’s earnings growth potential. Generally speaking, other things being equal, firms with a high return on equity and profit retention, have a higher growth rate than firms that don’t share these attributes.\n\nA Side By Side comparison of Occidental Petroleum's Earnings Growth And 6.7% ROE\n\nAt first glance, Occidental Petroleum's ROE doesn't look very promising. A quick further study shows that the company's ROE doesn't compare favorably to the industry average of 11% either. Despite this, surprisingly, Occidental Petroleum saw an exceptional 45% net income growth over the past five years. So, there might be other aspects that are positively influencing the company's earnings growth. Such as - high earnings retention or an efficient management in place.\n\nNext, on comparing with the industry net income growth, we found that Occidental Petroleum's growth is quite high when compared to the industry average growth of 32% in the same period, which is great to see.\n\nStory Continues\n\nNYSE:OXY Past Earnings Growth August 21st 2025\n\nThe basis for attaching value to a company is, to a great extent, tied to its earnings growth. It’s important for an investor to know whether the market has priced in the company's expected earnings growth (or decline). This then helps them determine if the stock is placed for a bright or bleak future. Is Occidental Petroleum fairly valued compared to other companies? These 3 valuation measures might help you decide.\n\nIs Occidental Petroleum Using Its Retained Earnings Effectively?\n\nOccidental Petroleum's ' three-year median payout ratio is on the lower side at 17% implying that it is retaining a higher percentage (83%) of its profits. So it seems like the management is reinvesting profits heavily to grow its business and this reflects in its earnings growth number.\n\nMoreover, Occidental Petroleum is determined to keep sharing its profits with shareholders which we infer from its long history of paying a dividend for at least ten years. Upon studying the latest analysts' consensus data, we found that the company's future payout ratio is expected to rise to 27% over the next three years. Regardless, the future ROE for Occidental Petroleum is speculated to rise to 11% despite the anticipated increase in the payout ratio. There could probably be other factors that could be driving the future growth in the ROE.\n\nSummary\n\nOverall, we feel that Occidental Petroleum certainly does have some positive factors to consider. With a high rate of reinvestment, albeit at a low ROE, the company has managed to see a considerable growth in its earnings. With that said, the latest industry analyst forecasts reveal that the company's earnings growth is expected to slow down. To know more about the latest analysts predictions for the company, check out this visualization of analyst forecasts for the company.\n\nHave feedback on this article? Concerned about the content?Get in touch with us directly. Alternatively, email editorial-team (at) simplywallst.com.\r\n\r\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Occidental Petroleum Corporation",
+          "sector": "Energy",
+          "industry": "Oil & Gas E&P",
+          "employees": 13323,
+          "description": "Occidental Petroleum Corporation, together with its subsidiaries, engages in the acquisition, exploration, and development of oil and gas properties in the United States and internationally. It operates through three segments: Oil and Gas, Chemical, and Midstream and Marketing. The Oil and Gas segme"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.7,
+          "profit_margin": 0.09,
+          "operating_margin": 0.1487,
+          "roe": 0.0711,
+          "roa": 0.0399,
+          "revenue_growth_yoy": -0.059,
+          "earnings_growth_yoy": -0.748,
+          "eps_estimate_current_year": 2.2987,
+          "eps_estimate_next_year": 2.7725,
+          "dividend_yield": 0.0206,
+          "dividend_per_share": 0.92,
+          "revenue_ttm": 27150000128,
+          "revenue_per_share": 28.611,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 26.9588,
+          "forward_pe": 18.4162,
+          "price_to_sales": 1.6618,
+          "price_to_book": 1.6445,
+          "enterprise_value": 75251873375,
+          "ev_to_revenue": 2.7717,
+          "ev_to_ebitda": 6.0279
+        },
+        "technical_data": {
+          "beta": 0.914,
+          "52_week_high": 56.4634,
+          "52_week_low": 34.587,
+          "50_day_ma": 44.1884,
+          "200_day_ma": 45.8654,
+          "short_interest": 0.054,
+          "short_ratio": 3.34
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.96,
+          "forward_dividend_yield": 0.0209,
+          "payout_ratio": 0.3072,
+          "dividend_date": "2025-10-15",
+          "ex_dividend_date": "2025-09-10",
+          "last_split_date": "2016-02-25",
+          "last_split_factor": "10000:9983"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.3333,
+          "target_price": 50.6667,
+          "strong_buy": 4,
+          "buy": 4,
+          "hold": 17,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 984440000,
+          "percent_institutions": 50.413,
+          "percent_insiders": 27.217999999999996,
+          "shares_float": 980846537
+        },
+        "balance_latest_sheet": {
+          "total_assets": 84360.0,
+          "total_debt": 24174.0,
+          "net_debt": 21832.0,
+          "working_capital": 413.0,
+          "shareholders_equity": 35722.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.68
+        },
+        "income_latest_statement": {
+          "total_revenue": 6317.0,
+          "gross_profit": 1907.0,
+          "operating_income": 857.0,
+          "net_income": 431.0,
+          "ebitda": 2950.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 30.19,
+          "operating_margin": 13.57,
+          "net_margin": 6.82
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2960.0,
+          "free_cash_flow": 962.0,
+          "capex": 1998.0,
+          "net_income": 468.0,
+          "cash_change": -282.0,
+          "dividends_paid": 398.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.5035,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 44.94,
+            "high": 45.14,
+            "low": 42.48,
+            "close": 42.69,
+            "volume": 29967100
+          },
+          {
+            "date": "2025-07-16",
+            "open": 42.9,
+            "high": 43.06,
+            "low": 42.05,
+            "close": 42.63,
+            "volume": 13669000
+          },
+          {
+            "date": "2025-07-17",
+            "open": 42.58,
+            "high": 43.62,
+            "low": 42.36,
+            "close": 43.55,
+            "volume": 11308200
+          },
+          {
+            "date": "2025-07-18",
+            "open": 44.03,
+            "high": 44.55,
+            "low": 43.26,
+            "close": 43.62,
+            "volume": 11723900
+          },
+          {
+            "date": "2025-07-21",
+            "open": 43.75,
+            "high": 43.9,
+            "low": 42.96,
+            "close": 43,
+            "volume": 7429400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 43.15,
+            "high": 43.83,
+            "low": 43.04,
+            "close": 43.56,
+            "volume": 7747700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 43.78,
+            "high": 44.48,
+            "low": 43.54,
+            "close": 44.44,
+            "volume": 7440800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 44.33,
+            "high": 44.88,
+            "low": 44.09,
+            "close": 44.63,
+            "volume": 7445100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 44.67,
+            "high": 44.99,
+            "low": 44.29,
+            "close": 44.71,
+            "volume": 5640800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 45.1,
+            "high": 45.61,
+            "low": 45.03,
+            "close": 45.55,
+            "volume": 7675600
+          },
+          {
+            "date": "2025-07-29",
+            "open": 45.42,
+            "high": 45.64,
+            "low": 44.62,
+            "close": 45.46,
+            "volume": 12012500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 45.12,
+            "high": 45.23,
+            "low": 44.04,
+            "close": 44.41,
+            "volume": 7880400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 43.92,
+            "high": 44.8,
+            "low": 43.84,
+            "close": 43.94,
+            "volume": 8419300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 43.59,
+            "high": 43.73,
+            "low": 42.53,
+            "close": 43.41,
+            "volume": 14411600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 42.84,
+            "high": 43.49,
+            "low": 42.63,
+            "close": 42.86,
+            "volume": 13041700
+          },
+          {
+            "date": "2025-08-05",
+            "open": 42.99,
+            "high": 43.13,
+            "low": 42.45,
+            "close": 43.08,
+            "volume": 7979600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 43.31,
+            "high": 43.83,
+            "low": 42.32,
+            "close": 42.54,
+            "volume": 14901400
+          },
+          {
+            "date": "2025-08-07",
+            "open": 43.9,
+            "high": 45.13,
+            "low": 43.52,
+            "close": 43.59,
+            "volume": 19232400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 43.71,
+            "high": 44.86,
+            "low": 43.46,
+            "close": 44.32,
+            "volume": 13395700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 44.35,
+            "high": 44.45,
+            "low": 43.62,
+            "close": 43.71,
+            "volume": 8904100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 43.87,
+            "high": 44.74,
+            "low": 43.63,
+            "close": 44.15,
+            "volume": 8256700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 44.04,
+            "high": 44.79,
+            "low": 43.88,
+            "close": 44.75,
+            "volume": 8117400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 44.62,
+            "high": 44.84,
+            "low": 43.98,
+            "close": 44.77,
+            "volume": 6943700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 44.69,
+            "high": 45.07,
+            "low": 44.34,
+            "close": 44.61,
+            "volume": 8764800
+          },
+          {
+            "date": "2025-08-18",
+            "open": 43.98,
+            "high": 44.62,
+            "low": 43.67,
+            "close": 44.21,
+            "volume": 8605500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 44.05,
+            "high": 44.66,
+            "low": 43.71,
+            "close": 43.96,
+            "volume": 7332500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 43.95,
+            "high": 44.42,
+            "low": 43.62,
+            "close": 44.27,
+            "volume": 8073900
+          },
+          {
+            "date": "2025-08-21",
+            "open": 44.13,
+            "high": 44.91,
+            "low": 43.81,
+            "close": 44.56,
+            "volume": 6643800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 44.82,
+            "high": 46.02,
+            "low": 44.76,
+            "close": 45.83,
+            "volume": 11271000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 45.73,
+            "high": 46.485,
+            "low": 45.54,
+            "close": 46.4,
+            "volume": 6699783
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.866081229418225,
+        "return_63d": 11.48486304661221,
+        "pct_above_sma50": 4.859207800783338,
+        "sma_50": 44.221199999999996,
+        "new_55d_high": "False",
+        "high_55d": 47.33,
+        "rsi": 72.9281767955801,
+        "rsi_in_range": "False",
+        "adx": 19.77536823187069,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.4240301724137923,
+        "bb_width": 8.60442323071247,
+        "keltner_width": 10.172423214107377,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 444378842.57972497,
+        "adv_shares": 10044389.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.53823446243388,
+        "final_score": 49.53823446243388,
+        "sub_scores": {
+          "trend_momentum": 15.154796417058684,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.38343804537519,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.779915007828216,
+          "ret_63d": 12.375877936546376,
+          "rsi14": 72.9281767955801,
+          "adx14": 17.87646344464495,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: OXY\n• Current Price: $46.37\n• Overall Score: 50.58134637685492\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 44.1884\n• Sma 200: 45.8654\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.779915007828221\n• Momentum 63D: 12.37587793654638\n• Momentum 126D: -6.939430405134378\n• Momentum Acceleration: -8.595962928718158\n• Roc 21D: 3.779915007828221\n• Trend Strength 20D: 0.2495129834554866\n• Trend Direction: 1\n• Ma Ribbon Score: 84.73404662335402\n• Breakout Strength: 50.0\n• Price Velocity: 0.009777182696358721\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 13.0\n• Squeeze Momentum: 0.0829338415071452\n• Volatility Compression: 63.48077666439455\n• Is Consolidating: False\n• Breakout Score: 32.016738236213996\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.154796417058684\n• Squeeze Breakout: 4.0\n• Options Quality: 19.38343804537519\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 47.0\n• Momentum: 53.0\n• Squeeze: 64.52211649965918\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: OXY\n• Strike Price: $45\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.84\n• Ask: $2.89\n• Last: $2.84\n• Mid: $2.865\n• Spread: 1.730103806228373702422145329%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6599\n• Gamma: 0.076\n• Theta: -0.0199\n• Vega: 0.0648\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2724\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 1139\n• Open Interest: 6092\n• Volume/OI Ratio: 0.18696651346027576\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Occidental Petroleum Corporation\n• Sector: Energy\n• Industry: Oil & Gas E&P\n• EPS (TTM): $1.7\n• Profit Margin: 9.0%\n• ROE: 7.1%\n• P/E Ratio: 27.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T13:00:01+00:00: Occidental Petroleum Corporation (OXY) is Attracting Investor Attention: Here is...\n• 2025-08-25T10:18:20+00:00: Operational Gains and Planned Divestments Might Change The Case For Investing In...\n• 2025-08-22T16:59:00+00:00: OXY Stock Outperforms Industry in Three Months: Time to Buy?...\n• 2025-08-22T15:01:24+00:00: Occidental Petroleum Breaks Above 200-Day Moving Average - Bullish for OXY...\n• 2025-08-21T11:00:50+00:00: Has Occidental Petroleum Corporation (NYSE:OXY) Stock's Recent Performance Got A...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR OXY\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the OXY opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:20:12.010937",
+    "estimated_tokens": 2342
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"OXY\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 17,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"OXY shows positive technical momentum with price above both SMAs and strong MA ribbon score (84.73), while experiencing a volatility squeeze with 3 timeframe compression. However, decelerating momentum (-8.59) and upcoming earnings create near-term uncertainty.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (44.18) and 200 SMA (45.86)\",\n        \"Multi-timeframe squeeze (3 counts) with 63.48% compression\",\n        \"Options have tight spreads (1.73%) with healthy OI (6092)\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-8.59)\",\n        \"Earnings approaching on 9/30/25\",\n        \"Below average fundamentals (9% margins, 7.1% ROE)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $45 strike as lower leg given 0.66 delta and reasonable IV of 27.24%\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively due to upcoming earnings and use spread structure to reduce cost/risk\"\n    },\n    \"red_flags\": [\n        \"Earnings in 36 days could increase volatility and risk\",\n        \"Momentum deceleration suggests possible trend weakening\"\n    ],\n    \"notes\": \"While technical setup is promising, timing is complicated by upcoming earnings. Consider staged entry or waiting for earnings catalyst to pass.\"\n}",
+    "parsed_analysis": {
+      "symbol": "OXY",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 17,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "OXY shows positive technical momentum with price above both SMAs and strong MA ribbon score (84.73), while experiencing a volatility squeeze with 3 timeframe compression. However, decelerating momentum (-8.59) and upcoming earnings create near-term uncertainty.",
+      "opportunities": [
+        "Price trending above both 50 SMA (44.18) and 200 SMA (45.86)",
+        "Multi-timeframe squeeze (3 counts) with 63.48% compression",
+        "Options have tight spreads (1.73%) with healthy OI (6092)"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-8.59)",
+        "Earnings approaching on 9/30/25",
+        "Below average fundamentals (9% margins, 7.1% ROE)"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $45 strike as lower leg given 0.66 delta and reasonable IV of 27.24%",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively due to upcoming earnings and use spread structure to reduce cost/risk"
+      },
+      "red_flags": [
+        "Earnings in 36 days could increase volatility and risk",
+        "Momentum deceleration suggests possible trend weakening"
+      ],
+      "notes": "While technical setup is promising, timing is complicated by upcoming earnings. Consider staged entry or waiting for earnings catalyst to pass."
+    },
+    "tokens_used": 2556,
+    "cost": 0.02556,
+    "response_time": 13.136842727661133,
+    "success": true
+  },
+  "cost": 0.02556,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8575,
+    "response_length": 1653
+  }
+}

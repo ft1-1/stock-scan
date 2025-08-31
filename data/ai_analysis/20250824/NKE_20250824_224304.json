@@ -1,0 +1,641 @@
+{
+  "success": true,
+  "symbol": "NKE",
+  "timestamp": "2025-08-24T22:43:04.476520",
+  "data_package": {
+    "metadata": {
+      "symbol": "NKE",
+      "package_timestamp": "2025-08-24T22:42:55.498961",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NKE",
+        "current_price": 78.38,
+        "overall_score": 52.94792358551711,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 72.2332,
+        "sma_200": 70.378
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.9246884115619114,
+        "momentum_63d": 27.82126549249836,
+        "momentum_126d": 2.457516339869275,
+        "momentum_acceleration": -23.896577080936446,
+        "roc_21d": 3.9246884115619114,
+        "trend_strength_20d": 0.015450302500457626,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0037277152853451233
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 7.0,
+        "squeeze_momentum": -0.06516139288212797,
+        "volatility_compression": 60.700016953134416,
+        "is_consolidating": "False",
+        "breakout_score": 26.297991307463803,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.54602852995727,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.18411221122114,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 59.10500254297016,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NKE",
+        "strike_price": "77.5",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5",
+        "ask": "5.1",
+        "last_price": "5.2",
+        "mid_price": "5.05",
+        "spread_percent": "1.960784313725490196078431373"
+      },
+      "greeks": {
+        "delta": 0.5717,
+        "gamma": 0.035,
+        "theta": -0.0438,
+        "vega": 0.1206
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3646
+      },
+      "liquidity_metrics": {
+        "volume": 140,
+        "open_interest": 3432,
+        "volume_oi_ratio": 0.04079254079254079
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-24T22:38:10.083455",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T21:45:02+00:00",
+            "title": "Nike (NKE) Exceeds Market Returns: Some Facts to Consider",
+            "content": "In the latest trading session, Nike (NKE) closed at $95, marking a +1.72% move from the previous day. The stock's performance was ahead of the S&P 500's daily gain of 0.77%. On the other hand, the Dow registered a gain of 0.49%, and the technology-centric Nasdaq increased by 0.95%.\n\nThe athletic apparel maker's shares have seen an increase of 1.31% over the last month, surpassing the Consumer Discretionary sector's loss of 1.38% and falling behind the S&P 500's gain of 3.71%.\n\nThe investment community will be paying close attention to the earnings performance of Nike in its upcoming release. The company is slated to reveal its earnings on June 27, 2024. On that day, Nike is projected to report earnings of $0.86 per share, which would represent year-over-year growth of 30.3%. Simultaneously, our latest consensus estimate expects the revenue to be $12.91 billion, showing a 0.69% escalation compared to the year-ago quarter.\n\nInvestors should also pay attention to any latest changes in analyst estimates for Nike. These revisions typically reflect the latest short-term business trends, which can change frequently. Therefore, positive revisions in estimates convey analysts' confidence in the company's business performance and profit potential.\n\nBased on our research, we believe these estimate revisions are directly related to near-team stock moves. To benefit from this, we have developed the Zacks Rank, a proprietary model which takes these estimate changes into account and provides an actionable rating system.\n\nThe Zacks Rank system, which varies between #1 (Strong Buy) and #5 (Strong Sell), carries an impressive track record of exceeding expectations, confirmed by external audits, with stocks at #1 delivering an average annual return of +25% since 1988. Over the past month, the Zacks Consensus EPS estimate has shifted 0.24% upward. As of now, Nike holds a Zacks Rank of #3 (Hold).\n\nFrom a valuation perspective, Nike is currently exchanging hands at a Forward P/E ratio of 23.59. Its industry sports an average Forward P/E of 16.45, so one might conclude that Nike is trading at a premium comparatively.\n\nIt's also important to note that NKE currently trades at a PEG ratio of 1.74. The PEG ratio is similar to the widely-used P/E ratio, but this metric also takes the company's expected earnings growth rate into account. By the end of yesterday's trading, the Shoes and Retail Apparel industry had an average PEG ratio of 1.78.\n\nThe Shoes and Retail Apparel industry is part of the Consumer Discretionary sector. At present, this industry carries a Zacks Industry Rank of 50, placing it within the top 20% of over 250 industries.\n\nThe Zacks Industry Rank gauges the strength of our industry groups by measuring the average Zacks Rank of the individual stocks within the groups. Our research shows that the top 50% rated industries outperform the bottom half by a factor of 2 to 1.\n\nMake sure to utilize Zacks.com to follow all of these stock-moving metrics, and more, in the coming trading sessions.\n\nZacks’ Top 3 Hydrogen Stocks\n\nDemand for clean hydrogen energy is projected to reach $500 billion by 2030 and grow 5-FOLD by 2050. Want in? Zacks has targeted 3 diversified titans that could lead the way to becoming hydrogen powerhouses.\n\nOne has crushed the market over the past 25 years – up +2,400% to +380%.\n\nAnother already has capital commitments of $15 billion for low carbon hydrogen products through 2027 alone.\n\nOur third pick soared to 52-week highs in Q4 2023 and has raised its dividend every year for over a decade.See Stocks Now >>\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNIKE, Inc. (NKE) : Free Stock Analysis Report\n\nTo read this article on Zacks.com click here.\n\nZacks Investment Research</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T21:45:02+00:00",
+            "title": "Nike (NKE) Exceeds Market Returns: Some Facts to Consider",
+            "content": "In the latest trading session, Nike (NKE) closed at $78.38, marking a +2.89% move from the previous day. The stock outpaced the S&P 500's daily gain of 1.52%. Elsewhere, the Dow gained 1.89%, while the tech-heavy Nasdaq added 1.88%.\n\nShares of the athletic apparel maker witnessed a gain of 1.01% over the previous month, beating the performance of the Consumer Discretionary sector with its loss of 1.03%, and underperforming the S&P 500's gain of 1.1%.\n\nThe investment community will be paying close attention to the earnings performance of Nike in its upcoming release. The company is forecasted to report an EPS of $0.27, showcasing a 61.43% downward movement from the corresponding quarter of the prior year. Alongside, our most recent consensus estimate is anticipating revenue of $10.98 billion, indicating a 5.23% downward movement from the same quarter last year.\n\nIn terms of the entire fiscal year, the Zacks Consensus Estimates predict earnings of $1.69 per share and a revenue of $45.72 billion, indicating changes of -21.76% and -1.26%, respectively, from the former year.\n\nInvestors might also notice recent changes to analyst estimates for Nike. Recent revisions tend to reflect the latest near-term business trends. As a result, upbeat changes in estimates indicate analysts' favorable outlook on the business health and profitability.\n\nBased on our research, we believe these estimate revisions are directly related to near-term stock moves. To take advantage of this, we've established the Zacks Rank, an exclusive model that considers these estimated changes and delivers an operational rating system.\n\nThe Zacks Rank system, running from #1 (Strong Buy) to #5 (Strong Sell), holds an admirable track record of superior performance, independently audited, with #1 stocks contributing an average annual return of +25% since 1988. Within the past 30 days, our consensus EPS projection has moved 1.07% higher. Right now, Nike possesses a Zacks Rank of #4 (Sell).\n\nDigging into valuation, Nike currently has a Forward P/E ratio of 45.21. This denotes a premium relative to the industry average Forward P/E of 17.47.\n\nAlso, we should mention that NKE has a PEG ratio of 2.77. The PEG ratio is akin to the commonly utilized P/E ratio, but this measure also incorporates the company's anticipated earnings growth rate. The Shoes and Retail Apparel industry currently had an average PEG ratio of 1.13 as of yesterday's close.\n\nThe Shoes and Retail Apparel industry is part of the Consumer Discretionary sector. This group has a Zacks Industry Rank of 80, putting it in the top 33% of all 250+ industries.\n\nStory Continues\n\nThe Zacks Industry Rank gauges the strength of our industry groups by measuring the average Zacks Rank of the individual stocks within the groups. Our research shows that the top 50% rated industries outperform the bottom half by a factor of 2 to 1.\n\nEnsure to harness Zacks.com to stay updated with all these stock-shifting metrics, among others, in the next trading sessions.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNIKE, Inc. (NKE) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T19:16:53+00:00",
+            "title": "Ailing US nuclear workers in limbo after Trump pauses medical compensation claims",
+            "content": "By Valerie Volcovici\n\nHARRIMAN, Tennessee (Reuters) -Steve Hicks worked for 34 years at the Y-12 National Security Complex - which enriched the uranium for the atomic bomb that was dropped on Hiroshima in 1945 and to this day remains a key site in the United States nuclear weapons complex.\n\nHe is spending his retirement managing the 30 daily medications he takes to treat the effects of two cancers and nerve damage linked to radiation exposure and petitioning the U.S. Department of Health and Human Services to pay the medical bills for thousands of fellow Y-12 employees stricken with cancers associated with their employment.\n\n\"I made a good living there but I am not happy that I am this sick. And there are people who worked there that are sicker than me,\" Hicks, 70, said in an interview with Reuters.\n\nAssembling the petitions is a complicated process. It can take years to gather the thousands of pages of evidence required to document the causes of 22 types of cancer the U.S. government recognizes as associated with radiation exposure at its nuclear workplaces.\n\nNow Hicks’ effort to win benefits and compensation for him and thousands of nuclear workers is in limbo after the HHS suspended indefinitely the expert medical bodies charged with reviewing those claims, according to interviews with 18 former workers, board members and administration officials.\n\nAnd some of Hicks’ petitioners do not have time to wait.\n\nWhile Hicks did get medical coverage earlier for kidney cancer, he is now seeking assistance for treating skin cancer.\n\nHicks - who voted for Donald Trump - said he has sent dozens of letters to the president, Tennessee’s senators and lawmakers in other states with major weapons facilities. \"I’ve contacted politicians and the White House and haven’t heard anything back.\"\n\nThe suspension of the board and its impact on the claims processes has not been previously reported.\n\nThe CDC, an agency of HHS, confirmed the indefinite suspension, but did not provide further details about the future of the board.\n\n\"Meetings of the Advisory Board on Radiation and Worker Health are currently paused due to outstanding administrative requirements, which the program is actively working to resolve,\" a CDC spokesperson told Reuters in a statement.\n\nThe White House declined to comment on the status of the board.\n\nThe Energy Department said in a statement that it is learning from past mistakes as it focuses on modernizing the nuclear arsenal. \"The Department of Energy and NNSA (National Nuclear Security Administration) are continuing to learn from past experiences and are using that learning to improve our systems and practices to provide the safest possible work environment,\" the statement said.\n\nTHOUSANDS LEFT IN LIMBO\n\nOver 700,000 people have been employed in the U.S. nuclear weapons complex since the heyday of the Cold War - mining, transporting and processing radioactive materials for military and civilian nuclear programs at 380 sites across the country.\n\nThe Energy Employees Occupational Illness Compensation Program Act, passed in 2000, entitles eligible workers at U.S. Department of Energy and Defense nuclear sites to a $150,000 lump-sum payment and medical insurance. The compensation is available to workers diagnosed with cancers associated with high exposure to radiation, or those who can demonstrate such exposure during their employment.\n\nSince that time, U.S. presidents have appointed medical specialists, scientists and former workers to a review board to provide unbiased analysis of the compensation petitions.\n\nAs of last year, the U.S. had disbursed over $25 billion in compensation and medical benefits to 141,000 atomic weapons workers through the claims process, according to the Department of Energy.\n\nThe Advisory Board on Radiation and Workers’ Health was in the process of reviewing eight more petitions from former workers at nuclear weapons manufacturing and uranium enrichment sites when the HHS on January 27 suspended its activities indefinitely as part of President Donald Trump’s efforts to streamline the federal government.\n\nAnd unless Trump reverses course and renews the presidential executive order constituting the review board, it could be wound down permanently as early as September, according to board members interviewed by Reuters.\n\nWorker advocates told Reuters they had been planning to file three additional petitions this year - including the one assembled by Hicks. Each of these petitions represent claims from thousands of former nuclear workers.\n\nThree of the board’s 10 members told Reuters they have not met since last December and have received no information about whether or when it would reconvene.\n\n\"The board’s suspension effectively stops the entire compensation process for nuclear workers, leaving many without the medical coverage and recognition they desperately need,\" said Brad Clawson, who worked as a spent nuclear fuel operator at the Idaho National Lab.\n\n\"Thousands and thousands of people still haven’t had their day to prove that they were injured by this.\"\n\nHe said he received a phone call from a CDC employee in July telling him his membership has not been renewed but was given no further detail.\n\nAnother board member, Arthur Frank, an environmental and occupational health professor at Drexel University, told Reuters he has had no contact with the CDC about his board work and continues to send in time sheets every two weeks.\n\nRISKY BUSINESS\n\nDenise Degarmo, a retired political science professor, became involved in trying to get compensation for nuclear workers and their survivors after watching her father’s painful death from an aggressive radiological cancer.\n\nShe said he had been a design engineer for the Intercontinental Ballistic Missile System and the  Nike  (NYSE:NKE) Missile system.\n\n\"In the last six weeks of his life, we couldn’t even touch him, his bones would shatter,\" she told Reuters from her home north of Orlando, Florida. Her home office is filled with Cold War-era atomic memorabilia and thousands of documents she has dug up to support her petitions.\n\nShe says she has three petitions stalled in the queue, representing as many as 2,000 former workers and heirs, from plants including the Pinellas facility near St. Petersburg, that produced atomic bombs from 1957 to 1990.\n\n\"They all took loyalty oaths. They really promised the companies they would not tell anybody about what they were doing or what they are working with, not even their families,\" she said. \"Although they’ve never been recognized as contributing in a positive way to the war, they’re kind of our unsung heroes.\"\n\nLike Degarmo, Hicks was inspired by his father, James Lee Hicks, who worked as a Y-12 machinist until he retired in 1994. A year later, his father was diagnosed with myeloid Leukemia - the result of his exposure to enriched uranium, his doctor said. He died of the disease at age 74 in 2008, according to death records reviewed by Reuters.\n\nBefore tighter safety protocols were introduced in 2000, Hicks said he would routinely hold enriched uranium against his chest and bare arms when loading it into machines, and clean up parts of the facility without submitting samples to the lab for safety tests, according to correspondence with lab officials reviewed by Reuters.\n\nHicks pointed to the scar on his arm from the carcinoma his doctor said was undoubtedly the result of exposure to enriched uranium.\n\n\"I knew there was a possible health effect,\" he said, but he wanted to help keep the US safe and Y-12 paid well.  \"I thought I was going to be the one to get out safe but I wasn’t.\" </p>",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T17:18:41+00:00",
+            "title": "Noteworthy Friday Option Activity: ABNB, DUK, NKE",
+            "content": "Looking at options trading activity among components of the S&P 500 index, there is noteworthy activity today in Airbnb Inc (Symbol: ABNB), where a total volume of 25,648 contracts has been traded thus far today, a contract volume which is representative of approximately 2.6 million underlying shares (given that every 1 contract represents 100 underlying shares).  That number works out to 45.5% of ABNB's average daily trading volume over the past month, of 5.6 million shares.  Especially high volume was seen for the $135 strike call option expiring August 29, 2025, with 3,333 contracts trading so far today, representing approximately 333,300 underlying shares of ABNB.  Below is a chart showing ABNB's trailing twelve month trading history, with the $135 strike highlighted in orange:\n\nDuke Energy Corp (Symbol: DUK) options are showing a volume of 15,632 contracts thus far today.  That number of contracts represents approximately 1.6 million underlying shares, working out to a sizeable 44.7% of DUK's average daily trading volume over the past month, of 3.5 million shares. Particularly high volume was seen for the $135 strike call option expiring September 19, 2025, with 14,107 contracts trading so far today, representing approximately 1.4 million underlying shares of DUK.  Below is a chart showing DUK's trailing twelve month trading history, with the $135 strike highlighted in orange:\n\nAnd Nike (Symbol: NKE) options are showing a volume of 42,540 contracts thus far today.  That number of contracts represents approximately 4.3 million underlying shares, working out to a sizeable 42.9% of NKE's average daily trading volume over the past month, of 9.9 million shares. Especially high volume was seen for the $79 strike call option expiring August 22, 2025, with 2,712 contracts trading so far today, representing approximately 271,200 underlying shares of NKE.  Below is a chart showing NKE's trailing twelve month trading history, with the $79 strike highlighted in orange:\n\nFor the various different available expirations for ABNB options, DUK options,  or NKE options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  Andreas Halvorsen Stock Picks\r\n  MLM Average Annual Return\r\n  BOOT Stock Predictions\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T16:03:00+00:00",
+            "title": "Is lululemon's Product Innovation Enough to Defend Market Share?",
+            "content": "lululemon athletica inc.’s LULU growth story has long been tied to its ability to consistently deliver innovative products that blend performance and lifestyle appeal. In first-quarter fiscal 2025, management emphasized that product newness remains central to the company’s strategy, with recent launches like Daydrift trousers, BeCalm and Glow Up leggings resonating strongly with consumers. The extension of its iconic Align franchise through the new No Line style also saw strong sell-throughs, reinforcing lululemon’s ability to refresh core items while simultaneously introducing new categories. This dual approach, innovating within existing franchises while creating new ones, positions the brand to defend its share in the premium activewear market.\r\n\r\nBeyond design, lululemon’s product innovation extends to its expansion across five key activities: yoga, running, training, golf and tennis. Recent product drops, such as Fast & Free running shorts for men and performance-driven ultramarathon apparel for women, showcase how the brand continues to build credibility in high-performance sports while appealing to lifestyle wearers. Importantly, consumer response has been balanced across both lifestyle and performance categories, a sign that the company is successfully broadening its relevance beyond yoga while staying authentic to its technical roots.\r\n\r\nHowever, innovation alone may not fully offset external pressures. In the United States, where traffic remains soft and consumers are cautious, comps rose only 1% despite strong product sell-outs. This suggests that while lululemon’s newness is resonating, macro headwinds and heightened promotions across competitors pose challenges. If the company can sustain its product pipeline while deepening consumer engagement through campaigns like “Summer of Align,” it stands well-positioned to defend, and potentially grow, its market share in a competitive and uncertain retail landscape.\n\nLULU’s Rivals: NIKE & Under Armour Streamline Inventories\n\nIn the competitive athletic apparel and footwear market, NIKE Inc. NKE and Under Armour UAA are both streamlining inventories, though from different starting points and with distinct priorities.\r\n\r\nNIKE is navigating a period of transition as demand for some of its iconic franchises, like Air Force 1, Dunk and AJ1, softens. To defend its dominance, the company is focusing on new product innovation, scaling performance-driven categories, and leveraging its powerful digital ecosystem to engage consumers directly. NIKE is also refining its wholesale strategy to balance direct-to-consumer growth with key retail partnerships, aiming to stabilize U.S. sales while driving stronger momentum internationally.\r\n\r\nUnder Armour is repositioning itself as a performance-focused brand, emphasizing innovation in training, running and team sports apparel while scaling footwear selectively. It is working to strengthen brand relevance with athletes through improved product design and technical functionality, while streamlining operations to enhance profitability. However, UAA faces headwinds from weaker consumer demand in North America and intense competition from larger rivals. Management is betting on disciplined execution, targeted international expansion and a return to performance-first marketing to reignite growth, though the brand’s turnaround remains a work in progress.\n\nStory Continues\n\nThe Zacks Rundown for LULU\n\nlululemon’s shares have plunged 48.1% year to date compared with the industry’s decline of 28.4%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, LULU trades at a forward price-to-earnings ratio of 13.20X, higher than the industry’s 10.99X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for lululemon’s fiscal 2025 earnings implies a year-over-year decline of 1.9%, whereas the consensus mark for fiscal 2026 suggests growth of 7.3%. Earnings estimates for fiscal 2025 and 2026 have moved downwards in the past seven days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nLULU currently carries a Zacks Rank #4 (Sell).\r\n\r\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNIKE, Inc. (NKE) : Free Stock Analysis Report\n\nlululemon athletica inc. (LULU) : Free Stock Analysis Report\n\nUnder Armour, Inc. (UAA) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Nike Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Footwear & Accessories",
+          "employees": 77800,
+          "description": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic and casual footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company of"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.16,
+          "profit_margin": 0.0695,
+          "operating_margin": 0.0289,
+          "roe": 0.2329,
+          "roa": 0.062,
+          "revenue_growth_yoy": -0.12,
+          "earnings_growth_yoy": -0.862,
+          "eps_estimate_current_year": 2.1498,
+          "eps_estimate_next_year": 1.8652,
+          "dividend_yield": 0.0206,
+          "dividend_per_share": 1.57,
+          "revenue_ttm": 46308999168,
+          "revenue_per_share": 31.187,
+          "most_recent_quarter": "2025-05-31"
+        },
+        "valuation": {
+          "pe_ratio": 36.287,
+          "forward_pe": 45.8716,
+          "price_to_sales": 2.4997,
+          "price_to_book": 8.761,
+          "enterprise_value": 117626695702,
+          "ev_to_revenue": 2.54,
+          "ev_to_ebitda": 26.0813
+        },
+        "technical_data": {
+          "beta": 1.276,
+          "52_week_high": 89.1136,
+          "52_week_low": 51.9349,
+          "50_day_ma": 72.2332,
+          "200_day_ma": 70.378,
+          "short_interest": 0.0475,
+          "short_ratio": 2.88
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.6,
+          "forward_dividend_yield": 0.0204,
+          "payout_ratio": 0.7407,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-02",
+          "last_split_date": "2015-12-24",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7073,
+          "target_price": 78.1153,
+          "strong_buy": 13,
+          "buy": 6,
+          "hold": 20,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 1188019968,
+          "percent_institutions": 84.236,
+          "percent_insiders": 1.399,
+          "shares_float": 1170505094
+        },
+        "balance_latest_sheet": {
+          "total_assets": 36579.0,
+          "total_debt": 11018.0,
+          "cash_and_equivalents": 7464.0,
+          "net_debt": 3554.0,
+          "working_capital": 12796.0,
+          "shareholders_equity": 13213.0,
+          "quarter_date": "2025-05-31",
+          "debt_to_equity": 0.83
+        },
+        "income_latest_statement": {
+          "total_revenue": 11097.0,
+          "gross_profit": 4469.0,
+          "operating_income": 321.0,
+          "net_income": 211.0,
+          "ebitda": 318.0,
+          "quarter_date": "2025-05-31",
+          "gross_margin": 40.27,
+          "operating_margin": 2.89,
+          "net_margin": 1.9
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 463.0,
+          "free_cash_flow": 363.0,
+          "capex": 100.0,
+          "net_income": 211.0,
+          "cash_change": -1137.0,
+          "dividends_paid": 591.0,
+          "quarter_date": "2025-05-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-08-31",
+            "estimate": 0.52,
+            "symbol": null
+          },
+          {
+            "date": "2024-11-30",
+            "estimate": 0.63,
+            "symbol": null
+          },
+          {
+            "date": "2025-02-28",
+            "estimate": 0.28,
+            "symbol": null
+          },
+          {
+            "date": "2025-05-31",
+            "estimate": 0.12,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-08-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 76.85,
+            "high": 78.77,
+            "low": 76.85,
+            "close": 78.33,
+            "volume": 10902100
+          },
+          {
+            "date": "2025-01-29",
+            "open": 74.45,
+            "high": 77.11,
+            "low": 74.32,
+            "close": 76.58,
+            "volume": 11764800
+          },
+          {
+            "date": "2025-01-28",
+            "open": 75.33,
+            "high": 75.6,
+            "low": 74.16,
+            "close": 74.39,
+            "volume": 8694400
+          },
+          {
+            "date": "2025-01-27",
+            "open": 73.44,
+            "high": 75.85,
+            "low": 73.42,
+            "close": 75.58,
+            "volume": 11665400
+          },
+          {
+            "date": "2025-01-24",
+            "open": 74.07,
+            "high": 74.25,
+            "low": 73.25,
+            "close": 73.57,
+            "volume": 8106700
+          },
+          {
+            "date": "2025-01-23",
+            "open": 73.34,
+            "high": 74.5,
+            "low": 72.37,
+            "close": 74.29,
+            "volume": 10677400
+          },
+          {
+            "date": "2025-01-22",
+            "open": 73.38,
+            "high": 74.7,
+            "low": 73.01,
+            "close": 74.04,
+            "volume": 13029300
+          },
+          {
+            "date": "2025-01-21",
+            "open": 71.3,
+            "high": 73.27,
+            "low": 71.14,
+            "close": 73.17,
+            "volume": 14199900
+          },
+          {
+            "date": "2025-01-17",
+            "open": 71.43,
+            "high": 71.52,
+            "low": 70.84,
+            "close": 70.84,
+            "volume": 9711300
+          },
+          {
+            "date": "2025-01-16",
+            "open": 70.9,
+            "high": 71.23,
+            "low": 70.32,
+            "close": 71.11,
+            "volume": 13694600
+          },
+          {
+            "date": "2025-01-15",
+            "open": 71.99,
+            "high": 72.25,
+            "low": 70.84,
+            "close": 71.07,
+            "volume": 13468100
+          },
+          {
+            "date": "2025-01-14",
+            "open": 72.07,
+            "high": 72.21,
+            "low": 70.53,
+            "close": 71.17,
+            "volume": 16732900
+          },
+          {
+            "date": "2025-01-13",
+            "open": 71.17,
+            "high": 72.6,
+            "low": 70.78,
+            "close": 72.08,
+            "volume": 14584300
+          },
+          {
+            "date": "2025-01-10",
+            "open": 71.85,
+            "high": 72.39,
+            "low": 71.09,
+            "close": 71.2,
+            "volume": 15677400
+          },
+          {
+            "date": "2025-01-08",
+            "open": 71.56,
+            "high": 71.82,
+            "low": 71.01,
+            "close": 71.29,
+            "volume": 11855000
+          },
+          {
+            "date": "2025-01-07",
+            "open": 72.4,
+            "high": 73.44,
+            "low": 71.98,
+            "close": 72.09,
+            "volume": 10463500
+          },
+          {
+            "date": "2025-01-06",
+            "open": 73.75,
+            "high": 74.32,
+            "low": 71.97,
+            "close": 72,
+            "volume": 14947300
+          },
+          {
+            "date": "2025-01-03",
+            "open": 73.92,
+            "high": 74.19,
+            "low": 73.01,
+            "close": 73.31,
+            "volume": 10083500
+          },
+          {
+            "date": "2025-01-02",
+            "open": 76.25,
+            "high": 76.69,
+            "low": 73.24,
+            "close": 73.67,
+            "volume": 10883400
+          },
+          {
+            "date": "2024-12-31",
+            "open": 74.9,
+            "high": 76.39,
+            "low": 74.78,
+            "close": 75.67,
+            "volume": 9425600
+          },
+          {
+            "date": "2024-12-30",
+            "open": 75.6,
+            "high": 75.77,
+            "low": 74.55,
+            "close": 74.65,
+            "volume": 9042900
+          },
+          {
+            "date": "2024-12-27",
+            "open": 76.52,
+            "high": 76.93,
+            "low": 75.8,
+            "close": 76.42,
+            "volume": 6334400
+          },
+          {
+            "date": "2024-12-26",
+            "open": 76.6,
+            "high": 77.46,
+            "low": 76.54,
+            "close": 76.94,
+            "volume": 6363500
+          },
+          {
+            "date": "2024-12-24",
+            "open": 76.75,
+            "high": 77.11,
+            "low": 76.36,
+            "close": 76.79,
+            "volume": 4919100
+          },
+          {
+            "date": "2024-12-23",
+            "open": 76.33,
+            "high": 78.41,
+            "low": 75.74,
+            "close": 76.76,
+            "volume": 14203800
+          },
+          {
+            "date": "2024-12-20",
+            "open": 75.96,
+            "high": 78,
+            "low": 74.86,
+            "close": 76.94,
+            "volume": 49883400
+          },
+          {
+            "date": "2024-12-19",
+            "open": 76.94,
+            "high": 77.94,
+            "low": 76.43,
+            "close": 77.1,
+            "volume": 27067600
+          },
+          {
+            "date": "2024-12-18",
+            "open": 77.98,
+            "high": 79,
+            "low": 76.84,
+            "close": 76.9,
+            "volume": 14376900
+          },
+          {
+            "date": "2024-12-17",
+            "open": 77.36,
+            "high": 78.77,
+            "low": 77.25,
+            "close": 78,
+            "volume": 12452400
+          },
+          {
+            "date": "2024-12-16",
+            "open": 76.76,
+            "high": 79.02,
+            "low": 76.66,
+            "close": 77.2,
+            "volume": 13034000
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.7664874786941125,
+        "return_63d": 30.589803398867033,
+        "pct_above_sma50": 8.509660377776424,
+        "sma_50": 72.2332,
+        "new_55d_high": "False",
+        "high_55d": 79.99,
+        "rsi": 65.50522648083623,
+        "rsi_in_range": "True",
+        "adx": 19.449868835551406,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.4808624649145217,
+        "bb_width": 8.221392114814495,
+        "keltner_width": 10.225218612579754,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 768784991.3249999,
+        "adv_shares": 10106350.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 52.73014074117841,
+        "final_score": 52.73014074117841,
+        "sub_scores": {
+          "trend_momentum": 19.54602852995727,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.18411221122114,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.924688411561905,
+          "ret_63d": 27.82126549249837,
+          "rsi14": 65.50522648083623,
+          "adx14": 18.087231954586706,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NKE\n• Current Price: $78.38\n• Overall Score: 52.94792358551711\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 72.2332\n• Sma 200: 70.378\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.9246884115619114\n• Momentum 63D: 27.82126549249836\n• Momentum 126D: 2.457516339869275\n• Momentum Acceleration: -23.896577080936446\n• Roc 21D: 3.9246884115619114\n• Trend Strength 20D: 0.015450302500457626\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.0037277152853451233\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 7.0\n• Squeeze Momentum: -0.06516139288212797\n• Volatility Compression: 60.700016953134416\n• Is Consolidating: False\n• Breakout Score: 26.297991307463803\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.54602852995727\n• Squeeze Breakout: 4.0\n• Options Quality: 18.18411221122114\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 59.10500254297016\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NKE\n• Strike Price: $77.5\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5\n• Ask: $5.1\n• Last: $5.2\n• Mid: $5.05\n• Spread: 1.960784313725490196078431373%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5717\n• Gamma: 0.035\n• Theta: -0.0438\n• Vega: 0.1206\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3646\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 140\n• Open Interest: 3432\n• Volume/OI Ratio: 0.04079254079254079\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Nike Inc\n• Sector: Consumer Cyclical\n• Industry: Footwear & Accessories\n• EPS (TTM): $2.16\n• Profit Margin: 7.0%\n• ROE: 23.3%\n• P/E Ratio: 36.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T21:45:02+00:00: Nike (NKE) Exceeds Market Returns: Some Facts to Consider...\n• 2025-08-22T21:45:02+00:00: Nike (NKE) Exceeds Market Returns: Some Facts to Consider...\n• 2025-08-22T19:16:53+00:00: Ailing US nuclear workers in limbo after Trump pauses medical compensation claim...\n• 2025-08-22T17:18:41+00:00: Noteworthy Friday Option Activity: ABNB, DUK, NKE...\n• 2025-08-22T16:03:00+00:00: Is lululemon's Product Innovation Enough to Defend Market Share?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-08-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NKE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NKE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-24T22:43:04.475818",
+    "estimated_tokens": 2322
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NKE\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NKE shows positive technical momentum with price above both SMAs and strong MA ribbon score, but faces near-term headwinds with decelerating momentum and upcoming earnings. Options setup shows decent liquidity but moderate IV conditions, suggesting careful position sizing.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (72.23) and 200 SMA (70.38)\",\n        \"Strong MA Ribbon Score of 100 indicating solid trend structure\",\n        \"Tight option spread of 1.96% with healthy open interest of 3432\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-23.89) indicating slowing upward momentum\",\n        \"Upcoming earnings on 2024-08-31 creates event risk\",\n        \"Relatively high P/E ratio of 36.3x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta decay and defined risk\",\n        \"entry_timing\": \"Wait until after earnings report due to near-term event risk\",\n        \"risk_management\": \"Use 77.5 strike as support level, consider 15-20% stop loss\"\n    },\n    \"red_flags\": [\n        \"Earnings report in less than 10 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup shows promise, imminent earnings and declining momentum suggest waiting for better entry point. Options liquidity and spread quality provide good execution capability when timing improves.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NKE",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "NKE shows positive technical momentum with price above both SMAs and strong MA ribbon score, but faces near-term headwinds with decelerating momentum and upcoming earnings. Options setup shows decent liquidity but moderate IV conditions, suggesting careful position sizing.",
+      "opportunities": [
+        "Price trending above both 50 SMA (72.23) and 200 SMA (70.38)",
+        "Strong MA Ribbon Score of 100 indicating solid trend structure",
+        "Tight option spread of 1.96% with healthy open interest of 3432"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-23.89) indicating slowing upward momentum",
+        "Upcoming earnings on 2024-08-31 creates event risk",
+        "Relatively high P/E ratio of 36.3x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta decay and defined risk",
+        "entry_timing": "Wait until after earnings report due to near-term event risk",
+        "risk_management": "Use 77.5 strike as support level, consider 15-20% stop loss"
+      },
+      "red_flags": [
+        "Earnings report in less than 10 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "While technical setup shows promise, imminent earnings and declining momentum suggest waiting for better entry point. Options liquidity and spread quality provide good execution capability when timing improves."
+    },
+    "tokens_used": 2548,
+    "cost": 0.02548,
+    "response_time": 8.974285364151001,
+    "success": true
+  },
+  "cost": 0.02548,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8493,
+    "response_length": 1701
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "symbol": "INTC",
+  "timestamp": "2025-08-30T08:41:54.464896",
+  "data_package": {
+    "metadata": {
+      "symbol": "INTC",
+      "package_timestamp": "2025-08-30T08:41:44.981921",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "INTC",
+        "current_price": 24.35,
+        "overall_score": 48.016923076923085,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 22.4136,
+        "sma_200": 21.716
+      },
+      "momentum_metrics": {
+        "momentum_21d": 22.979797979797983,
+        "momentum_63d": 24.552429667519185,
+        "momentum_126d": 2.6127265065318204,
+        "momentum_acceleration": -1.572631687721202,
+        "roc_21d": 22.979797979797983,
+        "trend_strength_20d": 0.7895499658563767,
+        "trend_direction": 1,
+        "ma_ribbon_score": 56.248780975228556,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.003547846054469095
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.21836424673021643,
+        "volatility_compression": 28.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 23.730917773028754,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20.323667595171766,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 79.0,
+        "squeeze": 9.2,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 24,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "INTC",
+        "strike_price": "24",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.78",
+        "ask": "1.81",
+        "last_price": "1.79",
+        "mid_price": "1.795",
+        "spread_percent": "1.657458563535911602209944751"
+      },
+      "greeks": {
+        "delta": 0.5821,
+        "gamma": 0.1002,
+        "theta": -0.0169,
+        "vega": 0.0349
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4365
+      },
+      "liquidity_metrics": {
+        "volume": 523,
+        "open_interest": 14924,
+        "volume_oi_ratio": 0.035044224068614314
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:55.927684",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T23:00:00+00:00",
+            "title": "With Intel, U.S. Has a Stake Without a Strategy",
+            "content": "President Trump’s forays into private business appear to be driven by money rather than an overarching plan to bolster American competitiveness.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T22:18:14+00:00",
+            "title": "Stocks Settle Lower as Tech Shares Selloff",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed down by -0.64%, the Dow Jones Industrials Index ($DOWI) (DIA) closed down by -0.20%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed down by -1.22%.  September E-mini S&P futures (ESU25) fell -0.68%, and September E-mini Nasdaq futures (NQU25) fell -1.31%.\n\nStock indexes retreated on Friday, weighed down by weakness in technology stocks.  Marvell Technology tumbled more than -18% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies fell more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan's US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan's inflation expectations were unexpectedly revised lower. In addition, dovish comments from Fed Governor Waller and San Francisco Fed President Daly were bullish for stocks as they signaled their support for Fed rate cuts.\n\nUS July personal spending rose +0.5% m/m, the most in four months, and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed's 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan's Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nLate Thursday, Fed Governor Christopher Waller stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nSan Francisco Fed President Mary Daly signaled she's open to lower interest rates soon, saying, \"It will soon be time to recalibrate policy to better match our economy.\" She added that tariff-related price increases \"will be a one-off\" and it \"will take time before we know that for certain, but we can't wait for perfect certainty without risking harm to the labor market.\"\n\nRegarding tariffs, President Trump on Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 88% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled mixed.  The Euro Stoxx 50 fell to a 2-week low and closed down -0.83%.  China's Shanghai Composite closed up +0.37%.  Japan's Nikkei Stock 225 closed down -0.26.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) Friday closed down -2.5 ticks, and the 10-year T-note yield rose +2.4 bp to 4.227%.\n\nSep T-notes posted modest losses on Friday after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes were limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan's Aug inflation expectations were revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields on Friday moved higher.  The 10-year German bund yield rose +2.9 bp to 2.724%.  10-year UK gilt yield rose +2.2 bp to 4.722%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers sold off on Friday, led by an -18% plunge in Marvell Technology (MRVL) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Lam Research (LRCX) closed down more than -4%, and Broadcom (AVGO), Nvidia (NVDA), and Advanced Micro Devices (AMD) closed down more than -3%.  In addition, ARM Holdings Plc (ARM), ASML Holding NV (ASML), Applied Materials (AMAT), KLA Corp (KLAC), Intel (INTC), ON Semiconductor Corp (ON), and Micron Technology (MU) all closed down by more than 2%.\n\nDell Technologies (DELL) closed down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI) closed down more than -5% and Hewlett Packard Enterprise (HPE) closed down more than -2%.\n\nUlta Beauty (ULTA) closed down more than -7% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers.\n\nCaterpillar (CAT) closed down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year.\n\nDollar General (DG) closed down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects \"more pressure\" in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4.\n\nCryptocurrency-exposed stocks fell Friday after the price of Bitcoin (^BTCUSD) dropped more than -3% to a 7-week low.  As a result, Galaxy Digital (GLXY) closed down more than -4%, and Coinbase Global (COIN) and Strategy (MSTR) closed down more than -1%.\n\nAutodesk (ADSK) closed up more than +9% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA) closed up more than +16% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%.\n\nAffirm Holdings (AFRM) closed up more than +10% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million.\n\nSentinelOne (S) closed up more than +6% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion.\n\nCelsius Holdings (CELH) closed up more than +5% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nManaged healthcare stocks gained on Friday.  Molina Healthcare (MOH) closed up more than +3%, and Elevance Health (ELV) and Centene (CNC) closed up more than +2%.  Also, UnitedHealth Group (UNH) closed up more than +2% to lead gainers in the Dow Jones Industrials.  In addition, Humana (HUM) and CVS Health (CVS) closed up more than +1%.\n\nEarnings Reports(9/2/2025)\n\nAcademy Sports & Outdoors Inc (ASO), HealthEquity Inc (HQY), Signet Jewelers Ltd (SIG), Zscaler Inc (ZS).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T21:06:00+00:00",
+            "title": "Intel’s CHIPS Act Requirements Waived After U.S. Government Takes Stake",
+            "content": "The company no longer needs to meet certain project milestones or adhere to some workforce policies, among other conditions.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:36:18+00:00",
+            "title": "Trump Just Pulled the Plug on China's Chip Lifeline--Samsung and Intel Caught in the Crossfire",
+            "content": "This article first appeared on GuruFocus.\n\nAfter months of silence on chip policy, the Trump administration just fired a precision missile at China's semiconductor lifeline. Washington is revoking key export waivers that allowed Samsung Electronics (SSNLF), SK Hynix, and an Intel (NASDAQ:INTC) unit to freely import US chipmaking gear into their Chinese fabs. These so-called VEU (validated end user) exemptionsquietly maintained since 2023gave the firms room to operate without fresh licensing hurdles. Now, with just 120 days left on the clock, that runway is vanishing fast.\n\nWarning! GuruFocus has detected 10 Warning Signs with INTC. Is INTC fairly valued? Test your thesis with our free DCF calculator.\n\nSamsung and SK Hynix have the most to lose. Both South Korean giants rely on China not just as a marketbut as a manufacturing base. Massive swaths of their DRAM and NAND output come from facilities inside China's borders. Those chips are essential to everything from smartphones to consumer gadgets built on the mainland. When the Biden administration extended these waivers last year, it was a lifeline. Now, with the plug pulled, those fabs face a bureaucratic thicket of license approvals just to keep humming.\n\nWhat's next? The US is leaving the door opentechnicallyby allowing companies to apply for new licenses. But with geopolitics sharpening by the week, investors shouldn't count on business as usual. Intel, Samsung, and SK Hynix haven't commented publicly yet. But the signal from Washington is loud: even the world's largest chipmakers are no longer insulated from the frontlines of the US-China tech war. The memory chip supply chain just got a lot more fragile\n\nKommentare anzeigen",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:35:35+00:00",
+            "title": "Intel amends CHIPS Act deal with US Commerce Department, gets $5.7 billion early",
+            "content": "(Reuters) -Intel said on Friday it amended the CHIPS Act funding deal with the U.S. Department of Commerce to remove earlier project milestones and received about $5.7 billion in cash sooner than planned.\n\nThe move will give Intel more flexibility over the funds.\n\nThe amended agreement, which revises a November 2024 funding deal, retains some guardrails that prevent the chipmaker from using the funds for dividends and buybacks, doing certain control-changing deals and from expanding in certain countries.\n\nAs part of the deal, Intel issued the U.S. government 274.6 million shares and promised the government the option to buy up to 240.5 million more shares under certain conditions.\n\nIntel said it has set aside 158.7 million shares in an escrow account to be released after the government makes available more CHIPS funds for the Secure Enclave program, designed to expand advanced chips manufacturing.\n\nThe company also said it has spent at least $7.87 billion on eligible CHIPS Act-funded projects.\n\nThe U.S. government's move to take a 9.9% equity stake in Intel sparked questions about the outlook for corporate America after President Donald Trump said he plans to do other similar deals.\n\nThe government's $8.9 billion investment is in addition to the $2.2 billion in grants Intel has previously received, making for a total investment of $11.1 billion, the company has said.\n\nThe Intel stake, announced by the U.S. government last week, is an incentive for the chipmaker to retain control of its contract manufacturing business, or foundry, Intel's finance chief David Zinsner said at an investor conference on Thursday.\n\n(Reporting by Jaspreet Singh in Bengaluru and David Shepardson; Editing by Alan Barona)\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Intel Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 108900,
+          "description": "Intel Corporation designs, develops, manufactures, markets, and sells computing and related products and services worldwide. It operates through Intel Products, Intel Foundry, and All Other segments. The company offers microprocessor and chipset, stand-alone SoC, and multichip package; Computer Syst"
+        },
+        "financial_metrics": {
+          "eps_ttm": -4.77,
+          "profit_margin": -0.3864,
+          "operating_margin": -0.038,
+          "roe": -0.1862,
+          "roa": -0.0085,
+          "revenue_growth_yoy": 0.002,
+          "earnings_growth_yoy": -0.717,
+          "eps_estimate_current_year": 0.1202,
+          "eps_estimate_next_year": 0.6594,
+          "revenue_ttm": 53070000128,
+          "revenue_per_share": 12.254,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 227.2727,
+          "price_to_sales": 2.0083,
+          "price_to_book": 1.1148,
+          "enterprise_value": 138668995101,
+          "ev_to_revenue": 2.6129,
+          "ev_to_ebitda": 124.7023
+        },
+        "technical_data": {
+          "beta": 1.218,
+          "52_week_high": 27.55,
+          "52_week_low": 17.665,
+          "50_day_ma": 22.4136,
+          "200_day_ma": 21.716,
+          "short_interest": 0.0246,
+          "short_ratio": 1.01
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 2.0833,
+          "dividend_date": "2024-09-01",
+          "ex_dividend_date": "2024-08-07",
+          "last_split_date": "2000-07-31",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 2.9556,
+          "target_price": 22.0614,
+          "strong_buy": 2,
+          "buy": 0,
+          "hold": 39,
+          "sell": 2,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 4376979968,
+          "percent_institutions": 69.632,
+          "percent_insiders": 0.083,
+          "shares_float": 4368946320
+        },
+        "balance_latest_sheet": {
+          "total_assets": 192520.0,
+          "total_debt": 50757.0,
+          "cash_and_equivalents": 9643.0,
+          "net_debt": 41114.0,
+          "working_capital": 8409.0,
+          "shareholders_equity": 97883.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.52
+        },
+        "income_latest_statement": {
+          "total_revenue": 12859.0,
+          "gross_profit": 3542.0,
+          "operating_income": -1286.0,
+          "net_income": -2918.0,
+          "ebitda": 471.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 27.54,
+          "operating_margin": -10.0,
+          "net_margin": -22.69
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2050.0,
+          "free_cash_flow": -1500.0,
+          "capex": 3550.0,
+          "net_income": -3024.0,
+          "cash_change": 746.0,
+          "dividends_paid": 0.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.0371,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 23.4,
+            "high": 23.83,
+            "low": 23.16,
+            "close": 23.26,
+            "volume": 61657992
+          },
+          {
+            "date": "2025-07-22",
+            "open": 23.34,
+            "high": 23.535,
+            "low": 23.08,
+            "close": 23.24,
+            "volume": 53969848
+          },
+          {
+            "date": "2025-07-23",
+            "open": 23.255,
+            "high": 23.62,
+            "low": 22.92,
+            "close": 23.49,
+            "volume": 68711719
+          },
+          {
+            "date": "2025-07-24",
+            "open": 23.49,
+            "high": 23.575,
+            "low": 22.6,
+            "close": 22.63,
+            "volume": 131963297
+          },
+          {
+            "date": "2025-07-25",
+            "open": 20.675,
+            "high": 21.045,
+            "low": 20.36,
+            "close": 20.7,
+            "volume": 245077703
+          },
+          {
+            "date": "2025-07-28",
+            "open": 20.82,
+            "high": 21.29,
+            "low": 20.65,
+            "close": 20.68,
+            "volume": 86105586
+          },
+          {
+            "date": "2025-07-29",
+            "open": 20.69,
+            "high": 20.845,
+            "low": 20.34,
+            "close": 20.41,
+            "volume": 100831508
+          },
+          {
+            "date": "2025-07-30",
+            "open": 20.43,
+            "high": 20.6199,
+            "low": 20.08,
+            "close": 20.34,
+            "volume": 67420328
+          },
+          {
+            "date": "2025-07-31",
+            "open": 20.17,
+            "high": 20.2288,
+            "low": 19.66,
+            "close": 19.8,
+            "volume": 90665203
+          },
+          {
+            "date": "2025-08-01",
+            "open": 19.5,
+            "high": 19.55,
+            "low": 18.965,
+            "close": 19.31,
+            "volume": 86496141
+          },
+          {
+            "date": "2025-08-04",
+            "open": 19.515,
+            "high": 19.59,
+            "low": 19.35,
+            "close": 19.5,
+            "volume": 69249367
+          },
+          {
+            "date": "2025-08-05",
+            "open": 19.7,
+            "high": 20.535,
+            "low": 19.68,
+            "close": 20.19,
+            "volume": 97338250
+          },
+          {
+            "date": "2025-08-06",
+            "open": 20.12,
+            "high": 20.48,
+            "low": 19.87,
+            "close": 20.41,
+            "volume": 67074219
+          },
+          {
+            "date": "2025-08-07",
+            "open": 20,
+            "high": 20.44,
+            "low": 19.6,
+            "close": 19.77,
+            "volume": 131382797
+          },
+          {
+            "date": "2025-08-08",
+            "open": 20,
+            "high": 20.02,
+            "low": 19.61,
+            "close": 19.95,
+            "volume": 75415023
+          },
+          {
+            "date": "2025-08-11",
+            "open": 20.445,
+            "high": 21.6,
+            "low": 20.44,
+            "close": 20.65,
+            "volume": 175545594
+          },
+          {
+            "date": "2025-08-12",
+            "open": 21.2,
+            "high": 21.86,
+            "low": 20.76,
+            "close": 21.81,
+            "volume": 134488188
+          },
+          {
+            "date": "2025-08-13",
+            "open": 21.62,
+            "high": 22.3,
+            "low": 21.36,
+            "close": 22.22,
+            "volume": 86024359
+          },
+          {
+            "date": "2025-08-14",
+            "open": 21.99,
+            "high": 24.2,
+            "low": 21.9,
+            "close": 23.86,
+            "volume": 188052500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 25.01,
+            "high": 25.645,
+            "low": 24.11,
+            "close": 24.56,
+            "volume": 310161094
+          },
+          {
+            "date": "2025-08-18",
+            "open": 24,
+            "high": 24.9,
+            "low": 23.21,
+            "close": 23.66,
+            "volume": 212515594
+          },
+          {
+            "date": "2025-08-19",
+            "open": 24.94,
+            "high": 26.53,
+            "low": 24.94,
+            "close": 25.31,
+            "volume": 297659188
+          },
+          {
+            "date": "2025-08-20",
+            "open": 24.9,
+            "high": 24.933,
+            "low": 23.3302,
+            "close": 23.54,
+            "volume": 161149406
+          },
+          {
+            "date": "2025-08-21",
+            "open": 23.525,
+            "high": 23.57,
+            "low": 22.775,
+            "close": 23.5,
+            "volume": 97718289
+          },
+          {
+            "date": "2025-08-22",
+            "open": 23.65,
+            "high": 25.23,
+            "low": 23.65,
+            "close": 24.8,
+            "volume": 200266797
+          },
+          {
+            "date": "2025-08-25",
+            "open": 25.5,
+            "high": 25.88,
+            "low": 24.44,
+            "close": 24.55,
+            "volume": 156825594
+          },
+          {
+            "date": "2025-08-26",
+            "open": 24.58,
+            "high": 24.735,
+            "low": 24.1,
+            "close": 24.35,
+            "volume": 78558234
+          },
+          {
+            "date": "2025-08-27",
+            "open": 24.19,
+            "high": 24.99,
+            "low": 24.05,
+            "close": 24.85,
+            "volume": 90934414
+          },
+          {
+            "date": "2025-08-28",
+            "open": 24.96,
+            "high": 25.14,
+            "low": 24.61,
+            "close": 24.93,
+            "volume": 60035090
+          },
+          {
+            "date": "2025-08-29",
+            "open": 24.76,
+            "high": 24.97,
+            "low": 24.28,
+            "close": 24.35,
+            "volume": 63734417
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 26.10046607975144,
+        "return_63d": 23.353596757852095,
+        "pct_above_sma50": 8.362853124944358,
+        "sma_50": 22.470800000000004,
+        "new_55d_high": "False",
+        "high_55d": 26.53,
+        "rsi": 66.54740608228983,
+        "rsi_in_range": "True",
+        "adx": 42.24638273177094,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.002012320328541,
+        "bb_width": 35.83431706804897,
+        "keltner_width": 21.331240278195754,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 3144939235.9466,
+        "adv_shares": 137706420.7,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 59.05458536820052,
+        "final_score": 54.05458536820052,
+        "sub_scores": {
+          "trend_momentum": 23.730917773028754,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20.323667595171766,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 22.97979797979799,
+          "ret_63d": 24.55242966751918,
+          "rsi14": 66.54740608228983,
+          "adx14": 42.12617280341956,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: INTC\n• Current Price: $24.35\n• Overall Score: 48.016923076923085\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 22.4136\n• Sma 200: 21.716\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 22.979797979797983\n• Momentum 63D: 24.552429667519185\n• Momentum 126D: 2.6127265065318204\n• Momentum Acceleration: -1.572631687721202\n• Roc 21D: 22.979797979797983\n• Trend Strength 20D: 0.7895499658563767\n• Trend Direction: 1\n• Ma Ribbon Score: 56.248780975228556\n• Breakout Strength: 0.0\n• Price Velocity: -0.003547846054469095\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.21836424673021643\n• Volatility Compression: 28.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 23.730917773028754\n• Squeeze Breakout: 4.0\n• Options Quality: 20.323667595171766\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 79.0\n• Squeeze: 9.2\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: INTC\n• Strike Price: $24\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.78\n• Ask: $1.81\n• Last: $1.79\n• Mid: $1.795\n• Spread: 1.657458563535911602209944751%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5821\n• Gamma: 0.1002\n• Theta: -0.0169\n• Vega: 0.0349\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4365\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 523\n• Open Interest: 14924\n• Volume/OI Ratio: 0.035044224068614314\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Intel Corporation\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $-4.77\n• Profit Margin: -38.6%\n• ROE: -18.6%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T23:00:00+00:00: With Intel, U.S. Has a Stake Without a Strategy...\n• 2025-08-29T22:18:14+00:00: Stocks Settle Lower as Tech Shares Selloff...\n• 2025-08-29T21:06:00+00:00: Intel’s CHIPS Act Requirements Waived After U.S. Government Takes Stake...\n• 2025-08-29T20:36:18+00:00: Trump Just Pulled the Plug on China's Chip Lifeline--Samsung and Intel Caught in...\n• 2025-08-29T20:35:35+00:00: Intel amends CHIPS Act deal with US Commerce Department, gets $5.7 billion early...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR INTC\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the INTC opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:41:54.464557",
+    "estimated_tokens": 2316
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"INTC\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 20,\n        \"options_quality\": 14,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 4,\n        \"fundamentals\": 3,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"INTC shows positive momentum with price above both SMAs and strong 21/63D momentum metrics, but faces fundamental challenges with negative EPS and margins. Options setup shows decent liquidity but upcoming earnings and mixed technical signals warrant caution.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (22.41) and 200 SMA (21.72)\",\n        \"Strong 21-day momentum at 22.98%\",\n        \"Options have tight bid-ask spread (1.66%) with healthy open interest (14,924)\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -$4.77 EPS and -38.6% profit margin\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Negative momentum acceleration (-1.57) suggests slowing upward momentum\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider debit spreads over naked calls to reduce cost basis given mixed signals\",\n        \"entry_timing\": \"Suboptimal entry point with earnings approaching and declining momentum acceleration\",\n        \"risk_management\": \"Use strikes below $24 for support level and consider 30-45 day expirations to avoid earnings\"\n    },\n    \"red_flags\": [\n        \"Upcoming earnings event within 30 days\",\n        \"Severely negative fundamentals (profit margin -38.6%)\",\n        \"No current volatility squeeze in play\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental weakness and upcoming earnings create significant risk factors that warrant reduced position sizing and strict risk management\"\n}",
+    "parsed_analysis": {
+      "symbol": "INTC",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 20,
+        "options_quality": 14,
+        "iv_value": 6,
+        "squeeze_volatility": 4,
+        "fundamentals": 3,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "INTC shows positive momentum with price above both SMAs and strong 21/63D momentum metrics, but faces fundamental challenges with negative EPS and margins. Options setup shows decent liquidity but upcoming earnings and mixed technical signals warrant caution.",
+      "opportunities": [
+        "Price trending above both 50 SMA (22.41) and 200 SMA (21.72)",
+        "Strong 21-day momentum at 22.98%",
+        "Options have tight bid-ask spread (1.66%) with healthy open interest (14,924)"
+      ],
+      "risks": [
+        "Poor fundamentals with -$4.77 EPS and -38.6% profit margin",
+        "Earnings coming up on 2025-09-30",
+        "Negative momentum acceleration (-1.57) suggests slowing upward momentum"
+      ],
+      "option_contract": {
+        "recommendation": "Consider debit spreads over naked calls to reduce cost basis given mixed signals",
+        "entry_timing": "Suboptimal entry point with earnings approaching and declining momentum acceleration",
+        "risk_management": "Use strikes below $24 for support level and consider 30-45 day expirations to avoid earnings"
+      },
+      "red_flags": [
+        "Upcoming earnings event within 30 days",
+        "Severely negative fundamentals (profit margin -38.6%)",
+        "No current volatility squeeze in play"
+      ],
+      "notes": "While technical setup shows promise, fundamental weakness and upcoming earnings create significant risk factors that warrant reduced position sizing and strict risk management"
+    },
+    "tokens_used": 2556,
+    "cost": 0.02556,
+    "response_time": 9.480547189712524,
+    "success": true
+  },
+  "cost": 0.02556,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8469,
+    "response_length": 1757
+  }
+}

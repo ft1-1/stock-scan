@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "KHC",
+  "timestamp": "2025-08-30T08:44:54.930383",
+  "data_package": {
+    "metadata": {
+      "symbol": "KHC",
+      "package_timestamp": "2025-08-30T08:44:46.629736",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "KHC",
+        "current_price": 27.97,
+        "overall_score": 47.273114770095354,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 27.3264,
+        "sma_200": 28.9761
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.857246904588485,
+        "momentum_63d": 4.6389824167601885,
+        "momentum_126d": -8.922175187235434,
+        "momentum_acceleration": -2.7817355121717036,
+        "roc_21d": 1.857246904588485,
+        "trend_strength_20d": 0.38976981153961604,
+        "trend_direction": 1,
+        "ma_ribbon_score": 81.32541760961132,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0005980501465845611
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 7.0,
+        "squeeze_momentum": 0.041425108924781254,
+        "volatility_compression": 59.87305643907595,
+        "is_consolidating": "False",
+        "breakout_score": 7.8933385915310845,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.194657225150202,
+        "squeeze_breakout": 4.0,
+        "options_quality": 0,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 67.0,
+        "momentum": 53.0,
+        "squeeze": 58.98095846586139,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 27,
+        "percentile": 98.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "KHC",
+        "strike_price": "22.5",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.45",
+        "ask": "6",
+        "last_price": "6.3",
+        "mid_price": "5.725",
+        "spread_percent": "9.166666666666666666666666667"
+      },
+      "greeks": {
+        "delta": 0.8845,
+        "gamma": 0.0355,
+        "theta": -0.0132,
+        "vega": 0.0198
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.5396
+      },
+      "liquidity_metrics": {
+        "volume": 2,
+        "open_interest": 53,
+        "volume_oi_ratio": 0.03773584905660377
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:18:03.120372",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T21:46:43+00:00",
+            "title": "Kraft Heinz Nears Breakup Plan To Unlock Value",
+            "content": "(RTTNews) - Kraft Heinz Co. (KHC) is preparing to split itself into two separate businesses, according to a Wall Street Journal report citing people familiar with the matter.\n\nThe plan, which could be finalized and announced as early as next week, would divide the food giant into a grocery-focused company and a sauces-focused company.\n\nThe move follows months of strategic reviews. In July, Kraft Heinz confirmed it was exploring options for its grocery portfolio, including a possible spinoff of several iconic Kraft-branded products. That potential new entity could be valued at up to $20 billion, according to earlier reports. Executives said at the time they were working \"with urgency\" to evaluate alternatives.\n\nBy separating into two units, Kraft Heinz hopes to unlock greater value than its current market capitalization of about $33 billion. The sauces business would retain flagship brands such as Heinz ketchup and Grey Poupon mustard, while the grocery business would house much of the Kraft portfolio. However, the report cautioned that timing and details could still shift.\n\nThe company, created in 2015 through the merger of Kraft Foods and H.J. Heinz orchestrated by Berkshire Hathaway and 3G Capital, has been under pressure to reinvigorate growth. Berkshire Hathaway, led by Warren Buffett, exited Kraft Heinz's board in May.\n\nThe possible breakup comes after Kraft Heinz recently posted better-than-expected quarterly earnings, buoyed by steady U.S. demand for pantry staples and condiments. Shares rose about 2 percent in afternoon trading Friday following the report.\n\nKraft Heinz has not yet commented publicly on the speculation. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:43:11+00:00",
+            "title": "Stocks to Watch Recap: Dell, Alibaba, Caterpillar, Ulta",
+            "content": "↘️ Dell (DELL): The technology company raised its annual outlook, boosted by strong AI demand. But softer guidance for this quarter weighed on the stock, which fell 8.9%. ↗️Alibaba (BABA): The technology giant reported a drop in a key profitability metric, knocked by the price war in China's food-delivery sector.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:58:02+00:00",
+            "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+            "content": "Consumer stocks were mixed late Friday afternoon, with the Consumer Staples Select Sector SPDR Fund\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:47:42+00:00",
+            "title": "Alibaba, chip stocks, Kraft Heinz: Trending Tickers",
+            "content": "Yahoo Finance Senior Reporter Ines Ferré discusses some of the trending tickers for Friday, Aug. 29 including Alibaba (BABA), chip stocks, and a new report about Kraft Heinz (KHC).\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination.\n\nVideo Transcript\n\n00:06 Speaker A\n\nAnd now time for some of today's trending tickers. We're taking a look at Alibaba, Chipstocks and Craft Heinz.\n\n00:11 Speaker A\n\nStarting with Alibaba, the company reporting weaker than expected revenue for the June quarter. However, shares rising as its Cloud intelligence group saw accelerated growth driven by robust AI demand.\n\n00:23 Speaker A\n\nRevenue from Cloud intelligence growing 26% in the quarter. That's growth helping offset the company's drop in profit.\n\n00:29 Speaker A\n\nAlibaba also putting pressure on chip stocks as the company reportedly developed a new chip for China. That's according to the Wall Street Journal.\n\n00:36 Speaker A\n\nThis comes as chip designers look to fill the hole left behind from Nvidia after the chipmaker faces regulatory barriers to selling its products in China.\n\n00:46 Speaker A\n\nAlso adding the adding to the pressure to the chip stocks is server maker Dell. The company, a customer of chip makers, providing third quarter earnings outlook that fell below Wall Street estimates.\n\n01:00 Speaker A\n\nAccording to Bloomberg estimates, Dell accounts for over 2% of Nvidia's revenue on an annualized basis.\n\n01:06 Speaker A\n\nLastly, Kraft Heinz reportedly nears a deal to plan a plan to break up the company.\n\n01:13 Speaker A\n\nAccording to the Wall Street Journal, a transaction could be announced as soon as early next week.\n\n01:19 Speaker A\n\nThe decision would split the company into two separate units focusing on grocery and sauces respectively. The split would effectively reverse the craft and Heinz 2015 merger.  Related Videos\n\n02:59\n\nFed Gov. Cook vs. Trump preliminary hearing: What's next\n\nYahoo Finance Video • 8 minutes ago 01:00\n\nGold pushes to highs, BYD profit drop, Tesla stock extends losses\n\nYahoo Finance Video • 2 hours ago 01:12\n\nAlibaba earnings: How to trade options\n\nYahoo Finance Video • yesterday 01:55\n\nWhy the markets need Nvidia to nail its results\n\nYahoo Finance Video • 2 days ago\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T18:52:49+00:00",
+            "title": "Ten years after Buffett's big deal, Kraft Heinz eyes a breakup",
+            "content": "[Food Giants Kraft And Heinz To Merge]\nScott Olson/Getty Images News\n\nThe Kraft Heinz Company (NASDAQ:KHC [https://seekingalpha.com/symbol/KHC]) is reportedly close to finalizing a breakup of one of the country's largest food and beverage company into two entities, according to _The Wall Street Journal_, with an announcement likely to come next week.\n\nSources cited by the newspaper claim the food giant will split off its grocery business – which includes products like Kraft’s Macaroni & Cheese, Velveeta, Jell-O, and Kool-Aid – into an entity that would have a value of around $20B, with the remaining faster-growing segment that includes ketchup and sauces forming a separate and smaller entity. The transaction would essentially undo the 2015 merger between Kraft Foods Group and H.J. Heinz Company which created the third-largest food and beverage company in the U.S.\n\nThe combination was orchestrated in 2015 by Warren Buffett’s Berkshire Hathaway and 3G Capital under the terms which gave Kraft shareholders a 49% stake in the combined company and Heinz shareholders a 51% stake. Kraft shareholders received stock in the combined company and a special cash dividend of $16.50 per share, fully funded by an equity contribution by Heinz owners Berkshire Hathaway and 3G Capital. At the time of the merger, the two companies had combined revenue of ~$28B, an amount that would subsequently dwindle to $6.35B.\n\n“I am delighted to play a part in bringing these two winning companies and their iconic brands together. This is my kind of transaction, uniting two world-class organizations and delivering shareholder value. I’m excited by the opportunities for what this new combined organization will achieve,” Warren Buffett said at the time of the merger.\n\nIn an effort to boost profits, the newly-formed Kraft Heinz Company (NASDAQ:KHC [https://seekingalpha.com/symbol/KHC]) immediately went to work cutting costs and going on a buying spree which included a failed attempt to acquire Unilever (UL [https://seekingalpha.com/symbol/UL]) for $143B in 2017.\n\nUnfortunately, while the company was busy cost-cutting and looking for new toys, it failed to notice the shift in consumer tastes to healthier food options. With sales down amid a pivot away from processed cheese and hot dogs, the company finally conceded that its Kraft and Oscar Mayer brands were worth much less than it was valued at and took a $15B impairment charge. Additionally, then-CEO Bernardo Hees admitted that zero-based budgeting (in which every expense must be justified from a zero-base for each new budgeting period) had failed.\n\n“We were overly optimistic on delivering savings that did not materialize,” Hess said in 2019.\n\nAmid all the hand-wringing, the stock price continued to drop. After peaking in 2017, the company’s shares lost 61% of their value in the 10 years since the merger versus a 237% gain in the S&P 500. This led Berkshire Hathaway to take a second write-down on its 27.4% stake in Kraft Heinz (NASDAQ:KHC [https://seekingalpha.com/symbol/KHC]), this time for $3.8B after a $3B write-down in 2019.\n\nPlagued by increased manufacturing costs, Kraft Heinz’s profitability was also dwindling and by 2025 the company fell into the red.\n\nWith few options left, the company is now considering splitting itself into two, a strategy that is unlikely to resuscitate the struggling food and beverage business.\n\n“I do not see how the separation will raise any value,” says Seeking Alpha analyst Alan Galecki. [https://seekingalpha.com/author/alan-galecki] “My concern is that we’ll end up with two sick entities.”\n\n“The proposed spin-off will require strong P&L gains between the two distinct entities, and empirical evidence suggests the KHC spinoff is not likely to produce new value for shareholders,” Seeking Alpha analysts TQP Research [https://seekingalpha.com/author/tqp-research] adds.\n\nAnd Wall Street likely agrees. Since the divestiture talk first started circulating last month, Kraft Heinz (NASDAQ:KHC [https://seekingalpha.com/symbol/KHC]) shares have only gained 3% in value.\n\nMORE ON KRAFT HEINZ\n\n \t* Constellation Brands A Better Pick Than Kraft Heinz But Not A Compelling Buy [https://seekingalpha.com/article/4809987-constellation-brands-vs-kraft-heinz-stz-has-stronger-pricing-power-and-balance-sheet]\n \t* Kraft Heinz: Empty Bottle [https://seekingalpha.com/article/4807504-kraft-heinz-empty-bottle]\n \t* The Kraft-Heinz Company: Second-Quarter Report Shows Earnings Have Stagnated [https://seekingalpha.com/article/4807495-the-kraft-heinz-company-second-quarter-report-shows-earnings-have-stagnated]\n \t* Court tosses case accusing food giants of making kids addicted to ultra-processed foods [https://seekingalpha.com/news/4488959-court-tosses-case-accusing-food-giants-of-making-kids-addicted-to-ultra-processed-foods]\n \t* Kraft Heinz falls after Berkshire Hathaway signals a loss of confidence in its decades-old investment [https://seekingalpha.com/news/4477396-kraft-heinz-falls-after-berkshire-hathaway-signals-a-loss-of-confidence-in-its-decades-old-investment]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Kraft Heinz Co",
+          "sector": "Consumer Defensive",
+          "industry": "Packaged Foods",
+          "employees": 36000,
+          "description": "The Kraft Heinz Company, together with its subsidiaries, manufactures and markets food and beverage products in North America and internationally. Its products include condiments and sauces, cheese and dairy products, meals, meats, refreshment beverages, coffee, and other grocery products under the "
+        },
+        "financial_metrics": {
+          "eps_ttm": -4.46,
+          "profit_margin": -0.2083,
+          "operating_margin": 0.207,
+          "roe": -0.1164,
+          "roa": 0.039,
+          "revenue_growth_yoy": -0.019,
+          "earnings_growth_yoy": -0.106,
+          "eps_estimate_current_year": 2.5994,
+          "eps_estimate_next_year": 2.6747,
+          "dividend_yield": 0.0587,
+          "dividend_per_share": 1.6,
+          "revenue_ttm": 25309999104,
+          "revenue_per_share": 21.118,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 10.7296,
+          "price_to_sales": 1.308,
+          "price_to_book": 0.8005,
+          "enterprise_value": 51752270043,
+          "ev_to_revenue": 2.0447,
+          "ev_to_ebitda": 13.0692
+        },
+        "technical_data": {
+          "beta": 0.2,
+          "52_week_high": 34.5762,
+          "52_week_low": 25.0719,
+          "50_day_ma": 27.3264,
+          "200_day_ma": 28.9761,
+          "short_interest": 0.0601,
+          "short_ratio": 3.7
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.6,
+          "forward_dividend_yield": 0.0572,
+          "payout_ratio": 0.5517,
+          "dividend_date": "2025-09-26",
+          "ex_dividend_date": "2025-08-29",
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3,
+          "target_price": 30.2895,
+          "strong_buy": 3,
+          "buy": 0,
+          "hold": 16,
+          "sell": 2,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 1183600000,
+          "percent_institutions": 59.346,
+          "percent_insiders": 27.833000000000002,
+          "shares_float": 851729831
+        },
+        "balance_latest_sheet": {
+          "total_assets": 81581.0,
+          "total_debt": 21211.0,
+          "net_debt": 19644.0,
+          "working_capital": 617.0,
+          "shareholders_equity": 41358.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.51
+        },
+        "income_latest_statement": {
+          "total_revenue": 6352.0,
+          "gross_profit": 2168.0,
+          "operating_income": 1276.0,
+          "net_income": -7824.0,
+          "ebitda": -7664.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 34.13,
+          "operating_margin": 20.09,
+          "net_margin": -123.17
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1209.0,
+          "free_cash_flow": 1022.0,
+          "capex": 187.0,
+          "net_income": -7824.0,
+          "cash_change": -547.0,
+          "dividends_paid": -474.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.5913,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 27.96,
+            "high": 28.02,
+            "low": 27.44,
+            "close": 27.48,
+            "volume": 17895820
+          },
+          {
+            "date": "2025-07-22",
+            "open": 27.53,
+            "high": 28.809,
+            "low": 27.5,
+            "close": 28.78,
+            "volume": 18294840
+          },
+          {
+            "date": "2025-07-23",
+            "open": 28.9,
+            "high": 29.15,
+            "low": 28.75,
+            "close": 28.94,
+            "volume": 12814380
+          },
+          {
+            "date": "2025-07-24",
+            "open": 28.99,
+            "high": 29.13,
+            "low": 28.715,
+            "close": 28.78,
+            "volume": 7411034
+          },
+          {
+            "date": "2025-07-25",
+            "open": 28.75,
+            "high": 28.81,
+            "low": 28.362,
+            "close": 28.68,
+            "volume": 8521860
+          },
+          {
+            "date": "2025-07-28",
+            "open": 28.56,
+            "high": 28.57,
+            "low": 28.05,
+            "close": 28.25,
+            "volume": 10067050
+          },
+          {
+            "date": "2025-07-29",
+            "open": 28.25,
+            "high": 28.62,
+            "low": 28.22,
+            "close": 28.56,
+            "volume": 14007060
+          },
+          {
+            "date": "2025-07-30",
+            "open": 28.785,
+            "high": 29.19,
+            "low": 28.16,
+            "close": 28.49,
+            "volume": 17783369
+          },
+          {
+            "date": "2025-07-31",
+            "open": 28.055,
+            "high": 28.055,
+            "low": 27.42,
+            "close": 27.46,
+            "volume": 17627061
+          },
+          {
+            "date": "2025-08-01",
+            "open": 27.7,
+            "high": 27.82,
+            "low": 27.06,
+            "close": 27.41,
+            "volume": 16940510
+          },
+          {
+            "date": "2025-08-04",
+            "open": 27.22,
+            "high": 27.25,
+            "low": 26.615,
+            "close": 26.8,
+            "volume": 14299550
+          },
+          {
+            "date": "2025-08-05",
+            "open": 26.8,
+            "high": 27.295,
+            "low": 26.8,
+            "close": 27.04,
+            "volume": 10630260
+          },
+          {
+            "date": "2025-08-06",
+            "open": 27.055,
+            "high": 27.3955,
+            "low": 26.85,
+            "close": 27.26,
+            "volume": 9055131
+          },
+          {
+            "date": "2025-08-07",
+            "open": 27.35,
+            "high": 27.76,
+            "low": 27.17,
+            "close": 27.65,
+            "volume": 9892151
+          },
+          {
+            "date": "2025-08-08",
+            "open": 27.62,
+            "high": 27.895,
+            "low": 27.53,
+            "close": 27.76,
+            "volume": 9266811
+          },
+          {
+            "date": "2025-08-11",
+            "open": 27.82,
+            "high": 28.03,
+            "low": 27.085,
+            "close": 27.43,
+            "volume": 13917730
+          },
+          {
+            "date": "2025-08-12",
+            "open": 27.46,
+            "high": 27.75,
+            "low": 27.21,
+            "close": 27.35,
+            "volume": 13478530
+          },
+          {
+            "date": "2025-08-13",
+            "open": 27.36,
+            "high": 28.03,
+            "low": 27.3,
+            "close": 28.02,
+            "volume": 12530310
+          },
+          {
+            "date": "2025-08-14",
+            "open": 27.86,
+            "high": 27.88,
+            "low": 27.515,
+            "close": 27.65,
+            "volume": 15035300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 27.75,
+            "high": 27.807,
+            "low": 27.455,
+            "close": 27.67,
+            "volume": 8136158
+          },
+          {
+            "date": "2025-08-18",
+            "open": 27.61,
+            "high": 27.62,
+            "low": 27.1635,
+            "close": 27.27,
+            "volume": 7899924
+          },
+          {
+            "date": "2025-08-19",
+            "open": 27.3848,
+            "high": 27.7599,
+            "low": 27.325,
+            "close": 27.67,
+            "volume": 8281939
+          },
+          {
+            "date": "2025-08-20",
+            "open": 27.81,
+            "high": 28.03,
+            "low": 27.29,
+            "close": 27.42,
+            "volume": 8522426
+          },
+          {
+            "date": "2025-08-21",
+            "open": 27.315,
+            "high": 27.56,
+            "low": 27.12,
+            "close": 27.5,
+            "volume": 6098349
+          },
+          {
+            "date": "2025-08-22",
+            "open": 27.64,
+            "high": 28.1,
+            "low": 27.62,
+            "close": 28.06,
+            "volume": 10699960
+          },
+          {
+            "date": "2025-08-25",
+            "open": 28,
+            "high": 28.01,
+            "low": 27.65,
+            "close": 27.69,
+            "volume": 9780208
+          },
+          {
+            "date": "2025-08-26",
+            "open": 27.6,
+            "high": 27.74,
+            "low": 27.32,
+            "close": 27.7,
+            "volume": 17469859
+          },
+          {
+            "date": "2025-08-27",
+            "open": 27.61,
+            "high": 27.93,
+            "low": 27.53,
+            "close": 27.89,
+            "volume": 9144852
+          },
+          {
+            "date": "2025-08-28",
+            "open": 27.91,
+            "high": 27.95,
+            "low": 27.38,
+            "close": 27.64,
+            "volume": 11454080
+          },
+          {
+            "date": "2025-08-29",
+            "open": 27.2563,
+            "high": 28.08,
+            "low": 27.19,
+            "close": 27.97,
+            "volume": 23601304
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.0430499817584775,
+        "return_63d": 5.031918888471648,
+        "pct_above_sma50": 2.355231570935064,
+        "sma_50": 27.3264,
+        "new_55d_high": "False",
+        "high_55d": 29.19,
+        "rsi": 56.78391959798994,
+        "rsi_in_range": "True",
+        "adx": 18.820353593487614,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.025187701108329,
+        "bb_width": 4.665858435097682,
+        "keltner_width": 8.227079268488623,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 315967995.3952,
+        "adv_shares": 11459741.6,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 28.194657225150202,
+        "final_score": 28.194657225150202,
+        "sub_scores": {
+          "trend_momentum": 13.194657225150202,
+          "squeeze_breakout": 4.0,
+          "options_quality": 0,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.8572469045884832,
+          "ret_63d": 4.638982416760196,
+          "rsi14": 56.78391959798994,
+          "adx14": 17.977728154258656,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: KHC\n• Current Price: $27.97\n• Overall Score: 47.273114770095354\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 27.3264\n• Sma 200: 28.9761\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.857246904588485\n• Momentum 63D: 4.6389824167601885\n• Momentum 126D: -8.922175187235434\n• Momentum Acceleration: -2.7817355121717036\n• Roc 21D: 1.857246904588485\n• Trend Strength 20D: 0.38976981153961604\n• Trend Direction: 1\n• Ma Ribbon Score: 81.32541760961132\n• Breakout Strength: 0.0\n• Price Velocity: -0.0005980501465845611\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 7.0\n• Squeeze Momentum: 0.041425108924781254\n• Volatility Compression: 59.87305643907595\n• Is Consolidating: False\n• Breakout Score: 7.8933385915310845\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.194657225150202\n• Squeeze Breakout: 4.0\n• Options Quality: 0\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 67.0\n• Momentum: 53.0\n• Squeeze: 58.98095846586139\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: KHC\n• Strike Price: $22.5\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.45\n• Ask: $6\n• Last: $6.3\n• Mid: $5.725\n• Spread: 9.166666666666666666666666667%\n\n**GREEKS ANALYSIS**\n• Delta: 0.8845\n• Gamma: 0.0355\n• Theta: -0.0132\n• Vega: 0.0198\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.5396\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 2\n• Open Interest: 53\n• Volume/OI Ratio: 0.03773584905660377\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Kraft Heinz Co\n• Sector: Consumer Defensive\n• Industry: Packaged Foods\n• EPS (TTM): $-4.46\n• Profit Margin: -20.8%\n• ROE: -11.6%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T21:46:43+00:00: Kraft Heinz Nears Breakup Plan To Unlock Value...\n• 2025-08-29T20:43:11+00:00: Stocks to Watch Recap: Dell, Alibaba, Caterpillar, Ulta...\n• 2025-08-29T19:58:02+00:00: Sector Update: Consumer Stocks Mixed Late Afternoon...\n• 2025-08-29T19:47:42+00:00: Alibaba, chip stocks, Kraft Heinz: Trending Tickers...\n• 2025-08-29T18:52:49+00:00: Ten years after Buffett's big deal, Kraft Heinz eyes a breakup...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR KHC\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the KHC opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:44:54.929667",
+    "estimated_tokens": 2305
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"KHC\",\n    \"rating\": 47,\n    \"component_scores\": {\n        \"trend_momentum\": 13,\n        \"options_quality\": 4,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 4,\n        \"event_news\": 12\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"KHC shows mixed technical signals with a weak uptrend (SMA50 at 27.32 vs price 27.97) but concerning fundamentals (negative EPS -$4.46, -20.8% profit margin). The stock is in a volatility squeeze with positive momentum, though options liquidity is suboptimal.\",\n    \"opportunities\": [\n        \"Active volatility squeeze (7 days duration) with 59.87% compression\",\n        \"Price above 50-day SMA indicating short-term strength\",\n        \"Potential corporate restructuring/breakup catalyst per recent news\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with negative EPS and profit margins\",\n        \"Wide option spreads (9.17%) indicating liquidity risk\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferring new positions until after earnings\",\n        \"entry_timing\": \"Suboptimal entry timing due to imminent earnings\",\n        \"risk_management\": \"Wide spreads require strict position sizing and clear exit criteria\"\n    },\n    \"red_flags\": [\n        \"Very poor options liquidity (V/OI ratio 0.037)\",\n        \"Negative fundamental metrics\",\n        \"Earnings within 30 days\"\n    ],\n    \"notes\": \"While technical setup shows promise with squeeze conditions, poor fundamentals and options liquidity severely limit the attractiveness of this opportunity\"\n}",
+    "parsed_analysis": {
+      "symbol": "KHC",
+      "rating": 47,
+      "component_scores": {
+        "trend_momentum": 13,
+        "options_quality": 4,
+        "iv_value": 6,
+        "squeeze_volatility": 8,
+        "fundamentals": 4,
+        "event_news": 12
+      },
+      "confidence": "medium",
+      "thesis": "KHC shows mixed technical signals with a weak uptrend (SMA50 at 27.32 vs price 27.97) but concerning fundamentals (negative EPS -$4.46, -20.8% profit margin). The stock is in a volatility squeeze with positive momentum, though options liquidity is suboptimal.",
+      "opportunities": [
+        "Active volatility squeeze (7 days duration) with 59.87% compression",
+        "Price above 50-day SMA indicating short-term strength",
+        "Potential corporate restructuring/breakup catalyst per recent news"
+      ],
+      "risks": [
+        "Poor fundamentals with negative EPS and profit margins",
+        "Wide option spreads (9.17%) indicating liquidity risk",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferring new positions until after earnings",
+        "entry_timing": "Suboptimal entry timing due to imminent earnings",
+        "risk_management": "Wide spreads require strict position sizing and clear exit criteria"
+      },
+      "red_flags": [
+        "Very poor options liquidity (V/OI ratio 0.037)",
+        "Negative fundamental metrics",
+        "Earnings within 30 days"
+      ],
+      "notes": "While technical setup shows promise with squeeze conditions, poor fundamentals and options liquidity severely limit the attractiveness of this opportunity"
+    },
+    "tokens_used": 2515,
+    "cost": 0.02515,
+    "response_time": 8.297473430633545,
+    "success": true
+  },
+  "cost": 0.02515,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8433,
+    "response_length": 1629
+  }
+}

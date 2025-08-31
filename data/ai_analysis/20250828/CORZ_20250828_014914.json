@@ -1,0 +1,628 @@
+{
+  "success": true,
+  "symbol": "CORZ",
+  "timestamp": "2025-08-28T01:49:14.155714",
+  "data_package": {
+    "metadata": {
+      "symbol": "CORZ",
+      "package_timestamp": "2025-08-28T01:49:03.267835",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CORZ",
+        "current_price": 14.2,
+        "overall_score": 51.890256410256406,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 13.9291,
+        "sma_200": 12.3776
+      },
+      "momentum_metrics": {
+        "momentum_21d": 7.65731614859742,
+        "momentum_63d": 31.725417439703158,
+        "momentum_126d": 41.71656686626746,
+        "momentum_acceleration": -24.068101291105737,
+        "roc_21d": 7.65731614859742,
+        "trend_strength_20d": 0.032374482160590426,
+        "trend_direction": 1,
+        "ma_ribbon_score": 81.66269820199018,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0018610780040981378
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 19.0,
+        "squeeze_momentum": -0.013331319076145041,
+        "volatility_compression": 56.0,
+        "is_consolidating": "False",
+        "breakout_score": -14.062487422949397,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.709531425577435,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.186212048192765,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 60.0,
+        "squeeze": 63.4,
+        "options": 39.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 11,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CORZ",
+        "strike_price": "14",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.64",
+        "ask": "1.68",
+        "last_price": "1.58",
+        "mid_price": "1.66",
+        "spread_percent": "2.380952380952380952380952381"
+      },
+      "greeks": {
+        "delta": 0.5827,
+        "gamma": 0.1014,
+        "theta": -0.0157,
+        "vega": 0.0206
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.7307
+      },
+      "liquidity_metrics": {
+        "volume": 9,
+        "open_interest": 18485,
+        "volume_oi_ratio": 0.00048688125507167975
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:28.838784",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T13:26:00+00:00",
+            "title": "CoreWeave's Upbeat Outlook: Are Expanding Data Centers at the Core?",
+            "content": "For the second consecutive quarter, CoreWeave, Inc. (CRWV) has raised its full-year revenue outlook. The company now projects 2025 revenues in the range of $5.15 billion to $5.35 billion, up from the previous guidance of $4.9 billion to $5.1 billion. The upward revision, representing a $250 million increase, reflects continued strength in customer demand. Its rapid expansion of data centers is key to its growth story.\n\nCoreWeave closed the second quarter with 470 megawatts (MW) of active power and increased total contracted power to 2.2 gigawatts (GW), aiming to deliver more than 900 MW of active power by year-end. The company is rapidly expanding its footprint, including a $6 billion data center investment in Lancaster, PA, and a joint venture project in Kenilworth, NJ, to meet rising demand. It has launched RTX PRO 6000 Blackwell GPU instances, offering faster AI performance and cost-efficient scalability. With broad NVIDIA Blackwell support and deep platform optimizations, CRWV solidifies its position as a top AI cloud provider.\n\nDriven by the OpenAI expansion and new wins across enterprises and AI startups, CRWV’s contracted backlog reached $30.1 billion, up $4 billion sequentially and doubling year to date. In addition, the proposed acquisition of Core Scientific is likely to add 1.3 GW of gross power capacity and drive $500 million in annual run-rate cost savings by 2027 through vertical integration.\n\nPer a report by Precedence Research, the global AI infrastructure market is projected to grow from $60.23 billion in 2025 to $499.33 billion by 2034, at a 26.6% CAGR. As more industries embrace AI to drive productivity, innovation and competitiveness, demand for robust infrastructure surges. CRWV continues to ramp up investments in data centers and server infrastructure to keep pace with the ongoing traction in customer demand.\n\nIn the last reported quarter, CoreWeave delivered strong results, with revenue soaring 207% to $1.2 billion and adjusted operating income increasing 134% to $200 million. Capital expenditures increased to $2.9 billion, surpassing the previous quarter's total by more than $1 billion, reflecting significant investments in data centers and servers to support growing demand.\n\nAmid a strong demand backdrop, management anticipates third-quarter revenues of $1.26–$1.30 billion and adjusted operating income of $160–$190 million. As capacity expands rapidly, deployment costs are incurred before revenue is realized, leading to a near-term margin impact.\n\nCRWV Faces Fierce AI Infrastructure Competition\n\nNebius Group N.V. (NBIS) is an emerging pure-play AI infrastructure company. It is rapidly expanding in the AI infrastructure sector, intending to reach 1 GW capacity by 2026. This includes new sites in the U.K., Israel and New Jersey, and expansions in Finland and the United States. Nebius plans to secure 220 MW of connected power (active or ready for GPU deployment), including 100 MW of active power. Favoring greenfield developments for cost efficiency, NBIS increased its 2025 ARR guidance to $900 million–$1.1 billion from $750 million–$1 billion, with ARR already hitting $430 million in June. Supported by $2 billion in 2025 capex and strong liquidity, management views the AI boom as a “once-in-a-generation” growth opportunity.\n\nStory Continues\n\nMicrosoft (MSFT) remains a dominant force in technology, leading cloud infrastructure through Azure while rapidly expanding in AI infrastructure. Its partnership with OpenAI has cemented Azure as a premier platform for AI workloads, complemented by AI integration across Office, GitHub and Dynamics. Microsoft has transformed every Azure region into an AI-first environment with liquid cooling, adding more than 2 GW of new data center capacity in the past year and now operating more than 400 data centers across 70 regions. MSFT plans to invest more than $30 billion in capex for first quarter fiscal 2026, up from $24.2 billion in fourth-quarter fiscal 2025.\n\nCRWV Price Performance, Valuation and Estimates\n\nShares of CoreWeave have gained 130.9% in the past year compared with the Internet Software industry’s growth of 39.1%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nIn terms of Price/Book, CRWV shares are trading at 15.93X, way higher than the Internet Software Services industry’s 6.47X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for CRWV’s earnings for 2025 has been revised downward over the past 60 days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCRWV currently carries a Zacks Rank #3 (Hold). You can see see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMicrosoft Corporation (MSFT) : Free Stock Analysis Report\n\nNebius Group N.V. (NBIS) : Free Stock Analysis Report\n\nCoreWeave Inc. (CRWV) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T16:00:02+00:00",
+            "title": "Core Scientific, Inc. (CORZ) Upgraded to Buy: What Does It Mean for the Stock?",
+            "content": "Investors might want to bet on Core Scientific, Inc. (CORZ), as it has been recently upgraded to a Zacks Rank #2 (Buy). This rating change essentially reflects an upward trend in earnings estimates -- one of the most powerful forces impacting stock prices.\n\nThe sole determinant of the Zacks rating is a company's changing earnings picture. The Zacks Consensus Estimate -- the consensus of EPS estimates from the sell-side analysts covering the stock -- for the current and following years is tracked by the system.\n\nIndividual investors often find it hard to make decisions based on rating upgrades by Wall Street analysts, since these are mostly driven by subjective factors that are hard to see and measure in real time. In these situations, the Zacks rating system comes in handy because of the power of a changing earnings picture in determining near-term stock price movements.\n\nAs such, the Zacks rating upgrade for Core Scientific, Inc. is essentially a positive comment on its earnings outlook that could have a favorable impact on its stock price.\n\nMost Powerful Force Impacting Stock Prices\n\nThe change in a company's future earnings potential, as reflected in earnings estimate revisions, and the near-term price movement of its stock are proven to be strongly correlated. That's partly because of the influence of institutional investors that use earnings and earnings estimates for calculating the fair value of a company's shares. An increase or decrease in earnings estimates in their valuation models simply results in higher or lower fair value for a stock, and institutional investors typically buy or sell it. Their bulk investment action then leads to price movement for the stock.\n\nFundamentally speaking, rising earnings estimates and the consequent rating upgrade for Core Scientific, Inc. imply an improvement in the company's underlying business. Investors should show their appreciation for this improving business trend by pushing the stock higher.\n\nHarnessing the Power of Earnings Estimate Revisions\n\nEmpirical research shows a strong correlation between trends in earnings estimate revisions and near-term stock movements, so it could be truly rewarding if such revisions are tracked for making an investment decision. Here is where the tried-and-tested Zacks Rank stock-rating system plays an important role, as it effectively harnesses the power of earnings estimate revisions.\n\nThe Zacks Rank stock-rating system, which uses four factors related to earnings estimates to classify stocks into five groups, ranging from Zacks Rank #1 (Strong Buy) to Zacks Rank #5 (Strong Sell), has an impressive externally-audited track record, with Zacks Rank #1 stocks generating an average annual return of +25% since 1988. You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here >>>> .\n\nStory Continues\n\nEarnings Estimate Revisions for Core Scientific, Inc.\n\nThis company is expected to earn $1.29 per share for the fiscal year ending December 2025, which represents no year-over-year change.\n\nAnalysts have been steadily raising their estimates for Core Scientific, Inc.. Over the past three months, the Zacks Consensus Estimate for the company has increased 371.4%.\n\nBottom Line\n\nUnlike the overly optimistic Wall Street analysts whose rating systems tend to be weighted toward favorable recommendations, the Zacks rating system maintains an equal proportion of \"buy\" and \"sell\" ratings for its entire universe of more than 4,000 stocks at any point in time. Irrespective of market conditions, only the top 5% of the Zacks-covered stocks get a \"Strong Buy\" rating and the next 15% get a \"Buy\" rating. So, the placement of a stock in the top 20% of the Zacks-covered stocks indicates its superior earnings estimate revision feature, making it a solid candidate for producing market-beating returns in the near term.\n\nYou can learn more about the Zacks Rank here >>>\n\nThe upgrade of Core Scientific, Inc. to a Zacks Rank #2 positions it in the top 20% of the Zacks-covered stocks in terms of estimate revisions, implying that the stock might move higher in the near term.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCore Scientific, Inc. (CORZ) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T08:12:00+00:00",
+            "title": "Is This Artificial Intelligence (AI) Stock the Next Nvidia?",
+            "content": "Key Points\n\nCoreWeave has been one of the market’s hottest AI stocks. It has established an early mover’s advantage in cloud-based data center GPUs. But it’s too early to claim it could become the \"next Nvidia.\"10 stocks we like better than CoreWeave ›\n\nNvidia(NASDAQ: NVDA) has been one of the best plays on the booming artificial intelligence (AI) market over the past decade. From fiscal 2015 to fiscal 2025 (which ended this January), its revenue grew at a CAGR of 39% as its EPS increased at a CAGR of 58%.\n\nMost of that growth was driven by its brisk sales of data center GPUs, which are used to process complex machine learning and AI tasks. Nvidia now controls more than 90% of the global discrete GPU market, according to JPR, and all of the world's top AI companies -- including OpenAI, Microsoft, and Meta Platforms -- use its data center chips. That's why Nvidia's stock soared 31,430% over the past 10 years and turned it into the world's most valuable company with a market cap of $4.26 trillion.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\nImage source: Getty Images.\n\nBut even after that millionaire-making run, Nvidia still doesn't seem that expensive at 39 times its forward adjusted earnings. From fiscal 2025 to fiscal 2028, analysts expect its revenue and EPS to grow at a CAGR of 33% and 31%, respectively, as the AI market keeps expanding.\n\nSo for now, Nvidia remains one of the simplest and safest ways to invest in the AI market. But could CoreWeave (NASDAQ: CRWV), a hypergrowth AI stock that has a much smaller cap of $45 billion, deliver similarly life-changing gains as Nvidia in the future?\n\nHow CoreWeave pivoted from crypto to AI\n\nCoreWeave was founded in 2017 as a cryptocurrency miner that bought a lot of GPUs to mine Ether. But after the crypto market crashed in 2018, it stopped mining Ether and repurposed its GPUs to process AI tasks. In 2022, it spent roughly $100 million to install Nvidia's H100 GPUs in its own data centers. It then used those GPUs as collateral to secure additional funding to open more data centers and buy more GPUs. That bold strategy impressed Nvidia, which invested $100 million in CoreWeave in 2023.\n\nNvidia invested another $250 million in CoreWeave's IPO this March. It increased that stake over the following months and now holds 24.28 million shares, which are worth roughly $2.2 billion today. That makes it Nvidia's biggest investment in a single stock.\n\nUnlike bigger cloud infrastructure platforms -- which provide a wide range of computing and storage services -- CoreWeave only provides cloud-based GPUs for processing AI tasks. It claims that streamlined approach allows it to process AI tasks roughly 35 times faster and 80% cheaper than traditional cloud infrastructure platforms.\n\nHow fast is CoreWeave growing?\n\nCoreWeave now operates 33 data centers in the U.S. and Europe. That's up from 15 centers at the end of 2024, 14 centers in 2023, and just three centers in 2022. Its top customers include OpenAI, Meta, and IBM. Its revenue surged from $16 million in 2022 to $1.92 billion in 2024, then grew another 276% year over year to $2.19 billion in the first half of 2025. Analysts expect its revenue to rise 173% to $5.25 billion for the full year.\n\nBut as it grew, its net losses widened from $31 million in 2022 to $863 million in 2024. Its operating expenses skyrocketed as it opened more data centers, purchased more GPUs from Nvidia, and paid higher energy bills. Its net loss widened again to $661 million in the first half of 2025, and analysts expect a net loss of $1.1 billion for the year.\n\nIn addition, CoreWeave has been funding most of its expansion with debt, which caused its annual interest payments to surge from $28 million in 2022 to $784 million in 2024. Its planned $9 billion acquisition of Core Scientific(NASDAQ: CORZ) -- which will be entirely funded in newly issued shares -- could still drive those debt levels even higher as it integrates the company's 10 data centers into its platform.\n\nAt the end of the first half of 2025, CoreWeave still had $1.15 billion in cash and equivalents, but it was shouldering $22.42 billion in total liabilities. So even though it's clearly benefiting from the AI boom, it hasn't proven its business model is sustainable yet. With an enterprise value of $65.5 billion, it isn't a bargain at 12.5 times this year's sales.\n\nCould CoreWeave be the \"next Nvidia\"?\n\nCoreWeave has plenty of growth potential, but I wouldn't call it the \"next Nvidia.\" It's expanding rapidly and enjoys an early mover's advantage in its niche market, but bigger cloud competitors like Amazon's AWS could eventually roll out their own cloud-based GPUs at lower prices. It also hasn't monopolized a critical link of the AI market in the same way as Nvidia has with its proprietary chips. Those weaknesses could prevent it from ever breaking even.\n\nA lot of its future sales growth has already been baked into its valuations -- so a few quarters of slowing growth could easily derail the bullish thesis and bring in the bears. So for now, CoreWeave remains a good speculative growth play on the AI market, but it probably won't come close to replicating Nvidia's massive gains.\n\nShould you invest $1,000 in CoreWeave right now?\n\nBefore you buy stock in CoreWeave, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and CoreWeave wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nLeo Sun has positions in Amazon and Meta Platforms. The Motley Fool has positions in and recommends Amazon, Ethereum, International Business Machines, Meta Platforms, Microsoft, and Nvidia. The Motley Fool recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T01:44:51+00:00",
+            "title": "Macquarie Reiterates Neutral on Core Scientific (CORZ), Sets $15 Price Target",
+            "content": "Core Scientific, Inc. (NASDAQ:CORZ) is one of the Trending AI Stocks on Wall Street. On August 19, Macquarie analyst Paul Golding reiterated a Neutral rating on the stock with a $15.00 price target. The firm remains neutral as it awaits clarity on shareholder vote, noting “recent CRWV share price weakness with lock-up expiry”\n\nAccording to the research firm, the company’s revenue missed expectations for another quarter driven by the strategic wind-down of its Bitcoin mining operations. Nevertheless, its economics and high-performance computing (HPC) business still drove earnings beats.Macquarie Reiterates Neutral on Core Scientific (CORZ), Sets $15 Price Target\n\nA cross section of a data analyst overviewing code on several monitors.\n\nThe firm did highlight, however, that Core Scientific’s pending merger with CoreWeave still demands shareholder approval and regulatory clearances before completion.\n\n“Similar to prior quarters, revs missed w/ strategic btc mining wind down. Economics and HPC drove earnings beats. • Merger with CoreWeave still pending CORZ shareholder approval, along with requisite regulatory approvals. • Neutral as we await clarity on shareholder vote, noting recent CRWV share price weakness with lock-up expiry.”\n\nCore Scientific, Inc. (NASDAQ:CORZ) has transitioned into an AI business by leveraging advanced infrastructure and expertise in HPC (high-performance computing).\n\nWhile we acknowledge the potential of CORZ as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you're looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 10 AI Stocks In The Spotlight For Investorsand 10 Must-Watch AI Stocks for Investors\n\nDisclosure: None.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T10:07:23+00:00",
+            "title": "Is There Now an Opportunity in CoreWeave After Block Trades by Major Banks?",
+            "content": "Thinking about CoreWeave stock and trying to decide your next move? You are definitely not alone. Over the last several weeks, CRWV has seen plenty of action, and many investors are wondering if the current volatility is an opportunity for growth or a warning to play it safe.\n\nThere have been some major headlines driving the stock’s recent moves. Notably, several big banks, including JPMorgan and Goldman Sachs, executed sizable block trades in the $90 to $97 range. While some might see these trades as institutions taking profits, others could view them as a short-term shakeout rather than a signal of long-term trouble. Meanwhile, an upgrade from Arete to “Buy” with a $180 price target has fueled optimism about CoreWeave’s future. At the same time, the market hesitated following news of shareholder opposition to the company’s ambitious Core Scientific acquisition.\n\nDespite some choppy trading, CoreWeave is up more than 126% year-to-date. This signals that investors still see a lot to like. Revenue and net income are both growing at an aggressive pace, and there is a substantial discount between today’s price and the average analyst target. According to our valuation checks, CoreWeave scores a 3 out of 6, meaning it is undervalued on half of the key measures we track. This creates an interesting setup for those willing to look past the headlines.\n\nSo, how does CRWV’s valuation really stack up, and what do these scores actually mean? In the next section, we will break down the most widely used valuation frameworks and show how CoreWeave measures up. We will also introduce a smarter way to unlock the real story behind the numbers.\n\nCoreWeave delivered 0.0% returns over the last year. See how this stacks up to the rest of the IT industry.\n\nApproach 1: CoreWeave Cash Flows\n\nThe Discounted Cash Flow (DCF) model estimates a company’s intrinsic value by projecting its future free cash flows and discounting them back to today’s dollars. This method is widely used to gauge whether a stock is attractively priced relative to its future earning potential.\n\nAt present, CoreWeave is generating negative Free Cash Flow. Last year’s total was approximately -$11.1 million. However, projections anticipate significant growth over the coming decade, with analysts expecting CoreWeave to generate about $14.9 million in Free Cash Flow by 2035. These figures suggest a transition from early-stage losses to positive cash flows as the business matures.\n\nUsing a two-stage Free Cash Flow to Equity model, the estimated intrinsic value per share for CoreWeave is $224.61. Compared to the current market price, this suggests the stock is trading at a 59.6% discount and may be considered 59.6% undervalued according to this model.\n\nStory Continues\n\nResult: UNDERVALUED CRWV Discounted Cash Flow as at Aug 2025\n\nOur DCF analysis suggests CoreWeave is undervalued by 59.6%. Track this in your watchlist or portfolio, or discover more undervalued stocks based on DCF analysis.\n\nApproach 2: CoreWeave Price vs Sales\n\nFor high-growth technology companies like CoreWeave, the Price-to-Sales (P/S) ratio is often the preferred valuation metric. This is because such firms may have limited or negative earnings during periods of rapid investment and expansion, making earnings-based multiples less relevant. By focusing on revenue, the P/S ratio provides a view of how much investors are willing to pay for each dollar of sales. This can be a reliable yardstick when profits are volatile or just starting to materialize.\n\nExpectations for future growth and the perceived risk of the company shape what is considered a “normal” or “fair” P/S ratio. Higher growth and lower risk typically justify a higher multiple, while stagnant growth or higher uncertainty leads to lower ones. At the moment, CoreWeave trades at a P/S ratio of 12.58x, significantly below the peer average of 18.20x and well above the broader IT industry average of 2.62x.\n\nSimply Wall St’s proprietary Fair Ratio goes a step further by factoring in CoreWeave’s unique growth profile, industry positioning, profit margins, and risk. Comparing CoreWeave’s current P/S ratio to its Fair Ratio shows that the stock is undervalued on this basis. This highlights a potential opportunity for patient investors willing to accept short-term volatility in exchange for long-term upside.\n\nResult: UNDERVALUED NasdaqGS:CRWV PS Ratio as at Aug 2025\n\nPS ratios tell one story, but what if the real opportunity lies elsewhere? Discover companies where insiders are betting big on explosive growth.\n\nUpgrade Your Decision Making: Choose your CoreWeave Narrative\n\nNarratives are a simple yet powerful way to connect the story you believe about a company with a set of financial forecasts. This approach helps you estimate what a stock is really worth. Rather than just relying on numbers or ratios, Narratives let you express your perspective on CoreWeave’s potential. You can tie together your forecasts for things like future revenue, earnings, and margins with a reasoned fair value target.\n\nOn Simply Wall St, millions of investors use Narratives to make informed decisions. They can easily compare their fair value against the current price to identify when to buy or sell. The platform keeps your Narrative up to date by automatically adjusting for the latest news, results, and events, so your view always reflects today’s reality, not yesterday’s assumptions.\n\nFor example, some investors may believe CoreWeave will exceed analyst expectations, projecting a fair value almost twice the current price. Others with a more cautious outlook could see it as closer to fully valued. With Narratives, you have an accessible, dynamic tool to track your investing thesis and respond confidently as new information arrives.\n\nDo you think there's more to the story for CoreWeave? Create your own Narrative to let the Community know!NasdaqGS:CRWV Community Fair Values as at Aug 2025\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include CRWV.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Core Scientific, Inc. Common Stock",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "employees": 325,
+          "description": "Core Scientific, Inc. provides digital asset mining services in the United States. It operates through three segments: Digital Asset Self-Mining; Digital Asset Hosted Mining; and HPC Hosting. The company offers digital infrastructure, software solutions, and services; and operates licensing data cen"
+        },
+        "financial_metrics": {
+          "eps_ttm": -1.73,
+          "profit_margin": 0,
+          "operating_margin": -0.2813,
+          "roe": 0,
+          "roa": -0.0674,
+          "revenue_growth_yoy": -0.443,
+          "earnings_growth_yoy": 0.612,
+          "eps_estimate_current_year": 0.46,
+          "eps_estimate_next_year": 0.73,
+          "revenue_ttm": 348432000,
+          "revenue_per_share": 1.122,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 14.3266,
+          "price_to_sales": 12.3064,
+          "price_to_book": 0,
+          "enterprise_value": 4867499525,
+          "ev_to_revenue": 13.9697,
+          "ev_to_ebitda": 454.8804
+        },
+        "technical_data": {
+          "52_week_high": 18.629,
+          "52_week_low": 6.2,
+          "50_day_ma": 13.9291,
+          "200_day_ma": 12.3776,
+          "short_interest": 0.2192,
+          "short_ratio": 3.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.625,
+          "target_price": 19.0455,
+          "strong_buy": 11,
+          "buy": 4,
+          "hold": 1,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 305408000,
+          "percent_institutions": 94.173,
+          "percent_insiders": 6.875000000000001,
+          "shares_float": 277961385
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1978.052,
+          "total_debt": 1057.696,
+          "net_debt": 476.351,
+          "working_capital": 442.038,
+          "shareholders_equity": -1064.676,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": -0.99
+        },
+        "income_latest_statement": {
+          "total_revenue": 78.628,
+          "gross_profit": 5.025,
+          "operating_income": -26.284,
+          "net_income": -936.799,
+          "ebitda": -26.284,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 6.39,
+          "operating_margin": -33.43,
+          "net_margin": -1191.43
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 34.0,
+          "free_cash_flow": -87.279,
+          "capex": 121.279,
+          "net_income": -936.799,
+          "cash_change": -117.38,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 13.77,
+            "high": 13.84,
+            "low": 13.395,
+            "close": 13.47,
+            "volume": 12375900
+          },
+          {
+            "date": "2025-07-18",
+            "open": 13.575,
+            "high": 13.63,
+            "low": 13,
+            "close": 13.35,
+            "volume": 13742100
+          },
+          {
+            "date": "2025-07-21",
+            "open": 13.37,
+            "high": 13.82,
+            "low": 13.26,
+            "close": 13.27,
+            "volume": 10641500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 13.31,
+            "high": 13.62,
+            "low": 12.85,
+            "close": 13.48,
+            "volume": 12618900
+          },
+          {
+            "date": "2025-07-23",
+            "open": 13.52,
+            "high": 13.66,
+            "low": 13.32,
+            "close": 13.49,
+            "volume": 7972700
+          },
+          {
+            "date": "2025-07-24",
+            "open": 13.62,
+            "high": 13.84,
+            "low": 13.5,
+            "close": 13.69,
+            "volume": 16330700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 13.53,
+            "high": 14.09,
+            "low": 13.316,
+            "close": 13.76,
+            "volume": 12810000
+          },
+          {
+            "date": "2025-07-28",
+            "open": 13.805,
+            "high": 13.82,
+            "low": 13.48,
+            "close": 13.745,
+            "volume": 9227900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 13.72,
+            "high": 13.76,
+            "low": 12.88,
+            "close": 13.19,
+            "volume": 14446100
+          },
+          {
+            "date": "2025-07-30",
+            "open": 13.26,
+            "high": 13.34,
+            "low": 12.71,
+            "close": 13.055,
+            "volume": 11363900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 13.57,
+            "high": 13.94,
+            "low": 13.345,
+            "close": 13.54,
+            "volume": 21325600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 12.74,
+            "high": 13.06,
+            "low": 12.595,
+            "close": 12.65,
+            "volume": 14611200
+          },
+          {
+            "date": "2025-08-04",
+            "open": 12.825,
+            "high": 13.68,
+            "low": 12.72,
+            "close": 13.65,
+            "volume": 13283700
+          },
+          {
+            "date": "2025-08-05",
+            "open": 13.76,
+            "high": 14.09,
+            "low": 13.38,
+            "close": 14.08,
+            "volume": 12790300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 14.07,
+            "high": 14.14,
+            "low": 13.76,
+            "close": 14.11,
+            "volume": 13250900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 14.43,
+            "high": 14.54,
+            "low": 13.95,
+            "close": 14.35,
+            "volume": 14482400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 14.615,
+            "high": 14.63,
+            "low": 14.05,
+            "close": 14.41,
+            "volume": 16702700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 14.292,
+            "high": 15.005,
+            "low": 14.2,
+            "close": 14.53,
+            "volume": 16618100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 14.5,
+            "high": 15.22,
+            "low": 14.36,
+            "close": 15.11,
+            "volume": 17152700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 14.535,
+            "high": 14.75,
+            "low": 13.45,
+            "close": 13.85,
+            "volume": 30192200
+          },
+          {
+            "date": "2025-08-14",
+            "open": 13.49,
+            "high": 14.16,
+            "low": 13.18,
+            "close": 13.835,
+            "volume": 30902100
+          },
+          {
+            "date": "2025-08-15",
+            "open": 13.72,
+            "high": 14.78,
+            "low": 13.695,
+            "close": 14.13,
+            "volume": 43603500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 14.55,
+            "high": 14.77,
+            "low": 14.15,
+            "close": 14.53,
+            "volume": 13351100
+          },
+          {
+            "date": "2025-08-19",
+            "open": 14.5,
+            "high": 14.55,
+            "low": 13.915,
+            "close": 14.35,
+            "volume": 17326800
+          },
+          {
+            "date": "2025-08-20",
+            "open": 14.35,
+            "high": 14.41,
+            "low": 13.58,
+            "close": 14.08,
+            "volume": 19087600
+          },
+          {
+            "date": "2025-08-21",
+            "open": 13.67,
+            "high": 14.25,
+            "low": 13.34,
+            "close": 13.79,
+            "volume": 18883300
+          },
+          {
+            "date": "2025-08-22",
+            "open": 13.75,
+            "high": 14.54,
+            "low": 13.53,
+            "close": 13.55,
+            "volume": 19811000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 13.45,
+            "high": 14.06,
+            "low": 13.24,
+            "close": 13.68,
+            "volume": 9959500
+          },
+          {
+            "date": "2025-08-26",
+            "open": 13.57,
+            "high": 14.215,
+            "low": 13.57,
+            "close": 14.04,
+            "volume": 10929100
+          },
+          {
+            "date": "2025-08-27",
+            "open": 14.02,
+            "high": 14.345,
+            "low": 13.97,
+            "close": 14.2,
+            "volume": 8175343
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 8.770585982382226,
+        "return_63d": 32.834424695977546,
+        "pct_above_sma50": 1.6354722112872662,
+        "sma_50": 13.971499999999999,
+        "new_55d_high": "False",
+        "high_55d": 18.21,
+        "rsi": 48.27981651376146,
+        "rsi_in_range": "False",
+        "adx": 14.482250402187663,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.765845070422535,
+        "bb_width": 14.388942592875287,
+        "keltner_width": 23.404559422568415,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 254128735.6037375,
+        "adv_shares": 18121957.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 47.895743473770196,
+        "final_score": 42.895743473770196,
+        "sub_scores": {
+          "trend_momentum": 16.709531425577435,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.186212048192765,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 7.657316148597415,
+          "ret_63d": 31.725417439703165,
+          "rsi14": 48.27981651376146,
+          "adx14": 13.170141272252812,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CORZ\n• Current Price: $14.2\n• Overall Score: 51.890256410256406\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 13.9291\n• Sma 200: 12.3776\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 7.65731614859742\n• Momentum 63D: 31.725417439703158\n• Momentum 126D: 41.71656686626746\n• Momentum Acceleration: -24.068101291105737\n• Roc 21D: 7.65731614859742\n• Trend Strength 20D: 0.032374482160590426\n• Trend Direction: 1\n• Ma Ribbon Score: 81.66269820199018\n• Breakout Strength: 0.0\n• Price Velocity: 0.0018610780040981378\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 19.0\n• Squeeze Momentum: -0.013331319076145041\n• Volatility Compression: 56.0\n• Is Consolidating: False\n• Breakout Score: -14.062487422949397\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.709531425577435\n• Squeeze Breakout: 4.0\n• Options Quality: 16.186212048192765\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 60.0\n• Squeeze: 63.4\n• Options: 39.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CORZ\n• Strike Price: $14\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.64\n• Ask: $1.68\n• Last: $1.58\n• Mid: $1.66\n• Spread: 2.380952380952380952380952381%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5827\n• Gamma: 0.1014\n• Theta: -0.0157\n• Vega: 0.0206\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.7307\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 9\n• Open Interest: 18485\n• Volume/OI Ratio: 0.00048688125507167975\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Core Scientific, Inc. Common Stock\n• Sector: Technology\n• Industry: Software - Infrastructure\n• EPS (TTM): $-1.73\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T13:26:00+00:00: CoreWeave's Upbeat Outlook: Are Expanding Data Centers at the Core?...\n• 2025-08-25T16:00:02+00:00: Core Scientific, Inc. (CORZ) Upgraded to Buy: What Does It Mean for the Stock?...\n• 2025-08-25T08:12:00+00:00: Is This Artificial Intelligence (AI) Stock the Next Nvidia?...\n• 2025-08-23T01:44:51+00:00: Macquarie Reiterates Neutral on Core Scientific (CORZ), Sets $15 Price Target...\n• 2025-08-22T10:07:23+00:00: Is There Now an Opportunity in CoreWeave After Block Trades by Major Banks?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CORZ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CORZ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:49:14.155372",
+    "estimated_tokens": 2321
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CORZ\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 17,\n        \"options_quality\": 14,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 5,\n        \"fundamentals\": 5,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CORZ shows mixed signals with positive momentum metrics (21D: 7.66%, 63D: 31.73%) and strong MA ribbon score (81.66), but faces near-term headwinds with negative momentum acceleration (-24.07) and upcoming earnings risk. Options positioning shows moderate quality with reasonable spreads but limited volume.\",\n    \"opportunities\": [\n        \"Strong medium-term momentum with price above both 50 and 200 SMAs\",\n        \"Multi-timeframe squeeze setup with 19-day duration and 56% compression\",\n        \"Reasonable options spreads at 2.38% with healthy open interest (18,485)\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-24.07) indicating potential slowdown\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Poor fundamentals with negative EPS (-$1.73 TTM)\",\n        \"Low options volume (9) despite good open interest\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider deferred entry on CORZ Oct 2025 $14 Calls after earnings\",\n        \"entry_timing\": \"Wait for earnings catalyst to pass and momentum acceleration to stabilize\",\n        \"risk_management\": \"Use smaller position size due to fundamentals and maintain strict stops given volatility profile\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 35 days\",\n        \"Very low options volume/OI ratio of 0.00049\",\n        \"Negative EPS indicating fundamental weakness\"\n    ],\n    \"notes\": \"While technical setup shows promise, combination of earnings risk and poor fundamentals suggests caution. Consider waiting for clearer signals post-earnings.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CORZ",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 17,
+        "options_quality": 14,
+        "iv_value": 6,
+        "squeeze_volatility": 5,
+        "fundamentals": 5,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "CORZ shows mixed signals with positive momentum metrics (21D: 7.66%, 63D: 31.73%) and strong MA ribbon score (81.66), but faces near-term headwinds with negative momentum acceleration (-24.07) and upcoming earnings risk. Options positioning shows moderate quality with reasonable spreads but limited volume.",
+      "opportunities": [
+        "Strong medium-term momentum with price above both 50 and 200 SMAs",
+        "Multi-timeframe squeeze setup with 19-day duration and 56% compression",
+        "Reasonable options spreads at 2.38% with healthy open interest (18,485)"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-24.07) indicating potential slowdown",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Poor fundamentals with negative EPS (-$1.73 TTM)",
+        "Low options volume (9) despite good open interest"
+      ],
+      "option_contract": {
+        "recommendation": "Consider deferred entry on CORZ Oct 2025 $14 Calls after earnings",
+        "entry_timing": "Wait for earnings catalyst to pass and momentum acceleration to stabilize",
+        "risk_management": "Use smaller position size due to fundamentals and maintain strict stops given volatility profile"
+      },
+      "red_flags": [
+        "Imminent earnings event within 35 days",
+        "Very low options volume/OI ratio of 0.00049",
+        "Negative EPS indicating fundamental weakness"
+      ],
+      "notes": "While technical setup shows promise, combination of earnings risk and poor fundamentals suggests caution. Consider waiting for clearer signals post-earnings."
+    },
+    "tokens_used": 2593,
+    "cost": 0.025929999999999998,
+    "response_time": 10.885498046875,
+    "success": true
+  },
+  "cost": 0.025929999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8508,
+    "response_length": 1866
+  }
+}

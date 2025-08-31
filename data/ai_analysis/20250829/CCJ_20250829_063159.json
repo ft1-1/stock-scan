@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "CCJ",
+  "timestamp": "2025-08-29T06:31:59.956691",
+  "data_package": {
+    "metadata": {
+      "symbol": "CCJ",
+      "package_timestamp": "2025-08-29T06:31:49.404543",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CCJ",
+        "current_price": 78.63,
+        "overall_score": 52.04070229067771,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 74.977,
+        "sma_200": 56.5678
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.1318327974276468,
+        "momentum_63d": 32.933220625528314,
+        "momentum_126d": 80.84176632934683,
+        "momentum_acceleration": -31.801387828100665,
+        "roc_21d": 1.1318327974276468,
+        "trend_strength_20d": 0.001528360980991415,
+        "trend_direction": 1,
+        "ma_ribbon_score": 84.16747165467042,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.01969714763685937
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": 0.0365214610506567,
+        "volatility_compression": 39.34819601404325,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.770840146756413,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.552177777777793,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 62.0,
+        "momentum": 55.0,
+        "squeeze": 55.902229402106485,
+        "options": 41.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 10,
+        "percentile": 99.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CCJ",
+        "strike_price": "75",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.15",
+        "ask": "7.25",
+        "last_price": "7.15",
+        "mid_price": "7.20",
+        "spread_percent": "1.379310344827586206896551724"
+      },
+      "greeks": {
+        "delta": 0.6569,
+        "gamma": 0.0289,
+        "theta": -0.0525,
+        "vega": 0.1062
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4406
+      },
+      "liquidity_metrics": {
+        "volume": 426,
+        "open_interest": 711,
+        "volume_oi_ratio": 0.5991561181434599
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:29.997637",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T02:36:23+00:00",
+            "title": "Dow Jones Futures Fall, Fed Inflation Data Due; 7 New Buys After Nvidia Test",
+            "content": "The S&P 500 hit another high after Nvidia earnings. Rubrik and Micron led stocks making this bullish move. Fed inflation data looms.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:43:23+00:00",
+            "title": "Dow Jones Futures: S&amp;P 500 Hits Fresh High After Nvidia Test; 7 Stocks Flash This Buy Signal",
+            "content": "The S&P 500 hit another high after Nvidia earnings. Rubrik and Micron led stocks making this bullish move. Fed inflation data looms.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:39:27+00:00",
+            "title": "Stock Of The Day Sets Up Bullishly As It Literally Fuels AI Data Centers",
+            "content": "Cameco, the leader in its industry group, is the IBD Stock of the Day. The company is literally fueling portions of the AI data center boom. Canada-based Cameco has operations from the start to the end of the nuclear-energy supply chain.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T14:25:00+00:00",
+            "title": "Can LEU's Partnership With KHNP &amp; POSCO Reshape Nuclear Fuel Markets?",
+            "content": "Centrus Energy LEU signed a Memorandum of Understanding (MOU) with Korea Hydro & Nuclear Power (“KHNP”) and POSCO International, a subsidiary of POSCO PKX, aimed at attracting private capital to expand its uranium enrichment plant in Piketon, OH.\n\nCentrus Energy has also revised its February 2025 agreement with KHNP and will now supply higher volumes of low-enriched uranium (LEU).  It is competing for funding from the U.S. Department of Energy to expand the enrichment capacity. This supply commitment to KHNP remains subject to Centrus Energy receiving the funding.\n\nThe investment will help LEU compete against foreign, state-owned enterprises that currently dominate the market. The company intends to match federal support with private capital and utility purchase commitments under a public-private partnership.\n\nThe collaboration also has options to explore other opportunities, such as additional supply agreements for LEU as well as High-Assay, Low-Enriched Uranium (HALEU) for next-generation reactors.\n\nKorea is leading the development and construction of new reactors around the world. It is one of the largest potential export markets for U.S. enriched uranium, thereby a solid market opportunity for Centrus Energy. KHNP is the world's third-largest nuclear plant operator with 26 nuclear reactors in operation and four under construction. POSCO International is also advancing a next-generation High-Temperature Gas Reactor powered by HALEU.\n\nLEU’s Price Performance, Valuation & Estimates\n\nCentrus Energy shares have soared 197.7% so far this year compared with the industry’s 6.6% growth. During this time, the Basic Materials sector has risen 17.7%, while the S&P 500 has gained 9.8%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nMeanwhile, peer Cameco Corporation CCJ has gained 46.5% year to date. Cameco is one of the largest global providers of uranium. Apart from ownership of the world’s largest high-grade reserves and low-cost operations, Cameco has significant investments across the nuclear fuel cycle, including ownership interests in Westinghouse Electric Company and Global Laser Enrichment.\n\nLEU is trading at a forward 12-month price/sales multiple of 7.44X, a significant premium to the industry’s 2.80X. Cameco is trading higher, at 12.91X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for Centrus Energy’s 2025 earnings is pegged at $4.23 per share, indicating a 5.37% year-over-year decline. The same for 2026 is $3.36, indicating a decline of 20.6%. Here is how the EPS estimates for 2025 and 2026 have been revised over the past 60 days.\n\nStory Continues\n\nZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe company currently carries a Zacks Rank #3 (Hold).\n\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nPOSCO (PKX) : Free Stock Analysis Report\n\nCameco Corporation (CCJ) : Free Stock Analysis Report\n\nCentrus Energy Corp. (LEU) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:35:00+00:00",
+            "title": "Another Old Nuclear Reactor is Coming Back. These Stocks Could Benefit.",
+            "content": "The electricity needed for the tech sector’s artificial intelligence race is turning reactors that were once unprofitable albatrosses into potential profit-drivers.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Cameco Corp",
+          "sector": "Energy",
+          "industry": "Uranium",
+          "employees": 0,
+          "description": "Cameco Corporation provides uranium for the generation of electricity. It operates through three segments: Uranium, Fuel Services, and Westinghouse. The Uranium segment engages in the exploration for, mining, milling, purchase, and sale of uranium concentrate. The Fuel Services segment is involved i"
+        },
+        "financial_metrics": {
+          "eps_ttm": 0.88,
+          "profit_margin": 0.1495,
+          "operating_margin": 0.1782,
+          "roe": 0.0825,
+          "roa": 0.0395,
+          "revenue_growth_yoy": 0.465,
+          "earnings_growth_yoy": 8.214,
+          "eps_estimate_current_year": 1.671,
+          "eps_estimate_next_year": 2.1372,
+          "dividend_yield": 0.0021,
+          "dividend_per_share": 0.16,
+          "revenue_ttm": 3570216960,
+          "revenue_per_share": 8.202,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 89.3523,
+          "forward_pe": 64.9351,
+          "price_to_sales": 9.5889,
+          "price_to_book": 7.0256,
+          "enterprise_value": 34234078929,
+          "ev_to_revenue": 13.266,
+          "ev_to_ebitda": 42.2551
+        },
+        "technical_data": {
+          "beta": 1.262,
+          "52_week_high": 80.32,
+          "52_week_low": 35,
+          "50_day_ma": 74.977,
+          "200_day_ma": 56.5678,
+          "short_interest": 0.0236,
+          "short_ratio": 3.64
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.11,
+          "forward_dividend_yield": 0.0014,
+          "payout_ratio": 0.0934,
+          "dividend_date": "2024-12-13",
+          "ex_dividend_date": "2024-11-27",
+          "last_split_date": "2006-02-23",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5263,
+          "target_price": 83.1477,
+          "strong_buy": 10,
+          "buy": 9,
+          "hold": 0,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 435387008,
+          "percent_institutions": 73.317,
+          "percent_insiders": 0.136,
+          "shares_float": 434229318
+        },
+        "balance_latest_sheet": {
+          "total_assets": 9581.556,
+          "total_debt": 995.965,
+          "cash_and_equivalents": 263.848,
+          "net_debt": 279.673,
+          "working_capital": 1193.068,
+          "shareholders_equity": 6741.473,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.15
+        },
+        "income_latest_statement": {
+          "total_revenue": 877.016,
+          "gross_profit": 257.09,
+          "operating_income": 165.951,
+          "net_income": 320.888,
+          "ebitda": 500.83,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 29.31,
+          "operating_margin": 18.92,
+          "net_margin": 36.59
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 465.2,
+          "free_cash_flow": 390.277,
+          "capex": 74.923,
+          "net_income": 320.885,
+          "cash_change": 354.84,
+          "dividends_paid": 0.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.2842,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 78.53,
+            "high": 80.05,
+            "low": 77.38,
+            "close": 78.97,
+            "volume": 4633400
+          },
+          {
+            "date": "2025-07-21",
+            "open": 79.29,
+            "high": 79.35,
+            "low": 76.21,
+            "close": 77.08,
+            "volume": 5126437
+          },
+          {
+            "date": "2025-07-22",
+            "open": 76.6,
+            "high": 78.36,
+            "low": 75.45,
+            "close": 77.9,
+            "volume": 5325720
+          },
+          {
+            "date": "2025-07-23",
+            "open": 77.5,
+            "high": 79.9,
+            "low": 77.44,
+            "close": 79.15,
+            "volume": 4909000
+          },
+          {
+            "date": "2025-07-24",
+            "open": 79.15,
+            "high": 80.06,
+            "low": 78.87,
+            "close": 79.92,
+            "volume": 3695700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 79.53,
+            "high": 79.92,
+            "low": 77.71,
+            "close": 79.6,
+            "volume": 3508700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 79.88,
+            "high": 79.9,
+            "low": 77.9,
+            "close": 79.14,
+            "volume": 3534900
+          },
+          {
+            "date": "2025-07-29",
+            "open": 79.17,
+            "high": 80.32,
+            "low": 78.18,
+            "close": 78.69,
+            "volume": 3714300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 77.81,
+            "high": 79.05,
+            "low": 76.8,
+            "close": 77.75,
+            "volume": 4376900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 79.95,
+            "high": 80.06,
+            "low": 73.86,
+            "close": 74.93,
+            "volume": 7921500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 72.91,
+            "high": 73.63,
+            "low": 70.82,
+            "close": 72.93,
+            "volume": 6061800
+          },
+          {
+            "date": "2025-08-04",
+            "open": 73.51,
+            "high": 75.38,
+            "low": 73,
+            "close": 75.26,
+            "volume": 3438200
+          },
+          {
+            "date": "2025-08-05",
+            "open": 75.6,
+            "high": 76.57,
+            "low": 73.68,
+            "close": 74.59,
+            "volume": 4324900
+          },
+          {
+            "date": "2025-08-06",
+            "open": 75.44,
+            "high": 77.56,
+            "low": 74.84,
+            "close": 76.55,
+            "volume": 4451900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 76.88,
+            "high": 76.88,
+            "low": 75.13,
+            "close": 76.37,
+            "volume": 3332000
+          },
+          {
+            "date": "2025-08-08",
+            "open": 76.75,
+            "high": 78.71,
+            "low": 76.7,
+            "close": 76.92,
+            "volume": 3769000
+          },
+          {
+            "date": "2025-08-11",
+            "open": 76.51,
+            "high": 78.19,
+            "low": 74.74,
+            "close": 77.67,
+            "volume": 3296200
+          },
+          {
+            "date": "2025-08-12",
+            "open": 77.66,
+            "high": 78.87,
+            "low": 76.96,
+            "close": 78.43,
+            "volume": 3087300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 78.49,
+            "high": 78.96,
+            "low": 73.6,
+            "close": 75.6,
+            "volume": 5341300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 75.5,
+            "high": 77.15,
+            "low": 75.18,
+            "close": 75.55,
+            "volume": 3002800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 75.3,
+            "high": 75.61,
+            "low": 73.36,
+            "close": 75.6,
+            "volume": 2663100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 75.42,
+            "high": 76.95,
+            "low": 74.8,
+            "close": 76.82,
+            "volume": 2658800
+          },
+          {
+            "date": "2025-08-19",
+            "open": 76.48,
+            "high": 76.82,
+            "low": 73.29,
+            "close": 73.82,
+            "volume": 4162400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 72.66,
+            "high": 73.09,
+            "low": 68.96,
+            "close": 70.47,
+            "volume": 8106300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 70.79,
+            "high": 71.52,
+            "low": 70.47,
+            "close": 71.43,
+            "volume": 3032900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 73.64,
+            "high": 75.58,
+            "low": 72.75,
+            "close": 74.91,
+            "volume": 4584000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 75.16,
+            "high": 75.96,
+            "low": 74.45,
+            "close": 74.97,
+            "volume": 2861900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 74.83,
+            "high": 77.32,
+            "low": 74.65,
+            "close": 76.51,
+            "volume": 2837000
+          },
+          {
+            "date": "2025-08-27",
+            "open": 76.45,
+            "high": 76.45,
+            "low": 75.09,
+            "close": 75.28,
+            "volume": 1862200
+          },
+          {
+            "date": "2025-08-28",
+            "open": 75.53,
+            "high": 79.42,
+            "low": 75.47,
+            "close": 78.63,
+            "volume": 3803808
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.937942079273974,
+        "return_63d": 34.34136340338287,
+        "pct_above_sma50": 4.872160795977422,
+        "sma_50": 74.977,
+        "new_55d_high": "False",
+        "high_55d": 80.32,
+        "rsi": 53.778170570039755,
+        "rsi_in_range": "True",
+        "adx": 22.95683572921456,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.6201195472465955,
+        "bb_width": 11.04986904940987,
+        "keltner_width": 15.124632765609809,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 289134761.4612,
+        "adv_shares": 3833890.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 52.323017924534206,
+        "final_score": 52.323017924534206,
+        "sub_scores": {
+          "trend_momentum": 18.770840146756413,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.552177777777793,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.1318327974276565,
+          "ret_63d": 32.93322062552831,
+          "rsi14": 53.778170570039755,
+          "adx14": 19.50618506238131,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CCJ\n• Current Price: $78.63\n• Overall Score: 52.04070229067771\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 74.977\n• Sma 200: 56.5678\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.1318327974276468\n• Momentum 63D: 32.933220625528314\n• Momentum 126D: 80.84176632934683\n• Momentum Acceleration: -31.801387828100665\n• Roc 21D: 1.1318327974276468\n• Trend Strength 20D: 0.001528360980991415\n• Trend Direction: 1\n• Ma Ribbon Score: 84.16747165467042\n• Breakout Strength: 50.0\n• Price Velocity: 0.01969714763685937\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: 0.0365214610506567\n• Volatility Compression: 39.34819601404325\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.770840146756413\n• Squeeze Breakout: 4.0\n• Options Quality: 18.552177777777793\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 62.0\n• Momentum: 55.0\n• Squeeze: 55.902229402106485\n• Options: 41.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CCJ\n• Strike Price: $75\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.15\n• Ask: $7.25\n• Last: $7.15\n• Mid: $7.20\n• Spread: 1.379310344827586206896551724%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6569\n• Gamma: 0.0289\n• Theta: -0.0525\n• Vega: 0.1062\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4406\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 426\n• Open Interest: 711\n• Volume/OI Ratio: 0.5991561181434599\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Cameco Corp\n• Sector: Energy\n• Industry: Uranium\n• EPS (TTM): $0.88\n• Profit Margin: 14.9%\n• ROE: 8.2%\n• P/E Ratio: 89.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T02:36:23+00:00: Dow Jones Futures Fall, Fed Inflation Data Due; 7 New Buys After Nvidia Test...\n• 2025-08-28T20:43:23+00:00: Dow Jones Futures: S&amp;P 500 Hits Fresh High After Nvidia Test; 7 Stocks Flash...\n• 2025-08-28T17:39:27+00:00: Stock Of The Day Sets Up Bullishly As It Literally Fuels AI Data Centers...\n• 2025-08-28T14:25:00+00:00: Can LEU's Partnership With KHNP &amp; POSCO Reshape Nuclear Fuel Markets?...\n• 2025-08-27T16:35:00+00:00: Another Old Nuclear Reactor is Coming Back. These Stocks Could Benefit....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CCJ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CCJ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:31:59.956215",
+    "estimated_tokens": 2332
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CCJ\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CCJ shows strong technical momentum with an 84.17 MA ribbon score and multiple timeframe squeezes, supported by uranium sector tailwinds. The LEAPS option presents favorable liquidity with tight 1.38% spreads, though near-term earnings and high P/E ratio warrant caution.\",\n    \"opportunities\": [\n        \"Strong MA ribbon score (84.17) indicating robust uptrend\",\n        \"Multiple timeframe squeeze setup (2 concurrent squeezes)\",\n        \"Tight option spreads (1.38%) with healthy volume/OI ratio\"\n    ],\n    \"risks\": [\n        \"Upcoming earnings on 2025-09-30\",\n        \"High P/E ratio of 89.4x\",\n        \"Negative momentum acceleration (-31.80)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 $75 CALL with 0.66 delta for directional exposure\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Size position conservatively given high P/E and upcoming earnings catalyst\"\n    },\n    \"red_flags\": [\n        \"Earnings within 30 days\",\n        \"Significantly elevated P/E ratio\"\n    ],\n    \"notes\": \"Strong technical setup is partially offset by valuation concerns and earnings timing risk. Consider post-earnings entry for clearer risk profile.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CCJ",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "CCJ shows strong technical momentum with an 84.17 MA ribbon score and multiple timeframe squeezes, supported by uranium sector tailwinds. The LEAPS option presents favorable liquidity with tight 1.38% spreads, though near-term earnings and high P/E ratio warrant caution.",
+      "opportunities": [
+        "Strong MA ribbon score (84.17) indicating robust uptrend",
+        "Multiple timeframe squeeze setup (2 concurrent squeezes)",
+        "Tight option spreads (1.38%) with healthy volume/OI ratio"
+      ],
+      "risks": [
+        "Upcoming earnings on 2025-09-30",
+        "High P/E ratio of 89.4x",
+        "Negative momentum acceleration (-31.80)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 $75 CALL with 0.66 delta for directional exposure",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Size position conservatively given high P/E and upcoming earnings catalyst"
+      },
+      "red_flags": [
+        "Earnings within 30 days",
+        "Significantly elevated P/E ratio"
+      ],
+      "notes": "Strong technical setup is partially offset by valuation concerns and earnings timing risk. Consider post-earnings entry for clearer risk profile."
+    },
+    "tokens_used": 2512,
+    "cost": 0.02512,
+    "response_time": 10.548957347869873,
+    "success": true
+  },
+  "cost": 0.02512,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8532,
+    "response_length": 1516
+  }
+}

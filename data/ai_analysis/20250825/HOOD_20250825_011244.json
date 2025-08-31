@@ -1,0 +1,629 @@
+{
+  "success": true,
+  "symbol": "HOOD",
+  "timestamp": "2025-08-25T01:12:44.330144",
+  "data_package": {
+    "metadata": {
+      "symbol": "HOOD",
+      "package_timestamp": "2025-08-25T01:12:34.389650",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "HOOD",
+        "current_price": 109.32,
+        "overall_score": 53.531923076923086,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 98.3692,
+        "sma_200": 59.6615
+      },
+      "momentum_metrics": {
+        "momentum_21d": 7.250073579907766,
+        "momentum_63d": 68.78184344603983,
+        "momentum_126d": 111.86046511627904,
+        "momentum_acceleration": -61.531769866132066,
+        "roc_21d": 7.250073579907766,
+        "trend_strength_20d": 0.2037205630871576,
+        "trend_direction": 1,
+        "ma_ribbon_score": 73.6572657655855,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.008100882379605512
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 15.0,
+        "squeeze_momentum": -0.1934398253478481,
+        "volatility_compression": 3.5,
+        "is_consolidating": "False",
+        "breakout_score": -70.33674753597155,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 20.535095954455475,
+        "squeeze_breakout": 4.0,
+        "options_quality": 21.211857506361337,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 63.0,
+        "squeeze": 50.525,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 4,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "HOOD",
+        "strike_price": "105",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "13",
+        "ask": "13.2",
+        "last_price": "13.04",
+        "mid_price": "13.1",
+        "spread_percent": "1.515151515151515151515151515"
+      },
+      "greeks": {
+        "delta": 0.6234,
+        "gamma": 0.0141,
+        "theta": -0.0971,
+        "vega": 0.1626
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.6246
+      },
+      "liquidity_metrics": {
+        "volume": 758,
+        "open_interest": 25129,
+        "volume_oi_ratio": 0.03016435194396912
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:42.896512",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-24T13:04:10+00:00",
+            "title": "Guru Fundamental Report for HOOD",
+            "content": "Below is Validea's guru fundamental report for ROBINHOOD MARKETS INC (HOOD). Of the 22 guru strategies we follow,  HOOD rates highest using our Quantitative Momentum Investor model based on the published strategy of Wesley Gray. This momentum model looks for stocks with strong and consistent intermediate-term relative performance.\n\nROBINHOOD MARKETS INC (HOOD) is a large-cap growth stock in the Software & Programming industry. The rating using this strategy is 100% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. DEFINE THE UNIVERSE:PASSTWELVE MINUS ONE MOMENTUM:PASSRETURN CONSISTENCYPASSSEASONALITYNEUTRAL\n\nDetailed Analysis of ROBINHOOD MARKETS INC\n\nHOOD Guru Analysis\n\nHOOD Fundamental Analysis\n\nMore Information on Wesley Gray\n\nWesley Gray Portfolio\n\nAbout Wesley Gray: Wesley Gray is the founder of Alpha Architect and the author (along with co-author Jack Vogel) of \"Quantitative Momentum A Practitioner's Guide to Building a Momentum-Based Stock Selection System\". He is also the author (along with co-author Tobias Carlisle) of \"Quantitative Value: A Practitioner's Guide to Automating Intelligent Investment and Eliminating Behavioral Errors\". He is an industry recognized expert in the application of quantitative investing strategies. Wes is also a former Marine and has his Phd from the Univerisity of Chicago, where he studied under Nobel Prize winner Eugene Fama.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nTop Technology Stocks\n\nTop Large-Cap Growth Stocks\n\nHigh Momentum Stocks\n\nTop Chip Stocks\n\nHigh Insider Ownership Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T11:02:45+00:00",
+            "title": "'Powell clearly opens the door': Markets surge as speculative bets get another boost from dovish Jay Powell",
+            "content": "US stocks ripped higher Friday after Federal Reserve Chair Jerome Powell opened the door to a September rate cut during his speech at Jackson Hole — a dovish turn that lit a fire under speculative trades from meme stocks to crypto.\n\n\"The baseline outlook and the shifting balance of risks may warrant adjusting our policy stance,\" Powell said.\n\n\"Powell clearly opens the door for a September cut,\" Oxford Economics chief US economist Ryan Sweet wrote in a note. \"When Fed chairs open the door for a rate cut, it’s quite difficult to close.\"\n\nThat expectation helped ignite a broad risk-on rally, with some of the market’s most volatile corners leading the charge.\n\nOpendoor (OPEN), a debated Wall Street meme stock, surged nearly 40% as investors piled into housing-related names on expectations that lower borrowing costs could revive demand.\n\nCrypto and crypto-linked equities also roared back. Ethereum (ETH-USD) spiked 14% as of Friday afternoon, outpacing a 4% gain in bitcoin (BTC-USD). Solana (SOL-USD) and XRP (XRP-USD) each rose around 10% and 7%, respectively.\n\nCCC - CoinMarketCap•USD\n\n(BTC-USD)\n\nFollow  View Quote Details\n\n114,852.02\n\n-673.95\n\n(-0.58%)\n\nAs of 11:07:00 AM UTC. Market Open.  BTC-USDETH-USD SOL-USD\n\nAdvanced Chart\n\nThat enthusiasm spilled into crypto-adjacent names as well: Coinbase (COIN) climbed over 6%, Robinhood (HOOD) added about 3%, and Strategy (MSTR) gained 6%.\n\nThe moves marked a sharp rebound after a bruising stretch for speculative assets, particularly as doubts mounted over the sustainability of the AI-fueled tech rally.\n\n\"Equity markets reacted very positively,\" Scott Chronert, managing director of US equity strategy at Citi, wrote in a Friday note, highlighting the Russell 2000 (^RUT), a benchmark for small-cap stocks, had the most \"striking surge\" as investors shifted money into more economically sensitive names.\n\nThat broadening story, which captured Wall Street’s attention this week, was also evident with the equal-weighted S&P 500, which gives smaller companies the same influence as megacap tech, slightly leading the headline index.\n\nThat signals the rally is beginning to expand beyond the largest technology stocks that have dominated gains over the past two years.\n\nStill, Chronert noted Friday, \"there is some 'junkiness' to this initial reaction. Speculative/non-earners in growth sectors outperformed.\" Speculative growth names, particularly unprofitable tech companies, have surged since the April market bottom.Federal Reserve Chairman Jerome Powell is seen walking in Grand Teton National Park on August 22, 2025 near Jackson Hole, Wyoming. (Photo by Natalie Behring/Getty Images)·Natalie Behring via Getty Images\n\nGoldman Sachs' Non-Profitable Tech Index, which tracks US-listed tech firms that have yet to generate positive GAAP earnings, jumped about 4% on Friday, extending its recent rebound. The index has climbed more than 65% off its spring lows and now sits just shy of recent highs.\n\nStory Continues\n\nAdding fuel to the speculative fire, UBS’s Meme Stocks basket also surged on Friday, hitting a one-year high.\n\nSome market watchers, however, emphasized that fundamentals are helping drive the shift in markets, and lower rates only help that case.\n\n\"Ultimately, earnings drive stock prices higher,\" Lou Basenese, executive vice president of market strategy at Prairie Operating Co. and founder of TheBigSkinny.com, told Yahoo Finance on Friday.\n\nNoting the solid results across the board this earnings season, Basenese added, \"If the earnings growth is accelerating, it now brings those relative valuations back in line where people can buy confidently.”\n\n\"I think this is an economy and market that is ready to go much higher based upon the fundamentals,\" he continued. \"The big unknown has been interest rates.\"\n\nAfter Powell’s speech on Friday, investors got the clarity they’d been looking for.\n\nAllie Canal is a Senior Reporter at Yahoo Finance. Follow her on X @allie_canal, LinkedIn, and email her at alexandra.canal@yahoofinance.com.\n\nClick here for the latest stock market news and in-depth analysis, including events that move stocks\n\nRead the latest financial and business news from Yahoo Finance\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T07:42:00+00:00",
+            "title": "Is Robinhood Stock a Millionaire Maker?",
+            "content": "Key Points\n\nRobinhood's stock has skyrocketed by 810% since the beginning of 2023. Its total platform assets have increased from $62 billion to $298 billion over that period. It's expanding its product suite to include alternative financial markets, such as index options, futures, event-based contracts, and tokenized assets.10 stocks we like better than Robinhood Markets ›\n\nRobinhood(NASDAQ: HOOD) has gone on a tear, with the stock surging 810% since the start of 2023. Its meteoric rise is eye-opening, considering the company's struggles just a few years back.\n\nRobinhood's impressive turnaround has been led by CEO Vlad Tenev, who has been diligently working to reshape the company into a global trading platform tailored for the next generation of investors. With the stock's recent performance, investors may be wondering: Could buying shares today be a ticket to millionaire status? Below, I'll dive deeper and explore Robinhood's opportunity.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\nRobinhood's platform growth is staggering\n\nA few years back, Robinhood was struggling. The broker, which aimed to \"democratize finance for all,\" faced intense scrutiny from regulators and customers alike. Many were critical of its \"payment for order flow\" business model, and there were even fears that the SEC would crack down and take away its primary revenue source.\n\nFast forward to today, and Robinhood has kick-started growth, enhanced its platform, and is pursuing several different initiatives to drive growth. The company has had a laser focus on adding customers and building a solid asset base. Since the end of 2022, its total platform has grown from $62 billion to $298 billion, as of July 31.\n\nImage source: Robinhood.\n\nThe company has done an excellent job of attracting customers to its platform, thanks to an appealing annual percentage yield (APY). One key to this is Robinhood Gold, its subscription service, which charges $5 per month or $50 per year.\n\nThis subscription service serves two purposes for Robinhood. For one, it provides the company with a steady stream of income, while customers get higher yields on their uninvested cash. Second, users who subscribe to Robinhood Gold have more assets and engage with the platform more frequently than non-subscribers.\n\nRobinhood's push into alternative financial markets\n\nThe company has attracted investors with its appealing APY. However, to continue growing, Robinhood is pursuing other avenues to continue to drive growth.\n\nFor one, it has upgraded its trading platform with Robinhood Legend, its browser-based platform. The company aims to attract active traders with its upgraded platform. It has also expanded its tradable products, including index options and futures.\n\nRobinhood is also providing customers with event-based contracts, another tradable product that aligns with the growing trend of betting markets. These event contracts, also known as prediction markets, allow users to wager on various outcomes, ranging from sports events to political elections.\n\nDuring the company'searnings callin February, CEO Vlad Tenev expressed his belief in the future of prediction markets, stating:\n\nI think prediction markets are the future. I think they're the future, not just as an active trading asset, but also news and information. And Robinhood's going to be right there leading the way.\n\nImage source: Getty Images.\n\nThe company is also aggressively pursuing tokenization. This practice involves transforming traditional financial assets, such as equities and private investments, onto blockchain technology to increase efficiency and liquidity.\n\nOne of the recent announcements that stirred up discussion was its tokenization of OpenAI and SpaceX for European users, neither of which is publicly traded. The tokens track the private market valuations of these companies. \"These tokens give retail investors indirect exposure to private markets, opening up access, and are enabled by Robinhood's ownership stake in a special purpose vehicle,\" a Robinhood spokesperson said.\n\nIs Robinhood a millionaire-maker stock?\n\nRobinhood has done an excellent job of growing its platform and expanding its offerings for customers. The company turned in a positive GAAP earnings per share (EPS) of $0.95 last year, and analysts project EPS of $1.60 this year.\n\nWith its recent surge, the stock has become expensive, priced at 69 times this year's projected earnings. Given its lofty valuation, it's more vulnerable to significant price swings, so investors may want to wait for a chance to enter at a lower price.\n\nCan buying Robinhood make you a millionaire? It's possible, with enough capital and time, that it could.\n\nI like its growth initiatives, and think it has done a great job of diversifying into different avenues where there are trends and that can drive growth. With that said, if you're looking to build sustainable wealth, you're best bet is to invest with a long-term horizon, diversify, and contribute to your investment account regularly. And Robinhood could be a small part of this.\n\nShould you invest $1,000 in Robinhood Markets right now?\n\nBefore you buy stock in Robinhood Markets, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Robinhood Markets wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nCourtney Carlsen has positions in Robinhood Markets. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T07:42:00+00:00",
+            "title": "Is Robinhood Stock a Millionaire Maker?",
+            "content": "Key Points\n\nRobinhood's stock has skyrocketed by 810% since the beginning of 2023. Its total platform assets have increased from $62 billion to $298 billion over that period. It's expanding its product suite to include alternative financial markets, such as index options, futures, event-based contracts, and tokenized assets. 10 stocks we like better than Robinhood Markets ›\n\nRobinhood(NASDAQ: HOOD) has gone on a tear, with the stock surging 810% since the start of 2023. Its meteoric rise is eye-opening, considering the company's struggles just a few years back.\n\nRobinhood's impressive turnaround has been led by CEO Vlad Tenev, who has been diligently working to reshape the company into a global trading platform tailored for the next generation of investors. With the stock's recent performance, investors may be wondering: Could buying shares today be a ticket to millionaire status? Below, I'll dive deeper and explore Robinhood's opportunity.\n\nRobinhood's platform growth is staggering\n\nA few years back, Robinhood was struggling. The broker, which aimed to \"democratize finance for all,\" faced intense scrutiny from regulators and customers alike. Many were critical of its \"payment for order flow\" business model, and there were even fears that the SEC would crack down and take away its primary revenue source.\n\nFast forward to today, and Robinhood has kick-started growth, enhanced its platform, and is pursuing several different initiatives to drive growth. The company has had a laser focus on adding customers and building a solid asset base. Since the end of 2022, its total platform has grown from $62 billion to $298 billion, as of July 31.Image source: Robinhood.\n\nThe company has done an excellent job of attracting customers to its platform, thanks to an appealing annual percentage yield (APY). One key to this is Robinhood Gold, its subscription service, which charges $5 per month or $50 per year.\n\nThis subscription service serves two purposes for Robinhood. For one, it provides the company with a steady stream of income, while customers get higher yields on their uninvested cash. Second, users who subscribe to Robinhood Gold have more assets and engage with the platform more frequently than non-subscribers.\n\nRobinhood's push into alternative financial markets\n\nThe company has attracted investors with its appealing APY. However, to continue growing, Robinhood is pursuing other avenues to continue to drive growth.\n\nFor one, it has upgraded its trading platform with Robinhood Legend, its browser-based platform. The company aims to attract active traders with its upgraded platform. It has also expanded its tradable products, including index options and futures.\n\nStory Continues\n\nRobinhood is also providing customers with event-based contracts, another tradable product that aligns with the growing trend of betting markets. These event contracts, also known as prediction markets, allow users to wager on various outcomes, ranging from sports events to political elections.\n\nDuring the company's earnings call in February, CEO Vlad Tenev expressed his belief in the future of prediction markets, stating:\n\nI think prediction markets are the future. I think they're the future, not just as an active trading asset, but also news and information. And Robinhood's going to be right there leading the way.Image source: Getty Images.\n\nThe company is also aggressively pursuing tokenization. This practice involves transforming traditional financial assets, such as equities and private investments, onto blockchain technology to increase efficiency and liquidity.\n\nOne of the recent announcements that stirred up discussion was its tokenization of OpenAI and SpaceX for European users, neither of which is publicly traded. The tokens track the private market valuations of these companies. \"These tokens give retail investors indirect exposure to private markets, opening up access, and are enabled by Robinhood's ownership stake in a special purpose vehicle,\" a Robinhood spokesperson said.\n\nIs Robinhood a millionaire-maker stock?\n\nRobinhood has done an excellent job of growing its platform and expanding its offerings for customers. The company turned in a positive GAAP earnings per share (EPS) of $0.95 last year, and analysts project EPS of $1.60 this year.\n\nWith its recent surge, the stock has become expensive, priced at 69 times this year's projected earnings. Given its lofty valuation, it's more vulnerable to significant price swings, so investors may want to wait for a chance to enter at a lower price.\n\nCan buying Robinhood make you a millionaire? It's possible, with enough capital and time, that it could.\n\nI like its growth initiatives, and think it has done a great job of diversifying into different avenues where there are trends and that can drive growth. With that said, if you're looking to build sustainable wealth, you're best bet is to invest with a long-term horizon, diversify, and contribute to your investment account regularly. And Robinhood could be a small part of this.\n\nShould you buy stock in Robinhood Markets right now?\n\nBefore you buy stock in Robinhood Markets, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Robinhood Markets wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nCourtney Carlsen has positions in Robinhood Markets. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.\n\nIs Robinhood Stock a Millionaire Maker? was originally published by The Motley Fool",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:26:23+00:00",
+            "title": "Post-Powell speech rally: Ethereum &amp; Opendoor among top winners",
+            "content": "US stocks (^DJI, ^GSPC, ^IXIC) ended Friday's session higher, with bitcoin (BTC-USD) and ethereum (ETH-USD) also seeing significant gains. Crypto-related stocks, like Robinhood (HOOD), Coinbase (COIN), and Strategy (MSTR), and high volatility names like Opendoor (OPEN) saw price jumps.\n\nYahoo Finance Senior Reporter Allie Canal outlines what investors need to know about the market rally following Federal Reserve Chair Jerome Powell's Jackson Hole remarks.\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination.\n\nVideo Transcript\n\n00:00:00 Speaker A\n\nStocks ripping higher to close out the week after Fed chair Jerome Powell open the door to a September rate cut at Jackson Hole. Powell saying, quote, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance. That fueled bets that the Fed could ease as soon as next month. Markets took that as a green light for risk. Meme darling, Open Door that jumped more than 30%, Ethereum spiked 13% outpacing a 4% gain in Bitcoin. And the enthusiasm spilled into some of those crypto linked names as well. Coinbase gained around 7%, Robin Hood up 4%, strategy up 6%. And this marks a sharp rebound after a pretty rough stretch for some of those high volatility plays. City strategist Scott Croner called the market reaction, quote, very positive, highlighting that a striking surge in small caps along with the equal weighted S&P 500 leading the headline index, it's really all incongruent a sign that the rally may be broadening beyond just Big Tech. Still Croner caution that there was some junkiness as unprofitable growth names also surge, but just really an overall risk on rally here amid Powell's dovish tilt. The question, of course now is whether this proves durable. Here's some of the reaction that we heard today following that speech.\n\n00:02:16 Speaker B\n\nI think he laid out the options in front of us by and not commit to anything. This is important. I know the markets think that he's committed, but I think at this point, there's a lot of uncertainty. I know that word's being used a lot, but the signals are mixed.\n\n00:03:02 Speaker C\n\nWhat Powell was trying to do today was to open the door to a rate cut in September. And what that does is that gives him a little bit insulation because if we get a really bad jobs report next month in early September, he can say, look, I opened the door to a move. Don't worry, we're on it. It's coming.\n\n00:03:53 Speaker D\n\nIn a way, maybe he's auditioning for the role of Fed chair. You know, if you look at the text of the speech, he actually completely removed the phrase that has characterized his entire term as Fed share of data dependent. Uh that wasn't in the speech and he's talking more about the balance of risks, looking ahead, and it was actually kind of refreshing to hear that.\n\n00:04:45 Speaker A\n\nNow, there is going to be a fair amount of data that will be released prior to this September decision. As you just heard, there's still some uncertainty related to the inflation side of the Fed's dual mandate. So we'll have to wait and see, but right now, market's clearly interpreting this as a rate cut in September, Josh.\n\n00:05:19 Josh\n\nAll right, Alex. Now, thank you.  Related Videos\n\n06:22\n\nRate cut in Sept. is 'more likely than not': Fmr. Fed vice chair\n\nYahoo Finance Video • 17 minutes ago 02:37\n\nDow closes at a new record, surging more than 800 points\n\nYahoo Finance Video • 33 minutes ago 01:39\n\nWhy Opendoor stock is skyrocketing right now\n\nYahoo Finance Video • 37 minutes ago 02:11\n\nStablecoin adoption is driving demand for US Treasury bills\n\nYahoo Finance Video • 45 minutes ago\n\nKommentare anzeigen",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Robinhood Markets Inc",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "employees": 2300,
+          "description": "Robinhood Markets, Inc. operates financial services platform in the United States. Its platform allows users to invest in stocks, exchange-traded funds (ETFs), American depository receipts, options, gold, and cryptocurrencies. The company offers fractional trading, recurring investments, fully-paid "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.97,
+          "profit_margin": 0.5013,
+          "operating_margin": 0.4439,
+          "roe": 0.2354,
+          "roa": 0.0466,
+          "revenue_growth_yoy": 0.45,
+          "earnings_growth_yoy": 1,
+          "eps_estimate_current_year": 1.8757,
+          "eps_estimate_next_year": 2.1063,
+          "revenue_ttm": 3567000064,
+          "revenue_per_share": 4.036,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 55.4924,
+          "forward_pe": 77.5194,
+          "price_to_sales": 27.2358,
+          "price_to_book": 12.0354,
+          "enterprise_value": 96251961166,
+          "ev_to_revenue": 26.984,
+          "ev_to_ebitda": 60.1199
+        },
+        "technical_data": {
+          "beta": 2.37,
+          "52_week_high": 117.7,
+          "52_week_low": 18.71,
+          "50_day_ma": 98.3692,
+          "200_day_ma": 59.6615,
+          "short_interest": 0.0384,
+          "short_ratio": 0.53
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0476,
+          "target_price": 113.0862,
+          "strong_buy": 8,
+          "buy": 6,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 773964032,
+          "percent_institutions": 72.533,
+          "percent_insiders": 0.736,
+          "shares_float": 765300330
+        },
+        "balance_latest_sheet": {
+          "total_assets": 35324.0,
+          "total_debt": 12640.0,
+          "net_debt": 8478.0,
+          "working_capital": 6711.0,
+          "shareholders_equity": 8072.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.57
+        },
+        "income_latest_statement": {
+          "total_revenue": 989.0,
+          "gross_profit": 912.0,
+          "operating_income": 440.0,
+          "net_income": 386.0,
+          "ebitda": 457.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 92.21,
+          "operating_margin": 44.49,
+          "net_margin": 39.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1829.0,
+          "free_cash_flow": 1811.0,
+          "capex": 18.0,
+          "net_income": 386.0,
+          "cash_change": 8602.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.3944,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 100.87,
+            "high": 101.89,
+            "low": 98.9,
+            "close": 99.96,
+            "volume": 47356262
+          },
+          {
+            "date": "2025-07-15",
+            "open": 99.01,
+            "high": 101.26,
+            "low": 97.16,
+            "close": 99.54,
+            "volume": 45879352
+          },
+          {
+            "date": "2025-07-16",
+            "open": 100.02,
+            "high": 104.62,
+            "low": 99.7002,
+            "close": 103.25,
+            "volume": 54717340
+          },
+          {
+            "date": "2025-07-17",
+            "open": 103.535,
+            "high": 106.6396,
+            "low": 102.72,
+            "close": 105.45,
+            "volume": 39114434
+          },
+          {
+            "date": "2025-07-18",
+            "open": 109.75,
+            "high": 113.4393,
+            "low": 106.95,
+            "close": 109.74,
+            "volume": 74033266
+          },
+          {
+            "date": "2025-07-21",
+            "open": 109,
+            "high": 110.31,
+            "low": 104.07,
+            "close": 104.34,
+            "volume": 46430633
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.71,
+            "high": 105.93,
+            "low": 98.75,
+            "close": 101.85,
+            "volume": 44667367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 102.13,
+            "high": 102.68,
+            "low": 100.5401,
+            "close": 102.08,
+            "volume": 33805207
+          },
+          {
+            "date": "2025-07-24",
+            "open": 103,
+            "high": 103.0399,
+            "low": 100.3201,
+            "close": 101.93,
+            "volume": 26698131
+          },
+          {
+            "date": "2025-07-25",
+            "open": 101.545,
+            "high": 106.39,
+            "low": 101.05,
+            "close": 104.85,
+            "volume": 35637840
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.84,
+            "high": 107.13,
+            "low": 104.66,
+            "close": 106.77,
+            "volume": 30578430
+          },
+          {
+            "date": "2025-07-29",
+            "open": 106.61,
+            "high": 107.42,
+            "low": 103,
+            "close": 103.32,
+            "volume": 30568010
+          },
+          {
+            "date": "2025-07-30",
+            "open": 103.85,
+            "high": 107.46,
+            "low": 103.35,
+            "close": 106.1,
+            "volume": 39913480
+          },
+          {
+            "date": "2025-07-31",
+            "open": 103.865,
+            "high": 109.06,
+            "low": 101.07,
+            "close": 103.05,
+            "volume": 58057602
+          },
+          {
+            "date": "2025-08-01",
+            "open": 97.8,
+            "high": 104.59,
+            "low": 93.36,
+            "close": 99.9,
+            "volume": 76745148
+          },
+          {
+            "date": "2025-08-04",
+            "open": 101.229,
+            "high": 106.79,
+            "low": 97.1532,
+            "close": 106.37,
+            "volume": 46466000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 105.97,
+            "high": 107.3,
+            "low": 103.22,
+            "close": 105.46,
+            "volume": 33460910
+          },
+          {
+            "date": "2025-08-06",
+            "open": 104.505,
+            "high": 105.9,
+            "low": 101.18,
+            "close": 105.65,
+            "volume": 33023520
+          },
+          {
+            "date": "2025-08-07",
+            "open": 107.89,
+            "high": 112.6344,
+            "low": 107.4,
+            "close": 111.23,
+            "volume": 44736008
+          },
+          {
+            "date": "2025-08-08",
+            "open": 111.5,
+            "high": 117,
+            "low": 110.9,
+            "close": 114.63,
+            "volume": 41905727
+          },
+          {
+            "date": "2025-08-11",
+            "open": 116.22,
+            "high": 117.47,
+            "low": 113.39,
+            "close": 113.62,
+            "volume": 36942289
+          },
+          {
+            "date": "2025-08-12",
+            "open": 115.04,
+            "high": 117.7,
+            "low": 113.18,
+            "close": 114.09,
+            "volume": 31527529
+          },
+          {
+            "date": "2025-08-13",
+            "open": 115.65,
+            "high": 116.4,
+            "low": 107.28,
+            "close": 108.62,
+            "volume": 54719727
+          },
+          {
+            "date": "2025-08-14",
+            "open": 107.88,
+            "high": 111.46,
+            "low": 106.31,
+            "close": 110.71,
+            "volume": 34395246
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.73,
+            "high": 114.36,
+            "low": 108.61,
+            "close": 114.17,
+            "volume": 32215891
+          },
+          {
+            "date": "2025-08-18",
+            "open": 113,
+            "high": 115.09,
+            "low": 109.78,
+            "close": 115.02,
+            "volume": 35579152
+          },
+          {
+            "date": "2025-08-19",
+            "open": 116.12,
+            "high": 117.46,
+            "low": 106.5,
+            "close": 107.5,
+            "volume": 49635648
+          },
+          {
+            "date": "2025-08-20",
+            "open": 106.665,
+            "high": 107.98,
+            "low": 99,
+            "close": 105.34,
+            "volume": 56515328
+          },
+          {
+            "date": "2025-08-21",
+            "open": 105.03,
+            "high": 108.21,
+            "low": 104.35,
+            "close": 106.3,
+            "volume": 34679020
+          },
+          {
+            "date": "2025-08-22",
+            "open": 105.53,
+            "high": 111.8825,
+            "low": 103.8,
+            "close": 109.32,
+            "volume": 39922157
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.263233190271816,
+        "return_63d": 73.05683077410161,
+        "pct_above_sma50": 11.132346303517753,
+        "sma_50": 98.3692,
+        "new_55d_high": "False",
+        "high_55d": 117.7,
+        "rsi": 53.97681315718521,
+        "rsi_in_range": "True",
+        "adx": 10.727456982419506,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.835332052689353,
+        "bb_width": 16.05264762421603,
+        "keltner_width": 23.59762354272185,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 4559654282.584351,
+        "adv_shares": 42079341.1,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 56.74695346081681,
+        "final_score": 51.74695346081681,
+        "sub_scores": {
+          "trend_momentum": 20.535095954455475,
+          "squeeze_breakout": 4.0,
+          "options_quality": 21.211857506361337,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 7.250073579907768,
+          "ret_63d": 68.78184344603983,
+          "rsi14": 53.97681315718521,
+          "adx14": 8.433336268824728,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: HOOD\n• Current Price: $109.32\n• Overall Score: 53.531923076923086\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 98.3692\n• Sma 200: 59.6615\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 7.250073579907766\n• Momentum 63D: 68.78184344603983\n• Momentum 126D: 111.86046511627904\n• Momentum Acceleration: -61.531769866132066\n• Roc 21D: 7.250073579907766\n• Trend Strength 20D: 0.2037205630871576\n• Trend Direction: 1\n• Ma Ribbon Score: 73.6572657655855\n• Breakout Strength: 0.0\n• Price Velocity: -0.008100882379605512\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 15.0\n• Squeeze Momentum: -0.1934398253478481\n• Volatility Compression: 3.5\n• Is Consolidating: False\n• Breakout Score: -70.33674753597155\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 20.535095954455475\n• Squeeze Breakout: 4.0\n• Options Quality: 21.211857506361337\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 63.0\n• Squeeze: 50.525\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: HOOD\n• Strike Price: $105\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $13\n• Ask: $13.2\n• Last: $13.04\n• Mid: $13.1\n• Spread: 1.515151515151515151515151515%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6234\n• Gamma: 0.0141\n• Theta: -0.0971\n• Vega: 0.1626\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.6246\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 758\n• Open Interest: 25129\n• Volume/OI Ratio: 0.03016435194396912\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Robinhood Markets Inc\n• Sector: Financial Services\n• Industry: Capital Markets\n• EPS (TTM): $1.97\n• Profit Margin: 50.1%\n• ROE: 23.5%\n• P/E Ratio: 55.5\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-24T13:04:10+00:00: Guru Fundamental Report for HOOD...\n• 2025-08-24T11:02:45+00:00: 'Powell clearly opens the door': Markets surge as speculative bets get another b...\n• 2025-08-23T07:42:00+00:00: Is Robinhood Stock a Millionaire Maker?...\n• 2025-08-23T07:42:00+00:00: Is Robinhood Stock a Millionaire Maker?...\n• 2025-08-22T20:26:23+00:00: Post-Powell speech rally: Ethereum &amp; Opendoor among top winners...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR HOOD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the HOOD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:12:44.329843",
+    "estimated_tokens": 2310
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"HOOD\",\n    \"rating\": 64,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"HOOD shows strong momentum with 111% 126-day gain and positive MA ribbon score of 73.66, but faces near-term headwinds with negative momentum acceleration (-61.53) and upcoming earnings risk. Options setup shows decent liquidity with 1.51% spreads and favorable delta (0.62), though elevated IV at 62.46% warrants caution.\",\n    \"opportunities\": [\n        \"Strong long-term momentum with 126D momentum of 111.86%\",\n        \"Solid MA structure with price above both 50 SMA (98.37) and 200 SMA (59.66)\",\n        \"Good options liquidity with tight 1.51% spreads and healthy OI of 25,129\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration at -61.53\",\n        \"Earnings coming up on 2025-09-30 (event risk)\",\n        \"High P/E ratio of 55.5x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread to reduce cost basis given high IV\",\n        \"entry_timing\": \"Wait until after earnings report due to near-term event risk\",\n        \"risk_management\": \"Use 105 strike as support level, consider rolling down if momentum deterioration continues\"\n    },\n    \"red_flags\": [\n        \"Earnings in <40 days presents significant event risk\",\n        \"Sharp negative momentum acceleration signals potential trend reversal\"\n    ],\n    \"notes\": \"While long-term trend remains positive, short-term technical deterioration and upcoming earnings create elevated risk profile. Consider waiting for earnings catalyst before entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "HOOD",
+      "rating": 64,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "HOOD shows strong momentum with 111% 126-day gain and positive MA ribbon score of 73.66, but faces near-term headwinds with negative momentum acceleration (-61.53) and upcoming earnings risk. Options setup shows decent liquidity with 1.51% spreads and favorable delta (0.62), though elevated IV at 62.46% warrants caution.",
+      "opportunities": [
+        "Strong long-term momentum with 126D momentum of 111.86%",
+        "Solid MA structure with price above both 50 SMA (98.37) and 200 SMA (59.66)",
+        "Good options liquidity with tight 1.51% spreads and healthy OI of 25,129"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration at -61.53",
+        "Earnings coming up on 2025-09-30 (event risk)",
+        "High P/E ratio of 55.5x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread to reduce cost basis given high IV",
+        "entry_timing": "Wait until after earnings report due to near-term event risk",
+        "risk_management": "Use 105 strike as support level, consider rolling down if momentum deterioration continues"
+      },
+      "red_flags": [
+        "Earnings in <40 days presents significant event risk",
+        "Sharp negative momentum acceleration signals potential trend reversal"
+      ],
+      "notes": "While long-term trend remains positive, short-term technical deterioration and upcoming earnings create elevated risk profile. Consider waiting for earnings catalyst before entry."
+    },
+    "tokens_used": 2555,
+    "cost": 0.02555,
+    "response_time": 9.938259601593018,
+    "success": true
+  },
+  "cost": 0.02555,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8447,
+    "response_length": 1779
+  }
+}

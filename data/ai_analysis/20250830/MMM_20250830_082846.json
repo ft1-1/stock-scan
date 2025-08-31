@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "MMM",
+  "timestamp": "2025-08-30T08:28:46.457720",
+  "data_package": {
+    "metadata": {
+      "symbol": "MMM",
+      "package_timestamp": "2025-08-30T08:28:37.930125",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "MMM",
+        "current_price": 155.53,
+        "overall_score": 50.495790029665145,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 153.137,
+        "sma_200": 144.2347
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.228655676182819,
+        "momentum_63d": 4.839905628581063,
+        "momentum_126d": 0.26431150077359244,
+        "momentum_acceleration": -0.6112499523982438,
+        "roc_21d": 4.228655676182819,
+        "trend_strength_20d": 0.37111028313573285,
+        "trend_direction": 1,
+        "ma_ribbon_score": 50.94085120099689,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.004004315944818449
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": 0.1449280225769815,
+        "volatility_compression": 70.6288984247355,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.270496888070875,
+        "squeeze_breakout": 4.0,
+        "options_quality": 13.333858987783563,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 53.0,
+        "squeeze": 60.59433476371032,
+        "options": 37.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 11,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "MMM",
+        "strike_price": "150",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "9.45",
+        "ask": "9.65",
+        "last_price": "9.56",
+        "mid_price": "9.55",
+        "spread_percent": "2.072538860103626943005181347"
+      },
+      "greeks": {
+        "delta": 0.6719,
+        "gamma": 0.0232,
+        "theta": -0.068,
+        "vega": 0.206
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2732
+      },
+      "liquidity_metrics": {
+        "volume": 12,
+        "open_interest": 538,
+        "volume_oi_ratio": 0.022304832713754646
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:24.187573",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T15:30:07+00:00",
+            "title": "Carlisle (CSL) Up 8.9% Since Last Earnings Report: Can It Continue?",
+            "content": "It has been about a month since the last earnings report for Carlisle (CSL). Shares have added about 8.9% in that time frame, outperforming the S&P 500.\n\nBut investors have to be wondering, will the recent positive trend continue leading up to its next earnings release, or is Carlisle due for a pullback? Well, first let's take a quick look at the latest earnings report in order to get a better handle on the recent drivers for Carlisle Companies Incorporated before we dive into how investors and analysts have reacted as of late.\n\nCarlisle Q2 Earnings Miss Estimates, Organic Revenues Decline Y/Y\n\nCarlisle reported second-quarter 2025 adjusted earnings of $6.27 per share, which missed the Zacks Consensus Estimate of $6.67. However, the bottom line increased 0.5% year over year.\r\n\r\nCarlisle’s total revenues of $1,449.5 million lagged the consensus estimate of $1,497 million and inched down 0.1% year over year. Organic revenues fell 3% year over year.\n\nSegmental Discussion\n\nCarlisle has divested its Carlisle Interconnect Technologies segment. The company now reports under the following two segments.\r\n\r\nRevenues from the Carlisle Construction Materials segment increased 0.6% year over year to $1,096 million. Our estimate for segmental revenues was $1,115 million. Organic revenues decreased 0.6%. Revenues were driven by contributions from the MTL acquisition and stable recurring re-roof activity, partially offset by the weakness in the new construction market. Adjusted EBITDA of $346 million decreased 5% year over year.\r\n\r\nRevenues from the Carlisle Weatherproofing Technologies segment decreased 2% year over year to $354 million, due to lower construction activities, partially offset by the buyouts of Plasti-Fab and ThermaFoam. Our estimate for segmental revenues was $384.7 million. Organic revenues slipped 10%. Adjusted EBITDA of $71 million declined 12.9% year over year.\n\nMargin Profile\n\nCarlisle’s cost of sales increased 3% year over year to $908.4 million. Selling and administrative expenses increased 4% to $196.9 million. Research and development expenses totaled $11.1 million, up 19.3% year over year.\r\n\r\nCarlisle recorded an operating income of $335 million, down 11.3% year over year. The operating margin decreased 290 basis points to 23.1% from the year-ago quarter. Our estimate for the operating margin was pegged at 23.9%.\n\nCarlisle’s Balance Sheet and Cash Flow\n\nAt the end of the second quarter, Carlisle had cash and cash equivalents of $68.4 million compared with $753.5 million at the end of 2024. Long-term debt (including the current portion) was $1.9 billion, relatively stable compared with the figure reported at the end of 2024.\r\n\r\nIn the first six months of 2025, Carlisle generated net cash of $288.9 million from operating activities compared with $346.9 million in the year-ago period.\r\n\r\nIn the same period, it rewarded its shareholders with a dividend payment of $88.3 million, up 8.1% year over year. The company bought back shares worth $700 million, flat year over year.\n\nStory Continues\n\n2025 Outlook\n\nThe company expects revenues to increase in the low single digits on a year-over-year basis. Revenues from both the Construction Materials and Weatherproofing Technologies segments are projected to increase in low-single-digit year-over year.\r\n\r\nAdjusted EBITDA margin is expected to contract approximately 150 bps. Carlisle anticipates delivering record earnings per share in 2025. The free cash flow margin is expected to be more than 15%.\n\nHow Have Estimates Been Moving Since Then?\n\nIn the past month, investors have witnessed a downward trend in estimates review.\n\nThe consensus estimate has shifted -8.59% due to these changes.\n\nVGM Scores\n\nAt this time, Carlisle has a average Growth Score of C, though it is lagging a lot on the Momentum Score front with an F. However, the stock was allocated a grade of C on the value side, putting it in the middle 20% for value investors.\n\nOverall, the stock has an aggregate VGM Score of D. If you aren't focused on one strategy, this score is the one you should be interested in.\n\nOutlook\n\nEstimates have been broadly trending downward for the stock, and the magnitude of these revisions indicates a downward shift. It's no surprise Carlisle has a Zacks Rank #4 (Sell). We expect a below average return from the stock in the next few months.\n\nPerformance of an Industry Player\n\nCarlisle belongs to the Zacks Diversified Operations industry. Another stock from the same industry, 3M (MMM), has gained 5.6% over the past month. More than a month has passed since the company reported results for the quarter ended June 2025.\n\n3M reported revenues of $6.16 billion in the last reported quarter, representing a year-over-year change of -1.6%. EPS of $2.16 for the same period compares with $1.93 a year ago.\n\n3M is expected to post earnings of $2.07 per share for the current quarter, representing a year-over-year change of +4.6%. Over the last 30 days, the Zacks Consensus Estimate remained unchanged.\n\n3M has a Zacks Rank #3 (Hold) based on the overall direction and magnitude of estimate revisions. Additionally, the stock has a VGM Score of F.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCarlisle Companies Incorporated (CSL) : Free Stock Analysis Report\n\n3M Company (MMM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T08:35:00+00:00",
+            "title": "Ethylene Tetrafluoroethylene (ETFE) Market Revenues to Double by 2034 - Demand Bolstered by ETFE's Applications in Energy-Efficient and Sustainable Construction",
+            "content": "Company Logo\n\nOpportunities arise from emerging markets, innovation in manufacturing, and expanding architectural projects. Challenges include high costs, complex installation, and competition from alternative materials.\n\nDublin, Aug. 28, 2025 (GLOBE NEWSWIRE) -- The \"Ethylene Tetrafluoroethylene (ETFE) Market Report and Forecast 2025-2034\" has been added to  ResearchAndMarkets.com's offering. Companies featured in the report include:\n\nBASF SE AGC Group Solvey SA Daikin Industries Ltd. 3M Co. Hubei Everflon Polymer Co. Ltd. HaloPolymer OJSC Mitsubishi Chemical Group Corp. Vector Foiltec Saint-Gobain Composite Solutions\n\nThe global Ethylene Tetrafluoroethylene (ETFE) market, valued at USD 400.40 billion in 2024, is projected to grow at a CAGR of 7.30% from 2025 to 2034, reaching USD 810.01 billion by 2034.\n\nEmerging trends indicate increased usage of ETFE in innovative and smart buildings, particularly as an alternative to glass in creating inflated multi-layered cushions and sheets. The aerospace and defense sectors also favor ETFE for insulation applications, further driving market expansion.\n\nIn recent developments, Alfa Chemistry has expanded its product line to include fluoropolymer materials, such as ETFE, for wire and cable insulation, reflecting the material's increasing versatility and application range.\n\nThe ETFE industry's focus on decarbonization, especially in building and construction, is essential as this sector accounts for a significant percentage of greenhouse emissions. A shift to green materials like ETFE is crucial for achieving zero-emission targets. This eco-friendly material is increasingly adopted in architectural projects, notably stadiums and non-sports infrastructures like the U.S. Embassy in London, illustrating its functionality in providing optimal lighting while maintaining thermal and environmental resilience.\n\nThe demand for ETFE is bolstered by its applications in energy-efficient and sustainable construction. The material's properties promote its use in transparent, lightweight roofing and facades, while its durability supports adoption across various industries. Continuous technological advancements in ETFE production enhance product quality and broaden application possibilities.\n\nChallenges such as high material costs, complex installation processes, and environmental concerns pose barriers to ETFE market growth. Additionally, competition from alternative materials like polycarbonate and glass, along with supply chain disruptions, impact market dynamics.\n\nOpportunities for ETFE lie in sustainable construction practices and expansion into emerging markets with robust construction and industrial activities. Innovations in manufacturing processes and exploring ETFE applications in sectors such as aerospace and medical present avenues for market growth.\n\nStory Continues\n\nKey players driving the global ETFE market include AGC Inc., Daikin Industries Ltd., Vector Foiltec, and Compagnie de Saint-Gobain S.A. These companies focus on strategic initiatives such as expansion, acquisition, research and development, and sustainability projects to bolster their market positions.\n\nRegionally, North America holds a predominant market share, driven by the automotive industry's development and ETFE's application in durable roofing for construction projects. Europe's market growth is attributed to increasing investments in sustainable building practices, while Asia-Pacific emerges as a lucrative market with growing industrial activities.\n\nIn conclusion, the ETFE market demonstrates robust growth potential, spurred by its suitability for diverse and innovative applications. Continuous investment in R&D and manufacturing advancements will further secure ETFE's role in shaping a sustainable future across industries.\n\nKey Topics Covered\n\nExecutive Summary Market Overview and Stakeholder Insights Market Trends Key Verticals Key Regions Supplier Power Buyer Power Key Market Opportunities and Risks Key Initiatives by Stakeholders Economic Summary GDP Outlook GDP Per Capita Growth Inflation Trends Democracy Index Gross Public Debt Ratios Balance of Payment (BoP) Position Population Outlook Urbanisation Trends Country Risk Profiles Country Risk Business Climate Global Ethylene Tetrafluoroethylene (ETFE) Market Analysis Key Industry Highlights Global Ethylene Tetrafluoroethylene (ETFE) Historical Market (2018-2024) Global Ethylene Tetrafluoroethylene (ETFE) Market Forecast (2025-2034) Global Ethylene Tetrafluoroethylene (ETFE) Market by Product Type Global Ethylene Tetrafluoroethylene (ETFE) Market by Technology Global Ethylene Tetrafluoroethylene (ETFE) Market by Application Global Ethylene Tetrafluoroethylene (ETFE) Market by End Use Global Ethylene Tetrafluoroethylene (ETFE) Market by Region North America Ethylene Tetrafluoroethylene (ETFE) Market Analysis United States of America Canada Europe Ethylene Tetrafluoroethylene (ETFE) Market Analysis United Kingdom Germany France Italy Others Asia Pacific Ethylene Tetrafluoroethylene (ETFE) Market Analysis China Japan India ASEAN Australia Others Latin America Ethylene Tetrafluoroethylene (ETFE) Market Analysis Brazil Argentina Mexico Others Middle East and Africa Ethylene Tetrafluoroethylene (ETFE) Market Analysis Saudi Arabia United Arab Emirates Nigeria South Africa Others Market Dynamics SWOT Analysis Porter's Five Forces Analysis Key Indicators for Demand Key Indicators for Price Procurement Insights Contract Terms Cost Structure Pricing Model Vendor Selection Criteria Supplier and Buyer Power at Regional Level Procurement Strategy: Best Practices Competitive Landscape Supplier Selection Key Global Players Key Regional Players Key Player Strategies Company Profiles\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T14:50:00+00:00",
+            "title": "3M PARTNERS WITH AMERICA’S VETDOGS TO SPONSOR AND CO-RAISE A FUTURE SERVICE DOG FOR A VETERAN OR FIRST RESPONDER WITH DISABILITIES",
+            "content": "Smithtown, New York, Aug.  27, 2025  (GLOBE NEWSWIRE) -- America’s VetDogs, a national nonprofit that provides service dogs to veterans, active-duty service members, and first responders with disabilities, is excited to announce a new partnership with global materials science company 3M as part of its Puppy With a Purpose® program. 3M will sponsor and help raise a black Labrador Retriever puppy named “Scotty”—after the iconic mascot of its Scotch Brand, Scotty McTape—to become a future service dog, eventually helping to empower an individual who has served our nation with honor.\n\nOver the next 14 to 18 months, Scotty, now 18 weeks old, will be raised by a Minnesota-based volunteer puppy raiser who will take on the important role of preparing him for his future career as a service dog. With the guidance of America’s VetDogs skilled staff, Scotty will learn basic obedience, socialization skills, and good house manners, all while being integrated into 3M’s corporate environment and community relations initiatives.\n\n“We are proud to welcome 3M as a partner in our mission to provide specially trained, accredited service dogs to veterans and first responders with disabilities,” said John Miller, president and CEO of America’s VetDogs. “Corporate partnerships are critical to helping us expand access to our programs, engage more volunteers, and meet the growing demand for service dogs nationwide. This partnership not only helps provide a life-changing service dog to a deserving individual but also fosters a deeper connection between 3M employees and the veteran and first-responder communities.”\n\nAmerica’s VetDogs launched its corporate Puppy With a Purpose program to give companies a hands-on way to support veterans and first responders while engaging employees in the rewarding experience of service dog training. Through this partnership, 3M advances its commitment to corporate social responsibility by supporting a cause aligned with its values of service, inclusion, and innovation. Co-raising a future service dog fosters employee engagement, strengthens morale, and reinforces 3M’s role as a positive force within the community.\n\nAmerica’s VetDogs provides specially trained service and guide dogs to individuals with physical disabilities, PTSD, hearing and vision loss, and seizures—all free of charge. Sully, President George H.W. Bush’s former service dog was raised and trained by America’s VetDogs, and now serves as a facility dog at Walter Reed National Military Medical Center. Scotty joins a distinguished group of Puppy With a Purpose dogs, including the Washington Capitals’ Captain and Biscuit; the New York Islanders’ Jethro, Tori, and Radar; as well as the Houston Texans’ Blitz, and the New York Mets’ Shea, Seaver, and Buddy. Nearly 50 puppies have been raised via the program, all helping to raise awareness of the need for service dogs for veterans and first responders with disabilities. To learn more about the Puppy With a Purpose program, volunteer opportunities, or how to apply, visit VetDogs.org.\n\nAbout America’s VetDogs \r\nFor more than 20 years, America’s VetDogs (www.VetDogs.org) has trained and placed guide and service dogs to provide independence, enhanced mobility, and companionship to veterans with disabilities from all eras. In 2015, America’s VetDogs opened its programs to first responders, including fire, police, and emergency medical personnel with service-related disabilities.  America’s VetDogs is a 501(c)(3) not-for-profit organization founded by the Guide Dog Foundation and serves clients from across the United States.  America’s VetDogs relies on contributions from generous individuals, corporations, service clubs, and foundations to fund its mission to help those who have served our country live with dignity and independence.  It costs over $50,000 to breed, raise, train, and place one assistance dog, but America’s VetDogs provides its services completely free of charge to the individual. America’s VetDogs has been accredited by both the International Guide Dog Federation and Assistance Dogs International.\n\nAbout 3M\r\n3M (NYSE: MMM) is focused on transforming industries around the world by applying science and creating innovative, customer-focused solutions. Our multi-disciplinary team is working to solve tough customer problems by leveraging diverse technology platforms, differentiated capabilities, global footprint, and operational excellence. Discover how 3M is shaping the future at 3M.com/news.\n\nAttachments\n\nScotty the Science Lab and future service dog with America's VetDogs at 3MScotty the Science Lab and future service dog with America's VetDogs at 3M",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T03:36:39+00:00",
+            "title": "A Look Back at General Industrial Machinery Stocks’ Q2 Earnings: 3M (NYSE:MMM) Vs The Rest Of The Pack",
+            "content": "Wrapping up Q2 earnings, we look at the numbers and key takeaways for the general industrial machinery stocks, including 3M (NYSE:MMM) and its peers.\n\nAutomation that increases efficiency and connected equipment that collects analyzable data have been trending, creating new demand for general industrial machinery companies. Those who innovate and create digitized solutions can spur sales and speed up replacement cycles, but all general industrial machinery companies are still at the whim of economic cycles. Consumer spending and interest rates, for example, can greatly impact the industrial production that drives demand for these companies’ offerings.\n\nThe 15 general industrial machinery stocks we track reported a satisfactory Q2. As a group, revenues beat analysts’ consensus estimates by 2.3% while next quarter’s revenue guidance was in line.\n\nIn light of this news, share prices of the companies have held steady as they are up 1.1% on average since the latest earnings results.\n\n3M (NYSE:MMM)\n\nProducers of the first asthma inhaler, 3M Company (NYSE:MMM) is a global conglomerate known for products in industries like healthcare, safety, electronics, and consumer goods.\n\n3M reported revenues of $6.34 billion, up 1.4% year on year. This print exceeded analysts’ expectations by 4%. Overall, it was a very strong quarter for the company with full-year EPS guidance exceeding analysts’ expectations and a solid beat of analysts’ adjusted operating income estimates.3M Total Revenue\n\nUnsurprisingly, the stock is down 1.8% since reporting and currently trades at $156.25.\n\nIs now the time to buy 3M? Access our full analysis of the earnings results here, it’s free.\n\nBest Q2: Luxfer (NYSE:LXFR)\n\nWith its magnesium alloys used in the construction of the famous Spirit of St. Louis aircraft, Luxfer (NYSE:LXFR) offers specialized materials, components, and gas containment devices to various industries.\n\nLuxfer reported revenues of $104 million, up 4.3% year on year, outperforming analysts’ expectations by 5.9%. The business had an incredible quarter with a beat of analysts’ EPS estimates and a solid beat of analysts’ EBITDA estimates.Luxfer Total Revenue\n\nThe market seems happy with the results as the stock is up 13.5% since reporting. It currently trades at $14.\n\nIs now the time to buy Luxfer? Access our full analysis of the earnings results here, it’s free.\n\nWeakest Q2: Icahn Enterprises (NASDAQ:IEP)\n\nFounded in 1987, Icahn Enterprises (NASDAQ: IEP) is a diversified holding company primarily engaged in investment and asset management across various sectors.\n\nIcahn Enterprises reported revenues of $2.32 billion, up 5.3% year on year, falling short of analysts’ expectations by 3%. It was a disappointing quarter as it posted a significant miss of analysts’ EPS estimates.\n\nStory Continues\n\nIcahn Enterprises delivered the weakest performance against analyst estimates in the group. As expected, the stock is down 7% since the results and currently trades at $8.35.\n\nRead our full analysis of Icahn Enterprises’s results here.\n\nGE Aerospace (NYSE:GE)\n\nOne of the original 12 companies on the Dow Jones Industrial Average, General Electric (NYSE:GE) is a multinational conglomerate providing technologies for various sectors including aviation, power, renewable energy, and healthcare.\n\nGE Aerospace reported revenues of $10.15 billion, up 23.4% year on year. This number beat analysts’ expectations by 6.5%. Overall, it was a stunning quarter as it also put up an impressive beat of analysts’ EBITDA estimates and a solid beat of analysts’ adjusted operating income estimates.\n\nGE Aerospace delivered the biggest analyst estimates beat among its peers. The stock is up 3.2% since reporting and currently trades at $274.94.\n\nRead our full, actionable report on GE Aerospace here, it’s free.\n\nJohn Bean (NYSE:JBTM)\n\nTracing back to its invention of the mechanical milk bottle filler in 1884, John Bean (NYSE:JBT) designs, manufactures, and sells equipment used for food processing and aviation.\n\nJohn Bean reported revenues of $934.8 million, up 132% year on year. This result topped analysts’ expectations by 4.9%. It was a strong quarter as it also recorded a solid beat of analysts’ EBITDA estimates and a beat of analysts’ EPS estimates.\n\nJohn Bean pulled off the fastest revenue growth among its peers. The stock is up 8.9% since reporting and currently trades at $145.52.\n\nRead our full, actionable report on John Bean here, it’s free.\n\nMarket Update\n\nAs a result of the Fed’s rate hikes in 2022 and 2023, inflation has come down from frothy levels post-pandemic. The general rise in the price of goods and services is trending towards the Fed’s 2% goal as of late, which is good news. The higher rates that fought inflation also didn't slow economic activity enough to catalyze a recession. So far, soft landing. This, combined with recent rate cuts (half a percent in September 2024 and a quarter percent in November 2024) have led to strong stock market performance in 2024. The icing on the cake for 2024 returns was Donald Trump’s victory in the U.S. Presidential Election in early November, sending major indices to all-time highs in the week following the election. Still, debates around the health of the economy and the impact of potential tariffs and corporate tax cuts remain, leaving much uncertainty around 2025.\n\nWant to invest in winners with rock-solid fundamentals? Check out our Top 5 Quality Compounder Stocks and add them to your watchlist. These companies are poised for growth regardless of the political or macroeconomic climate.\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T14:30:17+00:00",
+            "title": "BC-Most Active Stocks",
+            "content": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.\n\nNasdaq most active stocks:\n\nStock Name Volume High Low Last Change Allarity Therapeutics Inc. 196,807,150 2.28 1.75 1.84 +0.8987 Incannex Healthcare Inc. 164,862,939 0.9229 0.7935 0.8242 +0.0837 Opendoor Technologies Inc. 137,209,059 5.28 4.54 5.2249 +0.6849 Invivyd Inc. 99,776,108 0.9739 0.81 0.9208 +0.3611 ESSA Pharma Inc. 78,589,220 0.2685 0.24 0.2585 -0.5253 Profusa Inc. 76,833,853 0.692 0.54 0.5488 +0.0589 Tilray Brands Inc. 66,202,256 1.55 1.42 1.4558 +0.0658 Hong Kong Pharma Dig.Techn.Hld 63,887,463 2.45 1.19 2.35 +1.30 Firefly Neuroscience Inc. 51,449,144 3.63 3.03 3.13 +0.54 Beneficient 38,379,647 0.49 0.4232 0.4506 +0.0616 Marker Therapeutics Inc. 38,247,858 1.40 1.16 1.165 -0.095 NVIDIA Corp. 34,665,423 181.23 178.81 179.97 +0.16 TNF Pharmaceuticals Inc. 28,316,207 0.078 0.0725 0.0741 +0.0056 Lucid Group Inc. 23,556,486 2.19 2.08 2.1662 +0.0862 EchoStar Corp. 22,835,700 55.19 51.89 53.0775 +23.1975 Virax Biolabs Group Ltd 21,918,765 0.7698 0.666 0.675 -0.099 SoFi Technologies Inc. 19,355,375 26.605 25.97 26.195 +0.045 Advanced Micro Devices Inc. 19,186,308 169.77 164.91 165.86 +2.50 Ondas Holdings Inc. 18,026,867 5.2666 4.71 4.9342 +0.0842 Tesla Inc. 17,850,223 349.14 344.30 345.86 -0.74 Intel Corp. 17,597,761 24.735 24.22 24.265 -0.285 Walgreens Boots Alliance Inc. 16,970,841 11.96 11.88 11.935 -0.035 iShares Ethereum Trust ETF 16,150,410 34.22 33.59 33.78 +0.33 PHETON HLDGS LTD. 15,702,284 1.00 0.59 0.7162 +0.1506 Palantir Technologies Inc. 15,387,265 158.11 154.57 157.5943 +0.4243 iBio Inc. 14,507,437 0.949 0.8056 0.8165 -0.0293 Rigetti Computing Inc. 14,493,047 15.195 14.37 14.93 +0.46 Richtech Robotics Inc. 12,133,278 2.55 2.41 2.4301 +0.0501 iShares Bitcoin Trust ETF 11,862,287 62.67 62.11 62.36 -0.52 Erayak Power Solut.Group Inc. 11,588,641 0.05 0.0432 0.0442 -0.0038 Canopy Growth Corp. 10,532,078 1.52 1.42 1.4397 -0.0003 Rocket Lab Corp. 10,178,462 50.92 47.00 49.465 +2.245 Soundhound AI Inc. 8,612,899 12.57 12.16 12.46 +0.35 Riot Platforms Inc. 8,363,032 13.35 12.88 13.33 +0.05 SharpLink Gaming Inc. 8,266,767 19.74 19.0101 19.54 +0.37 MARA Holdings Inc. 8,205,016 15.48 15.2135 15.37 -0.03 Trump Media & Tech.GroupCorp. 7,359,679 18.97 17.79 18.13 +0.91 MicroCloud Hologram Inc. 7,225,850 5.21 4.54 4.5901 +0.0301 GoPro Inc. 6,975,945 1.64 1.48 1.635 -0.015 Plug Power Inc. 6,946,326 1.695 1.65 1.655 -0.015 Robinhood Markets Inc. 6,829,870 107.80 105.12 106.1299 -1.8101 Apple Inc. 6,537,235 227.05 224.69 225.725 -1.435 Keurig Dr Pepper Inc. 6,499,644 30.995 30.355 30.3899 -0.7101 FBS GLOBAL LTD. 6,495,665 0.5504 0.51 0.544 -0.0257 CSX Corp. 6,490,151 32.47 32.07 32.195 -0.615 CIMG Inc. 6,161,235 0.2598 0.2316 0.2542 +0.0042 ECARX Holdings Inc. 6,045,734 1.55 1.33 1.515 -0.175 American Airlines Group Inc. 5,582,037 13.07 12.96 12.985 -0.015 IREN Ltd. 5,560,244 23.20 22.35 22.90 -0.22 Terawulf Inc. 5,134,132 9.075 8.7994 9.0493 +0.1193 Tharimmune Inc. 4,928,136 8.05 5.76 6.67 -1.04 Interactive Brokers Group Inc. 4,794,688 64.50 61.85 62.35 -0.41 Inno Holdings Inc. 4,728,682 3.62 2.90 3.246 -1.504 Eos Energy Enterprises Inc. 4,618,136 6.81 6.31 6.695 +0.425 Applied Digital Corp. 4,536,666 16.3174 15.84 16.15 +0.20 Alphabet Inc. 4,513,147 207.85 205.77 206.13 -2.36 Rivian Automotive Inc. 4,441,740 13.23 12.95 13.015 -0.095 Western Acquisition Vent.Corp. 4,414,540 0.2884 0.2772 0.2804 +0.0011 HIVE Digital Technologies Ltd. 4,370,124 2.74 2.60 2.7063 +0.0663 Plus Therapeutics Inc. 4,331,245 0.539 0.501 0.525 +0.0399 ETHZilla Corp. 4,266,856 3.17 3.06 3.1201 +0.0451 Femasys Inc. 4,219,800 0.34 0.318 0.3311 -0.184 Lightwave Logic Inc. 4,049,702 3.30 2.465 3.18 +0.67 Amazon.com Inc. 3,919,048 228.20 226.02 227.30 -0.64 Raytech Holding Ltd. 3,907,602 3.68 3.0014 3.419 +0.289 Safe & Green Holdings Corp. 3,848,643 0.1869 0.1795 0.1846 -0.0078 Cognition Therapeutics Inc. 3,827,629 3.28 2.81 3.09 -0.09 Cleanspark Inc. 3,757,592 9.48 9.265 9.425 -0.025 Yorkville Acquisition Corp. 3,742,755 10.96 10.39 10.40 -0.26 Alphabet Inc. 3,667,387 208.415 206.4501 206.86 -2.30 Navitas Semiconductor Corp. 3,635,593 6.339 6.08 6.13 -0.07 ALT5 Sigma Corp. 3,617,849 7.23 6.86 6.885 +0.085 reAlpha Tech Corp. 3,483,037 0.415 0.3712 0.405 +0.002 ImmunityBio Inc. 3,464,930 2.425 2.31 2.325 +0.075 Cipher Mining Inc. 3,368,085 6.73 6.48 6.71 +0.07 Bollinger Innovations Inc. 3,283,432 0.399 0.34 0.3406 -0.0369 Comcast Corp. 3,128,789 33.98 33.515 33.755 -0.255 Sunrun Inc. 3,075,295 16.90 16.35 16.6422 +0.2622 Bitfarms Ltd. 3,009,771 1.26 1.21 1.2599 +0.0199 WARNER BROS. DISCOVERY INC. 2,980,515 12.09 11.945 12.00 -0.04 AST SpaceMobile Inc. 2,971,205 53.20 50.56 51.84 +1.83 Broadcom Inc. 2,957,773 298.80 293.99 297.02 +2.79 Primech Holdings Ltd. 2,898,972 1.70 1.26 1.3003 -0.3897 Aurora Innovation Inc. 2,855,554 5.95 5.845 5.915 -0.035 3 E Network Technol.Group Ltd. 2,887,231 1.11 0.7312 0.974 +0.311 OSR Holdings Inc. 2,841,860 1.00 0.8079 0.90 -0.11 SPAR group Inc. 2,837,391 1.24 1.158 1.17 +0.04 Bit Digital Inc. 2,814,312 2.82 2.75 2.75 -0.03 Etsy Inc. 2,728,590 57.14 54.50 55.80 -1.59 COREWEAVE INC. 2,728,850 92.69 90.6201 91.54 -0.84 Grab Holdings Limited 2,687,667 5.01 4.95 4.98 -0.03 American Resources Corp. 2,669,898 2.26 2.1133 2.19 +0.03 Super Micro Computer Inc. 2,648,214 44.2576 43.76 43.86 -0.21 Rockwell Medical Inc. 2,531,958 1.47 1.31 1.3508 +0.0508 Leap Therapeutics Inc. 2,504,658 0.306 0.2757 0.2969 -0.0131 Microsoft Corp. 2,475,679 504.9778 502.11 503.43 -0.83 Oriental Rise Holdings Ltd. 2,466,966 0.1116 0.106 0.1097 +0.0002 Coinbase Global Inc. 2,459,893 305.3999 300.80 300.9025 -5.0975 Solid Power Inc. 2,449,662 5.0099 4.70 4.845 +0.115 AGNC Investment Corp. 2,364,224 9.83 9.78 9.785 -0.035\n\nNYSE most active stocks:\n\nStory Continues\n\nStock Name Volume High Low Last Change Offerpad Solutions Inc. 25,960,819 4.599 3.84 4.18 +0.54 BigBear.ai Holdings Inc. 11,874,190 5.48 5.27 5.3601 +0.0601 Oklo Inc. 9,082,868 78.70 73.5301 76.06 +4.87 Snap Inc. 8,488,728 7.10 6.98 7.09 +0.09 Nu Holdings Ltd. 8,497,380 14.26 14.0714 14.105 -0.125 Pfizer Inc. 6,853,038 25.24 24.97 25.185 +0.045 AT & T Inc. 5,718,805 28.96 28.46 28.495 -0.245 D-Wave Quantum Inc. 5,711,516 15.4761 14.98 15.265 +0.245 Ranpak Holdings Corp. 5,149,460 6.31 5.30 5.6684 +0.8384 Archer Aviation Inc. 4,903,962 9.43 9.20 9.315 -0.055 Joby Aviation Inc. 4,738,886 15.51 14.151 14.53 +0.23 Hims & Hers Health Inc. 4,685,483 44.235 43.10 43.7184 +0.7284 QuantumScape Corp. 4,451,263 8.56 8.11 8.49 +0.44 Ford Motor Co. 4,228,913 11.87 11.78 11.8519 +0.0319 NuScale Power Corp. 4,224,206 38.20 36.02 37.4175 +1.5175 IonQ Inc. 3,848,226 40.64 38.71 40.15 +1.47 MP Materials Corp. 3,664,602 75.43 71.87 73.83 +1.52 Wheels Up Experience Inc. 3,591,419 2.57 2.20 2.5499 +0.1599 First Majestic Silver Corp. 3,229,392 9.17 8.90 8.9699 +0.0599 Bank of America Corp. 2,854,431 49.505 49.25 49.445 -0.035 Eli Lilly and Company 2,398,529 728.73 713.395 716.50 +21.17 Walmart Inc. 2,304,471 96.47 95.67 95.985 -0.085 Oscar Health Inc. 2,237,457 16.7919 16.39 16.455 -0.255 Chipotle Mexican Grill Inc. 2,229,094 43.13 42.52 43.055 +0.305 Barrick Mining Corp. 2,148,054 26.4651 26.18 26.325 +0.045 Unity Software Inc. 2,113,764 40.32 39.612 40.1899 +0.3599 Verizon Communications Inc. 2,116,337 44.42 44.0158 44.105 -0.125 SES AI Corporation 2,015,849 1.22 1.16 1.2097 +0.0497 Wolfspeed Inc. 1,983,089 1.36 1.315 1.335 +0.015 Coca-Cola Co., The 1,933,670 69.08 68.695 68.825 -0.105 Bloom Energy Corp. 1,927,712 50.59 48.94 49.56 +0.21 UnitedHealth Group Inc. 1,908,426 307.80 304.012 306.0095 +1.1495 AMCOR PLC 1,885,898 8.515 8.425 8.495 -0.035 Uber Technologies Inc. 1,885,419 95.93 94.36 95.45 +0.29 Transocean Ltd. 1,881,760 3.09 3.06 3.0801 -0.0199 V.F. Corp. 1,845,921 14.62 14.265 14.595 +0.925 Fortuna Mining Corp. 1,876,781 7.64 7.48 7.5314 +0.0414 Regions Financial Corp. 1,821,745 26.7875 26.42 26.765 +0.115 Amer Sports Inc. 1,827,294 40.64 39.90 40.30 -0.39 Carnival Corp. 1,814,641 31.445 31.11 31.3841 +0.1341 James Hardie Industries PLC 1,804,653 20.165 19.70 20.135 +0.325 Keycorp 1,767,851 19.1392 18.95 19.1195 +0.0995 NexGen Energy Ltd. 1,726,162 7.385 7.12 7.355 +0.245 PG & E Corp. 1,721,255 15.145 14.89 15.115 +0.205 Circle Internet Group Inc. 1,717,207 127.2179 124.16 126.73 +1.49 Rocket Companies Inc. 1,711,203 18.8437 18.49 18.695 -0.035 Hecla Mining Co. 1,703,706 7.98 7.85 7.905 +0.045 Cleveland-Cliffs Inc. 1,648,077 10.75 10.39 10.71 +0.21 Boeing Co. 1,640,586 232.50 227.98 231.57 +4.70 Roblox Corp. 1,593,282 126.1999 122.63 125.785 +0.975 Western Union Co. 1,579,135 8.65 8.47 8.625 +0.185 Borr Drilling Ltd 1,574,477 2.92 2.81 2.835 +0.005 Foot Locker Inc. 1,562,586 26.93 26.42 26.885 +0.455 Endeavour Silver Corp. 1,562,475 5.94 5.75 5.81 +0.06 ConAgra Brands Inc. 1,549,109 19.06 18.80 18.97 -0.19 Wells Fargo & Co. 1,538,560 80.235 79.78 80.17 -0.02 Cenovus Energy Inc. 1,537,531 16.65 16.5008 16.5971 -0.1029 Yum China Hldgs Inc. 1,528,755 46.775 46.42 46.55 -0.48 Agilon Health Inc. 1,483,022 1.38 1.28 1.315 -0.065 Norwegian Cruise Line Holdings 1,417,806 24.64 24.3115 24.465 -0.175 Citigroup Inc. 1,415,826 94.91 94.03 94.365 -0.635 AMPRIUS TECHNOLOGIES INC 1,350,653 7.815 7.4274 7.685 +0.005 Lumen Technologies Inc. 1,334,895 4.755 4.64 4.67 -0.02 BlackBerry Ltd. 1,325,180 3.82 3.725 3.7961 +0.0461 Kinross Gold Corp. 1,329,283 20.08 19.77 20.0151 +0.2951 Planet Labs PBC 1,320,736 7.24 6.97 7.10 +0.04 Vici Properties Inc. 1,323,983 33.635 33.44 33.58 +0.08 Gap Inc. 1,307,291 21.7688 21.42 21.685 +0.185 Newmont Corp. 1,267,869 71.979 70.91 71.78 +0.68 Kosmos Energy Ltd. 1,263,396 1.86 1.81 1.835 -0.045 Kinder Morgan Inc. 1,262,872 26.55 26.28 26.295 -0.185 Baytex Energy Corp. 1,245,963 2.13 2.1035 2.115 -0.025 Stellantis N.V. 1,247,368 10.01 9.89 9.975 +0.045 Intl Business Machines Corp. 1,236,665 244.98 240.75 241.49 +2.06 Exxon Mobil Corp. 1,220,249 111.4743 110.86 111.1342 -0.6058 Canadian Paci.Kansas City Ltd. 1,208,969 75.50 73.45 75.43 +2.04 Under Armour Inc. 1,197,692 5.1258 5.0502 5.09 +0.02 Energy Transfer L.P. 1,171,945 17.54 17.47 17.475 -0.045 Bank of Nova Scotia, The 1,177,878 60.85 58.77 60.63 +3.31 Iamgold Corp. 1,156,290 9.03 8.86 8.955 +0.125 fuboTV Inc. 1,155,741 3.49 3.42 3.46 -0.01 Teladoc Health Inc. 1,134,885 7.875 7.6737 7.815 +0.145 Zim Integrated Shipp.Serv.Ltd. 1,072,022 14.36 13.9814 14.36 +0.22 Amer. Eagle Outfitters Inc. 1,056,543 12.49 12.30 12.41 -0.09 Coeur Mining Inc. 1,056,054 12.275 12.05 12.1642 +0.0242 JBS N.V. 1,023,469 15.755 15.535 15.68 +0.03 Lithium Americas Corp. 1,020,966 2.9199 2.8323 2.90 +0.07 Surf Air Mobility Inc. 1,016,068 4.93 4.47 4.87 +0.44 Bill Holdings Inc. 999,564 41.52 41.00 41.31 +0.25 Avantor Inc. 997,008 13.315 12.97 13.305 +0.095 Crescent Energy Co. 993,486 9.515 9.255 9.265 -0.275 Centene Corp. 983,555 29.07 28.80 28.865 -0.215 QXO Inc. 978,412 21.15 20.67 20.93 +0.04 Dow Inc. 962,777 24.995 24.67 24.965 +0.045 Cava Group Inc. 950,797 66.87 65.0301 66.71 +1.26 NIKE Inc. 942,981 79.48 78.51 79.29 +0.12 Arista Networks Inc. 941,223 134.53 132.21 134.36 +1.32 Zeta Global Holdings Corp. 936,291 19.89 19.41 19.75 +0.05 ADT Inc. 931,399 8.80 8.73 8.745 -0.015 Halliburton Co. 930,081 22.29 22.00 22.165 -0.175\n\nNYSE American most active stocks:\n\nStock Name Volume High Low Last Change Energy Fuels Inc. 12,838,477 13.03 11.42 12.96 +2.03 Nuburu Inc. 12,546,622 0.1922 0.1812 0.1881 +0.0201 BitMine Immersion Techno. Inc. 11,298,194 50.9299 49.05 49.8476 +0.2476 Denison Mines Corp. 10,543,228 2.20 2.08 2.1901 +0.1101 B2Gold Corp. 4,183,023 4.04 3.97 4.01 +0.06 Equinox Gold Corp. 3,775,399 8.24 8.10 8.16 +0.08 Uranium Energy Corp. 2,880,848 10.985 10.48 10.905 +0.505 Serina Therapeutics Inc. 2,797,123 7.92 5.65 6.12 +0.48 Ocean Power Technologies Inc. 2,319,939 0.5398 0.5179 0.531 +0.0209 Genius Group Ltd. 1,684,896 0.9655 0.90 0.9237 -0.0863 New Gold Inc. 1,638,539 5.6865 5.55 5.68 +0.15 I-80 Gold Corp. 1,575,401 0.79 0.749 0.7883 +0.0389 United States Antimony Corp. 1,525,363 5.08 4.795 4.995 +0.175 Avino Silver & Gold Mines Ltd. 1,044,909 4.2499 4.10 4.195 -0.005 Battalion Oil Corp. 1,008,891 1.29 1.16 1.22 +0.03 Ur-Energy Inc. 996,137 1.39 1.3487 1.37 +0.02 Silvercorp Metals Inc. 963,131 4.6965 4.55 4.6296 +0.0796 Centrus Energy Corp. 919,976 210.00 192.16 206.95 +21.67 AgEagle Aerial Systems Inc. 807,176 2.0199 1.90 1.985 +0.045 Aris Mining Corp. 752,630 7.91 7.39 7.8626 +0.5226 Calidi Biotherapeutics Inc. 759,197 1.88 1.72 1.83 +0.27 Unusual Machines Inc. 692,579 11.82 11.30 11.3801 -0.1699 Lineage Cell Therapeutics Inc. 650,830 1.30 1.2347 1.25 +0.08 Atlasclear Holdings Inc. 539,777 0.1971 0.19 0.1914 +0.0028 Integra Resources Corp. 513,708 2.0988 2.06 2.0692 +0.0292 Senseonics Holdings Inc. 487,377 0.46 0.4525 0.4566 +0.0008 Spirit Aviation Holdings Inc. 461,135 1.5899 1.43 1.535 +0.125 Northern Dynasty Minls Ltd. 457,900 0.9097 0.875 0.90 +0.025 NovaGold Resources Inc. 418,749 6.58 6.40 6.52 +0.12 Volato Group Inc. 410,863 1.83 1.65 1.71 +0.06 Vizsla Silver Corp. 408,742 3.5657 3.485 3.545 +0.085 GoldMining Inc. 406,155 0.875 0.8475 0.8731 +0.0281 Gold Royalty Corp. 372,781 3.33 3.20 3.295 +0.105 Galiano Gold Inc. 343,006 2.16 2.105 2.145 +0.035 Brazil Potash Corp. 338,646 1.84 1.69 1.84 +0.13 Castellum Inc. 326,687 1.04 1.00 1.0307 +0.0107 Ring Energy Inc. 321,317 1.01 0.9783 1.01 +0.0287 NORTHANN CORP. 299,526 0.15 0.1443 0.15 +0.0052 EON Resources Inc. 298,947 0.3725 0.3555 0.369 +0.0104 KULR Technology Group Inc. 285,798 4.93 4.72 4.89 +0.11 Hyperscale Data Inc. 273,287 0.554 0.5401 0.5485 +0.0062 Myomo Inc. 265,735 1.155 1.10 1.13 +0.04 Taseko Mines Ltd. 260,863 3.24 3.1827 3.185 -0.045 USBC Inc. 252,071 1.2697 1.17 1.175 +0.005 IGC Pharma Inc. 248,626 0.3887 0.3763 0.3831 +0.0097 OS Therapies Inc. 248,631 2.3357 2.13 2.3357 +0.1457 Novabay Pharmaceuticals Inc. 226,729 0.93 0.89 0.917 +0.0105 Gold Resource Corp. 222,622 0.4743 0.4603 0.4641 -0.0021 Mag Silver Corp. 218,238 23.96 23.55 23.84 +0.25 KAIROS Pharma Ltd. 212,144 1.25 1.12 1.185 -0.045 Westwater Resources Inc. 207,938 0.7629 0.74 0.7495 -0.0007 SRX HealthSolutions Inc. 201,882 0.3974 0.3806 0.3925 -0.0116 Paramount Gold Nevada Corp. 198,946 0.8846 0.87 0.8748 +0.0158 Azitra Inc. 197,470 0.76 0.7061 0.75 +0.0009 Standard Lithium Ltd. 196,408 2.9099 2.83 2.89 +0.04 Perfect Moment Ltd. 194,723 0.46 0.4338 0.4567 +0.0257 Eaton Vance Ltd.Durat.Inc.Fd. 193,054 10.36 10.2935 10.3301 +0.0301 BiomX Inc. 183,868 0.5616 0.5338 0.5551 +0.005 Orla Mining Ltd. (new) 173,261 10.90 10.495 10.82 +0.42 Western Copper & Gold Corp. 171,738 1.39 1.33 1.385 +0.065 Americas Gold & Silver Corp. 172,301 2.57 2.3605 2.46 +0.022 DSS Inc. 166,369 1.48 1.2201 1.3791 +0.1291 Theriva Biologics Inc. 156,371 0.45 0.4005 0.4299 +0.0008 Comstock Inc. 155,809 2.55 2.46 2.48 -0.02 New Found Gold Corp. 144,963 1.7186 1.685 1.7001 +0.0001 Platinum Group Metals Ltd. 144,825 1.50 1.45 1.495 +0.025 Vista Gold Corp. 140,513 1.1299 1.105 1.105 +0.005 Mega Matrix Inc. 132,842 2.73 2.53 2.73 +0.17 Pedevco Corp. 132,667 0.6099 0.587 0.5929 +0.0132 Cornerstone Strat.Val.Fd Inc. 130,743 8.14 8.12 8.13 0.00 Ryde Group Ltd. 127,998 0.31 0.28 0.308 +0.0081 Cybin Inc. 121,144 7.5499 7.31 7.53 +0.28 Hyliion Holdings Corp. 119,784 1.84 1.76 1.835 +0.075 Perspective Therapeutics Inc. 111,351 3.66 3.50 3.57 +0.11 Metalla Royalty&Streaming Ltd. 102,282 4.75 4.51 4.735 +0.225 Mixed Martial Arts Group Ltd. 94,637 0.94 0.90 0.92 +0.0169 Cornerstone Total Return Fund 91,751 7.82 7.8035 7.8165 +0.0065 Trilogy Metals Inc. 87,617 1.64 1.58 1.6358 +0.0458 Vantage Corp. 86,160 5.47 5.33 5.39 -0.06 Credit Suisse High Yld Bd Fd 81,862 2.09 2.08 2.08 -0.01 Cel-Sci Corp. 79,839 11.70 10.50 11.4976 +0.9376 Protalix BioTherapeutics Inc. 78,984 1.62 1.58 1.62 +0.02 New Pacific Metals Corp. 75,172 1.72 1.70 1.72 +0.015 EMX Royalty Corp. 69,785 3.399 3.304 3.399 +0.069 Cboe Global Markets Inc. 68,504 249.17 246.865 246.865 -2.215 Gamco Gl.Gold Nat.Res.&Inc.Tr. 71,215 4.68 4.64 4.6601 +0.0301 Impact Biomedical Inc. 65,468 0.5762 0.5618 0.5709 -0.0098 Eaton Vance Municipal Bond Fd 61,547 10.04 9.82 9.855 +0.055 Stereotaxis Inc. 61,042 2.84 2.76 2.83 +0.07 Tecogen Inc. (New) 59,904 8.93 8.58 8.65 +0.02 Neuberger Berman Hgh Yld St.Fd 59,473 7.445 7.418 7.445 +0.035 Ivanhoe Electric Inc. 57,105 9.20 9.06 9.12 +0.02 InfuSystems Holdings Inc. 53,834 10.13 9.8398 10.09 +0.22 Dakota Gold Corp. 52,033 4.225 4.11 4.215 +0.115 Idaho Strategic Resources Inc. 49,785 26.80 25.75 26.7189 +1.0389 TRX Gold Corp. 47,535 0.3523 0.345 0.3501 +0.0016 Fury Gold Mines Ltd. 45,779 0.4985 0.4852 0.489 -0.001 Imperial Oil Ltd. 44,931 87.40 86.91 87.36 -0.49 Blue Ridge Bankshs Inc. (Va.) 43,875 4.09 3.93 3.94 -0.09 Xtant Medical Holdings Inc. 43,369 0.6253 0.55 0.6222 -0.0128\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "3M Company",
+          "sector": "Industrials",
+          "industry": "Conglomerates",
+          "employees": 61500,
+          "description": "3M Company provides diversified technology services in the Americas, the Asia Pacific, Europe, the Middle East, Africa, and internationally. It operates through three segments: Safety and Industrial, Transportation and Electronics, and Consumer. The Safety and Industrial segment offers industrial ab"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.2,
+          "profit_margin": 0.1601,
+          "operating_margin": 0.1778,
+          "roe": 0.9476,
+          "roa": 0.0732,
+          "revenue_growth_yoy": 0.014,
+          "earnings_growth_yoy": -0.351,
+          "eps_estimate_current_year": 7.8883,
+          "eps_estimate_next_year": 8.4782,
+          "dividend_yield": 0.0182,
+          "dividend_per_share": 2.86,
+          "revenue_ttm": 24601999360,
+          "revenue_per_share": 45.233,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 21.6014,
+          "forward_pe": 20.4499,
+          "price_to_sales": 3.3672,
+          "price_to_book": 19.562,
+          "enterprise_value": 93433135847,
+          "ev_to_revenue": 3.7978,
+          "ev_to_ebitda": 13.3096
+        },
+        "technical_data": {
+          "beta": 1.104,
+          "52_week_high": 163.3951,
+          "52_week_low": 120.8272,
+          "50_day_ma": 153.137,
+          "200_day_ma": 144.2347,
+          "short_interest": 0.0146,
+          "short_ratio": 1.86
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.92,
+          "forward_dividend_yield": 0.0188,
+          "payout_ratio": 0.3753,
+          "dividend_date": "2025-09-12",
+          "ex_dividend_date": "2025-08-25",
+          "last_split_date": "2024-04-01",
+          "last_split_factor": "1196:1000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.8421,
+          "target_price": 161.1494,
+          "strong_buy": 9,
+          "buy": 2,
+          "hold": 5,
+          "sell": 2,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 532630016,
+          "percent_institutions": 75.832,
+          "percent_insiders": 0.11299999999999999,
+          "shares_float": 531857389
+        },
+        "balance_latest_sheet": {
+          "total_assets": 37989.0,
+          "total_debt": 13726.0,
+          "cash_and_equivalents": 3712.0,
+          "net_debt": 10014.0,
+          "working_capital": 5619.0,
+          "shareholders_equity": 4290.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 3.2
+        },
+        "income_latest_statement": {
+          "total_revenue": 6344.0,
+          "gross_profit": 2649.0,
+          "operating_income": 1102.0,
+          "net_income": 723.0,
+          "ebitda": 1448.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 41.76,
+          "operating_margin": 17.37,
+          "net_margin": 11.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -954.0,
+          "free_cash_flow": -1162.0,
+          "capex": 208.0,
+          "net_income": 725.0,
+          "cash_change": -2614.0,
+          "dividends_paid": -390.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 2.06,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 152.25,
+            "high": 153.65,
+            "low": 149.34,
+            "close": 152.82,
+            "volume": 5194000
+          },
+          {
+            "date": "2025-07-22",
+            "open": 152.98,
+            "high": 154.06,
+            "low": 150.32,
+            "close": 151.2,
+            "volume": 4927800
+          },
+          {
+            "date": "2025-07-23",
+            "open": 151.92,
+            "high": 152.65,
+            "low": 149.8,
+            "close": 150.82,
+            "volume": 4976700
+          },
+          {
+            "date": "2025-07-24",
+            "open": 150,
+            "high": 151.29,
+            "low": 147.81,
+            "close": 149.3,
+            "volume": 4860900
+          },
+          {
+            "date": "2025-07-25",
+            "open": 150,
+            "high": 151.4,
+            "low": 149.2,
+            "close": 151.27,
+            "volume": 2818000
+          },
+          {
+            "date": "2025-07-28",
+            "open": 150.6,
+            "high": 153.88,
+            "low": 150.15,
+            "close": 152.05,
+            "volume": 3970300
+          },
+          {
+            "date": "2025-07-29",
+            "open": 152.4,
+            "high": 153.1,
+            "low": 151.15,
+            "close": 151.79,
+            "volume": 3918100
+          },
+          {
+            "date": "2025-07-30",
+            "open": 152.48,
+            "high": 152.5,
+            "low": 146.5,
+            "close": 146.62,
+            "volume": 3529500
+          },
+          {
+            "date": "2025-07-31",
+            "open": 146.19,
+            "high": 149.56,
+            "low": 145.56,
+            "close": 149.22,
+            "volume": 4390400
+          },
+          {
+            "date": "2025-08-01",
+            "open": 146.5,
+            "high": 146.72,
+            "low": 144.25,
+            "close": 144.41,
+            "volume": 4074400
+          },
+          {
+            "date": "2025-08-04",
+            "open": 145.39,
+            "high": 148.18,
+            "low": 145,
+            "close": 147.87,
+            "volume": 3641300
+          },
+          {
+            "date": "2025-08-05",
+            "open": 148.46,
+            "high": 151.22,
+            "low": 148,
+            "close": 150.09,
+            "volume": 3743900
+          },
+          {
+            "date": "2025-08-06",
+            "open": 150.27,
+            "high": 151.39,
+            "low": 148.64,
+            "close": 150.82,
+            "volume": 2636900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 151.98,
+            "high": 152.48,
+            "low": 149.98,
+            "close": 151.74,
+            "volume": 2293900
+          },
+          {
+            "date": "2025-08-08",
+            "open": 152.4,
+            "high": 153.69,
+            "low": 151.42,
+            "close": 153.3,
+            "volume": 2376400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 153.75,
+            "high": 155.61,
+            "low": 153.16,
+            "close": 155.31,
+            "volume": 3354500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 155.79,
+            "high": 158.46,
+            "low": 155.61,
+            "close": 157.85,
+            "volume": 2748200
+          },
+          {
+            "date": "2025-08-13",
+            "open": 158.39,
+            "high": 160.47,
+            "low": 156.62,
+            "close": 160.2,
+            "volume": 3132000
+          },
+          {
+            "date": "2025-08-14",
+            "open": 159.6,
+            "high": 160.07,
+            "low": 156.63,
+            "close": 156.65,
+            "volume": 6344900
+          },
+          {
+            "date": "2025-08-15",
+            "open": 157.37,
+            "high": 157.37,
+            "low": 151.61,
+            "close": 152.39,
+            "volume": 3921100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 152.36,
+            "high": 155.43,
+            "low": 152.19,
+            "close": 152.86,
+            "volume": 2585500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 152.84,
+            "high": 155.72,
+            "low": 152.05,
+            "close": 154.34,
+            "volume": 2146200
+          },
+          {
+            "date": "2025-08-20",
+            "open": 154.12,
+            "high": 155.34,
+            "low": 153.17,
+            "close": 154.75,
+            "volume": 3258200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 154.37,
+            "high": 155.21,
+            "low": 153.15,
+            "close": 154.38,
+            "volume": 2236900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 155.75,
+            "high": 159.11,
+            "low": 155,
+            "close": 158.72,
+            "volume": 1958200
+          },
+          {
+            "date": "2025-08-25",
+            "open": 157.59,
+            "high": 157.92,
+            "low": 155.8,
+            "close": 155.85,
+            "volume": 1606300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 155.76,
+            "high": 156.72,
+            "low": 154.58,
+            "close": 156.57,
+            "volume": 2960600
+          },
+          {
+            "date": "2025-08-27",
+            "open": 156.04,
+            "high": 157.22,
+            "low": 155.75,
+            "close": 156.53,
+            "volume": 2155000
+          },
+          {
+            "date": "2025-08-28",
+            "open": 157.76,
+            "high": 158.47,
+            "low": 156.58,
+            "close": 157.56,
+            "volume": 2982200
+          },
+          {
+            "date": "2025-08-29",
+            "open": 157.6,
+            "high": 158.24,
+            "low": 155.32,
+            "close": 155.53,
+            "volume": 3279100
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 7.700297763312794,
+        "return_63d": 6.236338797814205,
+        "pct_above_sma50": 1.562653049230428,
+        "sma_50": 153.137,
+        "new_55d_high": "False",
+        "high_55d": 164.15,
+        "rsi": 50.415721844293266,
+        "rsi_in_range": "True",
+        "adx": 32.555406643444755,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.9507490516299117,
+        "bb_width": 7.963634657739737,
+        "keltner_width": 7.853414999530855,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 459057257.25750005,
+        "adv_shares": 2968065.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 41.60435587585444,
+        "final_score": 36.60435587585444,
+        "sub_scores": {
+          "trend_momentum": 13.270496888070875,
+          "squeeze_breakout": 4.0,
+          "options_quality": 13.333858987783563,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 4.228655676182824,
+          "ret_63d": 4.839905628581054,
+          "rsi14": 50.415721844293266,
+          "adx14": 31.928129914958504,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: MMM\n• Current Price: $155.53\n• Overall Score: 50.495790029665145\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 153.137\n• Sma 200: 144.2347\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.228655676182819\n• Momentum 63D: 4.839905628581063\n• Momentum 126D: 0.26431150077359244\n• Momentum Acceleration: -0.6112499523982438\n• Roc 21D: 4.228655676182819\n• Trend Strength 20D: 0.37111028313573285\n• Trend Direction: 1\n• Ma Ribbon Score: 50.94085120099689\n• Breakout Strength: 0.0\n• Price Velocity: -0.004004315944818449\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: 0.1449280225769815\n• Volatility Compression: 70.6288984247355\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.270496888070875\n• Squeeze Breakout: 4.0\n• Options Quality: 13.333858987783563\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 53.0\n• Squeeze: 60.59433476371032\n• Options: 37.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: MMM\n• Strike Price: $150\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $9.45\n• Ask: $9.65\n• Last: $9.56\n• Mid: $9.55\n• Spread: 2.072538860103626943005181347%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6719\n• Gamma: 0.0232\n• Theta: -0.068\n• Vega: 0.206\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2732\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 12\n• Open Interest: 538\n• Volume/OI Ratio: 0.022304832713754646\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: 3M Company\n• Sector: Industrials\n• Industry: Conglomerates\n• EPS (TTM): $7.2\n• Profit Margin: 16.0%\n• ROE: 94.8%\n• P/E Ratio: 21.6\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T15:30:07+00:00: Carlisle (CSL) Up 8.9% Since Last Earnings Report: Can It Continue?...\n• 2025-08-28T08:35:00+00:00: Ethylene Tetrafluoroethylene (ETFE) Market Revenues to Double by 2034 - Demand B...\n• 2025-08-27T14:50:00+00:00: 3M PARTNERS WITH AMERICA’S VETDOGS TO SPONSOR AND CO-RAISE A FUTURE SERVICE DOG ...\n• 2025-08-27T03:36:39+00:00: A Look Back at General Industrial Machinery Stocks’ Q2 Earnings: 3M (NYSE:MMM) V...\n• 2025-08-26T14:30:17+00:00: BC-Most Active Stocks...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR MMM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the MMM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:28:46.457442",
+    "estimated_tokens": 2326
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"MMM\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"MMM shows moderate technical strength with price above both 50 and 200 SMAs, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (SMA50: 153.13, SMA200: 144.23)\",\n        \"Active volatility squeeze with 70.62% compression and 2 timeframe confirmation\",\n        \"Reasonable options liquidity with 2.07% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-0.61) indicating potential trend weakness\",\n        \"Low volume/OI ratio of 0.022 suggesting limited options market participation\",\n        \"Earnings upcoming on 2025-09-30 creating event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread using $150 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Wait until after earnings report to enter position\",\n        \"risk_management\": \"Use 2:1 reward/risk ratio with defined risk spreads given moderate trend strength\"\n    },\n    \"red_flags\": [\n        \"Earnings in less than 30 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"Options Greeks profile (Delta 0.67, Theta -0.068) suggests good directional exposure with manageable time decay for LEAPS position\"\n}",
+    "parsed_analysis": {
+      "symbol": "MMM",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "MMM shows moderate technical strength with price above both 50 and 200 SMAs, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty.",
+      "opportunities": [
+        "Price trending above key moving averages (SMA50: 153.13, SMA200: 144.23)",
+        "Active volatility squeeze with 70.62% compression and 2 timeframe confirmation",
+        "Reasonable options liquidity with 2.07% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-0.61) indicating potential trend weakness",
+        "Low volume/OI ratio of 0.022 suggesting limited options market participation",
+        "Earnings upcoming on 2025-09-30 creating event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread using $150 strike as lower leg to reduce cost basis",
+        "entry_timing": "Wait until after earnings report to enter position",
+        "risk_management": "Use 2:1 reward/risk ratio with defined risk spreads given moderate trend strength"
+      },
+      "red_flags": [
+        "Earnings in less than 30 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "Options Greeks profile (Delta 0.67, Theta -0.068) suggests good directional exposure with manageable time decay for LEAPS position"
+    },
+    "tokens_used": 2527,
+    "cost": 0.02527,
+    "response_time": 8.524737358093262,
+    "success": true
+  },
+  "cost": 0.02527,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8501,
+    "response_length": 1610
+  }
+}

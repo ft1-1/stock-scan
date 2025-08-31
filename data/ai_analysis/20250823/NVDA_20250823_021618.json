@@ -1,0 +1,141 @@
+{
+  "success": true,
+  "symbol": "NVDA",
+  "timestamp": "2025-08-23T02:16:18.936068",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVDA",
+      "package_timestamp": "2025-08-23T02:16:09.582263",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 25.0,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVDA",
+        "current_price": 177.99,
+        "overall_score": 30.0,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {},
+      "momentum_metrics": {},
+      "squeeze_detection": {},
+      "quantitative_scores": {
+        "technical": 0,
+        "momentum": 0,
+        "squeeze": 0,
+        "options": 30.0,
+        "quality": 0
+      },
+      "risk_assessment": {
+        "warnings": [
+          "No historical price data available"
+        ],
+        "ranking": 2,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVDA",
+        "strike_price": "175",
+        "expiration_date": "2025-10-03",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12",
+        "ask": "12.15",
+        "last_price": "12.09",
+        "mid_price": "12.075",
+        "spread_percent": "1.234567901234567901234567901"
+      },
+      "greeks": {
+        "delta": 0.588,
+        "gamma": 0.0153,
+        "theta": -0.1287,
+        "vega": 0.235
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4226
+      },
+      "liquidity_metrics": {
+        "volume": 353,
+        "open_interest": 50,
+        "volume_oi_ratio": 7.06
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {},
+    "data_quality": {
+      "fundamental_score": 0.0,
+      "technical_score": 0.0,
+      "options_score": 100.0,
+      "calendar_score": 0.0,
+      "news_score": 0.0,
+      "overall_score": 25.0,
+      "missing_fields": [
+        "fundamentals",
+        "calendar_events",
+        "news"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVDA\n• Current Price: $177.99\n• Overall Score: 30.0\n• Strategy Type: options_screening\n\n\n\n\n**QUANTITATIVE SCORING**\n• Technical: 0\n• Momentum: 0\n• Squeeze: 0\n• Options: 30.0\n• Quality: 0\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVDA\n• Strike Price: $175\n• Expiration: 2025-10-03\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12\n• Ask: $12.15\n• Last: $12.09\n• Mid: $12.075\n• Spread: 1.234567901234567901234567901%\n\n**GREEKS ANALYSIS**\n• Delta: 0.588\n• Gamma: 0.0153\n• Theta: -0.1287\n• Vega: 0.235\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4226\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 353\n• Open Interest: 50\n• Volume/OI Ratio: 7.06\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## ENHANCED MARKET DATA\nNo enhanced data provided.\n\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 25.0%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVDA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVDA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-23T02:16:18.935255",
+    "estimated_tokens": 1913
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVDA\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 5,\n        \"fundamentals\": 5,\n        \"event_news\": 3\n    },\n    \"confidence\": \"low\",\n    \"thesis\": \"NVDA shows decent options characteristics with good liquidity and reasonable spreads. The delta of 0.588 suggests a balanced directional exposure, while the moderate theta decay provides acceptable time value erosion.\",\n    \"opportunities\": [\n        \"Tight bid-ask spread of 1.23% indicates good liquidity\",\n        \"Strong options volume/OI ratio of 7.06\",\n        \"Balanced delta exposure at 0.588 for directional plays\"\n    ],\n    \"risks\": [\n        \"Limited data availability (only 25% complete)\",\n        \"Missing critical volatility metrics (IV rank, HV)\",\n        \"Unknown earnings timing and fundamental context\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call at $175 strike for longer-term exposure\",\n        \"entry_timing\": \"Defer entry until more technical/fundamental data available\",\n        \"risk_management\": \"Use smaller position size due to data gaps and unknown risk factors\"\n    },\n    \"red_flags\": [\n        \"Severe lack of technical and fundamental data\",\n        \"Missing volatility context and historical comparisons\",\n        \"Unknown earnings timing risk\"\n    ],\n    \"notes\": \"Analysis confidence severely limited by missing 75% of standard metrics. Focus on available options metrics suggests decent contract structure, but overall opportunity assessment requires more data.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVDA",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 15,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 5,
+        "fundamentals": 5,
+        "event_news": 3
+      },
+      "confidence": "low",
+      "thesis": "NVDA shows decent options characteristics with good liquidity and reasonable spreads. The delta of 0.588 suggests a balanced directional exposure, while the moderate theta decay provides acceptable time value erosion.",
+      "opportunities": [
+        "Tight bid-ask spread of 1.23% indicates good liquidity",
+        "Strong options volume/OI ratio of 7.06",
+        "Balanced delta exposure at 0.588 for directional plays"
+      ],
+      "risks": [
+        "Limited data availability (only 25% complete)",
+        "Missing critical volatility metrics (IV rank, HV)",
+        "Unknown earnings timing and fundamental context"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call at $175 strike for longer-term exposure",
+        "entry_timing": "Defer entry until more technical/fundamental data available",
+        "risk_management": "Use smaller position size due to data gaps and unknown risk factors"
+      },
+      "red_flags": [
+        "Severe lack of technical and fundamental data",
+        "Missing volatility context and historical comparisons",
+        "Unknown earnings timing risk"
+      ],
+      "notes": "Analysis confidence severely limited by missing 75% of standard metrics. Focus on available options metrics suggests decent contract structure, but overall opportunity assessment requires more data."
+    },
+    "tokens_used": 2176,
+    "cost": 0.02176,
+    "response_time": 9.35054087638855,
+    "success": true
+  },
+  "cost": 0.02176,
+  "processing_metadata": {
+    "data_completeness_score": 25.0,
+    "prompt_length": 7089,
+    "response_length": 1619
+  }
+}

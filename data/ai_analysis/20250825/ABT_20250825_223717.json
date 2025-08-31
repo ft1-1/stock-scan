@@ -1,0 +1,633 @@
+{
+  "success": true,
+  "symbol": "ABT",
+  "timestamp": "2025-08-25T22:37:17.825334",
+  "data_package": {
+    "metadata": {
+      "symbol": "ABT",
+      "package_timestamp": "2025-08-25T22:37:07.997609",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "ABT",
+        "current_price": 131.8,
+        "overall_score": 47.09156409725705,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 131.2102,
+        "sma_200": 126.9037
+      },
+      "momentum_metrics": {
+        "momentum_21d": 4.212106843685789,
+        "momentum_63d": 0.4341203351104289,
+        "momentum_126d": -2.2823267876991364,
+        "momentum_acceleration": 3.7779865085753603,
+        "roc_21d": 4.212106843685789,
+        "trend_strength_20d": 0.4076886626462539,
+        "trend_direction": -1,
+        "ma_ribbon_score": 81.08667730945854,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.002461333581631475
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 3.0,
+        "squeeze_momentum": 0.11251395584648771,
+        "volatility_compression": 70.48803401113237,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.817496470121604,
+        "squeeze_breakout": 4.0,
+        "options_quality": 11.866981818181817,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 61.0,
+        "squeeze": 60.573205101669856,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Spread 3.6% > 3.5%"
+        ],
+        "ranking": 29,
+        "percentile": 98.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "ABT",
+        "strike_price": "130",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.75",
+        "ask": "7",
+        "last_price": "6.95",
+        "mid_price": "6.875",
+        "spread_percent": "3.571428571428571428571428571"
+      },
+      "greeks": {
+        "delta": 0.6238,
+        "gamma": 0.0298,
+        "theta": -0.0363,
+        "vega": 0.246
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.1963
+      },
+      "liquidity_metrics": {
+        "volume": 8,
+        "open_interest": 964,
+        "volume_oi_ratio": 0.008298755186721992
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:08:17.820861",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T15:40:03+00:00",
+            "title": "NVST or ABT: Which Is the Better Value Stock Right Now?",
+            "content": "Investors looking for stocks in the Medical - Products sector might want to consider either Envista (NVST) or Abbott (ABT). But which of these two stocks offers value investors a better bang for their buck right now? We'll need to take a closer look.\n\nEveryone has their own methods for finding great value opportunities, but our model includes pairing an impressive grade in the Value category of our Style Scores system with a strong Zacks Rank. The Zacks Rank favors stocks with strong earnings estimate revision trends, and our Style Scores highlight companies with specific traits.\n\nCurrently, Envista has a Zacks Rank of #1 (Strong Buy), while Abbott has a Zacks Rank of #3 (Hold). This system places an emphasis on companies that have seen positive earnings estimate revisions, so investors should feel comfortable knowing that NVST is likely seeing its earnings outlook improve to a greater extent. But this is just one factor that value investors are interested in.\n\nValue investors also tend to look at a number of traditional, tried-and-true figures to help them find stocks that they believe are undervalued at their current share price levels.\n\nThe Style Score Value grade factors in a variety of key fundamental metrics, including the popular P/E ratio, P/S ratio, earnings yield, cash flow per share, and a number of other key stats that are commonly used by value investors.\n\nNVST currently has a forward P/E ratio of 19.35, while ABT has a forward P/E of 25.75. We also note that NVST has a PEG ratio of 1.15. This popular figure is similar to the widely-used P/E ratio, but the PEG ratio also considers a company's expected EPS growth rate. ABT currently has a PEG ratio of 2.51.\n\nAnother notable valuation metric for NVST is its P/B ratio of 1.15. The P/B is a method of comparing a stock's market value to its book value, which is defined as total assets minus total liabilities. By comparison, ABT has a P/B of 4.54.\n\nBased on these metrics and many more, NVST holds a Value grade of B, while ABT has a Value grade of C.\n\nNVST sticks out from ABT in both our Zacks Rank and Style Scores models, so value investors will likely feel that NVST is the better option right now.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nEnvista Holdings Corporation (NVST) : Free Stock Analysis Report\n\nAbbott Laboratories (ABT) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:00:00+00:00",
+            "title": "Cell Cryopreservation Market Size to Expand USD 77.52 Bn by 21.05% CAGR till 2034",
+            "content": "Ottawa, Aug.  25, 2025  (GLOBE NEWSWIRE) -- Towards Healthcare, a sister firm of Precedence Research, reports that the global cell cryopreservation market reached USD 11.48 billion in 2024 and is projected to grow to approximately USD 77.52 billion by 2034, expanding at a CAGR of 21.05%.\n\nThe growth is driven by the increasing demand for personalized therapy, rising infertility rates, regenerative medicine, and technological advancement fuel the growth of the market.\n\nThe Complete Study is Now Available for Immediate Access | Download the Sample Pages of this Report @ https://www.towardshealthcare.com/download-sample/5361\n\nKey Takeaways\n\nNorth America dominated the cell cryopreservation market share by 41%.Asia Pacific is estimated to grow at the fastest rate during the forecast period.By product, the consumables segment dominated the cell cryopreservation market in 2023.By product, the freezing media segment is estimated to witness the fastest CAGR in the cell cryopreservation market during the forecast period of 2024-2034.By application, the stem cells segment held the major share of the cell cryopreservation market in 2023.By application, the oocytes and embryonic cells segment is estimated to grow at the fastest rate in the cell cryopreservation market during the predicted timeframe.By end-use, the IVF clinics segment held the largest share of the cell cryopreservation market in 2023.By end-use, the biobanks segment is expected to achieve the fastest CAGR in the cell cryopreservation market during the forecast period.\n\nMarket Overview & Potential\n\nPreserving living cells and tissues at extremely low temperatures, typically with liquid nitrogen (-196°C), is known as cryopreservation. This method allows for long-term storage of biological materials, preventing them from degrading and maintaining their function. To protect cells from damage during freezing and thawing, chemicals like DMSO or glycerol are added to the cell suspension. These chemicals help reduce ice crystal formation. Cells are then cooled at a controlled rate, usually with a programmable freezer or specialized container, to minimize damage. Once frozen, cells are stored in liquid nitrogen for long-term preservation. When needed, cells are quickly thawed to reduce exposure to potentially damaging conditions.\n\nYou can place an order or ask any questions, please feel free to contact us at sales@towardshealthcare.com\n\nWhat is the Growth Potential Responsible for The Growth of The Cell Cryopreservation Market?\n\nThe growth of the market is driven by the growing demand for personalized therapy and regenerative medicine, which are tailored according to the individual patients which making cryopreservation crucial, fueling the growth of the market. The rising infertility rates, which demand egg and sperm cryopreservation, also influence the demand for the market, driving growth. The technological advancement, like improved cryopreservation techniques and enhanced cell storage and thawing this leads to better and efficient treatment outcomes, fueling the growth and expansion of the market. Other key drivers are rising chronic diseases, government initiatives, organ transplantation, and clinical trials.\n\nWhat Are the Growing Trends Associated with the Cell Cryopreservation Market?\n\nStem Cell Banking And Regenerative Medicine\n\nThe increasing use of stem cells in the treatment of various diseases is a growing trend used in regenerative medicine and therapies.\n\nFertility Preservation\n\nThe growing demand for reproductive use is a growing trend that contributes to the growth of the market.\n\nBiobanking Initiatives\n\nInvestments in large-scale biorepositories fuel the growth and demand for the market.\n\nAutomation In Cryopreservation\n\nIntegration of automation in the system for enhancing efficiency, sample security, and accuracy fuels the growth of the market.\n\nWhat Is the Growing Challenge in the Cell Cryopreservation Market?\n\nThe key challenge that hinders the growth of the market are cryoinjury and cell damage, compatibility and standardization, long-term storage limitation, regulatory compliance, cost and accessibility, ethical and legal considerations, high initial and operational costs, and market competition limit the growth and expansion of the market.\n\nRegional Analysis\n\nHow Did North America Dominate the Cell Cryopreservation Market in 2024?\n\nThe North America growth of the cell cryopreservation market is driven by 41% share. The high prevalence of chronic diseases in the region fuels the growth of the market. The other key growth drivers of the market in the region are advanced healthcare infrastructure, research and development investments, government initiatives, rising adoption of personalized medicine, and increased demand for regenerative medicine boost the growth of the market in the region. The key players like BioLife Solutions, Corning, and Thermo Fisher Scientific play a crucial role in the growth and expansion of the market.\n\nWhat Made the Asia Pacific Significantly Grow in The Cell Cryopreservation Market In 2024?\n\nThe growth of the market in the Asia Pacific is driven by various factors, like A growing population, rising healthcare costs, improvements in healthcare infrastructure, and increasing incidence of chronic diseases are major growth drivers. The major drivers are the government support and initiatives for the promotion of biotechnology and life sciences research contribute to the growth of the market. The key players like Thermo Fisher Scientific Inc., Merck KGaA, Sartorius AG, and Lonza Group Ltd. also play a significant role in the growth, though innovation and cell therapy solutions further fuel the growth and expansion of the market.\n\nBecome a valued research partner with us - https://www.towardshealthcare.com/schedule-meeting\n\nSegmental Insights\n\nBy product,\n\nWhich Product Segment Dominated The Cell Cryopreservation Market In 2024?\n\nThe consumables segment dominated the cell cryopreservation market in 2023. Consumables play a crucial role in the cell cryopreservation market as they are required for routine storage and preservation processes. These include cryovials, cryobags, pipettes, and related supplies that ensure sterile handling and safe freezing of biological materials. Their consistent demand from research institutes, biobanks, and IVF clinics drives their growth, as they are indispensable for maintaining sample quality across multiple applications.\n\nThe freezing media segment is estimated to witness the fastest CAGR in the cell cryopreservation market during the forecast period of 2024-2034. Freezing media is a vital product segment, formulated to protect cells, tissues, and reproductive materials from damage during ultra-low temperature storage. These specialized media typically contain cryoprotectants that minimize ice crystal formation and preserve cell integrity. Increasing adoption of freezing media in stem cell research, regenerative medicine, and fertility treatments highlights their essential role in ensuring higher cell survival rates post-thaw.\n\nBy application,\n\nHow Did Stem Cells Segment Dominate The Cell Cryopreservation Market In 2024?\n\nThe stem cells segment held the major share of the cell cryopreservation market in 2023. Stem cells are a primary application area for cell cryopreservation, given their importance in regenerative medicine, personalized therapies, and drug discovery. Effective freezing and long-term storage of stem cells are crucial to maintaining their viability and therapeutic potential. Growing investments in stem cell banking and the rising use of stem cells in advanced clinical research further enhance demand within this segment.\n\nThe oocytes and embryonic cells segment is estimated to grow at the fastest rate in the cell cryopreservation market during the predicted timeframe. Oocytes and embryonic cells represent a significant application segment, driven by the rising prevalence of fertility treatments and IVF procedures. Cryopreservation enables the long-term storage of reproductive cells while maintaining their viability, which is critical for assisted reproduction technologies. Increasing global awareness of fertility preservation options and expanding IVF clinic networks strengthen the growth of this application.\n\nBy end-use,\n\nHow did IVF Clinics dominate the Cell Cryopreservation Market in 2024?\n\nThe IVF clinics segment held the largest share of the cell cryopreservation market in 2023. IVF clinics account for a substantial share of the cell cryopreservation market as they rely on advanced preservation techniques for reproductive cells and embryos. Cryopreservation supports treatment flexibility and improved success rates, making it integral to modern fertility care. With the growing demand for assisted reproductive technologies, IVF clinics continue to be a key end-user segment.\n\nBy end-use, the biobanks segment is expected to achieve the fastest CAGR in the cell cryopreservation market during the forecast period. Biobanks are a critical end-user segment, serving as repositories for a wide range of biological samples, including stem cells, tissues, and genetic material. These facilities require large-scale cryopreservation systems and consumables to ensure long-term sample integrity for research and therapeutic use. The expansion of personalized medicine and genetic research further fuels the reliance of biobanks on cryopreservation solutions.\n\nGet the latest insights on healthcare industry segmentation with our Annual Membership: https://www.towardshealthcare.com/get-an-annual-membership\n\nRecent Developments\n\nIn September 2024, the novel aseptic micro-connector produced by CPC (Colder Products Company), a division of Dover, is designed to slot straight into the frozen cassettes used in the processing of cell and gene therapy (CGT). Cryopreservation, which involves freezing CGT biological materials at extremely low temperatures, reduces material loss of function that happens during product storage and transportation, which takes place before patient therapy delivery.\n\nIn October 2024, according to David Sheehan, CEO of Nucleus Biologics, the introduction of NB-KUL DF ushers in a new era in the cryopreservation of cells employed for therapeutic purposes. This solution will remove negative effects for patients while lowering complexity and expense.\n\nCell Cryopreservation Market Key Players\n\nThermo Fisher Scientific Inc.Merck KGaASartorius AGPromoCell GmbHLonzaHiMedia LaboratoriesCreative BiolabsCorning IncorporatedBioLife Solutions Inc.\n\nBrowse More Insights of Towards Healthcare:\n\nThe global autologous cell therapy market is valued at USD 9.6 billion in 2024 and is expected to grow to USD 11.41 billion in 2025. By 2034, the market is projected to reach approximately USD 54.21 billion, expanding at a CAGR of 18.9% between 2025 and 2034.\n\nThe global autologous stem cell and non-stem cell therapies market is estimated at USD 5.15 billion in 2024 and is anticipated to rise to USD 6.81 billion in 2025. Over the forecast period, it is expected to surge to around USD 82.32 billion by 2034, growing at an impressive CAGR of 32.26%.\n\nThe global single cell sequencing market started at USD 1.63 billion in 2024 and is projected to reach USD 1.88 billion in 2025. By 2034, the market is expected to surpass USD 6.65 billion, achieving a steady CAGR of 15.05%.\n\nThe global cellular immunotherapy market recorded USD 11.33 billion in 2024, is set to reach USD 13.87 billion in 2025, and is projected to hit nearly USD 85.78 billion by 2034, expanding at a CAGR of 22.45% throughout the forecast period.\n\nThe global cell and gene therapy clinical trials market reached USD 10.8 billion in 2024, is expected to grow to USD 12.47 billion in 2025, and is projected to attain around USD 45.31 billion by 2034, expanding at a CAGR of 15.43%.\n\nThe global cell-based assays market began at USD 17.29 billion in 2024 and is forecast to rise to USD 18.82 billion in 2025. By the end of 2034, it is expected to exceed USD 39.92 billion, growing at a CAGR of 8.84%.\n\nThe global cell and gene solutions market is on a strong upward trajectory, with potential revenues expected to climb significantly over the forecast period from 2025 to 2034.\n\nThe global cell-based immunotherapies market is valued at USD 4.59 billion in 2024, expected to reach USD 5.28 billion in 2025, and is projected to grow to approximately USD 18.62 billion by 2034, at a CAGR of 15.02%.\n\nThe global cell banking outsourcing market is calculated at USD 14.37 billion in 2024, projected to rise to USD 16.72 billion in 2025, and expected to reach around USD 63.49 billion by 2034, growing at a CAGR of 16.37%.\n\nThe global host cell protein testing market is estimated at USD 2.37 billion in 2024, anticipated to grow to USD 2.56 billion in 2025, and projected to reach approximately USD 5.19 billion by 2034, expanding at a CAGR of 8.17%.\n\nSegments Covered in The Report\n\nBy Product\n\nConsumables\n\nCryogenic VialsCryogenic TubesCooler Boxes/ContainersOthersCell Freezing Media\n\nEthylene GlycolDimethyl SulfoxideGlycerolOthersEquipment\n\nFreezersIncubatorsLiquid Nitrogen Supply Tanks\n\nBy Application\n\nStem CellsOocytes and Embryonic CellsSperm CellsHepatocytesOthers\n\nBy End-use\n\nIVF ClinicsBiobanksBiopharmaceutical & Pharmaceutical CompaniesResearch InstitutesOthers\n\nBy Region\n\nNorth America\n\nU.S.CanadaAsia Pacific\n\nChinaJapanIndiaSouth KoreaThailandEurope\n\nGermanyUKFranceItalySpainSwedenDenmarkNorwayLatin America\n\nBrazilMexicoArgentinaMiddle East and Africa (MEA)\n\nSouth AfricaUAESaudi ArabiaKuwait\n\nImmediate Delivery Available | Buy This Premium Research @ https://www.towardshealthcare.com/price/5361\n\nAccess our exclusive, data-rich dashboard dedicated to the healthcare market - built specifically for decision-makers, strategists, and industry leaders. The dashboard features comprehensive statistical data, segment-wise market breakdowns, regional performance shares, detailed company profiles, annual updates, and much more. From market sizing to competitive intelligence, this powerful tool is one-stop solution to your gateway.\n\nAccess the Dashboard: https://www.towardshealthcare.com/access-dashboard\n\nAbout Us\n\nTowards Healthcare is a leading global provider of technological solutions, clinical research services, and advanced analytics, with a strong emphasis on life science research. Dedicated to advancing innovation in the life sciences sector, we build strategic partnerships that generate actionable insights and transformative breakthroughs. As a global strategy consulting firm, we empower life science leaders to gain a competitive edge, drive research excellence, and accelerate sustainable growth.\n\nYou can place an order or ask any questions, please feel free to contact us at sales@towardshealthcare.com\n\nEurope Region: +44 778 256 0738\n\nNorth America Region: +1 8044 4193 44\n\nAPAC Region: +91 9356 9282 04\n\nWeb: https://www.towardshealthcare.com\n\nOur Trusted Data Partners\n\nPrecedence Research | Statifacts | Towards Packaging | Towards Automotive |Towards Food and Beverages | Towards Chemical and Materials | Towards Consumer Goods |Towards Dental | Towards EV Solutions | Nova One Advisor | Healthcare Webwire | Packaging Webwire | Automotive Webwire\n\nFind us on social platforms: LinkedIn | Twitter | Instagram | Medium | Pinterest",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:49:26+00:00",
+            "title": "If You Invested $10K In Abbott Laboratories Stock 10 Years Ago, How Much Would You Have Now?",
+            "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\n\nAbbott Laboratories (NYSE:ABT) is a global healthcare company that develops and sells a wide range of health technologies and products.\n\nIt is set to report its Q3 2025 earnings on Oct. 15. Wall Street analysts expect the company to post EPS of $1.30, up from $1.21 in the prior-year period. According to Benzinga Pro, quarterly revenue is expected to reach $11.41 billion, up from $10.63 billion a year earlier.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\nIf You Bought Abbott Laboratories Stock 10 Years Ago\n\nThe company's stock traded at approximately $43.70 per share 10 years ago. If you had invested $10,000, you could have bought roughly 229 shares. Currently, shares trade at $132.29, meaning your investment's value could have grown to $30,261 from stock price appreciation alone. However, Abbott Laboratories also paid dividends during these 10 years.\n\nAbbott Laboratories' dividend yield is currently 1.79%. Over the last 10 years, it has paid about $16.59 in dividends per share, which means you could have made $3,796 from dividends alone.\n\nSumming up $30,261 and $3,796, we end up with the final value of your investment, which is $34,057. This is how much you could have made if you had invested $10,000 in Abbott Laboratories stock 10 years ago. This means a total return of 240.60%. However, this figure is less than the S&P 500 total return for the same period, which was 307.50%.\n\nTrending: An EA Co-Founder Shapes This VC Backed Marketplace—Now You Can Invest in Gaming's Next Big Platform\n\nWhat Could The Next 10 Years Bring?\n\nAbbott Laboratories has a consensus rating of \"Buy\" and a price target of $139.60 based on the ratings of 26 analysts. The price target implies more than 5% potential upside from the current stock price.\n\nThe company on July 17 announced its Q2 2025 earnings, posting adjusted EPS of $1.26, compared to the consensus estimate of $1.25, and revenues of $11.14 billion, compared to the consensus of $11.07 billion, as reported by Benzinga.\n\n“Halfway through the year, we delivered high single-digit organic sales growth, double-digit EPS growth, significantly expanded our margin profiles, and continued to advance key programs through our new product pipeline,” said CEO Robert B. Ford. “We see this momentum carrying into 2026.”\n\nStory Continues\n\nAbbott projects its full-year 2025 adjusted diluted EPS to be between $5.10 and $5.20.\n\nSee Also: The ECG Hasn't Changed in 100 Years — This AI Upgrade Could Help Detect Heart Disease Years Earlier\n\nCheck out this article by Benzinga, which looks into Abbott Laboratories’ recent short interest.\n\nGiven the expected upside potential of just 5%, growth-focused investors may not find Abbott Laboratories stock attractive. Conversely, the stock can be a good option for income-focused investors, who can benefit from the company's solid dividend yield of 1.79% and consistent hikes. Abbott Laboratories has raised its dividend consecutively for the last 53 years.\n\nRead Next: Arrived Home's Private Credit Fund’s has historically paid an annualized dividend yield of 8.1%*, which provides access to a pool of short-term loans backed by residential real estate with just a $100 minimum.\n\nImage: Shutterstock\n\nThis article If You Invested $10K In Abbott Laboratories Stock 10 Years Ago, How Much Would You Have Now? originally appeared on Benzinga.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:38:30+00:00",
+            "title": "Peter Lynch Detailed Fundamental Analysis - ABT",
+            "content": "Below is Validea's guru fundamental report for ABBOTT LABORATORIES (ABT). Of the 22 guru strategies we follow,  ABT rates highest using our P/E/Growth Investor model based on the published strategy of Peter Lynch. This strategy looks for stocks trading at a reasonable price relative to earnings growth that also possess strong balance sheets.\n\nABBOTT LABORATORIES (ABT) is a large-cap growth stock in the Medical Equipment & Supplies industry. The rating using this strategy is 87% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. P/E/GROWTH RATIO:PASSSALES AND P/E RATIO:PASSINVENTORY TO SALES:PASSEPS GROWTH RATE:PASSTOTAL DEBT/EQUITY RATIO:PASSFREE CASH FLOW:NEUTRALNET CASH POSITION:NEUTRAL\n\nDetailed Analysis of ABBOTT LABORATORIES\n\nABT Guru Analysis\n\nABT Fundamental Analysis\n\nMore Information on Peter Lynch\n\nPeter Lynch Portfolio\n\nTop Peter Lynch Stocks\n\nAbout Peter Lynch: Perhaps the greatest mutual fund manager of all-time, Lynch guided Fidelity Investment's Magellan Fund to a 29.2 percent average annual return from 1977 until his retirement in 1990, almost doubling the S&P 500's 15.8 percent yearly return over that time. Lynch's common sense approach and quick wit made him one of the most quoted investors on Wall Street. (\"Go for a business that any idiot can run -- because sooner or later, any idiot probably is going to run it,\" is one of his many pearls of wisdom.) Lynch's bestseller One Up on Wall Street is something of a \"stocks for the everyman/everywoman\", breaking his approach down into easy-to-understand concepts.\n\nAdditional Research Links\n\nTop Healthcare Stocks\n\nDividend Aristocrats2023\n\nWide Moat Stocks2023\n\nHigh Insider Ownership Stocks\n\nFactor-Based Stock Portfolios\n\nExcess Returns Investing Podcast\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:27:00+00:00",
+            "title": "FCIcoin Advances Asset-Backed Tokenization as the Next Phase of Blockchain Finance",
+            "content": "NEW YORK, Aug.  25, 2025  (GLOBE NEWSWIRE) -- FCIcoin, a blockchain-native infrastructure platform for institutional trading, has announced its strategic commitment to advancing asset-backed tokenization (ABT) as a core pillar of its 2025–2026 development roadmap. As blockchain finance matures beyond speculative crypto assets, the next wave of innovation is being defined by tangible value—tokens anchored in real-world, income-generating or growth-driven assets.\n\nUnlike traditional utility tokens or equity-based offerings, asset-backed tokens offer a hybrid model: they combine the liquidity and programmability of digital tokens with the transparency and growth potential of real assets. These assets can include equity in emerging industries such as biotechnology, AI applications, edge computing, renewable energy, and aerospace innovation.\n\n“Asset-backed tokenization isn’t just a technical layer—it’s a structural evolution,” said Jonathan Patterson, a senior strategist at FCIcoin. “We’re not building tokens for speculation. We’re building a new framework for transparent, programmable ownership.”\n\nThe Next Evolution of Blockchain Finance\r\nAs traditional capital markets explore tokenized securities and decentralized finance continues to experiment with yield-bearing products, ABT sits at the intersection—providing verified value with on-chain utility. In contrast to typical equity offerings, asset-backed tokens can be fractionalized, traded globally 24/7, governed via smart contracts, and issued with embedded compliance.\n\nThis structure enables more democratic capital access while lowering the barriers for asset owners to engage global investors. Compared to stock issuance, ABTs offer faster settlement, reduced intermediary costs, and programmable rights management. Compared to pure crypto tokens, ABTs are grounded in fundamental value, reducing volatility and enabling valuation based on underlying growth or cash flows.\n\nThis trend has become even clearer following the recent passage of the U.S. GENIUS Act, which established clear regulations for stablecoin issuance and requires every token to be backed by an equivalent amount of U.S. dollar assets. In practice, this is only the beginning of ABTs. In the coming years, more cryptocurrencies backed by real-world underlying assets will emerge, creating the need for a new generation of blockchain infrastructure. Building that foundation is precisely what FCIcoin aims to achieve.\n\nInfrastructure for Trust: FCIcoin’s Approach\r\nTo support this shift, FCIcoin is building a specialized blockchain architecture designed for real-world asset tokenization. This includes:\r\n- A New Chain for Institutional ABT Deployment: FCIcoin is finalizing a modular Layer-1 blockchain specifically optimized for issuing and managing asset-backed tokens, with native support for compliance, real-asset anchoring, and real-time audit integration.\r\n- Legal and Jurisdictional Compliance Framework: The company is collaborating with international legal advisors to define compliant issuance models across the U.S., EU, and Asia. Smart contracts will enforce KYC/AML layers and regulatory disclosures on-chain.\r\n- Encrypted Identity and Disclosure Layer: A dual-encryption framework is being developed to protect beneficial owner identities while allowing verified disclosure to authorized parties and regulators. This layer is critical for balancing privacy and transparency in institutional-grade token offerings.\r\n- Blockchain Governance Tools: FCIcoin’s token issuance module includes programmable governance structures—allowing asset holders and tokenized communities to define rights, votes, and incentives on-chain.\r\n- Custodial Protocols for Real Assets: For physical or off-chain underlying assets, FCIcoin is implementing third-party custodial attestations and token redemption safeguards to ensure asset-link validity.\r\n- Next-Generation Trading App: A new application supporting blockchain and ABT transactions is also under development, with release targeted for early 2026.\n\n“Tokenization must do more than mirror traditional finance,” said the head of protocol design. “It must outperform it in flexibility, accessibility, and trust. That’s what we’re building toward.”\n\nFive Strategic Offerings Coming in 2025\r\nIn the second half of 2025, FCIcoin will debut five asset-backed token launches—each backed by equity stakes in high-growth, frontier-sector companies. These include:\r\n1. Biotech Innovation Token: Representing equity exposure in a portfolio of emerging biotech startups focused on therapeutics and genetic engineering.\r\n2. AI and Edge Infrastructure Token: Backed by firms developing next-generation AI applications and distributed computing frameworks.\r\n3. Clean Energy Growth Token: Tied to equity in renewable energy developers and carbon-negative infrastructure providers.\r\n4. Aerospace and Orbital Tech Token: Reflecting investment in early-stage companies targeting space logistics, satellite tech, and launch platforms.\r\n5. AI-Powered Education & Investment Network Token: Backed by an integrated digital platform delivering AI-driven trading systems, investor education, and analytics tools to a global user base.\n\nEach issuance will follow strict compliance, include full on-chain documentation, and be auditable through multi-layer custody verification.\n\nToken issuance will follow a tiered model, with accredited investor classes, community allocations, and validator incentives structured differently based on regulatory frameworks and asset jurisdictions. These distinctions will be transparently disclosed and built into issuance contracts. FCIcoin is also exploring on-chain dispute resolution tools and insurance mechanisms to enhance trust and reduce coordination risk in multi-asset token ecosystems.\n\nAdditionally, each token issuance will be accompanied by a technical factsheet and public smart contract audit, allowing users to verify token logic and governance mechanics independently. FCIcoin will also launch a governance dashboard in Q4 2025 to allow users to delegate votes, track proposals, and participate in transparent governance cycles on-chain.\n\nTo ensure long-term alignment between asset holders and tokenized communities, each asset-backed token issued by FCIcoin will include embedded governance rights. These rights may include voting on portfolio decisions, reinvestment terms, or protocol updates, depending on the structure of the underlying asset class. FCIcoin is committed to offering governance models that are both flexible and enforceable via smart contracts.\n\nVision Forward\r\nFCIcoin’s ABT initiative is not merely a financial innovation—it is an architectural response to a new era of programmable capital. With infrastructure that integrates legal trust, technical assurance, and economic transparency, the company aims to lead the market in institutional-grade tokenization.\n\nAs regulations evolve and market expectations shift toward verified utility, FCIcoin’s goal is clear: to create the rails for a future where ownership is digital, liquid, and rooted in real, growing value.\n\nMedia Contact:\r\nCompany: FCICOIN\n\nContact Person: Christopher P. Patterson\n\nEmail: support@fcicoin.com\n\nWebsite: https://www.fcicoin.com/\n\nDisclaimer: This content is provided by FCICOIN. The statements, views, and opinions expressed in this content are solely those of the content provider and do not necessarily reflect the views of this media platform or its publisher. We do not endorse, verify, or guarantee the accuracy, completeness, or reliability of any information presented. We do not guarantee any claims, statements, or promises made in this article. This content is for informational purposes only and should not be considered financial, investment, or trading advice.Investing in crypto and mining-related opportunities involves significant risks, including the potential loss of capital. It is possible to lose all your capital. These products may not be suitable for everyone, and you should ensure that you understand the risks involved. Seek independent advice if necessary. Speculate only with funds that you can afford to lose. Readers are strongly encouraged to conduct their own research and consult with a qualified financial advisor before making any investment decisions. However, due to the inherently speculative nature of the blockchain sector—including cryptocurrency, NFTs, and mining—complete accuracy cannot always be guaranteed. Neither the media platform nor the publisher shall be held responsible for any fraudulent activities, misrepresentations, or financial losses arising from the content of this press release. In the event of any legal claims or charges against this article, we accept no liability or responsibility. Globenewswire does not endorse any content on this page.\n\nLegal Disclaimer: This media platform provides the content of this article on an \"as-is\" basis, without any warranties or representations of any kind, express or implied. We assume no responsibility for any inaccuracies, errors, or omissions. We do not assume any responsibility or liability for the accuracy, content, images, videos, licenses, completeness, legality, or reliability of the information presented herein. Any concerns, complaints, or copyright issues related to this article should be directed to the content provider mentioned above.\n\nA photo accompanying this announcement is available at:\r\nhttps://www.globenewswire.com/NewsRoom/AttachmentNg/1b326f70-70b7-4d37-ad73-79084896921f",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Abbott Laboratories",
+          "sector": "Healthcare",
+          "industry": "Medical Devices",
+          "employees": 114000,
+          "description": "Abbott Laboratories, together with its subsidiaries, discovers, develops, manufactures, and sells health care products worldwide. It operates in four segments: Established Pharmaceutical Products, Diagnostic Products, Nutritional Products, and Medical Devices. The company provides generic pharmaceut"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.97,
+          "profit_margin": 0.3243,
+          "operating_margin": 0.1973,
+          "roe": 0.3093,
+          "roa": 0.0662,
+          "revenue_growth_yoy": 0.074,
+          "earnings_growth_yoy": 0.365,
+          "eps_estimate_current_year": 5.1426,
+          "eps_estimate_next_year": 5.6695,
+          "dividend_yield": 0.0176,
+          "dividend_per_share": 2.32,
+          "revenue_ttm": 43108999168,
+          "revenue_per_share": 24.777,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 16.6361,
+          "forward_pe": 25.7732,
+          "price_to_sales": 5.3531,
+          "price_to_book": 4.5638,
+          "enterprise_value": 236922460666,
+          "ev_to_revenue": 5.4959,
+          "ev_to_ebitda": 20.4791
+        },
+        "technical_data": {
+          "beta": 0.705,
+          "52_week_high": 139.9506,
+          "52_week_low": 109.5691,
+          "50_day_ma": 131.2102,
+          "200_day_ma": 126.9037,
+          "short_interest": 0.0106,
+          "short_ratio": 2.44
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.36,
+          "forward_dividend_yield": 0.0178,
+          "payout_ratio": 0.4735,
+          "dividend_date": "2025-08-15",
+          "ex_dividend_date": "2025-07-15",
+          "last_split_date": "2013-01-02",
+          "last_split_factor": "10000:4798"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1071,
+          "target_price": 142.4848,
+          "strong_buy": 12,
+          "buy": 7,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1740460032,
+          "percent_institutions": 80.815,
+          "percent_insiders": 0.543,
+          "shares_float": 1730225115
+        },
+        "balance_latest_sheet": {
+          "total_assets": 83999.0,
+          "cash_and_equivalents": 6951.0,
+          "net_debt": 6486.0,
+          "working_capital": 11029.0,
+          "shareholders_equity": 50565.0,
+          "quarter_date": "2025-06-30"
+        },
+        "income_latest_statement": {
+          "total_revenue": 11142.0,
+          "gross_profit": 6344.0,
+          "operating_income": 2099.0,
+          "net_income": 1779.0,
+          "ebitda": 2200.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 56.94,
+          "operating_margin": 18.84,
+          "net_margin": 15.97
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 3464.0,
+          "free_cash_flow": 1545.0,
+          "capex": 986.0,
+          "net_income": 3104.0,
+          "cash_change": -665.0,
+          "dividends_paid": 2055.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.3,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 131.9,
+            "high": 132.44,
+            "low": 130.3,
+            "close": 131.49,
+            "volume": 5084800
+          },
+          {
+            "date": "2025-07-16",
+            "open": 132.12,
+            "high": 133.03,
+            "low": 130.31,
+            "close": 131.74,
+            "volume": 9893000
+          },
+          {
+            "date": "2025-07-17",
+            "open": 126.55,
+            "high": 126.86,
+            "low": 119.77,
+            "close": 120.51,
+            "volume": 27560600
+          },
+          {
+            "date": "2025-07-18",
+            "open": 122.63,
+            "high": 125.63,
+            "low": 122.27,
+            "close": 123.67,
+            "volume": 19571900
+          },
+          {
+            "date": "2025-07-21",
+            "open": 124.26,
+            "high": 126.03,
+            "low": 121.6,
+            "close": 124.42,
+            "volume": 10308000
+          },
+          {
+            "date": "2025-07-22",
+            "open": 124.33,
+            "high": 126.38,
+            "low": 124.23,
+            "close": 125.73,
+            "volume": 7098400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 126.32,
+            "high": 127.04,
+            "low": 123.25,
+            "close": 125.83,
+            "volume": 6439600
+          },
+          {
+            "date": "2025-07-24",
+            "open": 125.28,
+            "high": 125.98,
+            "low": 124.7,
+            "close": 125.64,
+            "volume": 4708000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 125.77,
+            "high": 126.73,
+            "low": 125.45,
+            "close": 126.54,
+            "volume": 4741200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 126.15,
+            "high": 126.99,
+            "low": 125.625,
+            "close": 126.35,
+            "volume": 8168448
+          },
+          {
+            "date": "2025-07-29",
+            "open": 126.01,
+            "high": 128.1,
+            "low": 125.47,
+            "close": 128.01,
+            "volume": 5834139
+          },
+          {
+            "date": "2025-07-30",
+            "open": 127.97,
+            "high": 129.7,
+            "low": 127.08,
+            "close": 128.55,
+            "volume": 5359700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 127.54,
+            "high": 129.15,
+            "low": 125.81,
+            "close": 126.19,
+            "volume": 6722600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 125.47,
+            "high": 127.77,
+            "low": 125.47,
+            "close": 127.29,
+            "volume": 5453300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 127.45,
+            "high": 130.13,
+            "low": 127.45,
+            "close": 129.93,
+            "volume": 5671400
+          },
+          {
+            "date": "2025-08-05",
+            "open": 129.91,
+            "high": 131.48,
+            "low": 129.25,
+            "close": 130.69,
+            "volume": 5355400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 130.08,
+            "high": 131.72,
+            "low": 129.81,
+            "close": 130.93,
+            "volume": 5170100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 131.16,
+            "high": 132.5,
+            "low": 130.73,
+            "close": 132.06,
+            "volume": 4690600
+          },
+          {
+            "date": "2025-08-08",
+            "open": 131.8,
+            "high": 134.71,
+            "low": 131.75,
+            "close": 134.28,
+            "volume": 4985400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 134.08,
+            "high": 134.35,
+            "low": 130.55,
+            "close": 131.36,
+            "volume": 7125600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 131.74,
+            "high": 131.89,
+            "low": 129.62,
+            "close": 131.02,
+            "volume": 5657500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 131.12,
+            "high": 131.65,
+            "low": 128.33,
+            "close": 129.4,
+            "volume": 6723700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 129.1,
+            "high": 130.14,
+            "low": 128.53,
+            "close": 129.28,
+            "volume": 9688300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 129.92,
+            "high": 132.35,
+            "low": 129.67,
+            "close": 131.75,
+            "volume": 6784500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 131.63,
+            "high": 132.3,
+            "low": 130.16,
+            "close": 130.27,
+            "volume": 3831400
+          },
+          {
+            "date": "2025-08-19",
+            "open": 129.92,
+            "high": 131.72,
+            "low": 128.68,
+            "close": 131.25,
+            "volume": 4845700
+          },
+          {
+            "date": "2025-08-20",
+            "open": 132.05,
+            "high": 133.81,
+            "low": 131.72,
+            "close": 132.44,
+            "volume": 3639800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 132.12,
+            "high": 133.2,
+            "low": 131.75,
+            "close": 132,
+            "volume": 3980000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 132.77,
+            "high": 133.62,
+            "low": 131.34,
+            "close": 132.59,
+            "volume": 4130200
+          },
+          {
+            "date": "2025-08-25",
+            "open": 132.72,
+            "high": 132.96,
+            "low": 131.49,
+            "close": 131.87,
+            "volume": 3567866
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.368816778789086,
+        "return_63d": -0.8048743794192817,
+        "pct_above_sma50": 0.5196821808652597,
+        "sma_50": 131.11860000000001,
+        "new_55d_high": "False",
+        "high_55d": 139.06,
+        "rsi": 53.58444714459298,
+        "rsi_in_range": "True",
+        "adx": 38.439143958504296,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.8810191855615346,
+        "bb_width": 6.055702313589943,
+        "keltner_width": 7.603968287421087,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 712958992.5195001,
+        "adv_shares": 5460860.25,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 40.684478288303424,
+        "final_score": 35.684478288303424,
+        "sub_scores": {
+          "trend_momentum": 13.817496470121604,
+          "squeeze_breakout": 4.0,
+          "options_quality": 11.866981818181817,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Spread 3.6% > 3.5%"
+        ],
+        "penalties_applied": {
+          "wide_spread": 5
+        },
+        "key_features": {
+          "ret_21d": 4.212106843685781,
+          "ret_63d": 0.4341203351104328,
+          "rsi14": 53.58444714459298,
+          "adx14": 37.97330576848832,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: ABT\n• Current Price: $131.8\n• Overall Score: 47.09156409725705\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 131.2102\n• Sma 200: 126.9037\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 4.212106843685789\n• Momentum 63D: 0.4341203351104289\n• Momentum 126D: -2.2823267876991364\n• Momentum Acceleration: 3.7779865085753603\n• Roc 21D: 4.212106843685789\n• Trend Strength 20D: 0.4076886626462539\n• Trend Direction: -1\n• Ma Ribbon Score: 81.08667730945854\n• Breakout Strength: 0.0\n• Price Velocity: 0.002461333581631475\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 3.0\n• Squeeze Momentum: 0.11251395584648771\n• Volatility Compression: 70.48803401113237\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.817496470121604\n• Squeeze Breakout: 4.0\n• Options Quality: 11.866981818181817\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 61.0\n• Squeeze: 60.573205101669856\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: ABT\n• Strike Price: $130\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.75\n• Ask: $7\n• Last: $6.95\n• Mid: $6.875\n• Spread: 3.571428571428571428571428571%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6238\n• Gamma: 0.0298\n• Theta: -0.0363\n• Vega: 0.246\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.1963\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 8\n• Open Interest: 964\n• Volume/OI Ratio: 0.008298755186721992\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Abbott Laboratories\n• Sector: Healthcare\n• Industry: Medical Devices\n• EPS (TTM): $7.97\n• Profit Margin: 32.4%\n• ROE: 30.9%\n• P/E Ratio: 16.6\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T15:40:03+00:00: NVST or ABT: Which Is the Better Value Stock Right Now?...\n• 2025-08-25T14:00:00+00:00: Cell Cryopreservation Market Size to Expand USD 77.52 Bn by 21.05% CAGR till 203...\n• 2025-08-25T12:49:26+00:00: If You Invested $10K In Abbott Laboratories Stock 10 Years Ago, How Much Would Y...\n• 2025-08-25T12:38:30+00:00: Peter Lynch Detailed Fundamental Analysis - ABT...\n• 2025-08-25T12:27:00+00:00: FCIcoin Advances Asset-Backed Tokenization as the Next Phase of Blockchain Finan...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR ABT\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the ABT opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:37:17.824900",
+    "estimated_tokens": 2330
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"ABT\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 12,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"ABT shows moderate technical strength with price above both SMAs and positive momentum acceleration, supported by a volatility squeeze setup. However, mixed momentum signals and upcoming earnings create near-term uncertainty.\",\n    \"opportunities\": [\n        \"Price above both 50 and 200 SMAs (131.21/126.90) indicating positive trend structure\",\n        \"Active volatility squeeze with 70.49% compression and 2 timeframe confirmation\",\n        \"Strong fundamentals with 32.4% profit margin and reasonable P/E of 16.6\"\n    ],\n    \"risks\": [\n        \"126D momentum negative at -2.28%\",\n        \"Low options volume (8) relative to open interest (964)\",\n        \"Earnings approaching on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact and defined risk\",\n        \"entry_timing\": \"Wait until after earnings report for clearer directional bias\",\n        \"risk_management\": \"Use 130 strike as support level, consider rolling or closing before earnings\"\n    },\n    \"red_flags\": [\n        \"Very low options volume/OI ratio of 0.008\",\n        \"Earnings within 35 days\"\n    ],\n    \"notes\": \"Options liquidity metrics suggest potential execution challenges. Consider limiting position size or using more liquid expiration cycles.\"\n}",
+    "parsed_analysis": {
+      "symbol": "ABT",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 12,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "ABT shows moderate technical strength with price above both SMAs and positive momentum acceleration, supported by a volatility squeeze setup. However, mixed momentum signals and upcoming earnings create near-term uncertainty.",
+      "opportunities": [
+        "Price above both 50 and 200 SMAs (131.21/126.90) indicating positive trend structure",
+        "Active volatility squeeze with 70.49% compression and 2 timeframe confirmation",
+        "Strong fundamentals with 32.4% profit margin and reasonable P/E of 16.6"
+      ],
+      "risks": [
+        "126D momentum negative at -2.28%",
+        "Low options volume (8) relative to open interest (964)",
+        "Earnings approaching on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact and defined risk",
+        "entry_timing": "Wait until after earnings report for clearer directional bias",
+        "risk_management": "Use 130 strike as support level, consider rolling or closing before earnings"
+      },
+      "red_flags": [
+        "Very low options volume/OI ratio of 0.008",
+        "Earnings within 35 days"
+      ],
+      "notes": "Options liquidity metrics suggest potential execution challenges. Consider limiting position size or using more liquid expiration cycles."
+    },
+    "tokens_used": 2525,
+    "cost": 0.025249999999999998,
+    "response_time": 9.82438039779663,
+    "success": true
+  },
+  "cost": 0.025249999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8525,
+    "response_length": 1578
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "RGTI",
+  "timestamp": "2025-08-29T06:22:56.010689",
+  "data_package": {
+    "metadata": {
+      "symbol": "RGTI",
+      "package_timestamp": "2025-08-29T06:22:44.656325",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "RGTI",
+        "current_price": 16.58,
+        "overall_score": 56.587654075961545,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 14.4502,
+        "sma_200": 10.8061
+      },
+      "momentum_metrics": {
+        "momentum_21d": 17.007762879322502,
+        "momentum_63d": 26.08365019011405,
+        "momentum_126d": 106.47571606475717,
+        "momentum_acceleration": -9.075887310791547,
+        "roc_21d": 17.007762879322502,
+        "trend_strength_20d": 0.02177278364831596,
+        "trend_direction": 1,
+        "ma_ribbon_score": 88.41875797092572,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.031098201538657277
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": -0.06979842698977692,
+        "volatility_compression": 24.802144412393297,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 25.55826028761414,
+        "squeeze_breakout": 4.0,
+        "options_quality": 20.397581120944,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 65.0,
+        "squeeze": 58.720321661858996,
+        "options": 46.0,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "RGTI",
+        "strike_price": "16",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.24",
+        "ask": "2.28",
+        "last_price": "2.27",
+        "mid_price": "2.26",
+        "spread_percent": "1.754385964912280701754385965"
+      },
+      "greeks": {
+        "delta": 0.6114,
+        "gamma": 0.0778,
+        "theta": -0.02,
+        "vega": 0.0233
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.8093
+      },
+      "liquidity_metrics": {
+        "volume": 814,
+        "open_interest": 2340,
+        "volume_oi_ratio": 0.34786324786324785
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:20:59.219028",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T21:07:40+00:00",
+            "title": "Notable Thursday Option Activity: AFRM, EVR, RGTI",
+            "content": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Affirm Holdings Inc (Symbol: AFRM), where a total of 83,526 contracts have traded so far, representing approximately 8.4 million underlying shares.  That amounts to about 129.5% of AFRM's average daily trading volume over the past month of 6.4 million shares.  Especially high volume was seen for the $65 strike put option expiring August 29, 2025, with 3,361 contracts trading so far today, representing approximately 336,100 underlying shares of AFRM.  Below is a chart showing AFRM's trailing twelve month trading history, with the $65 strike highlighted in orange:\n\nEvercore Inc Class A (Symbol: EVR) options are showing a volume of 4,990 contracts thus far today.  That number of contracts represents approximately 499,000 underlying shares, working out to a sizeable 114.6% of EVR's average daily trading volume over the past month, of 435,395 shares. Particularly high volume was seen for the $200 strike call option expiring September 19, 2025, with 2,460 contracts trading so far today, representing approximately 246,000 underlying shares of EVR.  Below is a chart showing EVR's trailing twelve month trading history, with the $200 strike highlighted in orange:\n\nAnd Rigetti Computing Inc (Symbol: RGTI) saw options trading volume of 437,048 contracts, representing approximately 43.7 million underlying shares or approximately 113.7% of RGTI's average daily trading volume over the past month, of 38.5 million shares. Particularly high volume was seen for the $15.50 strike call option expiring August 29, 2025, with 72,244 contracts trading so far today, representing approximately 7.2 million underlying shares of RGTI.  Below is a chart showing RGTI's trailing twelve month trading history, with the $15.50 strike highlighted in orange:\n\nFor the various different available expirations for AFRM options, EVR options,  or RGTI options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  F Insider Buying\r\n  Top Ten Hedge Funds Holding FOR\r\n  WFC RSI\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T21:06:43+00:00",
+            "title": "Quantum Computing Stocks Rally After Cluster of Positive Headlines",
+            "content": "This article first appeared on GuruFocus.\n\nAug 28 - Quantum stocks rally on Thursday after a string of validating headlines shifts investor focus from distant potential to nearer-term commercialization. A high-profile IBMAMD partnership to pair quantum systems with classical supercomputing sets the tone, and company-level news fills in the details: earnings beats, technical milestones, and fresh financing. Together, those items prompt a quick re-rating across the sector.\n\nWarning! GuruFocus has detected 4 Warning Signs with IONQ. Is IONQ fairly valued? Test your thesis with our free DCF calculator.\n\nAlso, IonQ just got a \"Buy\" rating from a top analyst, which lifted the stock higher as well.\n\nMarket moves vary by name. IonQ (NYSE:IONQ) jumps roughly 3% during the cluster of buying, reflecting a mix of upbeat guidance and transaction news. Rigetti (NASDAQ:RGTI) posts an intraday lift up to about 9% after unveiling a multi-chip system and updating its roadmap. D-Wave (NYSE:QBTS) sees smaller gains, near 3%, while Quantum Computing Inc. (NASDAQ:QUBT) records a sharper pop of roughly 4% on the same day.\n\nTraders note that intraday highs often exceed official close prints, so exact percentages differ by source.\n\nCash in is being spurred by analyst upgrades and the theme coverage and both ETFs and options and momentum folks are toddling in. But the business component remains emerging; it is not always cash flow even when the hardware capabilities are reached. Foresee the market holding a little ready, as the investors attempt to sort the accents of reality out of headline inflammation.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:09:17+00:00",
+            "title": "Why Rigetti Computing Stock Is Skyrocketing Today",
+            "content": "Key Points\n\nCNBC's Jim Cramer recently suggested that Rigetti Computing stock could have big upside.  Cramer had previously indicated Rigetti looked like a poor play in the quantum space, so the change in commentary is notable.  Rigetti recently released its most powerful quantum computing platform, and it potentially has some big catalysts on deck later in the year. 10 stocks we like better than Rigetti Computing ›\n\nRigetti Computing(NASDAQ: RGTI) stock is soaring higher in Thursday's daily trading session. The quantum computing specialist's share price was up 9.6% as of 3:15 p.m. ET. Meanwhile, the S&P 500 had risen 0.3%, and the Nasdaq Composite was up 0.6%. The quantum stock had been up as much as 12.2% earlier today.\n\nRigetti's valuation is surging thanks to recent comments from Jim Cramer, the host of CNBC's Mad Money television show. With today's pop, the stock is now up roughly 19% over the last three months despite some big volatility across the stretch.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nImage source: Getty Images.\n\nRigetti stock soars as Cramer shifts his stance\n\nIn yesterday's episode of Mad Money, host Jim Cramer had some encouraging things to say about Rigetti:\n\nRigetti could have something that could be a home run. RGTI is one that could have a headline tomorrow. I don't want to keep you out of it.\n\nThe host's comments look particularly notable given that he had indicated earlier this year that Rigetti could be the worst play among the basket of high-flying quantum computing stocks.\n\nWhat's next for Rigetti?\n\nWith the second-quarter report it published earlier this month, Rigetti announced that its Cepheus-1-36Q had become commercially available. The company says that its 36-qubit multichip quantum computer is offering industry-leading performance, and it will pave the way for the launch of the Rigetti Quantum Cloud Services Platform on Microsoft's Azure cloud infrastructure service in the near future.\n\nRigetti also said that it's on track to launch its 100+ qubit system by the end of the year. While the stock remains a high-risk, speculative play, the quantum computing player appears to be making meaningful progress with its tech platform.\n\nShould you invest $1,000 in Rigetti Computing right now?\n\nBefore you buy stock in Rigetti Computing, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Rigetti Computing wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $659,823!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,113,120!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,068% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nKeith Noonan has no position in any of the stocks mentioned. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T19:00:00+00:00",
+            "title": "QBTS or RGTI: Which Stock Will Win As IBM, MSFT, NVIDIA Back Quantum?",
+            "content": "D-Wave Quantum QBTS and Rigetti Computing RGTI are stepping into the spotlight as speculative pure plays in the emerging quantum economy, buoyed by the growing interest of big technology players in the quantum landscape.\n\nInternational Business Machines IBM recently partnered with Advanced Micro Devices or AMD to build quantum-centric supercomputers, a major step toward merging quantum and classical computing at scale. Microsoft MSFT is also advancing its “Quantum Safe” roadmap, aiming to embed post-quantum cryptography across its platforms by 2029-2033. Meanwhile, NVIDIA NVDA is expanding its hybrid-computing push by launching a large Quantum-AI research center to advance quantum-classical integration. This surge of attention by the bigwigs is drawing fresh investor focus toward the smaller players.\n\nAgainst this big-tech momentum, QBTS and RGTI stand as potential market movers, though their future remains uncertain in a market defined by both exponential opportunity and existential risk.\n\nLet's delve deeper.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nMeanwhile, over the past six months, shares of QBTS have skyrocketed 210.8%, strongly outperforming RGTI’s 99.9% gain. Both the stocks marched well ahead of the S&P 500 index’s 11.6% rise.\n\nHow D-Wave is Placed in the Evolving Landscape\n\nD-Wave is a leading commercial provider of annealing quantum systems, different from rivals pursuing gate-model architectures. The May 2025 launch of its Advantage2 quantum computer was a major milestone, showcasing real-world quantum supremacy in materials simulation and delivering significant performance gains in coherence, energy scaling and qubit connectivity. D-Wave argues that annealing is not a niche technology but a scalable solution for optimization, simulation and AI workloads — a view supported by growing partnerships with firms like Japan Tobacco, Triumph and global institutions such as Yonsei University and the Julich Supercomputing Center.\n\nOn the financialside, the last-reported second-quarter 2025 revenues rose 42% year over year to $3.1 million, with bookings nearly doubling and margins above 70%. Crucially, a record $819 million cash balance gives the company resources to advance its roadmap toward 100,000 qubits and expand hybrid quantum-AI applications. With customers spanning GE Vernova, Nikon, NTT, Sharp and Oxford University, D-Wave is proving annealing’s versatility.\n\nRigetti's Current Stance on Path to Quantum Edge\n\nRigetti is gaining market share based on its chiplet-based architecture as the foundation for scaling superconducting qubits. Cepheus-1-36Q, launched earlier this month, has been recognized as the industry’s largest multi-chip quantum computer. It is claimed to reduce error rates at a rapid pace, achieving a two times improvement in 2-qubit gate fidelity over its prior Ankaa-3 system in just six months. By leveraging chiplet technology from the semiconductor industry, Rigetti is moving beyond monolithic designs and gaining better manufacturing yields and consistency while proving that multi-chip scaling is both feasible and advantageous. The company is confident that this approach will enable the release of a 100+ qubit system with 99.5% median 2-qubit gate fidelity by year-end 2025, a milestone that would significantly advance the roadmap toward error correction and fault tolerance.\n\nStory Continues\n\nOn the financial side, Rigetti strengthened its position with $350 million in at-the-market equity financing, ending the last-reported second quarter with $571.6 million in cash and no debt, providing the resources to support commercial scale-up. However, revenues were down year over year due to delays in U.S. government funding programs like the National Quantum Initiative. While gross margins fell to 31% and losses widened, management highlighted that technical milestones, not current revenues, are the core metric of long-term success.\n\nBig Tech Momentum: Boon or Bane for QBTS and RGTI?\n\nThe growth of Big Tech in quantum computing is both good and bad for smaller companies like D-Wave and Rigetti. On the one hand, companies such as IBM, Microsoft and NVIDIA are investing billions into quantum hardware, software and security, raising the visibility of the whole sector and attracting fresh capital. This helps smaller companies because customers, investors and governments are more willing to take quantum seriously when big names are involved. For both D-Wave and Rigetti, this momentum provides credibility and a stronger market context.\n\nOn the other hand, Big Tech’s size and resources make the competitive environment tough. D-Wave and Rigetti both face the risk of being overshadowed by larger players who can afford longer R&D timelines and broader market reach.\n\nAverage Target Price for D-Wave Suggests a Better Upside\n\nBased on short-term price targets offered by 10 analysts, QBTS’ average price target represents an increase of 37.22% from the last closing price of $15.45.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nBased on short-term price targets offered by six analysts, RGTI’s average price target represents an increase of 16.54% from the last closing price of $15.3.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nD-Wave Pulls Ahead as Big Tech Fuels Quantum Momentum\n\nWhile D-Wave and Rigetti currently have a Zacks Rank #3 (Hold) each, the evidence points to QBTS being better positioned in the near term. Its strong revenue growth, robust cash reserves, expanding commercial partnerships and higher analyst upside potential give it an edge over Rigetti, which is still contending with government funding delays and widening losses despite impressive technical milestones. This advantage is especially important as big tech giants like IBM, Microsoft and NVIDIA accelerate quantum adoption and validation, further raising the stakes for all players in the space. You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMicrosoft Corporation (MSFT) : Free Stock Analysis Report\n\nInternational Business Machines Corporation (IBM) : Free Stock Analysis Report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nRigetti Computing, Inc. (RGTI) : Free Stock Analysis Report\n\nD-Wave Quantum Inc. (QBTS) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:32:00+00:00",
+            "title": "Top gaining Russell 2000 stocks as index close to strongest performance vs. large-caps",
+            "content": "[Small Cap write on sticky notes isolated on Office Desk. Stock market concept]\nsyahrir maulana/iStock via Getty Images\n\nThe Russell 2000 (IMW) is close to its strongest relative performance compared to the S&P 500 (SP500 [https://seekingalpha.com/symbol/SP500]) since last November.\n\nSmall-caps are already hitting their highest levels since March relative to their large-cap counterparts (IWB [https://seekingalpha.com/symbol/IWB]).\n\n[Small-caps vs. large-caps]\nSmall-caps vs. large-caps (TrendLabs) \n\nThe Russell 2000 (NYSEARCA:IWM [https://seekingalpha.com/symbol/IWM]) has been mostly flat on Thursday and up 6.8% year-to-date.\n\nHere are the best performing stocks within the index:\n\n \t* Offerpad Solutions (OPAD [https://seekingalpha.com/symbol/OPAD]) – Up 70.5%\n \t* Invivyd Inc. (IVVD [https://seekingalpha.com/symbol/IVVD]) – Up 19.4%\n \t* Phibro Animal Health (PAHC [https://seekingalpha.com/symbol/PAHC]) – Up 19.1%\n \t* Wheels Up Experience (UP [https://seekingalpha.com/symbol/UP]) – Up 17.2%\n \t* Blink Charging (BLNK [https://seekingalpha.com/symbol/BLNK]) – Up 16.8%\n \t* 374Water (SCWO [https://seekingalpha.com/symbol/SCWO]) – Up 15.3%\n \t* Build-A-Bear Workshop (BBW [https://seekingalpha.com/symbol/BBW]) – Up 14%\n \t* KorroBio (KRRO [https://seekingalpha.com/symbol/KRRO]) – Up 12.5%\n \t* TPI Composites (OTC:TPICQ [https://seekingalpha.com/symbol/TPICQ]) – Up 11.9%\n \t* Rigetti Computing (RGTI [https://seekingalpha.com/symbol/RGTI]) – Up 10.5%\n\nMORE ON ISHARES RUSSELL 2000 ETF:\n\n \t* Housing: 5 More Signs Of A Rapidly Deteriorating Market [https://seekingalpha.com/article/4817532-housing-5-more-signs-of-a-rapidly-deteriorating-market]\n \t* Fed Narrows 11th Consecutive Quarterly Loss Due To Quantitative Tightening [https://seekingalpha.com/article/4817515-fed-narrows-11th-consecutive-quarterly-loss-due-to-quantitative-tightening]\n \t* Losing Speed On The AI Superhighway [https://seekingalpha.com/article/4817496-losing-speed-on-the-ai-superhighway]\n \t* Investors are getting ahead of themselves by pricing in a 50bp rate cut – JPM’s Gabriela Santos [https://seekingalpha.com/news/4484051-investors-are-getting-ahead-of-themselves-by-pricing-in-a-50bp-rate-cut-jpms-gabriela-santos]\n \t* Jobless claims 'crucial' for stock investors - and facing a major test [https://seekingalpha.com/news/4470392-jobless-claims-crucial-for-stock-investors-and-facing-a-major-test]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Rigetti Computing Inc",
+          "sector": "Technology",
+          "industry": "Computer Hardware",
+          "employees": 137,
+          "description": "Rigetti Computing, Inc., through its subsidiaries, builds quantum computers and the superconducting quantum processors the United States, the United Kingdom, rest of Europe, Asia, and internationally. The company offers quantum processing units (QPUs) and quantum computing systems through the cloud "
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.88,
+          "profit_margin": 0,
+          "operating_margin": -11.0394,
+          "roe": -0.4881,
+          "roa": -0.121,
+          "revenue_growth_yoy": -0.416,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.18,
+          "eps_estimate_next_year": -0.155,
+          "revenue_ttm": 7925000,
+          "revenue_per_share": 0.032,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 0,
+          "price_to_sales": 678.1899,
+          "price_to_book": 9.0172,
+          "enterprise_value": 4571172966,
+          "ev_to_revenue": 576.8042,
+          "ev_to_ebitda": 1.29
+        },
+        "technical_data": {
+          "beta": 1.447,
+          "52_week_high": 21.42,
+          "52_week_low": 0.66,
+          "50_day_ma": 14.4502,
+          "200_day_ma": 10.8061,
+          "short_interest": 0.1458,
+          "short_ratio": 0.99
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.8333,
+          "target_price": 18.6,
+          "strong_buy": 5,
+          "buy": 1,
+          "hold": 0,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 324164992,
+          "percent_institutions": 37.485,
+          "percent_insiders": 1.876,
+          "shares_float": 318067623
+        },
+        "balance_latest_sheet": {
+          "total_assets": 636.69,
+          "total_debt": 8.01,
+          "net_debt": -49.173,
+          "working_capital": 423.149,
+          "shareholders_equity": 553.263,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.01
+        },
+        "income_latest_statement": {
+          "total_revenue": 1.801,
+          "gross_profit": 0.566,
+          "operating_income": -19.882,
+          "net_income": -39.654,
+          "ebitda": -19.882,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 31.43,
+          "operating_margin": -1103.94,
+          "net_margin": -2201.78
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -16.169,
+          "free_cash_flow": -21.836,
+          "capex": 5.667,
+          "net_income": -39.654,
+          "cash_change": 20.021,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.0486,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 16.71,
+            "high": 17.39,
+            "low": 15.96,
+            "close": 17.16,
+            "volume": 56511320
+          },
+          {
+            "date": "2025-07-21",
+            "open": 17.15,
+            "high": 17.385,
+            "low": 16.03,
+            "close": 16.08,
+            "volume": 44336594
+          },
+          {
+            "date": "2025-07-22",
+            "open": 16.1,
+            "high": 16.1366,
+            "low": 14.75,
+            "close": 15.43,
+            "volume": 40588219
+          },
+          {
+            "date": "2025-07-23",
+            "open": 15.56,
+            "high": 16.305,
+            "low": 15.35,
+            "close": 16.14,
+            "volume": 32975141
+          },
+          {
+            "date": "2025-07-24",
+            "open": 16.15,
+            "high": 16.37,
+            "low": 15.87,
+            "close": 15.95,
+            "volume": 34835441
+          },
+          {
+            "date": "2025-07-25",
+            "open": 15.94,
+            "high": 15.94,
+            "low": 15.27,
+            "close": 15.44,
+            "volume": 21368391
+          },
+          {
+            "date": "2025-07-28",
+            "open": 15.86,
+            "high": 16.3172,
+            "low": 15.21,
+            "close": 15.57,
+            "volume": 33355410
+          },
+          {
+            "date": "2025-07-29",
+            "open": 15.46,
+            "high": 16.07,
+            "low": 14.36,
+            "close": 14.47,
+            "volume": 31378240
+          },
+          {
+            "date": "2025-07-30",
+            "open": 14.65,
+            "high": 14.93,
+            "low": 14.02,
+            "close": 14.17,
+            "volume": 24466250
+          },
+          {
+            "date": "2025-07-31",
+            "open": 14.68,
+            "high": 15.95,
+            "low": 14.47,
+            "close": 14.5,
+            "volume": 50653539
+          },
+          {
+            "date": "2025-08-01",
+            "open": 14.04,
+            "high": 14.37,
+            "low": 13.61,
+            "close": 14.12,
+            "volume": 31989461
+          },
+          {
+            "date": "2025-08-04",
+            "open": 14.48,
+            "high": 15.88,
+            "low": 14.3,
+            "close": 15.76,
+            "volume": 50062633
+          },
+          {
+            "date": "2025-08-05",
+            "open": 15.74,
+            "high": 16.855,
+            "low": 15.59,
+            "close": 16.47,
+            "volume": 45290391
+          },
+          {
+            "date": "2025-08-06",
+            "open": 16.302,
+            "high": 16.34,
+            "low": 15.7,
+            "close": 15.99,
+            "volume": 24349410
+          },
+          {
+            "date": "2025-08-07",
+            "open": 15.64,
+            "high": 16.055,
+            "low": 15.255,
+            "close": 15.66,
+            "volume": 27526381
+          },
+          {
+            "date": "2025-08-08",
+            "open": 15.81,
+            "high": 16.16,
+            "low": 15.18,
+            "close": 15.44,
+            "volume": 20793270
+          },
+          {
+            "date": "2025-08-11",
+            "open": 15.42,
+            "high": 16.17,
+            "low": 15.215,
+            "close": 15.98,
+            "volume": 28439061
+          },
+          {
+            "date": "2025-08-12",
+            "open": 15.65,
+            "high": 16.37,
+            "low": 15.48,
+            "close": 16.2,
+            "volume": 36172180
+          },
+          {
+            "date": "2025-08-13",
+            "open": 16.22,
+            "high": 18.155,
+            "low": 15.66,
+            "close": 17.24,
+            "volume": 92447789
+          },
+          {
+            "date": "2025-08-14",
+            "open": 16.75,
+            "high": 18.1,
+            "low": 16.1,
+            "close": 17.98,
+            "volume": 63512129
+          },
+          {
+            "date": "2025-08-15",
+            "open": 17.795,
+            "high": 17.83,
+            "low": 16.16,
+            "close": 16.65,
+            "volume": 48381500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 16.57,
+            "high": 17.0399,
+            "low": 16.11,
+            "close": 16.63,
+            "volume": 26820359
+          },
+          {
+            "date": "2025-08-19",
+            "open": 16.465,
+            "high": 16.905,
+            "low": 14.95,
+            "close": 15.16,
+            "volume": 37661160
+          },
+          {
+            "date": "2025-08-20",
+            "open": 14.9,
+            "high": 15.03,
+            "low": 13.97,
+            "close": 14.76,
+            "volume": 26581631
+          },
+          {
+            "date": "2025-08-21",
+            "open": 14.64,
+            "high": 14.85,
+            "low": 14.175,
+            "close": 14.27,
+            "volume": 22675580
+          },
+          {
+            "date": "2025-08-22",
+            "open": 14.185,
+            "high": 14.97,
+            "low": 13.82,
+            "close": 14.82,
+            "volume": 29793359
+          },
+          {
+            "date": "2025-08-25",
+            "open": 14.82,
+            "high": 14.9,
+            "low": 14.12,
+            "close": 14.47,
+            "volume": 23401609
+          },
+          {
+            "date": "2025-08-26",
+            "open": 14.4,
+            "high": 15.35,
+            "low": 14.37,
+            "close": 15.3,
+            "volume": 39223660
+          },
+          {
+            "date": "2025-08-27",
+            "open": 15.29,
+            "high": 16.09,
+            "low": 15.0701,
+            "close": 15.39,
+            "volume": 43923434
+          },
+          {
+            "date": "2025-08-28",
+            "open": 15.715,
+            "high": 17.2679,
+            "low": 15.68,
+            "close": 16.58,
+            "volume": 75480521
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 14.344827586206884,
+        "return_63d": 36.91164327002476,
+        "pct_above_sma50": 14.738896347455382,
+        "sma_50": 14.4502,
+        "new_55d_high": "False",
+        "high_55d": 18.155,
+        "rsi": 56.15550755939525,
+        "rsi_in_range": "True",
+        "adx": 24.33801708292045,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 7.594300361881788,
+        "bb_width": 25.68133871907777,
+        "keltner_width": 32.14563466301391,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 625430624.6316499,
+        "adv_shares": 39726275.9,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 60.95584140855814,
+        "final_score": 55.95584140855814,
+        "sub_scores": {
+          "trend_momentum": 25.55826028761414,
+          "squeeze_breakout": 4.0,
+          "options_quality": 20.397581120944,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 17.007762879322506,
+          "ret_63d": 26.08365019011405,
+          "rsi14": 56.15550755939525,
+          "adx14": 23.26297378275317,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: RGTI\n• Current Price: $16.58\n• Overall Score: 56.587654075961545\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 14.4502\n• Sma 200: 10.8061\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 17.007762879322502\n• Momentum 63D: 26.08365019011405\n• Momentum 126D: 106.47571606475717\n• Momentum Acceleration: -9.075887310791547\n• Roc 21D: 17.007762879322502\n• Trend Strength 20D: 0.02177278364831596\n• Trend Direction: 1\n• Ma Ribbon Score: 88.41875797092572\n• Breakout Strength: 0.0\n• Price Velocity: 0.031098201538657277\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: -0.06979842698977692\n• Volatility Compression: 24.802144412393297\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 25.55826028761414\n• Squeeze Breakout: 4.0\n• Options Quality: 20.397581120944\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 65.0\n• Squeeze: 58.720321661858996\n• Options: 46.0\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: RGTI\n• Strike Price: $16\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.24\n• Ask: $2.28\n• Last: $2.27\n• Mid: $2.26\n• Spread: 1.754385964912280701754385965%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6114\n• Gamma: 0.0778\n• Theta: -0.02\n• Vega: 0.0233\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.8093\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 814\n• Open Interest: 2340\n• Volume/OI Ratio: 0.34786324786324785\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Rigetti Computing Inc\n• Sector: Technology\n• Industry: Computer Hardware\n• EPS (TTM): $-0.88\n• ROE: -48.8%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T21:07:40+00:00: Notable Thursday Option Activity: AFRM, EVR, RGTI...\n• 2025-08-28T21:06:43+00:00: Quantum Computing Stocks Rally After Cluster of Positive Headlines...\n• 2025-08-28T20:09:17+00:00: Why Rigetti Computing Stock Is Skyrocketing Today...\n• 2025-08-28T19:00:00+00:00: QBTS or RGTI: Which Stock Will Win As IBM, MSFT, NVIDIA Back Quantum?...\n• 2025-08-28T17:32:00+00:00: Top gaining Russell 2000 stocks as index close to strongest performance vs. larg...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR RGTI\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the RGTI opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:22:56.010218",
+    "estimated_tokens": 2312
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"RGTI\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"RGTI shows strong momentum with a 106% 126-day return and all SMAs aligned bullishly, but faces near-term headwinds from negative momentum acceleration and poor fundamentals. Options setup shows decent liquidity with tight spreads, though high IV suggests caution.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 SMA (14.45) and 200 SMA (10.81)\",\n        \"Multi-timeframe squeeze setup with 3 concurrent squeezes active\",\n        \"Tight option spreads (1.75%) with healthy volume/OI ratio\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-9.07) suggests potential trend weakening\",\n        \"Poor fundamentals with -48.8% ROE and negative EPS\",\n        \"Earnings approaching on 9/30/2025 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta and vega exposure\",\n        \"entry_timing\": \"Wait for momentum acceleration to stabilize before entry\",\n        \"risk_management\": \"Position size conservatively due to upcoming earnings and high IV\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 30 days\",\n        \"Negative momentum acceleration despite strong trend\",\n        \"Poor fundamental metrics suggest increased downside risk\"\n    ],\n    \"notes\": \"High IV environment (80.93%) suggests spread strategies may be more appropriate than outright long options positions\"\n}",
+    "parsed_analysis": {
+      "symbol": "RGTI",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "RGTI shows strong momentum with a 106% 126-day return and all SMAs aligned bullishly, but faces near-term headwinds from negative momentum acceleration and poor fundamentals. Options setup shows decent liquidity with tight spreads, though high IV suggests caution.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 SMA (14.45) and 200 SMA (10.81)",
+        "Multi-timeframe squeeze setup with 3 concurrent squeezes active",
+        "Tight option spreads (1.75%) with healthy volume/OI ratio"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-9.07) suggests potential trend weakening",
+        "Poor fundamentals with -48.8% ROE and negative EPS",
+        "Earnings approaching on 9/30/2025 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta and vega exposure",
+        "entry_timing": "Wait for momentum acceleration to stabilize before entry",
+        "risk_management": "Position size conservatively due to upcoming earnings and high IV"
+      },
+      "red_flags": [
+        "Imminent earnings event within 30 days",
+        "Negative momentum acceleration despite strong trend",
+        "Poor fundamental metrics suggest increased downside risk"
+      ],
+      "notes": "High IV environment (80.93%) suggests spread strategies may be more appropriate than outright long options positions"
+    },
+    "tokens_used": 2538,
+    "cost": 0.02538,
+    "response_time": 11.352068901062012,
+    "success": true
+  },
+  "cost": 0.02538,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8464,
+    "response_length": 1689
+  }
+}

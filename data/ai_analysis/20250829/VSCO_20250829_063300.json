@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "VSCO",
+  "timestamp": "2025-08-29T06:33:00.836312",
+  "data_package": {
+    "metadata": {
+      "symbol": "VSCO",
+      "package_timestamp": "2025-08-29T06:32:49.877781",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "VSCO",
+        "current_price": 22.67,
+        "overall_score": 51.986592817452205,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 20.3242,
+        "sma_200": 26.6712
+      },
+      "momentum_metrics": {
+        "momentum_21d": 16.137295081967224,
+        "momentum_63d": 9.46402704007726,
+        "momentum_126d": -15.630815035355411,
+        "momentum_acceleration": 6.673268041889964,
+        "roc_21d": 16.137295081967224,
+        "trend_strength_20d": 0.5281032246719279,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 89.97165368306577,
+        "price_velocity": 0.012403228278492207
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": 0.021628618852651743,
+        "volatility_compression": 0.32232468430421723,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.539482444219377,
+        "squeeze_breakout": 4.0,
+        "options_quality": 0,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 76.0,
+        "squeeze": 50.04834870264563,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 11,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "VSCO",
+        "strike_price": "22",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.3",
+        "ask": "2.45",
+        "last_price": "2.35",
+        "mid_price": "2.375",
+        "spread_percent": "6.122448979591836734693877551"
+      },
+      "greeks": {
+        "delta": 0.6094,
+        "gamma": 0.0775,
+        "theta": -0.0206,
+        "vega": 0.032
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.5941
+      },
+      "liquidity_metrics": {
+        "volume": 21,
+        "open_interest": 63,
+        "volume_oi_ratio": 0.3333333333333333
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:31.832897",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T18:04:35+00:00",
+            "title": "Notable Thursday Option Activity: GS, DDOG, RTX",
+            "content": "Among the underlying components of the S&P 500 index, we saw noteworthy options trading volume today in Goldman Sachs Group Inc (Symbol: GS), where a total of 38,837 contracts have traded so far, representing approximately 3.9 million underlying shares.  That amounts to about 226.9% of GS's average daily trading volume over the past month of 1.7 million shares.  Particularly high volume was seen for the $520 strike call option expiring September 19, 2025, with 6,480 contracts trading so far today, representing approximately 648,000 underlying shares of GS.  Below is a chart showing GS's trailing twelve month trading history, with the $520 strike highlighted in orange:\n\nDatadog Inc (Symbol: DDOG) saw options trading volume of 67,318 contracts, representing approximately 6.7 million underlying shares or approximately 109% of DDOG's average daily trading volume over the past month, of 6.2 million shares. Especially high volume was seen for the $145 strike call option expiring August 29, 2025, with 18,808 contracts trading so far today, representing approximately 1.9 million underlying shares of DDOG.  Below is a chart showing DDOG's trailing twelve month trading history, with the $145 strike highlighted in orange:\n\nAnd RTX Corp (Symbol: RTX) options are showing a volume of 32,221 contracts thus far today.  That number of contracts represents approximately 3.2 million underlying shares, working out to a sizeable 82.2% of RTX's average daily trading volume over the past month, of 3.9 million shares. Particularly high volume was seen for the $162.50 strike call option expiring August 29, 2025, with 25,867 contracts trading so far today, representing approximately 2.6 million underlying shares of RTX.  Below is a chart showing RTX's trailing twelve month trading history, with the $162.50 strike highlighted in orange:\n\nFor the various different available expirations for GS options, DDOG options,  or RTX options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  Cheap Consumer Shares\r\n  Institutional Holders of AUPH\r\n  VSCO Insider Buying\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T16:04:10+00:00",
+            "title": "Victoria's Secret raises full-year net sales guidance to $6.41B amid strong Q2 and strategic brand momentum",
+            "content": "Earnings Call Insights: Victoria's Secret & Co. (VSCO) Q2 2025\n\nMANAGEMENT VIEW\n\n \t* CEO Hillary Super opened by highlighting continued momentum in the second quarter, \"once again delivering results that beat our top and bottom line guidance.\" She emphasized sequential improvements, \"We grew net sales 3% despite the digital outage in May and grew comp sales 4%, both sequential improvements over the prior quarter and above our expectations.\" \n \t* Super detailed progress on the Path to Potential strategy, noting, \"Our refreshed leadership team is in place, including a new Chief Marketing and Customer Officer and a new Brand President model.\" She stressed increased innovation and faster production cycles, citing the successful Body by Victoria FlexFactor bra launch, which \"saw double-digit new customer growth at Victoria's Secret in the last week of the month when the campaign began.\"\n \t* Super described international growth as a standout, with \"Q2 net sales grew 22% year-over-year while retail comps were up high single digits.\" She highlighted the impact of collaborations, stating the PINK x LoveShackFancy collection was \"a record-breaking collaboration for both PINK and LoveShackFancy\" and noted, \"Strong traffic and exceptionally large basket sizes drove outsized results, all achieved with 0 discounting.\"\n \t* CFO Scott Sekella stated, \"Our second quarter results exceeded expectations, building on our strong first quarter beat.\" He added, \"Net sales were up $42 million or 3% year-over-year while comps grew 4%.\" Sekella also noted, \"Adjusted operating income of $55 million exceeded the high end of our guidance by $20 million.\"\n\nOUTLOOK\n\n \t* The company raised its full year outlook for net sales, now forecasting net sales in the range of $6.33 billion to $6.41 billion, up from previous guidance of $6.2 billion to $6.3 billion.\n \t* Sekella stated, \"Given the outperformance during the second quarter was offset by incremental tariff exposure, we are maintaining our adjusted operating income range for fiscal year 2025 of $270 million to $320 million.\"\n \t* Guidance for fiscal year 2025 adjusted net income per diluted share remains at $1.80 to $2.20.\n \t* Third quarter net sales are forecast in the range of $1.39 billion to $1.42 billion.\n \t* Third quarter adjusted net loss per share is expected to be in the range of (-$0.55) to (-$0.75).\n\nFINANCIAL RESULTS\n\n \t* Net sales for Q2 were $1.459 billion, up 3% versus last year.\n \t* Adjusted gross margin rate was 35.6%, 20 basis points above last year and 60 basis points above guidance.\n \t* Adjusted operating income reached $55 million.\n \t* Adjusted net income per diluted share came in at $0.33.\n \t* International reported sales grew 22% to $228 million in the quarter.\n \t* Cash balance at quarter-end was $188 million, with an outstanding balance under the $750 million ABL credit facility at $75 million.\n \t* Total inventories ended the quarter up 4% compared to last year, in line with guidance.\n\nQ&A\n\n \t* Lauren B. Levine, Morgan Stanley, asked about the end of the de minimis exemption. CFO Sekella responded, \"The de minimis exemption isn't a big part of how we go to market.\"\n \t* Marni Shapiro, The Retail Tracker, inquired about innovation. Super replied, \"We have a very deep pipeline of innovation, primarily focused on bras but also in sport... you'll see a more constant drumbeat from us in both innovation and in fashion as we move through the back half of this year and into next year.\"\n \t* Dana Lauren Telsey, Telsey Advisory Group, questioned gross margin strategy and Store of the Future performance. Sekella explained, \"We've really made a conscious effort to pull back on promos and the traditional discounts. We expect that to continue into the back half.\"\n \t* Michael Vu, Barclays, asked about international category performance. Super said, \"Intimates business is very strong there... it's really the 2 core categories of Beauty as well as intimates both doing very well globally.\"\n \t* Mauricio Serna Vega, UBS, requested details on tariffs. Sekella clarified, \"Our net tariff impact in fiscal '25 is $100 million total. There is $70 million of mitigation in that... mitigation will definitely increase in 2026.\"\n\nSENTIMENT ANALYSIS\n\n \t* Analysts were largely positive, focusing on innovation, international growth, and gross margin management, with recurring praise for new product launches and leadership changes.\n \t* Management's sentiment was confident and optimistic, repeatedly using language such as \"momentum,\" \"excited,\" and \"progress,\" and emphasizing strategic discipline and forward momentum.\n \t* Compared to the previous quarter, both analysts and management demonstrated increased optimism, as the company reported sequential improvements and raised guidance.\n \t* Management's tone during prepared remarks was upbeat, and remained positive and engaged during Q&A, with direct answers and forward-looking enthusiasm.\n \t* Analysts showed more enthusiasm this quarter, with a shift from caution in Q1 to more congratulatory and opportunity-focused dialogue in Q2.\n\nQUARTER-OVER-QUARTER COMPARISON\n\n \t* The current quarter saw raised net sales guidance and sequential improvement in both net sales and comp sales, as opposed to the flat net sales and down 1% comps reported in Q1.\n \t* International growth accelerated from high single-digit growth in Q1 to 22% reported sales growth in Q2.\n \t* Management's language shifted from cautious optimism to confident execution, with greater emphasis on innovation cadence and brand momentum.\n \t* Analysts' questions shifted from team structure and tariff mitigation in Q1 to innovation, international strategy, and gross margin leverage in Q2.\n \t* The previous quarter highlighted new leadership appointments, while the current quarter focused on the impact of those leaders and their strategies in action.\n \t* Tariff headwinds increased in Q2 compared to Q1, with incremental exposure offset by mitigation efforts and a maintained operating income range.\n\nRISKS AND CONCERNS\n\n \t* Management cited ongoing macroeconomic uncertainty and increased tariff pressures, with guidance now reflecting a 30% tariff for China and 20% for non-China imports.\n \t* The company addressed mitigation efforts, including \"optimizing costs with vendors, further diversifying our sourcing, ensuring we have the most efficient air-versus-ocean freight mix possible and implementing a combination of select pricing adjustments.\"\n \t* The digital security incident in May was noted as having a negative impact on net sales of approximately $20 million and an operating income impact of approximately $14 million in the quarter.\n\nFINAL TAKEAWAY\n\nVictoria's Secret & Co. reported a strong second quarter with sequential improvements and raised its full-year net sales outlook, highlighting accelerating international growth, robust innovation in core categories, and continued progress on its Path to Potential strategy. Gross margin expansion, disciplined cost management, and effective tariff mitigation supported results, while new leadership and strategic collaborations drove higher engagement and new customer acquisition. The company remains focused on executing key brand moments and product launches, maintaining confidence in its ability to deliver value for shareholders amid a dynamic environment.\n\nRead the full Earnings Call Transcript [https://seekingalpha.com/symbol/vsco/earnings/transcripts]\n\nMORE ON VICTORIA’S SECRET\n\n \t* Victoria's Secret & Co. 2025 Q2 - Results - Earnings Call Presentation [https://seekingalpha.com/article/4817586-victorias-secret-and-co-2025-q2-results-earnings-call-presentation]\n \t* Victoria's Secret & Co. (VSCO) Q2 2025 Earnings Call Transcript [https://seekingalpha.com/article/4817585-victorias-secret-and-co-vsco-q2-2025-earnings-call-transcript]\n \t* Victoria's Secret: Outlook Remains Weak, Fueling A Potential Proxy Fight [https://seekingalpha.com/article/4816184-victorias-secret-outlook-remains-weak-fueling-a-potential-proxy-fight]\n \t* Victoria’s Secret Non-GAAP EPS of $0.33 beats by $0.20, revenue of $1.46B beats by $50M [https://seekingalpha.com/news/4489991-victoria-s-secret-non-gaap-eps-of-0_33-beats-by-0_20-revenue-of-1_46b-beats-by-50m]\n \t* Earnings week ahead: NVDA, BABA, SNOW, CRWD, OKTA, MRVL, DELL, PDD, LI, BBY, and more [https://seekingalpha.com/news/4488328-earnings-week-ahead-nvda-baba-snow-crwd-okta-mrvl-dell-pdd-li-bby-and-more]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T15:59:10+00:00",
+            "title": "Pure Storage, Hormel, Victoria's Secret: Trending Tickers",
+            "content": "Yahoo Finance Senior Reporter Allie Canal discusses some of the trending tickers for Thursday, Aug. 28, including Pure Storage (PSTG), Hormel Foods (HRL), and Victoria's Secret (VSCO).\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Catalysts.\n\nVideo Transcript\n\n00:00 Speaker A\n\nNow time for some of today's trending tickers. We're watching Pure Storage, Hormel, and Victoria's Secret.\n\n00:06 Speaker A\n\nFirst up, Pure Storage. Shares of the cloud storage provider are surging. Second quarter fiscal results topped estimates and the company raised its full-year forecast.\n\n00:15 Speaker A\n\nSecond quarter revenue grew 13% from a year ago as the company saw broad-based strength across its entire portfolio. JP Morgan analyst noting that Pure Storage pleasantly surprised investors with significant revenue momentum in the quarter.\n\n00:27 Speaker A\n\nNext, Hormel. The maker of Deli Meats posted third quarter profit that missed estimates and cut its four-year guidance.\n\n00:34 Speaker A\n\nThe company's CEO said the steep rise in commodity input costs affected its industry and was the largest contributor to its profit shortfall. The company expects the near-term pressures to continue into next year.\n\n00:44 Speaker A\n\nFinally, Victoria's Secret. The company is warning of a $20 million tariff hit in the third quarter and a 70 million impact in the fourth quarter.\n\n00:52 Speaker A\n\nBut despite that worse than expected headwind, the lingerie, clothing and beauty retailer did raise its full-year sales outlook after second quarter strength was strong.\n\n01:02 Speaker A\n\nIt now expects growth uh sales between 6.3 and 6.4 billion up from a prior range of 6.2 to 6.3 billion.\n\n01:12 Speaker A\n\nAnd you can scan the QR code below to track the best and worst performing stocks with Yahoo Finance's trending tickers page.  Related Videos\n\n01:23\n\nCrowdStrike, Dick's, Walgreens: Trending Tickers\n\nYahoo Finance Video • 2 hours ago 01:36\n\nCanada Goose, RBC, Williams-Sonoma: Trending Tickers\n\nYahoo Finance Video • yesterday 00:53\n\nFed Governor Lisa Cook will sue over Trump's bid to fire her\n\nYahoo Finance Video • 2 days ago 00:44\n\nTrump Says He's Prepared for a Legal Fight With Fed's Cook\n\nBloomberg • yesterday\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T15:42:28+00:00",
+            "title": "Why Victoria's Secret Rallied Today",
+            "content": "Key Points\n\nVictoria's Secret delivered a second quarter above expectations. Management attributes the change to some new leadership and better execution. The stock is still cheap, but the company must continue to fend off new competition and activist investors. 10 stocks we like better than Victoria's Secret & Co. ›\n\nShares of Victoria's Secret(NYSE: VSCO) rallied on Thursday, up as much as 11.8% before retreating to a 4.8% gain as of 10:26 a.m. ET.\n\nVictoria's Secret reported second-quarter earnings today, which beat analyst expectations on both the top and bottom lines. The company has recently revamped some of its leadership, and it appears those moves are paying off.\n\nVictoria's Secret's top line gets a lift\n\nIn the second quarter, Victoria's Secret grew revenue 2.8% to f $1.46 billion, on the back of a solid 4% lift in comparable-store sales. Victoria's Secret continues to rationalize its store footprint, and it seems to be yielding positive traffic at its remaining stores. Meanwhile, adjusted non-GAAP (generally accepted accounting principles) earnings per share of $0.33 handily beat estimates by $0.20, above the previously guided range.\n\nManagement also raised full-year revenue guidance to a range of $6.33 billion to $6.41 billion, compared to prior guidance of $6.20 billion to $6.30 billion, with an adjusted operating income range of $270 million to $320 million, despite an increased $100 million impact from tariffs.\n\nCEO Hillary Super noted it was \"our first full quarter under our refreshed leadership team, and the impact was clear -- sharper execution, reenergized culture, and more high-emotion storytelling, delivering significant momentum as we enter the back half of the year.\"Image source: Getty Images.\n\nWill results shrug off activists?\n\nVictoria's Secret had come under fire from activist investors a couple of months ago, who demanded the company's chairman and rest of the board step down after years of underperformance. So perhaps the strong results will keep these investors happy for the time being.\n\nIn any case, the stock looks cheap at 12 times this year's earnings estimates. While this year's earnings should mark a decline from 2024, it also includes a negative tariff impact, which should theoretically only be a one-time cost.\n\nShould you invest $1,000 in Victoria's Secret & Co. right now?\n\nBefore you buy stock in Victoria's Secret & Co., consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Victoria's Secret & Co. wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nStory Continues\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $659,823!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,113,120!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,068% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nBilly Duberstein and/or his clients have no position in any of the stocks mentioned. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.\n\nWhy Victoria's Secret Rallied Today was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T12:30:19+00:00",
+            "title": "Don't Discount These Retailers As Several Report Accelerating Earnings Growth",
+            "content": "Five Below, Burlington Stores and Ollie's Bargain Outlet reported strong earnings overnight, as consumers still embrace discounters. Several other retailers report too.\n\nContinue Reading\n\nVer comentarios",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Victoria's Secret & Co",
+          "sector": "Consumer Cyclical",
+          "industry": "Apparel Retail",
+          "employees": 30000,
+          "description": "Victoria's Secret & Co. operates as a specialty retailer of women's intimate, and other apparel and beauty products worldwide. It offers bras, panties, lingerie, casual sleepwear, apparel, sport, and swim products, as well as prestige fragrances and body care products; and loungewear, activewear, an"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.08,
+          "profit_margin": 0.0268,
+          "operating_margin": 0.0192,
+          "roe": 0.3131,
+          "roa": 0.0446,
+          "revenue_growth_yoy": -0.004,
+          "earnings_growth_yoy": 0.012,
+          "eps_estimate_current_year": 2.3622,
+          "eps_estimate_next_year": 2.818,
+          "revenue_ttm": 6224000000,
+          "revenue_per_share": 78.536,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 10.9519,
+          "forward_pe": 12.0192,
+          "price_to_sales": 0.2923,
+          "price_to_book": 2.8202,
+          "enterprise_value": 4505040041,
+          "ev_to_revenue": 0.7238,
+          "ev_to_ebitda": 8.0735
+        },
+        "technical_data": {
+          "beta": 2.261,
+          "52_week_high": 48.73,
+          "52_week_low": 13.76,
+          "50_day_ma": 20.3242,
+          "200_day_ma": 26.6712,
+          "short_interest": 0.2875,
+          "short_ratio": 4.34
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3,
+          "target_price": 21.3,
+          "strong_buy": 1,
+          "buy": 2,
+          "hold": 5,
+          "sell": 2,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 79852496,
+          "percent_institutions": 91.78699999999999,
+          "percent_insiders": 14.249999999999998,
+          "shares_float": 68313019
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4580.0,
+          "total_debt": 2824.0,
+          "net_debt": 2686.0,
+          "working_capital": 199.0,
+          "shareholders_equity": 645.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 4.38
+        },
+        "income_latest_statement": {
+          "total_revenue": 1352.949,
+          "gross_profit": 474.225,
+          "operating_income": 23.585,
+          "net_income": -1.656,
+          "ebitda": 22.742,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 35.05,
+          "operating_margin": 1.74,
+          "net_margin": -0.12
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -150.0,
+          "free_cash_flow": -193.0,
+          "capex": 43.0,
+          "net_income": 3.0,
+          "cash_change": -89.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-10-31",
+            "estimate": -0.558,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-10-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 18.89,
+            "high": 19.23,
+            "low": 18.65,
+            "close": 19.04,
+            "volume": 3178300
+          },
+          {
+            "date": "2025-07-21",
+            "open": 19.42,
+            "high": 20.2,
+            "low": 19.2282,
+            "close": 19.92,
+            "volume": 3458871
+          },
+          {
+            "date": "2025-07-22",
+            "open": 19.995,
+            "high": 21.44,
+            "low": 19.995,
+            "close": 21.14,
+            "volume": 4103143
+          },
+          {
+            "date": "2025-07-23",
+            "open": 21.5,
+            "high": 22.2,
+            "low": 21.31,
+            "close": 21.63,
+            "volume": 2572500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 21.35,
+            "high": 21.5,
+            "low": 20.75,
+            "close": 20.81,
+            "volume": 1821900
+          },
+          {
+            "date": "2025-07-25",
+            "open": 20.82,
+            "high": 21.48,
+            "low": 20.5,
+            "close": 21.48,
+            "volume": 1735300
+          },
+          {
+            "date": "2025-07-28",
+            "open": 21.75,
+            "high": 21.75,
+            "low": 20.47,
+            "close": 20.8,
+            "volume": 2329428
+          },
+          {
+            "date": "2025-07-29",
+            "open": 20.68,
+            "high": 20.98,
+            "low": 19.71,
+            "close": 19.92,
+            "volume": 3340256
+          },
+          {
+            "date": "2025-07-30",
+            "open": 20.04,
+            "high": 20.105,
+            "low": 19.27,
+            "close": 19.52,
+            "volume": 3720000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 19.31,
+            "high": 19.502,
+            "low": 18.41,
+            "close": 18.8,
+            "volume": 3381200
+          },
+          {
+            "date": "2025-08-01",
+            "open": 18.4,
+            "high": 18.86,
+            "low": 18.04,
+            "close": 18.72,
+            "volume": 3735600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 18.93,
+            "high": 20.66,
+            "low": 18.93,
+            "close": 20.56,
+            "volume": 3057000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 20.61,
+            "high": 20.61,
+            "low": 19.18,
+            "close": 19.71,
+            "volume": 4017600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 19.72,
+            "high": 20.59,
+            "low": 19.15,
+            "close": 20.48,
+            "volume": 2965200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 21,
+            "high": 21.9,
+            "low": 20.88,
+            "close": 21.68,
+            "volume": 4531700
+          },
+          {
+            "date": "2025-08-08",
+            "open": 21.51,
+            "high": 21.59,
+            "low": 20.945,
+            "close": 21.12,
+            "volume": 1861700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 21.2,
+            "high": 21.46,
+            "low": 20.475,
+            "close": 21.32,
+            "volume": 2603600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 21.53,
+            "high": 22.39,
+            "low": 21.42,
+            "close": 22.2,
+            "volume": 4689500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 22.08,
+            "high": 22.81,
+            "low": 21.54,
+            "close": 22.63,
+            "volume": 2435500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 21.88,
+            "high": 22.65,
+            "low": 21.47,
+            "close": 22.42,
+            "volume": 3787500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 22.36,
+            "high": 22.85,
+            "low": 22.235,
+            "close": 22.34,
+            "volume": 2694700
+          },
+          {
+            "date": "2025-08-18",
+            "open": 22.3,
+            "high": 22.84,
+            "low": 22.078,
+            "close": 22.72,
+            "volume": 2144300
+          },
+          {
+            "date": "2025-08-19",
+            "open": 22.92,
+            "high": 23.26,
+            "low": 22.093,
+            "close": 22.38,
+            "volume": 2108100
+          },
+          {
+            "date": "2025-08-20",
+            "open": 21.99,
+            "high": 22.5,
+            "low": 21.68,
+            "close": 22.01,
+            "volume": 1871900
+          },
+          {
+            "date": "2025-08-21",
+            "open": 21.5,
+            "high": 21.84,
+            "low": 21.23,
+            "close": 21.34,
+            "volume": 1723400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 21.58,
+            "high": 22.62,
+            "low": 21.58,
+            "close": 22.15,
+            "volume": 3414100
+          },
+          {
+            "date": "2025-08-25",
+            "open": 21.91,
+            "high": 22.36,
+            "low": 21.64,
+            "close": 21.76,
+            "volume": 1757300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 21.89,
+            "high": 22.06,
+            "low": 21.39,
+            "close": 21.99,
+            "volume": 3142300
+          },
+          {
+            "date": "2025-08-27",
+            "open": 22.17,
+            "high": 23.03,
+            "low": 22.105,
+            "close": 22.78,
+            "volume": 5301500
+          },
+          {
+            "date": "2025-08-28",
+            "open": 24.99,
+            "high": 25.47,
+            "low": 21.911,
+            "close": 22.67,
+            "volume": 8638800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 20.585106382978726,
+        "return_63d": 6.883545497406887,
+        "pct_above_sma50": 11.073003429691337,
+        "sma_50": 20.41,
+        "new_55d_high": "False",
+        "high_55d": 25.47,
+        "rsi": 63.15789473684214,
+        "rsi_in_range": "True",
+        "adx": 33.830739382511254,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.227834142037936,
+        "bb_width": 19.983965530215936,
+        "keltner_width": 21.959048932218128,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 71962683.18499999,
+        "adv_shares": 3324065.0,
+        "liquidity_tier": "high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 37.539482444219374,
+        "final_score": 32.539482444219374,
+        "sub_scores": {
+          "trend_momentum": 22.539482444219377,
+          "squeeze_breakout": 4.0,
+          "options_quality": 0,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 16.137295081967217,
+          "ret_63d": 9.464027040077273,
+          "rsi14": 63.15789473684214,
+          "adx14": 33.44542916256754,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: VSCO\n• Current Price: $22.67\n• Overall Score: 51.986592817452205\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 20.3242\n• Sma 200: 26.6712\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 16.137295081967224\n• Momentum 63D: 9.46402704007726\n• Momentum 126D: -15.630815035355411\n• Momentum Acceleration: 6.673268041889964\n• Roc 21D: 16.137295081967224\n• Trend Strength 20D: 0.5281032246719279\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 89.97165368306577\n• Price Velocity: 0.012403228278492207\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: 0.021628618852651743\n• Volatility Compression: 0.32232468430421723\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.539482444219377\n• Squeeze Breakout: 4.0\n• Options Quality: 0\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 76.0\n• Squeeze: 50.04834870264563\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: VSCO\n• Strike Price: $22\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.3\n• Ask: $2.45\n• Last: $2.35\n• Mid: $2.375\n• Spread: 6.122448979591836734693877551%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6094\n• Gamma: 0.0775\n• Theta: -0.0206\n• Vega: 0.032\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.5941\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 21\n• Open Interest: 63\n• Volume/OI Ratio: 0.3333333333333333\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Victoria's Secret & Co\n• Sector: Consumer Cyclical\n• Industry: Apparel Retail\n• EPS (TTM): $2.08\n• Profit Margin: 2.7%\n• ROE: 31.3%\n• P/E Ratio: 11.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T18:04:35+00:00: Notable Thursday Option Activity: GS, DDOG, RTX...\n• 2025-08-28T16:04:10+00:00: Victoria's Secret raises full-year net sales guidance to $6.41B amid strong Q2 a...\n• 2025-08-28T15:59:10+00:00: Pure Storage, Hormel, Victoria's Secret: Trending Tickers...\n• 2025-08-28T15:42:28+00:00: Why Victoria's Secret Rallied Today...\n• 2025-08-28T12:30:19+00:00: Don't Discount These Retailers As Several Report Accelerating Earnings Growth...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-10-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR VSCO\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the VSCO opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:33:00.836015",
+    "estimated_tokens": 2317
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"VSCO\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 8,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"VSCO shows positive momentum with a 16.14% 21-day return and price above SMA50, but below SMA200, indicating mixed trend conditions. The presence of a volatility squeeze and strong ma_ribbon_score (100) suggests potential for a continued move, though options liquidity is concerning.\",\n    \"opportunities\": [\n        \"Strong recent momentum with 16.14% 21-day return\",\n        \"Multiple timeframe squeeze setup (2 counts) indicating potential breakout\",\n        \"Attractive valuation with P/E of 11.0 and solid ROE of 31.3%\"\n    ],\n    \"risks\": [\n        \"Poor options liquidity with low volume/OI ratio of 0.33\",\n        \"Wide bid-ask spread of 6.12%\",\n        \"Price still below SMA200 of $26.67\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider stock position instead of options due to liquidity concerns\",\n        \"entry_timing\": \"Wait for confirmation of squeeze breakout before entry\",\n        \"risk_management\": \"Use smaller position size due to wide spreads and low liquidity\"\n    },\n    \"red_flags\": [\n        \"Options liquidity significantly below acceptable levels\",\n        \"Earnings coming up on 2025-10-31 before expiration\",\n        \"Bid-ask spread exceeds 6%\"\n    ],\n    \"notes\": \"While technical setup is promising, poor options market quality severely limits the viability of options strategies. Stock position may be more appropriate for expressing directional view.\"\n}",
+    "parsed_analysis": {
+      "symbol": "VSCO",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 8,
+        "iv_value": 9,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "VSCO shows positive momentum with a 16.14% 21-day return and price above SMA50, but below SMA200, indicating mixed trend conditions. The presence of a volatility squeeze and strong ma_ribbon_score (100) suggests potential for a continued move, though options liquidity is concerning.",
+      "opportunities": [
+        "Strong recent momentum with 16.14% 21-day return",
+        "Multiple timeframe squeeze setup (2 counts) indicating potential breakout",
+        "Attractive valuation with P/E of 11.0 and solid ROE of 31.3%"
+      ],
+      "risks": [
+        "Poor options liquidity with low volume/OI ratio of 0.33",
+        "Wide bid-ask spread of 6.12%",
+        "Price still below SMA200 of $26.67"
+      ],
+      "option_contract": {
+        "recommendation": "Consider stock position instead of options due to liquidity concerns",
+        "entry_timing": "Wait for confirmation of squeeze breakout before entry",
+        "risk_management": "Use smaller position size due to wide spreads and low liquidity"
+      },
+      "red_flags": [
+        "Options liquidity significantly below acceptable levels",
+        "Earnings coming up on 2025-10-31 before expiration",
+        "Bid-ask spread exceeds 6%"
+      ],
+      "notes": "While technical setup is promising, poor options market quality severely limits the viability of options strategies. Stock position may be more appropriate for expressing directional view."
+    },
+    "tokens_used": 2541,
+    "cost": 0.02541,
+    "response_time": 10.95616888999939,
+    "success": true
+  },
+  "cost": 0.02541,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8474,
+    "response_length": 1692
+  }
+}

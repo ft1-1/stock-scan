@@ -1,0 +1,633 @@
+{
+  "success": true,
+  "symbol": "SCHW",
+  "timestamp": "2025-08-25T22:33:14.895533",
+  "data_package": {
+    "metadata": {
+      "symbol": "SCHW",
+      "package_timestamp": "2025-08-25T22:33:05.849909",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "SCHW",
+        "current_price": 96.19,
+        "overall_score": 47.57192307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 93.7524,
+        "sma_200": 83.2529
+      },
+      "momentum_metrics": {
+        "momentum_21d": -0.8963527714815624,
+        "momentum_63d": 10.057208237986261,
+        "momentum_126d": 20.05741387918122,
+        "momentum_acceleration": -10.953561009467823,
+        "roc_21d": -0.8963527714815624,
+        "trend_strength_20d": 0.2860247311834434,
+        "trend_direction": 1,
+        "ma_ribbon_score": 50.575767252262516,
+        "breakout_strength": 0.0,
+        "price_velocity": 4.6554202785409336e-05
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 9.0,
+        "squeeze_momentum": -0.22215078210295414,
+        "volatility_compression": 31.499999999999993,
+        "is_consolidating": "False",
+        "breakout_score": 13.288882616983575,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 11.081084247193921,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.380114285714257,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 48.0,
+        "squeeze": 54.725,
+        "options": 34.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 25,
+        "percentile": 98.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "SCHW",
+        "strike_price": "95",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "4.85",
+        "ask": "4.95",
+        "last_price": "4.8",
+        "mid_price": "4.90",
+        "spread_percent": "2.020202020202020202020202020"
+      },
+      "greeks": {
+        "delta": 0.5884,
+        "gamma": 0.0385,
+        "theta": -0.043,
+        "vega": 0.1428
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2754
+      },
+      "liquidity_metrics": {
+        "volume": 19,
+        "open_interest": 312,
+        "volume_oi_ratio": 0.060897435897435896
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:08:09.096252",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T13:08:05+00:00",
+            "title": "Validea Detailed Fundamental Analysis - SCHW",
+            "content": "Below is Validea's guru fundamental report for CHARLES SCHWAB CORP (SCHW). Of the 22 guru strategies we follow,  SCHW rates highest using our Shareholder Yield Investor model based on the published strategy of Meb Faber. This strategy looks for companies returning cash to shareholders via dividends, buybacks and debt paydown.\n\nCHARLES SCHWAB CORP (SCHW) is a large-cap growth stock in the Regional Banks industry. The rating using this strategy is 55% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. UNIVERSE:PASSNET PAYOUT YIELD:FAILQUALITY AND DEBT:FAILVALUATION:FAILRELATIVE STRENGTH:PASSSHAREHOLDER YIELD:FAIL\n\nDetailed Analysis of CHARLES SCHWAB CORP\n\nSCHW Guru Analysis\n\nSCHW Fundamental Analysis\n\nMore Information on Meb Faber\n\nMeb Faber Portfolio\n\nAbout Meb Faber: Meb Faber is the founder of Cambria Investments. His research has covered a wide spectrum of the investment world, including topics like shareholder yield, trend following, global asset allocation and home country bias. His shareholder yield strategy, which is based on his book \"Shareholder Yield\" and forms the basis for an ETF of the same name, looks for companies that are focused on creating value for shareholders by returning cash to them in the form of dividends, share buybacks and debt paydown. Meb is also the author of 4 other books and numerous white papers on investing related topics.\n\nAdditional Research Links\n\nTop Financial Stocks\n\nDividend Aristocrats2023\n\nWide Moat Stocks2023\n\nCheapest Value Stocks2023\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T11:51:28+00:00",
+            "title": "SCHWAB (CHARLES) CORP (NYSE:SCHW) Presents Strong Technical and Setup Ratings for Potential Breakout",
+            "content": "Technical analysis often relies on identifying stocks with strong underlying momentum that are simultaneously forming consolidation patterns, offering favorable risk-reward setups for potential breakouts. This approach combines two key metrics: the Technical Rating, which evaluates the overall health and trend strength of a stock, and the Setup Quality Rating, which assesses how well the stock is positioned for a potential entry. Stocks scoring highly in both categories are considered prime candidates for breakout strategies, as they represent technically sound instruments nearing potential upward moves.\n\n[SCHW Chart]\n\nSCHWAB (CHARLES) CORP (NYSE:SCHW [https://www.chartmill.com/stock/quote/SCHW/profile]) presents a notable case for technical investors based on these criteria. The company's strong technical foundation is evidenced by its outstanding Technical Rating of 9 out of 10, indicating solid long-term momentum and relative strength. According to the detailed technical analysis report [https://www.chartmill.com/stock/quote/SCHW/technical-analysis], SCHW demonstrates superior yearly performance compared to 86% of all stocks and outperforms 84% of its peers in the Capital Markets industry. The long-term trend remains positive despite recent neutral short-term movement, with the stock trading in the upper portion of its 52-week range while maintaining above all major moving averages.\n\nThe setup quality similarly impresses with a rating of 8, reflecting very good consolidation characteristics that technical traders seek. Over the past month, SCHW has been trading in a tight range between $94.35 and $99.59, with reduced volatility creating the type of base formation that often precedes significant moves. The analysis identifies a clear support zone between $95.28 and $95.51, providing a logical area for stop-loss placement, while resistance sits between $96.49 and $98.69. This compressed trading range, combined with recent pocket pivot activity indicating institutional accumulation, creates favorable conditions for a potential breakout above the resistance level.\n\nSeveral factors make this setup particularly attractive for technical investors. The combination of strong underlying technicals with a well-defined consolidation pattern offers both trend confirmation and clear risk management parameters. The stock's high liquidity, with average daily volume exceeding 8.6 million shares, ensures smooth entry and exit execution. The proximity to key moving averages provides additional confirmation of the stock's technical health, while the defined support and resistance levels create measurable risk-reward parameters.\n\nFor investors interested in exploring similar technical breakout opportunities, the Technical Breakout Setups screen [https://www.chartmill.com/stock/stock-screener?sid=202&f=v1_50b500,atrpct_a_1,sl_ta_7_X,sl_se_7_X,p_pg20&s=se&v=3&timeframe=WEEKLY&o1=3&op1=200,16711680&o2=3&op2=50,255&o3=1] regularly identifies stocks meeting these rigorous technical criteria, providing a valuable starting point for further analysis.\n\n_Disclaimer: This analysis is based on technical indicators and historical price patterns and should not be considered investment advice. All investments carry risk, and past performance does not guarantee future results. Investors should conduct their own research and consider their risk tolerance before making any investment decisions._\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T11:30:00+00:00",
+            "title": "What Record Margin Debt Tells Us About Today’s Stock Market",
+            "content": "More investors are using borrowed money to buy shares, but this isn’t necessarily a signal of a top.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T16:01:50+00:00",
+            "title": "From 'Only What You Can Afford To Lose' To 'I Feel Better About It' — Suze Orman's New Bitcoin Advice",
+            "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\n\nWhen it comes to investing, Suze Orman has long been cautious about cryptocurrencies. For years, her advice was clear: only put money into Bitcoin that you could afford to lose. But on a recent episode of her \"Women & Money\" podcast, the personal finance expert shared that her perspective is shifting as digital assets become more mainstream.\n\nA Listener's Bitcoin Roadblock\n\nDuring the episode, a listener named Gina wrote in to say she had tried to buy a Bitcoin exchange-traded fund, or ETF — specifically, BlackRock's iShares Bitcoin Trust (NASDAQ:IBIT) — through her Merrill Edge account. To her surprise, the platform restricted the purchase, citing the risks associated with Bitcoin investments.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\nMerrill Lynch, which operates Merrill Edge, has held a cautious stance on cryptocurrency. Customer service told Gina that no Bitcoin-related purchases were allowed on the platform.\n\nGina wanted to know if there was a way around this restriction.\n\nSuze Orman's Advice: Look Beyond Merrill Edge\n\nOrman's response was straightforward. \"Obviously they won't allow you to do it,\" she said. If Gina really wanted to add Bitcoin to her portfolio, Orman suggested opening an account at firms like Charles Schwab (NYSE:SCHW) or Fidelity, which currently allow investors to purchase Bitcoin ETFs.\n\nThis advice reflects a broader trend. Many large brokerage firms have begun to embrace cryptocurrency products, particularly since the Securities and Exchange Commission approved spot Bitcoin ETFs last year.\n\nTrending: An EA Co-Founder Shapes This VC Backed Marketplace—Now You Can Invest in Gaming's Next Big Platform\n\nA Shift in Orman's Bitcoin Stance\n\nWhat stood out most from Orman's response was her update on how she views Bitcoin itself. She acknowledged that she used to advise investing only with money you could afford to lose. But now, she says she feels more comfortable with it.\n\n\"As it goes higher and higher in value, as major banks are starting to actually participate in it, I'm starting to feel better about it,\" Orman explained.\n\nWhile she still emphasized moderation, she said she had no problem with someone putting a small portion of their portfolio — perhaps around 5% — into a Bitcoin ETF like IBIT.\n\nStory Continues\n\nETF vs. Owning Bitcoin Directly\n\nOrman also noted a distinction between owning Bitcoin directly and buying an ETF. Investors who hold Bitcoin itself might see greater returns, she said, but ETFs can feel safer for those who prefer not to manage digital wallets or deal with the technical aspects of cryptocurrency.\n\nSee Also: Shaquille O'Neal wants people to take heart health seriously — this AI-ECG could make that easier.\n\nWhat This Means for Investors\n\nOrman's evolving stance highlights how the conversation around Bitcoin has changed. What was once seen primarily as a speculative gamble is now gaining legitimacy, especially with major financial institutions entering the space.\n\nStill, her advice remains cautious: if you're interested, consider keeping your Bitcoin exposure small and manageable within your overall portfolio.\n\nFor older investors — many of whom are focused on retirement planning — that balance between risk and opportunity is especially important.\n\nRead Next: If there was a new fund backed by Jeff Bezos offering a 7-9% target yield with monthly dividends would you invest in it?\n\nImage: Shutterstock\n\nThis article From 'Only What You Can Afford To Lose' To 'I Feel Better About It' — Suze Orman's New Bitcoin Advice originally appeared on Benzinga.com",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T13:44:00+00:00",
+            "title": "LPL Financial's July Brokerage &amp; Advisory Assets Rise Sequentially",
+            "content": "LPL Financial LPLA witnessed a rise in total brokerage and advisory assets in July 2025. The metric was $1.94 trillion, which rose 1.1% from the prior month and 26.8% year over year.\n\nLPLA’s July Performance Breakdown\n\nOf LPLA’s total assets, brokerage assets were $862.4 billion whereas advisory assets amounted to $1.1 trillion. Brokerage assets increased 0.5% from June 2025 and surged 27.1% year over year. On the other hand, advisory assets rose 1.5% from the previous month and 26.6% from July 2024.\r\n\r\nTotal organic net new assets (NNAs) were $5.4 billion. It included $1.8 billion of off-boarded assets as part of the previously disclosed planned separation from misaligned large offices of supervisory jurisdiction. Excluding these assets, organic NNAs were $7.2 billion.\r\n\r\nLPL Financial reported $49.5 billion of total client cash balance in July, down 2.2% from the prior month but up 12.5% from July 2024. Of the total balance, $33.7 billion was insured cash, $10.8 billion was deposit cash, and the remaining was money-market sweep and client cash balance.\n\nOur Take on LPL Financial\n\nLPL Financial’s buyout of Commonwealth Financial Network, Investment Center and Atria Wealth, its solid advisor productivity and recruiting efforts will support advisory revenues. The company is expected to keep expanding inorganically, which will help diversify operations. However, uncertainty about the performance of the capital markets and substantial goodwill on the balance sheet are worrisome.\r\n\r\nIn the past year, LPLA shares have risen 61.4%, outperforming the industry’s growth of 39%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCurrently, LPL Financial carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nPerformance of LPLA’s Peers in July\n\nCharles Schwab SCHW released its monthly activity report for July 2025. It recorded an increase in client assets.\r\n\r\nSCHW’s total client assets at month end were $10.96 trillion, up 15% from July 2024 and 2% from June 2025. Client assets receiving ongoing advisory services were $5.51 trillion, growing 2% from the year-ago period and 14% from the previous month.\r\n\r\nInteractive Brokers IBKR has released its Electronic Brokerage segment’s performance metrics for July 2025. The segment, which deals with the clearance and settlement of trades for individual and institutional clients globally, reported a year-over-year rise in client Daily Average Revenue Trades (DARTs).\r\n\r\nTotal client DARTs in July were 3,498,000, representing a 27% increase from July 2024 and a 1% rise from June 2025. On an annualized basis, cleared average DARTs per customer accounts were 194. The metric declined 6% on a year-over-year basis and 1% from June 2025.\n\nStory Continues\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Charles Schwab Corporation (SCHW) : Free Stock Analysis Report\n\nInteractive Brokers Group, Inc. (IBKR) : Free Stock Analysis Report\n\nLPL Financial Holdings Inc. (LPLA) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Charles Schwab Corp",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "employees": 32600,
+          "description": "The Charles Schwab Corporation, together with its subsidiaries, operates as a savings and loan holding company that provides wealth management, securities brokerage, banking, asset management, custody, and financial advisory services in the United States and internationally. The company operates in "
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.72,
+          "profit_margin": 0.3368,
+          "operating_margin": 0.4791,
+          "roe": 0.156,
+          "roa": 0.016,
+          "revenue_growth_yoy": 0.248,
+          "earnings_growth_yoy": 0.636,
+          "eps_estimate_current_year": 4.6239,
+          "eps_estimate_next_year": 5.4335,
+          "dividend_yield": 0.0109,
+          "dividend_per_share": 1.04,
+          "revenue_ttm": 21625999360,
+          "revenue_per_share": 11.856,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 25.7608,
+          "forward_pe": 20.8333,
+          "price_to_sales": 8.0437,
+          "price_to_book": 4.075,
+          "enterprise_value": 153923469312,
+          "ev_to_revenue": 10.0983,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 0.955,
+          "52_week_high": 99.42,
+          "52_week_low": 60.3846,
+          "50_day_ma": 93.7524,
+          "200_day_ma": 83.2529,
+          "short_interest": 0.0117,
+          "short_ratio": 2.26
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.08,
+          "forward_dividend_yield": 0.0113,
+          "payout_ratio": 0.2677,
+          "dividend_date": "2025-08-22",
+          "ex_dividend_date": "2025-08-08",
+          "last_split_date": "2000-05-31",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1429,
+          "target_price": 108,
+          "strong_buy": 10,
+          "buy": 7,
+          "hold": 2,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 1815219968,
+          "percent_institutions": 84.60499999999999,
+          "percent_insiders": 6.067,
+          "shares_float": 1710390385
+        },
+        "balance_latest_sheet": {
+          "total_assets": 422729.0,
+          "total_debt": 28268.0,
+          "net_debt": 268.0,
+          "shareholders_equity": 49500.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.57
+        },
+        "income_latest_statement": {
+          "total_revenue": 6816.0,
+          "gross_profit": 5851.0,
+          "operating_income": 2803.0,
+          "net_income": 2126.0,
+          "ebitda": 3146.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 85.84,
+          "operating_margin": 41.12,
+          "net_margin": 31.19
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -6359.0,
+          "free_cash_flow": -6242.0,
+          "capex": 117.0,
+          "net_income": -1909.0,
+          "cash_change": -6412.0,
+          "dividends_paid": 595.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.21,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 92.73,
+            "high": 92.9,
+            "low": 91.58,
+            "close": 91.61,
+            "volume": 7259200
+          },
+          {
+            "date": "2025-07-16",
+            "open": 91.78,
+            "high": 91.99,
+            "low": 89.95,
+            "close": 91.26,
+            "volume": 10825600
+          },
+          {
+            "date": "2025-07-17",
+            "open": 91.26,
+            "high": 93.43,
+            "low": 91.11,
+            "close": 93.1,
+            "volume": 12584800
+          },
+          {
+            "date": "2025-07-18",
+            "open": 95.7,
+            "high": 97.5,
+            "low": 94.67,
+            "close": 95.8,
+            "volume": 23554000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 96.02,
+            "high": 97.08,
+            "low": 95.15,
+            "close": 96.25,
+            "volume": 11871300
+          },
+          {
+            "date": "2025-07-22",
+            "open": 96.34,
+            "high": 96.62,
+            "low": 94.98,
+            "close": 95.39,
+            "volume": 8865300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 95.61,
+            "high": 95.87,
+            "low": 94.85,
+            "close": 95.15,
+            "volume": 8802000
+          },
+          {
+            "date": "2025-07-24",
+            "open": 95.2,
+            "high": 96.75,
+            "low": 94.72,
+            "close": 96.5,
+            "volume": 9052400
+          },
+          {
+            "date": "2025-07-25",
+            "open": 97.48,
+            "high": 98.28,
+            "low": 96.65,
+            "close": 97.06,
+            "volume": 9105900
+          },
+          {
+            "date": "2025-07-28",
+            "open": 97.09,
+            "high": 98.08,
+            "low": 96.9,
+            "close": 97.91,
+            "volume": 7197600
+          },
+          {
+            "date": "2025-07-29",
+            "open": 99,
+            "high": 99.59,
+            "low": 97.72,
+            "close": 97.91,
+            "volume": 9532000
+          },
+          {
+            "date": "2025-07-30",
+            "open": 98,
+            "high": 98.88,
+            "low": 97.6,
+            "close": 98.57,
+            "volume": 5962800
+          },
+          {
+            "date": "2025-07-31",
+            "open": 98,
+            "high": 98.75,
+            "low": 97.55,
+            "close": 97.73,
+            "volume": 8164900
+          },
+          {
+            "date": "2025-08-01",
+            "open": 96.23,
+            "high": 96.5,
+            "low": 94.41,
+            "close": 95.53,
+            "volume": 9792500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 96.1,
+            "high": 97.26,
+            "low": 95.84,
+            "close": 97.1,
+            "volume": 9032100
+          },
+          {
+            "date": "2025-08-05",
+            "open": 97.35,
+            "high": 97.82,
+            "low": 95.83,
+            "close": 96.44,
+            "volume": 6236400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 96.79,
+            "high": 97.22,
+            "low": 96.2,
+            "close": 96.71,
+            "volume": 5712200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 97.13,
+            "high": 97.3,
+            "low": 94.69,
+            "close": 95.99,
+            "volume": 7313000
+          },
+          {
+            "date": "2025-08-08",
+            "open": 96.26,
+            "high": 97.23,
+            "low": 95.95,
+            "close": 97.08,
+            "volume": 5032100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 97.16,
+            "high": 97.91,
+            "low": 96.91,
+            "close": 97.63,
+            "volume": 7337600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 98.16,
+            "high": 99.24,
+            "low": 97.94,
+            "close": 98.69,
+            "volume": 7549400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 98.97,
+            "high": 99.42,
+            "low": 95.28,
+            "close": 95.59,
+            "volume": 12456300
+          },
+          {
+            "date": "2025-08-14",
+            "open": 97.36,
+            "high": 98.21,
+            "low": 95.6,
+            "close": 97.78,
+            "volume": 11310500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 97.15,
+            "high": 97.17,
+            "low": 95.89,
+            "close": 96.11,
+            "volume": 9538100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 96.09,
+            "high": 96.7,
+            "low": 95.71,
+            "close": 96.17,
+            "volume": 6803200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 96,
+            "high": 96.73,
+            "low": 95.54,
+            "close": 95.76,
+            "volume": 6778400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 95.91,
+            "high": 96.15,
+            "low": 94.38,
+            "close": 95.51,
+            "volume": 9435500
+          },
+          {
+            "date": "2025-08-21",
+            "open": 95.38,
+            "high": 96.08,
+            "low": 95.18,
+            "close": 95.82,
+            "volume": 5162700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 96.17,
+            "high": 97.04,
+            "low": 94.35,
+            "close": 95.83,
+            "volume": 12859500
+          },
+          {
+            "date": "2025-08-25",
+            "open": 95.89,
+            "high": 96.53,
+            "low": 95.34,
+            "close": 96.19,
+            "volume": 5195681
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -1.756715350832396,
+        "return_63d": 8.529843168227465,
+        "pct_above_sma50": 2.4320012949091594,
+        "sma_50": 93.90620000000001,
+        "new_55d_high": "False",
+        "high_55d": 99.59,
+        "rsi": 48.962655601659755,
+        "rsi_in_range": "False",
+        "adx": 23.66974213536808,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.8863707246075487,
+        "bb_width": 4.265837951119994,
+        "keltner_width": 7.503385724476126,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 779482021.3433499,
+        "adv_shares": 8060244.05,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 41.46119853290818,
+        "final_score": 36.46119853290818,
+        "sub_scores": {
+          "trend_momentum": 11.081084247193921,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.380114285714257,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -0.8963527714815678,
+          "ret_63d": 10.05720823798626,
+          "rsi14": 48.962655601659755,
+          "adx14": 22.22159286838218,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: SCHW\n• Current Price: $96.19\n• Overall Score: 47.57192307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 93.7524\n• Sma 200: 83.2529\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.8963527714815624\n• Momentum 63D: 10.057208237986261\n• Momentum 126D: 20.05741387918122\n• Momentum Acceleration: -10.953561009467823\n• Roc 21D: -0.8963527714815624\n• Trend Strength 20D: 0.2860247311834434\n• Trend Direction: 1\n• Ma Ribbon Score: 50.575767252262516\n• Breakout Strength: 0.0\n• Price Velocity: 4.6554202785409336e-05\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 9.0\n• Squeeze Momentum: -0.22215078210295414\n• Volatility Compression: 31.499999999999993\n• Is Consolidating: False\n• Breakout Score: 13.288882616983575\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 11.081084247193921\n• Squeeze Breakout: 4.0\n• Options Quality: 15.380114285714257\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 48.0\n• Squeeze: 54.725\n• Options: 34.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: SCHW\n• Strike Price: $95\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $4.85\n• Ask: $4.95\n• Last: $4.8\n• Mid: $4.90\n• Spread: 2.020202020202020202020202020%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5884\n• Gamma: 0.0385\n• Theta: -0.043\n• Vega: 0.1428\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2754\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 19\n• Open Interest: 312\n• Volume/OI Ratio: 0.060897435897435896\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Charles Schwab Corp\n• Sector: Financial Services\n• Industry: Capital Markets\n• EPS (TTM): $3.72\n• Profit Margin: 33.7%\n• ROE: 15.6%\n• P/E Ratio: 25.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T13:08:05+00:00: Validea Detailed Fundamental Analysis - SCHW...\n• 2025-08-25T11:51:28+00:00: SCHWAB (CHARLES) CORP (NYSE:SCHW) Presents Strong Technical and Setup Ratings fo...\n• 2025-08-25T11:30:00+00:00: What Record Margin Debt Tells Us About Today’s Stock Market...\n• 2025-08-23T16:01:50+00:00: From 'Only What You Can Afford To Lose' To 'I Feel Better About It' — Suze Orman...\n• 2025-08-22T13:44:00+00:00: LPL Financial's July Brokerage &amp; Advisory Assets Rise Sequentially...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR SCHW\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the SCHW opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:33:14.895230",
+    "estimated_tokens": 2335
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"SCHW\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"SCHW shows moderate technical strength with price above both SMAs and positive 63/126D momentum, though recent momentum has turned negative. Options setup offers decent liquidity with reasonable spreads, but upcoming earnings and declining short-term momentum create near-term risks.\",\n    \"opportunities\": [\n        \"Price trending above both 50 and 200 SMAs (93.75/83.25)\",\n        \"Strong 126-day momentum at +20.06%\",\n        \"Tight option spread at 2.02% with reasonable open interest\"\n    ],\n    \"risks\": [\n        \"Negative 21-day momentum (-0.90%)\",\n        \"Momentum acceleration turning negative (-10.95)\",\n        \"Earnings approaching on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact given mixed momentum signals\",\n        \"entry_timing\": \"Wait until after earnings and momentum stabilizes\",\n        \"risk_management\": \"Use 95 strike as support level, consider rolling down if price breaks below 50 SMA\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Declining short-term momentum\"\n    ],\n    \"notes\": \"Volume/OI ratio is low at 0.06, suggesting potential liquidity constraints during position management\"\n}",
+    "parsed_analysis": {
+      "symbol": "SCHW",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "SCHW shows moderate technical strength with price above both SMAs and positive 63/126D momentum, though recent momentum has turned negative. Options setup offers decent liquidity with reasonable spreads, but upcoming earnings and declining short-term momentum create near-term risks.",
+      "opportunities": [
+        "Price trending above both 50 and 200 SMAs (93.75/83.25)",
+        "Strong 126-day momentum at +20.06%",
+        "Tight option spread at 2.02% with reasonable open interest"
+      ],
+      "risks": [
+        "Negative 21-day momentum (-0.90%)",
+        "Momentum acceleration turning negative (-10.95)",
+        "Earnings approaching on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact given mixed momentum signals",
+        "entry_timing": "Wait until after earnings and momentum stabilizes",
+        "risk_management": "Use 95 strike as support level, consider rolling down if price breaks below 50 SMA"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Declining short-term momentum"
+      ],
+      "notes": "Volume/OI ratio is low at 0.06, suggesting potential liquidity constraints during position management"
+    },
+    "tokens_used": 2509,
+    "cost": 0.02509,
+    "response_time": 9.043355941772461,
+    "success": true
+  },
+  "cost": 0.02509,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8537,
+    "response_length": 1503
+  }
+}

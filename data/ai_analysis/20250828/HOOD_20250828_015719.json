@@ -1,0 +1,629 @@
+{
+  "success": true,
+  "symbol": "HOOD",
+  "timestamp": "2025-08-28T01:57:19.742970",
+  "data_package": {
+    "metadata": {
+      "symbol": "HOOD",
+      "package_timestamp": "2025-08-28T01:57:07.519503",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "HOOD",
+        "current_price": 102.92,
+        "overall_score": 50.170088445724495,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 99.7752,
+        "sma_200": 60.4988
+      },
+      "momentum_metrics": {
+        "momentum_21d": -0.387146728610135,
+        "momentum_63d": 57.99815781393921,
+        "momentum_126d": 110.68577277379734,
+        "momentum_acceleration": -58.38530454254934,
+        "roc_21d": -0.387146728610135,
+        "trend_strength_20d": 0.019586754806137727,
+        "trend_direction": 1,
+        "ma_ribbon_score": 67.17115678334518,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.00423534236901244
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 18.0,
+        "squeeze_momentum": -0.3415194664982046,
+        "volatility_compression": 18.105512293380652,
+        "is_consolidating": "False",
+        "breakout_score": -49.29524626331846,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 13.129220049435682,
+        "squeeze_breakout": 4.0,
+        "options_quality": 21.965113431212604,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 50.0,
+        "squeeze": 57.7158268440071,
+        "options": 42.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 19,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "HOOD",
+        "strike_price": "100",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "15.25",
+        "ask": "15.4",
+        "last_price": "15.28",
+        "mid_price": "15.325",
+        "spread_percent": "0.9740259740259740259740259740"
+      },
+      "greeks": {
+        "delta": 0.6087,
+        "gamma": 0.0112,
+        "theta": -0.0827,
+        "vega": 0.1907
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.6927
+      },
+      "liquidity_metrics": {
+        "volume": 388,
+        "open_interest": 5057,
+        "volume_oi_ratio": 0.07672533122404587
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:53.433424",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T19:06:00+00:00",
+            "title": "Why Robinhood (HOOD) Shares Are Falling Today",
+            "content": "What Happened?\n\nShares of financial services company Robinhood (NASDAQ:HOOD) fell 3.5% in the afternoon session after the company was passed over for inclusion in the prestigious S&P 500 index.\n\nThe stock fell after S&P Dow Jones Indices announced that Interactive Brokers Group would be added to the index instead. This decision disappointed Wall Street, as Robinhood was seen as a strong candidate for inclusion.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks. Is now the time to buy Robinhood? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nRobinhood’s shares are extremely volatile and have had 55 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 7 days ago when the stock dropped 3.5% on the news that the major indices continued to pull back, with technology stocks accounting for most of the market's largest decliners.\n\nA key reason for this trend is that much of the recent market gains were concentrated in the \"AI trade,\" which includes these large technology and semiconductor companies. So this could also mean that some investors are locking in some gains ahead of more definitive feedback from the Fed.\n\nDespite the downturn, some analysts viewed this as an opportunity to own some of the \"Core AI winners.\" Dan Ives of Wedbush Securities commented, \"In our view, the tech bull cycle will be well intact for at least another 2-3 years, given the trillions being spent on AI infrastructure/software/chips/power/apps looking ahead. This remains our tech playbook and investor roadmap.\" Additionally, mixed earnings reports from retailers, such as Target, have added to the market's weakness. Investors are closely monitoring these reports for insights into the broader economic health and the potential impact of new tariffs on inflation.\n\nRobinhood is up 165% since the beginning of the year, and at $104.67 per share, it is trading close to its 52-week high of $115.02 from August 2025. Investors who bought $1,000 worth of Robinhood’s shares at the IPO in July 2021 would now be looking at an investment worth $3,006.\n\nToday’s young investors likely haven’t read the timeless lessons in Gorilla Game: Picking Winners In High Technology because it was written more than 20 years ago when Microsoft and Apple were first establishing their supremacy. But if we apply the same principles, then enterprise software stocks leveraging their own generative AI capabilities may well be the Gorillas of the future. So, in that spirit, we are excited to present our Special Free Report on a profitable, fast-growing enterprise software stock that is already riding the automation wave and looking to catch the generative AI next.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T14:00:00+00:00",
+            "title": "Robinhood CEO Vlad Tenev says investing for a living could replace labor in a post-AI world",
+            "content": "On this episode of Fortune’s Leadership Next podcast, cohosts Diane Brady, executive editorial director of the Fortune CEO Initiative and Fortune Live Media, and editorial director Kristin Stoller talk to Vlad Tenev, CEO of Robinhood. They reflect on the investing platform’s history with GameStop and memestocks, how AI and crypto can change the investing landscape, and raising the next generation of children with investing know-how.\n\nListen to the episode or read the transcript below.\n\nVlad Tenev: So I think it’s going to become more important to invest, because if you can’t rely on labor to generate money to make a living, capital becomes more important. And so we’re going to have to make it easier for people to learn about investing. Invest from an early age, get their kids investing. And I think it’s going to be private industry like Robinhood, and also the government that’s gonna have to step in. And I think you’re seeing the beginnings of this shift with the Invest America Act.\n\nDiane Brady: Hi, everyone. Welcome to Leadership Next. The podcast about the people…\n\nKristin Stoller: …and trends…\n\nBrady: …that are shaping the future of business. I’m Diane Brady.\n\nStoller: And I’m Kristin Stoller.\n\nBrady: And this week we have Robinhood.\n\nStoller: Yes, Vlad Tenev, the CEO of Robinhood. I remember, I got my start as a financial reporter, Diane, back in 2016 and they were like the scrappy, young upstart. Two young guys, but they’ve been through a lot since then.\n\nBrady: Well, we know that many people know him, of course, from the movie “Dumb Money”, where he is sort of the “bro” guy, and not necessarily the hero of that story.\n\nStoller: No, not a flattering depiction by Sebastian Stan.\n\nBrady: And then goes straight into a financial crisis, basically, where, certainly in this period of high inflation, stocks were going down. They had gone public. There were questions about whether Robinhood would even continue to exist.\n\nStoller: Oh, absolutely. And I think the social media and public hate on Robinhood, on Reddit, on YouTube, on a ton of different platforms, was so fascinating because of what happened back in January 2021 when they restricted trading of GameStop. In fact, in the Stoller household during the pandemic, we had to ban the word GameStop because we had to stop the debates on it and what was going on.\n\nBrady: Stop all that money flowing from the Stoller household. Well, look, now they’re back. Our colleague, Jeff John Roberts, did a terrific cover story on this fact. This is a company that has come back from the brink and has expanded. They’re into wealth management, credit cards, crypto trading, stock trading, deposits, you name it. It’s almost like they want to do everything.\n\nStory Continues\n\nStoller: And you and I have talked to so many financial CEOs. MasterCard, we had Bank of America, and all of them are fighting for kind of a piece of this, doing very similar things.\n\nBrady: Well, wealth in particular is a growth market, partly because there’s this massive wealth transfer that’s happening as people bring wealth to the next generation. He is going to potentially be one of the big recipients of that, because he really does skew to millennials and Gen Z. And I think this is a new day for crypto, of course, and this is a man who’s been to the White House several times. I can’t wait to ask him about that.\n\nStoller: Absolutely. We’ll be back with him after the break.\n\nBrady: Jason Girzadas, CEO of Deloitte US and sponsor of this podcast, joins us now to talk about maximizing business transformation with AI agents.\n\nJason Girzadas: Great to see you, Diane. Nice to be here.\n\nBrady: So what should CEOs consider as they assess and prioritize use cases for AI agents?\n\nJason Girzadas: I think if this is on the topic of every CXO conversation I’m a part of, and I think the thought process has to be looking for high impact areas that may not be necessarily the most glamorous or high profile functional areas, but are ripe for automation and use of this technology to create efficiencies as well as innovation. And over time, AI agents will be also in customer-facing and growth-oriented domains. In our case, Deloitte, we’re using it within our finance organization, looking at very mundane processes like expense management and working capital management. We’re seeing other organizations use it in call centers and with software development that can be automated.\n\nStoller: What are the key elements for successfully implementing AI agents?\n\nJason Girzadas: Yeah, it comes down to intentionality. And so I think that intentionality in going functional area by functional area, in concert with business and IT leadership in an enterprise. It needs to be a mainstream business planning effort that’s budgeted, KPIs are developed, and there’s real accountability for actual business outcomes and impact because of agentic capabilities.\n\nBrady: Fascinating stuff. Thanks, Jason,\n\nStoller: Thank you.\n\nJason Girzadas: Thank you.\n\nStoller: Vlad, so I got my start in business journalism as a personal finance reporter way back in 2016, so I have been following Robinhood for many years. Seeing you go from this kind of really scrappy upstart to now where you are taking on these big financial institutions, and you’ve had quite a ride, quite a history. You’ve had a lot of ups, lots of downs, and you’ve been really in the cultural zeitgeist, I feel like, in the past couple years, of course, with the whole GameStop thing. Then this movie comes out, “Dumb Money.” So I guess, because we’re a leadership podcast, I want to start off with some lessons that you took away from the last few years as a leader. So I guess my first question is looking back on, you know, January 2021, everything that happened with GameStop, restricting trading of meme stocks on Robinhood—is there anything that you would have done differently today that you look back on and think, I wish I’d done that in that moment?\n\nTenev: I think I was in my camel stage of leadership back then, you know the camel—I think Nietzsche talked about how in the evolution of a person, you go through many stages, and the camel is the first one. And the camel is known for taking on a big burden and seeking to carry heavier and heavier weight. And I think that was really, up until recently, kind of how I felt. I felt like leadership was just taking on the biggest burden and showing everyone that you can, like, carry it without it breaking your back. And I think that’s necessary, actually. I think you have to eat glass and really prove to yourself and the world that you can do that before you can kind of move on to other things.\n\nBrady: I feel like a camel is a horse designed by committee. Have you heard that one before as well?\n\nTenev: Well, it depends on which one you’re talking about. Is it the one humped camel or the two humped?\n\nBrady: I don’t, I don’t know, but let’s go back, and I do want to double down on some of the lessons you’ve learned, but let’s remind people what business you’re in, to Kristin’s point. You cover now—you’ve got wealth management, you’ve got, of course, you’re in the crypto business, in addition to being in the trading business. Give us a full sense of what you are and what you want to be.\n\nTenev: Yeah, Robinhood is a consumer financial services company. We started—our niche was trading, self directed trading and investing. And we really basically innovated across two axes. One was cost. So we brought down the cost of trading from around $10 per transaction down to zero, and that was a big disruptive change. Actually, the entire industry had to replicate that model, and the ones that weren’t able to do it, big companies in 2019 could no longer survive as standalone entities. So TD AmeriTrade, for example, big brokerage house that’s been around for many, many years, ended up folding into Charles Schwab. E-Trade, which was very much the poster child of retail trading during the dotcom boom, got gobbled up by Morgan Stanley, and is no longer an independent company. And I think in large part that was because they had to lower their commissions to zero to respond to the disruptive force of Robinhood entering the market from the low end, and just didn’t have the cost structure or the ability to compete with that as standalone companies. And the other axes was really just mobile. I think we were the first ones to adopt mobile as our primary platform, and we kind of made a bet that that would become the main tool for all of your financial needs. And I think back when we made that bet, it was contrarian, but now it just seems obvious. I mean, our phones are with us all the time. We do everything on our phones, so of course, we would do financial services as well. So I think it was those things, but over time, we’ve expanded. We’ve really built relationships with customers across broader financial needs. We’ve got a great credit card. Obviously, I’m biased, but I do believe it’s the best credit card on the market by a considerable margin.\n\nBrady: Why?\n\nTenev: Two reasons: 3% cash back on all categories, which you can’t even get close to with other products, and a great mobile user interface. And that’s evolving into a broader banking offering, which we announced a few months ago, which I think will be the best banking offering on the market. It’s already looking really good internally, but you won’t have to go to a bank branch or an ATM, for example. The cash will be delivered to you, which I think is very awesome. And then we also announced wealth management across multiple areas. We have digital advice with Robinhood Strategies.\n\nBrady: I’m trying to imagine that my money is managed by Robinhood. There’s something about that sentence that just makes people pause, right?\n\nTenev: Well, I do think at first it would have seemed strange to people, because very much the impression was Robinhood was a newbie investing app. But I think over time, the brand becomes what people use you for, and people have been using Robinhood for more and more things. And I think we’ll get to a point where it’ll seem antiquated to have your money managed by anything other than Robinhood. It’ll be like, oh, you know you’re still using AOL, almost.\n\nStoller: I think that when you started your brand was really all about young people who are really disillusioned with the way Wall Street was going and the way the traditional banking system was, is that still your demographic—capturing young people, or what is it?\n\nTenev: Well, we’re a little bit older now, millennials.\n\nStoller: We are, I am one.\n\nTenev: Yeah, I think that to some degree, Robinhood started catering to millennials, but has adapted to Gen Z. So Gen Z does use the product quite a bit. We do well there, and part of the focus is, we do always want to be relevant to the next generation, because you don’t want to get stuck as a generational company like our predecessors, because eventually those people will not be around, or, you know, maybe they will be, but that becomes a problem if you just are relevant for a period of time. So we always try to stay attuned to the needs of the next generation.\n\nBrady: What’s different? I’m Gen X, since we’re talking generations here, why would I not use Robinhood? Why do you not appeal to me?\n\nTenev: I think many people from Gen X do use Robinhood, and it’s not really a generational thing. It’s more, are you comfortable with technology, and are you comfortable using a smartphone firm for all of your financial needs? I think as people get a little bit older, Gen X less so, but let’s say, you know, baby boomers or silent generation, it’s very difficult for them to contemplate not having brick and mortar, for example. And I think brick and mortar for us, it’s not an area we focus on. I think that there’s so much opportunity with digital services that it’ll be a while before we have significant brick and mortar, if ever,\n\nBrady: Since we’re talking about generations, let’s go back to the very beginning. Vlad, your parents were at the World Bank. Tell us a little bit about what drew you to this field in the first place: what was the aha moment you and your cofounder had?\n\nTenev: Yeah, so my cofounder and I met at Stanford, and we had both independently come to Stanford to study physics, actually. And the reason we studied physics was we were interested in the big questions: what happened before the Big Bang? Why does the universe work the way it does? Why is there gravity? Why? So those were the questions that appealed to us. And then we got into mathematics, because to really understand physics, the underlying structure of it is just mathematics. So we had to get good at that. And I went to graduate school down at UCLA to work with a famous professor there by the name of Terry Tao. He was a Fields Medalist, one of the best mathematicians in the world. Still is. And my first month on the job in grad school, Lehman Brothers went under. So it was the start of the global financial crisis, and Baiju, who was my good friend and cofounder, subsequently, he was at a hedge fund in Marin County, north of San Francisco, and he called me several times, repeatedly, and he was actually, it was the opposite. He was like, this company that I’m at is doing really interesting stuff. They’ve computerized everything, and they’re taking advantage of all of these mispricings in the market. So when there’s a market crash, like 2008, most financial services companies do very poorly. The economy is tanking, and the conventional wisdom is that you don’t want to be anywhere near finance, except if you’re a financial company that’s taking advantage of mispricings, because there’s a lot of mispricings, and they had this one strategy where they had a network between Canada and New York, and they were trading the same exact stock in both places, and they were just buying it.\n\nBrady: Arbitrage.\n\nTenev: Yeah, they were doing arbitrage, and that was like a multi-million dollar a day strategy that would run on the close for a few minutes. So essentially, after many calls, Baiju convinced me that we could just do this business better than the firm that he was at. He was like, they’re using Windows. A trade has to go through 17 machines to get to the exchange. It’s slow. What if we just slimmed it down to one machine? Made it really efficient, wrote the simplest code that we could possibly write, and, you know, shave the time down from 20 milliseconds to two milliseconds. And, you know, I thought that was interesting. I didn’t really have too much entrepreneurial experience back then, but I also wasn’t having an amazing time in grad school. And I had nothing to lose, really, so we decided to take a leave of absence. I asked for a leave of absence from my graduate studies to pursue this trading venture, and we put all of my stuff, all of our stuff, into this 1997 Infinity Q45 that I had. This was like a boat of a car. It looked very much like an Oldsmobile.\n\nBrady: How old were you?\n\nTenev: I was 22, yeah. And we drove across the country to New York to start a trading venture. And, yeah, that’s how the entrepreneurial journey began, and that sort of, you could tie that to the origins of Robinhood, because that’s how we kind of understood—ultimately, that business failed. You know, our trading venture was not successful, but we learned how the markets worked, and then later we were able to inhabit these two worlds, where we understood trading out here, and then we came from Stanford, so we were sort of like in the middle of mobile and all this technology, and we kind of put the two together.\n\nStoller: Well, I think that’s your thesis, and correct me if I’m wrong, was that you wanted to make trading more accessible to young people and those who’d never really gotten a hand in it, unless they had a financial advisor or someone like that, right?\n\nTenev: Yeah, that was part of it, for sure. I think the origin of it really was, you know, we were engineers, we were mathematicians, and we thought from first principles about why a trade had to cost $10. And you actually break down all the components of the trade, you know, the clearing, the execution, the brokerage services, and you find out that you could actually offer it for pennies, right? And once we realized that, we were like, well, that’s a pretty big opportunity. If you take something that others are charging $10 for, and we can actually break it down and offer it for pennies, we probably don’t have to be very good at anything else. But if we can just deliver that, it could be a pretty big company.\n\nBrady: So Kristen mentioned this at the start, and I do want to talk about where you are now and where you’re going, but I want to say you’re best known still for that GameStop episode. Let’s remind people a little bit of, you know, I saw the movie. Let’s start there. How do you feel you were portrayed in the movie version of this whole…\n\nTenev: …well, I thought they chose a very attractive man to play me. So I was happy about that. They had so many scenes—in like, three-quarters of the scenes, he was shirtless in the bathroom.\n\nBrady: Yeah, there you are, working out again.\n\nTenev: Yeah, I was not solving these complex business issues shirtless in the bathroom, or, like, making a smoothie, in my very elegant kitchen. But, you know, could be worse, they could have, they could have picked an unattractive actor.\n\nBrady: You could have been a slob doing cocaine or something like that.\n\nTenev: I think they depicted Norm, our chief compliance officer, calling me from New York in his office, and I was at some party talking to some females…\n\nBrady: …as one does…\n\nTenev: …yeah, that was not what I was doing that night, because it was January 2021, so nobody, at least in San Francisco, was going to parties. I was in bed with my children. So that was inaccurate, but I think they got my mannerisms right. Obviously, they’d studied all the press interviews that I’ve gotten. So it was this thing where, on the surface, it did sort of resemble me, but I think the substance of what was said was just completely fictional.\n\nBrady: Let’s remind—what was the role that you played. So GameStop, that is one, the whole sort of meme stop phenomenon. Talk a little bit about the role that Robinhood played, because, in some respects, the platform was vilified during that period. Was it fairly or unfairly?\n\nTenev: Unfairly.\n\nBrady: Okay, so tell us about that.\n\nTenev: Well, so the origins of this entire thing was, you know, during COVID, people were cooped up at home, and, you know, a lot of them actually weren’t working,  they didn’t have jobs. And so the government actually had multiple rounds of stimulus. So not only were the interest rates zero, which actually stimulated the economy in the market, but there were multiple rounds of helicopter money sent directly to people. And I think this had an effect of actually stimulating a lot of trading and a decent amount of speculation. And you saw that reflected across the entire market. I mean, January 2021, February 2021, I think, was either the last or the second to last round of significant stimulus injected. And I think a lot of people were going a little crazy because they had been cooped up at home for a year. I think at first there was some euphoria in 2020. People were like…\n\nBrady: …the wisdom of the crowd becomes the stupidity of the crowd…\n\nTenev: …Yeah. I wouldn’t maybe go that far, but it was definitely a strange time. So essentially, you know, people on social media were talking about individual stocks and just sort of like buying them up. And one of those was GameStop. There was also, you know, Nokia, I think was very popular. AMC, of course. It tended to be these names of these companies that had been disrupted by technology to some degree. And I think there was an element of nostalgia about it. There was also a narrative of, okay, well, maybe the government is not stepping in to protect these companies so retail could come in and sort of like keep them going while the pandemic runs out. So anyway, there were probably multiple causes, and effectively it got so extreme that all of the risk controls market-wide, that were instituted, actually, many of them were instituted in 2008 to prevent another financial crisis. They sort of like fired on this GameStop thing, and that led to Robinhood and pretty much every other brokerage enacting trading restrictions, and those restrictions basically allowed customers to close their existing positions but not open up new ones. And those were both, you know, options positions, stock positions. It was basically risk-reducing trades only, and I think on social media, which, as I mentioned before, people were already getting a little crazy. This was sort of portrayed as a ploy by the government and these companies to shut down trading and prevent the little guy from from making money.\n\nStoller: And you got some really violent backlash, I feel like, from people. That must have been scary. How did you handle that personally, and, were you looking at it as more of like, I wish I communicated with the users more about this or what was going through your mind at the time?\n\nTenev: I think it was a very tough point because, first of all, this was a very unique situation. Nobody was working in an office. Everyone was remote, even like the central clearing houses and the regulators were working remotely, and there was a delay. Anytime you had to figure out what was going on, there was a delay, because you had to place these calls into people and wait for them to reply. And so even us just wrangling the situation, it’s like, where did this file come from? Who sent it? Oh, the person is not in the office yet. When do they get in? So there was a delay in, just like getting things figured out, which I think was reflected in a delay to communicate all the details to customers. By the time we communicated them, you know, this fake narrative that we were colluding with hedge funds, had kind of gotten out. So it was, it was a big lesson, definitely, in how social media can take these false narratives and make them go like wildfire, and it took us a long time to actually clamp that down and clarify it. So I think in hindsight, if we would have gotten the information out earlier, that would have been better. But also, there was a risk that you get out the incorrect information and then you have to retract it, and that also causes problems.\n\nBrady: So our colleague, Jeff John Roberts, did a piece earlier this year, and it’s really about the remarkable, I wouldn’t say turnaround, but you have been on a tear lately, in a good way, of course. And talk about where have been the best sources of growth for you? And I’m really curious. You know, I don’t want to say Prague Spring, because that implies it’s temporary, but crypto is having a moment right now, thanks to Washington and such. But what do you think have been the real drivers of the business in the last year or two?\n\nTenev: Yeah, I mean, I know we talked a lot about GameStop, I think if I look back over the past five years, that actually wasn’t the most difficult time. Because GameStop was sort of like this acute issue that we had to navigate, but it was kind of over in a couple of days. 2022, the market downturn, was actually much rougher, because that was a prolonged decline that lasted, you know, over a year.\n\nStoller: And right after you went public too.\n\nTenev: Yeah, pretty much we snuck in there right at the end of the IPO window in 2021, right? I think it was—we went public. And then there was Rivian, I remember maybe like a month later, and then the doors were just shut for many, many years. And basically what happened was all of that stimulus that entered the economy during covid had worked its way into the system, through the system, there was very high inflation, because obviously, stimulus, without an increase in productivity, led to just more money. And so then we had the biggest reversal in monetary policy in decades. You know, we went from zero interest rates to some of the highest interest rates we’ve had in 30 years. And what happens is, as interest rates go up, the desire, and actually the rationale, to invest in the market goes down. Because if you can get a, you know, risk free 5% just holding your money in cash, and, you know, the market appreciates by 10% on average, cash becomes very attractive. So basically we had to, essentially, we had—all of the tailwinds turned into headwinds. Our business actually declined in revenue. We were very focused on first-time investors coming into the market, and first-time investors were not interested in stocks for that period. So we had to essentially rebuild the entire business and reconstruct it to not just survive, to initially survive, but eventually, kind of thrive in the new environment. And that’s where we asked ourselves these difficult questions of, you know, let’s say a new CEO came in. And, you know, a CEO from central casting, like a Frank Slootman from…\n\nBrady: …something like Eric Schmidt for Google…\n\nTenev: …yeah, some real—the CEOs that people write about. What would they do? If they were unburdened by decisions that we had made, and we had a list of things. We were like, “Okay, well, they would probably get people back into the office as much as possible, unwind this remote work stuff. They would unfortunately have to cut expenses. They would allocate all of our resources to our highest revenue, most valuable initiatives.” And I think our new business strategy came out of that. And our business strategy now is we have sort of like these three pillars that act on three different time horizons. In the short term, we’re going to be the number one platform for the Active Trader market. And that’s just, you can think of that as almost like our Tesla Roadster. It’s a niche market, active traders, but they generate a lot of revenue, and they like to be at the forefront of technology and innovation. So these are the people that have their six screens. Maybe you can think of them as having Bloomberg terminals, lots of information, and they’re just like plugged in. They’re plugged into the mainframe. They are trading, and they’re, you know, semi-professional. So an important market for us, but not everyone is a trader. Which brings to our second arc, which we call number one in wallet share for the next generation. And that’s really about serving the totality of your financial needs. Can we do your banking? Can you deposit your paycheck in Robinhood, do all of your spending with us, have your retirement savings, your long term savings, and, of course, your discretionary investing? And that also serves to diversify the business. So that’s where Robinhood Gold, which is our subscription offering, came in.\n\nBrady: $250? Well that’s the cap on what you get.\n\nTenev: Well, Robinhood Gold is $5 a month, so less than that, less than a cup of coffee in New York. But we have a Robinhood Strategies offering, which actually, you get some amount managed free, but there’s a cap and so what we saw with typical financial advice offerings is they get more expensive the more assets you have managed. But actually the service is the same. So you’re basically paying more and more for the same thing, particularly for the digital solutions, where it’s literally just the same software with more money, charging you more fees. So we thought we’d invert the model and cap it at $250 for $100,000 managed, which is a great deal if you have, you know, one to $10 million dollars or more. So, yeah, the second arc: we diversified the business and grew wallet share. And I think that the biggest example of that was the growth of Robinhood Gold, which itself has become a nine figure revenue subscription business from a very, very small baseline a few years ago, but now it’s a it’s a large business that continues to grow with 3.3 million paid Gold subscribers as of the end of the first quarter. And then there’s the third arc, which is longer term. We call it our 10 year arc, even though it might take less time than that to complete, but we’ll see.\n\nBrady: We’re in AI era, right? 10-month plan?\n\nTenev: Yeah, the 10-year arc, I call it the number one global financial ecosystem. And so that involves Robinhood growing across two independent vectors. One is U.S.-only to fully global. We want to be available in every country in the world. And the other is retail only to business and institutional. So you shouldn’t just be able to use Robinhood as an individual, but if you have a small business, if you have a large business, we should be able to handle all of your financial needs as well. And I think that takes the addressable opportunity into…I mean, it’s orders of magnitude bigger.\n\nStoller: That makes a lot of sense. And you just described coming through a rough two years to get to this point where you are now. GameStop, 2022 markets, and you were facing a lot of online hate at the time. Was there ever a moment where you felt like, I’m out as CEO, I’m gonna quit. This is it for me. This is my limit.\n\nTenev: Yes, definitely. There were times where I was sort of questioning my choices, and honestly, the way that I thought about it is, I kind of thought, well, maybe when I was 35. When I first started this company, I’ll see how I feel when I’m 35. That’s a long time, I started in my mid 20s. And you know, maybe when I’m 35 I would do something a little bit different. But then, you know, I got to 35 and I was having fun. There were so many opportunities ahead of me, and mentally, I was like, “You know what? I’m gonna commit a little bit more time. 2022 was rough, and I’d be, I’d be lying to say if I didn’t have existential concerns about whether it was good for me or also whether I was the best person for the job. But you know, I think at the end of the day, I’d made a commitment to lots and lots and lots of people and myself that I would do everything possible to actually make sure the company was was in good shape. I think I was still the best person to navigate through these times. And I think it also helped—at first, it felt very lonely that, it almost felt like Robinhood itself was idiosyncratically doing poorly in that time. But, you know, the entire—lots of companies were having trouble, so somehow that was a little bit comforting, because then it felt a little bit less idiosyncratic. And just, you know, we were kind of all in this together in the broad entrepreneurial community. And you know, some companies had a very hard time, and their approach was, we’re just gonna, like, batten down the hatches and come through it. And I think our approach was, in hindsight, much better, which was, we’re not just gonna let the economy happen to us. We’ll adapt and see how we can take advantage of this new time. And you know, in 2022, interest rates went up, but that did open up an opportunity to pay people a lot of interest on their cash, and that then became a big competitive frontier.\n\nBrady: Any good advice that you received, in general, since to be a CEO is also a learned craft. I’m curious who you’ve gone to for advice and what they’ve told you?\n\nTenev: I think, generally, what I found is the best advice is just real time feedback from customers. I think a lot of people will say so many things, but I think you have to do these little experiments. You have to try things and learn, see what works, see what resonates. And at the end of the day, I think what governs success is being able to do those experiments quickly, actually measure them, learn from them, and then incorporate those learnings. And I think that strategy is good, because you can actually unwind the experiments that don’t work, right? You can unwind the…\n\nBrady: What hasn’t worked?\n\nTenev: I’d say probably, like, 70% of things we try don’t really work. And they are little things, the big things tend to work because they’re a little bit more obvious, right? I mean, there’s some big things that haven’t really worked. We launched a debit card offering in 2022, the Robinhood Cash Card, and I think that wasn’t amazingly successful.\n\nStoller: Why not?\n\nTenev: I think that what we did there was we built an offering targeting more of like the paycheck-to-paycheck, lower income consumer. But actually most people that use Robinhood are higher income because you need to have a little bit more money to invest, right? And so those tend to be credit card primary. Once you basically start using a credit card, you’re not going to go back to a debit card. It’s sort of a one way door. And so we built a product for lower income inside a service that was primarily, you know, our best customers were higher income or slightly higher than that. And so we learned from that, and we ended up launching the Robinhood Gold Card, which is the 3% cash back credit card that I was telling you about earlier. You know, that led to the private banking offering, which really targets the higher end of the. So in a sense, it wasn’t directly successful. I mean, it did okay, but we learned from that, and actually, the failures and shortcomings of that product led us to kind of retool and launch another one shortly after that that’s been much more successful.\n\nStoller: I think another one of your and my favorite topics, Diane, is regulation. I feel like we should take a shot.\n\nBrady: Yeah, SEC, go.\n\nStoller: Exactly. So I think my question for you, Vlad, coming out of 2021, how are you ensuring that Robinhood is prepared for any future regulatory and clearing house challenges going forward with this new administration too?\n\nBrady: And opportunities, too. Let’s not forget the word opportunity.\n\nTenev: I think that in the previous administration with Gary Gensler at the SEC, we were very much in a defensive posture.\n\nBrady: In crypto or overall?\n\nTenev: Our entire business. There was crypto, which was, as you guys know, basically they were trying to delete crypto from the U.S., and there was also market structure. So they were trying to effectively stop self-directed retail trading, which affected our core brokerage business with a slew of poorly motivated market structure reforms. And then there was what they called predictive data analytics, which effectively would curb the use of technology, including AI, from financial services. So, yeah, it was sort of like an attack on these three fronts that were, I thought, anti-innovation, fundamentally. I mean, when you say we don’t want technology to be used in financial services and people should just engage in in-person financial services. It’s not only antiquated, in my opinion, but it also disadvantages the people that can’t afford in-person advice, because that’s expensive. So I was glad to see that change. I mean, when the new administration came in, the immediate impact was just like the cessation of all this just assault on our business and the industries that we operate in. And then we got into a strange—suddenly we don’t have to spend the bulk of our resources defending ourselves, and instead, we have an administration that wants the U.S. to win in crypto and all these frontier industries like artificial intelligence, and we kind of had to figure out how to operate in that environment, which we’re still learning, but we’re definitely engaged in Washington in a big way. I mean, I’ve been to the White House several times just this year, and I was not invited to the White House in the previous administration. I don’t think they cared too much to deal with me. But, you know, there’s this Invest America Initiative, which is very exciting, and this is in the “Big, Beautiful Bill,” in the reconciliation bill. And it’s, it’s probably one of the…\n\nBrady: You can say that with a straight face, “Big, Beautiful Bill?” I always smile every time I hear that term.\n\nTenev: It rolls off the tongue, doesn’t it.\n\nBrady: Yeah, better than bad, ugly bill, I guess.\n\nTenev: Yeah. Well, this part, the Invest America Act is probably one of the least controversial—basically both sides agree, but it would give every child born in the country $1,000 in an investment account that would compound over time and really get them invested in the markets. So we talked about that. Obviously, we’ve been involved in the crypto…\n\nBrady: What do you think about meme coins? I know Circle had a great IPO with stablecoins, but the world of crypto continues to be a little enigmatic for me. Is there a place for memecoins?\n\nTenev: I think memecoins are an early example of an immensely powerful technology. So the idea that you can actually create a coin in less than five minutes and have it deployed across a network of global exchanges, attract billions of dollars of liquidity from hundreds of millions of people globally, is probably the most powerful innovation in capital markets since the creation of the order book, I would say. Now I think memecoins, a lot of people get distracted, because, to some degree these are speculative assets that aren’t tied to real world utility, but the technology is incredibly powerful. And I think the future is that same technology that makes it easy to deploy a meme coin, will be plugged into the existing securities framework, and so you can have what we call tokenized real world assets that live on blockchains that tap into that liquidity and trade real time, 24/7.\n\nBrady: So asset-backed meme coins?\n\nTenev: Real world assets, yeah. I think stocks will be on blockchains. Private companies like SpaceX and OpenAI will be on blockchains. And in that sense, this technology, that kind of seems like a little bit of a joke now, will become an infrastructure layer underlying the most serious financial instruments that we have.\n\nStoller: Interesting. I want to talk about the everyday retail investor. I know they make up a lot of your customer base. What have you learned about them, you know, since the GameStop episode? What do they want following all this backlash, and what changes have you made with Robinhood because of it?\n\nTenev: Yeah, I think one thing that I believe, that maybe isn’t commonly believed, is that investing and trading are skills that need to be practiced in order to be improved. I think it’s—I draw this analogy: it’s more akin to playing the violin than learning biology, right?\n\nBrady: Only you get charged every time you practice.\n\nTenev: If you’re playing the violin, that’s true. But with no commissions. I think the charges are less, but I think..\n\nBrady: …I’m thinking more taxes than commissions. But, yes, go ahead.\n\nTenev: Yes. Well, you only get charged those if you make money.\n\nBrady: Rich people problems.\n\nTenev: Yeah. Dulls the impact a little bit. It’s possible to improve. I think there’s people that have been doing it for a long time and have gotten very, very sophisticated. Our customers have gotten very sophisticated. They have data pipelines where they collect all this information, and there’s been this new phenomenon of retail investors analyzing stocks. And you see them on YouTube and X, and they post these in depth videos where they go into all the details of a company’s financial statement, balance sheet, the news, the stock price movement and the technicals. And there’s been this story that retail investors are unsophisticated. They don’t know what they’re doing. Some of these retail investors are more sophisticated than the professional analysts, which I think is pretty amazing.\n\nBrady: You know, one of the things that people love anytime we’re talking to leaders, is just, I almost call it life hacks. You’ve got kids, obviously, you’ve got a very demanding job. Let me start with, where do you get the most joy out of your job? I mean, can you give me some sense of what you love most about it and what you would change?\n\nTenev: Yeah, yeah. That’s an interesting question. I think my wife would not like–she doesn’t like it when I say this–but I actually prefer it when my work life and my personal life blends. You know, it’s sort of like the anti-Severance.\n\nBrady: I like that too.\n\nTenev: I think they should just blend, and then it’s just life. Because I think conventionally, people felt like work was something they had to do, and there was this sharp divide of, okay, I’m working. It’s kind of a drag. I don’t really like what I’m doing, but I’m making money so that I could have fun when I retire, or, you know, when I come home or on the weekends, but I like what I do. I think I’m at the point where if I don’t like what I do, I could be doing something else. And so it’s sort of everything’s just life. I like making contributions, being productive, and the two sort of merge, but, you know, not ideal for the kids when they have to go to the office and, like, hang out with me while I’m in meetings.\n\nBrady: I hung out with my parents at work, I enjoyed it.\n\nStoller: Yeah, that’s why I became a journalist.\n\nBrady: Is there anything that you don’t get asked enough, or you wish you were asked more often?\n\nTenev: Well, I think that there’s an interesting thing that’s happening in this country, which I like to talk about sometimes, and it’s big. It’s the, I call it the great wealth transfer. And the numbers just keep getting bigger. This money is going to move, and I don’t really think too many people are thinking about this, but that asset flow is going to be continuous and accelerating. And, you know, it’s going from folks that did most of their financial services in-person with, you know, physical brokers, to people that are much more digitally native. And I think that’s going to have a huge impact. And I don’t think the incumbents are really thinking about that. I think that’s going to be a big thing, and we have to make financial services work sensibly for the entire family. And I think that’s what we’ve been working towards with banking, with the credit card offerings, and, of course, with investments.\n\nBrady: Can I have one other question with just the flip side of that, in the same time you have a wealth transfer, you’re also seeing entry level jobs dry up, you know, a lot from AI, etc. Do you worry about the ability of Gen Z to make the kind of income that their parents made, and how that impacts your business?\n\nTenev: I do worry generally about the short-term impacts of AI on the labor market. I think that, you know, in the next five to 10 years, if you believe some of the optimistic estimates for the GDP growth and what it takes to get that, you know, six plus percent GDP growth if we’re in the bullish AI adoption scenario, there’s going to be a lot of labor force disruption. And I think that’s actually a huge tailwind for the importance of retail investing. So I think it’s going to become more important to invest, because if you can’t rely on labor to generate money to make a living, capital becomes more important. And so we’re going to have to make it easier for people to learn about investing. Invest from an early age, get their kids investing. And I think it’s going to be private industry like Robinhood, also the government that’s going to have to step in. And I think you’re seeing the beginnings of this shift with the Invest America Act. I think the best way to actually get ourselves ready for this is to encourage people becoming owners of private industry and the American stock markets and our best companies from as early of an age as possible, because investing in things and capital, I think, is going to continue to be important, and the value of labor and working for money is—there’s a lot of question marks. I mean, some people say that we’ll create all sorts of new jobs, but I think the AI revolution is a little bit different, because in the past, intelligence was always sort of owned by humans, by people, and we’ve relied on intelligence to create new jobs. But if the intelligence is being-if humans comprise less than 1% of the total intelligence out there, I think you’ll have entrepreneurship, but there will be big, big disruption, to say the least, and so encouraging investment is a big way to combat that/\n\nStoller: To prepare for all this, is there one big change that you think needs to happen in financial regulation in the next five years?\n\nTenev: I mean, I think there’s two big transformative forces that are currently working their way through the financial system, and it’s crypto and artificial intelligence. I have a feeling, somehow, surprisingly, I think we’ll be fine with AI. I think that it’s moving so fast, and everyone seems keen to not really regulate it at this point. Maybe at some point that’ll happen. But the models that we have now are already at, you know, 130, 140+ IQ. So there’s probably just a lot that can be done deploying the existing models that exist. With cryptom there’s the stable coin bill that’s continuing to be ping-ponged back and forth between the Senate and the House, and that should get through. There’s market structure, which should get through as well. And I think some work will need to be done that guarantees that, but I think that’s an inevitability as well. Just because it’s so global, crypto is sort of like the internet. It’s available to anyone with a smartphone, so it’s going to be hard to not embrace that eventually.\n\nBrady: Any last words, advice, for entrepreneurs? I know you’ve got plenty of advice for investors. What’s your advice for entrepreneurs?\n\nTenev: I don’t think entrepreneurs, the best ones, won’t listen to my advice anyway. I think, you know, I always get this advice, focus on one thing, don’t get too distracted. And I think that the best entrepreneurs in my experience try to figure things out for themselves. So I would just say, run experiments, learn from things, try to iterate as quickly as is responsible. You don’t want to iterate too quickly. You always have to be responsible. But yeah, I think it’s going to be the best time to be an entrepreneur in the next 10 years. So also just get started while you’re young.\n\nBrady: And put your money with Robinhood. Thank you for joining us.\n\nTenev: Thank you.\n\nBrady: Leadership Next is produced and edited by Ceylan Ersoy.\n\nStoller: Our executive producer is Lydia Randall.\n\nBrady: Our head of video and audio is Adam Banicki.\n\nStoller: Our theme is by Jason Snell.\n\nBrady: Leadership Next is a production of Fortune Media. I’m Diane Brady.\n\nStoller: And I’m Kristin Stoller.\n\nBrady: See you next time.\n\nLeadership Next episodes are produced by Fortune‘s editorial team. The views and opinions expressed by podcasters and guests are solely their own and do not reflect the opinions of Deloitte or its personnel. Nor does Deloitte advocate or endorse any individuals or entities featured on the episodes.\n\nThis story was originally featured on Fortune.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:38:00+00:00",
+            "title": "Zacks.com featured highlights include Vertiv Holdings Co, MasTec, Inc. and Robinhood Markets",
+            "content": "For Immediate Release\n\nChicago, IL – August 27, 2025 – Stocks in this week’s article are Vertiv Holdings Co VRT, MasTec, Inc. MTZ and Robinhood Markets, Inc. HOOD.\n\n3 Momentum Anomaly Stocks to Buy as Markets Sway Frantically\n\nThe broader U.S. equity markets have been swinging wildly over the past few days, hitting record highs on the back of Federal Reserve Chair Jerome Powell's broader rate cut hints and declining sharply due to concerns surrounding NVIDIA's impending earnings release. Moreover, with President Trump transgressing the Fed's independence by threatening to remove Governor Lisa Cook from her post and likely setting up a legal battle that could reach the Supreme Court, the markets remained largely on tenterhooks.\n\nAmid the vagaries of the market, investors often seek to employ time-tested winning strategies to fetch sustained profits. One of the most successful game plans to beat the blues is to bet on momentum stocks, like Vertiv Holdings Co, MasTec, Inc. and Robinhood Markets, Inc. when value or growth investing fails to generate the desired profits.\n\nThis approach primarily tends to follow the adage, \"the trend is your friend.\" At its core, momentum investing is \"buying high and selling higher.\" It is based on the idea that once a stock establishes a trend, it is more likely to continue in that direction because of the momentum that is already behind it. Momentum investing is a way to profit from the general human tendency to extrapolate current trends into the future. It is based on that gap in time before the mean reversion occurs, i.e., before prices become rational again.\n\nMomentum strategies have been known to be alpha-generative over a long period and across market stages. So, this strategy is quite tricky to implement, as detecting these trends is no child's play. Here, we have created a strategy to help investors get in on these fast movers and rake in handsome gains. Our screen will help you benefit from both long-term price momentum and a short-term pullback in price.\n\nHere are three stocks out of the seven that made it through this screen:\n\nHeadquartered in Westerville, OH, Vertiv is a leading global provider of critical digital infrastructure and services for data centers, communication networks and commercial and industrial environments. The company designs, manufactures, installs, maintains and services a broad portfolio of hardware, software and integrated solutions that ensure digital infrastructure operates continuously, optimally, and can scale with business demands.\n\nStory Continues\n\nVertiv serves essential industries, including cloud computing, financial services, healthcare, transportation, energy, manufacturing, government, education, retail and social media. The stock has surged 60.2% in the past year but declined 7.9% in the past week. Vertiv has a Momentum Score of B.\n\nHeadquartered in Coral Gables, FL, MasTec is a leading infrastructure construction company operating mainly throughout North America. The company engages in the engineering, building, installation, maintenance and upgrade of energy, communication, utility and other infrastructure. The stock has rallied 59.7% in the past year but lost 0.7% in the past week. MasTec has a Momentum Score of B.\n\nHeadquartered in Menlo Park, CA, Robinhood Markets is a financial services firm that offers trading services in crypto, stocks, options, exchange-traded funds, cash management, margin and securities lending, and Robinhood Gold. The company aims to democratize finance through its commission-free trading model, which was launched in 2013, with no account minimums.\n\nThe company serves in the United States, the United Kingdom and selected European Union jurisdictions through its apps and subsidiaries. The stock has surged 415% in the past year but declined 6.2% in the past week. Robinhood Markets has a Momentum Score of A.\n\nYou can get the rest of the stocks on this list by signing up now for your 2-week free trial to the Research Wizard and start using this screen in your trading. Further, you can also create your own strategies and test them first before taking the investment plunge.\n\nThe Research Wizard is a great place to begin. It's easy to use. Everything is in plain language. And it's very intuitive. Start your Research Wizard trial today. And the next time you read an economic report, open up the Research Wizard, plug your finds in, and see what gems come out.\n\nClick here to sign up for a free trial to the Research Wizard today.\n\nFor the rest of this Screen of the Week article please visit Zacks.com at: https://www.zacks.com/stock/news/2742933/3-momentum-anomaly-stocks-to-buy-as-markets-sway-frantically\n\nDisclosure: Officers, directors and/or employees of Zacks Investment Research may own or have sold short securities and/or hold long and/or short positions in options that are mentioned in this material. An affiliated investment advisory firm may own or have sold short securities and/or hold long and/or short positions in options that are mentioned in this material.\n\nAbout Screen of the Week\n\nZacks.com created the first and best screening system on the web earning the distinction as the \"#1 site for screening stocks\" by Money Magazine.  But powerful screening tools is just the start. That is why Zacks created the Screen of the Week to highlight profitable stock picking strategies that investors can actively use.\n\nStrong Stocks that Should Be in the News\n\nMany are little publicized and fly under the Wall Street radar. They're virtually unknown to the general public. Yet today's 220 Zacks Rank #1 \"Strong Buys\" were generated by the stock-picking system that has more than doubled the market from 1988 through 2016. Its average gain has been a stellar +25% per year. See these high-potential stocks free >>.\n\nFollow us on Twitter:  https://www.twitter.com/zacksresearch\n\nJoin us on Facebook:  https://www.facebook.com/ZacksInvestmentResearch\n\nZacks Investment Research is under common control with affiliated entities (including a broker-dealer and an investment adviser), which may engage in transactions involving the foregoing securities for the clients of such affiliates.\n\nContact: Jim Giaquinto\n\nCompany: Zacks.com\n\nPhone: 312-265-9268\n\nEmail: pr@zacks.com\n\nVisit: https://www.zacks.com/\n\nZacks.com provides investment resources and informs you of these resources, which you may choose to use in making your own investment decisions. Zacks is providing information on this resource to you subject to the Zacks \"Terms and Conditions of Service\" disclaimer. www.zacks.com/disclaimer.\n\nPast performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit https://www.zacks.com/performancefor information about the performance numbers displayed in this press release.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMasTec, Inc. (MTZ) : Free Stock Analysis Report\n\nVertiv Holdings Co. (VRT) : Free Stock Analysis Report\n\nRobinhood Markets, Inc. (HOOD) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:35:02+00:00",
+            "title": "Robinhood Markets, Inc. (HOOD) Just Flashed Golden Cross Signal: Do You Buy?",
+            "content": "Robinhood Markets, Inc. (HOOD) reached a significant support level, and could be a good pick for investors from a technical perspective. Recently, HOOD broke through the 20-day moving average, which suggests a short-term bullish trend.\n\nThe 20-day simple moving average is a popular investing tool. Traders like this SMA because it offers a look back at a stock's price over a shorter period and helps smooth out price fluctuations. The 20-day can also show more trend reversal signals than longer-term moving averages.\n\nLike other SMAs, if a stock's price is moving above the 20-day, the trend is considered positive. When the price falls below the moving average, it can signal a downward trend.Moving Average Chart for HOOD\n\nHOOD could be on the verge of another rally after moving 5.3% higher over the last four weeks. Plus, the company is currently a Zacks Rank #1 (Strong Buy) stock.\n\nLooking at HOOD's earnings estimate revisions, investors will be even more convinced of the bullish uptrend. There have been 6 revisions higher for the current fiscal year compared to none lower, and the consensus estimate has moved up as well.\n\nWith a winning combination of earnings estimate revisions and hitting a key technical level, investors should keep their eye on HOOD for more gains in the near future.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nRobinhood Markets, Inc. (HOOD) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:30:00+00:00",
+            "title": "Better Growth Stock: SoFi vs. Robinhood",
+            "content": "Key Points\n\nSoFi has expanded its customer base and has impressive sales and earnings growth. Robinhood's trading platform is booming thanks to a surging stock market. While both stocks trade at a premium, Robinhood's shares are priced for perfection. 10 stocks we like better than SoFi Technologies ›\n\nOptimism in the market and the U.S. economy's resilience over the past few years have resulted in a share price surge for some financial stocks. Two stocks that have posted impressive gains over the past three years are SoFi Technologies(NASDAQ: SOFI) and Robinhood Markets(NASDAQ: HOOD), which have gained over 280% and more than 1,000%, respectively.\n\nBoth of these growth companies have carved out important niches in their respective markets, giving investors a unique way to invest in financial products. But of the two, which one is the better growth stock over the long term? Let's take a look.Image source: Getty Images.\n\nSoFi has rapidly expanded its financial services\n\nSoFi's growth has been nothing short of impressive over the past few years. The company boasts 11.7 million members now, an increase of 34% from the year-ago quarter. That amount of growth doesn't just happen by accident and shows SoFi's management has successfully rolled out financial services that resonate with customers.\n\nSoFi offers a variety of services, from personal loans to credit cards and bank accounts, and has attracted a loyal following among younger customers. The results financially speak for themselves, with sales rising 44% in the second quarter to $858 million and adjusted earnings skyrocketing 7 times to $0.08 per share.\n\nPart of the company's success has come from its fee-based revenue, like credit card fees, which rose 73% in the quarter to $378 million. The company's financial performance was so strong in the second quarter that management raised SoFi's full-year revenue guidance to about $3.4 billion -- a 31% jump from 2024.\n\nRobinhood is benefiting from a surging market\n\nRobinhood has benefited from an explosion of stock-buying interest over the past few years. The company's easy-to-use trading app is popular among younger investors, and the ability to buy and sell cryptocurrencies, along with stocks, in the app allows Robinhood to appeal to a wide group of investors.\n\nIt's easy to see just how popular Robinhood's platform is based on its Q2 results alone, in which revenue rose 45% to $989 million and earnings surged 100% to $0.42 per share. Much of these gains were fueled by Robinhood's transaction-based revenue, which rose 65% in the quarter and showed that investors are eager to continue using the app to invest.\n\nStory Continues\n\nWhat's more, Robinhood's funded customer accounts rose 10% in the quarter to 26.5 million, and the company's total platform assets nearly doubled to $279 billion. Both are indicators of Robinhood's impressive momentum.\n\nWhich growth stock is the better buy right now?\n\nWhile Robinhood and SoFi are both growing at a healthy clip and attracting new customers, it's important to take a look at each stock's valuation, especially in light of their massive share price gains over the past few years.\n\nSoFi's stock has a price-to-earnings ratio of about 50, which is expensive when compared to the S&P 500's average P/E ratio of 28. But it's still cheaper than Robinhood's P/E ratio of 56.\n\nWhile Robinhood certainly has lots of momentum right now, its higher valuation and its astronomical share price gains over the past few years mean there's very little room for error. For example, despite Robinhood's strong quarter in which sales and earnings beat Wall Street's consensus estimates and users increased, its share price fell during the quarterly earnings call because investors didn't like some of the costs associated with the company's recent acquisitions.\n\nWhenever a stock has gained so much in such a short time, investors can begin to expect near-perfection in its quarterly results. For that reason, and the stock's higher valuation relative to SoFi's, I think SoFi stock looks like the better buy right now.\n\nShould you invest $1,000 in SoFi Technologies right now?\n\nBefore you buy stock in SoFi Technologies, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and SoFi Technologies wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $661,220!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,114,162!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,069% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nChris Neiger has no position in any of the stocks mentioned. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.\n\nBetter Growth Stock: SoFi vs. Robinhood was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Robinhood Markets Inc",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "employees": 2300,
+          "description": "Robinhood Markets, Inc. operates financial services platform in the United States. Its platform allows users to invest in stocks, exchange-traded funds (ETFs), American depository receipts, options, gold, and cryptocurrencies. The company offers fractional trading, recurring investments, fully-paid "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.97,
+          "profit_margin": 0.5013,
+          "operating_margin": 0.4439,
+          "roe": 0.2354,
+          "roa": 0.0466,
+          "revenue_growth_yoy": 0.45,
+          "earnings_growth_yoy": 1,
+          "eps_estimate_current_year": 1.8757,
+          "eps_estimate_next_year": 2.1063,
+          "revenue_ttm": 3567000064,
+          "revenue_per_share": 4.036,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 55.2284,
+          "forward_pe": 76.3359,
+          "price_to_sales": 27.1062,
+          "price_to_book": 11.8835,
+          "enterprise_value": 95025589538,
+          "ev_to_revenue": 26.6402,
+          "ev_to_ebitda": 59.3539
+        },
+        "technical_data": {
+          "beta": 2.37,
+          "52_week_high": 117.7,
+          "52_week_low": 18.71,
+          "50_day_ma": 99.7752,
+          "200_day_ma": 60.4988,
+          "short_interest": 0.0412,
+          "short_ratio": 0.73
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0476,
+          "target_price": 113.0862,
+          "strong_buy": 8,
+          "buy": 6,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 773964032,
+          "percent_institutions": 72.533,
+          "percent_insiders": 0.736,
+          "shares_float": 765300330
+        },
+        "balance_latest_sheet": {
+          "total_assets": 35324.0,
+          "total_debt": 12640.0,
+          "net_debt": 8478.0,
+          "working_capital": 6711.0,
+          "shareholders_equity": 8072.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.57
+        },
+        "income_latest_statement": {
+          "total_revenue": 989.0,
+          "gross_profit": 912.0,
+          "operating_income": 440.0,
+          "net_income": 386.0,
+          "ebitda": 457.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 92.21,
+          "operating_margin": 44.49,
+          "net_margin": 39.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1829.0,
+          "free_cash_flow": 1811.0,
+          "capex": 18.0,
+          "net_income": 386.0,
+          "cash_change": 8602.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.3944,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 103.535,
+            "high": 106.6396,
+            "low": 102.72,
+            "close": 105.45,
+            "volume": 39114434
+          },
+          {
+            "date": "2025-07-18",
+            "open": 109.75,
+            "high": 113.4393,
+            "low": 106.95,
+            "close": 109.74,
+            "volume": 74033266
+          },
+          {
+            "date": "2025-07-21",
+            "open": 109,
+            "high": 110.31,
+            "low": 104.07,
+            "close": 104.34,
+            "volume": 46430633
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.71,
+            "high": 105.93,
+            "low": 98.75,
+            "close": 101.85,
+            "volume": 44667367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 102.13,
+            "high": 102.68,
+            "low": 100.5401,
+            "close": 102.08,
+            "volume": 33805207
+          },
+          {
+            "date": "2025-07-24",
+            "open": 103,
+            "high": 103.0399,
+            "low": 100.3201,
+            "close": 101.93,
+            "volume": 26698131
+          },
+          {
+            "date": "2025-07-25",
+            "open": 101.545,
+            "high": 106.39,
+            "low": 101.05,
+            "close": 104.85,
+            "volume": 35637840
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.84,
+            "high": 107.13,
+            "low": 104.66,
+            "close": 106.77,
+            "volume": 30578430
+          },
+          {
+            "date": "2025-07-29",
+            "open": 106.61,
+            "high": 107.42,
+            "low": 103,
+            "close": 103.32,
+            "volume": 30568010
+          },
+          {
+            "date": "2025-07-30",
+            "open": 103.85,
+            "high": 107.46,
+            "low": 103.35,
+            "close": 106.1,
+            "volume": 39913480
+          },
+          {
+            "date": "2025-07-31",
+            "open": 103.865,
+            "high": 109.06,
+            "low": 101.07,
+            "close": 103.05,
+            "volume": 58057602
+          },
+          {
+            "date": "2025-08-01",
+            "open": 97.8,
+            "high": 104.59,
+            "low": 93.36,
+            "close": 99.9,
+            "volume": 76745148
+          },
+          {
+            "date": "2025-08-04",
+            "open": 101.229,
+            "high": 106.79,
+            "low": 97.1532,
+            "close": 106.37,
+            "volume": 46466000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 105.97,
+            "high": 107.3,
+            "low": 103.22,
+            "close": 105.46,
+            "volume": 33460910
+          },
+          {
+            "date": "2025-08-06",
+            "open": 104.505,
+            "high": 105.9,
+            "low": 101.18,
+            "close": 105.65,
+            "volume": 33023520
+          },
+          {
+            "date": "2025-08-07",
+            "open": 107.89,
+            "high": 112.6344,
+            "low": 107.4,
+            "close": 111.23,
+            "volume": 44736008
+          },
+          {
+            "date": "2025-08-08",
+            "open": 111.5,
+            "high": 117,
+            "low": 110.9,
+            "close": 114.63,
+            "volume": 41905727
+          },
+          {
+            "date": "2025-08-11",
+            "open": 116.22,
+            "high": 117.47,
+            "low": 113.39,
+            "close": 113.62,
+            "volume": 36942289
+          },
+          {
+            "date": "2025-08-12",
+            "open": 115.04,
+            "high": 117.7,
+            "low": 113.18,
+            "close": 114.09,
+            "volume": 31527529
+          },
+          {
+            "date": "2025-08-13",
+            "open": 115.65,
+            "high": 116.4,
+            "low": 107.28,
+            "close": 108.62,
+            "volume": 54719727
+          },
+          {
+            "date": "2025-08-14",
+            "open": 107.88,
+            "high": 111.46,
+            "low": 106.31,
+            "close": 110.71,
+            "volume": 34395246
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.73,
+            "high": 114.36,
+            "low": 108.61,
+            "close": 114.17,
+            "volume": 32215891
+          },
+          {
+            "date": "2025-08-18",
+            "open": 113,
+            "high": 115.09,
+            "low": 109.78,
+            "close": 115.02,
+            "volume": 35579152
+          },
+          {
+            "date": "2025-08-19",
+            "open": 116.12,
+            "high": 117.46,
+            "low": 106.5,
+            "close": 107.5,
+            "volume": 49635648
+          },
+          {
+            "date": "2025-08-20",
+            "open": 106.665,
+            "high": 107.98,
+            "low": 99,
+            "close": 105.34,
+            "volume": 56515328
+          },
+          {
+            "date": "2025-08-21",
+            "open": 105.03,
+            "high": 108.21,
+            "low": 104.35,
+            "close": 106.3,
+            "volume": 34679020
+          },
+          {
+            "date": "2025-08-22",
+            "open": 105.53,
+            "high": 111.8825,
+            "low": 103.8,
+            "close": 109.32,
+            "volume": 39922160
+          },
+          {
+            "date": "2025-08-25",
+            "open": 108.49,
+            "high": 109.85,
+            "low": 105.95,
+            "close": 107.94,
+            "volume": 29478100
+          },
+          {
+            "date": "2025-08-26",
+            "open": 106.85,
+            "high": 109.3599,
+            "low": 105.12,
+            "close": 108.8,
+            "volume": 27361010
+          },
+          {
+            "date": "2025-08-27",
+            "open": 108.69,
+            "high": 109.27,
+            "low": 102.81,
+            "close": 102.92,
+            "volume": 35909683
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -2.997172478793584,
+        "return_63d": 60.93823299452698,
+        "pct_above_sma50": 2.613595802932452,
+        "sma_50": 100.2986,
+        "new_55d_high": "False",
+        "high_55d": 117.7,
+        "rsi": 39.21619517259276,
+        "rsi_in_range": "False",
+        "adx": 8.787056682863883,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 6.371628449280994,
+        "bb_width": 15.945027164334244,
+        "keltner_width": 24.210104341485692,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 4521853902.7668,
+        "adv_shares": 41663784.9,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 50.09433348064829,
+        "final_score": 45.09433348064829,
+        "sub_scores": {
+          "trend_momentum": 13.129220049435682,
+          "squeeze_breakout": 4.0,
+          "options_quality": 21.965113431212604,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -0.38714672861013266,
+          "ret_63d": 57.9981578139392,
+          "rsi14": 39.21619517259276,
+          "adx14": 7.603436482622852,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: HOOD\n• Current Price: $102.92\n• Overall Score: 50.170088445724495\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 99.7752\n• Sma 200: 60.4988\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.387146728610135\n• Momentum 63D: 57.99815781393921\n• Momentum 126D: 110.68577277379734\n• Momentum Acceleration: -58.38530454254934\n• Roc 21D: -0.387146728610135\n• Trend Strength 20D: 0.019586754806137727\n• Trend Direction: 1\n• Ma Ribbon Score: 67.17115678334518\n• Breakout Strength: 0.0\n• Price Velocity: -0.00423534236901244\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 18.0\n• Squeeze Momentum: -0.3415194664982046\n• Volatility Compression: 18.105512293380652\n• Is Consolidating: False\n• Breakout Score: -49.29524626331846\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 13.129220049435682\n• Squeeze Breakout: 4.0\n• Options Quality: 21.965113431212604\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 50.0\n• Squeeze: 57.7158268440071\n• Options: 42.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: HOOD\n• Strike Price: $100\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $15.25\n• Ask: $15.4\n• Last: $15.28\n• Mid: $15.325\n• Spread: 0.9740259740259740259740259740%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6087\n• Gamma: 0.0112\n• Theta: -0.0827\n• Vega: 0.1907\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.6927\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 388\n• Open Interest: 5057\n• Volume/OI Ratio: 0.07672533122404587\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Robinhood Markets Inc\n• Sector: Financial Services\n• Industry: Capital Markets\n• EPS (TTM): $1.97\n• Profit Margin: 50.1%\n• ROE: 23.5%\n• P/E Ratio: 55.2\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T19:06:00+00:00: Why Robinhood (HOOD) Shares Are Falling Today...\n• 2025-08-27T14:00:00+00:00: Robinhood CEO Vlad Tenev says investing for a living could replace labor in a po...\n• 2025-08-27T13:38:00+00:00: Zacks.com featured highlights include Vertiv Holdings Co, MasTec, Inc. and Robin...\n• 2025-08-27T13:35:02+00:00: Robinhood Markets, Inc. (HOOD) Just Flashed Golden Cross Signal: Do You Buy?...\n• 2025-08-27T12:30:00+00:00: Better Growth Stock: SoFi vs. Robinhood...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR HOOD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the HOOD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:57:19.742528",
+    "estimated_tokens": 2334
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"HOOD\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"HOOD shows strong long-term momentum with 126D momentum of +110.69% and trading above both SMAs, but faces near-term headwinds with negative 21D momentum. Options metrics show decent liquidity with tight spreads (0.97%) and favorable delta (0.61), though elevated IV at 69.27% warrants caution.\",\n    \"opportunities\": [\n        \"Strong technical setup with price above both 50 SMA (99.78) and 200 SMA (60.50)\",\n        \"Tight option spreads (<1%) and healthy open interest (5057) indicate good liquidity\",\n        \"Multiple timeframe squeeze (count: 3) with 18-day compression suggests potential breakout\"\n    ],\n    \"risks\": [\n        \"Negative short-term momentum (-0.39 21D ROC) and momentum acceleration (-58.39)\",\n        \"Elevated implied volatility at 69.27% increases premium costs\",\n        \"Upcoming earnings on 2025-09-30 presents event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread to reduce impact of high IV\",\n        \"entry_timing\": \"Wait for short-term momentum to stabilize before entry\",\n        \"risk_management\": \"Position size conservatively due to upcoming earnings and high IV environment\"\n    },\n    \"red_flags\": [\n        \"Earnings report in approximately 30 days\",\n        \"Negative short-term price velocity (-0.004)\"\n    ],\n    \"notes\": \"While long-term trend is positive, deteriorating short-term metrics and upcoming earnings suggest careful position sizing and hedged strategies\"\n}",
+    "parsed_analysis": {
+      "symbol": "HOOD",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "HOOD shows strong long-term momentum with 126D momentum of +110.69% and trading above both SMAs, but faces near-term headwinds with negative 21D momentum. Options metrics show decent liquidity with tight spreads (0.97%) and favorable delta (0.61), though elevated IV at 69.27% warrants caution.",
+      "opportunities": [
+        "Strong technical setup with price above both 50 SMA (99.78) and 200 SMA (60.50)",
+        "Tight option spreads (<1%) and healthy open interest (5057) indicate good liquidity",
+        "Multiple timeframe squeeze (count: 3) with 18-day compression suggests potential breakout"
+      ],
+      "risks": [
+        "Negative short-term momentum (-0.39 21D ROC) and momentum acceleration (-58.39)",
+        "Elevated implied volatility at 69.27% increases premium costs",
+        "Upcoming earnings on 2025-09-30 presents event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread to reduce impact of high IV",
+        "entry_timing": "Wait for short-term momentum to stabilize before entry",
+        "risk_management": "Position size conservatively due to upcoming earnings and high IV environment"
+      },
+      "red_flags": [
+        "Earnings report in approximately 30 days",
+        "Negative short-term price velocity (-0.004)"
+      ],
+      "notes": "While long-term trend is positive, deteriorating short-term metrics and upcoming earnings suggest careful position sizing and hedged strategies"
+    },
+    "tokens_used": 2570,
+    "cost": 0.025699999999999997,
+    "response_time": 12.221069574356079,
+    "success": true
+  },
+  "cost": 0.025699999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8543,
+    "response_length": 1743
+  }
+}

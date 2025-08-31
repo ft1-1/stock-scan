@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "COIN",
+  "timestamp": "2025-08-30T08:38:51.994834",
+  "data_package": {
+    "metadata": {
+      "symbol": "COIN",
+      "package_timestamp": "2025-08-30T08:38:43.316731",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "COIN",
+        "current_price": 304.54,
+        "overall_score": 48.28079880799799,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 347.4984,
+        "sma_200": 272.5283
+      },
+      "momentum_metrics": {
+        "momentum_21d": -19.382676831850905,
+        "momentum_63d": 23.48552428837889,
+        "momentum_126d": 41.23921714126705,
+        "momentum_acceleration": -42.8682011202298,
+        "roc_21d": -19.382676831850905,
+        "trend_strength_20d": 0.04387739507537696,
+        "trend_direction": -1,
+        "ma_ribbon_score": 42.20403583852857,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.009593423562708581
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": 2.8753964076567673,
+        "volatility_compression": 71.7958577024971,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 7.4019641522535,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.175755091714127,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 50.0,
+        "momentum": 45.0,
+        "squeeze": 60.76937865537457,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 21,
+        "percentile": 98.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "COIN",
+        "strike_price": "300",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "26.05",
+        "ask": "26.65",
+        "last_price": "26.15",
+        "mid_price": "26.35",
+        "spread_percent": "2.251407129455909943714821764"
+      },
+      "greeks": {
+        "delta": 0.578,
+        "gamma": 0.0066,
+        "theta": -0.2527,
+        "vega": 0.4361
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.5304
+      },
+      "liquidity_metrics": {
+        "volume": 226,
+        "open_interest": 1021,
+        "volume_oi_ratio": 0.22135161606268364
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:47.447166",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T23:30:59+00:00",
+            "title": "Kevin O'Leary Says Gen Zs Invest in Bitcoin, Ethereum Alongside Stocks, A Chance He Never Had Early in His Investment Journey",
+            "content": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\n\nInfluential investor Kevin O’Leary shared his observations on Gen Zs investment habits on Thursday, highlighting their interest in cryptocurrencies alongside traditional stocks.\n\nGen Zs Have It Easy, Says ‘Mr. Wonderful’\n\nO'Leary took to X, sharing a clip from his recent interview with Fox Business, where he noted how the younger generation is now purchasing Bitcoin (CRYPTO: BTC) and Ethereum (CRYPTO: ETH) on platforms such as Robinhood, along with stocks, a trend not seen when he began investing.\n\n“And they just look at, you know, these other investment opportunities as, as having the same merit that a stock does, or a bond,” O'Leary, nicknamed \"Mr Wonderful,\" said.\n\nTrending: 40% of Americans Want a Vacation Home — This Startup Found a Way to Make It Possible (and Profitable)\n\nHe also mentioned the emergence of AI-driven investment apps that simplify the investment process for novices, specifically mentioning Beanstox, which he co-founded.\n\nO’Leary recalled an incident in which a young man who had sold him a watch asked for payment in stablecoins.\n\nZoomers More Receptive Toward Crypto?\n\nNotably, 75% of Gen Z stablecoin users said in a recent survey that they would prefer to receive their salary in stablecoins, emerging as the most committed demographic. The survey also revealed that nearly half of Gen Z users make monthly stablecoin transactions, outpacing both Millennials and Gen X.\n\nA February report on U.S. investment trends said that Gen Z is more likely than any other demographic to invest in cryptocurrencies in 2025, even though they’re aware of the risks.\n\nSee Also: Dump Your Financial Advisors. One AI Platform Manages Everything — With Zero AUM Fees. Book Your Demo Today.\n\nO’Leary’s Crypto Bets\n\nO'Leary has been a vocal advocate of cryptocurrency over the years. Earlier this month, he expressed disagreement with the late Charlie Munger's views on cryptocurrency, describing it as \"the only thing\" that the legendary investor got wrong.\n\nStory Continues\n\nHe has revealed investments in cryptocurrency infrastructure companies such as Circle Internet Group Inc. (NYSE:CRCL), cryptocurrency exchange Coinbase Global Inc. (NASDAQ:COIN) and tokenized stock provider Robinhood Markets Inc. (NASDAQ:HOOD)\n\nPhoto Courtesy: Kathy Hutchins on Shutterstock.com\n\nTrending Now:\n\n‘Scrolling To UBI' — Deloitte's #1 fastest-growing software company allows users to earn money on their phones. You can invest today for just $0.30/share. If there was a new fund backed by Jeff Bezos offering a 7-9% target yield with monthly dividends would you invest in it?\n\nBuilding Wealth Across More Than Just the Market\n\nBuilding a resilient portfolio means thinking beyond a single asset or market trend. Economic cycles shift, sectors rise and fall, and no one investment performs well in every environment. That's why many investors look to diversify with platforms that provide access to real estate, fixed-income opportunities, professional financial guidance, precious metals, and even self-directed retirement accounts. By spreading exposure across multiple asset classes, it becomes easier to manage risk, capture steady returns, and create long-term wealth that isn't tied to the fortunes of just one company or industry.\n\nArrived Homes\n\nBacked by Jeff Bezos, Arrived Homes makes real estate investing accessible with a low barrier to entry. Investors can buy fractional shares of single-family rentals and vacation homes starting with as little as $100. This allows everyday investors to diversify into real estate, collect rental income, and build long-term wealth without needing to manage properties directly.\n\nWorthy Bonds\n\nFor those seeking fixed-income style returns without Wall Street complexity, Worthy Bonds offers SEC-qualified, interest-bearing bonds starting at just $10. Investors earn a fixed 7% annual return, with funds deployed to small U.S. businesses. The bonds are fully liquid, meaning you can cash out anytime, making them attractive for conservative investors looking for steady, passive income.\n\nIRA Financial\n\nSelf-directed investors looking to take greater control of their retirement savings may consider IRA Financial. The platform enables you to use a self-directed IRA or Solo 401(k) to invest in alternative assets such as real estate, private equity, or even crypto. This flexibility empowers retirement savers to go beyond traditional stocks and bonds, building diversified portfolios that align with their long-term wealth strategies.\n\nWiserAdvisor\n\nWiserAdvisor makes it easier to find a financial advisor who fits your needs. The platform matches you with vetted professionals based on your goals and investable assets, with a focus on those who have at least $100,000 to put to work. By comparing advisors through WiserAdvisor, investors can identify someone who aligns with their risk tolerance, retirement plans, and broader wealth strategy.\n\nAmerican Hartford Gold\n\nFor investors concerned about inflation or seeking portfolio protection, American Hartford Gold provides a simple way to buy and hold physical gold and silver within an IRA or direct delivery. With a minimum investment of $10,000, the platform caters to those looking to preserve wealth through precious metals while maintaining the option to diversify retirement accounts. It's a favored choice for conservative investors who want tangible assets that historically hold value during uncertain markets.\n\nThis article Kevin O'Leary Says Gen Zs Invest in Bitcoin, Ethereum Alongside Stocks, A Chance He Never Had Early in His Investment Journey originally appeared on Benzinga.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T22:18:14+00:00",
+            "title": "Stocks Settle Lower as Tech Shares Selloff",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed down by -0.64%, the Dow Jones Industrials Index ($DOWI) (DIA) closed down by -0.20%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed down by -1.22%.  September E-mini S&P futures (ESU25) fell -0.68%, and September E-mini Nasdaq futures (NQU25) fell -1.31%.\n\nStock indexes retreated on Friday, weighed down by weakness in technology stocks.  Marvell Technology tumbled more than -18% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies fell more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan's US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan's inflation expectations were unexpectedly revised lower. In addition, dovish comments from Fed Governor Waller and San Francisco Fed President Daly were bullish for stocks as they signaled their support for Fed rate cuts.\n\nUS July personal spending rose +0.5% m/m, the most in four months, and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed's 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan's Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nLate Thursday, Fed Governor Christopher Waller stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nSan Francisco Fed President Mary Daly signaled she's open to lower interest rates soon, saying, \"It will soon be time to recalibrate policy to better match our economy.\" She added that tariff-related price increases \"will be a one-off\" and it \"will take time before we know that for certain, but we can't wait for perfect certainty without risking harm to the labor market.\"\n\nRegarding tariffs, President Trump on Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 88% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled mixed.  The Euro Stoxx 50 fell to a 2-week low and closed down -0.83%.  China's Shanghai Composite closed up +0.37%.  Japan's Nikkei Stock 225 closed down -0.26.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) Friday closed down -2.5 ticks, and the 10-year T-note yield rose +2.4 bp to 4.227%.\n\nSep T-notes posted modest losses on Friday after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes were limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan's Aug inflation expectations were revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields on Friday moved higher.  The 10-year German bund yield rose +2.9 bp to 2.724%.  10-year UK gilt yield rose +2.2 bp to 4.722%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nChipmakers sold off on Friday, led by an -18% plunge in Marvell Technology (MRVL) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Lam Research (LRCX) closed down more than -4%, and Broadcom (AVGO), Nvidia (NVDA), and Advanced Micro Devices (AMD) closed down more than -3%.  In addition, ARM Holdings Plc (ARM), ASML Holding NV (ASML), Applied Materials (AMAT), KLA Corp (KLAC), Intel (INTC), ON Semiconductor Corp (ON), and Micron Technology (MU) all closed down by more than 2%.\n\nDell Technologies (DELL) closed down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI) closed down more than -5% and Hewlett Packard Enterprise (HPE) closed down more than -2%.\n\nUlta Beauty (ULTA) closed down more than -7% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers.\n\nCaterpillar (CAT) closed down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year.\n\nDollar General (DG) closed down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects \"more pressure\" in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4.\n\nCryptocurrency-exposed stocks fell Friday after the price of Bitcoin (^BTCUSD) dropped more than -3% to a 7-week low.  As a result, Galaxy Digital (GLXY) closed down more than -4%, and Coinbase Global (COIN) and Strategy (MSTR) closed down more than -1%.\n\nAutodesk (ADSK) closed up more than +9% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA) closed up more than +16% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%.\n\nAffirm Holdings (AFRM) closed up more than +10% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million.\n\nSentinelOne (S) closed up more than +6% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion.\n\nCelsius Holdings (CELH) closed up more than +5% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nManaged healthcare stocks gained on Friday.  Molina Healthcare (MOH) closed up more than +3%, and Elevance Health (ELV) and Centene (CNC) closed up more than +2%.  Also, UnitedHealth Group (UNH) closed up more than +2% to lead gainers in the Dow Jones Industrials.  In addition, Humana (HUM) and CVS Health (CVS) closed up more than +1%.\n\nEarnings Reports(9/2/2025)\n\nAcademy Sports & Outdoors Inc (ASO), HealthEquity Inc (HQY), Signet Jewelers Ltd (SIG), Zscaler Inc (ZS).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:34:22+00:00",
+            "title": "Stocks Settle Lower as Tech Shares Selloff",
+            "content": "The S&P 500 Index ($SPX [https://www.barchart.com/futures/quotes/$SPX/overview]) (SPY [https://www.barchart.com/etfs-funds/quotes/SPY/overview]) on Friday closed down by -0.64%, the Dow Jones Industrials Index ($DOWI [https://www.barchart.com/futures/quotes/$DOWI/overview]) (DIA [https://www.barchart.com/etfs-funds/quotes/DIA/overview]) closed down by -0.20%, and the Nasdaq 100 Index ($IUXX [https://www.barchart.com/futures/quotes/$IUXX/overview]) (QQQ [https://www.barchart.com/etfs-funds/quotes/QQQ/overview]) closed down by -1.22%.  September E-mini S&P futures (ESU25 [https://www.barchart.com/futures/quotes/ES*0/overview]) fell -0.68%, and September E-mini Nasdaq futures (NQU25 [https://www.barchart.com/futures/quotes/NQ*0/overview]) fell -1.31%. \n\nStock indexes retreated on Friday, weighed down by weakness in technology stocks.  Marvell Technology tumbled more than -18% to lead semiconductor stocks lower after reporting that Q2 data center revenue missed estimates.  Also, Dell Technologies fell more than -8% to lead computer hardware stocks lower after reporting tighter profit margins on AI servers.   \n\nStocks added to their losses after the August MNI Chicago PMI fell more than expected and after the University of Michigan's US August consumer sentiment index was unexpectedly revised lower.  Also, inflation pressures remain sticky after the US July core PCE price index, the Fed's preferred inflation gauge, rose by the most in five months.\n\nOn the positive side for stocks, US consumer demand remains resilient after July personal spending rose by the most in four months.  Also, the University of Michigan's inflation expectations were unexpectedly revised lower. In addition, dovish comments from Fed Governor Waller and San Francisco Fed President Daly were bullish for stocks as they signaled their support for Fed rate cuts. \n\nUS July personal spending rose +0.5% m/m, the most in four months, and right on expectations.  July personal income rose +0.4% m/m, right on expectations.\n\nThe US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y from +2.8% y/y in June, right on expectations but well above the Fed's 2% inflation target.\n\nThe US Aug MNI Chicago PMI fell -5.6 to 41.5, weaker than expectations of 46.0.\n\nThe University of Michigan's Aug US consumer sentiment index was revised lower by -0.4 to 58.2, weaker than expectations of no change at 58.6.\n\nThe University of Michigan Aug 1-year inflation expectations were unexpectedly revised slightly lower by -0.1 to 4.8%, weaker than expectations of an upward revision to 5.0%. The Aug 5-10 year inflation expectations were revised lower by -0.4 to 3.5% from the previously reported 3.9%.\n\nLate Thursday, Fed Governor Christopher Waller stated that he supports a 25-bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  He said, \"With underlying inflation close to 2%, market-based measures of longer-term inflation expectations firmly anchored, and the chances of an undesirable weakening in the labor market increased, proper risk management means the FOMC should be cutting the policy rate now.\"\n\nSan Francisco Fed President Mary Daly signaled she's open to lower interest rates soon, saying, \"It will soon be time to recalibrate policy to better match our economy.\" She added that tariff-related price increases \"will be a one-off\" and it \"will take time before we know that for certain, but we can't wait for perfect certainty without risking harm to the labor market.\"\n\nRegarding tariffs, President Trump on Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.  \n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 88% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 95% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates. \n\nOverseas stock markets on Friday settled mixed.  The Euro Stoxx 50 fell to a 2-week low and closed down -0.83%.  China's Shanghai Composite closed up +0.37%.  Japan's Nikkei Stock 225 closed down -0.26.\n\nINTEREST RATES\n\nSeptember 10-year T-notes (ZNU5 [https://www.barchart.com/futures/quotes/ZN*0/overview]) Friday closed down -2.5 ticks, and the 10-year T-note yield rose +2.4 bp to 4.227%. \n\nSep T-notes posted modest losses on Friday after the US July core PCE price index, the Fed's preferred inflation gauge, rose to a 5-month high of +2.9% y/y.  T-notes also have carryover pressure from weakness in 10-year German bunds after the German Aug CPI rose more than expected.\n\nLosses in T-notes were limited after Fed Governor Christopher Waller said he supports a 25 bp rate cut at the September FOMC meeting and anticipates additional rate cuts over the next three to six months.  Also, the University of Michigan's Aug inflation expectations were revised lower, a dovish factor for Fed policy.\n\nEuropean government bond yields on Friday moved higher.  The 10-year German bund yield rose +2.9 bp to 2.724%.  10-year UK gilt yield rose +2.2 bp to 4.722%.\n\nThe ECB's July 1-year CPI expectations remained unchanged from June at +2.6%, which is stronger than the expected +2.5%.  The ECB Jul 3-year CPI expectations unexpectedly climbed to +2.5%, stronger than expectations of no change at +2.4%.\n\nGerman Aug unemployment unexpectedly fell by -9,000, showing a stronger labor market than expectations of +10,000.\n\nGerman Jul retail sales fell -1.5% m/m, weaker than expectations of no change and the biggest decline in almost two years.\n\nGerman Aug CPI (EU harmonized) rose +2.1% y/y, stronger than expectations of +2.0% y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS STOCK MOVERS\n\nChipmakers sold off on Friday, led by an -18% plunge in Marvell Technology (MRVL [https://www.barchart.com/stocks/quotes/MRVL/overview]) to lead losers in the Nasdaq 100 after it reported Q2 data center revenue of $1.49 billion, below the consensus of $1.52 billion.  Also, Lam Research (LRCX [https://www.barchart.com/stocks/quotes/LRCX/overview]) closed down more than -4%, and Broadcom (AVGO [https://www.barchart.com/stocks/quotes/AVGO/overview]), Nvidia (NVDA [https://www.barchart.com/stocks/quotes/NVDA/overview]), and Advanced Micro Devices (AMD [https://www.barchart.com/stocks/quotes/AMD/overview]) closed down more than -3%.  In addition, ARM Holdings Plc (ARM [https://www.barchart.com/stocks/quotes/ARM/overview]), ASML Holding NV (ASML [https://www.barchart.com/stocks/quotes/ASML/overview]), Applied Materials (AMAT [https://www.barchart.com/stocks/quotes/AMAT/overview]), KLA Corp (KLAC [https://www.barchart.com/stocks/quotes/KLAC/overview]), Intel (INTC [https://www.barchart.com/stocks/quotes/INTC/overview]), ON Semiconductor Corp (ON [https://www.barchart.com/stocks/quotes/ON/overview]), and Micron Technology (MU [https://www.barchart.com/stocks/quotes/MU/overview]) all closed down by more than 2%.   \n\nDell Technologies (DELL [https://www.barchart.com/stocks/quotes/DELL/overview]) closed down more than -8% to lead losers in the S&P 500, and makers of computer hardware are lower after reporting Q2 operating income of $2.28 billion, below the consensus of $2.30 billion.  Also, Super Micro Computer (SMCI [https://www.barchart.com/stocks/quotes/SMCI/overview]) closed down more than -5% and Hewlett Packard Enterprise (HPE [https://www.barchart.com/stocks/quotes/HPE/overview]) closed down more than -2%. \n\nUlta Beauty (ULTA [https://www.barchart.com/stocks/quotes/ULTA/overview]) closed down more than -7% despite reporting better-than-expected Q2 net sales after it warned of a potential pullback by consumers. \n\nCaterpillar (CAT [https://www.barchart.com/stocks/quotes/CAT/overview]) closed down more than -3% to lead losers in the Dow Jones Industrials after warning that it faces a larger-than-anticipated tariff headwind of as much as $1.8 billion this year. \n\nDollar General (DG [https://www.barchart.com/stocks/quotes/DG/overview]) closed down more than -2% despite reporting better-than-expected Q2 EPS after it said it expects \"more pressure\" in selling, general, and administrative (SG&A) expenses in Q3 and warned of tougher gross margin comparison in Q4. \n\nCryptocurrency-exposed stocks fell Friday after the price of Bitcoin (^BTCUSD [https://www.barchart.com/crypto/quotes/%5EBTCUSD/overview]) dropped more than -3% to a 7-week low.  As a result, Galaxy Digital (GLXY [https://www.barchart.com/stocks/quotes/GLXY/overview]) closed down more than -4%, and Coinbase Global (COIN [https://www.barchart.com/stocks/quotes/COIN/overview]) and Strategy (MSTR [https://www.barchart.com/stocks/quotes/MSTR/overview]) closed down more than -1%. \n\nAutodesk (ADSK [https://www.barchart.com/stocks/quotes/ADSK/overview]) closed up more than +9% to lead gainers in the S&P 500 and Nasdaq 100 after reporting Q2 net revenue of $1.76 billion, better than the consensus of $1.72 billion, and forecasting Q3 revenue of $180 billion-$1.81 billion, stronger than the consensus of $1.77 billion.\n\nAmbarella (AMBA [https://www.barchart.com/stocks/quotes/AMBA/overview]) closed up more than +16% after reporting Q2 adjusted EPS of 15 cents, well above the consensus of 6 cents, and raising its 2026 revenue growth estimate to 31%-35% from a May forecast of +19%-25%. \n\nAffirm Holdings (AFRM [https://www.barchart.com/stocks/quotes/AFRM/overview]) closed up more than +10% after reporting Q4 revenue of $876.4 million, well above the consensus of $838.6 million. \n\nSentinelOne (S [https://www.barchart.com/stocks/quotes/S/overview]) closed up more than +6% after raising its 2026 revenue forecast to $998 million-$1 billion from a previous forecast of $996 million-$1 billion. \n\nCelsius Holdings (CELH [https://www.barchart.com/stocks/quotes/CELH/overview]) closed up more than +5% after PepsiCo increased its stake in the company to approximately 11% on an as-converted basis and will nominate an additional director to serve on Celsius Holdings' board of directors.\n\nManaged healthcare stocks gained on Friday.  Molina Healthcare (MOH [https://www.barchart.com/stocks/quotes/MOH/overview]) closed up more than +3%, and Elevance Health (ELV [https://www.barchart.com/stocks/quotes/ELV/overview]) and Centene (CNC [https://www.barchart.com/stocks/quotes/CNC/overview]) closed up more than +2%.  Also, UnitedHealth Group (UNH [https://www.barchart.com/stocks/quotes/UNH/overview]) closed up more than +2% to lead gainers in the Dow Jones Industrials.  In addition, Humana (HUM [https://www.barchart.com/stocks/quotes/HUM/overview]) and CVS Health (CVS [https://www.barchart.com/stocks/quotes/CVS/overview]) closed up more than +1%.    \n\nEARNINGS REPORTS(9/2/2025)\n\nAcademy Sports & Outdoors Inc (ASO), HealthEquity Inc (HQY), Signet Jewelers Ltd (SIG), Zscaler Inc (ZS).\n\n_ On the date of publication, Rich Asplund [https://www.barchart.com/news/authors/5/rich-asplund] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:00:24+00:00",
+            "title": "Catalyst Watch: Broadcom earnings, Samsung reveal, Roblox event and football betting blitz",
+            "content": "[Office building top view background in retro style colors. Manhattan buildings of New York City center - Wall street]\ndell640\n\nWelcome to Seeking Alpha's Catalyst Watch - a breakdown of some of next week's actionable events that stand out. Read more about the events that may impact stock prices next week.\n\nMONDAY - SEPTEMBER 1\n\n \t* ALL DAY - U.S. markets will be closed for observance of the Labor Day holiday. \n \t* DIVIDEND WATCH - Companies that have an ex-dividend date coming next week include Realty Income (O [https://seekingalpha.com/symbol/O]), Lockheed Martin (LMT [https://seekingalpha.com/symbol/LMT]), McDonald’s (MCD [https://seekingalpha.com/symbol/MCD]), Nike (NKE [https://seekingalpha.com/symbol/NKE]), and Bank of America (BAC [https://seekingalpha.com/symbol/BAC]).\n \t* DATA REPORTS - Chinese automakers Nio (NIO [https://seekingalpha.com/symbol/NIO]), XPeng (XPEV [https://seekingalpha.com/symbol/XPEV]), Li Auto (LI [https://seekingalpha.com/symbol/LI]), ZEEKR Intelligent (ZK [https://seekingalpha.com/symbol/ZK]), and BYD Company (OTCPK:BYDDF [https://seekingalpha.com/symbol/BYDDF]) will issue their August deliveries reports. The Macau gross gaming report for August is also due to be released.\n\nTUESDAY - SEPTEMBER 2\n\n \t* VOLATILITY WATCH - Hertz Global (HTZ [https://seekingalpha.com/symbol/HTZ]) and Beyond Meat (BYND [https://seekingalpha.com/symbol/BYND]) head into next week on the radars of short traders again. aTyr Pharma (ATYR [https://seekingalpha.com/symbol/ATYR]) and Offerpad Solutions (OPAD [https://seekingalpha.com/symbol/OPAD]) are set up for a volatile week of trading based on options volume. The most overbought stocks per their 14-day relative strength index include Dogwood State Bank (OTCQX:DSBX [https://seekingalpha.com/symbol/DSBX]), Avidia (AVBC [https://seekingalpha.com/symbol/AVBC]), and Wheels Up (UP [https://seekingalpha.com/symbol/UP]). The most oversold stocks per their 14-day relative strength index include Gold Reserve Ltd. (OTCQX:GDRZF [https://seekingalpha.com/symbol/GDRZF]), Hormel (HRL [https://seekingalpha.com/symbol/HRL]), and K. Wave Media (KWM [https://seekingalpha.com/symbol/KWM]).\n \t* ALL WEEK - The conference season heats up with the Wells Fargo Healthcare Conference, Jefferies Industrials Conference, and UBS Global Materials Conference all taking place.\n \t* EARNINGS WATCH - Notable companies due to report include Zscaler (ZS [https://seekingalpha.com/symbol/ZS]), NIO (NIO [https://seekingalpha.com/symbol/NIO]), and Signet Jewelers (SIG [https://seekingalpha.com/symbol/SIG]).\n \t* IPO WATCH - The public launch of Hong Kong mortgage fintech name FG Holdings (FGO [https://seekingalpha.com/symbol/FGO]) is the only IPO on the calendar for next week. The quiet periods expire on Firefly Aerospace (FLY [https://seekingalpha.com/symbol/FLY]), Heartflow (HTFL [https://seekingalpha.com/symbol/HTFL]), and Whitefiber (WYFI [https://seekingalpha.com/symbol/WYFI]) to free up analysts to post ratings.\n \t* ALL DAY - The three-day Commercial UAV Expo will begin in Las Vegas. The conference is considered the leading international trade show and conference dedicated to commercial unmanned aerial systems. Workhorse Group (WKHS [https://seekingalpha.com/symbol/WKHS]), Sony (SONY [https://seekingalpha.com/symbol/SONY]), Trimble (TRMB [https://seekingalpha.com/symbol/TRMB]), KULR Technology Group (KULR [https://seekingalpha.com/symbol/KULR]) and Teledyne (TDY [https://seekingalpha.com/symbol/TDY]) are some of the companies scheduled to participate.\n \t* ALL DAY - Lucid Group (LCID [https://seekingalpha.com/symbol/LCID]) will begin trading on a split-adjusted basis after the company's 1-for-10 reverse stock split.\n\nWEDNESDAY - SEPTEMBER 3\n\n \t* EARNINGS WATCH - Notable companies due to report include Salesforce (CRM [https://seekingalpha.com/symbol/CRM]), Figma (FIG [https://seekingalpha.com/symbol/FIG]), Hewlett Packard Enterprise (HPE [https://seekingalpha.com/symbol/HPE]), Dollar Tree (DLTR [https://seekingalpha.com/symbol/DLTR]), Macy's (M [https://seekingalpha.com/symbol/M]), Campbell's (CPB [https://seekingalpha.com/symbol/CPB]), and Credo (CRDO [https://seekingalpha.com/symbol/CRDO]). Options trading implies a double-digit move for Tilly's (TLYS [https://seekingalpha.com/symbol/TLYS]) and Asana (ASAN [https://seekingalpha.com/symbol/ASAN]) after their earnings are released.\n \t* ALL DAY - The three-day HubSpot Inbound Conference will begin. Hubspot (HUBS [https://seekingalpha.com/symbol/HUBS]) CEO Yamini Rangan and Anthropic CEO Dario Amodei are two of the notable speakers.\n \t* 3:30 A.M. European Central Bank Christine Lagarde will speak at the 9th ESRB Conference.\n \t* 9:00 A.M. St. Louis Federal Reserve Bank President Alberto Musalem will participate in a conversation on the U.S. economy and monetary policy before the Peterson Institute for International Economics.\n \t* 10:10 A.M. Peloton Interactive (PTON [https://seekingalpha.com/symbol/PTON]) CFO Liz Coddington will participate in a fireside chat at the Citi Global TMT Conference.\n \t* 2:00 P.M. The Federal Reserve will release its Beige Book Report. The report will summarize current economic conditions across the Fed's districts.\n\nTHURSDAY - SEPTEMBER 4\n\n \t* EARNINGS WATCH - Notable companies due to report include Broadcom (NASDAQ:AVGO [https://seekingalpha.com/symbol/AVGO]), Lululemon Athletica (LULU [https://seekingalpha.com/symbol/LULU]), Samsara (IOT [https://seekingalpha.com/symbol/IOT]), Docusign (DOCU [https://seekingalpha.com/symbol/DOCU]), and Ciena (CIEN [https://seekingalpha.com/symbol/CIEN]). Options trading implies a double-digit move for Duluth Holdings (DLTH [https://seekingalpha.com/symbol/DLTH]) and Guidewire Software (GWRE [https://seekingalpha.com/symbol/GWRE]) after their earnings are released.\n \t* ALL DAY - Samsung (OTCPK:SSNLF [https://seekingalpha.com/symbol/SSNLF]) will hold its Galaxy Unpacked event to reveal the Galaxy S25 FE smartphone and the Galaxy Tab S11 series. The event is also anticipated to focus heavily on Galaxy AI advancements and the tech giant's premium tablets.\n \t* 8:15 A.M. Procter & Gamble (PG [https://seekingalpha.com/symbol/PG]) will present at the Barclays Global Consumer Staples Conference.\n \t* 8:15 A.M. Analog Devices (ADI [https://seekingalpha.com/symbol/ADI]) Chief Financial Officer Richard Puccio will discuss business topics and trends at Citi's 2025 Global TMT Conference.\n \t* 2:50 P.M. Coinbase Global (COIN [https://seekingalpha.com/symbol/COIN]) CFO Alesia Haas will participate in a fireside chat at the Citi Global TMT Conference.\n \t* 7:00 P.M. Chicago Federal Reserve Bank President Austan Goolsbee will participate in moderated Q&A before the mHub Industry Disruptor Series event.\n \t* 8:20 P.M. The NFL season will begin with the Dallas Cowboys playing defending Super Bowl champion Philadelphia Eagles. Americans are expected to place an estimated $30 billion in legal sports bets on the upcoming 2025 NFL season through U.S. sportsbooks such as DraftKings (DKNG [https://seekingalpha.com/symbol/DKNG]), FanDuel (FLUT [https://seekingalpha.com/symbol/FLUT]), and BetMGM (MGM [https://seekingalpha.com/symbol/MGM]) (OTCPK:GMVHF [https://seekingalpha.com/symbol/GMVHF]).\n\nFRIDAY - SEPTEMBER 5\n\n \t* 8:30 A.M. The August Jobs Report will be released. Economists forecast that nonfarm payrolls will rise by about 78,000 jobs for August, which is in line with July and well below the three-month average of 123,000 a year ago. The unemployment rate is seen rising to 4.3%.\n \t* ALL DAY - The Roblox (RBLX [https://seekingalpha.com/symbol/RBLX]) Developer Conference will take place in San Jose, California. The event is considered significant for investors due to the potential for announcements on new platform features, monetization tools, and developer incentives.\n \t* ALL DAY - Shareholders of Zeekr Intelligent Technology Holding (ZK [https://seekingalpha.com/symbol/ZK]) will vote on the merger agreement with Geely Automobile Holdings (OTCPK:GELYF [https://seekingalpha.com/symbol/GELYF]) and a Geely-controlled subsidiary called Keystone Mergersub. Under the deal, Keystone Mergersub will merge into Zeekr, making Zeekr a wholly owned subsidiary of Geely.\n \t* ALL DAY - The United Nations will release its latest FAO food price index and monthly grains report, which are watched by commodities traders.\n\nMORE ON THE MARKETS \n\n \t* Who's In Charge Of The U.S. Economy (If Not The Fed)? [https://seekingalpha.com/article/4817895-whos-in-charge-of-us-economy-if-not-fed]\n \t* The Liquidity Drain Could Be About To Hit Markets [https://seekingalpha.com/article/4817881-the-liquidity-drain-could-be-about-to-hit-markets]\n \t* Inflation Revival: Tariffs Start Hitting Consumers Directly Today [https://seekingalpha.com/article/4817871-inflation-revival-tariffs-start-hitting-consumers-directly-today]\n \t* Lisa Cook hints at clerical error in mortgage dispute; new criminal referral filed [https://seekingalpha.com/news/4490272-fed-lisa-cook-lawsuit-mortgage-dispute-criminal-referral]\n \t* Fed's Waller repeats call for 25-bp rate cut, sees more easing over next 3-6 months [https://seekingalpha.com/news/4490271-federal-reserve-waller-interest-rate-cut-outlook]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T18:36:00+00:00",
+            "title": "These Were the Best &amp; Worst S&amp;P 500 Stocks in August",
+            "content": "A chemicals company and chip maker topped the list of gainers, while tech companies rounded out the biggest losers.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Coinbase Global Inc",
+          "sector": "Financial Services",
+          "industry": "Financial Data & Stock Exchanges",
+          "employees": 3772,
+          "description": "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally. It offers the primary financial account in the crypto economy for consumers; a brokerage platform with a pool of liquidity across the crypto marketplace for institutions; and a suite of products grant"
+        },
+        "financial_metrics": {
+          "eps_ttm": 10.38,
+          "profit_margin": 0.4267,
+          "operating_margin": 0.1443,
+          "roe": 0.2796,
+          "roa": 0.0076,
+          "revenue_growth_yoy": 0.029,
+          "earnings_growth_yoy": 36.934,
+          "eps_estimate_current_year": 8.0345,
+          "eps_estimate_next_year": 7.4315,
+          "revenue_ttm": 6706041856,
+          "revenue_per_share": 26.572,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 29.3391,
+          "forward_pe": 45.4545,
+          "price_to_sales": 11.6683,
+          "price_to_book": 6.4695,
+          "enterprise_value": 73110826332,
+          "ev_to_revenue": 10.432,
+          "ev_to_ebitda": 19.8416
+        },
+        "technical_data": {
+          "beta": 3.712,
+          "52_week_high": 444.645,
+          "52_week_low": 142.58,
+          "50_day_ma": 347.4984,
+          "200_day_ma": 272.5283,
+          "short_interest": 0.0589,
+          "short_ratio": 0.89
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.6897,
+          "target_price": 366.5359,
+          "strong_buy": 10,
+          "buy": 3,
+          "hold": 14,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 215159008,
+          "percent_institutions": 65.283,
+          "percent_insiders": 1.9619999999999997,
+          "shares_float": 212089602
+        },
+        "balance_latest_sheet": {
+          "total_assets": 23476.038,
+          "total_debt": 4409.515,
+          "net_debt": -3129.873,
+          "working_capital": 9259.718,
+          "shareholders_equity": 12094.889,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.36
+        },
+        "income_latest_statement": {
+          "total_revenue": 1497.208,
+          "gross_profit": 1070.989,
+          "operating_income": -24.65,
+          "net_income": 1428.9,
+          "ebitda": 1878.209,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 71.53,
+          "operating_margin": -1.65,
+          "net_margin": 95.44
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 328.474,
+          "free_cash_flow": 328.474,
+          "capex": 0.0,
+          "net_income": 1428.9,
+          "cash_change": -669.629,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.25,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 425.55,
+            "high": 436.3799,
+            "low": 413.44,
+            "close": 413.63,
+            "volume": 17018150
+          },
+          {
+            "date": "2025-07-22",
+            "open": 419.1,
+            "high": 420.9799,
+            "low": 394.37,
+            "close": 404.44,
+            "volume": 14554940
+          },
+          {
+            "date": "2025-07-23",
+            "open": 399.99,
+            "high": 400.72,
+            "low": 387.12,
+            "close": 397.81,
+            "volume": 12433160
+          },
+          {
+            "date": "2025-07-24",
+            "open": 404.25,
+            "high": 405.3077,
+            "low": 392,
+            "close": 396.7,
+            "volume": 7904563
+          },
+          {
+            "date": "2025-07-25",
+            "open": 391.9,
+            "high": 397.48,
+            "low": 386.385,
+            "close": 391.66,
+            "volume": 8643321
+          },
+          {
+            "date": "2025-07-28",
+            "open": 394.615,
+            "high": 395.39,
+            "low": 375.26,
+            "close": 379.49,
+            "volume": 11270400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 383.585,
+            "high": 384.7799,
+            "low": 365.74,
+            "close": 371.44,
+            "volume": 9334666
+          },
+          {
+            "date": "2025-07-30",
+            "open": 382.95,
+            "high": 386.58,
+            "low": 372.71,
+            "close": 377.48,
+            "volume": 11099970
+          },
+          {
+            "date": "2025-07-31",
+            "open": 382.89,
+            "high": 387.14,
+            "low": 376.83,
+            "close": 377.76,
+            "volume": 12371230
+          },
+          {
+            "date": "2025-08-01",
+            "open": 335.14,
+            "high": 337.5825,
+            "low": 310.55,
+            "close": 314.69,
+            "volume": 31342211
+          },
+          {
+            "date": "2025-08-04",
+            "open": 319.54,
+            "high": 324,
+            "low": 311,
+            "close": 318.17,
+            "volume": 12106370
+          },
+          {
+            "date": "2025-08-05",
+            "open": 307.11,
+            "high": 312.85,
+            "low": 297.2,
+            "close": 297.99,
+            "volume": 16863869
+          },
+          {
+            "date": "2025-08-06",
+            "open": 297.55,
+            "high": 304.77,
+            "low": 293.3101,
+            "close": 303.58,
+            "volume": 15982740
+          },
+          {
+            "date": "2025-08-07",
+            "open": 311.23,
+            "high": 317.94,
+            "low": 306.98,
+            "close": 310.79,
+            "volume": 13857160
+          },
+          {
+            "date": "2025-08-08",
+            "open": 311.44,
+            "high": 313.7,
+            "low": 301.23,
+            "close": 310.54,
+            "volume": 9253803
+          },
+          {
+            "date": "2025-08-11",
+            "open": 322.1,
+            "high": 333.66,
+            "low": 318.8,
+            "close": 319.62,
+            "volume": 14664370
+          },
+          {
+            "date": "2025-08-12",
+            "open": 329.35,
+            "high": 329.86,
+            "low": 314.159,
+            "close": 322.62,
+            "volume": 9985842
+          },
+          {
+            "date": "2025-08-13",
+            "open": 328.21,
+            "high": 345.3899,
+            "low": 321.5301,
+            "close": 327.01,
+            "volume": 15399790
+          },
+          {
+            "date": "2025-08-14",
+            "open": 320.49,
+            "high": 327.451,
+            "low": 316.8,
+            "close": 324.89,
+            "volume": 9403598
+          },
+          {
+            "date": "2025-08-15",
+            "open": 322.85,
+            "high": 323.4,
+            "low": 314.56,
+            "close": 317.55,
+            "volume": 7881210
+          },
+          {
+            "date": "2025-08-18",
+            "open": 311.48,
+            "high": 324.29,
+            "low": 307.11,
+            "close": 320.73,
+            "volume": 8798755
+          },
+          {
+            "date": "2025-08-19",
+            "open": 320.69,
+            "high": 322.59,
+            "low": 301.45,
+            "close": 302.07,
+            "volume": 10327730
+          },
+          {
+            "date": "2025-08-20",
+            "open": 304.27,
+            "high": 306.45,
+            "low": 291.46,
+            "close": 304.39,
+            "volume": 8570325
+          },
+          {
+            "date": "2025-08-21",
+            "open": 301.415,
+            "high": 304.9999,
+            "low": 297.8001,
+            "close": 300.28,
+            "volume": 5743375
+          },
+          {
+            "date": "2025-08-22",
+            "open": 300.59,
+            "high": 322.26,
+            "low": 297.19,
+            "close": 319.85,
+            "volume": 13029180
+          },
+          {
+            "date": "2025-08-25",
+            "open": 312.175,
+            "high": 315.59,
+            "low": 305.1,
+            "close": 306,
+            "volume": 8473899
+          },
+          {
+            "date": "2025-08-26",
+            "open": 304,
+            "high": 309.2,
+            "low": 300.37,
+            "close": 308.48,
+            "volume": 7745448
+          },
+          {
+            "date": "2025-08-27",
+            "open": 307.21,
+            "high": 312.41,
+            "low": 306.69,
+            "close": 308.97,
+            "volume": 5746292
+          },
+          {
+            "date": "2025-08-28",
+            "open": 312.56,
+            "high": 315.95,
+            "low": 306,
+            "close": 308.47,
+            "volume": 6292468
+          },
+          {
+            "date": "2025-08-29",
+            "open": 306.19,
+            "high": 308.22,
+            "low": 301.5,
+            "close": 304.54,
+            "volume": 6611440
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -3.225396421875489,
+        "return_63d": 23.435473411154355,
+        "pct_above_sma50": -12.362186415822356,
+        "sma_50": 347.49840000000006,
+        "new_55d_high": "False",
+        "high_55d": 444.645,
+        "rsi": 41.22643704910405,
+        "rsi_in_range": "False",
+        "adx": 26.943073705473058,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 4.723870427530047,
+        "bb_width": 11.239798164266325,
+        "keltner_width": 18.441951940191785,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 3223319277.6063995,
+        "adv_shares": 10336883.2,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 39.57771924396763,
+        "final_score": 34.57771924396763,
+        "sub_scores": {
+          "trend_momentum": 7.4019641522535,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.175755091714127,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -19.382676831850898,
+          "ret_63d": 23.48552428837889,
+          "rsi14": 41.22643704910405,
+          "adx14": 26.70069875739606,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: COIN\n• Current Price: $304.54\n• Overall Score: 48.28079880799799\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 347.4984\n• Sma 200: 272.5283\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -19.382676831850905\n• Momentum 63D: 23.48552428837889\n• Momentum 126D: 41.23921714126705\n• Momentum Acceleration: -42.8682011202298\n• Roc 21D: -19.382676831850905\n• Trend Strength 20D: 0.04387739507537696\n• Trend Direction: -1\n• Ma Ribbon Score: 42.20403583852857\n• Breakout Strength: 0.0\n• Price Velocity: -0.009593423562708581\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: 2.8753964076567673\n• Volatility Compression: 71.7958577024971\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 7.4019641522535\n• Squeeze Breakout: 4.0\n• Options Quality: 17.175755091714127\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 50.0\n• Momentum: 45.0\n• Squeeze: 60.76937865537457\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: COIN\n• Strike Price: $300\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $26.05\n• Ask: $26.65\n• Last: $26.15\n• Mid: $26.35\n• Spread: 2.251407129455909943714821764%\n\n**GREEKS ANALYSIS**\n• Delta: 0.578\n• Gamma: 0.0066\n• Theta: -0.2527\n• Vega: 0.4361\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.5304\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 226\n• Open Interest: 1021\n• Volume/OI Ratio: 0.22135161606268364\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Coinbase Global Inc\n• Sector: Financial Services\n• Industry: Financial Data & Stock Exchanges\n• EPS (TTM): $10.38\n• Profit Margin: 42.7%\n• ROE: 28.0%\n• P/E Ratio: 29.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T23:30:59+00:00: Kevin O'Leary Says Gen Zs Invest in Bitcoin, Ethereum Alongside Stocks, A Chance...\n• 2025-08-29T22:18:14+00:00: Stocks Settle Lower as Tech Shares Selloff...\n• 2025-08-29T20:34:22+00:00: Stocks Settle Lower as Tech Shares Selloff...\n• 2025-08-29T19:00:24+00:00: Catalyst Watch: Broadcom earnings, Samsung reveal, Roblox event and football bet...\n• 2025-08-29T18:36:00+00:00: These Were the Best &amp; Worst S&amp;P 500 Stocks in August...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR COIN\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the COIN opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:38:51.994578",
+    "estimated_tokens": 2329
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"COIN\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 12,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"COIN shows mixed signals with strong fundamentals (42.7% profit margin, solid P/E) but deteriorating technical momentum (-19.38% 21D momentum). While in a volatility squeeze with 71.8% compression, the negative momentum acceleration (-42.87) and upcoming earnings risk warrant caution.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 71.8% compression indicating potential breakout\",\n        \"Strong fundamentals with 42.7% profit margin and reasonable 29.3 P/E ratio\",\n        \"Options have decent liquidity with 2.25% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration at -42.87\",\n        \"Trading below 50 SMA (347.49) with -19.38% 21-day momentum\",\n        \"Earnings coming up on 2025-09-30 creating event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider debit spreads to reduce cost basis given high IV of 53.04%\",\n        \"entry_timing\": \"Wait for momentum stabilization and post-earnings clarity\",\n        \"risk_management\": \"Use strikes beyond $300 given 0.578 delta and consider post-earnings expiration\"\n    },\n    \"red_flags\": [\n        \"Imminent earnings event within 30 days\",\n        \"Significant negative momentum acceleration\",\n        \"Price trading below key 50 SMA level\"\n    ],\n    \"notes\": \"Volume/OI ratio of 0.22 indicates moderate but not optimal liquidity. Consider wider spreads for entries/exits.\"\n}",
+    "parsed_analysis": {
+      "symbol": "COIN",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 12,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "COIN shows mixed signals with strong fundamentals (42.7% profit margin, solid P/E) but deteriorating technical momentum (-19.38% 21D momentum). While in a volatility squeeze with 71.8% compression, the negative momentum acceleration (-42.87) and upcoming earnings risk warrant caution.",
+      "opportunities": [
+        "Active volatility squeeze with 71.8% compression indicating potential breakout",
+        "Strong fundamentals with 42.7% profit margin and reasonable 29.3 P/E ratio",
+        "Options have decent liquidity with 2.25% bid-ask spread"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration at -42.87",
+        "Trading below 50 SMA (347.49) with -19.38% 21-day momentum",
+        "Earnings coming up on 2025-09-30 creating event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider debit spreads to reduce cost basis given high IV of 53.04%",
+        "entry_timing": "Wait for momentum stabilization and post-earnings clarity",
+        "risk_management": "Use strikes beyond $300 given 0.578 delta and consider post-earnings expiration"
+      },
+      "red_flags": [
+        "Imminent earnings event within 30 days",
+        "Significant negative momentum acceleration",
+        "Price trading below key 50 SMA level"
+      ],
+      "notes": "Volume/OI ratio of 0.22 indicates moderate but not optimal liquidity. Consider wider spreads for entries/exits."
+    },
+    "tokens_used": 2553,
+    "cost": 0.02553,
+    "response_time": 8.675428628921509,
+    "success": true
+  },
+  "cost": 0.02553,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8522,
+    "response_length": 1693
+  }
+}

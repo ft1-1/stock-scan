@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "CMA",
+  "timestamp": "2025-08-25T22:13:06.912529",
+  "data_package": {
+    "metadata": {
+      "symbol": "CMA",
+      "package_timestamp": "2025-08-25T22:12:55.094835",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CMA",
+        "current_price": 68.67,
+        "overall_score": 52.28980109274824,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 63.7888,
+        "sma_200": 62.1076
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.000147080453018,
+        "momentum_63d": 22.2103577148959,
+        "momentum_126d": 5.9231837112448,
+        "momentum_acceleration": -21.21021063444288,
+        "roc_21d": 1.000147080453018,
+        "trend_strength_20d": 0.052038896414548924,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0029636459667321314
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 6.0,
+        "squeeze_momentum": -0.12403887417693629,
+        "volatility_compression": 60.429267194172006,
+        "is_consolidating": "False",
+        "breakout_score": 38.384974993650005,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.612517487640478,
+        "squeeze_breakout": 4.0,
+        "options_quality": 15.28847272727272,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 55.0,
+        "squeeze": 59.0643900791258,
+        "options": 35.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CMA",
+        "strike_price": "67.5",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "3.8",
+        "ask": "3.9",
+        "last_price": "3.8",
+        "mid_price": "3.85",
+        "spread_percent": "2.564102564102564102564102564"
+      },
+      "greeks": {
+        "delta": 0.5806,
+        "gamma": 0.0475,
+        "theta": -0.0344,
+        "vega": 0.1023
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3147
+      },
+      "liquidity_metrics": {
+        "volume": 9,
+        "open_interest": 805,
+        "volume_oi_ratio": 0.011180124223602485
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:15.140326",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T18:35:55+00:00",
+            "title": "East West Bank, CVB Financial, Frost Bank, Comerica, and Coastal Financial Shares Are Soaring, What You Need To Know",
+            "content": "What Happened?\n\nA number of stocks jumped in the afternoon session after the major indices rebounded, as Fed Chair Jerome Powell delivered dovish remarks at the much-awaited Jackson Hole symposium. Powell suggested that with inflation risks moderating and unemployment remaining low, the Federal Reserve might consider a shift in its monetary policy stance, including potential interest rate cuts. This outlook eased market concerns about prolonged high interest rates and their impact on economic growth. The prospect of lower borrowing costs bolstered investor confidence, particularly in sectors that have lagged, leading to a broad rally across the market.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks.\n\nAmong others, the following stocks were impacted:\n\nRegional Banks company East West Bank (NASDAQ:EWBC) jumped 4.2%. Is now the time to buy East West Bank? Access our full analysis report here, it’s free. Regional Banks company CVB Financial (NASDAQ:CVBF) jumped 4.9%. Is now the time to buy CVB Financial? Access our full analysis report here, it’s free. Regional Banks company Frost Bank (NYSE:CFR) jumped 3.4%. Is now the time to buy Frost Bank? Access our full analysis report here, it’s free. Regional Banks company Comerica (NYSE:CMA) jumped 4.6%. Is now the time to buy Comerica? Access our full analysis report here, it’s free. Regional Banks company Coastal Financial (NASDAQ:CCB) jumped 5%. Is now the time to buy Coastal Financial? Access our full analysis report here, it’s free.\n\nZooming In On Coastal Financial (CCB)\n\nCoastal Financial’s shares are quite volatile and have had 18 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 9 days ago when the stock gained 4.6% on the news that the company announced the appointment of four new members to its executive leadership team to support its continued growth across its digital banking and community-focused initiatives. The new appointments include Ryan Hall as Chief Product Officer, Michael Costigan as Chief Commercial Officer, Freddy Rivas as Chief Credit Officer, and Chris Morgan as Chief Information Security Officer. These strategic hires are intended to bolster the company's expansion, particularly in its high-growth digital banking and embedded finance divisions. The new leaders bring crucial expertise in fintech partnerships, credit risk management, and cybersecurity, strengthening the bank's operational resilience. This news adds to recent positive momentum, with the company's stock trading near its 52-week high after delivering impressive returns over the past year.\n\nStory Continues\n\nCoastal Financial is up 29.5% since the beginning of the year, and at $109.72 per share, has set a new 52-week high. Investors who bought $1,000 worth of Coastal Financial’s shares 5 years ago would now be looking at an investment worth $8,182.\n\nUnless you’ve been living under a rock, it should be obvious by now that generative AI is going to have a huge impact on how large corporations do business. While Nvidia and AMD are trading close to all-time highs, we prefer a lesser-known (but still profitable) semiconductor stock benefiting from the rise of AI. Click here to access our free report on our favorite semiconductor growth story.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T19:46:00+00:00",
+            "title": "COMERICA BANK AND RUSSELL GLEN PARTNER TO PRESENT EPIC WEEKEND LONG CELEBRATION IN HONOR OF REDBIRD 50TH",
+            "content": "Dallas, TX, Aug.  20, 2025  (GLOBE NEWSWIRE) -- In celebration of the 50th anniversary of the Shops at RedBird (formerly Red Bird Mall), a longstanding and resilient anchor in the Southern Dallas community, Comerica Bank and Russell Glen have both joined in as title sponsors of this historic event. From Saturday, August 23 - Sunday, August 24, the greater DFW metroplex and beyond is invited to participate in three events.\n\n“At Comerica, we recognize that being a force for good is intertwined with the prosperity of the communities we serve,” said Brandon Q. Jones, Comerica Senior Vice President, Director of External Affairs. “As one of the first institutions to support and invest in the revitalization of the southern sector, we are proud to sponsor RedBird’s significant milestone and amplify the economic progress and momentum it represents.”\n\nThe celebration will kick off at the Shops at RedBird with a focus on wellness with the REDBIRD RUN + FUN 5K WALK AND FAMILY FUN DAY. Held on Saturday, August 23 from 7 a.m. – 11:30 a.m., the family-friendly 5K Walk/Run that will feature events for all ages, including MENT Fitness and Run It Up Club Dallas, a kid’s fun zone the kid-friendly activities like face painting, bounce houses and more. Powered by UT Southwestern, this event is free and open to the public, but registration is requested, at https://www.redbird50.com/event-details/redbird-fit.\n\nTHE REUNION COMMUNITY BLOCK PARTY will also take place on Saturday, August 23. From 7 p.m. – 9 p.m. people are invited to a community-wide block party. Held on the Lawn at RedBird, this vibrant evening will feature: Urban Trivia Live – high-energy, culturally relevant fun and live performance by Dallas’ own, RC & The Gritz. There will also be food trucks, vendors, lawn games, and dancing under the stars. This event is also free and attendees are asked to RSVP at https://www.redbird50.com/event-details/the-reunion-community-block-party-1/form\n\nThe weekend celebration will conclude on Sunday, August 24, with a closing REFRESH SUNDAY GOSPEL BRUNCH from 1 p.m. – 4 p.m. at The Nest, located within the Shops at Redbird, 5217 Alpha Rd Ste 155 Ste 155, Dallas, TX 75240. Powered by Charles Schwab Bank, the brunch features some of Dallas’ most prominent and loved gospel artists, including Grammy award-winning Myron Butler, the DFW Mass Legacy Choir, and Gaye Arbuckle.  The brunch meal will be provided by Breakfast Brothers, and renowned Chef Fitzgerald Dodd. Hosted by Lady Jade, this soulful celebration also includes the premiere screening of the RedBird Rising documentary.  Seats are limited. Tickets start at $45 and can be purchased at https://www.redbird50.com/event-details/sunday-gospel-brunch\n\n“The 50th anniversary of RedBird is both a celebration and a reflection of the community’s resilience and pride. From growing up in the Oak Cliff area, to now playing a role in leading Red Bird’s transformation from a historic mall into a vibrant destination for healthcare, education, retail, and culture, this has been profoundly meaningful to me,” Terrence Maiden, CEO, Russell Glen Company and Chair, RedBird 50-Year Celebration. “It’s the people who have shaped Redbird’s story and legacy.  This event honors our shared history while looking forward to an even brighter future for Southern Dallas.”\n\nThe celebratory weekend is just the beginning as the community honors all that Redbird has meant to the greater DFW community over the past half century.\r\n\r\nFor more information, visit RedBird50.com.\n\n###\n\nPHOTO/INTERVIEW OPPORTUNITIES\n\nTerrence Maiden, CEO, Russell Glenn; Chair, RedBird 50-Year CelebrationTiffanie Rice, Vice President, Regional External Affairs Manager, Comerica Bank Celebrities and participants in the events\n\nAbout The Shops at RedBird\r\nThe Shops at RedBird, formerly known as Red Bird Mall, has been a cornerstone of southern Dallas for over five decades, serving as a place for both community and commerce.  Once a struggling regional mall, RedBird is being reimagined as a vibrant mixed-use community hub that blends retail, healthcare, education, residential, hospitality, office space, and dining to catalyze economic growth and neighborhood revitalization in the region. With over $250 million in public and private investment to date, the Shops at RedBird has attracted anchor tenants such as UT Southwestern Medical, Children’s Health, Parkland Health, Dallas College, and Palladium Residential, alongside popular retail and restaurant brands including Chick-fil-A, Starbucks, Breakfast Brother, and others. The project is a model for impact-driven redevelopment, creating new jobs, generating significant economic activity, and providing essential services for southern Dallas residents. The Shops at RedBird stands as a national example of how community-focused investment can transform underutilized assets into thriving, inclusive destinations where people can live, work, shop, and gather. To learn more about The Shops at RedBird, visit www.shopsatredbird.com.\n\nAbout Comerica \r\nComerica Incorporated (NYSE: CMA) is a financial services company headquartered in Dallas, Texas, and strategically aligned by three business segments: The Commercial Bank, The Retail Bank and Wealth Management. Comerica, one of the 25 largest commercial U.S. financial holding companies, focuses on building relationships and helping people and businesses be successful. Comerica provides banking centers across the country with locations in Arizona, California, Florida, Michigan and Texas. Founded on Aug. 17, 1849, in Detroit, Michigan, Comerica continues to expand into new regions, including its Southeast Market, based in North Carolina, and Mountain West Market in Colorado. Comerica has offices in 15 states and services 13 of the 15 largest U.S. metropolitan areas, as well as Canada and Mexico. Comerica reported total assets of $78.0 billion at June 30, 2025. Learn more about how Comerica is raising expectations of what a bank can be by visiting www.comerica.com, and follow us on Facebook, X, Instagram and LinkedIn.\n\nAbout Russell Glen Company\r\nRussell Glen Company is a Dallas-based, award-winning real estate investment and development firm at the forefront of transformational mall redevelopments, including the acclaimed Shops at RedBird project in Dallas and Pasadena Square in Houston. With more than $450 million in active and completed projects, the firm has established itself as a leader in impact-focused development, recognized for its ability to reimagine underutilized properties into thriving community anchors. Driven by a mission to create lasting value, Russell Glen integrates healthcare, education, grocery access, housing, and retail into its projects—delivering developments that spark economic growth, attract strategic partners, and foster healthier, safer, and more equitable neighborhoods. By blending disciplined investment strategies with a strong commitment to community impact, Russell Glen is setting a new standard for transformative real estate development across Texas and beyond. To learn more about Russell Glen Company, visit www.russellglen.com.\n\nAttachments\n\nRedBird 50-Year CelebrationTerrence Maiden",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T19:46:00+00:00",
+            "title": "COMERICA BANK AND RUSSELL GLEN PARTNER TO PRESENT EPIC WEEKEND LONG CELEBRATION IN HONOR OF REDBIRD 50TH",
+            "content": "RedBird 50-Year CelebrationRedBird Celebration Weekend Events\n\nTerrence MaidenCEO, Russell Glenn; Chair, RedBird 50-Year Celebration\n\nDallas, TX, Aug. 20, 2025 (GLOBE NEWSWIRE) -- In celebration of the 50th anniversary of the Shops at RedBird (formerly Red Bird Mall), a longstanding and resilient anchor in the Southern Dallas community, Comerica Bank and Russell Glen have both joined in as title sponsors of this historic event. From Saturday, August 23 - Sunday, August 24, the greater DFW metroplex and beyond is invited to participate in three events.\n\n“At Comerica, we recognize that being a force for good is intertwined with the prosperity of the communities we serve,” said Brandon Q. Jones, Comerica Senior Vice President, Director of External Affairs. “As one of the first institutions to support and invest in the revitalization of the southern sector, we are proud to sponsor RedBird’s significant milestone and amplify the economic progress and momentum it represents.”\n\nThe celebration will kick off at the Shops at RedBird with a focus on wellness with the REDBIRD RUN + FUN 5K WALK AND FAMILY FUN DAY. Held on Saturday, August 23 from 7 a.m. – 11:30 a.m., the family-friendly 5K Walk/Run that will feature events for all ages, including MENT Fitness and Run It Up Club Dallas, a kid’s fun zone the kid-friendly activities like face painting, bounce houses and more. Powered by UT Southwestern, this event is free and open to the public, but registration is requested, at https://www.redbird50.com/event-details/redbird-fit.\n\nTHE REUNION COMMUNITY BLOCK PARTY will also take place on Saturday, August 23. From 7 p.m. – 9 p.m. people are invited to a community-wide block party. Held on the Lawn at RedBird, this vibrant evening will feature: Urban Trivia Live – high-energy, culturally relevant fun and live performance by Dallas’ own, RC & The Gritz. There will also be food trucks, vendors, lawn games, and dancing under the stars. This event is also free and attendees are asked to RSVP at https://www.redbird50.com/event-details/the-reunion-community-block-party-1/form\n\nThe weekend celebration will conclude on Sunday, August 24, with a closing REFRESH SUNDAY GOSPEL BRUNCH from 1 p.m. – 4 p.m. at The Nest, located within the Shops at Redbird, 5217 Alpha Rd Ste 155 Ste 155, Dallas, TX 75240. Powered by Charles Schwab Bank, the brunch features some of Dallas’ most prominent and loved gospel artists, including Grammy award-winning Myron Butler, the DFW Mass Legacy Choir, and Gaye Arbuckle.  The brunch meal will be provided by Breakfast Brothers, and renowned Chef Fitzgerald Dodd. Hosted by Lady Jade, this soulful celebration also includes the premiere screening of the RedBird Rising documentary.  Seats are limited. Tickets start at $45 and can be purchased at https://www.redbird50.com/event-details/sunday-gospel-brunch\n\nStory Continues\n\n“The 50th anniversary of RedBird is both a celebration and a reflection of the community’s resilience and pride. From growing up in the Oak Cliff area, to now playing a role in leading Red Bird’s transformation from a historic mall into a vibrant destination for healthcare, education, retail, and culture, this has been profoundly meaningful to me,” Terrence Maiden, CEO, Russell Glen Company and Chair, RedBird 50-Year Celebration. “It’s the people who have shaped Redbird’s story and legacy.  This event honors our shared history while looking forward to an even brighter future for Southern Dallas.”\n\nThe celebratory weekend is just the beginning as the community honors all that Redbird has meant to the greater DFW community over the past half century.\r\n\r\nFor more information, visit RedBird50.com.\n\n###\n\nPHOTO/INTERVIEW OPPORTUNITIES\n\nTerrence Maiden, CEO, Russell Glenn; Chair, RedBird 50-Year Celebration Tiffanie Rice, Vice President, Regional External Affairs Manager, Comerica Bank Celebrities and participants in the events\n\nAbout The Shops at RedBird\r\nThe Shops at RedBird, formerly known as Red Bird Mall, has been a cornerstone of southern Dallas for over five decades, serving as a place for both community and commerce.  Once a struggling regional mall, RedBird is being reimagined as a vibrant mixed-use community hub that blends retail, healthcare, education, residential, hospitality, office space, and dining to catalyze economic growth and neighborhood revitalization in the region. With over $250 million in public and private investment to date, the Shops at RedBird has attracted anchor tenants such as UT Southwestern Medical, Children’s Health, Parkland Health, Dallas College, and Palladium Residential, alongside popular retail and restaurant brands including Chick-fil-A, Starbucks, Breakfast Brother, and others. The project is a model for impact-driven redevelopment, creating new jobs, generating significant economic activity, and providing essential services for southern Dallas residents. The Shops at RedBird stands as a national example of how community-focused investment can transform underutilized assets into thriving, inclusive destinations where people can live, work, shop, and gather. To learn more about The Shops at RedBird, visit www.shopsatredbird.com.\n\nAbout Comerica \r\nComerica Incorporated (NYSE: CMA) is a financial services company headquartered in Dallas, Texas, and strategically aligned by three business segments: The Commercial Bank, The Retail Bank and Wealth Management. Comerica, one of the 25 largest commercial U.S. financial holding companies, focuses on building relationships and helping people and businesses be successful. Comerica provides banking centers across the country with locations in Arizona, California, Florida, Michigan and Texas. Founded on Aug. 17, 1849, in Detroit, Michigan, Comerica continues to expand into new regions, including its Southeast Market, based in North Carolina, and Mountain West Market in Colorado. Comerica has offices in 15 states and services 13 of the 15 largest U.S. metropolitan areas, as well as Canada and Mexico. Comerica reported total assets of $78.0 billion at June 30, 2025. Learn more about how Comerica is raising expectations of what a bank can be by visiting www.comerica.com, and follow us on Facebook, X, Instagram and LinkedIn.\n\nAbout Russell Glen Company\r\nRussell Glen Company is a Dallas-based, award-winning real estate investment and development firm at the forefront of transformational mall redevelopments, including the acclaimed Shops at RedBird project in Dallas and Pasadena Square in Houston. With more than $450 million in active and completed projects, the firm has established itself as a leader in impact-focused development, recognized for its ability to reimagine underutilized properties into thriving community anchors. Driven by a mission to create lasting value, Russell Glen integrates healthcare, education, grocery access, housing, and retail into its projects—delivering developments that spark economic growth, attract strategic partners, and foster healthier, safer, and more equitable neighborhoods. By blending disciplined investment strategies with a strong commitment to community impact, Russell Glen is setting a new standard for transformative real estate development across Texas and beyond. To learn more about Russell Glen Company, visit www.russellglen.com.\n\nAttachments\n\nRedBird 50-Year Celebration Terrence Maiden\n\nCONTACT: Kayla Tucker Adams KTA Media Group 2144039852 info@kaylatuckeradams.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T15:27:46+00:00",
+            "title": "Stocks with the largest increases in short interest so far in 3Q – Goldman Sachs",
+            "content": "[A diagram with many different graphs rising and falling]\nenot-poloskun\n\nShort interest for the median S&P 500 (SP500 [https://seekingalpha.com/symbol/SP500]) stock declined to 2.3% as a percentage of float at the end of July – from 2.4% in June – but is still above the long-term average and in the 96th percentile compared to the last five years, according to Goldman Sachs.\n\nAnalysts, headed by Goldman Sachs senior equity strategist Ben Snider, listed the large-cap stocks with elevated short interest that have increased since the start of the third quarter.\n\nThese are Russell 1000 (NYSEARCA:IWB [https://seekingalpha.com/symbol/IWB]) stocks with market caps over $5B, short interest greater than 5% of float, and the largest recent increases in short interest as a share of float, as of July 31.\n\n \t* SAIL SailPoint, Inc. (SAIL [https://seekingalpha.com/symbol/SAIL]) – Short interest as % of float on July-end: 20%; Change percentage: 6%\n \t* DPZ Domino's Pizza, Inc. (PDZ) – Short interest as % of float on July-end: 9%; Change percentage: 4%\n \t* WLK Westlake (WLK [https://seekingalpha.com/symbol/WLK]) – Short interest as % of float on July-end: 13%; Change percentage: 4%\n \t* CNC Centene (CNC [https://seekingalpha.com/symbol/CNC]) – Short interest as % of float on July-end: 6%; Change percentage: 4%\n \t* SMMT Summit Therapeutics Inc (SMMT [https://seekingalpha.com/symbol/SMMT]) – Short interest as % of float on July-end: 28%; Change percentage: 4%\n \t* PPC Pilgrim's Pride (PPC [https://seekingalpha.com/symbol/PPC]) – Short interest as % of float on July-end: 23%; Change percentage: 3%\n \t* BIRK Birkenstock Holding plc (BIRK [https://seekingalpha.com/symbol/BIRK]) – Short interest as % of float on July-end: 16%; Change percentage: 3%\n \t* GAP Gap, Inc. (GAP [https://seekingalpha.com/symbol/GAP]) – Short interest as % of float on July-end: 9%; Change percentage: 3%\n \t* XP XP Inc. (XP [https://seekingalpha.com/symbol/XP]) – Short interest as % of float on July-end: 7%; Change percentage: 3%\n \t* CAR Avis Budget Group, Inc. (CAR [https://seekingalpha.com/symbol/CAR]) – Short interest as % of float on July-end: 23%; Change percentage: 2%\n \t* WH Wyndham Hotels & Resorts, Inc. (WH [https://seekingalpha.com/symbol/WH]) – Short interest as % of float on July-end: 6%; Change percentage: 2%\n \t* CMA Comerica (CMA [https://seekingalpha.com/symbol/CMA]) – Short interest as % of float on July-end: 6%; Change percentage: 2%\n \t* HBAN Huntington Bancshares (HBAN [https://seekingalpha.com/symbol/HBAN]) – Short interest as % of float on July-end: 6%; Change percentage: 2%\n \t* MDB MongoDB, Inc. (MDB [https://seekingalpha.com/symbol/MDB]) – Short interest as % of float on July-end: 6%; Change percentage: 2%\n \t* WMS Advanced Drainage Systems, Inc. (WMS [https://seekingalpha.com/symbol/WMS]) – Short interest as % of float on July-end: 6%; Change percentage: 2%\n \t* SFD Smithfield Foods, Inc. (SFD [https://seekingalpha.com/symbol/SFD]) – Short interest as % of float on July-end: 7%; Change percentage: 2%\n \t* TTD Trade Desk, Inc. (TTD [https://seekingalpha.com/symbol/TTD]) – Short interest as % of float on July-end: 7%; Change percentage: 2%\n \t* OMC Omnicom Group Inc (OMC [https://seekingalpha.com/symbol/OMC]) – Short interest as % of float on July-end: 16%; Change percentage: 2%\n \t* CPB Campbell's Company (CPB [https://seekingalpha.com/symbol/CPB]) – Short interest as % of float on July-end: 14%; Change percentage: 2%\n \t* ENTG Entegris, Inc. (ENTG [https://seekingalpha.com/symbol/ENTG]) – Short interest as % of float on July-end: 9%; Change percentage: 2%\n\nMORE ON ISHARES RUSSELL 1000 ETF:\n\n \t* IWB: Current Risks And Market Valuation Are A Problem [https://seekingalpha.com/article/4790638-iwb-current-risks-and-market-valuation-are-a-problem]\n \t* Seeking Alpha’s Quant Rating on iShares Russell 1000 ETF [https://seekingalpha.com/symbol/IWB/ratings/quant-ratings]\n \t* Dividend scorecard for iShares Russell 1000 ETF [https://seekingalpha.com/symbol/IWB/dividends/scorecard]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T03:32:08+00:00",
+            "title": "Spotting Winners: Ameris Bancorp (NYSE:ABCB) And Regional Banks Stocks In Q2",
+            "content": "The end of an earnings season can be a great time to discover new stocks and assess how companies are handling the current business environment. Let’s take a look at how Ameris Bancorp (NYSE:ABCB) and the rest of the regional banks stocks fared in Q2.\n\nRegional banks, financial institutions operating within specific geographic areas, serve as intermediaries between local depositors and borrowers. They benefit from rising interest rates that improve net interest margins (the difference between loan yields and deposit costs), digital transformation reducing operational expenses, and local economic growth driving loan demand. However, these banks face headwinds from fintech competition, deposit outflows to higher-yielding alternatives, credit deterioration (increasing loan defaults) during economic slowdowns, and regulatory compliance costs. Recent concerns about regional bank stability following high-profile failures and significant commercial real estate exposure present additional challenges.\n\nThe 98 regional banks stocks we track reported a satisfactory Q2. As a group, revenues were in line with analysts’ consensus estimates.\n\nIn light of this news, share prices of the companies have held steady. On average, they are relatively unchanged since the latest earnings results.\n\nAmeris Bancorp (NYSE:ABCB)\n\nTracing its roots back to 1971 and expanding significantly through both organic growth and strategic acquisitions, Ameris Bancorp (NYSE:ABCB) is a financial holding company that provides a full range of banking services to retail and commercial customers across select markets in the southeastern United States.\n\nAmeris Bancorp reported revenues of $300.7 million, flat year on year. This print exceeded analysts’ expectations by 1.4%. Overall, it was a very strong quarter for the company with a beat of analysts’ EPS estimates and a solid beat of analysts’ net interest income estimates.\n\nCommenting on the Company’s results, Palmer Proctor, the Company’s Chief Executive Officer, said, “Our second quarter results underscore the strength, consistency, and long-term value of the Ameris franchise. We delivered above-peer profitability, with a return on assets of 1.65% and a return on tangible common equity of 15.82%. Tangible book value per share - one of our long-standing strategic priorities - grew at a 15.5% annualized rate to surpass $41. Other key performance indicators, including our net interest margin, allowance coverage ratio, and efficiency ratio, remain among the best in the industry. Backed by a strong balance sheet and a proven ability to execute, we are well positioned to capitalize on growth opportunities across our Southeast footprint and drive continued success through the remainder of 2025 and beyond.”\n\nStory Continues\n\nAmeris Bancorp Total Revenue\n\nInterestingly, the stock is up 5.5% since reporting and currently trades at $70.02.\n\nIs now the time to buy Ameris Bancorp? Access our full analysis of the earnings results here, it’s free.\n\nBest Q2: UMB Financial (NASDAQ:UMBF)\n\nWith roots dating back to 1913 and a name derived from \"United Missouri Bank,\" UMB Financial (NASDAQ:UMBF) is a financial holding company that provides banking, asset management, and fund services to commercial, institutional, and individual customers.\n\nUMB Financial reported revenues of $689.2 million, up 76.7% year on year, outperforming analysts’ expectations by 8.6%. The business had a stunning quarter with a beat of analysts’ EPS estimates and a solid beat of analysts’ tangible book value per share estimates.UMB Financial Total Revenue\n\nThe market seems happy with the results as the stock is up 5.7% since reporting. It currently trades at $116.\n\nIs now the time to buy UMB Financial? Access our full analysis of the earnings results here, it’s free.\n\nWeakest Q2: Coastal Financial (NASDAQ:CCB)\n\nPioneering the intersection of traditional banking and financial technology in the Pacific Northwest, Coastal Financial (NASDAQ:CCB) operates as a bank holding company that provides traditional banking services and Banking-as-a-Service (BaaS) solutions to consumers and businesses.\n\nCoastal Financial reported revenues of $119.4 million, down 11.7% year on year, falling short of analysts’ expectations by 21.5%. It was a disappointing quarter as it posted a significant miss of analysts’ net interest income estimates and a significant miss of analysts’ EPS estimates.\n\nInterestingly, the stock is up 4.2% since the results and currently trades at $105.71.\n\nRead our full analysis of Coastal Financial’s results here.\n\nComerica (NYSE:CMA)\n\nFounded in 1849 during the California Gold Rush era, Comerica (NYSE:CMA) is a financial services company that provides commercial banking, retail banking, and wealth management services to businesses and individuals.\n\nComerica reported revenues of $849 million, up 3% year on year. This number surpassed analysts’ expectations by 0.7%. Overall, it was a satisfactory quarter as it also recorded an impressive beat of analysts’ tangible book value per share estimates.\n\nThe stock is up 8.2% since reporting and currently trades at $67.58.\n\nRead our full, actionable report on Comerica here, it’s free.\n\nWestern Alliance Bancorporation (NYSE:WAL)\n\nOperating through five distinct regional banking divisions across the western United States, Western Alliance Bancorporation (NYSE:WAL) provides commercial banking, treasury management, mortgage services, and specialized financial solutions through its banking divisions and subsidiaries.\n\nWestern Alliance Bancorporation reported revenues of $845.9 million, up 9.7% year on year. This print topped analysts’ expectations by 1.9%. Taking a step back, it was a mixed quarter as it also logged a narrow beat of analysts’ tangible book value per share estimates but a miss of analysts’ EPS estimates.\n\nThe stock is down 2.4% since reporting and currently trades at $82.50.\n\nRead our full, actionable report on Western Alliance Bancorporation here, it’s free.\n\nMarket Update\n\nThanks to the Fed’s rate hikes in 2022 and 2023, inflation has been on a steady path downward, easing back toward that 2% sweet spot. Fortunately (miraculously to some), all this tightening didn’t send the economy tumbling into a recession, so here we are, cautiously celebrating a soft landing. The cherry on top? Recent rate cuts (half a point in September 2024, a quarter in November) have propped up markets, especially after Trump’s November win lit a fire under major indices and sent them to all-time highs. However, there’s still plenty to ponder — tariffs, corporate tax cuts, and what 2025 might hold for the economy.\n\nWant to invest in winners with rock-solid fundamentals? Check out our Top 6 Stocks and add them to your watchlist. These companies are poised for growth regardless of the political or macroeconomic climate.\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Comerica Incorporated",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "employees": 7963,
+          "description": "Comerica Incorporated, together with its subsidiaries, provides financial services in the United States, Canada, and Mexico. The company operates through Commercial Bank, Retail Bank, and Wealth Management segments. The Commercial Bank segment offers various products and services, including commerci"
+        },
+        "financial_metrics": {
+          "eps_ttm": 5.21,
+          "profit_margin": 0.2255,
+          "operating_margin": 0.3168,
+          "roe": 0.1114,
+          "roa": 0.0092,
+          "revenue_growth_yoy": -0.023,
+          "earnings_growth_yoy": -0.047,
+          "eps_estimate_current_year": 5.0718,
+          "eps_estimate_next_year": 5.5739,
+          "dividend_yield": 0.0424,
+          "dividend_per_share": 2.84,
+          "revenue_ttm": 3215000064,
+          "revenue_per_share": 24.356,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 13.3551,
+          "forward_pe": 13.4771,
+          "price_to_sales": 2.7816,
+          "price_to_book": 1.3036,
+          "enterprise_value": 12447802368,
+          "ev_to_revenue": 5.3198,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 0.964,
+          "52_week_high": 70.8754,
+          "52_week_low": 47.526,
+          "50_day_ma": 63.7888,
+          "200_day_ma": 62.1076,
+          "short_interest": 0.0816,
+          "short_ratio": 2.89
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.84,
+          "forward_dividend_yield": 0.0408,
+          "payout_ratio": 0.5547,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-15",
+          "last_split_date": "1998-04-02",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 2.8182,
+          "target_price": 66.65,
+          "strong_buy": 1,
+          "buy": 3,
+          "hold": 12,
+          "sell": 3,
+          "strong_sell": 3
+        },
+        "institutional_data": {
+          "shares_outstanding": 128525000,
+          "percent_institutions": 94.72,
+          "percent_insiders": 0.7849999999999999,
+          "shares_float": 118943896
+        },
+        "balance_latest_sheet": {
+          "total_assets": 77988.0,
+          "total_debt": 8687.0,
+          "net_debt": 3399.0,
+          "shareholders_equity": 6860.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.27
+        },
+        "income_latest_statement": {
+          "total_revenue": 1205.0,
+          "gross_profit": 805.0,
+          "operating_income": 244.0,
+          "net_income": 199.0,
+          "ebitda": 244.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 66.8,
+          "operating_margin": 20.25,
+          "net_margin": 16.51
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 749.0,
+          "free_cash_flow": 449.0,
+          "capex": 34.0,
+          "net_income": 371.0,
+          "cash_change": -1516.0,
+          "dividends_paid": 196.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.25,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 63.46,
+            "high": 63.68,
+            "low": 61.21,
+            "close": 61.23,
+            "volume": 2702600
+          },
+          {
+            "date": "2025-07-16",
+            "open": 61.56,
+            "high": 61.94,
+            "low": 59.96,
+            "close": 61.14,
+            "volume": 2240800
+          },
+          {
+            "date": "2025-07-17",
+            "open": 60.78,
+            "high": 62.51,
+            "low": 60.74,
+            "close": 62.42,
+            "volume": 3132100
+          },
+          {
+            "date": "2025-07-18",
+            "open": 62.65,
+            "high": 65.94,
+            "low": 62.65,
+            "close": 65.32,
+            "volume": 4791300
+          },
+          {
+            "date": "2025-07-21",
+            "open": 64.96,
+            "high": 65.49,
+            "low": 62.91,
+            "close": 63.16,
+            "volume": 3933800
+          },
+          {
+            "date": "2025-07-22",
+            "open": 63.57,
+            "high": 65.31,
+            "low": 63.18,
+            "close": 65.28,
+            "volume": 5679200
+          },
+          {
+            "date": "2025-07-23",
+            "open": 65.97,
+            "high": 67,
+            "low": 65.67,
+            "close": 66.63,
+            "volume": 4765500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 66.63,
+            "high": 67.64,
+            "low": 66.33,
+            "close": 67.48,
+            "volume": 3430200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 67.17,
+            "high": 68.15,
+            "low": 65.8,
+            "close": 67.99,
+            "volume": 3551700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 68.4,
+            "high": 69.91,
+            "low": 68.36,
+            "close": 69.63,
+            "volume": 3987400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 69.63,
+            "high": 70.15,
+            "low": 69.25,
+            "close": 69.34,
+            "volume": 2647400
+          },
+          {
+            "date": "2025-07-30",
+            "open": 69.41,
+            "high": 69.81,
+            "low": 67.58,
+            "close": 67.97,
+            "volume": 2573500
+          },
+          {
+            "date": "2025-07-31",
+            "open": 67.78,
+            "high": 68.8,
+            "low": 67.37,
+            "close": 67.57,
+            "volume": 2767900
+          },
+          {
+            "date": "2025-08-01",
+            "open": 66.53,
+            "high": 66.83,
+            "low": 64.81,
+            "close": 66.61,
+            "volume": 1930500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 67.1,
+            "high": 67.64,
+            "low": 66.69,
+            "close": 67.39,
+            "volume": 1369000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 67.46,
+            "high": 67.79,
+            "low": 66.35,
+            "close": 67.6,
+            "volume": 1575600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 68.25,
+            "high": 68.32,
+            "low": 66.5,
+            "close": 66.5,
+            "volume": 1893600
+          },
+          {
+            "date": "2025-08-07",
+            "open": 67.35,
+            "high": 67.52,
+            "low": 65.32,
+            "close": 66.01,
+            "volume": 1201500
+          },
+          {
+            "date": "2025-08-08",
+            "open": 66.53,
+            "high": 67.4,
+            "low": 65.86,
+            "close": 66.86,
+            "volume": 1249900
+          },
+          {
+            "date": "2025-08-11",
+            "open": 66.48,
+            "high": 67.07,
+            "low": 65.72,
+            "close": 65.83,
+            "volume": 1934400
+          },
+          {
+            "date": "2025-08-12",
+            "open": 66.51,
+            "high": 68.15,
+            "low": 66.4,
+            "close": 68.04,
+            "volume": 1693100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 68.15,
+            "high": 68.97,
+            "low": 67.52,
+            "close": 68.89,
+            "volume": 1424500
+          },
+          {
+            "date": "2025-08-14",
+            "open": 68.24,
+            "high": 69.23,
+            "low": 67.89,
+            "close": 69.17,
+            "volume": 1267600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 68.75,
+            "high": 69.1,
+            "low": 67.89,
+            "close": 67.89,
+            "volume": 1435000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 67.77,
+            "high": 67.88,
+            "low": 66.89,
+            "close": 67.72,
+            "volume": 1738600
+          },
+          {
+            "date": "2025-08-19",
+            "open": 67.4,
+            "high": 68.26,
+            "low": 67.09,
+            "close": 67.58,
+            "volume": 2097500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 67.73,
+            "high": 67.9,
+            "low": 66.74,
+            "close": 67.55,
+            "volume": 1621400
+          },
+          {
+            "date": "2025-08-21",
+            "open": 67.13,
+            "high": 67.44,
+            "low": 66.64,
+            "close": 66.94,
+            "volume": 1421100
+          },
+          {
+            "date": "2025-08-22",
+            "open": 67.29,
+            "high": 70.22,
+            "low": 67.27,
+            "close": 69.58,
+            "volume": 2358000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 69.19,
+            "high": 69.64,
+            "low": 68.38,
+            "close": 68.67,
+            "volume": 1826684
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -1.3787160706591897,
+        "return_63d": 19.654992158912705,
+        "pct_above_sma50": 7.276760607386117,
+        "sma_50": 64.012,
+        "new_55d_high": "False",
+        "high_55d": 70.22,
+        "rsi": 54.249404289118374,
+        "rsi_in_range": "True",
+        "adx": 17.69365062579608,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.3205184214358554,
+        "bb_width": 6.269911604540747,
+        "keltner_width": 9.419727634797123,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 121924544.4216,
+        "adv_shares": 1801339.2,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.9009902149132,
+        "final_score": 46.9009902149132,
+        "sub_scores": {
+          "trend_momentum": 16.612517487640478,
+          "squeeze_breakout": 4.0,
+          "options_quality": 15.28847272727272,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.0001470804530177,
+          "ret_63d": 22.2103577148959,
+          "rsi14": 54.249404289118374,
+          "adx14": 15.482811829120354,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CMA\n• Current Price: $68.67\n• Overall Score: 52.28980109274824\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 63.7888\n• Sma 200: 62.1076\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.000147080453018\n• Momentum 63D: 22.2103577148959\n• Momentum 126D: 5.9231837112448\n• Momentum Acceleration: -21.21021063444288\n• Roc 21D: 1.000147080453018\n• Trend Strength 20D: 0.052038896414548924\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.0029636459667321314\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 6.0\n• Squeeze Momentum: -0.12403887417693629\n• Volatility Compression: 60.429267194172006\n• Is Consolidating: False\n• Breakout Score: 38.384974993650005\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.612517487640478\n• Squeeze Breakout: 4.0\n• Options Quality: 15.28847272727272\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 55.0\n• Squeeze: 59.0643900791258\n• Options: 35.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CMA\n• Strike Price: $67.5\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $3.8\n• Ask: $3.9\n• Last: $3.8\n• Mid: $3.85\n• Spread: 2.564102564102564102564102564%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5806\n• Gamma: 0.0475\n• Theta: -0.0344\n• Vega: 0.1023\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3147\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 9\n• Open Interest: 805\n• Volume/OI Ratio: 0.011180124223602485\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Comerica Incorporated\n• Sector: Financial Services\n• Industry: Banks - Regional\n• EPS (TTM): $5.21\n• Profit Margin: 22.6%\n• ROE: 11.1%\n• P/E Ratio: 13.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T18:35:55+00:00: East West Bank, CVB Financial, Frost Bank, Comerica, and Coastal Financial Share...\n• 2025-08-20T19:46:00+00:00: COMERICA BANK AND RUSSELL GLEN PARTNER TO PRESENT EPIC WEEKEND LONG CELEBRATION ...\n• 2025-08-20T19:46:00+00:00: COMERICA BANK AND RUSSELL GLEN PARTNER TO PRESENT EPIC WEEKEND LONG CELEBRATION ...\n• 2025-08-20T15:27:46+00:00: Stocks with the largest increases in short interest so far in 3Q – Goldman Sachs...\n• 2025-08-20T03:32:08+00:00: Spotting Winners: Ameris Bancorp (NYSE:ABCB) And Regional Banks Stocks In Q2...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CMA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CMA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:13:06.912221",
+    "estimated_tokens": 2347
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CMA\",\n    \"rating\": 61,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 12,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CMA shows positive technical momentum with price above both 50 and 200 SMAs and a strong MA ribbon score of 100. However, decelerating momentum (-21.21 momentum acceleration) and upcoming earnings risk partially offset the bullish setup.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (50SMA: 63.79, 200SMA: 62.11)\",\n        \"Active volatility squeeze with 60.43% compression and 2 multi-timeframe squeezes\",\n        \"Reasonable valuation with P/E of 13.4 and healthy profit margin of 22.6%\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration (-21.21)\",\n        \"Low options volume (9) relative to open interest (805)\",\n        \"Earnings approaching on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $67.5 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position small due to upcoming earnings and moderate liquidity\"\n    },\n    \"red_flags\": [\n        \"Very low options volume/OI ratio of 0.011\",\n        \"Earnings in approximately 30 days\"\n    ],\n    \"notes\": \"While technical setup is promising, options liquidity concerns and upcoming earnings create execution challenges. Consider stock or more liquid strikes if pursuing position.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CMA",
+      "rating": 61,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 12,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "CMA shows positive technical momentum with price above both 50 and 200 SMAs and a strong MA ribbon score of 100. However, decelerating momentum (-21.21 momentum acceleration) and upcoming earnings risk partially offset the bullish setup.",
+      "opportunities": [
+        "Price trending above key moving averages (50SMA: 63.79, 200SMA: 62.11)",
+        "Active volatility squeeze with 60.43% compression and 2 multi-timeframe squeezes",
+        "Reasonable valuation with P/E of 13.4 and healthy profit margin of 22.6%"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration (-21.21)",
+        "Low options volume (9) relative to open interest (805)",
+        "Earnings approaching on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $67.5 strike as lower leg to reduce cost basis",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position small due to upcoming earnings and moderate liquidity"
+      },
+      "red_flags": [
+        "Very low options volume/OI ratio of 0.011",
+        "Earnings in approximately 30 days"
+      ],
+      "notes": "While technical setup is promising, options liquidity concerns and upcoming earnings create execution challenges. Consider stock or more liquid strikes if pursuing position."
+    },
+    "tokens_used": 2555,
+    "cost": 0.02555,
+    "response_time": 11.815315008163452,
+    "success": true
+  },
+  "cost": 0.02555,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8587,
+    "response_length": 1638
+  }
+}

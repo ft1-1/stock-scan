@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "NVDA",
+  "timestamp": "2025-08-27T00:13:48.435418",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVDA",
+      "package_timestamp": "2025-08-27T00:13:35.443120",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVDA",
+        "current_price": 181.77,
+        "overall_score": 51.83924323178959,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 167.6928,
+        "sma_200": 138.0739
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.840169731258846,
+        "momentum_63d": 34.14760147601476,
+        "momentum_126d": 43.54418384269132,
+        "momentum_acceleration": -31.307431744755917,
+        "roc_21d": 2.840169731258846,
+        "trend_strength_20d": 0.00023188348401273959,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.57576176362981,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.00691333924466091
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 6.0,
+        "squeeze_momentum": -0.5385886400648194,
+        "volatility_compression": 7.077338495550252,
+        "is_consolidating": "False",
+        "breakout_score": 11.85525064287946,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 20.98122257364091,
+        "squeeze_breakout": 4.0,
+        "options_quality": 22.990588235294087,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 51.06160077433254,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 11,
+        "percentile": 99.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVDA",
+        "strike_price": "180",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.7",
+        "ask": "12.8",
+        "last_price": "12.8",
+        "mid_price": "12.75",
+        "spread_percent": "0.7812500"
+      },
+      "greeks": {
+        "delta": 0.5716,
+        "gamma": 0.0137,
+        "theta": -0.118,
+        "vega": 0.2693
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4145
+      },
+      "liquidity_metrics": {
+        "volume": 4528,
+        "open_interest": 27800,
+        "volume_oi_ratio": 0.16287769784172662
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:10.741511",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T23:34:19+00:00",
+            "title": "Stock market today: Dow, S&amp;P 500, Nasdaq futures inch higher with all eyes on Nvidia earnings",
+            "content": "US stock futures inched higher with Wall Street on edge ahead of Nvidia's (NVDA) earnings report.\n\nFutures attached to the Dow Jones Industrial Average (YM=F), the benchmark S&P 500 (ES=F), and the tech-heavy Nasdaq 100 (NQ=F) rose 0.1%.\n\nCBOT - Delayed Quote•USD\n\n(YM=F)\n\nFollow  View Quote Details\n\n45,522.00\n\n+33.00\n\n+(0.07%)\n\nAs of 7:31:04 PM EDT. Market Open.  YM=FES=F NQ=F\n\nAdvanced Chart\n\nThe chip giant is set to report its results on Wednesday after the bell. Investor expectations are sky-high, with Nvidia stock up around 35% so far this year despite US curbs on China chip sales. Investors will also be watching its results as a bellwether of Big Tech as investors show renewed skepticism toward relentless spending on AI.\n\nNasdaqGS - Delayed Quote•USD\n\n(NVDA)\n\nFollow  View Quote Details\n\n181.77\n\n+1.94\n\n+(1.08%)\n\nAt close: 4:00:00 PM EDT  Advanced Chart\n\nIn day trading, stocks cautiously rose Tuesday after President Trump moved to fire Federal Reserve governor Lisa Cook on allegations of mortgage fraud. Cook responded that she would not resign from her position and instead would file a lawsuit, setting up Fed independence to become a court matter.\n\nAfter the bell, Cracker Barrel (CBRL) saw its second stock surge of the day after the company acquiesced to comments from Trump and public outcry that it should never have scrapped its old logo. Cracker Barrel said in a statement that its \"old\" logo would be reinstated, and its redesign would be abandoned.\n\nOkta (OKTA) shares also jumped in after-hours trading as investors cheered earnings results that reflected booming demand for cybersecurity tools.\n\nMeanwhile, UnitedHealth stock continued its slide on reports the US Justice Department is investigating the company over more issues than Medicare fraud.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T23:30:54+00:00",
+            "title": "Trump met Bill Gates at the White House on Tuesday- NBC",
+            "content": "Investing.com-- U.S. President Donald Trump met former Microsoft CEO and billionaire Bill Gates in the White House on Tuesday, NBC News reported, citing a senior White House official.\n\nIt was not immediately clear what the two discussed.\n\nThe meeting comes after Trump met several high-profile business executives in recent months, including Nvidia CEO Jensen Huang, JP Morgan CEO Jamie Dimon, and Intel CEO Lip-Bu tan.\n\nTrump had announced a 10% investment in Intel after meeting Tan, and had outlined plans to make similar investments in other chipmakers that were receiving government funding under the CHIPS Act.\n\nGates had earlier this year criticized Trump’s rollback of U.S. Aid and climate incentives.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T23:00:00+00:00",
+            "title": "Nvidia earnings &amp; comments from CEO Jensen Huang: What to Watch",
+            "content": "Market Domination Overtime host Josh Lipton takes a look at the top stories for investors to watch on Wednesday, Aug. 27.\n\nIn the morning, Williams-Sonoma (WSM) and Abercrombie & Fitch (ANF) will report quarterly earnings results.\n\nIn the afternoon, Nvidia (NVDA), CrowdStrike (CRWD), Snowflake (SNOW), and HPE (HPE) will report quarterly earnings results. Nvidia is reporting second quarter results, and analysts are anticipating better-than-expected results due to strong demand for its artificial intelligence (AI) chips. Investors will be listening for commentary on the company's ability to sell chips in China.\n\nTune in to Yahoo Finance on Wednesday, Aug. 27 at 4:15 p.m. for special coverage of Nvidia's quarterly results, followed by an exclusive interview with Nvidia CEO Jensen Huang at 6:40 p.m.\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination Overtime.\n\nVideo Transcript\n\n00:00 Speaker A\n\nTime now for to watch Wednesday, August 27th, starting off on the earnings front. We're getting another batch of earnings, but all eyes will be on AI juggernaut Nvidia. Nvidia announcing second quarter results after the market's closed on Wednesday. Analysts expecting Nvidia to top analysts estimates for Q2 driven by strong demand for its AI chips, including the new Blackroll chip. Hyperscalars and government AI projects continuing to show strong demand. Investors will also be listening closely for any commentary on the call about Nvidia's ability to sell chips in China. According to reports, the company is ordering a halt to H20 chip production in China. That's after a directive from the Chinese government against purchases of the chip. Yahoo Finance will have special coverage of all things Nvidia starting at 4:15 p.m. Eastern on Wednesday. And we're also bringing you a live interview with Nvidia CEO Jensen Wong after the earnings call. Be sure to tune in for that at 6:30 p.m. Eastern.  Related Videos\n\n04:35\n\nNvidia nears record, rotation, gold flag: Market takeaways\n\nYahoo Finance Video • 1 hour ago 01:42\n\nDOJ's UnitedHealth probe includes more than Medicare: Report\n\nYahoo Finance Video • 2 hours ago 03:51\n\nConstellation Brands, Oklo, AMD: Trending Tickers\n\nYahoo Finance Video • 3 hours ago 04:36\n\nMaking Private Assets Accessible for 401(k)s\n\nBloomberg • 7 hours ago\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T22:44:54+00:00",
+            "title": "Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Tuesday closed up by +0.41%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +0.43%.  September E-mini S&P futures (ESU25) rose +0.43%, and September E-mini Nasdaq futures (NQU25) rose +0.46%.\n\nStock indexes settled higher on Tuesday on some positive US economic news.  The US core capital goods and consumer confidence reports were stronger than expected. Also, the strength in semiconductor makers was supportive of the overall market.  In addition, China is sending Vice Commerce Minister Li Chenggang to the US to meet with US trade officials and negotiators, a move that signals trade talks with China are progressing.Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nStock indexes added to their gains Tuesday afternoon when bond yields declined on strong demand for the Treasury's $69 billion auction of 2-year T-notes.  The 10-year T-note yield fell -2 bp to 4.25%.\n\nHowever, fresh concerns over the Fed's independence limited gains in stocks and weighed on the dollar after President Trump moved to fire Fed Governor Lisa Cook, citing \"sufficient cause\" based on the administration’s allegations she made false statements on one or more mortgage loans.  Ms. Cook said she will not resign, and her lawyer pledged to take \"whatever actions are needed to prevent\" the president's \"illegal action.\"\n\nUS July capital goods new orders nondefense ex-aircraft and parts, a proxy for capital spending, rose +1.1% m/m, stronger than expectations of +0.2% m/m.\n\nThe US June S&P Core Logic composite-20 home price index eased to +2.14% y/y from +2.81% y/y in May, the smallest increase in two years.\n\nThe Conference Board US Aug consumer confidence index fell -1.3 to 97.4, stronger than expectations of 96.5.\n\nThe US Aug Richmond Fed manufacturing survey rose +13 to a 5-month high of -7, stronger than expectations of -11.\n\nRegarding tariffs, President Trump late Monday threatened to impose new tariffs and export restrictions on advanced technology and semiconductors in retaliation against other nations' digital services taxes that hit American companies.  Last week, Mr. Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect last Monday and did not exclude goods already in transit.\n\nIn other recent tariff news, Mr. Trump on August 13 extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nOn the geopolitical front, diplomatic efforts to end the war in Ukraine remain elusive, as the US tries to broker a peace deal between the two countries.  On Sunday, Russian Foreign Minister Lavrov said there was no meeting planned between the leaders of Russia and Ukraine and that there \"needs to be an agenda first\" for a meeting to take place.  \"This agenda is not ready at all.\"\n\nThe markets this week will focus on any fresh tariff news or developments on ending the Ukraine-Russian war.  After Wednesday's close, Nvidia will release its quarterly earnings and guidance.  On Thursday, Q2 GDP is expected to be revised upward by +0.1 to 3.1% (q/q annualized). Also, weekly initial unemployment claims are expected to fall by -5,000 to 230,000.  On Friday, July personal spending is expected to climb +0.3% m/m, and July personal income is expected to rise +0.4% m/m.   Also, the July core PCE price index, the Fed's preferred inflation gauge, is expected to climb +0.2% m/m and +2.9% y/y.  In addition, the Aug MNI Chicago PMI is expected to fall -0.6 to 46.5.  Finally, the University of Michigan's final-Aug US consumer sentiment index is expected to be unrevised at 58.6.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 87% at the next FOMC meeting on September 16-17.  The markets are discounting the chances at 52% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With Q2 earnings season winding down, over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets closed lower on Tuesday.  The Euro Stoxx 50 fell to a 1.5-week low and closed down -1.11%.  China's Shanghai Composite fell from a new 10-year high and closed down -0.39%.  Japan's Nikkei Stock 225 dropped to a 2-week low and closed down -0.97%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Tuesday closed up +7.5 ticks, and the 10-year T-note yield fell -2.1 bp to 4.254%.\n\nT-notes recovered from early losses on Tuesday and moved higher after strong demand for the Treasury's $69 billion auction of 2-year T-notes sparked short covering in T-note futures.  The auction had a bid-to-cover ratio of 2.69, better than the 10-auction average of 2.62.  T-notes also garnered support when Fed Governor Cook said she has no plans to resign and that \"no cause exists\" for President Trump to fire her.\n\nT-notes initially moved lower on Tuesday after President Trump said he will move to fire Fed Governor Cook, exacerbating investor concerns about the Fed's independence and fanning inflation fears if politics forces interest rates below the neutral rate.  Also, rising inflation expectations undercut T-note prices after the 10-year breakeven inflation expectations rate rose to a 3.5-week high on Tuesday of 2.438%.  In addition, today's stronger-than-expected US core capital goods and consumer confidence reports were bearish for T-notes.\n\nEuropean government bond yields on Tuesday were mixed.  The 10-year German bund yield fell -3.4 bp to 2.723%. 10-year UK gilt yield rose to a 3-month high of 4.765% and finished up +4.7 bp to 4.740%.\n\nThe French Aug consumer confidence indicator unexpectedly fell -1 to a 1.75-year low of 87, weaker than expectations of 89.\n\nSwaps are discounting the chances at 1% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nStrength in semiconductor makers on Tuesday supported gains in the broader market.  Marvell Technology (MRVL) closed up more than +2%.  Also, Nvidia (NVDA), Applied Materials (AMAT), Advanced Micro Devices (AMD), ARM Holdings Plc (ARM), Qualcomm (QCOM), Lam Research (LRCX), and Broadcom (AVGO) closed up more than +1%.\n\nEli Lilly (LLY) closed up more than +5% to lead gainers in the S&P 500 after the company said a second trial of its experimental obesity pill showed patients lost weight and saw significant improvements in blood sugar levels.\n\nBoeing (BA) closed up more than +3% to lead gainers in the Dow Jones Industrials after Reuters reported that Korea Air is expected to announce an order for about 100 Boeing airplanes.\n\nEchoStar (SATS) closed up more than +70% after AT&T announced an agreement to buy spectrum licenses from the company for about $23 billion.\n\nSemtech (SMTC) closed up more than +14% after reporting Q2 adjusted gross margin of 53.2%, above the consensus of 53.0%.\n\nVF Corp (VFC) closed up more than +5% after Baird upgraded the stock to outperform from neutral with a price target of $20.\n\nKinetik Holdings (KNTK) closed up more than +2% after S&P Dow Jones Indices announced the company will replace Pacific Premier Bancorp in the S&P SmallCap 600 effective before the opening of trading on Tuesday, September 2.\n\nKeurig Dr Pepper (KDP) closed down more than 6% to lead the losers in the S&P 500 and Nasdaq 100 after HSBC downgraded the stock to \"hold\" from \"buy.\"\n\nBrown-Forman (BF.B) closed down more than -4% after the company said CFO Cunningham will retire on May 1, 2026.\n\nShoe Carnival (SCVL) closed down more than -4% after Seaport Global Securities downgraded the stock to neutral from buy.\n\nConstellation Brands (STZ) closed down more than -3% after Bank of America downgraded the stock to underperform from neutral with a price target of $150.\n\nGenerac Holdings (GNRC) closed down more than -1% after Citigroup downgraded the stock to neutral from buy.\n\nSalesforce (CRM) closed down more than -1% to lead losers in the Dow Jones Industrials after Oppenheimer & Co. cut its price target on the stock to $315 from $370.\n\nEarnings Reports(8/27/2025)\n\nAgilent Technologies Inc (A), BILL Holdings Inc (BILL), Cooper Cos Inc/The (COO), Crowdstrike Holdings Inc (CRWD), Donaldson Co Inc (DCI), Five Below Inc (FIVE), HP Inc (HPQ), J M Smucker Co/The (SJM), NetApp Inc (NTAP), Nutanix Inc (NTNX), NVIDIA Corp (NVDA), Pure Storage Inc (PSTG), Snowflake Inc (SNOW), Veeva Systems Inc (VEEV), Williams-Sonoma Inc (WSM). On the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here.\n\nMore news from Barchart\n\nInteractive Brokers Is Joining the S&P 500. Should You Buy IBKR Stock Here?Dear Lucid Group Stock Fans, Mark Your Calendars for August 29Trump Media Is Becoming a Crypto Treasury Company. How Should You Play DJT Stock Here?Dear Marvell Stock Fans, Mark Your Calendars for August 28</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T22:43:16+00:00",
+            "title": "US stocks end higher after Trump attacks Fed; Nvidia climbs",
+            "content": "STORY: U.S. stocks ended slightly higher on Tuesday, with the Dow adding three-tenths of a percent and the S&P 500 and Nasdaq each gaining about four-tenths of a percent.\n\nPresident Trump late on Monday said he was removing Fed Governor Lisa Cook over alleged improprieties in obtaining mortgage loans, adding to concerns about the central bank's independence from politics.\n\nBut Nancy Tengler, CEO and chief investment officer at Laffer Tengler Investments, said investors are mostly focusing on Wednesday's earnings results from AI powerhouse Nvidia.\n\n\"Really at the end of the day, stocks trade off of earnings. Nvidia reports tomorrow, I think that's going to be pivotal and we'll all be hanging over the edge of our terminals to see what happens - but that's really what matters to stocks in the long run. In the short run, the hedge funds and the algorithms drive volatility, and today there's really no incentive to trade against tomorrow's earnings report. So fingers crossed for the entire stock market that Nvidia does what everyone expects.\" Related Videos\n\n01:02\n\nNvidia earnings & comments from CEO Jensen Huang: What to Watch\n\nYahoo Finance Video • 5 minutes ago 04:35\n\nNvidia nears record, rotation, gold flag: Market takeaways\n\nYahoo Finance Video • 1 hour ago 01:42\n\nDOJ's UnitedHealth probe includes more than Medicare: Report\n\nYahoo Finance Video • 2 hours ago 04:28\n\nTrump targeting Fed Gov. Cook is 'dangerous' for US economy\n\nYahoo Finance Video • 2 hours ago\n\nNvidia rose about 1% ahead of its quarterly report, which will show how the world's most valuable company is faring in the crossfire of Washington and Beijing's ongoing trade war.\n\nOther movers included EchoStar, which surged 70% to a record high after telecom giant AT&T said it has agreed to buy certain wireless spectrum licenses from the satellite communications firm for about $23 billion.\n\nAnd shares of Eli Lilly jumped almost 6% after the drugmaker said its experimental pill cuts body weight by 10.5% in diabetes patients.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "NVIDIA Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 36000,
+          "description": "NVIDIA Corporation, a computing infrastructure company, provides graphics and compute and networking solutions in the United States, Singapore, Taiwan, China, Hong Kong, and internationally. The Compute & Networking segment includes its Data Centre accelerated computing platforms and artificial inte"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.1,
+          "profit_margin": 0.5169,
+          "operating_margin": 0.4911,
+          "roe": 1.1546,
+          "roa": 0.5324,
+          "revenue_growth_yoy": 0.692,
+          "earnings_growth_yoy": 0.267,
+          "eps_estimate_current_year": 2.9539,
+          "eps_estimate_next_year": 4.4343,
+          "dividend_yield": 0.0002,
+          "dividend_per_share": 0.04,
+          "revenue_ttm": 148514996224,
+          "revenue_per_share": 6.059,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 58.0032,
+          "forward_pe": 39.5257,
+          "price_to_sales": 29.5265,
+          "price_to_book": 51.7723,
+          "enterprise_value": 4298335281999,
+          "ev_to_revenue": 28.9421,
+          "ev_to_ebitda": 47.2511
+        },
+        "technical_data": {
+          "beta": 2.145,
+          "52_week_high": 184.48,
+          "52_week_low": 86.614,
+          "50_day_ma": 167.6928,
+          "200_day_ma": 138.0739,
+          "short_interest": 0.0082,
+          "short_ratio": 1.17
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.04,
+          "forward_dividend_yield": 0.0002,
+          "payout_ratio": 0.012,
+          "dividend_date": "2025-07-03",
+          "ex_dividend_date": "2025-06-11",
+          "last_split_date": "2024-06-10",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5238,
+          "target_price": 192.7196,
+          "strong_buy": 43,
+          "buy": 12,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 24387600384,
+          "percent_institutions": 68.688,
+          "percent_insiders": 4.317,
+          "shares_float": 23420096000
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125254.0,
+          "total_debt": 10285.0,
+          "net_debt": -4949.0,
+          "working_capital": 63393.0,
+          "shareholders_equity": 83843.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.12
+        },
+        "income_latest_statement": {
+          "total_revenue": 44062.0,
+          "gross_profit": 26668.0,
+          "operating_income": 21638.0,
+          "net_income": 18775.0,
+          "ebitda": 22584.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 60.52,
+          "operating_margin": 49.11,
+          "net_margin": 42.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27414.0,
+          "free_cash_flow": 26187.0,
+          "capex": 1227.0,
+          "net_income": 18775.0,
+          "cash_change": 6645.0,
+          "dividends_paid": 244.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-07-31",
+            "estimate": 1,
+            "symbol": null
+          },
+          {
+            "date": "2025-10-31",
+            "estimate": 1.19,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 171.06,
+            "high": 171.75,
+            "low": 168.9,
+            "close": 171.37,
+            "volume": 158831500
+          },
+          {
+            "date": "2025-07-17",
+            "open": 172.02,
+            "high": 174.16,
+            "low": 170.83,
+            "close": 173,
+            "volume": 160841109
+          },
+          {
+            "date": "2025-07-18",
+            "open": 173.64,
+            "high": 174.25,
+            "low": 171.26,
+            "close": 172.41,
+            "volume": 146456406
+          },
+          {
+            "date": "2025-07-21",
+            "open": 172.75,
+            "high": 173.38,
+            "low": 171,
+            "close": 171.38,
+            "volume": 123126094
+          },
+          {
+            "date": "2025-07-22",
+            "open": 171.34,
+            "high": 171.39,
+            "low": 164.58,
+            "close": 167.03,
+            "volume": 193114297
+          },
+          {
+            "date": "2025-07-23",
+            "open": 169.53,
+            "high": 171.26,
+            "low": 167.97,
+            "close": 170.78,
+            "volume": 154082203
+          },
+          {
+            "date": "2025-07-24",
+            "open": 172.44,
+            "high": 173.83,
+            "low": 171.3,
+            "close": 173.74,
+            "volume": 128984602
+          },
+          {
+            "date": "2025-07-25",
+            "open": 173.61,
+            "high": 174.72,
+            "low": 172.96,
+            "close": 173.5,
+            "volume": 122316797
+          },
+          {
+            "date": "2025-07-28",
+            "open": 174.02,
+            "high": 177,
+            "low": 173.97,
+            "close": 176.75,
+            "volume": 140023500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 177.96,
+            "high": 179.38,
+            "low": 175.02,
+            "close": 175.51,
+            "volume": 154077500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 176.51,
+            "high": 179.89,
+            "low": 176.04,
+            "close": 179.27,
+            "volume": 174312188
+          },
+          {
+            "date": "2025-07-31",
+            "open": 182.9,
+            "high": 183.3,
+            "low": 175.93,
+            "close": 177.87,
+            "volume": 221685406
+          },
+          {
+            "date": "2025-08-01",
+            "open": 174.09,
+            "high": 176.54,
+            "low": 170.89,
+            "close": 173.72,
+            "volume": 204528984
+          },
+          {
+            "date": "2025-08-04",
+            "open": 175.16,
+            "high": 180.2,
+            "low": 174.52,
+            "close": 180,
+            "volume": 148174594
+          },
+          {
+            "date": "2025-08-05",
+            "open": 179.62,
+            "high": 180.26,
+            "low": 175.9,
+            "close": 178.26,
+            "volume": 156407594
+          },
+          {
+            "date": "2025-08-06",
+            "open": 176.325,
+            "high": 179.9,
+            "low": 176.25,
+            "close": 179.42,
+            "volume": 137192297
+          },
+          {
+            "date": "2025-08-07",
+            "open": 181.57,
+            "high": 183.88,
+            "low": 178.795,
+            "close": 180.77,
+            "volume": 151878406
+          },
+          {
+            "date": "2025-08-08",
+            "open": 181.55,
+            "high": 183.3,
+            "low": 180.4,
+            "close": 182.7,
+            "volume": 123396703
+          },
+          {
+            "date": "2025-08-11",
+            "open": 182.05,
+            "high": 183.84,
+            "low": 180.25,
+            "close": 182.06,
+            "volume": 138323203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 182.96,
+            "high": 184.48,
+            "low": 179.46,
+            "close": 183.16,
+            "volume": 145729203
+          },
+          {
+            "date": "2025-08-13",
+            "open": 182.615,
+            "high": 183.97,
+            "low": 179.35,
+            "close": 181.59,
+            "volume": 179871703
+          },
+          {
+            "date": "2025-08-14",
+            "open": 179.75,
+            "high": 183.02,
+            "low": 179.46,
+            "close": 182.02,
+            "volume": 129554000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 181.88,
+            "high": 181.9,
+            "low": 178.0417,
+            "close": 180.45,
+            "volume": 156602203
+          },
+          {
+            "date": "2025-08-18",
+            "open": 180.6,
+            "high": 182.9375,
+            "low": 180.59,
+            "close": 182.01,
+            "volume": 132008000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 182.43,
+            "high": 182.5,
+            "low": 175.49,
+            "close": 175.64,
+            "volume": 185229203
+          },
+          {
+            "date": "2025-08-20",
+            "open": 175.165,
+            "high": 176,
+            "low": 168.801,
+            "close": 175.4,
+            "volume": 215142703
+          },
+          {
+            "date": "2025-08-21",
+            "open": 174.85,
+            "high": 176.9,
+            "low": 173.81,
+            "close": 174.98,
+            "volume": 140040891
+          },
+          {
+            "date": "2025-08-22",
+            "open": 172.61,
+            "high": 178.59,
+            "low": 171.2,
+            "close": 177.99,
+            "volume": 172789406
+          },
+          {
+            "date": "2025-08-25",
+            "open": 178.35,
+            "high": 181.91,
+            "low": 176.57,
+            "close": 179.81,
+            "volume": 163012797
+          },
+          {
+            "date": "2025-08-26",
+            "open": 180.055,
+            "high": 182.39,
+            "low": 178.81,
+            "close": 181.77,
+            "volume": 167875506
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.566748333428306,
+        "return_63d": 34.83421111193532,
+        "pct_above_sma50": 7.882541747582062,
+        "sma_50": 168.48879999999997,
+        "new_55d_high": "False",
+        "high_55d": 184.48,
+        "rsi": 54.901960784313765,
+        "rsi_in_range": "True",
+        "adx": 33.72799383796174,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.6976343731088748,
+        "bb_width": 6.205406167751021,
+        "keltner_width": 10.952262467088435,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 29103699615.152752,
+        "adv_shares": 162187749.5,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 58.971810808935,
+        "final_score": 58.971810808935,
+        "sub_scores": {
+          "trend_momentum": 20.98122257364091,
+          "squeeze_breakout": 4.0,
+          "options_quality": 22.990588235294087,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 2.840169731258846,
+          "ret_63d": 34.14760147601476,
+          "rsi14": 54.901960784313765,
+          "adx14": 31.011449779837136,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVDA\n• Current Price: $181.77\n• Overall Score: 51.83924323178959\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 167.6928\n• Sma 200: 138.0739\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.840169731258846\n• Momentum 63D: 34.14760147601476\n• Momentum 126D: 43.54418384269132\n• Momentum Acceleration: -31.307431744755917\n• Roc 21D: 2.840169731258846\n• Trend Strength 20D: 0.00023188348401273959\n• Trend Direction: 1\n• Ma Ribbon Score: 83.57576176362981\n• Breakout Strength: 0.0\n• Price Velocity: 0.00691333924466091\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 6.0\n• Squeeze Momentum: -0.5385886400648194\n• Volatility Compression: 7.077338495550252\n• Is Consolidating: False\n• Breakout Score: 11.85525064287946\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 20.98122257364091\n• Squeeze Breakout: 4.0\n• Options Quality: 22.990588235294087\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 51.06160077433254\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVDA\n• Strike Price: $180\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.7\n• Ask: $12.8\n• Last: $12.8\n• Mid: $12.75\n• Spread: 0.7812500%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5716\n• Gamma: 0.0137\n• Theta: -0.118\n• Vega: 0.2693\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4145\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 4528\n• Open Interest: 27800\n• Volume/OI Ratio: 0.16287769784172662\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: NVIDIA Corporation\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $3.1\n• Profit Margin: 51.7%\n• ROE: 115.5%\n• P/E Ratio: 58.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T23:34:19+00:00: Stock market today: Dow, S&amp;P 500, Nasdaq futures inch higher with all eyes o...\n• 2025-08-26T23:30:54+00:00: Trump met Bill Gates at the White House on Tuesday- NBC...\n• 2025-08-26T23:00:00+00:00: Nvidia earnings &amp; comments from CEO Jensen Huang: What to Watch...\n• 2025-08-26T22:44:54+00:00: Stocks Finish Higher on Strength in Chip Makers and Lower Bond Yields...\n• 2025-08-26T22:43:16+00:00: US stocks end higher after Trump attacks Fed; Nvidia climbs...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVDA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVDA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:13:48.435089",
+    "estimated_tokens": 2329
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVDA\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 17,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NVDA shows strong technical momentum with price above both SMAs and an 83.57 MA ribbon score, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, approaching earnings and negative momentum acceleration (-31.30) warrant caution despite the current squeeze setup.\",\n    \"opportunities\": [\n        \"Strong technical trend with price well above 50/200 SMAs (181.77 vs 167.69/138.07)\",\n        \"High quality options with tight bid-ask spread (0.78%) and strong OI (27,800)\",\n        \"Active squeeze condition with 7.07 compression score and 2 timeframe confirmation\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration (-31.30)\",\n        \"Upcoming earnings on 2025-07-31\",\n        \"High P/E ratio of 58 suggests elevated valuation risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $180 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, but reserve capital for post-earnings adjustment\",\n        \"risk_management\": \"Size position conservatively due to earnings risk and use spread structure to mitigate high IV cost\"\n    },\n    \"red_flags\": [\n        \"Earnings report in <5 days could create significant volatility\",\n        \"Declining momentum acceleration suggests potential trend exhaustion\"\n    ],\n    \"notes\": \"Options liquidity metrics are strong but missing some key volatility data (IV rank/percentile) limits complete analysis of volatility positioning\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVDA",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 17,
+        "iv_value": 9,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "NVDA shows strong technical momentum with price above both SMAs and an 83.57 MA ribbon score, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, approaching earnings and negative momentum acceleration (-31.30) warrant caution despite the current squeeze setup.",
+      "opportunities": [
+        "Strong technical trend with price well above 50/200 SMAs (181.77 vs 167.69/138.07)",
+        "High quality options with tight bid-ask spread (0.78%) and strong OI (27,800)",
+        "Active squeeze condition with 7.07 compression score and 2 timeframe confirmation"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration (-31.30)",
+        "Upcoming earnings on 2025-07-31",
+        "High P/E ratio of 58 suggests elevated valuation risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $180 strike as lower leg to reduce cost basis",
+        "entry_timing": "Consider partial position now with squeeze setup, but reserve capital for post-earnings adjustment",
+        "risk_management": "Size position conservatively due to earnings risk and use spread structure to mitigate high IV cost"
+      },
+      "red_flags": [
+        "Earnings report in <5 days could create significant volatility",
+        "Declining momentum acceleration suggests potential trend exhaustion"
+      ],
+      "notes": "Options liquidity metrics are strong but missing some key volatility data (IV rank/percentile) limits complete analysis of volatility positioning"
+    },
+    "tokens_used": 2578,
+    "cost": 0.02578,
+    "response_time": 12.990010738372803,
+    "success": true
+  },
+  "cost": 0.02578,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8515,
+    "response_length": 1801
+  }
+}

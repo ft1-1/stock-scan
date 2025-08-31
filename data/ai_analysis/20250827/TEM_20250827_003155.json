@@ -1,0 +1,627 @@
+{
+  "success": true,
+  "symbol": "TEM",
+  "timestamp": "2025-08-27T00:31:55.844601",
+  "data_package": {
+    "metadata": {
+      "symbol": "TEM",
+      "package_timestamp": "2025-08-27T00:31:45.387573",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TEM",
+        "current_price": 76.3037,
+        "overall_score": 48.92025641025641,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 64.1355,
+        "sma_200": 56.1015
+      },
+      "momentum_metrics": {
+        "momentum_21d": 23.064516129032253,
+        "momentum_63d": 15.834218916046746,
+        "momentum_126d": 29.103214890016915,
+        "momentum_acceleration": 7.230297212985507,
+        "roc_21d": 23.064516129032253,
+        "trend_strength_20d": 0.8777758065718492,
+        "trend_direction": 1,
+        "ma_ribbon_score": 90.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.009420823534852851
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.9601600153065729,
+        "volatility_compression": 7.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.48163891840831,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.688502732240416,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 87.0,
+        "squeeze": 6.05,
+        "options": 44.5,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 29,
+        "percentile": 98.3
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "TEM",
+        "strike_price": "75",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.1",
+        "ask": "12.3",
+        "last_price": "11.2",
+        "mid_price": "12.2",
+        "spread_percent": "1.626016260162601626016260163"
+      },
+      "greeks": {
+        "delta": 0.6022,
+        "gamma": 0.0135,
+        "theta": -0.067,
+        "vega": 0.1437
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.765
+      },
+      "liquidity_metrics": {
+        "volume": 39,
+        "open_interest": 768,
+        "volume_oi_ratio": 0.05078125
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:57.061710",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T12:42:00+00:00",
+            "title": "Tempus' Key Acquisitions Strengthen Its AI Healthcare Leadership",
+            "content": "Last Friday, Tempus AI, Inc. TEM announced the acquisition of Paige, an AI company specializing in digital pathology. The acquisition, valued at $81.25 million, is expected to allow Tempus to grow its dataset and expand its experienced technical team. Paige brings nearly 7 million digitized pathology slide images and associated clinical and molecular data that are carefully labeled. Paige has already created the first AI tool cleared by the FDA for pathology. These factors will help Tempus establish a strong footprint in digital pathology with an industry-leading technology portfolio.\n\nAdditionally, in March, Tempus acquired Deep 6 AI, a leading AI-powered precision research platform for healthcare organizations and life sciences companies. Deep 6 AI works with over 750 healthcare providers and has access to medical records from more than 30 million patients. By integrating Deep 6 AI’s technology, Tempus significantly expanded its reach and enhanced platforms such as Next, which improves patient care, and TIME, which connects patients to life-saving clinical trials.\n\nFurthermore, earlier this year, Tempus completed the acquisition of Ambry Genetics, a genetic testing company that specializes in hereditary cancer screening and other genetic diseases. Tempus acquired Ambry Genetics with $375 million in cash and $225 million in stock, with $100 million of that stock temporarily locked up for a year. By combining Ambry’s genetic testing strengths with Tempus’ AI and data tools, the latter broadened its healthcare offerings into new areas, like pediatrics, women's health, rare disease, immunology and cardiology.\n\nAcquisitions by TEM’s Peers\n\nIn April, NeoGenomics, Inc. NEO completed its previously announced acquisition of Pathline, LLC, a CLIA/CAP/NYS-certified laboratory based in New Jersey. This strengthens NeoGenomics' footprint in the Northeastern United States, expanding its molecular and hematology-oncology testing services. It is expected to drive top-line growth and generate cost synergies, with a positive impact on adjusted EBITDA by 2026.\n\nIn 2024, Veracyte, Inc. VCYT acquired C2i Genomics, Inc. for $70 million in shares, with up to $25 million more, contingent on performance milestones, over two years. The acquisition brought AI-driven, whole-genome minimal residual disease (MRD) capabilities to Veracyte’s novel diagnostics platforms, enabling test expansion from early diagnosis to treatment monitoring and recurrence detection.\n\nTEM Stock Outperforms Industry & Benchmark\n\nYear to date, Tempus AI shares have surged 121.3%, outperforming the industry’s 27% growth and the S&P 500 composite’s 9.8% improvement.\n\nStory Continues\n\nZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nExpensive Valuation\n\nTEM currently trades at a forward 12-month Price-to-Sales (P/S) of 9.04X compared with the industry average of 5.90X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nTEM Stock Estimate Trend\n\nIn the past 30 days, Tempus AI's loss per share estimate for 2025 has moved south 3%. Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nTEM stock currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNeoGenomics, Inc. (NEO) : Free Stock Analysis Report\n\nVeracyte, Inc. (VCYT) : Free Stock Analysis Report\n\nTempus AI, Inc. (TEM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T10:08:38+00:00",
+            "title": "Should Investors Rethink Tempus AI After Shares Double and New Novartis Collaboration?",
+            "content": "Thinking about what to do with Tempus AI shares right now? You are not alone. The stock has been full of surprises for investors looking for the next standout opportunity. After sprinting more than 120% year-to-date, Tempus AI has cemented itself as one of the boldest growth stories out there. But if you just look back one week, you will see a pullback of about 3.3%. Is this a natural breather after that meteoric rise, or a sign that risk is creeping in?\n\nTo put those moves in perspective, Tempus AI has notched an impressive 17.7% jump over the past month, and the 1-year gain stands at 25.4%. Some of this has been fueled by excitement around recent collaborations in the healthcare AI space and broader optimism about the role of technology in medical diagnostics. That hype has brought more eyeballs and more volatility, as traders and long-term investors debate whether Tempus AI is already priced for perfection.\n\nHere is where things get interesting. When you run Tempus AI through six traditional valuation checks, the stock scores a 0 out of 6 for being undervalued. In other words, as of now, it is not hitting any of the classic metrics that signal a bargain buy.\n\nBefore you draw conclusions, let’s dig into these valuation methods and see what they actually reveal. And stick around, because at the end, I will share a perspective on valuation you may not have considered but can be even more powerful than the numbers alone.\n\nTempus AI scores just 0/6 on our valuation checks. See what other red flags we found in the full valuation breakdown.\n\nApproach 1: Tempus AI Cash Flows\n\nA Discounted Cash Flow (DCF) model takes a company’s future expected cash flows and discounts them back to today’s dollars to estimate what the business is really worth. For Tempus AI, this model begins with a current free cash flow of -$90 million, reflecting negative cash outflows as the company invests heavily in growth. Looking ahead, analysts project a remarkable transformation to positive cash flows, reaching $163 million by 2028 and continuing to climb according to long-term estimates.\n\nSimply Wall St’s DCF model blends analyst predictions for the first five years and extrapolates the next five, then calculates an estimated intrinsic value of $17.09 per share. Comparing this to the actual share price, the DCF model suggests Tempus AI appears 344.1% overvalued. In simple terms, the stock currently trades well above what its discounted future cash flows would justify.\n\nResult: OVERVALUED\n\nHead to the Valuation section of our Company Report for more details on how we arrive at this Fair Value for Tempus AI.\n\nStory Continues\n\nTEM Discounted Cash Flow as at Aug 2025\n\nOur DCF analysis suggests Tempus AI may be overvalued by 344.1%. Find undervalued stocks based on DCF analysis or create your own screener to find better value opportunities.\n\nApproach 2: Tempus AI Price vs Sales\n\nFor companies like Tempus AI that are still building their profitability, the price-to-sales (P/S) ratio becomes a key valuation tool. This metric is especially useful for high-growth firms without positive earnings, offering investors a way to gauge market expectations relative to current revenues. Typically, higher P/S ratios may be justified if investors anticipate rapid future growth, while higher risk or stagnant sales may lead to lower figures.\n\nTempus AI currently trades at a P/S multiple of 13.85x, which stands out in comparison to the life sciences industry average of just 3.45x. Even among peer companies, the average is much lower at 4.28x. This indicates that the market is placing a significant premium on Tempus’s potential, reflecting strong optimism about future expansion that may be influenced by the company's innovative advances and aggressive growth strategy.\n\nTo provide a more tailored sense of value, Simply Wall St uses what is called a Fair Ratio. This proprietary benchmark factors in Tempus AI’s growth prospects, risks, profit margins, industry sector, and overall market capitalization. The Fair Ratio for Tempus AI is 9.39x. This approach is more nuanced than a simple peer or sector average because it accounts for the company’s unique strengths and potential headwinds.\n\nWhen comparing Tempus AI’s actual P/S of 13.85x to its Fair Ratio of 9.39x, the current valuation appears stretched. The stock trades well above what is justified based on its overall risk and growth profile, suggesting that the shares may be priced with a considerable amount of optimism already included.\n\nResult: OVERVALUEDNasdaqGS:TEM PS Ratio as at Aug 2025\n\nPS ratios tell one story, but what if the real opportunity lies elsewhere? Discover companies where insiders are betting big on explosive growth.\n\nUpgrade Your Decision Making: Choose your Tempus AI Narrative\n\nEarlier, we mentioned that there is an even better way to understand valuation. Let us introduce you to Narratives. A Narrative is simply your story—your perspective and unique belief about a company—that underpins the numbers you use for fair value, future revenue, earnings, and margins. Narratives bridge the gap between the company’s potential and your personal forecast, connecting what you believe about the business to actual financial outcomes and fair value estimates.\n\nOn Simply Wall St’s Community page, millions of investors use Narratives as a straightforward and accessible tool to decide when a stock looks attractive or overpriced by comparing their calculated Fair Value with the real market price. The true power of Narratives is that they update automatically whenever new announcements, earnings releases, or news are published. This means your investment view can evolve as fresh information becomes available.\n\nFor example, one Tempus AI Narrative projects a fair value of $75, while another sees it at $60. This demonstrates how two investors, working from the same kind of data, can arrive at very different conclusions. Narratives empower you to invest with conviction based on your own interpretation of both the story and the numbers.\n\nDo you think there's more to the story for Tempus AI? Create your own Narrative to let the Community know!NasdaqGS:TEM Community Fair Values as at Aug 2025\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include TEM.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T19:00:00+00:00",
+            "title": "Tempus AI or Butterfly: Which AI Health Tech Stock is a Buy Now?",
+            "content": "Tempus AI TEM and Butterfly Network BFLY both just reported their respective second-quarter 2025 results, which shed light on their AI-driven trajectories. Tempus AI continues to post rapid top-line expansion while leveraging its growing data ecosystem and clinical partnerships to reach closer to profitability. Butterfly Network, meanwhile, reported modest revenue growth as it works to scale adoption of its AI-driven handheld ultrasound platform and drive operating discipline. For investors, the choice is between Tempus’ high-growth precision medicine model and Butterfly’s turnaround-stage imaging platform.\n\nLet's Delve Deeper:\n\nOver the past 30 days, shares of Tempus AI have surged 29.9% while Butterfly Network stock has declined 21.6%. Butterfly’s moderate top-line gains, continued cash burn and reliance on cost-cutting over meaningful revenue acceleration dampened investor confidence. Meanwhile, the broader Medical Info Systems industry hasgained 2.7% and the S&P 500 index has risen 1.5% during this period.\n\nOne-Month Share Price PerformanceZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nKey Growth Factors for Tempus AI\n\nBuilding a Wide Moat, Profitability Within Reach: Tempus AI posted a strong second quarter of 2025, with revenues rising nearly 90% year over year, beating the Zacks Consensus Estimate by 5.12%, led by a 115% surge in Genomics from accelerating oncology and hereditary testing volumes and a 35.7% increase in high-margin Data and Services from AI-enabled data licensing. Gross profit jumped 158%, lifting adjusted gross margin to 62% despite a 32.2% rise in the cost of revenues (genomics, data and services). This breadth highlights how Tempus AI is building a wide moat across both clinical diagnostics and data-driven insights.\n\nAdjusted EBITDA loss narrowed to just $5.6 million. Management’s raised guidance for $1.26 billion in 2025 revenues and $5 million adjusted EBITDA underscores a disciplined shift toward sustainable growth.\n\nInnovation and Data Scale: Innovation is strengthening Tempus’ AI’s competitive moat, highlighted by the launch of the xM liquid biopsy, Ambry’s expanding role as a standard in hereditary testing and the growing integration of AI tools like Tempus Next and Tempus One into routine clinical practice. Alongside these advancements, Tempus’ scale in data and AI is becoming a structural advantage, with more than 40 million patient records connected and advanced foundation models now being trained on NVIDIA’s NVDA latest hardware. Strategic partnerships, such as the AstraZeneca AZN /Pathos AI collaboration, further demonstrate how Tempus AI’s data assets and AI capabilities combinedly is becoming essential to the pharmaceutical industry.\n\nStory Continues\n\nDownsides Prevail\n\nTempus AI is still operating at a loss, with negative adjusted EBITDA in the second quarter of 2025. Costs are also climbing, with the cost of revenues rising 32.2% year over year, reflecting the heavy investments required to scale both genomics and data services. This reliance on continued expansion to offset expenses leaves Tempus vulnerable if testing volumes or data licensing growth were to slow.\n\nKey Growth Factors for Butterfly Network\n\nEnterprise Momentum: Butterfly is gaining traction with large-scale deployments, including closing an enterprise-wide deal with one of the world’s top five health systems. This validates the scalability of its iQ3 handheld ultrasound and demonstrates confidence among major providers in Butterfly’s platform. Although sales cycles remain elongated, these large-scale wins create a foundation for repeatable, high-value contracts. At the same time, Compass AI, launching in the third quarter, signals Butterfly Network’s shift from hardware-led growth to a recurring, software-driven model. With features like voice automation and scan quality feedback, it is designed to boost productivity, positioning Butterfly to capture higher-margin, recurring revenue growth.\n\nExpanding Horizons With HomeCare, Octiv, and Butterfly Garden: Butterfly’s HomeCare pilots have reduced heart failure readmissions, with a state-level rollout due in 2025 and nationwide expansion that could generate $40-$60 million annually from one customer. Octiv, its semiconductor and imaging platform, is attracting partners, including a generative AI company, creating new licensing opportunities. At the same time, Butterfly Garden is becoming a differentiator with new partners, three FDA-cleared AI apps, the upcoming HeartFocus launch, and collaborations like MSK VUE and ScanLab. Together, these initiatives extend ultrasound’s reach, drive integration in healthcare, and enhance customer stickiness.\n\nRisks Remain\n\nDespite clear progress, Butterfly Network continues to face challenges that may temper near-term momentum. Sales cycles remain elongated, which could delay the conversion of enterprise wins into meaningful revenue. The HomeCare opportunity, while promising, is still in early pilot and rollout stages. Similarly, Octiv and Butterfly Garden are in formative phases, reliant on partner uptake, regulatory progress, and execution to deliver meaningful returns.\n\nComparing Valuation: BFLY is Attractively Valued Than TEM\n\nTempus AI is trading at a forward 12-month price-to-sales (P/S) ratio of 9.59, above its median of 8.05 over the last year. Butterfly Network’s forward sales multiple sits at 3.73, below its last one-year median of 5.46. Meanwhile, TEM appears expensive when compared with the industry average of 6X. On the other hand, BFLY stays slightly discounted compared to the industry.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nAverage Target Price for BFLY Suggests a Better Upside\n\nBased on short-term price targets offered by 10 analysts, TEM’s average price target represents a decline of 8.1% from the last closing price of $76.71.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nBased on short-term price targets offered by three analysts, BFLY’s average price target represents an increase of 128% from the last closing price of $1.39.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nBuy BFLY Right Now, Wait for TEM\n\nIn summary, while Tempus AI continues to deliver impressive growth, margin expansion and product innovation, its premium valuation, ongoing losses, and rising costs justify a more cautious stance, aligning with its Zacks Rank #3 (Hold). Investors may want to wait for a more attractive entry point or clearer path to sustained profitability before adding exposure. By contrast, Butterfly Network — despite modest top-line progress and lingering execution risks — now trades at distressed levels with analyst targets implying significant upside potential. With a Zacks Rank #2 (Buy), the stock appears more compelling in the near term, offering investors a chance to capitalize on a turnaround story. You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAstraZeneca PLC (AZN) : Free Stock Analysis Report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nButterfly Network, Inc. (BFLY) : Free Stock Analysis Report\n\nTempus AI, Inc. (TEM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:12:00+00:00",
+            "title": "Zacks Market Edge Highlights: ARKK, Tesla, Palantir Technologies, Robinhood Markets and Tempus",
+            "content": "For Immediate Release\n\nChicago, IL – August 25, 2025 – Zacks Market Edge is a podcast hosted weekly by Zacks Stock Strategist Tracey Ryniec. Every week, Tracey will be joined by guests to discuss the hottest investing topics in stocks, bonds and ETFs and how it impacts your life. To listen to the podcast, click here:  https://www.zacks.com/stock/news/2741199/cathie-woods-arkk-etf-is-back-buy-it-or-not)\n\nCathie Wood's ARKK ETF Is Back: Buy It or Not?\n\nWelcome to Episode #456 of the Zacks Market Edge Podcast.\n\n(0:30) - Is Cathie Wood Making A Comeback and Should You Be Jumping In? (6:30) - Breaking Down ARKK Recent Performance and It’s Holdings (21:45) - Episode Roundup: TSLA, SHOP, PLTR, TEM, COIN, HOOD, CRCL podcast@zacks.com\n\nEvery week, host and Zacks stock strategist, Tracey Ryniec, will be joined by guests to discuss the hottest investing topics in stocks, bonds, and ETFs and how it impacts your life.\n\nThis week, Tracey is going solo to talk about ARK Invest's flagship ETF, the Ark Innovation ETF ARKK. ARK Invest is led by CEO Cathie Wood who became popular during the pandemic when ARKK gained 152% in 2020.\n\nMoney flowed into ARKK in early 2021, but the ETF ended up falling 23.4% that year.\n\nARKK has struggled to get back into the green over the last 5 years. However, in 2025, investment in some hot growth stocks has propelled ARKK up 27.6% year-to-date.\n\nIs ARKK back?\n\nShould investors consider buying it, or not?\n\n4 of ARKK's Top Holdings\n\n1. Tesla, Inc. TSLA\n\nTesla is ARKK's largest holding at 10.3% of the portfolio. Cathie Wood has always made her bet on Tesla the cornerstone of ARKK.\n\nBut Tesla shares are actually down 20.7% year-to-date. It's still not cheap, with a forward P/E of 195.4.\n\nIt has a Zacks Rank of #4 (Sell).\n\nIf you want to own a concentrated position in Tesla, is ARKK the ETF for you?\n\n2. Palantir Technologies Inc. PLTR\n\nPalantir is a Top 10 position in ARKK at 4.53% of the portfolio. It's been one of the hottest stocks on Wall Street this year. Shares of Palantir are up 106.5% year-to-date.\n\nPalantir fits into the portfolio which is filled with high growth stocks as earnings are expected to rise 58.5% this year. It's a Zacks #2 (Buy) stock.\n\nIf you want to own Palantir and Tesla, should you be a buyer of ARKK?\n\n3. Robinhood Markets, Inc. HOOD\n\nRobinhood Markets is in the top 10 of ARKK holdings at 4.28% of the portfolio. It has busted out to new all-time highs this year. Shares of Robinhood are up 185.3% year-to-date.\n\nEarnings are expected to soar 42.2% this year. Robinhood is a Zacks Rank #1 (Strong Buy) stock, the highest Zacks recommendation.\n\nStory Continues\n\nDid Cathie make the right call by investing in Robinhood?\n\n4. Tempus AI, Inc. TEM\n\nTempus AI is ARKK's big bet on the AI Revolution. It's 5.66% of the portfolio.\n\nTempus AI went public in 2024. Shares are up 127% year-to-date. It is expected to see negative earnings this year, with a loss of $0.70, but earnings are expected to grow 55.7%.\n\nTempus AI is a Zacks Rank #2 (Buy) stock.\n\nIf you want to own Tempus AI, along with Palantir, Robinhood, Tesla and others, should you be buying ARKK?\n\nWhat Else Do You Need to Know About the ARK Innovation ETF?\n\nTune into this week's podcast to find out.\n\nWhy Haven't You Looked at Zacks' Top Stocks?\n\nSince 2000, our top stock-picking strategies have blown away the S&P's +7.7% average gain per year. Amazingly, they soared with average gains of +48.4%, +50.2% and +56.7% per year.\n\nToday you can access their live picks without cost or obligation.\n\nSee Stocks Free >>\n\nFollow us on Twitter:  https://twitter.com/zacksresearch\n\nJoin us on Facebook:  https://www.facebook.com/ZacksInvestmentResearch/\n\nZacks Investment Research is under common control with affiliated entities (including a broker-dealer and an investment adviser), which may engage in transactions involving the foregoing securities for the clients of such affiliates.\n\nMedia Contact\n\nZacks Investment Research\n\n800-767-3771 ext. 9339\n\nsupport@zacks.com\n\nhttps://www.zacks.com/performance\n\nPast performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit https://www.zacks.com/performancefor information about the performance numbers displayed in this press release.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nTesla, Inc. (TSLA) : Free Stock Analysis Report\n\nARK Innovation ETF (ARKK): ETF Research Reports\n\nPalantir Technologies Inc. (PLTR) : Free Stock Analysis Report\n\nRobinhood Markets, Inc. (HOOD) : Free Stock Analysis Report\n\nTempus AI, Inc. (TEM) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T12:07:51+00:00",
+            "title": "Validea Detailed Fundamental Analysis - TEM",
+            "content": "Below is Validea's guru fundamental report for TEMPUS AI INC (TEM). Of the 22 guru strategies we follow,  TEM rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth.\n\nTEMPUS AI INC (TEM) is a large-cap value stock in the Biotechnology & Drugs industry. The rating using this strategy is 55% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. BOOK/MARKET RATIO:PASSRETURN ON ASSETS:FAILCASH FLOW FROM OPERATIONS TO ASSETS:PASSCASH FLOW FROM OPERATIONS TO ASSETS VS. RETURN ON ASSETS:PASSRETURN ON ASSETS VARIANCE:PASSSALES VARIANCE:FAILADVERTISING TO ASSETS:FAILCAPITAL EXPENDITURES TO ASSETS:FAILRESEARCH AND DEVELOPMENT TO ASSETS:FAIL\n\nDetailed Analysis of TEMPUS AI INC\n\nTEM Guru Analysis\n\nTEM Fundamental Analysis\n\nMore Information on Partha Mohanram\n\nPartha Mohanram Portfolio\n\nAbout Partha Mohanram: Sometimes the best investing strategies don't come from the world of investing. Sometimes research that changes the investing world can come from the halls of academia. Partha Mohanram is a great example of this. While academic research has shown that value investing works over time, it has found the opposite for growth investing. Mohanram turned that research on its head by developing a growth model that produced significant market outperformance. His research paper \"Separating Winners from Losers among Low Book-to-Market Stocks using Financial Statement Analysis\" looked at the criteria that can be used to separate growth stocks that continue their upward trajectory from those that don't. Mohanram is currently the John H. Watson Chair in Value Investing at the University of Toronto and was previously an Associate Professor at the Columbia Business School.\n\nAdditional Research Links\n\nTop Healthcare Stocks\n\nDividend Aristocrats 2025\n\nWide Moat Stocks\n\nRecession Proof Stocks\n\nHigh Insider Ownership Stocks\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tempus AI, Inc. Class A Common Stock",
+          "sector": "Healthcare",
+          "industry": "Health Information Services",
+          "employees": 2400,
+          "description": "Tempus AI, Inc. operates as a healthcare technology company. It engages in providing next generation sequencing diagnostics, polymerase chain reaction profiling, molecular genotyping, and other anatomic and molecular pathology testing to healthcare providers, pharmaceutical companies, biotechnology "
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.15,
+          "profit_margin": -0.2098,
+          "operating_margin": -0.19,
+          "roe": -0.9795,
+          "roa": -0.1151,
+          "revenue_growth_yoy": 0.896,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.7271,
+          "eps_estimate_next_year": -0.0927,
+          "revenue_ttm": 951980992,
+          "revenue_per_share": 5.621,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 35.3023,
+          "forward_pe": 0,
+          "price_to_sales": 13.8511,
+          "price_to_book": 42.5954,
+          "enterprise_value": 13747867652,
+          "ev_to_revenue": 14.4413,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "52_week_high": 91.45,
+          "52_week_low": 31.36,
+          "50_day_ma": 64.1355,
+          "200_day_ma": 56.1015,
+          "short_interest": 0.1839,
+          "short_ratio": 2.59
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.8333,
+          "target_price": 71,
+          "strong_buy": 4,
+          "buy": 2,
+          "hold": 6,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 168684000,
+          "percent_institutions": 44.063,
+          "percent_insiders": 41.833,
+          "shares_float": 101696638
+        },
+        "balance_latest_sheet": {
+          "total_assets": 1625.365,
+          "total_debt": 853.252,
+          "net_debt": 666.942,
+          "working_capital": 226.041,
+          "shareholders_equity": 309.562,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.76
+        },
+        "income_latest_statement": {
+          "total_revenue": 314.635,
+          "gross_profit": 214.879,
+          "operating_income": -61.774,
+          "net_income": -42.843,
+          "ebitda": -61.774,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 68.29,
+          "operating_margin": -19.63,
+          "net_margin": -13.62
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 44.164,
+          "free_cash_flow": 37.948,
+          "capex": 6.216,
+          "net_income": -42.843,
+          "cash_change": 34.707,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 57.95,
+            "high": 60.22,
+            "low": 57.45,
+            "close": 59.97,
+            "volume": 14300100
+          },
+          {
+            "date": "2025-07-17",
+            "open": 60.81,
+            "high": 62.35,
+            "low": 59.6,
+            "close": 60.65,
+            "volume": 10393000
+          },
+          {
+            "date": "2025-07-18",
+            "open": 61.75,
+            "high": 62.98,
+            "low": 59.98,
+            "close": 60.98,
+            "volume": 8361300
+          },
+          {
+            "date": "2025-07-21",
+            "open": 61.86,
+            "high": 62.47,
+            "low": 57.84,
+            "close": 58.01,
+            "volume": 10079100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 58.49,
+            "high": 61.5,
+            "low": 57.6,
+            "close": 61.08,
+            "volume": 8108300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 61.125,
+            "high": 64.89,
+            "low": 60.05,
+            "close": 64.86,
+            "volume": 11427100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 64.35,
+            "high": 65.38,
+            "low": 62.88,
+            "close": 63.34,
+            "volume": 7540100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 63.39,
+            "high": 65.28,
+            "low": 62.2,
+            "close": 64.49,
+            "volume": 6667100
+          },
+          {
+            "date": "2025-07-28",
+            "open": 65.08,
+            "high": 65.82,
+            "low": 61.62,
+            "close": 62,
+            "volume": 7613300
+          },
+          {
+            "date": "2025-07-29",
+            "open": 61.05,
+            "high": 61.29,
+            "low": 57.86,
+            "close": 58.29,
+            "volume": 9181100
+          },
+          {
+            "date": "2025-07-30",
+            "open": 58.72,
+            "high": 59.46,
+            "low": 56.77,
+            "close": 57.81,
+            "volume": 7228200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 57.245,
+            "high": 59.65,
+            "low": 56.295,
+            "close": 56.59,
+            "volume": 7987600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 55.18,
+            "high": 56.04,
+            "low": 53.39,
+            "close": 54.89,
+            "volume": 6577900
+          },
+          {
+            "date": "2025-08-04",
+            "open": 54.945,
+            "high": 57.67,
+            "low": 54.5,
+            "close": 57.52,
+            "volume": 6179900
+          },
+          {
+            "date": "2025-08-05",
+            "open": 57.38,
+            "high": 58.915,
+            "low": 56.68,
+            "close": 57.74,
+            "volume": 4884700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 57.62,
+            "high": 57.64,
+            "low": 54.88,
+            "close": 55.53,
+            "volume": 5578400
+          },
+          {
+            "date": "2025-08-07",
+            "open": 56.9,
+            "high": 58.93,
+            "low": 56.81,
+            "close": 58.74,
+            "volume": 8344700
+          },
+          {
+            "date": "2025-08-08",
+            "open": 64.2,
+            "high": 65.73,
+            "low": 57.88,
+            "close": 60.87,
+            "volume": 26148100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 60.01,
+            "high": 64.85,
+            "low": 59.82,
+            "close": 60.82,
+            "volume": 12273900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 61.35,
+            "high": 66.4,
+            "low": 61.26,
+            "close": 66.34,
+            "volume": 15553700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 67.08,
+            "high": 71.85,
+            "low": 67.06,
+            "close": 69.63,
+            "volume": 19400800
+          },
+          {
+            "date": "2025-08-14",
+            "open": 66.615,
+            "high": 74.4,
+            "low": 66.56,
+            "close": 71.59,
+            "volume": 15219500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 71.95,
+            "high": 75.73,
+            "low": 70.19,
+            "close": 73.78,
+            "volume": 14685200
+          },
+          {
+            "date": "2025-08-18",
+            "open": 72.36,
+            "high": 78.99,
+            "low": 70.49,
+            "close": 78.45,
+            "volume": 14768200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 78.2,
+            "high": 78.4,
+            "low": 72.85,
+            "close": 73.08,
+            "volume": 12848000
+          },
+          {
+            "date": "2025-08-20",
+            "open": 70.77,
+            "high": 73.8,
+            "low": 67.02,
+            "close": 73.28,
+            "volume": 13854400
+          },
+          {
+            "date": "2025-08-21",
+            "open": 72.5,
+            "high": 78.59,
+            "low": 71.9,
+            "close": 76.71,
+            "volume": 15635200
+          },
+          {
+            "date": "2025-08-22",
+            "open": 76.45,
+            "high": 85.28,
+            "low": 75.67,
+            "close": 80.52,
+            "volume": 18678800
+          },
+          {
+            "date": "2025-08-25",
+            "open": 81.105,
+            "high": 81.73,
+            "low": 75.8,
+            "close": 75.9,
+            "volume": 10037600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 76,
+            "high": 77.15,
+            "low": 74.51,
+            "close": 76.3,
+            "volume": 6795835
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 30.89723794819008,
+        "return_63d": 43.42105263157893,
+        "pct_above_sma50": 18.78669093139507,
+        "sma_50": 64.2359,
+        "new_55d_high": "False",
+        "high_55d": 85.28,
+        "rsi": 75.42227662178703,
+        "rsi_in_range": "False",
+        "adx": 40.6610683963903,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 6.815858453473132,
+        "bb_width": 53.45895913247123,
+        "keltner_width": 31.221498738002246,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 810607924.042875,
+        "adv_shares": 12134031.75,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 55.17014165064873,
+        "final_score": 50.17014165064873,
+        "sub_scores": {
+          "trend_momentum": 22.48163891840831,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.688502732240416,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 23.064516129032263,
+          "ret_63d": 15.83421891604675,
+          "rsi14": 75.42227662178703,
+          "adx14": 39.828253885486276,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TEM\n• Current Price: $76.3037\n• Overall Score: 48.92025641025641\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 64.1355\n• Sma 200: 56.1015\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 23.064516129032253\n• Momentum 63D: 15.834218916046746\n• Momentum 126D: 29.103214890016915\n• Momentum Acceleration: 7.230297212985507\n• Roc 21D: 23.064516129032253\n• Trend Strength 20D: 0.8777758065718492\n• Trend Direction: 1\n• Ma Ribbon Score: 90.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.009420823534852851\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.9601600153065729\n• Volatility Compression: 7.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.48163891840831\n• Squeeze Breakout: 4.0\n• Options Quality: 17.688502732240416\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 87.0\n• Squeeze: 6.05\n• Options: 44.5\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: TEM\n• Strike Price: $75\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.1\n• Ask: $12.3\n• Last: $11.2\n• Mid: $12.2\n• Spread: 1.626016260162601626016260163%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6022\n• Gamma: 0.0135\n• Theta: -0.067\n• Vega: 0.1437\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.765\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 39\n• Open Interest: 768\n• Volume/OI Ratio: 0.05078125\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Tempus AI, Inc. Class A Common Stock\n• Sector: Healthcare\n• Industry: Health Information Services\n• EPS (TTM): $2.15\n• Profit Margin: -21.0%\n• ROE: -98.0%\n• P/E Ratio: 35.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T12:42:00+00:00: Tempus' Key Acquisitions Strengthen Its AI Healthcare Leadership...\n• 2025-08-26T10:08:38+00:00: Should Investors Rethink Tempus AI After Shares Double and New Novartis Collabor...\n• 2025-08-25T19:00:00+00:00: Tempus AI or Butterfly: Which AI Health Tech Stock is a Buy Now?...\n• 2025-08-25T13:12:00+00:00: Zacks Market Edge Highlights: ARKK, Tesla, Palantir Technologies, Robinhood Mark...\n• 2025-08-25T12:07:51+00:00: Validea Detailed Fundamental Analysis - TEM...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TEM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TEM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:31:55.844082",
+    "estimated_tokens": 2321
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TEM\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 30,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 4,\n        \"event_news\": 7\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TEM shows strong technical momentum with price significantly above both 50 and 200 SMAs (76.30 vs 64.13/56.10) and impressive 21-day momentum of 23.06%. However, fundamental metrics are concerning with negative profit margins (-21%) and poor ROE (-98%), suggesting momentum may not be sustainable.\",\n    \"opportunities\": [\n        \"Strong technical trend with 90.0 MA ribbon score\",\n        \"Reasonable options liquidity with 1.62% bid-ask spread\",\n        \"Positive momentum acceleration at 7.23\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -21% profit margin\",\n        \"Earnings coming up on 2025-09-30\",\n        \"High P/E ratio of 35.3x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call at $75 strike offers good delta exposure (0.60) with manageable theta decay (-0.067)\",\n        \"entry_timing\": \"Consider partial position now with remaining entry after earnings\",\n        \"risk_management\": \"Use 25% stop loss and consider rolling down strikes if momentum weakens\"\n    },\n    \"red_flags\": [\n        \"Earnings in ~30 days creates event risk\",\n        \"Negative profit margins indicate fundamental weakness\",\n        \"Volume/OI ratio very low at 0.05\"\n    ],\n    \"notes\": \"While technical metrics are strong, fundamental weakness and upcoming earnings create elevated risk profile. Consider smaller position size and strict risk management.\"\n}",
+    "parsed_analysis": {
+      "symbol": "TEM",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 30,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 6,
+        "fundamentals": 4,
+        "event_news": 7
+      },
+      "confidence": "medium",
+      "thesis": "TEM shows strong technical momentum with price significantly above both 50 and 200 SMAs (76.30 vs 64.13/56.10) and impressive 21-day momentum of 23.06%. However, fundamental metrics are concerning with negative profit margins (-21%) and poor ROE (-98%), suggesting momentum may not be sustainable.",
+      "opportunities": [
+        "Strong technical trend with 90.0 MA ribbon score",
+        "Reasonable options liquidity with 1.62% bid-ask spread",
+        "Positive momentum acceleration at 7.23"
+      ],
+      "risks": [
+        "Poor fundamentals with -21% profit margin",
+        "Earnings coming up on 2025-09-30",
+        "High P/E ratio of 35.3x"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call at $75 strike offers good delta exposure (0.60) with manageable theta decay (-0.067)",
+        "entry_timing": "Consider partial position now with remaining entry after earnings",
+        "risk_management": "Use 25% stop loss and consider rolling down strikes if momentum weakens"
+      },
+      "red_flags": [
+        "Earnings in ~30 days creates event risk",
+        "Negative profit margins indicate fundamental weakness",
+        "Volume/OI ratio very low at 0.05"
+      ],
+      "notes": "While technical metrics are strong, fundamental weakness and upcoming earnings create elevated risk profile. Consider smaller position size and strict risk management."
+    },
+    "tokens_used": 2537,
+    "cost": 0.025370000000000004,
+    "response_time": 10.454040765762329,
+    "success": true
+  },
+  "cost": 0.025370000000000004,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8491,
+    "response_length": 1663
+  }
+}

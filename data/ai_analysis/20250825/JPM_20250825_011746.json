@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "JPM",
+  "timestamp": "2025-08-25T01:17:46.884317",
+  "data_package": {
+    "metadata": {
+      "symbol": "JPM",
+      "package_timestamp": "2025-08-25T01:17:37.132597",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "JPM",
+        "current_price": 296.24,
+        "overall_score": 52.6491917364564,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 288.246,
+        "sma_200": 259.2593
+      },
+      "momentum_metrics": {
+        "momentum_21d": -0.10453549148541638,
+        "momentum_63d": 13.645605554916173,
+        "momentum_126d": 12.11020284589767,
+        "momentum_acceleration": -13.75014104640159,
+        "roc_21d": -0.10453549148541638,
+        "trend_strength_20d": 0.1483117621553483,
+        "trend_direction": 1,
+        "ma_ribbon_score": 81.6865083621741,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.003952461319803091
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 14.0,
+        "squeeze_momentum": -0.2862325822207632,
+        "volatility_compression": 42.40895531777746,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.844400857213515,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.944117647058825,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 67.0,
+        "momentum": 45.0,
+        "squeeze": 61.36134329766662,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 9,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "JPM",
+        "strike_price": "290",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "14.75",
+        "ask": "15",
+        "last_price": "14.75",
+        "mid_price": "14.875",
+        "spread_percent": "1.666666666666666666666666667"
+      },
+      "greeks": {
+        "delta": 0.6173,
+        "gamma": 0.0136,
+        "theta": -0.1147,
+        "vega": 0.4423
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2426
+      },
+      "liquidity_metrics": {
+        "volume": 75,
+        "open_interest": 2059,
+        "volume_oi_ratio": 0.036425449247207385
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:55.128893",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-24T22:04:52+00:00",
+            "title": "Dow Jones Futures Rise; Nvidia Is Next Big Market Test After Powell-Led Rally",
+            "content": "Fed chief Powell's dovish speech triggered a big Friday rally, with the S&P 500 and Dow Jones hitting new highs and several stocks flashing buy signals. Nvidia earnings loom.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T20:00:56+00:00",
+            "title": "Dow Jones Futures: Nvidia Is Next Big Market Test After Powell-Led Rally",
+            "content": "Fed chief Powell's dovish speech triggered a big Friday rally, with the S&P 500 and Dow Jones hitting new highs and several stocks flashing buy signals. Nvidia earnings loom.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T18:23:00+00:00",
+            "title": "The S&amp;P 500 Hasn't Yielded This Little Since the Dot-Com Bubble. Here's What Investors Can Do.",
+            "content": "Key Points\n\nThe S&P 500's rising yield is similar to what happened before the dot-com bubble burst.  This time, the S&P 500 is being driven by earnings growth. Taking out the 20 largest S&P 500 components would push the index's yield close to 2%. 10 stocks we like better than Vanguard S&P 500 ETF ›\n\nThe S&P 500(SNPINDEX: ^GSPC)yields just 1.2% at the time of this writing. According to data by Multpl, that is the lowest monthly reading since November 2000 when the S&P 500 yielded 1.18% -- before the sell-off in the Nasdaq Composite(NASDAQINDEX: ^IXIC) accelerated as the dot-com bubble burst. Many top growth stocks would go on to suffer brutal losses that took years or even over a decade to recover.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Learn More »\n\nHere's what the S&P 500's current low yield says about the state of the U.S. stock market and what you can do about it.\n\nImage source: Getty Images.\n\nThere's a clear explanation for the S&P 500's falling yield\n\nWith 500 holdings, the S&P 500 seems like a great way to invest in hundreds of top U.S. companies at once. But the index has become less diversified in recent years.\n\nJust 4% of S&P 500 components make up 48% of the Vanguard S&P 500 ETF(NYSEMKT: VOO), an exchange-traded fund that closely tracks the index. Since the S&P 500 is weighted by market cap, massive companies can really move the index in a way smaller companies cannot.\n\nSingle companies are now worth the equivalent of entire stock market sectors, or multiple sectors. Nvidia(NASDAQ: NVDA) plus Microsoft(NASDAQ: MSFT) make up more than the combined value of the materials, real estate, utilities, energy, and consumer staples sectors -- illustrating the top-heavy nature of the index.\n\nThe following table shows the 20 largest S&P 500 components by market cap and their dividend yields as I write on Aug. 18. The \"weighted yield\" column is the dividend yield multiplied by the percentage weighting in the Vanguard S&P 500 ETF -- which shows the impact each stock has on the index's yield. Company Percentage of Vanguard S&P 500 ETF Dividend Yield Weighted Yield Nvidia 8.06% 0.02% 0.002% Microsoft 7.37% 0.62% 0.046% Apple 5.76% 0.44% 0.025% Amazon 4.11% 0% 0% Alphabet 3.76% 0.4% 0.015% Meta Platforms 3.12% 0.26% 0.008% Broadcom 2.57% 0.75% 0.019% Berkshire Hathaway 1.61% 0% 0% Tesla 1.61% 0% 0% JPMorgan Chase 1.48% 1.82% 0.027% Visa 1.09% 0.69% 0.008% Eli Lilly 1.08% 0.83% 0.009% Netflix 0.92% 0% 0% ExxonMobil 0.89% 3.72% 0.033% Mastercard 0.85% 0.64% 0.005% Walmart 0.79% 0.91% 0.007% Costco Wholesale 0.78% 0.51% 0.004% Oracle 0.77% 0.89% 0.007% Johnson & Johnson 0.74% 2.84% 0.021% Home Depot 0.62% 2.28% 0.014%Sum 47.98% N/A 0.25%\n\nData sources: Vanguard, YCharts.\n\nThe key takeaway is that 48% of the S&P 500 contributes just 0.25% of the index's yield. Meaning that if you took out the 20 largest stocks, the S&P 500 would yield around 2% -- just like it did a decade ago.\n\nSo it's not that companies have stopped paying dividends, it's just that low- or no-yield megacap growth stocks like the \"Ten Titans\" now make up such a large share of the index that the overall S&P 500 yield is lower.\n\nA justified rally\n\nThe S&P 500 and Nasdaq Composite underwent massive surges heading into the turn of the millennium that made stock prices go up faster than dividends. Similar to today's market, many of the top holdings in these indexes shifted to growth companies that prioritize reinvesting in their underlying businesses rather than distributing a portion of profits to shareholders through dividends.\n\nThe S&P 500's low yield illustrates the extent to which growth stocks dominate the stock market. But unlike the lead-up to the dot-com bust, this rally is much healthier because it is being driven largely by earnings growth and positive sentiment rather than euphoria.\n\nNvidia is a good example of a company with both a surging stock price and earnings that have compounded several-fold in just a few years. Investors aren't betting on what Nvidia could do in the future if everything goes right. Rather, they are betting on sustained momentum for what Nvidia is delivering right now.\n\nAs of Aug. 1, the forward price-to-earnings (P/E) ratio of the S&P 500 was 22.2 -- which is about a 20% premium to its 10-year average. However, the quality of the S&P 500's earnings and growth rate is arguably better today than over that 10-year average. So buying the S&P 500 still makes sense if you agree that the quality is worth paying up for. By this metric, the S&P 500 is pricey, but it's not remotely at nosebleed levels like we saw during the dot-com bubble.\n\nAchieving a more balanced portfolio\n\nThe S&P 500 can still be a great tool for building long-term wealth. However, risk-averse investors may be looking for stocks at less expensive valuations and higher dividend yields.\n\nThe simplest way to counteract the S&P 500's premium valuation and low yield is to allocate other portions of your portfolio to help fulfill value and income objectives. That can be done by investing directly in top dividend-paying value stocks or value-focused ETFs.\n\nIt's important to understand what makes up the S&P 500 and let the index work for you rather than accidentally investing too much in the index and taking on more exposure to growth stocks than you're comfortable with.\n\nShould you invest $1,000 in Vanguard S&P 500 ETF right now?\n\nBefore you buy stock in Vanguard S&P 500 ETF, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Vanguard S&P 500 ETF wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nJPMorgan Chase is an advertising partner of Motley Fool Money. Daniel Foelber has positions in Nvidia. The Motley Fool has positions in and recommends Alphabet, Amazon, Apple, Berkshire Hathaway, Costco Wholesale, Home Depot, JPMorgan Chase, Mastercard, Meta Platforms, Microsoft, Netflix, Nvidia, Oracle, Tesla, Vanguard S&P 500 ETF, Visa, and Walmart. The Motley Fool recommends Broadcom and Johnson & Johnson and recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T15:35:14+00:00",
+            "title": "Guru Fundamental Report for JPM",
+            "content": "Below is Validea's guru fundamental report for JPMORGAN CHASE & CO (JPM). Of the 22 guru strategies we follow,  JPM rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nJPMORGAN CHASE & CO (JPM) is a large-cap value stock in the Investment Services industry. The rating using this strategy is 93% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:PASS\n\nDetailed Analysis of JPMORGAN CHASE & CO\n\nJPM Guru Analysis\n\nJPM Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop Financial Stocks\n\nDividend Aristocrats 2024\n\nWide Moat Stocks\n\nRecession Proof Stocks\n\nCheapest Value Stocks\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T20:18:37+00:00",
+            "title": "Blue-chip Dow notches its first record close of the year, makes history",
+            "content": "[Wall Street in New York City]\nJaysonPhotography/iStock via Getty Images\n\nWhile Wall Street's benchmark S&P 500 (SP500 [https://seekingalpha.com/symbol/SP500]) and tech-heavy Nasdaq Composite (COMP:IND [https://seekingalpha.com/symbol/COMP:IND]) have already posted numerous record closes this year, its most venerable index, the Dow (DJI [https://seekingalpha.com/symbol/DJI]), finally got there as well on Friday. And, with that achievement, the 129-year-old gauge has made history by notching its longest streak of consecutive years with at least one all-time peak.\n\n\"We've now seen 13 straight years with at least 1 all-time high, surpassing the epic 1989-2000 streak (12 years). Records are made to be broken,\" Charlie Bilello, chief market strategist at Creative Planning, noted on X (formerly Twitter) on Friday.\n\nSee the information he shared below:\n[Dow all time highs]\nCreative Planning\n\nThe Dow (DJI [https://seekingalpha.com/symbol/DJI]) on Friday advanced +1.89% to end at 45,631.74 points. Its previous record close was 45,014.04 points notched on December 4, 2024.\n\nOnly six of the blue-chip index's 30 components are in the red this year so far:\n\n \t* UnitedHealth (UNH [https://seekingalpha.com/symbol/UNH]), -39.2% YTD.\n \t* Salesforce (CRM [https://seekingalpha.com/symbol/CRM]), -25.7% YTD. \n \t* Merck (MRK [https://seekingalpha.com/symbol/MRK]), -12.2% YTD.\n \t* Apple (AAPL [https://seekingalpha.com/symbol/AAPL]), -9.1% YTD.\n \t* Procter & Gamble (PG [https://seekingalpha.com/symbol/PG]), -5.4% YTD.\n \t* Honeywell (HON [https://seekingalpha.com/symbol/HON]), -1.4% YTD. \n\nHere's a look at the performance of the index's 24 yearly gainers:\n\n \t* Nvidia (NVDA [https://seekingalpha.com/symbol/NVDA]), +32.5% YTD.\n \t* Boeing (BA [https://seekingalpha.com/symbol/BA]), +30% YTD.\n \t* Goldman Sachs (GS [https://seekingalpha.com/symbol/GS]), +29.6% YTD.\n \t* Johnson & Johnson (JNJ [https://seekingalpha.com/symbol/JNJ]), +24% YTD. \n \t* JPMorgan (JPM [https://seekingalpha.com/symbol/JPM]), +23.6% YTD. \n \t* 3M (MMM [https://seekingalpha.com/symbol/MMM]), +23% YTD.\n \t* Microsoft (MSFT [https://seekingalpha.com/symbol/MSFT]), +20.3% YTD.\n \t* Caterpillar (CAT [https://seekingalpha.com/symbol/CAT]), +20.1% YTD.\n \t* Travelers (TRV [https://seekingalpha.com/symbol/TRV]), +14.7% YTD.\n \t* Cisco (CSCO [https://seekingalpha.com/symbol/CSCO]), +13.7% YTD.\n \t* Amgen (AMGN [https://seekingalpha.com/symbol/AMGN]), +12.7% YTD.\n \t* Coca-Cola (KO [https://seekingalpha.com/symbol/KO]), +12.6% YTD.\n \t* Verizon (VZ [https://seekingalpha.com/symbol/VZ]), +11.1% YTD.\n \t* Visa (V [https://seekingalpha.com/symbol/V]), +10.8% YTD.\n \t* IBM (IBM [https://seekingalpha.com/symbol/IBM]), +10.1% YTD.\n \t* Sherwin-Williams (SHW [https://seekingalpha.com/symbol/SHW]), +9.7% YTD.\n \t* Chevron (CVX [https://seekingalpha.com/symbol/CVX]), +9.2% YTD.\n \t* McDonald's (MCD [https://seekingalpha.com/symbol/MCD]), +8.3% YTD.\n \t* American Express (AXP [https://seekingalpha.com/symbol/AXP]), +7.5% YTD.\n \t* Walmart (WMT [https://seekingalpha.com/symbol/WMT]), +7.2% YTD.\n \t* Walt Disney (DIS [https://seekingalpha.com/symbol/DIS]) +6.7% YTD.\n \t* Home Depot (HD [https://seekingalpha.com/symbol/HD]), +6.1% YTD.\n \t* Amazon (AMZN [https://seekingalpha.com/symbol/AMZN]), +4.1% YTD.\n \t* Nike (NKE [https://seekingalpha.com/symbol/NKE]), +3.6% YTD. \n\nHere are some exchange-traded funds that track the Dow: (NYSEARCA:DIA [https://seekingalpha.com/symbol/DIA]), (NYSEARCA:DDM [https://seekingalpha.com/symbol/DDM]), (NYSEARCA:UDOW [https://seekingalpha.com/symbol/UDOW]), (NYSEARCA:DOG [https://seekingalpha.com/symbol/DOG]), (NYSEARCA:DXD [https://seekingalpha.com/symbol/DXD]), and (NYSEARCA:SDOW [https://seekingalpha.com/symbol/SDOW]).\n\nMORE ON THE MARKETS\n\n \t* Powell At Jackson Hole: Rate Cut Likely, Or Is It? [https://seekingalpha.com/article/4816222-powell-at-jackson-hole-rate-cut-likely-or-is-it]\n \t* Fed Rate Cuts Don't Mean Lower Bond Yields [https://seekingalpha.com/article/4816172-fed-rate-cuts-dont-mean-lower-bond-yields]\n \t* Likely Rate Cuts Will Provide Crucial Tailwinds, Expected Mixed Inflation [https://seekingalpha.com/article/4816216-likely-rate-cuts-will-provide-crucial-tailwinds-expected-mixed-inflation]\n \t* Reaction Roundup: Experts weigh in on Fed chair Powell's Jackson Hole comments [https://seekingalpha.com/news/4488560-reaction-roundup-experts-weigh-in-on-fed-chair-powells-jackson-hole-comments]\n \t* Dow notched a record close as Wall Street rallied on Powell’s Jackson Hole remarks [https://seekingalpha.com/news/4488329-wall-street-rallies-after-powell-speaks-at-jackson-hole]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "JPMorgan Chase & Co",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "employees": 317160,
+          "description": "JPMorgan Chase & Co. operates as a financial services company worldwide. It operates through three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, cash management, and payments and servi"
+        },
+        "financial_metrics": {
+          "eps_ttm": 19.49,
+          "profit_margin": 0.3452,
+          "operating_margin": 0.4375,
+          "roe": 0.1621,
+          "roa": 0.013,
+          "revenue_growth_yoy": -0.106,
+          "earnings_growth_yoy": -0.144,
+          "eps_estimate_current_year": 19.2906,
+          "eps_estimate_next_year": 20.5517,
+          "dividend_yield": 0.0182,
+          "dividend_per_share": 5.3,
+          "revenue_ttm": 163748003840,
+          "revenue_per_share": 57.936,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.1996,
+          "forward_pe": 15.8228,
+          "price_to_sales": 4.9746,
+          "price_to_book": 2.418,
+          "enterprise_value": 462584086528,
+          "ev_to_revenue": 6.259,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.107,
+          "52_week_high": 301.2931,
+          "52_week_low": 196.2041,
+          "50_day_ma": 288.246,
+          "200_day_ma": 259.2593,
+          "short_interest": 0.0083,
+          "short_ratio": 2.47
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 5.6,
+          "forward_dividend_yield": 0.0189,
+          "payout_ratio": 0.2759,
+          "dividend_date": "2025-07-31",
+          "ex_dividend_date": "2025-07-03",
+          "last_split_date": "2000-06-12",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 305.3182,
+          "strong_buy": 8,
+          "buy": 7,
+          "hold": 9,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 2749750016,
+          "percent_institutions": 74.482,
+          "percent_insiders": 0.46699999999999997,
+          "shares_float": 2735235154
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4552482.0,
+          "total_debt": 485095.0,
+          "net_debt": 64768.0,
+          "shareholders_equity": 356924.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.36
+        },
+        "income_latest_statement": {
+          "total_revenue": 69944.0,
+          "gross_profit": 42063.0,
+          "operating_income": 18284.0,
+          "net_income": 14987.0,
+          "ebitda": 20314.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 60.14,
+          "operating_margin": 26.14,
+          "net_margin": 21.43
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 29547.0,
+          "free_cash_flow": 29547.0,
+          "capex": 0.0,
+          "net_income": 14987.0,
+          "cash_change": -5576.0,
+          "dividends_paid": 4205.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 4.63,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 287.07,
+            "high": 289.3,
+            "low": 285.26,
+            "close": 288.7,
+            "volume": 9079900
+          },
+          {
+            "date": "2025-07-15",
+            "open": 288,
+            "high": 291.95,
+            "low": 285.48,
+            "close": 286.55,
+            "volume": 12526100
+          },
+          {
+            "date": "2025-07-16",
+            "open": 288.4,
+            "high": 290.73,
+            "low": 283.01,
+            "close": 285.82,
+            "volume": 9979800
+          },
+          {
+            "date": "2025-07-17",
+            "open": 283.44,
+            "high": 290.3,
+            "low": 283.44,
+            "close": 289.9,
+            "volume": 8509500
+          },
+          {
+            "date": "2025-07-18",
+            "open": 289.52,
+            "high": 292.5,
+            "low": 288.23,
+            "close": 291.27,
+            "volume": 12217000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 291,
+            "high": 294.18,
+            "low": 290.58,
+            "close": 290.97,
+            "volume": 7898100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 291.5,
+            "high": 293.63,
+            "low": 289.18,
+            "close": 291.43,
+            "volume": 6717500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 292.84,
+            "high": 296.99,
+            "low": 292.55,
+            "close": 296.76,
+            "volume": 7083500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 297.42,
+            "high": 299.59,
+            "low": 296.2,
+            "close": 296.55,
+            "volume": 7001200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 296.7,
+            "high": 298.9,
+            "low": 295.96,
+            "close": 298.62,
+            "volume": 5918500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 297.66,
+            "high": 299.43,
+            "low": 296.82,
+            "close": 298.28,
+            "volume": 5840417
+          },
+          {
+            "date": "2025-07-29",
+            "open": 300,
+            "high": 301.2931,
+            "low": 296.2,
+            "close": 297.04,
+            "volume": 7635719
+          },
+          {
+            "date": "2025-07-30",
+            "open": 297.42,
+            "high": 300.61,
+            "low": 297.38,
+            "close": 299.63,
+            "volume": 8061700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 299.14,
+            "high": 300.98,
+            "low": 295.5,
+            "close": 296.24,
+            "volume": 14749700
+          },
+          {
+            "date": "2025-08-01",
+            "open": 290.4,
+            "high": 291.8,
+            "low": 284.24,
+            "close": 289.37,
+            "volume": 12007100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 290.26,
+            "high": 294.32,
+            "low": 290.26,
+            "close": 294.26,
+            "volume": 6649500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 294.69,
+            "high": 295.79,
+            "low": 287.24,
+            "close": 291.37,
+            "volume": 7182300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 292.3,
+            "high": 293.29,
+            "low": 290.16,
+            "close": 291.35,
+            "volume": 6330200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 292.94,
+            "high": 293.46,
+            "low": 286.41,
+            "close": 286.94,
+            "volume": 8057100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 288.98,
+            "high": 291.23,
+            "low": 284.71,
+            "close": 288.76,
+            "volume": 6634100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 289.4,
+            "high": 291.32,
+            "low": 288.78,
+            "close": 289.56,
+            "volume": 5510100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 291.5,
+            "high": 294.75,
+            "low": 290.34,
+            "close": 292.85,
+            "volume": 8570900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 293.95,
+            "high": 294.55,
+            "low": 287.16,
+            "close": 290.53,
+            "volume": 8420400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 290.58,
+            "high": 294.2,
+            "low": 289.64,
+            "close": 294.16,
+            "volume": 6322400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 294.84,
+            "high": 295.5,
+            "low": 289.82,
+            "close": 290.49,
+            "volume": 7340500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 290,
+            "high": 291.9,
+            "low": 288.41,
+            "close": 291.53,
+            "volume": 5386900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 290.83,
+            "high": 292.48,
+            "low": 289.53,
+            "close": 290.66,
+            "volume": 6031500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 290.81,
+            "high": 293.33,
+            "low": 287.27,
+            "close": 292.24,
+            "volume": 7374200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 291.94,
+            "high": 292.77,
+            "low": 289.47,
+            "close": 291.47,
+            "volume": 6624000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 293.2,
+            "high": 297.16,
+            "low": 290.13,
+            "close": 296.24,
+            "volume": 8551400
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -0.7969995311767447,
+        "return_63d": 13.628169230179138,
+        "pct_above_sma50": 2.7733255621934143,
+        "sma_50": 288.246,
+        "new_55d_high": "False",
+        "high_55d": 301.2931,
+        "rsi": 53.105395232120486,
+        "rsi_in_range": "True",
+        "adx": 36.420631724480714,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.8087209694842017,
+        "bb_width": 4.626472641600646,
+        "keltner_width": 7.326304780400364,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 2242860094.0098,
+        "adv_shares": 7664006.8,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.78851850427234,
+        "final_score": 48.78851850427234,
+        "sub_scores": {
+          "trend_momentum": 14.844400857213515,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.944117647058825,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": -0.10453549148541352,
+          "ret_63d": 13.645605554916184,
+          "rsi14": 53.105395232120486,
+          "adx14": 28.80439680055345,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: JPM\n• Current Price: $296.24\n• Overall Score: 52.6491917364564\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 288.246\n• Sma 200: 259.2593\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -0.10453549148541638\n• Momentum 63D: 13.645605554916173\n• Momentum 126D: 12.11020284589767\n• Momentum Acceleration: -13.75014104640159\n• Roc 21D: -0.10453549148541638\n• Trend Strength 20D: 0.1483117621553483\n• Trend Direction: 1\n• Ma Ribbon Score: 81.6865083621741\n• Breakout Strength: 0.0\n• Price Velocity: 0.003952461319803091\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 14.0\n• Squeeze Momentum: -0.2862325822207632\n• Volatility Compression: 42.40895531777746\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.844400857213515\n• Squeeze Breakout: 4.0\n• Options Quality: 18.944117647058825\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 67.0\n• Momentum: 45.0\n• Squeeze: 61.36134329766662\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: JPM\n• Strike Price: $290\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $14.75\n• Ask: $15\n• Last: $14.75\n• Mid: $14.875\n• Spread: 1.666666666666666666666666667%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6173\n• Gamma: 0.0136\n• Theta: -0.1147\n• Vega: 0.4423\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2426\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 75\n• Open Interest: 2059\n• Volume/OI Ratio: 0.036425449247207385\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: JPMorgan Chase & Co\n• Sector: Financial Services\n• Industry: Banks - Diversified\n• EPS (TTM): $19.49\n• Profit Margin: 34.5%\n• ROE: 16.2%\n• P/E Ratio: 15.2\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-24T22:04:52+00:00: Dow Jones Futures Rise; Nvidia Is Next Big Market Test After Powell-Led Rally...\n• 2025-08-24T20:00:56+00:00: Dow Jones Futures: Nvidia Is Next Big Market Test After Powell-Led Rally...\n• 2025-08-24T18:23:00+00:00: The S&amp;P 500 Hasn't Yielded This Little Since the Dot-Com Bubble. Here's What...\n• 2025-08-24T15:35:14+00:00: Guru Fundamental Report for JPM...\n• 2025-08-23T20:18:37+00:00: Blue-chip Dow notches its first record close of the year, makes history...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR JPM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the JPM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:17:46.883999",
+    "estimated_tokens": 2333
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"JPM\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"JPM shows strong technical momentum with price above both SMAs and an 81.69 MA ribbon score, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty despite solid fundamentals.\",\n    \"opportunities\": [\n        \"Price trending well above 50/200 SMAs (296.24 vs 288.25/259.26)\",\n        \"Strong MA ribbon score of 81.69 indicating trend strength\",\n        \"Multi-timeframe squeeze setup with 3 concurrent squeezes and 42.41% compression\"\n    ],\n    \"risks\": [\n        \"Negative 21-day momentum (-0.105) and momentum deceleration (-13.75)\",\n        \"Earnings coming up on 2025-09-30 (within 37 days)\",\n        \"Relatively low volume/OI ratio of 0.036 on selected option\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 290 Call for bullish exposure with sufficient time value\",\n        \"entry_timing\": \"Wait for momentum deceleration to stabilize before entry\",\n        \"risk_management\": \"Position size conservatively due to upcoming earnings and set stops below 50 SMA at 288.25\"\n    },\n    \"red_flags\": [\n        \"Earnings report within 37 days could increase volatility risk\",\n        \"Significant recent momentum deceleration\"\n    ],\n    \"notes\": \"Option spread is reasonable at 1.67% but volume could be better. Strong fundamentals with 34.5% profit margin and 16.2% ROE provide good foundation despite near-term technical concerns.\"\n}",
+    "parsed_analysis": {
+      "symbol": "JPM",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "JPM shows strong technical momentum with price above both SMAs and an 81.69 MA ribbon score, supported by a confirmed volatility squeeze setup. However, decelerating momentum and upcoming earnings create near-term uncertainty despite solid fundamentals.",
+      "opportunities": [
+        "Price trending well above 50/200 SMAs (296.24 vs 288.25/259.26)",
+        "Strong MA ribbon score of 81.69 indicating trend strength",
+        "Multi-timeframe squeeze setup with 3 concurrent squeezes and 42.41% compression"
+      ],
+      "risks": [
+        "Negative 21-day momentum (-0.105) and momentum deceleration (-13.75)",
+        "Earnings coming up on 2025-09-30 (within 37 days)",
+        "Relatively low volume/OI ratio of 0.036 on selected option"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 290 Call for bullish exposure with sufficient time value",
+        "entry_timing": "Wait for momentum deceleration to stabilize before entry",
+        "risk_management": "Position size conservatively due to upcoming earnings and set stops below 50 SMA at 288.25"
+      },
+      "red_flags": [
+        "Earnings report within 37 days could increase volatility risk",
+        "Significant recent momentum deceleration"
+      ],
+      "notes": "Option spread is reasonable at 1.67% but volume could be better. Strong fundamentals with 34.5% profit margin and 16.2% ROE provide good foundation despite near-term technical concerns."
+    },
+    "tokens_used": 2566,
+    "cost": 0.025660000000000002,
+    "response_time": 9.749770402908325,
+    "success": true
+  },
+  "cost": 0.025660000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8537,
+    "response_length": 1729
+  }
+}

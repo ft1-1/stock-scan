@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "CVX",
+  "timestamp": "2025-08-28T01:48:16.651232",
+  "data_package": {
+    "metadata": {
+      "symbol": "CVX",
+      "package_timestamp": "2025-08-28T01:48:02.790334",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CVX",
+        "current_price": 159.24,
+        "overall_score": 51.965959885608825,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 151.6034,
+        "sma_200": 150.6867
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.4073743870598026,
+        "momentum_63d": 17.07101896779885,
+        "momentum_126d": 2.6427742684027478,
+        "momentum_acceleration": -15.663644580739048,
+        "roc_21d": 1.4073743870598026,
+        "trend_strength_20d": 0.665847245910578,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.007775694016604851
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 20.0,
+        "squeeze_momentum": 0.1851569167999506,
+        "volatility_compression": 59.634560289524764,
+        "is_consolidating": "False",
+        "breakout_score": 76.42478863492532,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.479095185286994,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.514799999999987,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 47.0,
+        "momentum": 59.0,
+        "squeeze": 63.94518404342871,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 10,
+        "percentile": 99.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CVX",
+        "strike_price": "155",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.8",
+        "ask": "7.95",
+        "last_price": "7.89",
+        "mid_price": "7.875",
+        "spread_percent": "1.886792452830188679245283019"
+      },
+      "greeks": {
+        "delta": 0.6331,
+        "gamma": 0.0265,
+        "theta": -0.0629,
+        "vega": 0.2241
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2393
+      },
+      "liquidity_metrics": {
+        "volume": 101,
+        "open_interest": 2138,
+        "volume_oi_ratio": 0.04724041159962582
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:23.636536",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T15:54:00+00:00",
+            "title": "Can OXY Stock Gain From Low-Cost Operations and High-quality Assets?",
+            "content": "Occidental Petroleum Corporation OXY stands out in the energy sector with a competitive advantage rooted in its low-cost operations and high-quality asset base. The company has strategically positioned itself to deliver consistent performance across commodity cycles by maintaining operational efficiency and cost discipline. This resilience allows Occidental to sustain profitability even during periods of market volatility.\r\n\r\nThe core strength lies in the company’s high-margin assets across the Permian Basin, where it is one of the largest producers. Its scale, infrastructure ownership and technological expertise enable efficient extraction and development of hydrocarbons, translating into superior returns. The integrated value chain enhances operational flexibility and ensures stronger cash generation compared with peers with less diversified portfolios.\r\n\r\nOccidental also benefits from a strong global portfolio, including assets in the Middle East and Latin America, which provide geographic diversification and stable long-term production. The company views the expertise in carbon dioxide separation, transportation, utilization, recycling and storage through enhanced oil recovery as a key differentiator, giving it a competitive edge over peers as the global economy shifts toward lower-carbon solutions.\r\n\r\nOccidental’s combination of low-cost operations and top-tier assets supports both shareholder value creation and strategic growth. By leveraging these strengths, the company is well-positioned to balance traditional oil and gas production with investments in carbon management and low-carbon technologies, ensuring relevance in an evolving energy landscape.\n\nCompetitive Edge From Efficient Operations and Strong Assets\n\nOil and gas firms that maintain low-cost operations and own high-quality assets achieve greater resilience through market fluctuations, securing consistent cash flow and profitability. Strong asset bases improve production efficiency, while cost discipline enhances margins, supporting long-term growth, stronger competitiveness and lasting value for shareholders.\r\n\r\nCompanies like ExxonMobil XOM and Chevron CVX exemplify how low-cost operations and high-quality assets strengthen performance in the oil and gas sector. ExxonMobil’s integrated portfolio and efficient upstream operations ensure reliable cash flow, while Chevron’s premium Permian assets and disciplined cost structure drive profitability, enabling both companies to withstand price volatility and sustain long-term growth.\n\nOXY’s Price Performance\n\nOccidental’s shares have gained 11.9% in the past three months compared with the Zacks Oil and Gas-Integrated-United States industry’s rise of 7.9%.\n\nStory Continues\n\nZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nOccidental’s ROE Is Lower Than the Industry\n\nOccidental’s return on equity (\"ROE\") is lower than the industry average in the trailing 12 months. ROE of OXY was 13.78% compared with the industry average of 14.6%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nOXY Stock’s Earnings Surprise History\n\nDue to the stable performance, the company’s earnings beat estimates in each of the trailing four quarters, the average surprise being 25.72%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nOXY’s Zacks Rank\n\nOccidental currently has a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nChevron Corporation (CVX) : Free Stock Analysis Report\n\nExxon Mobil Corporation (XOM) : Free Stock Analysis Report\n\nOccidental Petroleum Corporation (OXY) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T15:00:00+00:00",
+            "title": "Sky High for Kids and Local Fuel Partners Unite to Benefit Texas Children’s Hospital This September",
+            "content": "HOUSTON, August 27, 2025--(BUSINESS WIRE)--This September, Sky High for Kids will turn everyday fill-ups into acts of hope as Danny’s MKT and Star Stop unite across Houston and Austin to benefit children fighting cancer at Texas Children’s Hospital. Beginning September 1 and running through the end of Pediatric Cancer Awareness Month, five cents from every gallon of Chevron gas purchased at Danny’s MKT and designated \"Giving Pump\" stations at select Star Stop locations will support Sky High for Kids’ pledge to Texas Children’s. The campaign has already raised $114,000, with last September’s local generosity fueling $12,000 from Danny’s MKT and $50,000 from Star Stop, proof that small, consistent choices at the pump can add up to lifesaving impact for families close to home.\n\nThe 2025 campaign launches today at Danny’s MKT, 6633 Washington Avenue in Houston, Texas where owner Danny Zalta joined partners to officially cut the ribbon and invite drivers to \"fill it forward\" all month long. \"We’re always happy to do our part,\" said Zalta. \"It means a lot to support kids in our own backyard at Texas Children’s Hospital. Every gallon makes a difference, and we look forward to this campaign every September, honoring Pediatric Cancer Awareness Month.\"\n\nThat spirit of neighborly care is shared by the Panjwani Family, owners of Star Stop, which will feature a dedicated \"Giving Pump\" at 31 Chevron-branded locations across Houston and Austin. \"We’re proud to join the Sky High campaign each year, especially during Pediatric Cancer Awareness Month,\" the family said. \"As a family business, giving back is important to us, and this cause is close to our hearts. We’re always grateful to help raise funds for the kids and families who need it most.\"\n\nThis year’s theme, \"Driving to Your Dream Place,\" centers on original artwork created by two Cancer Warriors treated at Texas Children’s Hospital: Juliana, 8, diagnosed with leukemia in November 2022, and Kennedy, 3, diagnosed with ATRT brain cancer at nine months old in August 2021. Their families met during treatment, and the friendship between Kennedy’s big sister, Reagan, and Juliana inspired the campaign’s joyful visuals, a reminder that the road ahead can hold more than hospitals and hard days. Both Kennedy and Juliana are currently in remission, and their art now rides alongside every gallon that gives back.\n\nIn addition to the funds raised at Danny’s MKT and Star Stop locations, Chevron will be participating in the campaign. At Danny’s MKT, every pump will generate donations throughout September, while Star Stop customers can look for the marked \"Giving Pump\" to ensure their fill-up benefits Sky High for Kids.\n\nStory continues\n\nSky High for Kids exists to end pediatric cancer by funding research, supporting leading pediatric institutions like Texas Children’s Hospital, and easing the burdens families face along the way. When neighbors choose where to fill up this September, they’ll help power more than engines, they’ll help power outcomes for kids who deserve healthy, joy-filled tomorrows.\n\nABOUT SKY HIGH FOR KIDS\n\nSky High for Kids is a 501(c)(3) nonprofit organization founded by Louisiana native, Brittany Hebert Franklin. Comprised of a devoted staff, board members, and an army of volunteers, they work tirelessly to support children undergoing treatment for cancer and other life-threatening conditions. Their efforts benefit leading hospitals and research centers by closing the gap in childhood cancer rates globally. The Sky High for Kids team is saving kids through advanced medical studies and healing families who are battling cancer now through their comfort programs.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20250827456078/en/\n\nContacts\n\nCrystin Pactor\r\nCrystin@public-content.com \r\n713.443.0929\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T14:13:00+00:00",
+            "title": "ConocoPhillips' Marathon Oil Takeover: Is it Unlocking Superior Value?",
+            "content": "ConocoPhillips COP finalized its acquisition of Marathon Oil Corporation late last year. The acquisition added more premium oil and natural gas resources to its portfolio, where the production costs are relatively low. This means COP is well-positioned to survive periods when the commodity prices turn low.\n\nThe upstream energy giant also anticipated significant cost synergies from the Marathon Oil takeover. Now the obvious question: Is the company actually witnessing all the benefits from the buyout? On the latest earnings call, ConocoPhillips revealed that it is doing better than expected from the takeover.\n\nCOP initially projected an annual cost synergy of $500 million from the Marathon Oil acquisition. However, during the second-quarter earnings call, it stated that it now expects to save more than $1 billion annually. COP is likely to realize this gain by the end of 2025, without needing to drill a single well.\n\nInvestors should know that ConocoPhillips believes that it has acquired more valuable oil and gas resources from the Marathon Oil takeover than earlier estimated, thanks to the Permian, the most prolific basin in the United States.\n\nCVX & FANG’s Solid Permian Footprint\n\nLike ConocoPhillips, Chevron CVX and Diamondback Energy, Inc. FANG also have a significant presence in the Permian.\n\nChevron has a strong footprint in the Permian. With more than 2 million net acres of land, CVX has been operating in the basin for more than 100 years.\n\nDiamondback Energy is a pure-play Permian operator. FANG has a huge inventory of oil and gas wells, thereby showcasing a solid production outlook.\n\nCOP’s Price Performance, Valuation & Estimates\n\nShares of COP have lost 10.9% over the past year compared with the 17.5% decline of the composite stocks belonging to the industry.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, COP trades at a trailing 12-month enterprise value to EBITDA (EV/EBITDA) of 5.44X. This is below the broader industry average of 11.03X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for COP’s 2025 earnings has been revised upward over the past seven days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCOP stock currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nChevron Corporation (CVX) : Free Stock Analysis Report\n\nConocoPhillips (COP) : Free Stock Analysis Report\n\nStory Continues\n\nDiamondback Energy, Inc. (FANG) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T10:00:00+00:00",
+            "title": "Emerald Technology Ventures Celebrates 25 Years of Climate Tech Leadership",
+            "content": "Emerald Technology Ventures\n\nPioneering investor reaches €1B+ in assets, partners with Fortune 500 corporates, and launches new sustainability initiatives to drive the energy transition, foster industrial decarbonization and solve global water challenges\n\nEmerald Technology Ventures Celebrates 25 Years of Climate Tech LeadershipEmerald Technology Ventures, a venture capital firm dedicated to climate tech and sustainable industrial innovation, is celebrating its 25th anniversary this year.Emerald Technology Ventures Celebrates 25 Years of Leadership: EMERALD MEDIA SNIPPET\n\nA Media Snippet accompanying this announcement is available by clicking on this link.\n\nZURICH, Aug. 27, 2025 (GLOBE NEWSWIRE) -- Emerald Technology Ventures, a venture capital firm dedicated to climate tech and sustainable industrial innovation, is celebrating its 25th anniversary this year. Founded in 2000 as the first independent cleantech venture capital fund in Europe and one of the first in North America, Emerald has grown into a global leader with over €1billion in assets under management and advisory. Over the past quarter-century the firm has played a pivotal role in advancing technologies for the energy transition, industrial decarbonization and water solutions, counting key players such as Microsoft, Temasek, ABB, Caterpillar, Nestle, Mitsubishi Heavy Industries and Chevron as investors.\n\nEmerald’s impact is reflected in its worldwide network and investment reach. The firm’s fund investors now include more than 50 Fortune 500 corporations, underscoring strong industry demand for Emerald’s partnership, collaborations, and open innovation services. From its offices in Zurich, Toronto and Singapore, Emerald’s team evaluates thousands of start-up investment opportunities each year across sectors, including clean energy, water, industrial IT, and advanced materials. The firm currently manages four active venture funds alongside five investment mandates, leveraging these vehicles to invest in transformative startups and then channel insights, innovation, and strategic partnerships back to its corporate partners, helping them accelerate growth, explore new markets, and solve pressing innovation challenges.\n\nLooking ahead, Emerald continues to launch new initiatives targeting critical sustainability issues, such as tech to support nature-based solutions. In the water sector, the firm is preparing to roll out a second Global Water Fund to accelerate innovation across the water value chain, from treatment and monitoring to infrastructure. Veralto Corporation – a global leader in water technologies – has already committed €20 million as a cornerstone investor in the fund, reinforcing confidence in Emerald’s partnership-driven approach to innovation.\n\n“When we launched Emerald in 2000, investing in sustainability was far from mainstream. Twenty-five years later, that vision has become an imperative for industries worldwide,” said Gina Domanig, Managing Partner of Emerald Technology Ventures. “Our journey from one of Europe and North America’s first cleantech funds to a global platform for investors from around the world, reflects the urgency and opportunity of this moment. As we mark this milestone, we remain as committed as ever to empowering the next generation of innovators to drive sustainable prosperity for the future.”\n\nStory continues\n\nEmerald has also been a key ecosystem builder, inviting investors to engage at flagship events: the European Venture Fair in Zurich (since 2001) and the Asia Climate Tech Venture Fair in Singapore (since 2024). These forums bring together industry executives, investors and start-ups. By convening stakeholders at these venture fairs, Emerald aims to accelerate the deployment of climate innovations and build the partnerships needed to transform industries for a net-zero future.\n\nAbout Emerald Technology Ventures:\n\nEmerald is a globally recognized venture capital firm, founded in 2000, that manages and advises assets of over €1 billion from its offices in Zurich, Toronto and Singapore. The firm invests in start-ups that tackle big challenges in climate change and sustainability, with four current funds, hundreds of venture transactions and five third-party investment mandates, including loan guarantees to over 100 start-ups. Bold Ideas. Bright Future. www.emerald.vc\n\nCONTACT FOR EMERALD: info@emerald.vc\n\nA photo accompanying this announcement is available at https://www.globenewswire.com/NewsRoom/AttachmentNg/b32d9fc5-9024-4682-af24-cb613ba1bb43.\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T08:37:00+00:00",
+            "title": "The Best Warren Buffett Stocks to Buy With $5,000 Right Now",
+            "content": "Berkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B) owns dozens of stocks in its $370 billion portfolio, but with the S&P 500 near an all-time high, not all of them look like attractive investment opportunities right now. However, there are two in particular that are near the top of my watch list right now. Here's what they are, and why they're worth a closer look for patient long-term investors.\n\nAn automaker with lots of potential\n\nBYD (OTC: BYDDY) is a China-based electric vehicle manufacturer and was a favorite of Berkshire's late vice chairman Charlie Munger. In fact, Munger went so far as to once say \"I have never in my life felt more privileged to be associated with something than I feel about BYD.\"\n\nThe company has been around since the 1990s and was an early supplier of batteries to companies like Motorola(NYSE: MSI) before pivoting to EVs. However, producing its own electric vehicle batteries (and many other vehicle components) in-house gives it a major competitive advantage.\n\nIn the fourth quarter of 2023, BYD took the title of \"world's largest EV maker\" from Tesla (NASDAQ: TSLA) and has a 35% share of the China EV industry despite having some impressive competition. With a full lineup of EVs, the cost advantages of vertical integration, and a rapidly growing market, BYD could have a very bright future. There's also massive opportunities beyond China, as exports currently make up just 8% of sales. At roughly 19 times forward earnings estimates, BYD could still be a home run for long-term investors.\n\nA cheap bank stock that could have major competitive advantages\n\nOver the past couple of years, Buffett and his team have pared down their bank stock holdings considerably. However, one that is still a billion-dollar investment in Berkshire's portfolio is Capital One(NYSE: COF), the well-known regional bank that specializes in credit card lending.\n\nFor one thing, Capital One is a cheap bank stock. It trades for a 10% discount to book value (for context, Bank of America(NYSE: BAC) and JPMorgan Chase(NYSE: JPM) trade for 1.2 and 1.86 times book, respectively). Plus, the bank's business is very strong with a net interest margin of 6.69% due to the high-interest nature of credit cards, and a default rate that is well-covered by the bank's reserves.\n\nPerhaps most significant is the pending acquisition of Discover(NYSE: DFS), which could be a positive catalyst for several reasons. For one thing, it will roughly quadruple Capital One's credit card business, as Discover has more than 300 million cardholders. Capital One also has cost advantages, including average deposit interest rates that are 138 basis points lower than Discover's, so combining both banks can lead to even wider margins. But most of all, Discover is a closed-loop card issuer, which means it owns its payment network and serves as the lender, a rare combination. Becoming owner of its own payment network will not only reduce Capital One's reliance on Visa(NYSE: V) and Mastercard (NYSE: MA), but it creates lots of possibilities to profit from high-margin interchange fees in addition to its interest income.\n\nIf you buy, use Buffett's mentality\n\nBoth of these stocks are in Berkshire's portfolio as long-term investments, and that's exactly how you should approach them if you decide to invest. Both can be volatile over shorter periods, and I have absolutely no idea what these stocks will do over the next few weeks or months. However, I'm rather confident that both will deliver strong results for patient long-term investors.\n\nShould you invest $1,000 in BYD Company right now?\n\nBefore you buy stock in BYD Company, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and BYD Company wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $772,627!*\n\nStock Advisor provides investors with an easy-to-follow blueprint for success, including guidance on building a portfolio, regular updates from analysts, and two new stock picks each month. TheStock Advisorservice has more than quadrupled the return of S&P 500 since 2002*.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of June 24, 2024\n\nBank of America is an advertising partner of The Ascent, a Motley Fool company. Discover Financial Services is an advertising partner of The Ascent, a Motley Fool company. JPMorgan Chase is an advertising partner of The Ascent, a Motley Fool company. Matt Frankel has positions in Bank of America and Berkshire Hathaway. The Motley Fool has positions in and recommends BYD Company, Bank of America, Berkshire Hathaway, JPMorgan Chase, Mastercard, Tesla, and Visa. The Motley Fool recommends Discover Financial Services and recommends the following options: long January 2025 $370 calls on Mastercard and short January 2025 $380 calls on Mastercard. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Chevron Corp",
+          "sector": "Energy",
+          "industry": "Oil & Gas Integrated",
+          "employees": 45298,
+          "description": "Chevron Corporation, through its subsidiaries, engages in the integrated energy and chemicals operations in the United States and internationally. The company operates in two segments, Upstream and Downstream. The Upstream segment engages in the exploration, development, production, and transportati"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.77,
+          "profit_margin": 0.0725,
+          "operating_margin": 0.0944,
+          "roe": 0.0896,
+          "roa": 0.0476,
+          "revenue_growth_yoy": -0.107,
+          "earnings_growth_yoy": -0.404,
+          "eps_estimate_current_year": 7.8209,
+          "eps_estimate_next_year": 9.6419,
+          "dividend_yield": 0.0422,
+          "dividend_per_share": 6.68,
+          "revenue_ttm": 189265002496,
+          "revenue_per_share": 107.606,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 20.2523,
+          "forward_pe": 19.9203,
+          "price_to_sales": 1.6752,
+          "price_to_book": 2.1654,
+          "enterprise_value": 342453449087,
+          "ev_to_revenue": 1.8241,
+          "ev_to_ebitda": 8.5417
+        },
+        "technical_data": {
+          "beta": 0.841,
+          "52_week_high": 165.089,
+          "52_week_low": 129.0148,
+          "50_day_ma": 151.6034,
+          "200_day_ma": 150.6867,
+          "short_interest": 0.0093,
+          "short_ratio": 1.56
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 6.84,
+          "forward_dividend_yield": 0.0432,
+          "payout_ratio": 0.7934,
+          "dividend_date": "2025-09-10",
+          "ex_dividend_date": "2025-08-19",
+          "last_split_date": "2004-09-13",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 168.1304,
+          "strong_buy": 9,
+          "buy": 6,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 2014819968,
+          "percent_institutions": 58.933,
+          "percent_insiders": 6.03,
+          "shares_float": 1613165416
+        },
+        "balance_latest_sheet": {
+          "total_assets": 250820.0,
+          "total_debt": 29467.0,
+          "net_debt": 25406.0,
+          "working_capital": -136.0,
+          "shareholders_equity": 146417.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.2
+        },
+        "income_latest_statement": {
+          "total_revenue": 44375.0,
+          "gross_profit": 5275.0,
+          "operating_income": 3974.0,
+          "net_income": 2490.0,
+          "ebitda": 8765.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 11.89,
+          "operating_margin": 8.96,
+          "net_margin": 5.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 8576.0,
+          "free_cash_flow": 4864.0,
+          "capex": 3712.0,
+          "net_income": 2515.0,
+          "cash_change": -791.0,
+          "dividends_paid": -2934.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 2.02,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 149.16,
+            "high": 151.84,
+            "low": 148.6,
+            "close": 151.38,
+            "volume": 8359600
+          },
+          {
+            "date": "2025-07-18",
+            "open": 155.02,
+            "high": 155.91,
+            "low": 146.53,
+            "close": 150.04,
+            "volume": 45782600
+          },
+          {
+            "date": "2025-07-21",
+            "open": 151.2,
+            "high": 151.67,
+            "low": 149.13,
+            "close": 149.68,
+            "volume": 17982200
+          },
+          {
+            "date": "2025-07-22",
+            "open": 149.26,
+            "high": 150.94,
+            "low": 148.48,
+            "close": 150.04,
+            "volume": 26196500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 150.91,
+            "high": 153.14,
+            "low": 150.47,
+            "close": 153.12,
+            "volume": 13162800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 152.69,
+            "high": 156,
+            "low": 152.2,
+            "close": 155.83,
+            "volume": 15701000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 155.83,
+            "high": 156.2,
+            "low": 153.96,
+            "close": 154.84,
+            "volume": 7875500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 155.4,
+            "high": 156.55,
+            "low": 154.95,
+            "close": 156.28,
+            "volume": 8755400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 156.68,
+            "high": 157.21,
+            "low": 155.45,
+            "close": 157.03,
+            "volume": 6446000
+          },
+          {
+            "date": "2025-07-30",
+            "open": 156.14,
+            "high": 156.31,
+            "low": 152.7,
+            "close": 153.56,
+            "volume": 9191700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 152,
+            "high": 153.93,
+            "low": 151.14,
+            "close": 151.64,
+            "volume": 10237100
+          },
+          {
+            "date": "2025-08-01",
+            "open": 152.54,
+            "high": 154.65,
+            "low": 150.35,
+            "close": 151.4,
+            "volume": 10706500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 151.25,
+            "high": 152.08,
+            "low": 149.82,
+            "close": 151.04,
+            "volume": 10116600
+          },
+          {
+            "date": "2025-08-05",
+            "open": 151.03,
+            "high": 153.1,
+            "low": 149.9,
+            "close": 153.04,
+            "volume": 8604100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 154.48,
+            "high": 155.16,
+            "low": 152.22,
+            "close": 152.78,
+            "volume": 7840900
+          },
+          {
+            "date": "2025-08-07",
+            "open": 153.79,
+            "high": 155.15,
+            "low": 152.83,
+            "close": 153.16,
+            "volume": 6510400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 153.99,
+            "high": 155.75,
+            "low": 153.5,
+            "close": 155.01,
+            "volume": 6332800
+          },
+          {
+            "date": "2025-08-11",
+            "open": 155.34,
+            "high": 155.93,
+            "low": 152.99,
+            "close": 153.45,
+            "volume": 6169700
+          },
+          {
+            "date": "2025-08-12",
+            "open": 154.09,
+            "high": 156.05,
+            "low": 153.36,
+            "close": 154.44,
+            "volume": 6641600
+          },
+          {
+            "date": "2025-08-13",
+            "open": 154.57,
+            "high": 156.01,
+            "low": 154.2,
+            "close": 155.87,
+            "volume": 6581900
+          },
+          {
+            "date": "2025-08-14",
+            "open": 155.7,
+            "high": 155.7,
+            "low": 154.1,
+            "close": 155.16,
+            "volume": 7337300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 155.48,
+            "high": 158.54,
+            "low": 155.29,
+            "close": 156.55,
+            "volume": 11617000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 156.13,
+            "high": 156.49,
+            "low": 154.75,
+            "close": 155.32,
+            "volume": 8174280
+          },
+          {
+            "date": "2025-08-19",
+            "open": 153.46,
+            "high": 153.94,
+            "low": 151.855,
+            "close": 152,
+            "volume": 8567476
+          },
+          {
+            "date": "2025-08-20",
+            "open": 152.42,
+            "high": 153.49,
+            "low": 151.93,
+            "close": 153.22,
+            "volume": 8076269
+          },
+          {
+            "date": "2025-08-21",
+            "open": 152.82,
+            "high": 155.67,
+            "low": 152.73,
+            "close": 155.55,
+            "volume": 7533625
+          },
+          {
+            "date": "2025-08-22",
+            "open": 155.32,
+            "high": 158.79,
+            "low": 155.32,
+            "close": 158.18,
+            "volume": 9084344
+          },
+          {
+            "date": "2025-08-25",
+            "open": 157.9,
+            "high": 158.32,
+            "low": 157.17,
+            "close": 158.2,
+            "volume": 7029967
+          },
+          {
+            "date": "2025-08-26",
+            "open": 157.51,
+            "high": 160,
+            "low": 156.55,
+            "close": 157.36,
+            "volume": 10270030
+          },
+          {
+            "date": "2025-08-27",
+            "open": 157.4,
+            "high": 159.99,
+            "low": 157.205,
+            "close": 159.24,
+            "volume": 7482903
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.698879916644964,
+        "return_63d": 15.466608657820327,
+        "pct_above_sma50": 4.854491675643784,
+        "sma_50": 151.8676,
+        "new_55d_high": "False",
+        "high_55d": 160.0,
+        "rsi": 64.20560747663555,
+        "rsi_in_range": "True",
+        "adx": 22.81391718652501,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.6848781713137417,
+        "bb_width": 6.272974229485438,
+        "keltner_width": 6.939869979824473,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1275042852.6808498,
+        "adv_shares": 8245739.7,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.99389518528698,
+        "final_score": 48.99389518528698,
+        "sub_scores": {
+          "trend_momentum": 16.479095185286994,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.514799999999987,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.407374387059801,
+          "ret_63d": 17.071018967798857,
+          "rsi14": 64.20560747663555,
+          "adx14": 23.24553704949606,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CVX\n• Current Price: $159.24\n• Overall Score: 51.965959885608825\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 151.6034\n• Sma 200: 150.6867\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.4073743870598026\n• Momentum 63D: 17.07101896779885\n• Momentum 126D: 2.6427742684027478\n• Momentum Acceleration: -15.663644580739048\n• Roc 21D: 1.4073743870598026\n• Trend Strength 20D: 0.665847245910578\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 0.0\n• Price Velocity: 0.007775694016604851\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 20.0\n• Squeeze Momentum: 0.1851569167999506\n• Volatility Compression: 59.634560289524764\n• Is Consolidating: False\n• Breakout Score: 76.42478863492532\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.479095185286994\n• Squeeze Breakout: 4.0\n• Options Quality: 17.514799999999987\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 47.0\n• Momentum: 59.0\n• Squeeze: 63.94518404342871\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CVX\n• Strike Price: $155\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.8\n• Ask: $7.95\n• Last: $7.89\n• Mid: $7.875\n• Spread: 1.886792452830188679245283019%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6331\n• Gamma: 0.0265\n• Theta: -0.0629\n• Vega: 0.2241\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2393\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 101\n• Open Interest: 2138\n• Volume/OI Ratio: 0.04724041159962582\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Chevron Corp\n• Sector: Energy\n• Industry: Oil & Gas Integrated\n• EPS (TTM): $7.77\n• Profit Margin: 7.2%\n• ROE: 9.0%\n• P/E Ratio: 20.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T15:54:00+00:00: Can OXY Stock Gain From Low-Cost Operations and High-quality Assets?...\n• 2025-08-27T15:00:00+00:00: Sky High for Kids and Local Fuel Partners Unite to Benefit Texas Children’s Hosp...\n• 2025-08-27T14:13:00+00:00: ConocoPhillips' Marathon Oil Takeover: Is it Unlocking Superior Value?...\n• 2025-08-27T10:00:00+00:00: Emerald Technology Ventures Celebrates 25 Years of Climate Tech Leadership...\n• 2025-08-27T08:37:00+00:00: The Best Warren Buffett Stocks to Buy With $5,000 Right Now...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CVX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CVX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:48:16.650962",
+    "estimated_tokens": 2333
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CVX\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CVX shows strong technical momentum with price above both SMAs and a perfect MA ribbon score of 100, while experiencing a notable volatility squeeze across multiple timeframes. However, upcoming earnings and decelerating momentum present near-term risks despite the favorable options setup.\",\n    \"opportunities\": [\n        \"Strong MA positioning with price above both 50 and 200 SMAs (151.60, 150.69)\",\n        \"Multi-timeframe squeeze present (3 timeframes) with 59.63% volatility compression\",\n        \"Options have reasonable liquidity with tight 1.89% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Momentum deceleration (-15.66 acceleration score)\",\n        \"Upcoming earnings on 2025-09-30\",\n        \"Below average profit margins at 7.2%\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Long LEAPS Call position at $155 strike showing favorable delta of 0.63\",\n        \"entry_timing\": \"Consider partial position now with remainder after earnings\",\n        \"risk_management\": \"Use 30% stop loss and consider rolling up if momentum accelerates\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup is compelling, timing is suboptimal due to upcoming earnings. Consider staged entry to manage event risk.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CVX",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "CVX shows strong technical momentum with price above both SMAs and a perfect MA ribbon score of 100, while experiencing a notable volatility squeeze across multiple timeframes. However, upcoming earnings and decelerating momentum present near-term risks despite the favorable options setup.",
+      "opportunities": [
+        "Strong MA positioning with price above both 50 and 200 SMAs (151.60, 150.69)",
+        "Multi-timeframe squeeze present (3 timeframes) with 59.63% volatility compression",
+        "Options have reasonable liquidity with tight 1.89% bid-ask spread"
+      ],
+      "risks": [
+        "Momentum deceleration (-15.66 acceleration score)",
+        "Upcoming earnings on 2025-09-30",
+        "Below average profit margins at 7.2%"
+      ],
+      "option_contract": {
+        "recommendation": "Long LEAPS Call position at $155 strike showing favorable delta of 0.63",
+        "entry_timing": "Consider partial position now with remainder after earnings",
+        "risk_management": "Use 30% stop loss and consider rolling up if momentum accelerates"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative momentum acceleration"
+      ],
+      "notes": "While technical setup is compelling, timing is suboptimal due to upcoming earnings. Consider staged entry to manage event risk."
+    },
+    "tokens_used": 2533,
+    "cost": 0.025330000000000002,
+    "response_time": 13.858720302581787,
+    "success": true
+  },
+  "cost": 0.025330000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8534,
+    "response_length": 1600
+  }
+}

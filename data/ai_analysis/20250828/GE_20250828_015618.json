@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "GE",
+  "timestamp": "2025-08-28T01:56:18.013852",
+  "data_package": {
+    "metadata": {
+      "symbol": "GE",
+      "package_timestamp": "2025-08-28T01:56:07.020780",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "GE",
+        "current_price": 273.35,
+        "overall_score": 50.31025641025641,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 261.068,
+        "sma_200": 213.268
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.1246346787022383,
+        "momentum_63d": 12.18040792875612,
+        "momentum_126d": 35.583552403154606,
+        "momentum_acceleration": -11.055773250053882,
+        "roc_21d": 1.1246346787022383,
+        "trend_strength_20d": 0.14049323480824621,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.26788656668751,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.005209329249768135
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 11.0,
+        "squeeze_momentum": -0.6310050254369775,
+        "volatility_compression": 70.0,
+        "is_consolidating": "False",
+        "breakout_score": 89.15813209600147,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.153755817761137,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.437139393939404,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 50.0,
+        "squeeze": 65.5,
+        "options": 42.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 18,
+        "percentile": 98.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "GE",
+        "strike_price": "270",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "13.3",
+        "ask": "13.65",
+        "last_price": "13.75",
+        "mid_price": "13.475",
+        "spread_percent": "2.564102564102564102564102564"
+      },
+      "greeks": {
+        "delta": 0.5883,
+        "gamma": 0.014,
+        "theta": -0.1238,
+        "vega": 0.3948
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2731
+      },
+      "liquidity_metrics": {
+        "volume": 706,
+        "open_interest": 787,
+        "volume_oi_ratio": 0.8970775095298602
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:37:49.353455",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T16:53:00+00:00",
+            "title": "5 Top School Stocks to Buy in a Shifting Education Market",
+            "content": "The Zacks Schools industry is rebounding, fueled by rising demand for career-focused programs in healthcare, skilled trades, cybersecurity, and IT. These institutions are benefiting from a labor market that values job-ready skills and government initiatives promoting non-degree pathways. The sector is also addressing the critical shortage of healthcare workers with rigorous, workforce-aligned training. Digital innovation is driving differentiation, with companies heavily investing in adaptive learning tools and scalable online platforms. This tech integration enhances engagement and supports flexible learning for working adults, while helping institutions manage costs and protect margins. Consolidation is also reshaping the landscape, as larger players pursue acquisitions to broaden offerings and improve scale. The “Big Beautiful Bill” appears incremental, not disruptive—pushing policy toward affordability and outcomes via Workforce Pell, higher employer TA caps, and added military TA. Providers with job-linked offerings, disciplined pricing, and diversified funding are best positioned.\r\n\r\nAlthough regulatory scrutiny, affordability concerns, and funding dependency remain challenges, demographic tailwinds (especially among older and minority learners), state/federal support for vocational education, and digital innovation are combining to drive enrollment and revenue growth for for-profit providers in 2025 like Stride, Inc. LRN, Grand Canyon Education, Inc. LOPE, Laureate Education, Inc. LAUR, Perdoceo Education Corporation PRDO, Lincoln Educational Services Corporation LINC.\n\nIndustry Description\n\nThe Zacks Schools industry comprises for-profit education companies that offer undergraduate, graduate and specialized programs in finance, accounting, analytics, marketing, healthcare, business and technology. They are engaged in offering career-oriented programs in the fields of business and management, nursing, computer science, engineering, information systems and technology, project management, cybersecurity and criminal justice. The industry players also offer child-care services and career-oriented post-secondary courses. Some companies within the industry also provide yoga classes and yoga-related retail merchandise-integrated fitness classes, along with conducting workshops and teacher training programs.\n\n3 Trends Shaping the Future of the School Industry\n\nRising Demand for Workforce-Oriented Programs: After years of declining enrollment, 2025 is witnessing renewed interest in programs that offer direct pathways to employment. For-profit institutions have used their flexible operating models to expand offerings in short-term credential programs, healthcare training, cybersecurity, and skilled trades. As the labor market places greater value on job-ready skills over traditional degrees, these programs are gaining traction, especially among adult learners and career switchers. Government workforce development initiatives, such as reskilling grants and federal partnerships to promote non-degree pathways, have also boosted demand. Additionally, the ongoing digital transformation across sectors has spurred interest in IT boot camps and tech-aligned certifications, areas where for-profit providers have built a scalable presence.\r\n\r\nMeanwhile, healthcare and global institutions have been making substantial contributions to the companies' financial success. The U.S. healthcare sector is presently grappling with a pronounced shortage of skilled professionals, which is posing a significant risk to the quality of care and exacerbating health disparities across the country. The companies have designed their programs to be rigorous and well-suited to address the workforce needs of the healthcare industry. Industry stakeholders also anticipate a future where the demand for healthcare professionals will outstrip the available supply.\r\n\r\nAmid the pressures of regulation and shifting demographics, the sector is witnessing consolidation. Larger, better-capitalized players are acquiring niche or financially weaker institutions to expand program offerings or gain regional accreditation. Strategic’s STRA acquisition of tech bootcamps and Adtalem’s ATGE continued integration of Walden University highlight ongoing M&A activity aimed at diversification and scale. Meanwhile, Congress passed “Workforce Pell” in July 2025, expanding Pell eligibility to high-quality, short-term programs beginning July 1, 2026. For providers with accredited, outcomes-verified certificates in healthcare, IT, and skilled trades, this expands the addressable market and could structurally lift enrollment and pricing power, subject to program-quality metrics.\r\n\r\nOnline Education and Tech Integration Drive Market Differentiation: The acceleration of digital learning continues to be a critical differentiator for for-profit colleges. Institutions like Grand Canyon Education, Strategic Education, and Adtalem have invested heavily in learning management systems, data analytics, and adaptive learning tools to personalize instruction and enhance student engagement. The shift toward hybrid and asynchronous formats has allowed for-profit players to serve non-traditional and working students more effectively than many public institutions. Scalable digital platforms have also helped manage operating costs, enabling some companies to maintain or improve margins despite enrollment challenges.\r\n\r\nAffordability, Operational & Financial Challenges: Affordability remains a core concern for prospective students, especially with interest in student loan reform gaining momentum. While income-driven repayment plans and forgiveness initiatives may ease financial stress for borrowers, they also highlight systemic cost concerns associated with for-profit programs.\r\n\r\nFor-profit educators face several operational and financial headwinds. Most of their revenues come from tuition and federal aid, so they are vulnerable to any enrollment swings or cuts in government funding. Any dip in student numbers (due to competition, demographic trends or economic cycles) can quickly hit operating income. Compliance and administrative costs are also high, as schools must meet strict reporting and quality standards under Title IV. FAFSA processing challenges continue into 2025, prompting late disbursement flexibilities and straining working capital for institutions reliant on Title IV funding cycles. Ongoing operational delays early in the year disrupted receivables timing, while new FVT/GE reporting requirements add compliance burdens and may drive adjustments to program portfolios.\r\n\r\nIndustry players also often spend heavily on recruitment and advertising to attract students, squeezing margins. Again, macroeconomic factors (like rising interest rates or budget cuts at the state/local level) can constrain school and district purchasing of edtech products, indirectly pressuring vendors’ top lines.\n\nStory Continues\n\nZacks Industry Rank Indicates Bright Prospects\n\nThe Zacks Schools industry is an 18-stock group within the broader Zacks Consumer Discretionary sector. The industry currently carries a Zacks Industry Rank #32, which places it in the top 13% of more than 250 Zacks industries.\r\n\r\nThe group’s Zacks Industry Rank, which is basically the average of the Zacks Rank of all the member stocks, indicates impressive near-term prospects. Our research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than 2 to 1.\r\n\r\nThe industry’s positioning in the top 50% of the Zacks-ranked industries is a result of a higher earnings outlook for the constituent companies in aggregate. Looking at the aggregate earnings estimate revisions, it appears that analysts are gradually gaining confidence in this group’s earnings growth potential. Since April 2025, the industry’s earnings estimates for 2025 have increased to $1.34 per share from $1.32.\r\n\r\nBefore we present a few stocks that you may want to consider for your portfolio, let’s take a look at the industry’s recent stock-market performance and valuation picture.\n\nIndustry Lags Sector, Outperforms S&P 500\n\nThe Zacks Schools industry has lagged the broader Zacks Consumer Discretionary sector but performed better than the Zacks S&P 500 Composite over the past year.\r\n\r\nThe stocks in this industry have collectively gained 20.6% compared with the broader sector’s rise of 26.6%. Meanwhile, the S&P 500 has increased 16.2% in the said period.\n\nOne-Year Price Performance\n\nIndustry's Current Valuation\n\nOn the basis of the forward 12-month price-to-earnings ratio, which is a commonly used multiple for valuing for-profit education stocks, the industry is currently trading at 15.32X versus the S&P 500’s 22.76X and the sector’s 20.44X.\r\n\r\nOver the past five years, the industry has traded as high as 217.18X, as low as 13.28X and at a median of 20.89X, as the chart below shows.\n\nIndustry’s P/E Ratio (Forward 12-Month) Versus S&P 500\n\nIndustry’s P/E Ratio (Forward 12-Month) Versus Sector\n\n5 School Stocks to Buy Now\n\nBelow, we have discussed five stocks from the industry that currently carry a Zacks Rank #1 (Strong Buy) or 2 (Buy) and have solid growth potential.  You can see the complete list of today’s Zacks #1 Rank stocks here. \r\n\r\nGrand Canyon: Based in Phoenix, AZ, Grand Canyon operates as an education services company in the United States. Grand Canyon’s performance is being driven by broad-based enrollment growth and execution across its online, hybrid and ground models. Online remains the engine: total online enrollment rose about 10% in second-quarter 2025 as GCE kept rolling out more than 20 new programs annually, deepened ties with more than 5,500 employers to address workforce shortages, improved retention, and held tuition, pulling in more 18–25-year-olds choosing fully online study across 300 or more programs. Hybrid momentum is accelerating, with enrollment up mid-teens excluding closed/teach-out sites, fueled by an “advanced standing” funnel that channels students through affordable eight-week online prerequisites into high-completion, about 90% first-time NCLEX pass-rate cohorts. Service revenue increased on the back of higher partner enrollments, including GCU online and off-campus labs, with mix and contract changes modestly lowering revenue per student but not derailing growth. Overall, management sees little to no negative impact from recent federal policy (“Big Beautiful Bill”), citing low tuition levels and strong graduate earnings in nursing—an external backdrop that supports continued execution.\r\n\r\nGrand Canyon stock — currently sporting a Zacks Rank #1 — has surged 42.1% over the past year. Grand Canyon has seen an upward estimate revision for 2025 earnings to $9.07 per share from $8.75 over the past 30 days. This company’s earnings for 2025 are expected to register 12.8% growth from a year ago. LOPE’s earnings topped consensus estimates in all the trailing four quarters, with the average surprise being 4%. Moreover, LOPE’s three-to-five-year expected earnings per share growth rate is currently pegged at 15%. It also has a favorable VGM Score of B, making it a potentially interesting investment opportunity.\n\nPrice and Consensus: LOPE\n\nLaureate Education: Headquartered in Miami, FL, this company operates five higher education institutions across Mexico and Peru. Laureate is driving growth in 2025 through its locally rooted but digitally scalable model, resilient demand in Mexico and Peru, and focus on affordability and employability. Strong enrollment momentum, especially in fully online working-adult programs, along with disciplined pricing and efficiency gains, is boosting profitability. Currency tailwinds, cost controls, and a higher outlook further strengthen results. New campuses in Monterrey and Lima, plus a pipeline of expansions, position the company to capture rising demand. Its strong brands, digital capabilities, and favorable macro and regulatory backdrops in Latin America continue to support its trajectory.\r\n\r\nLaureate stock — currently carrying a Zacks Rank #2 — has rallied 76.6% over the past year. LAUR has seen an upward estimate revision for 2025 earnings to $1.73 per share from $1.70 over the past 30 days. This company’s earnings for 2025 are expected to register 28.2% growth from a year ago.\n\nPrice and Consensus: LAUR\n\nStride: Headquartered in Reston, VA, Stride is a technology-driven education services provider with a well-diversified portfolio of learning programs. Stride’s momentum is being powered by secular growth in school-choice demand, with strong application activity translating into robust enrollments and rising brand awareness amplified by word-of-mouth at a national scale. A generally supportive funding backdrop at the state level, with no material federal headwinds expected, underpins reliable revenue per student. Management is also leaning into product innovation—most notably high-dosage reading tutoring for early grades, continued build-out of career-learning pathways, and a cautious but ambitious integration of AI—to improve student outcomes and engagement. Operational discipline and scale are delivering efficiency gains even as the company reinvests, while the franchise’s resilience with partners—illustrated by quickly backfilling a terminated New Mexico relationship through new multi-district agreements that kept families and teachers in the ecosystem—supports durable growth.\r\n\r\nStride stock — currently carrying a Zacks Rank #2 — has surged 107.8% over the past year. LRN has seen an upward estimate revision for fiscal 2026 earnings to $8.52 per share from $7.76 over the past 30 days. This company’s earnings for fiscal 2026 are expected to register 5.2% growth from a year ago. LRN’s earnings topped the consensus estimate in three of the trailing four quarters and missed in one, with the average surprise being 98.7%. Moreover, LRN’s three-to-five-year expected earnings per share growth rate is currently pegged at 20%. It also has a favorable VGM Score of A.\n\nPrice and Consensus: LRN\n\nLincoln Educational Services: Based in Parsippany, NJ, Lincoln’s momentum is being driven by rising interest in skilled-trades training as a practical alternative to four-year degrees, supported by recent federal actions around student loans; a program mix concentrated in fields with persistent labor shortages (electrical, HVAC, automotive, welding and nursing); the Lincoln 10.0 hybrid model that increases student flexibility while improving instructional and space efficiency; strong execution at new and relocated campuses alongside rapid replication of high-demand programs; deeper high-school pipelines and expanding employer partnerships (including Johnson Controls) that bolster enrollments and outcomes; improved marketing efficiency with healthier credit performance; and a visible expansion runway—Levittown and Houston progressing, Hicksville planned, and additional campuses envisioned—funded by operating cash flow, with healthcare offerings being restructured under new leadership and degree-granting efforts aimed at enabling RN pathways.\r\n\r\nLincoln, carrying a Zacks Rank #2, has surged 59.5% over the past year. It has seen an upward estimate revision for the 2025 earnings estimate to 67 cents per share from 63 cents over the past 30 days. LINC’s earnings for 2025 are expected to grow 19.6%. Its earnings topped consensus estimates in three of the trailing four quarters and missed on one occasion, with the average surprise being 74.1%. Moreover, LINC’s three-to-five-year expected earnings per share growth rate is currently pegged at 15%. It also has a favorable VGM Score of A.\n\nPrice and Consensus: LINC\n\nPerdoceo Education: Headquartered in Schaumburg, IL, this company offers postsecondary education programs through online, campus-based and blended learning formats across the United States. Perdoceo’s growth is being fueled by strong enrollment momentum across CTU, AIU and the newly acquired University of St. Augustine, supported by high student retention and rising interest from prospects. Management is enhancing marketing and admissions productivity, using generative AI selectively, while also expanding corporate-student programs for steadier demand. The St. Augustine deal adds meaningful scale with hybrid and health-science programs driving consistent gains. Investments in technology, analytics, academics and support systems are improving outcomes and capacity, while AIU’s extra December session is set to boost year-end enrollment and extend momentum into 2026.\r\n\r\nPerdoceo, carrying a Zacks Rank #2, has soared 44.7% over the past year. It has seen an upward estimate revision for the 2025 earnings estimate to $2.52 per share from $2.49 over the past 30 days. This company’s earnings for 2025 are expected to grow 10%. Its earnings topped the consensus estimate in each of the trailing four quarters, with the average surprise being 6.2%. Moreover, PRDO’s three-to-five-year expected earnings per share growth rate is currently pegged at 15%. It also has a favorable VGM Score of B.\n\nPrice and Consensus: PRDO\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nStride, Inc. (LRN) : Free Stock Analysis Report\n\nLincoln Educational Services Corporation (LINC) : Free Stock Analysis Report\n\nGrand Canyon Education, Inc. (LOPE) : Free Stock Analysis Report\n\nLaureate Education (LAUR) : Free Stock Analysis Report\n\nPerdoceo Education Corporation (PRDO) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T13:33:00+00:00",
+            "title": "GEV or VWDRY: Which Wind Turbine Stock Offers Greater Prospect Now?",
+            "content": "Supportive government policies, rapidly rising electricity demand, offshore wind expansion, and the improving economics of wind technology are fueling unprecedented investment in the wind industry amid the relentless global shift toward clean energy. GE Vernova (GEV) and Vestas Wind Systems (VWDRY), two prominent wind turbine manufacturers, are capitalizing on this investment trend by advancing the scale and efficiency of their turbines while expanding their geographic reach.\n\nGE Vernova stands out as a U.S.-based energy leader, offering a broad portfolio that spans onshore and offshore wind, grid and storage solutions, as well as next-generation power technology ranging from hydro to nuclear. On the other hand, Vestas Wind Systems, a Danish wind power giant, focuses singularly on the design, manufacturing, installation and service of wind turbines.\n\nAgainst this backdrop, both GEV and VWDRY offer access to the core of the green energy transition. To see which one offers better prospects right now, we need to look at their strengths and weaknesses, outlined below.\n\nFinancial Stability & Future Growth Drivers: GEV vs VWDRY\n\nGE Vernova’s cash and cash equivalents as of June 30, 2025, totaled $7.89 billion, while both the current and long-term debt values were nil. A comparative analysis of these figures reflects that GE Vernova boasts a strong solvency position, which, in turn, should enable the company to duly meet its commitment to invest $9 billion in cumulative research and development (R&D) and capital expenditure through 2028.\n\nAs part of this plan, GE Vernova’s Wind segment aims to invest nearly $100 million in its manufacturing facilities in Pensacola, FL; Schenectady, NY; and Grand Forks, ND, as well as in its remanufacturing facility in Amarillo, TX. GEV also has plans to invest a total of nearly $20 million to expand capacity at its Grid Solutions facilities in Charleroi, PA, which should duly support the smooth integration of renewable electricity across the United States.\n\nOn the other hand, Vestas Wind Systems had cash and cash equivalents of approximately $3.54 billion as of June 30, 2025. As of the same date, the company’s long-term debt totaled approximately $3.03 billion, while its current debt was nearly $0.87 billion. A comparative analysis of these figures implies that VWDRY also boasts a solid solvency position, which should enable it to invest in product innovation and ramp up its manufacturing capacity for existing products, such as the V236-15.0 megawatt (MW) platform, to seize expanding market opportunities.\n\nStory Continues\n\nIn terms of growth drivers, increasing demand for both offshore and onshore wind is boosting the overall prospect for the wind industry, as renewables are steadily outperforming fossil-fuel-based electricity in terms of cost-effectiveness. This demand trend should benefit both GEV and VWDRY as both are making notable efforts to expand their business reach in the wind industry.\n\nIn May 2025, it was announced that Vestas will acquire a blade factory from GEV’s LM Wind Power business in Goleniów, Poland. While this deal will strengthen VWDRY’s European manufacturing capacity to meet rising wind energy demand, for GE Vernova, it streamlines operations and frees up capital to reinvest in core EU facilities, enhancing focus on producing wind products for European customers.\n\nApart from the growth traits of the wind energy industry, increasing demand for efficient grid and storage solutions, along with rising use of non-fossil energy sources like hydro and nuclear, has been playing the role of an additional growth catalyst for GEV. VWDRY lags behind as it remains solely focused on wind turbine development and associated services.\n\nRisks of Investing in GEV vs VWDRY\n\nSince both GEV and VWDRY operate in the wind industry, they share some common risks. Notably, the offshore wind segment has been witnessing rising material costs, persistent supply-chain issues, and regulatory delays, thereby impacting project viability and causing delays in hitting ambitious deployment targets. This remains a major risk for wind stocks like GEV and VWDRY.\n\nFurther, the already disruptive supply chain of the industry has been exacerbated by the increased import tariffs imposed by the U.S. government in early 2025, which bears every possibility of further pushing up the costs of raw materials, installation as well as delay in project completion.\n\nApart from these shared risks, GEV faces some unique threats on account of its diversified portfolio, particularly from its nuclear exposure. Since GEV’s operations involve the handling, use, transportation, and disposal of radioactive and hazardous materials, including nuclear fuel, nuclear power devices and their components, the company is subject to international, federal, state, and local regulations governing the usage and disposal of such materials. If GEV fails to follow any of these regulations, or if damage occurs during the transport or disposal of these materials, the company may face significant costs.\n\nHow Do Zacks Estimates Compare for GEV & VWDRY?\n\nThe Zacks Consensus Estimate for GE Vernova’s 2025 sales and earnings per share (EPS) implies an improvement of 6.7% and 44.1%, respectively, from the year-ago quarter’s reported figures. The stock’s near-term EPS estimates have also moved north over the past 60 days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for Vestas Wind Systems' 2025 sales implies a year-over-year improvement of 20.5%, while that for earnings suggests a rise of 50%. The stock’s bottom-line estimates for 2025 and 2026 have moved north over the past 60 days.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nStock Price Performance: GEV vs VWDRY\n\nGEV (up 8.9%) has underperformed VWDRY (up 31.1%) over the past three months but has outperformed the same in the past year. Shares of GEV have surged 18.4%, while those for VWDRY have lost 8.8% over the said period.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nValuation of VWDRY More Attractive Than That of GEV\n\nVWDRY is trading at a forward earnings multiple of 19.94, much below GE Vernova’s forward earnings multiple of 54.68.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nVWDRY’s ROE Better Than GEV\n\nA comparative analysis of both these stocks’ Return on Equity (ROE) suggests that VWDRY is more efficient at generating profits from its equity base compared to GEV.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nGEV or VWDRY: Which One to Choose?\n\nBoth GE Vernova and Vestas Wind Systems remain central players in the clean energy transition, yet their appeal differs across key metrics.\n\nGE Vernova boasts a debt-free balance sheet, diversified exposure across wind, grid, hydro, and nuclear, and improving earnings estimates, though its premium valuation and nuclear-related risks temper near-term efficiency. While GEV has outperformed Vestas over the past year, VWDRY has delivered stronger recent momentum over the past quarter. Vestas, with its pure-play wind focus, superior ROE, and more attractive valuation, offers capital efficiency but less diversification.\n\nThus, investors seeking long-term diversified growth may lean toward GEV, while those favoring near-term momentum and value could prefer VWDRY.\n\nBoth GEV and VWDRY stocks carry a Zacks Rank #3 (Hold) at present. You can see the complete list of today’s Zacks Rank #1 (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nVestas Wind Systems AS (VWDRY) : Free Stock Analysis Report\n\nGE Vernova Inc. (GEV) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:43:00+00:00",
+            "title": "The Zacks Analyst Blog Highlights GE Aerospace, AT&amp;T and TotalEnergies",
+            "content": "For Immediate Release\n\nChicago, IL – August 27, 2025 – Zacks.com announces the list of stocks featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and events impacting stocks and the financial markets. Stocks recently featured in the blog include: GE Aerospace GE, AT&T Inc. T and TotalEnergies SE TTE.\n\nHere are highlights from Tuesday’s Analyst Blog:\n\nTop Research Reports for GE Aerospace, AT&T and TotalEnergies\n\nThe Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including GE Aerospace, AT&T Inc. and TotalEnergies SE. These research reports have been hand-picked from the roughly 70 reports published by our analyst team today.\n\nYou can see all of today's research reports here >>>\n\nAhead of Wall Street\n\nThe daily 'Ahead of Wall Street' article is a must-read for all investors who would like to be ready for that day's trading action. The article comes out before the market opens, attempting to make sense of that morning's economic releases and how they will affect that day's market action. You can read this article for free on our home page and can actually sign up there to get an email notification as this article comes out each morning.\n\nYou can read today's AWS here >>> Pre-Markets Give Back Some of Friday's Big Gains\n\nToday's Featured Research Reports\n\nShares of GE Aerospace have outperformed the Zacks Aerospace - Defense industry as well as the broader market over the year-to-date period (+63.5% vs. +26.6% for the industry and +9.4% for the S&P 500 index). The company has been witnessing strength in its businesses, driven by robust demand for commercial engines, propulsion and additive technologies. Rising U.S. & international defense budgets, geopolitical tensions, positive airline & airframer dynamics and robust demand for commercial air travel augur well for the company.\n\nIts portfolio-reshaping actions are likely to unlock values for its shareholders. The company raised its dividend by 28.6% to 36 cents per share in February 2025. For 2025, GE Aerospace expects organic revenues to grow in the mid-teens-digit range from the year-ago level.\n\nHowever, it has been dealing with high costs and expenses related to certain projects and restructuring activities, which are likely to affect its margins and profitability. Also, foreign exchange headwinds might be worrying for the company.\n\n(You can read the full research report on GE Aerospace here >>>)\n\nStory Continues\n\nAT&T shares have outperformed the Zacks Wireless National industry over the year-to-date period (+31.2% vs. +18.9%). The company, with a customer-centric business model, is witnessing healthy momentum in its postpaid wireless business with a lower churn rate and increased adoption of higher-tier unlimited plans.\n\nAT&T expects to continue investing in key areas of 5G and fiber and adjust its business according to the evolving market scenario to fuel long-term growth. An integrated fiber expansion strategy is expected to improve broadband connectivity for both enterprise and consumer markets, while steady 5G deployments are likely to boost end-user experience.\n\nHowever, the wireline division is struggling with persistent losses in access lines as a result of competitive pressure from voice-over-Internet-protocol service providers. Healthy discounts and freebies to woo customers dent margins. The high debt burden remains a concern.\n\n(You can read the full research report on AT&T here >>>)\n\nShares of TotalEnergies have outperformed the Zacks Oil and Gas - Refining and Marketing industry over the year-to-date period (+19.5% vs. +18.6%). The company's second-quarter results were lower than estimates, while revenues beat it. TTE is gaining from contributions coming from startups, well-spread LNG assets and upstream assets located in the new hydrocarbon-producing regions.\n\nTotalEnergies benefits from its multi-energy assets spread across the globe. Its free cash flow allows it to increase shareholders' value. It is investing in clean power generation and lowering emissions. In the past three months, shares of the company have outperformed its industry.\n\nYet, TotalEnergies operates multiple assets globally, and in some regions, production might be impacted due to security concerns. It remains exposed to acquisition-related risks as these assets contribute a sizable volume to production. The natural field decline will impact production volumes and lower profits.\n\n(You can read the full research report on TotalEnergies here >>>)\n\nMedia Contact\n\nZacks Investment Research\n\n800-767-3771 ext. 9339\n\nsupport@zacks.com\n\nhttps://www.zacks.com\n\nPast performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit https://www.zacks.com/performance for information about the performance numbers displayed in this press release.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nGE Aerospace (GE) : Free Stock Analysis Report\n\nAT&T Inc. (T) : Free Stock Analysis Report\n\nTotalEnergies SE Sponsored ADR (TTE) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:41:34+00:00",
+            "title": "GEV Factor-Based Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for GE VERNOVA INC (GEV). Of the 22 guru strategies we follow,  GEV rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth.\n\nGE VERNOVA INC (GEV) is a large-cap growth stock in the Electric Utilities industry. The rating using this strategy is 66% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. BOOK/MARKET RATIO:PASSRETURN ON ASSETS:FAILCASH FLOW FROM OPERATIONS TO ASSETS:PASSCASH FLOW FROM OPERATIONS TO ASSETS VS. RETURN ON ASSETS:PASSRETURN ON ASSETS VARIANCE:FAILSALES VARIANCE:FAILADVERTISING TO ASSETS:FAILCAPITAL EXPENDITURES TO ASSETS:PASSRESEARCH AND DEVELOPMENT TO ASSETS:PASS\n\nDetailed Analysis of GE VERNOVA INC\n\nGEV Guru Analysis\n\nGEV Fundamental Analysis\n\nMore Information on Partha Mohanram\n\nPartha Mohanram Portfolio\n\nAbout Partha Mohanram: Sometimes the best investing strategies don't come from the world of investing. Sometimes research that changes the investing world can come from the halls of academia. Partha Mohanram is a great example of this. While academic research has shown that value investing works over time, it has found the opposite for growth investing. Mohanram turned that research on its head by developing a growth model that produced significant market outperformance. His research paper \"Separating Winners from Losers among Low Book-to-Market Stocks using Financial Statement Analysis\" looked at the criteria that can be used to separate growth stocks that continue their upward trajectory from those that don't. Mohanram is currently the John H. Watson Chair in Value Investing at the University of Toronto and was previously an Associate Professor at the Columbia Business School.\n\nAdditional Research Links\n\nTop Large-Cap Growth Stocks\n\nFactor-Based Stock Portfolios\n\nDividend Aristocrats 2025\n\nHigh Insider Ownership Stocks\n\nTop S&P 500 Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T10:19:15+00:00",
+            "title": "GE Aerospace Collaboration on Advanced SiC Devices Could Be a Game Changer for Axcelis Technologies (ACLS)",
+            "content": "GE Aerospace recently announced a joint development program with Axcelis Technologies to advance production-worthy high-voltage silicon carbide superjunction power devices using the Purion XEmax™ high energy implanter. This collaboration highlights the important role of silicon carbide semiconductors for enabling innovation in aerospace, defense, artificial intelligence, and other emerging high-growth sectors. We'll now assess how Axcelis Technologies' partnership with GE Aerospace for advanced silicon carbide devices affects the company's investment outlook.\n\nWe've found 18 US stocks that are forecast to pay a dividend yield of over 6% next year. See the full list for free.\n\nAxcelis Technologies Investment Narrative Recap\n\nThe big picture for Axcelis Technologies centers on the long-term adoption of silicon carbide power devices in high-growth sectors such as electric vehicles, renewable energy, and now, advanced aerospace applications. The recent partnership with GE Aerospace spotlights Axcelis’s technology leadership, but does not materially change the most pressing near-term challenge: muted bookings and backlog growth tied to lingering customer digestion and a heavy reliance on mature node demand, which could constrain revenue if industry demand fails to rebound.\n\nAmong Axcelis’s recent announcements, the upcoming showcase of its Purion platform at SEMICON Korea 2025 is particularly relevant, underscoring how continuous R&D and expansion in key markets are supporting engagement with leading-edge customers for advanced silicon carbide manufacturing. This ongoing product development remains a central catalyst as the company seeks to transition more of its business into premium market segments, offsetting near-term headwinds in bookings.\n\nOn the other hand, investors should be aware of Axcelis’s significant exposure to the Chinese market, as...\n\nRead the full narrative on Axcelis Technologies (it's free!)\n\nAxcelis Technologies' outlook anticipates $836.1 million in revenue and $66.7 million in earnings by 2028. This forecast implies a 2.3% annual decline in revenue and a decrease in earnings of $91.8 million from current earnings of $158.5 million.\n\nUncover how Axcelis Technologies' forecasts yield a $85.50 fair value, a 6% upside to its current price.\n\nExploring Other PerspectivesACLS Community Fair Values as at Aug 2025\n\nFair value estimates from three Simply Wall St Community members range from US$35.71 to US$91.71, showing wide disagreement. This diversity of opinion comes as muted demand for Axcelis’s silicon carbide tools continues to weigh on forecasts, so you may want to explore several viewpoints before deciding what matters most for your expectations.\n\nStory Continues\n\nExplore 3 other fair value estimates on Axcelis Technologies - why the stock might be worth as much as 13% more than the current price!\n\nBuild Your Own Axcelis Technologies Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Axcelis Technologies research is our analysis highlighting 1 key reward and 1 important warning sign that could impact your investment decision. Our free Axcelis Technologies research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Axcelis Technologies' overall financial health at a glance.\n\nSearching For A Fresh Perspective?\n\nThe market won't wait. These fast-moving stocks are hot now. Grab the list before they run:\n\nFind companies with promising cash flow potential yet trading below their fair value. Explore 24 top quantum computing companies leading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research. Trump has pledged to \"unleash\" American oil and gas and these 22 US stocks have developments that are poised to benefit.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include ACLS.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "GE Aerospace",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 53000,
+          "description": "General Electric Company, doing business as GE Aerospace, designs and produces commercial and defense aircraft engines, integrated engine components, electric power, and mechanical aircraft systems. The company operates through two reportable segments, Commercial Engines & Services, and Defense & Pr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 7.01,
+          "profit_margin": 0.1864,
+          "operating_margin": 0.209,
+          "roe": 0.3957,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.212,
+          "earnings_growth_yoy": 0.641,
+          "eps_estimate_current_year": 5.8932,
+          "eps_estimate_next_year": 6.9826,
+          "dividend_yield": 0.0048,
+          "dividend_per_share": 1.28,
+          "revenue_ttm": 41611001856,
+          "revenue_per_share": 38.744,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 39.0785,
+          "forward_pe": 46.729,
+          "price_to_sales": 6.9813,
+          "price_to_book": 15.1814,
+          "enterprise_value": 297524765674,
+          "ev_to_revenue": 7.15,
+          "ev_to_ebitda": 27.336
+        },
+        "technical_data": {
+          "beta": 1.447,
+          "52_week_high": 281.5,
+          "52_week_low": 158.8126,
+          "50_day_ma": 261.068,
+          "200_day_ma": 213.268,
+          "short_interest": 0.012,
+          "short_ratio": 1.92
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.44,
+          "forward_dividend_yield": 0.0054,
+          "payout_ratio": 0.2278,
+          "dividend_date": "2025-07-25",
+          "ex_dividend_date": "2025-07-07",
+          "last_split_date": "2024-04-02",
+          "last_split_factor": "1253:1000"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5,
+          "target_price": 297.9333,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1060440000,
+          "percent_institutions": 80.623,
+          "percent_insiders": 0.183,
+          "shares_float": 1056632410
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125256.0,
+          "total_debt": 18887.0,
+          "cash_and_equivalents": 10861.0,
+          "net_debt": 8026.0,
+          "working_capital": 1335.0,
+          "shareholders_equity": 19135.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.99
+        },
+        "income_latest_statement": {
+          "total_revenue": 11023.0,
+          "gross_profit": 4177.0,
+          "operating_income": 2099.0,
+          "net_income": 2028.0,
+          "ebitda": 2858.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 37.89,
+          "operating_margin": 19.04,
+          "net_margin": 18.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2246.0,
+          "free_cash_flow": 1919.0,
+          "capex": 327.0,
+          "net_income": 2000.0,
+          "cash_change": -1390.0,
+          "dividends_paid": -386.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.37,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 269.8,
+            "high": 272.8,
+            "low": 258.16,
+            "close": 260.28,
+            "volume": 16260200
+          },
+          {
+            "date": "2025-07-18",
+            "open": 265.4,
+            "high": 269.7,
+            "low": 262.56,
+            "close": 263.27,
+            "volume": 8619800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 263.69,
+            "high": 266.25,
+            "low": 259.58,
+            "close": 262.86,
+            "volume": 5208500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 260.73,
+            "high": 261.5,
+            "low": 254.66,
+            "close": 259,
+            "volume": 4751300
+          },
+          {
+            "date": "2025-07-23",
+            "open": 260.53,
+            "high": 263.73,
+            "low": 259.95,
+            "close": 263.18,
+            "volume": 4689800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 263.56,
+            "high": 269.84,
+            "low": 263.18,
+            "close": 268.01,
+            "volume": 5206700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 268.83,
+            "high": 272.83,
+            "low": 268.26,
+            "close": 271.59,
+            "volume": 4598400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 273.36,
+            "high": 273.44,
+            "low": 267.44,
+            "close": 270.61,
+            "volume": 5006400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 272.73,
+            "high": 273.8,
+            "low": 269.12,
+            "close": 270.31,
+            "volume": 4125300
+          },
+          {
+            "date": "2025-07-30",
+            "open": 270.92,
+            "high": 273.63,
+            "low": 269.51,
+            "close": 273.55,
+            "volume": 4697000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 273.07,
+            "high": 274.94,
+            "low": 269.88,
+            "close": 271.08,
+            "volume": 4524000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 265.53,
+            "high": 270.55,
+            "low": 261.71,
+            "close": 269.38,
+            "volume": 4416300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 270.51,
+            "high": 276.85,
+            "low": 270.22,
+            "close": 276.23,
+            "volume": 3744000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 276.26,
+            "high": 277,
+            "low": 268.62,
+            "close": 272.12,
+            "volume": 4000600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 273.5,
+            "high": 275.05,
+            "low": 269.91,
+            "close": 272.28,
+            "volume": 3576800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 271.95,
+            "high": 272.87,
+            "low": 268.73,
+            "close": 272.02,
+            "volume": 3050400
+          },
+          {
+            "date": "2025-08-08",
+            "open": 273.58,
+            "high": 277.18,
+            "low": 272.58,
+            "close": 275.01,
+            "volume": 4467300
+          },
+          {
+            "date": "2025-08-11",
+            "open": 275.15,
+            "high": 276.41,
+            "low": 272.55,
+            "close": 275.2,
+            "volume": 3360100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 276.04,
+            "high": 280.54,
+            "low": 275.7,
+            "close": 279.63,
+            "volume": 3630100
+          },
+          {
+            "date": "2025-08-13",
+            "open": 281,
+            "high": 281.5,
+            "low": 264.08,
+            "close": 268.86,
+            "volume": 7599600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 272.99,
+            "high": 274.16,
+            "low": 269.48,
+            "close": 269.7,
+            "volume": 4481700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 268.92,
+            "high": 269.7,
+            "low": 265.21,
+            "close": 267.85,
+            "volume": 5203300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 267.9,
+            "high": 269.61,
+            "low": 266.51,
+            "close": 268.45,
+            "volume": 2697000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 266.31,
+            "high": 268.96,
+            "low": 263.8,
+            "close": 265.93,
+            "volume": 3404900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 265.46,
+            "high": 268.94,
+            "low": 263.81,
+            "close": 266.44,
+            "volume": 3854700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 267.14,
+            "high": 271.92,
+            "low": 266.14,
+            "close": 268.71,
+            "volume": 3266400
+          },
+          {
+            "date": "2025-08-22",
+            "open": 269.73,
+            "high": 272.35,
+            "low": 266.37,
+            "close": 266.53,
+            "volume": 5229300
+          },
+          {
+            "date": "2025-08-25",
+            "open": 267,
+            "high": 271.92,
+            "low": 266.56,
+            "close": 266.61,
+            "volume": 4301600
+          },
+          {
+            "date": "2025-08-26",
+            "open": 267.98,
+            "high": 274.7,
+            "low": 267.42,
+            "close": 273.94,
+            "volume": 4693500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 273.7,
+            "high": 274.6999,
+            "low": 272.23,
+            "close": 273.35,
+            "volume": 2178495
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -0.07311277645768183,
+        "return_63d": 11.95527522935781,
+        "pct_above_sma50": 4.410089677705722,
+        "sma_50": 261.8042,
+        "new_55d_high": "False",
+        "high_55d": 281.5,
+        "rsi": 51.79004037685067,
+        "rsi_in_range": "True",
+        "adx": 22.653805370602175,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.235776477044085,
+        "bb_width": 5.564263748772471,
+        "keltner_width": 9.02027965017628,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1106626431.0885,
+        "adv_shares": 4084004.75,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.59089521170054,
+        "final_score": 46.59089521170054,
+        "sub_scores": {
+          "trend_momentum": 14.153755817761137,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.437139393939404,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.1246346787022299,
+          "ret_63d": 12.180407928756122,
+          "rsi14": 51.79004037685067,
+          "adx14": 20.18095835197979,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: GE\n• Current Price: $273.35\n• Overall Score: 50.31025641025641\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 261.068\n• Sma 200: 213.268\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.1246346787022383\n• Momentum 63D: 12.18040792875612\n• Momentum 126D: 35.583552403154606\n• Momentum Acceleration: -11.055773250053882\n• Roc 21D: 1.1246346787022383\n• Trend Strength 20D: 0.14049323480824621\n• Trend Direction: 1\n• Ma Ribbon Score: 82.26788656668751\n• Breakout Strength: 0.0\n• Price Velocity: 0.005209329249768135\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 11.0\n• Squeeze Momentum: -0.6310050254369775\n• Volatility Compression: 70.0\n• Is Consolidating: False\n• Breakout Score: 89.15813209600147\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.153755817761137\n• Squeeze Breakout: 4.0\n• Options Quality: 17.437139393939404\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 50.0\n• Squeeze: 65.5\n• Options: 42.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: GE\n• Strike Price: $270\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $13.3\n• Ask: $13.65\n• Last: $13.75\n• Mid: $13.475\n• Spread: 2.564102564102564102564102564%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5883\n• Gamma: 0.014\n• Theta: -0.1238\n• Vega: 0.3948\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2731\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 706\n• Open Interest: 787\n• Volume/OI Ratio: 0.8970775095298602\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: GE Aerospace\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $7.01\n• Profit Margin: 18.6%\n• ROE: 39.6%\n• P/E Ratio: 39.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T16:53:00+00:00: 5 Top School Stocks to Buy in a Shifting Education Market...\n• 2025-08-27T13:33:00+00:00: GEV or VWDRY: Which Wind Turbine Stock Offers Greater Prospect Now?...\n• 2025-08-27T12:43:00+00:00: The Zacks Analyst Blog Highlights GE Aerospace, AT&amp;T and TotalEnergies...\n• 2025-08-27T12:41:34+00:00: GEV Factor-Based Stock Analysis...\n• 2025-08-27T10:19:15+00:00: GE Aerospace Collaboration on Advanced SiC Devices Could Be a Game Changer for A...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR GE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the GE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:56:18.013514",
+    "estimated_tokens": 2318
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"GE\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"GE shows strong technical momentum with price above both SMAs and an 82.27 MA ribbon score, combined with a compelling squeeze setup (3 timeframe squeezes, 70% compression). However, upcoming earnings and decelerating momentum present near-term risks.\",\n    \"opportunities\": [\n        \"Strong multi-timeframe squeeze setup with 89.15 breakout score\",\n        \"Price trending well above 50/200 SMAs (261.07/213.27)\",\n        \"Solid fundamentals with 18.6% profit margin and 39.6% ROE\"\n    ],\n    \"risks\": [\n        \"Momentum deceleration (-11.06 acceleration score)\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Relatively high P/E ratio of 39.1x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using Oct 2025 270 calls as core position\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, add on post-earnings confirmation\",\n        \"risk_management\": \"Size position conservatively due to earnings risk, use 270 strike for better risk/reward\"\n    },\n    \"red_flags\": [\n        \"Earnings in next 30 days\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"Options liquidity is adequate but not excellent (Volume/OI ratio 0.897). Consider wider spreads for entries/exits. Delta of 0.588 provides good directional exposure while managing theta decay.\"\n}",
+    "parsed_analysis": {
+      "symbol": "GE",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "GE shows strong technical momentum with price above both SMAs and an 82.27 MA ribbon score, combined with a compelling squeeze setup (3 timeframe squeezes, 70% compression). However, upcoming earnings and decelerating momentum present near-term risks.",
+      "opportunities": [
+        "Strong multi-timeframe squeeze setup with 89.15 breakout score",
+        "Price trending well above 50/200 SMAs (261.07/213.27)",
+        "Solid fundamentals with 18.6% profit margin and 39.6% ROE"
+      ],
+      "risks": [
+        "Momentum deceleration (-11.06 acceleration score)",
+        "Earnings coming up on 2025-09-30",
+        "Relatively high P/E ratio of 39.1x"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using Oct 2025 270 calls as core position",
+        "entry_timing": "Consider partial position now with squeeze setup, add on post-earnings confirmation",
+        "risk_management": "Size position conservatively due to earnings risk, use 270 strike for better risk/reward"
+      },
+      "red_flags": [
+        "Earnings in next 30 days",
+        "Negative momentum acceleration"
+      ],
+      "notes": "Options liquidity is adequate but not excellent (Volume/OI ratio 0.897). Consider wider spreads for entries/exits. Delta of 0.588 provides good directional exposure while managing theta decay."
+    },
+    "tokens_used": 2521,
+    "cost": 0.025209999999999996,
+    "response_time": 10.98790693283081,
+    "success": true
+  },
+  "cost": 0.025209999999999996,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8478,
+    "response_length": 1610
+  }
+}

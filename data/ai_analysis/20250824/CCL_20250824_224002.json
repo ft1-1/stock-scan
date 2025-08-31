@@ -1,0 +1,638 @@
+{
+  "success": true,
+  "symbol": "CCL",
+  "timestamp": "2025-08-24T22:40:02.584329",
+  "data_package": {
+    "metadata": {
+      "symbol": "CCL",
+      "package_timestamp": "2025-08-24T22:39:53.853111",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "CCL",
+        "current_price": 31.3,
+        "overall_score": 54.94691373893865,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 28.3764,
+        "sma_200": 24.4132
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.104096709200804,
+        "momentum_63d": 39.54525189478378,
+        "momentum_126d": 34.79758828596039,
+        "momentum_acceleration": -34.44115518558298,
+        "roc_21d": 5.104096709200804,
+        "trend_strength_20d": 0.04790180609913949,
+        "trend_direction": 1,
+        "ma_ribbon_score": 86.56299830826985,
+        "breakout_strength": 64.22250285952771,
+        "price_velocity": 0.010584444904861257
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 19.0,
+        "squeeze_momentum": 0.00612374027166481,
+        "volatility_compression": 0.6663554005187557,
+        "is_consolidating": "False",
+        "breakout_score": 16.52946687185135,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.514554552710624,
+        "squeeze_breakout": 4.0,
+        "options_quality": 21.06777777777777,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 60.0,
+        "squeeze": 55.099953310077815,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 2,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "CCL",
+        "strike_price": "30",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.86",
+        "ask": "2.9",
+        "last_price": "2.91",
+        "mid_price": "2.88",
+        "spread_percent": "1.379310344827586206896551724"
+      },
+      "greeks": {
+        "delta": 0.6433,
+        "gamma": 0.0702,
+        "theta": -0.0196,
+        "vega": 0.0457
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4335
+      },
+      "liquidity_metrics": {
+        "volume": 520,
+        "open_interest": 5635,
+        "volume_oi_ratio": 0.09228039041703638
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-24T22:38:00.477601",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T22:19:12+00:00",
+            "title": "Stocks Rally Sharply on Dovish Fed Chair Powell",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed up by +1.52%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +1.89%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +1.54%.  September E-mini S&P futures (ESU25) rose +1.52%, and September E-mini Nasdaq futures (NQU25) rose +1.55%.\n\nStock indexes settled sharply higher on Friday, with the Dow Jones Industrials posting a new all-time high.  Stock prices jumped and bond yields tumbled after comments from Fed Chair Powell opened the door for a Fed rate cut next month.  Fed Chair Powell said downside risks to employment are rising, and the shifting balance of risks may warrant adjusting monetary policy.  The 10-year T-note yield fell to a 1-week low of 4.24% on the comments, and the chances of a Fed rate cut at the September 29-30 FOMC meeting rose to 81% from 71% before Powell spoke. Join 200K+ Subscribers: Find out why the midday Barchart Brief newsletter is a must-read for thousands daily.\n\nFed Chair Powell said, \"The stability of the unemployment rate and other labor market measures allows us to proceed carefully as we consider changes to our policy stance. Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"\n\nComments from Boston Fed President Susan Collins on Friday were slightly hawkish, as she noted that US economic growth is slowing, but overall economic fundamentals are solid, with upside risks to inflation and downside risks to labor.  She added that Fed policy is modestly restrictive, which is appropriate.\n\nOn the geopolitical front, US Vice President Vance said negotiations over ending Russia's war in Ukraine are focused on security guarantees for Ukraine and territory Russia wants to control, including Ukrainian territory that it currently isn't occupying, as the US tries to broker a peace deal between the two countries. The US is working to set up a meeting between Presidents Putin and Zelensky, and if that meeting goes well, President Trump said he'll look to follow up with a trilateral summit with the leaders.\n\nRegarding tariffs, President Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect on Monday and did not exclude goods already in transit.  Last Friday, Mr. Trump said, \"I'll be setting tariffs next week and the week after on steel and on, I would say chips – chips and semiconductors, we'll be setting sometime next week, week after.\" Mr. Trump last week said he planned a 100% tariff on semiconductors but would exempt companies that move chip manufacturing to the US.  Mr. Trump also mentioned 200% or 300% tariffs on chips.\n\nIn other recent tariff news, Mr. Trump last Tuesday extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  On August 5, Mr. Trump said that US tariffs on pharmaceutical imports would be announced \"within the next week or so.\" According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 81% at the September 16-17 FOMC meeting, up from 71% Thursday.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled higher.  The Euro Stoxx 50 rallied to a 5-month high and closed up +0.48%.  China's Shanghai Composite climbed to a new 10-year high and closed up +1.45%.  Japan's Nikkei Stock 225 recovered from a 1.5-week low and closed up +0.05%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Friday closed up +19 ticks, and the 10-year T-note yield fell -7.2 bp to 4.256%.  Sep T-notes rallied to a 1-week high Friday, and the 1-year T-note yield dropped to a 1-week low of 4.240%.  T-note prices jumped Friday on dovish comments from Fed Chair Powell, who said downside risks to employment are rising and the shifting balance of risks may warrant adjusting monetary policy.  Powell's comments boosted the chances for a 25 bp Fed rate cut to 81% at the September 29-30 FOMC meeting from 71% on Thursday.\n\nGains in T-notes are limited by hawkish comments from Boston Fed President Susan Collins, who said modestly restrictive Fed policy is appropriate.  Also, rising inflation expectations are bearish for T-notes after the 10-year breakeven inflation rate rose to a 3-week high on Friday at 2.421%.\n\nEuropean government bond yields on Friday moved lower.  The 10-year German bund yield fell -3.5 bp to 2.722%. The 10-year UK gilt yield fell from a 2.75-month high of 4.759% and finished down -3.7 bp to 4.693%.\n\nGerman Q2 GDP was revised lower to -0.3% q/q and -0.2% y/y from the previously reported -0.1% q/q and unchanged y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nStrength in chipmakers supported gains in the broader market.  ON Semiconductor (ON) closed up more than +6% and GlobalFoundries (GFS) and Intel (INTC) closed up more than +5%.  Also, NXP Semiconductors NV (NXPI) and Microchip Technology (MCHP) closed up more than +4%, and ARM Holdings Plc (ARM) closed up more than +3%.  In addition, Advanced Micro Devices (AMD), Texas Instruments (TXN), Marvell Technology (MRVL), ASML Holding NV (ASML), and Qualcomm (QCOM) closed up more than +2%.\n\nThe Magnificent Seven megacap technology stocks rallied Friday, a bullish factor for the overall market.  Tesla (TSLA) closed up more than +6%, and Alphabet (GOOGL) and Amazon.com (AMZN) closed up more than +3%.  Also, Meta Platforms (META) closed up more than +2%, and Apple (AAPL) and Nvidia (NVDA) closed up more than +1%.  In addition, Microsoft (MSFT) closed up +0.59%.\n\nEconomic optimism boosted airlines and cruise line operators on Friday.  Norwegian Cruise Line Holdings (NCLH), American Airlines Group (AAL), and Alaska Air Group (ALK) closed up more than +7%.  Also, Carnival (CCL), Delta Air Lines (DAL), and Royal Caribbean Cruises Ltd (RCL) closed up more than +6%.  In addition, United Airlines Holdings (UAL) and Southwest Airlines (LUV) closed up more than +5%.\n\nHomebuilders and home building supplies moved higher Friday after the 10-year T-note yield fell to a 1-week low, a supportive factor for housing demand.  Builders FirstSource (BLDR) closed up more than +8%, and Mohawk Industries (MHK) closed up more than +7%.  Also, Lennar (LEN), PulteGroup (PHM), DR Horton (DHI), and Toll Brothers (TOL) closed up more than +5%.\n\nUbiquiti (UI) closed up more than +29% after reporting Q4 revenue of $759.2 million, well above the consensus of $621 million.\n\nZoom Communications (ZM) closed up more than +12% after reporting Q2 revenue of $1.22 billion, better than the consensus of $1.20 billion, and raising its 2026 revenue forecast to $4.83 billion-$4.84 billion from a previous estimate of $4.80 billion-$4.81 billion, stronger than the consensus of $4.81 billion.\n\nQxo Inc (QXO) closed up more than +7% after Benchmark Company LLC initiated coverage on the stock with a recommendation of buy and a price target of $50..\n\nEsab Corp (ESAB) closed up more than +4% after Loop Capital Markets upgraded the stock to buy from hold with a price target of $140.\n\nIntuit (INTU) closed down more than -5% to lead losers in the S&P 500 and Nasdaq 100 after forecasting 2026 adjusted operating income of $8.61 billion-$8.69 billion, the midpoint below the consensus of $8.67 billion.\n\nCSX Corp (CSX) closed down more than -3% after announcing a joint intermodal service with BNSF to ship between California, North Carolina, and Florida.\n\nWorkday (WDAY) closed down more than -2% after reporting an unexpected -$5 million loss in Q2 professional services adjusted gross profit versus expectations of a $9.5 million profit.\n\nTelecommunication stocks were under pressure on Friday.  AT&T (T) and T-Mobile US (TMUS) closed down more than -2%.  Also, Verizon Communications (VZ) closed down more than -1% to lead losers in the Dow Jones Industrials.\n\nEarnings Reports(8/25/2025)\n\nHEICO Corp (HEI), Napco Security Technologies Inc (NSSC), PDD Holdings Inc (PDD), Semtech Corp (SMTC).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here. </p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T21:18:03+00:00",
+            "title": "S&amp;P 500 Gains and Losses Today: Index Surges as Expectations of a Rate Cut Climb",
+            "content": "Michael M. Santiago / Getty Images Many of the top performances in the S&P 500 Friday came from shares of companies that could be poised to benefit as interest rates move lower.\n\nKey Takeaways\n\nThe S&P 500 rose 1.5% Friday, Aug. 22, 2025, as Federal Reserve Chair Jerome Powell said the central bank could begin trimming interest rates as soon as next month. Shares of Enphase Energy and other solar companies pushed higher amid hopes that growth could accelerate as rate cuts lower financing costs for solar projects. Although Intuit topped quarterly estimates, challenges to its MailChimp and TurboTax products weighed on its outlook. Shares of the software firm dropped.\n\nMajor U.S. equities indexes surged to close out the week as Federal Reserve Chair Jerome Powell said the central bank could begin trimming interest rates as soon as next month.\n\nThe S&P 500 gained 1.5%, finishing just below its record close last week. The Dow soared 1.9% to set a new all-time closing high for the first time in 2025. The tech-heavy Nasdaq also added around 1.9%.\n\nFollowing Powell's comments, many of the top performances in the S&P 500 Friday came from shares of companies that could be poised to benefit as interest rates move lower. The likelihood of lower borrowing costs helped boost solar stocks, with shares of solar microinverter and battery storage specialist Enphase Energy (ENPH) soaring 10.4% to post the best performance of any stock in the benchmark index.\n\nThe Fed chair's openness to near-term rate reductions also came as welcome news to companies with exposure to the housing market, which could see accelerated growth as mortgage rates retreat. Shares of Builders FirstSource (BLDR), a major supplier of residential construction materials, jumped 8.4%. Shares of flooring supplier Mohawk Industries (MHK) were up 7.3%.\n\nA decline in borrowing costs can encourage consumers to increase their discretionary spending, which could have a positive impact on the travel industry. Shares of cruise operators Norwegian Cruise Line Holdings (NCLH) and Carnival (CCL) advanced around 7%, while airline stocks also moved higher.\n\nThe prospect of lower rates also stoked investors' appetite for riskier assets, helping drive a rebound for the price of Bitcoin (BTCUSD) and other major cryptocurrencies that had slipped ahead of Powell's speech as investors positioned themselves for a more hawkish tone. Shares of Coinbase Global (COIN), operator of the largest U.S. cryptocurrency exchange, added 6.5%.\n\nIntuit (INTU) shares tumbled 5%, suffering the heaviest daily decline in the S&P 500, after the maker of tax and accounting software provided a weaker-than-expected outlook for the current quarter and the full year. The company pointed to soft demand for its MailChimp marketing platform and lower average revenue per user from TurboTax. The outlook overshadowed strong quarterly results, as Intuit beat quarterly sales and adjusted profit estimates, highlighting the contribution of its AI agents.\n\nStory Continues\n\nMajor railroad operator and rail-to-truck transloader CSX (CSX) announced a coast-to-coast intermodal partnership with BNSF Railway, a subsidiary of Berkshire Hathaway (BRK.A, BRK.B). The move comes a few weeks after Union Pacific (UNP) and Norfolk Southern (NSC) agreed to a merger that would create the first transcontinental U.S. railroad, with CSX facing pressure from an activist investor to explore a potential deal of its own. CSX stock dropped 3.6% on Friday.\n\nShares of enterprise resource planning software provider Workday (WDAY) fell 2.8%. Although the company topped revenue estimates and edged out revenue expectations for its fiscal second quarter, its guidance for subscription revenue and operating margin in the current quarter came in below consensus forecasts. Workday's CEO pointed to challenges facing the company's government and education businesses as customers navigate funding cuts.\n\nRead the original article on Investopedia\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:38:59+00:00",
+            "title": "Stocks Rally Sharply on Dovish Fed Chair Powell",
+            "content": "The S&P 500 Index ($SPX [https://www.barchart.com/futures/quotes/$SPX/overview]) (SPY [https://www.barchart.com/etfs-funds/quotes/SPY/overview]) on Friday closed up by +1.52%, the Dow Jones Industrials Index ($DOWI [https://www.barchart.com/futures/quotes/$DOWI/overview]) (DIA [https://www.barchart.com/etfs-funds/quotes/DIA/overview]) closed up by +1.89%, and the Nasdaq 100 Index ($IUXX [https://www.barchart.com/futures/quotes/$IUXX/overview]) (QQQ [https://www.barchart.com/etfs-funds/quotes/QQQ/overview]) closed up by +1.54%.  September E-mini S&P futures (ESU25 [https://www.barchart.com/futures/quotes/ES*0/overview]) rose +1.52%, and September E-mini Nasdaq futures (NQU25 [https://www.barchart.com/futures/quotes/NQ*0/overview]) rose +1.55%. \n\nStock indexes settled sharply higher on Friday, with the Dow Jones Industrials posting a new all-time high.  Stock prices jumped and bond yields tumbled after comments from Fed Chair Powell opened the door for a Fed rate cut next month.  Fed Chair Powell said downside risks to employment are rising, and the shifting balance of risks may warrant adjusting monetary policy.  The 10-year T-note yield fell to a 1-week low of 4.24% on the comments, and the chances of a Fed rate cut at the September 29-30 FOMC meeting rose to 81% from 71% before Powell spoke. \n\nFed Chair Powell said, \"The stability of the unemployment rate and other labor market measures allows us to proceed carefully as we consider changes to our policy stance. Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"\n\nComments from Boston Fed President Susan Collins on Friday were slightly hawkish, as she noted that US economic growth is slowing, but overall economic fundamentals are solid, with upside risks to inflation and downside risks to labor.  She added that Fed policy is modestly restrictive, which is appropriate.\n\nOn the geopolitical front, US Vice President Vance said negotiations over ending Russia's war in Ukraine are focused on security guarantees for Ukraine and territory Russia wants to control, including Ukrainian territory that it currently isn't occupying, as the US tries to broker a peace deal between the two countries. The US is working to set up a meeting between Presidents Putin and Zelensky, and if that meeting goes well, President Trump said he'll look to follow up with a trilateral summit with the leaders.\n\nRegarding tariffs, President Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect on Monday and did not exclude goods already in transit.  Last Friday, Mr. Trump said, \"I'll be setting tariffs next week and the week after on steel and on, I would say chips – chips and semiconductors, we'll be setting sometime next week, week after.\" Mr. Trump last week said he planned a 100% tariff on semiconductors but would exempt companies that move chip manufacturing to the US.  Mr. Trump also mentioned 200% or 300% tariffs on chips.\n\nIn other recent tariff news, Mr. Trump last Tuesday extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  On August 5, Mr. Trump said that US tariffs on pharmaceutical imports would be announced \"within the next week or so.\" According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 81% at the September 16-17 FOMC meeting, up from 71% Thursday.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates. \n\nOverseas stock markets on Friday settled higher.  The Euro Stoxx 50 rallied to a 5-month high and closed up +0.48%.  China's Shanghai Composite climbed to a new 10-year high and closed up +1.45%.  Japan's Nikkei Stock 225 recovered from a 1.5-week low and closed up +0.05%.\n\nINTEREST RATES\n\nSeptember 10-year T-notes (ZNU5 [https://www.barchart.com/futures/quotes/ZN*0/overview]) on Friday closed up +19 ticks, and the 10-year T-note yield fell -7.2 bp to 4.256%.  Sep T-notes rallied to a 1-week high Friday, and the 1-year T-note yield dropped to a 1-week low of 4.240%.  T-note prices jumped Friday on dovish comments from Fed Chair Powell, who said downside risks to employment are rising and the shifting balance of risks may warrant adjusting monetary policy.  Powell's comments boosted the chances for a 25 bp Fed rate cut to 81% at the September 29-30 FOMC meeting from 71% on Thursday. \n\nGains in T-notes are limited by hawkish comments from Boston Fed President Susan Collins, who said modestly restrictive Fed policy is appropriate.  Also, rising inflation expectations are bearish for T-notes after the 10-year breakeven inflation rate rose to a 3-week high on Friday at 2.421%. \n\nEuropean government bond yields on Friday moved lower.  The 10-year German bund yield fell -3.5 bp to 2.722%. The 10-year UK gilt yield fell from a 2.75-month high of 4.759% and finished down -3.7 bp to 4.693%.\n\nGerman Q2 GDP was revised lower to -0.3% q/q and -0.2% y/y from the previously reported -0.1% q/q and unchanged y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS STOCK MOVERS\n\nStrength in chipmakers supported gains in the broader market.  ON Semiconductor (ON [https://www.barchart.com/stocks/quotes/ON/overview]) closed up more than +6% and GlobalFoundries (GFS [https://www.barchart.com/stocks/quotes/GFS/overview]) and Intel (INTC [https://www.barchart.com/stocks/quotes/INTC/overview]) closed up more than +5%.  Also, NXP Semiconductors NV (NXPI [https://www.barchart.com/stocks/quotes/NXPI/overview]) and Microchip Technology (MCHP [https://www.barchart.com/stocks/quotes/MCHP/overview]) closed up more than +4%, and ARM Holdings Plc (ARM [https://www.barchart.com/stocks/quotes/ARM/overview]) closed up more than +3%.  In addition, Advanced Micro Devices (AMD [https://www.barchart.com/stocks/quotes/AMD/overview]), Texas Instruments (TXN [https://www.barchart.com/stocks/quotes/TXN/overview]), Marvell Technology (MRVL [https://www.barchart.com/stocks/quotes/MRVL/overview]), ASML Holding NV (ASML [https://www.barchart.com/stocks/quotes/ASML/overview]), and Qualcomm (QCOM [https://www.barchart.com/stocks/quotes/ADI/overview]) closed up more than +2%.\n\nThe Magnificent Seven megacap technology stocks rallied Friday, a bullish factor for the overall market.  Tesla (TSLA [https://www.barchart.com/stocks/quotes/TSLA/overview]) closed up more than +6%, and Alphabet (GOOGL [https://www.barchart.com/stocks/quotes/GOOGL/overview]) and Amazon.com (AMZN [https://www.barchart.com/stocks/quotes/AMZN/overview]) closed up more than +3%.  Also, Meta Platforms (META [https://www.barchart.com/stocks/quotes/META/overview]) closed up more than +2%, and Apple (AAPL [https://www.barchart.com/stocks/quotes/AAPL/overview]) and Nvidia (NVDA [https://www.barchart.com/stocks/quotes/NVDA/overview]) closed up more than +1%.  In addition, Microsoft (MSFT [https://www.barchart.com/stocks/quotes/MSFT/overview]) closed up +0.59%. \n\nEconomic optimism boosted airlines and cruise line operators on Friday.  Norwegian Cruise Line Holdings (NCLH [https://www.barchart.com/stocks/quotes/NCLH/overview]), American Airlines Group (AAL [https://www.barchart.com/stocks/quotes/AAL/overview]), and Alaska Air Group (ALK [https://www.barchart.com/stocks/quotes/ALK/overview]) closed up more than +7%.  Also, Carnival (CCL [https://www.barchart.com/stocks/quotes/CCL/overview]), Delta Air Lines (DAL [https://www.barchart.com/stocks/quotes/DAL/overview]), and Royal Caribbean Cruises Ltd (RCL [https://www.barchart.com/stocks/quotes/RCL/overview]) closed up more than +6%.  In addition, United Airlines Holdings (UAL [https://www.barchart.com/stocks/quotes/UAL/overview]) and Southwest Airlines (LUV [https://www.barchart.com/stocks/quotes/LUV/overview]) closed up more than +5%. \n\nHomebuilders and home building supplies moved higher Friday after the 10-year T-note yield fell to a 1-week low, a supportive factor for housing demand.  Builders FirstSource (BLDR [https://www.barchart.com/stocks/quotes/BLDR/overview]) closed up more than +8%, and Mohawk Industries (MHK [https://www.barchart.com/stocks/quotes/MHK/overview]) closed up more than +7%.  Also, Lennar (LEN [https://www.barchart.com/stocks/quotes/LEN/overview]), PulteGroup (PHM [https://www.barchart.com/stocks/quotes/PHM/overview]), DR Horton (DHI [https://www.barchart.com/stocks/quotes/DHI/overview]), and Toll Brothers (TOL [https://www.barchart.com/stocks/quotes/TOL/overview]) closed up more than +5%.\n\nUbiquiti (UI [https://www.barchart.com/stocks/quotes/UI/overview]) closed up more than +29% after reporting Q4 revenue of $759.2 million, well above the consensus of $621 million. \n\nZoom Communications (ZM [https://www.barchart.com/stocks/quotes/ZM/overview]) closed up more than +12% after reporting Q2 revenue of $1.22 billion, better than the consensus of $1.20 billion, and raising its 2026 revenue forecast to $4.83 billion-$4.84 billion from a previous estimate of $4.80 billion-$4.81 billion, stronger than the consensus of $4.81 billion. \n\nQxo Inc (QXO [https://www.barchart.com/stocks/quotes/QXO/overview]) closed up more than +7% after Benchmark Company LLC initiated coverage on the stock with a recommendation of buy and a price target of $50.. \n\nEsab Corp (ESAB [https://www.barchart.com/stocks/quotes/ESAB/overview]) closed up more than +4% after Loop Capital Markets upgraded the stock to buy from hold with a price target of $140.\n\nIntuit (INTU [https://www.barchart.com/stocks/quotes/INTU/overview]) closed down more than -5% to lead losers in the S&P 500 and Nasdaq 100 after forecasting 2026 adjusted operating income of $8.61 billion-$8.69 billion, the midpoint below the consensus of $8.67 billion. \n\nCSX Corp (CSX [https://www.barchart.com/stocks/quotes/CSX/overview]) closed down more than -3% after announcing a joint intermodal service with BNSF to ship between California, North Carolina, and Florida.\n\nWorkday (WDAY [https://www.barchart.com/stocks/quotes/WDAY/overview]) closed down more than -2% after reporting an unexpected -$5 million loss in Q2 professional services adjusted gross profit versus expectations of a $9.5 million profit.\n\nTelecommunication stocks were under pressure on Friday.  AT&T (T [https://www.barchart.com/stocks/quotes/T/overview]) and T-Mobile US (TMUS [https://www.barchart.com/stocks/quotes/TMUS/overview]) closed down more than -2%.  Also, Verizon Communications (VZ [https://www.barchart.com/stocks/quotes/VZ/overview]) closed down more than -1% to lead losers in the Dow Jones Industrials.\n\nEARNINGS REPORTS(8/25/2025)\n\nHEICO Corp (HEI), Napco Security Technologies Inc (NSSC), PDD Holdings Inc (PDD), Semtech Corp (SMTC).\n\n_ On the date of publication, Rich Asplund [https://www.barchart.com/news/authors/5/rich-asplund] did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. For more information please view the Barchart Disclosure Policy here [https://www.barchart.com/terms#disclosure]. _",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:38:59+00:00",
+            "title": "Stocks Rally Sharply on Dovish Fed Chair Powell",
+            "content": "The S&P 500 Index ($SPX) (SPY) on Friday closed up by +1.52%, the Dow Jones Industrials Index ($DOWI) (DIA) closed up by +1.89%, and the Nasdaq 100 Index ($IUXX) (QQQ) closed up by +1.54%.  September E-mini S&P futures (ESU25) rose +1.52%, and September E-mini Nasdaq futures (NQU25) rose +1.55%.\n\nStock indexes settled sharply higher on Friday, with the Dow Jones Industrials posting a new all-time high.  Stock prices jumped and bond yields tumbled after comments from Fed Chair Powell opened the door for a Fed rate cut next month.  Fed Chair Powell said downside risks to employment are rising, and the shifting balance of risks may warrant adjusting monetary policy.  The 10-year T-note yield fell to a 1-week low of 4.24% on the comments, and the chances of a Fed rate cut at the September 29-30 FOMC meeting rose to 81% from 71% before Powell spoke.\n\nMore News from Barchart\n\nNvidia CEO Jensen Huang: ‘Anybody Who Wants to Buy’ Taiwan Semiconductor Stock ‘is a Very Smart Person’ This Nvidia-Backed Stock Just Announced a New Technical Breakthrough That Could Rival Tesla A Reverse Stock Split Won’t End Lucid’s Woes: Should You Buy LCID Stock or Steer Clear? Stop Missing Market Moves: Get the FREE Barchart Brief – your midday dose of stock movers, trending sectors, and actionable trade ideas, delivered right to your inbox. Sign Up Now!\n\nFed Chair Powell said, \"The stability of the unemployment rate and other labor market measures allows us to proceed carefully as we consider changes to our policy stance. Nonetheless, with policy in restrictive territory, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"\n\nComments from Boston Fed President Susan Collins on Friday were slightly hawkish, as she noted that US economic growth is slowing, but overall economic fundamentals are solid, with upside risks to inflation and downside risks to labor.  She added that Fed policy is modestly restrictive, which is appropriate.\n\nOn the geopolitical front, US Vice President Vance said negotiations over ending Russia's war in Ukraine are focused on security guarantees for Ukraine and territory Russia wants to control, including Ukrainian territory that it currently isn't occupying, as the US tries to broker a peace deal between the two countries. The US is working to set up a meeting between Presidents Putin and Zelensky, and if that meeting goes well, President Trump said he'll look to follow up with a trilateral summit with the leaders.\n\nStory Continues\n\nRegarding tariffs, President Trump widened steel and aluminum tariffs to include more than 400 consumer items that contain the metals, such as motorcycles, auto parts, furniture components, and tableware.  The change went into effect on Monday and did not exclude goods already in transit.  Last Friday, Mr. Trump said, \"I'll be setting tariffs next week and the week after on steel and on, I would say chips – chips and semiconductors, we'll be setting sometime next week, week after.\" Mr. Trump last week said he planned a 100% tariff on semiconductors but would exempt companies that move chip manufacturing to the US.  Mr. Trump also mentioned 200% or 300% tariffs on chips.\n\nIn other recent tariff news, Mr. Trump last Tuesday extended the tariff truce with China for another 90 days until November.  On August 6, Mr. Trump announced that he will double tariffs on US imports from India to 50% from the current 25% tariff, due to India's purchases of Russian oil.  On August 5, Mr. Trump said that US tariffs on pharmaceutical imports would be announced \"within the next week or so.\" According to Bloomberg Economics, the average US tariff will rise to 15.2% if rates are implemented as announced, up from 13.3% earlier, and significantly higher than the 2.3% in 2024 before the tariffs were announced.\n\nFederal funds futures prices are discounting the chances for a -25 bp rate cut at 81% at the September 16-17 FOMC meeting, up from 71% Thursday.  The markets are discounting the chances at 55% for a second -25 bp rate cut at the following meeting on October 28-29.\n\nEarnings reports indicate that S&P 500 earnings for Q2 are on track to rise +9.1% y/y, much better than the pre-season expectations of +2.8% y/y and the most in four years, according to Bloomberg Intelligence.  With over 94% of S&P 500 firms having reported Q2 earnings, about 82% of companies exceeded profit estimates.\n\nOverseas stock markets on Friday settled higher.  The Euro Stoxx 50 rallied to a 5-month high and closed up +0.48%.  China's Shanghai Composite climbed to a new 10-year high and closed up +1.45%.  Japan's Nikkei Stock 225 recovered from a 1.5-week low and closed up +0.05%.\n\nInterest Rates\n\nSeptember 10-year T-notes (ZNU5) on Friday closed up +19 ticks, and the 10-year T-note yield fell -7.2 bp to 4.256%.  Sep T-notes rallied to a 1-week high Friday, and the 1-year T-note yield dropped to a 1-week low of 4.240%.  T-note prices jumped Friday on dovish comments from Fed Chair Powell, who said downside risks to employment are rising and the shifting balance of risks may warrant adjusting monetary policy.  Powell's comments boosted the chances for a 25 bp Fed rate cut to 81% at the September 29-30 FOMC meeting from 71% on Thursday.\n\nGains in T-notes are limited by hawkish comments from Boston Fed President Susan Collins, who said modestly restrictive Fed policy is appropriate.  Also, rising inflation expectations are bearish for T-notes after the 10-year breakeven inflation rate rose to a 3-week high on Friday at 2.421%.\n\nEuropean government bond yields on Friday moved lower.  The 10-year German bund yield fell -3.5 bp to 2.722%. The 10-year UK gilt yield fell from a 2.75-month high of 4.759% and finished down -3.7 bp to 4.693%.\n\nGerman Q2 GDP was revised lower to -0.3% q/q and -0.2% y/y from the previously reported -0.1% q/q and unchanged y/y.\n\nSwaps are discounting the chances at 2% for a -25 bp rate cut by the ECB at the September 11 policy meeting.\n\nUS Stock Movers\n\nStrength in chipmakers supported gains in the broader market.  ON Semiconductor (ON) closed up more than +6% and GlobalFoundries (GFS) and Intel (INTC) closed up more than +5%.  Also, NXP Semiconductors NV (NXPI) and Microchip Technology (MCHP) closed up more than +4%, and ARM Holdings Plc (ARM) closed up more than +3%.  In addition, Advanced Micro Devices (AMD), Texas Instruments (TXN), Marvell Technology (MRVL), ASML Holding NV (ASML), and Qualcomm (QCOM) closed up more than +2%.\n\nThe Magnificent Seven megacap technology stocks rallied Friday, a bullish factor for the overall market.  Tesla (TSLA) closed up more than +6%, and Alphabet (GOOGL) and Amazon.com (AMZN) closed up more than +3%.  Also, Meta Platforms (META) closed up more than +2%, and Apple (AAPL) and Nvidia (NVDA) closed up more than +1%.  In addition, Microsoft (MSFT) closed up +0.59%.\n\nEconomic optimism boosted airlines and cruise line operators on Friday.  Norwegian Cruise Line Holdings (NCLH), American Airlines Group (AAL), and Alaska Air Group (ALK) closed up more than +7%.  Also, Carnival (CCL), Delta Air Lines (DAL), and Royal Caribbean Cruises Ltd (RCL) closed up more than +6%.  In addition, United Airlines Holdings (UAL) and Southwest Airlines (LUV) closed up more than +5%.\n\nHomebuilders and home building supplies moved higher Friday after the 10-year T-note yield fell to a 1-week low, a supportive factor for housing demand.  Builders FirstSource (BLDR) closed up more than +8%, and Mohawk Industries (MHK) closed up more than +7%.  Also, Lennar (LEN), PulteGroup (PHM), DR Horton (DHI), and Toll Brothers (TOL) closed up more than +5%.\n\nUbiquiti (UI) closed up more than +29% after reporting Q4 revenue of $759.2 million, well above the consensus of $621 million.\n\nZoom Communications (ZM) closed up more than +12% after reporting Q2 revenue of $1.22 billion, better than the consensus of $1.20 billion, and raising its 2026 revenue forecast to $4.83 billion-$4.84 billion from a previous estimate of $4.80 billion-$4.81 billion, stronger than the consensus of $4.81 billion.\n\nQxo Inc (QXO) closed up more than +7% after Benchmark Company LLC initiated coverage on the stock with a recommendation of buy and a price target of $50..\n\nEsab Corp (ESAB) closed up more than +4% after Loop Capital Markets upgraded the stock to buy from hold with a price target of $140.\n\nIntuit (INTU) closed down more than -5% to lead losers in the S&P 500 and Nasdaq 100 after forecasting 2026 adjusted operating income of $8.61 billion-$8.69 billion, the midpoint below the consensus of $8.67 billion.\n\nCSX Corp (CSX) closed down more than -3% after announcing a joint intermodal service with BNSF to ship between California, North Carolina, and Florida.\n\nWorkday (WDAY) closed down more than -2% after reporting an unexpected -$5 million loss in Q2 professional services adjusted gross profit versus expectations of a $9.5 million profit.\n\nTelecommunication stocks were under pressure on Friday.  AT&T (T) and T-Mobile US (TMUS) closed down more than -2%.  Also, Verizon Communications (VZ) closed down more than -1% to lead losers in the Dow Jones Industrials.\n\nEarnings Reports(8/25/2025)\n\nHEICO Corp (HEI), Napco Security Technologies Inc (NSSC), PDD Holdings Inc (PDD), Semtech Corp (SMTC).\n\nOn the date of publication, Rich Asplund did not have (either directly or indirectly) positions in any of the securities mentioned in this article. All information and data in this article is solely for informational purposes. This article was originally published on Barchart.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T19:16:29+00:00",
+            "title": "Why Is Norwegian Cruise Line (NCLH) Stock Rocketing Higher Today",
+            "content": "What Happened?\n\nShares of cruise company Norwegian Cruise Line (NYSE:NCLH) jumped 6.8% in the afternoon session after comments from Federal Reserve Chair Jerome Powell hinted at a potential early interest rate cut. The broader market rallied, with the travel sector seeing significant gains, following comments from Federal Reserve Chair Jerome Powell at the Jackson Hole symposium hinting at a potential early interest rate cut. Investors are hopeful that easier monetary policy could lead to increased household spending on discretionary items like travel and leisure. This positive sentiment lifted other travel-related stocks as well, including Delta Air Lines and Caesars Entertainment. The move also comes amid a general resurgence in the cruise industry, with competitor Carnival Corp also experiencing a strong stock performance, underscoring positive market sentiment for the sector as a whole.\n\nIs now the time to buy Norwegian Cruise Line? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nNorwegian Cruise Line’s shares are very volatile and have had 24 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 10 days ago when the stock gained 3% on the news that the latest Consumer Price Index (CPI) report showed inflation holding steady, bolstering investor optimism for a potential interest rate cut by the Federal Reserve. The data, which revealed that inflation remained at 2.7% for the year ending in July, was seen as a positive sign by investors. This stability increases the likelihood that the Federal Reserve might lower interest rates at its upcoming September meeting. Lower interest rates can stimulate the economy by making borrowing cheaper for both consumers and businesses, which often translates into higher consumer spending. This is particularly beneficial for the Consumer Discretionary sector, which includes companies selling non-essential goods and services like apparel, travel, and electronics.\n\nNorwegian Cruise Line is down 3.3% since the beginning of the year, and at $25.07 per share, it is trading 13.8% below its 52-week high of $29.07 from January 2025. Investors who bought $1,000 worth of Norwegian Cruise Line’s shares 5 years ago would now be looking at an investment worth $1,498.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Carnival Corporation",
+          "sector": "Consumer Cyclical",
+          "industry": "Travel Services",
+          "employees": 115000,
+          "description": "Carnival Corporation & plc, a cruise company, provides leisure travel services in North America, Australia, Europe, and internationally. The company operates through four segments: NAA Cruise Operations, Europe Cruise Operations, Cruise Support, and Tour and Other. It operates port destinations and "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.91,
+          "profit_margin": 0.0972,
+          "operating_margin": 0.1476,
+          "roe": 0.3002,
+          "roa": 0.0516,
+          "revenue_growth_yoy": 0.095,
+          "earnings_growth_yoy": 4.939,
+          "eps_estimate_current_year": 1.9996,
+          "eps_estimate_next_year": 2.3004,
+          "revenue_ttm": 25972000768,
+          "revenue_per_share": 20.032,
+          "most_recent_quarter": "2025-05-31"
+        },
+        "valuation": {
+          "pe_ratio": 16.3874,
+          "forward_pe": 14.0647,
+          "price_to_sales": 1.634,
+          "price_to_book": 4.2405,
+          "enterprise_value": 68941111545,
+          "ev_to_revenue": 2.6544,
+          "ev_to_ebitda": 10.212
+        },
+        "technical_data": {
+          "beta": 2.707,
+          "52_week_high": 31.38,
+          "52_week_low": 15.07,
+          "50_day_ma": 28.3764,
+          "200_day_ma": 24.4132,
+          "short_interest": 0.0515,
+          "short_ratio": 2.49
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "dividend_date": "2020-03-13",
+          "ex_dividend_date": "2020-02-20",
+          "last_split_date": "1998-06-15",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.3,
+          "target_price": 33.0909,
+          "strong_buy": 17,
+          "buy": 5,
+          "hold": 8,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1167399936,
+          "percent_institutions": 72.25399999999999,
+          "percent_insiders": 7.585999999999999,
+          "shares_float": 1223695227
+        },
+        "balance_latest_sheet": {
+          "total_assets": 51165.0,
+          "total_debt": 28648.0,
+          "cash_and_equivalents": 2146.0,
+          "net_debt": 26502.0,
+          "working_capital": -8571.0,
+          "shareholders_equity": 10007.0,
+          "quarter_date": "2025-05-31",
+          "debt_to_equity": 2.86
+        },
+        "income_latest_statement": {
+          "total_revenue": 6328.0,
+          "gross_profit": 2442.0,
+          "operating_income": 934.0,
+          "net_income": 565.0,
+          "ebitda": 1615.0,
+          "quarter_date": "2025-05-31",
+          "gross_margin": 38.59,
+          "operating_margin": 14.76,
+          "net_margin": 8.93
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2392.0,
+          "free_cash_flow": 1541.0,
+          "capex": 851.0,
+          "net_income": 564.0,
+          "cash_change": 1315.0,
+          "quarter_date": "2025-05-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-08-31",
+            "estimate": 1.15,
+            "symbol": null
+          },
+          {
+            "date": "2024-11-30",
+            "estimate": 0.06,
+            "symbol": null
+          },
+          {
+            "date": "2025-02-28",
+            "estimate": 0.0222,
+            "symbol": null
+          },
+          {
+            "date": "2025-05-31",
+            "estimate": 0.2409,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-08-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 28.16,
+            "high": 28.5,
+            "low": 28.01,
+            "close": 28.49,
+            "volume": 19955990
+          },
+          {
+            "date": "2025-01-29",
+            "open": 27.77,
+            "high": 28.12,
+            "low": 27.3746,
+            "close": 27.91,
+            "volume": 39258129
+          },
+          {
+            "date": "2025-01-28",
+            "open": 25.79,
+            "high": 27.82,
+            "low": 25.76,
+            "close": 27.77,
+            "volume": 37778500
+          },
+          {
+            "date": "2025-01-27",
+            "open": 25.01,
+            "high": 25.87,
+            "low": 24.88,
+            "close": 25.68,
+            "volume": 17600279
+          },
+          {
+            "date": "2025-01-24",
+            "open": 25.52,
+            "high": 25.74,
+            "low": 25.3501,
+            "close": 25.42,
+            "volume": 17631650
+          },
+          {
+            "date": "2025-01-23",
+            "open": 25.25,
+            "high": 25.65,
+            "low": 24.95,
+            "close": 25.61,
+            "volume": 15381940
+          },
+          {
+            "date": "2025-01-22",
+            "open": 25.87,
+            "high": 25.92,
+            "low": 25.105,
+            "close": 25.25,
+            "volume": 16706289
+          },
+          {
+            "date": "2025-01-21",
+            "open": 26.44,
+            "high": 26.77,
+            "low": 25.53,
+            "close": 25.6,
+            "volume": 30257359
+          },
+          {
+            "date": "2025-01-17",
+            "open": 25.2,
+            "high": 26.105,
+            "low": 25.17,
+            "close": 25.85,
+            "volume": 21345381
+          },
+          {
+            "date": "2025-01-16",
+            "open": 24.91,
+            "high": 25.11,
+            "low": 24.59,
+            "close": 25.05,
+            "volume": 14694650
+          },
+          {
+            "date": "2025-01-15",
+            "open": 25.22,
+            "high": 25.275,
+            "low": 24.665,
+            "close": 24.94,
+            "volume": 27603631
+          },
+          {
+            "date": "2025-01-14",
+            "open": 24.08,
+            "high": 24.59,
+            "low": 23.83,
+            "close": 24.51,
+            "volume": 16470090
+          },
+          {
+            "date": "2025-01-13",
+            "open": 23.73,
+            "high": 24.175,
+            "low": 23.555,
+            "close": 23.89,
+            "volume": 16174120
+          },
+          {
+            "date": "2025-01-10",
+            "open": 23.55,
+            "high": 24.52,
+            "low": 23.34,
+            "close": 24.27,
+            "volume": 20698561
+          },
+          {
+            "date": "2025-01-08",
+            "open": 23.51,
+            "high": 24.265,
+            "low": 23.4,
+            "close": 24.18,
+            "volume": 18531010
+          },
+          {
+            "date": "2025-01-07",
+            "open": 24.075,
+            "high": 24.17,
+            "low": 23.27,
+            "close": 23.84,
+            "volume": 23142461
+          },
+          {
+            "date": "2025-01-06",
+            "open": 24.65,
+            "high": 24.74,
+            "low": 24.0614,
+            "close": 24.13,
+            "volume": 20057279
+          },
+          {
+            "date": "2025-01-03",
+            "open": 25.03,
+            "high": 25.098,
+            "low": 23.9301,
+            "close": 24.38,
+            "volume": 20575510
+          },
+          {
+            "date": "2025-01-02",
+            "open": 25.13,
+            "high": 25.4,
+            "low": 24.6,
+            "close": 25.01,
+            "volume": 26418689
+          },
+          {
+            "date": "2024-12-31",
+            "open": 24.86,
+            "high": 25.38,
+            "low": 24.86,
+            "close": 24.92,
+            "volume": 10363480
+          },
+          {
+            "date": "2024-12-30",
+            "open": 24.54,
+            "high": 25.3464,
+            "low": 24.31,
+            "close": 25.05,
+            "volume": 15497630
+          },
+          {
+            "date": "2024-12-27",
+            "open": 25.41,
+            "high": 25.54,
+            "low": 24.89,
+            "close": 25.08,
+            "volume": 14967430
+          },
+          {
+            "date": "2024-12-26",
+            "open": 25.48,
+            "high": 25.83,
+            "low": 25.365,
+            "close": 25.66,
+            "volume": 12380800
+          },
+          {
+            "date": "2024-12-24",
+            "open": 26,
+            "high": 26.05,
+            "low": 25.42,
+            "close": 25.79,
+            "volume": 10234860
+          },
+          {
+            "date": "2024-12-23",
+            "open": 26.52,
+            "high": 26.54,
+            "low": 25.26,
+            "close": 25.73,
+            "volume": 35169578
+          },
+          {
+            "date": "2024-12-20",
+            "open": 25.78,
+            "high": 27.14,
+            "low": 25.44,
+            "close": 26.8,
+            "volume": 61014992
+          },
+          {
+            "date": "2024-12-19",
+            "open": 25,
+            "high": 25.445,
+            "low": 24.77,
+            "close": 25.18,
+            "volume": 21381730
+          },
+          {
+            "date": "2024-12-18",
+            "open": 26.11,
+            "high": 26.188,
+            "low": 24.545,
+            "close": 24.82,
+            "volume": 21896680
+          },
+          {
+            "date": "2024-12-17",
+            "open": 25.87,
+            "high": 25.985,
+            "low": 25.4,
+            "close": 25.72,
+            "volume": 17328010
+          },
+          {
+            "date": "2024-12-16",
+            "open": 26.28,
+            "high": 26.46,
+            "low": 25.85,
+            "close": 25.91,
+            "volume": 15710900
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.210084033613447,
+        "return_63d": 40.67415730337079,
+        "pct_above_sma50": 10.302927785060827,
+        "sma_50": 28.3764,
+        "new_55d_high": "False",
+        "high_55d": 31.38,
+        "rsi": 60.589812332439706,
+        "rsi_in_range": "True",
+        "adx": 12.473977737590234,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.9504792332268384,
+        "bb_width": 9.031306664005417,
+        "keltner_width": 12.502608940911026,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 513040338.97499996,
+        "adv_shares": 17323665.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 58.5823323304884,
+        "final_score": 58.5823323304884,
+        "sub_scores": {
+          "trend_momentum": 22.514554552710624,
+          "squeeze_breakout": 4.0,
+          "options_quality": 21.06777777777777,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 5.1040967092008005,
+          "ret_63d": 39.545251894783775,
+          "rsi14": 60.589812332439706,
+          "adx14": 9.920711670989602,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: CCL\n• Current Price: $31.3\n• Overall Score: 54.94691373893865\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 28.3764\n• Sma 200: 24.4132\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.104096709200804\n• Momentum 63D: 39.54525189478378\n• Momentum 126D: 34.79758828596039\n• Momentum Acceleration: -34.44115518558298\n• Roc 21D: 5.104096709200804\n• Trend Strength 20D: 0.04790180609913949\n• Trend Direction: 1\n• Ma Ribbon Score: 86.56299830826985\n• Breakout Strength: 64.22250285952771\n• Price Velocity: 0.010584444904861257\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 19.0\n• Squeeze Momentum: 0.00612374027166481\n• Volatility Compression: 0.6663554005187557\n• Is Consolidating: False\n• Breakout Score: 16.52946687185135\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.514554552710624\n• Squeeze Breakout: 4.0\n• Options Quality: 21.06777777777777\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 60.0\n• Squeeze: 55.099953310077815\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: CCL\n• Strike Price: $30\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.86\n• Ask: $2.9\n• Last: $2.91\n• Mid: $2.88\n• Spread: 1.379310344827586206896551724%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6433\n• Gamma: 0.0702\n• Theta: -0.0196\n• Vega: 0.0457\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4335\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 520\n• Open Interest: 5635\n• Volume/OI Ratio: 0.09228039041703638\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Carnival Corporation\n• Sector: Consumer Cyclical\n• Industry: Travel Services\n• EPS (TTM): $1.91\n• Profit Margin: 9.7%\n• ROE: 30.0%\n• P/E Ratio: 16.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T22:19:12+00:00: Stocks Rally Sharply on Dovish Fed Chair Powell...\n• 2025-08-22T21:18:03+00:00: S&amp;P 500 Gains and Losses Today: Index Surges as Expectations of a Rate Cut C...\n• 2025-08-22T20:38:59+00:00: Stocks Rally Sharply on Dovish Fed Chair Powell...\n• 2025-08-22T20:38:59+00:00: Stocks Rally Sharply on Dovish Fed Chair Powell...\n• 2025-08-22T19:16:29+00:00: Why Is Norwegian Cruise Line (NCLH) Stock Rocketing Higher Today...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-08-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR CCL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the CCL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-24T22:40:02.583933",
+    "estimated_tokens": 2324
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"CCL\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"CCL shows strong technical momentum with price above both SMAs and an 86.56 MA ribbon score, but faces near-term headwinds from decelerating momentum and upcoming earnings. Options positioning benefits from decent liquidity and moderate spreads, though implied volatility conditions are not optimal.\",\n    \"opportunities\": [\n        \"Price trending well above 50 SMA (28.37) and 200 SMA (24.41)\",\n        \"Strong MA ribbon score of 86.56 indicating solid trend structure\",\n        \"Options have tight bid-ask spread of 1.38% with healthy open interest of 5,635\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-34.44) indicating potential slowdown\",\n        \"Upcoming earnings on 2024-08-31 creates event risk\",\n        \"Moderate implied volatility of 0.4335 may limit premium collection\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull call spread to reduce cost basis and limit volatility exposure\",\n        \"entry_timing\": \"Wait until after earnings report to enter position\",\n        \"risk_management\": \"Use 30-delta long calls with defined risk spreads given upcoming earnings catalyst\"\n    },\n    \"red_flags\": [\n        \"Earnings report in <10 days presents significant event risk\",\n        \"Declining momentum acceleration could signal trend weakness\"\n    ],\n    \"notes\": \"While technical setup is favorable, timing is suboptimal due to imminent earnings. Consider waiting for earnings results before entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "CCL",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "CCL shows strong technical momentum with price above both SMAs and an 86.56 MA ribbon score, but faces near-term headwinds from decelerating momentum and upcoming earnings. Options positioning benefits from decent liquidity and moderate spreads, though implied volatility conditions are not optimal.",
+      "opportunities": [
+        "Price trending well above 50 SMA (28.37) and 200 SMA (24.41)",
+        "Strong MA ribbon score of 86.56 indicating solid trend structure",
+        "Options have tight bid-ask spread of 1.38% with healthy open interest of 5,635"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-34.44) indicating potential slowdown",
+        "Upcoming earnings on 2024-08-31 creates event risk",
+        "Moderate implied volatility of 0.4335 may limit premium collection"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull call spread to reduce cost basis and limit volatility exposure",
+        "entry_timing": "Wait until after earnings report to enter position",
+        "risk_management": "Use 30-delta long calls with defined risk spreads given upcoming earnings catalyst"
+      },
+      "red_flags": [
+        "Earnings report in <10 days presents significant event risk",
+        "Declining momentum acceleration could signal trend weakness"
+      ],
+      "notes": "While technical setup is favorable, timing is suboptimal due to imminent earnings. Consider waiting for earnings results before entry."
+    },
+    "tokens_used": 2560,
+    "cost": 0.0256,
+    "response_time": 8.72842025756836,
+    "success": true
+  },
+  "cost": 0.0256,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8501,
+    "response_length": 1742
+  }
+}

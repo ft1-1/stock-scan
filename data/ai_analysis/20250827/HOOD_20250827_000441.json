@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "HOOD",
+  "timestamp": "2025-08-27T00:04:41.381358",
+  "data_package": {
+    "metadata": {
+      "symbol": "HOOD",
+      "package_timestamp": "2025-08-27T00:04:30.693058",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "HOOD",
+        "current_price": 108.92,
+        "overall_score": 53.161659008399056,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 99.0512,
+        "sma_200": 60.0796
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.9012831319659091,
+        "momentum_63d": 64.79854589518328,
+        "momentum_126d": 136.93379790940764,
+        "momentum_acceleration": -62.89726276321737,
+        "roc_21d": 1.9012831319659091,
+        "trend_strength_20d": 0.10279367166865316,
+        "trend_direction": 1,
+        "ma_ribbon_score": 72.73205578803858,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0025548765092365143
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 17.0,
+        "squeeze_momentum": -0.24951677733956001,
+        "volatility_compression": 17.82453104919925,
+        "is_consolidating": "False",
+        "breakout_score": -20.34601182082979,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.79801353144051,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 57.673679657379886,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 2,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "HOOD",
+        "strike_price": "105",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "12.65",
+        "ask": "12.7",
+        "last_price": "12.65",
+        "mid_price": "12.675",
+        "spread_percent": "0.3937007874015748031496062992"
+      },
+      "greeks": {
+        "delta": 0.6148,
+        "gamma": 0.0144,
+        "theta": -0.1034,
+        "vega": 0.157
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.6446
+      },
+      "liquidity_metrics": {
+        "volume": 542,
+        "open_interest": 25264,
+        "volume_oi_ratio": 0.021453451551614947
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:01:44.803580",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T19:06:00+00:00",
+            "title": "Robinhood and Interactive Brokers Stock Might Be Too Hot to Touch",
+            "content": "Robinhood and Interactive Brokers could have room to rally, despite sharply higher valuations, according to a note Monday from Goldman Sachs. Robinhood now trades at 65 times forward earnings, while Interactive Brokers trades at 31 times, according to FactSet. The average multiple for stocks in the Financial Select Sector SPDR is just 17 times.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T18:09:13+00:00",
+            "title": "SA analyst upgrades/downgrades: AAPL, MSFT, HOOD, and MSGE",
+            "content": "[Investing Balance]\nwildpixel\n\nSeeking Alpha contributors Julian Lin and Millennial Dividends have downgraded Robinhood Markets (NASDAQ:HOOD [https://seekingalpha.com/symbol/HOOD]) and Microsoft (NASDAQ:MSFT [https://seekingalpha.com/symbol/MSFT]) respectively, citing unsustainable valuation premiums compared to industry peers.\n\nOn the positive side, Madison Square Garden Entertainment (NYSE:MSGE [https://seekingalpha.com/symbol/MSGE]) and Apple (NASDAQ:AAPL [https://seekingalpha.com/symbol/AAPL]) received upgrades from analysts who see improved growth visibility and strategic initiatives offsetting previous concerns, signaling potential inflection points for these companies.\n\nUPGRADES\n\n\t* Madison Square Garden Entertainment Corp. (NYSE:MSGE [https://seekingalpha.com/symbol/MSGE]): Upgrade Hold to Buy by Eleceed Capital [https://seekingalpha.com/article/4816363-madison-square-garden-entertainment-stock-upgrade-buy-better-growth-clarity]. The upgrade reflects strong FY26 bookings already secured, plans for a new residency to replace Billy Joel’s concerts, and robust consumer spending trends. _“The FY26 event calendar is recovering faster than expected, a new residency provides long-term visibility, and consumer spending strength is a lot better than I expected. At 15x forward EBITDA, which is in line with historical averages, I have a share price target of ~$55/share using consensus FY28 adj. EBITDA estimates. I am upgrading MSGE to a buy rating.”_ \n\n\t* Apple Inc. (NASDAQ:AAPL [https://seekingalpha.com/symbol/AAPL]): Upgrade Strong Sell to Hold by Bay Area Ideas [https://seekingalpha.com/article/4816574-apple-an-inflection-point-may-have-arrived-upgrade]. The analyst cites multiyear high revenue growth, notable rebounds in Greater China and iPhone sales, and significant U.S. manufacturing investments that help address tariff concerns. _“Key results such as Greater China sales and iPhone sales showed notable improvement, and both the top and bottom line saw acceleration from Q2. As discussed just a moment ago, the outlook for the company now appears to be much less murky than before with U.S. manufacturing investments and a potential AI partnership. As a result, the company still seems to have a path to a bright future.”_ \n\nDOWNGRADES\n\n\t* Robinhood Markets, Inc. (NASDAQ:HOOD [https://seekingalpha.com/symbol/HOOD]): Downgrade Hold to Sell by Julian Lin [https://seekingalpha.com/article/4816317-robinhood-its-2021-all-over-again-memes-are-back-ratings-downgrade]. The analyst believes Robinhood’s explosive growth and profitability are unsustainable, with transaction-based revenue likely to face cyclical headwinds despite recent momentum. _“The stock’s valuation indicates that investors expect the good times to continue, but I expect cyclicality to negatively impact growth rates in a big way. With the stock trading at an unjustifiably large premium to peers, I am downgrading the stock to a sell rating.”_ \n\n\t* Microsoft Corporation (NASDAQ:MSFT [https://seekingalpha.com/symbol/MSFT]): Downgrade Hold to Sell by Millennial Dividends [https://seekingalpha.com/article/4816394-microsoft-not-worth-your-money-at-current-price-level-downgrade]. Despite strong cloud performance and a solid long-term outlook, the analyst sees the current valuation of 36.5x earnings as too stretched compared to a fair value range of 28-32x. _“Microsoft’s Q4 FY25 were a blowout thanks to strong Azure growth, despite the capacity-constraints. I expect Q1-Q2 FY26 may be a similar success story, yet it doesn’t justify to be buying Microsoft’s shares at elevated valuation of P/E 36+… Even being a different business altogether, you are better off standing on the sidelines, waiting for another dip as we’ve seen in March-April this year.”_ \n\nMORE ON MARKETS\n\n \t* Momentum leaders: 10 S&P 500 stocks soaring above their 200-day moving averages [https://seekingalpha.com/news/4489172-momentum-leaders-10-sp-500-stocks-soaring-above-their-200-day-moving-averages]\n \t* ETF flows surge past $750B in 2025, eyeing second straight $1T year [https://seekingalpha.com/news/4488928-etf-flows-surge-past-750b-in-2025-eyeing-second-straight-1t-year]\n \t* SA analyst upgrades/downgrades: PLTR, PANW, PEP, and HTZ [https://seekingalpha.com/news/4488921-sa-analyst-upgradesdowngrades-pltr-panw-pep-and-htz]\n \t* All eyes are on Nvidia as key earnings could impact hundreds of ETFs [https://seekingalpha.com/news/4488891-all-eyes-are-on-nvidia-as-key-earnings-could-impact-hundreds-of-etfs]\n \t* S&P 500: You're Less Diversified Than You Think, These ETFs Prove It [https://seekingalpha.com/article/4816324-sp500-you-are-less-diversified-than-you-think-these-etfs-prove-it]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T15:47:00+00:00",
+            "title": "IBKR Enters the S&amp;P 500 Index: A Win for Retail Investors?",
+            "content": "Shares of Interactive Brokers Group IBKR gained more than 4% in the after-market hours yesterday, following the S&P Dow Jones’ announcement that the electronic brokerage firm is joining the S&P 500 Index before market open on Aug. 28, replacing Walgreens Boots Alliance.\r\n\r\nFor being included in the index, companies must have a market value of at least $20.5 billion and be profitable on a GAAP basis for the past four quarters cumulatively and in the most recent quarter. Interactive Brokers has a market cap of $106 billion and has been witnessing solid improvement in profitability, given the continued rise in retail market participation.\r\n\r\nSo far this year, IBKR shares have rallied 42.1%, outperforming the industry’s 23.2% growth. The robust performance has been driven by the continued expansion of the company’s product suite and its strong technological capabilities. Moreover, IBKR has been benefiting from the current heightened market volatility. Rapidly evolving trends are expected to keep driving the company’s revenues and help expand its market share.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nA close IBKR peer, Charles Schwab SCHW, has also been benefiting from the current volatile operating environment. Schwab reported a year-over-year rise in trading revenues in the first half of 2025, driven by growth in client trading volume.\r\n\r\nOf late, Schwab’s performance has reflected strong asset gathering, sustained client engagement and equity market appreciation, continued demand for bank lending, and reduction of higher-cost bank supplemental funding. The SCHW stock has gained 30% so far this year.\r\n\r\nInclusion in the S&P 500 is significant, as it often leads to increased demand from index funds and passive investors who aim to replicate the index's performance. This heightened demand can boost a company's stock price and liquidity. For Interactive Brokers, such inclusion would not only validate its growth trajectory but also enhance its visibility and credibility in the financial markets.\r\n\r\nThis June, during the quarterly S&P 500 rebalancing, IBKR was a strong candidate, ranking near the top among eligible companies, but ultimately was not chosen for inclusion in the benchmark index.\r\n\r\nLikewise, Robinhood Markets Inc. HOOD, another close IBKR peer, has continuously been dropped out from inclusion in the index. There are chances that Robinhood, which ranks among the largest eligible companies by market capitalization, can be added to the benchmark index in the upcoming quarterly rebalance, set to be announced in early September. Robinhood has a market cap of more than $95 billion and the stock has skyrocketed 189.7% year to date.\n\nStory Continues\n\nIBKR’s Valuation & Estimate Analysis\n\nFrom a valuation standpoint, IBKR trades at a forward price-to-earnings (P/E) ratio of 30.83, well above the industry average of 14.64.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for Interactive Brokers’ 2025 and 2026 earnings indicates year-over-year growth of 11.4% and 6.1%, respectively. Over the past 30 days, earnings estimates for both years have been revised upward.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nInteractive Brokers currently sports a Zacks Rank #1 (Strong Buy). You can see the complete list of today’s Zacks #1 Rank stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Charles Schwab Corporation (SCHW) : Free Stock Analysis Report\n\nInteractive Brokers Group, Inc. (IBKR) : Free Stock Analysis Report\n\nRobinhood Markets, Inc. (HOOD) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T14:37:00+00:00",
+            "title": "Cathie Wood surprisingly sells $1.6 million of hot stock",
+            "content": "Cathie Wood, head of Ark Investment Management, often chases tech companies she sees at the front of innovation.\n\nBut she doesn’t sit still on her bets. Her funds often move in and out of positions within just days.\n\nThat’s what she just did, selling shares of a popular tech stock just days after buying in.\n\nInvest in Gold\n\nThor Metals Group: Best Overall Gold IRA  Learn More\n\nPriority Gold: Up to $15k in Free Silver + Zero Account Fees on Qualifying Purchase  Learn More\n\nAmerican Hartford Gold: #1 Precious Metals Dealer in the Nation  Learn More\n\nPowered by Money.com - Yahoo may earn commission from the links above.\n\nWood’s funds have experienced a volatile ride this year, swinging from sharp losses to strong gains.\n\nIn January and February, the Ark funds rallied as investors bet on the Trump administration's potential deregulation that could benefit Wood’s tech bets.\n\nRelated: Stock market hits record as Fed interest rate cut bets shift\n\nBut the momentum faded in March and April, with the funds trailing the market as top holdings — especially Tesla, Wood’s biggest position — slid amid growing concerns over the macroeconomy and trade policies.\n\nNow, the Ark funds are making a strong comeback. As of Aug. 25, the flagship Ark Innovation ETF  (ARKK)  is up 31.7% year-to-date, far outpacing the S&P 500’s 9.7% gain.\n\nWood's remarkable return of 153% in 2020 helped build her reputation and attract loyal investors. Her strategy can lead to sharp gains during bull markets but also painful losses, like in 2022, when ARKK dropped more than 60%.\n\nThose swings have weighed on her long-term results. As of Aug. 22, the Ark Innovation ETF has delivered a five-year annualized return of negative 2.7%, while the S&P 500 has an annualized return of 15.5% over the same period.Over the past 12 months through Aug. 21, the Ark Innovation ETF saw $1.6 billion in net outflows, according to data from ETF research firm VettaFi.Image source: Fallon/AFP via Getty Images\n\nCathie Wood’s investment strategy explained\n\nWood’s investment strategy is straightforward: Her Ark ETFs typically buy shares in emerging high-tech companies in fields such as artificial intelligence, blockchain, biomedical technology, and robotics.\n\nShe says these companies have the potential to reshape industries, but their volatility leads to major fluctuations in Ark funds' values.\n\nRelated: Cathie Wood's net worth: The Ark Invest CEO's wealth & income\n\nOver the 10 years ending in 2024, the Ark Innovation ETF wiped out $7 billion in investor wealth, according to an analysis by Morningstar’s analyst Amy Arnott. That made it the third-biggest wealth destroyer among mutual funds and ETFs in Arnott’s ranking.\n\nStill, Wood has been bullish on the market. In a letter to investors published in late April, she dismissed predictions of a recession dragging into 2026 and struck an optimistic tone for tech stocks.\n\n\"During the current turbulent transition in the U.S., we think consumers and businesses are likely to accelerate the shift to technologically enabled innovation platforms including artificial intelligence, robotics, energy storage, blockchain technology, and multiomics sequencing,\" she said.\n\nStory Continues\n\nNot all investors share this optimism. Over the past 12 months through Aug. 21, the Ark Innovation ETF saw $1.6 billion in net outflows, according to data from ETF research firm VettaFi.\n\nCathie Wood sells $1.6 million of Robinhood stock\n\nOn Aug. 21, Wood’s ARK Fintech innovation ETF  (ARKF)  sold 14,914 shares of Robinhood Markets Inc.  (HOOD)  worth roughly $1.6 million.\n\nThat came right after two sizable purchases last week: 123,336 shares on Aug. 18 and 150,908 shares on Aug. 19, worth a combined $30 million.\n\nRelated: $34 billion hedge fund buys more Nvidia stock, sells DoorDash\n\nRobinhood is an online brokerage that went public in 2021. It offers retail investors stocks, options, and crypto trading through its app.\n\nIn July, Robinhood reported second-quarter earnings of 42 cents a share, topping Wall Street’s forecast of 35 cents. Revenue came in at $989 million, ahead of the $913.3 million consensus. The brokerage's funded accounts rose by 2.3 million, or 10% year-over-year, to 26.5 million.\n\nRobinhood CEO Vlad Tenev said the company’s strong business results were “driven by relentless product velocity.” He also said the company launched tokenization, which in data security refers to converting sensitive information into a nonsensitive digital replacement, or token.\n\n\"I believe [this] is the biggest innovation our industry has seen in the past decade,\" he said.\n\nSeveral analysts have lifted their price targets for Robinhood stock after the earnings.\n\nMizuho analyst Dan Dolev raised the firm's price target on Robinhood to $120 from $99 and reiterated an outperform rating, citing the company's \"big quarter\" and accelerating year-over-year growth in funded accounts, thefly reported.\n\nMizuho also views Robinhood's asset tokenization and expansion into lending as \"particularly interesting.\"\n\nLast week, Bernstein raised its price target on Robinhood to $160 from $105, the highest on Wall Street. The firm reiterated an outperform rating.\n\nFund manager buys and sells\n\nBill Ackman pours billions into 2 tech stocks amid AI boom B of A fund manager survey delivers worrisome news for investors Fund manager doubles down on Nvidia, partner in AI stack shift\n\nBernstein says the Trump administration is pushing to make the U.S. the global hub for crypto and sees the bull market lasting into 2026, with a possible peak in 2027. The firm argues that Robinhood’s mix of equities, crypto, and financial services makes it more predictable.\n\n“Robinhood’s diversified model offers crypto upside without the same volatility as pure-play exchanges,” the analysts said.\n\nRobinhood stocks were traded at around $108 on Aug. 25, up 191% year-to-date.\n\nWood first bought into Robinhood in the third quarter of 2021. It was Ark Invest’s fourth-largest holding at the end of the second quarter, according to its latest 13F filing.\n\nWood trimmed her Robinhood stake by 2.46 million shares in the second quarter, a 24% cut. Even so, the Ark funds still owned 7.8 million shares worth about $729 million at the end of June, accounting for 5.34% of the portfolio.\n\nRelated: Bank of America sounds the alarm on inflation ahead of key report\n\nThis story was originally reported by TheStreet on Aug 26, 2025, where it first appeared in the Investing News, Analysis, and Tips section. Add TheStreet as a Preferred Source by clicking here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T14:34:00+00:00",
+            "title": "3 Momentum Anomaly Stocks to Buy as Markets Sway Frantically",
+            "content": "The broader U.S. equity markets have been swinging wildly over the past few days, hitting record highs on the back of Federal Reserve Chair Jerome Powell’s broader rate cut hints and declining sharply due to concerns surrounding NVIDIA’s impending earnings release. Moreover, with President Trump transgressing the Fed’s independence by threatening to remove Governor Lisa Cook from her post and likely setting up a legal battle that could reach the Supreme Court, the markets remained largely on tenterhooks. \r\n\r\nAmid the vagaries of the market, investors often seek to employ time-tested winning strategies to fetch sustained profits. One of the most successful game plans to beat the blues is to bet on momentum stocks, like Vertiv Holdings Co VRT, MasTec, Inc. MTZ and Robinhood Markets, Inc. HOOD when value or growth investing fails to generate the desired profits. \r\n\r\nThis approach primarily tends to follow the adage, “the trend is your friend.” At its core, momentum investing is “buying high and selling higher.” It is based on the idea that once a stock establishes a trend, it is more likely to continue in that direction because of the momentum that is already behind it. Momentum investing is a way to profit from the general human tendency to extrapolate current trends into the future. It is based on that gap in time before the mean reversion occurs, i.e., before prices become rational again.\r\n\r\nMomentum strategies have been known to be alpha-generative over a long period and across market stages. So, this strategy is quite tricky to implement, as detecting these trends is no child’s play. Here, we have created a strategy to help investors get in on these fast movers and rake in handsome gains. Our screen will help you benefit from both long-term price momentum and a short-term pullback in price.\n\nScreening Parameters for Momentum Anomaly Stocks\n\nPercentage Change in Price (52 Weeks) = Top #50: This selects the top 50 stocks with the best percentage price change over the last 52 weeks. This parameter ensures we get the best stocks that have appreciated steadily over the past year.\r\n\r\nPercentage Change in Price (1 Week) = Bottom #10: From the above 50 stocks, we then choose those that are also among the 10 worst performers over a short one-week period. This parameter picks the ones that have witnessed a short-term pullback in price.\r\n\r\nZacks Rank #1: Stocks sporting a Zacks Rank #1 (Strong Buy) have a proven history of outperformance irrespective of the market conditions. You can see the complete list of today’s Zacks #1 Rank stocks here.\r\n\r\nMomentum Style Score of B or Better: A top Momentum Style Score knocks out a lot of the screening process as it takes into account several factors that include volume change and performance relative to its peers. It indicates when the timing is best to grab a stock and take advantage of its momentum with the highest probability of success. Stocks with a Momentum Score of A or B, when combined with a Zacks Rank #1 or 2 (Buy), handily outperform other stocks.\r\n\r\nCurrent Price greater than $5: The stocks must all be trading at a minimum of $5.\r\n\r\nMarket Capitalization = Top #3000: We have chosen stocks that are among the top 3000 in terms of market value to ensure the stability of price. \r\n\r\nAverage 20-Day Volume greater than 100,000: A substantial trading volume ensures that these stocks are easily tradable.\r\n\r\nHere are three stocks out of the seven that made it through this screen:\r\n\r\nHeadquartered in Westerville, OH, Vertiv is a leading global provider of critical digital infrastructure and services for data centers, communication networks and commercial and industrial environments. The company designs, manufactures, installs, maintains and services a broad portfolio of hardware, software and integrated solutions that ensure digital infrastructure operates continuously, optimally, and can scale with business demands. Vertiv serves essential industries, including cloud computing, financial services, healthcare, transportation, energy, manufacturing, government, education, retail and social media. The stock has surged 60.2% in the past year but declined 7.9% in the past week. Vertiv has a Momentum Score of B. \r\n\r\nHeadquartered in Coral Gables, FL, MasTec is a leading infrastructure construction company operating mainly throughout North America. The company engages in the engineering, building, installation, maintenance and upgrade of energy, communication, utility and other infrastructure. The stock has rallied 59.7% in the past year but lost 0.7% in the past week. MasTec has a Momentum Score of B.\r\n\r\nHeadquartered in Menlo Park, CA, Robinhood Markets is a financial services firm that offers trading services in crypto, stocks, options, exchange-traded funds, cash management, margin and securities lending, and Robinhood Gold. The company aims to democratize finance through its commission-free trading model, which was launched in 2013, with no account minimums. The company serves in the United States, the United Kingdom and selected European Union jurisdictions through its apps and subsidiaries. The stock has surged 415% in the past year but declined 6.2% in the past week. Robinhood Markets has a Momentum Score of A.\r\n\r\nYou can get the rest of the stocks on this list by signing up now for your 2-week free trial to the Research Wizard and start using this screen in your trading. Further, you can also create your own strategies and test them first before taking the investment plunge.\r\n\r\nThe Research Wizard is a great place to begin. It's easy to use. Everything is in plain language. And it's very intuitive. Start your Research Wizard trial today. And the next time you read an economic report, open up the Research Wizard, plug your finds in, and see what gems come out.\r\n\r\nClick here to sign up for a free trial to the Research Wizard today.\r\n\r\nDisclosure: Officers, directors and/or employees of Zacks Investment Research may own or have sold short securities and/or hold long and/or short positions in options that are mentioned in this material. An affiliated investment advisory firm may own or have sold short securities and/or hold long and/or short positions in options that are mentioned in this material.\r\n\r\nDisclosure: Performance information for Zacks’ portfolios and strategies are available at: https://www.zacks.com/performance.\n\nStory Continues\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMasTec, Inc. (MTZ) : Free Stock Analysis Report\n\nVertiv Holdings Co. (VRT) : Free Stock Analysis Report\n\nRobinhood Markets, Inc. (HOOD) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Robinhood Markets Inc",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "employees": 2300,
+          "description": "Robinhood Markets, Inc. operates financial services platform in the United States. Its platform allows users to invest in stocks, exchange-traded funds (ETFs), American depository receipts, options, gold, and cryptocurrencies. The company offers fractional trading, recurring investments, fully-paid "
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.97,
+          "profit_margin": 0.5013,
+          "operating_margin": 0.4439,
+          "roe": 0.2354,
+          "roa": 0.0466,
+          "revenue_growth_yoy": 0.45,
+          "earnings_growth_yoy": 1,
+          "eps_estimate_current_year": 1.8757,
+          "eps_estimate_next_year": 2.1063,
+          "revenue_ttm": 3567000064,
+          "revenue_per_share": 4.036,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 54.7919,
+          "forward_pe": 76.3359,
+          "price_to_sales": 26.8919,
+          "price_to_book": 11.8835,
+          "enterprise_value": 95025589538,
+          "ev_to_revenue": 26.6402,
+          "ev_to_ebitda": 59.3539
+        },
+        "technical_data": {
+          "beta": 2.37,
+          "52_week_high": 117.7,
+          "52_week_low": 18.71,
+          "50_day_ma": 99.0512,
+          "200_day_ma": 60.0796,
+          "short_interest": 0.0384,
+          "short_ratio": 0.53
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0476,
+          "target_price": 113.0862,
+          "strong_buy": 8,
+          "buy": 6,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 773964032,
+          "percent_institutions": 72.533,
+          "percent_insiders": 0.736,
+          "shares_float": 765300330
+        },
+        "balance_latest_sheet": {
+          "total_assets": 35324.0,
+          "total_debt": 12640.0,
+          "net_debt": 8478.0,
+          "working_capital": 6711.0,
+          "shareholders_equity": 8072.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.57
+        },
+        "income_latest_statement": {
+          "total_revenue": 989.0,
+          "gross_profit": 912.0,
+          "operating_income": 440.0,
+          "net_income": 386.0,
+          "ebitda": 457.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 92.21,
+          "operating_margin": 44.49,
+          "net_margin": 39.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1829.0,
+          "free_cash_flow": 1811.0,
+          "capex": 18.0,
+          "net_income": 386.0,
+          "cash_change": 8602.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.3944,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 100.02,
+            "high": 104.62,
+            "low": 99.7002,
+            "close": 103.25,
+            "volume": 54717340
+          },
+          {
+            "date": "2025-07-17",
+            "open": 103.535,
+            "high": 106.6396,
+            "low": 102.72,
+            "close": 105.45,
+            "volume": 39114434
+          },
+          {
+            "date": "2025-07-18",
+            "open": 109.75,
+            "high": 113.4393,
+            "low": 106.95,
+            "close": 109.74,
+            "volume": 74033266
+          },
+          {
+            "date": "2025-07-21",
+            "open": 109,
+            "high": 110.31,
+            "low": 104.07,
+            "close": 104.34,
+            "volume": 46430633
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.71,
+            "high": 105.93,
+            "low": 98.75,
+            "close": 101.85,
+            "volume": 44667367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 102.13,
+            "high": 102.68,
+            "low": 100.5401,
+            "close": 102.08,
+            "volume": 33805207
+          },
+          {
+            "date": "2025-07-24",
+            "open": 103,
+            "high": 103.0399,
+            "low": 100.3201,
+            "close": 101.93,
+            "volume": 26698131
+          },
+          {
+            "date": "2025-07-25",
+            "open": 101.545,
+            "high": 106.39,
+            "low": 101.05,
+            "close": 104.85,
+            "volume": 35637840
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.84,
+            "high": 107.13,
+            "low": 104.66,
+            "close": 106.77,
+            "volume": 30578430
+          },
+          {
+            "date": "2025-07-29",
+            "open": 106.61,
+            "high": 107.42,
+            "low": 103,
+            "close": 103.32,
+            "volume": 30568010
+          },
+          {
+            "date": "2025-07-30",
+            "open": 103.85,
+            "high": 107.46,
+            "low": 103.35,
+            "close": 106.1,
+            "volume": 39913480
+          },
+          {
+            "date": "2025-07-31",
+            "open": 103.865,
+            "high": 109.06,
+            "low": 101.07,
+            "close": 103.05,
+            "volume": 58057602
+          },
+          {
+            "date": "2025-08-01",
+            "open": 97.8,
+            "high": 104.59,
+            "low": 93.36,
+            "close": 99.9,
+            "volume": 76745148
+          },
+          {
+            "date": "2025-08-04",
+            "open": 101.229,
+            "high": 106.79,
+            "low": 97.1532,
+            "close": 106.37,
+            "volume": 46466000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 105.97,
+            "high": 107.3,
+            "low": 103.22,
+            "close": 105.46,
+            "volume": 33460910
+          },
+          {
+            "date": "2025-08-06",
+            "open": 104.505,
+            "high": 105.9,
+            "low": 101.18,
+            "close": 105.65,
+            "volume": 33023520
+          },
+          {
+            "date": "2025-08-07",
+            "open": 107.89,
+            "high": 112.6344,
+            "low": 107.4,
+            "close": 111.23,
+            "volume": 44736008
+          },
+          {
+            "date": "2025-08-08",
+            "open": 111.5,
+            "high": 117,
+            "low": 110.9,
+            "close": 114.63,
+            "volume": 41905727
+          },
+          {
+            "date": "2025-08-11",
+            "open": 116.22,
+            "high": 117.47,
+            "low": 113.39,
+            "close": 113.62,
+            "volume": 36942289
+          },
+          {
+            "date": "2025-08-12",
+            "open": 115.04,
+            "high": 117.7,
+            "low": 113.18,
+            "close": 114.09,
+            "volume": 31527529
+          },
+          {
+            "date": "2025-08-13",
+            "open": 115.65,
+            "high": 116.4,
+            "low": 107.28,
+            "close": 108.62,
+            "volume": 54719727
+          },
+          {
+            "date": "2025-08-14",
+            "open": 107.88,
+            "high": 111.46,
+            "low": 106.31,
+            "close": 110.71,
+            "volume": 34395246
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.73,
+            "high": 114.36,
+            "low": 108.61,
+            "close": 114.17,
+            "volume": 32215891
+          },
+          {
+            "date": "2025-08-18",
+            "open": 113,
+            "high": 115.09,
+            "low": 109.78,
+            "close": 115.02,
+            "volume": 35579152
+          },
+          {
+            "date": "2025-08-19",
+            "open": 116.12,
+            "high": 117.46,
+            "low": 106.5,
+            "close": 107.5,
+            "volume": 49635648
+          },
+          {
+            "date": "2025-08-20",
+            "open": 106.665,
+            "high": 107.98,
+            "low": 99,
+            "close": 105.34,
+            "volume": 56515328
+          },
+          {
+            "date": "2025-08-21",
+            "open": 105.03,
+            "high": 108.21,
+            "low": 104.35,
+            "close": 106.3,
+            "volume": 34679020
+          },
+          {
+            "date": "2025-08-22",
+            "open": 105.53,
+            "high": 111.8825,
+            "low": 103.8,
+            "close": 109.32,
+            "volume": 39922160
+          },
+          {
+            "date": "2025-08-25",
+            "open": 108.49,
+            "high": 109.85,
+            "low": 105.95,
+            "close": 107.94,
+            "volume": 29478100
+          },
+          {
+            "date": "2025-08-26",
+            "open": 106.85,
+            "high": 109.3599,
+            "low": 105.12,
+            "close": 108.8,
+            "volume": 27293473
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.303910181958966,
+        "return_63d": 67.02486951182068,
+        "pct_above_sma50": 9.165403827804925,
+        "sma_50": 99.77519999999998,
+        "new_55d_high": "False",
+        "high_55d": 117.7,
+        "rsi": 54.11980120324352,
+        "rsi_in_range": "True",
+        "adx": 8.620758280789191,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 5.920661764705881,
+        "bb_width": 15.326653952226877,
+        "keltner_width": 23.774862056875005,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 4549870246.3489,
+        "adv_shares": 41860597.9,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 55.79801353144051,
+        "final_score": 50.79801353144051,
+        "sub_scores": {
+          "trend_momentum": 17.79801353144051,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 1.901283131965914,
+          "ret_63d": 64.79854589518328,
+          "rsi14": 54.11980120324352,
+          "adx14": 7.499578776562132,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: HOOD\n• Current Price: $108.92\n• Overall Score: 53.161659008399056\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 99.0512\n• Sma 200: 60.0796\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.9012831319659091\n• Momentum 63D: 64.79854589518328\n• Momentum 126D: 136.93379790940764\n• Momentum Acceleration: -62.89726276321737\n• Roc 21D: 1.9012831319659091\n• Trend Strength 20D: 0.10279367166865316\n• Trend Direction: 1\n• Ma Ribbon Score: 72.73205578803858\n• Breakout Strength: 0.0\n• Price Velocity: 0.0025548765092365143\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 17.0\n• Squeeze Momentum: -0.24951677733956001\n• Volatility Compression: 17.82453104919925\n• Is Consolidating: False\n• Breakout Score: -20.34601182082979\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.79801353144051\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 57.673679657379886\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: HOOD\n• Strike Price: $105\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $12.65\n• Ask: $12.7\n• Last: $12.65\n• Mid: $12.675\n• Spread: 0.3937007874015748031496062992%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6148\n• Gamma: 0.0144\n• Theta: -0.1034\n• Vega: 0.157\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.6446\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 542\n• Open Interest: 25264\n• Volume/OI Ratio: 0.021453451551614947\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Robinhood Markets Inc\n• Sector: Financial Services\n• Industry: Capital Markets\n• EPS (TTM): $1.97\n• Profit Margin: 50.1%\n• ROE: 23.5%\n• P/E Ratio: 54.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T19:06:00+00:00: Robinhood and Interactive Brokers Stock Might Be Too Hot to Touch...\n• 2025-08-26T18:09:13+00:00: SA analyst upgrades/downgrades: AAPL, MSFT, HOOD, and MSGE...\n• 2025-08-26T15:47:00+00:00: IBKR Enters the S&amp;P 500 Index: A Win for Retail Investors?...\n• 2025-08-26T14:37:00+00:00: Cathie Wood surprisingly sells $1.6 million of hot stock...\n• 2025-08-26T14:34:00+00:00: 3 Momentum Anomaly Stocks to Buy as Markets Sway Frantically...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR HOOD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the HOOD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:04:41.381130",
+    "estimated_tokens": 2326
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"HOOD\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"HOOD shows strong momentum with 126D momentum of 136.93 and price above both SMAs, but faces near-term headwinds with negative momentum acceleration (-62.89). Options setup shows decent liquidity with tight spreads (0.39%) but elevated IV at 0.64, while multiple timeframe squeeze signals suggest potential volatility expansion.\",\n    \"opportunities\": [\n        \"Price significantly above both 50 SMA (99.05) and 200 SMA (60.08) showing strong overall trend\",\n        \"Tight option spreads (0.39%) with healthy OI (25,264) indicating good liquidity\",\n        \"Multiple timeframe squeeze (3 counts) with 17-day duration suggests potential breakout\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-62.89) indicates potential trend weakening\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"High P/E ratio of 54.8x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta and vega exposure given high IV\",\n        \"entry_timing\": \"Wait for momentum acceleration to stabilize before entry\",\n        \"risk_management\": \"Position size conservatively due to upcoming earnings and high IV environment\"\n    },\n    \"red_flags\": [\n        \"Earnings in approximately 30 days\",\n        \"Negative momentum acceleration despite positive trend\",\n        \"Negative squeeze momentum (-0.25)\"\n    ],\n    \"notes\": \"While technical setup shows strength, combination of high IV, approaching earnings, and momentum deterioration suggests caution. Consider spread strategies over outright options.\"\n}",
+    "parsed_analysis": {
+      "symbol": "HOOD",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "HOOD shows strong momentum with 126D momentum of 136.93 and price above both SMAs, but faces near-term headwinds with negative momentum acceleration (-62.89). Options setup shows decent liquidity with tight spreads (0.39%) but elevated IV at 0.64, while multiple timeframe squeeze signals suggest potential volatility expansion.",
+      "opportunities": [
+        "Price significantly above both 50 SMA (99.05) and 200 SMA (60.08) showing strong overall trend",
+        "Tight option spreads (0.39%) with healthy OI (25,264) indicating good liquidity",
+        "Multiple timeframe squeeze (3 counts) with 17-day duration suggests potential breakout"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-62.89) indicates potential trend weakening",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "High P/E ratio of 54.8x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta and vega exposure given high IV",
+        "entry_timing": "Wait for momentum acceleration to stabilize before entry",
+        "risk_management": "Position size conservatively due to upcoming earnings and high IV environment"
+      },
+      "red_flags": [
+        "Earnings in approximately 30 days",
+        "Negative momentum acceleration despite positive trend",
+        "Negative squeeze momentum (-0.25)"
+      ],
+      "notes": "While technical setup shows strength, combination of high IV, approaching earnings, and momentum deterioration suggests caution. Consider spread strategies over outright options."
+    },
+    "tokens_used": 2596,
+    "cost": 0.025959999999999997,
+    "response_time": 10.683479309082031,
+    "success": true
+  },
+  "cost": 0.025959999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8510,
+    "response_length": 1876
+  }
+}

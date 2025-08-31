@@ -1,0 +1,636 @@
+{
+  "success": true,
+  "symbol": "OPEN",
+  "timestamp": "2025-08-23T22:52:58.851719",
+  "data_package": {
+    "metadata": {
+      "symbol": "OPEN",
+      "package_timestamp": "2025-08-23T22:52:48.422362",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "OPEN",
+        "current_price": 5.01,
+        "overall_score": 48.710256410256406,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 1.6424,
+        "sma_200": 1.4007
+      },
+      "momentum_metrics": {
+        "momentum_21d": 107.02479338842974,
+        "momentum_63d": 636.7647058823529,
+        "momentum_126d": 260.43165467625903,
+        "momentum_acceleration": -529.7399124939232,
+        "roc_21d": 107.02479338842974,
+        "trend_strength_20d": 0.6521619529627921,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 91.90931829968228,
+        "price_velocity": 0.10985656624236617
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.05746054195744938,
+        "volatility_compression": 0.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 0
+      },
+      "quantitative_scores": {
+        "trend_momentum": 27.009784735812133,
+        "squeeze_breakout": 4.0,
+        "options_quality": 22.70625386996904,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 74.0,
+        "squeeze": 0.0,
+        "options": 47.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "OPEN",
+        "strike_price": "5",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.61",
+        "ask": "1.62",
+        "last_price": "1.62",
+        "mid_price": "1.615",
+        "spread_percent": "0.6172839506172839506172839506"
+      },
+      "greeks": {
+        "delta": 0.6628,
+        "gamma": 0.0879,
+        "theta": -0.0137,
+        "vega": 0.0071
+      },
+      "volatility_metrics": {
+        "implied_volatility": 2.1306
+      },
+      "liquidity_metrics": {
+        "volume": 14893,
+        "open_interest": 5135,
+        "volume_oi_ratio": 2.900292112950341
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-23T22:52:48.365996",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T20:26:23+00:00",
+            "title": "Post-Powell speech rally: Ethereum &amp; Opendoor among top winners",
+            "content": "US stocks (^DJI, ^GSPC, ^IXIC) ended Friday's session higher, with bitcoin (BTC-USD) and ethereum (ETH-USD) also seeing significant gains. Crypto-related stocks, like Robinhood (HOOD), Coinbase (COIN), and Strategy (MSTR), and high volatility names like Opendoor (OPEN) saw price jumps.\n\nYahoo Finance Senior Reporter Allie Canal outlines what investors need to know about the market rally following Federal Reserve Chair Jerome Powell's Jackson Hole remarks.\n\nTo watch more expert insights and analysis on the latest market action, check out more Market Domination.\n\nVideo Transcript\n\n00:00:00 Speaker A\n\nStocks ripping higher to close out the week after Fed chair Jerome Powell open the door to a September rate cut at Jackson Hole. Powell saying, quote, the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance. That fueled bets that the Fed could ease as soon as next month. Markets took that as a green light for risk. Meme darling, Open Door that jumped more than 30%, Ethereum spiked 13% outpacing a 4% gain in Bitcoin. And the enthusiasm spilled into some of those crypto linked names as well. Coinbase gained around 7%, Robin Hood up 4%, strategy up 6%. And this marks a sharp rebound after a pretty rough stretch for some of those high volatility plays. City strategist Scott Croner called the market reaction, quote, very positive, highlighting that a striking surge in small caps along with the equal weighted S&P 500 leading the headline index, it's really all incongruent a sign that the rally may be broadening beyond just Big Tech. Still Croner caution that there was some junkiness as unprofitable growth names also surge, but just really an overall risk on rally here amid Powell's dovish tilt. The question, of course now is whether this proves durable. Here's some of the reaction that we heard today following that speech.\n\n00:02:16 Speaker B\n\nI think he laid out the options in front of us by and not commit to anything. This is important. I know the markets think that he's committed, but I think at this point, there's a lot of uncertainty. I know that word's being used a lot, but the signals are mixed.\n\n00:03:02 Speaker C\n\nWhat Powell was trying to do today was to open the door to a rate cut in September. And what that does is that gives him a little bit insulation because if we get a really bad jobs report next month in early September, he can say, look, I opened the door to a move. Don't worry, we're on it. It's coming.\n\n00:03:53 Speaker D\n\nIn a way, maybe he's auditioning for the role of Fed chair. You know, if you look at the text of the speech, he actually completely removed the phrase that has characterized his entire term as Fed share of data dependent. Uh that wasn't in the speech and he's talking more about the balance of risks, looking ahead, and it was actually kind of refreshing to hear that.\n\n00:04:45 Speaker A\n\nNow, there is going to be a fair amount of data that will be released prior to this September decision. As you just heard, there's still some uncertainty related to the inflation side of the Fed's dual mandate. So we'll have to wait and see, but right now, market's clearly interpreting this as a rate cut in September, Josh.\n\n00:05:19 Josh\n\nAll right, Alex. Now, thank you.  Related Videos\n\n06:22\n\nRate cut in Sept. is 'more likely than not': Fmr. Fed vice chair\n\nYahoo Finance Video • 17 minutes ago 02:37\n\nDow closes at a new record, surging more than 800 points\n\nYahoo Finance Video • 33 minutes ago 01:39\n\nWhy Opendoor stock is skyrocketing right now\n\nYahoo Finance Video • 37 minutes ago 02:11\n\nStablecoin adoption is driving demand for US Treasury bills\n\nYahoo Finance Video • 45 minutes ago\n\nKommentare anzeigen",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:01:10+00:00",
+            "title": "Stock market today: Dow jumps 800 points to record, S&amp;P 500, Nasdaq soar as Powell's Jackson Hole finale fuels bets on September rate cut",
+            "content": "US stocks soared on Friday as Federal Reserve Chair Jerome Powell opened the door for a September rate cut during his highly anticipated speech at Jackson Hole.\n\nThe Dow Jones Industrial Average (^DJI) rose 800 points or 1.9% to close at a fresh record, while the S&P 500 (^GSPC) moved up about 1.5%, and the tech-heavy Nasdaq Composite (^IXIC) climbed 1.9%. Friday's surge came on the heels of a downbeat week for markets, as tech stocks were beaten up by AI trade doubts.\n\nSNP - Delayed Quote•USD\n\n(^GSPC)\n\nFollow  View Quote Details\n\n6,466.91\n\n+96.74\n\n+(1.52%)\n\nAt close: 4:10:23 PM EDT  ^GSPC^DJI ^IXIC\n\nAdvanced Chart\n\nFed Chair Powell opened the possibility of the central bank lowering interest rates in September on Friday, saying in his speech that \"the baseline outlook and the shifting balance of risks may warrant adjusting our policy stance.\"\n\nWith the speech touching both on the country's economic outlook and the Fed's new policy framework, Powell still noted that risks from inflation remain \"tilted to the upside,\" saying that tariff-related inflation pressures \"are now clearly visible.\"\n\nHis remarks shook up rate-cut bets, which had been waning after a weak monthly jobs report. Traders on Friday were pricing in about 91.5% odds of a September cut compared to 70% earlier in the morning and 85% a week ago.\n\nMeanwhile, the 10-year (^TNX) and 30-year (^TYX) Treasury yields fell after Powell's remarks. The commentary also spurred a gain in bitcoin (BTC-USD) and other cryptocurrencies, with ethereum (ETH-USD) leading the crypto gains.\n\nThe White House watched Powell's speech closely too, as President Trump has continued to push the Fed and Powell to lower rates. Trump opened a new front in his public pressure campaign on central bank independence by calling for the resignation of Fed governor Lisa Cook for alleged mortgage fraud. On Friday, Trump said he'll \"fire\" Cook if she doesn't resign, though legally, presidents cannot easily dismiss Fed governors.\n\nOn the earnings front, Zoom (ZM) stock popped Friday after reporting an AI boost, and Ross Stores (ROST) jumped as shoppers sought discounts amid tariffs. Intuit (INTU) and Workday (WDAY), meanwhile, slid.\n\nShares of Intel (INTC) jumped 5% after President Trump said the government will take a 10% stake in the ailing chip giant, calling it a \"great deal.\"LIVE26 updates\n\n5 mins ago\n\nInes Ferré\n\nDow notches new record, S&P 500, Nasdaq jump as Fed's Powell signals September rate cut on the table\n\nStocks jumped with the Dow Jones Industrial Average (^DJI) rising more than 800 point or 1.9% to close at a new all-time high record.\n\nThe S&P 500 (^GSPC) rallied 1.5%, and the tech-heavy Nasdaq Composite (^IXIC) also gained 1.9%. The Dow and S&P 500 closed out the week with gains after a volatile week following a rotation away from tech stocks and into defensive sectors in anticipation of Powell's Jackson Hole speech on Friday.\n\nPowell signaled that policy members were open to a September rate cut after disappointing recent labor data, despite signs of inflation due to ongoing tariff policy.\n\nDJI - Delayed Quote•USD\n\n(^DJI)\n\nFollow  View Quote Details\n\n45,631.74\n\n+846.24\n\n+(1.89%)\n\nAt close: 4:10:23 PM EDT  ^DJI^IXIC ^GSPC\n\nAdvanced Chart 36 mins ago\n\nInes Ferré\n\nTrump says US enforcement of TikTok divestment law may 'extend a little bit longer'\n\nYahoo Finance's Alexis Keenan reports:\n\nRead more here.  Today at 6:59 PM UTC\n\nGrace O'Donnell\n\nApple, Google stocks climb on report the iPhone maker may use Gemini AI for Siri\n\nApple (AAPL) and Alphabet (GOOG) stocks climbed to session highs midday Friday after Bloomberg's Mark Gurman reported that Apple is considering using Google's Gemini to power a revamped version of the Siri voice assistant.\n\nFrom Bloomberg:\n\nRead more here. Today at 6:20 PM UTC\n\nInes Ferré\n\nIntel jumps as Trump says US will take 10% stake in Intel\n\nPresident Trump said his administration will take a 10% stake in ailing chip giant Intel (INTC) on Friday, calling it a \"great deal.\"\n\nIntel's stock price rose more than 5% in midday trading.\n\nNasdaqGS - Delayed Quote•USD\n\n(INTC)\n\nFollow  View Quote Details\n\n24.80\n\n+1.30\n\n+(5.53%)\n\nAt close: 4:00:01 PM EDT  Advanced Chart\n\nOn Tuesday Treasury Secretary Scott Bessent told CNBC that the administration was exploring converting Intel's funding from the Biden-era CHIPS Act into equity aimed at stabilizing the company's US manufacturing business.\n\nIntel is dealing with multiple issues across its businesses. Its manufacturing division is bleeding cash, just as its legacy computer chip segment forfeits market share to rivals Advanced Micro Devices (AMD) and Qualcomm (QCOM) in the PC space. Intel is also woefully behind AMD and Nvidia (NVDA) in the AI race.\n\nRead more here. Today at 6:00 PM UTC\n\nGrace O'Donnell\n\nPowell's Jackson Hole speech turns Fed's focus toward 'curious' labor market\n\nYahoo Finance's Myles Udland notes that Fed Chair Jerome Powell outlined the central bank's renewed focus on the labor market in the months ahead, which has big implications for interest rates this year and beyond:\n\nRead more here. Today at 5:15 PM UTC\n\nInes Ferré\n\nOpendoor rise more than 20% as even meme stocks rise after Fed Chair Powell's speech\n\nOpendoor (OPEN) stock rose more than 20% on Friday as even the meme stocks gained after Jerome Powell's policy speech in Jackson Hole opened the door to rate cuts in September.\n\nLower interest rates would benefit Opendoor, which has seen meme-like volatility in recent weeks, as well as other iBuyers of homes. Today at 4:30 PM UTC\n\nGrace O'Donnell\n\nBJ's Wholesale Club stock drops 8% after sales miss expectations\n\nShares of BJ's Wholesale Club declined 8% on Friday after fuel prices weighed on the retailer's second quarter results.\n\nOn Friday, the company reported that overall comparable club sales decreased by 0.3% year over year, while comparable sales excluding gasoline increased by 2.3% annually.\n\nEarnings per share of $1.14 topped Wall Street's estimates, but revenue of $5.38 billion disappointed expectations for $5.48 billion, according to S&P Global Market Intelligence\n\nBJ's Wholesale also narrowed the range for its earnings outlook. For fiscal 2025, adjusted EPS is expected to range from $4.20 to $4.35 instead of the $4.10 to $4.30 previously forecast.\n\nRead more: Live coverage of corporate earnings Today at 3:17 PM UTC\n\nLaura Bratton\n\nTrump says he'll fire Fed governor Lisa Cook if she doesn't resign\n\nJust as Fed Chair Jerome Powell's speech in Jackson Hole fueled market optimism — following months of social media skewering from President Trump — Trump dialed up pressure on another member of the Federal Reserve's board of governors.\n\nYahoo Finance's Josh Schafer reports:\n\nRead the full story here. Today at 3:12 PM UTC\n\nLaura Bratton\n\nEthereum leads crypto gains following Powell speech\n\nEthereum led an upswing in cryptocurrencies as rate cut bets soared after Jerome Powell's policy speech in Jackson Hole opening the door to rate cuts in September.\n\nEthereum (ETH-USD) jumped 8.6%, while Bitcoin (BTC-USD) rose a modest 2.7%. Solana (SOL-USD) climbed roughly 4%, and XRP (XRP-USD) also jumped around 4%.\n\nCrypto stocks were also on the move, with Strategy (MSTR) shares up 5.7% and Robinhood (HOOD) stock up 4.2%. Crypto exchange platform Coinbase (COIN) soared 6.6%, and stablecoin issuer Circle (CRCL) shot up 9.6%.\n\nThe gains helped pare or reverse losses in those stocks as tech stocks have been beaten down this week by doubts over the sustainability of the AI trade. MSTR and HOOD shares were still set for 2.5% and 3% weekly losses, respectively, and Circle was set for a 4% decline in that time frame. Today at 3:00 PM UTC\n\nGrace O'Donnell\n\nChart: How Powell's speech changed rate cut expectations\n\nAs my colleague Laura Bratton noted below, investors rushed to price in near certainty of a September rate cut. Here's another way to look at how rate cut expectations changed in the wake of Fed Chair Powell's speech: Today at 2:46 PM UTC\n\nLaura Bratton\n\nTreasury yields fall as investors price in over 90% odds of September rate cut\n\nTreasury yields fell Friday as investors priced in 91.5% odds of a September rate cut from the Federal Reserve following Fed Chair Jerome Powell's speech in Jackson Hole.\n\nThe 10-year yield (^TNX) fell about 5 basis points to around 4.27%, while the 30-year yield (^TYX) fell more than 3 basis points to 4.89%. Today at 2:32 PM UTC\n\nLaura Bratton\n\nStocks surge, Dow touches intraday record as rate cut bets rise\n\nStocks jumped as September rate cut bets jumped Friday amid Fed Chair Jerome Powell's speech in Jackson Hole.\n\nThe Dow (^DJI) climbed 1.6% to hit an intraday high of just over 45,548. The S&P 500 (^GSPC) jumped 1.4% to near last week's record high for the index of 6,449.80. The Nasdaq Composite (^IXIC) rose 1.5% to recover some of its declines as tech stocks have lost steam amid doubts over the AI trade.\n\nDJI - Delayed Quote•USD\n\n(^DJI)\n\nFollow  View Quote Details\n\n45,631.74\n\n+846.24\n\n+(1.89%)\n\nAt close: 4:10:23 PM EDT  ^DJI^GSPC ^IXIC\n\nAdvanced Chart\n\nPowell in his speech in Jackson Hole on Friday opened the door to rate cuts in September, shaking up rate cut bets, which had been waning after a weak monthly jobs report. Traders are pricing in about 91.5% odds of a cut late Friday morning compared to 70% earlier in the day and 85% a week ago. Today at 2:21 PM UTC\n\nLaura Bratton\n\nPowell opens door to September rate cut, says economic outlook 'may warrant' change in Fed's stance\n\nYahoo Finance's Myles Udland and Jennifer Schonberger report:\n\nRead more about Powell's speech here. Today at 2:03 PM UTC\n\nGrace O'Donnell\n\nWatch Fed Chair Powell's Jackson Hole speech live\n\nFederal Reserve Chair Jerome Powell began speaking in Jackson Hole, Wyo., on Friday, where he is delivering what is expected to be his final speech at the annual gathering of central bankers, policymakers, and economists.\n\nYou can watch his remarks live below or on our livestream here:\n\nInvestors will examine Powell's remarks for clues about the state of the economy and the potential for interest rate cuts next month. The central bank is grappling with whether to hold interest rates steady in September to counter inflation or lower rates in light of weaker labor market data.\n\nPressure from the Trump administration to slash rates has also ramped up in recent months, with President Trump regularly calling on Powell to ease Fed policy.\n\nAdditionally, Powell is expected to describe changes to the central bank’s policy framework. The Fed is expected to drop its average inflation targeting policy, which sets an inflation rate goal for the Fed to achieve over the long run. It was put in place pre-pandemic, when inflation ran low and Fed officials wanted to avoid deflation.\n\nRead more here about Powell's speech. Today at 1:59 PM UTC\n\nLaura Bratton\n\nNvidia talking to Trump admin. about new China chip\n\nYahoo Finance's Dan Howley reports:\n\nNvidia shares fell nearly 1% Friday morning, on track for a nearly 4% weekly loss.\n\nNasdaqGS - Delayed Quote•USD\n\n(NVDA)\n\nFollow  View Quote Details\n\n177.99\n\n+3.01\n\n+(1.72%)\n\nAt close: 4:00:00 PM EDT  Advanced Chart\n\nRead the full story here. Today at 1:54 PM UTC\n\nLaura Bratton\n\nStocks push higher at the open\n\nUS stocks rose at the open on Friday as investors awaited Federal Reserve Chair Jerome Powell's highly anticipated speech in Jackson Hole at 10 a.m. ET.\n\nThe Dow Jones Industrial Average (^DJI) rose around 0.6%, while the S&P 500 (^GSPC) moved up about 0.3%, and the tech-heavy Nasdaq Composite (^IXIC) inched up nearly 0.1% — with those gains coming after another downbeat day for stocks Thursday.\n\nThe US benchmark indexes are still on track for a weekly loss after tech stocks got beaten up by AI trade doubts.\n\nDJI - Delayed Quote•USD\n\n(^DJI)\n\nFollow  View Quote Details\n\n45,631.74\n\n+846.24\n\n+(1.89%)\n\nAt close: 4:10:23 PM EDT  ^DJI^IXIC ^GSPC\n\nAdvanced Chart Today at 1:00 PM UTC\n\nGrace O'Donnell\n\nNio stock rises after the Tesla rival unveils affordable SUV\n\nChinese electric vehicle maker Nio (NIO) revealed its new ES8 SUV on Thursday, sending US-listed shares of the Tesla (TSLA) rival 5% higher in premarket trading on Friday. The stock was the No. 1 trending ticker on Yahoo Finance on Friday morning.\n\nThe SUV is one of Nio's most affordable yet, with prices starting at 308,800 yuan (approximately $43,000) with a battery subscription plan. The plan allows customers to pay lower upfront costs for the vehicle and then upgrade batteries for a monthly fee.\n\nDeliveries are scheduled to begin in late September. Today at 12:20 PM UTC\n\nGrace O'Donnell\n\nUS sectors in spotlight ahead of Fed's Jackson Hole gathering\n\nFederal Reserve Chair Jerome Powell's speech in Jackson Hole, Wyo., today is expected to provide investors with a signal on whether an interest rate cut is coming next month, which could have wide-ranging implications for many parts of the economy.\n\nReuters broke down how some of the most rate-sensitive stocks have fared since the Fed kicked off its rate-cutting cycle in September 2024:\n\nRead more here. Today at 11:51 AM UTC\n\nJenny McCall\n\nPremarket trending tickers: Intuit, WorkDay and AMD\n\nHere's a look at some of the top stocks trending in premarket trading:\n\nIntuit Inc. (INTU) stock fell 6% before the bell on Friday after forecasting first-quarter revenue growth below analysts' estimates on Thursday.\n\nNasdaqGS - Delayed Quote•USD\n\n(INTU)\n\nFollow  View Quote Details\n\n662.66\n\n-35.10\n\n(-5.03%)\n\nAt close: 4:00:01 PM EDT  Advanced Chart\n\nWorkday's (WDAY) stock dropped on Friday before the bell after the software company raised its full-year subscription revenue forecast on Thursday, but a forecast in line with expectations for the current quarter pushed the human resources software provider’s shares down.\n\nAMD (AMD) shares fell 1% in premarket trading following the news that Nvidia (NVDA) has told partners to halt work on H20 chip for China. Today at 11:50 AM UTC\n\nGrace O'Donnell\n\nZoom stock jumps as Enterprise revenue accelerates\n\nShares of Zoom (ZM) jumped 5% in premarket trading on Friday after the communications software provider posted earnings that beat Wall Street estimates and raised its full-year outlook.\n\nZoom CEO Eric Yuan highlighted artificial intelligence as a driver of its strong quarter, with its AI agents underpinning profit growth.\n\nThe company posted earnings per share of $1.16, compared to Wall Street analyst estimates for $0.72, per S&P Global Market Intelligence. Revenue rose 5% to $1.2 billion, bolstered by 7% growth in Enterprise revenue. The company's monthly churn rate remained flat year over year at 2.9%.\n\nDespite Friday's gain, the stock is still down 10% year to date, underperforming the S&P 500's (^GSPC) 8% gain.\n\nStory Continues\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T19:00:02+00:00",
+            "title": "Catalyst Watch: Spotlight on Nvidia, Alibaba, PCE inflation read, and the return of Bed Bath &amp; Beyond",
+            "content": "[Money flow positive in asia investment economic stockmarket growth in developed country showing stock chart down and in business and financial money market crisis concept]\nprimeimages\n\nWelcome to Seeking Alpha's Catalyst Watch - a breakdown of some of next week's actionable events that stand out. Read more about the events that may impact stock prices next week.\n\nReaders are invited to take part in Seeking Alpha's _Weekly News Quiz_ [https://seekingalpha.com/quiz/9-investment-news-quiz-friday-aug-22-2025-08-22] \n\nMONDAY - AUGUST 25\n\n \t* VOLATILITY WATCH - Opendoor (OPEN [https://seekingalpha.com/symbol/OPEN]) and Asset Entities (ASST [https://seekingalpha.com/symbol/ASST]) are set up for a volatile week of trading based on options volume. The most overbought stocks per their 14-day relative strength index include Avidia (AVBC [https://seekingalpha.com/symbol/AVBC]), QMMM Holdings (QMMM [https://seekingalpha.com/symbol/QMMM]), and Indivior (INDV [https://seekingalpha.com/symbol/INDV]). The most oversold stocks per their 14-day Relative Strength Index include Bragg Gaming Group Inc (BRAG [https://seekingalpha.com/symbol/BRAG]), Monday.com (MNDY [https://seekingalpha.com/symbol/MNDY]), and Vtex (VTEX [https://seekingalpha.com/symbol/VTEX]).\n \t* EARNINGS WATCH - Notable companies due to report include PDD Holdings (PDD [https://seekingalpha.com/symbol/PDD]).\n \t* IPO WATCH - No new IPOs are expected to be launched next week in the runup to the typical Labor Day slowdown. IPO quiet period expires on Figma (FIG [https://seekingalpha.com/symbol/FIG]), Ambiq Micro (AMBQ [https://seekingalpha.com/symbol/AMBQ]), and Avidia Bancorp (AVBC [https://seekingalpha.com/symbol/AVBC]) to free up analysts to post ratings.\n \t* DIVIDEND WATCH - Companies that have an ex-dividend date coming next week include Johnson & Johnson (JNJ [https://seekingalpha.com/symbol/JNJ]), S&P Global (SPGI [https://seekingalpha.com/symbol/SPGI]), Hyatt (H [https://seekingalpha.com/symbol/H]), and Tyson Foods (TSN [https://seekingalpha.com/symbol/TSN]).\n \t* ALL WEEK - The VMware Explore 2025 event will take place in Las Vegas. The VMware’s flagship technology conference under Broadcom (AVGO [https://seekingalpha.com/symbol/AVGO]) ownership is one of the most influential enterprise IT gatherings of the year. A major highlight will be the keynote by Broadcom President and CEO Hock Tan on August 26, focusing on \"Shaping the Future of Private Cloud and AI Innovation.\"\n \t* 7:15 P.M. New York Federal Reserve Bank President John Williams will give a keynote talk before the Bank of Mexico Centennial Conference.\n\nTUESDAY - AUGUST 26\n\n \t* EARNINGS WATCH - Notable companies due to report include Bank of Montreal (BMO [https://seekingalpha.com/symbol/BMO]), Bank of Nova Scotia (BNS [https://seekingalpha.com/symbol/BNS]), MongoDB (MDB [https://seekingalpha.com/symbol/MDB]), and Okta (OKTA [https://seekingalpha.com/symbol/OKTA]).\n \t* ALL DAY - Starbucks (SBUX [https://seekingalpha.com/symbol/SBUX]) officially brings back the wildly successful Pumpkin Spice Latte product along with the rest of the coffee chain's fall menu, which will also include seasonal favorites like the Pumpkin Cream Cold Brew, Iced Pumpkin Cream Chai, and Pecan Crunch Oatmilk Latte.\n \t* ALL DAY - Companies due to participate at the Jefferies Semiconductor, IT Hardware & Communication Technology Summit include Tower Semiconductor (TSEM [https://seekingalpha.com/symbol/TSEM]), Amdocs (DOX [https://seekingalpha.com/symbol/DOX]), NXP Semiconductors (NXPI [https://seekingalpha.com/symbol/NXPI]), and ASML Holding (ASML [https://seekingalpha.com/symbol/ASML]).\n \t* 8:30 A.M. The July Durable Goods Orders will be released. Economists forecast a 1.2% year-over-year decline after the 9.3% decline in June.\n \t* 9:00 A.M. Economists have the release of the S&P/Case-Shiller House Price Index circled as a key update for the housing market.\n\nWEDNESDAY - AUGUST 27\n\n \t* EARNINGS WATCH - Notable companies due to report include Nvidia (NVDA [https://seekingalpha.com/symbol/NVDA]), Royal Bank of Canada (RY [https://seekingalpha.com/symbol/RY]), Crowdstrike (CRWD [https://seekingalpha.com/symbol/CRWD]), Snowflake (SNOW [https://seekingalpha.com/symbol/SNOW]), Veeva Systems (VEEV [https://seekingalpha.com/symbol/VEEV]), Agilent (A [https://seekingalpha.com/symbol/A]), Pure Storage (PSTG [https://seekingalpha.com/symbol/PSTG]), Five Below (FIVE [https://seekingalpha.com/symbol/FIVE]), Williams-Sonoma (WSM [https://seekingalpha.com/symbol/WSM]), and HP (HPQ [https://seekingalpha.com/symbol/HPQ]). Options trading implies a double-digit move for Kohl's (KSS [https://seekingalpha.com/symbol/KSS]) and Abercrombie & Fitch (ANF [https://seekingalpha.com/symbol/ANF]) after their earnings are released.\n \t* ALL DAY - Companies due to participate at the two-day Deutsche Bank Technology Conference include Fortinet (FTNT [https://seekingalpha.com/symbol/FTNT]), Cisco (CSCO [https://seekingalpha.com/symbol/CSCO]), CoreWeave (CRWV [https://seekingalpha.com/symbol/CRWV]), Arista Networks (ANET [https://seekingalpha.com/symbol/ANET]), Microsoft (MSFT [https://seekingalpha.com/symbol/MSFT]), and ServiceNow (NOW [https://seekingalpha.com/symbol/NOW]).\n \t* ALL DAY - Rocket Lab Corp (RKLB [https://seekingalpha.com/symbol/RKLB]), SoFi Technologies (SOFI [https://seekingalpha.com/symbol/SOFI]), and Affirm Holdings (AFRM [https://seekingalpha.com/symbol/AFRM]) will be added to the MSCI ACWI Index.\n \t* ALL DAY - The U.S. will begin to apply a 50% duty rate on certain Indian imports unless an extension or deal is worked out.\n \t* ALL DAY - Circana will release its July report on video game hardware and software sales.\n \t* ALL DAY - It is the five-year anniversary of XPeng's (XPEV [https://seekingalpha.com/symbol/XPEV]) IPO.\n \t* 11:45 A.M. - Richmond Federal Reserve Bank President Thomas Barkin will speak before the Greensboro Chamber of Commerce State of Our Community Luncheon 2025.\n \t* 2:00 P.M. - Nvidia (NVDA [https://seekingalpha.com/symbol/NVDA]) will hold its earnings conference call. AMD (AMD [https://seekingalpha.com/symbol/AMD]) and Taiwan Semi (TSM [https://seekingalpha.com/symbol/TSM]) have the closest trading correlation to Nvidia. Suppliers that derive a significant portion of revenue from the chipmaker and typically trade directionally with it after earnings include Fabrinet (FN [https://seekingalpha.com/symbol/FN]) and Micron (MU [https://seekingalpha.com/symbol/MU]).\n\nTHURSDAY - AUGUST 28\n\n \t* EARNINGS WATCH - Notable companies due to report include Dell Technologies (DELL [https://seekingalpha.com/symbol/DELL]), Marvell Technology (MRVL [https://seekingalpha.com/symbol/MRVL]), Autodesk (ADSK [https://seekingalpha.com/symbol/ADSK]), Dollar General (DG [https://seekingalpha.com/symbol/DG]), Li Auto (LI [https://seekingalpha.com/symbol/LI]), Best Buy (BBY [https://seekingalpha.com/symbol/BBY]) and Dick's Sporting Goods (DKS [https://seekingalpha.com/symbol/DKS]). Options trading implies a double-digit move for Victoria's Secret (VSCO [https://seekingalpha.com/symbol/VSCO]) and Affirm (AFRM [https://seekingalpha.com/symbol/AFRM]) after their earnings are released.\n \t* 11:45 A.M. - Intel (INTC [https://seekingalpha.com/symbol/INTC]) CFO David Zinsner will participate in a fireside chat at the Deutsche Bank Technology Conference. It will be one of the first public appearances by Intel management since the company secured a $2B investment from Japan's SoftBank (OTCPK:SFTBY [https://seekingalpha.com/symbol/SFTBY]) (OTCPK:SFTBF [https://seekingalpha.com/symbol/SFTBF]) and learned that the U.S. government may acquire a stake.\n\nFRIDAY - AUGUST 29\n\n \t* EARNINGS WATCH - Notable companies due to report include Alibaba (BABA [https://seekingalpha.com/symbol/BABA]).\n \t* 8:30 A.M. The core PCE price index report for July will be released. The Fed's favored inflation gauge was up 2.8% year-over-year in June and 2.7% in May.\n \t* ALL DAY - The U.S. \"de minimis\" exemption, which has allowed most imports valued at $800 or less to enter duty-free, is set to end for nearly all countries.\n \t* ALL DAY - It is the last trading session before the first major weekend of the college football season that features several marquee match-ups, including Ohio State vs. Texas and Florida State vs. Alabama. The sports betting sector is expected to see an early surge of volume this year, which may increase investor interest in DraftKings (DKNG [https://seekingalpha.com/symbol/DKNG]) and FanDuel owner Flutter Entertainment (FLUT [https://seekingalpha.com/symbol/FLUT]).\n \t* ALL DAY - Beyond Inc. (BYON [https://seekingalpha.com/symbol/BYON]) will change its corporate name to Bed Bath & Beyond (BBBY). The company currently owns Bed Bath & Beyond, Overstock, buybuy BABY, and other related brands and websites, as well as a blockchain asset portfolio.\n\n_Seeking Alpha Editor Josh Fineman contributed to this story_\n\nMORE ON THE MARKETS\n\n \t* EU-USA Trade Framework Should Instill Market Optimism [https://seekingalpha.com/article/4815978-eu-usa-trade-framework-should-instill-market-optimism]\n \t* Do Extreme Concentration And Bad Breadth Signify A Bubble? [https://seekingalpha.com/article/4815927-do-extreme-concentration-bad-breadth-signify-bubble]\n \t* U.S. Economy: Recent Data Suggests Risk To Earnings [https://seekingalpha.com/article/4815960-us-economy-recent-data-suggests-risk-to-earnings]\n \t* Fed rate cut odds rise after Powell's Jackson Hole speech [https://seekingalpha.com/news/4488363-fed-rate-cut-odds-rise-after-powells-jackson-hole-speech]\n \t* Fed's Powell at Jackson Hole: Here's what to watch [https://seekingalpha.com/news/4488230-feds-powell-at-jackson-hole-heres-what-to-watch]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T19:00:00+00:00",
+            "title": "What's going on in today's session",
+            "content": "Keep an eye on the top gainers and losers in Friday's session, as they reflect the most notable price movements.\n\n[topmovers]\n\nTODAY'S TOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tEEIQ [https://www.chartmill.com/stock/quote/EEIQ/profile]\n\t\t137.0%\n\t\tEPICQUEST EDUCATION GROUP IN'S (NASDAQ:EEIQ [https://www.chartmill.com/stock/quote/EEIQ/profile]) stock price is advancing with 137.0% to a price of $1.28. In the last 6 months the share price dropped with 35.98%.\n\n \t\tMODV [https://www.chartmill.com/stock/quote/MODV/profile]\n\t\t121.0%\n\t\tMODIVCARE INC (NASDAQ:MODV [https://www.chartmill.com/stock/quote/MODV/profile]) witnessed a notable 121.0% uptick in its shares, reaching $1.24 during Friday's session. A press release (Modivcare Enters into Comprehensive Restructuring Agreement to Strengthen its Future, Reduce Debt and Inject Capital [https://www.chartmill.com/news/MODV/bizwire-2025-8-21-modivcare-enters-into-comprehensive-restructuring-agreement-to-strengthen-its-future-reduce-debt-and-inject-capital]) was released two days ago.\n\n \t\tNXL [https://www.chartmill.com/stock/quote/NXL/profile]\n\t\t54.84%\n\t\tNEXALIN TECHNOLOGY INC'S (NASDAQ:NXL [https://www.chartmill.com/stock/quote/NXL/profile]) shares rose 54.84% to $1.13. In the last month the stock lost 38.66%.\n\n \t\tELAB [https://www.chartmill.com/stock/quote/ELAB/profile]\n\t\t36.24%\n\t\tInvestors witnessed a remarkable 36.24% rise in PMGC HOLDINGS INC'S (NASDAQ:ELAB [https://www.chartmill.com/stock/quote/ELAB/profile]) shares, which climbed to $2.58 during Friday's session. Shareholders saw the stock price going 83.64% lower is the past 6 months.\n\n \t\tOPEN [https://www.chartmill.com/stock/quote/OPEN/profile]\n\t\t32.92%\n\t\tIn an impressive move, OPENDOOR TECHNOLOGIES INC'S (NASDAQ:OPEN [https://www.chartmill.com/stock/quote/OPEN/profile]) shares recorded a 32.92% increase, closing at $4.79 during Friday's session. Shareholders saw the stock price going 48.76% higher in the past month.\n\n \t\tCYCU [https://www.chartmill.com/stock/quote/CYCU/profile]\n\t\t29.46%\n\t\tCYCURION INC'S (NASDAQ:CYCU [https://www.chartmill.com/stock/quote/CYCU/profile]) stock price increased by 29.46% to $0.34. Yesterday the company had a press release: Cycurion Inc. Regains Compliance with Nasdaq Listing Requirements [https://www.chartmill.com/news/CYCU/gnwcq-2025-8-21-cycurion-inc-regains-compliance-with-nasdaq-listing-requirements].\n\n \t\tCGTX [https://www.chartmill.com/stock/quote/CGTX/profile]\n\t\t29.15%\n\t\tWith a 29.15% surge, COGNITION THERAPEUTICS INC'S (NASDAQ:CGTX [https://www.chartmill.com/stock/quote/CGTX/profile]) stock price reached $2.57 during Friday's session, signaling positive momentum. In the last month the stock gained 131.0%.\n\n \t\tUI [https://www.chartmill.com/stock/quote/UI/profile]\n\t\t28.79%\n\t\tUBIQUITI INC'S (NYSE:UI [https://www.chartmill.com/stock/quote/UI/profile]) shares soared 28.79% to $503.0 during Friday's session. A press release (Ubiquiti Inc. Reports Fourth Quarter Fiscal 2025 Financial Results [https://www.chartmill.com/news/UI/bizwire-2025-8-22-ubiquiti-inc-reports-fourth-quarter-fiscal-2025-financial-results]) was released earlier today.\n\n \t\tMNTSW [https://www.chartmill.com/stock/quote/MNTSW/profile]\n\t\t27.23%\n\t\tMOMENTUS INC-CW26'S (NASDAQ:MNTSW [https://www.chartmill.com/stock/quote/MNTSW/profile]) shares soared 27.23% to $0.03 during Friday's session. Shareholders saw the stock price going 57.4% lower is the past 6 months.\n\n \t\tHOVRW [https://www.chartmill.com/stock/quote/HOVRW/profile]\n\t\t26.09%\n\t\tPONO CAPITAL THREE INC-A-28'S (NASDAQ:HOVRW [https://www.chartmill.com/stock/quote/HOVRW/profile]) shares soared 26.09% to $0.29 during Friday's session. In the last month the stock lost 32.32%.\n\nOur top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page will show you the full list.\n\nTODAY'S TOP LOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tAPM [https://www.chartmill.com/stock/quote/APM/profile]\n\t\t-36.35%\n\t\tAPTORUM GROUP LTD-CLASS A'S (NASDAQ:APM [https://www.chartmill.com/stock/quote/APM/profile]) shares fell 36.35% to $2.71. A press release (DiamiR Biosciences and Aptorum Group Announce New York State Approval for DiamiR’s APOE Genotyping Test [https://www.chartmill.com/news/APM/gnwcq-2025-8-21-diamir-biosciences-and-aptorum-group-announce-new-york-state-approval-for-diamirs-apoe-genotyping-test]) was released yesterday.\n\n \t\tAEMD [https://www.chartmill.com/stock/quote/AEMD/profile]\n\t\t-26.0%\n\t\tInvestors witnessed a 26.0% decrease in AETHLON MEDICAL INC'S (NASDAQ:AEMD [https://www.chartmill.com/stock/quote/AEMD/profile]) stock price, which closed at $1.62 during Friday's session. In the last month the share price increased with 62.22%.\n\n \t\tSTFS [https://www.chartmill.com/stock/quote/STFS/profile]\n\t\t-24.96%\n\t\tSTAR FASHION CULTURE HLDG-A'S (NASDAQ:STFS [https://www.chartmill.com/stock/quote/STFS/profile]) stock price is declining with 24.96% to a price of $0.15. Shareholders saw the stock price going 89.02% lower in the past month.\n\n \t\tGXAI [https://www.chartmill.com/stock/quote/GXAI/profile]\n\t\t-22.79%\n\t\tGAXOS.AI INC'S (NASDAQ:GXAI [https://www.chartmill.com/stock/quote/GXAI/profile]) stock price is declining with 22.79% to a price of $2.13. Shareholders saw the stock price going 121.0% higher in the past month.\n\n \t\tMAPSW [https://www.chartmill.com/stock/quote/MAPSW/profile]\n\t\t-20.91%\n\t\tWM TECHNOLOGY INC-CW24'S (NASDAQ:MAPSW [https://www.chartmill.com/stock/quote/MAPSW/profile]) stock price encountered a 20.91% decline, reaching $0.03 during Friday's session. In the last month the share price increased with 32.0%.\n\n \t\tTNFA [https://www.chartmill.com/stock/quote/TNFA/profile]\n\t\t-20.5%\n\t\tThere was a downturn in TNF PHARMACEUTICALS INC'S (NASDAQ:TNFA [https://www.chartmill.com/stock/quote/TNFA/profile]) shares, as they experienced a 20.5% decline, closing at $0.06 during Friday's session. The stock is trading 43.11% lower than a month ago.\n\n \t\tOP [https://www.chartmill.com/stock/quote/OP/profile]\n\t\t-19.0%\n\t\tThe market experienced a 19.0% downturn in OCEANPAL INC'S (NASDAQ:OP [https://www.chartmill.com/stock/quote/OP/profile]) stock price, closing at $0.06 during Friday's session. The stock is trading 73.4% lower than a month ago.\n\n \t\tARQQW [https://www.chartmill.com/stock/quote/ARQQW/profile]\n\t\t-18.13%\n\t\tThe market experienced a 18.13% downturn in ARQIT QUANTUM INC -CW26'S (NASDAQ:ARQQW [https://www.chartmill.com/stock/quote/ARQQW/profile]) stock price, closing at $0.26 during Friday's session. Shareholders saw the stock price going 57.28% lower in the past month.\n\n \t\tRMSG [https://www.chartmill.com/stock/quote/RMSG/profile]\n\t\t-16.63%\n\t\tREAL MESSENGER CORP'S (NASDAQ:RMSG [https://www.chartmill.com/stock/quote/RMSG/profile]) stock price is declining with 16.63% to a price of $3.46. The stock is trading 59.0% higher than a month ago.\n\n \t\tMSAIW [https://www.chartmill.com/stock/quote/MSAIW/profile]\n\t\t-15.81%\n\t\tSPORTSMAP TECH ACQ -CW27 (NASDAQ:MSAIW [https://www.chartmill.com/stock/quote/MSAIW/profile]) encountered a 15.81% decrease in its shares, reaching $0.03 during Friday's session. In the last month the share price dropped with 22.22%.\n\nOur top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page will show you the full list.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T18:08:35+00:00",
+            "title": "Benjamin Graham Detailed Fundamental Analysis - OPEN",
+            "content": "Below is Validea's guru fundamental report for OPENDOOR TECHNOLOGIES INC (OPEN). Of the 22 guru strategies we follow,  OPEN rates highest using our Value Investor model based on the published strategy of Benjamin Graham. This deep value methodology screens for stocks that have low P/B and P/E ratios, along with low debt and solid long-term earnings growth.\n\nOPENDOOR TECHNOLOGIES INC (OPEN) is a mid-cap growth stock in the Real Estate Operations industry. The rating using this strategy is 57% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. SECTOR:PASSSALES:PASSCURRENT RATIO:PASSLONG-TERM DEBT IN RELATION TO NET CURRENT ASSETS:PASSLONG-TERM EPS GROWTH:FAILP/E RATIO:FAILPRICE/BOOK RATIO:FAIL\n\nDetailed Analysis of OPENDOOR TECHNOLOGIES INC\n\nOPEN Guru Analysis\n\nOPEN Fundamental Analysis\n\nMore Information on Benjamin Graham\n\nBenjamin Graham Portfolio\n\nTop Benjamin Graham Stocks\n\nAbout Benjamin Graham: The late Benjamin Graham may be the oldest of the gurus we follow, but his impact on the investing world has lasted for decades after his death in 1976. Known as both the \"Father of Value Investing\" and the founder of the entire field of security analysis, Graham mentored several of history's greatest investors -- including Warren Buffett -- and inspired a slew of others, including John Templeton, Mario Gabelli, and another of Validea's gurus, John Neff. Graham built his fortune and reputation after living through some extremely difficult times, including both the Great Depression and his own family's financial woes following his father's death when Benjamin was a young man. His investment firm posted per annum returns of about 20 percent from 1936 to 1956, far outpacing the 12.2 percent average return for the market during that time.\n\nAdditional Research Links\n\nTop S&P 500 Stocks\n\nTop Russell 2000 Stocks\n\nDividend Growth Stocks\n\nHigh Free Cash Flow Yield Stocks\n\nSmall-Cap Value Stocks\n\nLow Volatility Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Opendoor Technologies Inc",
+          "sector": "Real Estate",
+          "industry": "Real Estate Services",
+          "employees": 1470,
+          "description": "Opendoor Technologies Inc. operates a digital platform for residential real estate transactions in the United States. It buys and sells homes. The company offers sell to opendoor product that enables homeowners to sell their home directly to it and resell the home to a home buyer; list with opendoor"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.43,
+          "profit_margin": -0.0589,
+          "operating_margin": -0.0045,
+          "roe": -0.4133,
+          "roa": -0.0392,
+          "revenue_growth_yoy": 0.037,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.2556,
+          "eps_estimate_next_year": -0.2503,
+          "revenue_ttm": 5181000192,
+          "revenue_per_share": 7.208,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 40.3226,
+          "price_to_sales": 0.5114,
+          "price_to_book": 4.1988,
+          "enterprise_value": 4044435069,
+          "ev_to_revenue": 0.7806,
+          "ev_to_ebitda": -5.8463
+        },
+        "technical_data": {
+          "beta": 2.922,
+          "52_week_high": 5.08,
+          "52_week_low": 0.5084,
+          "50_day_ma": 1.6424,
+          "200_day_ma": 1.4007,
+          "short_interest": 0.236,
+          "short_ratio": 0.63
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3,
+          "target_price": 1.1538,
+          "strong_buy": 0,
+          "buy": 2,
+          "hold": 6,
+          "sell": 2,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 735953984,
+          "percent_institutions": 45.891,
+          "percent_insiders": 11.199,
+          "shares_float": 661431465
+        },
+        "balance_latest_sheet": {
+          "total_assets": 2907.0,
+          "total_debt": 437.0,
+          "net_debt": -352.0,
+          "working_capital": 2154.0,
+          "shareholders_equity": 631.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.69
+        },
+        "income_latest_statement": {
+          "total_revenue": 1567.0,
+          "gross_profit": 128.0,
+          "operating_income": -13.0,
+          "net_income": -29.0,
+          "ebitda": 19.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 8.17,
+          "operating_margin": -0.83,
+          "net_margin": -1.85
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 823.0,
+          "free_cash_flow": 821.0,
+          "capex": 2.0,
+          "net_income": -29.0,
+          "cash_change": 492.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": -0.13,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": -0.1367,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": -0.16,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": -0.03,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 1.49,
+            "high": 1.53,
+            "low": 1.41,
+            "close": 1.43,
+            "volume": 20515609
+          },
+          {
+            "date": "2025-01-29",
+            "open": 1.48,
+            "high": 1.52,
+            "low": 1.42,
+            "close": 1.46,
+            "volume": 34582641
+          },
+          {
+            "date": "2025-01-28",
+            "open": 1.38,
+            "high": 1.55,
+            "low": 1.35,
+            "close": 1.5,
+            "volume": 54215711
+          },
+          {
+            "date": "2025-01-27",
+            "open": 1.37,
+            "high": 1.45,
+            "low": 1.35,
+            "close": 1.38,
+            "volume": 44354102
+          },
+          {
+            "date": "2025-01-24",
+            "open": 1.44,
+            "high": 1.46,
+            "low": 1.38,
+            "close": 1.4,
+            "volume": 26165770
+          },
+          {
+            "date": "2025-01-23",
+            "open": 1.39,
+            "high": 1.44,
+            "low": 1.35,
+            "close": 1.43,
+            "volume": 31339770
+          },
+          {
+            "date": "2025-01-22",
+            "open": 1.405,
+            "high": 1.43,
+            "low": 1.35,
+            "close": 1.4,
+            "volume": 28664779
+          },
+          {
+            "date": "2025-01-21",
+            "open": 1.47,
+            "high": 1.48,
+            "low": 1.38,
+            "close": 1.4,
+            "volume": 41450719
+          },
+          {
+            "date": "2025-01-17",
+            "open": 1.61,
+            "high": 1.62,
+            "low": 1.42,
+            "close": 1.44,
+            "volume": 41416379
+          },
+          {
+            "date": "2025-01-16",
+            "open": 1.51,
+            "high": 1.59,
+            "low": 1.46,
+            "close": 1.54,
+            "volume": 50877711
+          },
+          {
+            "date": "2025-01-15",
+            "open": 1.4599,
+            "high": 1.5999,
+            "low": 1.43,
+            "close": 1.51,
+            "volume": 53634680
+          },
+          {
+            "date": "2025-01-14",
+            "open": 1.42,
+            "high": 1.435,
+            "low": 1.36,
+            "close": 1.37,
+            "volume": 42834719
+          },
+          {
+            "date": "2025-01-13",
+            "open": 1.42,
+            "high": 1.43,
+            "low": 1.33,
+            "close": 1.38,
+            "volume": 69461711
+          },
+          {
+            "date": "2025-01-10",
+            "open": 1.49,
+            "high": 1.495,
+            "low": 1.42,
+            "close": 1.47,
+            "volume": 51925320
+          },
+          {
+            "date": "2025-01-08",
+            "open": 1.57,
+            "high": 1.58,
+            "low": 1.52,
+            "close": 1.53,
+            "volume": 42062070
+          },
+          {
+            "date": "2025-01-07",
+            "open": 1.72,
+            "high": 1.73,
+            "low": 1.59,
+            "close": 1.61,
+            "volume": 40406871
+          },
+          {
+            "date": "2025-01-06",
+            "open": 1.72,
+            "high": 1.83,
+            "low": 1.7,
+            "close": 1.72,
+            "volume": 48506848
+          },
+          {
+            "date": "2025-01-03",
+            "open": 1.59,
+            "high": 1.68,
+            "low": 1.57,
+            "close": 1.65,
+            "volume": 37417559
+          },
+          {
+            "date": "2025-01-02",
+            "open": 1.625,
+            "high": 1.66,
+            "low": 1.57,
+            "close": 1.59,
+            "volume": 37323930
+          },
+          {
+            "date": "2024-12-31",
+            "open": 1.61,
+            "high": 1.68,
+            "low": 1.57,
+            "close": 1.6,
+            "volume": 38715809
+          },
+          {
+            "date": "2024-12-30",
+            "open": 1.63,
+            "high": 1.65,
+            "low": 1.59,
+            "close": 1.61,
+            "volume": 36265230
+          },
+          {
+            "date": "2024-12-27",
+            "open": 1.72,
+            "high": 1.72,
+            "low": 1.63,
+            "close": 1.67,
+            "volume": 29938570
+          },
+          {
+            "date": "2024-12-26",
+            "open": 1.63,
+            "high": 1.72,
+            "low": 1.6,
+            "close": 1.71,
+            "volume": 26803694
+          },
+          {
+            "date": "2024-12-24",
+            "open": 1.67,
+            "high": 1.7,
+            "low": 1.62,
+            "close": 1.66,
+            "volume": 17781949
+          },
+          {
+            "date": "2024-12-23",
+            "open": 1.68,
+            "high": 1.69,
+            "low": 1.63,
+            "close": 1.67,
+            "volume": 22253910
+          },
+          {
+            "date": "2024-12-20",
+            "open": 1.63,
+            "high": 1.75,
+            "low": 1.61,
+            "close": 1.69,
+            "volume": 36769238
+          },
+          {
+            "date": "2024-12-19",
+            "open": 1.76,
+            "high": 1.8,
+            "low": 1.66,
+            "close": 1.665,
+            "volume": 33941037
+          },
+          {
+            "date": "2024-12-18",
+            "open": 1.91,
+            "high": 1.9758,
+            "low": 1.71,
+            "close": 1.73,
+            "volume": 45216328
+          },
+          {
+            "date": "2024-12-17",
+            "open": 1.89,
+            "high": 1.945,
+            "low": 1.86,
+            "close": 1.91,
+            "volume": 17582400
+          },
+          {
+            "date": "2024-12-16",
+            "open": 1.91,
+            "high": 1.96,
+            "low": 1.84,
+            "close": 1.92,
+            "volume": 29674230
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 97.24409448818896,
+        "return_63d": 636.0070515645659,
+        "pct_above_sma50": 189.51672089085622,
+        "sma_50": 1.73047,
+        "new_55d_high": "False",
+        "high_55d": 5.08,
+        "rsi": 74.95107632093934,
+        "rsi_in_range": "False",
+        "adx": 34.74117216762805,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 10.26946107784431,
+        "bb_width": 123.69723058641637,
+        "keltner_width": 77.53846153846153,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 659456713.9785,
+        "adv_shares": 245516274.75,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 64.71603860578116,
+        "final_score": 64.71603860578116,
+        "sub_scores": {
+          "trend_momentum": 27.009784735812133,
+          "squeeze_breakout": 4.0,
+          "options_quality": 22.70625386996904,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 107.02479338842976,
+          "ret_63d": 636.7647058823529,
+          "rsi14": 74.95107632093934,
+          "adx14": 33.00679519070431,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: OPEN\n• Current Price: $5.01\n• Overall Score: 48.710256410256406\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 1.6424\n• Sma 200: 1.4007\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 107.02479338842974\n• Momentum 63D: 636.7647058823529\n• Momentum 126D: 260.43165467625903\n• Momentum Acceleration: -529.7399124939232\n• Roc 21D: 107.02479338842974\n• Trend Strength 20D: 0.6521619529627921\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 91.90931829968228\n• Price Velocity: 0.10985656624236617\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.05746054195744938\n• Volatility Compression: 0.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 0\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 27.009784735812133\n• Squeeze Breakout: 4.0\n• Options Quality: 22.70625386996904\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 74.0\n• Squeeze: 0.0\n• Options: 47.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: OPEN\n• Strike Price: $5\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.61\n• Ask: $1.62\n• Last: $1.62\n• Mid: $1.615\n• Spread: 0.6172839506172839506172839506%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6628\n• Gamma: 0.0879\n• Theta: -0.0137\n• Vega: 0.0071\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 2.1306\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 14893\n• Open Interest: 5135\n• Volume/OI Ratio: 2.900292112950341\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Opendoor Technologies Inc\n• Sector: Real Estate\n• Industry: Real Estate Services\n• EPS (TTM): $-0.43\n• Profit Margin: -5.9%\n• ROE: -41.3%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T20:26:23+00:00: Post-Powell speech rally: Ethereum &amp; Opendoor among top winners...\n• 2025-08-22T20:01:10+00:00: Stock market today: Dow jumps 800 points to record, S&amp;P 500, Nasdaq soar as ...\n• 2025-08-22T19:00:02+00:00: Catalyst Watch: Spotlight on Nvidia, Alibaba, PCE inflation read, and the return...\n• 2025-08-22T19:00:00+00:00: What's going on in today's session...\n• 2025-08-22T18:08:35+00:00: Benjamin Graham Detailed Fundamental Analysis - OPEN...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR OPEN\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the OPEN opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-23T22:52:58.850582",
+    "estimated_tokens": 2314
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"OPEN\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 12,\n        \"iv_value\": 5,\n        \"squeeze_volatility\": 3,\n        \"fundamentals\": 4,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"OPEN shows strong recent momentum with a 107% 21-day ROC and positive MA indicators, but faces significant fundamental challenges with negative earnings and poor profitability metrics. Options liquidity is decent with tight spreads, but elevated IV and upcoming earnings create additional risk factors.\",\n    \"opportunities\": [\n        \"Strong technical momentum with 100 MA ribbon score and 91.9 breakout strength\",\n        \"Tight option spreads (0.62%) with healthy volume/OI ratio of 2.9\",\n        \"Positive price trend with both 50 and 200 SMAs showing upward movement\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -5.9% profit margin and -41.3% ROE\",\n        \"Negative momentum acceleration (-529.74)\",\n        \"Earnings coming up on 2024-09-30 creating event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider debit spreads to reduce impact of high IV\",\n        \"entry_timing\": \"Wait until after earnings report for clearer directional setup\",\n        \"risk_management\": \"Use defined risk strategies given fundamental weakness and high volatility\"\n    },\n    \"red_flags\": [\n        \"Deteriorating fundamental metrics\",\n        \"Upcoming earnings event\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"While technical signals are strong, fundamental weakness and upcoming earnings create significant risk factors that warrant caution\"\n}",
+    "parsed_analysis": {
+      "symbol": "OPEN",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 12,
+        "iv_value": 5,
+        "squeeze_volatility": 3,
+        "fundamentals": 4,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "OPEN shows strong recent momentum with a 107% 21-day ROC and positive MA indicators, but faces significant fundamental challenges with negative earnings and poor profitability metrics. Options liquidity is decent with tight spreads, but elevated IV and upcoming earnings create additional risk factors.",
+      "opportunities": [
+        "Strong technical momentum with 100 MA ribbon score and 91.9 breakout strength",
+        "Tight option spreads (0.62%) with healthy volume/OI ratio of 2.9",
+        "Positive price trend with both 50 and 200 SMAs showing upward movement"
+      ],
+      "risks": [
+        "Poor fundamentals with -5.9% profit margin and -41.3% ROE",
+        "Negative momentum acceleration (-529.74)",
+        "Earnings coming up on 2024-09-30 creating event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider debit spreads to reduce impact of high IV",
+        "entry_timing": "Wait until after earnings report for clearer directional setup",
+        "risk_management": "Use defined risk strategies given fundamental weakness and high volatility"
+      },
+      "red_flags": [
+        "Deteriorating fundamental metrics",
+        "Upcoming earnings event",
+        "Negative momentum acceleration"
+      ],
+      "notes": "While technical signals are strong, fundamental weakness and upcoming earnings create significant risk factors that warrant caution"
+    },
+    "tokens_used": 2534,
+    "cost": 0.025339999999999998,
+    "response_time": 10.425707578659058,
+    "success": true
+  },
+  "cost": 0.025339999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8466,
+    "response_length": 1674
+  }
+}

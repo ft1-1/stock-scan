@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "PEP",
+  "timestamp": "2025-08-30T08:40:53.634029",
+  "data_package": {
+    "metadata": {
+      "symbol": "PEP",
+      "package_timestamp": "2025-08-30T08:40:44.399949",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "PEP",
+        "current_price": 148.65,
+        "overall_score": 48.121923076923075,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 140.9966,
+        "sma_200": 144.8418
+      },
+      "momentum_metrics": {
+        "momentum_21d": 7.779872389791197,
+        "momentum_63d": 13.084823126664144,
+        "momentum_126d": -3.140678960057336,
+        "momentum_acceleration": -5.304950736872947,
+        "roc_21d": 7.779872389791197,
+        "trend_strength_20d": 0.455640012443734,
+        "trend_direction": 1,
+        "ma_ribbon_score": 72.41151973091868,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0012949526174148573
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.008703436411805893,
+        "volatility_compression": 66.5,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.132726133736764,
+        "squeeze_breakout": 4.0,
+        "options_quality": 14.41977937649879,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 70.0,
+        "momentum": 61.0,
+        "squeeze": 14.975,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 23,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "PEP",
+        "strike_price": "145",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.85",
+        "ask": "7.05",
+        "last_price": "7.18",
+        "mid_price": "6.95",
+        "spread_percent": "2.836879432624113475177304965"
+      },
+      "greeks": {
+        "delta": 0.6368,
+        "gamma": 0.0303,
+        "theta": -0.0571,
+        "vega": 0.2044
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2271
+      },
+      "liquidity_metrics": {
+        "volume": 105,
+        "open_interest": 3707,
+        "volume_oi_ratio": 0.0283247909360669
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:52.788591",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T22:24:47+00:00",
+            "title": "PepsiCo Boosts Stake in Celsius With $585 Million Deal",
+            "content": "John Fieldly, Celsius CEO, says energy drinks are the fastest-growing category in the market and the deal with Pepsi's Rockstar maximizes the value of Celsius' portfolio. He tells Scarlet Fu and Bailey Lipschultz on \"The Close\" the company is also focusing on female consumers with a lifestyle brand for today's health-minded customer.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T21:45:03+00:00",
+            "title": "Why the Market Dipped But PepsiCo (PEP) Gained Today",
+            "content": "PepsiCo (PEP) closed at $148.65 in the latest trading session, marking a +1.14% move from the prior day. The stock outpaced the S&P 500's daily loss of 0.64%. Meanwhile, the Dow experienced a drop of 0.2%, and the technology-dominated Nasdaq saw a decrease of 1.15%.\n\nShares of the food and beverage company have appreciated by 6.57% over the course of the past month, outperforming the Consumer Staples sector's gain of 0.59%, and the S&P 500's gain of 1.91%.\n\nInvestors will be eagerly watching for the performance of PepsiCo in its upcoming earnings disclosure. The company's earnings report is set to be unveiled on October 9, 2025. The company is predicted to post an EPS of $2.27, indicating a 1.73% decline compared to the equivalent quarter last year. Alongside, our most recent consensus estimate is anticipating revenue of $23.79 billion, indicating a 2% upward movement from the same quarter last year.\n\nPEP's full-year Zacks Consensus Estimates are calling for earnings of $8.01 per share and revenue of $93.06 billion. These results would represent year-over-year changes of -1.84% and +1.31%, respectively.\n\nAny recent changes to analyst estimates for PepsiCo should also be noted by investors. These latest adjustments often mirror the shifting dynamics of short-term business patterns. Therefore, positive revisions in estimates convey analysts' confidence in the business performance and profit potential.\n\nOur research demonstrates that these adjustments in estimates directly associate with imminent stock price performance. To take advantage of this, we've established the Zacks Rank, an exclusive model that considers these estimated changes and delivers an operational rating system.\n\nThe Zacks Rank system, spanning from #1 (Strong Buy) to #5 (Strong Sell), boasts an impressive track record of outperformance, audited externally, with #1 ranked stocks yielding an average annual return of +25% since 1988. Over the past month, the Zacks Consensus EPS estimate has shifted 0% upward. PepsiCo is currently a Zacks Rank #3 (Hold).\n\nIn terms of valuation, PepsiCo is presently being traded at a Forward P/E ratio of 18.35. This expresses a premium compared to the average Forward P/E of 18.06 of its industry.\n\nIt's also important to note that PEP currently trades at a PEG ratio of 3.92. The PEG ratio is similar to the widely-used P/E ratio, but this metric also takes the company's expected earnings growth rate into account. The Beverages - Soft drinks industry had an average PEG ratio of 2.03 as trading concluded yesterday.\n\nStory Continues\n\nThe Beverages - Soft drinks industry is part of the Consumer Staples sector. With its current Zacks Industry Rank of 172, this industry ranks in the bottom 31% of all industries, numbering over 250.\n\nThe Zacks Industry Rank gauges the strength of our industry groups by measuring the average Zacks Rank of the individual stocks within the groups. Our research shows that the top 50% rated industries outperform the bottom half by a factor of 2 to 1.\n\nTo follow PEP in the coming trading sessions, be sure to utilize Zacks.com.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nPepsiCo, Inc. (PEP) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:37:30+00:00",
+            "title": "PepsiCo Increases Stake in Celsius With $585 Million Deal",
+            "content": "This article first appeared on GuruFocus.\n\nPepsiCo (PEP, Financials) said Friday it has raised its stake in Celsius Holdings (CELH, Financials) by investing $585 million in preferred stock. The soda and snacks giant now holds an effective 11% stake in Celsius after converting an earlier $550 million investment made in 2022.\n\nWarning! GuruFocus has detected 5 Warning Sign with PEP. Is PEP fairly valued? Test your thesis with our free DCF calculator.\n\nThe deal allows Celsius to take charge of the U.S. energy drink portfolio for both companies, including PepsiCo's Rockstar Energy and the Alani Nu brand. PepsiCo will retain international rights to Rockstar.\n\nUnder the agreement, PepsiCo will also nominate a director to Celsius' board and give the company authority over retail strategy, promotions, and product prioritization.\n\nThe partnership brings their combined U.S. market share in the energy category to 20%, according to Celsius' presentation. The $25 billion U.S. energy drink market is projected to grow at 7.2% annually through 2030, based on Grand View Research data.\n\nThe deal positions the companies to better compete against Red Bull and Monster Beverage (MNST), the latter of which is 19% owned by Coca-Cola.\n\nCelsius stock climbed nearly 4% midday Friday and has more than doubled in 2025.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T20:03:16+00:00",
+            "title": "Stock market today: Dow, S&amp;P 500, Nasdaq slide on inflation worries, ending 4th winning month lower",
+            "content": "US stocks retreated from record highs on Friday as Wall Street digested an update on consumer inflation that showed prices firming higher above the Fed's target in July.\n\nThe Dow Jones Industrial Average (^DJI) fell around 0.2%, and the S&P 500 (^GSPC) lost 0.6%. The tech-heavy Nasdaq Composite (^IXIC) led the retreat, down over 1.1%. Big Tech slumped, with Nvidia (NVDA) declining over 3% to end the week after releasing its highly anticipated earnings report.\n\nAfter hitting record highs in August, the S&P 500 and Dow ended the month with gains of 1.4% and 2%, respectively, marking the fourth straight month of gains for those indexes. The Nasdaq also capped August with a 1.6% gain in its fifth straight winning month.\n\nDJI - Delayed Quote•USD\n\n(^DJI)\n\nFollow  View Quote Details\n\n45,544.88\n\n-92.02\n\n(-0.20%)\n\nAt close: 4:16:56 PM EDT  ^DJI^IXIC ^GSPC\n\nAdvanced Chart\n\nA key measure of inflation rose as expected in July, new government data showed Friday. The \"core\" Personal Consumption Expenditures index, closely studied by the central bank, rose 0.3% on a monthly basis and 2.9% on an annual basis, above the Fed's 2% inflation target. Both numbers matched economist expectations, though the annual pace marked the biggest rise since February.\n\nMeanwhile, US consumer sentiment declined to a three-month low as consumers in a University of Michigan survey suggested they expect inflation to surge over the next year.\n\nFriday's data comes after signs of a resilient economy helped lift the S&P 500 and Dow Jones Industrial Average to new all-time highs on Thursday.\n\nBets that the Fed will ease rates at its September meeting were still riding high Friday, and traders were pricing in an 87% chance of a quarter-point cut following the PCE reading.\n\nThe inflation data caps a whirlwind week for markets gripped by Nvidia earnings and President Trump's effort to oust Fed governor Lisa Cook, which took a new turn. On Friday, a judge is expected to rule on Cook's bid for a temporary restraining order.\n\nDespite the pullback in stocks on Friday, the major indexes were set for their longest streak of consecutive monthly gains in more than a year.\n\nThe tech-heavy Nasdaq Composite was on track to see a 2% bump in August, marking its fifth straight monthly rise, the longest winning streak in nearly a year and a half. For their part, the S&P 500 and the Dow were set for their fourth consecutive month of gains, on track to add 1.6% and 2%, respectively — the longest since September 2024.\n\nAnd the Russell 2000 (^RUT), which includes small market capitalization companies, eyed a 6% jump for August, on course for its fourth monthly uptick, the longest streak in over four years.\n\nStory Continues\n\nMarkets are closed on Monday for the Labor Day holiday.LIVE25 updates\n\n8 mins ago\n\nGrace O'Donnell\n\nStocks close lower to end month on a downbeat note\n\nNvidia (NVDA) and Big Tech led the Nasdaq Composite (^IXIC) and other indexes lower on Friday in a subdued finish to the month. PCE data released Friday morning, which is closely watched by the Fed, renewed concerns about inflation and the Fed's path forward in balancing prices and the labor market.\n\nThe Dow Jones Industrial Average (^DJI) fell around 0.2%, while the S&P 500 (^GSPC) lost 0.6% during the session.\n\nBut stocks held on to monthly gains, with the S&P 500 up 1.4%, the Dow up 2%, and the Nasdaq up 1.6%.\n\nSNP - Delayed Quote•USD\n\n(^GSPC)\n\nFollow  View Quote Details\n\n6,460.26\n\n-41.60\n\n(-0.64%)\n\nAt close: 4:16:56 PM EDT  ^GSPC^DJI ^IXIC\n\nAdvanced Chart 16 mins ago\n\nInes Ferré\n\nS&P notches 4 straight months of gains, but September seasonality looms\n\nThe S&P 500 (^GSPC) notched its fourth straight month of gains on Friday to close out August.\n\nAs investors head into September, history suggests caution.\n\nBank of America points out that September has been the market’s weakest month going back nearly a century, with the index falling 56% of the time by an average of 1.17% since 1927.\n\nSeasonal selling pressure often comes from pension funds and mutual funds rebalancing portfolios at the end of the quarter.\n\nMeanwhile, Citadel data shows retail participation is typically the lowest in September. Add to this the fact that September and October are historically the two most volatile months with VIX often spiking toward 20, according to Bloomberg data.\n\nInvestors also face a loaded September calendar. The US August jobs report is due to be released next Friday, followed by the latest inflation data the following week.\n\nAll eyes will also be on the September FOMC meeting next month, at which investors anticipate policy members will likely cut rates by 25 basis points. 46 mins ago\n\nGrace O'Donnell\n\nIs the stock market closed on Labor Day?\n\nThe stock and bond markets will be closed on Monday, Sept. 1, for the Labor Day holiday. Markets will resume normal trading hours on Tuesday.\n\nThe New York Stock Exchange and Nasdaq will also observe two remaining holidays this year.\n\nRead more about the stock market holidays in 2025. Today at 7:00 PM UTC\n\nInes Ferré\n\nNvidia stock slides 3% amid broader chip sell-off after Dell results, Alibaba competition\n\nYahoo Finance's Laura Bratton reports:\n\nRead more here.\n\nNasdaqGS - Delayed Quote•USD\n\n(NVDA)\n\nFollow  View Quote Details\n\n174.18\n\n-5.94\n\n(-3.30%)\n\nAt close: 4:00:00 PM EDT  Advanced Chart Today at 6:15 PM UTC\n\nInes Ferré\n\nGlobal M&A is up 35% year-to-date to mark highest August in 4 years\n\nMergers and acquisitions activity has boomed 35% year-to-date, with August marking the highest month in four years.\n\nLondon Stock Exchange Group data shows announced M&A activity worldwide totaled $2.7 trillion during the first eight months of 2025.\n\nThe analysis shows 43 of those deals were worth more than $10 billion, and four of those were announced during the month of August, including Keurig Dr Pepper’s (KDP) $22.8 billion offer for Dutch coffee company JDE Peet’s.\n\nAugust deals also included private equity Thoma Bravo’s $12.2 billion offer for human resources software firm Dayforce (DAY) and the Trump administration's 9.9% stake in Intel (INTC).\n\nTechnology replaced Industrials as the leading sector so far during 2025, accounting for 18% of global M&A activity by value. Today at 5:20 PM UTC\n\nGrace O'Donnell\n\nGold hits intraday high as PCE inflation data sustains rate cut expectations\n\nGold futures (GC=F) notched an intraday high of $3,515.80 per ounce on Friday as PCE inflation data signaled the Fed remained on course to cut interest rates at its September meeting.\n\nUncertainty stemming from tariffs, weakness in the dollar, and President Trump's attempted ouster of Fed governor Lisa Cook also fueled the rally in gold this week. The precious metal has climbed 4% over the past five days and is on track for its biggest monthly gain in four months.\n\nSilver futures (SI=F) also gained on Friday, rising about 2.7% to $40.8 per ounce. The price of silver has risen 7% over the past month. Today at 4:47 PM UTC\n\nGrace O'Donnell\n\nTesla stock sinks amid troubles in Europe\n\nTesla (TSLA) stock sank over 2% on Friday after European sales cratered for the seventh month in a row and Elon Musk accused the Securities and Exchange Commission of \"overreach\" in a recent case.\n\nAccording to data from the European Automobile Manufacturers' Association (ACEA) released Thursday, Tesla electric vehicle registrations in Europe fell 40.2% year over year to just 8,837 units in July. Registration data is used as a proxy for sales.\n\nThe decline was more pronounced, considering total EV registrations in Europe and the UK rose 33.6% over the previous year. China's BYD (BYDDY), Volkswagen, and BMW all saw gains.\n\nTo try to goose sales in the region, Tesla unveiled a new high-end variant of the Model Y crossover SUV on Friday, which will only be available in Europe for the time being.\n\nMeanwhile, Tesla CEO Elon Musk sought to have an SEC case related to his disclosure of his Twitter stake in 2022 dismissed. Musk said the SEC's enforcement \"reveals an agency targeting an individual for his protected criticism of government overreach.\"\n\nIn a separate filing, Musk's legal team also asked for the venue of the case to be moved to the Western District of Texas instead of Washington, D.C.\n\nRead more about the new Model Y Performance EV here. Today at 4:16 PM UTC\n\nGrace O'Donnell\n\nWhy a higher 'core' inflation reading is unlikely to knock the Fed off course\n\nYahoo Finance's Jennifer Schonberger reports:\n\nRead more here. Today at 3:25 PM UTC\n\nLaura Bratton\n\nSamsung, SK Hynix in focus after US tightens trade rules\n\nThe US government on Friday revoked prior approvals for South Korean semiconductor firms Samsung (005930.KS) and SK Hynix (000660.KS) to receive chipmaking equipment at their China facilities, further tightening its grip on the chip trade.\n\nThe US previously granted waivers to these companies so they could use semiconductor manufacturing equipment and other technologies in their China facilities that would otherwise be banned for import into the country, Bernstein analyst Stacy Rasgon noted in an email Friday.\n\nThe stocks were roughly flat Friday. Today at 3:24 PM UTC\n\nGrace O'Donnell\n\nConsumer sentiment slides in August as Americans express 'heightened concerns about high prices'\n\nYahoo Finance's Jake Conley reports:\n\nRead more here. Today at 3:09 PM UTC\n\nLaura Bratton\n\nNvidia, US chip stocks fall as Alibaba set to release chip for China, Dell outlook disappoints\n\nNvidia (NVDA) and other US chip stocks fell across the board on Friday after server maker Dell (DELL), a customer of those chipmakers, gave a third quarter earnings outlook below Wall Street's estimates, and Chinese tech giant Alibaba (BABA) reportedly developed a new chip for China.\n\nNvidia shares fell 3.6%, while Advanced Micro Devices (AMD) dropped 3.5% and Broadcom (AVGO) dropped 4.5%. Micron (MU) shares dropped more than 2%.\n\nNasdaqGS - Delayed Quote•USD\n\n(NVDA)\n\nFollow  View Quote Details\n\n174.18\n\n-5.94\n\n(-3.30%)\n\nAt close: 4:00:00 PM EDT  NVDAAVGO AMD\n\nAdvanced Chart\n\nThe drops came after Dell on Thursday guided for third quarter earnings per share of $2.45, below the $2.55 expected, per LSEG estimates cited by CNBC. Dell accounts for over 2% of Nvidia's revenue on an annualized basis, according to Bloomberg estimates. The server maker also accounts for roughly 1% of Broadcom's revenue, 3.6% of AMD's revenue, and 3.7% of Micron's revenue.\n\nAdding pressure to US chip stocks, namely Nvidia, The Wall Street Journal reported that Alibaba is testing a new chip for AI inferencing. The Journal also highlighted Chinese companies coming up with substitutes for Nvidia's H20 China chip.\n\nChina has pressured domestic companies not to use Nvidia's AI chips since Trump and the chipmaker outlined a deal for it to send the US government 15% of its revenue from China chip sales in exchange for export licenses. That deal has not been finalized. Today at 2:52 PM UTC\n\nLaura Bratton\n\nTrump officials file second criminal referral against Fed's Cook in connection with additional loans\n\nYahoo Finance's Alexis Keenan reports:\n\nRead the full story here. Today at 1:59 PM UTC\n\nLaura Bratton\n\nNasdaq set for 5 month winning streak, longest since March 2024\n\nThe three major gauges were set for another month of gains despite a pullback Friday.\n\nThe tech-heavy Nasdaq Composite (^IXIC) was set to see a 2% gain in August, marking its fifth straight month of gains, the longest winning streak in a year and a half — showing that even a short-lived tech selloff this month, concerns over an AI bubble, and a tepid response to Nvidia's (NVDA) earnings haven't hampered markets' record breaking rallies. The Nasdaq's last five month streak ended in March 2024.\n\nNasdaq GIDS - Delayed Quote•USD\n\n(^IXIC)\n\nFollow  View Quote Details\n\n21,455.55\n\n-249.61\n\n(-1.15%)\n\nAt close: 4:15:01 PM EDT  ^IXIC^GSPC ^DJI\n\nAdvanced Chart\n\nMeanwhile, the S&P 500 (^GSPC) and the Dow (^DJI) were set for their fourth month of gains, on track to add 1.6% and 2%, respectively — the longest since September 2024.\n\nThe Russell 2000 (^RUT), which includes small market capitalization US companies, was also set for a fourth straight month of gains, the longest streak since June 2021. The index eyed a 6% gain for August. Today at 1:40 PM UTC\n\nLaura Bratton\n\nStocks retreat from record highs at the opn\n\nUS stocks pulled back from record highs on Friday as Wall Street digested the latest reading of the Federal Reserve's preferred inflation gauge, which showed prices rising above the central bank's 2% inflation target but in line with economists' expectations.\n\nThe Dow Jones Industrial Average (^DJI) dipped 0.15%, and the S&P 500 (^GSPC) fell about 0.2%. The tech-heavy Nasdaq Composite (^IXIC) led the retreat, down 0.4%.\n\nNasdaq GIDS - Delayed Quote•USD\n\n(^IXIC)\n\nFollow  View Quote Details\n\n21,455.55\n\n-249.61\n\n(-1.15%)\n\nAt close: 4:15:01 PM EDT  ^IXIC^GSPC ^DJI\n\nAdvanced Chart\n\nBut Wall Street stocks are still on track solid monthly gains as they hold their ground in record territory. The S&P 500 eyed a 1.9% gain for August after crossing 6,500 for the first time, while the Dow was set to rise 2.1%. The Nasdaq Composite is on track to notch a 2.5% bump. Today at 1:10 PM UTC\n\nGrace O'Donnell\n\nCelsius stock spikes after PepsiCo boosts stake in the energy drink company\n\nPepsiCo Inc. (PEP) is increasing its stake in Celsius Holdings Inc. (CELH) to 11% from 5% previously, the companies announced on Friday.\n\nAs part of the $585 million deal, Celsius will acquire PepsiCo's Rockstar brand in the US and Canada (Pepsi will still retain the business internationally). Celsius also recently acquired another energy drink brand, Alani Nu, which will move to Pepsi's distribution network.\n\nCelsius stock popped 6.7% in premarket trading while Pepsi shares were little changed. Today at 12:43 PM UTC\n\nGrace O'Donnell\n\nFed's preferred inflation gauge ticks up in July, in line with estimates\n\nThe latest reading of the Federal Reserve's preferred inflation gauge showed price increases ticked higher in July but have not seen the full impact of President Trump's tariffs yet.\n\nThe \"core\" Personal Consumption Expenditures (PCE) index, which excludes food and energy costs and is closely watched by the central bank, rose 0.3% from the prior month, in line with economists' expectations.\n\nCore prices rose 2.9% in July on an annual basis, above the Fed's 2% inflation target and in line with economists' estimates.\n\nFollowing the release, markets were pricing in an 85% chance the Fed will cut rates at its September meeting, up from a 63% chance a month ago, per the CME FedWatch Tool. Today at 12:25 PM UTC\n\nGrace O'Donnell\n\nCaterpillar stock sinks as tariff costs balloon, Norway\n\nAn additional tariff warning and clash with Norway pushed Caterpillar (CAT) shares nearly 3% lower on Friday morning.\n\nOn Thursday, the construction machinery maker stated it expects to see a greater hit from tariffs this year than previously thought. The company said it anticipates a tariff hit of $1.5 billion to $1.8 billion this year, above its prior forecast of up to $1.5 billion, which the company issued with its earnings release on Aug. 5.\n\nIt expects tariff costs of $600 million for the third quarter, up from a prior forecast of up to $500 million.\n\nCaterpillar stock is also under pressure after Norway's $2 trillion sovereign wealth fund, the world's largest, said on Monday it sold all its shares in the company. The fund's Council on Ethics flagged the company's supply of bulldozers in Israel that are used in the occupation of Gaza and the West Bank.\n\nNorway's prime minister tried to defuse the controversy after Trump ally Sen. Lindsey Graham called the decision \"offensive\" and suggested that the US should impose additional tariffs on Norway. Today at 12:03 PM UTC\n\nGrace O'Donnell\n\nPackages under $800 have been able to avoid tariffs for years. Not anymore.\n\nYahoo Finance's Emma Ockerman reports:\n\nRead more here. Today at 11:40 AM UTC\n\nKaren Friar\n\nNvidia's Big Tech clientele looks like a vulnerability, but acts like a chokehold\n\nWhat looks like a client bottleneck is actually an industry chokehold, according to Yahoo Finance's Hamza Shaban.\n\nHe reports in today's Morning Brief:\n\nRead more here. Today at 11:13 AM UTC\n\nJenny McCall\n\nGood morning. Here's what's happening today.\n\nEconomic data: PCE inflation (July); University of Michigan consumer sentiment, (August final reading); wholesale inventories (July preliminary); MNI Chicago PMI, (August)\n\nEarnings: Alibaba (BABA)\n\nHere are some of the biggest stories you may have missed overnight and early this morning:\n\nNvidia's Big Tech clients act like a chokehold\n\nPackages under $800 have avoided tariffs for years. Not anymore.\n\nTrump's tariffs force countries to choose between US or China\n\nBrazil moves to retaliate against Trump tariffs\n\nStock bulls brace for seasonal turbulence to kick in\n\nMarvell stock slumps as outlook stokes AI chip worries\n\nAlibaba's AI sales help offset food-war hit to profit\n\nFed's Cook flags 'clerical error' is behind mortgage flap\n\nChina's Xi rallies security bloc to rival US-led world order\n\nStory Continues\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:58:02+00:00",
+            "title": "Sector Update: Consumer Stocks Mixed Late Afternoon",
+            "content": "Consumer stocks were mixed late Friday afternoon, with the Consumer Staples Select Sector SPDR Fund\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "PepsiCo Inc",
+          "sector": "Consumer Defensive",
+          "industry": "Beverages - Non-Alcoholic",
+          "employees": 319000,
+          "description": "PepsiCo, Inc. engages in the manufacture, marketing, distribution, and sale of various beverages and convenient foods worldwide. The company operates through seven segments: Frito-Lay North America; Quaker Foods North America; PepsiCo Beverages North America; Latin America; Europe; Africa, Middle Ea"
+        },
+        "financial_metrics": {
+          "eps_ttm": 5.49,
+          "profit_margin": 0.0823,
+          "operating_margin": 0.1749,
+          "roe": 0.3986,
+          "roa": 0.0851,
+          "revenue_growth_yoy": 0.01,
+          "earnings_growth_yoy": -0.587,
+          "eps_estimate_current_year": 8.0178,
+          "eps_estimate_next_year": 8.4673,
+          "dividend_yield": 0.0373,
+          "dividend_per_share": 5.488,
+          "revenue_ttm": 91747999744,
+          "revenue_per_share": 66.92,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 27.0765,
+          "forward_pe": 18.4843,
+          "price_to_sales": 2.2182,
+          "price_to_book": 11.0497,
+          "enterprise_value": 246924326374,
+          "ev_to_revenue": 2.6913,
+          "ev_to_ebitda": 17.163
+        },
+        "technical_data": {
+          "beta": 0.457,
+          "52_week_high": 174.4369,
+          "52_week_low": 126.3635,
+          "50_day_ma": 140.9966,
+          "200_day_ma": 144.8418,
+          "short_interest": 0.0164,
+          "short_ratio": 2.5
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 5.69,
+          "forward_dividend_yield": 0.0383,
+          "payout_ratio": 0.7058,
+          "dividend_date": "2025-09-30",
+          "ex_dividend_date": "2025-09-05",
+          "last_split_date": "1996-05-29",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.3478,
+          "target_price": 153.0455,
+          "strong_buy": 4,
+          "buy": 2,
+          "hold": 16,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 1369080064,
+          "percent_institutions": 79.057,
+          "percent_insiders": 0.188,
+          "shares_float": 1365367005
+        },
+        "balance_latest_sheet": {
+          "total_assets": 105345.0,
+          "total_debt": 51384.0,
+          "net_debt": 43753.0,
+          "working_capital": -8186.0,
+          "shareholders_equity": 18418.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.79
+        },
+        "income_latest_statement": {
+          "total_revenue": 22726.0,
+          "gross_profit": 12422.0,
+          "operating_income": 1789.0,
+          "net_income": 1263.0,
+          "ebitda": 2808.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 54.66,
+          "operating_margin": 7.87,
+          "net_margin": 5.56
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1969.0,
+          "free_cash_flow": 1065.0,
+          "capex": 904.0,
+          "net_income": 1279.0,
+          "cash_change": -607.0,
+          "dividends_paid": -1861.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 2.26,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 143.105,
+            "high": 143.59,
+            "low": 140.456,
+            "close": 141.7,
+            "volume": 9025630
+          },
+          {
+            "date": "2025-07-22",
+            "open": 141.23,
+            "high": 146.4,
+            "low": 141.23,
+            "close": 146.04,
+            "volume": 8281528
+          },
+          {
+            "date": "2025-07-23",
+            "open": 145.86,
+            "high": 147.0301,
+            "low": 145.09,
+            "close": 145.66,
+            "volume": 6165951
+          },
+          {
+            "date": "2025-07-24",
+            "open": 145.82,
+            "high": 146.47,
+            "low": 143.98,
+            "close": 144.51,
+            "volume": 9749426
+          },
+          {
+            "date": "2025-07-25",
+            "open": 144.81,
+            "high": 144.82,
+            "low": 142.7,
+            "close": 143.45,
+            "volume": 7021594
+          },
+          {
+            "date": "2025-07-28",
+            "open": 142.7,
+            "high": 143.1,
+            "low": 141.46,
+            "close": 141.57,
+            "volume": 10639130
+          },
+          {
+            "date": "2025-07-29",
+            "open": 141.57,
+            "high": 143.985,
+            "low": 141.125,
+            "close": 143.89,
+            "volume": 6282944
+          },
+          {
+            "date": "2025-07-30",
+            "open": 143.77,
+            "high": 144.4,
+            "low": 142.2884,
+            "close": 142.86,
+            "volume": 9738383
+          },
+          {
+            "date": "2025-07-31",
+            "open": 140.98,
+            "high": 141.57,
+            "low": 137.64,
+            "close": 137.92,
+            "volume": 11689670
+          },
+          {
+            "date": "2025-08-01",
+            "open": 139.105,
+            "high": 139.81,
+            "low": 138.29,
+            "close": 139.28,
+            "volume": 7630810
+          },
+          {
+            "date": "2025-08-04",
+            "open": 139.285,
+            "high": 140.32,
+            "low": 138.75,
+            "close": 139.56,
+            "volume": 8384672
+          },
+          {
+            "date": "2025-08-05",
+            "open": 139.6,
+            "high": 140.345,
+            "low": 139.26,
+            "close": 139.45,
+            "volume": 5535084
+          },
+          {
+            "date": "2025-08-06",
+            "open": 139.9,
+            "high": 141.58,
+            "low": 139.36,
+            "close": 140.8,
+            "volume": 6747448
+          },
+          {
+            "date": "2025-08-07",
+            "open": 141.24,
+            "high": 144.31,
+            "low": 140.48,
+            "close": 143.92,
+            "volume": 7674642
+          },
+          {
+            "date": "2025-08-08",
+            "open": 143.92,
+            "high": 145.365,
+            "low": 143.8,
+            "close": 145.21,
+            "volume": 5315087
+          },
+          {
+            "date": "2025-08-11",
+            "open": 145.32,
+            "high": 145.6,
+            "low": 143.745,
+            "close": 144.87,
+            "volume": 5773384
+          },
+          {
+            "date": "2025-08-12",
+            "open": 145.55,
+            "high": 147.01,
+            "low": 144.715,
+            "close": 146.87,
+            "volume": 7670149
+          },
+          {
+            "date": "2025-08-13",
+            "open": 146.885,
+            "high": 149.54,
+            "low": 146.85,
+            "close": 149.35,
+            "volume": 6147005
+          },
+          {
+            "date": "2025-08-14",
+            "open": 149.035,
+            "high": 149.5,
+            "low": 148.05,
+            "close": 148.62,
+            "volume": 6892466
+          },
+          {
+            "date": "2025-08-15",
+            "open": 149.39,
+            "high": 151.1,
+            "low": 148.49,
+            "close": 150.4,
+            "volume": 9162178
+          },
+          {
+            "date": "2025-08-18",
+            "open": 150.55,
+            "high": 150.55,
+            "low": 148.92,
+            "close": 149.55,
+            "volume": 9900999
+          },
+          {
+            "date": "2025-08-19",
+            "open": 150,
+            "high": 152.325,
+            "low": 149.86,
+            "close": 152.16,
+            "volume": 8596943
+          },
+          {
+            "date": "2025-08-20",
+            "open": 153.21,
+            "high": 154.61,
+            "low": 148.69,
+            "close": 150.73,
+            "volume": 10023470
+          },
+          {
+            "date": "2025-08-21",
+            "open": 150.325,
+            "high": 150.325,
+            "low": 148.595,
+            "close": 148.98,
+            "volume": 8153618
+          },
+          {
+            "date": "2025-08-22",
+            "open": 149.65,
+            "high": 151.18,
+            "low": 149.09,
+            "close": 149.64,
+            "volume": 5218019
+          },
+          {
+            "date": "2025-08-25",
+            "open": 148.425,
+            "high": 148.82,
+            "low": 147.58,
+            "close": 148.2,
+            "volume": 6624298
+          },
+          {
+            "date": "2025-08-26",
+            "open": 147.5,
+            "high": 148.25,
+            "low": 145.81,
+            "close": 147,
+            "volume": 11208150
+          },
+          {
+            "date": "2025-08-27",
+            "open": 147,
+            "high": 147.79,
+            "low": 146.31,
+            "close": 147.64,
+            "volume": 8092909
+          },
+          {
+            "date": "2025-08-28",
+            "open": 147.96,
+            "high": 148.035,
+            "low": 146.233,
+            "close": 146.98,
+            "volume": 9265077
+          },
+          {
+            "date": "2025-08-29",
+            "open": 147.1,
+            "high": 149.22,
+            "low": 146.87,
+            "close": 148.65,
+            "volume": 7760710
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 6.727455485353248,
+        "return_63d": 13.551294782675127,
+        "pct_above_sma50": 5.428074152142679,
+        "sma_50": 140.9966,
+        "new_55d_high": "False",
+        "high_55d": 154.61,
+        "rsi": 59.49748743718595,
+        "rsi_in_range": "True",
+        "adx": 56.801482977576846,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.5459804910864425,
+        "bb_width": 9.878156542793558,
+        "keltner_width": 6.263408046480182,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1132428144.4066,
+        "adv_shares": 7707315.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.552505510235555,
+        "final_score": 43.552505510235555,
+        "sub_scores": {
+          "trend_momentum": 19.132726133736764,
+          "squeeze_breakout": 4.0,
+          "options_quality": 14.41977937649879,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 7.779872389791187,
+          "ret_63d": 13.084823126664148,
+          "rsi14": 59.49748743718595,
+          "adx14": 48.79137175191086,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: PEP\n• Current Price: $148.65\n• Overall Score: 48.121923076923075\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 140.9966\n• Sma 200: 144.8418\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 7.779872389791197\n• Momentum 63D: 13.084823126664144\n• Momentum 126D: -3.140678960057336\n• Momentum Acceleration: -5.304950736872947\n• Roc 21D: 7.779872389791197\n• Trend Strength 20D: 0.455640012443734\n• Trend Direction: 1\n• Ma Ribbon Score: 72.41151973091868\n• Breakout Strength: 0.0\n• Price Velocity: -0.0012949526174148573\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.008703436411805893\n• Volatility Compression: 66.5\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.132726133736764\n• Squeeze Breakout: 4.0\n• Options Quality: 14.41977937649879\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 70.0\n• Momentum: 61.0\n• Squeeze: 14.975\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: PEP\n• Strike Price: $145\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.85\n• Ask: $7.05\n• Last: $7.18\n• Mid: $6.95\n• Spread: 2.836879432624113475177304965%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6368\n• Gamma: 0.0303\n• Theta: -0.0571\n• Vega: 0.2044\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2271\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 105\n• Open Interest: 3707\n• Volume/OI Ratio: 0.0283247909360669\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: PepsiCo Inc\n• Sector: Consumer Defensive\n• Industry: Beverages - Non-Alcoholic\n• EPS (TTM): $5.49\n• Profit Margin: 8.2%\n• ROE: 39.9%\n• P/E Ratio: 27.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T22:24:47+00:00: PepsiCo Boosts Stake in Celsius With $585 Million Deal...\n• 2025-08-29T21:45:03+00:00: Why the Market Dipped But PepsiCo (PEP) Gained Today...\n• 2025-08-29T20:37:30+00:00: PepsiCo Increases Stake in Celsius With $585 Million Deal...\n• 2025-08-29T20:03:16+00:00: Stock market today: Dow, S&amp;P 500, Nasdaq slide on inflation worries, ending ...\n• 2025-08-29T19:58:02+00:00: Sector Update: Consumer Stocks Mixed Late Afternoon...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR PEP\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the PEP opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:40:53.633726",
+    "estimated_tokens": 2315
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"PEP\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 7,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"PEP shows moderate technical strength with price above both SMAs and positive 21/63D momentum, but faces near-term headwinds with decelerating momentum and upcoming earnings. Options positioning shows decent liquidity but moderate IV conditions, suggesting limited premium-selling opportunities.\",\n    \"opportunities\": [\n        \"Price above both 50 and 200 SMAs with strong MA Ribbon score of 72.41\",\n        \"Solid fundamentals with 39.9% ROE and 8.2% profit margin\",\n        \"Options have reasonable liquidity with 3707 open interest and 2.84% spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration at -5.30\",\n        \"Earnings coming up on 2025-09-30\",\n        \"No current volatility squeeze in play (squeeze = false)\",\n        \"Relatively high P/E ratio at 27.1x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider bull put spreads below $145 strike for premium collection\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Keep position size small due to upcoming earnings and negative momentum acceleration\"\n    },\n    \"red_flags\": [\n        \"Earnings in less than 30 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"Missing some key volatility metrics (IV rank/percentile, HV) which limits complete volatility analysis. Consider gathering additional data before final decision.\"\n}",
+    "parsed_analysis": {
+      "symbol": "PEP",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 6,
+        "fundamentals": 7,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "PEP shows moderate technical strength with price above both SMAs and positive 21/63D momentum, but faces near-term headwinds with decelerating momentum and upcoming earnings. Options positioning shows decent liquidity but moderate IV conditions, suggesting limited premium-selling opportunities.",
+      "opportunities": [
+        "Price above both 50 and 200 SMAs with strong MA Ribbon score of 72.41",
+        "Solid fundamentals with 39.9% ROE and 8.2% profit margin",
+        "Options have reasonable liquidity with 3707 open interest and 2.84% spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration at -5.30",
+        "Earnings coming up on 2025-09-30",
+        "No current volatility squeeze in play (squeeze = false)",
+        "Relatively high P/E ratio at 27.1x"
+      ],
+      "option_contract": {
+        "recommendation": "Consider bull put spreads below $145 strike for premium collection",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Keep position size small due to upcoming earnings and negative momentum acceleration"
+      },
+      "red_flags": [
+        "Earnings in less than 30 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "Missing some key volatility metrics (IV rank/percentile, HV) which limits complete volatility analysis. Consider gathering additional data before final decision."
+    },
+    "tokens_used": 2535,
+    "cost": 0.025349999999999998,
+    "response_time": 9.232020139694214,
+    "success": true
+  },
+  "cost": 0.025349999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8467,
+    "response_length": 1678
+  }
+}

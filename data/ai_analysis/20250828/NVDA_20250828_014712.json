@@ -1,0 +1,625 @@
+{
+  "success": true,
+  "symbol": "NVDA",
+  "timestamp": "2025-08-28T01:47:12.449792",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVDA",
+      "package_timestamp": "2025-08-28T01:47:02.254856",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVDA",
+        "current_price": 181.6,
+        "overall_score": 52.04931291689179,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 168.4888,
+        "sma_200": 138.2832
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.469887755683439,
+        "momentum_63d": 34.708107707143384,
+        "momentum_126d": 38.330286410725165,
+        "momentum_acceleration": -31.238219951459946,
+        "roc_21d": 3.469887755683439,
+        "trend_strength_20d": 0.005436491436908073,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.25482012187784,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006999575943890379
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 7.0,
+        "squeeze_momentum": -0.46176231427681186,
+        "volatility_compression": 14.079661332290636,
+        "is_consolidating": "False",
+        "breakout_score": 46.60350617377312,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 20.445594233096173,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 52.11194919984359,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 9,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVDA",
+        "strike_price": "180",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "16.45",
+        "ask": "16.5",
+        "last_price": "16.51",
+        "mid_price": "16.475",
+        "spread_percent": "0.3030303030303030303030303030"
+      },
+      "greeks": {
+        "delta": 0.579,
+        "gamma": 0.0105,
+        "theta": -0.0947,
+        "vega": 0.345
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4199
+      },
+      "liquidity_metrics": {
+        "volume": 3256,
+        "open_interest": 17297,
+        "volume_oi_ratio": 0.18824073538763947
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:36:59.799143",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T00:55:28+00:00",
+            "title": "'Buy the Dip' Mentality Still Alive: BCA's Peta",
+            "content": "DEK BCA Research Inc. Chief Strategist Doug Peta believes the \"buy the dip\" mentality\" is still prevalent among traders investing in tech stocks. Peta speaks after Nvidia Corp., the world's most valuable company, gave a tepid revenue forecast for the current period.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T00:53:40+00:00",
+            "title": "NVIDIA outlines $3T–$4T AI infrastructure opportunity through next five years as Blackwell ramps",
+            "content": "Earnings Call Insights: NVIDIA Corporation (NVDA) Q2 2026\n\nMANAGEMENT VIEW\n\n \t* Colette M. Kress, Executive VP & CFO, stated \"We delivered another record quarter while navigating what continues to be a dynamic external environment. Total revenue was $46.7 billion, exceeded our outlook as we grew sequentially across all market platforms. Data center revenue grew 56% year-over-year. Data center revenue also grew sequentially despite the $4 billion decline in H20 revenue. NVIDIA's Blackwell platform reached record levels, growing sequentially by 17%. We began production shipments of GB300 in Q2.\" \n \t* Kress highlighted that \"The GB200 NVL system is seeing widespread adoption with deployments at CSPs and consumer Internet companies. Lighthouse model builders, including OpenAI, Meta and Mistral are using the GB200 NVL72 at data center scale for both training, next-generation models and serving inference models in production.\"\n \t* Kress reported \"The new Blackwell Ultra platform has also had a strong quarter, generating tens of billions in revenue.\"\n \t* Kress noted \"In late July, the U.S. government began reviewing licenses for sales of H20 to China customers. While a select number of our China-based customers have received licenses over the past few weeks, we have not shipped any H20 based on those licenses.\"\n \t* Kress further added \"We expect widespread market availability in the second half of the year as CoreWeave prepares to bring their GB300 instance to market as they are already seeing 10x more inference performance on reasoning models compared to H100.\"\n \t* CEO Jen-Hsun Huang stated that \"The scale and scope of these build-outs present significant long-term growth opportunities for NVIDIA. We see $3 trillion to $4 trillion in AI infrastructure spend by the end of the decade.\"\n \t* Kress quoted \"Networking delivered record revenue of $7.3 billion, and escalating demands of AI compute clusters necessitate high efficiency and low latency networking. This represents a 46% sequential and 98% year-on-year increase with strong demand across Spectrum-X Ethernet, InfiniBand and NVLink.\"\n\nOUTLOOK\n\n \t* Kress shared \"Total revenue is expected to be $54 billion, plus or minus 2%. This represents over $7 billion in sequential growth. Again, we do not assume any H20 shipments to China customers in our outlook. GAAP and non-GAAP gross margins are expected to be 73.3%, 73.5%, respectively, plus or minus 50 basis points. We continue to expect to exit the year with non-GAAP gross margins in the mid-70s. GAAP and non-GAAP operating expenses are expected to be approximately $5.9 billion and $4.2 billion, respectively. For the full year, we expect operating expenses to grow in the high 30s range year-over-year, up from our prior expectations of the mid-30s.\"\n \t* Kress stated \"We are accelerating investments in the business to address the magnitude of growth opportunities that lie ahead.\"\n\nFINANCIAL RESULTS\n\n \t* Kress reported \"Total revenue was $46.7 billion, exceeded our outlook as we grew sequentially across all market platforms.\"\n \t* Kress stated \"Networking delivered record revenue of $7.3 billion, and escalating demands of AI compute clusters necessitate high efficiency and low latency networking.\"\n \t* Kress shared \"Our gaming revenue was a record $4.3 billion, a 14% sequential increase and a 49% jump year-on-year.\"\n \t* Kress highlighted \"Professional Visualization revenue reached $601 million, a 32% year-on-year increase.\"\n \t* Kress noted \"Automotive revenue, which includes only in-car compute revenue, was $586 million, up 69% year-on-year, primarily driven by self-driving solutions.\"\n \t* Kress reported \"GAAP gross margin was 72.4% and non-GAAP gross margin was 72.7%. These figures include a $180 million or 40 basis point benefit from releasing previously reserved H20 inventory.\"\n \t* Kress added \"To support the ramp of Blackwell and Blackwell Ultra, inventory increased sequentially from $11 billion to $15 billion in Q2.\"\n \t* Kress shared \"In Q2, we returned $10 billion to shareholders through share repurchases and cash dividends. Our Board of Directors recently approved a $60 billion share repurchase authorization to add to our remaining $14.7 billion of authorization at the end of Q2.\"\n\nQ&A\n\n \t* Christopher James Muse, Cantor Fitzgerald: \"I was hoping perhaps could you take a high-level view and speak to your vision for growth into 2026. And as part of that, if you can kind of comment between network and data center would be very helpful.\" Jen-Hsun Huang: Described agentic AI and the scale of opportunity, stating \"Over the next 5 years, we're going to scale into with Blackwell, with Rubin and follow-ons to scale into effectively a $3 trillion to $4 trillion AI infrastructure opportunity.\"\n \t* Vivek Arya, Bank of America Securities: \"What needs to happen? And what is the sustainable pace of that China business as you get into Q4?\" Kress: \"There is interest in our H20s... we're still waiting on several of the geopolitical issues... we're not exactly sure what that full amount will be this quarter.\"\n \t* Benjamin Alexander Reitzes, Melius Research: Sought clarification on infrastructure spend and NVIDIA's share. Huang: Explained the company's role in AI infrastructure, saying \"Out of a gigawatt AI factory, which can go anywhere from $50 billion to plus or minus 10%, let's say, $50 billion to $60 billion, we represent about $35 billion plus or minus of that.\"\n \t* Joseph Lawrence Moore, Morgan Stanley: Asked about China opportunity. Huang: Estimated \"the China market, I've estimated to be about $50 billion of opportunity for us this year if we were able to address it with competitive products.\"\n \t* Aaron Christopher Rakers, Wells Fargo: Inquired on Spectrum-XGS. Huang: \"Spectrum-X, as we mentioned earlier, is now quite a sizable business, and it's only about 1.5 years old. So Spectrum-X is a home run.\"\n \t* Stacy Aaron Rasgon, Bernstein Research: On segment growth. Kress: \"Blackwell is still going to be the lion's share of what we have in terms of data center.\"\n \t* James Edward Schneider, Goldman Sachs: On Rubin product transition. Huang: \"Rubin is going to have a whole bunch of new ideas.\"\n \t* Timothy Michael Arcuri, UBS: On data center revenue growth. Huang: \"We have reasonable forecasts from our large customers for next year, a very, very significant forecast.\"\n\nSENTIMENT ANALYSIS\n\n \t* Analysts pressed for details on China, product transitions, and segment growth, with a generally optimistic but probing tone, as seen in repeated follow-ups on China exposure and infrastructure scale.\n \t* Management consistently projected confidence during both prepared remarks and Q&A, with Huang emphasizing the \"extraordinary milestone\" and \"record-breaking year,\" while Kress addressed uncertainties around China and growth investments directly, maintaining composure and assurance.\n \t* Compared to the previous quarter, analysts' tone remained constructive but focused more on the sustainability of growth, China regulatory headwinds, and upcoming product transitions.\n \t* Direct confidence was expressed by management through statements such as \"We see $3 trillion to $4 trillion in AI infrastructure spend by the end of the decade\" (Huang).\n\nQUARTER-OVER-QUARTER COMPARISON\n\n \t* Guidance for the next quarter was raised in both revenue and margin expectations, with Q2 revenue at $46.7 billion and Q3 guidance at $54 billion, plus or minus 2%.\n \t* Blackwell and GB300 production ramped further than in Q1, transitioning from initial shipments to full production and broader adoption.\n \t* China-related regulatory issues remain, but this quarter included potential for resumed H20 shipments if geopolitics allow, while prior quarter discussed inventory write-offs and full cessation.\n \t* Networking revenue accelerated further, with Spectrum-X annualizing over $10 billion and record growth cited, compared to $8 billion in the prior quarter.\n \t* Operating expenses guidance increased, reflecting an accelerated investment pace versus the prior expectation of mid-30s% growth.\n \t* Management tone remained confident, but with more explicit acknowledgment of geopolitical uncertainty and supply chain ramping successes.\n \t* Analysts' focus shifted from early Blackwell ramp and China write-offs in Q1 to large-scale infrastructure opportunities and product cadence in Q2.\n\nRISKS AND CONCERNS\n\n \t* Kress highlighted ongoing geopolitical uncertainty around H20 sales to China, stating \"we have not shipped any H20 based on those licenses.\"\n \t* The Q3 revenue outlook does not assume H20 shipments to China customers, and management noted \"If geopolitical issues reside, we should ship $2 billion to $5 billion in H20 revenue in Q3.\"\n \t* Kress discussed increased inventory and operating expenses to support Blackwell ramp, with potential risks if demand or supply chain execution falters.\n \t* Regulatory and export control risks continue to be referenced, particularly in relation to China and U.S. government licensing.\n\nFINAL TAKEAWAY\n\nNVIDIA management emphasized the company's record-setting performance in Q2 2026 and outlined a path toward substantial growth driven by AI infrastructure, with a projected $3 trillion to $4 trillion global opportunity through the decade. The full-scale ramp of Blackwell and GB300 platforms, robust networking growth, and continued demand across data center, gaming, professional visualization, and automotive segments underscore the company's leadership position. While regulatory uncertainty regarding China persists, NVIDIA is accelerating investments and expects further revenue and margin expansion as AI adoption broadens globally.\n\nRead the full Earnings Call Transcript [https://seekingalpha.com/symbol/nvda/earnings/transcripts]\n\nMORE ON NVIDIA\n\n \t* NVIDIA Corporation (NVDA) Q2 2026 Earnings Call Transcript [https://seekingalpha.com/article/4817296-nvidia-corporation-nvda-q2-2026-earnings-call-transcript]\n \t* The AI Race Is On, And Nvidia Is A Clear Leader (Rating Upgrade) [https://seekingalpha.com/article/4817276-the-ai-race-is-on-and-nvidia-is-a-clear-leader-rating-upgrade]\n \t* Nvidia's 'Zero-China' Quarter: With This Baseline, What Happens When China Returns? [https://seekingalpha.com/article/4817275-nvidia-zero-china-quarter-with-this-baseline-what-happens-when-china-returns]\n \t* Nvidia slips as Q2 results, guidance top estimates; unveils $60B buyback [https://seekingalpha.com/news/4489603-nvidia-slips-as-q2-results-guidance-top-estimates-unveils-60b-buyback]\n \t* Nvidia Non-GAAP EPS of $1.05 beats by $0.04, revenue of $46.74B beats by $610M [https://seekingalpha.com/news/4489760-nvidia-non-gaap-eps-of-1_05-beats-by-0_04-revenue-of-46_74b-beats-by-610m]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T00:46:38+00:00",
+            "title": "Oil Drops Even as US Raises Pressure on India Over Russian Crude",
+            "content": "An oil refinery in Mumbai. Photographer: Abeer Khan/Bloomberg\n\n(Bloomberg) -- Oil fell as traders looked past US efforts to force India to quit buying Russian crude, and broader markets carried a risk-off tone.\n\nGlobal benchmark Brent dropped below $68 a barrel, while West Texas Intermediate was near $64. White House trade adviser Peter Navarro stepped up the pressure on New Delhi to halt purchases of Russian energy after Washington doubled a levy on imports from the country to 50%. Calling Indians “arrogant,” he cast the conflict in Ukraine as “Modi’s war,” referencing the prime minister.\n\nMost Read from Bloomberg\n\nTo Boost Housing, Chicago Kills Parking Minimums Central Glasgow Could Be Poised for a Revival Chicago Schools’ Late Pension Payment Magnifies Fiscal Mess Germany Revives a Building Style With a Bleak History: Prefab Housing Trump Administration to Take Control of DC’s Union Station\n\nFinancial markets including stocks were softer in early trade on Thursday as results from chipmaker Nvidia Corp. struggled to clear elevated expectations.\n\nCrude has swung between gains and losses this week, with futures on course for the biggest monthly loss since April. Traders are concerned the global oil market faces a surplus in the coming quarters after OPEC+ loosened supply curbs, while nations outside the alliance also ramped up output. The US-led trade war has spurred worries that demand could face headwinds.\n\nIndia became a major importer of Russian oil after Moscow’s invasion of Ukraine in 2022, pivoting some buying away from traditional suppliers in the Middle East. As the higher US levy came into effect this week, refiners in the South Asian nation have signaled that they intend to press on with crude purchases from Russia for October loading and beyond.\n\nIn the US, a government report on Wednesday painted a mixed picture of the domestic oil market. While refinery runs were down in all regions, pulling the nationwide figure to the lowest since early July, crude stockpiles at the hub in Cushing, Oklahoma, fell for the first time in eight weeks.\n\nAlthough Brent’s prompt spread remains in backwardation, a positive pattern, the closely watched metric has narrowed. The difference between its two nearest contracts was 58 cents a barrel on Thursday, down from 72 cents a month ago.\n\nMost Read from Bloomberg Businessweek\n\nAs Bushmeat Consumption Grows, Nigerian Doctors Fear Outbreaks Young European Backpackers Are Being Lured to Australia for Mining Jobs Monchhichi Makes a Comeback Amid Labubu Craze How Bombas Built a Fancy Socks Empire With $500 Million in Sales Yosemite Workers Vote to Unionize\n\n©2025 Bloomberg L.P.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T00:40:00+00:00",
+            "title": "Fujitsu develops AI agent platform for the healthcare sector to enhance operational efficiency and ensure stable medical service provision",
+            "content": "TOKYO, Aug. 28, 2025 /PRNewswire/ -- Fujitsu today announced the development of a secure and efficient AI agent platform to accelerate operational efficiency and ensure stable medical service provision in Japan's healthcare sector. The new platform includes an orchestrator AI agent, a centralized system that supports the collaboration and coordination of multiple specialized healthcare-specific agents developed by Fujitsu and other partner companies. The initiative aims to contribute to the rapid implementation of world-leading medical operational practices, thereby driving business transformation and improving sustainability within Japan's healthcare industry. The development of this platform was supported by NVIDIA, a global leader in accelerated computing and foundational AI agent technology.\n\nIn 2025, Fujitsu will accelerate commercialization of the platform by collaborating with advanced medical institutions and partners around the world to verify the effectiveness of the newly developed healthcare orchestrator AI agent and develop specific industry-focused AI agents.\n\nMoving forward, under its Fujitsu Uvance business model, which aims to address societal challenges, Fujitsu will continue to transform healthcare and drug discovery through data and AI, realizing a society where personalized treatment opportunities are available to everyone and advancing the well-being of individuals.\n\nOverview of the new AI agent platform\n\nFujitsu will provide a suite of task-specific AI agents for medical workflows through the AI agent platform, leveraging its extensive operational knowledge in healthcare and broad collaborations with medical institutions. This platform can seamlessly integrate a wide range of AI agents, including those for data structuring and interoperability monitoring, and flexibly incorporates partner-developed healthcare-specific AI agents. This comprehensive approach supports broad and rapid transformation of operational processes.\n\nTo streamline complex operations, AI agents must collaborate effectively. Fujitsu's healthcare orchestrator AI agent implemented in this platform centrally controls and automates medical operational workflows both within and outside institutions, and can autonomously combine and utilize various specialized medical applications.\n\nBy combining Fujitsu's deep operational knowledge of Japanese medical information systems with NVIDIA's leading agentic AI technology, such as NVIDIA NIM microservices and NVIDIA Blueprints, Fujitsu aims to support the implementation of world-leading medical operational practices.\n\nStory Continues\n\nFor full release click here\n\nSOURCE Fujitsu Limited\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T00:33:08+00:00",
+            "title": "Nvidia CEO Jensen Huang says US tech stack should be global standard companies are built on — including China",
+            "content": "Nvidia (NVDA) CEO Jensen Huang says US tech companies can’t be left out of the China market and that they need to serve as a worldwide standard, akin to how the US dollar is the world’s top reserve currency.\n\n“[President Trump] understands that the American tech stack should be the world standard. Just as the American dollar is the world standard that economies are built on, we want the American tech stack for the world’s technology and industries to be built on, and that includes China,” Huang told Yahoo Finance during an interview following the company’s second quarter earnings.\n\nThe CEO of the world’s most valuable company said that Nvidia is getting the engine “fired back up” to sell chips into the country and already has licenses from the US government.\n\n“We’ve been approved and licensed to be able to ship to China, and now we’re looking for orders in China,” Huang added.\n\nThe company reported Q2 data center revenue topped out at $41.1 billion. Segment revenue was $26.2 billion in the prior-year period. The numbers didn't include sales of its lower-powered H20 chips into China.\n\nIt also issued third quarter guidance of $54 billion plus or minus 2%. And that doesn’t include sales to China. Any additional sales from the country would be a “bonus on top,” Huang said.\n\n“We have every opportunity to succeed in the China market, if they would allow for American technology companies to be able to play there. And so I’m hoping things will get sorted out,” he explained.\n\nDuring the company's earnings call, Nvidia CFO Colette Kress explained that the company is still waiting on the Trump administration to formalize an agreement that will see Nvidia pay the government a 15% cut of its sales into China.\n\nHuang said that, while the company is working with the Trump administration on China, it’s not looking into the kind of deal Intel cut with Washington, nor has that come up in discussions.\n\nIntel (INTC), which is in the midst of a years-long turnaround effort, sold 10% of its business to the Trump administration as it seeks to stabilize its foundry and chip business. Intel continues to lose market share to rival AMD (AMD) and is seeing increased competition in the PC space from Arm-based competitors like Qualcomm (QCOM).\n\nRead more Nvidia earnings coverage\n\nNvidia will report earnings on Wednesday, Aug. 27.\n\nNvidia earnings: CEO Jensen Huang talks data centers, Trump, & China Nvidia stock sinks after data center sales miss forecasts, CEO calls Blackwell demand 'extraordinary' How does Nvidia make money?\n\nHuang also touched on Nvidia’s opportunity in the networking space. The company groups its networking business under its Data Center segment. During Q2, Nvidia saw networking revenue of $7.2 billion, up 98% year over year.\n\n“Just our ethernet product line grew to an annualized rate of $10 billion, and that’s just gotten started. Networking is going to be a very big part of our business. That’s fundamentally recognizing the fusion of computing, networking, and software,” Huang said.\n\nStory Continues\n\nRead more: How does Nvidia make money?\n\nNvidia’s gaming business, meanwhile, outperformed Wall Street’s Q2 expectations. Huang said that’s thanks to both the success of Nvidia’s own GeForce line of graphics chips and sales of the Nintendo Switch 2, which runs on Nvidia’s processors.\n\nHuang said that just as the company started with gaming and brought its technology to bear in AI, it’s bringing AI to gaming to improve overall performance and capabilities.\n\n“AI is coming back to GeForce to revolutionize gaming,” he said. “I’m just really incredibly proud of Switch and incredibly proud of GeForce.”Sign up for Yahoo Finance's Week in Tech newsletter.·yahoofinance\n\nEmail Daniel Howley at dhowley@yahoofinance.com. Follow him on X/Twitter at @DanielHowley.\n\nFor the latest earnings reports and analysis, earnings whispers and expectations, and company earnings news, click here\n\nRead the latest financial and business news from Yahoo Finance",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "NVIDIA Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 36000,
+          "description": "NVIDIA Corporation, a computing infrastructure company, provides graphics and compute and networking solutions in the United States, Singapore, Taiwan, China, Hong Kong, and internationally. The Compute & Networking segment includes its Data Centre accelerated computing platforms and artificial inte"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.09,
+          "profit_margin": 0.5169,
+          "operating_margin": 0.4911,
+          "roe": 1.1546,
+          "roa": 0.5324,
+          "revenue_growth_yoy": 0.692,
+          "earnings_growth_yoy": 0.267,
+          "eps_estimate_current_year": 2.9539,
+          "eps_estimate_next_year": 4.4343,
+          "dividend_yield": 0.0002,
+          "dividend_per_share": 0.04,
+          "revenue_ttm": 148514996224,
+          "revenue_per_share": 6.059,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 58.8252,
+          "forward_pe": 40.3226,
+          "price_to_sales": 29.8484,
+          "price_to_book": 52.8718,
+          "enterprise_value": 4390520247705,
+          "ev_to_revenue": 29.5628,
+          "ev_to_ebitda": 48.2644
+        },
+        "technical_data": {
+          "beta": 2.145,
+          "52_week_high": 184.48,
+          "52_week_low": 86.614,
+          "50_day_ma": 168.4888,
+          "200_day_ma": 138.2832,
+          "short_interest": 0.0082,
+          "short_ratio": 1.17
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.04,
+          "forward_dividend_yield": 0.0002,
+          "payout_ratio": 0.012,
+          "dividend_date": "2025-07-03",
+          "ex_dividend_date": "2025-06-11",
+          "last_split_date": "2024-06-10",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5238,
+          "target_price": 194.2207,
+          "strong_buy": 43,
+          "buy": 12,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 24387600384,
+          "percent_institutions": 68.684,
+          "percent_insiders": 4.317,
+          "shares_float": 23420096000
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125254.0,
+          "total_debt": 10285.0,
+          "net_debt": -4949.0,
+          "working_capital": 63393.0,
+          "shareholders_equity": 83843.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.12
+        },
+        "income_latest_statement": {
+          "total_revenue": 44062.0,
+          "gross_profit": 26668.0,
+          "operating_income": 21638.0,
+          "net_income": 18775.0,
+          "ebitda": 22584.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 60.52,
+          "operating_margin": 49.11,
+          "net_margin": 42.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27414.0,
+          "free_cash_flow": 26187.0,
+          "capex": 1227.0,
+          "net_income": 18775.0,
+          "cash_change": 6645.0,
+          "dividends_paid": -244.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-10-31",
+            "estimate": 1.19,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-10-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 172.02,
+            "high": 174.16,
+            "low": 170.83,
+            "close": 173,
+            "volume": 160841109
+          },
+          {
+            "date": "2025-07-18",
+            "open": 173.64,
+            "high": 174.25,
+            "low": 171.26,
+            "close": 172.41,
+            "volume": 146456406
+          },
+          {
+            "date": "2025-07-21",
+            "open": 172.75,
+            "high": 173.38,
+            "low": 171,
+            "close": 171.38,
+            "volume": 123126094
+          },
+          {
+            "date": "2025-07-22",
+            "open": 171.34,
+            "high": 171.39,
+            "low": 164.58,
+            "close": 167.03,
+            "volume": 193114297
+          },
+          {
+            "date": "2025-07-23",
+            "open": 169.53,
+            "high": 171.26,
+            "low": 167.97,
+            "close": 170.78,
+            "volume": 154082203
+          },
+          {
+            "date": "2025-07-24",
+            "open": 172.44,
+            "high": 173.83,
+            "low": 171.3,
+            "close": 173.74,
+            "volume": 128984602
+          },
+          {
+            "date": "2025-07-25",
+            "open": 173.61,
+            "high": 174.72,
+            "low": 172.96,
+            "close": 173.5,
+            "volume": 122316797
+          },
+          {
+            "date": "2025-07-28",
+            "open": 174.02,
+            "high": 177,
+            "low": 173.97,
+            "close": 176.75,
+            "volume": 140023500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 177.96,
+            "high": 179.38,
+            "low": 175.02,
+            "close": 175.51,
+            "volume": 154077500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 176.51,
+            "high": 179.89,
+            "low": 176.04,
+            "close": 179.27,
+            "volume": 174312188
+          },
+          {
+            "date": "2025-07-31",
+            "open": 182.9,
+            "high": 183.3,
+            "low": 175.93,
+            "close": 177.87,
+            "volume": 221685406
+          },
+          {
+            "date": "2025-08-01",
+            "open": 174.09,
+            "high": 176.54,
+            "low": 170.89,
+            "close": 173.72,
+            "volume": 204528984
+          },
+          {
+            "date": "2025-08-04",
+            "open": 175.16,
+            "high": 180.2,
+            "low": 174.52,
+            "close": 180,
+            "volume": 148174594
+          },
+          {
+            "date": "2025-08-05",
+            "open": 179.62,
+            "high": 180.26,
+            "low": 175.9,
+            "close": 178.26,
+            "volume": 156407594
+          },
+          {
+            "date": "2025-08-06",
+            "open": 176.325,
+            "high": 179.9,
+            "low": 176.25,
+            "close": 179.42,
+            "volume": 137192297
+          },
+          {
+            "date": "2025-08-07",
+            "open": 181.57,
+            "high": 183.88,
+            "low": 178.795,
+            "close": 180.77,
+            "volume": 151878406
+          },
+          {
+            "date": "2025-08-08",
+            "open": 181.55,
+            "high": 183.3,
+            "low": 180.4,
+            "close": 182.7,
+            "volume": 123396703
+          },
+          {
+            "date": "2025-08-11",
+            "open": 182.05,
+            "high": 183.84,
+            "low": 180.25,
+            "close": 182.06,
+            "volume": 138323203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 182.96,
+            "high": 184.48,
+            "low": 179.46,
+            "close": 183.16,
+            "volume": 145729203
+          },
+          {
+            "date": "2025-08-13",
+            "open": 182.615,
+            "high": 183.97,
+            "low": 179.35,
+            "close": 181.59,
+            "volume": 179871703
+          },
+          {
+            "date": "2025-08-14",
+            "open": 179.75,
+            "high": 183.02,
+            "low": 179.46,
+            "close": 182.02,
+            "volume": 129554000
+          },
+          {
+            "date": "2025-08-15",
+            "open": 181.88,
+            "high": 181.9,
+            "low": 178.0417,
+            "close": 180.45,
+            "volume": 156602203
+          },
+          {
+            "date": "2025-08-18",
+            "open": 180.6,
+            "high": 182.9375,
+            "low": 180.59,
+            "close": 182.01,
+            "volume": 132008000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 182.43,
+            "high": 182.5,
+            "low": 175.49,
+            "close": 175.64,
+            "volume": 185229203
+          },
+          {
+            "date": "2025-08-20",
+            "open": 175.165,
+            "high": 176,
+            "low": 168.801,
+            "close": 175.4,
+            "volume": 215142703
+          },
+          {
+            "date": "2025-08-21",
+            "open": 174.85,
+            "high": 176.9,
+            "low": 173.81,
+            "close": 174.98,
+            "volume": 140040891
+          },
+          {
+            "date": "2025-08-22",
+            "open": 172.61,
+            "high": 178.59,
+            "low": 171.2,
+            "close": 177.99,
+            "volume": 172789406
+          },
+          {
+            "date": "2025-08-25",
+            "open": 178.35,
+            "high": 181.91,
+            "low": 176.57,
+            "close": 179.81,
+            "volume": 163012797
+          },
+          {
+            "date": "2025-08-26",
+            "open": 180.055,
+            "high": 182.39,
+            "low": 178.81,
+            "close": 181.77,
+            "volume": 168688188
+          },
+          {
+            "date": "2025-08-27",
+            "open": 181.98,
+            "high": 182.49,
+            "low": 179.1,
+            "close": 181.6,
+            "volume": 235518949
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.2997155129134736,
+        "return_63d": 30.469142898196704,
+        "pct_above_sma50": 7.311481028441082,
+        "sma_50": 169.227,
+        "new_55d_high": "False",
+        "high_55d": 184.48,
+        "rsi": 51.82097411145236,
+        "rsi_in_range": "True",
+        "adx": 35.10502442215743,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.6729019823788565,
+        "bb_width": 6.292198463856348,
+        "keltner_width": 10.83364521107743,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 29679408148.19565,
+        "adv_shares": 165288721.65,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 58.44559423309617,
+        "final_score": 58.44559423309617,
+        "sub_scores": {
+          "trend_momentum": 20.445594233096173,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.469887755683443,
+          "ret_63d": 34.708107707143384,
+          "rsi14": 51.82097411145236,
+          "adx14": 31.500749313975785,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVDA\n• Current Price: $181.6\n• Overall Score: 52.04931291689179\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 168.4888\n• Sma 200: 138.2832\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.469887755683439\n• Momentum 63D: 34.708107707143384\n• Momentum 126D: 38.330286410725165\n• Momentum Acceleration: -31.238219951459946\n• Roc 21D: 3.469887755683439\n• Trend Strength 20D: 0.005436491436908073\n• Trend Direction: 1\n• Ma Ribbon Score: 83.25482012187784\n• Breakout Strength: 0.0\n• Price Velocity: 0.006999575943890379\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 7.0\n• Squeeze Momentum: -0.46176231427681186\n• Volatility Compression: 14.079661332290636\n• Is Consolidating: False\n• Breakout Score: 46.60350617377312\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 20.445594233096173\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 52.11194919984359\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVDA\n• Strike Price: $180\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $16.45\n• Ask: $16.5\n• Last: $16.51\n• Mid: $16.475\n• Spread: 0.3030303030303030303030303030%\n\n**GREEKS ANALYSIS**\n• Delta: 0.579\n• Gamma: 0.0105\n• Theta: -0.0947\n• Vega: 0.345\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4199\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 3256\n• Open Interest: 17297\n• Volume/OI Ratio: 0.18824073538763947\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: NVIDIA Corporation\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $3.09\n• Profit Margin: 51.7%\n• ROE: 115.5%\n• P/E Ratio: 58.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T00:55:28+00:00: 'Buy the Dip' Mentality Still Alive: BCA's Peta...\n• 2025-08-28T00:53:40+00:00: NVIDIA outlines $3T–$4T AI infrastructure opportunity through next five years as...\n• 2025-08-28T00:46:38+00:00: Oil Drops Even as US Raises Pressure on India Over Russian Crude...\n• 2025-08-28T00:40:00+00:00: Fujitsu develops AI agent platform for the healthcare sector to enhance operatio...\n• 2025-08-28T00:33:08+00:00: Nvidia CEO Jensen Huang says US tech stack should be global standard companies a...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-10-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVDA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVDA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:47:12.449521",
+    "estimated_tokens": 2337
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVDA\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 17,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NVDA shows strong technical momentum with price above both SMAs and an 83.25 MA ribbon score, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, momentum acceleration is negative (-31.23) and earnings approach in October creates near-term event risk.\",\n    \"opportunities\": [\n        \"Strong technical trend with price well above 50/200 SMAs (181.6 vs 168.48/138.28)\",\n        \"Excellent liquidity metrics (17,297 OI, tight 0.30% spread)\",\n        \"Active volatility squeeze (7 days duration) with 14.07 compression score\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-31.23) suggests potential slowdown\",\n        \"Earnings coming up on 2025-10-31\",\n        \"High P/E ratio of 58.8x indicates elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $180 strike as lower leg given 0.579 delta and reasonable theta decay\",\n        \"entry_timing\": \"Consider partial position now during squeeze, add on momentum confirmation\",\n        \"risk_management\": \"Size position conservatively given upcoming earnings and high IV of 0.4199\"\n    },\n    \"red_flags\": [\n        \"Earnings event within next 90 days\",\n        \"Negative momentum acceleration trend\"\n    ],\n    \"notes\": \"While fundamentals and technical trend are strong, timing is complicated by approaching earnings and momentum divergence. Consider structured entry approach.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVDA",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 17,
+        "iv_value": 9,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "NVDA shows strong technical momentum with price above both SMAs and an 83.25 MA ribbon score, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, momentum acceleration is negative (-31.23) and earnings approach in October creates near-term event risk.",
+      "opportunities": [
+        "Strong technical trend with price well above 50/200 SMAs (181.6 vs 168.48/138.28)",
+        "Excellent liquidity metrics (17,297 OI, tight 0.30% spread)",
+        "Active volatility squeeze (7 days duration) with 14.07 compression score"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-31.23) suggests potential slowdown",
+        "Earnings coming up on 2025-10-31",
+        "High P/E ratio of 58.8x indicates elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $180 strike as lower leg given 0.579 delta and reasonable theta decay",
+        "entry_timing": "Consider partial position now during squeeze, add on momentum confirmation",
+        "risk_management": "Size position conservatively given upcoming earnings and high IV of 0.4199"
+      },
+      "red_flags": [
+        "Earnings event within next 90 days",
+        "Negative momentum acceleration trend"
+      ],
+      "notes": "While fundamentals and technical trend are strong, timing is complicated by approaching earnings and momentum divergence. Consider structured entry approach."
+    },
+    "tokens_used": 2562,
+    "cost": 0.02562,
+    "response_time": 10.192584753036499,
+    "success": true
+  },
+  "cost": 0.02562,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8547,
+    "response_length": 1707
+  }
+}

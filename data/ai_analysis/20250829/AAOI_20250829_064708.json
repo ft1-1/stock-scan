@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "AAOI",
+  "timestamp": "2025-08-29T06:47:08.240160",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAOI",
+      "package_timestamp": "2025-08-29T06:46:57.307066",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAOI",
+        "current_price": 25.49,
+        "overall_score": 48.778010103604686,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 24.8071,
+        "sma_200": 24.0655
+      },
+      "momentum_metrics": {
+        "momentum_21d": 10.537727666955767,
+        "momentum_63d": 50.56113408151211,
+        "momentum_126d": 6.031613976705488,
+        "momentum_acceleration": -40.02340641455634,
+        "roc_21d": 10.537727666955767,
+        "trend_strength_20d": 0.48366579611122723,
+        "trend_direction": -1,
+        "ma_ribbon_score": 85.26923670717773,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.015404008862383578
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 9.0,
+        "squeeze_momentum": 0.3300940579481516,
+        "volatility_compression": 21.147345333831446,
+        "is_consolidating": "False",
+        "breakout_score": 14.269880273581466,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 21.780040106377104,
+        "squeeze_breakout": 4.0,
+        "options_quality": 0,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 71.0,
+        "squeeze": 58.172101800074714,
+        "options": 10.0,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 25,
+        "percentile": 98.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "AAOI",
+        "strike_price": "20",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.8",
+        "ask": "7.1",
+        "last_price": "6.9",
+        "mid_price": "6.95",
+        "spread_percent": "4.225352112676056338028169014"
+      },
+      "greeks": {
+        "delta": 0.7985,
+        "gamma": 0.0286,
+        "theta": -0.0296,
+        "vega": 0.0263
+      },
+      "volatility_metrics": {
+        "implied_volatility": 1.0495
+      },
+      "liquidity_metrics": {
+        "volume": 1,
+        "open_interest": 252,
+        "volume_oi_ratio": 0.003968253968253968
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:22:02.939249",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-21T14:20:00+00:00",
+            "title": "Lam Research Stock Trades at Low P/E: Should You Buy, Sell or Hold?",
+            "content": "Lam Research Corporation LRCX, a leader in semiconductor fabrication equipment, currently trades at a forward 12-month price-to-earnings (P/E) ratio of 22.32, significantly lower than the Zacks Electronics – Semiconductors industry average of 32.9.\n\nForward 12-Month P/E MultipleZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nLRCX’s P/E multiple is also lower than some other semiconductor fabrication equipment providers, including KLA Corporation KLAC 25.17, ASML Holding ASML 26.39 and Applied Optoelectronics, Inc. AAOI. At present, KLA Corporation, ASML Holding and Applied Optoelectronics have a forward 12-month P/E ratio of 25.17, 26.39 and 39.33, respectively.\n\nThis relatively lower valuation suggests that Lam Research stock could be undervalued, particularly considering its growth potential in artificial intelligence (AI) and high-performance computing (HPC) markets.\n\nAdditionally, Lam Research trades at a discounted P/E multiple despite the stock having a tremendous run this year so far. LRCX shares have soared 37.3% year to date (YTD), outperforming the industry’s gain of 14.6%. Compared with rivals, it has outpaced ASML Holding and Applied Optoelectronics while underperforming KLA Corporation.\n\nYTD Price Return PerformanceZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThis share price outperformance and a low valuation multiple raise the question: Should investors buy, sell or hold LRCX stock?\n\nAI and Data Center Trends Drive LRCX’s Growth Story\n\nLam Research is benefiting from powerful shifts in semiconductor demand, particularly around artificial intelligence (AI) and data center chips. These advanced chips require complex manufacturing, and Lam Research provides the essential tools, like deposition and etching systems, needed to build them.\n\nIn 2024, Lam Research’s shipments for gate-all-around nodes and advanced packaging exceeded $1 billion, and management expects this figure to triple to more than $3 billion in 2025. Additionally, the industry’s migration to backside power distribution and dry-resist processing presents growth opportunities for LRCX’s cutting-edge fabrication solutions.\n\nThese trends are aiding Lam Research’s financial performance. In the fourth quarter of fiscal 2025, the company reported revenues of $5.17 billion, up 34% year over year, and non-GAAP EPS of $1.33, highlighting a 64% increase.\n\nLam Research Corporation Price, Consensus and EPS SurpriseLam Research Corporation Price, Consensus and EPS Surprise\n\nLam Research Corporation price-consensus-eps-surprise-chart | Lam Research Corporation Quote\n\nExpanding its manufacturing operations in Asia has also helped the company lower costs and improve margins. In the fourth quarter of fiscal 2025, Lam Research’s non-GAAP operating margin rose to 34.4%, up 370 basis points from last year, which is impressive, considering the challenging macroeconomic environment.\n\nStory Continues\n\nNear-Term Challenges Persist for Lam Research\n\nWhile Lam Research’s long-term growth outlook remains strong, several near-term challenges warrant caution. One of the primary concerns is the potential for escalating U.S.-China trade tensions, which could impact its sales in China, a market that represents a significant portion of its revenues.\n\nIn fiscal 2025, approximately 34% of Lam Research’s revenues were generated in China, a sharp decline from 42% in fiscal 2025. Given the ongoing restrictions on technology exports to China, LRCX faces heightened risk, creating increased uncertainty and lower visibility in the near term.\n\nThe semiconductor market’s cyclical nature poses a risk to Lam Research’s revenue consistency. NAND pricing pressures and the cautious capital spending among memory and logic clients could limit growth in the near term.\n\nLam Research’s extensive reliance on these segments makes it vulnerable to cyclical downturns. However, as memory spending is projected to rebound by late 2025, the company may weather this period of reduced spending, but the short-term outlook remains uncertain.\n\nConclusion: Hold Lam Research Stock for Now\n\nLam Research’s attractive valuation, strong technological foundation and strategic focus on high-growth markets like AI and HPC make it a compelling long-term investment. While near-term headwinds such as geopolitical risks and cyclical pressures remain, the company’s innovation and operational efficiency provide a solid foundation for future growth. Considering these factors, holding LRCX stock appears to be the most prudent strategy for investors.\n\nLam Research carries a Zacks Rank #3 (Hold) at present. You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nKLA Corporation (KLAC) : Free Stock Analysis Report\n\nASML Holding N.V. (ASML) : Free Stock Analysis Report\n\nLam Research Corporation (LRCX) : Free Stock Analysis Report\n\nApplied Optoelectronics, Inc. (AAOI) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-18T18:07:31+00:00",
+            "title": "UnitedHealth, Duolingo Lead Market Cap Stock Movers on Monday",
+            "content": "Monday’s trading session is showcasing significant movements in stocks across different market capitalizations, with mega-cap UnitedHealth Group (NYSE:UNH) and large-cap  Duolingo  (NASDAQ:DUOL) standing out among the movers. Here’s a look at some of the most notable stock performances today, from the largest companies to smaller players, as they unfold intra-day.\n\nMega-Cap Movers (Market Cap $200B+):\n\nUnitedHealth Group (UNH): +2.64% Palantir Technologies Inc  (NASDAQ:PLTR): -2.71% Facebook Inc  (NASDAQ:META): -2.42%</p>\n\nLarge-Cap Stock Movers (Market Cap $10B-$200B):\n\nDuolingo (DUOL); KeyBanc upgraded to Overweight: +12.27% First Solar Inc  (NASDAQ:FSLR): +9.43%Bullish Inc (BLSH): -7.6% Trade Desk Inc  (NASDAQ:TTD): +5.9% MongoDB  (NASDAQ:MDB): +5.68% EQT Corporation  (NYSE:EQT (ST:EQTAB)): -4.83% Joby Aviation  (NYSE:JOBY): -5.03% Celsius Holdings  (NASDAQ:CELH): +4.52% Royal Caribbean  (NYSE:RCL): +4.39%Jbs NV (JBS): +4.44%</p>\n\nMid-Cap Stock Movers (Market Cap $2B-$10B):\n\nCeridian HCM Holding Inc  (NYSE:DAY): +27.1%Good Works Acquisition (CIFR): +16.51%Applied Blockchain (APLD); to break ground on $3B AI data center: +14.12%Ikonics Corp (WULF); Fluidstack expands TeraWulf data center lease: +11.65%Kindly MD (NAKA): -11.85%Nextracker (NXT): +11.31%Alvotech (ALVO): +9.53%Colonnade Acquisition (OUST); 184.12% YTD return: -9.1% Venaxis  (NASDAQ:RIOT): +7.81%</p>\n\nSmall-Cap Stock Movers (Market Cap $300M-$2B):\n\nGoodrx Holdings Inc (GDRX); offers Ozempic and Wegovy at $499 monthly: +40.16%Xunlei Ltd Adr (XNET): +30.83%Huami Inc (ZEPP): +26.03%Know Labs NYQ (USBC): -23.69%Volcon (EMPD); Empery Digital secures $25M for share repurchases: -21.28% Tonix Pharm  (NASDAQ:TNXP): -20.73% Applied Opt  (NASDAQ:AAOI): +17.75% IQIYI Inc  (NASDAQ:IQ): +15.58%Zhihu ADR (ZH): +16.75%Membership Collective Group (SHCO): +15.31%</p>\n\nFor real-time, market-moving news, join Investing Pro.\n\nThis article was generated with the support of AI and reviewed by an editor. For more information see our T&C.",
+            "url": null
+          },
+          {
+            "date": "2025-08-17T20:23:00+00:00",
+            "title": "1 Growth Stock Down 50% to Buy Right Now",
+            "content": "Key Points\n\nApplied Optoelectronics' stock is up 178% over the past year but still down 50% from its yearly high. Manufacturing in America and Taiwan helps the company avoid most tariff risks. Share dilution has increased sharply, but the stock price has also soared (and dipped, and soared again). 10 stocks we like better than Applied Optoelectronics ›\n\nI know, I know. Applied Optoelectronics(NASDAQ: AAOI) isn't exactly down in the dumps. As of Aug. 15, 2025, it has gained 178% over the last 52 weeks.\n\nBut Applied Optoelectronics earned its price gains the hard and honest way: by selling high-performance optical networking products into several hungry target markets. And despite the impressive one-year return, the stock has dropped 50% from December's multiyear highs.\n\nHere's why I think you should consider buying Applied Optoelectronics' stock in this strange blend of soaring gains and sullen dips.\n\nBooming data center and CATV sales\n\nIn the recent second-quarter report, Applied Optoelectronics saw fantastic growth in its two largest divisions. With the artificial intelligence (AI) market driving strong demand for the company's fastest networking modules, data center sales rose 30% year over year to $44.8 million. Cable TV (CATV) sales soared from $5.8 million to $56.0 million, as an unnamed mega-customer invested in fiber-optic network infrastructure.\n\nThese results included the company's first shipment of 400-gigabit data center transceivers to a tech giant that hadn't been buying Applied Optoelectronics products for several years. Looking ahead, several large customers are testing the as-yet-unreleased 800-gigabit products. Shipments should start before the end of 2025, with the exact timing depending on factory upgrades and customers' qualification testing.\n\nDodging tariffs with smart manufacturing\n\nApplied Optoelectronics also has enough international manufacturing scale to dodge most of the looming tariff costs. Its laser chips have been made in America for years, and next-generation network transceivers will be made in Texas and Taiwan. The most expensive tariff categories are hardly a concern at all, according to earnings-call commentary by CFO Stefan Murry:\n\nIn our 800G and 1.6T transceiver designs, less than 10% of the value of the components used is currently sourced from China, and we have a pathway as we scale production to further reduce this China content, ultimately to near zero. We also are in discussion with several key suppliers about onshoring their production to the US to support a robust domestic supply chain.\n\nStory Continues\n\nImage source: Getty Images.\n\nCan you stomach these investor risks?\n\nBesides AI and CATV networking, Applied Optoelectronics also makes laser-based sensors and network controller chips. It's an exciting company at the nexus of many promising growth markets.\n\nThat being said, it's not a flawless success story. I can see how two issues might keep you from buying Applied Optoelectronics stock.\n\nThe company's financial results are a bit jumpy, as a large chunk of its revenue generation comes from very large orders from a handful of key customers. That's a deal-breaker for investors who prefer a predictable business with smooth revenue streams. However, the bumpy road should calm down over time as Applied Optoelectronics expands its client roster. Applied Optoelectronics is in the habit of printing new shares, largely to support its stock-based compensation program. The share count has increased by a whopping 125% in the last three years. But this dilution took place in a period of impressive stock returns. It's hard to complain about heavy dilution when the stock price still soared 1,340% higher.\n\nThere will be surprises on the road ahead, and not all of them will be pleasant. I'm still impressed by Applied Optoelectronics' disciplined innovation and market-leading performance boosters. Its focus on American manufacturing should also be helpful in this era of international trade tension.\n\nThe AI boom is here to stay, and high-speed networking isn't going out of style any time soon. If you can focus on Applied Optoelectronics' business growth and overcome these potential downsides, I think the stock should serve you well over the next few years.\n\nShould you buy stock in Applied Optoelectronics right now?\n\nBefore you buy stock in Applied Optoelectronics, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Applied Optoelectronics wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $668,155!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,106,071!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,070% — a market-crushing outperformance compared to 184% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 13, 2025\n\nAnders Bylund has no position in any of the stocks mentioned. The Motley Fool has no position in any of the stocks mentioned. The Motley Fool has a disclosure policy.\n\n1 Growth Stock Down 50% to Buy Right Now was originally published by The Motley Fool",
+            "url": null
+          },
+          {
+            "date": "2025-08-17T20:23:00+00:00",
+            "title": "1 Growth Stock Down 50% to Buy Right Now",
+            "content": "The Walt Disney Company(NYSE: DIS) was founded in 1923 but didn't go public until 1957 when it joined the New York Stock Exchange at a share price of $13.88. The company's stock has risen 4,500% since then, alongside consistent earnings growth.\n\nHowever, recent years haven't been kind to the entertainment giant.\n\nData by YCharts.\n\nThe above chart shows how Disney's stock mostly trended up normally until the pandemic hit in 2020, when park and theater closures shuttered large parts of its business. The company enjoyed a short-lived rally in 2021 as investors banded around its recently launched streaming expansion. However, Disney's share price has plunged 50% since peaking in the spring of 2021.\n\nPandemic headwinds combined with an expensive venture into streaming led to investor pullback -- a situation that has taken Disney years to come back from. However, recent earnings suggest there's finally light at the end of the tunnel and a recovery is underway.\n\nAs a result, Disney's stock appears to be a bargain after major declines. So it's become a growth stock down 50% to buy right now.\n\nOn a more stable growth trajectory than its rivals\n\nDisney posted its third-quarter 2024 earnings on Aug. 7. Revenue increased by 4% year over year to $23 billion, outperforming Wall Street estimates by $70 million. Meanwhile, earnings per share of $1.39 beat by $0.20. The period also delivered impressive gains in operating income, which rose 19% year over year to more than $4 billion.\n\nA profit boost was mainly due to growth in Disney's entertainment segment, which saw operating income nearly triple after a major win in streaming. In Q3 2024, the company's streaming business, which includes income from Disney+, ESPN+, and Hulu, hit profitability for the first time -- a quarter earlier than expected.\n\nData by YCharts.\n\nStreaming is a notoriously challenging and costly industry to break into. The chart above compares the earnings growth of some of the top entertainment companies. Warner Bros. Discovery and Comcast have delivered significantly less financial growth over the last year than Disney. While many factors are at play here, it's relatively widely known these organizations have faced repeated headwinds expanding into streaming.\n\nMeanwhile, Disney's solid recovery following a global pandemic and subsequent economic downturn illustrates its staying power and ability to navigate poor market conditions successfully. A recent win in streaming also proves the potency of the Disney brand, as it's been able to retain subscribers.\n\nDisney stock is a bargain compared to its potential\n\nDisney has enjoyed many wins this year. In addition to turning a profit in streaming, the company is the only film studio to make more than $1 billion at the box office in 2024. And Disney has done it twice -- with Inside Out 2, released in June, and Deadpool & Wolverine, which debuted in July.\n\nThe success of this year's Deadpool threequel has reinvigorated interest in Disney's Marvel Cinematic Universe, which had grown stale with audiences after a string of low-performing entries. However, the box-office darling has bolstered hype for new Marvel titles coming in 2025, including the Daredevil: Born Again series for Disney+ and The Fantastic 4: First Steps film, which will be released next July.\n\nRecent quarterly earnings and an exciting content roadmap have put Disney on a promising growth path. Q3 2024 saw some slowdown in the company's parks division, with experiences operating income of $2 billion, down 3% from the previous year.\n\nHowever, park earnings often ebb and flow with the economy and consumer spending power, which has faced uncertainty in recent years. Streaming growth remains a solid reason to invest in Disney, diversifying its business and allowing it to lean less on parks.\n\nData by YCharts.\n\nMoreover, this chart shows Disney's stock is potentially trading at its best value in years, with its price-to-earnings ratio (P/E) and price-to-sales ratio (P/S) below their five-year averages.\n\nRepeated hits to Disney's business since 2019 inflated its P/E and P/S at times. However, positive quarterly results and a sell-off in recent years have made Disney's current position a bargain compared to its potential. The company is in recovery mode, making now an excellent time to buy the dip on this well-known growth stock.\n\nShould you invest $1,000 in Walt Disney right now?\n\nBefore you buy stock in Walt Disney, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Walt Disney wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $779,735!*\n\nStock Advisor provides investors with an easy-to-follow blueprint for success, including guidance on building a portfolio, regular updates from analysts, and two new stock picks each month. TheStock Advisorservice has more than quadrupled the return of S&P 500 since 2002*.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 12, 2024\n\nDani Cook has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Walt Disney and Warner Bros. Discovery. The Motley Fool recommends Comcast. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-15T19:00:59+00:00",
+            "title": "Catalyst Watch: Eyes on Jackson Hole, Walmart report, Google event, and Foot Locker-Dick's vote",
+            "content": "[Trading charts background]\nda-kuk/E+ via Getty Images\n\nWelcome to Seeking Alpha's Catalyst Watch - a breakdown of some of next week's actionable events that stand out. Read more about the events that may impact stock prices next week.\n\nMONDAY - AUGUST 18\n\n \t* VOLATILITY WATCH - Opendoor Technologies (OPEN [https://seekingalpha.com/symbol/OPEN]) and Tilray (TLRY [https://seekingalpha.com/symbol/TLRY]) set up for a volatile week of trading based on options volume. The most overbought stocks per their 14-day relative strength index include Celcuity (CELC [https://seekingalpha.com/symbol/CELC]), Rigel Pharma (RIGL [https://seekingalpha.com/symbol/RIGL]), and Indivior (INDV [https://seekingalpha.com/symbol/INDV]). The most oversold stocks per their 14-day Relative Strength Index include Spirit Aviation (FLYY [https://seekingalpha.com/symbol/FLYY]), Vtex (VTEX [https://seekingalpha.com/symbol/VTEX]), and Monday.com (MNDY [https://seekingalpha.com/symbol/MNDY]). \n \t* EARNINGS WATCH - Notable companies due to report include Palo Alto Networks (PANW [https://seekingalpha.com/symbol/PANW]) and Fabrinet (FN [https://seekingalpha.com/symbol/FN]).\n \t* IPO WATCH - The IPO quiet period expires on NIQ Global Intelligence (NIQ [https://seekingalpha.com/symbol/NIQ]) to free up analysts to post ratings.\n \t* DIVIDEND WATCH - Companies that have an ex-dividend date coming next week include Wynn Resorts (WYNN [https://seekingalpha.com/symbol/WYNN]), Applied Materials (AMAT [https://seekingalpha.com/symbol/AMAT]), and Microsoft (MSFT [https://seekingalpha.com/symbol/MSFT]).\n \t* ALL DAY - Lucid Group (LCID [https://seekingalpha.com/symbol/LCID]) will conduct a special meeting to hold a shareholder vote to approve a proposed 1-for-10 reverse stock split.\n \t* 11 A.M. - Sitio Royalties (STR [https://seekingalpha.com/symbol/STR]) holders will hold vote on sale to Viper Energy (VNOM [https://seekingalpha.com/symbol/VNOM]).\n\nTUESDAY - AUGUST 19\n\n \t* EARNINGS WATCH - Notable companies due to report include Home Depot (HD [https://seekingalpha.com/symbol/HD]), XPeng (XPEV [https://seekingalpha.com/symbol/XPEV]). Options trading implies a strong move for Viking Holdings (VIK [https://seekingalpha.com/symbol/VIK]) after its report is released.\n \t* ALL DAY - Companies due to participate at the closely watched EnerCom Denver Energy Investment Conference include EOG Resources (EOG [https://seekingalpha.com/symbol/EOG]), Sandridge Energy (SD [https://seekingalpha.com/symbol/SD]), and Oklo (OKLO [https://seekingalpha.com/symbol/OKLO]).\n \t* ALL DAY - The Rosenblatt Age of AI Technology Summit will take place. The gathering is recognized as a key event for tracking developments in the AI semiconductor, networking, and infrastructure ecosystem. Some of the companies participating include Nvidia (NVDA [https://seekingalpha.com/symbol/NVDA]), Applied Optoelectronics (AAOI [https://seekingalpha.com/symbol/AAOI]), Fabrinet (FN [https://seekingalpha.com/symbol/FN]), and Rambus (RMBS [https://seekingalpha.com/symbol/RMBS]).\n\nWEDNESDAY - AUGUST 20\n\n \t* EARNINGS WATCH - Notable companies due to report include Target (TGT [https://seekingalpha.com/symbol/TGT]), Lowe's (LOW [https://seekingalpha.com/symbol/LOW]), Baidu (BIDU [https://seekingalpha.com/symbol/BIDU]), TJX Companies (TJX [https://seekingalpha.com/symbol/TJX]), Estee Lauder (EL [https://seekingalpha.com/symbol/EL]), and Analog Devices (ADI [https://seekingalpha.com/symbol/ADI]).\n \t* ALL DAY - Companies due to participate at the Needham Virtual Semiconductor & Semicap Conference include Ultra Clean Holdings (UCTT [https://seekingalpha.com/symbol/UCTT]), Navitas Semiconductor (NVTS [https://seekingalpha.com/symbol/NVTS]), and Tower Semiconductor (TSEM [https://seekingalpha.com/symbol/TSEM]).\n \t* 1:00 P.M. Google (NASDAQ:GOOG [https://seekingalpha.com/symbol/GOOG]) (NASDAQ:GOOGL [https://seekingalpha.com/symbol/GOOGL]) will hold a Pixel event from New York City with a live YouTube stream. The tech giant will unveil the Pixel 10 lineup, Pixel Watch 4, Pixel Buds 2a, and accessories featuring the new Tensor G5 chip. Android 16 QPR1 with Material 3 Expressive design will also debut. In addition, Google is expected to showcase AI-powered features, camera upgrades, and exclusive Google Store offers, with possible surprise product announcements beyond the confirmed devices.\n \t* 2:00 P.M. - The Federal Reserve will release the minutes of its last meeting.\n \t* 2:00 P.M. - Atlanta Federal Reserve Bank President Raphael Bostic will discuss the economic outlook in a moderated conversation before the Fintech South 2025 event.\n\nTHURSDAY - AUGUST 21\n\n \t* EARNINGS WATCH - Notable companies due to report include Walmart (NYSE:WMT [https://seekingalpha.com/symbol/WMT]), Intuit (INTU [https://seekingalpha.com/symbol/INTU]). Workday (WDAY [https://seekingalpha.com/symbol/WDAY]), and Ross Stores (ROST [https://seekingalpha.com/symbol/ROST]).\n \t* ALL DAY - The Federal Reserve's Jackson Hole Symposium will be closely watched for indications of monetary policy changes. This year's theme is \"Labor Markets in Transition: Demographics, Productivity, and Macroeconomic Policy.\" \n \t* ALL DAY - Costco (COST [https://seekingalpha.com/symbol/COST]) will open a new store in Las Vegas. The location will be the sixth Costco location in the Las Vegas Valley and the first new one since 2018.\n \t* ALL DAY - It is the FDA action date on Ionis Pharmaceuticals' (IONS [https://seekingalpha.com/symbol/IONS]) Donidalorsen for hereditary angioedema.\n \t* ALL DAY - Disney's (DIS [https://seekingalpha.com/symbol/DIS]) ESPN will launch its new direct-to-consumer streaming service offering access to all of ESPN's linear networks plus ESPN+, SEC Network+, and ACCNX. Priced at $29.99 per month, the service will feature 47,000 live events annually, on-demand replays, studio shows, and original programming.\n \t* ALL DAY - Global flash PMIs for August will be released. The resilience of the global economy amid new U.S. tariffs will be in focus after the July manufacturing PMI fell below 50 in the U.S.\n \t* 10:00 A.M. - Foot Locker (NYSE:FL [https://seekingalpha.com/symbol/FL]) will hold an extraordinary shareholders meeting to vote on the proposed merger with Dick's Sporting Goods (NYSE:DKS [https://seekingalpha.com/symbol/DKS]).\n \t* 10:00 A.M. - Trial with Federal Trade Commission trying to block GTCR's purchase of Surmodics (SRDX [https://seekingalpha.com/symbol/SRDX]) set to begin.\n\nFRIDAY - AUGUST 22\n\n \t* EARNINGS WATCH - Notable companies due to report include BJ's Wholesale (BJ [https://seekingalpha.com/symbol/BJ]) and RLX Technology (RLX [https://seekingalpha.com/symbol/RLX]).\n \t* ALL DAY - Federal Reserve Chairman Jerome Powell will give a highly anticipated speech in Jackson Hole focusing on the economic outlook and the Fed's policy framework. Powell is not expected to address the pressure from the White House on shaping interest rate policy.\n \t* ALL DAY - Bandwidth (BAND [https://seekingalpha.com/symbol/BAND]) will present at the Piper Sandler Voice AI Day event.\n\n_Seeking Alpha Editor Josh Fineman contributed to this article._\n\nMORE ON THE MARKETS\n\n \t* Forget The September Rate Cut [https://seekingalpha.com/article/4813782-forget-the-september-rate-cut]\n \t* AAII Sentiment Survey: Optimism Slides [https://seekingalpha.com/article/4813732-aaii-sentiment-survey-optimism-slides]\n \t* Slowing Growth And Rising Federal Debt Complicate U.S. Economic Outlook [https://seekingalpha.com/article/4813686-slowing-growth-rising-federal-debt-complicate-us-economic-outlook]\n \t* Trump-Putin summit: What to expect [https://seekingalpha.com/news/4485866-trump-putin-alaska-summit-ukraine]\n \t* AI-linked investment lifted GDP by a half a point in early 2025, Pantheon says [https://seekingalpha.com/news/4485629-ai-linked-investment-lifted-gdp-by-a-half-a-point-in-early-2025-pantheon-says]\n\n ",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Applied Opt",
+          "sector": "Technology",
+          "industry": "Communication Equipment",
+          "employees": 3309,
+          "description": "Applied Optoelectronics, Inc. designs, manufactures, and sells fiber-optic networking products in the United States, Taiwan, and China. It offers optical modules, optical filters, lasers, laser components, subassemblies, transmitters and transceivers, turn-key equipment, headend, node, and distribut"
+        },
+        "financial_metrics": {
+          "eps_ttm": -3.57,
+          "profit_margin": -0.4229,
+          "operating_margin": -0.1552,
+          "roe": -0.5093,
+          "roa": -0.0523,
+          "revenue_growth_yoy": 1.379,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": -0.23,
+          "eps_estimate_next_year": 0.7467,
+          "revenue_ttm": 368232992,
+          "revenue_per_share": 7.543,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 84.0336,
+          "price_to_sales": 4.3163,
+          "price_to_book": 3.5287,
+          "enterprise_value": 1646131996,
+          "ev_to_revenue": 4.4704,
+          "ev_to_ebitda": -19.3496
+        },
+        "technical_data": {
+          "beta": 2.717,
+          "52_week_high": 44.5,
+          "52_week_low": 9.711,
+          "50_day_ma": 24.8071,
+          "200_day_ma": 24.0655,
+          "short_interest": 0.1989,
+          "short_ratio": 2.41
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.2,
+          "target_price": 27.2,
+          "strong_buy": 2,
+          "buy": 2,
+          "hold": 1,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 62353800,
+          "percent_institutions": 59.626999999999995,
+          "percent_insiders": 4.8950000000000005,
+          "shares_float": 59208718
+        },
+        "balance_latest_sheet": {
+          "total_assets": 796.85,
+          "total_debt": 179.114,
+          "net_debt": 114.415,
+          "working_capital": 241.495,
+          "shareholders_equity": 424.981,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.42
+        },
+        "income_latest_statement": {
+          "total_revenue": 102.952,
+          "gross_profit": 31.162,
+          "operating_income": -15.976,
+          "net_income": -9.098,
+          "ebitda": -15.976,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 30.27,
+          "operating_margin": -15.52,
+          "net_margin": -8.84
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -65.474,
+          "free_cash_flow": -90.953,
+          "capex": 25.479,
+          "net_income": -9.098,
+          "cash_change": 20.384,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.0132,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 30,
+            "high": 30.2,
+            "low": 27.63,
+            "close": 28.63,
+            "volume": 3935997
+          },
+          {
+            "date": "2025-07-21",
+            "open": 28.68,
+            "high": 29.44,
+            "low": 27.98,
+            "close": 28.23,
+            "volume": 3092370
+          },
+          {
+            "date": "2025-07-22",
+            "open": 28.18,
+            "high": 28.23,
+            "low": 25.4,
+            "close": 26.35,
+            "volume": 5039409
+          },
+          {
+            "date": "2025-07-23",
+            "open": 27.2,
+            "high": 27.778,
+            "low": 25.915,
+            "close": 26.305,
+            "volume": 3038743
+          },
+          {
+            "date": "2025-07-24",
+            "open": 26.56,
+            "high": 27.45,
+            "low": 25.7,
+            "close": 25.84,
+            "volume": 3064231
+          },
+          {
+            "date": "2025-07-25",
+            "open": 26.41,
+            "high": 27.88,
+            "low": 25.77,
+            "close": 27.13,
+            "volume": 4194173
+          },
+          {
+            "date": "2025-07-28",
+            "open": 27.51,
+            "high": 27.59,
+            "low": 24.76,
+            "close": 25.22,
+            "volume": 5495001
+          },
+          {
+            "date": "2025-07-29",
+            "open": 25.54,
+            "high": 26.35,
+            "low": 23.99,
+            "close": 24.11,
+            "volume": 4077056
+          },
+          {
+            "date": "2025-07-30",
+            "open": 24.3,
+            "high": 24.57,
+            "low": 22.4,
+            "close": 23.06,
+            "volume": 5050994
+          },
+          {
+            "date": "2025-07-31",
+            "open": 23.78,
+            "high": 24.53,
+            "low": 22.86,
+            "close": 22.87,
+            "volume": 5361532
+          },
+          {
+            "date": "2025-08-01",
+            "open": 21.46,
+            "high": 22.3,
+            "low": 20.94,
+            "close": 21.53,
+            "volume": 5885907
+          },
+          {
+            "date": "2025-08-04",
+            "open": 22.71,
+            "high": 22.85,
+            "low": 21.4539,
+            "close": 22.19,
+            "volume": 3617413
+          },
+          {
+            "date": "2025-08-05",
+            "open": 22.36,
+            "high": 22.36,
+            "low": 20.48,
+            "close": 21.415,
+            "volume": 4020382
+          },
+          {
+            "date": "2025-08-06",
+            "open": 21.72,
+            "high": 23.375,
+            "low": 21.52,
+            "close": 23.23,
+            "volume": 5727556
+          },
+          {
+            "date": "2025-08-07",
+            "open": 23.56,
+            "high": 23.6,
+            "low": 21.8017,
+            "close": 22.33,
+            "volume": 6412023
+          },
+          {
+            "date": "2025-08-08",
+            "open": 23.975,
+            "high": 24.4,
+            "low": 20.67,
+            "close": 21.59,
+            "volume": 12222900
+          },
+          {
+            "date": "2025-08-11",
+            "open": 21.6,
+            "high": 21.6,
+            "low": 19.885,
+            "close": 20.86,
+            "volume": 5699699
+          },
+          {
+            "date": "2025-08-12",
+            "open": 21.33,
+            "high": 23.8106,
+            "low": 21.305,
+            "close": 22.79,
+            "volume": 5558993
+          },
+          {
+            "date": "2025-08-13",
+            "open": 23.645,
+            "high": 24.3,
+            "low": 22.095,
+            "close": 23.02,
+            "volume": 4930741
+          },
+          {
+            "date": "2025-08-14",
+            "open": 22.13,
+            "high": 22.5,
+            "low": 20.459,
+            "close": 21.01,
+            "volume": 4933253
+          },
+          {
+            "date": "2025-08-15",
+            "open": 21.81,
+            "high": 22.96,
+            "low": 21.315,
+            "close": 22.365,
+            "volume": 4211058
+          },
+          {
+            "date": "2025-08-18",
+            "open": 22.78,
+            "high": 26.968,
+            "low": 22,
+            "close": 26.13,
+            "volume": 8720260
+          },
+          {
+            "date": "2025-08-19",
+            "open": 25.52,
+            "high": 25.79,
+            "low": 22.52,
+            "close": 22.77,
+            "volume": 6877937
+          },
+          {
+            "date": "2025-08-20",
+            "open": 22.5,
+            "high": 22.5999,
+            "low": 20.7189,
+            "close": 21.93,
+            "volume": 4400340
+          },
+          {
+            "date": "2025-08-21",
+            "open": 21.82,
+            "high": 23.75,
+            "low": 21.6,
+            "close": 23.7,
+            "volume": 4430630
+          },
+          {
+            "date": "2025-08-22",
+            "open": 23.47,
+            "high": 25.99,
+            "low": 23.35,
+            "close": 24.79,
+            "volume": 5150343
+          },
+          {
+            "date": "2025-08-25",
+            "open": 25.075,
+            "high": 26.33,
+            "low": 24.33,
+            "close": 24.34,
+            "volume": 5866378
+          },
+          {
+            "date": "2025-08-26",
+            "open": 25.79,
+            "high": 26.3299,
+            "low": 24.75,
+            "close": 25.07,
+            "volume": 5071895
+          },
+          {
+            "date": "2025-08-27",
+            "open": 25.2,
+            "high": 25.54,
+            "low": 24.025,
+            "close": 24.05,
+            "volume": 4676163
+          },
+          {
+            "date": "2025-08-28",
+            "open": 24.3,
+            "high": 25.93,
+            "low": 22.45,
+            "close": 25.49,
+            "volume": 5717256
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 11.456055968517697,
+        "return_63d": 65.3047989623865,
+        "pct_above_sma50": 2.0363231697309634,
+        "sma_50": 24.981299999999997,
+        "new_55d_high": "False",
+        "high_55d": 31.58,
+        "rsi": 59.41119691119691,
+        "rsi_in_range": "True",
+        "adx": 27.541780968088773,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 9.50961161239702,
+        "bb_width": 26.688309519632515,
+        "keltner_width": 42.10916723432538,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 131421992.74049997,
+        "adv_shares": 5706556.35,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 36.7800401063771,
+        "final_score": 31.7800401063771,
+        "sub_scores": {
+          "trend_momentum": 21.780040106377104,
+          "squeeze_breakout": 4.0,
+          "options_quality": 0,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 10.537727666955776,
+          "ret_63d": 50.56113408151211,
+          "rsi14": 59.41119691119691,
+          "adx14": 26.78859529827093,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAOI\n• Current Price: $25.49\n• Overall Score: 48.778010103604686\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 24.8071\n• Sma 200: 24.0655\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 10.537727666955767\n• Momentum 63D: 50.56113408151211\n• Momentum 126D: 6.031613976705488\n• Momentum Acceleration: -40.02340641455634\n• Roc 21D: 10.537727666955767\n• Trend Strength 20D: 0.48366579611122723\n• Trend Direction: -1\n• Ma Ribbon Score: 85.26923670717773\n• Breakout Strength: 0.0\n• Price Velocity: 0.015404008862383578\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 9.0\n• Squeeze Momentum: 0.3300940579481516\n• Volatility Compression: 21.147345333831446\n• Is Consolidating: False\n• Breakout Score: 14.269880273581466\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 21.780040106377104\n• Squeeze Breakout: 4.0\n• Options Quality: 0\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 71.0\n• Squeeze: 58.172101800074714\n• Options: 10.0\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: AAOI\n• Strike Price: $20\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.8\n• Ask: $7.1\n• Last: $6.9\n• Mid: $6.95\n• Spread: 4.225352112676056338028169014%\n\n**GREEKS ANALYSIS**\n• Delta: 0.7985\n• Gamma: 0.0286\n• Theta: -0.0296\n• Vega: 0.0263\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 1.0495\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 1\n• Open Interest: 252\n• Volume/OI Ratio: 0.003968253968253968\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Applied Opt\n• Sector: Technology\n• Industry: Communication Equipment\n• EPS (TTM): $-3.57\n• Profit Margin: -42.3%\n• ROE: -50.9%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-21T14:20:00+00:00: Lam Research Stock Trades at Low P/E: Should You Buy, Sell or Hold?...\n• 2025-08-18T18:07:31+00:00: UnitedHealth, Duolingo Lead Market Cap Stock Movers on Monday...\n• 2025-08-17T20:23:00+00:00: 1 Growth Stock Down 50% to Buy Right Now...\n• 2025-08-17T20:23:00+00:00: 1 Growth Stock Down 50% to Buy Right Now...\n• 2025-08-15T19:00:59+00:00: Catalyst Watch: Eyes on Jackson Hole, Walmart report, Google event, and Foot Loc...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAOI\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAOI opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:47:08.239325",
+    "estimated_tokens": 2311
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAOI\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 5,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 8\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AAOI shows mixed technical signals with positive momentum (21D: +10.53%) and MA ribbon strength (85.27), but faces fundamental challenges with negative earnings and margins. The current squeeze setup (9 days duration) and multi-timeframe compression (3 counts) suggest potential volatility expansion ahead.\",\n    \"opportunities\": [\n        \"Strong MA ribbon score of 85.27 indicating technical strength\",\n        \"Active volatility squeeze with 9-day duration and 3 timeframe compression\",\n        \"Price trading above both 50 SMA (24.80) and 200 SMA (24.06)\"\n    ],\n    \"risks\": [\n        \"Poor fundamentals with -42.3% profit margin and -$3.57 EPS\",\n        \"Low options liquidity with Vol/OI ratio of only 0.004\",\n        \"Earnings approaching on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Limited engagement due to wide spreads (4.22%) and poor liquidity\",\n        \"entry_timing\": \"Wait for improved options liquidity conditions\",\n        \"risk_management\": \"Consider smaller position size and strict stops due to fundamental weakness\"\n    },\n    \"red_flags\": [\n        \"Extremely poor options liquidity (Vol/OI: 0.004)\",\n        \"Negative earnings and deteriorating fundamentals\",\n        \"Earnings event within 45 days\"\n    ],\n    \"notes\": \"While technical setup shows promise, poor options market quality and fundamental weakness suggest elevated risk. Consider alternative vehicles or wait for improved conditions.\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAOI",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 5,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 8
+      },
+      "confidence": "medium",
+      "thesis": "AAOI shows mixed technical signals with positive momentum (21D: +10.53%) and MA ribbon strength (85.27), but faces fundamental challenges with negative earnings and margins. The current squeeze setup (9 days duration) and multi-timeframe compression (3 counts) suggest potential volatility expansion ahead.",
+      "opportunities": [
+        "Strong MA ribbon score of 85.27 indicating technical strength",
+        "Active volatility squeeze with 9-day duration and 3 timeframe compression",
+        "Price trading above both 50 SMA (24.80) and 200 SMA (24.06)"
+      ],
+      "risks": [
+        "Poor fundamentals with -42.3% profit margin and -$3.57 EPS",
+        "Low options liquidity with Vol/OI ratio of only 0.004",
+        "Earnings approaching on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Limited engagement due to wide spreads (4.22%) and poor liquidity",
+        "entry_timing": "Wait for improved options liquidity conditions",
+        "risk_management": "Consider smaller position size and strict stops due to fundamental weakness"
+      },
+      "red_flags": [
+        "Extremely poor options liquidity (Vol/OI: 0.004)",
+        "Negative earnings and deteriorating fundamentals",
+        "Earnings event within 45 days"
+      ],
+      "notes": "While technical setup shows promise, poor options market quality and fundamental weakness suggest elevated risk. Consider alternative vehicles or wait for improved conditions."
+    },
+    "tokens_used": 2548,
+    "cost": 0.02548,
+    "response_time": 10.930426359176636,
+    "success": true
+  },
+  "cost": 0.02548,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8456,
+    "response_length": 1738
+  }
+}

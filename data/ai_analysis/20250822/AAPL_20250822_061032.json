@@ -1,0 +1,580 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "timestamp": "2025-08-22T06:10:32.803352",
+  "data_package": {
+    "metadata": {
+      "symbol": "AAPL",
+      "package_timestamp": "2025-08-22T06:10:05.049517",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 68.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "AAPL",
+        "current_price": 224.9,
+        "overall_score": 35.24413618069309,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 211.6606,
+        "sma_200": 220.9975
+      },
+      "momentum_metrics": {
+        "momentum_21d": 5.019845902404856,
+        "roc_21d": 5.019845902404856,
+        "trend_strength_20d": 0.5901781499602101,
+        "trend_direction": 0,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.006841960903493561
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "volatility_compression": 31.5994111513082,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "technical": 55.0,
+        "momentum": 58.0,
+        "squeeze": 9.73991167269623,
+        "options": 10.0,
+        "quality": 30.46153846153846
+      },
+      "risk_assessment": {
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "AAPL",
+        "strike_price": "170",
+        "expiration_date": "2025-08-22",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "54.2",
+        "ask": "55",
+        "last_price": "61.05",
+        "mid_price": "54.6",
+        "spread_percent": "1.454545454545454545454545455"
+      },
+      "greeks": {
+        "delta": 1.0,
+        "gamma": 0.0,
+        "theta": -0.0192,
+        "vega": 0.0
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 113,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-22T06:10:04.533711",
+        "market_status": "pre_market",
+        "market_trend": "unknown",
+        "volatility_index": {
+          "level": 16.6,
+          "change": 0.91,
+          "change_percent": 5.7999,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "Financière de Tubize - Bijeenroeping van de buitengewone vergadering van aandeelhouders van 24 september 2025",
+            "content": "Bijeenroeping van de Buitengewone Vergadering van aandeelhouders van 24 september 2025\n\nDe aandeelhouders worden uitgenodigd om deel te nemen aan de buitengewone vergadering die zal gehouden worden op 24 september 2025, om 10 uur te 1050 Brussel, Marsveldplein 5, om de hieronder vermelde agenda te bespreken.\n\nDe algemene vergadering zal op hybride wijze worden georganiseerd, zowel persoonlijk als digitaal, in overeenstemming met artikel 7:137, §1 van het Wetboek van vennootschappen en vereniging",
+            "sentiment": {
+              "polarity": -0.997,
+              "neg": 0.047,
+              "neu": 0.95,
+              "pos": 0.003
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "Transaction in Own Shares",
+            "content": "LEI: 213800NNT42FFIZB1T09  \r\n22 August 2025\n\nTransaction in Own Shares\n\nForesight Group Holdings Limited (\"Foresight\", the \"Group\"), a leading investment manager in real assets and providing capital for growth, announces that, in accordance with the terms of its new share buyback programme announced on 10 April 2025 (the “Share Buyback”), the Group purchased the following number of its ordinary shares of £nil par value (“Ordinary Shares”) each through JOH Berenberg, Gossler & Co KG (which is tra",
+            "sentiment": {
+              "polarity": 0.997,
+              "neg": 0.013,
+              "neu": 0.84,
+              "pos": 0.147
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "Middlefield Canadian Income PCC - Update on Proposed Rollover into UCITS ETF",
+            "content": "Middlefield Canadian Income PCC (the “Company”)\r\nIncluding Middlefield Canadian Income – GBP PC (the “Fund”), a cell of the Company\r\nRegistered No:  93546 Legal Entity Identifier: 2138007ENW3JEJXC8658\n\n22 August 2025\n\nUpdate on Proposed Rollover into UCITS ETF\n\nOn 2 May 2025, Middlefield Canadian Income PCC (the “Company”) and Middlefield Canadian Income – GBP PC (the “Fund”) announced their intention to propose a voluntary winding up of the Company and the Fund, together with the option for sha",
+            "sentiment": {
+              "polarity": 0.995,
+              "neg": 0.014,
+              "neu": 0.874,
+              "pos": 0.111
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T06:00:00+00:00",
+            "title": "NBPE - Transaction in Own Shares",
+            "content": "NB Private Equity Partners Announces Transaction in Own Shares\n\nSt Peter Port, Guernsey 22 August 2025\n\nNB Private Equity Partners (“NBPE” or the “Company”) today announces details of Class A Shares bought back pursuant to general authority granted by shareholders of the Company on 12 June 2025 and the share buy-back agreement with Jefferies International Limited.\n\nTransaction on London Stock Exchange\n\nDate of purchase of Shares 21 August 2025Number of Shares purchased 3,000 Class A SharesHighes",
+            "sentiment": {
+              "polarity": 0.995,
+              "neg": 0.024,
+              "neu": 0.808,
+              "pos": 0.168
+            },
+            "url": null
+          },
+          {
+            "date": "2025-08-22T05:59:00+00:00",
+            "title": "AB „KN Energies“ pristato 2025 metų šešių mėnesių neaudituotus finansinius rezultatus internetiniame seminare",
+            "content": "Š. m. rugpjūčio 22 d. 9.00 val. AB „KN Energies“ akcininkams, investuotojams, analitikams ir visiems besidomintiems pristato 2025 m. šešių mėnesių neaudituotus finansinius rezultatus internetiniame seminare (angl. „webinar“), kuris vyksta anglų kalba.\n\nKN Finansų direktorius Tomas Tumėnas pakomentuos KN Grupės 2025 metų šešių mėnesių finansinius rezultatus ir po prezentacijos atsakys į dalyvių klausimus.\n\nInternetinio seminaro metu pristatoma prezentacija (lietuvių kalba) pridedama.\n\nTomas Tumėn",
+            "sentiment": {
+              "polarity": -0.557,
+              "neg": 0.053,
+              "neu": 0.947,
+              "pos": 0
+            },
+            "url": null
+          }
+        ],
+        "articles_count": 5,
+        "sentiment_summary": {
+          "overall": "positive",
+          "positive_count": 3,
+          "negative_count": 1,
+          "neutral_count": 1,
+          "total_analyzed": 5
+        }
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Apple Inc",
+          "sector": "Technology",
+          "industry": "Consumer Electronics",
+          "employees": 150000,
+          "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai"
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.6,
+          "profit_margin": 0.243,
+          "operating_margin": 0.2999,
+          "roe": 1.4981,
+          "roa": 0.2455,
+          "revenue_growth_yoy": 0.096,
+          "earnings_growth_yoy": 0.121,
+          "eps_estimate_current_year": 7.3832,
+          "eps_estimate_next_year": 7.9458,
+          "dividend_yield": 0.0045,
+          "dividend_per_share": 1.01,
+          "revenue_ttm": 408624988160,
+          "revenue_per_share": 27.173,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 34.0758,
+          "forward_pe": 28.3286,
+          "price_to_sales": 8.1679,
+          "price_to_book": 50.9506,
+          "enterprise_value": 3400402543900,
+          "ev_to_revenue": 8.3216,
+          "ev_to_ebitda": 23.9979
+        },
+        "technical_data": {
+          "beta": 1.165,
+          "52_week_high": 259.18,
+          "52_week_low": 168.7968,
+          "50_day_ma": 211.6606,
+          "200_day_ma": 220.9975,
+          "short_interest": 0.0071,
+          "short_ratio": 2.05
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.04,
+          "forward_dividend_yield": 0.0046,
+          "payout_ratio": 0.1548,
+          "dividend_date": "2025-08-14",
+          "ex_dividend_date": "2025-08-11",
+          "last_split_date": "2020-08-31",
+          "last_split_factor": "4:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.913,
+          "target_price": 228.7593,
+          "strong_buy": 20,
+          "buy": 7,
+          "hold": 16,
+          "sell": 1,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 14840399872,
+          "percent_institutions": 63.658,
+          "percent_insiders": 1.97,
+          "shares_float": 14814270914
+        },
+        "balance_latest_sheet": {
+          "total_assets": 331495.0,
+          "total_debt": 101698.0,
+          "cash_and_equivalents": 9583.0,
+          "net_debt": 71233.0,
+          "working_capital": -18629.0,
+          "shareholders_equity": 65830.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.54
+        },
+        "income_latest_statement": {
+          "total_revenue": 94036.0,
+          "gross_profit": 43718.0,
+          "operating_income": 28202.0,
+          "net_income": 23434.0,
+          "ebitda": 31032.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 46.49,
+          "operating_margin": 29.99,
+          "net_margin": 24.92
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27867.0,
+          "free_cash_flow": 24405.0,
+          "capex": 3462.0,
+          "net_income": 23434.0,
+          "cash_change": 8107.0,
+          "dividends_paid": 3945.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "current_market_data": {
+        "change": -1.11,
+        "change_percent": -0.4911,
+        "volume": 30389868
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-09-30",
+            "estimate": 0.95,
+            "symbol": null
+          },
+          {
+            "date": "2024-12-31",
+            "estimate": 2.34,
+            "symbol": null
+          },
+          {
+            "date": "2025-03-31",
+            "estimate": 1.62,
+            "symbol": null
+          },
+          {
+            "date": "2025-06-30",
+            "estimate": 1.41,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-08-21",
+            "open": 226.28,
+            "high": 226.52,
+            "low": 223.7804,
+            "close": 224.9,
+            "volume": 30389868
+          },
+          {
+            "date": "2025-08-20",
+            "open": 229.98,
+            "high": 230.47,
+            "low": 225.77,
+            "close": 226.01,
+            "volume": 42263900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 231.28,
+            "high": 232.87,
+            "low": 229.35,
+            "close": 230.56,
+            "volume": 39402600
+          },
+          {
+            "date": "2025-08-18",
+            "open": 231.7,
+            "high": 233.12,
+            "low": 230.11,
+            "close": 230.89,
+            "volume": 37476200
+          },
+          {
+            "date": "2025-08-15",
+            "open": 234,
+            "high": 234.28,
+            "low": 229.34,
+            "close": 231.59,
+            "volume": 56038700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 234.06,
+            "high": 235.12,
+            "low": 230.85,
+            "close": 232.78,
+            "volume": 51916300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 231.07,
+            "high": 235,
+            "low": 230.43,
+            "close": 233.33,
+            "volume": 69878500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 228.01,
+            "high": 230.8,
+            "low": 227.07,
+            "close": 229.65,
+            "volume": 55626200
+          },
+          {
+            "date": "2025-08-11",
+            "open": 227.92,
+            "high": 229.56,
+            "low": 224.76,
+            "close": 227.18,
+            "volume": 61806100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 220.83,
+            "high": 231,
+            "low": 219.25,
+            "close": 229.35,
+            "volume": 113854000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 218.88,
+            "high": 220.85,
+            "low": 216.58,
+            "close": 220.03,
+            "volume": 90224800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 205.63,
+            "high": 215.38,
+            "low": 205.59,
+            "close": 213.25,
+            "volume": 108483100
+          },
+          {
+            "date": "2025-08-05",
+            "open": 203.4,
+            "high": 205.34,
+            "low": 202.16,
+            "close": 202.92,
+            "volume": 44155100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 204.51,
+            "high": 207.88,
+            "low": 201.68,
+            "close": 203.35,
+            "volume": 75109300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 210.87,
+            "high": 213.58,
+            "low": 201.5,
+            "close": 202.38,
+            "volume": 104434500
+          },
+          {
+            "date": "2025-07-31",
+            "open": 208.49,
+            "high": 209.84,
+            "low": 207.16,
+            "close": 207.57,
+            "volume": 80698400
+          },
+          {
+            "date": "2025-07-30",
+            "open": 211.9,
+            "high": 212.39,
+            "low": 207.72,
+            "close": 209.05,
+            "volume": 45512500
+          },
+          {
+            "date": "2025-07-29",
+            "open": 214.18,
+            "high": 214.81,
+            "low": 210.82,
+            "close": 211.27,
+            "volume": 51411700
+          },
+          {
+            "date": "2025-07-28",
+            "open": 214.03,
+            "high": 214.85,
+            "low": 213.06,
+            "close": 214.05,
+            "volume": 37858000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 214.7,
+            "high": 215.24,
+            "low": 213.4,
+            "close": 213.88,
+            "volume": 40268800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 213.9,
+            "high": 215.69,
+            "low": 213.53,
+            "close": 213.76,
+            "volume": 46022600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 215,
+            "high": 215.15,
+            "low": 212.41,
+            "close": 214.15,
+            "volume": 46989300
+          }
+        ],
+        "data_points": 22,
+        "date_range": {
+          "start": "2025-08-21",
+          "end": "2025-07-23"
+        }
+      },
+      "sentiment_analysis": {
+        "latest_date": "2025-08-22",
+        "latest_score": 0.4796,
+        "avg_7day_score": 0.7032,
+        "data_points": 31
+      },
+      "risk_metrics": {
+        "sharpe_ratio": 0.039,
+        "sortino_ratio": 0.052,
+        "max_drawdown": -0.334,
+        "volatility_annual": 0.321,
+        "downside_deviation": 0.238,
+        "beta": 1.0,
+        "calculation_period": "2024-08-22 to 2025-08-22",
+        "data_points": 249
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.21145209580839,
+        "rsi": 75.25796321220278,
+        "rsi_in_range": "False",
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.343032458870611,
+        "bb_width": 20.223819023097793,
+        "keltner_width": 9.585759721865477,
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 13586311199.2658,
+        "adv_shares": 61840428.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 5,
+        "news_activity": "low"
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 80.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 68.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: AAPL\n• Current Price: $224.9\n• Overall Score: 35.24413618069309\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 211.6606\n• Sma 200: 220.9975\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 5.019845902404856\n• Roc 21D: 5.019845902404856\n• Trend Strength 20D: 0.5901781499602101\n• Trend Direction: 0\n• Breakout Strength: 0.0\n• Price Velocity: -0.006841960903493561\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Volatility Compression: 31.5994111513082\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Technical: 55.0\n• Momentum: 58.0\n• Squeeze: 9.73991167269623\n• Options: 10.0\n• Quality: 30.46153846153846\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: AAPL\n• Strike Price: $170\n• Expiration: 2025-08-22\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $54.2\n• Ask: $55\n• Last: $61.05\n• Mid: $54.6\n• Spread: 1.454545454545454545454545455%\n\n**GREEKS ANALYSIS**\n• Delta: 1.0\n• Gamma: 0.0\n• Theta: -0.0192\n• Vega: 0.0\n• Rho: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 113\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**LIVE MARKET DATA**\n• Current Price: $N/A\n• Change: $-1.11 (-0.4911%)\n• Volume: 30389868\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Apple Inc\n• Sector: Technology\n• Industry: Consumer Electronics\n• EPS (TTM): $6.6\n• Profit Margin: 24.3%\n• ROE: 149.8%\n• P/E Ratio: 34.1\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T06:00:00+00:00: Financière de Tubize - Bijeenroeping van de buitengewone vergadering van aandeel...\n• 2025-08-22T06:00:00+00:00: Transaction in Own Shares...\n• 2025-08-22T06:00:00+00:00: Middlefield Canadian Income PCC - Update on Proposed Rollover into UCITS ETF...\n• 2025-08-22T06:00:00+00:00: NBPE - Transaction in Own Shares...\n• 2025-08-22T05:59:00+00:00: AB „KN Energies“ pristato 2025 metų šešių mėnesių neaudituotus finansinius rezul...\n• Overall Sentiment: positive\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-09-30\n\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 68.8%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR AAPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the AAPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-22T06:10:32.803309",
+    "estimated_tokens": 2264
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"AAPL\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 6,\n        \"fundamentals\": 9,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"AAPL shows moderate bullish momentum with price above both SMAs and positive 21-day ROC of 5.02%, supported by strong fundamentals with 24.3% profit margin and 149.8% ROE. However, declining price velocity and absence of volatility squeeze suggest cautious positioning.\",\n    \"opportunities\": [\n        \"Price trading above both 50-day (211.66) and 200-day (220.99) SMAs\",\n        \"Strong fundamental metrics with 24.3% profit margin and healthy ROE\",\n        \"Reasonable options liquidity with 1.45% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative price velocity (-0.006842) indicating momentum weakness\",\n        \"No current volatility squeeze setup (squeeze score: 0)\",\n        \"Relatively high P/E ratio of 34.1x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider long LEAPS call position at $170 strike for 2025-08-22 expiration\",\n        \"entry_timing\": \"Current entry suboptimal due to negative price velocity - wait for momentum confirmation\",\n        \"risk_management\": \"Use 1.0 delta for position sizing; monitor deteriorating momentum signals\"\n    },\n    \"red_flags\": [\n        \"Low options volume (0) despite decent open interest (113)\",\n        \"Declining price velocity needs monitoring\"\n    ],\n    \"notes\": \"Analysis confidence moderated by 68.8% data completeness and missing some options metrics. Conservative scoring applied where data gaps exist.\"\n}",
+    "parsed_analysis": {
+      "symbol": "AAPL",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 11,
+        "squeeze_volatility": 6,
+        "fundamentals": 9,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "AAPL shows moderate bullish momentum with price above both SMAs and positive 21-day ROC of 5.02%, supported by strong fundamentals with 24.3% profit margin and 149.8% ROE. However, declining price velocity and absence of volatility squeeze suggest cautious positioning.",
+      "opportunities": [
+        "Price trading above both 50-day (211.66) and 200-day (220.99) SMAs",
+        "Strong fundamental metrics with 24.3% profit margin and healthy ROE",
+        "Reasonable options liquidity with 1.45% bid-ask spread"
+      ],
+      "risks": [
+        "Negative price velocity (-0.006842) indicating momentum weakness",
+        "No current volatility squeeze setup (squeeze score: 0)",
+        "Relatively high P/E ratio of 34.1x"
+      ],
+      "option_contract": {
+        "recommendation": "Consider long LEAPS call position at $170 strike for 2025-08-22 expiration",
+        "entry_timing": "Current entry suboptimal due to negative price velocity - wait for momentum confirmation",
+        "risk_management": "Use 1.0 delta for position sizing; monitor deteriorating momentum signals"
+      },
+      "red_flags": [
+        "Low options volume (0) despite decent open interest (113)",
+        "Declining price velocity needs monitoring"
+      ],
+      "notes": "Analysis confidence moderated by 68.8% data completeness and missing some options metrics. Conservative scoring applied where data gaps exist."
+    },
+    "tokens_used": 2491,
+    "cost": 0.02491,
+    "response_time": 27.752933979034424,
+    "success": true
+  },
+  "cost": 0.02491,
+  "processing_metadata": {
+    "data_completeness_score": 68.75,
+    "prompt_length": 8284,
+    "response_length": 1681
+  }
+}

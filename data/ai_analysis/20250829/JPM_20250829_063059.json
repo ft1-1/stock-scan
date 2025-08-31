@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "JPM",
+  "timestamp": "2025-08-29T06:30:59.567262",
+  "data_package": {
+    "metadata": {
+      "symbol": "JPM",
+      "package_timestamp": "2025-08-29T06:30:48.851010",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "JPM",
+        "current_price": 301.07,
+        "overall_score": 52.39557229434641,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 290.03,
+        "sma_200": 260.2813
+      },
+      "momentum_metrics": {
+        "momentum_21d": 0.4805927310349424,
+        "momentum_63d": 13.882059235162835,
+        "momentum_126d": 16.220806794055196,
+        "momentum_acceleration": -13.401466504127892,
+        "roc_21d": 0.4805927310349424,
+        "trend_strength_20d": 0.513492126824828,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.81459814530527,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.006529176135794623
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 18.0,
+        "squeeze_momentum": 0.3948523226318212,
+        "volatility_compression": 67.28830724744444,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.689890369936995,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.73058722905683,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 56.0,
+        "squeeze": 65.09324608711667,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 9,
+        "percentile": 99.5
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "JPM",
+        "strike_price": "295",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "14.05",
+        "ask": "14.4",
+        "last_price": "14.05",
+        "mid_price": "14.225",
+        "spread_percent": "2.430555555555555555555555556"
+      },
+      "greeks": {
+        "delta": 0.6215,
+        "gamma": 0.0144,
+        "theta": -0.1199,
+        "vega": 0.4237
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2374
+      },
+      "liquidity_metrics": {
+        "volume": 209,
+        "open_interest": 1987,
+        "volume_oi_ratio": 0.10518369401107197
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:27.013159",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T04:20:44+00:00",
+            "title": "Freedom Broker Lifts JPMorgan Chase (JPM) Price Target After Strong Q2 Earnings",
+            "content": "JPMorgan Chase & Co. (NYSE:JPM) ranks among the best diversified bank stocks to invest in right now. Freedom Broker kept its Hold rating on JPMorgan Chase & Co. (NYSE:JPM) and lifted its price target from $240 to $295 on August 20. The change comes after JPMorgan’s impressive second-quarter 2025 results, in which the company’s earnings per share far surpassed the expectations of the market, even as net revenue fell 11% year-over-year.\n\nKen Wolter / Shutterstock.com Mikhail Paramonov, an analyst at Freedom Broker, claims that the bank’s strong performance in its investment banking segment, reduced provision costs, and one-time tax advantages were the main drivers of its successful performance. While remaining cautious in light of macroeconomic uncertainties, JPMorgan’s management has slightly increased its 2025 projection for both net interest income and operational expenses. JPMorgan Chase & Co. (NYSE:JPM) is a multinational financial services company that offers investment banking in addition to consumer and small business financial services. It also offers commercial banking, asset management, and financial transaction processing. While we acknowledge the potential of JPM as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you're looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock. READ NEXT: 10 Best Magic Formula Stocks for 2025 and 10 Best Retirement Stocks to Buy According to Hedge Funds. Disclosure: None. This article is originally published at Insider Monkey.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T20:29:00+00:00",
+            "title": "JPMorgan Recruits Ex-UBS Advisors Who Oversaw $1.3 Billion",
+            "content": "The recruits will staff a new office in Austin for the company’s brokerage unit serving wealthy clients.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T19:21:23+00:00",
+            "title": "Fundstrat’s Tom Lee: bullish on AI’s long-term growth potential",
+            "content": "[AI Concepts. Wide Backgrounds. Copy Space]\nBlackJack3D\n\nFundstrat Global Advisors’ Tom Lee maintained his bullish market stance despite widespread criticism, pointing to artificial intelligence as a major driver for continued growth.\n\nLee emphasized that AI adoption is still in its early stages, comparing it to the wireless industry’s decades-long expansion from 37 million to 7 billion subscribers. “We’re probably in the first quarter or first third of that cycle for AI,” the strategist said in an interview with CNBC.\n\nWhen markets declined between February and April, Lee’s team evaluated whether economic fundamentals warranted panic. “We took a step back and said, with all the forces at work, are we really going to drive the economy off a cliff?” he explained, concluding that holding positions or buying during periods of fear was the appropriate strategy. He believes the S&P 500 will reach 6,800-7,000 by the end of the year.\n\nHe also drew parallels between current AI infrastructure investments and historical technology build-outs like Global Crossing’s (LUMN [https://seekingalpha.com/symbol/LUMN]) oceanic cable installations. According to Lee, the current phase focuses on building foundational elements like large language models and data centers, similar to how wireless infrastructure preceded application development. This pattern suggests that while initial investors may face challenges, subsequent opportunities often emerge as the technology matures.\n\nLee addressed concerns about companies spending heavily on AI without immediate returns, explaining that this mirrors typical technology adoption cycles. He noted that in cases like Global Crossing, “the second owner of the hotel made a lot of money,” suggesting that value often accrues to later participants after initial infrastructure investments.\n\nThe current focus on AI security and validation systems represents the next wave of development before widespread business implementation, he said.\n\nHe also expressed confidence that companies like JPMorgan (JPM [https://seekingalpha.com/symbol/JPM]) and Goldman Sachs (GS [https://seekingalpha.com/symbol/GS]) will soon leverage AI to enhance their business strategies.\n\n“There are still a lot of positives to come,” Lee concluded, reinforcing his view that the AI revolution still has substantial growth potential despite short-term market fluctuations and investment concerns.\n\nMORE ON AI:\n\n \t* AIEQ: The AI ETF That Thinks, But Doesn't Outperform Yet [https://seekingalpha.com/article/4797167-aieq-the-ai-etf-that-thinks-but-doesnt-outperform-yet]\n \t* Niles Management’s Dan Niles: ‘This market is addicted to easy money’ [https://seekingalpha.com/news/4490142-niles-management-s-dan-niles-this-market-is-addicted-to-easy-money]\n \t* We’re at the cusp of a ‘high-tech production boom’ – Wells Fargo [https://seekingalpha.com/news/4486571-we-re-at-the-cusp-of-a-high-tech-production-boom-wells-fargo]\n \t* Seeking Alpha’s Quant Rating on Amplify AI Powered Equity ETF [https://seekingalpha.com/symbol/AIEQ/ratings/quant-ratings]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:32:00+00:00",
+            "title": "Top gaining Russell 2000 stocks as index close to strongest performance vs. large-caps",
+            "content": "[Small Cap write on sticky notes isolated on Office Desk. Stock market concept]\nsyahrir maulana/iStock via Getty Images\n\nThe Russell 2000 (IMW) is close to its strongest relative performance compared to the S&P 500 (SP500 [https://seekingalpha.com/symbol/SP500]) since last November.\n\nSmall-caps are already hitting their highest levels since March relative to their large-cap counterparts (IWB [https://seekingalpha.com/symbol/IWB]).\n\n[Small-caps vs. large-caps]\nSmall-caps vs. large-caps (TrendLabs) \n\nThe Russell 2000 (NYSEARCA:IWM [https://seekingalpha.com/symbol/IWM]) has been mostly flat on Thursday and up 6.8% year-to-date.\n\nHere are the best performing stocks within the index:\n\n \t* Offerpad Solutions (OPAD [https://seekingalpha.com/symbol/OPAD]) – Up 70.5%\n \t* Invivyd Inc. (IVVD [https://seekingalpha.com/symbol/IVVD]) – Up 19.4%\n \t* Phibro Animal Health (PAHC [https://seekingalpha.com/symbol/PAHC]) – Up 19.1%\n \t* Wheels Up Experience (UP [https://seekingalpha.com/symbol/UP]) – Up 17.2%\n \t* Blink Charging (BLNK [https://seekingalpha.com/symbol/BLNK]) – Up 16.8%\n \t* 374Water (SCWO [https://seekingalpha.com/symbol/SCWO]) – Up 15.3%\n \t* Build-A-Bear Workshop (BBW [https://seekingalpha.com/symbol/BBW]) – Up 14%\n \t* KorroBio (KRRO [https://seekingalpha.com/symbol/KRRO]) – Up 12.5%\n \t* TPI Composites (OTC:TPICQ [https://seekingalpha.com/symbol/TPICQ]) – Up 11.9%\n \t* Rigetti Computing (RGTI [https://seekingalpha.com/symbol/RGTI]) – Up 10.5%\n\nMORE ON ISHARES RUSSELL 2000 ETF:\n\n \t* Housing: 5 More Signs Of A Rapidly Deteriorating Market [https://seekingalpha.com/article/4817532-housing-5-more-signs-of-a-rapidly-deteriorating-market]\n \t* Fed Narrows 11th Consecutive Quarterly Loss Due To Quantitative Tightening [https://seekingalpha.com/article/4817515-fed-narrows-11th-consecutive-quarterly-loss-due-to-quantitative-tightening]\n \t* Losing Speed On The AI Superhighway [https://seekingalpha.com/article/4817496-losing-speed-on-the-ai-superhighway]\n \t* Investors are getting ahead of themselves by pricing in a 50bp rate cut – JPM’s Gabriela Santos [https://seekingalpha.com/news/4484051-investors-are-getting-ahead-of-themselves-by-pricing-in-a-50bp-rate-cut-jpms-gabriela-santos]\n \t* Jobless claims 'crucial' for stock investors - and facing a major test [https://seekingalpha.com/news/4470392-jobless-claims-crucial-for-stock-investors-and-facing-a-major-test]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:22:30+00:00",
+            "title": "Bitcoin Undervalued Compared To Gold, Fair Value At $126,000: JPMorgan",
+            "content": "JPMorgan (NYSE:JPM) analysts believe Bitcoin (CRYPTO: BTC) is trading below its fair value as its price volatility falls to historic lows, narrowing the asset's risk-adjusted gap with gold.\n\nVolatility in Bitcoin has slid from nearly 60% earlier this year to roughly 30%, the lowest level on record.\n\nWhat Happened: Analysts led by Nikolaos Panigirtzoglou said this dynamic implies a fair value near $126,000, a target they expect could be reached by year-end, according to The Block.\n\nA major driver of the decline in volatility has been corporate treasuries, which now hold over 6% of Bitcoin's total supply.\n\nJPMorgan compared the phenomenon to the post-2008 bond market, where central bank quantitative easing dampened swings by locking assets into balance sheets.\n\nPassive inflows are also increasing as Bitcoin gains exposure in equity indices.\n\nStrategy (NASDAQ:MSTR) has been added to key benchmarks, while Metaplanet's (OTC:MTPLF) upgrade to mid-cap status brought its inclusion in the FTSE All-World Index.\n\nBoth developments have fueled new allocations from institutional investors.\n\nAlso Read: Bitcoin And Ethereum’s Liquidity-Driven Highs Expose Fragility At All-Time Peaks: Report\n\nWhy It Matters: Competition among treasuries is intensifying.\n\nKindlyMD (NASDAQ:NAKA), listed on Nasdaq, has filed to raise up to $5 billion after naming Bitcoin as its reserve asset.\n\nMeanwhile, Adam Back's BSTR is reportedly aiming to become the second-largest corporate holder of Bitcoin, trailing only Strategy.\n\nAnalysts said these trends, treasury demand, index-based inflows, and declining volatility, strengthen Bitcoin's investment profile.\n\nLower volatility, they added, makes it easier for institutions to allocate risk capital, putting Bitcoin closer to gold in portfolio terms.\n\nThe volatility ratio of Bitcoin to gold has fallen to 2.0, its lowest ever.\n\nJPMorgan estimates Bitcoin's $2.2 trillion market capitalization would need to rise about 13%, bringing its price to roughly $126,000, to match the $5 trillion private gold market.\n\nThey noted that Bitcoin traded $36,000 above this level at the end of 2024 but is now about $13,000 below it, underscoring potential upside.\n\nRead Next:\n\nChainlink To Deliver US Commerce Department Economic Data On-Chain For Smart Contract Use\n\nImage: Shutterstock\n\nUp Next: Transform your trading with Benzinga Edge's one-of-a-kind market trade ideas and tools. Click now to access unique insights that can set you ahead in today's competitive market.\n\nGet the latest stock analysis from Benzinga?\n\nThis article Bitcoin Undervalued Compared To Gold, Fair Value At $126,000: JPMorgan originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "JPMorgan Chase & Co",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "employees": 317160,
+          "description": "JPMorgan Chase & Co. operates as a financial services company worldwide. It operates through three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, cash management, and payments and servi"
+        },
+        "financial_metrics": {
+          "eps_ttm": 19.51,
+          "profit_margin": 0.3452,
+          "operating_margin": 0.4375,
+          "roe": 0.1621,
+          "roa": 0.013,
+          "revenue_growth_yoy": -0.106,
+          "earnings_growth_yoy": -0.144,
+          "eps_estimate_current_year": 19.2906,
+          "eps_estimate_next_year": 20.5517,
+          "dividend_yield": 0.0177,
+          "dividend_per_share": 5.3,
+          "revenue_ttm": 163748003840,
+          "revenue_per_share": 57.936,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.4316,
+          "forward_pe": 16.0772,
+          "price_to_sales": 5.0557,
+          "price_to_book": 2.4575,
+          "enterprise_value": 470943334400,
+          "ev_to_revenue": 6.3349,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.107,
+          "52_week_high": 301.2931,
+          "52_week_low": 196.2041,
+          "50_day_ma": 290.03,
+          "200_day_ma": 260.2813,
+          "short_interest": 0.0088,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 5.6,
+          "forward_dividend_yield": 0.0187,
+          "payout_ratio": 0.2759,
+          "dividend_date": "2025-07-31",
+          "ex_dividend_date": "2025-07-03",
+          "last_split_date": "2000-06-12",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 305.3182,
+          "strong_buy": 8,
+          "buy": 7,
+          "hold": 9,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 2749750016,
+          "percent_institutions": 74.484,
+          "percent_insiders": 0.46699999999999997,
+          "shares_float": 2735235154
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4552482.0,
+          "total_debt": 485095.0,
+          "net_debt": 64768.0,
+          "shareholders_equity": 356924.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.36
+        },
+        "income_latest_statement": {
+          "total_revenue": 69944.0,
+          "gross_profit": 42063.0,
+          "operating_income": 18284.0,
+          "net_income": 14987.0,
+          "ebitda": 20314.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 60.14,
+          "operating_margin": 26.14,
+          "net_margin": 21.43
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 29547.0,
+          "free_cash_flow": 29547.0,
+          "capex": 0.0,
+          "net_income": 14987.0,
+          "cash_change": -5576.0,
+          "dividends_paid": -4205.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 4.63,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 289.52,
+            "high": 292.5,
+            "low": 288.23,
+            "close": 291.27,
+            "volume": 12217000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 291,
+            "high": 294.18,
+            "low": 290.58,
+            "close": 290.97,
+            "volume": 7898100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 291.5,
+            "high": 293.63,
+            "low": 289.18,
+            "close": 291.43,
+            "volume": 6717500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 292.84,
+            "high": 296.99,
+            "low": 292.55,
+            "close": 296.76,
+            "volume": 7083500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 297.42,
+            "high": 299.59,
+            "low": 296.2,
+            "close": 296.55,
+            "volume": 7001200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 296.7,
+            "high": 298.9,
+            "low": 295.96,
+            "close": 298.62,
+            "volume": 5918500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 297.66,
+            "high": 299.43,
+            "low": 296.82,
+            "close": 298.28,
+            "volume": 5840417
+          },
+          {
+            "date": "2025-07-29",
+            "open": 300,
+            "high": 301.2931,
+            "low": 296.2,
+            "close": 297.04,
+            "volume": 7635719
+          },
+          {
+            "date": "2025-07-30",
+            "open": 297.42,
+            "high": 300.61,
+            "low": 297.38,
+            "close": 299.63,
+            "volume": 8061700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 299.14,
+            "high": 300.98,
+            "low": 295.5,
+            "close": 296.24,
+            "volume": 14749700
+          },
+          {
+            "date": "2025-08-01",
+            "open": 290.4,
+            "high": 291.8,
+            "low": 284.24,
+            "close": 289.37,
+            "volume": 12007100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 290.26,
+            "high": 294.32,
+            "low": 290.26,
+            "close": 294.26,
+            "volume": 6649500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 294.69,
+            "high": 295.79,
+            "low": 287.24,
+            "close": 291.37,
+            "volume": 7182300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 292.3,
+            "high": 293.29,
+            "low": 290.16,
+            "close": 291.35,
+            "volume": 6330200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 292.94,
+            "high": 293.46,
+            "low": 286.41,
+            "close": 286.94,
+            "volume": 8057100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 288.98,
+            "high": 291.23,
+            "low": 284.71,
+            "close": 288.76,
+            "volume": 6634100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 289.4,
+            "high": 291.32,
+            "low": 288.78,
+            "close": 289.56,
+            "volume": 5510100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 291.5,
+            "high": 294.75,
+            "low": 290.34,
+            "close": 292.85,
+            "volume": 8570900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 293.95,
+            "high": 294.55,
+            "low": 287.16,
+            "close": 290.53,
+            "volume": 8420400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 290.58,
+            "high": 294.2,
+            "low": 289.64,
+            "close": 294.16,
+            "volume": 6322400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 294.84,
+            "high": 295.5,
+            "low": 289.82,
+            "close": 290.49,
+            "volume": 7340500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 290,
+            "high": 291.9,
+            "low": 288.41,
+            "close": 291.53,
+            "volume": 5386900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 290.83,
+            "high": 292.48,
+            "low": 289.53,
+            "close": 290.66,
+            "volume": 6031500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 290.81,
+            "high": 293.33,
+            "low": 287.27,
+            "close": 292.24,
+            "volume": 7374200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 291.94,
+            "high": 292.77,
+            "low": 289.47,
+            "close": 291.47,
+            "volume": 6624000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 293.2,
+            "high": 297.16,
+            "low": 290.13,
+            "close": 296.24,
+            "volume": 8552800
+          },
+          {
+            "date": "2025-08-25",
+            "open": 296.24,
+            "high": 297.35,
+            "low": 294.14,
+            "close": 294.9,
+            "volume": 5856300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 294.16,
+            "high": 298.74,
+            "low": 293.5,
+            "close": 298.57,
+            "volume": 6714700
+          },
+          {
+            "date": "2025-08-27",
+            "open": 297.25,
+            "high": 301.07,
+            "low": 297.04,
+            "close": 299.28,
+            "volume": 6056500
+          },
+          {
+            "date": "2025-08-28",
+            "open": 300.025,
+            "high": 301.2399,
+            "low": 298.72,
+            "close": 301.07,
+            "volume": 6399794
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 1.6304347826086905,
+        "return_63d": 14.041666666666664,
+        "pct_above_sma50": 3.5811477976061434,
+        "sma_50": 290.661,
+        "new_55d_high": "False",
+        "high_55d": 301.2931,
+        "rsi": 70.3471074380165,
+        "rsi_in_range": "False",
+        "adx": 35.706034761800936,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.750587903145447,
+        "bb_width": 5.051302110817066,
+        "keltner_width": 7.207999211388581,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 2079049722.866,
+        "adv_shares": 7101064.7,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.42047759899383,
+        "final_score": 46.42047759899383,
+        "sub_scores": {
+          "trend_momentum": 14.689890369936995,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.73058722905683,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 0.4805927310349345,
+          "ret_63d": 13.882059235162835,
+          "rsi14": 70.3471074380165,
+          "adx14": 28.936065880283135,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: JPM\n• Current Price: $301.07\n• Overall Score: 52.39557229434641\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 290.03\n• Sma 200: 260.2813\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 0.4805927310349424\n• Momentum 63D: 13.882059235162835\n• Momentum 126D: 16.220806794055196\n• Momentum Acceleration: -13.401466504127892\n• Roc 21D: 0.4805927310349424\n• Trend Strength 20D: 0.513492126824828\n• Trend Direction: 1\n• Ma Ribbon Score: 82.81459814530527\n• Breakout Strength: 50.0\n• Price Velocity: 0.006529176135794623\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 18.0\n• Squeeze Momentum: 0.3948523226318212\n• Volatility Compression: 67.28830724744444\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.689890369936995\n• Squeeze Breakout: 4.0\n• Options Quality: 16.73058722905683\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 56.0\n• Squeeze: 65.09324608711667\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: JPM\n• Strike Price: $295\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $14.05\n• Ask: $14.4\n• Last: $14.05\n• Mid: $14.225\n• Spread: 2.430555555555555555555555556%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6215\n• Gamma: 0.0144\n• Theta: -0.1199\n• Vega: 0.4237\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2374\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 209\n• Open Interest: 1987\n• Volume/OI Ratio: 0.10518369401107197\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: JPMorgan Chase & Co\n• Sector: Financial Services\n• Industry: Banks - Diversified\n• EPS (TTM): $19.51\n• Profit Margin: 34.5%\n• ROE: 16.2%\n• P/E Ratio: 15.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T04:20:44+00:00: Freedom Broker Lifts JPMorgan Chase (JPM) Price Target After Strong Q2 Earnings...\n• 2025-08-28T20:29:00+00:00: JPMorgan Recruits Ex-UBS Advisors Who Oversaw $1.3 Billion...\n• 2025-08-28T19:21:23+00:00: Fundstrat’s Tom Lee: bullish on AI’s long-term growth potential...\n• 2025-08-28T17:32:00+00:00: Top gaining Russell 2000 stocks as index close to strongest performance vs. larg...\n• 2025-08-28T17:22:30+00:00: Bitcoin Undervalued Compared To Gold, Fair Value At $126,000: JPMorgan...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR JPM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the JPM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:30:59.566636",
+    "estimated_tokens": 2340
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"JPM\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"JPM shows strong technical momentum with price above both SMAs and an 82.8 MA ribbon score, combined with a confirmed volatility squeeze across multiple timeframes. However, imminent earnings and declining momentum acceleration present near-term risks.\",\n    \"opportunities\": [\n        \"Strong multi-timeframe squeeze setup with 3 concurrent squeezes and 67.3% compression\",\n        \"Solid technical position with price above both 50 and 200 SMAs\",\n        \"Options contract shows good liquidity with 1987 open interest and reasonable 2.43% spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration at -13.40\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Relatively low Volume/OI ratio at 0.105\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call at $295 strike showing balanced Greeks profile with 0.62 delta\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Use 2.43% spread as minimum profit target, consider rolling before earnings\"\n    },\n    \"red_flags\": [\n        \"Earnings report in less than 30 days\",\n        \"Declining momentum acceleration needs monitoring\"\n    ],\n    \"notes\": \"Strong fundamental metrics (34.5% profit margin, 16.2% ROE) support long-term thesis despite near-term earnings risk\"\n}",
+    "parsed_analysis": {
+      "symbol": "JPM",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "JPM shows strong technical momentum with price above both SMAs and an 82.8 MA ribbon score, combined with a confirmed volatility squeeze across multiple timeframes. However, imminent earnings and declining momentum acceleration present near-term risks.",
+      "opportunities": [
+        "Strong multi-timeframe squeeze setup with 3 concurrent squeezes and 67.3% compression",
+        "Solid technical position with price above both 50 and 200 SMAs",
+        "Options contract shows good liquidity with 1987 open interest and reasonable 2.43% spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration at -13.40",
+        "Earnings coming up on 2025-09-30",
+        "Relatively low Volume/OI ratio at 0.105"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call at $295 strike showing balanced Greeks profile with 0.62 delta",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Use 2.43% spread as minimum profit target, consider rolling before earnings"
+      },
+      "red_flags": [
+        "Earnings report in less than 30 days",
+        "Declining momentum acceleration needs monitoring"
+      ],
+      "notes": "Strong fundamental metrics (34.5% profit margin, 16.2% ROE) support long-term thesis despite near-term earnings risk"
+    },
+    "tokens_used": 2539,
+    "cost": 0.02539,
+    "response_time": 10.713585376739502,
+    "success": true
+  },
+  "cost": 0.02539,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8555,
+    "response_length": 1604
+  }
+}

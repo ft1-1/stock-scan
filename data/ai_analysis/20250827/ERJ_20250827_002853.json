@@ -1,0 +1,637 @@
+{
+  "success": true,
+  "symbol": "ERJ",
+  "timestamp": "2025-08-27T00:28:53.943142",
+  "data_package": {
+    "metadata": {
+      "symbol": "ERJ",
+      "package_timestamp": "2025-08-27T00:28:43.715804",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "ERJ",
+        "current_price": 56.25,
+        "overall_score": 49.40334216202471,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 54.6474,
+        "sma_200": 46.0213
+      },
+      "momentum_metrics": {
+        "momentum_21d": 18.69592741084617,
+        "momentum_63d": 15.788390284067521,
+        "momentum_126d": 33.42030360531311,
+        "momentum_acceleration": 2.9075371267786494,
+        "roc_21d": 18.69592741084617,
+        "trend_strength_20d": 0.028312472123104483,
+        "trend_direction": 1,
+        "ma_ribbon_score": 50.844518310107624,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0008498622623722918
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": -0.2965046327776737,
+        "volatility_compression": 72.5473028367208,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.976664696115492,
+        "squeeze_breakout": 4.0,
+        "options_quality": 6.336705518763805,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 70.0,
+        "squeeze": 60.88209542550812,
+        "options": 10.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Spread 4.0% > 3.5%",
+          "Failed weekly breakout"
+        ],
+        "ranking": 26,
+        "percentile": 98.4
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "ERJ",
+        "strike_price": "50",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.4",
+        "ask": "7.7",
+        "last_price": "7.49",
+        "mid_price": "7.55",
+        "spread_percent": "3.896103896103896103896103896"
+      },
+      "greeks": {
+        "delta": 0.9096,
+        "gamma": 0.0269,
+        "theta": -0.0145,
+        "vega": 0.0351
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2819
+      },
+      "liquidity_metrics": {
+        "volume": 3,
+        "open_interest": 643,
+        "volume_oi_ratio": 0.004665629860031105
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:49.776730",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T03:56:32+00:00",
+            "title": "Canaccord Lowers PT on Eve Holding (EVEX) to $6.75 From $7, Keeps a Buy Rating",
+            "content": "Eve Holding Inc. (NYSE:EVEX) is one of the top strong buy stocks under $5 to buy now. On August 20, Canaccord analyst Austin Moeller lowered the firm’s price target on Eve Holding Inc. (NYSE:EVEX) to $6.75 from $7, keeping a Buy rating on the shares.Why Eve Holding Inc (EVEX) is Plunging in 2025?\n\nAn aerial view of an urban skyline with a fleet of eVTOLs flying in formation.\n\nThe firm told investors that it continues to believe that Eve Holding Inc.’s (NYSE:EVEX) relationship with the Brazilian Development Bank and Embraer is favorable.\n\nThis is primarily because the relationship ensures continued test/manufacturing infrastructure in São Paulo, as well as engineering personnel from the world’s third-largest aircraft OEM.\n\nAccording to the analyst, the improved liquidity position presents a solid footing for Eve Holding Inc. (NYSE:EVEX) for execution on its intended 2027 ANAC certification and commercialization of its Eve-100 aircraft.\n\nEve Holding Inc. (NYSE:EVEX) is an aerospace company that develops Urban Air Mobility (UAM) solutions and operates in Florida, Melbourne, and Brazil. Its operations cover the design and production of electric vertical takeoff and landing vehicles (eVTOLs) and the new Urban Air Traffic Management system.\n\nThe company is also engaged in a portfolio of company and third-party eVTOL support and maintenance services. These include material services, technical support, maintenance, ground handling, training, and data services.\n\nWhile we acknowledge the potential of EVEX as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you’re looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 30 Stocks That Should Double in 3 Years and 11 Hidden AI Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T14:29:00+00:00",
+            "title": "Will Boeing's Commercial Aircraft Division Maintain Its Altitude?",
+            "content": "The Boeing Company BA is seeing steady progress in its commercial airplane segment, driven by rising demand for aircraft amid growing global air traffic, encouraging airlines to expand their fleet significantly. Resultantly, Boeing’s commercial jets are witnessing strong traction, buoyed by increased delivery figures for its 737 product line, in particular, which is bolstering the commercial segment’s top line.\r\n\r\nNotably, in the second quarter of 2025, Boeing’s commercial aircraft deliveries improved 63% year over year, primarily driven by 49% growth in 737 deliveries. In the first quarter, Boeing’s deliveries soared 56.6%, on account of 57.6% 737 delivery growth.  Resultantly, the company witnessed a solid 81% and 75% year over year growth in its commercial unit’s revenues in the first two quarters of 2025, respectively.\r\n\r\nLooking ahead, a strong order book should help Boeing’s commercial jet business unit to maintain its growth in the coming days as well. A few recent contracts clinched by this unit include a Cathay Pacific order for 14 additional 777-9 aircraft, Gulf Air’s agreement to purchase 12 787 Dreamliner jets with options for six additional jets as well as Qatar Airways' historic order to buy 210 widebody jets from Boeing.\r\n\r\nBoeing is currently in talks with Chinese officials to sell as many as 500 jets, which, in the case of fruition, could become one of the largest deals in aviation history and further strengthen its commercial unit.\n\nIndustry Peers Gaining From Rising Air Travel\n\nApart from Boeing, other aircraft makers like Airbus SE EADSY and Embraer SA ERJ are also witnessing solid delivery and robust backlog numbers for their commercial jets, thanks to rising air travel.\r\n\r\nAirbus delivered 306 commercial aircraft in first half of 2025. Its gross commercial aircraft orders were 494, which culminated in a solid backlog of 8,754 commercial aircraft, at June 2025-end.\r\n\r\nEmbraer delivered 57 commercial aircraft in the second quarter of 2025, with its commercial aviation unit registering a record backlog of $13.1 billion. Its Executive Aviation unit posted a backlog of $7.4 billion.\n\nThe Zacks Rundown for BA\n\nShares of Boeing have risen 32.5% in the past year compared with the Zacks aerospace-defense industry’s growth of 11.4%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nFrom a valuation standpoint, BA is currently trading at a forward 12-month sales multiple of 1.87X, a roughly 18.7% discount when stacked up with the industry average of 2.30X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe Zacks Consensus Estimate for BA’s near-term earnings reflects a mixed movement over the past 60 days.\n\nStory Continues\n\nZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nBA stock currently carries a Zacks Rank #3 (Hold). You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Boeing Company (BA) : Free Stock Analysis Report\n\nEmbraer-Empresa Brasileira de Aeronautica (ERJ) : Free Stock Analysis Report\n\nAirbus Group (EADSY) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T13:31:00+00:00",
+            "title": "Boeing Stock Gains 25% in 6 Months: Should You Buy the Stock Now?",
+            "content": "Shares of aerospace giant Boeing (BA) have surged a solid 25.4% over the past six months, outperforming the Zacks aerospace-defense industry’s growth of 20.8% and the broader Zacks Aerospace sector’s rise of 22%. They have also outpaced the S&P 500’s return of 7.3% in the same time frame.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nShares of other prime aircraft makers like Embraer (ERJ) and Airbus Group (EADSY) have risen considerably over the past six months. Notably, shares of Embraer and Airbus have gained 34% and 21.5%, respectively.\n\nWhat Pushed BA Stock Up?\n\nThanks to notable order inflows for both its commercial and defense programs, along with successful delivery announcements for new products, Boeing has been gaining in the stock market lately. The company started its six-month share price hike streak in February 2025, with the Japan Self-Defense Forces placing an order for 17 CH-47 Block II Chinooks. Next, in March, Malaysia Aviation Group placed an order for 18 737-8 and 12 737-10 single-aisle jets, Japan Airlines finalized an order for 17 737-8s and BOC Aviation placed an order for 50 737-8 jets. In the same month, Boeing clinched a contract from the U.S. Air Force to build its next-generation fighter aircraft.\n\nIn May, Qatar Airways agreed to purchase up to 210 widebody jets from Boeing, setting a new record as the largest widebody order for Boeing as well as the largest order for 787 Dreamliners. In July, Boeing successfully delivered the ninth and tenth O3b mPOWER satellites to network provider SES, in addition to securing a $2.8 billion order for the Evolved Strategic Satellite Communications program.\n\nMore recently, this month, Boeing delivered the Satelit Nusantara Lima communications satellite to Indonesia’s PT Pasifik Satelit Nusantara.\n\nNo doubt, these announcements have instilled significant investor confidence in Boeing's trajectory, which resulted in the share price hike since February.\n\nCan BA Stock Continue With Its Rally?\n\nAs Boeing remains the largest aircraft manufacturer in the United States in terms of revenues, orders and deliveries, particularly in the commercial aerospace industry, a steadily growing demand trend in commercial aerospace should bode well for the company. To this end, it is imperative to mention that as per the latest Boeing Commercial Market Outlook, BA anticipates that the world will need 43,600 new commercial planes through 2044, backed by passenger traffic growth of 4.2% annually over the next 20 years. This should continue to fuel demand for Boeing-built commercial planes, thereby boosting its long-term growth prospects significantly.\n\nStory Continues\n\nThanks to its diverse defense product portfolio and established footprint in the space technology industry, Boeing witnesses a solid inflow of contracts. Impressively, during the second quarter of 2025, the BDS unit won key contract awards worth $19 billion, which resulted in a solid backlog amount of $74 billion for this segment as of June 30, 2025. Such solid contract wins and subsequent backlog count should continue to bolster the operational performance of Boeing Defense & Space Security (“BDS”) unit, which registered a solid year-over-year increase of 10% in its second-quarter revenues.\n\nIn line with this, the Zacks Consensus Estimate for BA’s long-term (three-to-five years) earnings growth rate is pegged at 17.9%, higher than the industry’s 15.9%.\n\nNow, let’s take a sneak peek at the company’s near-term estimates to understand whether the figures mirror similar growth prospects.\n\nBA Stock’s Estimates\n\nBoeing’s estimate for third-quarter 2025 sales suggests an improvement of 19.2% from the year-ago quarter’s reported figure, while that for full-year 2025 sales indicates a rally of 27.8%. A similar improvement trend can be expected from its 2026 sales estimates.\n\nIts quarterly as well as yearly earnings estimates also imply similar robust performance on a year-over-year basis.\n\nHowever, the company’s near-term earnings estimates suggest mixed revision movement over the past 60 days. While the upward revision reflects investors’ gaining confidence in the stock’s earnings-generating capabilities, the downward revision implies declining confidence in the same.Zacks Investment Research\n\nImage Source: Zacks Investment ResearchZacks Investment Research\n\nImage Source: Zacks Investment Research\n\nRisks to Consider Before Choosing Boeing\n\nWhile Boeing presents strong growth potential, it also faces key challenges that investors should weigh carefully. Despite a recovery in air travel driving demand for commercial aircraft, persistent global supply-chain disruptions, especially shortages of critical parts, continue to hinder and are expected to affect the aviation industry in 2025. This remains a major risk factor for jet manufacturers like Boeing, Airbus and Embraer.\n\nMoreover, the persistent trade tensions between China and America continue to pose a threat for Boeing. Notably, as of June 30, 2025, Boeing had approximately 20 737-8 aircraft in inventory for customers in China, scheduled to be delivered by the end of this year. In case of any escalation of the trade tensions between the United States and China, the latter may refuse to take deliveries from Boeing, like it did in April 2025. This, in turn, would hurt BCA’s revenues and push up inventory cost for Boeing.\n\nBA Stock’s Poor ROIC\n\nThe image below shows that BA stock’s trailing 12-month return on invested capital (ROIC) not only lags the industry’s average return but also reflects a negative figure. This suggests that the company's investments are not yielding sufficient returns to cover its expenses.\n\nHowever, the ROIC of its peers, Embraer and Airbus, is currently better than that of Boeing. While the ROIC for ERJ is currently 13.63, the same for EADSY is 4.86.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nBA Trading at a Discount\n\nIn terms of valuation, Boeing’s forward 12-month price-to-sales (P/S) is 1.84X, a discount to the industry’s average of 2.25X. This suggests that investors will be paying a higher price than the company's expected sales growth compared to that of its peer group. The stock’s forward 12-month P/S, however, seems stretched when compared to its five-year median value, 1.44.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nShould You Invest in BA Stock Now?\n\nWhile Boeing's recent operational success and discounted valuation are compelling, potential investors should await a better entry point, considering the stock's negative ROIC and downward earnings estimate revisions. BA currently has a VGM Score of F, which is also not a very favorable indicator of strong performance.\n\nHowever, those who already own this Zacks Rank #3 (Hold) stock may continue to do so, considering its recent share price hike, solid sales and earnings growth potential. You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Boeing Company (BA) : Free Stock Analysis Report\n\nEmbraer-Empresa Brasileira de Aeronautica (ERJ) : Free Stock Analysis Report\n\nAirbus Group (EADSY) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T14:03:00+00:00",
+            "title": "Archer's Midnight Aircraft Reaches New Milestone: Should You Buy?",
+            "content": "Archer Aviation Inc.’s (ACHR) Midnight aircraft recently completed its longest piloted flight to date, flying 55 miles in 31 minutes at more than 126 miles per hour. This marked an important milestone for Archer as it works toward getting certification for the Midnight aircraft in the United States and prepares for its commercial launch in the UAE.\n\nRising urban traffic is fueling investor interest in electric vertical takeoff and landing (eVTOL) solutions. With its key partnerships and regulatory progress, Archer remains a leading contender in the eVTOL market. The latest announcement might lure investors targeting next-generation aerospace to buy this stock.\n\nHowever, before making a hasty decision, let’s take a look at the stock’s price performance, growth opportunities, valuation and possible risks, to make a more informed decision.\n\nACHR Stock’s 6-Month Performance\n\nArcher’s shares have gained 1.7% in the past six months, underperforming the Zacks Aerospace-Defense industry’s growth of 21.3% and the broader Zacks Aerospace sector’s gain of 22.5%. It has also underperformed the S&P 500’s return of 6.8% in the same time frame.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nOn the contrary, a stellar performance can be seen from other industry players in the past six months, such as Joby Aviation (JOBY) and Embraer (ERJ), which are also involved in the eVTOL market. Notably, shares of ERJ have surged a solid 35.9%, while those of JOBY rose 112.8% in the past six months.\n\nTailwinds Driving Archer\n\nA handful of announcements made by Archer in recent months must have been driving the stock’s share price. In August, the company accelerated its defense program with two strategic acquisitions that brought in advanced technologies and expertise, strengthening its position to meet growing demand from government and defense customers. In July, the company began test flights in Abu Dhabi, a key step toward building its presence in the Middle East and moving closer to commercial launch in the region. In June, Archer partnered with Jetex, a private aviation leader, to integrate its global network of terminals into the Midnight air taxi service, ensuring that the necessary infrastructure is in place to support future operations.\n\nMeanwhile, per ACHR’s second-quarter 2025 results announcement, it is concurrently manufacturing six Midnight aircraft across its supply chain, three of which are in final assembly across its facilities. Together, these announcements reflect Archer’s focus on expanding internationally while preparing for large-scale commercial rollout for its Midnight eVTOL.\n\nStory Continues\n\nHowever, considering the fact that ACHR is yet to generate revenues and is still incurring huge operating expenses (as is also evident from its second-quarter results), its share price gains might not have been able to exceed the industry’s return over the last six months.\n\nWill ACHR Continue to Rise?\n\nThe global eVTOL market is expected to grow steadily as demand for urban air mobility increases and new technologies in sustainable transportation continue to advance. These developments are creating opportunities for companies that are actively investing in this sector. Archer, Joby Aviation and Embraer are among the leading players that are positioned to benefit from this long-term trend as commercial services expand and regulatory support strengthens worldwide.\n\nTo this end, the Mordor Intelligence firm estimates that the global urban air mobility market will witness a compound annual growth rate of 19.2% during the 2025-2040 time period.\n\nSuch market growth trends bolster Archer’s prospects, especially once its Midnight jets become commercially available in the open market.\n\nLet’s take a sneak peek at ACHR’s near-term earnings estimates to check if they also reflect the same.\n\nEarnings Estimates for ACHR\n\nThe Zacks Consensus Estimate for ACHR’s near-term earnings indicates a year-over-year improvement.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nThe consensus mark for its near-term earnings implies an upward revision over the past 60 days, indicating enhanced investor confidence in the stock’s earnings growth capabilities.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nACHR Shares Trading at a Discount\n\nACHR stock is trading at a discount, with its trailing 12-month Price/Book (P/B TTM) being 3.03X compared with its industry average of 5.77X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nIts industry peer, ERJ, is also trading at a discount. ERJ is trading at a P/B TTM of 2.85X. However, JOBY is trading at a P/B TTM of 14.06X.\n\nRisks to Watch\n\nWhile Archer looks promising in the short term, its long-term future is still not certain. The eVTOL industry is very new, and the company’s ability to design, certify and scale production will depend on how quickly the industry develops and how strong the demand for eVTOL aircraft becomes. Safety, noise and affordability concerns could also slow down public acceptance and limit demand.\n\nAnother challenge is that Archer has not yet started generating revenues. Until the company begins commercial flights and builds a solid customer base, it will be difficult to measure its long-term value. Archer also has a negative Return on Invested Capital (ROIC), which means it is not yet using its funds effectively to generate returns.\n\nWhat Should an Investor Do?\n\nInvestors interested in Archer may consider adopting a wait-and-watch approach for this stock, given its absence of revenues and a negative ROIC despite making steady progress through flight testing, strategic partnerships and global expansion efforts.\n\nNevertheless, those who already own this Zacks Rank #3 (Hold) stock may continue to do so, considering its positive performance at the bourses over the past six months, discounted valuation and upward revision in earnings estimates. You can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nEmbraer-Empresa Brasileira de Aeronautica (ERJ) : Free Stock Analysis Report\n\nJoby Aviation, Inc. (JOBY) : Free Stock Analysis Report\n\nArcher Aviation Inc. (ACHR) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-20T13:50:00+00:00",
+            "title": "Lockheed to Upgrade Poland's F-16 Aircraft Fleet: How to Play the Stock?",
+            "content": "Lockheed Martin Corp. (LMT) recently announced that Poland has finalized an agreement with the U.S. government to modernize its fleet of 48 F-16 aircraft to the advanced F-16V Viper configuration. The company will serve as the prime contractor for the modernization, which includes integration of the APG-83 AESA radar, advanced mission computing, electronic warfare systems and structural enhancements to extend the aircraft’s service life.\n\nThis effort, performed in partnership with Polish industry, will bolster NATO interoperability and regional security while supporting local workforce development and reinforcing Lockheed’s long-term investment in Poland’s defense sector.\n\nThis modernization contract reinforces LMT’s strategic positioning in the European defense market, potentially enhancing its appeal to investors seeking exposure to established defense stocks with sustained international demand and advanced technological integration.\n\nHowever, making an investment decision based on a single event is not advisable. So, a prudent investor should conduct a comprehensive evaluation of Lockheed’s recent stock market performance, long-term growth potential, valuation, and any associated risks before making an investment.\n\nLMT Stock’s 3-Month Performance\n\nShares of Lockheed have lost 6.2% in the past three months, underperforming the Zacks Aerospace-Defense industry’s growth of 10.2% and the broader Zacks Aerospace sector’s rise of 11%. The stock has also lagged the S&P 500’s return of 10.9% during the same period.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nOn the contrary, LMT’s industry peers, The Boeing Company (BA) and Embraer S.A. (ERJ), have gained substantially in the past three months. Shares of ERJ rose 17.2%, while those of BA grew 10.7%.\n\nLockheed’s Long-Term Growth Driver\n\nThanks to its diverse product portfolio ranging from military aircraft to space satellites, Lockheed steadily clinches a solid order flow, which, in turn, culminates in a strong backlog count and bolsters its long-term revenue growth potential. The company recorded a solid backlog of $166.5 million as of June 29, 2025.\n\nProduct-wise, the F-35 fighter jet program continues to be a key growth program for Lockheed. The company has delivered 1,199 F-35 airplanes since the program's inception, with 311 jets in the backlog as of June 29, 2025. Currently, Lockheed remains on track to deliver 170-190 of its F-35 jets in 2025. This surely boosts expectation for LMT’s Aeronautics business segment’s sales, which improved 2% year over year in the second quarter of 2025.\n\nStory Continues\n\nIncreasing U.S. defense budget also remains a major growth catalyst for the nation’s largest defense contractor. Notably, as part of the fiscal 2026 defense budget request, the U.S. Navy marked its intent to purchase Lockheed’s Patriot Advanced Capability-3 (PAC-3) missiles for the first time, while $400 million has been allotted for production of its Air-Launched Rapid Response Weapon. This should benefit Lockheed’s operating results in 2025 and beyond.\n\nThis is further reflected in the Zacks Consensus Estimate for LMT’s long-term (three-to-five years) earnings growth rate of 10.3%.\n\nNow, let’s take a sneak peek at its near-term estimates to check if those mirror a similar growth story.\n\nNear-term Estimates for LMT Stock\n\nThe Zacks Consensus Estimate for 2025 and 2026 sales implies an improvement of 4.6% and 3.9%, respectively, year over year.\n\nHowever, its 2025 earnings estimates suggest a decline of 19.4%. On the other hand, LMT’s 2026 earnings estimate calls for a rise.\n\nThe near-term bottom-line estimates for LMT have moved south over the past 60 days. This points to analysts’ declining confidence in the stock’s earnings-generating prospects.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nLMT Trading at a Discount\n\nIn terms of valuation, LMT’s forward 12-month price-to-earnings (P/E) is 16.28X, a discount to its peer group’s average of 20.04X. This suggests that investors will be paying a lower price than the company's expected earnings growth compared to its peers.\n\nIts industry peer, Embraer, is, however, trading at a premium to both LMT and the peer group average. ERJ is currently trading at a forward 12-month earnings of 24.48X.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nRisks to Consider Before Choosing LMT\n\nDespite strong long-term growth prospects, Lockheed holds a poor solvency position, with both its long-term and current debt values exceeding its cash balance amount. Moreover, the current ratio was 0.99 as of June 29, 2025, which, being less than 1, reflects that the company might not have sufficient capital to pay off its short-term debt obligations.\n\nMoreover, labor shortage remains another challenge for Lockheed. Notably, as per the 2025 Workforce Study report released by the Aerospace Industries Association, in collaboration with McKinsey, although the attrition rate in the industry has dropped from a peak of 17% in 2022 to approximately 14.5% in 2024, it remains significantly higher than the average of other U.S. industries that ranges between 2.5% and 7%. Such a higher-than-average attrition rate in the aerospace-defense industry can lead to production delays for aerospace-defense stocks like LMT, BA and ERJ.\n\nFurther, LMT’s long-term debt-to-capital ratio is higher than the industry average (as one can see below). Such a high debt-to-capital ratio suggests that the company relies more heavily on debt financing compared to its industry, indicating a higher financial risk and a greater burden on cash flow due to interest payments.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nHow to Play LMT Stock?\n\nTo conclude, investors interested in LMT stock may stay on the sidelines, considering its recent underperformance, declining earnings estimates, elevated debt levels and financial risks tied to a poor solvency position.\n\nHowever, those who own this Zacks #3 (Hold) stock may continue to do so, given its discounted valuation and long-term growth catalysts.\n\nYou can see the complete list of today’s Zacks #1 Rank (Strong Buy) stocks here.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nThe Boeing Company (BA) : Free Stock Analysis Report\n\nLockheed Martin Corporation (LMT) : Free Stock Analysis Report\n\nEmbraer-Empresa Brasileira de Aeronautica (ERJ) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Embraer SA ADR",
+          "sector": "Industrials",
+          "industry": "Aerospace & Defense",
+          "employees": 20923,
+          "description": "Embraer S.A., together with its subsidiaries, designs, develops, manufactures, and sells aircraft and systems in North America, Latin America, the Asia Pacific, Brazil, Europe, and internationally. It operates through Commercial Aviation; Defense & Security; Executive Aviation; Services & Support; a"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.05,
+          "profit_margin": 0.0537,
+          "operating_margin": 0.0997,
+          "roe": 0.1132,
+          "roa": 0.0356,
+          "revenue_growth_yoy": 0.309,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": 1.7191,
+          "eps_estimate_next_year": 2.526,
+          "dividend_yield": 0.0009,
+          "dividend_per_share": 0.07,
+          "revenue_ttm": 39804538880,
+          "revenue_per_share": 216.816,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 27.2732,
+          "forward_pe": 45.2489,
+          "price_to_sales": 0.2576,
+          "price_to_book": 3.0759,
+          "enterprise_value": 11477602444,
+          "ev_to_revenue": 1.6327,
+          "ev_to_ebitda": 10.93
+        },
+        "technical_data": {
+          "beta": 1.117,
+          "52_week_high": 61.65,
+          "52_week_low": 31.7283,
+          "50_day_ma": 54.6474,
+          "200_day_ma": 46.0213,
+          "short_interest": 0.0435,
+          "short_ratio": 2.57
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.05,
+          "forward_dividend_yield": 0.0009,
+          "payout_ratio": 0.0226,
+          "dividend_date": "2025-06-02",
+          "ex_dividend_date": "2025-05-16",
+          "last_split_date": "2002-03-01",
+          "last_split_factor": "571:500"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.9286,
+          "target_price": 64.4286,
+          "strong_buy": 5,
+          "buy": 5,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 183392000,
+          "percent_institutions": 47.069,
+          "percent_insiders": 0,
+          "shares_float": 693806854
+        },
+        "balance_latest_sheet": {
+          "total_assets": 12071.901,
+          "total_debt": 2323.965,
+          "net_debt": 1670.069,
+          "working_capital": 1607.4,
+          "shareholders_equity": 3314.029,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 1812.351,
+          "gross_profit": 352.625,
+          "operating_income": 165.524,
+          "net_income": 79.193,
+          "ebitda": 163.603,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 19.46,
+          "operating_margin": 9.13,
+          "net_margin": 4.37
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -89.44,
+          "free_cash_flow": -129.931,
+          "capex": 40.491,
+          "net_income": 79.193,
+          "cash_change": -161.187,
+          "dividends_paid": 8.964,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.5164,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 53.32,
+            "high": 53.43,
+            "low": 50.92,
+            "close": 51.16,
+            "volume": 2598200
+          },
+          {
+            "date": "2025-07-17",
+            "open": 51.1,
+            "high": 51.68,
+            "low": 50.84,
+            "close": 51.04,
+            "volume": 1406300
+          },
+          {
+            "date": "2025-07-18",
+            "open": 50.7,
+            "high": 50.9,
+            "low": 48.29,
+            "close": 49.3,
+            "volume": 3374200
+          },
+          {
+            "date": "2025-07-21",
+            "open": 49.84,
+            "high": 50.41,
+            "low": 48.17,
+            "close": 48.97,
+            "volume": 2034400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 49.72,
+            "high": 49.88,
+            "low": 48.43,
+            "close": 48.68,
+            "volume": 1571400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 49.02,
+            "high": 50.35,
+            "low": 48.78,
+            "close": 49.83,
+            "volume": 1673400
+          },
+          {
+            "date": "2025-07-24",
+            "open": 49.26,
+            "high": 49.32,
+            "low": 47.59,
+            "close": 47.61,
+            "volume": 2052700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 48.01,
+            "high": 48.51,
+            "low": 47.5,
+            "close": 47.84,
+            "volume": 1629300
+          },
+          {
+            "date": "2025-07-28",
+            "open": 47.5,
+            "high": 47.57,
+            "low": 46.54,
+            "close": 47.39,
+            "volume": 1394400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 48.14,
+            "high": 50.43,
+            "low": 48.14,
+            "close": 49.6,
+            "volume": 2943100
+          },
+          {
+            "date": "2025-07-30",
+            "open": 49.4,
+            "high": 56.43,
+            "low": 47.71,
+            "close": 54.83,
+            "volume": 9410000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 57.32,
+            "high": 59.02,
+            "low": 56.61,
+            "close": 57.58,
+            "volume": 6439700
+          },
+          {
+            "date": "2025-08-01",
+            "open": 57.55,
+            "high": 58.31,
+            "low": 56.17,
+            "close": 56.84,
+            "volume": 2850300
+          },
+          {
+            "date": "2025-08-04",
+            "open": 57.32,
+            "high": 58.27,
+            "low": 57.15,
+            "close": 57.81,
+            "volume": 2238400
+          },
+          {
+            "date": "2025-08-05",
+            "open": 60,
+            "high": 60.25,
+            "low": 56.14,
+            "close": 57.17,
+            "volume": 3496300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 59.83,
+            "high": 60.42,
+            "low": 56.95,
+            "close": 57.14,
+            "volume": 2123300
+          },
+          {
+            "date": "2025-08-07",
+            "open": 57.03,
+            "high": 58.14,
+            "low": 56.65,
+            "close": 57.95,
+            "volume": 1314100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 58.53,
+            "high": 58.53,
+            "low": 57.33,
+            "close": 58.39,
+            "volume": 1704200
+          },
+          {
+            "date": "2025-08-11",
+            "open": 57.58,
+            "high": 58.61,
+            "low": 57.31,
+            "close": 57.77,
+            "volume": 1108100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 58.18,
+            "high": 59.41,
+            "low": 57.95,
+            "close": 58.71,
+            "volume": 937400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 58.79,
+            "high": 59.07,
+            "low": 57.8,
+            "close": 58.71,
+            "volume": 1676400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 58.13,
+            "high": 60.02,
+            "low": 57.95,
+            "close": 59.78,
+            "volume": 1829700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 59.66,
+            "high": 59.75,
+            "low": 56.22,
+            "close": 57.52,
+            "volume": 1961300
+          },
+          {
+            "date": "2025-08-18",
+            "open": 57.21,
+            "high": 58.44,
+            "low": 56.74,
+            "close": 57.86,
+            "volume": 1568500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 56.33,
+            "high": 56.83,
+            "low": 55.93,
+            "close": 56.03,
+            "volume": 1165600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 55.93,
+            "high": 56.11,
+            "low": 54.44,
+            "close": 55.66,
+            "volume": 2055100
+          },
+          {
+            "date": "2025-08-21",
+            "open": 55.51,
+            "high": 56.77,
+            "low": 55.38,
+            "close": 56.28,
+            "volume": 2228700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 56.86,
+            "high": 57.67,
+            "low": 56.59,
+            "close": 56.93,
+            "volume": 1332700
+          },
+          {
+            "date": "2025-08-25",
+            "open": 56.8,
+            "high": 57.39,
+            "low": 55.88,
+            "close": 55.91,
+            "volume": 872400
+          },
+          {
+            "date": "2025-08-26",
+            "open": 55.86,
+            "high": 56.44,
+            "low": 55.685,
+            "close": 56.25,
+            "volume": 1475890
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 13.407258064516125,
+        "return_63d": 19.98720136518771,
+        "pct_above_sma50": 2.6336244174971437,
+        "sma_50": 54.80660000000001,
+        "new_55d_high": "False",
+        "high_55d": 61.65,
+        "rsi": 46.06542882404951,
+        "rsi_in_range": "False",
+        "adx": 46.2089226088245,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 4.172,
+        "bb_width": 8.403183921737956,
+        "keltner_width": 16.403263644266854,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 136807744.05200002,
+        "adv_shares": 2389404.5,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 40.3133702148793,
+        "final_score": 30.3133702148793,
+        "sub_scores": {
+          "trend_momentum": 18.976664696115492,
+          "squeeze_breakout": 4.0,
+          "options_quality": 6.336705518763805,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Spread 4.0% > 3.5%",
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "wide_spread": 5,
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 18.69592741084616,
+          "ret_63d": 15.78839028406751,
+          "rsi14": 46.06542882404951,
+          "adx14": 37.69796091588896,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: ERJ\n• Current Price: $56.25\n• Overall Score: 49.40334216202471\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 54.6474\n• Sma 200: 46.0213\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 18.69592741084617\n• Momentum 63D: 15.788390284067521\n• Momentum 126D: 33.42030360531311\n• Momentum Acceleration: 2.9075371267786494\n• Roc 21D: 18.69592741084617\n• Trend Strength 20D: 0.028312472123104483\n• Trend Direction: 1\n• Ma Ribbon Score: 50.844518310107624\n• Breakout Strength: 0.0\n• Price Velocity: 0.0008498622623722918\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: -0.2965046327776737\n• Volatility Compression: 72.5473028367208\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.976664696115492\n• Squeeze Breakout: 4.0\n• Options Quality: 6.336705518763805\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 70.0\n• Squeeze: 60.88209542550812\n• Options: 10.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: ERJ\n• Strike Price: $50\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.4\n• Ask: $7.7\n• Last: $7.49\n• Mid: $7.55\n• Spread: 3.896103896103896103896103896%\n\n**GREEKS ANALYSIS**\n• Delta: 0.9096\n• Gamma: 0.0269\n• Theta: -0.0145\n• Vega: 0.0351\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2819\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 3\n• Open Interest: 643\n• Volume/OI Ratio: 0.004665629860031105\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Embraer SA ADR\n• Sector: Industrials\n• Industry: Aerospace & Defense\n• EPS (TTM): $2.05\n• Profit Margin: 5.4%\n• ROE: 11.3%\n• P/E Ratio: 27.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T03:56:32+00:00: Canaccord Lowers PT on Eve Holding (EVEX) to $6.75 From $7, Keeps a Buy Rating...\n• 2025-08-25T14:29:00+00:00: Will Boeing's Commercial Aircraft Division Maintain Its Altitude?...\n• 2025-08-21T13:31:00+00:00: Boeing Stock Gains 25% in 6 Months: Should You Buy the Stock Now?...\n• 2025-08-20T14:03:00+00:00: Archer's Midnight Aircraft Reaches New Milestone: Should You Buy?...\n• 2025-08-20T13:50:00+00:00: Lockheed to Upgrade Poland's F-16 Aircraft Fleet: How to Play the Stock?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR ERJ\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the ERJ opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:28:53.942847",
+    "estimated_tokens": 2329
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"ERJ\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 12,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 6,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"ERJ shows strong momentum with a 33.4% 126-day return and trading above both 50 and 200 SMAs, supported by an active volatility squeeze. However, moderate options liquidity and upcoming earnings create execution challenges.\",\n    \"opportunities\": [\n        \"Strong momentum with 18.7% 21-day return and positive trend indicators\",\n        \"Active volatility squeeze with 72.5% compression and 2 timeframe confirmation\",\n        \"Trading above key moving averages (56.25 vs 54.65 SMA50)\"\n    ],\n    \"risks\": [\n        \"Low options liquidity with Vol/OI ratio of only 0.0047\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Wide bid-ask spread of 3.9% limits execution quality\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Oct 2025 $50 CALL for long-term momentum exposure\",\n        \"entry_timing\": \"Wait for improved options liquidity and post-earnings clarity\",\n        \"risk_management\": \"Use limit orders due to wide spreads; size position conservatively given liquidity constraints\"\n    },\n    \"red_flags\": [\n        \"Very low options volume (3) vs open interest (643)\",\n        \"Earnings event in next 30 days\"\n    ],\n    \"notes\": \"While technical setup is promising, poor options liquidity and upcoming earnings create significant execution challenges. Consider stock alternatives or waiting for better entry conditions.\"\n}",
+    "parsed_analysis": {
+      "symbol": "ERJ",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 12,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 6,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "ERJ shows strong momentum with a 33.4% 126-day return and trading above both 50 and 200 SMAs, supported by an active volatility squeeze. However, moderate options liquidity and upcoming earnings create execution challenges.",
+      "opportunities": [
+        "Strong momentum with 18.7% 21-day return and positive trend indicators",
+        "Active volatility squeeze with 72.5% compression and 2 timeframe confirmation",
+        "Trading above key moving averages (56.25 vs 54.65 SMA50)"
+      ],
+      "risks": [
+        "Low options liquidity with Vol/OI ratio of only 0.0047",
+        "Earnings coming up on 2025-09-30",
+        "Wide bid-ask spread of 3.9% limits execution quality"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Oct 2025 $50 CALL for long-term momentum exposure",
+        "entry_timing": "Wait for improved options liquidity and post-earnings clarity",
+        "risk_management": "Use limit orders due to wide spreads; size position conservatively given liquidity constraints"
+      },
+      "red_flags": [
+        "Very low options volume (3) vs open interest (643)",
+        "Earnings event in next 30 days"
+      ],
+      "notes": "While technical setup is promising, poor options liquidity and upcoming earnings create significant execution challenges. Consider stock alternatives or waiting for better entry conditions."
+    },
+    "tokens_used": 2540,
+    "cost": 0.025400000000000002,
+    "response_time": 10.225327730178833,
+    "success": true
+  },
+  "cost": 0.025400000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8523,
+    "response_length": 1643
+  }
+}

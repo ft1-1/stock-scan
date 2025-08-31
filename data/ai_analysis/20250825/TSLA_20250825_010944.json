@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "TSLA",
+  "timestamp": "2025-08-25T01:09:44.767837",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSLA",
+      "package_timestamp": "2025-08-25T01:09:32.757396",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSLA",
+        "current_price": 340.01,
+        "overall_score": 57.37139879755286,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 321.479,
+        "sma_200": 328.4078
+      },
+      "momentum_metrics": {
+        "momentum_21d": 11.369145103177196,
+        "momentum_63d": -0.30201735866761364,
+        "momentum_126d": 0.6542332741266962,
+        "momentum_acceleration": 11.67116246184481,
+        "roc_21d": 11.369145103177196,
+        "trend_strength_20d": 0.33020586694262577,
+        "trend_direction": 1,
+        "ma_ribbon_score": 84.70865058950261,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.006099625546723009
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": 0.5461769426089966,
+        "volatility_compression": 49.81585735432592,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.055865412066243,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 68.0,
+        "squeeze": 62.47237860314889,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "TSLA",
+        "strike_price": "330",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "31.6",
+        "ask": "31.7",
+        "last_price": "31.6",
+        "mid_price": "31.65",
+        "spread_percent": "0.3154574132492113564668769716"
+      },
+      "greeks": {
+        "delta": 0.6125,
+        "gamma": 0.006,
+        "theta": -0.2397,
+        "vega": 0.51
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4827
+      },
+      "liquidity_metrics": {
+        "volume": 4580,
+        "open_interest": 5355,
+        "volume_oi_ratio": 0.8552754435107376
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T01:08:35.337937",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T01:00:00+00:00",
+            "title": "Automotive Refinish Coatings Market worth $13.85 billion by 2030, at a CAGR of 3.68%, says MarketsandMarkets™",
+            "content": "Delray Beach, FL, Aug.  24, 2025  (GLOBE NEWSWIRE) -- In terms of value, the Automotive Refinish Coatings Market is estimated to grow from USD 11.12 billion in 2024 to USD 13.85 billion by 2030, at a CAGR of 3.68%, as per the recent study by MarketsandMarkets™. The used car ecosystem is increasingly becoming more organized and quality-conscious as the certified pre-owned (CPO) programs and digital car-selling platforms continue to spread. Users of secondhand cars are demanding an almost new look and vehicles; thus, sellers must recondition them cosmetically prior to selling them in the market. The application of refinish coatings can play a primary role in bringing such transformation, and it can be used to remove all the visual imperfections, correct original paint finishes, and protect the surface of the exterior against additional deterioration. The increasing sophistication of the used car dealership has demanded the need for high-performance coatings that can be rapidly applied and have an enduring outcome.\n\nDownload PDF Brochure: https://www.marketsandmarkets.com/pdfdownloadNew.asp?id=9257396\n\nBrowse in-depth TOC on “Automotive Refinish Coatings Market”\n\n123 - Market Data Tables\r\n48 – Figures\r\n190 - Pages\n\nList of Key Players in Automotive Refinish Coatings Market:\n\n3M      Company (US)Tesa      SE (Germany)Nitto      Denko Corporation (Japan)LINTEC      Corporation (Japan)Intertape      Polymer Group, Inc. (Canada)Avery      Dennison Corporation (US)Lohmann      GmbH & Co. KG (Germany)Berry      Global Group, Inc. (US)Scapa      Group plc (Mativ Holdings) (US)Saint-Gobain      S.A. (France)\n\nDrivers, Opportunities and Challenges in Automotive Refinish Coatings Market:\n\nDrivers: Expanding      automotive aftermarket servicesRestraint: Shift      toward paintless repair techniques Opportunity: Adoption of eco-friendly coatingsChallenge: Stringent      Environmental Regulations\n\nGet Sample Pages: https://www.marketsandmarkets.com/requestsampleNew.asp?id=9257396\n\nKey Findings of the Study:\n\nThe      basecoat segment is projected to be the second-fastest-growing segment in      the automotive refinish coatings market during the forecast periodThe      acrylic segment accounted for the second-largest share in the automotive      refinish coatings market in 2024The      commercial vehicles segment held the second-largest share in the      automotive refinish coatings market in 2024.North      America was the second-largest region in the global automotive refinish      coatings market in terms of value in 2024.\n\nBased on layer type, the automotive refinish coatings market is divided into primer, basecoat, clearcoat, and other layer types. Clearcoat held the largest share in the automotive refinish coatings market in 2024. The dominance of this can be attributed to the fact that clearcoats are an essential component of imparting aesthetic brilliance and long-term durability of surfaces that have been repaired. Clearcoats are a final layer of protection over the basecoat and the primer, as they protect the basecoat and the primer against environmental decline, chemicals, and ultraviolet radiation. With modernly fitted luxurious cars having elaborate design features and bright colors, it has become necessary to repair them without the paint being affected after being touched. Thus, clearcoats improve the amount of gloss retention and color brightness and allow the refinished surface to match the factory finish, fueling the growth of the segment in the market.\n\nBased on resin type, the automotive refinish coatings market is segmented into polyurethane acrylic, epoxy, alkyd, and other resin types. The polyurethane segment held the largest share in the automotive refinish coatings market in 2024. The greater portion is due to the rising popularity of a durable finish that maintains its beauty over the years. Polyurethane resin provides better abrasion resistance, chemical resistance, and UV resistance in a market where there is a growing requirement to have technical capabilities besides the visual aspects of contending against tough environmental conditions. Polyurethane coatings retain their structural and aesthetic appeal over a long time, regardless of intense sunshine or changing weather patterns, which lack in other resin types. In addition to private auto owners, automotive repair businesses, and companies managing vehicle fleets highly value polyurethane resins due to their longevity and ability to maintain resale value.\n\nGet Customization on this Report: https://www.marketsandmarkets.com/requestCustomizationNew.asp?id=9257396\n\nBased on vehicle type, the automotive refinish coatings market is divided into passenger cars and commercial vehicles. The passenger cars segment dominated the automotive refinish coatings market in 2024. The rapid development and integration of modern digital color matching technologies throughout automotive service centers, especially in the ecosystem for passenger car maintenance, is the reason for this dominance. Digital color-matching technologies have made it possible for automotive repair facilities to improve the accuracy and uniformity of refinish coatings, as customers seek flawless restorations that mimic factory finishes. Such technologies have given technicians the ability to perfectly duplicate complex OEM color palettes and effects, such as metallic or pearls, with a precision that could not be found before. This technological sophistication is essential in the case of passenger cars, in which the compelling presentation implies the critical value of the resale price and brand image.\n\nBased on the region, Asia Pacific was the largest market of automotive refinish coatings, in terms of value, in 2024. The growth can be attributed to the steady rise in the middle-class population in developing economies like India, Indonesia, and the Philippines. The affordable finance and growing disposable income have also seen a large fraction of this population buying personal vehicles, and in most cases, the used or second-hand ones. With the growth in the number of vehicles that are owned and used, the need to perform refinishing jobs to improve or re-establish the aesthetics as well as the functional values of vehicles grows. Refinish coatings play an important role in enhancing the look of the surface and weather resistance, as well as prolonging the years of usage of the vehicle. Such ownership trend also stimulates the need for affordable repair services, and automotive refinish coatings are at the center of it. In these countries, the local body shops and independent garages, which comprise a predominant share of vehicle service providers, need cost-efficiency and yet enhanced refinish products, driving the demand.\n\nBrowse Adjacent Markets Coatings Adhesives Sealants and Elastomers Market Research Reports & Consulting\n\nRelated Reports:\n\nSeptic      Tanks MarketDenim      Finishing Agents MarketTexture      Paint MarketHydrogen      Storage MarketFlow      Chemistry Market",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:33:38+00:00",
+            "title": "SpaceX scrubs Starship launch after ground systems issue",
+            "content": "Investing.com-- SpaceX postponed the planned 10th test flight of its Starship rocket on Sunday after detecting a problem with ground systems, the company said.\n\n“Standing down from today’s tenth flight of Starship to allow time to troubleshoot an issue with ground systems,” SpaceX said on social media platform X.\n\nThe two-stage rocket, comprising a 232-foot Super Heavy booster and a 171-foot Starship upper stage, had been fueled and was standing by at the company’s Starbase facility in Texas, earlier announcements showed.\n\nThe launch was called off roughly 30 minutes before its scheduled 7:35 PM ET liftoff.\n\nThe delay follows a series of setbacks for the program this year, including an in-flight malfunction on its ninth mission and a ground test explosion in June.\n\nTesla (NASDAQ:TSLA) CEO Elon Musk’s SpaceX has not announced a new launch date.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T00:01:18+00:00",
+            "title": "50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit From 9-to-5 – 'I'm Sick Of Corporate World'",
+            "content": "Dividend stocks are gaining attention amid growing expectations that the Federal Reserve will cut interest rates by 25 basis points next month. Data from Purpose Investments showed inflows into the five largest dividend ETFs surged tenfold last month compared with the start of 2024.\n\nIn June, an investor shared his dividend income and portfolio details on r/Dividends, a Reddit community of income investors with over 750,000 followers. The poster, 50, said he's slowly moving from growth to dividend stocks and nearing early retirement.\n\nIn a separate post, the investor said his annual salary is roughly $350,000, but he is \"sick\" of the corporate world and plans to retire soon.\n\nDon't Miss:\n\nThe same firms that backed Uber, Venmo and eBay are investing in this pre-IPO company disrupting a $1.8T market — and you can too at just $2.90/share. Kevin O'Leary Says Real Estate's Been a Smart Bet for 200 Years — This Platform Lets Anyone Tap Into It\n\n\"I'm sick of the corporate world and the 9-5 (I wish it was only 8 hour days!) rat race,\" he wrote. \"Maybe it's a mid-life crisis or maybe I'm just finally thinking ‘I have enough', but I'm hoping to pull the trigger as soon as possible.\"\n\nThe portfolio screenshots shared by the investor showed that his dividend income was about $5,900 per month.\n\nLet's take a look at some of the top dividend stocks in the investor's portfolio.\n\nJPMorgan Nasdaq Equity Premium Income ETF\n\nJPMorgan Nasdaq Equity Premium Income ETF (NASDAQ:JEPQ) is a high-yield covered call ETF that distributes monthly dividend income. The ETF invests in Nasdaq companies and generates extra income by selling call options. The fund has a dividend yield of 11%.\n\nTrending: An EA Co-Founder Shapes This VC Backed Marketplace—Now You Can Invest in Gaming's Next Big Platform\n\nAltria Group\n\nAltria Group (NYSE:MO) has a 7.6% dividend yield and over 50 years of consistent dividend growth history. It's one of the most popular high-yield dividend stocks among income investors on Reddit.\n\nYieldMax MSTR Option Income Strategy ETF\n\nThe YieldMax MSTR Option Income Strategy ETF (NYSE:MSTY) generates income by selling call options on Strategy (NASDAQ:MSTR) stock. The fund is down about 32% so far this year.\n\nPIMCO Dynamic Income Fund\n\nPIMCO Dynamic Income Fund (NYSE:PDI) is a high-yield fixed-income fund that invests in debt securities, including mortgage-backed securities and bonds from developed and emerging markets. PDI yields about 14% and pays monthly dividends.\n\nStory Continues\n\nSee Also: 2,000 High Earners Manage $6B With This AI Platform — Learn More\n\nNEOS Nasdaq-100 High Income ETF\n\nNEOS Nasdaq-100 High Income ETF (NASDAQ:QQQI) exposes investors to Nasdaq 100 companies and generates income by selling covered call options on the index.\n\nGlobal X Nasdaq 100 Covered Call ETF\n\nGlobal X Nasdaq 100 Covered Call ETF (NASDAQ:QYLD) is a notable ETF that earns money by selling covered call options on the Nasdaq-100 Index. The fund was started in 2013 and has since paid monthly income to investors. The fund yields about 12%.\n\nSchwab U.S. Dividend Equity ETF\n\nSchwab U.S. Dividend Equity ETF (NYSE:SCHD) tracks the Dow Jones U.S. Dividend 100 Index and provides exposure to some of the top dividend stocks trading in the U.S., including Chevron (NYSE:CVX), PepsiCo (NYSE:PEP), ConocoPhillips (NYSE:COP) and Altria.\n\nRead Next: The ECG Hasn't Changed in 100 Years — This AI Upgrade Could Help Detect Heart Disease Years Earlier\n\nImage: Shutterstock\n\nUp Next: Transform your trading with Benzinga Edge's one-of-a-kind market trade ideas and tools. Click now to access unique insights that can set you ahead in today's competitive market.\n\nGet the latest stock analysis from Benzinga?\n\nAPPLE (AAPL): Free Stock Analysis Report TESLA (TSLA): Free Stock Analysis Report\n\nThis article 50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit From 9-to-5 – 'I'm Sick Of Corporate World' originally appeared on Benzinga.com\n\n© 2025 Benzinga.com. Benzinga does not provide investment advice. All rights reserved.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T23:12:00+00:00",
+            "title": "Prediction: All \"Ten Titans\" Stocks Will Surpass $1 Trillion in Market Cap by 2030",
+            "content": "Key Points\n\nThe Ten Titans expand on the “Magnificent Seven” by adding three high-octane growth stocks. Buying Oracle near an all-time high is a bet that its aggressive AI spending will pay off. Netflix should be able to deliver high-margin growth as it shifts its business model from increasing subscribers to boosting free cash flow. 10 stocks we like better than Oracle ›\n\nIn early August 2018, Apple(NASDAQ: AAPL) became the first U.S. company to surpass $1 trillion in market cap.\n\nFast forward seven years, and there are nine S&P 500(SNPINDEX: ^GSPC) components with market caps over $1 trillion:  the \"Magnificent Seven\" consisting of Nvidia (NASDAQ: NVDA), Microsoft(NASDAQ: MSFT), Apple, Amazon(NASDAQ: AMZN), Alphabet(NASDAQ: GOOG)(NASDAQ: GOOGL), Meta Platforms(NASDAQ: META), and Tesla (NASDAQ: TSLA), plus Broadcom(NASDAQ: AVGO) and Berkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B).\n\nThe \"Ten Titans\" include the ten largest growth-focused companies by market cap -- the Magnificent Seven and Broadcom, Oracle(NYSE: ORCL), and Netflix(NASDAQ: NFLX).\n\nHere's how Oracle and Netflix can join the rest of the Ten Titans in the $1 trillion club by 2030.Image source: Getty Images.\n\nOracle is a high-risk, high-potential-reward AI play\n\nOracle's market cap at the time of this writing is $660.2 billion. Oracle has gone from a dividend-paying tech stalwart to a business unlocking transformational growth in just a matter of years. And investors have responded, as Oracle is up a staggering 70% in the last year and 318% in the last five years.\n\nOracle's cloud business is growing faster than incumbents Amazon Web Services, Microsoft Azure, and Google Cloud, as Oracle has done a masterful job leveraging cloud with its established data center model, implementing a competitive pricing model, and forming partnerships with the major cloud providers.\n\nOracle is pricey, at 34.6 times forward earnings estimates, making it more expensive than the larger, more established cloud players. However, Oracle has a number of advantages that could pole vault its market cap well above $1 trillion by 2030.TSLA PE Ratio (Forward) data by YCharts.\n\nFor starters, Oracle is a pure play enterprise software and solutions company. Unlike Amazon, Microsoft, and Alphabet -- which are basically tech conglomerates -- Oracle doesn't have a consumer-facing business. This gives Oracle a much more focused investment thesis and allows the company to zero in its capital expenditures (capex) on building out its cloud infrastructure and application network.\n\nOracle has been one of the most aggressive companies when it comes to deploying capex into artificial intelligence (AI). As you can see in the following chart, Oracle went from a company that was chugging along and maintaining its legacy business to pouring money into capex even though its operating income hasn't grown nearly as quickly.\n\nStory Continues\n\nORCL Capital Expenditures (TTM) data by YCharts.\n\nIf Oracle's investments translate to earnings growth, the stock could defend its premium valuation and have an easy path to a $1 trillion market cap and beyond.\n\nHowever, it's worth mentioning that Oracle's balance sheet is highly leveraged with debt, and its free cash flow is negative as it front-loads AI investments.\n\nBuying Oracle is a bet that its ultra-aggressive capex spending is worth it. If it disappoints, Oracle stock could correct and remain beaten down for some time, which could throw a wrench in gaining 51.5% from its current level to $1 trillion in market cap by 2030.\n\nNetflix's road to $1 trillion won't be easy\n\nNetflix is the second-best performing Ten Titan year to date behind only Oracle.ORCL data by YCharts.\n\nEpic gains over the last few years have lifted Netflix's market cap to $515.8 billion at the time of this writing. But the company has a longer way to go than Oracle to reach $1 trillion by 2030. Specifically, the stock would have to achieve a compound annual gain of 14.2% between now and August 2030 to surpass a $1 trillion market cap. For context, the S&P 500 has historically averaged an annual gain of 9% to 10% per year, but that comes with a lot of variance.\n\nDespite the uphill climb, Netflix thinks it can hit the mark. Management has set an internal goal to hit $1 trillion market cap by 2030, as well as doubling revenue and tripling operating income from 2024 levels, giving Netflix a projected $78 billion in revenue and a 40% operating margin for roughly $31 billion in operating income. At a $1 trillion market cap, that would put Netflix's valuation at 32.3 times operating income, which is expensive considering operating income doesn't even account for taxes.\n\nNetflix's road to $1 trillion requires the company to hit its internal goals and maintain its premium valuation. However, Netflix has done a masterful job refining its secret sauce for content quality and quantity while managing spending. So it's reasonable to assume the company should be able to grow its margins over time.\n\nInvesting in Ten Titans for the right reasons\n\nThe Ten Titans have delivered market-beating returns over the long term. But the group's valuation is relatively stretched, so the \"easy\" gains are likely in the rearview. This means these stocks will have to rely on earnings growth, rather than earnings growth and valuation expansion, to drive future returns.\n\nThe S&P 500's valuation has gone up, and its yield has gone down as the Titans gobble up a higher percentage of the index. Investors should understand that the Ten Titans' influence on the index is a double-edged sword. When earnings are good and optimism is running high, the Ten Titans can drive the market to new heights. But when fear creeps in, the Titans can accelerate a rapid sell-off -- as we saw in April.\n\nI believe Oracle and Netflix will one day reach $1 trillion market caps, but there's a lot that could go wrong between now and 2030 to delay that ascent. So investors considering either name should only do so with a long-term mindset and a relatively high risk tolerance.\n\nShould you invest $1,000 in Oracle right now?\n\nBefore you buy stock in Oracle, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Oracle wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nDaniel Foelber has positions in Nvidia. The Motley Fool has positions in and recommends Alphabet, Amazon, Apple, Berkshire Hathaway, Meta Platforms, Microsoft, Netflix, Nvidia, Oracle, and Tesla. The Motley Fool recommends Broadcom and recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.\n\nPrediction: All \"Ten Titans\" Stocks Will Surpass $1 Trillion in Market Cap by 2030 was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T23:12:00+00:00",
+            "title": "Prediction: All &amp;quot;Ten Titans&amp;quot; Stocks Will Surpass $1 Trillion in Market Cap by 2030",
+            "content": "Key Points\n\nThe Ten Titans expand on the “Magnificent Seven” by adding three high-octane growth stocks. Buying Oracle near an all-time high is a bet that its aggressive AI spending will pay off.  Netflix should be able to deliver high-margin growth as it shifts its business model from increasing subscribers to boosting free cash flow. 10 stocks we like better than Oracle ›\n\nIn early August 2018, Apple(NASDAQ: AAPL) became the first U.S. company to surpass $1 trillion in market cap.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nFast forward seven years, and there are nine S&P 500(SNPINDEX: ^GSPC) components with market caps over $1 trillion:  the \"Magnificent Seven\" consisting of Nvidia (NASDAQ: NVDA), Microsoft(NASDAQ: MSFT), Apple, Amazon(NASDAQ: AMZN), Alphabet(NASDAQ: GOOG)(NASDAQ: GOOGL), Meta Platforms(NASDAQ: META), and Tesla (NASDAQ: TSLA), plus Broadcom(NASDAQ: AVGO) and Berkshire Hathaway(NYSE: BRK.A)(NYSE: BRK.B).\n\nThe \"Ten Titans\" include the ten largest growth-focused companies by market cap -- the Magnificent Seven and Broadcom, Oracle(NYSE: ORCL), and Netflix(NASDAQ: NFLX).\n\nHere's how Oracle and Netflix can join the rest of the Ten Titans in the $1 trillion club by 2030.\n\nImage source: Getty Images.\n\nOracle is a high-risk, high-potential-reward AI play\n\nOracle's market cap at the time of this writing is $660.2 billion. Oracle has gone from a dividend-paying tech stalwart to a business unlocking transformational growth in just a matter of years. And investors have responded, as Oracle is up a staggering 70% in the last year and 318% in the last five years.\n\nOracle's cloud business is growing faster than incumbents Amazon Web Services, Microsoft Azure, and Google Cloud, as Oracle has done a masterful job leveraging cloud with its established data center model, implementing a competitive pricing model, and forming partnerships with the major cloud providers.\n\nOracle is pricey, at 34.6 times forward earnings estimates, making it more expensive than the larger, more established cloud players. However, Oracle has a number of advantages that could pole vault its market cap well above $1 trillion by 2030.\n\nTSLA PE Ratio (Forward) data by YCharts.\n\nFor starters, Oracle is a pure play enterprise software and solutions company. Unlike Amazon, Microsoft, and Alphabet -- which are basically tech conglomerates -- Oracle doesn't have a consumer-facing business. This gives Oracle a much more focused investment thesis and allows the company to zero in its capital expenditures (capex) on building out its cloud infrastructure and application network.\n\nOracle has been one of the most aggressive companies when it comes to deploying capex into artificial intelligence (AI). As you can see in the following chart, Oracle went from a company that was chugging along and maintaining its legacy business to pouring money into capex even though its operating income hasn't grown nearly as quickly.\n\nORCL Capital Expenditures (TTM) data by YCharts.\n\nIf Oracle's investments translate to earnings growth, the stock could defend its premium valuation and have an easy path to a $1 trillion market cap and beyond.\n\nHowever, it's worth mentioning that Oracle's balance sheet is highly leveraged with debt, and its free cash flow is negative as it front-loads AI investments.\n\nBuying Oracle is a bet that its ultra-aggressive capex spending is worth it. If it disappoints, Oracle stock could correct and remain beaten down for some time, which could throw a wrench in gaining 51.5% from its current level to $1 trillion in market cap by 2030.\n\nNetflix's road to $1 trillion won't be easy\n\nNetflix is the second-best performing Ten Titan year to date behind only Oracle.\n\nORCL data by YCharts.\n\nEpic gains over the last few years have lifted Netflix's market cap to $515.8 billion at the time of this writing. But the company has a longer way to go than Oracle to reach $1 trillion by 2030. Specifically, the stock would have to achieve a compound annual gain of 14.2% between now and August 2030 to surpass a $1 trillion market cap. For context, the S&P 500 has historically averaged an annual gain of 9% to 10% per year, but that comes with a lot of variance.\n\nDespite the uphill climb, Netflix thinks it can hit the mark. Management has set an internal goal to hit $1 trillion market cap by 2030, as well as doubling revenue and tripling operating income from 2024 levels, giving Netflix a projected $78 billion in revenue and a 40% operating margin for roughly $31 billion in operating income. At a $1 trillion market cap, that would put Netflix's valuation at 32.3 times operating income, which is expensive considering operating income doesn't even account for taxes.\n\nNetflix's road to $1 trillion requires the company to hit its internal goals and maintain its premium valuation. However, Netflix has done a masterful job refining its secret sauce for content quality and quantity while managing spending. So it's reasonable to assume the company should be able to grow its margins over time.\n\nInvesting in Ten Titans for the right reasons\n\nThe Ten Titans have delivered market-beating returns over the long term. But the group's valuation is relatively stretched, so the \"easy\" gains are likely in the rearview. This means these stocks will have to rely on earnings growth, rather than earnings growth and valuation expansion, to drive future returns.\n\nThe S&P 500's valuation has gone up, and its yield has gone down as the Titans gobble up a higher percentage of the index. Investors should understand that the Ten Titans' influence on the index is a double-edged sword. When earnings are good and optimism is running high, the Ten Titans can drive the market to new heights. But when fear creeps in, the Titans can accelerate a rapid sell-off -- as we saw in April.\n\nI believe Oracle and Netflix will one day reach $1 trillion market caps, but there's a lot that could go wrong between now and 2030 to delay that ascent. So investors considering either name should only do so with a long-term mindset and a relatively high risk tolerance.\n\nShould you invest $1,000 in Oracle right now?\n\nBefore you buy stock in Oracle, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Oracle wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nDaniel Foelber has positions in Nvidia. The Motley Fool has positions in and recommends Alphabet, Amazon, Apple, Berkshire Hathaway, Meta Platforms, Microsoft, Netflix, Nvidia, Oracle, and Tesla. The Motley Fool recommends Broadcom and recommends the following options: long January 2026 $395 calls on Microsoft and short January 2026 $405 calls on Microsoft. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tesla Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers",
+          "employees": 125665,
+          "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric ve"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.67,
+          "profit_margin": 0.0634,
+          "operating_margin": 0.041,
+          "roe": 0.0818,
+          "roa": 0.0291,
+          "revenue_growth_yoy": -0.118,
+          "earnings_growth_yoy": -0.175,
+          "eps_estimate_current_year": 1.6874,
+          "eps_estimate_next_year": 2.3903,
+          "revenue_ttm": 92719996928,
+          "revenue_per_share": 28.862,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 203.5988,
+          "forward_pe": 181.8182,
+          "price_to_sales": 11.8279,
+          "price_to_book": 14.1848,
+          "enterprise_value": 1073036876748,
+          "ev_to_revenue": 11.5729,
+          "ev_to_ebitda": 79.2377
+        },
+        "technical_data": {
+          "beta": 2.331,
+          "52_week_high": 488.5399,
+          "52_week_low": 202.59,
+          "50_day_ma": 321.479,
+          "200_day_ma": 328.4078,
+          "short_interest": 0.0256,
+          "short_ratio": 0.74
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2022-08-25",
+          "last_split_factor": "3:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.383,
+          "target_price": 306.3207,
+          "strong_buy": 14,
+          "buy": 7,
+          "hold": 16,
+          "sell": 3,
+          "strong_sell": 7
+        },
+        "institutional_data": {
+          "shares_outstanding": 3225449984,
+          "percent_institutions": 50.94800000000001,
+          "percent_insiders": 12.875,
+          "shares_float": 2711473609
+        },
+        "balance_latest_sheet": {
+          "total_assets": 128567.0,
+          "total_debt": 13134.0,
+          "cash_and_equivalents": 963.0,
+          "net_debt": -2453.0,
+          "working_capital": 31125.0,
+          "shareholders_equity": 77314.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.17
+        },
+        "income_latest_statement": {
+          "total_revenue": 22496.0,
+          "gross_profit": 3878.0,
+          "operating_income": 923.0,
+          "net_income": 1172.0,
+          "ebitda": 3068.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 17.24,
+          "operating_margin": 4.1,
+          "net_margin": 5.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2540.0,
+          "free_cash_flow": 146.0,
+          "capex": 2394.0,
+          "net_income": 1190.0,
+          "cash_change": -515.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.5062,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-14",
+            "open": 317.73,
+            "high": 322.5986,
+            "low": 312.67,
+            "close": 316.9,
+            "volume": 78043430
+          },
+          {
+            "date": "2025-07-15",
+            "open": 319.675,
+            "high": 321.2,
+            "low": 310.5,
+            "close": 310.78,
+            "volume": 77556352
+          },
+          {
+            "date": "2025-07-16",
+            "open": 312.8,
+            "high": 323.5,
+            "low": 312.62,
+            "close": 321.67,
+            "volume": 97284789
+          },
+          {
+            "date": "2025-07-17",
+            "open": 323.15,
+            "high": 324.34,
+            "low": 317.0601,
+            "close": 319.41,
+            "volume": 73922875
+          },
+          {
+            "date": "2025-07-18",
+            "open": 321.66,
+            "high": 330.9,
+            "low": 321.42,
+            "close": 329.65,
+            "volume": 94254992
+          },
+          {
+            "date": "2025-07-21",
+            "open": 334.4,
+            "high": 338,
+            "low": 326.88,
+            "close": 328.49,
+            "volume": 75768797
+          },
+          {
+            "date": "2025-07-22",
+            "open": 329.74,
+            "high": 335.4098,
+            "low": 321.55,
+            "close": 332.11,
+            "volume": 77370367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 330.9,
+            "high": 336.2,
+            "low": 328.67,
+            "close": 332.56,
+            "volume": 92553758
+          },
+          {
+            "date": "2025-07-24",
+            "open": 310,
+            "high": 310.15,
+            "low": 300.41,
+            "close": 305.3,
+            "volume": 156966000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 308.74,
+            "high": 323.63,
+            "low": 308.01,
+            "close": 316.06,
+            "volume": 148227016
+          },
+          {
+            "date": "2025-07-28",
+            "open": 318.45,
+            "high": 330.49,
+            "low": 315.69,
+            "close": 325.59,
+            "volume": 112673797
+          },
+          {
+            "date": "2025-07-29",
+            "open": 325.55,
+            "high": 326.25,
+            "low": 318.25,
+            "close": 321.2,
+            "volume": 87358867
+          },
+          {
+            "date": "2025-07-30",
+            "open": 322.18,
+            "high": 324.4499,
+            "low": 311.6164,
+            "close": 319.04,
+            "volume": 83931938
+          },
+          {
+            "date": "2025-07-31",
+            "open": 319.605,
+            "high": 321.37,
+            "low": 306.1,
+            "close": 308.27,
+            "volume": 85270922
+          },
+          {
+            "date": "2025-08-01",
+            "open": 306.205,
+            "high": 309.31,
+            "low": 297.82,
+            "close": 302.63,
+            "volume": 89121445
+          },
+          {
+            "date": "2025-08-04",
+            "open": 309.08,
+            "high": 312.1186,
+            "low": 303.0001,
+            "close": 309.26,
+            "volume": 78683914
+          },
+          {
+            "date": "2025-08-05",
+            "open": 308.95,
+            "high": 312.4499,
+            "low": 305.5,
+            "close": 308.72,
+            "volume": 57961281
+          },
+          {
+            "date": "2025-08-06",
+            "open": 307.89,
+            "high": 320.47,
+            "low": 306.9345,
+            "close": 319.91,
+            "volume": 78523586
+          },
+          {
+            "date": "2025-08-07",
+            "open": 319.79,
+            "high": 322.4,
+            "low": 316.16,
+            "close": 322.27,
+            "volume": 66658672
+          },
+          {
+            "date": "2025-08-08",
+            "open": 321.43,
+            "high": 335.15,
+            "low": 320.98,
+            "close": 329.65,
+            "volume": 91200320
+          },
+          {
+            "date": "2025-08-11",
+            "open": 335,
+            "high": 346.64,
+            "low": 334.15,
+            "close": 339.03,
+            "volume": 105320203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 345,
+            "high": 345.26,
+            "low": 332.94,
+            "close": 340.84,
+            "volume": 80690109
+          },
+          {
+            "date": "2025-08-13",
+            "open": 341.5,
+            "high": 348.98,
+            "low": 338.2,
+            "close": 339.38,
+            "volume": 67838891
+          },
+          {
+            "date": "2025-08-14",
+            "open": 335.76,
+            "high": 340.4699,
+            "low": 330.4,
+            "close": 335.58,
+            "volume": 75000656
+          },
+          {
+            "date": "2025-08-15",
+            "open": 337.655,
+            "high": 339.3,
+            "low": 327.02,
+            "close": 330.56,
+            "volume": 74319789
+          },
+          {
+            "date": "2025-08-18",
+            "open": 329.62,
+            "high": 336.27,
+            "low": 329.59,
+            "close": 335.16,
+            "volume": 56956551
+          },
+          {
+            "date": "2025-08-19",
+            "open": 335.79,
+            "high": 340.55,
+            "low": 327.85,
+            "close": 329.31,
+            "volume": 75956000
+          },
+          {
+            "date": "2025-08-20",
+            "open": 329.22,
+            "high": 331.37,
+            "low": 314.6,
+            "close": 323.9,
+            "volume": 77481766
+          },
+          {
+            "date": "2025-08-21",
+            "open": 322.08,
+            "high": 324.9,
+            "low": 318.68,
+            "close": 320.11,
+            "volume": 55744449
+          },
+          {
+            "date": "2025-08-22",
+            "open": 321.66,
+            "high": 340.25,
+            "low": 319.69,
+            "close": 340.01,
+            "volume": 94016347
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-14",
+          "end": "2025-08-22"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 7.577675124976267,
+        "return_63d": 0.1974420934755749,
+        "pct_above_sma50": 5.764295646060845,
+        "sma_50": 321.47900000000004,
+        "new_55d_high": "False",
+        "high_55d": 357.54,
+        "rsi": 68.6386228633774,
+        "rsi_in_range": "True",
+        "adx": 18.763550931595443,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.5020646451574953,
+        "bb_width": 14.30764013604467,
+        "keltner_width": 14.667229705290133,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 25915703868.72815,
+        "adv_shares": 79735475.15,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 53.05586541206624,
+        "final_score": 48.05586541206624,
+        "sub_scores": {
+          "trend_momentum": 15.055865412066243,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 11.369145103177193,
+          "ret_63d": -0.3020173586676167,
+          "rsi14": 68.6386228633774,
+          "adx14": 17.952514183951287,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSLA\n• Current Price: $340.01\n• Overall Score: 57.37139879755286\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 321.479\n• Sma 200: 328.4078\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 11.369145103177196\n• Momentum 63D: -0.30201735866761364\n• Momentum 126D: 0.6542332741266962\n• Momentum Acceleration: 11.67116246184481\n• Roc 21D: 11.369145103177196\n• Trend Strength 20D: 0.33020586694262577\n• Trend Direction: 1\n• Ma Ribbon Score: 84.70865058950261\n• Breakout Strength: 0.0\n• Price Velocity: 0.006099625546723009\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: 0.5461769426089966\n• Volatility Compression: 49.81585735432592\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.055865412066243\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 68.0\n• Squeeze: 62.47237860314889\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: TSLA\n• Strike Price: $330\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $31.6\n• Ask: $31.7\n• Last: $31.6\n• Mid: $31.65\n• Spread: 0.3154574132492113564668769716%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6125\n• Gamma: 0.006\n• Theta: -0.2397\n• Vega: 0.51\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4827\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 4580\n• Open Interest: 5355\n• Volume/OI Ratio: 0.8552754435107376\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Tesla Inc\n• Sector: Consumer Cyclical\n• Industry: Auto Manufacturers\n• EPS (TTM): $1.67\n• Profit Margin: 6.3%\n• ROE: 8.2%\n• P/E Ratio: 203.6\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T01:00:00+00:00: Automotive Refinish Coatings Market worth $13.85 billion by 2030, at a CAGR of 3...\n• 2025-08-25T00:33:38+00:00: SpaceX scrubs Starship launch after ground systems issue...\n• 2025-08-25T00:01:18+00:00: 50-Year-Old Making $5,900 A Month In Dividends Shares Top 7 Stocks, Plans Exit F...\n• 2025-08-24T23:12:00+00:00: Prediction: All \"Ten Titans\" Stocks Will Surpass $1 Trillion in Market Cap by 20...\n• 2025-08-24T23:12:00+00:00: Prediction: All &amp;quot;Ten Titans&amp;quot; Stocks Will Surpass $1 Trillion i...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSLA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the TSLA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T01:09:44.767379",
+    "estimated_tokens": 2337
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSLA\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 17,\n        \"iv_value\": 9,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 5,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TSLA shows strong technical momentum with price above both SMAs and positive 21-day momentum of 11.37%. The options contract demonstrates good liquidity with tight spreads (0.32%) and healthy volume/OI ratio, while a confirmed volatility squeeze suggests potential for a breakout move.\",\n    \"opportunities\": [\n        \"Strong technical setup with price above both 50 & 200 SMAs and 84.7 MA ribbon score\",\n        \"Tight option spreads (0.32%) with good volume/OI ratio of 0.86\",\n        \"Multiple timeframe squeeze (count: 3) with 49.8% volatility compression\"\n    ],\n    \"risks\": [\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"High P/E ratio of 203.6 suggests rich valuation\",\n        \"Moderate profit margin of 6.3% indicates limited profitability\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call option at $330 strike shows favorable risk/reward with 0.61 delta\",\n        \"entry_timing\": \"Current squeeze setup suggests waiting for breakout confirmation before entry\",\n        \"risk_management\": \"Use 50-day SMA at 321.48 as technical stop level; consider position sizing due to high implied volatility of 48.27%\"\n    },\n    \"red_flags\": [\n        \"Earnings report in approximately 35 days could create significant volatility\",\n        \"Relatively low ROE of 8.2% suggests efficiency concerns\"\n    ],\n    \"notes\": \"While technical setup is strong, fundamental metrics suggest caution. Consider reducing position size or using spreads to manage elevated implied volatility exposure.\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSLA",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 17,
+        "iv_value": 9,
+        "squeeze_volatility": 8,
+        "fundamentals": 5,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "TSLA shows strong technical momentum with price above both SMAs and positive 21-day momentum of 11.37%. The options contract demonstrates good liquidity with tight spreads (0.32%) and healthy volume/OI ratio, while a confirmed volatility squeeze suggests potential for a breakout move.",
+      "opportunities": [
+        "Strong technical setup with price above both 50 & 200 SMAs and 84.7 MA ribbon score",
+        "Tight option spreads (0.32%) with good volume/OI ratio of 0.86",
+        "Multiple timeframe squeeze (count: 3) with 49.8% volatility compression"
+      ],
+      "risks": [
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "High P/E ratio of 203.6 suggests rich valuation",
+        "Moderate profit margin of 6.3% indicates limited profitability"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call option at $330 strike shows favorable risk/reward with 0.61 delta",
+        "entry_timing": "Current squeeze setup suggests waiting for breakout confirmation before entry",
+        "risk_management": "Use 50-day SMA at 321.48 as technical stop level; consider position sizing due to high implied volatility of 48.27%"
+      },
+      "red_flags": [
+        "Earnings report in approximately 35 days could create significant volatility",
+        "Relatively low ROE of 8.2% suggests efficiency concerns"
+      ],
+      "notes": "While technical setup is strong, fundamental metrics suggest caution. Consider reducing position size or using spreads to manage elevated implied volatility exposure."
+    },
+    "tokens_used": 2592,
+    "cost": 0.025920000000000002,
+    "response_time": 12.008424520492554,
+    "success": true
+  },
+  "cost": 0.025920000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8550,
+    "response_length": 1822
+  }
+}

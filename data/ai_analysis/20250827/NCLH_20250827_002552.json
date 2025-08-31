@@ -1,0 +1,621 @@
+{
+  "success": true,
+  "symbol": "NCLH",
+  "timestamp": "2025-08-27T00:25:52.135374",
+  "data_package": {
+    "metadata": {
+      "symbol": "NCLH",
+      "package_timestamp": "2025-08-27T00:25:42.103824",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NCLH",
+        "current_price": 24.84,
+        "overall_score": 49.744958074837584,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 22.4846,
+        "sma_200": 22.5971
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.6850921273031934,
+        "momentum_63d": 36.87119955776673,
+        "momentum_126d": 0.6913379422529553,
+        "momentum_acceleration": -33.18610743046354,
+        "roc_21d": 3.6850921273031934,
+        "trend_strength_20d": 0.02015068362055063,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.6546207940547,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0033124759517001224
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 14.0,
+        "squeeze_momentum": -0.07727477018618209,
+        "volatility_compression": 53.37894437492788,
+        "is_consolidating": "False",
+        "breakout_score": 5.557059479048654,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.905387271484162,
+        "squeeze_breakout": 4.0,
+        "options_quality": 13.568992405063288,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 55.0,
+        "squeeze": 58.00684165623918,
+        "options": 37.5,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "ranking": 23,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NCLH",
+        "strike_price": "24",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.95",
+        "ask": "2",
+        "last_price": "2",
+        "mid_price": "1.975",
+        "spread_percent": "2.500"
+      },
+      "greeks": {
+        "delta": 0.6355,
+        "gamma": 0.1025,
+        "theta": -0.0148,
+        "vega": 0.0352
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.391
+      },
+      "liquidity_metrics": {
+        "volume": 151,
+        "open_interest": 273,
+        "volume_oi_ratio": 0.5531135531135531
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:02:43.423598",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T16:03:45+00:00",
+            "title": "NCLH Quantitative Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for NORWEGIAN CRUISE LINE HOLDINGS LTD (NCLH). Of the 22 guru strategies we follow,  NCLH rates highest using our Contrarian Investor model based on the published strategy of David Dreman. This contrarian strategy finds the most unpopular mid- and large-cap stocks in the market and looks for improving fundamentals.\n\nNORWEGIAN CRUISE LINE HOLDINGS LTD (NCLH) is a mid-cap value stock in the Water Transportation industry. The rating using this strategy is 64% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSEARNINGS TREND:FAILEPS GROWTH RATE IN THE IMMEDIATE PAST AND FUTURE:PASSP/E RATIO:FAILPRICE/CASH FLOW (P/CF) RATIO:PASSPRICE/BOOK (P/B) VALUE:FAILPRICE/DIVIDEND (P/D) RATIO:FAILCURRENT RATIO:FAILPAYOUT RATIO:PASSRETURN ON EQUITY:PASSPRE-TAX PROFIT MARGINS:PASSYIELD:FAILLOOK AT THE TOTAL DEBT/EQUITY:FAIL\n\nDetailed Analysis of NORWEGIAN CRUISE LINE HOLDINGS LTD\n\nNCLH Guru Analysis\n\nNCLH Fundamental Analysis\n\nMore Information on David Dreman\n\nDavid Dreman Portfolio\n\nAbout David Dreman: Dreman's Kemper-Dreman High Return Fund was one of the best-performing mutual funds ever, ranking as the best of 255 funds in its peer groups from 1988 to 1998, according to Lipper Analytical Services. At the time Dreman published Contrarian Investment Strategies: The Next Generation, the fund had been ranked number one in more time periods than any of the 3,175 funds in Lipper's database. In addition to managing money, Dreman is also a longtime Forbes magazine columnist.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nFactor-Based ETF Portfolios\n\nHarry Browne Permanent Portfolio\n\nRay Dalio All Weather Portfolio\n\nHigh Shareholder Yield Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T13:45:01+00:00",
+            "title": "Why Norwegian Cruise Line (NCLH) is a Top Growth Stock for the Long-Term",
+            "content": "It doesn't matter your age or experience: taking full advantage of the stock market and investing with confidence are common goals for all investors.\n\nMany investors also have a go-to methodology that helps guide their buy and sell decisions. One way to find winning stocks based on your preferred way of investing is to use the Zacks Style Scores, which are indicators that rate stocks based on three widely-followed investing types: value, growth, and momentum.\n\nWhy This 1 Growth Stock Should Be On Your Watchlist\n\nDifferent than value or momentum investors, growth-oriented investors are concerned with a stock's future prospects, and the overall financial health and strength of a company. Thus, they'll want to focus on the Growth Style Score, which analyzes characteristics like projected and historical earnings, sales, and cash flow to find stocks that will see sustainable growth over time.\n\nNorwegian Cruise Line (NCLH)\n\nNorwegian Cruise Line Holdings Ltd., a Bermuda Limited company, is a leading cruise line operator. It owns and operates three brands — Oceania Cruises, Regent Seven Seas Cruises and Norwegian Cruise Line. The company, founded in 1966, is headquartered in Miami, FL.\n\nNCLH sits at a Zacks Rank #3 (Hold), holds a Growth Style Score of B, and has a VGM Score of A. Earnings and sales are forecasted to increase 12.1% and 6.1% year-over-year, respectively.\n\nTwo analysts revised their earnings estimate upwards in the last 60 days, and the Zacks Consensus Estimate has increased $0.01 to $2.04 per share for 2025. NCLH boasts an average earnings surprise of 29.1%.\n\nNorwegian Cruise Line is also cash rich. The company has generated cash flow growth of 0.8%, and is expected to report cash flow expansion of 71.3% in 2025.\n\nWith solid fundamentals, a good Zacks Rank, and top-tier Growth and VGM Style Scores, NCLH should be on investors' short lists.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNorwegian Cruise Line Holdings Ltd. (NCLH) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:50:03+00:00",
+            "title": "Are You a Momentum Investor? This 1 Stock Could Be the Perfect Pick",
+            "content": "It doesn't matter your age or experience: taking full advantage of the stock market and investing with confidence are common goals for all investors.\n\nAchieving those goals is made easier with the Zacks Style Scores, a unique set of guidelines that rates stocks based on popular investing methodologies, namely value, growth, and momentum. The Style Scores can help you narrow down which stocks are better for your portfolio and which ones can beat the market over the long-term.\n\nIs This 1 Momentum Stock a Screaming Buy Right Now?\n\nDifferent than value or growth investors, momentum-oriented investors live by the saying \"the trend is your friend.\" This investing style is all about taking advantage of upward or downward trends in a stock's price or earnings outlook. Employing factors like one-week price change and the monthly percentage change in earnings estimates, the Momentum Style Score can indicate favorable times to build a position in high-momentum stocks.\n\nNorwegian Cruise Line (NCLH)\n\nNorwegian Cruise Line Holdings Ltd., a Bermuda Limited company, is a leading cruise line operator. It owns and operates three brands — Oceania Cruises, Regent Seven Seas Cruises and Norwegian Cruise Line. The company, founded in 1966, is headquartered in Miami, FL.\n\nNCLH is a Zacks Rank #3 (Hold) stock, with a Momentum Style Score of A and VGM Score of A. Shares are up 3.1% over the past one week and up 5.2% over the past four weeks. NCLH has gained 43.1% in the last one-year period as well. Looking at trading volume, an average of 15,260,462 shares exchanged hands over the last 20 trading days.\n\nA company's earnings performance is important for momentum investors as well. For fiscal 2025, two analysts revised their earnings estimate higher in the last 60 days for NCLH, while the Zacks Consensus Estimate has increased $0.01 to $2.04 per share. NCLH also boasts an average earnings surprise of 29.1%.\n\nNCLH should be on investors' short list because of its impressive earnings fundamentals, a good Zacks Rank, and strong Momentum and VGM Style Scores.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nNorwegian Cruise Line Holdings Ltd. (NCLH) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-24T08:05:00+00:00",
+            "title": "Not Nearly Enough People Are Talking About Royal Caribbean Stock",
+            "content": "Key Points\n\nRoyal Caribbean is the No. 2 company in the cruise line industry by passenger count.  It has shown it can retire debt while adding capacity amid robust demand. Royal Caribbean outperformed its peers, but it also carries the highest P/E ratio in the industry. 10 stocks we like better than Royal Caribbean Cruises ›\n\nAmid competition in the cruise line industry, investors seem to have overlooked Royal Caribbean (NYSE: RCL). The larger market share of Carnival and the relatively recent IPO of Viking Holdings seem to have overshadowed it.\n\nNonetheless, Royal Caribbean stock has doubled over the last year, and given its strength and market positioning, it might be time for investors to take a closer look at the cruise line.\n\nWhere to invest $1,000 right now? Our analyst team just revealed what they believe are the 10 best stocks to buy right now. Continue »\n\nImage source: Getty Images.\n\nRoyal Caribbean's market positioning\n\nLongtime investors might recall how the former General Electric CEO, Jack Welch, proposed the \"number one or number two\" strategy, meaning the largest and second-largest companies in an industry stood the strongest chances of success and profitability.\n\nIf one believes this, Royal Caribbean's No. 2 position in the market should fit this strategy. The owner of the Royal Caribbean, Celebrity, and Silversea cruise lines claims 27% of all cruise passengers, according to Cruise Market Watch. This is second only to Carnival, which holds a 41.5% market share.\n\nMoreover, Royal Caribbean seems unaffected by the economic concerns that have cast doubt over other industries. Bookings continued to accelerate in the second quarter of 2025, taking occupancy to nearly 110% for the first half of the year. The industry defines 100% capacity as having two people in every cabin.\n\nAmid these full cabins, the company has invested in adding ships to its fleet. In the second quarter of 2025, capacity grew by 5.8% compared to year-ago levels as it debuted a new ship. The company also plans to launch two additional ships later this year to help meet this higher demand.\n\nRoyal Caribbean's financial condition\n\nRising bookings also mean that it has to offer fewer discounts to fill cabins, boosting its top and bottom lines. In the first half of 2025, revenue of more than $8.5 billion rose 9% compared to the same period last year.\n\nAdditionally, the company kept cost and expense growth in check. With that, it earned more than $1.9 billion in net income attributable to shareholders in the first two quarters of 2025. During the same timeframe in 2024, it reported just over $1.2 billion in net profit.\n\nThis helps significantly in addressing Royal Caribbean's most daunting financial challenge -- total debt. During the pandemic, governments forced Royal Caribbean and its peers to lock down, forcing them to run up massive debts to stay in business.\n\nAs of the end of Q2, Royal Caribbean holds $19 billion in total debt, well above its $9.4 billion in shareholders' equity. Still, that is a significant improvement over the nearly $24 billion in total debt it held at the end of 2022.\n\nAlso, very little of that debt is due in 2025, lessening the likelihood Royal Caribbean will have to refinance maturing debt at higher interest rates. Furthermore, it paid off this debt while still adding ships to its fleet, meaning the company has handled its heavy debt burden well.\n\nInvestors have begun to take notice. Consequently, Royal Caribbean stock outperformed its peers over the last year, including Viking.\n\nRCL data by YCharts\n\nStill, with those higher returns, investors will pay a modest premium for this stock. Royal Caribbean's P/E ratio of 24 is the highest in the industry. Still, with an average P/E ratio of 30 for the S&P 500, it might be worth paying up to own this stock.\n\nMoving forward with Royal Caribbean stock\n\nIf you invest in the cruise line industry, Royal Caribbean stock belongs on your watch list and arguably, your portfolio as well.\n\nIndeed, Royal Caribbean carries considerable debt, and investors will pay a modest premium for this stock.\n\nNonetheless, despite an uncertain economy, it continues to book cruises at more than 100% capacity. Moreover, it has a proven ability to retire debt as it comes due, all while adding ships to help meet the robust demand for cruise vacations.\n\nThus, it benefits from a virtuous cycle of rising profits, higher stock prices, and an improving balance sheet. If one invests in the travel industry, these are all good reasons to talk about and possibly add Royal Caribbean stock to one's portfolio.\n\nShould you invest $1,000 in Royal Caribbean Cruises right now?\n\nBefore you buy stock in Royal Caribbean Cruises, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Royal Caribbean Cruises wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $649,657!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,090,993!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,057% — a market-crushing outperformance compared to 185% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nWill Healy has no position in any of the stocks mentioned. The Motley Fool recommends Carnival Corp., GE Aerospace, and Viking. The Motley Fool has a disclosure policy.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T10:08:08+00:00",
+            "title": "Will Norwegian Cruise Line’s (NCLH) Leadership Shift Influence Management Credibility and Long-Term Strategy?",
+            "content": "Norwegian Cruise Line Holdings Ltd. recently announced that David Herrera, former President of Norwegian Cruise Line, departed the company on August 20, 2025, as part of a leadership transition, with CEO Harry Sommer temporarily taking on his responsibilities while a successor is sought. While the leadership change introduces some uncertainty, the company's decision to reaffirm its 2025 earnings guidance highlights management's continued confidence in its current business outlook. We'll examine how the president's departure and CEO's interim role could affect Norwegian Cruise Line's long-term investment narrative.\n\nThese 13 companies survived and thrived after COVID and have the right ingredients to survive Trump's tariffs. Discover why before your portfolio feels the trade war pinch.\n\nNorwegian Cruise Line Holdings Investment Narrative Recap\n\nTo be a shareholder in Norwegian Cruise Line Holdings, you need to believe the company can deliver strong earnings by capitalizing on its expanding premium cruise offerings and enhancing guest experiences, all while managing high debt levels and shifting travel trends. The recent leadership change, with CEO Harry Sommer stepping in as interim President, does not appear to materially alter the company’s most important short-term catalyst, the ramp-up of new onboard experiences, nor does it significantly worsen the primary risk of financial leverage.\n\nOf the recent announcements, the reaffirmation of earnings guidance for 2025 stands out as most relevant to the leadership transition. By publicly maintaining its outlook amid executive changes, management signals operational stability and continued execution toward its business objectives, especially the high-profile Great Stirrup Cay development project, which remains central to growth plans.\n\nHowever, investors should also recognize that, despite steady guidance and robust booking trends, significant debt obligations remain on the horizon, which means...\n\nRead the full narrative on Norwegian Cruise Line Holdings (it's free!)\n\nNorwegian Cruise Line Holdings is expected to reach $12.6 billion in revenue and $1.7 billion in earnings by 2028. This outlook is based on a 9.5% annual revenue growth rate and a $980.8 million increase in earnings from the current $719.2 million.\n\nUncover how Norwegian Cruise Line Holdings' forecasts yield a $29.98 fair value, a 20% upside to its current price.\n\nExploring Other PerspectivesNCLH Community Fair Values as at Aug 2025\n\nFive members of the Simply Wall St Community estimate Norwegian’s fair value between US$23 and US$45.29 per share. While expansion efforts serve as a key growth catalyst, you may want to consider how differing views on risk and execution could impact long-term performance.\n\nStory Continues\n\nExplore 5 other fair value estimates on Norwegian Cruise Line Holdings - why the stock might be worth as much as 81% more than the current price!\n\nBuild Your Own Norwegian Cruise Line Holdings Narrative\n\nDisagree with existing narratives? Create your own in under 3 minutes - extraordinary investment returns rarely come from following the herd.\n\nA great starting point for your Norwegian Cruise Line Holdings research is our analysis highlighting 4 key rewards and 1 important warning sign that could impact your investment decision. Our free Norwegian Cruise Line Holdings research report provides a comprehensive fundamental analysis summarized in a single visual - the Snowflake - making it easy to evaluate Norwegian Cruise Line Holdings' overall financial health at a glance.\n\nContemplating Other Strategies?\n\nOpportunities like this don't last. These are today's most promising picks. Check them out now:\n\nRare earth metals are an input to most high-tech devices, military and defence systems and electric vehicles. The global race is on to secure supply of these critical minerals. Beat the pack to uncover the 28 best rare earth metal stocks of the very few that mine this essential strategic resource. Explore 23 top quantum computing companies leading the revolution in next-gen technology and shaping the future with breakthroughs in quantum algorithms, superconducting qubits, and cutting-edge research. AI is about to change healthcare. These 28 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10b in market cap - there's still time to get in early.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include NCLH.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Norwegian Cruise Line Holdings Ltd",
+          "sector": "Consumer Cyclical",
+          "industry": "Travel Services",
+          "employees": 41700,
+          "description": "Norwegian Cruise Line Holdings Ltd., together with its subsidiaries, operates as a cruise company in North America, Europe, the Asia-Pacific, and internationally. It operates the Norwegian Cruise Line, Oceania Cruises, and Regent Seven Seas Cruises brands. The company's brands provide accommodations"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.46,
+          "profit_margin": 0.0752,
+          "operating_margin": 0.1684,
+          "roe": 0.6357,
+          "roa": 0.0459,
+          "revenue_growth_yoy": 0.061,
+          "earnings_growth_yoy": -0.808,
+          "eps_estimate_current_year": 2.0284,
+          "eps_estimate_next_year": 2.5109,
+          "revenue_ttm": 9560993792,
+          "revenue_per_share": 21.64,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 16.8767,
+          "forward_pe": 12.285,
+          "price_to_sales": 1.1647,
+          "price_to_book": 7.2128,
+          "enterprise_value": 24900419954,
+          "ev_to_revenue": 2.6044,
+          "ev_to_ebitda": 10.4428
+        },
+        "technical_data": {
+          "beta": 2.25,
+          "52_week_high": 29.29,
+          "52_week_low": 14.21,
+          "50_day_ma": 22.4846,
+          "200_day_ma": 22.5971,
+          "short_interest": 0.0761,
+          "short_ratio": 1.71
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.25,
+          "target_price": 29.9762,
+          "strong_buy": 13,
+          "buy": 4,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 451936992,
+          "percent_institutions": 79.498,
+          "percent_insiders": 0.39899999999999997,
+          "shares_float": 448344184
+        },
+        "balance_latest_sheet": {
+          "total_assets": 21595.817,
+          "total_debt": 13763.411,
+          "net_debt": 13579.396,
+          "working_capital": -5215.305,
+          "shareholders_equity": 1569.57,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 8.77
+        },
+        "income_latest_statement": {
+          "total_revenue": 2517.497,
+          "gross_profit": 1060.65,
+          "operating_income": 423.836,
+          "net_income": 29.992,
+          "ebitda": 442.735999,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 42.13,
+          "operating_margin": 16.84,
+          "net_margin": 1.19
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 714.851,
+          "free_cash_flow": 381.21,
+          "capex": 333.641,
+          "net_income": 29.992,
+          "cash_change": -0.344,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.16,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 23,
+            "high": 23.45,
+            "low": 22.82,
+            "close": 23.05,
+            "volume": 17115200
+          },
+          {
+            "date": "2025-07-17",
+            "open": 23.17,
+            "high": 23.71,
+            "low": 23.09,
+            "close": 23.6,
+            "volume": 12123400
+          },
+          {
+            "date": "2025-07-18",
+            "open": 23.82,
+            "high": 23.87,
+            "low": 23.58,
+            "close": 23.59,
+            "volume": 8903800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 23.64,
+            "high": 23.76,
+            "low": 23.17,
+            "close": 23.19,
+            "volume": 11727500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 23.56,
+            "high": 23.66,
+            "low": 22.86,
+            "close": 23.6,
+            "volume": 17029500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 23.89,
+            "high": 24.44,
+            "low": 23.87,
+            "close": 24.32,
+            "volume": 14824500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 24.11,
+            "high": 24.26,
+            "low": 23.48,
+            "close": 23.5,
+            "volume": 12064100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 23.63,
+            "high": 23.86,
+            "low": 23.32,
+            "close": 23.82,
+            "volume": 9160300
+          },
+          {
+            "date": "2025-07-28",
+            "open": 24.01,
+            "high": 24.33,
+            "low": 23.63,
+            "close": 23.88,
+            "volume": 13968700
+          },
+          {
+            "date": "2025-07-29",
+            "open": 23.2,
+            "high": 23.87,
+            "low": 23.13,
+            "close": 23.41,
+            "volume": 16225800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 23.53,
+            "high": 23.79,
+            "low": 23.15,
+            "close": 23.4,
+            "volume": 15354900
+          },
+          {
+            "date": "2025-07-31",
+            "open": 26.12,
+            "high": 27.1,
+            "low": 25.17,
+            "close": 25.56,
+            "volume": 40679300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 24.99,
+            "high": 25.08,
+            "low": 23.72,
+            "close": 24.5,
+            "volume": 21122000
+          },
+          {
+            "date": "2025-08-04",
+            "open": 24.74,
+            "high": 25.37,
+            "low": 24.68,
+            "close": 25.34,
+            "volume": 16998200
+          },
+          {
+            "date": "2025-08-05",
+            "open": 25.34,
+            "high": 25.35,
+            "low": 24.53,
+            "close": 25,
+            "volume": 11242800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 25.15,
+            "high": 25.17,
+            "low": 24.63,
+            "close": 24.81,
+            "volume": 10431100
+          },
+          {
+            "date": "2025-08-07",
+            "open": 25.11,
+            "high": 25.48,
+            "low": 24.28,
+            "close": 24.47,
+            "volume": 15433200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 24.62,
+            "high": 24.63,
+            "low": 23.98,
+            "close": 24,
+            "volume": 12286700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 23.93,
+            "high": 24.12,
+            "low": 23.58,
+            "close": 23.73,
+            "volume": 11320900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 23.96,
+            "high": 24.45,
+            "low": 23.91,
+            "close": 24.24,
+            "volume": 14475500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 24.38,
+            "high": 24.88,
+            "low": 24.28,
+            "close": 24.76,
+            "volume": 12511700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 24.3,
+            "high": 24.45,
+            "low": 23.99,
+            "close": 24.36,
+            "volume": 10984300
+          },
+          {
+            "date": "2025-08-15",
+            "open": 24.46,
+            "high": 24.56,
+            "low": 24.13,
+            "close": 24.3,
+            "volume": 9341100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 24.22,
+            "high": 24.92,
+            "low": 23.96,
+            "close": 24.58,
+            "volume": 12343200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 24.52,
+            "high": 24.65,
+            "low": 24.27,
+            "close": 24.43,
+            "volume": 12209100
+          },
+          {
+            "date": "2025-08-20",
+            "open": 24.22,
+            "high": 24.23,
+            "low": 23.52,
+            "close": 23.85,
+            "volume": 14377800
+          },
+          {
+            "date": "2025-08-21",
+            "open": 23.46,
+            "high": 23.5,
+            "low": 23.13,
+            "close": 23.36,
+            "volume": 13258900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 23.53,
+            "high": 25.18,
+            "low": 23.4,
+            "close": 25.05,
+            "volume": 20636000
+          },
+          {
+            "date": "2025-08-25",
+            "open": 24.82,
+            "high": 24.97,
+            "low": 24.61,
+            "close": 24.64,
+            "volume": 10449400
+          },
+          {
+            "date": "2025-08-26",
+            "open": 24.63,
+            "high": 24.8399,
+            "low": 24.29,
+            "close": 24.76,
+            "volume": 11168113
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 5.7667663391713,
+        "return_63d": 41.16305587229192,
+        "pct_above_sma50": 9.222340453598113,
+        "sma_50": 22.742599999999996,
+        "new_55d_high": "False",
+        "high_55d": 27.1,
+        "rsi": 49.6025437201908,
+        "rsi_in_range": "False",
+        "adx": 16.46014997811458,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.865084814216481,
+        "bb_width": 9.573509414453786,
+        "keltner_width": 15.655613955408684,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 362726918.86705,
+        "adv_shares": 14831210.65,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 47.47437967654745,
+        "final_score": 47.47437967654745,
+        "sub_scores": {
+          "trend_momentum": 18.905387271484162,
+          "squeeze_breakout": 4.0,
+          "options_quality": 13.568992405063288,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.685092127303191,
+          "ret_63d": 36.87119955776672,
+          "rsi14": 49.6025437201908,
+          "adx14": 17.622512788510694,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NCLH\n• Current Price: $24.84\n• Overall Score: 49.744958074837584\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 22.4846\n• Sma 200: 22.5971\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.6850921273031934\n• Momentum 63D: 36.87119955776673\n• Momentum 126D: 0.6913379422529553\n• Momentum Acceleration: -33.18610743046354\n• Roc 21D: 3.6850921273031934\n• Trend Strength 20D: 0.02015068362055063\n• Trend Direction: 1\n• Ma Ribbon Score: 83.6546207940547\n• Breakout Strength: 0.0\n• Price Velocity: 0.0033124759517001224\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 14.0\n• Squeeze Momentum: -0.07727477018618209\n• Volatility Compression: 53.37894437492788\n• Is Consolidating: False\n• Breakout Score: 5.557059479048654\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.905387271484162\n• Squeeze Breakout: 4.0\n• Options Quality: 13.568992405063288\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 55.0\n• Squeeze: 58.00684165623918\n• Options: 37.5\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NCLH\n• Strike Price: $24\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.95\n• Ask: $2\n• Last: $2\n• Mid: $1.975\n• Spread: 2.500%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6355\n• Gamma: 0.1025\n• Theta: -0.0148\n• Vega: 0.0352\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.391\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 151\n• Open Interest: 273\n• Volume/OI Ratio: 0.5531135531135531\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Norwegian Cruise Line Holdings Ltd\n• Sector: Consumer Cyclical\n• Industry: Travel Services\n• EPS (TTM): $1.46\n• Profit Margin: 7.5%\n• ROE: 63.6%\n• P/E Ratio: 16.9\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T16:03:45+00:00: NCLH Quantitative Stock Analysis...\n• 2025-08-26T13:45:01+00:00: Why Norwegian Cruise Line (NCLH) is a Top Growth Stock for the Long-Term...\n• 2025-08-25T13:50:03+00:00: Are You a Momentum Investor? This 1 Stock Could Be the Perfect Pick...\n• 2025-08-24T08:05:00+00:00: Not Nearly Enough People Are Talking About Royal Caribbean Stock...\n• 2025-08-23T10:08:08+00:00: Will Norwegian Cruise Line’s (NCLH) Leadership Shift Influence Management Credib...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NCLH\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NCLH opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:25:52.135080",
+    "estimated_tokens": 2327
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NCLH\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 19,\n        \"options_quality\": 12,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 5,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NCLH shows mixed signals with positive technical momentum (above both SMAs) but concerning momentum deceleration (-33.18 acceleration). While in a volatility squeeze with 2 timeframe compression, upcoming earnings and moderate options liquidity warrant caution.\",\n    \"opportunities\": [\n        \"Price above both 50 & 200 SMAs with strong MA ribbon score of 83.65\",\n        \"Multi-timeframe squeeze (2 counts) with 53.37% volatility compression\",\n        \"Solid fundamentals with 7.5% profit margin and 63.6% ROE\"\n    ],\n    \"risks\": [\n        \"Significant negative momentum acceleration (-33.18)\",\n        \"Earnings approaching on 2025-09-30\",\n        \"Moderate options liquidity with Vol/OI ratio of 0.55\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Use 2025 LEAPS for time buffer, consider vertical spread to reduce cost\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative momentum acceleration\",\n        \"Below average options liquidity\"\n    ],\n    \"notes\": \"While technical setup shows promise, timing is suboptimal due to upcoming earnings. Consider reassessing after earnings report for clearer entry opportunity.\"\n}",
+    "parsed_analysis": {
+      "symbol": "NCLH",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 19,
+        "options_quality": 12,
+        "iv_value": 6,
+        "squeeze_volatility": 7,
+        "fundamentals": 5,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NCLH shows mixed signals with positive technical momentum (above both SMAs) but concerning momentum deceleration (-33.18 acceleration). While in a volatility squeeze with 2 timeframe compression, upcoming earnings and moderate options liquidity warrant caution.",
+      "opportunities": [
+        "Price above both 50 & 200 SMAs with strong MA ribbon score of 83.65",
+        "Multi-timeframe squeeze (2 counts) with 53.37% volatility compression",
+        "Solid fundamentals with 7.5% profit margin and 63.6% ROE"
+      ],
+      "risks": [
+        "Significant negative momentum acceleration (-33.18)",
+        "Earnings approaching on 2025-09-30",
+        "Moderate options liquidity with Vol/OI ratio of 0.55"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Use 2025 LEAPS for time buffer, consider vertical spread to reduce cost"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative momentum acceleration",
+        "Below average options liquidity"
+      ],
+      "notes": "While technical setup shows promise, timing is suboptimal due to upcoming earnings. Consider reassessing after earnings report for clearer entry opportunity."
+    },
+    "tokens_used": 2528,
+    "cost": 0.025279999999999997,
+    "response_time": 10.029467582702637,
+    "success": true
+  },
+  "cost": 0.025279999999999997,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8509,
+    "response_length": 1607
+  }
+}

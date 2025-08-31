@@ -1,0 +1,621 @@
+{
+  "success": true,
+  "symbol": "DKNG",
+  "timestamp": "2025-08-27T00:07:43.153753",
+  "data_package": {
+    "metadata": {
+      "symbol": "DKNG",
+      "package_timestamp": "2025-08-27T00:07:32.291752",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "DKNG",
+        "current_price": 47.8,
+        "overall_score": 52.678818984555406,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 43.326,
+        "sma_200": 40.0591
+      },
+      "momentum_metrics": {
+        "momentum_21d": 7.746160794941281,
+        "momentum_63d": 34.20534458509144,
+        "momentum_126d": 12.23241590214068,
+        "momentum_acceleration": -26.459183790150156,
+        "roc_21d": 7.746160794941281,
+        "trend_strength_20d": 0.23612491470656502,
+        "trend_direction": 1,
+        "ma_ribbon_score": 100.0,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.01172257711675373
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 19.0,
+        "squeeze_momentum": 0.06174043361618997,
+        "volatility_compression": 53.39653025441096,
+        "is_consolidating": "False",
+        "breakout_score": 30.82012863712963,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 22.959838543242785,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.56470588235294,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 63.0,
+        "squeeze": 58.00947953816164,
+        "options": 40.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "DKNG",
+        "strike_price": "50",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "1.78",
+        "ask": "1.79",
+        "last_price": "1.8",
+        "mid_price": "1.785",
+        "spread_percent": "0.5586592178770949720670391061"
+      },
+      "greeks": {
+        "delta": 0.4123,
+        "gamma": 0.0602,
+        "theta": -0.0262,
+        "vega": 0.0702
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3585
+      },
+      "liquidity_metrics": {
+        "volume": 741,
+        "open_interest": 4462,
+        "volume_oi_ratio": 0.1660690273419991
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-27T00:01:52.159843",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.62,
+          "change": -0.17,
+          "change_percent": -1.1494,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.16,
+          "change": 2.69,
+          "change_percent": 0.4187,
+          "volume": 51099239,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T11:46:58+00:00",
+            "title": "The NCAA says it is 'deeply concerned' about the rise of prediction markets for college sports",
+            "content": "[NCAA Distribution Center. The National Collegiate Athletic Association regulates athletic programs of many colleges and universities.]\n\nThe NCAA has issued strong warnings about the rapid expansion of online prediction markets for college sports, stating last week that the college sports organization is \"deeply concerned\" about the lack of regulatory guardrails for the emerging platforms.\n\nIn response to Robinhood Markets (NASDAQ:HOOD [https://seekingalpha.com/symbol/HOOD]) and Kalshi's new offerings that allow trading on the results of college football games, the NCAA emphasized the risks the markets pose to the integrity of athletic competition and the safety of student-athletes. The organization specifically criticized that the prediction platforms fall under Commodity Futures Trading Commission oversight, not state gambling regulation, and argued that the absence of state-level supervision threatens both fair play and athlete welfare.\n\nRobinhood (NASDAQ:HOOD [https://seekingalpha.com/symbol/HOOD]) through its partnership with Kalshi has attracted a huge amount of attention just ahead of the college football season starting in full this weekend with marquee matchups that include Texas vs. Ohio State and Alabama vs. Florida State.\n\nLast week, reports indicated that prediction market platform Polymarket is preparing to return to the U.S. in time for the bulk of the football season.\n\nThe sports betting sector continues to see disruption due to the advent of prediction markets. For its part, FanDuel (NYSE:FLUT [https://seekingalpha.com/symbol/FLUT]) has entered a strategic partnership with CME Group (CME [https://seekingalpha.com/symbol/CME]) to create a platform that allows retail users to bet on the outcomes of financial market events. The joint venture is set up to operate as a non-clearing futures commission merchant. Pending regulatory review, the launch could be later in 2025. Meanwhile, DraftKings (NASDAQ:DKNG [https://seekingalpha.com/symbol/DKNG]) has publicly stated that it is actively monitoring and exploring entry into prediction markets.\n\nMORE ON FLUTTER AND DRAFTKINGS\n\n \t* Robinhood: Valuations Too Stretched, Upside Is Limited [https://seekingalpha.com/article/4816672-robinhood-stock-valuations-too-stretched-upside-limited]\n \t* Robinhood: The Financial Super-App Is Flexing Its Success [https://seekingalpha.com/article/4816328-robinhood-the-financial-super-app-is-flexing-its-success]\n \t* Robinhood: It's 2021 All Over Again, The Memes Are Back (Rating Downgrade) [https://seekingalpha.com/article/4816317-robinhood-its-2021-all-over-again-memes-are-back-ratings-downgrade]\n \t* Are you ready for football? Kalshi and Polymarket are [https://seekingalpha.com/news/4488066-are-you-ready-for-football-kalshi-and-polymarket-are]\n \t* FanDuel plays defense with a partnership to enter the event-based prediction markets [https://seekingalpha.com/news/4487875-fanduel-plays-defense-with-a-partnership-to-enter-the-event-based-prediction-markets]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T11:30:00+00:00",
+            "title": "DraftKings Launches Responsible Gaming Education Month Campaign Featuring Super Bowl Tickets Sweepstakes",
+            "content": "BOSTON, Aug.  26, 2025  (GLOBE NEWSWIRE) -- DraftKings Inc. (NASDAQ: DKNG) is marking Responsible Gaming Education Month (RGEM) with a monthlong campaign designed to promote responsible play. At the center of the effort is the launch of a sweepstakes—offering customers the chance to win NFL tickets, including a grand prize trip to Super Bowl LX, by engaging with tools like My Budget Builder and My Stat Sheet. As the NFL season kicks off, DraftKings is combining new technology with meaningful initiatives to encourage responsible play and help customers make more informed choices.\n\n“We are excited to launch our sweepstakes initiative in celebration of Responsible Gaming Education Month, inviting customers to explore our tools in a fun and engaging way,” said Lori Kalani, Chief Responsible Gaming Officer at DraftKings. “As a leading operator, we are committed to providing customers with tools that support responsible play and enhance their experience. This campaign recognizes and celebrates customers who use these resources, helping to foster a more informed and responsible gaming culture. Responsible gaming has been part of the DraftKings experience from day one, and we are proud to continue building on that foundation as the industry evolves.”\n\nTo build excitement for the NFL season and increase awareness of DraftKings’ newest responsible gaming tool, the sweepstakes will kick off with a chance to win NFL regular season tickets for customers who use My Budget Builder between August 26 and September 8, following the first Monday Night Football game. Each subsequent week will introduce a new way for customers to engage in responsible gaming—such as setting reminder alerts or exploring Smart Betting Tips in our Responsible Gaming Center—with two more pairs of regular season tickets up for grabs. In the final week, customers who use My Stat Sheet to reflect on their personal play will be entered to win the grand prize: an unforgettable trip to Super Bowl LX.\n\nIn addition to the RGEM NFL tickets giveaway, DraftKings is highlighting the early success of My Budget Builder, launched in June 2025. My Budget Builder builds on the momentum of My Stat Sheet—an industry-first tool that offers customers a clear, personalized summary of their play activity. Since launching over a year ago, My Stat Sheet has been used by approximately 3.4 million customers to review their activity and better understand their play over time.\n\nThese efforts reflect DraftKings’ ongoing commitment to delivering a fun, responsible, and best-in-class experience for all customers. Through continued investment, the company is expanding access to industry-leading tools and integrating responsible play throughout the customer journey. To reinforce this commitment, DraftKings is also sharing its new Code of Responsible Play with millions of customers ahead of the NFL season, encouraging them to play responsibly, respect everyone involved in the game, and above all, have fun. As DraftKings grows, responsible gaming will remain central to its product design, customer education, and long-term strategy.\n\nTo learn more about the different responsible gaming tools and resources available, visit the DraftKings RG Center. For the full NFL tickets giveaway terms and conditions, please visit http://dkng.co/RGEM.\n\nAbout DraftKings\r\nDraftKings Inc. is a digital sports entertainment and gaming company created to be the Ultimate Host and fuel the competitive spirit of sports fans with products that range across daily fantasy, regulated gaming, and digital media. Headquartered in Boston and launched in 2012 by Jason Robins, Matt Kalish and Paul Liberman, DraftKings is the only U.S.-based vertically integrated sports betting operator. DraftKings’ mission is to make life more exciting by responsibly creating the world’s favorite real-money games and betting experiences. DraftKings Sportsbook is live with mobile and/or retail sports betting operations pursuant to regulations in 28 states, Washington, D.C., and in Ontario, Canada. The Company operates iGaming pursuant to regulations in five states and in Ontario, Canada under its DraftKings brand and pursuant to regulations in four states under its Golden Nugget Online Gaming brand. DraftKings also owns Jackpocket, the leading digital lottery courier app in the United States. DraftKings’ daily fantasy sports product is available in 44 states, the District of Columbia, and certain Canadian provinces. DraftKings is both an official sports betting and daily fantasy partner of the NFL, NHL, PGA TOUR, WNBA and UFC, as well as an official daily fantasy partner of NASCAR, an official sports betting partner of the NBA and an authorized gaming operator of MLB. In addition, DraftKings owns and operates DraftKings Network a multi-platform content ecosystem. DraftKings is committed to being a responsible steward of this new era in real-money gaming by developing and promoting educational information and tools to help all customers enjoy our games responsibly.\n\nContact\r\nmedia@draftkings.com\r\n@DraftKingsNews",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T11:30:00+00:00",
+            "title": "DraftKings Launches Responsible Gaming Education Month Campaign Featuring Super Bowl Tickets Sweepstakes",
+            "content": "DK Crown Holdings Inc.\n\nMonthlong initiative rewards customers who engage with responsible gaming tools, including the new “My Budget Builder”\n\nBOSTON, Aug. 26, 2025 (GLOBE NEWSWIRE) -- DraftKings Inc. (NASDAQ: DKNG) is marking Responsible Gaming Education Month (RGEM) with a monthlong campaign designed to promote responsible play. At the center of the effort is the launch of a sweepstakes—offering customers the chance to win NFL tickets, including a grand prize trip to Super Bowl LX, by engaging with tools like My Budget Builder and My Stat Sheet. As the NFL season kicks off, DraftKings is combining new technology with meaningful initiatives to encourage responsible play and help customers make more informed choices.\n\n“We are excited to launch our sweepstakes initiative in celebration of Responsible Gaming Education Month, inviting customers to explore our tools in a fun and engaging way,” said Lori Kalani, Chief Responsible Gaming Officer at DraftKings. “As a leading operator, we are committed to providing customers with tools that support responsible play and enhance their experience. This campaign recognizes and celebrates customers who use these resources, helping to foster a more informed and responsible gaming culture. Responsible gaming has been part of the DraftKings experience from day one, and we are proud to continue building on that foundation as the industry evolves.”\n\nTo build excitement for the NFL season and increase awareness of DraftKings’ newest responsible gaming tool, the sweepstakes will kick off with a chance to win NFL regular season tickets for customers who use My Budget Builder between August 26 and September 8, following the first Monday Night Football game. Each subsequent week will introduce a new way for customers to engage in responsible gaming—such as setting reminder alerts or exploring Smart Betting Tips in our Responsible Gaming Center—with two more pairs of regular season tickets up for grabs. In the final week, customers who use My Stat Sheet to reflect on their personal play will be entered to win the grand prize: an unforgettable trip to Super Bowl LX.\n\nIn addition to the RGEM NFL tickets giveaway, DraftKings is highlighting the early success of My Budget Builder, launched in June 2025. My Budget Builder builds on the momentum of My Stat Sheet—an industry-first tool that offers customers a clear, personalized summary of their play activity. Since launching over a year ago, My Stat Sheet has been used by approximately 3.4 million customers to review their activity and better understand their play over time.\n\nStory Continues\n\nThese efforts reflect DraftKings’ ongoing commitment to delivering a fun, responsible, and best-in-class experience for all customers. Through continued investment, the company is expanding access to industry-leading tools and integrating responsible play throughout the customer journey. To reinforce this commitment, DraftKings is also sharing its new Code of Responsible Play with millions of customers ahead of the NFL season, encouraging them to play responsibly, respect everyone involved in the game, and above all, have fun. As DraftKings grows, responsible gaming will remain central to its product design, customer education, and long-term strategy.\n\nTo learn more about the different responsible gaming tools and resources available, visit the DraftKings RG Center. For the full NFL tickets giveaway terms and conditions, please visit http://dkng.co/RGEM.\n\nAbout DraftKings\r\nDraftKings Inc. is a digital sports entertainment and gaming company created to be the Ultimate Host and fuel the competitive spirit of sports fans with products that range across daily fantasy, regulated gaming, and digital media. Headquartered in Boston and launched in 2012 by Jason Robins, Matt Kalish and Paul Liberman, DraftKings is the only U.S.-based vertically integrated sports betting operator. DraftKings’ mission is to make life more exciting by responsibly creating the world’s favorite real-money games and betting experiences. DraftKings Sportsbook is live with mobile and/or retail sports betting operations pursuant to regulations in 28 states, Washington, D.C., and in Ontario, Canada. The Company operates iGaming pursuant to regulations in five states and in Ontario, Canada under its DraftKings brand and pursuant to regulations in four states under its Golden Nugget Online Gaming brand. DraftKings also owns Jackpocket, the leading digital lottery courier app in the United States. DraftKings’ daily fantasy sports product is available in 44 states, the District of Columbia, and certain Canadian provinces. DraftKings is both an official sports betting and daily fantasy partner of the NFL, NHL, PGA TOUR, WNBA and UFC, as well as an official daily fantasy partner of NASCAR, an official sports betting partner of the NBA and an authorized gaming operator of MLB. In addition, DraftKings owns and operates DraftKings Network a multi-platform content ecosystem. DraftKings is committed to being a responsible steward of this new era in real-money gaming by developing and promoting educational information and tools to help all customers enjoy our games responsibly.\n\nContact\r\nmedia@draftkings.com\r\n@DraftKingsNews\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:36:12+00:00",
+            "title": "Fanatics joins the sports betting scene in Missouri through a Boyd Gaming partnership",
+            "content": "[Kansas City]\nCesar Okada/iStock via Getty Images\n\nFanatics Betting and Gaming is the latest sports betting operator to line up a partner in Missouri. The company said it will link up with Boyd Gaming Corporation in the Show-Me state.\n\nUnder the terms of their multi-year agreement, Fanatics Sportsbook will operate mobile sports betting under Boyd's (NYSE:BYD [https://seekingalpha.com/symbol/BYD]) sports betting license in Missouri. The companies will open Fanatics-branded retail sportsbooks at Boyd’s Ameristar Casino Hotel Kansas City and Ameristar Casino Resort and Spa St. Charles, located near St. Louis. In addition, Fanatics plans to launch its online and retail betting products with the debut of regulated sports wagering in Missouri this December, contingent upon receipt of all required regulatory approvals. Notably, the Fanatics Sportsbook is available to 95% of the addressable online sports betting market in the U.S.\n\nDraftKings (DKNG [https://seekingalpha.com/symbol/DKNG]) and Circa Sports landed the two untethered licenses awarded by the Missouri Gaming Commission, while BetMGM (MGM [https://seekingalpha.com/symbol/MGM]) (GMHVF) has partnered with Century Casinos (CNTY [https://seekingalpha.com/symbol/CNTY]) and Bet365 has partnered with the St. Louis Cardinals. DraftKings (DKNG [https://seekingalpha.com/symbol/DKNG]), Caesars Sportsbooks (CZR [https://seekingalpha.com/symbol/CZR]), Bally Bet (BALY [https://seekingalpha.com/symbol/BALY]), ESPN Bet (PENN [https://seekingalpha.com/symbol/PENN]), Underdog Sports, Hard Rock Bet, and BetRivers are some of the other sports betting operations considering parternships in the state.\n\nMissouri sports betting is expected to go live on December 1.\n\nFanatics Betting and Gaming is owned by Fanatics Holdings (FANA [https://seekingalpha.com/symbol/FANA]), a privately held corporation headquartered in New York.\n\nMORE ON BOYD GAMING, FANATICS\n\n \t* Boyd Gaming: Don't Let The Strip Noise Fool You [https://seekingalpha.com/article/4815853-boyd-gaming-stock-strong-capital-returns-price-upside]\n \t* Boyd Gaming: Grab This Comet By The Tail Before It Sails Away [https://seekingalpha.com/article/4811367-boyd-gaming-grab-this-comet-by-the-tail-before-it-sails-away]\n \t* Boyd Gaming Corporation (BYD) Q2 2025 Earnings Call Transcript [https://seekingalpha.com/article/4804302-boyd-gaming-corporation-byd-q2-2025-earnings-call-transcript]\n \t* Boyd Gaming completes sale of Fanduel interest [https://seekingalpha.com/news/4475577-boyd-gaming-completes-sale-of-fanduel-interest]\n \t* Boyd Gaming plans $150M quarterly repurchases as FanDuel sale strengthens balance sheet [https://seekingalpha.com/news/4471964-boyd-gaming-plans-150m-quarterly-repurchases-as-fanduel-sale-strengthens-balance-sheet]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T19:49:45+00:00",
+            "title": "DKNG Quantitative Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for DRAFTKINGS INC (DKNG). Of the 22 guru strategies we follow,  DKNG rates highest using our Quantitative Momentum Investor model based on the published strategy of Wesley Gray. This momentum model looks for stocks with strong and consistent intermediate-term relative performance.\n\nDRAFTKINGS INC (DKNG) is a large-cap growth stock in the Recreational Activities industry. The rating using this strategy is 61% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. DEFINE THE UNIVERSE:PASSTWELVE MINUS ONE MOMENTUM:PASSRETURN CONSISTENCYNEUTRALSEASONALITYNEUTRAL\n\nDetailed Analysis of DRAFTKINGS INC\n\nDKNG Guru Analysis\n\nDKNG Fundamental Analysis\n\nMore Information on Wesley Gray\n\nWesley Gray Portfolio\n\nAbout Wesley Gray: Wesley Gray is the founder of Alpha Architect and the author (along with co-author Jack Vogel) of \"Quantitative Momentum A Practitioner's Guide to Building a Momentum-Based Stock Selection System\". He is also the author (along with co-author Tobias Carlisle) of \"Quantitative Value: A Practitioner's Guide to Automating Intelligent Investment and Eliminating Behavioral Errors\". He is an industry recognized expert in the application of quantitative investing strategies. Wes is also a former Marine and has his Phd from the Univerisity of Chicago, where he studied under Nobel Prize winner Eugene Fama.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nFactor-Based ETF Portfolios\n\nHarry Browne Permanent Portfolio\n\nRay Dalio All Weather Portfolio\n\nHigh Shareholder Yield Stocks\n\nFinancial Planning Podcast\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "DraftKings Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Gambling",
+          "employees": 5100,
+          "description": "DraftKings Inc. operates as a digital sports entertainment and gaming company in the United States and internationally. It provides online sports betting, daily fantasy sports, media, digital lottery courier, media, and other products, as well as retails sportsbooks. The company also offers iGaming,"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.65,
+          "profit_margin": -0.0563,
+          "operating_margin": 0.0996,
+          "roe": -0.2638,
+          "roa": -0.0464,
+          "revenue_growth_yoy": 0.369,
+          "earnings_growth_yoy": 1.846,
+          "eps_estimate_current_year": 1.2658,
+          "eps_estimate_next_year": 2.0007,
+          "revenue_ttm": 5409574912,
+          "revenue_per_share": 11.017,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 34.7222,
+          "price_to_sales": 4.3052,
+          "price_to_book": 23.0673,
+          "enterprise_value": 23937385030,
+          "ev_to_revenue": 4.425,
+          "ev_to_ebitda": -36.373
+        },
+        "technical_data": {
+          "beta": 1.7,
+          "52_week_high": 53.61,
+          "52_week_low": 29.64,
+          "50_day_ma": 43.326,
+          "200_day_ma": 40.0591,
+          "short_interest": 0.0691,
+          "short_ratio": 3.87
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2022-05-05",
+          "last_split_factor": "1:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.4688,
+          "target_price": 54.8636,
+          "strong_buy": 20,
+          "buy": 7,
+          "hold": 5,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 496470016,
+          "percent_institutions": 84.95,
+          "percent_insiders": 2.463,
+          "shares_float": 484708695
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4474.302,
+          "total_debt": 1909.943,
+          "net_debt": 647.974,
+          "working_capital": 452.146,
+          "shareholders_equity": 1009.628,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.89
+        },
+        "income_latest_statement": {
+          "total_revenue": 1512.507,
+          "gross_profit": 657.948,
+          "operating_income": 150.644,
+          "net_income": 157.936,
+          "ebitda": 246.856,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 43.5,
+          "operating_margin": 9.96,
+          "net_margin": 10.44
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 173.921,
+          "free_cash_flow": 169.605,
+          "capex": 4.316,
+          "net_income": 157.936,
+          "cash_change": 18.973,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.2123,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-16",
+            "open": 44.235,
+            "high": 44.79,
+            "low": 42.785,
+            "close": 43.36,
+            "volume": 6085000
+          },
+          {
+            "date": "2025-07-17",
+            "open": 43.67,
+            "high": 44.735,
+            "low": 43.6,
+            "close": 43.94,
+            "volume": 8894000
+          },
+          {
+            "date": "2025-07-18",
+            "open": 44.02,
+            "high": 44.08,
+            "low": 43.25,
+            "close": 43.72,
+            "volume": 4734200
+          },
+          {
+            "date": "2025-07-21",
+            "open": 43.76,
+            "high": 45,
+            "low": 43.11,
+            "close": 44.47,
+            "volume": 7851500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 44.51,
+            "high": 45.16,
+            "low": 43.918,
+            "close": 44.56,
+            "volume": 8777400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 44.68,
+            "high": 45,
+            "low": 44.255,
+            "close": 44.82,
+            "volume": 6270500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 44.85,
+            "high": 44.905,
+            "low": 43.6,
+            "close": 44.04,
+            "volume": 6228400
+          },
+          {
+            "date": "2025-07-25",
+            "open": 44.555,
+            "high": 44.96,
+            "low": 44.171,
+            "close": 44.86,
+            "volume": 4773600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 45,
+            "high": 45.05,
+            "low": 44.05,
+            "close": 44.28,
+            "volume": 6573200
+          },
+          {
+            "date": "2025-07-29",
+            "open": 44.565,
+            "high": 44.565,
+            "low": 43.325,
+            "close": 43.6,
+            "volume": 7805600
+          },
+          {
+            "date": "2025-07-30",
+            "open": 43.57,
+            "high": 45.79,
+            "low": 43.45,
+            "close": 45.75,
+            "volume": 18798300
+          },
+          {
+            "date": "2025-07-31",
+            "open": 46.448,
+            "high": 46.64,
+            "low": 44.56,
+            "close": 45.04,
+            "volume": 11812500
+          },
+          {
+            "date": "2025-08-01",
+            "open": 44.23,
+            "high": 44.25,
+            "low": 43.12,
+            "close": 43.73,
+            "volume": 6812500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 44.35,
+            "high": 45.07,
+            "low": 43.86,
+            "close": 45.05,
+            "volume": 7101700
+          },
+          {
+            "date": "2025-08-05",
+            "open": 45.13,
+            "high": 45.15,
+            "low": 43.975,
+            "close": 44.94,
+            "volume": 9050600
+          },
+          {
+            "date": "2025-08-06",
+            "open": 44.81,
+            "high": 45.92,
+            "low": 44.7,
+            "close": 45.36,
+            "volume": 14980300
+          },
+          {
+            "date": "2025-08-07",
+            "open": 46.215,
+            "high": 47.4,
+            "low": 43.49,
+            "close": 45.2,
+            "volume": 23654300
+          },
+          {
+            "date": "2025-08-08",
+            "open": 44.61,
+            "high": 44.88,
+            "low": 42.785,
+            "close": 42.88,
+            "volume": 16820700
+          },
+          {
+            "date": "2025-08-11",
+            "open": 42.94,
+            "high": 43.129,
+            "low": 42.38,
+            "close": 42.73,
+            "volume": 8910900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 42.75,
+            "high": 43.185,
+            "low": 42.445,
+            "close": 43.1,
+            "volume": 7110000
+          },
+          {
+            "date": "2025-08-13",
+            "open": 43.21,
+            "high": 43.49,
+            "low": 42.67,
+            "close": 43.16,
+            "volume": 8364400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 42.79,
+            "high": 44.41,
+            "low": 42.678,
+            "close": 43.67,
+            "volume": 6984800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 43.44,
+            "high": 45.76,
+            "low": 43.25,
+            "close": 44.94,
+            "volume": 9604100
+          },
+          {
+            "date": "2025-08-18",
+            "open": 45.31,
+            "high": 46.82,
+            "low": 45.163,
+            "close": 45.7,
+            "volume": 11730500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 44.63,
+            "high": 45.84,
+            "low": 43.99,
+            "close": 45.02,
+            "volume": 10695500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 44.82,
+            "high": 45.66,
+            "low": 44.55,
+            "close": 45.65,
+            "volume": 6763700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 45.61,
+            "high": 46.31,
+            "low": 45.02,
+            "close": 46.09,
+            "volume": 6845700
+          },
+          {
+            "date": "2025-08-22",
+            "open": 46,
+            "high": 47.376,
+            "low": 45.802,
+            "close": 47.18,
+            "volume": 6727500
+          },
+          {
+            "date": "2025-08-25",
+            "open": 47.16,
+            "high": 47.25,
+            "low": 46.48,
+            "close": 46.91,
+            "volume": 5457800
+          },
+          {
+            "date": "2025-08-26",
+            "open": 46.83,
+            "high": 47.81,
+            "low": 46.82,
+            "close": 47.71,
+            "volume": 5640951
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-16",
+          "end": "2025-08-26"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 9.426605504587155,
+        "return_63d": 36.236436322101646,
+        "pct_above_sma50": 9.758393761681923,
+        "sma_50": 43.5502,
+        "new_55d_high": "False",
+        "high_55d": 47.81,
+        "rsi": 62.35541535226076,
+        "rsi_in_range": "True",
+        "adx": 36.815923945203544,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.3970865646614965,
+        "bb_width": 12.674269262773999,
+        "keltner_width": 14.443374234814566,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 458603353.04327506,
+        "adv_shares": 10193337.55,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 57.52454442559572,
+        "final_score": 57.52454442559572,
+        "sub_scores": {
+          "trend_momentum": 22.959838543242785,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.56470588235294,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 7.746160794941281,
+          "ret_63d": 34.20534458509144,
+          "rsi14": 62.35541535226076,
+          "adx14": 22.252024397131898,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: DKNG\n• Current Price: $47.8\n• Overall Score: 52.678818984555406\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 43.326\n• Sma 200: 40.0591\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 7.746160794941281\n• Momentum 63D: 34.20534458509144\n• Momentum 126D: 12.23241590214068\n• Momentum Acceleration: -26.459183790150156\n• Roc 21D: 7.746160794941281\n• Trend Strength 20D: 0.23612491470656502\n• Trend Direction: 1\n• Ma Ribbon Score: 100.0\n• Breakout Strength: 50.0\n• Price Velocity: 0.01172257711675373\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 19.0\n• Squeeze Momentum: 0.06174043361618997\n• Volatility Compression: 53.39653025441096\n• Is Consolidating: False\n• Breakout Score: 30.82012863712963\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 22.959838543242785\n• Squeeze Breakout: 4.0\n• Options Quality: 19.56470588235294\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 63.0\n• Squeeze: 58.00947953816164\n• Options: 40.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: DKNG\n• Strike Price: $50\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $1.78\n• Ask: $1.79\n• Last: $1.8\n• Mid: $1.785\n• Spread: 0.5586592178770949720670391061%\n\n**GREEKS ANALYSIS**\n• Delta: 0.4123\n• Gamma: 0.0602\n• Theta: -0.0262\n• Vega: 0.0702\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3585\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 741\n• Open Interest: 4462\n• Volume/OI Ratio: 0.1660690273419991\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: DraftKings Inc\n• Sector: Consumer Cyclical\n• Industry: Gambling\n• EPS (TTM): $-0.65\n• Profit Margin: -5.6%\n• ROE: -26.4%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T11:46:58+00:00: The NCAA says it is 'deeply concerned' about the rise of prediction markets for ...\n• 2025-08-26T11:30:00+00:00: DraftKings Launches Responsible Gaming Education Month Campaign Featuring Super ...\n• 2025-08-26T11:30:00+00:00: DraftKings Launches Responsible Gaming Education Month Campaign Featuring Super ...\n• 2025-08-25T17:36:12+00:00: Fanatics joins the sports betting scene in Missouri through a Boyd Gaming partne...\n• 2025-08-23T19:49:45+00:00: DKNG Quantitative Stock Analysis...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR DKNG\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the DKNG opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-27T00:07:43.153415",
+    "estimated_tokens": 2327
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"DKNG\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 15,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 6\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"DKNG shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces headwinds from negative momentum acceleration and upcoming earnings risk. Options metrics show decent liquidity with tight spreads, though implied volatility conditions are not optimal.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (50 SMA: 43.33, 200 SMA: 40.06)\",\n        \"Tight option spreads (0.56%) with healthy volume/OI ratio\",\n        \"Active squeeze condition with 19-day duration and multi-timeframe confirmation\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-26.46)\",\n        \"Upcoming earnings on 2025-09-30\",\n        \"Poor fundamentals with -5.6% profit margin and -26.4% ROE\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider $50 strike CALL with moderate position sizing given mixed signals\",\n        \"entry_timing\": \"Wait until after earnings report for clearer directional bias\",\n        \"risk_management\": \"Use tight stops given negative momentum acceleration and fundamental weakness\"\n    },\n    \"red_flags\": [\n        \"Earnings within 35 days\",\n        \"Negative momentum acceleration trend\",\n        \"Poor fundamental metrics\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental weakness and upcoming earnings create significant uncertainty. Consider reducing position size or waiting for post-earnings entry.\"\n}",
+    "parsed_analysis": {
+      "symbol": "DKNG",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 15,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 6
+      },
+      "confidence": "medium",
+      "thesis": "DKNG shows strong technical momentum with price above both 50 and 200 SMAs and a perfect MA ribbon score of 100, but faces headwinds from negative momentum acceleration and upcoming earnings risk. Options metrics show decent liquidity with tight spreads, though implied volatility conditions are not optimal.",
+      "opportunities": [
+        "Price trending above key moving averages (50 SMA: 43.33, 200 SMA: 40.06)",
+        "Tight option spreads (0.56%) with healthy volume/OI ratio",
+        "Active squeeze condition with 19-day duration and multi-timeframe confirmation"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-26.46)",
+        "Upcoming earnings on 2025-09-30",
+        "Poor fundamentals with -5.6% profit margin and -26.4% ROE"
+      ],
+      "option_contract": {
+        "recommendation": "Consider $50 strike CALL with moderate position sizing given mixed signals",
+        "entry_timing": "Wait until after earnings report for clearer directional bias",
+        "risk_management": "Use tight stops given negative momentum acceleration and fundamental weakness"
+      },
+      "red_flags": [
+        "Earnings within 35 days",
+        "Negative momentum acceleration trend",
+        "Poor fundamental metrics"
+      ],
+      "notes": "While technical setup shows promise, fundamental weakness and upcoming earnings create significant uncertainty. Consider reducing position size or waiting for post-earnings entry."
+    },
+    "tokens_used": 2560,
+    "cost": 0.0256,
+    "response_time": 10.859511852264404,
+    "success": true
+  },
+  "cost": 0.0256,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8518,
+    "response_length": 1725
+  }
+}

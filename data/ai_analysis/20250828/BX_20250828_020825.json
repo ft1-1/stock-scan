@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "symbol": "BX",
+  "timestamp": "2025-08-28T02:08:25.014730",
+  "data_package": {
+    "metadata": {
+      "symbol": "BX",
+      "package_timestamp": "2025-08-28T02:08:13.420704",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "BX",
+        "current_price": 171.64,
+        "overall_score": 48.62192307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 162.667,
+        "sma_200": 159.6057
+      },
+      "momentum_metrics": {
+        "momentum_21d": -3.050158156348851,
+        "momentum_63d": 24.008380897334,
+        "momentum_126d": 7.6382791922739095,
+        "momentum_acceleration": -27.05853905368285,
+        "roc_21d": -3.050158156348851,
+        "trend_strength_20d": 0.02104795036539984,
+        "trend_direction": 1,
+        "ma_ribbon_score": 81.89761652348254,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.008736011506088003
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 2.0,
+        "squeeze_momentum": -0.20448810254673566,
+        "volatility_compression": 66.5,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.7093880713972,
+        "squeeze_breakout": 4.0,
+        "options_quality": 12.063397752808969,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 50.0,
+        "squeeze": 59.975,
+        "options": 34.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 30,
+        "percentile": 98.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "BX",
+        "strike_price": "170",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "8.75",
+        "ask": "9.05",
+        "last_price": "9.2",
+        "mid_price": "8.90",
+        "spread_percent": "3.314917127071823204419889503"
+      },
+      "greeks": {
+        "delta": 0.5863,
+        "gamma": 0.021,
+        "theta": -0.0821,
+        "vega": 0.2496
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2891
+      },
+      "liquidity_metrics": {
+        "volume": 15,
+        "open_interest": 561,
+        "volume_oi_ratio": 0.026737967914438502
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:38:25.011474",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T19:26:30+00:00",
+            "title": "Paramount Group amid report SL Green, Empire State among bidders",
+            "content": "[Book about REIT - Real Estate Investment Trust isolated on wooden table.]\nsyahrir maulana/iStock via Getty Images\n\nParamount Group (NYSE:PGRE [https://seekingalpha.com/symbol/PGRE]) rose 4.3% amid a report that a number of bidders were making offers for the REIT in the second round of the sales process.\n\nVornado (VNO [https://seekingalpha.com/symbol/VNO]), Sl Green (SLG [https://seekingalpha.com/symbol/SLG]), Empire State Realty (ESRT [https://seekingalpha.com/symbol/ESRT]), Blackstone (BX [https://seekingalpha.com/symbol/BX]), DivcoWest partnering with Dubai-based Saray Capital and Rithm Capital (RITM [https://seekingalpha.com/symbol/RITM]) are all making bids to acquire Paramount (NYSE:PGRE [https://seekingalpha.com/symbol/PGRE]), according to a Real Deal report [https://therealdeal.com/new-york/2025/08/27/sl-green-vornado-among-bidders-for-paramount-group/]on Wednesday, which cited people familiar with the matter.\n\nThe report comes after Paramount (PGRE [https://seekingalpha.com/symbol/PGRE]) in May said it will start a review of strategic alternatives [https://seekingalpha.com/news/4450072-paramount-group-starts-strategic-review-after-cfo-steps-down]to maximize shareholder value.\n\nMORE ON PARAMOUNT\n\n \t* Paramount Group, Inc. (PGRE) Q2 2025 Earnings Call Transcript [https://seekingalpha.com/article/4807402-paramount-group-inc-pgre-q2-2025-earnings-call-transcript]\n \t* Paramount Group raises 2025 core FFO midpoint guidance to $0.57 amid robust leasing and balanced market gains [https://seekingalpha.com/news/4476343-paramount-group-raises-2025-core-ffo-midpoint-guidance-to-0_57-amid-robust-leasing-and]\n \t* Seeking Alpha’s Quant Rating on Paramount [https://seekingalpha.com/symbol/PGRE/ratings/quant-ratings]\n \t* Historical earnings data for Paramount [https://seekingalpha.com/symbol/PGRE/earnings]\n \t* Financial information for Paramount [https://seekingalpha.com/symbol/PGRE/income-statement]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T15:40:02+00:00",
+            "title": "QFIN or BX: Which Is the Better Value Stock Right Now?",
+            "content": "Investors looking for stocks in the Financial - Miscellaneous Services sector might want to consider either Qfin Holdings Inc. - Sponsored ADR (QFIN) or Blackstone Inc. (BX). But which of these two stocks offers value investors a better bang for their buck right now? We'll need to take a closer look.\n\nWe have found that the best way to discover great value opportunities is to pair a strong Zacks Rank with a great grade in the Value category of our Style Scores system. The Zacks Rank is a proven strategy that targets companies with positive earnings estimate revision trends, while our Style Scores work to grade companies based on specific traits.\n\nQfin Holdings Inc. - Sponsored ADR has a Zacks Rank of #2 (Buy), while Blackstone Inc. has a Zacks Rank of #3 (Hold) right now. This means that QFIN's earnings estimate revision activity has been more impressive, so investors should feel comfortable with its improving analyst outlook. But this is just one piece of the puzzle for value investors.\n\nValue investors analyze a variety of traditional, tried-and-true metrics to help find companies that they believe are undervalued at their current share price levels.\n\nThe Value category of the Style Scores system identifies undervalued companies by looking at a number of key metrics. These include the long-favored P/E ratio, P/S ratio, earnings yield, cash flow per share, and a variety of other fundamentals that help us determine a company's fair value.\n\nQFIN currently has a forward P/E ratio of 4.30, while BX has a forward P/E of 34.29. We also note that QFIN has a PEG ratio of 0.31. This metric is used similarly to the famous P/E ratio, but the PEG ratio also takes into account the stock's expected earnings growth rate. BX currently has a PEG ratio of 1.39.\n\nAnother notable valuation metric for QFIN is its P/B ratio of 1.42. The P/B ratio is used to compare a stock's market value with its book value, which is defined as total assets minus total liabilities. For comparison, BX has a P/B of 6.38.\n\nThese are just a few of the metrics contributing to QFIN's Value grade of A and BX's Value grade of D.\n\nQFIN sticks out from BX in both our Zacks Rank and Style Scores models, so value investors will likely feel that QFIN is the better option right now.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nQfin Holdings Inc. - Sponsored ADR (QFIN) : Free Stock Analysis Report\n\nBlackstone Inc. (BX) : Free Stock Analysis Report\n\nStory Continues\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T14:45:00+00:00",
+            "title": "Wall Street is ignoring this rising threat from bonds. Be worried.",
+            "content": "Nothing to see here, folks. Please disperse. - ©Paramount/Courtesy Everett Collection\n\nWall Street continues to dance on the edge of a hissing volcano. Rising interest rates in the U.S. and around the world pose a serious risk to the stock market. So far nobody seems to have noticed.\n\nHmmm. Do you feel lucky?\n\nMost Read from MarketWatch\n\nI am a 65-year old single woman with 25 credit cards. How do I cancel them without hurting my credit score? No one is expecting a global boom. This former hedge-fund manager says it’s coming and has a way to play it.\n\nThe question facing investors handling their own retirement funds is an ominous one: How long can this go on? Especially in the face of gigantic federal deficits and a stock market that has almost never been this expensive.\n\nWhile the headlines out of Jackson Hole were about Federal Reserve Chair Jerome Powell’s apparent pivot toward lower short-term rates, attendees say a bigger topic of conversation at the central bank’s confab was the alarming march higher in long-term rates, here and around the world.\n\nOpinion: Retirees: The news from Jackson Hole is ominous for you\n\nThe yield on the 30-year Japanese government bond BX: TMBMKJP-30Y is now 3.2%. That is almost 10 times — yes, really — the rate it hit in early 2019, when it was 0.35%. Interest rates on long-term British Treasury bonds BX: TMBMKGB-30Y, known as gilts, just hit their highest levels since 1998. Rates are higher across the board.\n\nAnd then, most ominous of all, is the United States.\n\nRecent jobs data show the economy is slowing sharply. The data were so bad that President Donald Trump fired the person compiling the numbers. Powell has at last signaled he is open to cutting short-term rates at the Fed’s meeting next month. And the long-term bond yield? Along with those in the rest of the world, it’s been rising, not falling. At 4.9%, the yield on the 30-year bond BX: TMUBMUSD30Y is higher than it was just a couple of weeks ago and much higher than it was a year ago, when it was a mere 4.1%.\n\nPowell, economists and investors already know that the Fed doesn’t control long-term interest rates, only short-term ones. Just wait until Trump finds out.\n\nRead:Trump’s effort to oust Fed’s Lisa Cook looks likely to run into legal roadblocks\n\nThere’s no great mystery to this. Interest rates are rising because governments around the world are running massive deficits every month. They need to borrow that money from somewhere, and they have to keep upping the interest rate to woo lenders.\n\nConsider: The United States government is now borrowing $160 billion a month, a staggering and ridiculous sum that defies human understanding. Maybe this makes it more real: That works out to around $1,200 per American household. Per month. Oh, and don’t worry: Thanks to the One Big Beautiful Bill Act, next year it’s expected to rise to $1,400 a month.\n\nStory Continues\n\nAs Lt. Frank Drebin of “Police Squad” declared while standing in front of an exploding fireworks factory: Nothing to see here, folks. Please disperse.\n\nNo wonder investors are stampeding away from the U.S. dollar and toward almost anything else, from gold to dogecoin.\n\nSadly, despite the best protestations of many financial gurus, the stock market is not insulated from the bond market. Money you lend to Uncle Sam is money you cannot also invest in the stock market. The actual purpose of higher rates is to persuade investors to lend money to the government instead of doing something else with it — like buying stocks.\n\nAs usual, do the math. The interest rate on long-term Treasury bonds is now four times the dividend yield on the stock market, meaning bonds will pay you four times the income.\n\nAlbert Edwards, head of global strategy at investment bank SG Securities, points out that this ratio is the highest it has been in a quarter-century.\n\nHard to believe, but at one point during the pandemic, the dividend yield on the market was actually higher than the coupon yield on long-term bonds.\n\nThe last time bonds paid you four times as much as stock dividends was during the giant stock-market bubble around the turn of the millennium. What happened next? Stocks fell by about half. (Bonds also rose.)\n\nIf you trust the inflation data from the newly MAGA-tized Bureau of Labor Statistics, you can earn more from long-term Treasury inflation-protected securities, or TIPS. They pay up to 2.6% a year plus a principal adjustment to match inflation, which is currently, officially, 2.7% a year. But don’t be astonished if that official rate soon collapses toward the supposedly true 0% rate proclaimed by Trump.\n\nEdwards writes: “Surely we can all agree that rising bond yields will break the equity market at some point? But when?”\n\nOK, comparing stocks and bonds is not a perfect apples-to-apples comparison. With stocks, dividends are only part of the story. Companies also create value for stockholders by spending money on stock buybacks and on reinvesting in the business. And stock dividends typically rise over time, while the coupons on nominal bonds are fixed (those on TIPS rise, but only with inflation).\n\nBut it’s still a useful yardstick. Anyway, the U.S. stock market now trades at about 24 times forecast per-share earnings — or, to phrase the same thing differently, it sports an earnings yield of just over 4%.\n\nIn other words, even the full earnings yield on stocks — counting not only dividends but all net income — is considerably less than the coupon yield on long-term bonds.\n\nU.S. large-company stocks have almost never been this expensive. During the long Wall Street boom last decade, we were told that high stock prices were justified, in large part, by desperately low bond yields. What will Wall Street say now that bond yields are much, much higher — and stocks are even more expensive?\n\nHere’s a clue. A leading economics expert, a professor from Yale, has reassured everyone that despite talk of a stock-market bubble, the market is not going to crash. On the contrary, he says, it has reached “a permanently high plateau.” And while some naysayers are worrying publicly about supposedly lofty valuations, ordinary investors shouldn’t be concerned, he says. Those high valuations are fully justified by booming corporate earnings. He expects “to see the stock market a good deal higher than it is today, within a few months.”\n\nThe bad news? As Edwards points out to his clients — linking to the contemporaneous New York Times article reporting these remarks — these statements aren’t recent. They were made by Yale economics professor Irving Fisher — on Oct. 16, 1929. Oops.\n\nMost Read from MarketWatch\n\n‘My brother found God in recovery’: How do you save for retirement when ‘God will provide’ is your core value? As a nurse, I’ve seen people use their power of attorney to take advantage of their parents. It would chill you to the bone.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T12:31:54+00:00",
+            "title": "Blackstone Inc (NYSE:BX) Presents a High-Growth Momentum and Technical Breakout Opportunity",
+            "content": "Alternative investment manager BLACKSTONE INC (NYSE:BX [https://www.chartmill.com/stock/quote/BX/profile]) has become a notable option for growth momentum investors looking for technically solid entry points. The screening method uses three specific ChartMill ratings to find stocks displaying solid fundamental growth traits along with positive technical patterns. The High Growth Momentum Rating measures earnings acceleration, revenue growth, profit margin improvement, and analyst changes, and the Technical Rating reviews trend quality and relative performance. The Setup Rating finds consolidation patterns that present clear risk-reward chances. Stocks scoring well in all three areas are uncommon chances where fundamental momentum matches technical breakout possibility.\n\n[BLACKSTONE INC]\n\nFUNDAMENTAL GROWTH MOMENTUM ANALYSIS\n\nBlackstone displays solid growth traits that support its High Growth Momentum Rating of 6. The company reports notable year-over-year EPS growth of 25.3% and revenue growth of 33.3% on a trailing twelve-month basis, passing the minimum growth rates desired by momentum investors. Quarterly performance shows speeding trends with the latest quarter reporting 26% EPS growth against the same quarter last year, improving on the prior quarter's 11.2% growth. This speeding pattern is especially important in momentum strategies as it points to rising business momentum instead of slowing growth.\n\nThe company has regularly surpassed earnings forecasts, beating EPS estimates in each of the past four quarters by an average of 6.66%. This history of positive surprises shows management's skill to exceed expectations, a main point momentum investors watch closely. Analyst opinion has become more positive with next-year EPS estimates adjusted higher by 4.25% over the last three months, showing increasing belief in Blackstone's growth path. While free cash flow growth displays a small drop of 6.6%, this is balanced by growing profit margins, which rose from 18.7% to 20.6% between the previous and latest quarters, indicating better operational efficiency.\n\nTECHNICAL STRENGTH AND SETUP QUALITY\n\nBlackstone's technical profile shows an equally notable case with a Technical Rating of 8 and Setup Rating of 8, as described in the detailed technical analysis report [https://www.chartmill.com/stock/quote/BX/technical-analysis]. The stock displays good trend traits with both short-term and long-term trends rated as positive, giving the base strength momentum investors need. Relative strength review shows Blackstone doing better than 75% of stocks in the capital markets industry, showing sector leadership, a key point for momentum strategies searching for the strongest performers in their peer groups.\n\nThe present price action shows a positive consolidation pattern with the stock trading inside a set range between $162.69 and $178.22 over the last month. This consolidation has happened with lower volatility, forming a coiled-spring effect that frequently comes before major breakout moves. The technical analysis finds five separate support levels, with the closest support zone between $168.90 and $170.27, giving a clear risk management level for possible positions. Resistance lies just above present prices between $175.11 and $175.17, making a breakout above this level especially important from a technical view.\n\nRISK-REFINED SETUP CONFIGURATION\n\nThe mix of good technical health and clear consolidation forms a best setup for momentum investors. The suggested trade setup proposes entry above $175.18, which would mean a breakout above the noted resistance zone, with a stop loss set below the support at $168.89. This setup gives a positive risk-reward ratio with about 3.6% downside risk, allowing for exact position sizing based on personal risk tolerance levels.\n\nThe setup quality is improved by Blackstone's good volume profile, averaging 3.86 million shares daily, guaranteeing sufficient liquidity for entry and exit without major slippage. The stock's place within its 52-week range, while behind the wider market's new highs, actually offers chance for catch-up momentum if the fundamental growth story keeps developing positively.\n\nFor investors searching for comparable high-growth momentum stocks with quality technical setups, more screening results can be viewed through this dedicated screening link [https://www.chartmill.com/stock/stock-screener?sid=719&f=v1_50b500,atrpct_a_1,sl_ta_7_X,sl_se_7_X,p_pg20,exch_us,sl_ratingHgm_6_X&s=se&v=3]. The screen regularly finds securities meeting the strict standards of solid growth momentum paired with technically sound breakout patterns.\n\n_Disclaimer: This analysis is given for informational use only and does not form investment advice, recommendation, or endorsement of any security. Investors should do their own research and talk with a qualified financial advisor before making investment decisions. Past performance is not a guide to future results, and all investments carry risk of loss._\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T09:50:00+00:00",
+            "title": "Is Brookfield Asset Management Stock a Buy Now?",
+            "content": "Key Points\n\nBrookfield Asset Management is a large Canadian asset manager with a focus on infrastructure. The stock has risen dramatically thanks to management's focus on expanding its business. Despite a 45% price advance, there is still a material growth opportunity ahead of Brookfield Asset Management. 10 stocks we like better than Brookfield Asset Management ›\n\nBrookfield Asset Management(NYSE: BAM) is a growth and income story. But there's a wrinkle here because the stock has risen dramatically during the past year, jumping by 45% and easily outpacing the S&P 500 index (SNPINDEX: ^GSPC). Investors looking at Brookfield Asset Management now have to ask themselves if there's more room to run or if Wall Street has fully priced the opportunity. Here's why you might still want to buy this high-yield stock.\n\nWhat does Brookfield Asset Management do?\n\nAs an asset manager, Brookfield Asset Management takes money from others and, for a fee, invests it on their behalf. Historically the company has focused on infrastructure projects, but it has been branching out a bit more lately. Today it has offerings in the clean energy, infrastructure, real estate, private equity, and credit markets. Each one is a substantial business, supporting a total fee-bearing capital base of roughly $550 billion across all five.Image source: Getty Images.\n\nFee-bearing capital is where the company is focused on growing, with a target of increasing that number to $1.1 trillion by 2030. Management believes it is well positioned to do this because it is homing in on three key global trends: digitization, decarbonization, and deglobalization. As fee-bearing capital increases, so does the company's ability to generate revenue and earnings on its income statement.\n\nBased on management's internal projections, it believes it will be able to increase fee-related earnings 17% a year through 2030. It expects that this growth will support dividend growth of 15% a year. These are big numbers, noting that a 15% dividend growth rate would mean doubling the dividend in about five years.\n\nBrookfield Asset Management's big price advance\n\nWall Street is clearly well aware of the opportunity here, noting the stock's material share price advance during the past year. However, there are still some interesting numbers to consider. For example, if the dividend were to double, based on the math of dividend yields, the stock price would need to double, too, in order to maintain Brookfield Asset Management's current dividend yield of 2.9%.\n\nThe dividend yield here, meanwhile, is above the yields of some of the company's large U.S. peers. Blackstone's(NYSE: BX) yield is 2.5% and BlackRock's(NYSE: BLK) yield is 1.8%. This is notable because it highlights that Brookfield Asset Management's yield isn't out of line with peers. In fact, using yield as a rough gauge of valuation, this comparison actually suggests that the Canadian asset manager may even be cheap relative to competitors.\n\nStory Continues\n\nLooking at a more traditional valuation ratio like the price-to-earnings (P/E) ratio is a bit less favorable. Brookfield Asset Management's P/E is about 42, compared to Blackstone's 46 and BlackRock's 28. But even here, Brookfield Asset Management's valuation doesn't look wildly out of line. That hints that the earnings and dividend growth projected could, indeed, still lead to solid share price advances over the next five years or so.BAM data by YCharts\n\nNothing goes in a straight line on Wall Street\n\nThe complicating factor here is the fast rise in Brookfield Asset Management's stock during the past year. It has not only outperformed the market by a wide margin, but it has also solidly outperformed both Blackstone and BlackRock. It wouldn't be shocking to see the stock pull back some in the near term, particularly if there is a bear market.\n\nUltimately, the real opportunity is long-term when you look at Brookfield Asset Management today. However, if you have a buy-and-hold approach, it looks like management's growth plan could lead to further dividend hikes and an even higher stock price for patient investors. Just go in prepared to stick around through a market downturn, since five years is actually a fairly long time on Wall Street.\n\nShould you buy stock in Brookfield Asset Management right now?\n\nBefore you buy stock in Brookfield Asset Management, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Brookfield Asset Management wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $656,895!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,102,148!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,062% — a market-crushing outperformance compared to 184% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 25, 2025\n\nReuben Gregg Brewer has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Blackstone. The Motley Fool recommends Brookfield Asset Management. The Motley Fool has a disclosure policy.\n\nIs Brookfield Asset Management Stock a Buy Now? was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Blackstone Group Inc",
+          "sector": "Financial Services",
+          "industry": "Asset Management",
+          "employees": 4895,
+          "description": "Blackstone Inc. is an alternative asset management firm specializing in private equity, real estate, hedge fund solutions, credit, secondary funds of funds, public debt and equity and multi-asset class strategies. The firm typically invests in early-stage, seed, middle market, mature, late venture, "
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.7,
+          "profit_margin": 0.212,
+          "operating_margin": 0.5273,
+          "roe": 0.2882,
+          "roa": 0.1333,
+          "revenue_growth_yoy": 0.425,
+          "earnings_growth_yoy": 0.691,
+          "eps_estimate_current_year": 5.0278,
+          "eps_estimate_next_year": 6.5089,
+          "dividend_yield": 0.0251,
+          "dividend_per_share": 4.26,
+          "revenue_ttm": 13505741824,
+          "revenue_per_share": 17.476,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 46.3324,
+          "forward_pe": 34.6021,
+          "price_to_sales": 15.5894,
+          "price_to_book": 16.0217,
+          "enterprise_value": 158670110720,
+          "ev_to_revenue": 12.676,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.699,
+          "52_week_high": 196.6696,
+          "52_week_low": 114.1562,
+          "50_day_ma": 162.667,
+          "200_day_ma": 159.6057,
+          "short_interest": 0.0152,
+          "short_ratio": 2.89
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 4.26,
+          "forward_dividend_yield": 0.0248,
+          "payout_ratio": 0.852,
+          "dividend_date": "2025-08-11",
+          "ex_dividend_date": "2025-08-04",
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7391,
+          "target_price": 180.6316,
+          "strong_buy": 7,
+          "buy": 3,
+          "hold": 13,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 737091968,
+          "percent_institutions": 70.556,
+          "percent_insiders": 0.958,
+          "shares_float": 734666440
+        },
+        "balance_latest_sheet": {
+          "total_assets": 45373.094,
+          "total_debt": 12008.87,
+          "cash_and_equivalents": 2235.499,
+          "net_debt": 9459.421,
+          "shareholders_equity": 8352.339,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.44
+        },
+        "income_latest_statement": {
+          "total_revenue": 3711.9,
+          "gross_profit": 3576.078,
+          "operating_income": 1915.627,
+          "net_income": 764.244,
+          "ebitda": 1915.627,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 96.34,
+          "operating_margin": 51.61,
+          "net_margin": 20.59
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 888.503,
+          "free_cash_flow": 848.357,
+          "capex": 40.146,
+          "net_income": 764.244,
+          "cash_change": -850.488,
+          "dividends_paid": 1215.471,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.24,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 165.9,
+            "high": 173.15,
+            "low": 165.51,
+            "close": 172.49,
+            "volume": 6507100
+          },
+          {
+            "date": "2025-07-18",
+            "open": 173.58,
+            "high": 173.79,
+            "low": 168.54,
+            "close": 168.72,
+            "volume": 4128100
+          },
+          {
+            "date": "2025-07-21",
+            "open": 169.57,
+            "high": 170.14,
+            "low": 166.54,
+            "close": 166.69,
+            "volume": 3103000
+          },
+          {
+            "date": "2025-07-22",
+            "open": 167.63,
+            "high": 170.09,
+            "low": 166.1,
+            "close": 169.38,
+            "volume": 3359900
+          },
+          {
+            "date": "2025-07-23",
+            "open": 170.12,
+            "high": 172.17,
+            "low": 169.38,
+            "close": 171.96,
+            "volume": 3448200
+          },
+          {
+            "date": "2025-07-24",
+            "open": 179.07,
+            "high": 181.15,
+            "low": 175.16,
+            "close": 178.11,
+            "volume": 7589100
+          },
+          {
+            "date": "2025-07-25",
+            "open": 179,
+            "high": 181.32,
+            "low": 177.34,
+            "close": 178.1,
+            "volume": 3597000
+          },
+          {
+            "date": "2025-07-28",
+            "open": 178.05,
+            "high": 178.77,
+            "low": 175.9,
+            "close": 176.94,
+            "volume": 2679100
+          },
+          {
+            "date": "2025-07-29",
+            "open": 177.67,
+            "high": 179.08,
+            "low": 175.34,
+            "close": 177.04,
+            "volume": 2753800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 177.62,
+            "high": 178.22,
+            "low": 173.12,
+            "close": 175.34,
+            "volume": 3475600
+          },
+          {
+            "date": "2025-07-31",
+            "open": 174,
+            "high": 175.54,
+            "low": 171.42,
+            "close": 172.96,
+            "volume": 3445200
+          },
+          {
+            "date": "2025-08-01",
+            "open": 169.95,
+            "high": 171.29,
+            "low": 166.86,
+            "close": 170.4,
+            "volume": 3663500
+          },
+          {
+            "date": "2025-08-04",
+            "open": 170.2,
+            "high": 171.47,
+            "low": 169.77,
+            "close": 170.5,
+            "volume": 3975326
+          },
+          {
+            "date": "2025-08-05",
+            "open": 171.3,
+            "high": 171.3,
+            "low": 166.26,
+            "close": 167.68,
+            "volume": 4761970
+          },
+          {
+            "date": "2025-08-06",
+            "open": 168.35,
+            "high": 170.59,
+            "low": 167.72,
+            "close": 169.35,
+            "volume": 2470477
+          },
+          {
+            "date": "2025-08-07",
+            "open": 172.15,
+            "high": 172.15,
+            "low": 166.35,
+            "close": 167.64,
+            "volume": 3082597
+          },
+          {
+            "date": "2025-08-08",
+            "open": 168.5,
+            "high": 170.89,
+            "low": 167.64,
+            "close": 168.91,
+            "volume": 2279567
+          },
+          {
+            "date": "2025-08-11",
+            "open": 170.6,
+            "high": 171.2999,
+            "low": 169.225,
+            "close": 170.07,
+            "volume": 2609506
+          },
+          {
+            "date": "2025-08-12",
+            "open": 171.45,
+            "high": 175.29,
+            "low": 171.34,
+            "close": 173.74,
+            "volume": 4181395
+          },
+          {
+            "date": "2025-08-13",
+            "open": 175.9,
+            "high": 177.41,
+            "low": 173.94,
+            "close": 176.62,
+            "volume": 5598693
+          },
+          {
+            "date": "2025-08-14",
+            "open": 175.59,
+            "high": 176.045,
+            "low": 172.49,
+            "close": 174.68,
+            "volume": 2834908
+          },
+          {
+            "date": "2025-08-15",
+            "open": 175.4,
+            "high": 175.51,
+            "low": 171.4,
+            "close": 171.62,
+            "volume": 3684385
+          },
+          {
+            "date": "2025-08-18",
+            "open": 171.41,
+            "high": 171.9513,
+            "low": 168.763,
+            "close": 169.22,
+            "volume": 3974778
+          },
+          {
+            "date": "2025-08-19",
+            "open": 169.62,
+            "high": 170.24,
+            "low": 166.77,
+            "close": 167.29,
+            "volume": 5367761
+          },
+          {
+            "date": "2025-08-20",
+            "open": 166.9,
+            "high": 167.1281,
+            "low": 162.69,
+            "close": 164.47,
+            "volume": 4877707
+          },
+          {
+            "date": "2025-08-21",
+            "open": 164,
+            "high": 164.86,
+            "low": 162.92,
+            "close": 163.44,
+            "volume": 3656652
+          },
+          {
+            "date": "2025-08-22",
+            "open": 164.77,
+            "high": 172.48,
+            "low": 163.77,
+            "close": 170.5,
+            "volume": 5188826
+          },
+          {
+            "date": "2025-08-25",
+            "open": 169.56,
+            "high": 171.91,
+            "low": 169.25,
+            "close": 169.5,
+            "volume": 2801115
+          },
+          {
+            "date": "2025-08-26",
+            "open": 168.82,
+            "high": 171.6,
+            "low": 168.14,
+            "close": 171.43,
+            "volume": 3563574
+          },
+          {
+            "date": "2025-08-27",
+            "open": 171.05,
+            "high": 172.5741,
+            "low": 170.69,
+            "close": 171.64,
+            "volume": 2052953
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -2.110185924489573,
+        "return_63d": 23.58870967741935,
+        "pct_above_sma50": 5.0848993415969375,
+        "sma_50": 163.3346,
+        "new_55d_high": "False",
+        "high_55d": 181.32,
+        "rsi": 56.18046971569839,
+        "rsi_in_range": "True",
+        "adx": 19.69143532430268,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.292073525984619,
+        "bb_width": 7.4515224931132895,
+        "keltner_width": 9.247134672760167,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 629909959.1935,
+        "adv_shares": 3703544.5,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 41.77278582420617,
+        "final_score": 36.77278582420617,
+        "sub_scores": {
+          "trend_momentum": 14.7093880713972,
+          "squeeze_breakout": 4.0,
+          "options_quality": 12.063397752808969,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -3.050158156348848,
+          "ret_63d": 24.008380897333993,
+          "rsi14": 56.18046971569839,
+          "adx14": 20.497982382606178,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: BX\n• Current Price: $171.64\n• Overall Score: 48.62192307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 162.667\n• Sma 200: 159.6057\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -3.050158156348851\n• Momentum 63D: 24.008380897334\n• Momentum 126D: 7.6382791922739095\n• Momentum Acceleration: -27.05853905368285\n• Roc 21D: -3.050158156348851\n• Trend Strength 20D: 0.02104795036539984\n• Trend Direction: 1\n• Ma Ribbon Score: 81.89761652348254\n• Breakout Strength: 0.0\n• Price Velocity: 0.008736011506088003\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 2.0\n• Squeeze Momentum: -0.20448810254673566\n• Volatility Compression: 66.5\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.7093880713972\n• Squeeze Breakout: 4.0\n• Options Quality: 12.063397752808969\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 50.0\n• Squeeze: 59.975\n• Options: 34.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: BX\n• Strike Price: $170\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $8.75\n• Ask: $9.05\n• Last: $9.2\n• Mid: $8.90\n• Spread: 3.314917127071823204419889503%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5863\n• Gamma: 0.021\n• Theta: -0.0821\n• Vega: 0.2496\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2891\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 15\n• Open Interest: 561\n• Volume/OI Ratio: 0.026737967914438502\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Blackstone Group Inc\n• Sector: Financial Services\n• Industry: Asset Management\n• EPS (TTM): $3.7\n• Profit Margin: 21.2%\n• ROE: 28.8%\n• P/E Ratio: 46.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T19:26:30+00:00: Paramount Group amid report SL Green, Empire State among bidders...\n• 2025-08-27T15:40:02+00:00: QFIN or BX: Which Is the Better Value Stock Right Now?...\n• 2025-08-27T14:45:00+00:00: Wall Street is ignoring this rising threat from bonds. Be worried....\n• 2025-08-27T12:31:54+00:00: Blackstone Inc (NYSE:BX) Presents a High-Growth Momentum and Technical Breakout ...\n• 2025-08-27T09:50:00+00:00: Is Brookfield Asset Management Stock a Buy Now?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR BX\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the BX opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T02:08:25.014343",
+    "estimated_tokens": 2317
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"BX\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"BX shows positive technical momentum with price above both SMAs and strong MA ribbon score (81.89), but faces near-term momentum deceleration (-27.05 acceleration). Options setup shows moderate quality with acceptable spreads (3.31%) and balanced Greeks profile, though upcoming earnings presents timing risk.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (SMA50: 162.67, SMA200: 159.61)\",\n        \"Active volatility squeeze condition with 66.5 compression score\",\n        \"Strong fundamentals with 21.2% profit margin and 28.8% ROE\"\n    ],\n    \"risks\": [\n        \"Negative 21-day momentum (-3.05) with significant deceleration\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\",\n        \"Relatively high P/E ratio of 46.3x\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using 170 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively given upcoming earnings and use spread to minimize theta decay\"\n    },\n    \"red_flags\": [\n        \"Earnings within 30 days\",\n        \"Declining short-term momentum despite longer-term uptrend\"\n    ],\n    \"notes\": \"Low options volume (15) relative to open interest (561) suggests potential liquidity constraints for active management\"\n}",
+    "parsed_analysis": {
+      "symbol": "BX",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "BX shows positive technical momentum with price above both SMAs and strong MA ribbon score (81.89), but faces near-term momentum deceleration (-27.05 acceleration). Options setup shows moderate quality with acceptable spreads (3.31%) and balanced Greeks profile, though upcoming earnings presents timing risk.",
+      "opportunities": [
+        "Price trending above key moving averages (SMA50: 162.67, SMA200: 159.61)",
+        "Active volatility squeeze condition with 66.5 compression score",
+        "Strong fundamentals with 21.2% profit margin and 28.8% ROE"
+      ],
+      "risks": [
+        "Negative 21-day momentum (-3.05) with significant deceleration",
+        "Upcoming earnings on 2025-09-30 creates event risk",
+        "Relatively high P/E ratio of 46.3x"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using 170 strike as lower leg to reduce cost basis",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively given upcoming earnings and use spread to minimize theta decay"
+      },
+      "red_flags": [
+        "Earnings within 30 days",
+        "Declining short-term momentum despite longer-term uptrend"
+      ],
+      "notes": "Low options volume (15) relative to open interest (561) suggests potential liquidity constraints for active management"
+    },
+    "tokens_used": 2533,
+    "cost": 0.025330000000000002,
+    "response_time": 11.59152626991272,
+    "success": true
+  },
+  "cost": 0.025330000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8473,
+    "response_length": 1660
+  }
+}

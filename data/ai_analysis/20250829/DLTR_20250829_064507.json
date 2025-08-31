@@ -1,0 +1,630 @@
+{
+  "success": true,
+  "symbol": "DLTR",
+  "timestamp": "2025-08-29T06:45:07.306750",
+  "data_package": {
+    "metadata": {
+      "symbol": "DLTR",
+      "package_timestamp": "2025-08-29T06:44:56.215906",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "DLTR",
+        "current_price": 112.5,
+        "overall_score": 49.23192307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 109.296,
+        "sma_200": 83.9464
+      },
+      "momentum_metrics": {
+        "momentum_21d": -1.445466491458612,
+        "momentum_63d": 24.199602561271806,
+        "momentum_126d": 53.772553307818484,
+        "momentum_acceleration": -25.645069052730417,
+        "roc_21d": -1.445466491458612,
+        "trend_strength_20d": 0.6936719200583619,
+        "trend_direction": 1,
+        "ma_ribbon_score": 50.0373176245598,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.00013017388485780934
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 11.0,
+        "squeeze_momentum": -0.36208055705114395,
+        "volatility_compression": 3.5,
+        "is_consolidating": "False",
+        "breakout_score": 17.25608458569155,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 11.690328658771206,
+        "squeeze_breakout": 4.0,
+        "options_quality": 16.218266666666693,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 59.0,
+        "squeeze": 50.525,
+        "options": 39.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 23,
+        "percentile": 98.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "DLTR",
+        "strike_price": "110",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.9",
+        "ask": "8.1",
+        "last_price": "7.95",
+        "mid_price": "8.0",
+        "spread_percent": "2.469135802469135802469135802"
+      },
+      "greeks": {
+        "delta": 0.6059,
+        "gamma": 0.024,
+        "theta": -0.0695,
+        "vega": 0.1591
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3887
+      },
+      "liquidity_metrics": {
+        "volume": 17,
+        "open_interest": 5200,
+        "volume_oi_ratio": 0.003269230769230769
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:59.175482",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T19:19:00+00:00",
+            "title": "Dollar General Stock Wavers After Earnings Beat, Guidance Raise. Here’s Why.",
+            "content": "Dollar General stock wavered Thursday after the discount retailer scored an earnings beat and boosted its outlook—but sounded a warning on tariffs. Dollar General stock rose 0.5% to $111.76 in afternoon trading, reversing earlier losses but still down from its premarket gains. Peers Dollar Tree and Walmart fell 0.2% and rose 0.1%, respectively.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:43:28+00:00",
+            "title": "Uber Technologies (UBER) Expands Retail Reach with Dollar Tree Partnership",
+            "content": "Uber Technologies recently experienced a 13% increase in its share price over the last quarter. This period marked several key developments, including a new partnership with Dollar Tree, which added nearly 9,000 stores to the Uber Eats platform, further enhancing the company's retail delivery capabilities. This initiative is in line with Uber's continuing efforts to expand its service offerings, particularly in suburban and rural areas. Such strategic moves, alongside a robust market environment where major indexes reached record highs, likely supported Uber's performance, adding momentum to the company's share price increase over the quarter.\n\nEvery company has risks, and we've spotted 3 risks for Uber Technologies (of which 1 is potentially serious!) you should know about.UBER Earnings Per Share Growth as at Aug 2025\n\nTrump has pledged to \"unleash\" American oil and gas and these 22 US stocks have developments that are poised to benefit.\n\nThe recent partnership with Dollar Tree has fortified Uber's retail delivery capabilities, potentially bolstering future revenue streams and enhancing customer reach, particularly in suburban and rural locales. This expansion aligns with the company's narrative of growing its user base and diversifying its product offerings, which could lead to increased customer engagement and retention. Such developments may positively impact revenue and earnings forecasts by increasing gross bookings and improving margins as cross-platform integration continues to gain traction.\n\nOver the past three years, Uber has experienced a substantial total return of 231.47%, reflecting considerable appreciation in its share value over this period. Comparatively, its performance over the last year has outpaced both the US market and the Transportation industry, indicating a broader market acceptance and stronger competitive positioning. In terms of relative performance, Uber's one-year return exceeded the US market return of 17.5% and the Transportation industry return of 6.2%.\n\nWith Uber's current share price at US$95.33, it remains below the consensus analyst price target of US$106.14, indicating potential upside if future earnings meet expectations. This price positioning suggests that there is room for further growth as the company continues to capitalize on its strategic initiatives and industry trends. Nevertheless, investors should carefully consider the projected revenue growth and anticipated challenges in the autonomous vehicle sector, which may shape long-term profitability projections.\n\nAccording our valuation report, there's an indication that Uber Technologies' share price might be on the cheaper side.\n\nStory Continues\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nCompanies discussed in this article include UBER.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T17:22:17+00:00",
+            "title": "Dollar Tree (DLTR) Partners With Uber for Nationwide Delivery Through Uber Eats",
+            "content": "Dollar Tree recently benefited from a 25% price increase over the last quarter, with several key events likely contributing to this upward trajectory. The partnership with Uber Technologies, enabling on-demand delivery from nearly 9,000 Dollar Tree stores, aligns with trends of expanding retail convenience and e-commerce integration. Additionally, the company's increased share buyback authorization and strong Q1 earnings—exceeding both revenue and net income from the previous year—may have fortified investor confidence. Meanwhile, the broader market trends, with major indexes reaching record highs, likely provided additional support to Dollar Tree's share price performance.\n\nWe've spotted 3 weaknesses for Dollar Tree you should be aware of.DLTR Revenue & Expenses Breakdown as at Aug 2025\n\nThese 13 companies survived and thrived after COVID and have the right ingredients to survive Trump's tariffs. Discover why before your portfolio feels the trade war pinch.\n\nThe recent developments at Dollar Tree, particularly its strategic alliance with Uber Technologies for on-demand delivery and the company's decision to increase share buybacks, hold potential implications for its operational narrative. These moves could enhance Dollar Tree's retail convenience and margin stability. Dollar Tree's focus on core business activities post-Family Dollar sale, combined with store format updates, is poised to improve efficiency and customer engagement. These initiatives support forecasted revenue and earnings growth. Analysts expect earnings to rise to US$1.4 billion by 2028, suggesting optimism about long-term value creation.\n\nOver the past year, Dollar Tree's total shareholder return was 33.11%. Notably, this outperformed both the broader US market, which returned 16.2%, and the US Consumer Retailing industry, which saw a 14.6% gain over the same period. This performance underscores Dollar Tree's ability to capitalize on market trends and operational improvements.\n\nThe current share price of US$112.86 slightly exceeds the average analyst price target of US$110.43, indicating a 2% premium. This suggests that the market is pricing in recent positive developments, although the consensus implies a fair valuation near current levels. Investors should consider these dynamics when assessing potential future performance against the backdrop of Dollar Tree's strategic initiatives and market trends.\n\nGain insights into Dollar Tree's past trends and performance with our report on the company's historical track record.\n\nThis article by Simply Wall St is general in nature. We provide commentary based on historical data and analyst forecasts only using an unbiased methodology and our articles are not intended to be financial advice. It does not constitute a recommendation to buy or sell any stock, and does not take account of your objectives, or your financial situation. We aim to bring you long-term focused analysis driven by fundamental data. Note that our analysis may not factor in the latest price-sensitive company announcements or qualitative material. Simply Wall St has no position in any stocks mentioned.\n\nStory Continues\n\nCompanies discussed in this article include DLTR.\n\nThis article was originally published by Simply Wall St.\n\nHave feedback on this article? Concerned about the content? Get in touch with us directly. Alternatively, email editorial-team@simplywallst.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T15:32:37+00:00",
+            "title": "Agree To Buy Dollar Tree At $80, Earn 5.9% Using Options",
+            "content": "Investors eyeing a purchase of Dollar Tree Inc (Symbol: DLTR) shares, but cautious about paying the going market price of $112.73/share, might benefit from considering selling puts among the alternative strategies at their disposal.  One interesting put contract in particular, is the January 2027 put at the $80 strike, which has a bid at the time of this writing of $4.70.  Collecting that bid as the premium represents a 5.9% return against the $80 commitment, or a 4.2% annualized rate of return (at Stock Options Channel we call this the YieldBoost).\n\nSelling a put does not give an investor access to DLTR's upside potential the way owning shares would, because the put seller only ends up owning shares in the scenario where the contract is exercised.  And the person on the other side of the contract would only benefit from exercising at the $80 strike if doing so produced a better outcome than selling at the going market price.  (Do options carry counterparty risk?  This and six other common options myths debunked).  So unless Dollar Tree Inc sees its shares fall 29% and the contract is exercised (resulting in a cost basis of $75.30 per share before broker commissions, subtracting the $4.70 from $80), the only upside to the put seller is from collecting that premium for the 4.2% annualized rate of return.\n\nBelow is a chart showing the trailing twelve month trading history for Dollar Tree Inc, and highlighting in green where the $80 strike is located relative to that history:\n\nThe chart above, and the stock's historical volatility, can be a helpful guide in combination with fundamental analysis to judge whether selling the January 2027 put at the $80 strike for the 4.2% annualized rate of return represents good reward for the risks.  We calculate the trailing twelve month volatility for Dollar Tree Inc (considering the last 250 trading day closing values as well as today's price of $112.73) to be 49%.  For other put options contract ideas at the various different available expirations, visit the DLTR Stock Options page of StockOptionsChannel.com.\n\nTop YieldBoost Puts of the S&P 500 »\n\nAlso see:  Funds Holding LMST\r\n  CBAY YTD Return\r\n  Top Ten Hedge Funds Holding PE\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T14:55:00+00:00",
+            "title": "Dollar General Stock Falls After Earnings Beat, Guidance Raise. Here’s Why.",
+            "content": "Dollar General stock wavered on Thursday after the discount retailer scored an earnings beat and boosted its outlook—but sounded a warning on tariffs. Shares initially rose after Dollar General’s strong second quarter. Peers Dollar Tree and Walmart were also in the red after rising in premarket trading.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Dollar Tree Inc",
+          "sector": "Consumer Defensive",
+          "industry": "Discount Stores",
+          "employees": 64434,
+          "description": "Dollar Tree, Inc. operates retail discount stores under the Dollar Tree and Dollar Tree Canada brands in the United States and Canada. The company offers consumable merchandise comprising everyday consumables, such as household paper and chemicals, food, candy, health, personal care products, and fr"
+        },
+        "financial_metrics": {
+          "eps_ttm": 5.07,
+          "profit_margin": -0.1655,
+          "operating_margin": 0.0828,
+          "roe": 0.194,
+          "roa": 0.0469,
+          "revenue_growth_yoy": 0.113,
+          "earnings_growth_yoy": 0.167,
+          "eps_estimate_current_year": 5.4444,
+          "eps_estimate_next_year": 5.9621,
+          "revenue_ttm": 18049300480,
+          "revenue_per_share": 84.087,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 22.1893,
+          "forward_pe": 20.4918,
+          "price_to_sales": 1.305,
+          "price_to_book": 6.0127,
+          "enterprise_value": 30378279525,
+          "ev_to_revenue": 1.6831,
+          "ev_to_ebitda": 14.3694
+        },
+        "technical_data": {
+          "beta": 0.884,
+          "52_week_high": 118.06,
+          "52_week_low": 60.49,
+          "50_day_ma": 109.296,
+          "200_day_ma": 83.9464,
+          "short_interest": 0.0959,
+          "short_ratio": 5.26
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2012-06-27",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.6296,
+          "target_price": 110.4348,
+          "strong_buy": 8,
+          "buy": 2,
+          "hold": 16,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 208696000,
+          "percent_institutions": 104.925,
+          "percent_insiders": 0.108,
+          "shares_float": 183758755
+        },
+        "balance_latest_sheet": {
+          "total_assets": 18291.2,
+          "total_debt": 7907.4,
+          "net_debt": 6900.0,
+          "working_capital": 359.9,
+          "shareholders_equity": 3904.8,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 2.03
+        },
+        "income_latest_statement": {
+          "total_revenue": 4639.7,
+          "gross_profit": 1652.7,
+          "operating_income": 384.1,
+          "net_income": 343.4,
+          "ebitda": 596.9,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 35.62,
+          "operating_margin": 8.28,
+          "net_margin": 7.4
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 479.2,
+          "free_cash_flow": 230.3,
+          "capex": 248.9,
+          "net_income": 313.5,
+          "cash_change": -249.1,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-07-31",
+            "estimate": 0.3818,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 108.71,
+            "high": 111.03,
+            "low": 108.31,
+            "close": 110.12,
+            "volume": 3548400
+          },
+          {
+            "date": "2025-07-21",
+            "open": 112.46,
+            "high": 113.46,
+            "low": 110.35,
+            "close": 112.31,
+            "volume": 3672100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 112.78,
+            "high": 115.2,
+            "low": 112.48,
+            "close": 114.77,
+            "volume": 4921600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 114.76,
+            "high": 115.42,
+            "low": 113.45,
+            "close": 114.92,
+            "volume": 2505600
+          },
+          {
+            "date": "2025-07-24",
+            "open": 115,
+            "high": 115.99,
+            "low": 114.12,
+            "close": 114.21,
+            "volume": 4398300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 114.2,
+            "high": 115.3,
+            "low": 113.31,
+            "close": 114.41,
+            "volume": 2004200
+          },
+          {
+            "date": "2025-07-28",
+            "open": 114.49,
+            "high": 115.83,
+            "low": 114.04,
+            "close": 115.43,
+            "volume": 4699000
+          },
+          {
+            "date": "2025-07-29",
+            "open": 115.25,
+            "high": 115.25,
+            "low": 113.4,
+            "close": 114.99,
+            "volume": 2974000
+          },
+          {
+            "date": "2025-07-30",
+            "open": 114.83,
+            "high": 115.18,
+            "low": 113.51,
+            "close": 114.15,
+            "volume": 2393800
+          },
+          {
+            "date": "2025-07-31",
+            "open": 113.47,
+            "high": 114.12,
+            "low": 112.9,
+            "close": 113.55,
+            "volume": 3221300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 113.19,
+            "high": 115.02,
+            "low": 112.21,
+            "close": 114.72,
+            "volume": 3154800
+          },
+          {
+            "date": "2025-08-04",
+            "open": 114.76,
+            "high": 116.5,
+            "low": 114.19,
+            "close": 115.72,
+            "volume": 3291100
+          },
+          {
+            "date": "2025-08-05",
+            "open": 116,
+            "high": 116.31,
+            "low": 114.99,
+            "close": 115.66,
+            "volume": 2458000
+          },
+          {
+            "date": "2025-08-06",
+            "open": 115.66,
+            "high": 117.8,
+            "low": 115.58,
+            "close": 116.37,
+            "volume": 2504800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 116.63,
+            "high": 117.56,
+            "low": 115.36,
+            "close": 117.16,
+            "volume": 2304000
+          },
+          {
+            "date": "2025-08-08",
+            "open": 117.63,
+            "high": 118.06,
+            "low": 115.7,
+            "close": 116.12,
+            "volume": 2049400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 116.12,
+            "high": 116.31,
+            "low": 114.04,
+            "close": 114.29,
+            "volume": 2483900
+          },
+          {
+            "date": "2025-08-12",
+            "open": 114.29,
+            "high": 116.69,
+            "low": 113.3,
+            "close": 114.06,
+            "volume": 3354800
+          },
+          {
+            "date": "2025-08-13",
+            "open": 113.87,
+            "high": 115.66,
+            "low": 112.44,
+            "close": 115.4,
+            "volume": 3331000
+          },
+          {
+            "date": "2025-08-14",
+            "open": 114.21,
+            "high": 115.1,
+            "low": 112.97,
+            "close": 114.63,
+            "volume": 3658600
+          },
+          {
+            "date": "2025-08-15",
+            "open": 114.93,
+            "high": 114.93,
+            "low": 112.37,
+            "close": 113.49,
+            "volume": 3439000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 114.25,
+            "high": 114.51,
+            "low": 111.82,
+            "close": 112.06,
+            "volume": 3373300
+          },
+          {
+            "date": "2025-08-19",
+            "open": 112.23,
+            "high": 113.37,
+            "low": 111.1,
+            "close": 112.48,
+            "volume": 3557900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 112.11,
+            "high": 113.73,
+            "low": 111.54,
+            "close": 113.35,
+            "volume": 2741000
+          },
+          {
+            "date": "2025-08-21",
+            "open": 112.59,
+            "high": 112.9,
+            "low": 111.11,
+            "close": 112.59,
+            "volume": 2914800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 112.88,
+            "high": 113.87,
+            "low": 111.97,
+            "close": 113.32,
+            "volume": 2223600
+          },
+          {
+            "date": "2025-08-25",
+            "open": 113.54,
+            "high": 114.5,
+            "low": 111.63,
+            "close": 111.8,
+            "volume": 2341400
+          },
+          {
+            "date": "2025-08-26",
+            "open": 112.78,
+            "high": 112.97,
+            "low": 111.2,
+            "close": 111.98,
+            "volume": 3894300
+          },
+          {
+            "date": "2025-08-27",
+            "open": 112.13,
+            "high": 113.72,
+            "low": 111.64,
+            "close": 112.86,
+            "volume": 3012000
+          },
+          {
+            "date": "2025-08-28",
+            "open": 115.08,
+            "high": 115.735,
+            "low": 111.775,
+            "close": 112.5,
+            "volume": 2564132
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -0.9247027741083198,
+        "return_63d": 24.639929093729222,
+        "pct_above_sma50": 2.665656740798882,
+        "sma_50": 109.579,
+        "new_55d_high": "False",
+        "high_55d": 118.06,
+        "rsi": 35.473515248796105,
+        "rsi_in_range": "False",
+        "adx": 16.125146702512602,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.180444444444446,
+        "bb_width": 5.715300557754847,
+        "keltner_width": 8.603571084097899,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 334397554.9648,
+        "adv_shares": 2932591.6,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 42.9085953254379,
+        "final_score": 37.9085953254379,
+        "sub_scores": {
+          "trend_momentum": 11.690328658771206,
+          "squeeze_breakout": 4.0,
+          "options_quality": 16.218266666666693,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -1.4454664914586135,
+          "ret_63d": 24.199602561271803,
+          "rsi14": 35.473515248796105,
+          "adx14": 14.613522411246691,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: DLTR\n• Current Price: $112.5\n• Overall Score: 49.23192307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 109.296\n• Sma 200: 83.9464\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -1.445466491458612\n• Momentum 63D: 24.199602561271806\n• Momentum 126D: 53.772553307818484\n• Momentum Acceleration: -25.645069052730417\n• Roc 21D: -1.445466491458612\n• Trend Strength 20D: 0.6936719200583619\n• Trend Direction: 1\n• Ma Ribbon Score: 50.0373176245598\n• Breakout Strength: 0.0\n• Price Velocity: -0.00013017388485780934\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 11.0\n• Squeeze Momentum: -0.36208055705114395\n• Volatility Compression: 3.5\n• Is Consolidating: False\n• Breakout Score: 17.25608458569155\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 11.690328658771206\n• Squeeze Breakout: 4.0\n• Options Quality: 16.218266666666693\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 59.0\n• Squeeze: 50.525\n• Options: 39.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: DLTR\n• Strike Price: $110\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.9\n• Ask: $8.1\n• Last: $7.95\n• Mid: $8.0\n• Spread: 2.469135802469135802469135802%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6059\n• Gamma: 0.024\n• Theta: -0.0695\n• Vega: 0.1591\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3887\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 17\n• Open Interest: 5200\n• Volume/OI Ratio: 0.003269230769230769\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Dollar Tree Inc\n• Sector: Consumer Defensive\n• Industry: Discount Stores\n• EPS (TTM): $5.07\n• Profit Margin: -16.6%\n• ROE: 19.4%\n• P/E Ratio: 22.2\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T19:19:00+00:00: Dollar General Stock Wavers After Earnings Beat, Guidance Raise. Here’s Why....\n• 2025-08-28T17:43:28+00:00: Uber Technologies (UBER) Expands Retail Reach with Dollar Tree Partnership...\n• 2025-08-28T17:22:17+00:00: Dollar Tree (DLTR) Partners With Uber for Nationwide Delivery Through Uber Eats...\n• 2025-08-28T15:32:37+00:00: Agree To Buy Dollar Tree At $80, Earn 5.9% Using Options...\n• 2025-08-28T14:55:00+00:00: Dollar General Stock Falls After Earnings Beat, Guidance Raise. Here’s Why....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR DLTR\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the DLTR opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:45:07.306375",
+    "estimated_tokens": 2337
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"DLTR\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 14,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 4,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"DLTR shows mixed technical signals with positive long-term momentum (126D: +53.77%) but concerning short-term weakness (21D: -1.45%). While in a volatility squeeze with multiple timeframe confirmation, the negative squeeze momentum and deteriorating fundamentals suggest caution.\",\n    \"opportunities\": [\n        \"Above both 50 and 200 SMAs with strong long-term momentum\",\n        \"Active volatility squeeze with 2 timeframe confirmations\",\n        \"Options have reasonable liquidity with 5200 open interest\"\n    ],\n    \"risks\": [\n        \"Negative short-term momentum with -25.64 acceleration\",\n        \"Poor profit margin at -16.6%\",\n        \"Negative squeeze momentum of -0.36\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta exposure given mixed signals\",\n        \"entry_timing\": \"Wait for squeeze momentum to turn positive before entry\",\n        \"risk_management\": \"Use 50 SMA at 109.30 as key technical stop level\"\n    },\n    \"red_flags\": [\n        \"Significant negative profit margins\",\n        \"Deteriorating short-term momentum metrics\",\n        \"Upcoming earnings within 30 days (7/31)\"\n    ],\n    \"notes\": \"Options spread at 2.47% is acceptable but not ideal. Consider vertical spreads to reduce impact of high implied volatility (38.87%).\"\n}",
+    "parsed_analysis": {
+      "symbol": "DLTR",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 14,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 4,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "DLTR shows mixed technical signals with positive long-term momentum (126D: +53.77%) but concerning short-term weakness (21D: -1.45%). While in a volatility squeeze with multiple timeframe confirmation, the negative squeeze momentum and deteriorating fundamentals suggest caution.",
+      "opportunities": [
+        "Above both 50 and 200 SMAs with strong long-term momentum",
+        "Active volatility squeeze with 2 timeframe confirmations",
+        "Options have reasonable liquidity with 5200 open interest"
+      ],
+      "risks": [
+        "Negative short-term momentum with -25.64 acceleration",
+        "Poor profit margin at -16.6%",
+        "Negative squeeze momentum of -0.36"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta exposure given mixed signals",
+        "entry_timing": "Wait for squeeze momentum to turn positive before entry",
+        "risk_management": "Use 50 SMA at 109.30 as key technical stop level"
+      },
+      "red_flags": [
+        "Significant negative profit margins",
+        "Deteriorating short-term momentum metrics",
+        "Upcoming earnings within 30 days (7/31)"
+      ],
+      "notes": "Options spread at 2.47% is acceptable but not ideal. Consider vertical spreads to reduce impact of high implied volatility (38.87%)."
+    },
+    "tokens_used": 2534,
+    "cost": 0.025339999999999998,
+    "response_time": 11.088414430618286,
+    "success": true
+  },
+  "cost": 0.025339999999999998,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8544,
+    "response_length": 1594
+  }
+}

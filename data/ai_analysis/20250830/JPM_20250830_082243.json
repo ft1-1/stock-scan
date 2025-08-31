@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "JPM",
+  "timestamp": "2025-08-30T08:22:43.202112",
+  "data_package": {
+    "metadata": {
+      "symbol": "JPM",
+      "package_timestamp": "2025-08-30T08:22:34.652394",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "JPM",
+        "current_price": 301.42,
+        "overall_score": 51.78949717861869,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 290.661,
+        "sma_200": 260.6048
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.7485822306238206,
+        "momentum_63d": 14.174242424242431,
+        "momentum_126d": 13.893822029095046,
+        "momentum_acceleration": -12.42566019361861,
+        "roc_21d": 1.7485822306238206,
+        "trend_strength_20d": 0.5643149018124369,
+        "trend_direction": 1,
+        "ma_ribbon_score": 82.74335413227442,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.0034886160813784707
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 19.0,
+        "squeeze_momentum": 0.44840761032575,
+        "volatility_compression": 70.41913672318681,
+        "is_consolidating": "False",
+        "breakout_score": 100.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 15.414548524603372,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.07934407158838,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 52.0,
+        "momentum": 56.0,
+        "squeeze": 60.56287050847802,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "JPM",
+        "strike_price": "300",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "14.8",
+        "ask": "15",
+        "last_price": "14.82",
+        "mid_price": "14.9",
+        "spread_percent": "1.333333333333333333333333333"
+      },
+      "greeks": {
+        "delta": 0.5579,
+        "gamma": 0.0117,
+        "theta": -0.0964,
+        "vega": 0.5709
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2336
+      },
+      "liquidity_metrics": {
+        "volume": 203,
+        "open_interest": 1177,
+        "volume_oi_ratio": 0.17247238742565846
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:16:52.036475",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T16:22:00+00:00",
+            "title": "Deutsche Bank Fined $3M by Hong Kong's SFC Over Multiple Breaches",
+            "content": "Deutsche Bank AG DB has been fined HK$23.8 million ($3.05 million) by Hong Kong’s Securities and Futures Commission (SFC) for multiple regulatory breaches, including fee overcharging, misclassification of product risk and failure to disclose investment banking relationships in research reports.\n\nThis enforcement action comes within days of HSBC Holdings plc being fined HK$4.2 million by Hong Kong regulators for similar disclosure failures in more than 4,200 research reports published between 2013 and 2021.\n\nDetails of DB’s Regulatory Violations\n\nThe disciplinary action stems from investigations triggered by Deutsche Bank’s self-reports submitted between December 2020 and December 2023. The SFC found that between November 2015 and November 2023, the bank overcharged clients approximately $39 million in management and custodian fees. These overcharges resulted from failure to apply discounted fee rates and misstatements in fund valuations.\n\nAdditionally, Deutsche Bank assigned lower-than-appropriate product risk ratings to 40 exchange-traded funds. As a result, 10 transactions exceeded clients’ risk tolerance thresholds. The regulator also cited that the bank failed to disclose its investment banking ties with several Hong Kong-listed companies in 261 single-stock reports and 1,590 industry reports published between September 2014 and September 2021.\n\nDB’s Response to the Violations\n\nIn a statement to Reuters, Deutsche Bank confirmed that it has resolved the identified issues and strengthened internal controls to prevent recurrence. The bank has refunded affected clients, emphasizing its commitment to regulatory compliance.\n\nDB’s Zacks Rank & Price Performance\n\nOver the past six months, DB shares have surged 63.9% on the NYSE compared with the industry’s growth of 23.7%.Zacks Investment Research\n\nImage Source: Zacks Investment Research\n\nCurrently, DB carries a Zacks Rank #3 (Hold). You can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here.\n\nLegal Issues Faced by Other Banks\n\nEarlier this week, JPMorgan JPM agreed to pay $330 million to settle ongoing and potential claims associated with the 1MDB sovereign wealth fund.\n\nThe settlement was announced as Swiss regulators, in a separate action, found the U.S. bank guilty and imposed a fine for JPMorgan’s failure to prevent money laundering in transactions associated with 1Malaysia Development Berhad.\n\nSimilarly, in the same month, ICICI Bank IBN was also charged a monetary penalty of INR7.5 million ($85,479) by the Reserve Bank of India (“RBI”) for non-compliance with regulatory requirements.\n\nStory Continues\n\nThe penalty was imposed on the IBN for not complying with certain RBI guidelines related to the “Valuation of Properties - Empanelment of Valuers” and the “Opening of Current Accounts by Banks – Need for Discipline.”\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nJPMorgan Chase & Co. (JPM) : Free Stock Analysis Report\n\nDeutsche Bank Aktiengesellschaft (DB) : Free Stock Analysis Report\n\nICICI Bank Limited (IBN) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:43:32+00:00",
+            "title": "XLF, AVGU: Big ETF Inflows",
+            "content": "Comparing units outstanding versus one week ago at the coverage universe of ETFs at ETF Channel, the biggest inflow was seen in the The Financial Select Sector SPDR Fund, which added 14,300,000 units, or a 1.5% increase week over week.  Among the largest underlying components of XLF, in morning trading today Berkshire Hathaway is up about 0.8%, and JP Morgan Chase is lower by about 0.1%.\n\nAnd on a percentage change basis, the ETF with the biggest increase in inflows was the GraniteShares 2x Long AVGO Daily ETF, which added 20,000 units, for a 40.0% increase in outstanding units.\n\nVIDEO: XLF, AVGU: Big ETF Inflows</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:08:33+00:00",
+            "title": "JPMorgan sees strong investment opportunities in European beauty",
+            "content": "Investing.com -- JPMorgan analysts said the global beauty market remains under pressure after a weak first half, but identified select European stocks as attractive into the second half of 2025.\n\n“The Global Beauty segment remained subdued with most players disappointing on top-line during reporting, evidencing that demand challenges are persisting,” JPMorgan wrote.\n\nThe bank expects global growth to remain “below historical trends at c3%,” though it sees a “measured sequential acceleration in demand driven by China and the US.”\n\nJPMorgan cautioned, however, that “signals for both are mixed, with risks of US destocking and China competition rising, while W. Europe may decelerate further.”\n\nDespite a challenging backdrop, the analysts pointed to stock-specific opportunities.\n\n“Looking into H225 expectations … we see Beiersdorf offering the most compelling risk/reward into H2 at a valuation of 21x PE26E (16x ex-cash) and 9x EV/EBITDA26E,” they said.\n\nThe bank also reiterated its preference for Unilever, highlighting strategic changes in its business mix.\n\n“We also flag our fundamentally positive preference on Unilever (OW) as we see evidence of the reshaping of the portfolio towards Beauty & Personal Care as a driver of value creation,” JPMorgan wrote.\n\nOn L’Oréal, JPMorgan acknowledged the company’s strong first-half performance and continued appeal for investors.\n\n“L’Oréal’s solid H1 has anchored the stock as a must-own stock amid a turbulent reporting,” the analysts said. But they warned that “H2 consensus has risen further proving a tough hurdle amid still subdued Beauty demand.”\n\nRelated articles\n\nJPMorgan sees strong investment opportunities in European beauty\n\nClients buying into summer rally, bracing for later pullback, says BofA's Hartnett\n\nRisks Rising? Smart Money Dodged 46%+ Drawdowns on These High-Flying Names\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T14:30:18+00:00",
+            "title": "BC-Most Active Stocks",
+            "content": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.\n\nNasdaq most active stocks:\n\nStock Name Volume High Low Last Change Opendoor Technologies Inc. 123,765,170 4.93 4.47 4.625 +0.355 Gamehaus Holdings Inc. 111,180,060 2.66 2.06 2.1089 +0.9789 NVIDIA Corp. 69,742,301 178.15 173.76 174.315 -5.855 Professional Diver.Network Inc 68,894,702 5.51 2.79 5.51 +3.58 Movano Inc. 62,767,224 1.31 1.00 1.07 +0.4524 Nukkleus Inc. 50,533,138 5.85 4.51 4.525 +0.835 Next Technology Holding Inc. 47,668,486 0.385 0.3257 0.353 +0.063 SMX (Security Matters) PLC 46,271,387 2.39 2.02 2.2101 +0.4701 IREN Ltd. 33,459,064 29.50 26.42 26.716 +3.676 TNF Pharmaceuticals Inc. 32,226,949 0.0507 0.045 0.0452 -0.0164 Marvell Technology Inc. 32,002,646 65.49 63.3101 64.435 -12.795 Incannex Healthcare Inc. 28,884,584 0.6589 0.6067 0.6325 +0.0145 Ondas Holdings Inc. 23,072,734 6.188 5.54 5.645 -0.055 Richtech Robotics Inc. 22,386,086 3.59 3.11 3.1535 +0.0585 Rigetti Computing Inc. 21,772,297 16.79 16.24 16.245 -0.335 iShares Ethereum Trust ETF 21,373,572 33.27 32.31 32.325 -1.245 Lucid Group Inc. 20,993,002 2.08 2.00 2.01 -0.06 Erayak Power Solut.Group Inc. 18,929,682 0.0525 0.048 0.0483 -0.0049 Affirm HLDGS INC 17,822,592 100.00 91.072 93.8594 +13.8694 Tesla Inc. 17,114,497 348.75 338.5363 338.8804 -7.0996 Tilray Brands Inc. 16,451,851 1.455 1.37 1.38 -0.09 Intel Corp. 16,222,875 24.97 24.38 24.405 -0.525 iShares Bitcoin Trust ETF 15,812,507 62.83 61.59 61.63 -1.95 SoFi Technologies Inc. 14,653,918 26.42 25.3116 25.395 -0.645 reAlpha Tech Corp. 14,418,081 0.468 0.4041 0.4098 +0.0198 Soundhound AI Inc. 13,931,954 12.83 12.2128 12.2332 -0.2968 Connexa Sports Technologies I. 12,707,583 3.005 1.31 1.49 -2.33 Palantir Technologies Inc. 12,542,707 158.42 153.00 154.615 -3.505 Gryphon Digital Mining Inc. 11,652,629 1.73 1.54 1.58 -0.14 Canopy Growth Corp. 11,666,672 1.8099 1.70 1.715 -0.165 Applied Digital Corp. 11,494,171 17.29 15.71 15.7582 -0.8418 Advanced Micro Devices Inc. 11,523,408 168.57 161.90 162.31 -6.27 Western Acquisition Vent.Corp. 10,296,775 0.2219 0.207 0.2091 -0.0483 Super Micro Computer Inc. 9,941,701 42.86 41.46 41.5987 -2.3713 Cipher Mining Inc. 9,904,942 7.5999 6.98 6.99 -0.03 Petco Health+Wellness Co.Inc. 9,040,070 4.19 3.70 3.925 +0.695 Terawulf Inc. 8,767,839 9.775 9.1401 9.18 -0.26 Plug Power Inc. 7,995,521 1.635 1.57 1.57 -0.06 ALT5 Sigma Corp. 7,994,656 8.74 7.83 7.97 -0.38 Alphabet Inc. 7,937,631 212.34 210.20 211.29 -0.35 Webull Corp. 7,804,313 14.9103 13.9102 13.93 -0.74 COREWEAVE INC. 7,686,425 101.09 96.6913 96.78 -6.01 Apple Inc. 7,550,381 233.38 231.37 232.255 -0.305 MARA Holdings Inc. 7,540,281 16.10 15.58 15.585 -0.375 SharpLink Gaming Inc. 6,985,488 18.45 17.575 17.68 -0.78 Rivian Automotive Inc. 6,785,191 13.885 13.325 13.325 -0.315 American Airlines Group Inc. 6,755,187 13.28 13.1432 13.195 -0.055 Robinhood Markets Inc. 6,097,376 104.40 101.93 102.4291 -1.2609 Bit Digital Inc. 6,021,029 2.625 2.50 2.505 -0.105 WARNER BROS. DISCOVERY INC. 5,939,045 12.04 11.70 11.7201 -0.3349 Top Kingwin Ltd. 5,665,642 0.175 0.145 0.157 -0.0315 Outlook Therapeutics Inc. 5,297,603 1.07 0.9022 0.91 -0.18 Fangdd Network Group Ltd. 5,462,352 2.4799 1.54 2.33 +0.77 Bitfarms Ltd. 5,210,824 1.35 1.28 1.28 -0.04 Micron Technology Inc. 4,701,886 122.7699 118.65 118.90 -3.10 Amazon.com Inc. 4,697,235 231.8125 229.16 229.18 -2.42 Riot Platforms Inc. 4,658,017 13.98 13.47 13.475 -0.325 Rezolve AI PLC 4,611,675 3.67 3.52 3.57 -0.03 HIVE Digital Technologies Ltd. 4,382,441 2.95 2.82 2.835 -0.105 Broadcom Inc. 4,307,357 307.01 295.59 295.755 -12.895 Bollinger Innovations Inc. 4,149,488 0.308 0.28 0.2882 -0.0323 Recursion Pharmaceuticals Inc. 4,016,383 4.895 4.66 4.675 -0.19 Rocket Lab Corp. 3,968,331 48.80 46.02 46.1896 -1.7204 Navitas Semiconductor Corp. 3,685,574 6.0599 5.81 5.818 -0.222 Garden Stage Ltd. 3,539,901 0.0991 0.0965 0.0975 -0.0082 Skyline Builders Group Holding 3,378,860 1.20 0.95 1.07 +0.163 Tharimmune Inc. 3,383,363 7.25 6.07 6.16 +0.11 Cleanspark Inc. 3,302,830 9.635 9.35 9.355 -0.195 ETHZilla Corp. 3,251,715 2.90 2.69 2.7007 -0.1693 Strata Skin Sciences Inc. 3,235,799 2.44 1.95 2.355 +0.325 CaliberCos Inc. 3,231,248 3.79 2.9246 3.2602 -1.1998 QUALCOMM Inc. 3,123,017 161.48 159.40 160.00 -0.80 Celsius Holdings Inc. 3,060,866 63.29 60.82 63.00 +3.31 Galaxy Digital Inc. 3,033,487 24.41 23.17 23.17 -1.34 Alphabet Inc. 3,002,549 213.09 210.97 212.015 -0.355 Oriental Rise Holdings Ltd. 2,994,331 0.1146 0.11 0.1107 -0.0043 NeoGenomics Inc. 2,881,804 9.01 8.10 8.6401 +1.4301 Keurig Dr Pepper Inc. 2,860,944 29.74 29.265 29.695 +0.405 AGNC Investment Corp. 2,850,661 9.71 9.635 9.6981 -0.0919 Grab Holdings Limited 2,821,153 4.99 4.91 4.93 -0.04 Microsoft Corp. 2,791,858 509.60 504.4915 505.395 -4.245 Quantum Computing Inc. 2,800,034 16.17 15.48 15.49 -0.61 Esperion Therapeutic.Inc.(New) 2,764,824 2.28 2.13 2.155 -0.055 Innoviz Technologies Ltd. 2,760,337 1.76 1.64 1.65 -0.06 Lam Research Corp. 2,675,456 102.6899 98.92 98.92 -5.17 Rockwell Medical Inc. 2,593,460 2.10 1.86 1.88 +0.08 Lyft Inc. 2,563,387 16.2899 15.77 15.805 -0.33 Intensity Therapeutics Inc. 2,453,818 0.2979 0.2832 0.29 -0.001 Solid Power Inc. 2,399,138 4.58 4.23 4.23 -0.34 Raytech Holding Ltd. 2,389,516 0.7018 0.63 0.6889 -0.0011 Nebius Group N.V. 2,365,053 71.69 68.40 68.5851 -3.4549 Serve Robotics Inc. 2,356,975 11.748 10.7838 10.817 -0.433 Ambarella Inc. 2,352,840 93.44 82.26 82.42 +11.79 Moleculin Biotech Inc. 2,296,356 0.4025 0.375 0.3806 -0.0125 ASP Isotopes Inc. 2,287,264 10.20 9.2101 9.2166 -1.3184 Eos Energy Enterprises Inc. 2,187,248 7.21 6.77 6.805 -0.325 Upstart Holdings Inc. 2,149,520 76.95 73.62 74.212 +0.452 Bit Origin Ltd. 2,105,307 0.44 0.4111 0.4142 -0.0078 Meta Platforms Inc. 2,070,973 747.14 737.77 737.88 -13.23 SNDL Inc. 2,060,574 2.71 2.59 2.625 -0.065\n\nNYSE most active stocks:\n\nStory Continues\n\nStock Name Volume High Low Last Change BigBear.ai Holdings Inc. 12,356,391 5.18 4.95 4.975 -0.185 Offerpad Solutions Inc. 12,038,980 5.45 4.60 5.10 -1.13 Snap Inc. 9,812,415 7.175 7.09 7.1142 +0.0142 Dell Technologies Inc. 9,147,724 124.90 119.63 120.67 -13.38 fuboTV Inc. 8,689,446 3.81 3.54 3.5863 +0.1063 Pfizer Inc. 7,615,409 24.8582 24.511 24.825 +0.225 Ford Motor Co. 6,701,601 11.83 11.72 11.755 +0.045 Uber Technologies Inc. 6,185,500 96.15 91.82 92.4003 -3.5597 SentinelOne Inc. 5,838,827 19.18 18.40 18.745 +1.135 Archer Aviation Inc. 5,721,550 9.2285 8.88 8.8842 -0.3158 D-Wave Quantum Inc. 5,676,853 15.9896 15.46 15.515 -0.405 Gap Inc. 5,767,382 22.60 21.3435 21.965 +0.285 Wheels Up Experience Inc. 4,919,888 3.33 3.00 3.0567 -0.2433 NexGen Energy Ltd. 4,648,315 8.27 7.71 7.72 +0.28 Oklo Inc. 4,284,865 78.50 72.81 73.105 -4.785 Nu Holdings Ltd. 4,255,251 14.7965 14.59 14.74 -0.03 Joby Aviation Inc. 4,188,194 14.3698 13.77 13.786 -0.484 IonQ Inc. 3,884,890 43.27 41.945 41.98 -1.32 Hims & Hers Health Inc. 3,788,412 44.49 42.89 43.085 -1.035 Cameco Corp. 3,513,686 83.02 76.855 76.92 -1.71 Snowflake Inc. 3,430,979 241.50 233.29 234.2545 -6.7455 AT & T Inc. 3,361,159 29.28 28.95 29.2658 +0.3258 First Majestic Silver Corp. 3,176,955 9.075 8.90 8.995 +0.035 CMB.Tech NV 3,073,903 8.78 8.57 8.63 +0.28 Bloom Energy Corp. 3,036,551 54.524 52.70 53.22 -1.58 Pure Storage Inc. 2,962,677 80.31 78.11 78.60 -1.94 Oracle Corp. 2,912,164 238.22 227.50 228.22 -12.10 Bank of America Corp. 2,886,616 50.76 50.51 50.62 +0.13 Elastic N.V. 2,800,638 94.44 83.7669 85.45 -2.34 QuantumScape Corp. 2,903,127 8.19 7.78 7.79 -0.31 Carnival Corp. 2,733,421 32.6151 31.89 31.905 -0.585 Hewlett Packard Enterprise Co. 2,702,727 22.865 22.575 22.65 -0.51 CNH Industrial N.V. 2,615,059 11.81 11.62 11.68 -0.25 Baytex Energy Corp. 2,546,899 2.24 2.2001 2.215 +0.005 Wolfspeed Inc. 2,487,426 1.29 1.20 1.255 +0.065 Oscar Health Inc. 2,490,015 17.43 16.56 16.565 -0.675 UnitedHealth Group Inc. 2,447,538 306.645 300.91 303.75 +1.46 PG & E Corp. 2,406,626 15.48 15.00 15.45 +0.46 NuScale Power Corp. 2,354,848 36.5763 34.5518 34.6201 -1.8599 Chipotle Mexican Grill Inc. 2,323,310 42.40 41.92 41.925 -0.485 Rocket Companies Inc. 2,229,991 18.06 17.805 17.835 -0.055 Keycorp 2,148,968 19.50 19.32 19.335 -0.015 Walmart Inc. 2,113,000 96.35 95.795 96.295 +0.185 Circle Internet Group Inc. 2,039,567 133.67 129.00 129.682 -1.258 Exxon Mobil Corp. 2,038,104 114.79 113.58 114.25 +0.90 Unity Software Inc. 1,956,291 40.08 38.84 38.9165 -1.2535 Planet Labs PBC 1,872,961 7.1616 6.8401 6.87 -0.34 MP Materials Corp. 1,796,448 73.87 71.6124 71.7054 -1.7946 Coca-Cola Co., The 1,777,302 68.9258 68.425 68.875 +0.515 Hecla Mining Co. 1,768,887 8.235 8.075 8.19 +0.12 Cleveland-Cliffs Inc. 1,723,958 10.995 10.662 10.69 -0.19 Lumen Technologies Inc. 1,685,962 5.0308 4.93 4.99 -0.03 AMCOR PLC 1,680,974 8.69 8.56 8.635 +0.085 Dow Inc. 1,678,692 24.89 24.24 24.555 -0.015 Verizon Communications Inc. 1,658,750 44.29 43.925 44.215 +0.285 Barrick Mining Corp. 1,628,929 26.50 26.16 26.445 +0.165 ConAgra Brands Inc. 1,610,067 19.11 18.81 19.035 +0.245 Schlumberger N.V. (Ltd.) 1,615,114 37.0453 36.505 36.73 +0.25 JBS N.V. 1,580,240 16.655 16.195 16.285 -0.045 Transocean Ltd. 1,549,107 3.12 3.0735 3.085 -0.015 Elanco Animal Health Inc. 1,535,603 18.57 18.35 18.395 -0.055 Zeta Global Holdings Corp. 1,515,115 20.17 19.52 19.778 +0.228 Endeavour Silver Corp. 1,510,947 6.015 5.89 5.965 +0.075 Informatica Inc. 1,503,621 24.952 24.90 24.945 -0.005 United Parcel Service Inc. 1,494,477 88.54 87.04 87.585 +0.315 Bristol-Myers Squibb Co. 1,484,972 47.36 46.88 47.12 +0.24 Wells Fargo & Co. 1,504,391 82.43 81.80 82.11 +0.13 AMC Entertainment Holdings Inc 1,475,812 2.85 2.81 2.8165 -0.0135 Chevron Corp. 1,454,875 160.99 159.45 160.07 +0.75 Vertiv Holdings Co. 1,439,678 133.34 127.53 127.58 -6.65 Stellantis N.V. 1,429,685 9.70 9.56 9.585 -0.055 Babcock & Wilcox Enterpr. Inc. 1,428,754 2.32 2.1066 2.275 +0.225 Centene Corp. 1,427,164 28.93 28.38 28.67 +0.29 HP Inc. 1,423,866 28.70 28.01 28.235 -0.115 Arista Networks Inc. 1,372,236 137.671 134.69 135.04 -1.19 ACCELERANT HLDGS 1,366,061 21.66 18.26 18.64 -2.93 Hormel Foods Corp. 1,365,855 25.82 25.24 25.735 +0.515 Lithium Americas Corp. 1,349,427 3.04 2.9502 2.955 -0.015 Salesforce Inc. 1,272,551 257.64 253.64 254.16 -0.37 Newmont Corp. 1,265,670 73.656 72.775 73.63 +0.66 Occidental Petroleum Corp. 1,260,463 48.03 47.47 47.59 +0.08 Kinross Gold Corp. 1,251,128 20.505 20.19 20.465 +0.245 Charles Schwab Corp. 1,237,024 97.40 95.38 95.645 -1.445 Nextera Energy Inc. 1,230,655 72.83 72.05 72.235 +0.145 Norwegian Cruise Line Holdings 1,236,043 25.52 24.975 25.035 -0.355 NIKE Inc. 1,223,057 79.13 77.75 78.39 +0.47 Cenovus Energy Inc. 1,234,541 17.02 16.7747 16.88 -0.07 Under Armour Inc. 1,212,823 5.0789 5.01 5.035 +0.015 Coty Inc. 1,202,798 4.39 4.24 4.32 -0.01 Block Inc. 1,204,484 82.25 80.5509 80.65 -0.13 Coeur Mining Inc. 1,198,802 12.75 12.54 12.6899 +0.1299 AMPRIUS TECHNOLOGIES INC 1,256,918 7.36 6.82 6.8276 -0.5524 C3 AI Inc. 1,197,018 17.51 16.905 16.9445 -0.3655 Fortuna Mining Corp. 1,199,096 7.62 7.455 7.5803 +0.1303 Foot Locker Inc. 1,170,438 25.13 24.425 24.615 -0.445 Orchid Island Capital Inc. 1,140,941 7.05 6.97 7.045 -0.025 Energy Transfer L.P. 1,142,642 17.71 17.6087 17.66 0.00 Frontline PLC 1,137,675 20.85 20.43 20.65 -0.07 Avantor Inc. 1,117,271 13.485 13.15 13.385 +0.175 BlackBerry Ltd. 1,102,723 3.84 3.79 3.795 -0.035\n\nNYSE American most active stocks:\n\nStock Name Volume High Low Last Change SRX HealthSolutions Inc. 65,619,924 0.4373 0.4018 0.4139 +0.049 Denison Mines Corp. 20,770,207 2.39 2.26 2.265 +0.065 BitMine Immersion Techno. Inc. 10,875,129 46.23 44.33 44.6235 -0.9465 Energy Fuels Inc. 6,004,265 12.50 11.30 11.32 -0.36 Novabay Pharmaceuticals Inc. 5,015,519 2.13 1.75 1.85 +0.20 Uranium Energy Corp. 4,796,810 11.29 10.46 10.575 +0.095 B2Gold Corp. 3,266,135 4.11 4.0227 4.095 +0.055 Equinox Gold Corp. 2,662,034 8.62 8.24 8.5866 +0.3166 Ur-Energy Inc. 1,772,545 1.43 1.37 1.375 -0.015 New Gold Inc. 1,639,040 5.81 5.69 5.79 +0.11 Ocean Power Technologies Inc. 1,526,928 0.553 0.5201 0.526 -0.0184 United States Antimony Corp. 1,316,427 4.6928 4.43 4.485 -0.085 Nuburu Inc. 1,252,582 0.166 0.161 0.1634 +0.0022 Galiano Gold Inc. 1,073,364 2.185 2.12 2.175 +0.055 Gold Royalty Corp. 989,630 3.52 3.31 3.505 +0.225 I-80 Gold Corp. 985,518 0.807 0.7683 0.795 +0.0268 Unusual Machines Inc. 865,424 9.96 9.64 9.6774 -0.4926 Silvercorp Metals Inc. 721,158 4.69 4.58 4.665 +0.025 Northern Dynasty Minls Ltd. 673,023 0.92 0.90 0.9105 +0.004 Senseonics Holdings Inc. 646,818 0.4685 0.458 0.4602 +0.0002 Avino Silver & Gold Mines Ltd. 631,736 4.435 4.35 4.375 +0.025 AgEagle Aerial Systems Inc. 614,756 2.06 1.95 1.9665 -0.0135 Atlasclear Holdings Inc. 618,261 0.1949 0.19 0.1901 -0.0048 Vizsla Silver Corp. 506,157 3.561 3.49 3.515 -0.025 NovaGold Resources Inc. 521,000 6.785 6.47 6.765 +0.305 Gold Resource Corp. 437,665 0.49 0.462 0.4798 +0.0128 Centrus Energy Corp. 403,110 212.00 195.43 195.80 -13.58 Castellum Inc. 398,842 1.035 1.00 1.0092 -0.0208 IGC Pharma Inc. 396,192 0.44 0.401 0.4226 -0.0023 NORTHANN CORP. 383,519 0.1476 0.1401 0.1417 +0.0007 KAIROS Pharma Ltd. 392,338 1.35 1.26 1.3199 +0.0599 Perfect Moment Ltd. 370,367 0.5249 0.488 0.5201 +0.01 Genius Group Ltd. 317,998 0.9599 0.9001 0.9032 -0.0391 Aris Mining Corp. 294,081 8.29 8.10 8.24 +0.04 Taseko Mines Ltd. 294,449 3.25 3.185 3.1897 -0.0003 Americas Gold & Silver Corp. 279,195 2.62 2.52 2.555 -0.015 Standard Lithium Ltd. 275,256 2.9654 2.8699 2.905 -0.035 Paramount Gold Nevada Corp. 245,534 0.99 0.93 0.9662 -0.0258 Cornerstone Strat.Val.Fd Inc. 240,523 8.18 8.14 8.145 -0.005 Ring Energy Inc. 231,208 1.1382 1.10 1.105 +0.005 EMX Royalty Corp. 229,428 3.64 3.58 3.622 +0.062 Westwater Resources Inc. 227,298 0.785 0.7571 0.7585 -0.0115 EON Resources Inc. 221,834 0.36 0.3468 0.3546 -0.0074 Credit Suisse High Yld Bd Fd 219,494 2.11 2.09 2.095 +0.005 Vantage Corp. 216,933 5.71 5.62 5.67 -0.04 KULR Technology Group Inc. 212,341 4.86 4.73 4.7486 -0.1114 Myomo Inc. 209,735 1.09 1.03 1.03 -0.04 Spirit Aviation Holdings Inc. 208,503 1.31 1.25 1.28 +0.03 IT Tech Packaging Inc. 204,031 0.2099 0.194 0.205 -0.0049 Platinum Group Metals Ltd. 202,428 1.54 1.485 1.5351 +0.0451 Hyperscale Data Inc. 201,563 0.5567 0.54 0.5443 -0.0124 Azitra Inc. 205,344 1.00 0.9532 0.9998 +0.0198 Comstock Inc. 194,621 2.375 2.28 2.28 -0.08 Pedevco Corp. 187,368 0.6561 0.596 0.631 +0.051 Metalla Royalty&Streaming Ltd. 187,193 5.32 5.17 5.30 +0.11 Integra Resources Corp. 185,403 2.1958 2.15 2.165 +0.005 TRX Gold Corp. 178,090 0.37 0.3525 0.3615 +0.0042 Cornerstone Total Return Fund 160,024 7.88 7.84 7.8465 -0.0235 Dolly Varden Silver Corp. 157,876 3.65 3.53 3.6206 +0.0406 Lineage Cell Therapeutics Inc. 141,221 1.23 1.1811 1.19 -0.02 Tecogen Inc. (New) 140,125 7.93 7.2525 7.325 -0.405 Hyliion Holdings Corp. 131,317 1.74 1.66 1.6699 -0.0501 New Found Gold Corp. 124,014 1.82 1.76 1.80 +0.05 Cleancore Solutions Inc. 119,594 7.82 6.70 6.9001 +0.4401 Cel-Sci Corp. 117,058 9.5053 9.06 9.44 +0.13 DSS Inc. 116,029 1.25 1.12 1.225 -0.065 Vista Gold Corp. 114,074 1.17 1.15 1.165 +0.015 Brazil Potash Corp. 113,346 1.84 1.77 1.78 -0.07 Mixed Martial Arts Group Ltd. 105,197 0.9425 0.85 0.90 -0.015 GoldMining Inc. 104,442 0.9273 0.9102 0.9127 -0.0118 Orla Mining Ltd. (new) 103,847 10.89 10.6751 10.88 +0.14 New Concept Energy Inc. 101,404 1.03 0.97 0.9961 -0.1139 Indonesia Energy Corp. Ltd. 100,034 2.98 2.922 2.93 +0.01 Reaves Utility Income Fund 101,362 38.4899 37.96 37.98 -0.31 OS Therapies Inc. 98,334 2.3218 2.20 2.2162 -0.0438 Volato Group Inc. 94,626 1.82 1.72 1.72 -0.08 Idaho Strategic Resources Inc. 94,227 28.50 27.83 27.87 -0.04 InfuSystems Holdings Inc. 93,834 11.04 10.7001 10.8255 +0.0955 Western Copper & Gold Corp. 91,448 1.41 1.39 1.39 -0.03 Mag Silver Corp. 89,721 24.15 23.91 24.0898 +0.1198 Birks Group Inc. 92,025 0.8379 0.7525 0.8325 +0.0243 Evolution Petroleum Corp. 86,893 5.23 5.15 5.19 +0.06 Cybin Inc. 83,740 7.71 7.46 7.51 -0.13 USBC Inc. 87,300 1.04 1.00 1.00 -0.02 Protalix BioTherapeutics Inc. 75,714 1.562 1.5201 1.5399 -0.0101 Power REIT 75,153 1.2699 1.20 1.20 +0.025 Ivanhoe Electric Inc. 74,195 8.8836 8.74 8.7607 -0.1293 Cboe Global Markets Inc. 73,537 237.43 235.50 236.41 +1.15 Frankl. Ltd Duration Income T. 73,269 6.45 6.40 6.41 -0.05 Perspective Therapeutics Inc. 74,355 3.47 3.325 3.33 -0.05 Flexible Solutions Intl Inc. 71,023 11.4791 11.00 11.01 +0.18 Theriva Biologics Inc. 68,424 0.4137 0.3938 0.405 -0.0088 Impact Biomedical Inc. 64,499 0.6074 0.5754 0.58 -0.0074 Stereotaxis Inc. 60,735 2.88 2.82 2.875 +0.065 cbdMD Inc. 60,751 0.78 0.7405 0.769 -0.006 Neuberger Berman Hgh Yld St.Fd 57,639 7.56 7.5299 7.54 +0.01 Neuberger Berman Municipal Fd 57,201 9.95 9.87 9.905 +0.005 MAIA Biotechnology Inc. 57,116 1.5399 1.50 1.505 -0.015 Eaton Vance Municipal Bond Fd 51,910 9.8091 9.7627 9.7865 +0.0265 Neub.Ber.Real Est.Secs Inc.Fd 48,855 3.25 3.23 3.24 0.00\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T12:34:45+00:00",
+            "title": "Validea Detailed Fundamental Analysis - JPM",
+            "content": "Below is Validea's guru fundamental report for JPMORGAN CHASE & CO (JPM). Of the 22 guru strategies we follow,  JPM rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nJPMORGAN CHASE & CO (JPM) is a large-cap value stock in the Investment Services industry. The rating using this strategy is 93% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:PASS\n\nDetailed Analysis of JPMORGAN CHASE & CO\n\nJPM Guru Analysis\n\nJPM Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop Financial Stocks\n\nDividend Aristocrats 2024\n\nWide Moat Stocks\n\nRecession Proof Stocks\n\nCheapest Value Stocks\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "JPMorgan Chase & Co",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "employees": 317160,
+          "description": "JPMorgan Chase & Co. operates as a financial services company worldwide. It operates through three segments: Consumer & Community Banking, Commercial & Investment Bank, and Asset & Wealth Management. The company offers deposit, investment and lending products, cash management, and payments and servi"
+        },
+        "financial_metrics": {
+          "eps_ttm": 19.51,
+          "profit_margin": 0.3452,
+          "operating_margin": 0.4375,
+          "roe": 0.1621,
+          "roa": 0.013,
+          "revenue_growth_yoy": -0.106,
+          "earnings_growth_yoy": -0.144,
+          "eps_estimate_current_year": 19.2906,
+          "eps_estimate_next_year": 20.5517,
+          "dividend_yield": 0.0176,
+          "dividend_per_share": 5.3,
+          "revenue_ttm": 163748003840,
+          "revenue_per_share": 57.936,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.4495,
+          "forward_pe": 16.0772,
+          "price_to_sales": 5.0616,
+          "price_to_book": 2.4575,
+          "enterprise_value": 475865382912,
+          "ev_to_revenue": 6.3349,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.107,
+          "52_week_high": 302.95,
+          "52_week_low": 196.2041,
+          "50_day_ma": 290.661,
+          "200_day_ma": 260.6048,
+          "short_interest": 0.0088,
+          "short_ratio": 2.95
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 5.6,
+          "forward_dividend_yield": 0.0186,
+          "payout_ratio": 0.2759,
+          "dividend_date": "2025-07-31",
+          "ex_dividend_date": "2025-07-03",
+          "last_split_date": "2000-06-12",
+          "last_split_factor": "3:2"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.88,
+          "target_price": 305.3182,
+          "strong_buy": 8,
+          "buy": 7,
+          "hold": 9,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 2749750016,
+          "percent_institutions": 74.48599999999999,
+          "percent_insiders": 0.46699999999999997,
+          "shares_float": 2735235154
+        },
+        "balance_latest_sheet": {
+          "total_assets": 4552482.0,
+          "total_debt": 485095.0,
+          "net_debt": 64768.0,
+          "shareholders_equity": 356924.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.36
+        },
+        "income_latest_statement": {
+          "total_revenue": 69944.0,
+          "gross_profit": 42063.0,
+          "operating_income": 18284.0,
+          "net_income": 14987.0,
+          "ebitda": 20314.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 60.14,
+          "operating_margin": 26.14,
+          "net_margin": 21.43
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 29547.0,
+          "free_cash_flow": 29547.0,
+          "capex": 0.0,
+          "net_income": 14987.0,
+          "cash_change": -5576.0,
+          "dividends_paid": -4205.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 4.63,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 291,
+            "high": 294.18,
+            "low": 290.58,
+            "close": 290.97,
+            "volume": 7898100
+          },
+          {
+            "date": "2025-07-22",
+            "open": 291.5,
+            "high": 293.63,
+            "low": 289.18,
+            "close": 291.43,
+            "volume": 6717500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 292.84,
+            "high": 296.99,
+            "low": 292.55,
+            "close": 296.76,
+            "volume": 7083500
+          },
+          {
+            "date": "2025-07-24",
+            "open": 297.42,
+            "high": 299.59,
+            "low": 296.2,
+            "close": 296.55,
+            "volume": 7001200
+          },
+          {
+            "date": "2025-07-25",
+            "open": 296.7,
+            "high": 298.9,
+            "low": 295.96,
+            "close": 298.62,
+            "volume": 5918500
+          },
+          {
+            "date": "2025-07-28",
+            "open": 297.66,
+            "high": 299.43,
+            "low": 296.82,
+            "close": 298.28,
+            "volume": 5840417
+          },
+          {
+            "date": "2025-07-29",
+            "open": 300,
+            "high": 301.2931,
+            "low": 296.2,
+            "close": 297.04,
+            "volume": 7635719
+          },
+          {
+            "date": "2025-07-30",
+            "open": 297.42,
+            "high": 300.61,
+            "low": 297.38,
+            "close": 299.63,
+            "volume": 8061700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 299.14,
+            "high": 300.98,
+            "low": 295.5,
+            "close": 296.24,
+            "volume": 14749700
+          },
+          {
+            "date": "2025-08-01",
+            "open": 290.4,
+            "high": 291.8,
+            "low": 284.24,
+            "close": 289.37,
+            "volume": 12007100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 290.26,
+            "high": 294.32,
+            "low": 290.26,
+            "close": 294.26,
+            "volume": 6649500
+          },
+          {
+            "date": "2025-08-05",
+            "open": 294.69,
+            "high": 295.79,
+            "low": 287.24,
+            "close": 291.37,
+            "volume": 7182300
+          },
+          {
+            "date": "2025-08-06",
+            "open": 292.3,
+            "high": 293.29,
+            "low": 290.16,
+            "close": 291.35,
+            "volume": 6330200
+          },
+          {
+            "date": "2025-08-07",
+            "open": 292.94,
+            "high": 293.46,
+            "low": 286.41,
+            "close": 286.94,
+            "volume": 8057100
+          },
+          {
+            "date": "2025-08-08",
+            "open": 288.98,
+            "high": 291.23,
+            "low": 284.71,
+            "close": 288.76,
+            "volume": 6634100
+          },
+          {
+            "date": "2025-08-11",
+            "open": 289.4,
+            "high": 291.32,
+            "low": 288.78,
+            "close": 289.56,
+            "volume": 5510100
+          },
+          {
+            "date": "2025-08-12",
+            "open": 291.5,
+            "high": 294.75,
+            "low": 290.34,
+            "close": 292.85,
+            "volume": 8570900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 293.95,
+            "high": 294.55,
+            "low": 287.16,
+            "close": 290.53,
+            "volume": 8420400
+          },
+          {
+            "date": "2025-08-14",
+            "open": 290.58,
+            "high": 294.2,
+            "low": 289.64,
+            "close": 294.16,
+            "volume": 6322400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 294.84,
+            "high": 295.5,
+            "low": 289.82,
+            "close": 290.49,
+            "volume": 7340500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 290,
+            "high": 291.9,
+            "low": 288.41,
+            "close": 291.53,
+            "volume": 5386900
+          },
+          {
+            "date": "2025-08-19",
+            "open": 290.83,
+            "high": 292.48,
+            "low": 289.53,
+            "close": 290.66,
+            "volume": 6031500
+          },
+          {
+            "date": "2025-08-20",
+            "open": 290.81,
+            "high": 293.33,
+            "low": 287.27,
+            "close": 292.24,
+            "volume": 7374200
+          },
+          {
+            "date": "2025-08-21",
+            "open": 291.94,
+            "high": 292.77,
+            "low": 289.47,
+            "close": 291.47,
+            "volume": 6624000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 293.2,
+            "high": 297.16,
+            "low": 290.13,
+            "close": 296.24,
+            "volume": 8552800
+          },
+          {
+            "date": "2025-08-25",
+            "open": 296.24,
+            "high": 297.35,
+            "low": 294.14,
+            "close": 294.9,
+            "volume": 5856300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 294.16,
+            "high": 298.74,
+            "low": 293.5,
+            "close": 298.57,
+            "volume": 6714700
+          },
+          {
+            "date": "2025-08-27",
+            "open": 297.25,
+            "high": 301.07,
+            "low": 297.04,
+            "close": 299.28,
+            "volume": 6056500
+          },
+          {
+            "date": "2025-08-28",
+            "open": 300.02,
+            "high": 301.24,
+            "low": 298.7,
+            "close": 301.07,
+            "volume": 6410500
+          },
+          {
+            "date": "2025-08-29",
+            "open": 302.04,
+            "high": 302.95,
+            "low": 299.73,
+            "close": 301.42,
+            "volume": 4581893
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.164218820195601,
+        "return_63d": 13.889518627673237,
+        "pct_above_sma50": 3.505989831400147,
+        "sma_50": 291.2102,
+        "new_55d_high": "False",
+        "high_55d": 302.95,
+        "rsi": 69.89932885906038,
+        "rsi_in_range": "True",
+        "adx": 36.09866507442653,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.603244642027735,
+        "bb_width": 5.555755747824304,
+        "keltner_width": 6.5944600394939945,
+        "weekly_breakout": "True",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1974563872.366125,
+        "adv_shares": 6730339.65,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.493892596191756,
+        "final_score": 49.493892596191756,
+        "sub_scores": {
+          "trend_momentum": 15.414548524603372,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.07934407158838,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.7485822306238186,
+          "ret_63d": 14.174242424242433,
+          "rsi14": 69.89932885906038,
+          "adx14": 29.674893511604175,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: JPM\n• Current Price: $301.42\n• Overall Score: 51.78949717861869\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 290.661\n• Sma 200: 260.6048\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.7485822306238206\n• Momentum 63D: 14.174242424242431\n• Momentum 126D: 13.893822029095046\n• Momentum Acceleration: -12.42566019361861\n• Roc 21D: 1.7485822306238206\n• Trend Strength 20D: 0.5643149018124369\n• Trend Direction: 1\n• Ma Ribbon Score: 82.74335413227442\n• Breakout Strength: 50.0\n• Price Velocity: 0.0034886160813784707\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 19.0\n• Squeeze Momentum: 0.44840761032575\n• Volatility Compression: 70.41913672318681\n• Is Consolidating: False\n• Breakout Score: 100.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 15.414548524603372\n• Squeeze Breakout: 4.0\n• Options Quality: 19.07934407158838\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 52.0\n• Momentum: 56.0\n• Squeeze: 60.56287050847802\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: JPM\n• Strike Price: $300\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $14.8\n• Ask: $15\n• Last: $14.82\n• Mid: $14.9\n• Spread: 1.333333333333333333333333333%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5579\n• Gamma: 0.0117\n• Theta: -0.0964\n• Vega: 0.5709\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2336\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 203\n• Open Interest: 1177\n• Volume/OI Ratio: 0.17247238742565846\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: JPMorgan Chase & Co\n• Sector: Financial Services\n• Industry: Banks - Diversified\n• EPS (TTM): $19.51\n• Profit Margin: 34.5%\n• ROE: 16.2%\n• P/E Ratio: 15.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T16:22:00+00:00: Deutsche Bank Fined $3M by Hong Kong's SFC Over Multiple Breaches...\n• 2025-08-29T15:43:32+00:00: XLF, AVGU: Big ETF Inflows...\n• 2025-08-29T15:08:33+00:00: JPMorgan sees strong investment opportunities in European beauty...\n• 2025-08-29T14:30:18+00:00: BC-Most Active Stocks...\n• 2025-08-29T12:34:45+00:00: Validea Detailed Fundamental Analysis - JPM...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR JPM\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the JPM opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:22:43.201842",
+    "estimated_tokens": 2303
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"JPM\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 16,\n        \"iv_value\": 10,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"JPM shows strong technical momentum with price above both SMAs and an 82.7 MA ribbon score, combined with a confirmed volatility squeeze setup. However, imminent earnings and declining momentum acceleration present near-term risks despite solid fundamentals.\",\n    \"opportunities\": [\n        \"Strong trend with price above both 50 SMA (290.66) and 200 SMA (260.60)\",\n        \"Active volatility squeeze with 19-day duration and 70.4% compression\",\n        \"Quality options liquidity with tight 1.33% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-12.43)\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Relatively low IV at 23.36% may limit premium collection\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider Nov 2025 300 Call for longer-term bullish exposure\",\n        \"entry_timing\": \"Wait until after earnings report before entry\",\n        \"risk_management\": \"Use 50 SMA (290.66) as technical stop level, size position conservatively given upcoming earnings\"\n    },\n    \"red_flags\": [\n        \"Earnings report in less than 30 days\",\n        \"Declining momentum acceleration needs monitoring\"\n    ],\n    \"notes\": \"Strong fundamental metrics (34.5% margin, 16.2% ROE) support long-term thesis but near-term event risk suggests patience with entry timing\"\n}",
+    "parsed_analysis": {
+      "symbol": "JPM",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 16,
+        "iv_value": 10,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "JPM shows strong technical momentum with price above both SMAs and an 82.7 MA ribbon score, combined with a confirmed volatility squeeze setup. However, imminent earnings and declining momentum acceleration present near-term risks despite solid fundamentals.",
+      "opportunities": [
+        "Strong trend with price above both 50 SMA (290.66) and 200 SMA (260.60)",
+        "Active volatility squeeze with 19-day duration and 70.4% compression",
+        "Quality options liquidity with tight 1.33% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-12.43)",
+        "Earnings coming up on 2025-09-30",
+        "Relatively low IV at 23.36% may limit premium collection"
+      ],
+      "option_contract": {
+        "recommendation": "Consider Nov 2025 300 Call for longer-term bullish exposure",
+        "entry_timing": "Wait until after earnings report before entry",
+        "risk_management": "Use 50 SMA (290.66) as technical stop level, size position conservatively given upcoming earnings"
+      },
+      "red_flags": [
+        "Earnings report in less than 30 days",
+        "Declining momentum acceleration needs monitoring"
+      ],
+      "notes": "Strong fundamental metrics (34.5% margin, 16.2% ROE) support long-term thesis but near-term event risk suggests patience with entry timing"
+    },
+    "tokens_used": 2504,
+    "cost": 0.02504,
+    "response_time": 8.547309875488281,
+    "success": true
+  },
+  "cost": 0.02504,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8419,
+    "response_length": 1601
+  }
+}

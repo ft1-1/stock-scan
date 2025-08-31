@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "symbol": "APPN",
+  "timestamp": "2025-08-29T06:36:03.590527",
+  "data_package": {
+    "metadata": {
+      "symbol": "APPN",
+      "package_timestamp": "2025-08-29T06:35:51.390674",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "APPN",
+        "current_price": 30.71,
+        "overall_score": 50.4599661341306,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 29.205,
+        "sma_200": 32.0591
+      },
+      "momentum_metrics": {
+        "momentum_21d": 7.265106531610206,
+        "momentum_63d": -1.9163206643244903,
+        "momentum_126d": -5.18678604507564,
+        "momentum_acceleration": 9.181427195934695,
+        "roc_21d": 7.265106531610206,
+        "trend_strength_20d": 0.4707380158972124,
+        "trend_direction": -1,
+        "ma_ribbon_score": 85.2035625559818,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.011805323832655845
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 18.0,
+        "squeeze_momentum": 0.11294958438662178,
+        "volatility_compression": 46.65699079580644,
+        "is_consolidating": "False",
+        "breakout_score": -2.761823960461606,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 16.99645731279675,
+        "squeeze_breakout": 4.0,
+        "options_quality": 9.153005464480866,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 66.0,
+        "squeeze": 61.998548619370965,
+        "options": 10.0,
+        "quality": 33.1025641025641
+      },
+      "risk_assessment": {
+        "ranking": 14,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "APPN",
+        "strike_price": "25",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6",
+        "ask": "6.2",
+        "last_price": "3.8",
+        "mid_price": "6.1",
+        "spread_percent": "3.225806451612903225806451613"
+      },
+      "greeks": {
+        "delta": 0.903,
+        "gamma": 0.0321,
+        "theta": -0.0117,
+        "vega": 0.0194
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4738
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 1606,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:38.023988",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T20:10:41+00:00",
+            "title": "Freshworks, BILL, Appian, DocuSign, and Sprout Social Stocks Trade Up, What You Need To Know",
+            "content": "What Happened?\n\nA number of stocks jumped in the afternoon session after MongoDB reported impressive earnings.\n\nThe data analytics company saw its shares jump nearly 40% after announcing much stronger-than-expected results, including a revenue beat and an optimistic outlook for the upcoming quarter. This performance suggested robust demand for its cloud-based database services, leading investors to believe the broader data storage and SaaS sectors are experiencing similar health. The positive sentiment created a ripple effect, with peers like DigitalOcean and Snowflake also seeing significant gains and outperforming the general market.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks.\n\nAmong others, the following stocks were impacted:\n\nSales Software company Freshworks (NASDAQ:FRSH) jumped 3.3%. Is now the time to buy Freshworks? Access our full analysis report here, it’s free. Finance and Accounting Software company BILL (NYSE:BILL) jumped 3.2%. Is now the time to buy BILL? Access our full analysis report here, it’s free. Automation Software company Appian (NASDAQ:APPN) jumped 4.4%. Is now the time to buy Appian? Access our full analysis report here, it’s free. Document Management company DocuSign (NASDAQ:DOCU) jumped 3.1%. Is now the time to buy DocuSign? Access our full analysis report here, it’s free. Marketing Software company Sprout Social (NASDAQ:SPT) jumped 3%. Is now the time to buy Sprout Social? Access our full analysis report here, it’s free.\n\nZooming In On Appian (APPN)\n\nAppian’s shares are very volatile and have had 21 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 7 days ago when the stock dropped 3.3% on the news that the major indices continued to pull back, with technology stocks accounting for most of the market's largest decliners.\n\nA key reason for this trend is that much of the recent market gains were concentrated in the \"AI trade,\" which includes these large technology and semiconductor companies. So this could also mean that some investors are locking in some gains ahead of more definitive feedback from the Fed.\n\nDespite the downturn, some analysts viewed this as an opportunity to own some of the \"Core AI winners.\" Dan Ives of Wedbush Securities commented, \"In our view, the tech bull cycle will be well intact for at least another 2-3 years, given the trillions being spent on AI infrastructure/software/chips/power/apps looking ahead. This remains our tech playbook and investor roadmap.\" Additionally, mixed earnings reports from retailers, such as Target, have added to the market's weakness. Investors are closely monitoring these reports for insights into the broader economic health and the potential impact of new tariffs on inflation.\n\nStory Continues\n\nAppian is down 11.1% since the beginning of the year, and at $29.50 per share, it is trading 29% below its 52-week high of $41.56 from November 2024. Investors who bought $1,000 worth of Appian’s shares 5 years ago would now be looking at an investment worth $514.30.\n\nToday’s young investors likely haven’t read the timeless lessons in Gorilla Game: Picking Winners In High Technology because it was written more than 20 years ago when Microsoft and Apple were first establishing their supremacy. But if we apply the same principles, then enterprise software stocks leveraging their own generative AI capabilities may well be the Gorillas of the future. So, in that spirit, we are excited to present our Special Free Report on a profitable, fast-growing enterprise software stock that is already riding the automation wave and looking to catch the generative AI next.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T03:35:30+00:00",
+            "title": "Winners And Losers Of Q2: Pegasystems (NASDAQ:PEGA) Vs The Rest Of The Automation Software Stocks",
+            "content": "Looking back on automation software stocks’ Q2 earnings, we examine this quarter’s best and worst performers, including Pegasystems (NASDAQ:PEGA) and its peers.\n\nThe whole purpose of software is to automate tasks to increase productivity. Today, innovative new software techniques, often involving AI and machine learning, are finally allowing automation that has graduated from simple one- or two-step workflows to more complex processes integral to enterprises. The result is surging demand for modern automation software.\n\nThe 6 automation software stocks we track reported an exceptional Q2. As a group, revenues beat analysts’ consensus estimates by 9.1% while next quarter’s revenue guidance was in line.\n\nIn light of this news, share prices of the companies have held steady as they are up 4.8% on average since the latest earnings results.\n\nSlowest Q2: Pegasystems (NASDAQ:PEGA)\n\nWith a \"Center-out Business Architecture\" approach that transcends organizational silos, Pegasystems (NASDAQ:PEGA) develops software that helps organizations automate workflows and use artificial intelligence to improve customer experiences and business processes.\n\nPegasystems reported revenues of $384.5 million, up 9.5% year on year. This print exceeded analysts’ expectations by 5.9%. Overall, it was a strong quarter for the company with a solid beat of analysts’ EBITDA estimates.\n\n“Our unique approach to AI was a key driver of our strong first half results,” said Alan Trefler, Pega founder and CEO.Pegasystems Total Revenue\n\nPegasystems delivered the slowest revenue growth of the whole group. Interestingly, the stock is up 2.4% since reporting and currently trades at $52.17.\n\nIs now the time to buy Pegasystems? Access our full analysis of the earnings results here, it’s free.\n\nBest Q2: SoundHound AI (NASDAQ:SOUN)\n\nBorn from the idea that machines should understand human speech as naturally as people do, SoundHound AI (NASDAQ:SOUN) develops voice recognition and conversational intelligence technology that enables businesses to integrate voice assistants into their products and services.\n\nSoundHound AI reported revenues of $42.68 million, up 217% year on year, outperforming analysts’ expectations by 31.2%. The business had an incredible quarter with an impressive beat of analysts’ billings estimates and a solid beat of analysts’ EBITDA estimates.SoundHound AI Total Revenue\n\nSoundHound AI pulled off the biggest analyst estimates beat and fastest revenue growth among its peers. The market seems happy with the results as the stock is up 12.6% since reporting. It currently trades at $12.10.\n\nIs now the time to buy SoundHound AI? Access our full analysis of the earnings results here, it’s free.\n\nStory Continues\n\nAppian (NASDAQ:APPN)\n\nPowering billions of transactions daily since its founding in 1999, Appian (NASDAQ:APPN) provides a low-code platform that helps businesses automate complex processes and operationalize artificial intelligence without extensive programming knowledge.\n\nAppian reported revenues of $170.6 million, up 16.5% year on year, exceeding analysts’ expectations by 6.7%. It may have had the worst quarter among its peers, but its results were still good as it also locked in a solid beat of analysts’ billings estimates and an impressive beat of analysts’ EBITDA estimates.\n\nInterestingly, the stock is up 5.8% since the results and currently trades at $28.50.\n\nRead our full analysis of Appian’s results here.\n\nServiceNow (NYSE:NOW)\n\nBuilt on a single code base that processes over 4 billion workflow transactions daily, ServiceNow (NYSE:NOW) provides a cloud-based platform that helps organizations automate and digitize workflows across departments, from IT and HR to customer service and security.\n\nServiceNow reported revenues of $3.22 billion, up 22.4% year on year. This result topped analysts’ expectations by 2.9%. Overall, it was an exceptional quarter as it also put up a solid beat of analysts’ billings estimates and a solid beat of analysts’ EBITDA estimates.\n\nServiceNow had the weakest performance against analyst estimates among its peers. The stock is down 9.1% since reporting and currently trades at $868.80.\n\nRead our full, actionable report on ServiceNow here, it’s free.\n\nMicrosoft (NASDAQ:MSFT)\n\nOriginally named \"Micro-soft\" for microcomputer software when founded in 1975, Microsoft (NASDAQ:MSFT) is a global technology company that develops software, cloud services, devices, and AI solutions for consumers, businesses, and organizations worldwide.\n\nMicrosoft reported revenues of $76.44 billion, up 18.1% year on year. This number beat analysts’ expectations by 3.5%. It was an exceptional quarter as it also produced a narrow beat of analysts’ revenue estimates, as Personal Computing, Intelligent Cloud, and Business Services all beat and an impressive beat of analysts’ operating income estimates.\n\nThe stock is down 2.1% since reporting and currently trades at $503.14.\n\nRead our full, actionable report on Microsoft here, it’s free.\n\nMarket Update\n\nIn response to the Fed’s rate hikes in 2022 and 2023, inflation has been gradually trending down from its post-pandemic peak, trending closer to the Fed’s 2% target. Despite higher borrowing costs, the economy has avoided flashing recessionary signals. This is the much-desired soft landing that many investors hoped for. The recent rate cuts (0.5% in September and 0.25% in November 2024) have bolstered the stock market, making 2024 a strong year for equities. Donald Trump’s presidential win in November sparked additional market gains, sending indices to record highs in the days following his victory. However, debates continue over possible tariffs and corporate tax adjustments, raising questions about economic stability in 2025.\n\nWant to invest in winners with rock-solid fundamentals? Check out our Strong Momentum Stocks and add them to your watchlist. These companies are poised for growth regardless of the political or macroeconomic climate.\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T13:00:00+00:00",
+            "title": "MagMutual Transforms Operations with Appian",
+            "content": "Appian AI-powered platform cuts policy migration time, accelerates quoting, and unifies operations.\n\nMCLEAN, Va., Aug. 26, 2025 /PRNewswire/ -- Appian (NASDAQ: APPN) today announced that MagMutual has successfully transformed its operations using Appian's AI-powered platform. MagMutual is a leading provider of medical malpractice insurance, delivering comprehensive coverage to more than 40,000 healthcare providers and organizations across the United States. It partnered with Appian and Xebia to modernize its core processes and elevate the policyholder experience.MagMutual achieved greater speed, transparency, and agility by using Appian’s AI-powered platform to improve efficiency and deliver a faster, more seamless experience to the physicians it serves.\n\nThe insurer faced mounting challenges due to legacy systems and manual workflows. Quoting was slow and fragmented, siloed systems limited operational visibility and responsiveness, and policy migrations for acquisitions could take up to three years.\n\n\"People got their policy within hours of us making our quoting portal available, and we got to $1 million in revenue very, very quickly—without even advertising it,\" said Mark Poling, Chief Customer Officer, MagMutual.\n\nMagMutual built a self-service quoting portal and unified underwriting and claims workflow with Appian. Customers now get quotes instantly, and what was once a weeks-long process now takes minutes. Its digital self-service quoting portal quickly generated over $1 million in new revenue. The insurer estimates that the new process will deliver 20% annual revenue growth.\n\nBy running their core insurance processes on Appian, they're delivering faster service and a better experience to policyholders. It eliminated the need for staff to toggle between systems, streamlining workflows and reducing friction. The solution uses Appian's data fabric to replace three legacy tools and integrates data from Salesforce, Oasis, and MagMutual's internal systems. Finally, it deployed Appian Process HQ to use AI to identify process bottlenecks and drive continuous improvement.\n\nMagMutual accelerated its acquisitions and minimized service disruption to customers with Appian. Complex policy migrations from legacy systems were reduced from three years to just one year.\n\n\"Utilizing Appian AI, I see a ton of opportunity to help us continue to deliver against our strategic plans,\" said Sheila Evans, Chief Product and Solutions Officer, MagMutual.\n\nMagMutual achieved greater speed, transparency, and operational agility. By embracing Appian's AI-powered platform, it improved internal efficiency and delivered a faster, more seamless experience to the physicians it serves.\n\nTo learn more about how MagMutual is transforming its business with Appian, watch the full story here.\n\nStory Continues\n\nAbout MagMutual\n\nFor more than four decades, MagMutual has been a leading provider of medical professional liability insurance. Today, the company is the largest mutual medical professional liability carrier in the U.S.,1 delivering healthcare liability insurance coverage to more than 40,000 healthcare providers and organizations nationwide. MagMutual offers customized advice, claims support and financial benefits that result in improved outcomes and stronger PolicyOwners.¹\n\nAbout Appian\n\nAppian is The Process Company. We deliver a software platform that helps organizations run better processes that reduce costs, improve customer experiences, and gain a strategic edge. Committed to client success, we serve many of the world's largest companies across various industries. For more information, visit appian.com. [Nasdaq: APPN]\n\nFollow Appian: LinkedIn, X (Twitter)Appian is The Process Company. We deliver a software platform that helps organizations run better processes that reduce costs, improve customer experiences, and gain a strategic edge. Committed to client success, we serve many of the world’s largest companies across various industries. For more information, visit appian.com. [Nasdaq: APPN] (PRNewsfoto/Appian)Cision\n\nView original content to download multimedia:https://www.prnewswire.com/news-releases/magmutual-transforms-operations-with-appian-302537976.html\n\nSOURCE Appian\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T02:35:00+00:00",
+            "title": "Appian Named a Leader in the IDC MarketScape: Worldwide Business Automation Platforms 2025 Vendor Assessment",
+            "content": "MCLEAN, Va., Aug. 26, 2025 /PRNewswire/ -- Appian (NASDAQ: APPN) the leading platform for AI process automation, today announced it has been named a Leader in the IDC MarketScape Worldwide Business Automation Platforms (BAPs) 2025 Vendor Assessment (doc #US52034624, May 2025).Appian is The Process Company. We deliver a software platform that helps organizations run better processes that reduce costs, improve customer experiences, and gain a strategic edge. Committed to client success, we serve many of the world’s largest companies across various industries. For more information, visit appian.com. [Nasdaq: APPN]\n\nAccording to the IDC MarketScape report, \"Appian supports the development of AI agents and offers a copilot for interactivity between users and LLMs.\"\n\nAppian has embedded AI into business processes for years, making them faster, smarter, and more adaptable. The latest advancements further strengthen this capability with innovations such as Agent Studio for creating and managing AI agents; AI Document Center for enterprise intelligent document processing; and Smart Search, an AI-driven semantic search feature that enables record retrieval across Appian's unified data fabric.\n\n\"The true power of AI lies in its integration within core business processes. We believe Appian's consistent focus has been on optimizing critical operations, and our recognition by IDC MarketScape as a Leader in Business Automation Platforms underscores our commitment to embedding AI with purpose and governance,\" said Sanat Joshi, Executive Vice President, Product & Solutions, Appian. \"By enabling AI agents and intelligent automation to work in concert, we empower our customers to accelerate operations and responsibly scale AI benefits across their enterprise, driving measurable business impact.\"\n\nThe Appian Platform empowers organizations to orchestrate and transform their most critical business processes. By embedding advanced AI capabilities into every layer of process automation, Appian enables organizations to achieve greater agility, insight, and impact.\n\nAppian recently sponsored an IDC InfoBrief (doc #EUR153306825, June 2025) to show how business processes and process automation platforms create a strong foundation on which organizations can identify, develop, and deploy AI capabilities, creating systems that expand the value of existing automation efforts, as well as delivering a measurable impact from AI. It also shows how organizations in banking, insurance, government, and life sciences are currently working with AI, their future AI plans and priorities, and the challenges they are working through.\n\nGet the IDC InfoBrief, sponsored by Appian, Embedding AI into Processes to Drive Business Impact(doc #EUR153306825, June 2025).\n\nAbout IDC MarketScape:\n\nIDC MarketScape vendor assessment model is designed to provide an overview of the competitive fitness of technology and service suppliers in a given market. The research utilizes a rigorous scoring methodology based on both qualitative and quantitative criteria that results in a single graphical illustration of each supplier's position within a given market. IDC MarketScape provides a clear framework in which the product and service offerings, capabilities and strategies, and current and future market success factors of technology suppliers can be meaningfully compared. The framework also provides technology buyers with a 360-degree assessment of the strengths and weaknesses of current and prospective suppliers.\n\nStory Continues\n\nAbout Appian\n\nAppian is The Process Company. We deliver a software platform that helps organizations run better processes that reduce costs, improve customer experiences, and gain a strategic edge. Committed to client success, we serve many of the world's largest companies across various industries. For more information, visit appian.com. [Nasdaq: APPN]\n\nFollow Appian: LinkedIn, X (Twitter)\n\nLogo - https://mma.prnewswire.com/media/1488235/Appian_Caption_2700px_Logo.jpgCision\n\nView original content:https://www.prnewswire.com/apac/news-releases/appian-named-a-leader-in-the-idc-marketscape-worldwide-business-automation-platforms-2025-vendor-assessment-302538244.html\n\nSOURCE Appian",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T17:28:30+00:00",
+            "title": "Appian names Scott Van Valkenburgh to lead global partnerships",
+            "content": "MCLEAN, Va. - Appian (NASDAQ:APPN), a provider of AI process automation software, appointed Scott Van Valkenburgh as Senior Vice President of Global Partnerships & Alliances on Monday.\n\nVan Valkenburgh brings over 25 years of experience as a Global Alliances executive, having previously built and managed revenue streams exceeding $1 billion through strategic alliances at companies including SAS, Genpact, and Alteryx. He also established global industry solutions centers at PWC that generated hundreds of millions of dollars in client engagements.\n\nIn his new role, Van Valkenburgh will lead Appian’s global partnership strategy and expand its network of system integrators, technology partners, and channel alliances to drive adoption of the company’s AI-powered process automation platform.\n\n\"Scott’s track record in building and scaling global alliance programs, combined with his understanding of enterprise software and professional services, makes him an invaluable addition,\" said Mark Dorsey, Chief Revenue Officer at Appian, according to the company’s press release.\n\nThe appointment comes as Appian continues to invest in expanding its partner ecosystem to reach more customers and industries. The company describes itself as helping organizations improve processes to reduce costs and enhance customer experiences.\n\nAppian serves numerous large companies across various industries with its process automation platform, which incorporates artificial intelligence capabilities.\n\nThis article was generated with the support of AI and reviewed by an editor. For more information see our T&C.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Appian Corp",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "employees": 2033,
+          "description": "Appian Corporation operates as a software company in the United States, Australia, Canada, France, Germany, India, Italy, Japan, Mexico, the Netherlands, Portugal, Singapore, Spain, Sweden, Switzerland, the United Kingdom, and internationally. The company offers The Appian Platform, an integrated au"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.23,
+          "profit_margin": -0.0262,
+          "operating_margin": -0.0644,
+          "roe": -9.3662,
+          "roa": -0.0093,
+          "revenue_growth_yoy": 0.165,
+          "earnings_growth_yoy": 0,
+          "eps_estimate_current_year": 0.33,
+          "eps_estimate_next_year": 0.5446,
+          "revenue_ttm": 657803008,
+          "revenue_per_share": 8.93,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 416.6667,
+          "price_to_sales": 3.3201,
+          "price_to_book": 53.977,
+          "enterprise_value": 2307676731,
+          "ev_to_revenue": 3.5082,
+          "ev_to_ebitda": 119.6555
+        },
+        "technical_data": {
+          "beta": 1.751,
+          "52_week_high": 43.33,
+          "52_week_low": 24,
+          "50_day_ma": 29.205,
+          "200_day_ma": 32.0591,
+          "short_interest": 0.1054,
+          "short_ratio": 2.78
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.125,
+          "target_price": 33.8,
+          "strong_buy": 1,
+          "buy": 0,
+          "hold": 6,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 42943900,
+          "percent_institutions": 74.062,
+          "percent_insiders": 6.2700000000000005,
+          "shares_float": 40297075
+        },
+        "balance_latest_sheet": {
+          "total_assets": 590.748,
+          "total_debt": 308.487,
+          "net_debt": 196.28,
+          "working_capital": 64.32,
+          "shareholders_equity": -53.741,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": -5.74
+        },
+        "income_latest_statement": {
+          "total_revenue": 170.64,
+          "gross_profit": 126.719,
+          "operating_income": -10.984,
+          "net_income": -0.312,
+          "ebitda": 9.104,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 74.26,
+          "operating_margin": -6.44,
+          "net_margin": -0.18
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -1.94,
+          "free_cash_flow": -3.086,
+          "capex": 1.146,
+          "net_income": -0.312,
+          "cash_change": -22.775,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.0611,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 28.71,
+            "high": 29.03,
+            "low": 28.31,
+            "close": 28.81,
+            "volume": 735001
+          },
+          {
+            "date": "2025-07-21",
+            "open": 28.81,
+            "high": 29.59,
+            "low": 28.81,
+            "close": 28.95,
+            "volume": 399651
+          },
+          {
+            "date": "2025-07-22",
+            "open": 29.03,
+            "high": 29.81,
+            "low": 29.03,
+            "close": 29.24,
+            "volume": 485532
+          },
+          {
+            "date": "2025-07-23",
+            "open": 29.27,
+            "high": 30.32,
+            "low": 28.51,
+            "close": 30.3,
+            "volume": 1231570
+          },
+          {
+            "date": "2025-07-24",
+            "open": 30.29,
+            "high": 30.46,
+            "low": 29.38,
+            "close": 29.52,
+            "volume": 642651
+          },
+          {
+            "date": "2025-07-25",
+            "open": 29.5,
+            "high": 30.05,
+            "low": 29.35,
+            "close": 29.61,
+            "volume": 908136
+          },
+          {
+            "date": "2025-07-28",
+            "open": 29.53,
+            "high": 31.065,
+            "low": 29.5,
+            "close": 30.66,
+            "volume": 1203504
+          },
+          {
+            "date": "2025-07-29",
+            "open": 30.86,
+            "high": 30.99,
+            "low": 28.94,
+            "close": 28.98,
+            "volume": 954470
+          },
+          {
+            "date": "2025-07-30",
+            "open": 28.85,
+            "high": 29.035,
+            "low": 28.09,
+            "close": 28.63,
+            "volume": 880363
+          },
+          {
+            "date": "2025-07-31",
+            "open": 28.63,
+            "high": 28.81,
+            "low": 27.48,
+            "close": 27.61,
+            "volume": 897412
+          },
+          {
+            "date": "2025-08-01",
+            "open": 27.4,
+            "high": 27.56,
+            "low": 27.06,
+            "close": 27.52,
+            "volume": 1183492
+          },
+          {
+            "date": "2025-08-04",
+            "open": 27.57,
+            "high": 28.26,
+            "low": 27.54,
+            "close": 28.13,
+            "volume": 692059
+          },
+          {
+            "date": "2025-08-05",
+            "open": 28.31,
+            "high": 28.46,
+            "low": 27.53,
+            "close": 27.58,
+            "volume": 956740
+          },
+          {
+            "date": "2025-08-06",
+            "open": 28.02,
+            "high": 28.1,
+            "low": 26.68,
+            "close": 26.95,
+            "volume": 840968
+          },
+          {
+            "date": "2025-08-07",
+            "open": 31,
+            "high": 32.42,
+            "low": 28.87,
+            "close": 29.18,
+            "volume": 3981674
+          },
+          {
+            "date": "2025-08-08",
+            "open": 29.25,
+            "high": 29.72,
+            "low": 28.47,
+            "close": 29.09,
+            "volume": 2181162
+          },
+          {
+            "date": "2025-08-11",
+            "open": 28.87,
+            "high": 29.21,
+            "low": 27.66,
+            "close": 27.8,
+            "volume": 1310192
+          },
+          {
+            "date": "2025-08-12",
+            "open": 27.84,
+            "high": 28.27,
+            "low": 27.44,
+            "close": 28.2,
+            "volume": 2732829
+          },
+          {
+            "date": "2025-08-13",
+            "open": 28.5,
+            "high": 29.73,
+            "low": 27.97,
+            "close": 29.71,
+            "volume": 1858283
+          },
+          {
+            "date": "2025-08-14",
+            "open": 29.36,
+            "high": 30.23,
+            "low": 29.07,
+            "close": 29.73,
+            "volume": 1004603
+          },
+          {
+            "date": "2025-08-15",
+            "open": 29.96,
+            "high": 30.58,
+            "low": 29.52,
+            "close": 29.63,
+            "volume": 745576
+          },
+          {
+            "date": "2025-08-18",
+            "open": 29.69,
+            "high": 30.18,
+            "low": 29.59,
+            "close": 29.93,
+            "volume": 637539
+          },
+          {
+            "date": "2025-08-19",
+            "open": 30.04,
+            "high": 30.405,
+            "low": 29.45,
+            "close": 29.73,
+            "volume": 675985
+          },
+          {
+            "date": "2025-08-20",
+            "open": 29.59,
+            "high": 29.67,
+            "low": 28.74,
+            "close": 28.99,
+            "volume": 662059
+          },
+          {
+            "date": "2025-08-21",
+            "open": 28.81,
+            "high": 29.06,
+            "low": 28.31,
+            "close": 29.01,
+            "volume": 550102
+          },
+          {
+            "date": "2025-08-22",
+            "open": 29.06,
+            "high": 30.15,
+            "low": 29.01,
+            "close": 29.81,
+            "volume": 711507
+          },
+          {
+            "date": "2025-08-25",
+            "open": 29.74,
+            "high": 29.74,
+            "low": 29.1,
+            "close": 29.11,
+            "volume": 337755
+          },
+          {
+            "date": "2025-08-26",
+            "open": 28.97,
+            "high": 29.255,
+            "low": 28.55,
+            "close": 28.62,
+            "volume": 627369
+          },
+          {
+            "date": "2025-08-27",
+            "open": 29,
+            "high": 29.86,
+            "low": 28.88,
+            "close": 29.5,
+            "volume": 1431494
+          },
+          {
+            "date": "2025-08-28",
+            "open": 29.61,
+            "high": 30.91,
+            "low": 29.53,
+            "close": 30.71,
+            "volume": 1395225
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 11.227816008692509,
+        "return_63d": -2.5079365079365052,
+        "pct_above_sma50": 5.099966461098301,
+        "sma_50": 29.2198,
+        "new_55d_high": "False",
+        "high_55d": 32.42,
+        "rsi": 59.35334872979215,
+        "rsi_in_range": "True",
+        "adx": 29.84292451095235,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 4.104526212959947,
+        "bb_width": 13.467976013322106,
+        "keltner_width": 17.38950490610289,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 35483506.910225004,
+        "adv_shares": 1225830.65,
+        "liquidity_tier": "medium",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 41.14946277727762,
+        "final_score": 41.14946277727762,
+        "sub_scores": {
+          "trend_momentum": 16.99645731279675,
+          "squeeze_breakout": 4.0,
+          "options_quality": 9.153005464480866,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 7.26510653161021,
+          "ret_63d": -1.916320664324489,
+          "rsi14": 59.35334872979215,
+          "adx14": 28.9782568380849,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: APPN\n• Current Price: $30.71\n• Overall Score: 50.4599661341306\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 29.205\n• Sma 200: 32.0591\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 7.265106531610206\n• Momentum 63D: -1.9163206643244903\n• Momentum 126D: -5.18678604507564\n• Momentum Acceleration: 9.181427195934695\n• Roc 21D: 7.265106531610206\n• Trend Strength 20D: 0.4707380158972124\n• Trend Direction: -1\n• Ma Ribbon Score: 85.2035625559818\n• Breakout Strength: 0.0\n• Price Velocity: 0.011805323832655845\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 18.0\n• Squeeze Momentum: 0.11294958438662178\n• Volatility Compression: 46.65699079580644\n• Is Consolidating: False\n• Breakout Score: -2.761823960461606\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 16.99645731279675\n• Squeeze Breakout: 4.0\n• Options Quality: 9.153005464480866\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 66.0\n• Squeeze: 61.998548619370965\n• Options: 10.0\n• Quality: 33.1025641025641\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: APPN\n• Strike Price: $25\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6\n• Ask: $6.2\n• Last: $3.8\n• Mid: $6.1\n• Spread: 3.225806451612903225806451613%\n\n**GREEKS ANALYSIS**\n• Delta: 0.903\n• Gamma: 0.0321\n• Theta: -0.0117\n• Vega: 0.0194\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4738\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 1606\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Appian Corp\n• Sector: Technology\n• Industry: Software - Infrastructure\n• EPS (TTM): $-0.23\n• Profit Margin: -2.6%\n• ROE: -936.6%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T20:10:41+00:00: Freshworks, BILL, Appian, DocuSign, and Sprout Social Stocks Trade Up, What You ...\n• 2025-08-27T03:35:30+00:00: Winners And Losers Of Q2: Pegasystems (NASDAQ:PEGA) Vs The Rest Of The Automatio...\n• 2025-08-26T13:00:00+00:00: MagMutual Transforms Operations with Appian...\n• 2025-08-26T02:35:00+00:00: Appian Named a Leader in the IDC MarketScape: Worldwide Business Automation Plat...\n• 2025-08-25T17:28:30+00:00: Appian names Scott Van Valkenburgh to lead global partnerships...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR APPN\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the APPN opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:36:03.590173",
+    "estimated_tokens": 2323
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"APPN\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 12,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 9,\n        \"fundamentals\": 4,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"APPN shows positive short-term momentum with a 7.26% 21-day return and is in a volatility squeeze across multiple timeframes, suggesting potential for a breakout move. However, weak fundamentals and upcoming earnings create elevated risk.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze (3 concurrent) with 18-day duration indicates strong compression\",\n        \"Price above 50 SMA (29.20) with positive momentum acceleration of 9.18\",\n        \"Strong options liquidity with 1606 open interest and tight 3.22% spread\"\n    ],\n    \"risks\": [\n        \"Price below 200 SMA (32.05) indicating longer-term weakness\",\n        \"Poor fundamentals with -2.6% profit margin and negative ROE\",\n        \"Earnings approaching on 9/30/2025 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $25 strike as lower leg to reduce cost basis\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings if positive\",\n        \"risk_management\": \"Size position small due to earnings risk and use spread to limit premium exposure\"\n    },\n    \"red_flags\": [\n        \"Earnings in <35 days creates significant event risk\",\n        \"Negative fundamental metrics indicate business health concerns\"\n    ],\n    \"notes\": \"High delta (0.903) on selected option provides strong directional exposure but limited leverage; consider spread structure to improve risk/reward\"\n}",
+    "parsed_analysis": {
+      "symbol": "APPN",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 12,
+        "iv_value": 8,
+        "squeeze_volatility": 9,
+        "fundamentals": 4,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "APPN shows positive short-term momentum with a 7.26% 21-day return and is in a volatility squeeze across multiple timeframes, suggesting potential for a breakout move. However, weak fundamentals and upcoming earnings create elevated risk.",
+      "opportunities": [
+        "Multiple timeframe squeeze (3 concurrent) with 18-day duration indicates strong compression",
+        "Price above 50 SMA (29.20) with positive momentum acceleration of 9.18",
+        "Strong options liquidity with 1606 open interest and tight 3.22% spread"
+      ],
+      "risks": [
+        "Price below 200 SMA (32.05) indicating longer-term weakness",
+        "Poor fundamentals with -2.6% profit margin and negative ROE",
+        "Earnings approaching on 9/30/2025 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $25 strike as lower leg to reduce cost basis",
+        "entry_timing": "Consider partial position now with room to add post-earnings if positive",
+        "risk_management": "Size position small due to earnings risk and use spread to limit premium exposure"
+      },
+      "red_flags": [
+        "Earnings in <35 days creates significant event risk",
+        "Negative fundamental metrics indicate business health concerns"
+      ],
+      "notes": "High delta (0.903) on selected option provides strong directional exposure but limited leverage; consider spread structure to improve risk/reward"
+    },
+    "tokens_used": 2554,
+    "cost": 0.02554,
+    "response_time": 12.197351694107056,
+    "success": true
+  },
+  "cost": 0.02554,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8503,
+    "response_length": 1716
+  }
+}

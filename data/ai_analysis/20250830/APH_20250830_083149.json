@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "APH",
+  "timestamp": "2025-08-30T08:31:49.373275",
+  "data_package": {
+    "metadata": {
+      "symbol": "APH",
+      "package_timestamp": "2025-08-30T08:31:39.528124",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "APH",
+        "current_price": 108.86,
+        "overall_score": 50.16847195075889,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 104.117,
+        "sma_200": 81.1345
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.2063655994742226,
+        "momentum_63d": 21.04970532636494,
+        "momentum_126d": 63.45345345345347,
+        "momentum_acceleration": -18.84333972689072,
+        "roc_21d": 2.2063655994742226,
+        "trend_strength_20d": 0.07393515925090398,
+        "trend_direction": 1,
+        "ma_ribbon_score": 71.26331080918712,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.000810845570987384
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 8.0,
+        "squeeze_momentum": -0.2896015644373682,
+        "volatility_compression": 56.38496246119369,
+        "is_consolidating": "False",
+        "breakout_score": -21.238728020630298,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.360518679000732,
+        "squeeze_breakout": 4.0,
+        "options_quality": 11.906900456620995,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 57.0,
+        "momentum": 55.0,
+        "squeeze": 58.45774436917905,
+        "options": 35.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 14,
+        "percentile": 99.2
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "APH",
+        "strike_price": "105",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "7.2",
+        "ask": "7.4",
+        "last_price": "7.25",
+        "mid_price": "7.3",
+        "spread_percent": "2.702702702702702702702702703"
+      },
+      "greeks": {
+        "delta": 0.6629,
+        "gamma": 0.0297,
+        "theta": -0.0537,
+        "vega": 0.1446
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3103
+      },
+      "liquidity_metrics": {
+        "volume": 19,
+        "open_interest": 551,
+        "volume_oi_ratio": 0.034482758620689655
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:32.143904",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T21:06:00+00:00",
+            "title": "Amphenol, Dollar General, Zumiez, Ollie's, and AerSale Stocks Trade Down, What You Need To Know",
+            "content": "What Happened?\n\nA number of stocks fell in the afternoon session after markets pulled back with the decline concentrated in the tech space as investors engaged in profit-taking following a robust week that saw the S&P 500 hit a new record.\n\nAdding to the pressure, new inflation data, specifically the Core PCE, showed an acceleration in July, signaling that rising prices remain a risk despite being in line with expectations. This confluence of factors, including market highs heading into a historically weak September, led to a pullback, with the Nasdaq Composite shedding 1.15%. While the Federal Reserve has hinted at potential rate cuts, the focus on inflation and the jobs market continues to influence investor sentiment.\n\nThe stock market overreacts to news, and big price drops can present good opportunities to buy high-quality stocks.\n\nAmong others, the following stocks were impacted:\n\nElectronic Components & Manufacturing company Amphenol (NYSE:APH) fell 3%. Is now the time to buy Amphenol? Access our full analysis report here, it’s free. Discount Grocery Store company Dollar General (NYSE:DG) fell 3.1%. Is now the time to buy Dollar General? Access our full analysis report here, it’s free. Apparel Retailer company Zumiez (NASDAQ:ZUMZ) fell 3.1%. Is now the time to buy Zumiez? Access our full analysis report here, it’s free. Discount Retailer company Ollie's (NASDAQ:OLLI) fell 3.6%. Is now the time to buy Ollie's? Access our full analysis report here, it’s free. Aerospace company AerSale (NASDAQ:ASLE) fell 3.7%. Is now the time to buy AerSale? Access our full analysis report here, it’s free.\n\nZooming In On AerSale (ASLE)\n\nAerSale’s shares are quite volatile and have had 17 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 21 days ago when the stock gained 9.1% on the news that the company posted second-quarter results that beat analyst expectations on both the top and bottom lines.\n\nThe aviation solutions provider reported adjusted earnings of $0.20 per share, crushing Wall Street's consensus estimate of $0.03. Revenue also impressed, rising 39.3% year-over-year to $107.4 million, which was well ahead of the $86.33 million analysts had anticipated. This performance highlights healthy demand for the company's offerings, which include sales, leasing, and maintenance for mid-life commercial aircraft. The company's profitability saw a dramatic improvement, as its operating margin surged to 11.7%, a significant turnaround from a negative 2.4% in the same quarter last year. This strong bottom-line result was also reflected in its free cash flow, which turned positive at $18.61 million, compared to a burn of $18.94 million in the prior-year period.\n\nStory Continues\n\nAerSale is up 39.9% since the beginning of the year, and at $8.62 per share, it is trading close to its 52-week high of $9 from August 2025. Investors who bought $1,000 worth of AerSale’s shares 5 years ago would now be looking at an investment worth $838.52.\n\nToday’s young investors likely haven’t read the timeless lessons in Gorilla Game: Picking Winners In High Technology because it was written more than 20 years ago when Microsoft and Apple were first establishing their supremacy. But if we apply the same principles, then enterprise software stocks leveraging their own generative AI capabilities may well be the Gorillas of the future. So, in that spirit, we are excited to present our Special Free Report on a profitable, fast-growing enterprise software stock that is already riding the automation wave and looking to catch the generative AI next.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T17:05:00+00:00",
+            "title": "DELL Q2 Earnings Beat Estimates, Revenues Up Y/Y, Shares Fall",
+            "content": "Dell Technologies DELL reported non-GAAP earnings of $2.32 per share in the second quarter of fiscal 2026, beating the Zacks Consensus Estimate by 0.43%. The bottom line increased 19% year over year.\r\n\r\nRevenues increased 19% year over year to $29.78 billion and surpassed the consensus mark by 1.56%. The rise was primarily driven by record AI server shipments.\r\n\r\nAfter the results were announced, shares of DELL lost 6.17% in pre-market trading.\n\nDELL’s Q2 Top-Line Details\n\nProduct revenues rose 26% year over year to $23.9 billion, beating the Zacks Consensus Estimate by 11.35%.\n\nDell Technologies Inc. Price, Consensus and EPS SurpriseDell Technologies Inc. Price, Consensus and EPS Surprise\n\nDell Technologies Inc. price-consensus-eps-surprise-chart | Dell Technologies Inc. Quote\n\nServices revenues declined 4% year over year to $5.84 billion, missing the Zacks Consensus Estimate by 22.66%.\r\n\r\nInfrastructure Solutions Group (ISG) revenues increased 44% year over year to $16.80 billion.\r\n\r\nThe upside can be attributed to servers and networking revenues of 12.94 billion, which grew 69% year over year, with demand strength across AI and traditional servers. Storage revenues decreased 3% year over year to $3.85 billion.\r\n\r\nIn the reported quarter, Dell Technologies’ AI-optimized server momentum saw an increase of $5.6 billion in orders. The flagship PowerEdge XE9680 experienced strong demand, contributing to the momentum in the AI space.\r\n\r\nDell Technologies shipped $10 billion worth of AI servers in the fiscal second quarter, and the AI server backlog remained healthy at $11.7 billion.\r\n\r\nCSG revenues were $12.50 billion, up 1% year over year. Commercial Client revenues increased 2% year over year to $10.78 billion, while Consumer revenues fell 7% to $1.72 billion.\n\nDELL’s Operating Details\n\nThe company’s fiscal second-quarter non-GAAP gross profit increased 1% year over year to $5.57 billion. The gross margin contracted 330 basis points (bps) year over year to 18.7%.\r\n\r\nSG&A expenses fell 9% year over year to $2.88 billion. Research and development expenses increased 1% year over year to $785 million in the reported quarter.\r\n\r\nNon-GAAP operating expenses declined 4% year over year to $3.28 billion. Operating expenses, as a percentage of revenues, contracted 270 bps on a year-over-year basis to 11%.\r\n\r\nThe non-GAAP operating income was $2.28 million, up 10% year over year. The operating margin contracted 60 bps year over year to 7.7%.\r\n\r\nThe ISG segment’s operating income jumped 14% year over year to $1.47 billion. The CSG segment’s operating income was $803 million, down 2% year over year.\n\nDELL’s Balance Sheet & Cash Flow Details\n\nAs of Aug. 1, 2025, DELL had $8.14 billion in cash and cash equivalents compared with $7.70 billion as of May 2, 2025.\r\n\r\nTotal debt was $28.68 billion as of Aug. 1, 2025, compared with $28.78 billion as of May 2, 2025.\r\n\r\nThe company generated cash flow from operations of $2.5 billion. The adjusted free cash flow was $2.51 billion in the second quarter of fiscal 2026.\r\n\r\nIn the second quarter of fiscal 2026, Dell Technologies returned $1.3 billion of capital to its shareholders.\n\nStory continues\n\nDELL’s Q3 & FY26 Guidance\n\nFor the third quarter of fiscal 2026, revenues are expected to be between $26.5 billion and $27.5 billion, with the mid-point of $27 billion suggesting 11% year-over-year growth.\r\n\r\nFor the fiscal third quarter, Dell Technologies anticipates 13% growth at the midpoint for the combined ISG and CSG, with ISG growing in the low-twenties and CSG growing in the mid-single digits.\r\n\r\nNon-GAAP earnings are expected to be $2.45 per share (+/- 10 cents), at the midpoint, indicating 11% growth year over year.\r\n\r\nFor fiscal 2026, revenues are expected to be between $105 billion and $109 billion, with the mid-point of $107 billion indicating 12% year-over-year growth.\r\n\r\nFor fiscal 2026, Dell Technologies anticipates 14% growth at the mid-point for ISG and CSG combined, with ISG expected to increase in the mid-to-high twenties, with storage flat and CSG likely to grow in the low to mid-single digits. \r\n\r\nNon-GAAP earnings are expected to be $9.55 per share (+/- 25 cents), at the midpoint, up 17% year over year.\n\nZacks Rank & Stocks to Consider\n\nDell Technologies has a Zacks Rank #3 (Hold) at present.\r\n\r\nAlkami Technology ALKT, Arista Networks ANET, and Amphenol APH are some better-ranked stocks that investors can consider in the broader Zacks Computer & Technology sector. While ANET and ALKT carry a Zacks Rank #2 (Buy), APH sports a Zacks Rank #1 (Strong Buy) at present. You can see the complete list of today’s Zacks #1 Rank stocks here.\r\n\r\nAlkami Technology shares have lost 29.9% year to date. The Zacks Consensus Estimate for Alkami Technology’s full-year 2025 earnings is pegged at 58 cents per share, up by 7.4% over the past 30 days, implying growth of 100% from the year-ago quarter’s reported figure.\r\n\r\nArista Networks shares have gained 23.2% year to date. The Zacks Consensus Estimate for ANET’s full-year fiscal 2025 earnings is pegged at $2.81 per share, up by 9.7% in the past 30 days, indicating year-over-year growth of 23.79%.\r\n\r\nAmphenol shares have gained 61.2% year to date. The Zacks Consensus Estimate for Amphenol’s full-year 2025 earnings has increased 1.34% to $3.02 per share in the past 30 days, indicating year-over-year growth of 59.79%.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nDell Technologies Inc. (DELL) : Free Stock Analysis Report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nArista Networks, Inc. (ANET) : Free Stock Analysis Report\n\nAlkami Technology, Inc. (ALKT) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T15:10:00+00:00",
+            "title": "Marvell Technology Q2 Earnings Match Estimates, Revenues Rise Y/Y",
+            "content": "Marvell Technology, Inc. MRVL came out with second-quarter fiscal 2026 earnings of 67 cents per share, in line with the Zacks Consensus Estimate. This compares to earnings of 30 cents per share a year ago. The bottom line increased 123.3% year over year and 8.1% sequentially, driven by higher revenues and effective cost management.\n\nMarvell Technology’s earnings beat the Zacks Consensus Estimate in each of the trailing four quarters, with an average surprise of 3.6%.\n\nMRVL’s second-quarter fiscal 2026 revenues of $2.01 billion for the quarter ended July 2025, missing the Zacks Consensus Estimate by 0.23%. This compares to year-ago revenues of $1.27 billion.\n\nSecond-quarter revenues grew 57.6% year over year and 5.8% sequentially, mainly driven by strong growth in the data center and continued recovery in enterprise networking and carrier infrastructure end markets.\n\nMarvell Technology, Inc. Price, Consensus and EPS Surprise\n\nMarvell Technology, Inc. price-consensus-eps-surprise-chart | Marvell Technology, Inc. Quote\n\nMarvell Technology’s Q2 End Market Details\n\nMarvell Technology’s top-line growth was supported by impressive performances across its segments, which rose sequentially, while the data center segment registered phenomenal growth both year over year and quarterly.\n\nData center revenues of $1.49 billion increased 69.2% year over year and 3.5% sequentially. The top line showed robust improvement due to traction in custom XPU silicon, electro-optics interconnect products, and next-generation switch divisions primarily drove the robust increase. The segment accounted for 74.3% of the quarter’s total revenues, demonstrating that it is currently MRVL’s largest end market. Our estimate for the Data Center’s fiscal second-quarter revenues was pegged at $1.5 billion.\n\nRevenues from enterprise networking rose 28.2% year over year and 9.1% sequentially to $193.6 million, and accounted for 9.7% of the total revenues. The year-over-year rise was primarily driven by the normalization of inventory levels. Our estimate for enterprise networking’s fiscal second-quarter revenues was pegged at $185.1 million.\n\nCarrier infrastructure revenues, which accounted for 6% of the total revenues, rose 71% year over year but declined 6% sequentially to $130 million, reflecting demand recovery. Our estimate for the carrier infrastructure’s fiscal second-quarter revenues was pegged at $144.5 million.\n\nAutomotive/Industrial revenues were flat year over year and sequentially at $76 million, mainly due to continued weakness across the industrial market, offsetting automotive recovery. Revenues from this segment constituted 4% of the total revenues. Our estimate for Automotive/Industrial’s fiscal second-quarter revenues was pegged at $75.6 million.\n\nStory Continues\n\nConsumer revenues, representing 6% of the total revenues, increased 30% year over year and 84% sequentially to $116 million. Our estimate for Consumer’s fiscal second-quarter revenues was pegged at $94.7 million.\n\nMRVL's Q2 Operating Details\n\nMarvell Technology's non-GAAP gross profit of $1.19 billion reflected an increase of 62.9% year over year and 6.0% sequentially. However, the non-GAAP gross margin of 59.4% contracted 250 basis points (bps) year over year and 40 bps sequentially.\n\nNon-GAAP operating expenses totaled $492.6 million compared with $455.8 million in the year-ago quarter and $486.2 million in the previous quarter. The non-GAAP operating margin of 34.8% expanded 870 bps year over year and 60 bps sequentially.\n\nMarvell Technology Initiates Guidance for Q3\n\nConsidering the continued robust demand for its custom AI chips, Marvell Technology initiated strong revenue guidance for the third quarter. It expects revenues to be $2.06 billion (+/- 5%). The Zacks Consensus Estimate for revenues is pegged at $2.01 billion, implying 57.96% year-over-year improvement.\n\nThe non-GAAP gross margin is projected to be in the 59.5-60.0% range, while non-GAAP operating expenses are estimated to be around $485 million.\n\nThe company projects non-GAAP earnings per share for the fiscal third quarter to be 74 cents (+/- 5 cents), while the consensus mark for the same is currently pegged at 67 cents. The figure indicates a strong year-over-year improvement of 123.33%.\n\nMRVL’s Zacks Rank and Stocks to Consider\n\nMRVL currently has a Zacks Rank #3 (Hold).\n\nAlkami Technology ALKT, Arista Networks ANET and Amphenol APH are some better-ranked stocks that investors can consider in the broader Zacks Computer & Technology sector. While ANET and ALKT carry a Zacks Rank #2 (Buy) each, APH sports a Zacks Rank #1 (Strong Buy) at present. You can see the complete list of today’s Zacks #1 Rank stocks here.\n\nAlkami Technology shares have lost 34.5% year to date. The Zacks Consensus Estimate for Alkami Technology’s full-year 2025 earnings is pegged at 15 cents per share, up by 2 cents over the past 30 days, implying growth of 51.7% from the year-ago quarter’s reported figure.\n\nArista Networks shares have lost 11.9% year to date. The Zacks Consensus Estimate for ANET’s full-year fiscal 2025 earnings is pegged at 65 cents per share, up by a penny in the past 30 days, indicating year-over-year growth of 13.66%.\n\nAmphenol shares have gained 45.1% year to date. The Zacks Consensus Estimate for Amphenol’s full-year 2025 earnings has been revised upward to $2.69 per share in the past seven days, indicating year-over-year growth of 42.33%.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nMarvell Technology, Inc. (MRVL) : Free Stock Analysis Report\n\nArista Networks, Inc. (ANET) : Free Stock Analysis Report\n\nAlkami Technology, Inc. (ALKT) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T14:28:00+00:00",
+            "title": "Autodesk Q2 Earnings &amp; Revenues Surpass Estimates, Both Rise Y/Y",
+            "content": "Autodesk ADSK reported second-quarter fiscal 2026 non-GAAP earnings of $2.62 per share, which beat the Zacks Consensus Estimate by 7.38% and increased 21.9% year over year.\r\n\r\nThe company reported revenues of $1.76 billion, which beat the consensus mark by 2.17% and grew 17.1% year over year.\r\n\r\nAutodesk delivered robust performance this quarter, driven by strength in AECO, higher up-front revenues from Enterprise Business Agreements, and continued momentum in the Autodesk Store. The company remains confident in its outlook, supported by a well-executed go-to-market strategy, robust industry cloud offerings, and a scalable platform ecosystem designed to harness AI effectively.\n\nQ2 Top-Line Details of ADSK\n\nAutodesk’s subscription revenues (94% of total revenues) increased 17.8% year over year to $1.66 billion. Maintenance revenues (0.5% of total revenues) declined 18.2% from the year-ago quarter to $9 million. Other revenues (5.4% of total revenues) increased 11.6% to $96 million in the reported quarter.\n\nAutodesk, Inc. Price, Consensus and EPS SurpriseAutodesk, Inc. Price, Consensus and EPS Surprise\n\nAutodesk, Inc. price-consensus-eps-surprise-chart | Autodesk, Inc. Quote\n\nRegion-wise, revenues from the Americas (44.6% of revenues) increased 18.7% from the year-ago quarter’s levels to $786 million. Revenues from the EMEA, which accounted for 38.3% of revenues, climbed 18.4% to $675 million. Revenues from the Asia-Pacific (17.1% of revenues) increased 10.6% to $302 million.\r\n\r\nBillings of $1.68 billion increased 36% year over year in the reported quarter.\n\nProduct Line Details of ADSK\n\nAutodesk offers primarily four product families: Architecture, Engineering, Construction and Operations (AECO), AutoCAD and AutoCAD LT, Manufacturing (MFG) and Media and Entertainment (M&E).\r\n\r\nAECO (49.8% of revenues) revenues increased 23.1% year over year to $878 million.\r\n\r\nAutoCAD and AutoCAD LT (25% of revenues) revenues rose 13.1% to $440 million.\r\n \r\nMFG (18.9% of revenues) revenues increased 12.8% to $334 million.\r\n \r\nM&E (4.5% of revenues) revenues increased 3.9% to $80 million.\n\nOperating Results of ADSK\n\nNon-GAAP operating expenses increased 14.4% year over year to $959 million in the reported quarter.\r\n\r\nAutodesk reported a non-GAAP operating margin of 38.6%, which contracted 140 basis points year over year.\n\nADSK’s Balance Sheet & Cash Flow\n\nAs of July 31, 2025, Autodesk had cash and cash equivalents (including marketable securities) of $2.24 billion compared with $2.04 billion as of April 30, 2025.\r\n\r\nDeferred revenues increased 4% to $3.84 billion. Unbilled deferred revenues were $3.45 billion, indicating an increase of 59% year over year.\r\n\r\nRemaining performance obligations (RPO) rose 24% to $7.3 billion. The current RPO increased 20% to $4.68 billion.\r\n\r\nCash flow from operating activities was $460 million, suggesting an increase of 117% year over year. Free cash flow was $451 million, indicating a rise of 122%.\r\n\r\nIn the reported quarter, ADSK purchased approximately 1.2 million shares for $356 million at an average price of approximately $298 per share.\n\nStory Continues\n\nADSK Initiates Q3 & Raises FY26 Guidance\n\nAutodesk projects third-quarter fiscal 2026 revenues between $1.80 billion and $1.81 billion.\r\n \r\nNon-GAAP earnings per share are expected to be between $2.48 and $2.51.\r\n\r\nFor fiscal 2026, Autodesk expects revenues between $7.03 billion and $7.08 billion compared with its earlier guidance of $5.99 billion to $6.09 billion. Billings are now estimated to be in the $7.36-$7.45 billion range, up from the prior outlook of $5.81-$5.96 billion.\r\n\r\nNon-GAAP earnings are anticipated in the range of $9.80-$9.98 per share, versus the previous guidance of $7.99-$8.21. The company also raised its non-GAAP operating margin expectation to approximately 37%, from the prior range of 35-36%.\r\n\r\nFree cash flow is anticipated in the $2.20-$2.28 billion band.\n\nADSK’s Zacks Rank & Stocks to Consider\n\nCurrently, ADSK carries a Zacks Rank #3 (Hold).\r\n\r\nAmphenol APH, Microchip Technology MU and Reddit Inc. RDDT are some better-ranked stocks that investors can consider in the broader Zacks Computer and Technology sector. APH, MU and RDDT sport a Zacks Rank #1 (Strong Buy) each at present. You can see the complete list of today’s Zacks #1 Rank stocks here.\r\n\r\nAPH shares have surged 61.2% in the year-to-date period. The Zacks Consensus Estimate for APH’s full-year 2025 earnings is pegged at $3.02 per share, up by 4 cents over the past 30 days, suggesting growth of 41.53% from the year-ago quarter’s reported figure.\r\n\r\nMU shares have gained 44.6% year to date. The Zacks Consensus Estimate for MU’s full-year fiscal 2025 earnings has been revised upward to $8.04 in the past 30 days, suggesting year-over-year growth of 518.46%.\r\n\r\nRDDT shares have appreciated 37.9% year to date. The Zacks Consensus Estimate for RDDT’s full-year 2025 earnings is pegged at $1.81 per share, revised upward over the past 30 days and implying a rise of 154.35% from the year-ago quarter’s levels.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nAmphenol Corporation (APH) : Free Stock Analysis Report\n\nMicron Technology, Inc. (MU) : Free Stock Analysis Report\n\nAutodesk, Inc. (ADSK) : Free Stock Analysis Report\n\nReddit Inc. (RDDT) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T14:04:58+00:00",
+            "title": "Validea Detailed Fundamental Analysis - APH",
+            "content": "Below is Validea's guru fundamental report for AMPHENOL CORP (APH). Of the 22 guru strategies we follow,  APH rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nAMPHENOL CORP (APH) is a large-cap growth stock in the Electronic Instr. & Controls industry. The rating using this strategy is 87% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:FAIL\n\nDetailed Analysis of AMPHENOL CORP\n\nAPH Guru Analysis\n\nAPH Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nTop Technology Stocks\n\nTop Large-Cap Growth Stocks\n\nHigh Momentum Stocks\n\nTop Chip Stocks\n\nHigh Insider Ownership Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Amphenol Corporation",
+          "sector": "Technology",
+          "industry": "Electronic Components",
+          "employees": 125000,
+          "description": "Amphenol Corporation, together with its subsidiaries, designs, manufactures, and markets electrical, electronic, and fiber optic connectors in the United States, China, and internationally. It operates through three segments: Harsh Environment Solutions, Communications Solutions, and Interconnect an"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.51,
+          "profit_margin": 0.169,
+          "operating_margin": 0.2562,
+          "roe": 0.3105,
+          "roa": 0.125,
+          "revenue_growth_yoy": 0.565,
+          "earnings_growth_yoy": 1.098,
+          "eps_estimate_current_year": 3.0397,
+          "eps_estimate_next_year": 3.4026,
+          "dividend_yield": 0.0059,
+          "dividend_per_share": 0.66,
+          "revenue_ttm": 18818000896,
+          "revenue_per_share": 15.559,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 43.3705,
+          "forward_pe": 37.8788,
+          "price_to_sales": 7.2627,
+          "price_to_book": 11.8644,
+          "enterprise_value": 141505909165,
+          "ev_to_revenue": 7.5197,
+          "ev_to_ebitda": 27.927
+        },
+        "technical_data": {
+          "beta": 1.133,
+          "52_week_high": 112.35,
+          "52_week_low": 56.3503,
+          "50_day_ma": 104.117,
+          "200_day_ma": 81.1345,
+          "short_interest": 0.0152,
+          "short_ratio": 1.81
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.66,
+          "forward_dividend_yield": 0.0061,
+          "payout_ratio": 0.2651,
+          "dividend_date": "2025-10-08",
+          "ex_dividend_date": "2025-09-16",
+          "last_split_date": "2024-06-12",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.0556,
+          "target_price": 115.375,
+          "strong_buy": 8,
+          "buy": 4,
+          "hold": 5,
+          "sell": 1,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1220920064,
+          "percent_institutions": 96.946,
+          "percent_insiders": 0.5640000000000001,
+          "shares_float": 1213009542
+        },
+        "balance_latest_sheet": {
+          "total_assets": 25668.4,
+          "total_debt": 8062.4,
+          "cash_and_equivalents": 3207.0,
+          "net_debt": 4855.4,
+          "working_capital": 5694.3,
+          "shareholders_equity": 11519.3,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.7
+        },
+        "income_latest_statement": {
+          "total_revenue": 5650.3,
+          "gross_profit": 2053.3,
+          "operating_income": 1430.8,
+          "net_income": 1091.3,
+          "ebitda": 1638.4,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 36.34,
+          "operating_margin": 25.32,
+          "net_margin": 19.31
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 1416.8,
+          "free_cash_flow": 1119.7,
+          "capex": 297.1,
+          "net_income": 1100.8,
+          "cash_change": 1549.8,
+          "dividends_paid": -199.6,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.6771,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 103.04,
+            "high": 104.16,
+            "low": 102.52,
+            "close": 103.71,
+            "volume": 6509400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 103.77,
+            "high": 103.88,
+            "low": 101.1,
+            "close": 101.78,
+            "volume": 8825700
+          },
+          {
+            "date": "2025-07-23",
+            "open": 107.23,
+            "high": 108.85,
+            "low": 95.19,
+            "close": 100.71,
+            "volume": 30058100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 102.79,
+            "high": 105.1,
+            "low": 102.18,
+            "close": 104.46,
+            "volume": 14014600
+          },
+          {
+            "date": "2025-07-25",
+            "open": 104.79,
+            "high": 106.02,
+            "low": 104.67,
+            "close": 105.02,
+            "volume": 7303600
+          },
+          {
+            "date": "2025-07-28",
+            "open": 105.91,
+            "high": 107.15,
+            "low": 105.04,
+            "close": 106.7,
+            "volume": 8368800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 107.82,
+            "high": 108.55,
+            "low": 104.97,
+            "close": 105.31,
+            "volume": 9476600
+          },
+          {
+            "date": "2025-07-30",
+            "open": 105.31,
+            "high": 106.01,
+            "low": 104.29,
+            "close": 105.49,
+            "volume": 7247600
+          },
+          {
+            "date": "2025-07-31",
+            "open": 106.8,
+            "high": 108.2,
+            "low": 106.27,
+            "close": 106.51,
+            "volume": 15268000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 105.29,
+            "high": 105.32,
+            "low": 102.76,
+            "close": 104.31,
+            "volume": 8736100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 108.56,
+            "high": 108.75,
+            "low": 106.41,
+            "close": 108.63,
+            "volume": 8998000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 108.66,
+            "high": 109.9,
+            "low": 107.01,
+            "close": 107.93,
+            "volume": 10434700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 108.25,
+            "high": 109.5,
+            "low": 107.54,
+            "close": 109.5,
+            "volume": 6507700
+          },
+          {
+            "date": "2025-08-07",
+            "open": 109.59,
+            "high": 110.38,
+            "low": 107.83,
+            "close": 108.55,
+            "volume": 5794200
+          },
+          {
+            "date": "2025-08-08",
+            "open": 109.16,
+            "high": 110.6,
+            "low": 108.5,
+            "close": 109.98,
+            "volume": 5052400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 110.25,
+            "high": 111,
+            "low": 109.25,
+            "close": 109.81,
+            "volume": 4859600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 110.16,
+            "high": 111.87,
+            "low": 109.79,
+            "close": 111.85,
+            "volume": 7075400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 112.12,
+            "high": 112.35,
+            "low": 107.67,
+            "close": 109.83,
+            "volume": 9871600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 109.01,
+            "high": 110.83,
+            "low": 108.77,
+            "close": 110.74,
+            "volume": 6247100
+          },
+          {
+            "date": "2025-08-15",
+            "open": 110.55,
+            "high": 110.72,
+            "low": 107.52,
+            "close": 109.21,
+            "volume": 6535500
+          },
+          {
+            "date": "2025-08-18",
+            "open": 110,
+            "high": 111.38,
+            "low": 109.72,
+            "close": 111.06,
+            "volume": 6809200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 110.81,
+            "high": 112.02,
+            "low": 109.18,
+            "close": 109.98,
+            "volume": 7000600
+          },
+          {
+            "date": "2025-08-20",
+            "open": 109.3,
+            "high": 109.46,
+            "low": 104.71,
+            "close": 108.65,
+            "volume": 9011700
+          },
+          {
+            "date": "2025-08-21",
+            "open": 108.52,
+            "high": 109.48,
+            "low": 107.89,
+            "close": 108.81,
+            "volume": 7320500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 109.01,
+            "high": 111.17,
+            "low": 108.43,
+            "close": 109.36,
+            "volume": 7552500
+          },
+          {
+            "date": "2025-08-25",
+            "open": 109.58,
+            "high": 111.48,
+            "low": 109.55,
+            "close": 109.73,
+            "volume": 4086900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 109.82,
+            "high": 110.78,
+            "low": 109.73,
+            "close": 109.9,
+            "volume": 10309400
+          },
+          {
+            "date": "2025-08-27",
+            "open": 109.67,
+            "high": 110.66,
+            "low": 109.4,
+            "close": 110.13,
+            "volume": 4433400
+          },
+          {
+            "date": "2025-08-28",
+            "open": 110.1,
+            "high": 112.06,
+            "low": 109.56,
+            "close": 111.94,
+            "volume": 5076800
+          },
+          {
+            "date": "2025-08-29",
+            "open": 111.02,
+            "high": 111.29,
+            "low": 107.92,
+            "close": 108.86,
+            "volume": 6200800
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.361997890902116,
+        "return_63d": 20.473660911907924,
+        "pct_above_sma50": 4.555452039532459,
+        "sma_50": 104.11699999999999,
+        "new_55d_high": "False",
+        "high_55d": 112.35,
+        "rsi": 47.227086981903085,
+        "rsi_in_range": "False",
+        "adx": 20.791897794894503,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.4476391695756,
+        "bb_width": 3.8842059576770125,
+        "keltner_width": 9.72369843579648,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 763547905.2500001,
+        "adv_shares": 6958900.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 41.26741913562173,
+        "final_score": 36.26741913562173,
+        "sub_scores": {
+          "trend_momentum": 14.360518679000732,
+          "squeeze_breakout": 4.0,
+          "options_quality": 11.906900456620995,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 2.206365599474225,
+          "ret_63d": 21.049705326364943,
+          "rsi14": 47.227086981903085,
+          "adx14": 20.678121963793558,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: APH\n• Current Price: $108.86\n• Overall Score: 50.16847195075889\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 104.117\n• Sma 200: 81.1345\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.2063655994742226\n• Momentum 63D: 21.04970532636494\n• Momentum 126D: 63.45345345345347\n• Momentum Acceleration: -18.84333972689072\n• Roc 21D: 2.2063655994742226\n• Trend Strength 20D: 0.07393515925090398\n• Trend Direction: 1\n• Ma Ribbon Score: 71.26331080918712\n• Breakout Strength: 0.0\n• Price Velocity: -0.000810845570987384\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 8.0\n• Squeeze Momentum: -0.2896015644373682\n• Volatility Compression: 56.38496246119369\n• Is Consolidating: False\n• Breakout Score: -21.238728020630298\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.360518679000732\n• Squeeze Breakout: 4.0\n• Options Quality: 11.906900456620995\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 57.0\n• Momentum: 55.0\n• Squeeze: 58.45774436917905\n• Options: 35.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: APH\n• Strike Price: $105\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $7.2\n• Ask: $7.4\n• Last: $7.25\n• Mid: $7.3\n• Spread: 2.702702702702702702702702703%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6629\n• Gamma: 0.0297\n• Theta: -0.0537\n• Vega: 0.1446\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3103\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 19\n• Open Interest: 551\n• Volume/OI Ratio: 0.034482758620689655\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Amphenol Corporation\n• Sector: Technology\n• Industry: Electronic Components\n• EPS (TTM): $2.51\n• Profit Margin: 16.9%\n• ROE: 31.1%\n• P/E Ratio: 43.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T21:06:00+00:00: Amphenol, Dollar General, Zumiez, Ollie's, and AerSale Stocks Trade Down, What Y...\n• 2025-08-29T17:05:00+00:00: DELL Q2 Earnings Beat Estimates, Revenues Up Y/Y, Shares Fall...\n• 2025-08-29T15:10:00+00:00: Marvell Technology Q2 Earnings Match Estimates, Revenues Rise Y/Y...\n• 2025-08-29T14:28:00+00:00: Autodesk Q2 Earnings &amp; Revenues Surpass Estimates, Both Rise Y/Y...\n• 2025-08-29T14:04:58+00:00: Validea Detailed Fundamental Analysis - APH...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR APH\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the APH opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:31:49.372998",
+    "estimated_tokens": 2329
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"APH\",\n    \"rating\": 71,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 15,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 7,\n        \"event_news\": 2\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"APH shows strong technical momentum with price above both SMAs and positive 126D momentum of 63.45%. The current squeeze setup with 2 timeframe compression suggests potential for a volatility expansion, though recent momentum deceleration (-18.84) warrants caution.\",\n    \"opportunities\": [\n        \"Price trending well above both 50 SMA (104.11) and 200 SMA (81.13)\",\n        \"Strong financial metrics with 16.9% profit margin and 31.1% ROE\",\n        \"Active squeeze setup with 56.38% volatility compression across 2 timeframes\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-18.84) indicates slowing upward momentum\",\n        \"Relatively high P/E ratio of 43.4x suggests elevated valuation\",\n        \"Options liquidity is moderate with Vol/OI ratio of only 0.034\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using Oct 2025 105 strike as lower leg given 0.66 delta and reasonable spread of 2.7%\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, add on momentum confirmation\",\n        \"risk_management\": \"Set stops based on squeeze breakdown or loss of 50 SMA support at 104.11\"\n    },\n    \"red_flags\": [\n        \"Earnings coming up on 2025-09-30 creates near-term event risk\",\n        \"Recent negative price velocity (-0.00081) suggests short-term weakness\"\n    ],\n    \"notes\": \"While technical setup is promising, deteriorating short-term momentum metrics suggest scaling into position rather than full allocation\"\n}",
+    "parsed_analysis": {
+      "symbol": "APH",
+      "rating": 71,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 15,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 7,
+        "event_news": 2
+      },
+      "confidence": "medium",
+      "thesis": "APH shows strong technical momentum with price above both SMAs and positive 126D momentum of 63.45%. The current squeeze setup with 2 timeframe compression suggests potential for a volatility expansion, though recent momentum deceleration (-18.84) warrants caution.",
+      "opportunities": [
+        "Price trending well above both 50 SMA (104.11) and 200 SMA (81.13)",
+        "Strong financial metrics with 16.9% profit margin and 31.1% ROE",
+        "Active squeeze setup with 56.38% volatility compression across 2 timeframes"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-18.84) indicates slowing upward momentum",
+        "Relatively high P/E ratio of 43.4x suggests elevated valuation",
+        "Options liquidity is moderate with Vol/OI ratio of only 0.034"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using Oct 2025 105 strike as lower leg given 0.66 delta and reasonable spread of 2.7%",
+        "entry_timing": "Consider partial position now with squeeze setup, add on momentum confirmation",
+        "risk_management": "Set stops based on squeeze breakdown or loss of 50 SMA support at 104.11"
+      },
+      "red_flags": [
+        "Earnings coming up on 2025-09-30 creates near-term event risk",
+        "Recent negative price velocity (-0.00081) suggests short-term weakness"
+      ],
+      "notes": "While technical setup is promising, deteriorating short-term momentum metrics suggest scaling into position rather than full allocation"
+    },
+    "tokens_used": 2575,
+    "cost": 0.025750000000000002,
+    "response_time": 9.842954635620117,
+    "success": true
+  },
+  "cost": 0.025750000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8522,
+    "response_length": 1781
+  }
+}

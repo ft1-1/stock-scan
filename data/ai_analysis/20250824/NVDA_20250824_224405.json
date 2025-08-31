@@ -1,0 +1,649 @@
+{
+  "success": true,
+  "symbol": "NVDA",
+  "timestamp": "2025-08-24T22:44:05.258489",
+  "data_package": {
+    "metadata": {
+      "symbol": "NVDA",
+      "package_timestamp": "2025-08-24T22:43:56.019901",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NVDA",
+        "current_price": 177.99,
+        "overall_score": 52.87692307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 166.9966,
+        "sma_200": 137.8551
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.446183953033268,
+        "momentum_63d": 33.99834374764736,
+        "momentum_126d": 32.40348136576657,
+        "momentum_acceleration": -31.55215979461409,
+        "roc_21d": 2.446183953033268,
+        "trend_strength_20d": 0.010368599699539483,
+        "trend_direction": 1,
+        "ma_ribbon_score": 71.84361412101754,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0025824030381805586
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": -0.6056262981709661,
+        "volatility_compression": 0.0,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.582869351395168,
+        "squeeze_breakout": 4.0,
+        "options_quality": 23,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 65.0,
+        "momentum": 55.0,
+        "squeeze": 50.0,
+        "options": 47.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 6,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NVDA",
+        "strike_price": "175",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "13.45",
+        "ask": "13.55",
+        "last_price": "13.5",
+        "mid_price": "13.50",
+        "spread_percent": "0.7380073800738007380073800738"
+      },
+      "greeks": {
+        "delta": 0.5887,
+        "gamma": 0.0135,
+        "theta": -0.1104,
+        "vega": 0.2712
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.4132
+      },
+      "liquidity_metrics": {
+        "volume": 23645,
+        "open_interest": 47111,
+        "volume_oi_ratio": 0.5018997686315297
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-24T22:38:14.040018",
+        "market_status": "closed_weekend",
+        "market_trend": "bullish",
+        "volatility_index": {
+          "level": 14.22,
+          "change": -2.38,
+          "change_percent": -14.3373,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.31,
+          "change": 9.76,
+          "change_percent": 1.5357,
+          "volume": 83728900,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-22T23:41:50+00:00",
+            "title": "Dow Jones Futures: Powell Drives Stock Market To Highs. Nvidia Earnings Up Next.",
+            "content": "Fed chief Powell's dovish speech triggered a big Friday rally, with the S&P 500 and Dow Jones hitting new highs and several stocks flashing buy signals. Nvidia earnings loom.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T23:36:05+00:00",
+            "title": "Why Intel Stock Soared Today",
+            "content": "Key Points\n\nTech stocks got a big boost after the Federal Reserve signaled that an interest rate cut could be coming next month. Intel stock also gained ground, thanks to news that the U.S. government is taking a nearly 10% equity stake in the company. 10 stocks we like better than Intel ›\n\nIntel(NASDAQ: INTC) stock is leaping higher in Friday's trading thanks to a pair of bullish catalysts. The semiconductor company's share price gained 5.5% in a day of trading that saw the S&P 500 jump 1.5% and the Nasdaq Composite surge 1.8%.\n\nIntel's valuation climbed today thanks to a speech from Federal Reserve chair Jerome Powell that increased hopes among investors for an interest rate cut at the central bank's meeting next month. The stock also got a boost from a report suggesting that the Trump administration was on the verge of announcing that it was on track to acquire a 10% stake in the company.Image source: Getty Images.\n\nInterest rate news boosted Intel stock today\n\nPowell gave a speech this morning that has restored market confidence in a September interest rate cut and the potential for another rate cut later in the year. The Fed has kept rates relatively high in order to combat inflation, but investors have been hoping that the central bank will deliver cuts and create a stronger environment for stocks and other assets.\n\nWhile Powell said that inflation continued to present challenges, he indicated that weakness in the U.S. economy was looking like the bigger risk factor. His comments seemed to indicate that the Fed is leaning toward cutting rates next month, and they helped power gains for Intel and many other tech stocks today.\n\nIntel also rose thanks to major U.S. investment news\n\nBloomberg published a report today stating that President Donald Trump was on track to announce that the U.S. government would be taking a nearly 10% equity position in Intel. The official announcement wound up arriving after the market closed today, but Trump did confirm that he had met with CEO Lip-bu Tan and that the U.S. will be taking a 10% stake in Intel.\n\nThe development will allow Intel to receive funding that had been apportioned to it through the CHIPS Act. It also opens the door for additional government support as artificial intelligence (AI) chip designs and chip fabrication technologies become increasingly important to the economy and national security.\n\nShould you buy stock in Intel right now?\n\nBefore you buy stock in Intel, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Intel wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nStory Continues\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nKeith Noonan has positions in Intel. The Motley Fool has positions in and recommends Intel. The Motley Fool recommends the following options: short August 2025 $24 calls on Intel. The Motley Fool has a disclosure policy.\n\nWhy Intel Stock Soared Today was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T23:30:00+00:00",
+            "title": "Could Ripple's Price Surge Now That Its SEC Battle Is Over?",
+            "content": "Key Points\n\nXRP's price jumped by 11% on Aug. 7, outpacing both Bitcoin and Ethereum that day. Ripple is investing heavily in building an ecosystem around RLUSD, XRP's stablecoin counterpart. 10 stocks we like better than XRP ›\n\nAfter nearly five years, the legal saga between XRP (CRYPTO: XRP) and the U.S. Securities and Exchange Commission (SEC) has come to a close. Dating back to December 2020, Ripple and the SEC disputed whether XRP was an unregistered security until a federal judge ultimately ruled that it was not in retail transactions. Both sides agreed to end their appeals as they pertain to XRP. In a joint filing with the U.S. Court of Appeals recently, both parties withdrew their court appeals, and Ripple agreed to pay $125 million in fines.\n\nFor Ripple, this marks a long-awaited closure. The company can disperse XRP without worrying about the SEC breathing down its neck. For investors, there's less risk of trading platforms delisting or suspending XRP, which many did in January 2021 following the initial SEC lawsuit. But does this mean the token is set for a price surge?Image source: Getty Images.\n\nTrump's executive order gives an extra boost to XRP and other tokens\n\nCoincidentally, U.S. President Donald Trump signed an executive order on Aug. 7, the same day as Ripple and the SEC's joint filing, allowing cryptocurrencies to be included in 401(k) retirement accounts. XRP's price jumped by 11% to $3.32, outpacing both Bitcoin and Ethereum that day.\n\nIt was XRP's biggest single-day gain since July 17, when the coin surged roughly 14% after House lawmakers advanced the Genius Act, a bill aimed at regulating stablecoins and integrating them into everyday finance. While XRP isn't a stablecoin, Ripple's own USD-pegged RLUSD coin helped fuel optimism within the Ripple ecosystem. When the bill's approval was announced, Ripple CEO Brad Garlinghouse showed his support on social media platform X, stating that the Trump administration was the most \"crypto forward\" in U.S. history.\n\nIs there another price surge for XRP on the horizon?\n\nAfter four straight days of losses, XRP bounced back on Aug. 12 with a roughly 4% gain. And while it has pulled back since reaching a record high of $3.66 in early July, that kind of retracement is common for volatile assets.\n\nThe bullish day can be linked to the 90-day extension of the U.S.-China tariff freeze. The crypto market has often reacted to tariff news, including a sharp sell-off when \"Liberation Day\" tariffs were announced in early April. The uncertainty around tariff policy tends to amplify the instability and volatility of XRP.\n\nStory Continues\n\nThe coin is struggling against resistance between $3.40 and $3.50 and may need significant news to break and hold above that range. Until then, it doesn't seem that a surge is coming soon.\n\nShould you buy XRP right now?\n\nFloating at around $3.25 as I write this, XRP looks a bit overbought. If investors are willing to wait for at least a 10% retracement, there is promise for a good purchase. The court case is now in the rearview mirror, and Ripple is investing more into the stablecoin space by purchasing the stablecoin payment platform Rail. And if adoption for RLUSD rises over time, it could create even more demand for XRP.\n\nFinancial institutions have already started incorporating XRP and/or Ripple's high-speed Ripple Ledger blockchain for cross-border payments. Some of the bigger names include American Express, MoneyGram, and PNC Financial Services. It appears that the coin is here to stay for the long term and will likely develop an even larger role in the American financial system as the country becomes more crypto-friendly. That all being said, the crypto market is unregulated and will remain much more volatile than traditional assets. Investors should invest only money they can afford to lose.\n\nBut in the short term, investors should wait to purchase the coin and be aware of how international tariffs play out, as these extended freezes can only last for so long.\n\nShould you invest $1,000 in XRP right now?\n\nBefore you buy stock in XRP, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and XRP wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nAdé Hennis has positions in XRP.American Express is an advertising partner of Motley Fool Money. The Motley Fool has positions in and recommends Bitcoin, Ethereum, and XRP. The Motley Fool has a disclosure policy.\n\nCould Ripple's Price Surge Now That Its SEC Battle Is Over? was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T23:20:00+00:00",
+            "title": "Stocks Were Sinking on AI Fears. Then Powell Came to the Rescue.",
+            "content": "With the prospect of lower interest rates ahead, investors can turn their attention back to the health of the artificial-intelligence trade.\n\nContinue Reading\n\n查看留言",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T23:15:00+00:00",
+            "title": "Lyft's Bet on Autonomous Vehicles: Can It Pay Off?",
+            "content": "Key Points\n\nLyft's capital-light approach focuses on connecting riders with autonomous vehicles from multiple technology partners. If scaled, AVs could eliminate Lyft's largest expense: human drivers. Autonomous vehicles aren't a near-term revenue driver, but Lyft's strategy positions it to benefit from AV adoption while maintaining strong cash flow. 10 stocks we like better than Lyft ›\n\nLyft(NASDAQ: LYFT) has spent most of its public life in the shadow of Uber Technologies, fighting to prove that a smaller, more focused ride-hailing player can still win. Over the past year, the company has impressed Wall Street by stabilizing its business, improving cash flow, and showing it can operate profitably.\n\nBut Lyft isn't just tightening its core operations. It's also making a calculated bet that autonomous vehicles (AVs) could transform its business model -- and maybe give it a new edge in the ride-hailing race. The big question: Can Lyft's AV strategy pay off before larger players or technology leaders capture the market?Image source: Getty Images.\n\nLyft's quiet, partnership-first approach\n\nUnlike Uber, which sold its self-driving unit in 2020 and continues to invest selectively in AV partnerships, Lyft has embraced a capital-light strategy from the start. Rather than building expensive hardware and software in-house, Lyft positions itself as the network that connects riders with self-driving cars from multiple technology providers.\n\nCurrently, Lyft partners with Motional to offer limited autonomous rides in select U.S. cities. It has also teamed up with Mobileye, May Mobility, and Nexar as it positions itself across the whole AV value chain. These partnerships remain small-scale and experimental, but they give Lyft a foothold in the emerging AV ecosystem without burning billions on research and development.\n\nBy focusing on its strengths -- managing the rider network, handling bookings and payments, and integrating AV fleets into its app -- Lyft avoids the enormous capital and technical risk associated with building AV tech from scratch.\n\nWhy AVs could change the economics of ride-hailing\n\nLyft's most significant cost today is paying human drivers. Driver supply fluctuates with wages, gas prices, and broader labor market conditions, creating volatility and pressure on margins.\n\nIf AVs become viable at scale, they could eliminate this single biggest expense. That would transform Lyft's unit economics, allowing the company to capture more of the ride fare or pass savings to riders to gain market share.\n\nThere's also an operational benefit. AVs don't tire, don't reject trips, and don't need surge pricing to incentivize work during peak hours. A fleet of autonomous vehicles could theoretically run 24/7, improving utilization rates and reducing cost per ride.\n\nStory Continues\n\nIn theory, then, AVs could make ride-hailing cheaper, more predictable, and more profitable -- if the technology and regulatory landscape allow it.\n\nThe long road ahead: Timing and competition\n\nThat \"if\" is doing a lot of work. The path to widespread AV adoption has been slower and bumpier than early enthusiasts hoped. Expectations of large-scale commercial deployment in the early 2020s haven't materialized.\n\nSignificant technical hurdles remain, including perfecting safety and reliability. Regulatory environments vary across jurisdictions, and public acceptance is still evolving.\n\nMeanwhile, competition is fierce. Waymo, Cruise (GM's AV arm), Tesla, and others are all investing heavily to dominate the AV market. Lyft's partnership approach gives it access to multiple providers, but it also means Lyft won't control the underlying technology and could have less pricing leverage.\n\nMoreover, early AV fleets are costly to build and maintain. The economic benefits may take years to materialize at scale, tempering near-term expectations.\n\nWhy Lyft's strategy makes sense\n\nDespite these challenges, Lyft's approach is arguably the smartest for a company of its size and resources. Building AV technology internally has proven to be a money pit even for the most prominent players.\n\nBy staying asset-light and focusing on the platform side, Lyft can avoid that risk while positioning itself to benefit if and when AV adoption grows. If the market matures, Lyft could integrate multiple autonomous providers, offering riders more options and expanding service reach without the driver recruitment headaches.\n\nImportantly, Lyft's improved cash flow and recent adjusted earnings before interest, taxes, depreciation, and amortization (EBITDA) breakeven means it can afford to experiment with AVs without jeopardizing its core business.\n\nWhat does it mean for investors?\n\nLyft's AV strategy is not a near-term growth catalyst. Investors shouldn't expect a sudden revenue surge driven by autonomous vehicles anytime soon.\n\nBut it is a calculated, capital-light bet on a potentially disruptive technology that could reshape ride-hailing economics and competitive dynamics over the next decade.\n\nFor long-term investors, the key question is whether Lyft can maintain its current operational momentum while positioning itself for this future wave. If the autonomous vehicle revolution arrives, Lyft's partnership-first, platform-focused approach could allow it to ride that wave without having risked everything to build the surfboard.\n\nInvestors looking to benefit from the rise of AV should closely track Lyft's execution in the coming years.\n\nShould you invest $1,000 in Lyft right now?\n\nBefore you buy stock in Lyft, consider this:\n\nThe Motley Fool Stock Advisor analyst team just identified what they believe are the 10 best stocks for investors to buy now… and Lyft wasn’t one of them. The 10 stocks that made the cut could produce monster returns in the coming years.\n\nConsider when Netflix made this list on December 17, 2004... if you invested $1,000 at the time of our recommendation, you’d have $650,499!* Or when Nvidia made this list on April 15, 2005... if you invested $1,000 at the time of our recommendation, you’d have $1,072,543!*\n\nNow, it’s worth noting Stock Advisor’s total average return is 1,045% — a market-crushing outperformance compared to 182% for the S&P 500. Don’t miss out on the latest top 10 list, available when you join Stock Advisor.\n\nSee the 10 stocks »\n\n*Stock Advisor returns as of August 18, 2025\n\nLawrence Nga has no position in any of the stocks mentioned. The Motley Fool has positions in and recommends Tesla and Uber Technologies. The Motley Fool recommends General Motors, Lyft, and Mobileye Global. The Motley Fool has a disclosure policy.\n\nLyft's Bet on Autonomous Vehicles: Can It Pay Off? was originally published by The Motley Fool\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "NVIDIA Corporation",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "employees": 36000,
+          "description": "NVIDIA Corporation, a computing infrastructure company, provides graphics and compute and networking solutions in the United States, Singapore, Taiwan, China, Hong Kong, and internationally. The Compute & Networking segment includes its Data Centre accelerated computing platforms and artificial inte"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.1,
+          "profit_margin": 0.5169,
+          "operating_margin": 0.4911,
+          "roe": 1.1546,
+          "roa": 0.5324,
+          "revenue_growth_yoy": 0.692,
+          "earnings_growth_yoy": 0.267,
+          "eps_estimate_current_year": 2.9539,
+          "eps_estimate_next_year": 4.4343,
+          "dividend_yield": 0.0002,
+          "dividend_per_share": 0.04,
+          "revenue_ttm": 148514996224,
+          "revenue_per_share": 6.059,
+          "most_recent_quarter": "2025-04-30"
+        },
+        "valuation": {
+          "pe_ratio": 57.4161,
+          "forward_pe": 39.5257,
+          "price_to_sales": 29.2277,
+          "price_to_book": 51.7723,
+          "enterprise_value": 4298335281999,
+          "ev_to_revenue": 28.9421,
+          "ev_to_ebitda": 47.2511
+        },
+        "technical_data": {
+          "beta": 2.145,
+          "52_week_high": 184.48,
+          "52_week_low": 86.614,
+          "50_day_ma": 166.9966,
+          "200_day_ma": 137.8551,
+          "short_interest": 0.0082,
+          "short_ratio": 1.17
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0.04,
+          "forward_dividend_yield": 0.0002,
+          "payout_ratio": 0.012,
+          "dividend_date": "2025-07-03",
+          "ex_dividend_date": "2025-06-11",
+          "last_split_date": "2024-06-10",
+          "last_split_factor": "10:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.5238,
+          "target_price": 191.8804,
+          "strong_buy": 43,
+          "buy": 12,
+          "hold": 7,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 24387600384,
+          "percent_institutions": 68.688,
+          "percent_insiders": 4.317,
+          "shares_float": 23420096000
+        },
+        "balance_latest_sheet": {
+          "total_assets": 125254.0,
+          "total_debt": 10285.0,
+          "net_debt": -4949.0,
+          "working_capital": 63393.0,
+          "shareholders_equity": 83843.0,
+          "quarter_date": "2025-04-30",
+          "debt_to_equity": 0.12
+        },
+        "income_latest_statement": {
+          "total_revenue": 44062.0,
+          "gross_profit": 26668.0,
+          "operating_income": 21638.0,
+          "net_income": 18775.0,
+          "ebitda": 22584.0,
+          "quarter_date": "2025-04-30",
+          "gross_margin": 60.52,
+          "operating_margin": 49.11,
+          "net_margin": 42.61
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 27414.0,
+          "free_cash_flow": 26187.0,
+          "capex": 1227.0,
+          "net_income": 18775.0,
+          "cash_change": 6645.0,
+          "dividends_paid": 244.0,
+          "quarter_date": "2025-04-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2024-07-31",
+            "estimate": 0.63,
+            "symbol": null
+          },
+          {
+            "date": "2024-10-31",
+            "estimate": 0.74,
+            "symbol": null
+          },
+          {
+            "date": "2025-01-31",
+            "estimate": 0.8459,
+            "symbol": null
+          },
+          {
+            "date": "2025-04-30",
+            "estimate": 0.93,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2024-07-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-01-30",
+            "open": 123.1,
+            "high": 125,
+            "low": 118.1,
+            "close": 124.65,
+            "volume": 392925500
+          },
+          {
+            "date": "2025-01-29",
+            "open": 126.5,
+            "high": 126.89,
+            "low": 120.05,
+            "close": 123.7,
+            "volume": 467120594
+          },
+          {
+            "date": "2025-01-28",
+            "open": 121.81,
+            "high": 129,
+            "low": 116.25,
+            "close": 128.99,
+            "volume": 579666438
+          },
+          {
+            "date": "2025-01-27",
+            "open": 124.8,
+            "high": 128.4,
+            "low": 116.7,
+            "close": 118.42,
+            "volume": 818830938
+          },
+          {
+            "date": "2025-01-24",
+            "open": 148.37,
+            "high": 148.97,
+            "low": 141.88,
+            "close": 142.62,
+            "volume": 234657594
+          },
+          {
+            "date": "2025-01-23",
+            "open": 145.05,
+            "high": 147.23,
+            "low": 143.72,
+            "close": 147.22,
+            "volume": 155915500
+          },
+          {
+            "date": "2025-01-22",
+            "open": 144.66,
+            "high": 147.79,
+            "low": 143.67,
+            "close": 147.07,
+            "volume": 237651391
+          },
+          {
+            "date": "2025-01-21",
+            "open": 139.16,
+            "high": 141.83,
+            "low": 137.09,
+            "close": 140.83,
+            "volume": 197748984
+          },
+          {
+            "date": "2025-01-17",
+            "open": 136.69,
+            "high": 138.5,
+            "low": 135.4649,
+            "close": 137.71,
+            "volume": 201188797
+          },
+          {
+            "date": "2025-01-16",
+            "open": 138.64,
+            "high": 138.75,
+            "low": 133.49,
+            "close": 133.57,
+            "volume": 209235594
+          },
+          {
+            "date": "2025-01-15",
+            "open": 133.65,
+            "high": 136.45,
+            "low": 131.29,
+            "close": 136.24,
+            "volume": 185217297
+          },
+          {
+            "date": "2025-01-14",
+            "open": 136.05,
+            "high": 136.38,
+            "low": 130.05,
+            "close": 131.76,
+            "volume": 195590500
+          },
+          {
+            "date": "2025-01-13",
+            "open": 129.99,
+            "high": 133.49,
+            "low": 129.51,
+            "close": 133.23,
+            "volume": 204808891
+          },
+          {
+            "date": "2025-01-10",
+            "open": 137.45,
+            "high": 139.92,
+            "low": 134.22,
+            "close": 135.91,
+            "volume": 207602500
+          },
+          {
+            "date": "2025-01-08",
+            "open": 142.58,
+            "high": 143.95,
+            "low": 137.56,
+            "close": 140.11,
+            "volume": 227349906
+          },
+          {
+            "date": "2025-01-07",
+            "open": 153.03,
+            "high": 153.13,
+            "low": 140.01,
+            "close": 140.14,
+            "volume": 351782219
+          },
+          {
+            "date": "2025-01-06",
+            "open": 148.59,
+            "high": 152.156,
+            "low": 147.8201,
+            "close": 149.43,
+            "volume": 265377406
+          },
+          {
+            "date": "2025-01-03",
+            "open": 140.01,
+            "high": 144.9,
+            "low": 139.73,
+            "close": 144.47,
+            "volume": 229322500
+          },
+          {
+            "date": "2025-01-02",
+            "open": 136,
+            "high": 138.88,
+            "low": 134.63,
+            "close": 138.31,
+            "volume": 198247203
+          },
+          {
+            "date": "2024-12-31",
+            "open": 138.03,
+            "high": 138.07,
+            "low": 133.83,
+            "close": 134.29,
+            "volume": 155659203
+          },
+          {
+            "date": "2024-12-30",
+            "open": 134.83,
+            "high": 140.27,
+            "low": 134.02,
+            "close": 137.49,
+            "volume": 167734703
+          },
+          {
+            "date": "2024-12-27",
+            "open": 138.55,
+            "high": 139.02,
+            "low": 134.71,
+            "close": 137.01,
+            "volume": 170582594
+          },
+          {
+            "date": "2024-12-26",
+            "open": 139.7,
+            "high": 140.85,
+            "low": 137.73,
+            "close": 139.93,
+            "volume": 116519102
+          },
+          {
+            "date": "2024-12-24",
+            "open": 140,
+            "high": 141.9,
+            "low": 138.65,
+            "close": 140.22,
+            "volume": 105157000
+          },
+          {
+            "date": "2024-12-23",
+            "open": 136.28,
+            "high": 139.79,
+            "low": 135.1201,
+            "close": 139.67,
+            "volume": 176053500
+          },
+          {
+            "date": "2024-12-20",
+            "open": 129.81,
+            "high": 135.28,
+            "low": 128.22,
+            "close": 134.7,
+            "volume": 306528594
+          },
+          {
+            "date": "2024-12-19",
+            "open": 131.76,
+            "high": 134.03,
+            "low": 129.55,
+            "close": 130.68,
+            "volume": 209719203
+          },
+          {
+            "date": "2024-12-18",
+            "open": 133.86,
+            "high": 136.7,
+            "low": 128.28,
+            "close": 128.91,
+            "volume": 277444500
+          },
+          {
+            "date": "2024-12-17",
+            "open": 129.09,
+            "high": 131.59,
+            "low": 126.86,
+            "close": 130.39,
+            "volume": 259410297
+          },
+          {
+            "date": "2024-12-16",
+            "open": 134.18,
+            "high": 134.4,
+            "low": 130.42,
+            "close": 132,
+            "volume": 237951109
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-01-30",
+          "end": "2024-12-16"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 2.5878962536023105,
+        "return_63d": 35.57011196587708,
+        "pct_above_sma50": 6.583008276815222,
+        "sma_50": 166.9966,
+        "new_55d_high": "False",
+        "high_55d": 184.48,
+        "rsi": 45.64746643568647,
+        "rsi_in_range": "False",
+        "adx": 32.77470764439884,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.725147480195518,
+        "bb_width": 6.487486092343429,
+        "keltner_width": 10.857761170024597,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 28698913496.3139,
+        "adv_shares": 160348385.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 55.58286935139517,
+        "final_score": 50.58286935139517,
+        "sub_scores": {
+          "trend_momentum": 17.582869351395168,
+          "squeeze_breakout": 4.0,
+          "options_quality": 23,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 2.446183953033265,
+          "ret_63d": 33.99834374764736,
+          "rsi14": 45.64746643568647,
+          "adx14": 31.36394329079028,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NVDA\n• Current Price: $177.99\n• Overall Score: 52.87692307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 166.9966\n• Sma 200: 137.8551\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.446183953033268\n• Momentum 63D: 33.99834374764736\n• Momentum 126D: 32.40348136576657\n• Momentum Acceleration: -31.55215979461409\n• Roc 21D: 2.446183953033268\n• Trend Strength 20D: 0.010368599699539483\n• Trend Direction: 1\n• Ma Ribbon Score: 71.84361412101754\n• Breakout Strength: 0.0\n• Price Velocity: -0.0025824030381805586\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: -0.6056262981709661\n• Volatility Compression: 0.0\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.582869351395168\n• Squeeze Breakout: 4.0\n• Options Quality: 23\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 65.0\n• Momentum: 55.0\n• Squeeze: 50.0\n• Options: 47.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NVDA\n• Strike Price: $175\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $13.45\n• Ask: $13.55\n• Last: $13.5\n• Mid: $13.50\n• Spread: 0.7380073800738007380073800738%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5887\n• Gamma: 0.0135\n• Theta: -0.1104\n• Vega: 0.2712\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.4132\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 23645\n• Open Interest: 47111\n• Volume/OI Ratio: 0.5018997686315297\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: NVIDIA Corporation\n• Sector: Technology\n• Industry: Semiconductors\n• EPS (TTM): $3.1\n• Profit Margin: 51.7%\n• ROE: 115.5%\n• P/E Ratio: 57.4\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-22T23:41:50+00:00: Dow Jones Futures: Powell Drives Stock Market To Highs. Nvidia Earnings Up Next....\n• 2025-08-22T23:36:05+00:00: Why Intel Stock Soared Today...\n• 2025-08-22T23:30:00+00:00: Could Ripple's Price Surge Now That Its SEC Battle Is Over?...\n• 2025-08-22T23:20:00+00:00: Stocks Were Sinking on AI Fears. Then Powell Came to the Rescue....\n• 2025-08-22T23:15:00+00:00: Lyft's Bet on Autonomous Vehicles: Can It Pay Off?...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2024-07-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NVDA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NVDA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-24T22:44:05.258146",
+    "estimated_tokens": 2307
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NVDA\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 17,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NVDA shows strong technical momentum with price above both SMAs and positive MA ribbon score of 71.84, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, decelerating momentum (-31.55 acceleration) and upcoming earnings present near-term risks.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above both 50 & 200 SMAs (177.99 vs 166.99/137.85)\",\n        \"Excellent liquidity metrics (47,111 OI, tight 0.74% spread)\",\n        \"Outstanding fundamentals with 51.7% profit margin and 115.5% ROE\"\n    ],\n    \"risks\": [\n        \"Significant momentum deceleration (-31.55 acceleration score)\",\n        \"Upcoming earnings on 2024-07-31 creates event risk\",\n        \"High P/E ratio of 57.4 suggests elevated valuation risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread to reduce theta impact, using $175 strike as base leg\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively due to earnings risk and high IV of 41.32%\"\n    },\n    \"red_flags\": [\n        \"Earnings report within 30 days\",\n        \"Negative momentum acceleration\"\n    ],\n    \"notes\": \"Options Greeks profile (0.59 delta, -0.11 theta) suggests good positioning for LEAPS strategy, but earnings timing requires careful position sizing\"\n}",
+    "parsed_analysis": {
+      "symbol": "NVDA",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 17,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NVDA shows strong technical momentum with price above both SMAs and positive MA ribbon score of 71.84, supported by excellent fundamentals (51.7% profit margin, 115.5% ROE). However, decelerating momentum (-31.55 acceleration) and upcoming earnings present near-term risks.",
+      "opportunities": [
+        "Strong technical trend with price above both 50 & 200 SMAs (177.99 vs 166.99/137.85)",
+        "Excellent liquidity metrics (47,111 OI, tight 0.74% spread)",
+        "Outstanding fundamentals with 51.7% profit margin and 115.5% ROE"
+      ],
+      "risks": [
+        "Significant momentum deceleration (-31.55 acceleration score)",
+        "Upcoming earnings on 2024-07-31 creates event risk",
+        "High P/E ratio of 57.4 suggests elevated valuation risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread to reduce theta impact, using $175 strike as base leg",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively due to earnings risk and high IV of 41.32%"
+      },
+      "red_flags": [
+        "Earnings report within 30 days",
+        "Negative momentum acceleration"
+      ],
+      "notes": "Options Greeks profile (0.59 delta, -0.11 theta) suggests good positioning for LEAPS strategy, but earnings timing requires careful position sizing"
+    },
+    "tokens_used": 2521,
+    "cost": 0.025209999999999996,
+    "response_time": 9.236166715621948,
+    "success": true
+  },
+  "cost": 0.025209999999999996,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8434,
+    "response_length": 1653
+  }
+}

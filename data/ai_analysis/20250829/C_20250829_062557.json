@@ -1,0 +1,624 @@
+{
+  "success": true,
+  "symbol": "C",
+  "timestamp": "2025-08-29T06:25:57.134713",
+  "data_package": {
+    "metadata": {
+      "symbol": "C",
+      "package_timestamp": "2025-08-29T06:25:46.196229",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "C",
+        "current_price": 96.82,
+        "overall_score": 54.131947747961355,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 90.672,
+        "sma_200": 77.3283
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.0541697108861194,
+        "momentum_63d": 28.187475175426975,
+        "momentum_126d": 22.75897045771521,
+        "momentum_acceleration": -27.133305464540857,
+        "roc_21d": 1.0541697108861194,
+        "trend_strength_20d": 0.6118690809224012,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.87878876745775,
+        "breakout_strength": 50.0,
+        "price_velocity": 0.00903688699781462
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 6.0,
+        "squeeze_momentum": 0.11743786319171537,
+        "volatility_compression": 66.8341557012759,
+        "is_consolidating": "False",
+        "breakout_score": 67.32137350821276,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 19.743978223862097,
+        "squeeze_breakout": 4.0,
+        "options_quality": 18.84680701754384,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 55.0,
+        "momentum": 64.0,
+        "squeeze": 60.02512335519138,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 4,
+        "percentile": 99.8
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "C",
+        "strike_price": "95",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.6",
+        "ask": "6.7",
+        "last_price": "6.87",
+        "mid_price": "6.65",
+        "spread_percent": "1.492537313432835820895522388"
+      },
+      "greeks": {
+        "delta": 0.5914,
+        "gamma": 0.0277,
+        "theta": -0.0379,
+        "vega": 0.1808
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3009
+      },
+      "liquidity_metrics": {
+        "volume": 30,
+        "open_interest": 1107,
+        "volume_oi_ratio": 0.02710027100271003
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-29T06:21:13.524293",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.43,
+          "change": -0.42,
+          "change_percent": -2.8283,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 648.92,
+          "change": 2.29,
+          "change_percent": 0.3541,
+          "volume": 60990740,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-28T19:01:00+00:00",
+            "title": "How Do Major Stocks Trade This Fall?",
+            "content": "Have we seen the normal August trading lull that we usually see during the Dog Days of Summer?\n\nOur Chief Equity Strategist and Economist, John Blank, has been keeping his eye on that. He’s here now with the answer.\n\n1. So, until last Friday, have we seen lower daily trading volumes causing higher volatility that would indicate many traders are on summer vacation and, overall, there has been an August lull?\n\n2. Back on August fourth, published data showed the Dow 30 index was the only benchmark that had yet to hit a new peak after April's tariff panic. But that changed last Friday when Fed Chairman Powell signaled the Fed could begin easing monetary policy next month, in his annual Jackson Jole speech. That sent the Dow to an all time high. In fact, there was a pretty broad based stock rally as well. I guess he gave the market exactly what it wanted to hear?\n\n3. September is typically not a good month for stocks. Might this late summer rally extend into next month aided by a rate cut?\n\n4. Is there still uncertainty affecting the market?\n\n5. Is there any reason for stock market bulls to be cautious going into fall?\n\n6. Tech stocks sold off a bit recently. Are investors rotating out of the riskier stocks into previously lagging sectors because they’re worried about the staying power of AI?\n\n7. Will it be difficult to pick winners out of the AI universe going forward?\n\n8. But against this backdrop, does a stronger than expected Q2 earnings season and a bullish outlook for earnings into next year, suggest to you that the S&P500 has more room to run higher, at least, for the rest of this year?\n\n9. Two major U.S. financial services stocks and one major French industrial have been on your radar lately. Charles Schwab SCHW, Citigroup C and Schneider Electric SBGSY.\n\nOur Chief Equity Strategist and Economist, John Blank, on stocks and the August trading lull. With John, I’m Terry Ruffolo.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCitigroup Inc. (C) : Free Stock Analysis Report\n\nThe Charles Schwab Corporation (SCHW) : Free Stock Analysis Report\n\nSchneider Electric SE (SBGSY) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T13:40:03+00:00",
+            "title": "Are Finance Stocks Lagging  Citigroup (C) This Year?",
+            "content": "For those looking to find strong Finance stocks, it is prudent to search for companies in the group that are outperforming their peers. Is Citigroup (C) one of those stocks right now? Let's take a closer look at the stock's year-to-date performance to find out.\n\nCitigroup is a member of the Finance sector. This group includes 869 individual stocks and currently holds a Zacks Sector Rank of #2. The Zacks Sector Rank considers 16 different sector groups. The average Zacks Rank of the individual stocks within the groups is measured, and the sectors are listed from best to worst.\n\nThe Zacks Rank is a successful stock-picking model that emphasizes earnings estimates and estimate revisions. The system highlights a number of different stocks that could be poised to outperform the broader market over the next one to three months. Citigroup is currently sporting a Zacks Rank of #2 (Buy).\n\nOver the past 90 days, the Zacks Consensus Estimate for C's full-year earnings has moved 3.5% higher. This means that analyst sentiment is stronger and the stock's earnings outlook is improving.\n\nAccording to our latest data, C has moved about 37.6% on a year-to-date basis. In comparison, Finance companies have returned an average of 12.6%. This shows that Citigroup is outperforming its peers so far this year.\n\nAcadian Asset Management (AAMI) is another Finance stock that has outperformed the sector so far this year. Since the beginning of the year, the stock has returned 92.3%.\n\nIn Acadian Asset Management's case, the consensus EPS estimate for the current year increased 30.1% over the past three months. The stock currently has a Zacks Rank #1 (Strong Buy).\n\nTo break things down more, Citigroup belongs to the Financial - Investment Bank industry, a group that includes 21 individual companies and currently sits at #11 in the Zacks Industry Rank. On average, stocks in this group have gained 24.6% this year, meaning that C is performing better in terms of year-to-date returns.\n\nIn contrast, Acadian Asset Management falls under the Financial - Miscellaneous Services industry. Currently, this industry has 93 stocks and is ranked #55. Since the beginning of the year, the industry has moved +4.9%.\n\nCitigroup and Acadian Asset Management could continue their solid performance, so investors interested in Finance stocks should continue to pay close attention to these stocks.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCitigroup Inc. (C) : Free Stock Analysis Report\n\nStory Continues\n\nAcadian Asset Management Inc. (AAMI) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T13:02:37+00:00",
+            "title": "Guru Fundamental Report for C",
+            "content": "Below is Validea's guru fundamental report for CITIGROUP INC (C). Of the 22 guru strategies we follow,  C rates highest using our Multi-Factor Investor model based on the published strategy of Pim van Vliet. This multi-factor model seeks low volatility stocks that also have strong momentum and high net payout yields.\n\nCITIGROUP INC (C) is a large-cap growth stock in the Investment Services industry. The rating using this strategy is 100% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. MARKET CAP:PASSSTANDARD DEVIATION:PASSTWELVE MINUS ONE MOMENTUM:NEUTRALNET PAYOUT YIELD:NEUTRALFINAL RANK:PASS\n\nDetailed Analysis of CITIGROUP INC\n\nC Guru Analysis\n\nC Fundamental Analysis\n\nMore Information on Pim van Vliet\n\nPim van Vliet Portfolio\n\nAbout Pim van Vliet: In investing, you typically need to take more risk to get more return. There is one major exception to this in the factor investing world, though. Low volatility stocks have been proven to outperform their high volatility counterparts, and do so with less risk. Pim van Vliet is the head of Conservative Equities at Robeco Asset Management. His research into conservative factor investing led to the creation of this strategy and the publication of the book \"High Returns From Low Risk: A Remarkable Stock Market Paradox\". Van Vliet holds a PhD in Financial and Business Economics from Erasmus University Rotterdam.\n\nAdditional Research Links\n\nTop Financial Stocks\n\nDividend Aristocrats 2024\n\nWide Moat Stocks\n\nRecession Proof Stocks\n\nCheapest Value Stocks\n\nFactor-Based Stock Portfolios\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-28T10:00:35+00:00",
+            "title": "Big banks are rallying big time. Can it last?",
+            "content": "Hope that the Federal Reserve may soon lower interest rates in September is fueling a new leg to this year’s rally in large US bank stocks.\n\nThey surged last Friday after Federal Reserve Chair Jerome Powell opened the door to a September rate cut, saying in a speech in Jackson Hole that \"the shifting balance of risks may warrant adjusting our policy stance.\"\n\nOn Tuesday, a key index tracking 24 of the country’s largest banks surpassed its previous record high, which hadn't occurred in three years.\n\nThe same index surpassed that level again by Wednesday's close.\n\nThe setup draws parallels to roughly a year ago, when US banks stocks were beating major indexes. The industry’s bigger lenders were coming off a fresh victory in Washington over their capital levels, and the Fed was beginning its rate-cutting cycle.\n\nBack then, banks and their investors were beginning to dream big. Specifically, that 2024 could be the start of another 1995, the beginning of one of the most profitable periods in US banking history.Giving a boost to bank stocks? U.S. Federal Reserve Chair Jerome Powell speaks during a press conference following the issuance of the Federal Open Market Committee's statement on interest rate policy in Washington, D.C., U.S., July 30, 2025. REUTERS/Jonathan Ernst/File Photo·REUTERS / Reuters\n\nDid that come to pass? Will it happen again?\n\n“For banks, I think it's party like it's 1995,” said Mike Mayo, a Wells Fargo bank analyst who admitted that, although \"history isn’t likely to repeat, it may rhyme.”\n\nThat year, 1995, was when the banking industry began one of its best runs ever after a series of rate cuts from the Fed along with passage of a federal law signed by then-President Bill Clinton the year before that allowed for bigger bank mergers.\n\nThrough the end of 1995, the KBW Nasdaq Bank Index (^BKX), which tracks the country's 24 largest banks, finished the year up more than 40%. That outperformance would repeat for two more years.\n\nOver the past 12 months, that same index is up 32%, as of Wednesday.\n\nThe index has outperformed the S&P 500 (^GSPC) and Nasdaq Composite (^IXIC) by a respective 16 and 10 percentage points over the past year.\n\n“The bank stocks are once again outperforming the general market,” Gerard Cassidy, a big bank analyst for RBC Capital Markets, told Yahoo Finance. Though Cassidy admitted historical comparisons are rarely perfect, he said he believes “the parallels to the '95 period still hold true.”\n\nThere are plenty of differences between banking today and what was happening in 1995. A crucial one , per Mayo, is that there is simply more “competition for investment dollars” now, given that the technology sector, a dominating force in the US stock market, was still in its infancy back then.\n\nAnother is that the US banking sector has seen substantial consolidation into a handful of megabanks that dominate today’s market.\n\nStory continues\n\nCase in point: All of the 24 original banks listed in the KBW US Bank index when the product first began trading in September 1992 are represented by just eight banks today after a wave of mergers through the late '90s and 2000s.\n\nThe average stock performance between the six biggest lenders in that group — JPMorgan Chase (JPM), Bank of America (BAC), Wells Fargo (WFC), and Citigroup (C), as well as Wall Street banks Goldman Sachs (GS) and Morgan Stanley (MS) — has been 42% over the past year.\n\nThese megabanks have greater scale, more diversification, and bigger capital markets businesses, which have all been bright spots this year, Chris McGratty, a head of KBW’s US bank research, told Yahoo Finance.\n\n“I'll stop short of comparing today to the '90s, but there's a scenario where we're entering a period of strengthening earnings growth across the industry,” McGratty added.A good time to be a big bank? JP Morgan Chase in San Francisco, California, March 18, 2025. (Photo by Smith Collection/Gado/Getty Images)·Smith Collection/Gado via Getty Images\n\nWhile Wall Street banking and other fee services have thrived this year, plain, vanilla bank lending still remains tepid, McGratty added.\n\nFor large regional bank stocks like US Bank (USB), that’s one significant contributor holding up the rebound. Loan growth rose to 4% across US banks in the second quarter, remaining below the pre-pandemic average of 4.9%, according to a FDIC quarterly report.\n\nIf there’s a single reason why bank stocks broadly outside of the country's largest haven’t surged higher over the past year, it's likely due to economic uncertainty from tariffs, according to RBC's Cassidy.\n\nThe notion that the past year would be like 1995 was “temporarily put on hold” when the Federal Reserve began holding interest rates steady due to concerns that tariffs rolled out earlier this year were going to create higher levels of inflation.\n\nIt remains to be seen how the full impact of tariffs will impact inflation. But for now, given Fed Chair Powell's Jackson Hole Speech, the parallel to 1995 is \"back on the table,\" Cassidy said.\n\nClick here for the latest economic news and indicators to help inform your investing decisions\n\nRead the latest financial and business news from Yahoo Finance\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:26:00+00:00",
+            "title": "Tech, Media &amp; Telecom Roundup: Market Talk",
+            "content": "Find insight on WiseTech, Nine Entertainment and more in the latest Market Talks covering technology, media and telecom.\n\nContinue Reading\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Citigroup Inc",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "employees": 230000,
+          "description": "Citigroup Inc., a diversified financial service holding company, provides various financial product and services to consumers, corporations, governments, and institutions. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. The Services segment includes "
+        },
+        "financial_metrics": {
+          "eps_ttm": 6.77,
+          "profit_margin": 0.1947,
+          "operating_margin": 0.2765,
+          "roe": 0.0676,
+          "roa": 0.0057,
+          "revenue_growth_yoy": 0.071,
+          "earnings_growth_yoy": 0.285,
+          "eps_estimate_current_year": 7.5883,
+          "eps_estimate_next_year": 9.7729,
+          "dividend_yield": 0.0231,
+          "dividend_per_share": 2.24,
+          "revenue_ttm": 72825004032,
+          "revenue_per_share": 38.724,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 14.3013,
+          "forward_pe": 12.9702,
+          "price_to_sales": 2.4475,
+          "price_to_book": 0.9053,
+          "enterprise_value": -16707265536,
+          "ev_to_revenue": 6.817,
+          "ev_to_ebitda": 0
+        },
+        "technical_data": {
+          "beta": 1.366,
+          "52_week_high": 97.49,
+          "52_week_low": 54.5061,
+          "50_day_ma": 90.672,
+          "200_day_ma": 77.3283,
+          "short_interest": 0.022,
+          "short_ratio": 2.4
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 2.4,
+          "forward_dividend_yield": 0.0248,
+          "payout_ratio": 0.3368,
+          "dividend_date": "2025-08-22",
+          "ex_dividend_date": "2025-08-04",
+          "last_split_date": "2011-05-09",
+          "last_split_factor": "1:10"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.1818,
+          "target_price": 100.575,
+          "strong_buy": 10,
+          "buy": 6,
+          "hold": 6,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1840899968,
+          "percent_institutions": 79.78,
+          "percent_insiders": 0.23700000000000002,
+          "shares_float": 1835430431
+        },
+        "balance_latest_sheet": {
+          "total_assets": 2622772.0,
+          "total_debt": 721234.0,
+          "net_debt": 383761.0,
+          "shareholders_equity": 213222.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 3.38
+        },
+        "income_latest_statement": {
+          "total_revenue": 42352.0,
+          "gross_profit": 18796.0,
+          "operating_income": 5219.0,
+          "net_income": 4019.0,
+          "ebitda": 5219.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 44.38,
+          "operating_margin": 12.32,
+          "net_margin": 9.49
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": -36579.0,
+          "free_cash_flow": -38334.0,
+          "capex": 1755.0,
+          "net_income": 4019.0,
+          "cash_change": 29142.0,
+          "dividends_paid": -1328.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.87,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-18",
+            "open": 93.15,
+            "high": 93.8,
+            "low": 92.74,
+            "close": 93.45,
+            "volume": 16603700
+          },
+          {
+            "date": "2025-07-21",
+            "open": 93.59,
+            "high": 94.08,
+            "low": 92.53,
+            "close": 92.65,
+            "volume": 11894500
+          },
+          {
+            "date": "2025-07-22",
+            "open": 93.57,
+            "high": 94.48,
+            "low": 92.72,
+            "close": 94,
+            "volume": 15282600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 94.5,
+            "high": 95.99,
+            "low": 94.48,
+            "close": 95.99,
+            "volume": 22339800
+          },
+          {
+            "date": "2025-07-24",
+            "open": 96.29,
+            "high": 96.91,
+            "low": 95.3,
+            "close": 95.39,
+            "volume": 15644400
+          },
+          {
+            "date": "2025-07-25",
+            "open": 95.39,
+            "high": 96.19,
+            "low": 94.43,
+            "close": 96.07,
+            "volume": 13543400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 96.07,
+            "high": 96.2,
+            "low": 95.07,
+            "close": 95.55,
+            "volume": 19370700
+          },
+          {
+            "date": "2025-07-29",
+            "open": 96,
+            "high": 96.11,
+            "low": 94.36,
+            "close": 94.48,
+            "volume": 13169900
+          },
+          {
+            "date": "2025-07-30",
+            "open": 94.9,
+            "high": 95.99,
+            "low": 94.58,
+            "close": 95.81,
+            "volume": 13998000
+          },
+          {
+            "date": "2025-07-31",
+            "open": 95.47,
+            "high": 96.15,
+            "low": 93.55,
+            "close": 93.7,
+            "volume": 14638800
+          },
+          {
+            "date": "2025-08-01",
+            "open": 91.85,
+            "high": 92.03,
+            "low": 87.94,
+            "close": 91.83,
+            "volume": 17725600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 91.75,
+            "high": 92.82,
+            "low": 91.53,
+            "close": 92.08,
+            "volume": 11611400
+          },
+          {
+            "date": "2025-08-05",
+            "open": 92.33,
+            "high": 92.72,
+            "low": 89.68,
+            "close": 91.52,
+            "volume": 19836100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 91.88,
+            "high": 92.63,
+            "low": 91.61,
+            "close": 92.23,
+            "volume": 13153600
+          },
+          {
+            "date": "2025-08-07",
+            "open": 93.24,
+            "high": 93.25,
+            "low": 91.1,
+            "close": 91.23,
+            "volume": 12964000
+          },
+          {
+            "date": "2025-08-08",
+            "open": 91.97,
+            "high": 93.29,
+            "low": 91.34,
+            "close": 92.73,
+            "volume": 10772600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 93.03,
+            "high": 93.17,
+            "low": 90.8,
+            "close": 92.31,
+            "volume": 12133300
+          },
+          {
+            "date": "2025-08-12",
+            "open": 93.22,
+            "high": 95.76,
+            "low": 93.01,
+            "close": 95.74,
+            "volume": 21046400
+          },
+          {
+            "date": "2025-08-13",
+            "open": 96,
+            "high": 96.2,
+            "low": 94.58,
+            "close": 94.65,
+            "volume": 16605000
+          },
+          {
+            "date": "2025-08-14",
+            "open": 94.46,
+            "high": 95.49,
+            "low": 94.23,
+            "close": 95.46,
+            "volume": 13288800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 95.46,
+            "high": 95.5,
+            "low": 93.59,
+            "close": 93.69,
+            "volume": 12000400
+          },
+          {
+            "date": "2025-08-18",
+            "open": 93.35,
+            "high": 94.36,
+            "low": 93.33,
+            "close": 94.22,
+            "volume": 8780700
+          },
+          {
+            "date": "2025-08-19",
+            "open": 93.97,
+            "high": 94.35,
+            "low": 93.43,
+            "close": 93.74,
+            "volume": 11504400
+          },
+          {
+            "date": "2025-08-20",
+            "open": 93.53,
+            "high": 93.75,
+            "low": 90.68,
+            "close": 93.17,
+            "volume": 13447400
+          },
+          {
+            "date": "2025-08-21",
+            "open": 92.85,
+            "high": 92.86,
+            "low": 91.46,
+            "close": 92.59,
+            "volume": 17635200
+          },
+          {
+            "date": "2025-08-22",
+            "open": 92.96,
+            "high": 95.62,
+            "low": 92.84,
+            "close": 95.26,
+            "volume": 20124400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 95.23,
+            "high": 95.45,
+            "low": 94.88,
+            "close": 95,
+            "volume": 8647000
+          },
+          {
+            "date": "2025-08-26",
+            "open": 94.68,
+            "high": 95.74,
+            "low": 94.03,
+            "close": 95.72,
+            "volume": 11031100
+          },
+          {
+            "date": "2025-08-27",
+            "open": 95.15,
+            "high": 97.45,
+            "low": 95.09,
+            "close": 96.87,
+            "volume": 11315600
+          },
+          {
+            "date": "2025-08-28",
+            "open": 97.37,
+            "high": 97.49,
+            "low": 96.535,
+            "close": 96.82,
+            "volume": 10864578
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-18",
+          "end": "2025-08-28"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.329775880469573,
+        "return_63d": 28.544875199150294,
+        "pct_above_sma50": 6.780483500970511,
+        "sma_50": 90.67200000000001,
+        "new_55d_high": "False",
+        "high_55d": 97.49,
+        "rsi": 64.07432897453542,
+        "rsi_in_range": "True",
+        "adx": 28.88740179628226,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.1366969634373056,
+        "bb_width": 7.54505575517552,
+        "keltner_width": 8.836917490956184,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 1287936889.1127,
+        "adv_shares": 13724378.9,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 53.59078524140594,
+        "final_score": 53.59078524140594,
+        "sub_scores": {
+          "trend_momentum": 19.743978223862097,
+          "squeeze_breakout": 4.0,
+          "options_quality": 18.84680701754384,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.0541697108861214,
+          "ret_63d": 28.187475175426968,
+          "rsi14": 64.07432897453542,
+          "adx14": 29.43943289702423,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: C\n• Current Price: $96.82\n• Overall Score: 54.131947747961355\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 90.672\n• Sma 200: 77.3283\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.0541697108861194\n• Momentum 63D: 28.187475175426975\n• Momentum 126D: 22.75897045771521\n• Momentum Acceleration: -27.133305464540857\n• Roc 21D: 1.0541697108861194\n• Trend Strength 20D: 0.6118690809224012\n• Trend Direction: 1\n• Ma Ribbon Score: 83.87878876745775\n• Breakout Strength: 50.0\n• Price Velocity: 0.00903688699781462\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 6.0\n• Squeeze Momentum: 0.11743786319171537\n• Volatility Compression: 66.8341557012759\n• Is Consolidating: False\n• Breakout Score: 67.32137350821276\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 19.743978223862097\n• Squeeze Breakout: 4.0\n• Options Quality: 18.84680701754384\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 55.0\n• Momentum: 64.0\n• Squeeze: 60.02512335519138\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: C\n• Strike Price: $95\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.6\n• Ask: $6.7\n• Last: $6.87\n• Mid: $6.65\n• Spread: 1.492537313432835820895522388%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5914\n• Gamma: 0.0277\n• Theta: -0.0379\n• Vega: 0.1808\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3009\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 30\n• Open Interest: 1107\n• Volume/OI Ratio: 0.02710027100271003\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Citigroup Inc\n• Sector: Financial Services\n• Industry: Banks - Diversified\n• EPS (TTM): $6.77\n• Profit Margin: 19.5%\n• ROE: 6.8%\n• P/E Ratio: 14.3\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-28T19:01:00+00:00: How Do Major Stocks Trade This Fall?...\n• 2025-08-28T13:40:03+00:00: Are Finance Stocks Lagging  Citigroup (C) This Year?...\n• 2025-08-28T13:02:37+00:00: Guru Fundamental Report for C...\n• 2025-08-28T10:00:35+00:00: Big banks are rallying big time. Can it last?...\n• 2025-08-27T16:26:00+00:00: Tech, Media &amp; Telecom Roundup: Market Talk...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR C\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the C opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-29T06:25:57.134369",
+    "estimated_tokens": 2298
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"C\",\n    \"rating\": 65,\n    \"component_scores\": {\n        \"trend_momentum\": 25,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 5,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"Citigroup shows positive technical momentum with price above both 50 and 200 SMAs and strong MA ribbon score of 83.9, but faces near-term headwinds from decelerating momentum and upcoming earnings. Options setup shows reasonable liquidity with tight spreads, though IV metrics suggest limited edge.\",\n    \"opportunities\": [\n        \"Price trending above key moving averages (50SMA: 90.67, 200SMA: 77.33)\",\n        \"Active squeeze condition with 66.8% volatility compression\",\n        \"Reasonable options liquidity with 1.49% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-27.13)\",\n        \"Upcoming earnings on 2025-09-30\",\n        \"Below average ROE of 6.8%\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $95 strike as lower leg to reduce premium risk\",\n        \"entry_timing\": \"Consider partial position now with room to add post-earnings\",\n        \"risk_management\": \"Size position conservatively given upcoming earnings and deteriorating momentum\"\n    },\n    \"red_flags\": [\n        \"Earnings report in next 30 days\",\n        \"Declining momentum acceleration\"\n    ],\n    \"notes\": \"While technical setup shows promise, timing is complicated by upcoming earnings. Consider staged entry or waiting for earnings catalyst to pass.\"\n}",
+    "parsed_analysis": {
+      "symbol": "C",
+      "rating": 65,
+      "component_scores": {
+        "trend_momentum": 25,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 5,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "Citigroup shows positive technical momentum with price above both 50 and 200 SMAs and strong MA ribbon score of 83.9, but faces near-term headwinds from decelerating momentum and upcoming earnings. Options setup shows reasonable liquidity with tight spreads, though IV metrics suggest limited edge.",
+      "opportunities": [
+        "Price trending above key moving averages (50SMA: 90.67, 200SMA: 77.33)",
+        "Active squeeze condition with 66.8% volatility compression",
+        "Reasonable options liquidity with 1.49% bid-ask spread"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-27.13)",
+        "Upcoming earnings on 2025-09-30",
+        "Below average ROE of 6.8%"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $95 strike as lower leg to reduce premium risk",
+        "entry_timing": "Consider partial position now with room to add post-earnings",
+        "risk_management": "Size position conservatively given upcoming earnings and deteriorating momentum"
+      },
+      "red_flags": [
+        "Earnings report in next 30 days",
+        "Declining momentum acceleration"
+      ],
+      "notes": "While technical setup shows promise, timing is complicated by upcoming earnings. Consider staged entry or waiting for earnings catalyst to pass."
+    },
+    "tokens_used": 2495,
+    "cost": 0.02495,
+    "response_time": 10.93631362915039,
+    "success": true
+  },
+  "cost": 0.02495,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8398,
+    "response_length": 1584
+  }
+}

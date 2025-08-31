@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "LIN",
+  "timestamp": "2025-08-30T08:34:49.991102",
+  "data_package": {
+    "metadata": {
+      "symbol": "LIN",
+      "package_timestamp": "2025-08-30T08:34:41.165224",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "LIN",
+        "current_price": 478.29,
+        "overall_score": 49.88858974358975,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 470.9294,
+        "sma_200": 455.5472
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.917351062442973,
+        "momentum_63d": 2.290517130758381,
+        "momentum_126d": 2.4065945830210915,
+        "momentum_acceleration": 1.6268339316845921,
+        "roc_21d": 3.917351062442973,
+        "trend_strength_20d": 0.7814195377983424,
+        "trend_direction": 1,
+        "ma_ribbon_score": 70.731801051425,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0013880143494578556
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 1.0,
+        "squeeze_momentum": 0.1822182715435864,
+        "volatility_compression": 66.5,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 14.313574836979958,
+        "squeeze_breakout": 4.0,
+        "options_quality": 0,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 67.0,
+        "momentum": 64.0,
+        "squeeze": 59.975,
+        "options": 10.0,
+        "quality": 31.435897435897438
+      },
+      "risk_assessment": {
+        "ranking": 17,
+        "percentile": 99.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "LIN",
+        "strike_price": "460",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "23.8",
+        "ask": "26.5",
+        "last_price": "27.9",
+        "mid_price": "25.15",
+        "spread_percent": "10.18867924528301886792452830"
+      },
+      "greeks": {
+        "delta": 0.7231,
+        "gamma": 0.0096,
+        "theta": -0.1567,
+        "vega": 0.5811
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.2011
+      },
+      "liquidity_metrics": {
+        "volume": 0,
+        "open_interest": 106,
+        "volume_oi_ratio": 0.0
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:38.829668",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-26T14:03:58+00:00",
+            "title": "LIN Quantitative Stock Analysis - Peter Lynch",
+            "content": "Below is Validea's guru fundamental report for LINDE PLC (LIN). Of the 22 guru strategies we follow,  LIN rates highest using our P/E/Growth Investor model based on the published strategy of Peter Lynch. This strategy looks for stocks trading at a reasonable price relative to earnings growth that also possess strong balance sheets.\n\nLINDE PLC (LIN) is a large-cap growth stock in the Chemical Manufacturing industry. The rating using this strategy is 87% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. P/E/GROWTH RATIO:PASSSALES AND P/E RATIO:PASSINVENTORY TO SALES:PASSEPS GROWTH RATE:PASSTOTAL DEBT/EQUITY RATIO:PASSFREE CASH FLOW:NEUTRALNET CASH POSITION:NEUTRAL\n\nDetailed Analysis of LINDE PLC\n\nLIN Guru Analysis\n\nLIN Fundamental Analysis\n\nMore Information on Peter Lynch\n\nPeter Lynch Portfolio\n\nTop Peter Lynch Stocks\n\nAbout Peter Lynch: Perhaps the greatest mutual fund manager of all-time, Lynch guided Fidelity Investment's Magellan Fund to a 29.2 percent average annual return from 1977 until his retirement in 1990, almost doubling the S&P 500's 15.8 percent yearly return over that time. Lynch's common sense approach and quick wit made him one of the most quoted investors on Wall Street. (\"Go for a business that any idiot can run -- because sooner or later, any idiot probably is going to run it,\" is one of his many pearls of wisdom.) Lynch's bestseller One Up on Wall Street is something of a \"stocks for the everyman/everywoman\", breaking his approach down into easy-to-understand concepts.\n\nAdditional Research Links\n\nTop S&P 500 Stocks\n\nTop Russell 2000 Stocks\n\nHigh Earnings Yield Stocks\n\nHigh Free Cash Flow Yield Stocks\n\nSmall-Cap Value Stocks\n\nLow Volatility Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:45:00+00:00",
+            "title": "The Zacks Analyst Blog Highlights NVIDIA, Cisco and Linde",
+            "content": "For Immediate Release\n\nChicago, IL – August 25, 2025 – Zacks.com announces the list of stocks featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and events impacting stocks and the financial markets. Stocks recently featured in the blog include: NVIDIA Corp. NVDA, Cisco Systems, Inc. CSCO and Linde plc LIN.\n\nHere are highlights from Friday’s Analyst Blog:\n\nTop Analyst Reports for NVIDIA, Cisco Systems & Linde\n\nThe Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including NVIDIA Corp., Cisco Systems, Inc. and Linde plc. These research reports have been hand-picked from the roughly 70 reports published by our analyst team today.\n\nYou can see all of today's research reports here >>>\n\nAhead of Wall Street\n\nThe daily 'Ahead of Wall Street' article is a must-read for all investors who would like to be ready for that day's trading action. The article comes out before the market opens, attempting to make sense of that morning's economic releases and how they will affect that day's market action. You can read this article for free on our home page and can actually sign up there to get an email notification as this article comes out each morning.\n\nYou can read today's AWS here >>> What to Expect from Fed Chair Powell's Jackson Hole Speech\n\nToday's Featured Research Reports\n\nNVIDIA'sshares have outperformed the Zacks Semiconductor - General industry over the year-to-date period (+29.5% vs. +28.6%). The company is benefiting from the strong growth of artificial intelligence (AI) and high-performance, accelerated computing. The growing demand for generative AI and large language models using graphic processing units (GPUs) based on NVIDIA's Hopper and Blackwell architectures is aiding data center revenues.\n\nThe continued ramp-up of Ada RTX GPU workstations in the ProViz end market, following the normalization of channel inventory, is acting as a tailwind. Collaborations with more than 320 automakers and tier-one suppliers are likely to advance its presence in the autonomous vehicle space.\n\nThe Zacks analyst expects NVIDIA's revenues to witness a CAGR of 29% through fiscal 2026-2028. However, a limited supply of Blackwell GPUs could hinder its ability to meet demand. Rising costs associated with the production of more complex AI systems will hurt margins.\n\n(You can read the full research report on NVIDIA here >>>)\n\nStory Continues\n\nShares of Cisco have outperformed the Zacks Computer - Networking industry over the year-to-date period (+16.1% vs. +15.1%). The company's business model has evolved with subscription revenues accounting for more than half of its total revenues. Increase in recurring revenue base bodes well for investors. Splunk acquisition enhances its recurring revenue base.\n\nThe buyout significantly expands Cisco's portfolio of software-based solutions, contributing more than $4 billion in ARR and makes it one of the largest software companies in the world. The launch of AI-powered Hypershield, which combines security and networking, strengthened Cisco's security portfolio.\n\nHowever, it has been suffering from sluggish networking sales, primarily due to lackluster demand from telecommunication and cable services providers, as well as stiff competition. Cisco's prospects are further challenged in the AI-driven networking space due to stiffening competition.\n\n(You can read the full research report on Cisco here >>>)\n\nLinde'sshares have outperformed the Zacks Chemical - Specialty industry over the year-to-date period (+16.2% vs. +8.4%). The company remains a dominant player in the industrial gas sector, delivering strong financial performance with consistent EPS growth, disciplined capital allocation, and industry-leading margins.\n\nLinde's record $10.3 billion backlog ensures long-term revenue stability, while sustainability initiatives position it as a leader in low-carbon energy solutions. Strategic investments in high-return projects and small on-site contracts further reinforce its competitive edge.\n\nHowever, foreign exchange headwinds, softening industrial demand in Europe & China, and regulatory uncertainties pose challenges. Also, slower growth in healthcare impacts diversification efforts. Despite these risks, LIN's strong execution, efficiency improvements, & long-term contracts position it well for sustained profitability & resilience in fluctuating market conditions.\n\n(You can read the full research report on Linde here >>>)\n\nFree: Instant Access to Zacks' Market-Crushing Strategies\n\nSince 2000, our top stock-picking strategies have blown away the S&P's +7.7% average gain per year. Amazingly, they soared with average gains of +48.4%, +50.2% and +56.7% per year.\n\nToday you can tap into those powerful strategies – and the high-potential stocks they uncover – free. No strings attached.\n\nGet all the details here >>\n\nMedia Contact\n\nZacks Investment Research\n\n800-767-3771 ext. 9339\n\nsupport@zacks.com\n\nhttps://www.zacks.com\n\nPast performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit https://www.zacks.com/performance for information about the performance numbers displayed in this press release.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nCisco Systems, Inc. (CSCO) : Free Stock Analysis Report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nLinde PLC (LIN) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-23T13:03:27+00:00",
+            "title": "LIN Quantitative Stock Analysis - Peter Lynch",
+            "content": "Below is Validea's guru fundamental report for LINDE PLC (LIN). Of the 22 guru strategies we follow,  LIN rates highest using our P/E/Growth Investor model based on the published strategy of Peter Lynch. This strategy looks for stocks trading at a reasonable price relative to earnings growth that also possess strong balance sheets.\n\nLINDE PLC (LIN) is a large-cap growth stock in the Chemical Manufacturing industry. The rating using this strategy is 87% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. P/E/GROWTH RATIO:PASSSALES AND P/E RATIO:PASSINVENTORY TO SALES:PASSEPS GROWTH RATE:PASSTOTAL DEBT/EQUITY RATIO:PASSFREE CASH FLOW:NEUTRALNET CASH POSITION:NEUTRAL\n\nDetailed Analysis of LINDE PLC\n\nLIN Guru Analysis\n\nLIN Fundamental Analysis\n\nMore Information on Peter Lynch\n\nPeter Lynch Portfolio\n\nTop Peter Lynch Stocks\n\nAbout Peter Lynch: Perhaps the greatest mutual fund manager of all-time, Lynch guided Fidelity Investment's Magellan Fund to a 29.2 percent average annual return from 1977 until his retirement in 1990, almost doubling the S&P 500's 15.8 percent yearly return over that time. Lynch's common sense approach and quick wit made him one of the most quoted investors on Wall Street. (\"Go for a business that any idiot can run -- because sooner or later, any idiot probably is going to run it,\" is one of his many pearls of wisdom.) Lynch's bestseller One Up on Wall Street is something of a \"stocks for the everyman/everywoman\", breaking his approach down into easy-to-understand concepts.\n\nAdditional Research Links\n\nTop S&P 500 Stocks\n\nTop Russell 2000 Stocks\n\nHigh Earnings Yield Stocks\n\nHigh Free Cash Flow Yield Stocks\n\nSmall-Cap Value Stocks\n\nLow Volatility Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-22T20:27:00+00:00",
+            "title": "Top Analyst Reports for NVIDIA, Cisco &amp; Linde",
+            "content": "Friday, August 22, 2025\r\n\r\nThe Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including NVIDIA Corp. (NVDA), Cisco Systems, Inc. (CSCO) and Linde plc (LIN). These research reports have been hand-picked from the roughly 70 reports published by our analyst team today.\r\n\r\nYou can see all of today’s research reports here >>>\r\n\r\nAhead of Wall Street\r\n\r\nThe daily 'Ahead of Wall Street' article is a must-read for all investors who would like to be ready for that day's trading action. The article comes out before the market opens, attempting to make sense of that morning's economic releases and how they will affect that day's market action. You can read this article for free on our home page and can actually sign up there to get an email notification as this article comes out each morning.\r\n\r\nYou can read today's AWS here >>> What to Expect from Fed Chair Powell's Jackson Hole Speech\r\n\r\nToday's Featured Research Reports\r\n\r\nNVIDIA’s shares have outperformed the Zacks Semiconductor - General industry over the year-to-date period (+29.5% vs. +28.6%). The company is benefiting from the strong growth of artificial intelligence (AI) and high-performance, accelerated computing. The growing demand for generative AI and large language models using graphic processing units (GPUs) based on NVIDIA’s Hopper and Blackwell architectures is aiding data center revenues. \r\n\r\nThe continued ramp-up of Ada RTX GPU workstations in the ProViz end market, following the normalization of channel inventory, is acting as a tailwind. Collaborations with more than 320 automakers and tier-one suppliers are likely to advance its presence in the autonomous vehicle space. \r\n\r\nThe Zacks analyst expect NVIDIA’s revenues to witness a CAGR of 29% through fiscal 2026-2028. However, a limited supply of Blackwell GPUs could hinder its ability to meet demand. Rising costs associated with the production of more complex AI systems will hurt margins.\r\n\r\n(You can read the full research report on NVIDIA here >>>)\r\n\r\nShares of Cisco have outperformed the Zacks Computer - Networking industry over the year-to-date period (+16.1% vs. +15.1%). The company’s business model has evolved with subscription revenues accounting for more than half of its total revenues. Increase in recurring revenue base bodes well for investors. Splunk acquisition enhances its recurring revenue base. \r\n\r\nThe buyout significantly expands Cisco’s portfolio of software-based solutions, contributing more than $4 billion in ARR and makes it one of the largest software companies in the world. The launch of AI-powered Hypershield, which combines security and networking, strengthened Cisco’s security portfolio. \r\n\r\nHowever, it has been suffering from sluggish networking sales, primarily due to lackluster demand from telecommunication and cable services providers, as well as stiff competition. Cisco’s prospects are further challenged in the AI-driven networking space due to stiffening competition.\r\n\r\n(You can read the full research report on Cisco here >>>)\r\n\r\nLinde’s shares have outperformed the Zacks Chemical - Specialty industry over the year-to-date period (+16.2% vs. +8.4%). The company remains a dominant player in the industrial gas sector, delivering strong financial performance with consistent EPS growth, disciplined capital allocation, and industry-leading margins.\r\n\r\nLinde’s record $10.3 billion backlog ensures long-term revenue stability, while sustainability initiatives position it as a leader in low-carbon energy solutions. Strategic investments in high-return projects and small on-site contracts further reinforce its competitive edge. \r\n\r\nHowever, foreign exchange headwinds, softening industrial demand in Europe & China, and regulatory uncertainties pose challenges. Also, slower growth in healthcare impacts diversification efforts. Despite these risks, LIN's strong execution, efficiency improvements, & long-term contracts position it well for sustained profitability & resilience in fluctuating market conditions.\r\n\r\n(You can read the full research report on Linde here >>>)\r\n\r\nOther noteworthy reports we are featuring today include Pfizer Inc. (PFE), Aflac Inc. (AFL) and Western Digital Corp. (WDC).\r\n\r\nMark Vickery\r\nSenior Editor\r\n\r\nNote: Sheraz Mian heads the Zacks Equity Research department and is a well-regarded expert of aggregate earnings. He is frequently quoted in the print and electronic media and publishes the weekly Earnings Trends and Earnings Preview reports. If you want an email notification each time Sheraz publishes a new article, please click here>>>\n\nStory Continues\n\nToday's Must Read\n\nNVIDIA (NVDA) Rides on Strong Adoption of GPUs, Partnerships\n\nCisco (CSCO) Benefits From Strong Security Products Adoption\n\nLinde's (LIN) Long-Term Contracts with Minimum Volume Aid\n\nFeatured Reports\n\nPfizer's (PFE) New & Acquired Products Boosting Sales Growth in 2025\r\nPfizer's key drugs like Vyndaqel, Padcev, Eliquis, and new and newly acquired products are driving top-line growth. Upcoming LOE and Part D redesign impact are key headwinds.\n\nGrowing U.S. Segment Aid Aflac (AFL), Escalating Costs Hurt\r\nPer the Zacks analyst, Aflac's significant U.S. market share will drive sales growth, aided by a solid product suite. However, high expenses remain a concern.\n\nWestern Digital (WDC) Gains From Uptick in HDD Demand\r\nPer the Zacks analyst, Western Digital is gaining from strong HDD demand, adoption of 26TB CMR & 32TB UltraSMR, and advances in ePMR & HAMR tech, which are expected to drive top-line growth ahead.\n\nAcquisitions, Strong End-market Demand to Aid Reliance (RS)\r\nAccording to the Zacks analyst, the company will gain from strong demand in the majority of its end markets and synergies of its strategic acquisitions amid pricing weakness.\n\nExpanding Vehicle Portfolio Aids NIO, High Debt Levels Ail\r\nPer the Zacks analyst, NIO's strong vehicle lineup is aiding the company's delivery growth. However, its high debt level remains a concern.\n\nRobust Traffic & Unit Expansion Aid Brinker (EAT), High Costs Ail \r\nPer the Zacks analyst, Brinker is benefiting from robust traffic, increased menu pricing and effective marketing strategies. Expansion efforts also bode well.\n\nSolid Underwriting Aid RLI Corp (RLI), Higher Expenses Ail\r\nPer the Zacks analyst, RLI's solid portfolio, business expansion, rate rise, expanded distribution and operational strength drive profitability. Yet, high expenses inducing margin contraction concern.\n\nNew Upgrades\n\nRobust AUM, Diverse Products to Aid SEI Investments (SEIC)\r\nPer the Zacks analyst, global presence, diverse offerings, strategic buyouts, strong AUM and focus on high-growth areas alongside solid liquidity position will likely aid SEI Investments' financials.\n\nDigital Prowess and Acquisitions Aid Interpublic Group (IPG) \r\nPer the Zacks analyst, Interpublic has been enhancing its digital capabilities to maintain growth in the dynamic media sector. The company has a disciplined acquisition strategy.\n\nAntero Midstream's (AM) Long-Term Contracts Aid Revenue Growth\r\nPer the Zacks analyst, Antero Midstream's long-term contracts with Antero Resources generate stable fee-based revenues and also support strong free cash flow generation.\n\nNew Downgrades\n\nCost Inflation Weighs on General Mills' (GIS) Margins\r\nPer the Zacks analyst, General Mills is witnessing elevated cost inflation. In the fourth quarter, adjusted gross margin fell 220 basis points due to higher input costs and other factors.\n\nBio-Techne (TECH) Struggles Amid Tariffs, Cuts & Margin Pain\r\nThe Zacks analyst is worried about Bio-Techne facing mounting challenges as rising costs, global tariffs and funding uncertainty squeeze margins and cloud its near-term outlook.\n\nEnd-Market and Macroeconomic Challenges Ail Bio-Rad (BIO)\r\nThe Zacks analyst is concerned with ongoing biopharma and academic market challenges, including among small biotech companies, affecting Bio-Rad's business. Tariff-impact on margins add to the risks.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nPfizer Inc. (PFE) : Free Stock Analysis Report\n\nCisco Systems, Inc. (CSCO) : Free Stock Analysis Report\n\nWestern Digital Corporation (WDC) : Free Stock Analysis Report\n\nNVIDIA Corporation (NVDA) : Free Stock Analysis Report\n\nAflac Incorporated (AFL) : Free Stock Analysis Report\n\nLinde PLC (LIN) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-21T15:47:18+00:00",
+            "title": "October 3rd Options Now Available For AstraZeneca (AZN)",
+            "content": "Investors in AstraZeneca plc (Symbol: AZN) saw new options begin trading today, for the October 3rd expiration.   At Stock Options Channel, our YieldBoost formula has looked up and down the AZN options chain for the new October 3rd contracts and identified one put and one call contract of particular interest.\n\nThe put contract at the $77.00 strike price has a current bid of 58 cents.  If an investor was to sell-to-open that put contract, they are committing to purchase the stock at $77.00, but will also collect the premium, putting the cost basis of the shares at $76.42 (before broker commissions).  To an investor already interested in purchasing shares of AZN, that could represent an attractive alternative to paying $80.86/share today.\n\nBecause the $77.00 strike represents an approximate 5% discount to the current trading price of the stock (in other words it is out-of-the-money by that percentage), there is also the possibility that the put contract would expire worthless.  The current analytical data (including greeks and implied greeks) suggest the current odds of that happening are 69%.  Stock Options Channel will track those odds over time to see how they change, publishing a chart of those numbers on our website under the contract detail page for this contract.  Should the contract expire worthless, the premium would represent a 0.75% return on the cash commitment, or 6.39% annualized — at Stock Options Channel we call this the YieldBoost.\n\nBelow is a chart showing the trailing twelve month trading history for AstraZeneca plc, and highlighting in green where the $77.00 strike is located relative to that history:\n\nTurning to the calls side of the option chain, the call contract at the $83.00 strike price has a current bid of 45 cents.  If an investor was to purchase shares of AZN stock at the current price level of $80.86/share, and then sell-to-open that call contract as a \"covered call,\" they are committing to sell the stock at $83.00.  Considering the call seller will also collect the premium, that would drive a total return (excluding dividends, if any) of 3.20% if the stock gets called away at the October 3rd expiration (before broker commissions).  Of course, a lot of upside could potentially be left on the table if AZN shares really soar, which is why looking at the trailing twelve month trading history for AstraZeneca plc, as well as studying the business fundamentals becomes important.   Below is a chart showing AZN's trailing twelve month trading history, with the $83.00 strike highlighted in red:\n\nConsidering the fact that the $83.00 strike represents an approximate 3% premium to the current trading price of the stock (in other words it is out-of-the-money by that percentage), there is also the possibility that the covered call contract would expire worthless, in which case the investor would keep both their shares of stock and the premium collected.  The current analytical data (including greeks and implied greeks) suggest the current odds of that happening are 60%.  On our website under the contract detail page for this contract, Stock Options Channel will track those odds over time to see how they change and publish a chart of those numbers (the trading history of the option contract will also be charted).   Should the covered call contract expire worthless, the premium would represent a 0.56% boost of extra return to the investor, or 4.72% annualized, which we refer to as the YieldBoost.\n\nThe implied volatility in the put contract example is 31%, while the implied volatility in the call contract example is 26%.\n\nMeanwhile, we calculate the actual trailing twelve month volatility (considering the last 250 trading day closing values as well as today's price of $80.86) to be 25%.  For more put and call options contract ideas worth looking at, visit StockOptionsChannel.com.\n\nTop YieldBoost Calls of the Nasdaq 100 »\n\nAlso see:  Energy Stocks Hedge Funds Are Selling\r\n  AUPH Insider Buying\r\n  Funds Holding LIN\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Linde plc Ordinary Shares",
+          "sector": "Basic Materials",
+          "industry": "Specialty Chemicals",
+          "employees": 64842,
+          "description": "Linde plc operates as an industrial gas company in the United States, China, Germany, the United Kingdom, Australia, Mexico, Brazil, and internationally. It offers atmospheric gases, including oxygen, nitrogen, argon, and rare gases; and process gases, such as hydrogen, helium, carbon dioxide, carbo"
+        },
+        "financial_metrics": {
+          "eps_ttm": 14.06,
+          "profit_margin": 0.202,
+          "operating_margin": 0.2826,
+          "roe": 0.1731,
+          "roa": 0.0695,
+          "revenue_growth_yoy": 0.028,
+          "earnings_growth_yoy": 0.084,
+          "eps_estimate_current_year": 16.4496,
+          "eps_estimate_next_year": 18.0025,
+          "dividend_yield": 0.012,
+          "dividend_per_share": 5.78,
+          "revenue_ttm": 33244999680,
+          "revenue_per_share": 70.103,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 34.0178,
+          "forward_pe": 29.3255,
+          "price_to_sales": 6.7461,
+          "price_to_book": 5.87,
+          "enterprise_value": 247218730853,
+          "ev_to_revenue": 7.4363,
+          "ev_to_ebitda": 18.9353
+        },
+        "technical_data": {
+          "beta": 0.929,
+          "52_week_high": 486.38,
+          "52_week_low": 407.3509,
+          "50_day_ma": 470.9294,
+          "200_day_ma": 455.5472,
+          "short_interest": 0.0113,
+          "short_ratio": 3.49
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 6,
+          "forward_dividend_yield": 0.0125,
+          "payout_ratio": 0.3798,
+          "dividend_date": "2025-09-18",
+          "ex_dividend_date": "2025-09-04",
+          "last_split_date": "2003-12-16",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4,
+          "target_price": 510.5,
+          "strong_buy": 12,
+          "buy": 6,
+          "hold": 9,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 468910016,
+          "percent_institutions": 87.429,
+          "percent_insiders": 0.26,
+          "shares_float": 467235525
+        },
+        "balance_latest_sheet": {
+          "total_assets": 86078.0,
+          "total_debt": 25920.0,
+          "net_debt": 21134.0,
+          "working_capital": -1087.0,
+          "shareholders_equity": 38515.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.67
+        },
+        "income_latest_statement": {
+          "total_revenue": 8495.0,
+          "gross_profit": 4189.0,
+          "operating_income": 2354.0,
+          "net_income": 1766.0,
+          "ebitda": 3355.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 49.31,
+          "operating_margin": 27.71,
+          "net_margin": 20.79
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2211.0,
+          "free_cash_flow": 954.0,
+          "capex": 1257.0,
+          "net_income": 1732.0,
+          "cash_change": -508.0,
+          "dividends_paid": -704.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 4.18,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 465.01,
+            "high": 476.23,
+            "low": 464.2219,
+            "close": 470.43,
+            "volume": 1797727
+          },
+          {
+            "date": "2025-07-22",
+            "open": 470.43,
+            "high": 476.38,
+            "low": 468.91,
+            "close": 472.02,
+            "volume": 1405497
+          },
+          {
+            "date": "2025-07-23",
+            "open": 473.47,
+            "high": 474.2,
+            "low": 469.7,
+            "close": 469.99,
+            "volume": 1193855
+          },
+          {
+            "date": "2025-07-24",
+            "open": 466.64,
+            "high": 472.16,
+            "low": 462.44,
+            "close": 471.49,
+            "volume": 1383213
+          },
+          {
+            "date": "2025-07-25",
+            "open": 472.44,
+            "high": 473.66,
+            "low": 468.57,
+            "close": 472.89,
+            "volume": 1212138
+          },
+          {
+            "date": "2025-07-28",
+            "open": 468.75,
+            "high": 471.35,
+            "low": 466.01,
+            "close": 467.46,
+            "volume": 1283683
+          },
+          {
+            "date": "2025-07-29",
+            "open": 469.895,
+            "high": 471.67,
+            "low": 467.25,
+            "close": 471.51,
+            "volume": 1386154
+          },
+          {
+            "date": "2025-07-30",
+            "open": 471.4,
+            "high": 472.335,
+            "low": 465.26,
+            "close": 466.23,
+            "volume": 1301638
+          },
+          {
+            "date": "2025-07-31",
+            "open": 458.41,
+            "high": 467.6,
+            "low": 458.41,
+            "close": 460.26,
+            "volume": 2228608
+          },
+          {
+            "date": "2025-08-01",
+            "open": 458.33,
+            "high": 462.51,
+            "low": 449.32,
+            "close": 459.41,
+            "volume": 2219355
+          },
+          {
+            "date": "2025-08-04",
+            "open": 459.86,
+            "high": 468.49,
+            "low": 459.86,
+            "close": 467.4,
+            "volume": 1684882
+          },
+          {
+            "date": "2025-08-05",
+            "open": 467.94,
+            "high": 471.035,
+            "low": 465.97,
+            "close": 469.84,
+            "volume": 1691004
+          },
+          {
+            "date": "2025-08-06",
+            "open": 471.77,
+            "high": 473.38,
+            "low": 467.95,
+            "close": 471.48,
+            "volume": 1275905
+          },
+          {
+            "date": "2025-08-07",
+            "open": 473.33,
+            "high": 475.79,
+            "low": 467.485,
+            "close": 469.43,
+            "volume": 1090515
+          },
+          {
+            "date": "2025-08-08",
+            "open": 469,
+            "high": 473.39,
+            "low": 468.69,
+            "close": 472.42,
+            "volume": 939268
+          },
+          {
+            "date": "2025-08-11",
+            "open": 471.1,
+            "high": 473.43,
+            "low": 466.13,
+            "close": 470.38,
+            "volume": 1069158
+          },
+          {
+            "date": "2025-08-12",
+            "open": 470.5,
+            "high": 474.48,
+            "low": 469.94,
+            "close": 473.23,
+            "volume": 1347707
+          },
+          {
+            "date": "2025-08-13",
+            "open": 474.57,
+            "high": 476.15,
+            "low": 468.5,
+            "close": 475.63,
+            "volume": 1797869
+          },
+          {
+            "date": "2025-08-14",
+            "open": 475.71,
+            "high": 478.6,
+            "low": 472.62,
+            "close": 477.63,
+            "volume": 1545452
+          },
+          {
+            "date": "2025-08-15",
+            "open": 480.88,
+            "high": 482.67,
+            "low": 478.575,
+            "close": 480.08,
+            "volume": 1951311
+          },
+          {
+            "date": "2025-08-18",
+            "open": 480.43,
+            "high": 481.05,
+            "low": 477.16,
+            "close": 478.51,
+            "volume": 1218071
+          },
+          {
+            "date": "2025-08-19",
+            "open": 478.47,
+            "high": 482.82,
+            "low": 476.545,
+            "close": 479.92,
+            "volume": 1512394
+          },
+          {
+            "date": "2025-08-20",
+            "open": 482.79,
+            "high": 486.38,
+            "low": 480.5,
+            "close": 482.36,
+            "volume": 1160981
+          },
+          {
+            "date": "2025-08-21",
+            "open": 481.4,
+            "high": 482.91,
+            "low": 480.05,
+            "close": 480.71,
+            "volume": 1263490
+          },
+          {
+            "date": "2025-08-22",
+            "open": 484.06,
+            "high": 485.73,
+            "low": 479.69,
+            "close": 481.67,
+            "volume": 1782492
+          },
+          {
+            "date": "2025-08-25",
+            "open": 481.92,
+            "high": 483.9999,
+            "low": 476.68,
+            "close": 477.85,
+            "volume": 1151854
+          },
+          {
+            "date": "2025-08-26",
+            "open": 476.29,
+            "high": 482.09,
+            "low": 475.01,
+            "close": 481.92,
+            "volume": 1699531
+          },
+          {
+            "date": "2025-08-27",
+            "open": 480.16,
+            "high": 483.82,
+            "low": 479.375,
+            "close": 482.71,
+            "volume": 2259643
+          },
+          {
+            "date": "2025-08-28",
+            "open": 482.56,
+            "high": 483.01,
+            "low": 479.13,
+            "close": 482.15,
+            "volume": 2579179
+          },
+          {
+            "date": "2025-08-29",
+            "open": 482.175,
+            "high": 483.32,
+            "low": 477,
+            "close": 478.29,
+            "volume": 2058214
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.109618858971288,
+        "return_63d": 2.953268613987134,
+        "pct_above_sma50": 1.5629943681579397,
+        "sma_50": 470.92940000000004,
+        "new_55d_high": "False",
+        "high_55d": 486.38,
+        "rsi": 62.82841388258195,
+        "rsi_in_range": "True",
+        "adx": 31.531326342873445,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 1.230005854188881,
+        "bb_width": 4.22105318053033,
+        "keltner_width": 4.939712640320523,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 740735756.253,
+        "adv_shares": 1553946.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 29.31357483697996,
+        "final_score": 29.31357483697996,
+        "sub_scores": {
+          "trend_momentum": 14.313574836979958,
+          "squeeze_breakout": 4.0,
+          "options_quality": 0,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 3.9173510624429753,
+          "ret_63d": 2.290517130758385,
+          "rsi14": 62.82841388258195,
+          "adx14": 24.52161874452715,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: LIN\n• Current Price: $478.29\n• Overall Score: 49.88858974358975\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 470.9294\n• Sma 200: 455.5472\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.917351062442973\n• Momentum 63D: 2.290517130758381\n• Momentum 126D: 2.4065945830210915\n• Momentum Acceleration: 1.6268339316845921\n• Roc 21D: 3.917351062442973\n• Trend Strength 20D: 0.7814195377983424\n• Trend Direction: 1\n• Ma Ribbon Score: 70.731801051425\n• Breakout Strength: 0.0\n• Price Velocity: -0.0013880143494578556\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 1.0\n• Squeeze Momentum: 0.1822182715435864\n• Volatility Compression: 66.5\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 14.313574836979958\n• Squeeze Breakout: 4.0\n• Options Quality: 0\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 67.0\n• Momentum: 64.0\n• Squeeze: 59.975\n• Options: 10.0\n• Quality: 31.435897435897438\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: LIN\n• Strike Price: $460\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $23.8\n• Ask: $26.5\n• Last: $27.9\n• Mid: $25.15\n• Spread: 10.18867924528301886792452830%\n\n**GREEKS ANALYSIS**\n• Delta: 0.7231\n• Gamma: 0.0096\n• Theta: -0.1567\n• Vega: 0.5811\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.2011\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 0\n• Open Interest: 106\n• Volume/OI Ratio: 0.0\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Linde plc Ordinary Shares\n• Sector: Basic Materials\n• Industry: Specialty Chemicals\n• EPS (TTM): $14.06\n• Profit Margin: 20.2%\n• ROE: 17.3%\n• P/E Ratio: 34.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-26T14:03:58+00:00: LIN Quantitative Stock Analysis - Peter Lynch...\n• 2025-08-25T13:45:00+00:00: The Zacks Analyst Blog Highlights NVIDIA, Cisco and Linde...\n• 2025-08-23T13:03:27+00:00: LIN Quantitative Stock Analysis - Peter Lynch...\n• 2025-08-22T20:27:00+00:00: Top Analyst Reports for NVIDIA, Cisco &amp; Linde...\n• 2025-08-21T15:47:18+00:00: October 3rd Options Now Available For AstraZeneca (AZN)...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR LIN\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the LIN opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:34:49.990787",
+    "estimated_tokens": 2297
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"LIN\",\n    \"rating\": 72,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 12,\n        \"iv_value\": 11,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 8,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"LIN shows strong technical momentum with a 70.73 MA ribbon score and positive price trend above both 50 and 200 SMAs. The stock is in a volatility squeeze with multiple timeframe compression, suggesting potential for a significant move, though options liquidity is concerning.\",\n    \"opportunities\": [\n        \"Strong technical trend with price above key moving averages (SMA50: 470.92, SMA200: 455.54)\",\n        \"Multi-timeframe squeeze setup with 66.5 compression score and 2 concurrent squeezes\",\n        \"Solid fundamentals with 20.2% profit margin and 17.3% ROE\"\n    ],\n    \"risks\": [\n        \"Poor options liquidity with 0 volume and only 106 open interest\",\n        \"Wide bid-ask spread of 10.19% on selected contract\",\n        \"Earnings approaching on 2025-09-30\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider alternative strikes/expirations with better liquidity before entering position\",\n        \"entry_timing\": \"Wait for improved options liquidity conditions and post-earnings setup\",\n        \"risk_management\": \"Wide spreads require strict limit orders; consider smaller position size due to liquidity constraints\"\n    },\n    \"red_flags\": [\n        \"Extremely poor options liquidity (0 volume, 106 OI)\",\n        \"Earnings within 35 days\",\n        \"10.19% bid-ask spread indicates high transaction costs\"\n    ],\n    \"notes\": \"While technical setup is attractive, poor options market quality severely impacts tradability. Consider stock position or waiting for better options conditions.\"\n}",
+    "parsed_analysis": {
+      "symbol": "LIN",
+      "rating": 72,
+      "component_scores": {
+        "trend_momentum": 28,
+        "options_quality": 12,
+        "iv_value": 11,
+        "squeeze_volatility": 8,
+        "fundamentals": 8,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "LIN shows strong technical momentum with a 70.73 MA ribbon score and positive price trend above both 50 and 200 SMAs. The stock is in a volatility squeeze with multiple timeframe compression, suggesting potential for a significant move, though options liquidity is concerning.",
+      "opportunities": [
+        "Strong technical trend with price above key moving averages (SMA50: 470.92, SMA200: 455.54)",
+        "Multi-timeframe squeeze setup with 66.5 compression score and 2 concurrent squeezes",
+        "Solid fundamentals with 20.2% profit margin and 17.3% ROE"
+      ],
+      "risks": [
+        "Poor options liquidity with 0 volume and only 106 open interest",
+        "Wide bid-ask spread of 10.19% on selected contract",
+        "Earnings approaching on 2025-09-30"
+      ],
+      "option_contract": {
+        "recommendation": "Consider alternative strikes/expirations with better liquidity before entering position",
+        "entry_timing": "Wait for improved options liquidity conditions and post-earnings setup",
+        "risk_management": "Wide spreads require strict limit orders; consider smaller position size due to liquidity constraints"
+      },
+      "red_flags": [
+        "Extremely poor options liquidity (0 volume, 106 OI)",
+        "Earnings within 35 days",
+        "10.19% bid-ask spread indicates high transaction costs"
+      ],
+      "notes": "While technical setup is attractive, poor options market quality severely impacts tradability. Consider stock position or waiting for better options conditions."
+    },
+    "tokens_used": 2550,
+    "cost": 0.025500000000000002,
+    "response_time": 8.823279619216919,
+    "success": true
+  },
+  "cost": 0.025500000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8392,
+    "response_length": 1809
+  }
+}

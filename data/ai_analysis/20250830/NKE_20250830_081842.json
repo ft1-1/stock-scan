@@ -1,0 +1,635 @@
+{
+  "success": true,
+  "symbol": "NKE",
+  "timestamp": "2025-08-30T08:18:42.444279",
+  "data_package": {
+    "metadata": {
+      "symbol": "NKE",
+      "package_timestamp": "2025-08-30T08:18:32.549441",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "NKE",
+        "current_price": 77.37,
+        "overall_score": 57.92192307692308,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 73.6046,
+        "sma_200": 70.4149
+      },
+      "momentum_metrics": {
+        "momentum_21d": 3.58816441290669,
+        "momentum_63d": 27.694338999834955,
+        "momentum_126d": -2.5934785345587335,
+        "momentum_acceleration": -24.106174586928265,
+        "roc_21d": 3.58816441290669,
+        "trend_strength_20d": 0.7012587829630158,
+        "trend_direction": 1,
+        "ma_ribbon_score": 71.80924918014409,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.00256852915066732
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 12.0,
+        "squeeze_momentum": 0.1015556401739452,
+        "volatility_compression": 66.5,
+        "is_consolidating": "False",
+        "breakout_score": 1.2320883648852217,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 18.881589876037484,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.27439083969467,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 67.0,
+        "momentum": 64.0,
+        "squeeze": 64.975,
+        "options": 43.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 1,
+        "percentile": 99.9
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "NKE",
+        "strike_price": "75",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.5",
+        "ask": "6.6",
+        "last_price": "6.54",
+        "mid_price": "6.55",
+        "spread_percent": "1.515151515151515151515151515"
+      },
+      "greeks": {
+        "delta": 0.6173,
+        "gamma": 0.0293,
+        "theta": -0.0341,
+        "vega": 0.1417
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3505
+      },
+      "liquidity_metrics": {
+        "volume": 179,
+        "open_interest": 1215,
+        "volume_oi_ratio": 0.14732510288065845
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:16:31.426961",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T19:43:26+00:00",
+            "title": "Noteworthy Friday Option Activity: NKE, CMA, MCD",
+            "content": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Nike (Symbol: NKE), where a total volume of 77,401 contracts has been traded thus far today, a contract volume which is representative of approximately 7.7 million underlying shares (given that every 1 contract represents 100 underlying shares).  That number works out to 88.6% of NKE's average daily trading volume over the past month, of 8.7 million shares.  Especially high volume was seen for the $60 strike call option expiring September 19, 2025, with 21,600 contracts trading so far today, representing approximately 2.2 million underlying shares of NKE.  Below is a chart showing NKE's trailing twelve month trading history, with the $60 strike highlighted in orange:\n\nComerica, Inc. (Symbol: CMA) saw options trading volume of 13,567 contracts, representing approximately 1.4 million underlying shares or approximately 81% of CMA's average daily trading volume over the past month, of 1.7 million shares. Especially high volume was seen for the $75 strike call option expiring September 19, 2025, with 12,428 contracts trading so far today, representing approximately 1.2 million underlying shares of CMA.  Below is a chart showing CMA's trailing twelve month trading history, with the $75 strike highlighted in orange:\n\nAnd McDonald's Corp (Symbol: MCD) options are showing a volume of 25,778 contracts thus far today.  That number of contracts represents approximately 2.6 million underlying shares, working out to a sizeable 73.9% of MCD's average daily trading volume over the past month, of 3.5 million shares. Especially high volume was seen for the $285 strike call option expiring September 19, 2025, with 3,122 contracts trading so far today, representing approximately 312,200 underlying shares of MCD.  Below is a chart showing MCD's trailing twelve month trading history, with the $285 strike highlighted in orange:\n\nFor the various different available expirations for NKE options, CMA options,  or MCD options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  CLNS Options Chain\r\n  SW 13F Filers\r\n  Institutional Holders of EUDV\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:00:56+00:00",
+            "title": "American Eagle stock rises following Travis Kelce clothing collab",
+            "content": "This week on Yahoo Finance Sports Report, host Joe Pompliano takes a look at some of this week’s biggest headlines in the sports business world that you and your portfolio need to know. From Caitlin Clark’s newly unveiled signature Nike (NKE) logo, to Travis Kelce’s new fashion line with American Eagle (AEO), to the U.S. Open’s infamous $13 million cocktail, there are many financial plays to watch out for that are shaping the sports industry.\n\nYahoo Sports Senior College Football Reporter Ross Dellenger joins the show to preview the UNC and Bill Belichick Hulu docuseries and share his thoughts on the Big 10’s leaked expansion format.\n\nPlus, Infinity Sports Network radio host Andrew Perloff stops by to look ahead to the 2025-26 NFL season.\n\nYahoo Finance Sports Report with Joe Pompliano, a vodcast brought to you by Yahoo Finance and Yahoo Sports, looks beyond the latest sports business headlines, analyzes all the need-to-know news - the teams, trades, and billion-dollar deals - so you and your portfolio will win BIG.\n\nVideo Transcript\n\n0:06 spk_0\n\nWelcome to Yahoo Finance Sports Report, a unique look at the business of sports brought to you by Yahoo Finance and Yahoo Sports. I'm your host, Joe Popeano, and I'm here to coach you through the financial game. Today we've got Yahoo Sports senior college football reporter Ross Dellinger coming on the show to discuss the latest news in college football, and Andrew Perlooff, co-host of the Maggie and Pearloff show on the Infinity Sports Network, joining us to talk about the NFL ahead of week one. Let's huddle up and get right into it.We're kicking off this week with POM's Playbook, where I take a look at some of the biggest headlines in sports that you and your portfolio need to know. First up, Nike officially introduced Caitlin Clark as its newest signature athlete on Monday with a marketing promo that also revealed her new logo. Clark's logo apparel collection will drop this fall, but fans will have to wait for her signature shoe, which is set to debut in 2026. Clark's status as a signature partner aligns with Nike CEO Elliott Hill's plan to refocus on athletes as the company works to rebound from a 30% drop.In its stock price over the last 5 years. Next up, we somehow have two fashion related pieces of football news in the same week. On Monday, the NFL signed a multi-year deal with Abercrombie and Fitch, making the clothing brand the league's first official fashion partner. And just one day after his viral engagement to pop star girlfriend Taylor Swift, Travis Kelsey launched a new collection with American Eagle through his sports and lifestyle brand True Colors. American Eagle's stock jumped 5% in morning trading after the Kelsey Partnership announcement on Wednesday. And speaking of partnership.The US Open's nearly 20 year partnership with Gray Goose vodka will drive some serious revenue in the next couple of weeks. Since 2006, Gray Goose has made the Honeydewce cocktail, the signature cocktail of the US Open tournament. The drink combines Gray Goose vodka with lemonade and raspberry liqueur and is topped with three honeydew melon bowls, and a whopping 556,782 of these drinks were sold at last year's tournament. So at $23 per drink, the US Open is set to make nearly $13 million off this cocktail this year.And last up, Bill Belichick announced last Sunday that the University of North Carolina football program will be the focus of a new season-long documentary series coming to Hulu this fall. The new series, which will follow the UNC football team in Belichick's first year as head coach, comes after a previous deal for the team to be featured in the offseason edition of HBO's Hard Knocks fell through. And according to the Athletic, HBO decided against the show after Belichick's girlfriend, Jordan Hudson requested to be a key part of its production.And while Hulu is set to lift back the curtain on Bill Belichick's new football program at North Carolina, Yahoo Sports senior college football reporter Ross Selinger is here to give us a rundown on everything else happening in college football. Ross, thank you so much for joining the show today. I want to start with Arch Manning. You recently wrote a piece on Yahoo about Arch and just sort of what has happened over the last few years as he preps become the starter the starter for Texas this year. Tell me a little bit about just like what you learned during that story about Arch the person, but also how prepared he is for this moment.\n\n2:56 spk_1\n\nYeah, um, I've actually covered arts since he was, uh, a freshman in high school, went, went down to New Orleans, uh, I guess 6 years ago now, and, uh, spent some time with his family and folks. So it's, uh, he's been, uh, the pressure has been on for a while, you know, um, and it's sort of all built up for this moment, this weekend. Um, you know, you, you see he had 2 years as a backup to Quinn Ewers at uh Texas despiteBeing this 5-star like hotly recruited guy, you know, he didn't come in and start immediately, and that was sort of never the plan for him or his family. He wanted to go somewhere to develop. So he had 2 years behind Quinn Es. He had 4 years as a high school star. He started as a freshman in high school down in New Orleans.And actually led as a freshman, as a 15 year old, led all New Orleans metro area high school quarterbacks in a touchdown passes. So, like he's just been this superstar for so long. Um, and so finally, right this weekend, we get to sort of see him, um, begin his starting tenure for Texas and it comes in an incredible matchup, right? Uh, basically 1 versus 2 in the, uh,In the coaches poll, uh, at Ohio State, um, defending national champs, Big 10 versus SEC, uh, Big Noon kickoff will be there. I mean, it's just like, it's an incredible stage for him to finally sort of get that start, and I think he's ready to go. I think that he seesUm, all of the praise that's heaped upon him. I mean, he's the, you know, he hasn't, he's thrown 95, I think college passes. Um, he's thrown 9 touchdowns in college, and he's the Heisman Trophy front runner right now. And so he sees that stuff and he's just ready, I think, to get going and sort of ready to face adversity. You know, he told a friend of his who then told me, uh, that Arch was ready to kind of make his first mistake.Um, so that he could show people that he's not perfect.\n\n5:01 spk_0\n\nYeah, that seems fair. I, I think a lot of people are expecting him to be perfect, but to your point, uh, this can be a bigger stage, and you mentioned Big Noon kickoff and all these. I want to talk about that for a second because you've had some information on this this week. It feels like there's a lot of, uh, rumors and speculation going around on what actually happened with uh Dave Portnoy, a new edition of Fox's broadcast team, uh, getting banned or not banned from the stadium. What can you tell us actually happened there?\n\n5:26 spk_1\n\nYeah, well, you know, and this was all announced in mid-July, uh, that Dave Portnoyia Barstool would be sort of joining Big Noon kickoff, um.There was a reaction from many people, I think, in the Big 10 of um sort of surprise, but uh also uh had, they had concerning feelings, uh, many of them in Columbus, and part of that obviously is Da Portnoy is a Michigan um alum, uh, a Michigan sort of booster involved in Michigan recruiting and uh sort of aConstant public critic of Michigan's rival, Ohio State. Um, and during the sign stealing, um, scandal, um, of 2023 with, with Michigan and Connor Stallions, he was very much a loud sort of critic of the Big 10 of the NCAA and of Ohio State's alleged role and all that. So I think there were some concerns from a lot of people in the Big 10 over Fox's decision.Uh, but mainly in Columbus. Um, and I think those concerns were expressed to to Fox over the last couple weeks, uh, and, uh, there was a decision made, whether it was Ohio State's or Fox's. I think there was a decision made that Dave Portnoy would not, um, be on the main stage. I don't know that he was was ever supposed to be on the main big new kickoff stage.Uh, but there was, the decision was made that he wouldn't be inside the stadium. So apparently, Big Noon kickoff starts, you know, outside of the stadium each Saturday and then they move inside in the final segments, and he will move inside, inside the, the stadium. Not only that, but according to the Big 10, he won't be moving inside of any stadium this year with Big Noon kickoff. Um, we'll see if that actually transpires or it's just at Ohio State, but clearly,Um, there's some friction between, uh, Fox's decision, um, with involving Dave Portnoy and sort of the Big 10 Conference and some of its members, namely Ohio State.\n\n7:38 spk_0\n\nYeah, very uh confusing and we'll see how it plays out. But lastly, I just want to get your quick opinion on what's going on with uh Bill Belichick UNC and doing this new series with, uh, with Hulu. I mean, it was announced earlier with Hard Knocks got taken off there, now it's Hulu. What are you hearing about how that deal ended up working out rather than being with Hard Knocks?\n\n7:55 spk_1\n\nYeah, you know, I'm not, uh, I'm not so sure on how that all like sort of unfolded. It's funny cause like right when we were, uh, I kind of joined you guys a little late because I was in the middle of writing a Bill Belichick story, um, that I posted Yahoo later this week. I spent, um, a few, uh, a day or so with him down there, um, got to talk to his sons, got to talk to him a little bit.See how the programs operating, got to meet with the Chancellor. It's pretty huge investment going on there, um, and Bill Belichick, and I think everybody there is sort of can't wait till the game arrives, so that all the off the field sort of drama, like maybe some of the Hulu stuff and obviously the girlfriend stuff andUm, why he was hired in the first place and the athletic director change over there. Um, it's just been a lot of off the field drama there. And, uh, so it feels like everybody's ready to, to kick it off and, and they do so against TCU Monday night.\n\n8:54 spk_0\n\nYeah, as a North Carolina native, I am certainly looking forward to uh to reading your story and watching that game, of course. Ross, thank you so much for joining us though.Yeah, no problem. Now we have to take a quick break, but coming up we've got Andrew Perlooff, one half of the Maggie and Perloff show on the Infinity Sports Network, stopping by to dish on the biggest headlines leading up to week one of the NFL season, including the wild conspiracies and discourse surrounding Cleveland Browns rookie quarterback Shado Sanders.Welcome back to Yahoo Finance Sports Report. I'm your host Joe Pompeano. We've made it to the one on one, a conversation where I get to break down news and sports with a key player in the industry. This week we're speaking with Andrew Perloff, co-host of the Maggie and Perloff show on the Infinity Sports Network. Andrew, thank you so much for joining us today. We got a lot to talk about, but I want to start with football and specifically the NFL. Uh, I've seen a lot of chatter over the last few weeks, and weTalked about this when you came on the show a few weeks ago, around Shadore Sanders. Look, he was drafted by the Cleveland Browns. He was their 3rd or 4th quarterback on the roster, depending on when you looked at it, potentially even 5th. And, uh, he played well the first preseason game, not as well the last time he was on the field. And, uh, there's been a lot of conspiracy theories thrown out there around sort of how the Browns have mismanaged his prep in the preseason.Uh, leaving them out to dry in the last game. Now, I don't necessarily believe some of this stuff, but I'd love to get your opinion on just sort of how you solve the whole situation unfold.\n\n10:24 spk_2\n\nYeah, it's unbelievable. When you mentioned Sanders' name, you can feel the attention coming back. He is a different player. It reminds me so much, Joe, Tim Tebow. When Tim Tebow was in the league, he's so popular that there there's electricity around him. Nowdora hasn't established himself in the NFL at all, uh, but Tebow really do much in the NFL either. I thought it was ridiculous. The conspiracy theories that the Browns, who drafted him in the 5th round, were at fault for not developing the right way. I think they wanted it.But they realize he is a 5th round pick and they want to go slowly. That I think, I mean, the way it's playing out is why I think some teams were afraid to draft him. There's just too much hype for a guy who was not a 1st round quarterback, and he was good in the first preseason game. He was not good in the 3rd preseason game, but preseason is overhyped anyway. So anytime Shido's name comes up, people go crazy, and I think it's just, it's really more about Shidoor than what we're actually seeing with the Cleveland Browns.\n\n11:20 spk_0\n\nYeah, it was interesting because everyone was talking about his offensive line, right, and how, you know, 4 of the 5 people got cut the next day or whatever it was. But if you look at what happened, it was really a continuation of what we saw in college too, where he was dropping back, holding on the ball way too long, and, you know, I'm a Giants fan, right? So their last preseason game against the Patriots, Tommy DeVito ends up getting cut, those 3 touchdowns with the backup offensive line, all those guys were cut the next day, right? So it it it's a, it's a difficult situation, but it happens and other guys deal with it.Um, I saw you write recently something on, uh, Jerry Jones of the Dallas Cowboys too, talking about the new documentary that's out on Netflix, America's Team, The Gambler, and his Cowboys. Now you wrote about some of the things that you didn't necessarily buy or believe from the documentary, maybe just walk me through a couple of those in your thesis behind that.\n\n12:04 spk_2\n\nWell, Jerry opens the documentary by saying, I'm a salesman. I can talk people to lending me money. You know, he has a loose relationship with the truth. It's not necessarily that he's lying, but a couple things. He inherited America's team. The documentary makes it seem like he created America's team. You have to realize that Roger Staubach and Tony Dorsett, and the Dallas Cowboys cheerleaders were a big part of this. They spent about 90 seconds on them in the documentary.The other thing is this idea that Jerry just wants to create a soap opera, that's convenient for Jerry when he hasn't won a Super Bowl in 30 years. I think some of that is an excuse for not winning a Super Bowl. So that part I didn't really buy. I that this is all part of the master plan for Jerry Jones. I don't think so. What I really think, Joe, the salary cap era is what hurt Jerry. It's even more so than firing Jimmy Johnson. They pay.A lot to get those championship teams. 1994, the cap comes in and you see how poorly they manage the cap nowadays. So I think that is the real enemy of Jerry Jones, and he does, he, at the end of the documentary, he brags about paying $375 million for Dak Prescott and CD Lamb. That's not what you brag about in today's NFL. You brag about spending smartly, and Jerry doesn't seem to get that message.\n\n13:14 spk_0\n\nYeah, I also think that maybe they potentially gave him, and I think you wrote about this piece too is like too much credit for the creation of the NFL. Uh, anyone that has followed the NFL sports business in general for a long time knows that Jerry Jones was certainly influential when it comes to TV rights, certainly, but also sponsorships. Uh, I think the NFL actually sued him at one point because they had a.With Coca-Cola or Pepsi or vice versa, and he did the opposite and basically said, you guys can't tell me who my sponsors are going to be. And that created this new business model that they run off of today with local sponsorship. So that was like huge and instrumental, but let's not act like football wasn't a popular sport, like it wasn't becoming more popular. There's other things that have helped as well. Is that sort of your feedback on that whole situation too?\n\n13:53 spk_2\n\nYeah.Well, yeah, it was really interesting. Rupert Murdoch called Jerry and said, I want to bring the NFL to Fox. I'm gonna make you an offer that the owners can't refuse. So Rupert Murdoch had the vision, and it's funny, Murdoch didn't even grow up a football fan. He had the vision as much as Jerry Jones or Moore. I think Jerry was the right person in the right place, head of that committee, and he did a great job. Don't want to take anything away from him. But come on,I agree. There were so many forces that were helping the NFL, uh, a lot of it having to do with TV and the sport itself. Jerry takes too much credit for everything, but he's a showman. I mean, uh, and I totally agree. Hall of Fame, I thought it was a little, a little premature to put him in. Honestly, I'm not sure he belongs in over, say, Robert Kraft, who is also head of several important committees as well.\n\n14:38 spk_0\n\nYeah, Robert Kraft seems to be uh trying to get in too, so we'll see what happens there. But um speaking of Jerry Jones, before we move off him, what do you think happens with Micah Parsons? I mean, this has been going on several months now. The Cowboys, you know, the coach and and Jerry Jones are acting like he's gonna play, he's acting like he's not gonna play, seems to be radio silent. What is your read on this?\n\n14:57 spk_2\n\nWell, I generally believe guys almost always play. There's exceptions like Chris Jones a couple of years ago. Now, the, the thing with Mikey, he cost himself over a million dollars a game, I believe, if he sits out. I think he plays. I think, you know, just like that Prescott, I think they might even reach a deal before the season starts. But the reality is, the game is, as we're taping a week away, I I think he's gonna be there. I think he'll show up and practice on Friday. We'll see. I could be proven wrong immediately. Uh, I think the.Cowboys are not relenting at all, and I'm not sure Michael Parsons has a choice. Now, will he be full strength if he does play? I doubt it. I don't think he'll play more than say 20s, 25 plays in the game, but I expect him to play because let's face it, that's how the NFL usually works.\n\n15:42 spk_0\n\nYeah, yeah, he's gonna be giving up a lot of money, which is ultimately why he's sitting out in the first place, so it doesn't really make a ton of sense, but we'll see. To your point, the Cowboys have gotten some deals done at the last minute before, so maybe this is another one of those. Uh, speaking of holdouts or hold-ins, uh, Trey Hendrickson with the Bengals, uh, they sort of found like a weird sort of in the middle agreement with him where they just gave him a raise for one year rather than extending him. What was your thought process on that like after all this time just to do that rather than uh either trading him or giving him a longer term extension?\n\n16:13 spk_2\n\nSo, that's exactly what I said on my show. I'm like, 2 years and you came up with this, a 1 year bump, and there's no guarantee. Now, I know the Bengals don't like to guarantee a second year, but he's gonna hit the free agent, uh, free agent market. They might get a 3rd round pick for all of this, and listen, he's over 30, but he's not that old. What does theBengals' defense had. We're talking about the Cowboys mismanaging the cap. The Bengals did invest a lot of T Higgins and Jamar Chase, and you'll love that if you're Joe Burrow, but look at the defense. A couple of years ago they let Jesse Bates go, a safety could be huge. They just make mistake after mistake. And this, the way they've handled this, it's the team. I don't blame Trey Andrickson, they have messed this up, and I don't think they're going to build a champion around Joe Burrow. And that's frustrating because he's a good enough quarterback to win a championship.\n\n16:56 spk_0\n\nYeah, it's sort of difficult to uh place all the blame on the defense too when Joe Burrow and his guys get paid all this money. The defense lets go of all these guys and then he's blaming about the defense sucks. It's kind of like, OK, well, uh, you can only pick and choose one side of the ball, I guess, butThat's how it works in today's modern NFL with the salary cap. Let's move on to college football though. Uh, we'll call week one starts this weekend, the big weekend. Uh, we got Texas, Ohio State, a bunch of other big games too, Clemson LSU. What are you watching just the first few weeks of, uh, college football to see who, uh, who's serious and sort of who the pretendersare?\n\n17:29 spk_2\n\nWell, I mean, most of the feedback we get is people want to see Arch Manning in Texas. So they'll get that opening day. You know, there's a lot of buzz around Clemson, um, on a radio show, we have some markets near there. They return to 80% of their starters, uh, which is the highest in FBS. Feels like, hey Club.It could be possibly the number one overall type quarterback. This could be the year and Dan A Sweeney, it's been a long time since they've been real contenders. I know they made the playoffs last year. So I feel like there's a lot of buzz around Clemson. I'm also really curious about the Notre Dame Miami game.It's like Notre Dame just gets gifted with their schedule into the playoff and their brand, but Miami with Carson Beck coming over, who's much maligned for a lot of reasons. They're a team that a lot of experts really like guys who really know the game are like watching out for Miami. So that's a game I'm watching and the team I'm watching over the first month.\n\n18:19 spk_0\n\nYeah, Miami seems like a really interesting one because to your point, I sort of, uh, almost wrote them off a little bit, just kind of how the season ended with Carson Beck at Georgia and uh Cam Ward obviously leaving, but like you said, everyone that I'm hearing is like, it's going really well in Miami right now, they look good, Carson Beck looks good, we'll see how that plays out, but what are your expectations for uh Arch Manning this year?\n\n18:41 spk_2\n\nI think he's gonna be good. Now, listen, a lot of people said he's only started two games. Why are we making the Heisman favorite? But first of all, we know about the last name. He's in the right offense. Steve Sarkeesian can do a lot with even a moderately talented quarterback. I think we saw enough of Arch to know that he has talent, and he has his legs as a backup. I'd be shocked if the bottom fell out. Uh, we've seen that before, uh, where highly, you know, big recruits have not worked out at all, and it's happened time and time again.I think we've seen enough from March, uh, to know that's not gonna happen. It's Texas is so good, they're gonna be able to run the ball, put him in good positions, and have a good line, and I think a guy like that, he'll be able to run if he has to. I have high expectations. I, I kind of think he'll stay for two years, but I think this team is going to be elite. I'm not guaranteeing a title, but I'd be, I'd be surprised if Texas wasn't in the playoffs, but I'd be shocked if Arch Manning didn't have a good season.\n\n19:33 spk_0\n\nYeah, same here. Speaking of uh going to the NFL draft or not, do you think they're basically just gonna wait till the end of the season and see who is, say he has a good year, right? Obviously this goes out the window if he has a bad year and he's not a contention for that top, you know, 2 or 3 picks, but you think they just wait and see sort of who has those picks, determine if it's a good organization then decide if he goes from there?\n\n19:53 spk_2\n\nIt could be, you know, his, uh, uncles both stayed in college for 4 years. I've been convinced he stayed for will stay for 4 years. Why would he wait there for 2 years just to play 1 more year? Here's the thing, if they don't win the title, I think, here's my prediction, they don't win the title, he'll come back for unfinished business. I think he wants to win in Texas. I think he loves being in college, and who wouldn't love being in Austin? I I'd expect him, I would bet 2 years, unless they win the title, then definitely won.\n\n20:21 spk_0\n\nYeah, I just liked when they asked him about a media day. He said, I don't know where he got that from. I didn't tell him that, but uh it seemed like a little bit of a joke in jest, but this is awesome, Andrew, thank you so much for joining us today.\n\n20:33 spk_2\n\nAnytime, Joe, thank you.\n\n20:36 spk_0\n\nThe clock is winding down here, but we have just enough time for some final buzz. Last weekend, Kevin O'Leary made his next big investment, and no, it wasn't on Shark Tank, and it doesn't include a royalty deal. The Canadian entrepreneur known as Mr. Wonderful revealed on CNBC's Squawk Box this past Monday that he was part of a trio that paid a record $12.9 million for the Michael Jordan and Kobe Bryant 2007-08 upper deck exquisite collection dual Logerman autograph patch card. This past weekend through Heritage Auctions. O'Leary bought the card with his business partner.Paul Warshaw and Matt Allen, who is known in the collectible space on social media as Shine 150. The special Jordan Bryant card heavily beat the previous record for the most expensive trading cards sold at auction, which was a 1952 Topps Mickey Mantle 311 card that sold for $12.6 million in August 2022. O'Leary Warshaw Al's nearly $13 million purchase of the Jordan Bryant card demonstrates the continued rise of collectibles as an asset class, which has shown no signs of slowing down since this boom after the start of the COVID-19 pandemic.Additionally, O'Leary told CNBC that the Jordan Bryant card will be part of an index that he'll grow along with his partners, that they have seen trading cards no different than their Bitcoin holdings, Ethereum Holdings, and gold holdings. However, beyond the massive price for the card, buying it didn't come easy. O'Leary said on Squawk box that he, Warsaw, and Allen met on a 3 a.m. Zoom call to finalize the purchase of the card. And don't expect to see the Jordan Bryant card back up for auction anytime soon. O'Leary told CNBC that he doesn't expect the card to go back on the market during his lifetime.So if you have some extra cash laying around for a sports car that you want to buy, maybe try giving Mr. Wonderful a call.We're all out of time, so it's officially game over for this week. Thank you so much to Ross, Andrew, and all of you for joining us. Please make sure to scan the QR code below to follow Yahoo Finance podcasts, more videos and expert insights, and catch us every Friday wherever you get your podcast. I'm your host, Joe Pomliano. See you next time.\n\n22:34 spk_3\n\nThis content was not intended to be financial advice and should not be used as a substitute for professional financial services.  Related Videos\n\n01:08\n\nFed's Waller on Inflation: 'I'm Back on Team Transitory'\n\nBloomberg • yesterday 06:18\n\nCadillac to Debut at F1\n\nBloomberg • 3 days ago\n\nYahoo Finance Sports Report is developed and produced by Lauren Pokedoff.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:00:24+00:00",
+            "title": "Catalyst Watch: Broadcom earnings, Samsung reveal, Roblox event and football betting blitz",
+            "content": "[Office building top view background in retro style colors. Manhattan buildings of New York City center - Wall street]\ndell640\n\nWelcome to Seeking Alpha's Catalyst Watch - a breakdown of some of next week's actionable events that stand out. Read more about the events that may impact stock prices next week.\n\nMONDAY - SEPTEMBER 1\n\n \t* ALL DAY - U.S. markets will be closed for observance of the Labor Day holiday. \n \t* DIVIDEND WATCH - Companies that have an ex-dividend date coming next week include Realty Income (O [https://seekingalpha.com/symbol/O]), Lockheed Martin (LMT [https://seekingalpha.com/symbol/LMT]), McDonald’s (MCD [https://seekingalpha.com/symbol/MCD]), Nike (NKE [https://seekingalpha.com/symbol/NKE]), and Bank of America (BAC [https://seekingalpha.com/symbol/BAC]).\n \t* DATA REPORTS - Chinese automakers Nio (NIO [https://seekingalpha.com/symbol/NIO]), XPeng (XPEV [https://seekingalpha.com/symbol/XPEV]), Li Auto (LI [https://seekingalpha.com/symbol/LI]), ZEEKR Intelligent (ZK [https://seekingalpha.com/symbol/ZK]), and BYD Company (OTCPK:BYDDF [https://seekingalpha.com/symbol/BYDDF]) will issue their August deliveries reports. The Macau gross gaming report for August is also due to be released.\n\nTUESDAY - SEPTEMBER 2\n\n \t* VOLATILITY WATCH - Hertz Global (HTZ [https://seekingalpha.com/symbol/HTZ]) and Beyond Meat (BYND [https://seekingalpha.com/symbol/BYND]) head into next week on the radars of short traders again. aTyr Pharma (ATYR [https://seekingalpha.com/symbol/ATYR]) and Offerpad Solutions (OPAD [https://seekingalpha.com/symbol/OPAD]) are set up for a volatile week of trading based on options volume. The most overbought stocks per their 14-day relative strength index include Dogwood State Bank (OTCQX:DSBX [https://seekingalpha.com/symbol/DSBX]), Avidia (AVBC [https://seekingalpha.com/symbol/AVBC]), and Wheels Up (UP [https://seekingalpha.com/symbol/UP]). The most oversold stocks per their 14-day relative strength index include Gold Reserve Ltd. (OTCQX:GDRZF [https://seekingalpha.com/symbol/GDRZF]), Hormel (HRL [https://seekingalpha.com/symbol/HRL]), and K. Wave Media (KWM [https://seekingalpha.com/symbol/KWM]).\n \t* ALL WEEK - The conference season heats up with the Wells Fargo Healthcare Conference, Jefferies Industrials Conference, and UBS Global Materials Conference all taking place.\n \t* EARNINGS WATCH - Notable companies due to report include Zscaler (ZS [https://seekingalpha.com/symbol/ZS]), NIO (NIO [https://seekingalpha.com/symbol/NIO]), and Signet Jewelers (SIG [https://seekingalpha.com/symbol/SIG]).\n \t* IPO WATCH - The public launch of Hong Kong mortgage fintech name FG Holdings (FGO [https://seekingalpha.com/symbol/FGO]) is the only IPO on the calendar for next week. The quiet periods expire on Firefly Aerospace (FLY [https://seekingalpha.com/symbol/FLY]), Heartflow (HTFL [https://seekingalpha.com/symbol/HTFL]), and Whitefiber (WYFI [https://seekingalpha.com/symbol/WYFI]) to free up analysts to post ratings.\n \t* ALL DAY - The three-day Commercial UAV Expo will begin in Las Vegas. The conference is considered the leading international trade show and conference dedicated to commercial unmanned aerial systems. Workhorse Group (WKHS [https://seekingalpha.com/symbol/WKHS]), Sony (SONY [https://seekingalpha.com/symbol/SONY]), Trimble (TRMB [https://seekingalpha.com/symbol/TRMB]), KULR Technology Group (KULR [https://seekingalpha.com/symbol/KULR]) and Teledyne (TDY [https://seekingalpha.com/symbol/TDY]) are some of the companies scheduled to participate.\n \t* ALL DAY - Lucid Group (LCID [https://seekingalpha.com/symbol/LCID]) will begin trading on a split-adjusted basis after the company's 1-for-10 reverse stock split.\n\nWEDNESDAY - SEPTEMBER 3\n\n \t* EARNINGS WATCH - Notable companies due to report include Salesforce (CRM [https://seekingalpha.com/symbol/CRM]), Figma (FIG [https://seekingalpha.com/symbol/FIG]), Hewlett Packard Enterprise (HPE [https://seekingalpha.com/symbol/HPE]), Dollar Tree (DLTR [https://seekingalpha.com/symbol/DLTR]), Macy's (M [https://seekingalpha.com/symbol/M]), Campbell's (CPB [https://seekingalpha.com/symbol/CPB]), and Credo (CRDO [https://seekingalpha.com/symbol/CRDO]). Options trading implies a double-digit move for Tilly's (TLYS [https://seekingalpha.com/symbol/TLYS]) and Asana (ASAN [https://seekingalpha.com/symbol/ASAN]) after their earnings are released.\n \t* ALL DAY - The three-day HubSpot Inbound Conference will begin. Hubspot (HUBS [https://seekingalpha.com/symbol/HUBS]) CEO Yamini Rangan and Anthropic CEO Dario Amodei are two of the notable speakers.\n \t* 3:30 A.M. European Central Bank Christine Lagarde will speak at the 9th ESRB Conference.\n \t* 9:00 A.M. St. Louis Federal Reserve Bank President Alberto Musalem will participate in a conversation on the U.S. economy and monetary policy before the Peterson Institute for International Economics.\n \t* 10:10 A.M. Peloton Interactive (PTON [https://seekingalpha.com/symbol/PTON]) CFO Liz Coddington will participate in a fireside chat at the Citi Global TMT Conference.\n \t* 2:00 P.M. The Federal Reserve will release its Beige Book Report. The report will summarize current economic conditions across the Fed's districts.\n\nTHURSDAY - SEPTEMBER 4\n\n \t* EARNINGS WATCH - Notable companies due to report include Broadcom (NASDAQ:AVGO [https://seekingalpha.com/symbol/AVGO]), Lululemon Athletica (LULU [https://seekingalpha.com/symbol/LULU]), Samsara (IOT [https://seekingalpha.com/symbol/IOT]), Docusign (DOCU [https://seekingalpha.com/symbol/DOCU]), and Ciena (CIEN [https://seekingalpha.com/symbol/CIEN]). Options trading implies a double-digit move for Duluth Holdings (DLTH [https://seekingalpha.com/symbol/DLTH]) and Guidewire Software (GWRE [https://seekingalpha.com/symbol/GWRE]) after their earnings are released.\n \t* ALL DAY - Samsung (OTCPK:SSNLF [https://seekingalpha.com/symbol/SSNLF]) will hold its Galaxy Unpacked event to reveal the Galaxy S25 FE smartphone and the Galaxy Tab S11 series. The event is also anticipated to focus heavily on Galaxy AI advancements and the tech giant's premium tablets.\n \t* 8:15 A.M. Procter & Gamble (PG [https://seekingalpha.com/symbol/PG]) will present at the Barclays Global Consumer Staples Conference.\n \t* 8:15 A.M. Analog Devices (ADI [https://seekingalpha.com/symbol/ADI]) Chief Financial Officer Richard Puccio will discuss business topics and trends at Citi's 2025 Global TMT Conference.\n \t* 2:50 P.M. Coinbase Global (COIN [https://seekingalpha.com/symbol/COIN]) CFO Alesia Haas will participate in a fireside chat at the Citi Global TMT Conference.\n \t* 7:00 P.M. Chicago Federal Reserve Bank President Austan Goolsbee will participate in moderated Q&A before the mHub Industry Disruptor Series event.\n \t* 8:20 P.M. The NFL season will begin with the Dallas Cowboys playing defending Super Bowl champion Philadelphia Eagles. Americans are expected to place an estimated $30 billion in legal sports bets on the upcoming 2025 NFL season through U.S. sportsbooks such as DraftKings (DKNG [https://seekingalpha.com/symbol/DKNG]), FanDuel (FLUT [https://seekingalpha.com/symbol/FLUT]), and BetMGM (MGM [https://seekingalpha.com/symbol/MGM]) (OTCPK:GMVHF [https://seekingalpha.com/symbol/GMVHF]).\n\nFRIDAY - SEPTEMBER 5\n\n \t* 8:30 A.M. The August Jobs Report will be released. Economists forecast that nonfarm payrolls will rise by about 78,000 jobs for August, which is in line with July and well below the three-month average of 123,000 a year ago. The unemployment rate is seen rising to 4.3%.\n \t* ALL DAY - The Roblox (RBLX [https://seekingalpha.com/symbol/RBLX]) Developer Conference will take place in San Jose, California. The event is considered significant for investors due to the potential for announcements on new platform features, monetization tools, and developer incentives.\n \t* ALL DAY - Shareholders of Zeekr Intelligent Technology Holding (ZK [https://seekingalpha.com/symbol/ZK]) will vote on the merger agreement with Geely Automobile Holdings (OTCPK:GELYF [https://seekingalpha.com/symbol/GELYF]) and a Geely-controlled subsidiary called Keystone Mergersub. Under the deal, Keystone Mergersub will merge into Zeekr, making Zeekr a wholly owned subsidiary of Geely.\n \t* ALL DAY - The United Nations will release its latest FAO food price index and monthly grains report, which are watched by commodities traders.\n\nMORE ON THE MARKETS \n\n \t* Who's In Charge Of The U.S. Economy (If Not The Fed)? [https://seekingalpha.com/article/4817895-whos-in-charge-of-us-economy-if-not-fed]\n \t* The Liquidity Drain Could Be About To Hit Markets [https://seekingalpha.com/article/4817881-the-liquidity-drain-could-be-about-to-hit-markets]\n \t* Inflation Revival: Tariffs Start Hitting Consumers Directly Today [https://seekingalpha.com/article/4817871-inflation-revival-tariffs-start-hitting-consumers-directly-today]\n \t* Lisa Cook hints at clerical error in mortgage dispute; new criminal referral filed [https://seekingalpha.com/news/4490272-fed-lisa-cook-lawsuit-mortgage-dispute-criminal-referral]\n \t* Fed's Waller repeats call for 25-bp rate cut, sees more easing over next 3-6 months [https://seekingalpha.com/news/4490271-federal-reserve-waller-interest-rate-cut-outlook]\n\n ",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T17:46:22+00:00",
+            "title": "Crocs (CROX) Stock Trades Up, Here Is Why",
+            "content": "What Happened?\n\nShares of footwear company Crocs (NASDAQ:CROX) jumped 0.3% in the morning session after the company announced the appointment of a new Chief Financial Officer and reaffirmed its third-quarter financial guidance.\n\nThe footwear maker named Patraic Reagan as its new Executive Vice President and CFO, effective September 22, 2025. Reagan brings nearly 30 years of experience, having previously served as CFO at SharkNinja and holding various senior financial roles during a 14-year tenure at Nike. He succeeds Susan Healy, who will remain as an advisor until October 31, 2025, to ensure a smooth transition. Crucially for investors, Crocs explicitly reaffirmed its Q3 2025 outlook, signaling that the leadership change is not expected to disrupt business operations or financial performance.\n\nAfter the initial pop the shares cooled down to $87.81, up 1.8% from previous close.\n\nIs now the time to buy Crocs? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nCrocs’s shares are quite volatile and have had 16 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe previous big move we wrote about was 7 days ago when the stock gained 3.2% on the news that the major indices rebounded, as Fed Chair Jerome Powell delivered dovish remarks at the much-awaited Jackson Hole symposium. Powell suggested that with inflation risks moderating and unemployment remaining low, the Federal Reserve might consider a shift in its monetary policy stance, including potential interest rate cuts. This outlook eased market concerns about prolonged high interest rates and their impact on economic growth. The prospect of lower borrowing costs bolstered investor confidence, particularly in sectors that have lagged, leading to a broad rally across the market.\n\nCrocs is down 20.2% since the beginning of the year, and at $87.81 per share, it is trading 40.4% below its 52-week high of $147.40 from September 2024. Investors who bought $1,000 worth of Crocs’s shares 5 years ago would now be looking at an investment worth $2,200.\n\nHere at StockStory, we certainly understand the potential of thematic investing. Diverse winners from Microsoft (MSFT) to Alphabet (GOOG), Coca-Cola (KO) to Monster Beverage (MNST) could all have been identified as promising growth stories with a megatrend driving the growth. So, in that spirit, we’ve identified a relatively under-the-radar profitable growth stock benefiting from the rise of AI, available to you FREE via this link.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T16:11:51+00:00",
+            "title": "Former Nike Exec Patraic Reagan Named Incoming CFO at Crocs",
+            "content": "Crocs Inc. is in CFO-transition mode.\n\nThe footwear firm said on Thursday that Patraic Reagan is its new CFO, taking over for Susan Healy, who submitted her resignation on Thursday. Reagan, 53, will join Crocs on Sept. 22 and will report directly to the company’s CEO Andrew Rees. He most recently served as CFO for SharkNinja Inc., and before that was at Nike Inc.\n\nMore from WWD\n\nRussell & Bromley Name Billie Piper as First Campaign Face JD Sports Sees 'Improved Performance' in North America, Credits New Shoe Launches Zoë Kravitz Picks Ballerina Flats to Round Out Delicate Summer Ensemble at 'Caught Stealing' London Photo Call\n\nA regulatory filing with the Securities and Exchange Commission (SEC) noted that he held several leadership roles at Nike. Those roles include vice president and CFO for Asia Pacific and Latin America, from February 2022 to April 2024; vice president of global business planning from July 2020 to February 2022, and senior director of business planning in North America from March 2018 to June 2020.\n\n“Patraic is a seasoned financial professional with a strong public profile and a track record of delivering consistent, profitable growth,” Rees said. “We believe his consumer-centric mindset, robust financial experience in the footwear industry and his international expertise will complement our leadership team in driving long-term shareholder value.”\n\n“Crocs, Inc. is a company that I have long admired — one whose profitable growth has been built on an enduring cultural icon and one where I see untapped potential across both the Crocs and Hey Dude brands,” Reagan stated. “Drawing from my global experience of leading high-growth brands through disciplined execution, I look forward to working alongside the talented leadership team to unlock shareholder value and drive consistent results for years to come.”\n\nReagan’s responsibilities include oversight of the company’s financial strategies, as well as financial planning and analysis, accounting, treasury, investor relations, tax and internal audit.\n\nThe SEC filing included the terms of Reagan’s offer letter, which stated a base salary of $750,000 per year and eligibility to participate in Crocs’ annual bonus plan. He also can participate in the firm’s long-term incentive plan in 2026, and will receive a sign-on bonus of $800,000 that’s connected to certain conditions. Reagan also will receive a $3.5 million equity grant of time-based restricted stock units that will vest in five parts ranging from as early as six months from the start date and as far out as 36 months, also provided certain conditions are met.\n\nRees on Thursday also thanked Healy for her contributions. Healy will stay on as an advisor through Oct. 31, 2025, and be eligible for a payment of $25,000 on Sept. 5, 2025, and $50,000 on Oct. 3, 2025, subject to continued employment on each payment date.\n\nAs part of her separation agreement, Healy agreed to a 24-month non-compete term, along with a 24-month period of non-solicitation of Crocs’ employees. She also is entitled to a lump sum payment of $400,000, less certain amounts for taxes and withholdings, which is net of a required reimbursement to Crocs for funds spent on her relocation benefits. Healy was named executive vice president and CFO in May 2024 — succeeding former CFO Anne Mehlman when she was named president of the Crocs brand — and joined the company one month later.\n\nThe Crocs brand last month opened its new “Icon” store concept in New York’s SoHo neighborhood at 543 Broadway. Spanning the length of an entire city block, the store allows for immersive storytelling, hosting of shopping events to create experiential theater for the brand, and features two counters for Crocs’ Jibbitz™ charms to give customers a chance to personalize their purchases.\n\nEarlier this month, the casual footwear firm posted solid second quarter earnings results, although it remained cautious on consumer spending on its Crocs and Hey Dude shoes due to the potential impact from tariffs.\n\nAnd separately, also earlier this month, the company named Millie Bobby Brown as the Crocs’ brand’s new global ambassador.\n\nBest of WWD\n\nAll the Retailers That Nike Left and Then Went Back Mikey Madison's Elegant Red Carpet Shoe Style [PHOTOS] Julia Fox's Sleekest and Boldest Shoe Looks Over the Years [Photos]\n\nSign up for FN's Newsletter. For the latest news, follow us on Facebook, Twitter, and Instagram.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Nike Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Footwear & Accessories",
+          "employees": 77800,
+          "description": "NIKE, Inc., together with its subsidiaries, designs, develops, markets, and sells athletic and casual footwear, apparel, equipment, accessories, and services for men, women, and kids in North America, Europe, the Middle East, Africa, Greater China, the Asia Pacific, and Latin America. The company of"
+        },
+        "financial_metrics": {
+          "eps_ttm": 2.16,
+          "profit_margin": 0.0695,
+          "operating_margin": 0.0289,
+          "roe": 0.2329,
+          "roa": 0.062,
+          "revenue_growth_yoy": -0.12,
+          "earnings_growth_yoy": -0.862,
+          "eps_estimate_current_year": 2.1498,
+          "eps_estimate_next_year": 1.8652,
+          "dividend_yield": 0.0201,
+          "dividend_per_share": 1.57,
+          "revenue_ttm": 46308999168,
+          "revenue_per_share": 31.187,
+          "most_recent_quarter": "2025-05-31"
+        },
+        "valuation": {
+          "pe_ratio": 35.8194,
+          "forward_pe": 45.6621,
+          "price_to_sales": 2.4675,
+          "price_to_book": 8.7096,
+          "enterprise_value": 116947320095,
+          "ev_to_revenue": 2.5254,
+          "ev_to_ebitda": 25.9307
+        },
+        "technical_data": {
+          "beta": 1.276,
+          "52_week_high": 89.1136,
+          "52_week_low": 51.9349,
+          "50_day_ma": 73.6046,
+          "200_day_ma": 70.4149,
+          "short_interest": 0.045,
+          "short_ratio": 3.94
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.6,
+          "forward_dividend_yield": 0.0205,
+          "payout_ratio": 0.7407,
+          "dividend_date": "2025-10-01",
+          "ex_dividend_date": "2025-09-02",
+          "last_split_date": "2015-12-24",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7073,
+          "target_price": 78.9094,
+          "strong_buy": 13,
+          "buy": 6,
+          "hold": 20,
+          "sell": 1,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 1188019968,
+          "percent_institutions": 84.138,
+          "percent_insiders": 1.399,
+          "shares_float": 1170505094
+        },
+        "balance_latest_sheet": {
+          "total_assets": 36579.0,
+          "total_debt": 11018.0,
+          "cash_and_equivalents": 7464.0,
+          "net_debt": 3554.0,
+          "working_capital": 12796.0,
+          "shareholders_equity": 13213.0,
+          "quarter_date": "2025-05-31",
+          "debt_to_equity": 0.83
+        },
+        "income_latest_statement": {
+          "total_revenue": 11097.0,
+          "gross_profit": 4469.0,
+          "operating_income": 321.0,
+          "net_income": 211.0,
+          "ebitda": 318.0,
+          "quarter_date": "2025-05-31",
+          "gross_margin": 40.27,
+          "operating_margin": 2.89,
+          "net_margin": 1.9
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 463.0,
+          "free_cash_flow": 363.0,
+          "capex": 100.0,
+          "net_income": 211.0,
+          "cash_change": -1137.0,
+          "dividends_paid": -591.0,
+          "quarter_date": "2025-05-31"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-08-31",
+            "estimate": 0.27,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-08-31"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 72.93,
+            "high": 74.81,
+            "low": 72.91,
+            "close": 74.02,
+            "volume": 12743900
+          },
+          {
+            "date": "2025-07-22",
+            "open": 74.07,
+            "high": 75.54,
+            "low": 74.04,
+            "close": 75.39,
+            "volume": 11297500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 76.15,
+            "high": 77.21,
+            "low": 75.82,
+            "close": 76.75,
+            "volume": 16428100
+          },
+          {
+            "date": "2025-07-24",
+            "open": 76.51,
+            "high": 77.54,
+            "low": 75.41,
+            "close": 75.42,
+            "volume": 10037800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 75.91,
+            "high": 76.57,
+            "low": 75.53,
+            "close": 76.27,
+            "volume": 7208400
+          },
+          {
+            "date": "2025-07-28",
+            "open": 79,
+            "high": 79.99,
+            "low": 77.56,
+            "close": 79.24,
+            "volume": 22631100
+          },
+          {
+            "date": "2025-07-29",
+            "open": 78.76,
+            "high": 79.37,
+            "low": 77.76,
+            "close": 78.33,
+            "volume": 12885500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 77.78,
+            "high": 78.3,
+            "low": 75.96,
+            "close": 76.68,
+            "volume": 14601700
+          },
+          {
+            "date": "2025-07-31",
+            "open": 76.35,
+            "high": 76.4,
+            "low": 74.31,
+            "close": 74.69,
+            "volume": 16700000
+          },
+          {
+            "date": "2025-08-01",
+            "open": 73.44,
+            "high": 74.7,
+            "low": 72.53,
+            "close": 74.62,
+            "volume": 11911600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 75.03,
+            "high": 75.26,
+            "low": 74.16,
+            "close": 74.82,
+            "volume": 8839000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 74.91,
+            "high": 75.71,
+            "low": 74.24,
+            "close": 74.38,
+            "volume": 6533800
+          },
+          {
+            "date": "2025-08-06",
+            "open": 74.47,
+            "high": 75.98,
+            "low": 74.25,
+            "close": 75.48,
+            "volume": 7579800
+          },
+          {
+            "date": "2025-08-07",
+            "open": 76.32,
+            "high": 76.35,
+            "low": 74,
+            "close": 74.35,
+            "volume": 8717600
+          },
+          {
+            "date": "2025-08-08",
+            "open": 74.2,
+            "high": 74.96,
+            "low": 73.39,
+            "close": 74.19,
+            "volume": 6739000
+          },
+          {
+            "date": "2025-08-11",
+            "open": 74.32,
+            "high": 74.79,
+            "low": 73.05,
+            "close": 74.02,
+            "volume": 6985700
+          },
+          {
+            "date": "2025-08-12",
+            "open": 74.72,
+            "high": 75.72,
+            "low": 74.34,
+            "close": 74.9,
+            "volume": 6397700
+          },
+          {
+            "date": "2025-08-13",
+            "open": 75.48,
+            "high": 77.69,
+            "low": 75.19,
+            "close": 77.2,
+            "volume": 13472600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 75.91,
+            "high": 76.6,
+            "low": 75.35,
+            "close": 76.39,
+            "volume": 7990500
+          },
+          {
+            "date": "2025-08-15",
+            "open": 76.74,
+            "high": 77.5,
+            "low": 76.16,
+            "close": 76.97,
+            "volume": 9767700
+          },
+          {
+            "date": "2025-08-18",
+            "open": 77.11,
+            "high": 78.26,
+            "low": 76.85,
+            "close": 77.43,
+            "volume": 9069100
+          },
+          {
+            "date": "2025-08-19",
+            "open": 78.2,
+            "high": 78.79,
+            "low": 76.68,
+            "close": 76.88,
+            "volume": 7684800
+          },
+          {
+            "date": "2025-08-20",
+            "open": 76.69,
+            "high": 77.56,
+            "low": 76.16,
+            "close": 76.26,
+            "volume": 6282600
+          },
+          {
+            "date": "2025-08-21",
+            "open": 75.7,
+            "high": 76.23,
+            "low": 75.13,
+            "close": 76.18,
+            "volume": 6354900
+          },
+          {
+            "date": "2025-08-22",
+            "open": 76.54,
+            "high": 79.14,
+            "low": 76.25,
+            "close": 78.38,
+            "volume": 10985900
+          },
+          {
+            "date": "2025-08-25",
+            "open": 78.47,
+            "high": 80.17,
+            "low": 78.39,
+            "close": 79.17,
+            "volume": 12488900
+          },
+          {
+            "date": "2025-08-26",
+            "open": 79,
+            "high": 79.48,
+            "low": 78.38,
+            "close": 78.65,
+            "volume": 6874800
+          },
+          {
+            "date": "2025-08-27",
+            "open": 78.96,
+            "high": 79.51,
+            "low": 77.65,
+            "close": 78.06,
+            "volume": 12636700
+          },
+          {
+            "date": "2025-08-28",
+            "open": 78.58,
+            "high": 78.66,
+            "low": 77.72,
+            "close": 77.92,
+            "volume": 7478600
+          },
+          {
+            "date": "2025-08-29",
+            "open": 77.75,
+            "high": 79.13,
+            "low": 77.12,
+            "close": 77.37,
+            "volume": 14204300
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 3.6853390511927095,
+        "return_63d": 25.66184830274485,
+        "pct_above_sma50": 4.608054428096677,
+        "sma_50": 73.9618,
+        "new_55d_high": "False",
+        "high_55d": 80.17,
+        "rsi": 65.1309846431798,
+        "rsi_in_range": "True",
+        "adx": 33.26879481676961,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.219852656068246,
+        "bb_width": 8.433319530733032,
+        "keltner_width": 8.978533854648823,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 676903590.0,
+        "adv_shares": 8854200.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 53.155980715732156,
+        "final_score": 48.155980715732156,
+        "sub_scores": {
+          "trend_momentum": 18.881589876037484,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.27439083969467,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 3.5881644129066803,
+          "ret_63d": 27.694338999834955,
+          "rsi14": 65.1309846431798,
+          "adx14": 30.574295813090067,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: NKE\n• Current Price: $77.37\n• Overall Score: 57.92192307692308\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 73.6046\n• Sma 200: 70.4149\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 3.58816441290669\n• Momentum 63D: 27.694338999834955\n• Momentum 126D: -2.5934785345587335\n• Momentum Acceleration: -24.106174586928265\n• Roc 21D: 3.58816441290669\n• Trend Strength 20D: 0.7012587829630158\n• Trend Direction: 1\n• Ma Ribbon Score: 71.80924918014409\n• Breakout Strength: 0.0\n• Price Velocity: -0.00256852915066732\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 12.0\n• Squeeze Momentum: 0.1015556401739452\n• Volatility Compression: 66.5\n• Is Consolidating: False\n• Breakout Score: 1.2320883648852217\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 18.881589876037484\n• Squeeze Breakout: 4.0\n• Options Quality: 19.27439083969467\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 67.0\n• Momentum: 64.0\n• Squeeze: 64.975\n• Options: 43.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: NKE\n• Strike Price: $75\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.5\n• Ask: $6.6\n• Last: $6.54\n• Mid: $6.55\n• Spread: 1.515151515151515151515151515%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6173\n• Gamma: 0.0293\n• Theta: -0.0341\n• Vega: 0.1417\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3505\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 179\n• Open Interest: 1215\n• Volume/OI Ratio: 0.14732510288065845\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Nike Inc\n• Sector: Consumer Cyclical\n• Industry: Footwear & Accessories\n• EPS (TTM): $2.16\n• Profit Margin: 7.0%\n• ROE: 23.3%\n• P/E Ratio: 35.8\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T19:43:26+00:00: Noteworthy Friday Option Activity: NKE, CMA, MCD...\n• 2025-08-29T19:00:56+00:00: American Eagle stock rises following Travis Kelce clothing collab...\n• 2025-08-29T19:00:24+00:00: Catalyst Watch: Broadcom earnings, Samsung reveal, Roblox event and football bet...\n• 2025-08-29T17:46:22+00:00: Crocs (CROX) Stock Trades Up, Here Is Why...\n• 2025-08-29T16:11:51+00:00: Former Nike Exec Patraic Reagan Named Incoming CFO at Crocs...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-08-31\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR NKE\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the NKE opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:18:42.443941",
+    "estimated_tokens": 2315
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"NKE\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 22,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"NKE shows moderate technical strength with price above both SMAs and positive momentum indicators, but faces near-term headwinds with decelerating momentum and imminent earnings. Options positioning shows decent liquidity and reasonable spreads, though volatility metrics suggest cautious positioning is warranted.\",\n    \"opportunities\": [\n        \"Price trending above both 50 SMA (73.60) and 200 SMA (70.41)\",\n        \"Strong MA Ribbon Score of 71.81 indicating solid trend structure\",\n        \"Multi-timeframe squeeze setup with 3 concurrent squeezes active\"\n    ],\n    \"risks\": [\n        \"Negative momentum acceleration (-24.11) showing potential trend weakness\",\n        \"Imminent earnings release on 8/31/2025 creates significant event risk\",\n        \"Relatively high P/E ratio of 35.8x suggests elevated valuation\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call spread using $75 strike as lower leg given 0.62 delta and reasonable spread of 1.52%\",\n        \"entry_timing\": \"Defer entry until after earnings report given imminent release\",\n        \"risk_management\": \"Consider vertical spread to reduce cost basis and limit volatility exposure given 0.14 vega\"\n    },\n    \"red_flags\": [\n        \"Earnings release in 2 days presents immediate binary risk\",\n        \"Momentum acceleration turning negative suggests potential trend weakness\"\n    ],\n    \"notes\": \"While technical setup shows promise with squeeze conditions and trend structure, imminent earnings and momentum concerns warrant reduced position sizing and hedged approach\"\n}",
+    "parsed_analysis": {
+      "symbol": "NKE",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 22,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "NKE shows moderate technical strength with price above both SMAs and positive momentum indicators, but faces near-term headwinds with decelerating momentum and imminent earnings. Options positioning shows decent liquidity and reasonable spreads, though volatility metrics suggest cautious positioning is warranted.",
+      "opportunities": [
+        "Price trending above both 50 SMA (73.60) and 200 SMA (70.41)",
+        "Strong MA Ribbon Score of 71.81 indicating solid trend structure",
+        "Multi-timeframe squeeze setup with 3 concurrent squeezes active"
+      ],
+      "risks": [
+        "Negative momentum acceleration (-24.11) showing potential trend weakness",
+        "Imminent earnings release on 8/31/2025 creates significant event risk",
+        "Relatively high P/E ratio of 35.8x suggests elevated valuation"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call spread using $75 strike as lower leg given 0.62 delta and reasonable spread of 1.52%",
+        "entry_timing": "Defer entry until after earnings report given imminent release",
+        "risk_management": "Consider vertical spread to reduce cost basis and limit volatility exposure given 0.14 vega"
+      },
+      "red_flags": [
+        "Earnings release in 2 days presents immediate binary risk",
+        "Momentum acceleration turning negative suggests potential trend weakness"
+      ],
+      "notes": "While technical setup shows promise with squeeze conditions and trend structure, imminent earnings and momentum concerns warrant reduced position sizing and hedged approach"
+    },
+    "tokens_used": 2578,
+    "cost": 0.02578,
+    "response_time": 9.890546560287476,
+    "success": true
+  },
+  "cost": 0.02578,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8465,
+    "response_length": 1849
+  }
+}

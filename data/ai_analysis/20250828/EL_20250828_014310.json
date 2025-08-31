@@ -1,0 +1,626 @@
+{
+  "success": true,
+  "symbol": "EL",
+  "timestamp": "2025-08-28T01:43:10.204769",
+  "data_package": {
+    "metadata": {
+      "symbol": "EL",
+      "package_timestamp": "2025-08-28T01:43:00.120764",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "EL",
+        "current_price": 92.61,
+        "overall_score": 52.441923076923075,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 86.6016,
+        "sma_200": 73.2375
+      },
+      "momentum_metrics": {
+        "momentum_21d": 1.3238512035010872,
+        "momentum_63d": 39.74649162516977,
+        "momentum_126d": 26.378275109170303,
+        "momentum_acceleration": -38.42264042166868,
+        "roc_21d": 1.3238512035010872,
+        "trend_strength_20d": 0.13710713147470985,
+        "trend_direction": 1,
+        "ma_ribbon_score": 83.40945626122054,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.01385274593494954
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 15.0,
+        "squeeze_momentum": -0.21509311715984583,
+        "volatility_compression": 10.5,
+        "is_consolidating": "False",
+        "breakout_score": 41.47197715601165,
+        "multi_timeframe_squeeze_count": 3
+      },
+      "quantitative_scores": {
+        "trend_momentum": 17.404738522377908,
+        "squeeze_breakout": 4.0,
+        "options_quality": 17.256433967046878,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 60.0,
+        "momentum": 55.0,
+        "squeeze": 56.575,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 5,
+        "percentile": 99.7
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "EL",
+        "strike_price": "90",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "6.5",
+        "ask": "6.65",
+        "last_price": "6.6",
+        "mid_price": "6.575",
+        "spread_percent": "2.255639097744360902255639098"
+      },
+      "greeks": {
+        "delta": 0.6108,
+        "gamma": 0.0294,
+        "theta": -0.0553,
+        "vega": 0.1315
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3803
+      },
+      "liquidity_metrics": {
+        "volume": 112,
+        "open_interest": 1455,
+        "volume_oi_ratio": 0.07697594501718213
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-28T01:36:45.048492",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.85,
+          "change": 0.23,
+          "change_percent": 1.5732,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 646.63,
+          "change": 1.47,
+          "change_percent": 0.2279,
+          "volume": 46543351,
+          "momentum": "bullish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-27T19:05:04+00:00",
+            "title": "Stay informed with the top movers within the S&amp;P500 index on Wednesday.",
+            "content": "Join us in exploring the top gainers and losers within the S&P500 index one hour before the close of the markets on Wednesday as we examine the latest happenings in today's session.\n\n[topmovers]\n\nTODAY'S TOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tALB [https://www.chartmill.com/stock/quote/ALB/profile]\n\t\t7.13%\n\t\tALBEMARLE CORP (NYSE:ALB [https://www.chartmill.com/stock/quote/ALB/profile]) witnessed a notable 7.13% uptick in its shares, reaching $87.34 during Wednesday's session. The stock is trading 46.22% higher than 3 months ago.\n\n \t\tKMX [https://www.chartmill.com/stock/quote/KMX/profile]\n\t\t4.24%\n\t\tCARMAX INC'S (NYSE:KMX [https://www.chartmill.com/stock/quote/KMX/profile]) shares soared 4.24% to $62.2 during Wednesday's session. In the last 6 months the stock lost 28.08%.\n\n \t\tWYNN [https://www.chartmill.com/stock/quote/WYNN/profile]\n\t\t4.05%\n\t\tInvestors celebrated as WYNN RESORTS LTD (NASDAQ:WYNN [https://www.chartmill.com/stock/quote/WYNN/profile]) experienced a 4.05% rise in its shares, closing at $123.9 during Wednesday's session. In the last 3 months the share price increased with 31.52%.\n\n \t\tDDOG [https://www.chartmill.com/stock/quote/DDOG/profile]\n\t\t3.59%\n\t\tPositive market sentiment drove DATADOG INC - CLASS A'S (NASDAQ:DDOG [https://www.chartmill.com/stock/quote/DDOG/profile]) stock price up by 3.59% to $130.85 during Wednesday's session.\n\n \t\tEL [https://www.chartmill.com/stock/quote/EL/profile]\n\t\t3.24%\n\t\tPositive market sentiment drove ESTEE LAUDER COMPANIES-CL A'S (NYSE:EL [https://www.chartmill.com/stock/quote/EL/profile]) stock price up by 3.24% to $92.73 during Wednesday's session. In the last 3 months the share price increased with 34.18%.\n\n \t\tVLO [https://www.chartmill.com/stock/quote/VLO/profile]\n\t\t2.72%\n\t\tPositive market sentiment drove VALERO ENERGY CORP'S (NYSE:VLO [https://www.chartmill.com/stock/quote/VLO/profile]) stock price up by 2.72% to $150.94 during Wednesday's session.\n\n \t\tMPC [https://www.chartmill.com/stock/quote/MPC/profile]\n\t\t2.66%\n\t\tWith a 2.66% surge, MARATHON PETROLEUM CORP'S (NYSE:MPC [https://www.chartmill.com/stock/quote/MPC/profile]) stock price reached $178.13 during Wednesday's session, signaling positive momentum.\n\n \t\tMGM [https://www.chartmill.com/stock/quote/MGM/profile]\n\t\t2.66%\n\t\tMGM RESORTS INTERNATIONAL'S (NYSE:MGM [https://www.chartmill.com/stock/quote/MGM/profile]) shares rose 2.66% to $39.53 during Wednesday's session. A press release (MGM Resorts International Will Present at the BofA Securities 2025 Gaming and Lodging Conference [https://www.chartmill.com/news/MGM/prnews-2025-8-26-mgm-resorts-international-will-present-at-the-bofa-securities-2025-gaming-and-lodging-conference]) was released yesterday.\n\n \t\tAPA [https://www.chartmill.com/stock/quote/APA/profile]\n\t\t2.62%\n\t\tIn an impressive move, APA CORP'S (NASDAQ:APA [https://www.chartmill.com/stock/quote/APA/profile]) shares recorded a 2.62% increase, closing at $22.7 during Wednesday's session. The stock is trading 30.04% higher than 3 months ago.\n\n \t\tBBY [https://www.chartmill.com/stock/quote/BBY/profile]\n\t\t2.62%\n\t\tPositive market sentiment drove BEST BUY CO INC'S (NYSE:BBY [https://www.chartmill.com/stock/quote/BBY/profile]) stock price up by 2.62% to $75.6 during Wednesday's session. BEST BUY CO INC is releasing earnings today. In the last year the share price dropped with 26.62%.\n\nFor the full top gainers list go to our top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n\nLOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tSJM [https://www.chartmill.com/stock/quote/SJM/profile]\n\t\t-4.44%\n\t\tJM SMUCKER CO/THE'S (NYSE:SJM [https://www.chartmill.com/stock/quote/SJM/profile]) shares fell 4.44% to $105.67 during Wednesday's session. JM SMUCKER CO/THE released earnings Yesterday.\n\n \t\tSBAC [https://www.chartmill.com/stock/quote/SBAC/profile]\n\t\t-3.58%\n\t\tThe market experienced a 3.58% downturn in SBA COMMUNICATIONS CORP'S (NASDAQ:SBAC [https://www.chartmill.com/stock/quote/SBAC/profile]) stock price, closing at $211.01 during Wednesday's session.\n\n \t\tRVTY [https://www.chartmill.com/stock/quote/RVTY/profile]\n\t\t-2.39%\n\t\tInvestors witnessed a 2.39% decrease in REVVITY INC'S (NYSE:RVTY [https://www.chartmill.com/stock/quote/RVTY/profile]) stock price, which closed at $89.05 during Wednesday's session. The stock is trading 25.55% lower than a year ago.\n\n \t\tROK [https://www.chartmill.com/stock/quote/ROK/profile]\n\t\t-2.07%\n\t\tThere was a notable decline in ROCKWELL AUTOMATION INC'S (NYSE:ROK [https://www.chartmill.com/stock/quote/ROK/profile]) shares, as they dropped 2.07% to $348.29 during Wednesday's session. The stock is trading 23.86% higher than 6 months ago.\n\n \t\tPLTR [https://www.chartmill.com/stock/quote/PLTR/profile]\n\t\t-1.75%\n\t\tPALANTIR TECHNOLOGIES INC-A'S (NASDAQ:PLTR [https://www.chartmill.com/stock/quote/PLTR/profile]) stock price faced a 1.75% decline, reaching $158.06 during Wednesday's session. In the last 3 months the stock gained 22.07%.\n\n \t\tKR [https://www.chartmill.com/stock/quote/KR/profile]\n\t\t-1.7%\n\t\tThe market experienced a 1.7% downturn in KROGER CO'S (NYSE:KR [https://www.chartmill.com/stock/quote/KR/profile]) stock price, closing at $67.81 during Wednesday's session. The stock is trading 29.66% higher than a year ago.\n\n \t\tEQT [https://www.chartmill.com/stock/quote/EQT/profile]\n\t\t-1.67%\n\t\tDuring Wednesday's session, EQT CORP'S (NYSE:EQT [https://www.chartmill.com/stock/quote/EQT/profile]) shares took a tumble, falling 1.67% to $51.83. A press release (Sempra Infrastructure and EQT Announce Long-Term LNG Supply Agreement from Port Arthur LNG Phase 2 [https://www.chartmill.com/news/EQT/prnews-2025-8-27-sempra-infrastructure-and-eqt-announce-long-term-lng-supply-agreement-from-port-arthur-lng-phase-2]) was released earlier today.\n\n \t\tMCHP [https://www.chartmill.com/stock/quote/MCHP/profile]\n\t\t-1.61%\n\t\tThe market experienced a 1.61% downturn in MICROCHIP TECHNOLOGY INC'S (NASDAQ:MCHP [https://www.chartmill.com/stock/quote/MCHP/profile]) stock price, closing at $66.53 during Wednesday's session.\n\n \t\tFSLR [https://www.chartmill.com/stock/quote/FSLR/profile]\n\t\t-1.61%\n\t\tDuring Wednesday's session, FIRST SOLAR INC'S (NASDAQ:FSLR [https://www.chartmill.com/stock/quote/FSLR/profile]) shares took a tumble, falling 1.61% to $193.56. In the last 3 months the share price increased with 24.44%.\n\n \t\tNSC [https://www.chartmill.com/stock/quote/NSC/profile]\n\t\t-1.51%\n\t\tNORFOLK SOUTHERN CORP'S (NYSE:NSC [https://www.chartmill.com/stock/quote/NSC/profile]) stock price faced a 1.51% decline, reaching $272.48 during Wednesday's session.\n\nFor the full top loser list go to our top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:35:04+00:00",
+            "title": "Exploring the top movers within the S&amp;P500 index during today's session.",
+            "content": "Uncover the latest developments among S&P500 stocks in today's session. Stay tuned to the S&P500 index's top gainers and losers on Wednesday.\n\n[topmovers]\n\nTOP GAINERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tALB [https://www.chartmill.com/stock/quote/ALB/profile]\n\t\t6.56%\n\t\tALBEMARLE CORP'S (NYSE:ALB [https://www.chartmill.com/stock/quote/ALB/profile]) shares soared 6.56% to $86.88 during Wednesday's session. In the last 3 months the share price increased with 46.22%.\n\n \t\tKMX [https://www.chartmill.com/stock/quote/KMX/profile]\n\t\t2.94%\n\t\tCARMAX INC (NYSE:KMX [https://www.chartmill.com/stock/quote/KMX/profile]) witnessed a notable 2.94% uptick in its shares, reaching $61.42 during Wednesday's session. In the last 6 months the share price dropped with 28.08%.\n\n \t\tWYNN [https://www.chartmill.com/stock/quote/WYNN/profile]\n\t\t2.82%\n\t\tInvestors witnessed a remarkable 2.82% rise in WYNN RESORTS LTD'S (NASDAQ:WYNN [https://www.chartmill.com/stock/quote/WYNN/profile]) shares, which climbed to $122.44 during Wednesday's session. The stock is trading 31.52% higher than 3 months ago.\n\n \t\tDDOG [https://www.chartmill.com/stock/quote/DDOG/profile]\n\t\t2.79%\n\t\tDATADOG INC - CLASS A (NASDAQ:DDOG [https://www.chartmill.com/stock/quote/DDOG/profile]) experienced a significant 2.79% increase, reaching $129.84 during Wednesday's session.\n\n \t\tDECK [https://www.chartmill.com/stock/quote/DECK/profile]\n\t\t2.3%\n\t\tDECKERS OUTDOOR CORP'S (NYSE:DECK [https://www.chartmill.com/stock/quote/DECK/profile]) stock price is advancing with 2.3% to a price of $116.3. In the last year the share price dropped with 28.89%.\n\n \t\tNOW [https://www.chartmill.com/stock/quote/NOW/profile]\n\t\t2.29%\n\t\tSERVICENOW INC'S (NYSE:NOW [https://www.chartmill.com/stock/quote/NOW/profile]) stock price displayed strong growth, advancing 2.29% and reaching $884.46 during Wednesday's session.\n\n \t\tEL [https://www.chartmill.com/stock/quote/EL/profile]\n\t\t2.19%\n\t\tESTEE LAUDER COMPANIES-CL A (NYSE:EL [https://www.chartmill.com/stock/quote/EL/profile]) experienced a significant 2.19% increase, reaching $91.79 during Wednesday's session. In the last 3 months the share price increased with 34.18%.\n\n \t\tTYL [https://www.chartmill.com/stock/quote/TYL/profile]\n\t\t2.15%\n\t\tTYLER TECHNOLOGIES INC'S (NYSE:TYL [https://www.chartmill.com/stock/quote/TYL/profile]) stock price is advancing with 2.15% to a price of $558.93.\n\n \t\tLULU [https://www.chartmill.com/stock/quote/LULU/profile]\n\t\t2.12%\n\t\tLULULEMON ATHLETICA INC'S (NASDAQ:LULU [https://www.chartmill.com/stock/quote/LULU/profile]) shares rose 2.12% to $206.82 during Wednesday's session. The company's earnings where released Yesterday. Shareholders saw the stock price going 36.04% lower in the past 3 months.\n\n \t\tCRM [https://www.chartmill.com/stock/quote/CRM/profile]\n\t\t2.1%\n\t\tInvestors celebrated as SALESFORCE INC (NYSE:CRM [https://www.chartmill.com/stock/quote/CRM/profile]) experienced a 2.1% rise in its shares, closing at $248.86 during Wednesday's session.\n\nOur top gainers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page will show you the full list.\n\nLOSERS\n\n \t\tTICKER\n\t\tCHANGE\n\t\tCOMMENT\n\n \t\tSJM [https://www.chartmill.com/stock/quote/SJM/profile]\n\t\t-4.98%\n\t\tJM SMUCKER CO/THE'S (NYSE:SJM [https://www.chartmill.com/stock/quote/SJM/profile]) stock price is declining with 4.98% to a price of $105.07. yesterday the company released their earnings.\n\n \t\tSBAC [https://www.chartmill.com/stock/quote/SBAC/profile]\n\t\t-3.59%\n\t\tThe market experienced a downward movement in SBA COMMUNICATIONS CORP'S (NASDAQ:SBAC [https://www.chartmill.com/stock/quote/SBAC/profile]) stock price, closing at $210.98 with a 3.59% decrease during Wednesday's session.\n\n \t\tRVTY [https://www.chartmill.com/stock/quote/RVTY/profile]\n\t\t-2.13%\n\t\tREVVITY INC'S (NYSE:RVTY [https://www.chartmill.com/stock/quote/RVTY/profile]) shares fell 2.13% to $89.29. In the last year the share price dropped with 25.55%.\n\n \t\tPLTR [https://www.chartmill.com/stock/quote/PLTR/profile]\n\t\t-1.93%\n\t\tThere was a notable decline in PALANTIR TECHNOLOGIES INC-A'S (NASDAQ:PLTR [https://www.chartmill.com/stock/quote/PLTR/profile]) shares, as they dropped 1.93% to $157.76 during Wednesday's session. Shareholders saw the stock price going 22.07% higher in the past 3 months.\n\n \t\tROK [https://www.chartmill.com/stock/quote/ROK/profile]\n\t\t-1.93%\n\t\tDuring Wednesday's session, ROCKWELL AUTOMATION INC'S (NYSE:ROK [https://www.chartmill.com/stock/quote/ROK/profile]) shares took a tumble, falling 1.93% to $348.81. In the last 6 months the stock gained 23.86%.\n\n \t\tFSLR [https://www.chartmill.com/stock/quote/FSLR/profile]\n\t\t-1.76%\n\t\tThe market experienced a 1.76% downturn in FIRST SOLAR INC'S (NASDAQ:FSLR [https://www.chartmill.com/stock/quote/FSLR/profile]) stock price, closing at $193.26 during Wednesday's session. Shareholders saw the stock price going 24.44% higher in the past 3 months.\n\n \t\tNEE [https://www.chartmill.com/stock/quote/NEE/profile]\n\t\t-1.74%\n\t\tThe market experienced a downward movement in NEXTERA ENERGY INC'S (NYSE:NEE [https://www.chartmill.com/stock/quote/NEE/profile]) stock price, closing at $73.53 with a 1.74% decrease during Wednesday's session.\n\n \t\tSW [https://www.chartmill.com/stock/quote/SW/profile]\n\t\t-1.5%\n\t\tSMURFIT WESTROCK PLC (NYSE:SW [https://www.chartmill.com/stock/quote/SW/profile]) encountered a 1.5% decrease in its shares, reaching $45.6 during Wednesday's session.\n\n \t\tKR [https://www.chartmill.com/stock/quote/KR/profile]\n\t\t-1.47%\n\t\tThe market experienced a 1.47% downturn in KROGER CO'S (NYSE:KR [https://www.chartmill.com/stock/quote/KR/profile]) stock price, closing at $67.97 during Wednesday's session. In the last year the share price increased with 29.66%.\n\n \t\tFICO [https://www.chartmill.com/stock/quote/FICO/profile]\n\t\t-1.43%\n\t\tFAIR ISAAC CORP (NYSE:FICO [https://www.chartmill.com/stock/quote/FICO/profile]) encountered a 1.43% decrease in its shares, reaching $1.4K during Wednesday's session. A press release (Chartis Names FICO an Enterprise Fraud Solutions Category Leader for Fifth Straight Report [https://www.chartmill.com/news/FICO/bizwire-2025-8-27-chartis-names-fico-an-enterprise-fraud-solutions-category-leader-for-fifth-straight-report]) was released earlier today.\n\nFor the full top loser list go to our top losers [https://www.chartmill.com/stock/market/top-gainers-and-losers/usa-nyse-nasdaq-amex] page.\n",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T05:30:52+00:00",
+            "title": "5 Revealing Analyst Questions From Estée Lauder’s Q2 Earnings Call",
+            "content": "Estée Lauder’s second quarter was marked by revenue and non-GAAP profit results that matched Wall Street expectations, but the market responded negatively due to a significant year-over-year sales decline and a sharp drop in adjusted EBITDA margin. Management attributed the performance to ongoing challenges in travel retail, which saw a 28% decline, and persistent softness in key Western markets. CEO Stéphane de la Faverie noted, “Nearly two-thirds of our organic sales decline came from travel retail,” emphasizing the impact of strategic changes and lower conversion rates. Management also acknowledged that inventory adjustments and increased consumer-facing investments weighed on profitability.\n\nIs now the time to buy EL? Find out in our full research report (it’s free).\n\nEstée Lauder (EL) Q2 CY2025 Highlights:\n\nRevenue: $3.41 billion vs analyst estimates of $3.42 billion (12% year-on-year decline, in line) Adjusted EPS: $0.09 vs analyst estimates of $0.09 (in line) Adjusted EBITDA: $347 million vs analyst estimates of $318.8 million (10.2% margin, 8.9% beat) Adjusted EPS guidance for the upcoming financial year 2026 is $2 at the midpoint, missing analyst estimates by 9.7% Operating Margin: -11.4%, down from -6% in the same quarter last year Organic Revenue fell 13% year on year vs analyst estimates of 12.7% declines (29.5 basis point miss) Market Capitalization: $32.33 billion\n\nWhile we enjoy listening to the management's commentary, our favorite part of earnings calls are the analyst questions. Those are unscripted and can often highlight topics that management teams would rather avoid or topics where the answer is complicated. Here is what has caught our attention.\n\nOur Top 5 Analyst Questions From Estée Lauder’s Q2 Earnings Call\n\nDara Mohsenian (Morgan Stanley) asked about the pace and cultural impact of restructuring. CEO Stéphane de la Faverie said the new organization is in place and engagement is strong, with further portfolio updates pending. Stephen Powers (Deutsche Bank) requested details on narrowing the gap between retail sales and shipments. CFO Akhil Shrivastava emphasized that inventory levels have improved, and the company expects this gap to compress throughout the year. Lauren Lieberman (Barclays) questioned the North American channel mix and the ongoing challenges with department stores. De la Faverie noted the strategic growth of Amazon and specialty retail, with department stores now representing a smaller portion of sales. Ashley Wallace (Bank of America) pressed on the timeline for non-travel retail business returning to growth. Shrivastava confirmed that excluding travel retail, growth should turn positive in the upcoming year, supported by innovation and distribution efforts. Peter Grom (UBS) inquired about confidence in guidance and embedded risk buffers. Shrivastava responded that the outlook is based on conservative assumptions, with ranges to accommodate ongoing volatility and a disciplined focus on cost control.\n\nStory Continues\n\nCatalysts in Upcoming Quarters\n\nIn the coming quarters, our analysts will focus on (1) the pace of recovery in travel retail and China, (2) evidence that restructuring and cost actions are translating into sustained margin improvement, and (3) the ability of new product launches and channel diversification—especially online—to drive share gains in key markets. Continued progress in emerging markets and effective mitigation of tariff impacts will also be important indicators of execution.\n\nEstée Lauder currently trades at $89.25, in line with $90.01 just before the earnings. At this price, is it a buy or sell? Find out in our full research report (it’s free).\n\nHigh-Quality Stocks for All Market Conditions\n\nTrump’s April 2025 tariff bombshell triggered a massive market selloff, but stocks have since staged an impressive recovery, leaving those who panic sold on the sidelines.\n\nTake advantage of the rebound by checking out our Top 6 Stocks for this week. This is a curated list of our High Quality stocks that have generated a market-beating return of 183% over the last five years (as of March 31st 2025).\n\nStocks that made our list in 2020 include now familiar names such as Nvidia (+1,545% between March 2020 and March 2025) as well as under-the-radar businesses like the once-micro-cap company Tecnoglass (+1,754% five-year return). Find your next big winner with StockStory today.\n\nStockStory is growing and hiring equity analyst and marketing roles. Are you a 0 to 1 builder passionate about the markets and AI? See the open roles here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T16:03:47+00:00",
+            "title": "EL Quantitative Stock Analysis",
+            "content": "Below is Validea's guru fundamental report for ESTEE LAUDER COMPANIES INC (EL). Of the 22 guru strategies we follow,  EL rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit characteristics associated with sustained future growth.\n\nESTEE LAUDER COMPANIES INC (EL) is a large-cap growth stock in the Personal & Household Prods. industry. The rating using this strategy is 55% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. BOOK/MARKET RATIO:PASSRETURN ON ASSETS:PASSCASH FLOW FROM OPERATIONS TO ASSETS:FAILCASH FLOW FROM OPERATIONS TO ASSETS VS. RETURN ON ASSETS:PASSRETURN ON ASSETS VARIANCE:PASSSALES VARIANCE:PASSADVERTISING TO ASSETS:FAILCAPITAL EXPENDITURES TO ASSETS:PASSRESEARCH AND DEVELOPMENT TO ASSETS:FAIL\n\nDetailed Analysis of ESTEE LAUDER COMPANIES INC\n\nEL Guru Analysis\n\nEL Fundamental Analysis\n\nMore Information on Partha Mohanram\n\nPartha Mohanram Portfolio\n\nAbout Partha Mohanram: Sometimes the best investing strategies don't come from the world of investing. Sometimes research that changes the investing world can come from the halls of academia. Partha Mohanram is a great example of this. While academic research has shown that value investing works over time, it has found the opposite for growth investing. Mohanram turned that research on its head by developing a growth model that produced significant market outperformance. His research paper \"Separating Winners from Losers among Low Book-to-Market Stocks using Financial Statement Analysis\" looked at the criteria that can be used to separate growth stocks that continue their upward trajectory from those that don't. Mohanram is currently the John H. Watson Chair in Value Investing at the University of Toronto and was previously an Associate Professor at the Columbia Business School.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nFactor-Based ETF Portfolios\n\nHarry Browne Permanent Portfolio\n\nRay Dalio All Weather Portfolio\n\nHigh Shareholder Yield Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-26T12:10:46+00:00",
+            "title": "Earnings live: Wolfspeed, Bank of Montreal stocks rise as Nvidia's earnings countdown begins",
+            "content": "Second quarter earnings season is winding down, and with most of the reports in, the results have been mostly positive.\n\nOver 92% of S&P 500 index companies have reported results, and as of Aug. 18, analysts expected S&P 500 companies to report an 11% jump in earnings per share during the second quarter.\n\nCompanies had lower expectations to clear coming into the quarter — analysts expected S&P 500 earnings to rise 5% in Q2, the slowest pace of earnings growth since Q4 2023 — amid President Trump's tariffs, stocks' lofty valuations, and uncertainty about the health of the US economy.\n\nNvidia (NVDA) results on Wednesday, Aug. 27, highlight this week's earnings\n\nOther companies reporting include PDD Holdings (PDD), Alibaba (BABA), Okta (OKTA), Abercrombie & Fitch (ANF), CrowdStrike (CRWD), Five Below (FIVE), HP (HP), Kohl's (KSS), Snowflake (SNOW), J.M. Smucker (SJM), Urban Outfitters (URBN), Affirm (AFRM), Best Buy (BBY), Bath & Body Works (BBWI), Dick's Sporting Goods (DKS), Dell (DELL), Dollar General (DG), Gap (GAP), Petco (WOOF), Wolfspeed (WOLF), Bank of Montreal (BMO), and Ulta (ULTA).\n\nMeanwhile, markets will continue to digest last week's commentary on the health of consumer spending from Walmart (WMT), Target (TGT), Home Depot (HD), and Lowe's (LOW).\n\nHere are the latest updates from corporate America.LIVE275 updates\n\n13 mins ago\n\nGrace O'Donnell\n\nBank of Montreal, Scotiabank beat earnings estimates\n\nBank of Montreal (BMO) rose 1% in premarket trading after earnings beat expectations for its fiscal third quarter.\n\nThe Canadian bank earned $3.14 per share on revenue of $8.98 billion, beating Wall Street estimates for $2.85 per share on $8.88 billion in revenue, according to S&P Global Market Intelligence data.\n\nThe Canadian Press reports:\n\nScotiabank (BNS) also beat earnings estimates on Tuesday, lifting shares. Read more here.  Mon, August 25, 2025 at 9:01 PM UTC\n\nGrace O'Donnell\n\nShares of struggling chipmaker Wolfspeed rise as results are better than feared\n\nWolfspeed (WOLF) stock rose just under 1% in after-hours trading following its fiscal fourth quarter results. The struggling chipmaker has been navigating Chapter 11 bankruptcy and is in the midst of a restructuring, after delays in CHIPS Act funding further hampered the company's finances.\n\nWolfspeed reported a loss per share $4.30, compared to a loss of $1.39 per share during the same period a year ago. Revenue came in at $197 million, compared to $201 million the previous year. Wall Street analysts expected worse results.\n\n“Reflecting upon my first three months with Wolfspeed, I am more confident than ever in my decision to join the Company and our opportunity to further strengthen our position in the industry,” Wolfspeed's new CEO, Robert Feurle, said in a statement. “Our next important milestone is for the court to approve our Plan of Reorganization next month, and emerge from Chapter 11 shortly thereafter, with a much stronger financial structure.” Mon, August 25, 2025 at 11:47 AM UTC\n\nGrace O'Donnell\n\nPDD stock jumps after the Temu owner beat earnings estimates\n\nPDD Holdings (PDD) stock gained 7% in premarket trading on Monday after the Chinese e-commerce giant beat earnings estimates by a wide margin.\n\nThe Temu and Pinduoduo owner reported earnings per American depository share (ADS) of 20.75 Chinese yuan (approximately $2.89) compared to estimates of 12.30 yuan ($1.72), per S&P Global Market Intelligence estimates.\n\nRevenue rose 7% year over year to 10.4 billion ($1.45 billion), barely beating estimates as price competition with rivals Alibaba (BABA) and JD.com (JD) and higher costs from tariffs weighed on margins.\n\n“Revenues growth further moderated this quarter amid intense competition,” said Jun Liu, PDD Holdings vice president of finance. \"As we remain focused on long-term value creation, the sustained investments may continue to weigh on short-term profitability.”\n\nRead more here from Reuters Fri, August 22, 2025 at 8:51 PM UTC\n\nGrace O'Donnell\n\nNvidia to highlight next week's earnings\n\nSecond quarter results from Abercrombie & Fitch (ANF), Kohl's (KSS), and Best Buy (BBY) next week will continue to beat the drum of retail earnings after reports from America's big box stores, Walmart (WMT) and Target (TGT).\n\nBut it's Nvidia's (NVDA) earnings that will be the star attraction, as the AI chipmaker's stock has an 8% weighting in the S&P 500 (^GSPC).\n\nAs Yahoo Finance Senior Tech Editor Dan Howley writes, investors will be squarely focused on Nvidia's data center business — even more so since the company announced a new gigascale networking plan that will combine the performance of multiple data centers to create one massive GPU. And many will be eager to hear more about a new China chip Nvidia is developing with the Trump administration.\n\nHere's a look at next week's earnings calendar, marking a sort of grand finale for the second quarter reporting season:\n\nMonday: PDD Holdings (PDD)\n\nTuesday: BMO (BMO), MongoDB (MDB), Okta (OKTA), PVH (PVH)\n\nWednesday: Nvidia (NVDA), Abercrombie & Fitch, CrowdStrike (CRWD), Five Below (FIVE), HP (HP), Kohl's, Pure Storage (PSTG), Snowflake (SNOW), The J.M. Smucker Company (SJM), Urban Outfitters (URBN), Williams-Sonoma (WSM)\n\nThursday: Affirm (AFRM), Best Buy (BBY), Bath & Body Works (BBWI), Dick's Sporting Goods (DKS), Dell (DELL), Dollar General (DG), Gap (GAP), Marvell (MRVL), Petco (WOOF), TD Bank (TD), Ulta (ULTA)\n\nFriday: Alibaba (BABA) Fri, August 22, 2025 at 12:15 PM UTC\n\nGrace O'Donnell\n\nRoss Stores tops quarterly profit estimates as shoppers seek discount apparel\n\nReuters reports:\n\nRead more here. Fri, August 22, 2025 at 12:07 PM UTC\n\nGrace O'Donnell\n\nBJ's Wholesale Club stock falls as fuel prices weigh on sales\n\nFuel prices weighed on BJ's Wholesale Club (BJ) sales in the second quarter, the company reported Friday.\n\nOverall comparable club sales decreased by 0.3% year over year, while comparable sales excluding gasoline increased by 2.3% annually.\n\nThe company reported earnings per share of $1.14, topping Wall Street's estimates for earnings of $1.09 per share. Revenue of $5.38 billion in the quarter disappointed expectations for $5.48 billion, according to S&P Global Market Intelligence\n\nBJ's reiterated its full-year revenue guidance and narrowed the range for its earnings outlook. For fiscal 2025, BJ's sees comparable club sales minus gasoline increasing 2% to 3.5% year-over-year. Adjusted EPS is expected to range from $4.20 to $4.35 instead of $4.10 to $4.30 previously forecast. Thu, August 21, 2025 at 8:42 PM UTC\n\nGrace O'Donnell\n\nZoom stock pops as CEO attributes earnings beat to AI\n\nZoom stock (ZM) popped 5% on Thursday afternoon after the company reported a huge earnings beat.\n\nZoom posted earnings per share of $1.16, compared to Wall Street analyst estimates for $0.72, per S&P Global Market Intelligence. That represents 66% annual earnings growth.\n\nThe company's founder and CEO, Eric Yuan, noted that the strong quarter comes as artificial intelligence reshapes the way people are working. The company highlighted its paid add-on for custom AI agents that help with meeting prep and call summaries as drivers.\n\nRevenue rose 5% to $1.2 billion, bolstered by 7% growth in Enterprise revenue. The company's monthly churn rate remained flat year over year at 2.9%.\n\nZoom also raised its full-year revenue outlook and free cash flow guidance, which is now expected to be in the range of $1.74 billion to $1.78 billion.\n\nFor the full 2026 fiscal year, total revenue is expected to be between $4.825 billion and $4.835 billion while diluted EPS is expected to be between $5.81 and $5.84. Thu, August 21, 2025 at 8:26 PM UTC\n\nGrace O'Donnell\n\nWorkday to acquire AI company Paradox, stock falls\n\nWorkday (WDAY) stock slipped more than 3% in after-hours trading following the company's announcement that it would acquire Paradox for an undisclosed amount. Paradox is an AI company that uses AI chatbots to simplify the job application process.\n\nWorkday also reported second quarter results that beat expectations. Subscription revenue increased 14%, lifting overall revenue to $2.35 billion in the second quarter. Wall Street was looking for revenue of $2.34 billion.\n\nDiluted earnings per share of $2.21 beat estimates of $2.12 per share.\n\n\"Our second quarter results reflect the strength of our platform and our continued progress across several of our growth initiatives,\" CFO Zane Rowe said. \"Following our first half momentum — and also incorporating the acquisition of Paradox — we are increasing our fiscal 2026 subscription revenue guidance to $8.815 billion, representing growth of 14%, and increasing our fiscal 2026 non-GAAP operating margin guidance to approximately 29%.\" Thu, August 21, 2025 at 8:15 PM UTC\n\nGrace O'Donnell\n\nIntuit forecasts first-quarter revenue growth below estimates\n\nShares of Intuit (INTU), the company behind tax-preparation and finance software TurboTax, Credit Karma, and QuickBooks, fell 5% after hours after the company forecast fiscal first quarter revenue growth below analyst estimates.\n\nReuters reports:\n\nIntuit's board also approved a new $3.2 billion share buyback plan, raising its total repurchase authorization to $5.3 billion.\n\nRead more here. Thu, August 21, 2025 at 5:16 PM UTC\n\nGrace O'Donnell\n\nWalmart is still embarrassing Target\n\nWalmart (WMT) and Target (TGT) often get compared, especially when they report earnings back-to-back. But the most recent results from the big box stores highlight how the two couldn't be more different.\n\nYahoo Finance's Brian Sozzi dived into the two retailers' quarters:\n\nRead more here. Thu, August 21, 2025 at 2:25 PM UTC\n\nGrace O'Donnell\n\nWalmart CEO: Tariff impact has been 'gradual,' but we expect costs to increase\n\nWalmart (WMT) reassured investors that it's continuing to gain market share and generate healthy sales growth.\n\nBut even though executives said the company didn't see any \"dramatic shifts\" with consumer behavior last quarter, they did communicate that keeping costs low could become a greater challenge in the second half of the year as tariff-related price increases work their way through inventory.\n\n\"With regards to our US pricing decisions, given tariff-related cost pressures, we're doing what we said we would do: We're keeping our prices as low as we can for as long as we can,\" Walmart CEO Doug McMillon said on Walmart's earnings call.\n\n\"The way things have played out so far, the impact of tariffs has been gradual enough that any behavioral adjustments by the customer have been somewhat muted,\" McMillon continued. \"But as we replenish inventory at post-tariff price levels, we've continued to see our costs increase each week, which we expect will continue into the third and fourth quarters.\"\n\nListen to a replay of the earnings call here. Thu, August 21, 2025 at 11:49 AM UTC\n\nJenny McCall\n\nWalmart stock falls after earnings miss forecasts as US sales, 2025 outlook rise\n\nRetail giant Walmart (WMT) stock slipped 2% on Thursday after missing Wall Street estimates.\n\nYahoo Finance's Brooke DiPalma looks at the retail chains' earnings and how economic challenges may have impacted their results.\n\nRead more here.  Wed, August 20, 2025 at 8:14 PM UTC\n\nGrace O'Donnell\n\nWalmart earnings expected to show US sales growth continued in Q2 as consumers seek value\n\nWalmart (WMT) will report quarterly results Thursday morning before the bell, following on the heels of Target (TGT) earnings Wednesday, which sent shares of the retailer 6% lower.\n\nBut Walmart is expected to highlight another robust quarter, Yahoo Finance's Brooke DiPalma writes, as consumers search for value amid tariff-related uncertainty.\n\nBrooke previews what to look for in Walmart's earnings:\n\nRead more here. Wed, August 20, 2025 at 12:00 PM UTC\n\nGrace O'Donnell\n\nTJX Companies shares rise after earnings beat and raise\n\nTJ Maxx parent TJX Companies (TJX) beat sales and profit estimates for the second quarter and raised its annual profit forecast, boosting shares in premarket trading.\n\nReuters reports:\n\nRead more here. Wed, August 20, 2025 at 11:45 AM UTC\n\nGrace O'Donnell\n\nLowe's stock rises after same-store sales return to growth\n\nLowe's (LOW) stock popped in premarket trading on Wednesday after the home improvement retailer reported a return to same-store sales growth, earnings beat, and raised its guidance.\n\nYahoo Finance's Brooke DiPalma reports:\n\nRead more here. Wed, August 20, 2025 at 11:03 AM UTC\n\nJenny McCall\n\nTarget beat low earnings expectations as sales continue to fall\n\nTarget (TGT) released its second quarter results on Wednesday. The results are not as bad as the first quarter but declining sales has the retail giant in a bit of a bind. Shares in target fell 8% before the bell\n\nYahoo Finance's executive editor Brian Sozzi looks at the latest from Target and whether it will ever find its place in this new economic environment.\n\nRead more here.  Wed, August 20, 2025 at 10:58 AM UTC\n\nJenny McCall\n\nBaidu quarterly revenue falls as weak ads offset cloud growth\n\nReuters reports:\n\nRead more here.  Wed, August 20, 2025 at 10:31 AM UTC\n\nJenny McCall\n\nEstee Lauder forecasts annual profit below estimates as tariffs hit\n\nEstee Lauder (EL) stock fell 8% before the bell on Wednesday after the beauty group forecast annual profit below Wall Street estimates, as it grapples with persistent weakness in the US and China markets and tariff uncertainty.\n\nReuters reports:\n\nRead more here.  Tue, August 19, 2025 at 8:55 PM UTC\n\nGrace O'Donnell\n\nToll Brothers beats on earnings, but new orders decline 4%\n\nToll Brothers (TOL) reported another double beat in its fiscal third quarter, but a slowdown in new orders weighed on the stock, which drifted 1.6% lower after hours.\n\nThe homebuilder posted diluted earnings per share of $3.73 on home sale revenue of $2.88 billion. Wall Street analysts were expecting earnings per share of $3.64 on revenue of $2.85 billion.\n\nAfter a sluggish spring season in the housing market, there have been signs of a resurgence, with housing starts jumping in July. But mortgage rates that have barely budged, ongoing economic uncertainty, and affordability challenges for buyers continue to weigh on the sector.\n\nFor the quarter, Toll Brothers noted it had 2,388 units under signed contract, a 4% decline from a year ago. Analysts had expected orders growth.\n\n\"The average sales price of new contracts was $1.0 million, up 4.5% year-over-year,\" CEO Douglas Yearley said in the earnings release. \"Contract dollars were flat despite a 4% decline in units. While affordability pressures and uncertain economic conditions persist, we are pleased with the resilience of our luxury business and more affluent customer base.\" Tue, August 19, 2025 at 8:32 PM UTC\n\nGrace O'Donnell\n\nLa-Z-Boy stock drops on soft earnings and guidance\n\nLa-Z-Boy stock (LZB) dropped 16% in after-hours trading after the company missed earnings estimates and navigated \"soft industry demand.\"\n\nOverall, comparable sales dropped 1% to $492 million from a year ago. Sales in the furniture retailer's wholesale segment increased 1%, and retail sales rose 5%, but they were offset by weakness in the Joybird brand, which saw sales decline 14%.\n\nLa-Z-Boy reported diluted earnings per share of $0.44, compared to $0.61 per share a year ago. The Street was looking for earnings of $0.52 per share.\n\nLa-Z-Boy's guidance also came in lighter than expected. It expects sales in the range of $510 million to $530 million in the fiscal second quarter. Wall Street was looking for $532 million, according to S&P Global Market Intelligence.\n\nStory Continues\n\nFor the latest earnings reports and analysis, earnings whispers and expectations, and company earnings news, click here\n\nRead the latest financial and business news from Yahoo Finance\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Estee Lauder Companies Inc",
+          "sector": "Consumer Defensive",
+          "industry": "Household & Personal Products",
+          "employees": 40470,
+          "description": "The Estée Lauder Companies Inc. manufactures, markets, and sells skin care, makeup, fragrance, and hair care products worldwide. The company offers skin care products, including moisturizers, serums, cleansers, toners, eye care, body care, exfoliators, acne care and oil correctors, facial masks, and"
+        },
+        "financial_metrics": {
+          "eps_ttm": -3.15,
+          "profit_margin": -0.0791,
+          "operating_margin": 0.0443,
+          "roe": -0.2469,
+          "roa": 0.034,
+          "revenue_growth_yoy": -0.119,
+          "earnings_growth_yoy": -0.516,
+          "eps_estimate_current_year": 1.4865,
+          "eps_estimate_next_year": 2.2155,
+          "dividend_yield": 0.0193,
+          "dividend_per_share": 1.71,
+          "revenue_ttm": 14325999616,
+          "revenue_per_share": 39.783,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 44.2478,
+          "price_to_sales": 2.2564,
+          "price_to_book": 8.3636,
+          "enterprise_value": 38871269859,
+          "ev_to_revenue": 2.7133,
+          "ev_to_ebitda": 266.2416
+        },
+        "technical_data": {
+          "beta": 1.176,
+          "52_week_high": 101.9345,
+          "52_week_low": 48.1235,
+          "50_day_ma": 86.6016,
+          "200_day_ma": 73.2375,
+          "short_interest": 0.056,
+          "short_ratio": 3.24
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1.4,
+          "forward_dividend_yield": 0.0158,
+          "payout_ratio": 0.9333,
+          "dividend_date": "2025-09-16",
+          "ex_dividend_date": "2025-09-02",
+          "last_split_date": "2012-01-23",
+          "last_split_factor": "2:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.1111,
+          "target_price": 90.6957,
+          "strong_buy": 2,
+          "buy": 1,
+          "hold": 23,
+          "sell": 0,
+          "strong_sell": 1
+        },
+        "institutional_data": {
+          "shares_outstanding": 234347008,
+          "percent_institutions": 95.601,
+          "percent_insiders": 0.43499999999999994,
+          "shares_float": 233186766
+        },
+        "balance_latest_sheet": {
+          "total_assets": 19892.0,
+          "total_debt": 9439.0,
+          "net_debt": 6518.0,
+          "working_capital": 1634.0,
+          "shareholders_equity": 3865.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 2.44
+        },
+        "income_latest_statement": {
+          "total_revenue": 3407.0,
+          "gross_profit": 2456.0,
+          "operating_income": 8.0,
+          "net_income": -546.0,
+          "ebitda": -123.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 72.09,
+          "operating_margin": 0.23,
+          "net_margin": -16.03
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 601.0,
+          "free_cash_flow": 394.0,
+          "capex": 207.0,
+          "net_income": -546.0,
+          "cash_change": 290.0,
+          "dividends_paid": -126.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.231,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-17",
+            "open": 86.4,
+            "high": 86.87,
+            "low": 85.01,
+            "close": 86.56,
+            "volume": 2843900
+          },
+          {
+            "date": "2025-07-18",
+            "open": 86.58,
+            "high": 87.34,
+            "low": 86.18,
+            "close": 87.21,
+            "volume": 2294000
+          },
+          {
+            "date": "2025-07-21",
+            "open": 87.21,
+            "high": 87.98,
+            "low": 86.04,
+            "close": 86.04,
+            "volume": 2459300
+          },
+          {
+            "date": "2025-07-22",
+            "open": 86.1,
+            "high": 89.12,
+            "low": 85.83,
+            "close": 89,
+            "volume": 3027500
+          },
+          {
+            "date": "2025-07-23",
+            "open": 90.2,
+            "high": 90.43,
+            "low": 88.83,
+            "close": 89.68,
+            "volume": 3629900
+          },
+          {
+            "date": "2025-07-24",
+            "open": 89.01,
+            "high": 90.5,
+            "low": 86.69,
+            "close": 86.77,
+            "volume": 4803700
+          },
+          {
+            "date": "2025-07-25",
+            "open": 89.71,
+            "high": 90.49,
+            "low": 87.03,
+            "close": 90.4,
+            "volume": 7610800
+          },
+          {
+            "date": "2025-07-28",
+            "open": 90.38,
+            "high": 93.09,
+            "low": 90.26,
+            "close": 92.52,
+            "volume": 4329800
+          },
+          {
+            "date": "2025-07-29",
+            "open": 92.91,
+            "high": 93.66,
+            "low": 90.76,
+            "close": 91.4,
+            "volume": 3738800
+          },
+          {
+            "date": "2025-07-30",
+            "open": 92.73,
+            "high": 94.69,
+            "low": 92.06,
+            "close": 93.66,
+            "volume": 5796200
+          },
+          {
+            "date": "2025-07-31",
+            "open": 93.12,
+            "high": 95.3,
+            "low": 92.4,
+            "close": 93.34,
+            "volume": 3758300
+          },
+          {
+            "date": "2025-08-01",
+            "open": 90.6,
+            "high": 91.23,
+            "low": 88.44,
+            "close": 91.04,
+            "volume": 3145600
+          },
+          {
+            "date": "2025-08-04",
+            "open": 91.71,
+            "high": 93,
+            "low": 91.3,
+            "close": 92.5,
+            "volume": 3006000
+          },
+          {
+            "date": "2025-08-05",
+            "open": 92.61,
+            "high": 93.04,
+            "low": 90.54,
+            "close": 90.92,
+            "volume": 2513400
+          },
+          {
+            "date": "2025-08-06",
+            "open": 91.26,
+            "high": 91.53,
+            "low": 89.91,
+            "close": 90.15,
+            "volume": 2350500
+          },
+          {
+            "date": "2025-08-07",
+            "open": 90.99,
+            "high": 91.41,
+            "low": 89.49,
+            "close": 91.22,
+            "volume": 2470600
+          },
+          {
+            "date": "2025-08-08",
+            "open": 91.06,
+            "high": 92.07,
+            "low": 90.41,
+            "close": 90.69,
+            "volume": 2407600
+          },
+          {
+            "date": "2025-08-11",
+            "open": 90.85,
+            "high": 91.8,
+            "low": 88.96,
+            "close": 89.14,
+            "volume": 2821500
+          },
+          {
+            "date": "2025-08-12",
+            "open": 89.61,
+            "high": 92.28,
+            "low": 89.29,
+            "close": 91.7,
+            "volume": 2711900
+          },
+          {
+            "date": "2025-08-13",
+            "open": 92.2,
+            "high": 95.47,
+            "low": 91.78,
+            "close": 95.26,
+            "volume": 3639700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 92.3,
+            "high": 92.3,
+            "low": 88.17,
+            "close": 89.5,
+            "volume": 4713700
+          },
+          {
+            "date": "2025-08-15",
+            "open": 89.77,
+            "high": 91.81,
+            "low": 89.28,
+            "close": 90.97,
+            "volume": 4144900
+          },
+          {
+            "date": "2025-08-18",
+            "open": 91,
+            "high": 92.25,
+            "low": 88.84,
+            "close": 90.74,
+            "volume": 5075500
+          },
+          {
+            "date": "2025-08-19",
+            "open": 91.58,
+            "high": 91.61,
+            "low": 89.59,
+            "close": 89.87,
+            "volume": 6460900
+          },
+          {
+            "date": "2025-08-20",
+            "open": 86,
+            "high": 89.8,
+            "low": 84.42,
+            "close": 86.57,
+            "volume": 12990300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 85.17,
+            "high": 88.52,
+            "low": 84.51,
+            "close": 87.72,
+            "volume": 6316800
+          },
+          {
+            "date": "2025-08-22",
+            "open": 88.21,
+            "high": 91.94,
+            "low": 87.77,
+            "close": 91.23,
+            "volume": 4051400
+          },
+          {
+            "date": "2025-08-25",
+            "open": 90.53,
+            "high": 91.1,
+            "low": 87.97,
+            "close": 88.68,
+            "volume": 4378500
+          },
+          {
+            "date": "2025-08-26",
+            "open": 88.89,
+            "high": 89.89,
+            "low": 88.62,
+            "close": 89.82,
+            "volume": 3811900
+          },
+          {
+            "date": "2025-08-27",
+            "open": 89.91,
+            "high": 93.25,
+            "low": 89.51,
+            "close": 92.61,
+            "volume": 2990736
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-17",
+          "end": "2025-08-27"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -1.1210762331838535,
+        "return_63d": 34.862385321100916,
+        "pct_above_sma50": 5.946309554043944,
+        "sma_50": 87.4122,
+        "new_55d_high": "False",
+        "high_55d": 95.47,
+        "rsi": 52.24410720051663,
+        "rsi_in_range": "True",
+        "adx": 16.8505511613542,
+        "adx_above_20": "False",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.4666882626066284,
+        "bb_width": 8.592133761738818,
+        "keltner_width": 14.178383540621239,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 379781300.97779995,
+        "adv_shares": 4187986.8,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 49.661172489424786,
+        "final_score": 49.661172489424786,
+        "sub_scores": {
+          "trend_momentum": 17.404738522377908,
+          "squeeze_breakout": 4.0,
+          "options_quality": 17.256433967046878,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 1.3238512035010919,
+          "ret_63d": 39.74649162516977,
+          "rsi14": 52.24410720051663,
+          "adx14": 16.068628009957195,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: EL\n• Current Price: $92.61\n• Overall Score: 52.441923076923075\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 86.6016\n• Sma 200: 73.2375\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 1.3238512035010872\n• Momentum 63D: 39.74649162516977\n• Momentum 126D: 26.378275109170303\n• Momentum Acceleration: -38.42264042166868\n• Roc 21D: 1.3238512035010872\n• Trend Strength 20D: 0.13710713147470985\n• Trend Direction: 1\n• Ma Ribbon Score: 83.40945626122054\n• Breakout Strength: 0.0\n• Price Velocity: 0.01385274593494954\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 15.0\n• Squeeze Momentum: -0.21509311715984583\n• Volatility Compression: 10.5\n• Is Consolidating: False\n• Breakout Score: 41.47197715601165\n• Multi Timeframe Squeeze Count: 3\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 17.404738522377908\n• Squeeze Breakout: 4.0\n• Options Quality: 17.256433967046878\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 60.0\n• Momentum: 55.0\n• Squeeze: 56.575\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: EL\n• Strike Price: $90\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $6.5\n• Ask: $6.65\n• Last: $6.6\n• Mid: $6.575\n• Spread: 2.255639097744360902255639098%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6108\n• Gamma: 0.0294\n• Theta: -0.0553\n• Vega: 0.1315\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3803\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 112\n• Open Interest: 1455\n• Volume/OI Ratio: 0.07697594501718213\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: Estee Lauder Companies Inc\n• Sector: Consumer Defensive\n• Industry: Household & Personal Products\n• EPS (TTM): $-3.15\n• Profit Margin: -7.9%\n• ROE: -24.7%\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-27T19:05:04+00:00: Stay informed with the top movers within the S&amp;P500 index on Wednesday....\n• 2025-08-27T16:35:04+00:00: Exploring the top movers within the S&amp;P500 index during today's session....\n• 2025-08-27T05:30:52+00:00: 5 Revealing Analyst Questions From Estée Lauder’s Q2 Earnings Call...\n• 2025-08-26T16:03:47+00:00: EL Quantitative Stock Analysis...\n• 2025-08-26T12:10:46+00:00: Earnings live: Wolfspeed, Bank of Montreal stocks rise as Nvidia's earnings coun...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR EL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the EL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-28T01:43:10.204179",
+    "estimated_tokens": 2327
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"EL\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 17,\n        \"options_quality\": 14,\n        \"iv_value\": 6,\n        \"squeeze_volatility\": 5,\n        \"fundamentals\": 5,\n        \"event_news\": 5\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"EL shows mixed technical signals with positive MA trends (SMA50 at 86.60 vs SMA200 at 73.23) but concerning fundamental metrics. While in a squeeze pattern with 3 timeframe confirmation, deteriorating fundamentals and negative earnings create significant headwinds.\",\n    \"opportunities\": [\n        \"Multiple timeframe squeeze setup (3 concurrent squeezes) suggests potential breakout\",\n        \"Strong MA ribbon score of 83.41 indicates positive trend structure\",\n        \"Options have reasonable liquidity with 2.25% bid-ask spread\"\n    ],\n    \"risks\": [\n        \"Negative earnings (-$3.15 TTM) and poor profit margins (-7.9%)\",\n        \"Negative momentum acceleration (-38.42)\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread instead of outright calls to reduce cost basis\",\n        \"entry_timing\": \"Wait until after earnings report due to near-term event risk\",\n        \"risk_management\": \"Use defined risk spreads given fundamental weakness and moderate IV of 38.03%\"\n    },\n    \"red_flags\": [\n        \"Negative earnings and deteriorating fundamentals\",\n        \"Negative ROE of -24.7% indicates serious operational issues\",\n        \"Earnings report in approximately 30 days\"\n    ],\n    \"notes\": \"While technical setup shows promise, fundamental deterioration suggests elevated risk. Consider smaller position size and defined risk strategies if entering.\"\n}",
+    "parsed_analysis": {
+      "symbol": "EL",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 17,
+        "options_quality": 14,
+        "iv_value": 6,
+        "squeeze_volatility": 5,
+        "fundamentals": 5,
+        "event_news": 5
+      },
+      "confidence": "medium",
+      "thesis": "EL shows mixed technical signals with positive MA trends (SMA50 at 86.60 vs SMA200 at 73.23) but concerning fundamental metrics. While in a squeeze pattern with 3 timeframe confirmation, deteriorating fundamentals and negative earnings create significant headwinds.",
+      "opportunities": [
+        "Multiple timeframe squeeze setup (3 concurrent squeezes) suggests potential breakout",
+        "Strong MA ribbon score of 83.41 indicates positive trend structure",
+        "Options have reasonable liquidity with 2.25% bid-ask spread"
+      ],
+      "risks": [
+        "Negative earnings (-$3.15 TTM) and poor profit margins (-7.9%)",
+        "Negative momentum acceleration (-38.42)",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread instead of outright calls to reduce cost basis",
+        "entry_timing": "Wait until after earnings report due to near-term event risk",
+        "risk_management": "Use defined risk spreads given fundamental weakness and moderate IV of 38.03%"
+      },
+      "red_flags": [
+        "Negative earnings and deteriorating fundamentals",
+        "Negative ROE of -24.7% indicates serious operational issues",
+        "Earnings report in approximately 30 days"
+      ],
+      "notes": "While technical setup shows promise, fundamental deterioration suggests elevated risk. Consider smaller position size and defined risk strategies if entering."
+    },
+    "tokens_used": 2563,
+    "cost": 0.02563,
+    "response_time": 10.07858419418335,
+    "success": true
+  },
+  "cost": 0.02563,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8511,
+    "response_length": 1747
+  }
+}

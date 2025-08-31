@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "symbol": "JD",
+  "timestamp": "2025-08-25T22:25:12.152757",
+  "data_package": {
+    "metadata": {
+      "symbol": "JD",
+      "package_timestamp": "2025-08-25T22:25:01.562774",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "JD",
+        "current_price": 31.97,
+        "overall_score": 49.421923076923086,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 32.2266,
+        "sma_200": 36.0648
+      },
+      "momentum_metrics": {
+        "momentum_21d": -3.586497890295363,
+        "momentum_63d": -4.077961019490264,
+        "momentum_126d": -18.621215975578743,
+        "momentum_acceleration": 0.491463129194901,
+        "roc_21d": -3.586497890295363,
+        "trend_strength_20d": 0.0004519764660638386,
+        "trend_direction": -1,
+        "ma_ribbon_score": 50.148579292692446,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0014596854564132178
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 4.0,
+        "squeeze_momentum": 0.04655696041476395,
+        "volatility_compression": 66.5,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 8.028582502024607,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.294394936708855,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 54.0,
+        "momentum": 45.0,
+        "squeeze": 59.975,
+        "options": 46.0,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 17,
+        "percentile": 99.0
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "JD",
+        "strike_price": "31",
+        "expiration_date": "2025-10-17",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "2.35",
+        "ask": "2.39",
+        "last_price": "2.36",
+        "mid_price": "2.37",
+        "spread_percent": "1.673640167364016736401673640"
+      },
+      "greeks": {
+        "delta": 0.6157,
+        "gamma": 0.082,
+        "theta": -0.0188,
+        "vega": 0.0465
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3826
+      },
+      "liquidity_metrics": {
+        "volume": 141,
+        "open_interest": 2032,
+        "volume_oi_ratio": 0.06938976377952756
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-25T22:07:45.914007",
+        "market_status": "after_hours",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 14.79,
+          "change": 0.57,
+          "change_percent": 4.0084,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 642.47,
+          "change": -2.84,
+          "change_percent": -0.4401,
+          "volume": 50740637,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-25T21:04:18+00:00",
+            "title": "Earnings live: PDD Holdings stock falls after hours, Wolfspeed gains as Nvidia's earnings countdown begins",
+            "content": "Second quarter earnings season is winding down, and with most of the reports in, the results have been mostly positive.\n\nOver 92% of S&P 500 index companies have reported results, and as of Aug. 18, analysts expected S&P 500 companies to report an 11% jump in earnings per share during the second quarter.\n\nCompanies had lower expectations to clear coming into the quarter — analysts expected S&P 500 earnings to rise 5% in Q2, the slowest pace of earnings growth since Q4 2023 — amid President Trump's tariffs, stocks' lofty valuations, and uncertainty about the health of the US economy.\n\nNvidia (NVDA) results on Wednesday, Aug. 27, highlight this week's earnings\n\nOther companies reporting include PDD Holdings (PDD), Alibaba (BABA), Okta (OKTA), Abercrombie & Fitch (ANF), CrowdStrike (CRWD), Five Below (FIVE), HP (HP), Kohl's (KSS), Snowflake (SNOW), J.M. Smucker (SJM), Urban Outfitters (URBN), Affirm (AFRM), Best Buy (BBY), Bath & Body Works (BBWI), Dick's Sporting Goods (DKS), Dell (DELL), Dollar General (DG), Gap (GAP), Petco (WOOF), Wolfspeed (WOLF), and Ulta (ULTA).\n\nMeanwhile, markets will continue to digest last week's commentary on the health of consumer spending from Walmart (WMT), Target (TGT), Home Depot (HD), and Lowe's (LOW).\n\nHere are the latest updates from corporate America.LIVE274 updates\n\n12 mins ago\n\nGrace O'Donnell\n\nShares of struggling chipmaker Wolfspeed rise as results are better than feared\n\nWolfspeed (WOLF) stock rose just under 1% in after-hours trading following its fiscal fourth quarter results. The struggling chipmaker has been navigating Chapter 11 bankruptcy and is in the midst of a restructuring, after delays in CHIPS Act funding further hampered the company's finances.\n\nWolfspeed reported a loss per share $4.30, compared to a loss of $1.39 per share during the same period a year ago. Revenue came in at $197 million, compared to $201 million the previous year. Wall Street analysts expected worse results.\n\n“Reflecting upon my first three months with Wolfspeed, I am more confident than ever in my decision to join the Company and our opportunity to further strengthen our position in the industry,” Wolfspeed's new CEO, Robert Feurle, said in a statement. “Our next important milestone is for the court to approve our Plan of Reorganization next month, and emerge from Chapter 11 shortly thereafter, with a much stronger financial structure.” Today at 11:47 AM UTC\n\nGrace O'Donnell\n\nPDD stock jumps after the Temu owner beat earnings estimates\n\nPDD Holdings (PDD) stock gained 7% in premarket trading on Monday after the Chinese e-commerce giant beat earnings estimates by a wide margin.\n\nThe Temu and Pinduoduo owner reported earnings per American depository share (ADS) of 20.75 Chinese yuan (approximately $2.89) compared to estimates of 12.30 yuan ($1.72), per S&P Global Market Intelligence estimates.\n\nRevenue rose 7% year over year to 10.4 billion ($1.45 billion), barely beating estimates as price competition with rivals Alibaba (BABA) and JD.com (JD) and higher costs from tariffs weighed on margins.\n\n“Revenues growth further moderated this quarter amid intense competition,” said Jun Liu, PDD Holdings vice president of finance. \"As we remain focused on long-term value creation, the sustained investments may continue to weigh on short-term profitability.”\n\nRead more here from Reuters Fri, August 22, 2025 at 8:51 PM UTC\n\nGrace O'Donnell\n\nNvidia to highlight next week's earnings\n\nSecond quarter results from Abercrombie & Fitch (ANF), Kohl's (KSS), and Best Buy (BBY) next week will continue to beat the drum of retail earnings after reports from America's big box stores, Walmart (WMT) and Target (TGT).\n\nBut it's Nvidia's (NVDA) earnings that will be the star attraction, as the AI chipmaker's stock has an 8% weighting in the S&P 500 (^GSPC).\n\nAs Yahoo Finance Senior Tech Editor Dan Howley writes, investors will be squarely focused on Nvidia's data center business — even more so since the company announced a new gigascale networking plan that will combine the performance of multiple data centers to create one massive GPU. And many will be eager to hear more about a new China chip Nvidia is developing with the Trump administration.\n\nHere's a look at next week's earnings calendar, marking a sort of grand finale for the second quarter reporting season:\n\nMonday: PDD Holdings (PDD)\n\nTuesday: BMO (BMO), MongoDB (MDB), Okta (OKTA), PVH (PVH)\n\nWednesday: Nvidia (NVDA), Abercrombie & Fitch, CrowdStrike (CRWD), Five Below (FIVE), HP (HP), Kohl's, Pure Storage (PSTG), Snowflake (SNOW), The J.M. Smucker Company (SJM), Urban Outfitters (URBN), Williams-Sonoma (WSM)\n\nThursday: Affirm (AFRM), Best Buy (BBY), Bath & Body Works (BBWI), Dick's Sporting Goods (DKS), Dell (DELL), Dollar General (DG), Gap (GAP), Marvell (MRVL), Petco (WOOF), TD Bank (TD), Ulta (ULTA)\n\nFriday: Alibaba (BABA) Fri, August 22, 2025 at 12:15 PM UTC\n\nGrace O'Donnell\n\nRoss Stores tops quarterly profit estimates as shoppers seek discount apparel\n\nReuters reports:\n\nRead more here. Fri, August 22, 2025 at 12:07 PM UTC\n\nGrace O'Donnell\n\nBJ's Wholesale Club stock falls as fuel prices weigh on sales\n\nFuel prices weighed on BJ's Wholesale Club (BJ) sales in the second quarter, the company reported Friday.\n\nOverall comparable club sales decreased by 0.3% year over year, while comparable sales excluding gasoline increased by 2.3% annually.\n\nThe company reported earnings per share of $1.14, topping Wall Street's estimates for earnings of $1.09 per share. Revenue of $5.38 billion in the quarter disappointed expectations for $5.48 billion, according to S&P Global Market Intelligence\n\nBJ's reiterated its full-year revenue guidance and narrowed the range for its earnings outlook. For fiscal 2025, BJ's sees comparable club sales minus gasoline increasing 2% to 3.5% year-over-year. Adjusted EPS is expected to range from $4.20 to $4.35 instead of $4.10 to $4.30 previously forecast. Thu, August 21, 2025 at 8:42 PM UTC\n\nGrace O'Donnell\n\nZoom stock pops as CEO attributes earnings beat to AI\n\nZoom stock (ZM) popped 5% on Thursday afternoon after the company reported a huge earnings beat.\n\nZoom posted earnings per share of $1.16, compared to Wall Street analyst estimates for $0.72, per S&P Global Market Intelligence. That represents 66% annual earnings growth.\n\nThe company's founder and CEO, Eric Yuan, noted that the strong quarter comes as artificial intelligence reshapes the way people are working. The company highlighted its paid add-on for custom AI agents that help with meeting prep and call summaries as drivers.\n\nRevenue rose 5% to $1.2 billion, bolstered by 7% growth in Enterprise revenue. The company's monthly churn rate remained flat year over year at 2.9%.\n\nZoom also raised its full-year revenue outlook and free cash flow guidance, which is now expected to be in the range of $1.74 billion to $1.78 billion.\n\nFor the full 2026 fiscal year, total revenue is expected to be between $4.825 billion and $4.835 billion while diluted EPS is expected to be between $5.81 and $5.84. Thu, August 21, 2025 at 8:26 PM UTC\n\nGrace O'Donnell\n\nWorkday to acquire AI company Paradox, stock falls\n\nWorkday (WDAY) stock slipped more than 3% in after-hours trading following the company's announcement that it would acquire Paradox for an undisclosed amount. Paradox is an AI company that uses AI chatbots to simplify the job application process.\n\nWorkday also reported second quarter results that beat expectations. Subscription revenue increased 14%, lifting overall revenue to $2.35 billion in the second quarter. Wall Street was looking for revenue of $2.34 billion.\n\nDiluted earnings per share of $2.21 beat estimates of $2.12 per share.\n\n\"Our second quarter results reflect the strength of our platform and our continued progress across several of our growth initiatives,\" CFO Zane Rowe said. \"Following our first half momentum — and also incorporating the acquisition of Paradox — we are increasing our fiscal 2026 subscription revenue guidance to $8.815 billion, representing growth of 14%, and increasing our fiscal 2026 non-GAAP operating margin guidance to approximately 29%.\" Thu, August 21, 2025 at 8:15 PM UTC\n\nGrace O'Donnell\n\nIntuit forecasts first-quarter revenue growth below estimates\n\nShares of Intuit (INTU), the company behind tax-preparation and finance software TurboTax, Credit Karma, and QuickBooks, fell 5% after hours after the company forecast fiscal first quarter revenue growth below analyst estimates.\n\nReuters reports:\n\nIntuit's board also approved a new $3.2 billion share buyback plan, raising its total repurchase authorization to $5.3 billion.\n\nRead more here. Thu, August 21, 2025 at 5:16 PM UTC\n\nGrace O'Donnell\n\nWalmart is still embarrassing Target\n\nWalmart (WMT) and Target (TGT) often get compared, especially when they report earnings back-to-back. But the most recent results from the big box stores highlight how the two couldn't be more different.\n\nYahoo Finance's Brian Sozzi dived into the two retailers' quarters:\n\nRead more here. Thu, August 21, 2025 at 2:25 PM UTC\n\nGrace O'Donnell\n\nWalmart CEO: Tariff impact has been 'gradual,' but we expect costs to increase\n\nWalmart (WMT) reassured investors that it's continuing to gain market share and generate healthy sales growth.\n\nBut even though executives said the company didn't see any \"dramatic shifts\" with consumer behavior last quarter, they did communicate that keeping costs low could become a greater challenge in the second half of the year as tariff-related price increases work their way through inventory.\n\n\"With regards to our US pricing decisions, given tariff-related cost pressures, we're doing what we said we would do: We're keeping our prices as low as we can for as long as we can,\" Walmart CEO Doug McMillon said on Walmart's earnings call.\n\n\"The way things have played out so far, the impact of tariffs has been gradual enough that any behavioral adjustments by the customer have been somewhat muted,\" McMillon continued. \"But as we replenish inventory at post-tariff price levels, we've continued to see our costs increase each week, which we expect will continue into the third and fourth quarters.\"\n\nListen to a replay of the earnings call here. Thu, August 21, 2025 at 11:49 AM UTC\n\nJenny McCall\n\nWalmart stock falls after earnings miss forecasts as US sales, 2025 outlook rise\n\nRetail giant Walmart (WMT) stock slipped 2% on Thursday after missing Wall Street estimates.\n\nYahoo Finance's Brooke DiPalma looks at the retail chains' earnings and how economic challenges may have impacted their results.\n\nRead more here.  Wed, August 20, 2025 at 8:14 PM UTC\n\nGrace O'Donnell\n\nWalmart earnings expected to show US sales growth continued in Q2 as consumers seek value\n\nWalmart (WMT) will report quarterly results Thursday morning before the bell, following on the heels of Target (TGT) earnings Wednesday, which sent shares of the retailer 6% lower.\n\nBut Walmart is expected to highlight another robust quarter, Yahoo Finance's Brooke DiPalma writes, as consumers search for value amid tariff-related uncertainty.\n\nBrooke previews what to look for in Walmart's earnings:\n\nRead more here. Wed, August 20, 2025 at 12:00 PM UTC\n\nGrace O'Donnell\n\nTJX Companies shares rise after earnings beat and raise\n\nTJ Maxx parent TJX Companies (TJX) beat sales and profit estimates for the second quarter and raised its annual profit forecast, boosting shares in premarket trading.\n\nReuters reports:\n\nRead more here. Wed, August 20, 2025 at 11:45 AM UTC\n\nGrace O'Donnell\n\nLowe's stock rises after same-store sales return to growth\n\nLowe's (LOW) stock popped in premarket trading on Wednesday after the home improvement retailer reported a return to same-store sales growth, earnings beat, and raised its guidance.\n\nYahoo Finance's Brooke DiPalma reports:\n\nRead more here. Wed, August 20, 2025 at 11:03 AM UTC\n\nJenny McCall\n\nTarget beat low earnings expectations as sales continue to fall\n\nTarget (TGT) released its second quarter results on Wednesday. The results are not as bad as the first quarter but declining sales has the retail giant in a bit of a bind. Shares in target fell 8% before the bell\n\nYahoo Finance's executive editor Brian Sozzi looks at the latest from Target and whether it will ever find its place in this new economic environment.\n\nRead more here.  Wed, August 20, 2025 at 10:58 AM UTC\n\nJenny McCall\n\nBaidu quarterly revenue falls as weak ads offset cloud growth\n\nReuters reports:\n\nRead more here.  Wed, August 20, 2025 at 10:31 AM UTC\n\nJenny McCall\n\nEstee Lauder forecasts annual profit below estimates as tariffs hit\n\nEstee Lauder (EL) stock fell 8% before the bell on Wednesday after the beauty group forecast annual profit below Wall Street estimates, as it grapples with persistent weakness in the US and China markets and tariff uncertainty.\n\nReuters reports:\n\nRead more here.  Tue, August 19, 2025 at 8:55 PM UTC\n\nGrace O'Donnell\n\nToll Brothers beats on earnings, but new orders decline 4%\n\nToll Brothers (TOL) reported another double beat in its fiscal third quarter, but a slowdown in new orders weighed on the stock, which drifted 1.6% lower after hours.\n\nThe homebuilder posted diluted earnings per share of $3.73 on home sale revenue of $2.88 billion. Wall Street analysts were expecting earnings per share of $3.64 on revenue of $2.85 billion.\n\nAfter a sluggish spring season in the housing market, there have been signs of a resurgence, with housing starts jumping in July. But mortgage rates that have barely budged, ongoing economic uncertainty, and affordability challenges for buyers continue to weigh on the sector.\n\nFor the quarter, Toll Brothers noted it had 2,388 units under signed contract, a 4% decline from a year ago. Analysts had expected orders growth.\n\n\"The average sales price of new contracts was $1.0 million, up 4.5% year-over-year,\" CEO Douglas Yearley said in the earnings release. \"Contract dollars were flat despite a 4% decline in units. While affordability pressures and uncertain economic conditions persist, we are pleased with the resilience of our luxury business and more affluent customer base.\" Tue, August 19, 2025 at 8:32 PM UTC\n\nGrace O'Donnell\n\nLa-Z-Boy stock drops on soft earnings and guidance\n\nLa-Z-Boy stock (LZB) dropped 16% in after-hours trading after the company missed earnings estimates and navigated \"soft industry demand.\"\n\nOverall, comparable sales dropped 1% to $492 million from a year ago. Sales in the furniture retailer's wholesale segment increased 1%, and retail sales rose 5%, but they were offset by weakness in the Joybird brand, which saw sales decline 14%.\n\nLa-Z-Boy reported diluted earnings per share of $0.44, compared to $0.61 per share a year ago. The Street was looking for earnings of $0.52 per share.\n\nLa-Z-Boy's guidance also came in lighter than expected. It expects sales in the range of $510 million to $530 million in the fiscal second quarter. Wall Street was looking for $532 million, according to S&P Global Market Intelligence. Tue, August 19, 2025 at 11:54 AM UTC\n\nMedtronic appoints 2 new board members, posts Q1 beat\n\nIrish medical device maker Medtronic (MDT) reported better-than-expected earnings for its fiscal first quarter on Monday.\n\nBut the bigger story was the company's announcement that it would add two new directors to its board after activist investor Elliott Investment Management became one of its largest shareholders. Veteran med-tech executives John Groetelaars and Bill Jellison were appointed, the company said.\n\nMedtronic stock dropped over 3% in premarket trading.\n\nFor the quarter, the company posted adjusted earnings of $1.26 per share, beating analysts’ estimates for $1.23, according to S&P Global Market Intelligence. Revenue came in at $8.6 billion, above Wall Street’s forecast of $8.4 billion.\n\nRead more here.\n\nStory Continues\n\nFor the latest earnings reports and analysis, earnings whispers and expectations, and company earnings news, click here\n\nRead the latest financial and business news from Yahoo Finance\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T15:29:25+00:00",
+            "title": "Susquehanna Maintains a Hold on JD.com (JD) With a $32 PT",
+            "content": "JD.com, Inc. (NASDAQ:JD) is one of the best cheap strong buy stocks to buy now. In a report released on August 18, Shyam Patil from Susquehanna maintained a Hold rating on JD.com, Inc. (NASDAQ:JD) with a price target of $32.00.Why JD.com, Inc. (JD) Surged On Thursday\n\nA wide and imposing view of a supply chain distribution center, illustrating the company's technology capabilities.\n\nThe rating update came after JD.com, Inc. (NASDAQ:JD) reported its fiscal Q2 2025 results on August 14, with net revenues for the quarter reaching RMB356.7 billion ($49.8 billion), up 22.4% compared to fiscal Q2 2024.\n\nJD.com, Inc. (NASDAQ:JD) reported RMB6.2 billion ($0.9 billion) in net income attributable to the company’s ordinary shareholders, compared to RMB12.6 billion in the same quarter last year.\n\nJD.com, Inc. (NASDAQ:JD) is an e-commerce company that deals with online retail and online marketplace through its retail website and mobile application. Its operations are divided into four segments: JD Retail, JD Logistics, Dada, and the New Businesses segment.\n\nThe JD Retail segment is engaged in online retail, marketing services, and online marketplace in China, while the JD Logistics segment covers internal and external logistics businesses. The Dada segment is a local on-demand delivery and retail platform in China. The New Businesses segment, in contrast, manages JD Property, Jingxi, and overseas businesses.\n\nWhile we acknowledge the potential of JD as an investment, we believe certain AI stocks offer greater upside potential and carry less downside risk. If you’re looking for an extremely undervalued AI stock that also stands to benefit significantly from Trump-era tariffs and the onshoring trend, see our free report on the best short-term AI stock.\n\nREAD NEXT: 30 Stocks That Should Double in 3 Years and 11 Hidden AI Stocks to Buy Right Now.\n\nDisclosure: None. This article is originally published at Insider Monkey.\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:46:00+00:00",
+            "title": "PDD Stock Swings After the Temu Parent’s Earnings Smashed Expectations. Here’s Why.",
+            "content": "Second-quarter adjusted earnings came in at $3.08 a share on revenue of $14.5 billion, beating expectations.\n\nContinue Reading\n\nView comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T13:32:05+00:00",
+            "title": "Stock market today: Dow, S&amp;P 500, Nasdaq waver after record-setting surge as Nvidia earnings loom",
+            "content": "US stocks diverged on Monday but retreated from a powerful rally fueled by rate-cut hopes, with eyes all on Nvidia (NVDA) earnings for the week ahead.\n\nThe Dow Jones Industrial Average (^DJI) dropped 0.5% and the S&P 500 (^GSPC) hovered just below the flat line. The tech-heavy Nasdaq Composite (^IXIC) rose 0.3%, buoyed by a 2% gain in Nvidia stock.\n\nSNP - Free Realtime Quote•USD\n\n(^GSPC)\n\nFollow  View Quote Details\n\n6,463.70\n\n-3.21\n\n(-0.05%)\n\nAs of 12:10:52 PM EDT. Market Open.  ^GSPC^IXIC ^DJI\n\nAdvanced Chart\n\nWall Street is coming off a rally that saw the Dow Jones Industrial Average surge over 800 points, or 1.8%, to 45,631.74, to score its first record of 2025. The S&P 500 gained 1.5%, finishing just shy of a fresh all-time high. The Nasdaq jumped 1.9% as investors cheered signals from Federal Reserve Chair Jerome Powell that rate cuts could start as early as September.\n\nWith earnings season continuing, Nvidia, the most valuable stock in the S&P 500, reports results after the closing bell on Wednesday. Analysts see the chipmaker posting earnings of $1.01 per share on $46.13 billion in revenue. Price targets have been climbing in the lead-up, reflecting optimism that demand for AI hardware remains high.\n\nNvidia stock has already had a monster run: Shares are sitting near a record high, up 32% year to date, while nearly doubling since April’s market low. Wednesday’s report acts as a litmus test for Nvidia as well as the broader market, as investors eyed a potential rotation out of tech before the end-of-week rally. Meanwhile, Dell (DELL) and Marvell Technology (MRVL) report on Thursday.\n\nLooking ahead, the spotlight turns to Friday’s July PCE inflation report, the Fed's preferred inflation gauge. Economists expect core PCE to rise 2.9% year over year, slightly higher than June’s 2.8%.LIVE15 updates\n\n25 mins ago\n\nGrace O'Donnell\n\nUS new home sales fall in July\n\nReuters reports:\n\nRead more here. Today at 2:47 PM UTC\n\nBrooke DiPalma\n\nKeurig Dr Pepper to acquire JDE Peet's for $18B, to split into two public companies\n\nKeurig Dr Pepper's stock (KDP) fell after the company announced plans on Monday to acquire JDE Peet's for $18 billion. JDE Peet's stock surged on the news, up nearly 18%.\n\nBy the end of 2026, Keurig Dr Pepper will spin off into two publicly listed companies, Beverage Co. and Global Coffee Co., a pure-play coffee brand.\n\nThe beverage-focused company will include energy drinks C3 and Ghost, alongside juice and soda brands like Mott's and Canada Dry, while Global Coffee Co will have JDE Peet's and Keurig, among others. This essentially unravels Keurig's 2018 acquisition of Dr Pepper Snapple.\n\nThe company's US coffee business has been under pressure. Volume for its US coffee business is expected to decline 5.92% in the coming quarter, per Bloomberg consensus data, while its beverage business is expected to see continued growth.\n\n\"Global Coffee Co. will be able to optimize its operating and growth model to singularly focus on coffee greater consumer focus, sharper execution, fit-for-purpose growth opportunities,\" CEO Timothy Cofer, who will be the CEO of Beverage Co. following the split, told investors on a call.\n\nHe added that, \"as a pure play, I think the business [Beverage Co.] will benefit from even greater strategic clarity than what was possible as part of KDP.\"\n\nLately, big food companies have faced questions about their futures and are taking a hard look at their US portfolios as consumer tastes shift, growth stalls, and regulatory scrutiny of products continues. Recent announcements include a potential breakup at Kraft Heinz (KHC), a multibillion-dollar deal between Ferrero and WK Kellogg (KLG), and PepsiCo's (PEP) acquisition of soda brand Poppi.\n\n\"The self-reflection is building,\" Mizuho analyst John Baumgartner told Yahoo Finance earlier this summer, \"there's a lot of flux in the industry right now.\" Today at 1:37 PM UTC\n\nGrace O'Donnell\n\nStocks fall at the open\n\nUS stocks retreated on Monday morning from their surge on Friday on the heels of Fed Chair Jerome Powell's Jackson Hole speech.\n\nThe Dow Jones Industrial Average (^DJI) and the S&P 500 (^GSPC) both fell around 0.2% at the open. The tech-heavy Nasdaq Composite (^IXIC) dropped 0.3%.\n\nTreasurys rose across the board, with the 10-year yield climbing 2 basis points to 4.28%.\n\nAnd shares of Nvidia (NVDA), which reports earnings on Wednesday, fell 0.3%.\n\nSNP - Free Realtime Quote•USD\n\n(^GSPC)\n\nFollow  View Quote Details\n\n6,463.70\n\n-3.21\n\n(-0.05%)\n\nAs of 12:10:52 PM EDT. Market Open.  ^GSPC^IXIC ^DJI\n\nAdvanced Chart Today at 1:35 PM UTC\n\nMyles Udland\n\nIntel stock rises after Trump says 'I love seeing their stock price go up'\n\nIntel (INTC) stock gained as much as 3% early Monday morning after President Trump said he loved seeing the price of the chipmaker's stock go up.\n\nTrump's comments came after Intel and his administration announced last week a deal for the government to take a 9.9% stake in the chipmaker.\n\nIn a post on Truth Social early Monday, Trump said the government paid \"ZERO\" for Intel, adding, \"I will make deals like that for our Country all day long.\"\n\n\"I will also help those companies that make such lucrative deals with the United States,\" Trump added.\n\n\"I love seeing their stock price go up, making the USA RICHER, AND RICHER.\"\n\nLate Friday, Intel and the government disclosed the details of the agreement, which will see the government take an equity stake in the company worth $8.9 billion. Including the $2.2 billion CHIPS Act grant Intel has already received, the deal puts the government's investment in Intel at $11.1 billion.\n\nTrump's post on Monday comes about an hour after Kevin Hassett, the director of the National Economic Council, that the administration will continue to look to make similar investments across industries.\n\nIn an interview on CNBC, Hassett said, \"the president has made it clear all the way back to the campaign, he thinks that in the end, it would be great if the US could start to build up a sovereign wealth fund.\n\n\"So I’m sure that at some point there’ll be more transactions, if not in this industry then other industries.\n\nOn Friday, Intel stock rose 5% on reports the government was preparing to take a 10% stake in the chipmaker, which has fallen behind its peers during the AI boom. Shares slipped about 1.5% in late trading after details of the deal were announced.\n\n\"President Trump’s focus on U.S. chip manufacturing is driving historic investments in a vital industry that is integral to the country’s economic and national security,\" Intel CEO Lip-Bu Tan said in a statement on Friday.\n\n\"We are grateful for the confidence the President and the Administration have placed in Intel, and we look forward to working to advance U.S. technology and manufacturing leadership.\"\n\nRead more here. Today at 1:24 PM UTC\n\nGrace O'Donnell\n\nFurniture stocks sink after Trump says furniture tariffs will be announced within 50 days\n\nFurniture stocks were under pressure Monday after President Trump opened an investigation into imports of furniture, which is expected to lead to new tariffs.\n\nWayfair (W) and RH (RH) stocks fell 8%, Sleep Number (SNBR) dropped 5%, and The Lovesac Company (LOVE) declined about 4% just ahead of the opening bell.\n\n“Within the next 50 days, that Investigation will be completed, and Furniture coming from other Countries into the United States will be Tariffed at a Rate yet to be determined,” Trump wrote in a Truth Social post on Friday.\n\nHowever, not all furniture stocks took a leg lower. Ethan Allen (ETD) and La-Z-Boy (LZB) stocks got a lift, as the two furniture companies produce a significant portion of their items in the US. Ethan Allen rose 5%, while La-Z-Boy added nearly 2%. Today at 12:42 PM UTC\n\nGrace O'Donnell\n\nØrsted stock falls to record low after US government stops work on Rhode Island wind project\n\nShares of the Danish offshore wind company Ørsted (ORSTED.CO) fell 15% to an all-time low after the Trump administration halted work on the company's nearly completed wind farm off the coast of Rhode Island.\n\nThe order marks the second major wind project suspension this year after the administration also halted Norwegian energy company Equinor's Empire Wind 1 project off the coast of New York in April.\n\nReuters reports:\n\nRead more here. Today at 12:26 PM UTC\n\nGrace O'Donnell\n\nFigma draws Neutral ratings as Wall Street flags lofty valuation, rising competition\n\nWall Street firms initiated coverage of design software maker Figma (FIG) on Monday with Neutral ratings following the company's blockbuster initial public offering in late July that saw shares explode 250% to $85 apiece.\n\nFigma stock fell 1.6% in premarket trading to around $76.04 per share.\n\nReuters reports:\n\nRead more here. Today at 12:00 PM UTC\n\nKaren Friar\n\nStablecoins are set to reshape the multitrillion-dollar US Treasury market\n\nWith US debt above $37 trillion and climbing, the US Treasury market is eyeing stablecoin issuers like Tether and Circle (CRCL) as key buyers.\n\nYahoo Finance's Ines Ferré reports:\n\nRead more here. Today at 11:54 AM UTC\n\nGrace O'Donnell\n\nPDD stock jumps after the Temu owner beat earnings estimates\n\nPDD Holdings (PDD) stock gained 5% in premarket trading on Monday after the Chinese e-commerce giant beat earnings estimates by a wide margin. Shares spiked as much as 12% earlier but pared gains as investors digested the report.\n\nThe Temu and Pinduoduo owner reported earnings per American depository share (ADS) of 20.75 Chinese yuan (approximately $2.89) compared to estimates of 12.30 yuan ($1.72), per S&P Global Market Intelligence estimates.\n\nRevenue rose 7% year over year to 10.4 billion ($1.45 billion), barely beating estimates as price competition with rivals Alibaba (BABA) and JD.com (JD) and higher costs from tariffs weighed on margins. US-listed shares of Alibaba and JD.com also rose ahead of the market open.\n\n“Revenues growth further moderated this quarter amid intense competition,” said Jun Liu, PDD Holdings vice president of finance. \"As we remain focused on long-term value creation, the sustained investments may continue to weigh on short-term profitability.”\n\nRead more here from Reuters Today at 11:47 AM UTC\n\nKaren Friar\n\nCanadians load up on US stocks despite Trump's trade war\n\nUS President Donald Trump’s tariffs, threats of annexation and assorted insults have infuriated Canadians, leading them to sell off American real estate and boycott products.\n\nThe nation’s investors seemingly never got the memo, Bloomberg reports:\n\nRead more here. Today at 11:25 AM UTC\n\nKaren Friar\n\nKeurig Dr Pepper shares drop on $18B deal for Peet's\n\nKeurig Dr Pepper's (KDP) $18 billion coffee megadeal for JDE Peet's (JDEPY, JDEP.AS) has failed to buzz investors in premarket. Its US-listed stock slid in premarket after the beverages giant confirmed reports of the acquisition.\n\nReuters reports:\n\nRead more here. Today at 9:05 AM UTC\n\nBrian Sozzi\n\nIntel and the US government\n\nIntel (INTC) shares are up slightly in premarket trading on the late Friday news the US government is taking a 10% stake in the chip giant.\n\nThe deal is getting mostly favorable reviews on the Street, in part because the government isn't getting a board seat and the terms aren't super restrictive.\n\nEven still, it's not an ideal situation for Intel. Now CEO Lip-Bu Tan has to have the Trump administration breathing down his neck at every corner while he attempts to save the company.\n\nAnd make no mistake, with this government investment, it's a signal that Intel needs saving.\n\nWhat KeyBanc had to say:\n\n\"We see positive implications associated with this transaction as we were previously concerned that the U.S. government's equity stake would likely have other Intel obligations with a potentially activist ownership role. Additionally, with the removal of the clawback on the previous CHIPS Act grant and announced equity transaction, uncertainty associated with whether INTC's Chips Act funding would be reneged is off the table.\" Today at 8:45 AM UTC\n\nKaren Friar\n\nThis week's Nvidia earnings, PCE inflation pose tests with stocks near records\n\nYahoo Finance's Josh Schafer lays out the potentially market-moving events to watch this week, after stocks ended last week in rally mode, thanks to Fed Chair Jerome Powell's comments.\n\nSchafer reports:\n\nRead more here. Today at 5:46 AM UTC\n\nRian Howlett\n\nAsian shares follow American surge\n\nAsian markets rose overnight Sunday, following Wall Street's record-setting rally, which was sparked by hints from Jerome Powell that the Fed may be lowering rates.\n\nReuters reports:\n\nRead more here. Today at 3:25 AM UTC\n\nRian Howlett\n\nOil prices rise after Ukraine strikes on Russian production sites\n\nOil prices rose overnight Sunday as Ukraine hit a number of Russian production centers, causing fears over Russian oil supply capabilities.\n\nReuters reports:\n\nRead more here.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-25T11:16:00+00:00",
+            "title": "Temu Owner PDD Holdings Stock Soars. How Its Earnings Smashed Expectations.",
+            "content": "Second-quarter adjusted earnings came in at $3.08 a share on revenue of $14.5 billion, beating expectations.\n\nContinue Reading\n\n查看留言",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "JD.com Inc Adr",
+          "sector": "Consumer Cyclical",
+          "industry": "Internet Retail",
+          "employees": 900000,
+          "description": "JD.com, Inc. operates as a supply chain-based technology and service provider in the People's Republic of China. It operates through three segments: JD Retail, JD Logistics, and New Businesses. The company offers computers, communication, and consumer electronics products, as well as home appliances"
+        },
+        "financial_metrics": {
+          "eps_ttm": 3.56,
+          "profit_margin": 0.0306,
+          "operating_margin": -0.003,
+          "roe": 0.1425,
+          "roa": 0.0284,
+          "revenue_growth_yoy": 0.224,
+          "earnings_growth_yoy": -0.494,
+          "eps_estimate_current_year": 18.5152,
+          "eps_estimate_next_year": 26.7163,
+          "dividend_yield": 0.0314,
+          "dividend_per_share": 0,
+          "revenue_ttm": 1265114939392,
+          "revenue_per_share": 875.602,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 8.9551,
+          "forward_pe": 12.7714,
+          "price_to_sales": 0.0357,
+          "price_to_book": 1.4282,
+          "enterprise_value": 29316191354,
+          "ev_to_revenue": 0.1664,
+          "ev_to_ebitda": 4.2317
+        },
+        "technical_data": {
+          "beta": 0.475,
+          "52_week_high": 46.4779,
+          "52_week_low": 24.8913,
+          "50_day_ma": 32.2266,
+          "200_day_ma": 36.0648,
+          "short_interest": 0.0163,
+          "short_ratio": 2.37
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 1,
+          "forward_dividend_yield": 0.0314,
+          "payout_ratio": 0.0332,
+          "dividend_date": "2025-04-29",
+          "ex_dividend_date": "2025-04-08",
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.6579,
+          "target_price": 44.4427,
+          "strong_buy": 28,
+          "buy": 7,
+          "hold": 3,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 1418000000,
+          "percent_institutions": 15.387999999999998,
+          "percent_insiders": 0.7929999999999999,
+          "shares_float": 2496020320
+        },
+        "balance_latest_sheet": {
+          "total_assets": 706939.0,
+          "total_debt": 100792.0,
+          "net_debt": -15755.0,
+          "working_capital": 71401.0,
+          "shareholders_equity": 227160.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.44
+        },
+        "income_latest_statement": {
+          "total_revenue": 356660.0,
+          "gross_profit": 56640.0,
+          "operating_income": -859.0,
+          "net_income": 6178.0,
+          "ebitda": 7342.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 15.88,
+          "operating_margin": -0.24,
+          "net_margin": 1.73
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 24409.0,
+          "free_cash_flow": 24409.0,
+          "capex": 0.0,
+          "net_income": 6178.0,
+          "cash_change": 20100.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 3.16,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-15",
+            "open": 31.75,
+            "high": 32.2,
+            "low": 31.555,
+            "close": 32.04,
+            "volume": 16352700
+          },
+          {
+            "date": "2025-07-16",
+            "open": 31.78,
+            "high": 31.8,
+            "low": 31.36,
+            "close": 31.64,
+            "volume": 7506600
+          },
+          {
+            "date": "2025-07-17",
+            "open": 31.6,
+            "high": 32.81,
+            "low": 31.56,
+            "close": 32.69,
+            "volume": 12359300
+          },
+          {
+            "date": "2025-07-18",
+            "open": 34,
+            "high": 34.54,
+            "low": 33.65,
+            "close": 33.92,
+            "volume": 23776800
+          },
+          {
+            "date": "2025-07-21",
+            "open": 33.55,
+            "high": 33.88,
+            "low": 33.16,
+            "close": 33.4,
+            "volume": 10481400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 33.49,
+            "high": 33.99,
+            "low": 33.18,
+            "close": 33.88,
+            "volume": 10338600
+          },
+          {
+            "date": "2025-07-23",
+            "open": 34.245,
+            "high": 34.315,
+            "low": 33.83,
+            "close": 33.93,
+            "volume": 8726200
+          },
+          {
+            "date": "2025-07-24",
+            "open": 33.93,
+            "high": 33.98,
+            "low": 33.312,
+            "close": 33.47,
+            "volume": 7713800
+          },
+          {
+            "date": "2025-07-25",
+            "open": 33.15,
+            "high": 33.31,
+            "low": 32.98,
+            "close": 33.18,
+            "volume": 4898000
+          },
+          {
+            "date": "2025-07-28",
+            "open": 33.38,
+            "high": 33.65,
+            "low": 33.06,
+            "close": 33.22,
+            "volume": 5788300
+          },
+          {
+            "date": "2025-07-29",
+            "open": 33.2,
+            "high": 33.265,
+            "low": 32.13,
+            "close": 32.22,
+            "volume": 11111500
+          },
+          {
+            "date": "2025-07-30",
+            "open": 32.06,
+            "high": 32.17,
+            "low": 31.585,
+            "close": 31.75,
+            "volume": 9185100
+          },
+          {
+            "date": "2025-07-31",
+            "open": 31.27,
+            "high": 31.91,
+            "low": 31.08,
+            "close": 31.49,
+            "volume": 12633600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 31.12,
+            "high": 31.17,
+            "low": 30.6,
+            "close": 30.91,
+            "volume": 11472700
+          },
+          {
+            "date": "2025-08-04",
+            "open": 31.468,
+            "high": 31.66,
+            "low": 31.17,
+            "close": 31.62,
+            "volume": 9410700
+          },
+          {
+            "date": "2025-08-05",
+            "open": 31.4,
+            "high": 31.61,
+            "low": 31.31,
+            "close": 31.34,
+            "volume": 5967100
+          },
+          {
+            "date": "2025-08-06",
+            "open": 31.29,
+            "high": 31.42,
+            "low": 30.97,
+            "close": 31.34,
+            "volume": 4616700
+          },
+          {
+            "date": "2025-08-07",
+            "open": 31.66,
+            "high": 31.83,
+            "low": 31.52,
+            "close": 31.75,
+            "volume": 4975800
+          },
+          {
+            "date": "2025-08-08",
+            "open": 31.42,
+            "high": 31.5,
+            "low": 31.185,
+            "close": 31.49,
+            "volume": 4302800
+          },
+          {
+            "date": "2025-08-11",
+            "open": 31.225,
+            "high": 31.56,
+            "low": 31.05,
+            "close": 31.18,
+            "volume": 7618000
+          },
+          {
+            "date": "2025-08-12",
+            "open": 31.46,
+            "high": 32.198,
+            "low": 31.41,
+            "close": 32.12,
+            "volume": 8440300
+          },
+          {
+            "date": "2025-08-13",
+            "open": 32.725,
+            "high": 32.8,
+            "low": 32.115,
+            "close": 32.51,
+            "volume": 16590600
+          },
+          {
+            "date": "2025-08-14",
+            "open": 31.9,
+            "high": 32.77,
+            "low": 31.16,
+            "close": 31.58,
+            "volume": 24556800
+          },
+          {
+            "date": "2025-08-15",
+            "open": 31.12,
+            "high": 31.81,
+            "low": 31.12,
+            "close": 31.7,
+            "volume": 14059800
+          },
+          {
+            "date": "2025-08-18",
+            "open": 31.99,
+            "high": 32.48,
+            "low": 31.68,
+            "close": 31.77,
+            "volume": 9850000
+          },
+          {
+            "date": "2025-08-19",
+            "open": 31.52,
+            "high": 31.85,
+            "low": 31.13,
+            "close": 31.24,
+            "volume": 8780100
+          },
+          {
+            "date": "2025-08-20",
+            "open": 31.26,
+            "high": 31.45,
+            "low": 30.96,
+            "close": 31.17,
+            "volume": 7150400
+          },
+          {
+            "date": "2025-08-21",
+            "open": 30.98,
+            "high": 31.3,
+            "low": 30.95,
+            "close": 31.18,
+            "volume": 5008000
+          },
+          {
+            "date": "2025-08-22",
+            "open": 31.31,
+            "high": 31.96,
+            "low": 31.2,
+            "close": 31.88,
+            "volume": 11994100
+          },
+          {
+            "date": "2025-08-25",
+            "open": 32.215,
+            "high": 32.425,
+            "low": 31.985,
+            "close": 31.99,
+            "volume": 9788708
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-15",
+          "end": "2025-08-25"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": -3.702588801926552,
+        "return_63d": -1.6902274124154908,
+        "pct_above_sma50": -0.6963987302060721,
+        "sma_50": 32.1942,
+        "new_55d_high": "False",
+        "high_55d": 34.54,
+        "rsi": 56.70103092783505,
+        "rsi_in_range": "True",
+        "adx": 22.012088815015108,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.2277274148171293,
+        "bb_width": 5.109714868706902,
+        "keltner_width": 9.012909460930663,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 312183806.5046,
+        "adv_shares": 9875640.4,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 42.32297743873346,
+        "final_score": 37.32297743873346,
+        "sub_scores": {
+          "trend_momentum": 8.028582502024607,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.294394936708855,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": -3.5864978902953593,
+          "ret_63d": -4.077961019490262,
+          "rsi14": 56.70103092783505,
+          "adx14": 21.53671781663207,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: JD\n• Current Price: $31.97\n• Overall Score: 49.421923076923086\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 32.2266\n• Sma 200: 36.0648\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: -3.586497890295363\n• Momentum 63D: -4.077961019490264\n• Momentum 126D: -18.621215975578743\n• Momentum Acceleration: 0.491463129194901\n• Roc 21D: -3.586497890295363\n• Trend Strength 20D: 0.0004519764660638386\n• Trend Direction: -1\n• Ma Ribbon Score: 50.148579292692446\n• Breakout Strength: 0.0\n• Price Velocity: 0.0014596854564132178\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 4.0\n• Squeeze Momentum: 0.04655696041476395\n• Volatility Compression: 66.5\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 8.028582502024607\n• Squeeze Breakout: 4.0\n• Options Quality: 19.294394936708855\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 54.0\n• Momentum: 45.0\n• Squeeze: 59.975\n• Options: 46.0\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: JD\n• Strike Price: $31\n• Expiration: 2025-10-17\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $2.35\n• Ask: $2.39\n• Last: $2.36\n• Mid: $2.37\n• Spread: 1.673640167364016736401673640%\n\n**GREEKS ANALYSIS**\n• Delta: 0.6157\n• Gamma: 0.082\n• Theta: -0.0188\n• Vega: 0.0465\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3826\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 141\n• Open Interest: 2032\n• Volume/OI Ratio: 0.06938976377952756\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: JD.com Inc Adr\n• Sector: Consumer Cyclical\n• Industry: Internet Retail\n• EPS (TTM): $3.56\n• Profit Margin: 3.1%\n• ROE: 14.2%\n• P/E Ratio: 9.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-25T21:04:18+00:00: Earnings live: PDD Holdings stock falls after hours, Wolfspeed gains as Nvidia's...\n• 2025-08-25T15:29:25+00:00: Susquehanna Maintains a Hold on JD.com (JD) With a $32 PT...\n• 2025-08-25T13:46:00+00:00: PDD Stock Swings After the Temu Parent’s Earnings Smashed Expectations. Here’s W...\n• 2025-08-25T13:32:05+00:00: Stock market today: Dow, S&amp;P 500, Nasdaq waver after record-setting surge as...\n• 2025-08-25T11:16:00+00:00: Temu Owner PDD Holdings Stock Soars. How Its Earnings Smashed Expectations....\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR JD\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the JD opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-25T22:25:12.152446",
+    "estimated_tokens": 2334
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"JD\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 12,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 6,\n        \"event_news\": 3\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"JD shows mixed signals with negative momentum (-3.59% 21D) but attractive options characteristics (tight 1.67% spread, favorable Greeks). Currently in a volatility squeeze with 4-day duration, though fundamentals are challenged with price below both 50 and 200 SMAs.\",\n    \"opportunities\": [\n        \"Quality options chain with tight spreads and good liquidity (2032 OI)\",\n        \"Active volatility squeeze with 2 timeframe confirmation\",\n        \"Attractive valuation with P/E of 9.0 and positive ROE of 14.2%\"\n    ],\n    \"risks\": [\n        \"Negative momentum across all timeframes (-18.62% 126D)\",\n        \"Price trading below key moving averages (50SMA: 32.23, 200SMA: 36.06)\",\n        \"Upcoming earnings on 2025-09-30 creates event risk\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"LEAPS Call structure provides time for trend reversal while limiting capital at risk\",\n        \"entry_timing\": \"Consider partial position now with squeeze setup, add on momentum shift confirmation\",\n        \"risk_management\": \"Size position conservatively given negative momentum; use 31 strike as technical stop\"\n    },\n    \"red_flags\": [\n        \"Persistent negative momentum across all timeframes\",\n        \"Earnings report within 35 days\",\n        \"Price below both major moving averages\"\n    ],\n    \"notes\": \"Options metrics suggest institutional quality but technical picture remains challenged. Consider waiting for momentum improvement before full position commitment.\"\n}",
+    "parsed_analysis": {
+      "symbol": "JD",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 12,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 6,
+        "event_news": 3
+      },
+      "confidence": "medium",
+      "thesis": "JD shows mixed signals with negative momentum (-3.59% 21D) but attractive options characteristics (tight 1.67% spread, favorable Greeks). Currently in a volatility squeeze with 4-day duration, though fundamentals are challenged with price below both 50 and 200 SMAs.",
+      "opportunities": [
+        "Quality options chain with tight spreads and good liquidity (2032 OI)",
+        "Active volatility squeeze with 2 timeframe confirmation",
+        "Attractive valuation with P/E of 9.0 and positive ROE of 14.2%"
+      ],
+      "risks": [
+        "Negative momentum across all timeframes (-18.62% 126D)",
+        "Price trading below key moving averages (50SMA: 32.23, 200SMA: 36.06)",
+        "Upcoming earnings on 2025-09-30 creates event risk"
+      ],
+      "option_contract": {
+        "recommendation": "LEAPS Call structure provides time for trend reversal while limiting capital at risk",
+        "entry_timing": "Consider partial position now with squeeze setup, add on momentum shift confirmation",
+        "risk_management": "Size position conservatively given negative momentum; use 31 strike as technical stop"
+      },
+      "red_flags": [
+        "Persistent negative momentum across all timeframes",
+        "Earnings report within 35 days",
+        "Price below both major moving averages"
+      ],
+      "notes": "Options metrics suggest institutional quality but technical picture remains challenged. Consider waiting for momentum improvement before full position commitment."
+    },
+    "tokens_used": 2574,
+    "cost": 0.02574,
+    "response_time": 10.587111473083496,
+    "success": true
+  },
+  "cost": 0.02574,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8533,
+    "response_length": 1765
+  }
+}

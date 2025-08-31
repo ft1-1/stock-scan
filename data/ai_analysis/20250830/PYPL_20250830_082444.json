@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "symbol": "PYPL",
+  "timestamp": "2025-08-30T08:24:44.639858",
+  "data_package": {
+    "metadata": {
+      "symbol": "PYPL",
+      "package_timestamp": "2025-08-30T08:24:35.722382",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 73.75,
+      "meets_quality_threshold": true,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "PYPL",
+        "current_price": 70.19,
+        "overall_score": 51.25261113347314,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 71.932,
+        "sma_200": 75.3194
+      },
+      "momentum_metrics": {
+        "momentum_21d": 2.0796974985456553,
+        "momentum_63d": -0.12805919180421657,
+        "momentum_126d": -1.210415200562983,
+        "momentum_acceleration": 2.2077566903498718,
+        "roc_21d": 2.0796974985456553,
+        "trend_strength_20d": 0.33561991649879297,
+        "trend_direction": -1,
+        "ma_ribbon_score": 49.615366511174855,
+        "breakout_strength": 0.0,
+        "price_velocity": 0.0008512753980316034
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 5.0,
+        "squeeze_momentum": 0.3167325111238715,
+        "volatility_compression": 70.85626855166879,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 2
+      },
+      "quantitative_scores": {
+        "trend_momentum": 12.324765191534022,
+        "squeeze_breakout": 4.0,
+        "options_quality": 19.51709268292679,
+        "iv_value": 6.0,
+        "fundamentals": 5.0,
+        "news_events": 0,
+        "technical": 54.0,
+        "momentum": 53.0,
+        "squeeze": 60.62844028275032,
+        "options": 44.5,
+        "quality": 34.769230769230774
+      },
+      "risk_assessment": {
+        "ranking": 7,
+        "percentile": 99.6
+      }
+    },
+    "selected_option_contract": {
+      "contract_details": {
+        "underlying_symbol": "PYPL",
+        "strike_price": "70",
+        "expiration_date": "2025-11-21",
+        "contract_type": "call"
+      },
+      "pricing_data": {
+        "bid": "5.1",
+        "ask": "5.15",
+        "last_price": "5.03",
+        "mid_price": "5.125",
+        "spread_percent": "0.9708737864077669902912621359"
+      },
+      "greeks": {
+        "delta": 0.5614,
+        "gamma": 0.0332,
+        "theta": -0.0317,
+        "vega": 0.1327
+      },
+      "volatility_metrics": {
+        "implied_volatility": 0.3524
+      },
+      "liquidity_metrics": {
+        "volume": 56,
+        "open_interest": 1599,
+        "volume_oi_ratio": 0.035021888680425266
+      },
+      "selection_metrics": {
+        "selection_reason": "Best call option (score: N/A)"
+      }
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-08-30T08:17:12.887278",
+        "market_status": "closed_weekend",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 15.36,
+          "change": 0.93,
+          "change_percent": 6.4449,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 72722868,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T19:51:04+00:00",
+            "title": "Sector Update: Financial Stocks Rise Late Afternoon",
+            "content": "Financial stocks edged higher in late Friday afternoon trading with the NYSE Financial Index and the\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:43:23+00:00",
+            "title": "Notable Friday Option Activity: CELH, STNG, PYPL",
+            "content": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Celsius Holdings Inc (Symbol: CELH), where a total of 56,808 contracts have traded so far, representing approximately 5.7 million underlying shares.  That amounts to about 73.5% of CELH's average daily trading volume over the past month of 7.7 million shares.  Particularly high volume was seen for the $70 strike call option expiring October 17, 2025, with 5,238 contracts trading so far today, representing approximately 523,800 underlying shares of CELH.  Below is a chart showing CELH's trailing twelve month trading history, with the $70 strike highlighted in orange:\n\nScorpio Tankers Inc (Symbol: STNG) saw options trading volume of 6,791 contracts, representing approximately 679,100 underlying shares or approximately 69% of STNG's average daily trading volume over the past month, of 984,605 shares. Especially high volume was seen for the $40 strike call option expiring September 19, 2025, with 6,500 contracts trading so far today, representing approximately 650,000 underlying shares of STNG.  Below is a chart showing STNG's trailing twelve month trading history, with the $40 strike highlighted in orange:\n\nAnd PayPal Holdings Inc (Symbol: PYPL) saw options trading volume of 66,166 contracts, representing approximately 6.6 million underlying shares or approximately 67.9% of PYPL's average daily trading volume over the past month, of 9.7 million shares. Especially high volume was seen for the $71 strike call option expiring August 29, 2025, with 5,080 contracts trading so far today, representing approximately 508,000 underlying shares of PYPL.  Below is a chart showing PYPL's trailing twelve month trading history, with the $71 strike highlighted in orange:\n\nFor the various different available expirations for CELH options, STNG options,  or PYPL options,  visit StockOptionsChannel.com.\n\nToday's Most Active Call & Put Options of the S&P 500 »\n\nAlso see:  XU Videos\r\n  BLNG Historical Stock Prices\r\n  PS shares outstanding history\r\n</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T18:05:34+00:00",
+            "title": "Validea Detailed Fundamental Analysis - PYPL",
+            "content": "Below is Validea's guru fundamental report for PAYPAL HOLDINGS INC (PYPL). Of the 22 guru strategies we follow,  PYPL rates highest using our Acquirer's Multiple Investor model based on the published strategy of Tobias Carlisle. This deep value model looks for inexpensive stocks that could be potential takeover targets.\n\nPAYPAL HOLDINGS INC (PYPL) is a large-cap growth stock in the Software & Programming industry. The rating using this strategy is 68% based on the firm’s underlying fundamentals and the stock’s valuation. A score of 80% or above typically indicates that the strategy has some interest in the stock and a score above 90% typically indicates strong interest.\n\nThe following table summarizes whether the stock meets each of this strategy's tests. Not all criteria in the below table receive equal weighting or are independent, but the table provides a brief overview of the strong and weak points of the security in the context of the strategy's criteria. SECTOR:PASSQUALITY:PASSACQUIRER'S MULTIPLEFAIL\n\nDetailed Analysis of PAYPAL HOLDINGS INC\n\nPYPL Guru Analysis\n\nPYPL Fundamental Analysis\n\nMore Information on Tobias Carlisle\n\nTobias Carlisle Portfolio\n\nAbout Tobias Carlisle: Tobias Carlisle is a widely recognized expert on deep value investing. He is the author of \"The Acquirer's Multiple: How the Billionaire Contrarians of Deep Value Beat the Market\" and the founder of Acquirer's Funds. He is also the author of \"Deep Value: Why Activists Investors and Other Contrarians Battle for Control of Losing Corporations\" and co-author of Quantitative Value: \"A Practitioner's Guide to Automating Intelligent Investment and Eliminating Behavioral Errors\" Tobias is originally from Australia, where he worked an an analyst at an activist hedge fund and was a lawyer specializing in mergers and acquisitions.\n\nAdditional Research Links\n\nTop NASDAQ 100 Stocks\n\nTop Technology Stocks\n\nTop Large-Cap Growth Stocks\n\nHigh Momentum Stocks\n\nTop Chip Stocks\n\nHigh Insider Ownership Stocks\n\nAbout Validea: Validea is aninvestment researchservice that follows the published strategies of investment legends. Validea offers both stock analysis and model portfolios based on gurus who have outperformed the market over the long-term, including Warren Buffett, Benjamin Graham, Peter Lynch and Martin Zweig. For more information about Validea, click here</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T17:30:21+00:00",
+            "title": "Sector Update: Financial Stocks Rise in Afternoon Trading",
+            "content": "Financial stocks were advancing in Friday afternoon trading, with the NYSE Financial Index up 0.3% a\n\nPREMIUM\n\nUpgrade to read this MT Newswires article and get so much more.\n\nA Silver or Gold subscription plan is required to access premium news articles.\n\nUpgrade\n\nAlready have a subscription? Sign in",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T16:14:00+00:00",
+            "title": "Zacks Industry Outlook Highlights Visa, Mastercard, Fiserv, PayPal Holdings and WEX",
+            "content": "For Immediate Release\n\nChicago, IL – August 29, 2025 – Today, Zacks Equity Research discusses Visa Inc. V, Mastercard Inc. MA, Fiserv, Inc. FI, PayPal Holdings, Inc. PYPL and WEX Inc. WEX.\n\nIndustry: Financial Services\n\nLink: https://www.zacks.com/commentary/2743975/5-financial-transaction-stocks-in-focus-amid-strong-cross-border-volumes\n\nThe Financial Transaction Services industry is likely to benefit from payment innovations like cryptocurrencies, biometric verification, QR code payments and Buy Now, Pay Later (BNPL) solutions. Cross-border payment platforms are gaining importance amid rising global trade, travel and remittances, helping businesses manage international transactions efficiently.\n\nStrong consumer spending, supported by e-commerce growth and smartphone use, continues to fuel transaction volumes, though inflation and tariffs could dampen momentum. To expand scale and build integrated ecosystems, companies are pursuing mergers and acquisitions (M&A) and tech investments, with potential Fed rate cuts in 2025 expected to lower financing costs and further accelerate strategic expansion. Companies like Visa Inc., Mastercard Inc., Fiserv, Inc., PayPal Holdings, Inc. and WEX Inc. are well-positioned to benefit from the industry's promising growth prospects.\n\nAbout the Industry\n\nThe Zacks Financial Transaction Services industry is part of the Financial Technology or the FinTech space, including companies with diverse natures of businesses. The industry comprises card and payment processing and other solutions providers, ATM services and money remittance service providers, as well as providers of investment solutions to financial advisors.\n\nThe players in this segment operate their unique and proprietary global payments network that links issuers and acquirers around the globe to facilitate the switching of transactions, permitting account holders to use their products at millions of acceptance locations. Monetary transactions are done through these networks, offering a convenient, quick and secure payment method in several currencies across the globe. The industry is benefiting from the ongoing digitization movement triggered by the pandemic.\n\n4 Key Trends That Shape the Fate of Financial Transaction Services Space\n\nDigital Payment Innovation: The rapid global adoption of contactless payment methods is steadily making traditional cash and check transactions less relevant. To keep pace, leading players in the financial transaction services sector are rolling out cutting-edge solutions, including cryptocurrencies, biometric verification, QR code payments and BNPL offerings.\n\nThese innovations not only expand market penetration but also create new revenue streams while enhancing user convenience. To remain competitive, companies are channeling significant resources into advanced technologies. However, this digital surge also heightens vulnerability to cyber risks such as financial fraud and data breaches, making the establishment of secure infrastructures and strong fraud prevention systems a critical strategic imperative.\n\nUnlocking Growth in Cross-Border Payments: The financial transaction services industry is positioned to benefit from the steady rise in global trade, increasing international travel and stronger demand for remittance solutions. Companies offering advanced cross-border platforms are particularly advantaged, as these systems enable seamless international transactions and efficient currency management.\n\nSuch capabilities are essential for businesses handling payments from overseas clients and making timely disbursements to international suppliers. Additionally, the continued expansion of the global workforce is fueling the need for scalable remittance frameworks.\n\nConsumer Spending as a Growth Catalyst: Resilient consumer spending has bolstered financial transaction service providers, driving transaction growth and boosting revenues. The ongoing expansion of e-commerce, supported by broader Internet penetration and widespread smartphone use, will likely sustain strong consumer spending in the days ahead.\n\nPer J.P. Morgan Research's Economics team, overall consumer spending is expected to grow 2.3% on a year-over-year basis in 2025. Nonetheless, persistent inflationary pressures and tariff measures introduced under the Trump administration may weigh on consumer purchasing power, potentially constraining spending activity in the future.\n\nM&A Driving Strategic Expansion: To build fully integrated digital financial ecosystems, companies in this space are increasingly pursuing M&As alongside heavy investments in technology. Such strategies help broaden service offerings, diversify markets, strengthen customer bases and expand global reach. With the Federal Reserve signaling potential rate cuts in 2025, borrowing costs are expected to decline further. This will likely encourage firms to pursue financing for M&A activity, enabling growth opportunities while conserving liquidity.\n\nZacks Industry Rank Instills Optimism\n\nThe group's Zacks Industry Rank, which is the average of the Zacks Rank of all member stocks, indicates bright near-term prospects. The Zacks Financial Transaction Services industry is housed within the broader Zacks Business Services sector. It currently carries a Zacks Industry Rank #57, which places it in the top 23% of 245 Zacks industries.\n\nOur research shows that the top 50% of the Zacks-ranked industries outperform the bottom 50% by a factor of more than two to one. The industry's positioning in the top 50% of the Zacks-ranked industries is a result of a positive earnings outlook for the constituent companies in aggregate.\n\nBefore we present a few stocks that you may want to buy or retain in your portfolio, let's take a look at the industry's recent stock-market performance and valuation picture.\n\nIndustry Outperforms Sector, S&P 500\n\nThe Zacks Financial Transaction Services industry outperformed its sector and the Zacks S&P 500 composite in the past year.\n\nIn the said time frame, the industry has grown 20.8% compared with the Business Services sector's gain of 9.3%. The S&P 500 has rallied 16.6% in the same time frame.\n\nIndustry's Current Valuation\n\nOn the basis of the forward 12-month Price/Earnings ratio, commonly used for valuing financial transaction services stocks, the industry is currently trading at 22.24X compared with the S&P 500's 22.84X and the sector's 21.95X.\n\nIn the past five years, the industry traded as high as 37.08X, as low as 18.87X and at the median of 23.01X.\n\n5 Stocks to Keep a Close Eye On\n\nWe are presenting five stocks from the Financial Transaction Services industry that currently carry a Zacks Rank #2 (Buy) or Zacks Rank #3 (Hold). Considering the current industry scenario, it might be prudent for investors to buy or retain these stocks in their portfolio as these are well-placed to generate growth in the long term.\n\nPayPal: Based in California, PayPal differentiates itself through secure, simple and affordable digital payment solutions, backed by strong risk management and tokenization to prevent fraud. This Zacks Rank #2 company's two-sided platform connects merchants and consumers, enhancing engagement, offering data insights and fostering trusted relationships. Strategic partnerships with Visa, Mastercard, major banks and tech giants like Google, Facebook, and Alibaba have expanded its global reach and strengthened its offerings.\n\nYou can see the complete list of today's Zacks #1 Rank (Strong Buy) stocks here.\n\nThe Zacks Consensus Estimate for PayPal's 2025 earnings is pegged at $5.22 per share, indicating an improvement of 12.3% from the year-ago figure. PYPL's earnings beat estimates in each of the last four quarters, the average surprise being 9.94%.\n\nWEX: Headquartered in Portland, ME, WEX is being aided by an extensive fuel network and service providers, improved transaction volumes, product excellence, marketing prowess, sales force productivity and other strategic revenue generation efforts. This Zacks Rank #2 company's revenue stability is underpinned by its high-quality products and services, along with long-term strategic relationships, multi-year contracts and high contract renewal rates. Acquisitions are a key growth catalyst for WEX.\n\nThe Zacks Consensus Estimate for WEX's 2025 earnings is pegged at $15.63 per share, indicating a 2.3% rise from the year-ago figure. WEX's earnings beat estimates in three of the last four quarters and missed the mark once, the average surprise being 2.39%.\n\nVisa: Visa, headquartered in San Francisco, is a prominent global leader in digital payments. This Zacks Rank #3 company continues to broaden its presence through strategic partnerships, renewals of existing agreements and selective acquisitions. Strong performance across Latin America, Canada and the United States has been a key driver of its overall growth. In the third quarter of fiscal 2025, cross-border volumes rose 12% year over year.\n\nThe Zacks Consensus Estimate for Visa's fiscal 2025 earnings is pegged at $11.43 per share, indicating an 13.7% rise from the year-ago figure. V's earnings beat estimates in each of the last four quarters, the average surprise being 3.90%.\n\nMastercard: Based in Purchase, NY, the company continues to strengthen its position in the global payments ecosystem through partnerships with financial institutions and significant strategic investments. Its cross-border payments platform, Mastercard Move, facilitates secure and seamless international money transfers across more than 200 countries and supports more than 150 currencies. This Zacks Rank #3 company has further reinforced its operational capabilities through notable acquisitions.\n\nThe Zacks Consensus Estimate for Mastercard's 2025 earnings is pegged at $16.31 per share, indicating an 11.7% rise from the year-ago figure. MA's earnings beat estimates in each of the last four quarters, the average surprise being 3.76%.\n\nFiserv: Headquartered in Wisconsin, Fiserv provides a comprehensive portfolio of solutions spanning payment processing, core banking platforms and digital banking services. Its business model is anchored in steady recurring revenues and robust incremental margins, supported by its large-scale processing infrastructure. This Zacks Rank #3 company emphasizes delivering strong performance by expanding its client base, strengthening existing partnerships and offering value-driven innovations.\n\nThe Zacks Consensus Estimate for Fiserv's 2025 earnings is pegged at $10.21 per share, indicating a 16% rise from the year-ago figure. FI's earnings beat estimates in each of the last four quarters, the average surprise being 2.20%.\n\nFree: Instant Access to Zacks' Market-Crushing Strategies\n\nSince 2000, our top stock-picking strategies have blown away the S&P's +7.7% average gain per year. Amazingly, they soared with average gains of +48.4%, +50.2% and +56.7% per year.\n\nToday you can tap into those powerful strategies – and the high-potential stocks they uncover – free. No strings attached.\n\nGet all the details here >>\n\nJoin us on Facebook: https://www.facebook.com/ZacksInvestmentResearch/\n\nZacks Investment Research is under common control with affiliated entities (including a broker-dealer and an investment adviser), which may engage in transactions involving the foregoing securities for the clients of such affiliates.\n\nMedia Contact\n\nZacks Investment Research\n\n800-767-3771 ext. 9339\n\nsupport@zacks.com\n\nhttps://www.zacks.com\n\nPast performance is no guarantee of future results. Inherent in any investment is the potential for loss. This material is being provided for informational purposes only and nothing herein constitutes investment, legal, accounting or tax advice, or a recommendation to buy, sell or hold a security. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. It should not be assumed that any investments in securities, companies, sectors or markets identified and described were or will be profitable. All information is current as of the date of herein and is subject to change without notice. Any views or opinions expressed may not reflect those of the firm as a whole. Zacks Investment Research does not engage in investment banking, market making or asset management activities of any securities. These returns are from hypothetical portfolios consisting of stocks with Zacks Rank = 1 that were rebalanced monthly with zero transaction costs. These are not the returns of actual portfolios of stocks. The S&P 500 is an unmanaged index. Visit https://www.zacks.com/performance for information about the performance numbers displayed in this press release.\n\nZacks Names #1 Semiconductor Stock\n\nThis under-the-radar company specializes in semiconductor products that titans like NVIDIA don't build. It's uniquely positioned to take advantage of the next growth stage of this market. And it's just beginning to enter the spotlight, which is exactly where you want to be.\n\nWith strong earnings growth and an expanding customer base, it's positioned to feed the rampant demand for Artificial Intelligence, Machine Learning, and Internet of Things. Global semiconductor manufacturing is projected to explode from $452 billion in 2021 to $971 billion by 2028.See This Stock Now for Free >>\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nMastercard Incorporated (MA) : Free Stock Analysis Report\n\nVisa Inc. (V) : Free Stock Analysis Report\n\nWEX Inc. (WEX) : Free Stock Analysis Report\n\nFiserv, Inc. (FI) : Free Stock Analysis Report\n\nPayPal Holdings, Inc. (PYPL) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "PayPal Holdings Inc",
+          "sector": "Financial Services",
+          "industry": "Credit Services",
+          "employees": 24400,
+          "description": "PayPal Holdings, Inc. operates a technology platform that enables digital payments for merchants and consumers worldwide. It operates a two-sided network at scale that connects merchants and consumers that enables its customers to connect, transact, and send and receive payments through online and i"
+        },
+        "financial_metrics": {
+          "eps_ttm": 4.67,
+          "profit_margin": 0.1449,
+          "operating_margin": 0.1929,
+          "roe": 0.2292,
+          "roa": 0.0461,
+          "revenue_growth_yoy": 0.051,
+          "earnings_growth_yoy": 0.194,
+          "eps_estimate_current_year": 5.2099,
+          "eps_estimate_next_year": 5.7409,
+          "revenue_ttm": 32291999744,
+          "revenue_per_share": 32.585,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 15.03,
+          "forward_pe": 14.2653,
+          "price_to_sales": 2.0766,
+          "price_to_book": 3.3195,
+          "enterprise_value": 68346010246,
+          "ev_to_revenue": 2.1165,
+          "ev_to_ebitda": 9.4128
+        },
+        "technical_data": {
+          "beta": 1.422,
+          "52_week_high": 93.66,
+          "52_week_low": 55.85,
+          "50_day_ma": 71.932,
+          "200_day_ma": 75.3194,
+          "short_interest": 0.0316,
+          "short_ratio": 2.45
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "0000-00-00",
+          "last_split_factor": ""
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.7447,
+          "target_price": 82.6781,
+          "strong_buy": 16,
+          "buy": 7,
+          "hold": 22,
+          "sell": 0,
+          "strong_sell": 2
+        },
+        "institutional_data": {
+          "shares_outstanding": 955377984,
+          "percent_institutions": 80.152,
+          "percent_insiders": 0.135,
+          "shares_float": 952111011
+        },
+        "balance_latest_sheet": {
+          "total_assets": 79777.0,
+          "total_debt": 11296.0,
+          "net_debt": 4608.0,
+          "working_capital": 14829.0,
+          "shareholders_equity": 20201.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.56
+        },
+        "income_latest_statement": {
+          "total_revenue": 8288.0,
+          "gross_profit": 3844.0,
+          "operating_income": 1504.0,
+          "net_income": 1261.0,
+          "ebitda": 1882.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 46.38,
+          "operating_margin": 18.15,
+          "net_margin": 15.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 898.0,
+          "free_cash_flow": 692.0,
+          "capex": 206.0,
+          "net_income": 1261.0,
+          "cash_change": -859.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 1.21,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 74.35,
+            "high": 76.23,
+            "low": 74.24,
+            "close": 74.82,
+            "volume": 8200400
+          },
+          {
+            "date": "2025-07-22",
+            "open": 74.765,
+            "high": 76.15,
+            "low": 74.765,
+            "close": 76,
+            "volume": 9094400
+          },
+          {
+            "date": "2025-07-23",
+            "open": 76.925,
+            "high": 77.23,
+            "low": 75.91,
+            "close": 76.66,
+            "volume": 9283200
+          },
+          {
+            "date": "2025-07-24",
+            "open": 77.74,
+            "high": 78.76,
+            "low": 77.35,
+            "close": 77.82,
+            "volume": 10504300
+          },
+          {
+            "date": "2025-07-25",
+            "open": 77.59,
+            "high": 78.815,
+            "low": 77.5,
+            "close": 77.98,
+            "volume": 6888100
+          },
+          {
+            "date": "2025-07-28",
+            "open": 78.51,
+            "high": 79.5,
+            "low": 77.93,
+            "close": 78.22,
+            "volume": 15978400
+          },
+          {
+            "date": "2025-07-29",
+            "open": 71.73,
+            "high": 73.28,
+            "low": 70.31,
+            "close": 71.45,
+            "volume": 42890700
+          },
+          {
+            "date": "2025-07-30",
+            "open": 72.19,
+            "high": 72.205,
+            "low": 69.555,
+            "close": 69.71,
+            "volume": 20790400
+          },
+          {
+            "date": "2025-07-31",
+            "open": 69.475,
+            "high": 70.055,
+            "low": 68.46,
+            "close": 68.76,
+            "volume": 16657600
+          },
+          {
+            "date": "2025-08-01",
+            "open": 68,
+            "high": 68.35,
+            "low": 66.57,
+            "close": 67.11,
+            "volume": 15181100
+          },
+          {
+            "date": "2025-08-04",
+            "open": 67.825,
+            "high": 68.57,
+            "low": 67.275,
+            "close": 68.01,
+            "volume": 11756800
+          },
+          {
+            "date": "2025-08-05",
+            "open": 68.46,
+            "high": 68.67,
+            "low": 67.41,
+            "close": 67.83,
+            "volume": 10714700
+          },
+          {
+            "date": "2025-08-06",
+            "open": 68.3,
+            "high": 69.61,
+            "low": 68.209,
+            "close": 69.42,
+            "volume": 11913000
+          },
+          {
+            "date": "2025-08-07",
+            "open": 70,
+            "high": 70.17,
+            "low": 67.68,
+            "close": 68.22,
+            "volume": 10129300
+          },
+          {
+            "date": "2025-08-08",
+            "open": 68.44,
+            "high": 68.61,
+            "low": 67.42,
+            "close": 67.65,
+            "volume": 9683400
+          },
+          {
+            "date": "2025-08-11",
+            "open": 67.81,
+            "high": 68.48,
+            "low": 66.9,
+            "close": 67.08,
+            "volume": 10118600
+          },
+          {
+            "date": "2025-08-12",
+            "open": 67.24,
+            "high": 68.74,
+            "low": 67.23,
+            "close": 67.97,
+            "volume": 9747500
+          },
+          {
+            "date": "2025-08-13",
+            "open": 68.23,
+            "high": 70.73,
+            "low": 68.15,
+            "close": 70.63,
+            "volume": 12344700
+          },
+          {
+            "date": "2025-08-14",
+            "open": 69.44,
+            "high": 69.82,
+            "low": 68.23,
+            "close": 69.38,
+            "volume": 10695400
+          },
+          {
+            "date": "2025-08-15",
+            "open": 69.57,
+            "high": 70.16,
+            "low": 69.16,
+            "close": 69.23,
+            "volume": 8128000
+          },
+          {
+            "date": "2025-08-18",
+            "open": 69.31,
+            "high": 69.985,
+            "low": 69.23,
+            "close": 69.53,
+            "volume": 8410200
+          },
+          {
+            "date": "2025-08-19",
+            "open": 69.79,
+            "high": 70.365,
+            "low": 68.93,
+            "close": 69.05,
+            "volume": 9052800
+          },
+          {
+            "date": "2025-08-20",
+            "open": 68.94,
+            "high": 69.11,
+            "low": 67.68,
+            "close": 68.08,
+            "volume": 9992300
+          },
+          {
+            "date": "2025-08-21",
+            "open": 67.68,
+            "high": 67.87,
+            "low": 66.925,
+            "close": 67.55,
+            "volume": 7039500
+          },
+          {
+            "date": "2025-08-22",
+            "open": 67.91,
+            "high": 70.15,
+            "low": 67.82,
+            "close": 69.9,
+            "volume": 9394100
+          },
+          {
+            "date": "2025-08-25",
+            "open": 69.65,
+            "high": 69.81,
+            "low": 69.04,
+            "close": 69.48,
+            "volume": 6460300
+          },
+          {
+            "date": "2025-08-26",
+            "open": 69.4,
+            "high": 70.25,
+            "low": 69.18,
+            "close": 70.18,
+            "volume": 9471500
+          },
+          {
+            "date": "2025-08-27",
+            "open": 68.73,
+            "high": 70.08,
+            "low": 68.691,
+            "close": 69.65,
+            "volume": 8648200
+          },
+          {
+            "date": "2025-08-28",
+            "open": 70,
+            "high": 70.56,
+            "low": 69.53,
+            "close": 70.06,
+            "volume": 5882000
+          },
+          {
+            "date": "2025-08-29",
+            "open": 70.02,
+            "high": 70.7,
+            "low": 69.9,
+            "close": 70.19,
+            "volume": 5634500
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 4.589479958277452,
+        "return_63d": -1.043282109121682,
+        "pct_above_sma50": -2.421731635433471,
+        "sma_50": 71.932,
+        "new_55d_high": "False",
+        "high_55d": 79.5,
+        "rsi": 63.21155480033985,
+        "rsi_in_range": "True",
+        "adx": 32.66847791371183,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 2.1515885453768315,
+        "bb_width": 6.119430685065043,
+        "keltner_width": 8.76299527093023,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "True"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 638576591.7800001,
+        "adv_shares": 9260840.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 46.841857874460814,
+        "final_score": 46.841857874460814,
+        "sub_scores": {
+          "trend_momentum": 12.324765191534022,
+          "squeeze_breakout": 4.0,
+          "options_quality": 19.51709268292679,
+          "iv_value": 6.0,
+          "fundamentals": 5.0,
+          "news_events": 0
+        },
+        "key_features": {
+          "ret_21d": 2.079697498545663,
+          "ret_63d": -0.12805919180421954,
+          "rsi14": 63.21155480033985,
+          "adx14": 27.883620410175556,
+          "iv_percentile": 0.5,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 100.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 73.75,
+      "missing_fields": []
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. OPTIONS QUALITY ASSESSMENT (20 points)**\n   • Liquidity and Spread Quality (10 points):\n     - Tight spreads (<2%), high volume/OI: 8-10 points\n     - Moderate spreads (2-4%), decent liquidity: 6-7 points\n     - Wide spreads (4-6%), limited liquidity: 3-5 points\n     - Very wide spreads (>6%), poor liquidity: 0-2 points\n   \n   • Greeks Profile Optimization (10 points):\n     - Optimal delta/theta/vega profile for strategy: 8-10 points\n     - Good Greeks alignment: 6-7 points\n     - Acceptable Greeks: 4-5 points\n     - Poor Greeks profile: 0-3 points\n\n**3. IMPLIED VOLATILITY VALUE (15 points)**\n   • IV Percentile Assessment (10 points):\n     - IV in favorable range for strategy: 8-10 points\n     - Moderately attractive IV: 6-7 points\n     - Neutral IV conditions: 4-5 points\n     - Unfavorable IV levels: 0-3 points\n   \n   • IV/HV Relationship (5 points):\n     - Favorable IV vs HV for strategy: 4-5 points\n     - Neutral IV/HV: 2-3 points\n     - Unfavorable IV/HV: 0-1 points\n\n**4. SQUEEZE/VOLATILITY DYNAMICS (10 points)**\n   • Volatility Compression Assessment (5 points):\n     - Strong squeeze with expansion potential: 4-5 points\n     - Moderate compression: 3 points\n     - Normal volatility: 2 points\n     - High volatility: 0-1 points\n   \n   • Breakout Probability (5 points):\n     - High probability directional move: 4-5 points\n     - Moderate breakout potential: 2-3 points\n     - Low breakout probability: 0-1 points\n\n**5. FUNDAMENTAL HEALTH (10 points)**\n   • Financial Strength (5 points):\n     - Strong margins, cash flow, balance sheet: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but stable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Growth Trajectory (5 points):\n     - Strong consistent growth: 4-5 points\n     - Moderate growth: 2-3 points\n     - Flat/declining: 0-1 points\n\n**6. EVENT RISK & NEWS SENTIMENT (10 points)**\n   • Earnings Safety (5 points):\n     - No earnings for >30 days: 4-5 points\n     - Earnings 15-30 days: 2-3 points\n     - Earnings <15 days: 0-1 points\n   \n   • News Sentiment (5 points):\n     - Positive news flow: 4-5 points\n     - Neutral news: 2-3 points\n     - Negative news: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: PYPL\n• Current Price: $70.19\n• Overall Score: 51.25261113347314\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 71.932\n• Sma 200: 75.3194\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 2.0796974985456553\n• Momentum 63D: -0.12805919180421657\n• Momentum 126D: -1.210415200562983\n• Momentum Acceleration: 2.2077566903498718\n• Roc 21D: 2.0796974985456553\n• Trend Strength 20D: 0.33561991649879297\n• Trend Direction: -1\n• Ma Ribbon Score: 49.615366511174855\n• Breakout Strength: 0.0\n• Price Velocity: 0.0008512753980316034\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 5.0\n• Squeeze Momentum: 0.3167325111238715\n• Volatility Compression: 70.85626855166879\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 2\n\n**QUANTITATIVE SCORING**\n• Trend Momentum: 12.324765191534022\n• Squeeze Breakout: 4.0\n• Options Quality: 19.51709268292679\n• Iv Value: 6.0\n• Fundamentals: 5.0\n• News Events: 0\n• Technical: 54.0\n• Momentum: 53.0\n• Squeeze: 60.62844028275032\n• Options: 44.5\n• Quality: 34.769230769230774\n\n## SELECTED OPTION CONTRACT\n\n**CONTRACT SPECIFICATIONS**\n• Option Symbol: N/A\n• Underlying: PYPL\n• Strike Price: $70\n• Expiration: 2025-11-21\n• Days to Expiration: N/A\n• Type: CALL\n\n**PRICING INFORMATION**\n• Bid: $5.1\n• Ask: $5.15\n• Last: $5.03\n• Mid: $5.125\n• Spread: 0.9708737864077669902912621359%\n\n**GREEKS ANALYSIS**\n• Delta: 0.5614\n• Gamma: 0.0332\n• Theta: -0.0317\n• Vega: 0.1327\n• Rho: N/A\n\n**VOLATILITY ANALYSIS**\n• Implied Volatility: 0.3524\n• IV Percentile: N/A\n• IV Rank: N/A\n• Historical Volatility: N/A\n• IV/HV Ratio: N/A\n\n**LIQUIDITY ASSESSMENT**\n• Volume: 56\n• Open Interest: 1599\n• Volume/OI Ratio: 0.035021888680425266\n• Average Volume: N/A\n• Liquidity Score: N/A\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**FUNDAMENTAL ANALYSIS**\n• Company: PayPal Holdings Inc\n• Sector: Financial Services\n• Industry: Credit Services\n• EPS (TTM): $4.67\n• Profit Margin: 14.5%\n• ROE: 22.9%\n• P/E Ratio: 15.0\n\n**NEWS ANALYSIS (5 articles)**\n• 2025-08-29T19:51:04+00:00: Sector Update: Financial Stocks Rise Late Afternoon...\n• 2025-08-29T19:43:23+00:00: Notable Friday Option Activity: CELH, STNG, PYPL...\n• 2025-08-29T18:05:34+00:00: Validea Detailed Fundamental Analysis - PYPL...\n• 2025-08-29T17:30:21+00:00: Sector Update: Financial Stocks Rise in Afternoon Trading...\n• 2025-08-29T16:14:00+00:00: Zacks Industry Outlook Highlights Visa, Mastercard, Fiserv, PayPal Holdings and ...\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"options_quality\": 18,\n        \"iv_value\": 12,\n        \"squeeze_volatility\": 8,\n        \"fundamentals\": 9,\n        \"event_news\": 10\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Specific actionable recommendation\",\n        \"entry_timing\": \"Assessment of entry timing\",\n        \"risk_management\": \"Key risk management considerations\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR PYPL\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).\n\n5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).\n\n6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.\n\nAnalyze the PYPL opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-08-30T08:24:44.639264",
+    "estimated_tokens": 2319
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"PYPL\",\n    \"rating\": 62,\n    \"component_scores\": {\n        \"trend_momentum\": 20,\n        \"options_quality\": 16,\n        \"iv_value\": 8,\n        \"squeeze_volatility\": 7,\n        \"fundamentals\": 7,\n        \"event_news\": 4\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"PYPL shows mixed technical signals with weak price trend (below both 50 and 200 SMAs) but emerging momentum improvement (21D momentum +2.08%). The stock is in a volatility squeeze with good options liquidity, though upcoming earnings create near-term risk.\",\n    \"opportunities\": [\n        \"Active volatility squeeze with 5-day duration and 70.86% compression\",\n        \"Tight option spreads (<1%) with healthy open interest of 1599\",\n        \"Solid fundamentals with 14.5% profit margin and 22.9% ROE\"\n    ],\n    \"risks\": [\n        \"Price trending below key moving averages (50SMA: 71.93, 200SMA: 75.32)\",\n        \"Earnings coming up on 2025-09-30\",\n        \"Weak longer-term momentum (126D: -1.21)\"\n    ],\n    \"option_contract\": {\n        \"recommendation\": \"Consider LEAPS call spread to reduce theta impact while maintaining upside exposure\",\n        \"entry_timing\": \"Wait until after earnings report unless taking partial position\",\n        \"risk_management\": \"Use 70 strike as support level, consider rolling down if breached\"\n    },\n    \"red_flags\": [\n        \"Earnings in less than 30 days\",\n        \"Price below both major moving averages\"\n    ],\n    \"notes\": \"Options Greeks profile (Delta 0.56, Theta -0.032) suggests balanced exposure, but consider spread strategies to reduce cost basis\"\n}",
+    "parsed_analysis": {
+      "symbol": "PYPL",
+      "rating": 62,
+      "component_scores": {
+        "trend_momentum": 20,
+        "options_quality": 16,
+        "iv_value": 8,
+        "squeeze_volatility": 7,
+        "fundamentals": 7,
+        "event_news": 4
+      },
+      "confidence": "medium",
+      "thesis": "PYPL shows mixed technical signals with weak price trend (below both 50 and 200 SMAs) but emerging momentum improvement (21D momentum +2.08%). The stock is in a volatility squeeze with good options liquidity, though upcoming earnings create near-term risk.",
+      "opportunities": [
+        "Active volatility squeeze with 5-day duration and 70.86% compression",
+        "Tight option spreads (<1%) with healthy open interest of 1599",
+        "Solid fundamentals with 14.5% profit margin and 22.9% ROE"
+      ],
+      "risks": [
+        "Price trending below key moving averages (50SMA: 71.93, 200SMA: 75.32)",
+        "Earnings coming up on 2025-09-30",
+        "Weak longer-term momentum (126D: -1.21)"
+      ],
+      "option_contract": {
+        "recommendation": "Consider LEAPS call spread to reduce theta impact while maintaining upside exposure",
+        "entry_timing": "Wait until after earnings report unless taking partial position",
+        "risk_management": "Use 70 strike as support level, consider rolling down if breached"
+      },
+      "red_flags": [
+        "Earnings in less than 30 days",
+        "Price below both major moving averages"
+      ],
+      "notes": "Options Greeks profile (Delta 0.56, Theta -0.032) suggests balanced exposure, but consider spread strategies to reduce cost basis"
+    },
+    "tokens_used": 2516,
+    "cost": 0.025160000000000002,
+    "response_time": 8.914829730987549,
+    "success": true
+  },
+  "cost": 0.025160000000000002,
+  "processing_metadata": {
+    "data_completeness_score": 73.75,
+    "prompt_length": 8480,
+    "response_length": 1587
+  }
+}
