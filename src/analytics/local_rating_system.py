@@ -118,13 +118,8 @@ class LocalRatingSystem:
                     reason=f"Earnings in {days_to_earnings} days (minimum {self.min_earnings_days})"
                 )
         
-        # Options availability gate
-        valid_options = self._find_valid_options(options_chain)
-        if not valid_options:
-            return EligibilityResult(
-                passed=False,
-                reason=f"No valid options ({self.min_dte}-{self.max_dte} DTE, OI≥{self.min_oi}, spread≤{self.max_spread_pct}%)"
-            )
+        # Options availability gate - REMOVED for stock-only workflow
+        # Stock screening no longer requires options availability
         
         # Data completeness gate
         if data_completeness < (1 - self.max_data_missing_pct):
@@ -141,7 +136,7 @@ class LocalRatingSystem:
                 'adv_shares': adv_shares,
                 'adv_dollars': adv_dollars,
                 'days_to_earnings': days_to_earnings,
-                'valid_options_count': len(valid_options),
+                'stock_screening_mode': True,  # Indicates stock-only mode
                 'data_completeness': data_completeness
             }
         )
@@ -199,11 +194,7 @@ class LocalRatingSystem:
         # 2. Squeeze/Volatility features
         features.update(self._compute_squeeze_volatility(ohlcv_df))
         
-        # 3. Options features (computed later with best call)
-        # Will be added after best call selection
-        
-        # 4. IV features
-        features.update(self._compute_iv_features(enhanced_data))
+        # 3. Options and IV features - REMOVED for stock-only workflow
         
         # 5. Fundamentals features
         features.update(self._compute_fundamentals(enhanced_data, sector))
@@ -529,46 +520,65 @@ class LocalRatingSystem:
         
         scores['squeeze_breakout'] = min(squeeze_score, 12)  # Increased from 10
         
-        # C. Options Quality & Fit (23 pts - increased from 20) - Will be set after best call selection
-        scores['options_quality'] = 0  # Placeholder
+        # C. Options Quality & IV - REMOVED for stock-only workflow
+        # These points have been redistributed to other components
         
-        # D. IV Value (15 pts)
-        iv_score = 0
-        
-        # IV percentile: lower is better (12 pts)
-        iv_pctl = features.get('iv_percentile_atm', 0.5)
-        iv_score += (1 - iv_pctl) * 12
-        
-        # Term structure bonus (3 pts)
-        if features.get('iv_term_structure', 0) < 0:
-            iv_score += 3
-        
-        scores['iv_value'] = min(iv_score, 15)
-        
-        # E. Fundamentals (10 pts)
+        # D. Fundamentals (25 pts - increased from 10 to absorb options/IV points)
         fund_score = 0
         
-        # Gross margin (3 pts) - using raw value as proxy for percentile
+        # Gross margin (8 pts) - increased allocation
         gross_margin = features.get('gross_margin_ttm', 0.3)  # Default to 30% if missing
-        fund_score += min(gross_margin, 1) * 3  # Cap at 100%
+        fund_score += min(gross_margin, 1) * 8  # Cap at 100%
         
-        # Operating margin (3 pts)
+        # Operating margin (7 pts) - increased allocation
         op_margin = features.get('operating_margin_ttm', 0.15)  # Default to 15% if missing
-        fund_score += min(op_margin, 1) * 3  # Cap at 100%
+        fund_score += min(op_margin, 1) * 7  # Cap at 100%
         
-        # Revenue growth (2 pts)
+        # Revenue growth (5 pts) - increased allocation
         revenue_growth = features.get('revenue_growth_yoy', 0.1)  # Default to 10% if missing
-        fund_score += min(max(revenue_growth, 0), 1) * 2
+        fund_score += min(max(revenue_growth, 0), 1) * 5
         
-        # Short interest: lower is better (2 pts)
+        # Short interest: lower is better (5 pts) - increased allocation
         short_pct = features.get('short_pct_float', 0.05)  # Default to 5% if missing
-        fund_score += (1 - min(short_pct / 0.25, 1)) * 2
+        fund_score += (1 - min(short_pct / 0.25, 1)) * 5
         
-        scores['fundamentals'] = min(fund_score, 10)
+        scores['fundamentals'] = min(fund_score, 25)  # Increased from 10
         
-        # F. News/Events - REMOVED from local calculation
-        # News will only be considered in AI analysis
-        scores['news_events'] = 0
+        # E. Market Quality & Risk Assessment (23 pts - replaces options/IV scoring)
+        market_score = 0
+        
+        # Volume quality (8 pts)
+        # Based on relative volume and consistency
+        if 'volume_ratio' in features:
+            vol_ratio = features.get('volume_ratio', 1.0)
+            vol_score = min(vol_ratio / 2, 1) * 8  # Scale 2x average = max score
+            market_score += vol_score
+        else:
+            market_score += 4  # Neutral if no volume data
+        
+        # Price stability (8 pts) - prefer controlled volatility
+        atr_pct = features.get('atr20_pct', 2.5)  # Default 2.5%
+        if 1.5 <= atr_pct <= 4.0:  # Sweet spot for swing trading
+            stability_score = 8
+        elif 1.0 <= atr_pct <= 6.0:  # Acceptable range
+            stability_score = 6
+        else:  # Too volatile or too stable
+            stability_score = 3
+        market_score += stability_score
+        
+        # Liquidity score (7 pts) - based on price and volume
+        current_price = features.get('current_price', 50)
+        if current_price >= 20:  # Good liquidity tier
+            liquidity_score = 7
+        elif current_price >= 10:  # Moderate liquidity
+            liquidity_score = 5
+        elif current_price >= 5:   # Lower liquidity
+            liquidity_score = 3
+        else:  # Very low liquidity
+            liquidity_score = 1
+        market_score += liquidity_score
+        
+        scores['market_quality'] = min(market_score, 23)
         
         return scores
     
@@ -832,17 +842,11 @@ class LocalRatingSystem:
         features['adv_shares'] = adv_shares
         features['adv_dollars'] = adv_dollars
         
-        # Select best call option
-        iv_percentile = enhanced_data.get('iv_percentile')
-        selected_call, options_quality_score = self.select_best_call(
-            options_chain, current_price, iv_percentile
-        )
+        # Skip options selection for stock-only workflow
+        selected_call = None
         
-        # Calculate sub-scores
+        # Calculate sub-scores (no options)
         sub_scores = self.calculate_sub_scores(features)
-        
-        # Add options quality score
-        sub_scores['options_quality'] = options_quality_score
         
         # Calculate pre-score
         pre_score = sum(sub_scores.values())
@@ -898,12 +902,12 @@ class LocalRatingSystem:
         # If news and earnings are not present, we're in local rating mode
         if not has_news and not has_earnings:
             # For local rating mode, check essential technical fields
-            required_fields = ['quote', 'historical_prices', 'options_chain', 'technicals']
+            required_fields = ['quote', 'historical_prices', 'technicals']  # Removed options_chain
         else:
             # For full AI analysis mode, check all fields
             required_fields = [
                 'quote', 'fundamentals', 'news', 'earnings',
-                'historical_prices', 'options_chain', 'technicals'
+                'historical_prices', 'technicals'  # Removed options_chain
             ]
         
         present = sum(1 for field in required_fields if enhanced_data.get(field))

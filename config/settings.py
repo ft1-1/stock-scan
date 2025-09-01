@@ -42,17 +42,11 @@ class Settings(BaseModel):
     bollinger_period: int = Field(20, gt=0, description="Bollinger Bands period")
     bollinger_std_dev: float = Field(2.0, gt=0, description="Bollinger Bands standard deviations")
     
-    # Options Filtering
-    min_option_volume: int = Field(100, ge=0, description="Minimum option volume")
-    min_open_interest: int = Field(500, ge=0, description="Minimum open interest")
-    max_days_to_expiration: int = Field(45, gt=0, description="Maximum days to expiration")
-    min_days_to_expiration: int = Field(7, gt=0, description="Minimum days to expiration")
-    
-    # Options Greeks Filters
-    min_delta_calls: float = Field(0.3, ge=0, le=1, description="Minimum delta for call options")
-    max_delta_calls: float = Field(0.8, ge=0, le=1, description="Maximum delta for call options")
-    min_delta_puts: float = Field(-0.8, ge=-1, le=0, description="Minimum delta for put options")
-    max_delta_puts: float = Field(-0.3, ge=-1, le=0, description="Maximum delta for put options")
+    # Stock-Specific Filtering (replaces options filtering)
+    max_acceptable_volatility: float = Field(0.08, gt=0, description="Maximum acceptable daily volatility (8%)")
+    min_avg_daily_dollar_volume: int = Field(10_000_000, gt=0, description="Minimum average daily dollar volume")
+    max_beta: float = Field(3.0, gt=0, description="Maximum beta (market correlation)")
+    min_dividend_yield: float = Field(0.0, ge=0, description="Minimum dividend yield (0% = no requirement)")
     
     # AI Configuration
     claude_model: str = Field("claude-3-5-sonnet-20241022", description="Claude model to use")
@@ -71,11 +65,11 @@ class Settings(BaseModel):
     rating_min_earnings_days: int = Field(7, gt=0, description="Minimum days to earnings for rating eligibility")
     rating_max_data_missing_pct: float = Field(0.20, ge=0, le=1, description="Maximum data missing percentage")
     
-    # Local Rating Options Requirements
-    rating_min_dte: int = Field(45, gt=0, description="Minimum days to expiration for valid options")
-    rating_max_dte: int = Field(120, gt=0, description="Maximum days to expiration for valid options")
-    rating_min_oi: int = Field(250, ge=0, description="Minimum open interest for valid options")
-    rating_max_spread_pct: float = Field(3.5, gt=0, description="Maximum bid-ask spread percentage")
+    # Stock Quality Requirements (replaces options requirements)
+    max_bid_ask_spread_pct: float = Field(0.5, gt=0, description="Maximum bid-ask spread percentage for stock")
+    min_analyst_coverage: int = Field(0, ge=0, description="Minimum number of analyst estimates (0 = no requirement)")
+    max_short_interest_pct: float = Field(25.0, gt=0, description="Maximum short interest as % of float")
+    min_institutional_ownership_pct: float = Field(0.0, ge=0, description="Minimum institutional ownership %")
     
     # Performance Settings
     max_concurrent_requests: int = Field(50, gt=0, le=200, description="Max concurrent API requests")
@@ -101,8 +95,8 @@ class Settings(BaseModel):
     
     # Quality Settings
     min_data_quality_score: float = Field(80.0, ge=0, le=100, description="Minimum data quality threshold")
-    require_fundamental_data: bool = Field(False, description="Require fundamental data")
-    require_options_data: bool = Field(True, description="Require options data")
+    require_fundamental_data: bool = Field(True, description="Require fundamental data for stock screening")
+    require_technical_data: bool = Field(True, description="Require technical indicator data")
     
     # Monitoring and Alerting
     enable_monitoring: bool = Field(True, description="Enable performance monitoring")
@@ -171,22 +165,16 @@ class Settings(BaseModel):
             raise ValueError('rsi_overbought_threshold must be greater than rsi_oversold_threshold')
         return v
     
-    @validator('max_days_to_expiration')
-    def validate_expiration_range(cls, v, values):
-        if 'min_days_to_expiration' in values and v <= values['min_days_to_expiration']:
-            raise ValueError('max_days_to_expiration must be greater than min_days_to_expiration')
+    @validator('max_acceptable_volatility')
+    def validate_volatility_reasonable(cls, v):
+        if v > 0.5:  # More than 50% daily volatility seems extreme
+            raise ValueError('max_acceptable_volatility should be reasonable (< 0.5)')
         return v
     
-    @validator('max_delta_calls')
-    def validate_call_delta_range(cls, v, values):
-        if 'min_delta_calls' in values and v <= values['min_delta_calls']:
-            raise ValueError('max_delta_calls must be greater than min_delta_calls')
-        return v
-    
-    @validator('min_delta_puts')
-    def validate_put_delta_range(cls, v, values):
-        if 'max_delta_puts' in values and v >= values['max_delta_puts']:
-            raise ValueError('min_delta_puts must be less than max_delta_puts')
+    @validator('max_beta')
+    def validate_beta_reasonable(cls, v):
+        if v > 5.0:  # Beta > 5 is extremely high
+            raise ValueError('max_beta should be reasonable (< 5.0)')
         return v
     
     @property
@@ -273,11 +261,11 @@ def load_settings_from_env() -> Settings:
         rating_min_earnings_days=int(get_env("RATING_MIN_EARNINGS_DAYS", "7")),
         rating_max_data_missing_pct=float(get_env("RATING_MAX_DATA_MISSING_PCT", "0.20")),
         
-        # Local Rating Options Requirements
-        rating_min_dte=int(get_env("RATING_MIN_DTE", "45")),
-        rating_max_dte=int(get_env("RATING_MAX_DTE", "120")),
-        rating_min_oi=int(get_env("RATING_MIN_OI", "250")),
-        rating_max_spread_pct=float(get_env("RATING_MAX_SPREAD_PCT", "3.5")),
+        # Stock Quality Requirements (replaces options requirements)
+        max_bid_ask_spread_pct=float(get_env("MAX_BID_ASK_SPREAD_PCT", "0.5")),
+        max_acceptable_volatility=float(get_env("MAX_ACCEPTABLE_VOLATILITY", "0.08")),
+        min_avg_daily_dollar_volume=int(get_env("MIN_AVG_DAILY_DOLLAR_VOLUME", "10000000")),
+        max_short_interest_pct=float(get_env("MAX_SHORT_INTEREST_PCT", "25.0")),
         
         # Add other settings as needed from environment
         specific_symbols=get_env("SPECIFIC_SYMBOLS"),

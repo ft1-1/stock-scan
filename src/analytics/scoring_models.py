@@ -30,12 +30,11 @@ class QuantitativeScorer:
         self.options_selector = OptionsSelector()
         self.greeks_calculator = GreeksCalculator()
         
-        # Scoring weights (must sum to 100)
+        # Scoring weights (must sum to 100) - Stock-focused weights
         self.weights = {
-            'technical': 25.0,      # Technical indicators
-            'momentum': 25.0,       # Momentum and trend
+            'technical': 35.0,      # Technical indicators
+            'momentum': 35.0,       # Momentum and trend
             'squeeze': 20.0,        # Squeeze and volatility
-            'options': 20.0,        # Options opportunities  
             'quality': 10.0         # Data quality and filters
         }
     
@@ -416,23 +415,12 @@ class QuantitativeScorer:
         
         components['price_quality'] = price_quality
         
-        # Options availability (20 points)
-        options_available = data_quality.get('options_available', False)
-        options_liquidity = data_quality.get('options_liquidity_score', 0)
-        
-        if options_available and options_liquidity > 50:
-            options_quality = 20
-        elif options_available and options_liquidity > 25:
-            options_quality = 15
-        elif options_available:
-            options_quality = 10
-        else:
-            options_quality = 5
-        
-        components['options_quality'] = options_quality
+        # Market timing quality (20 points)
+        market_timing = data_quality.get('market_timing_score', 15)
+        components['market_timing'] = market_timing
         
         # Calculate final quality score
-        quality_components = [volume_adequacy, price_quality, options_quality]
+        quality_components = [volume_adequacy, price_quality, market_timing]
         final_score = min(100, np.mean(quality_components) + completeness_score * 0.4)
         
         return {
@@ -502,24 +490,7 @@ class QuantitativeScorer:
                 results['warnings'].append(f"Squeeze analysis error: {str(e)}")
                 results['component_scores']['squeeze'] = {'squeeze_score': 50}
             
-            # Calculate options analysis
-            if options_chain and current_stock_price:
-                try:
-                    options_analysis = self.options_selector.analyze_options_chain(
-                        options_chain, current_stock_price, iv_percentile)
-                    
-                    best_calls = options_analysis.get('best_calls_swing', [])
-                    best_puts = options_analysis.get('best_puts_swing', [])
-                    
-                    options_score = self.calculate_options_score(best_calls, best_puts, iv_percentile)
-                    results['component_scores']['options'] = options_score
-                    results['analysis_details']['options_analysis'] = options_analysis
-                except Exception as e:
-                    results['warnings'].append(f"Options analysis error: {str(e)}")
-                    results['component_scores']['options'] = {'options_score': 50}
-            else:
-                results['warnings'].append("No options data available")
-                results['component_scores']['options'] = {'options_score': 0}
+            # Options analysis removed - focusing on stock-only workflow
             
             # Calculate data quality score
             try:
@@ -589,14 +560,18 @@ class QuantitativeScorer:
         else:
             quality['price_volatility'] = 0.02
         
-        # Options availability and quality
-        quality['options_available'] = options_chain is not None and len(options_chain) > 0
-        if quality['options_available']:
-            # Simple liquidity score based on average open interest
-            avg_oi = np.mean([opt.open_interest or 0 for opt in options_chain])
-            quality['options_liquidity_score'] = min(100, avg_oi / 10)  # Scale 1000 OI = 100 score
+        # Market timing assessment (replaces options availability)
+        # Simple market timing based on recent price action and volume
+        if not ohlcv_data.empty:
+            recent_close = ohlcv_data['close'].tail(5)
+            recent_volume = ohlcv_data['volume'].tail(5)
+            # Basic scoring: positive trend + above average volume
+            price_trend = (recent_close.iloc[-1] - recent_close.iloc[0]) / recent_close.iloc[0]
+            volume_trend = recent_volume.mean() / ohlcv_data['volume'].mean()
+            timing_score = 50 + (price_trend * 100) + min(25, (volume_trend - 1) * 50)
+            quality['market_timing_score'] = max(0, min(100, timing_score))
         else:
-            quality['options_liquidity_score'] = 0
+            quality['market_timing_score'] = 50
         
         return quality
     

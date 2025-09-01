@@ -26,9 +26,7 @@ from src.models import (
 from src.analytics.technical_indicators import TechnicalIndicators
 from src.analytics.momentum_analysis import MomentumAnalysis, PercentileCalculator
 from src.analytics.squeeze_detector import SqueezeDetector, VolatilityRegimeDetector
-from src.analytics.options_selector import OptionsSelector
-from src.analytics.scoring_models import QuantitativeScorer
-from src.analytics.greeks_calculator import GreeksCalculator
+from src.analytics.scoring_models import QuantitativeScorer, RiskAssessment
 from src.analytics.enhanced_technical_analysis import EnhancedTechnicalAnalysis
 from src.analytics.local_rating_system import LocalRatingSystem, RatingResult
 
@@ -50,8 +48,6 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
     def __init__(self, step: WorkflowStep):
         super().__init__(step)
         self.quantitative_scorer = QuantitativeScorer()
-        self.options_selector = OptionsSelector()
-        self.greeks_calculator = GreeksCalculator()
         self.local_rating_system = LocalRatingSystem()
         
     async def execute_step(
@@ -134,8 +130,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                 else:
                     analysis_summary['low_score_count'] += 1
                 
-                if analysis_result.get('best_call'):
-                    analysis_summary['options_available_count'] += 1
+                # Options counting removed for stock-only workflow
                 
                 if analysis_result.get('squeeze_data', {}).get('is_squeeze'):
                     analysis_summary['squeeze_detected_count'] += 1
@@ -182,15 +177,14 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                     'technical': 0.0,
                     'momentum': 0.0,
                     'squeeze': 0.0,
-                    'options': 0.0,
                     'quality': 0.0
                 },
+                'risk_metrics': {},  # Stock risk assessment
                 'technical_indicators': {},
                 'momentum_data': {},
                 'squeeze_data': {},
                 'options_analysis': {},
-                'best_call': None,
-                'iv_percentile': None,
+                # Options analysis removed for stock-only workflow
                 'data_quality': {},
                 'analysis_timestamp': datetime.now().isoformat(),
                 'warnings': [],
@@ -203,7 +197,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                     'sentiment': symbol_data.get('sentiment'),
                     'technicals': symbol_data.get('technicals'),
                     'economic_events': symbol_data.get('economic_events'),
-                    'options_chain': symbol_data.get('options_chain')  # Full options data
+                    # Options data removed for stock-only workflow
                 }
             }
             
@@ -217,8 +211,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                     'technical': 0,  # No technical due to missing historical data
                     'momentum': 0,   # No momentum due to missing historical data
                     'squeeze': 0,    # No squeeze due to missing historical data
-                    'options': min(40, analysis_result['composite_score']),  # Options component
-                    'quality': min(60, max(0, analysis_result['composite_score'] - 40))  # Remaining score
+                    'quality': analysis_result['composite_score']  # Use full score for quality
                 }
                 return analysis_result
             
@@ -232,8 +225,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                     'technical': 0,  # No technical due to missing historical data
                     'momentum': 0,   # No momentum due to missing historical data
                     'squeeze': 0,    # No squeeze due to missing historical data
-                    'options': min(40, analysis_result['composite_score']),  # Options component
-                    'quality': min(60, max(0, analysis_result['composite_score'] - 40))  # Remaining score
+                    'quality': analysis_result['composite_score']  # Use full score for quality
                 }
                 return analysis_result
             
@@ -284,23 +276,17 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
             # Use local rating score as composite score
             analysis_result['composite_score'] = rating_result.final_score
             
-            # Update score breakdown with local rating sub-scores
+            # Update score breakdown with local rating sub-scores (stock-focused)
             if rating_result.sub_scores:
                 analysis_result['score_breakdown'] = {
                     'trend_momentum': rating_result.sub_scores.get('trend_momentum', 0),
                     'squeeze_breakout': rating_result.sub_scores.get('squeeze_breakout', 0),
-                    'options_quality': rating_result.sub_scores.get('options_quality', 0),
-                    'iv_value': rating_result.sub_scores.get('iv_value', 0),
                     'fundamentals': rating_result.sub_scores.get('fundamentals', 0),
-                    'news_events': rating_result.sub_scores.get('news_events', 0)
+                    'market_quality': rating_result.sub_scores.get('market_quality', 0)
                 }
             
-            # Use selected call from local rating
-            if rating_result.selected_call:
-                analysis_result['best_call'] = rating_result.selected_call
-                logger.info(f"Local rating selected call for {symbol}: "
-                          f"Strike {rating_result.selected_call.get('strike')}, "
-                          f"Score {rating_result.final_score:.1f}")
+            # Options analysis removed - focusing on stock metrics only
+            logger.info(f"Stock analysis completed for {symbol} with score {rating_result.final_score:.1f}")
             
             # Add red flags to warnings
             if rating_result.red_flags:
@@ -367,49 +353,48 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                 logger.warning(f"Enhanced technical analysis failed for {symbol}: {e}")
                 analysis_result['warnings'].append(f"Enhanced technical analysis error: {str(e)}")
             
-            # 4. Analyze options if available
-            options_chain = symbol_data.get('options_chain', [])
-            iv_percentile = None
-            best_call = None
-            
-            if options_chain and current_price:
+            # 4. Calculate Risk Metrics for Stock Position Sizing
+            if current_price and not ohlcv_df.empty:
                 try:
-                    # Convert options data to OptionContract objects
-                    option_contracts = self._convert_options_data(options_chain)
-                    
-                    # Calculate IV percentile
-                    iv_percentile = self._calculate_iv_percentile(option_contracts, symbol_data)
-                    analysis_result['iv_percentile'] = iv_percentile
-                    
-                    # Analyze options chain using existing selector
-                    options_analysis = self.options_selector.analyze_options_chain(
-                        option_contracts, current_price, iv_percentile
+                    # Calculate risk metrics using RiskAssessment
+                    risk_metrics = RiskAssessment.calculate_risk_metrics(
+                        ohlcv_df, 
+                        position_size=10000.0  # Default $10K position
                     )
-                    analysis_result['options_analysis'] = options_analysis
+                    analysis_result['risk_metrics'] = risk_metrics
                     
-                    # NOTE: Best call selection is now handled by LocalRatingSystem above
-                    # The local rating system provides more comprehensive scoring
-                    pass
+                    # Add position sizing recommendations
+                    suggested_position = RiskAssessment.suggest_position_size(
+                        account_balance=100000.0,  # Assume $100K account
+                        risk_per_trade=0.02,       # 2% risk per trade
+                        risk_metrics=risk_metrics
+                    )
+                    analysis_result['position_sizing'] = suggested_position
+                    
+                    logger.info(f"Risk metrics calculated for {symbol}: "
+                              f"ATR={risk_metrics.get('atr_percent', 0):.2f}%, "
+                              f"Stop={risk_metrics.get('suggested_stop_loss', 0):.2f}")
                         
                 except Exception as e:
-                    logger.warning(f"Options analysis failed for {symbol}: {e}")
-                    analysis_result['warnings'].append(f"Options analysis error: {str(e)}")
+                    logger.warning(f"Risk metrics calculation failed for {symbol}: {e}")
+                    analysis_result['warnings'].append(f"Risk metrics error: {str(e)}")
             
-            # 5. Calculate comprehensive scores using QuantitativeScorer
+            # 5. Calculate comprehensive scores using QuantitativeScorer (stock-only)
             try:
                 scoring_result = self.quantitative_scorer.calculate_comprehensive_score(
                     ohlcv_data=ohlcv_df,
-                    options_chain=option_contracts if 'option_contracts' in locals() else None,
+                    options_chain=None,  # No options for stock-only workflow
                     current_stock_price=current_price,
-                    iv_percentile=iv_percentile
+                    iv_percentile=None   # No IV analysis needed
                 )
                 
-                # Extract scores
+                # Extract scores (stock-focused components only)
                 if 'component_scores' in scoring_result:
                     for component, score_data in scoring_result['component_scores'].items():
-                        score_key = f'{component}_score'
-                        if score_key in score_data:
-                            analysis_result['score_breakdown'][component] = score_data[score_key]
+                        if component in ['technical', 'momentum', 'squeeze', 'quality']:  # Only stock components
+                            score_key = f'{component}_score'
+                            if score_key in score_data:
+                                analysis_result['score_breakdown'][component] = score_data[score_key]
                 
                 analysis_result['composite_score'] = scoring_result.get('overall_score', 0.0)
                 analysis_result['data_quality'] = scoring_result.get('data_quality', {})
@@ -421,9 +406,9 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
             except Exception as e:
                 logger.warning(f"Comprehensive scoring failed for {symbol}: {e}")
                 analysis_result['warnings'].append(f"Scoring error: {str(e)}")
-                # Fallback scoring
+                # Fallback scoring (stock-only)
                 analysis_result['composite_score'] = self._calculate_fallback_score(
-                    technical_indicators, momentum_data, squeeze_data, best_call is not None
+                    technical_indicators, momentum_data, squeeze_data, False  # No options
                 )
             
             # 6. Add ALL enhanced data from symbol_data
@@ -432,7 +417,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                 'quote', 'fundamentals', 'news', 'earnings', 
                 'sentiment', 'technicals', 'market_context',  # Changed from economic_events
                 'live_price', 'historical_prices', 'technical_indicators',
-                'options_chain',  # Add options_chain to pass through
+                # Options chain removed for stock-only workflow
                 'risk_metrics'   # Add risk metrics (Sharpe, Sortino, etc.)
             ]
             
@@ -448,8 +433,11 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                 analysis_result['enhanced_data']['squeeze_breakout'] = analysis_result['squeeze_breakout']
             if 'liquidity_risk' in analysis_result:
                 analysis_result['enhanced_data']['liquidity_risk'] = analysis_result['liquidity_risk']
-            if 'options_scoring' in analysis_result:
-                analysis_result['enhanced_data']['options_scoring'] = analysis_result['options_scoring']
+            # Add risk metrics to enhanced data
+            if 'risk_metrics' in analysis_result:
+                analysis_result['enhanced_data']['risk_metrics'] = analysis_result['risk_metrics']
+            if 'position_sizing' in analysis_result:
+                analysis_result['enhanced_data']['position_sizing'] = analysis_result['position_sizing']
             
             # Add local rating results to enhanced data
             if 'local_rating' in analysis_result:
@@ -460,13 +448,12 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
                 available_fields = [k for k, v in analysis_result['enhanced_data'].items() if v]
                 logger.info(f"Passing enhanced data for {symbol} with fields: {available_fields}")
             
-            # 7. Apply weighted scoring according to requirements
-            # technical (25%), momentum (25%), squeeze (20%), options (20%), quality (10%)
+            # 7. Apply weighted scoring for stock-only workflow
+            # technical (35%), momentum (35%), squeeze (20%), quality (10%)
             weighted_score = (
-                analysis_result['score_breakdown']['technical'] * 0.25 +
-                analysis_result['score_breakdown']['momentum'] * 0.25 +
+                analysis_result['score_breakdown']['technical'] * 0.35 +
+                analysis_result['score_breakdown']['momentum'] * 0.35 +
                 analysis_result['score_breakdown']['squeeze'] * 0.20 +
-                analysis_result['score_breakdown']['options'] * 0.20 +
                 analysis_result['score_breakdown']['quality'] * 0.10
             )
             analysis_result['composite_score'] = min(100.0, max(0.0, weighted_score))
@@ -618,7 +605,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
             return None
     
     def _calculate_fallback_score(self, technical_indicators: Dict, momentum_data: Dict, 
-                                squeeze_data: Dict, has_options: bool) -> float:
+                                squeeze_data: Dict, has_options: bool = False) -> float:
         """Calculate a simple fallback score when comprehensive scoring fails."""
         score = 50.0  # Start with neutral score
         
@@ -636,9 +623,8 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
         if squeeze_data.get('is_squeeze'):
             score += 10
         
-        # Options component
-        if has_options:
-            score += 10
+        # Quality component (replaces options)
+        score += 5  # Base quality score
         
         return min(100.0, max(0.0, score))
     
