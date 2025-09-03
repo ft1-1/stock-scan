@@ -1,15 +1,13 @@
 """
-Prompt Templates for Claude AI Options Analysis
+Prompt Templates for Claude AI Stock Analysis
 
-Implements the structured 0-100 rating system:
+Implements the structured 0-100 rating system for stock purchases:
 - Trend & Momentum (35 points)
-- Options Quality (20 points) 
-- IV Value (15 points)
-- Squeeze/Volatility (10 points)
-- Fundamentals (10 points)
-- Event & News (10 points)
+- Technical Quality (35 points)
+- Squeeze/Volatility (20 points)
+- Fundamentals & Quality (10 points)
 
-Designed for consistent, parseable JSON responses.
+Designed for consistent, parseable JSON responses focused on stock purchase decisions.
 """
 
 import json
@@ -19,24 +17,22 @@ from dataclasses import dataclass
 
 @dataclass
 class RatingCriteria:
-    """Defines the 0-100 rating system breakdown"""
+    """Defines the 0-100 rating system breakdown for stock analysis"""
     trend_momentum: int = 35
-    options_quality: int = 20
-    iv_value: int = 15
-    squeeze_volatility: int = 10
-    fundamentals: int = 10
-    event_news: int = 10
+    technical_quality: int = 35
+    squeeze_volatility: int = 20
+    fundamentals_quality: int = 10
     
     def get_total(self) -> int:
-        return (self.trend_momentum + self.options_quality + self.iv_value + 
-                self.squeeze_volatility + self.fundamentals + self.event_news)
+        return (self.trend_momentum + self.technical_quality + 
+                self.squeeze_volatility + self.fundamentals_quality)
 
 
 class PromptTemplates:
     """
     Structured prompt templates for consistent Claude AI analysis.
     
-    Provides templates optimized for options screening with detailed
+    Provides templates optimized for stock purchase screening with detailed
     scoring rubrics and clear JSON response requirements.
     """
     
@@ -71,7 +67,7 @@ class PromptTemplates:
         
         # Data sections
         sections.append(self._format_opportunity_data(data_package.get('opportunity_analysis', {})))
-        sections.append(self._format_option_contract_data(data_package.get('selected_option_contract', {})))
+        sections.append(self._format_risk_metrics_data(data_package.get('risk_metrics', {})))
         sections.append(self._format_enhanced_data(data_package.get('enhanced_stock_data', {})))
         
         # Analysis context if provided
@@ -88,9 +84,9 @@ class PromptTemplates:
     
     def _get_system_prompt(self) -> str:
         """Define Claude's role and expertise"""
-        return """You are an expert quantitative options analyst specializing in systematic options screening and strategy evaluation. Your role is to analyze options opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.
+        return """You are an expert quantitative stock analyst specializing in systematic stock screening and momentum-squeeze strategy evaluation. Your role is to analyze stock purchase opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.
 
-Your analysis should be objective, systematic, and focused on the specific opportunity presented. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities."""
+Your analysis should be objective, systematic, and focused on the specific stock purchase opportunity presented. Evaluate stocks for their momentum potential, technical strength, volatility patterns, and overall quality. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities."""
     
     def _get_scoring_framework(self) -> str:
         """Define the detailed 0-100 scoring rubric"""
@@ -115,67 +111,57 @@ Your analysis should be objective, systematic, and focused on the specific oppor
      - In-line performance: 4-5 points
      - Underperforming: 0-3 points
 
-**2. OPTIONS QUALITY ASSESSMENT ({self.rating_criteria.options_quality} points)**
-   • Liquidity and Spread Quality (10 points):
-     - Tight spreads (<2%), high volume/OI: 8-10 points
-     - Moderate spreads (2-4%), decent liquidity: 6-7 points
-     - Wide spreads (4-6%), limited liquidity: 3-5 points
-     - Very wide spreads (>6%), poor liquidity: 0-2 points
+**2. TECHNICAL QUALITY ASSESSMENT ({self.rating_criteria.technical_quality} points)**
+   • Chart Pattern & Support/Resistance (15 points):
+     - Strong bullish patterns, clean breakouts: 13-15 points
+     - Moderate technical setup: 10-12 points
+     - Neutral/consolidating patterns: 5-9 points
+     - Bearish patterns, weak support: 0-4 points
    
-   • Greeks Profile Optimization (10 points):
-     - Optimal delta/theta/vega profile for strategy: 8-10 points
-     - Good Greeks alignment: 6-7 points
-     - Acceptable Greeks: 4-5 points
-     - Poor Greeks profile: 0-3 points
+   • Volume & Liquidity Quality (10 points):
+     - High volume confirmation, excellent liquidity: 8-10 points
+     - Good volume, adequate liquidity: 6-7 points
+     - Moderate volume/liquidity: 3-5 points
+     - Low volume, poor liquidity: 0-2 points
+     
+   • Risk/Reward Profile (10 points):
+     - Excellent risk/reward setup (>3:1): 8-10 points
+     - Good risk/reward (2-3:1): 6-7 points
+     - Adequate risk/reward (1.5-2:1): 3-5 points
+     - Poor risk/reward (<1.5:1): 0-2 points
 
-**3. IMPLIED VOLATILITY VALUE ({self.rating_criteria.iv_value} points)**
-   • IV Percentile Assessment (10 points):
-     - IV in favorable range for strategy: 8-10 points
-     - Moderately attractive IV: 6-7 points
-     - Neutral IV conditions: 4-5 points
-     - Unfavorable IV levels: 0-3 points
+**3. SQUEEZE/VOLATILITY DYNAMICS ({self.rating_criteria.squeeze_volatility} points)**
+   • Volatility Compression Assessment (10 points):
+     - Strong squeeze with expansion potential: 8-10 points
+     - Moderate compression: 6-7 points
+     - Normal volatility: 3-5 points
+     - High/unstable volatility: 0-2 points
    
-   • IV/HV Relationship (5 points):
-     - Favorable IV vs HV for strategy: 4-5 points
-     - Neutral IV/HV: 2-3 points
-     - Unfavorable IV/HV: 0-1 points
+   • Breakout Probability (10 points):
+     - High probability directional move: 8-10 points
+     - Moderate breakout potential: 5-7 points
+     - Low breakout probability: 2-4 points
+     - No clear directional bias: 0-1 points
 
-**4. SQUEEZE/VOLATILITY DYNAMICS ({self.rating_criteria.squeeze_volatility} points)**
-   • Volatility Compression Assessment (5 points):
-     - Strong squeeze with expansion potential: 4-5 points
-     - Moderate compression: 3 points
-     - Normal volatility: 2 points
-     - High volatility: 0-1 points
-   
-   • Breakout Probability (5 points):
-     - High probability directional move: 4-5 points
-     - Moderate breakout potential: 2-3 points
-     - Low breakout probability: 0-1 points
-
-**5. FUNDAMENTAL HEALTH ({self.rating_criteria.fundamentals} points)**
-   • Financial Strength (5 points):
-     - Strong margins, cash flow, balance sheet: 4-5 points
+**4. FUNDAMENTALS & QUALITY ({self.rating_criteria.fundamentals_quality} points)**
+   • Financial Health & Position Sizing (5 points):
+     - Strong balance sheet, manageable risk metrics: 4-5 points
      - Adequate financial health: 3 points
-     - Weak but stable: 1-2 points
+     - Weak but acceptable: 1-2 points
      - Poor financial condition: 0 points
    
-   • Growth Trajectory (5 points):
-     - Strong consistent growth: 4-5 points
-     - Moderate growth: 2-3 points
-     - Flat/declining: 0-1 points
+   • Event Risk & News Sentiment (5 points):
+     - Positive news, no near-term events: 4-5 points
+     - Neutral conditions: 2-3 points
+     - Negative sentiment or event risk: 0-1 points
 
-**6. EVENT RISK & NEWS SENTIMENT ({self.rating_criteria.event_news} points)**
-   • Earnings Safety (5 points):
-     - No earnings for >30 days: 4-5 points
-     - Earnings 15-30 days: 2-3 points
-     - Earnings <15 days: 0-1 points
-   
-   • News Sentiment (5 points):
-     - Positive news flow: 4-5 points
-     - Neutral news: 2-3 points
-     - Negative news: 0-1 points
+**TOTAL POSSIBLE: {self.rating_criteria.get_total()} POINTS**
 
-**TOTAL POSSIBLE: {self.rating_criteria.get_total()} POINTS**"""
+## KEY FOCUS AREAS FOR STOCK ANALYSIS:
+- **Position Sizing**: Evaluate ATR-based stop losses and position sizing recommendations
+- **Risk Management**: Assess Value-at-Risk (VaR) and volatility metrics for trade sizing
+- **Entry Timing**: Analyze squeeze patterns and momentum for optimal entry points
+- **Exit Strategy**: Consider technical levels and risk/reward for profit targets"""
     
     def _format_opportunity_data(self, opportunity_data: Dict[str, Any]) -> str:
         """Format opportunity data section"""
@@ -277,41 +263,91 @@ Your analysis should be objective, systematic, and focused on the specific oppor
         
         return "\n".join(sections)
     
+    def _format_risk_metrics_data(self, risk_data: Dict[str, Any]) -> str:
+        """Format stock risk assessment and position sizing data"""
+        if not risk_data:
+            return "\n## RISK ASSESSMENT & POSITION SIZING\nNo risk metrics data provided.\n"
+        
+        sections = ["\n## RISK ASSESSMENT & POSITION SIZING"]
+        
+        # Current price and volatility
+        if 'current_price' in risk_data:
+            sections.append(f"""
+**CURRENT MARKET DATA**
+• Current Price: ${risk_data.get('current_price', 'N/A')}
+• Daily Volatility: {risk_data.get('daily_volatility', 'N/A'):.2%}
+• Annualized Volatility: {risk_data.get('annualized_volatility', 'N/A'):.2%}""")
+        
+        # ATR-based risk metrics
+        if 'atr_value' in risk_data:
+            sections.append(f"""
+**ATR RISK METRICS**
+• ATR Value: ${risk_data.get('atr_value', 'N/A'):.2f}
+• ATR Percentage: {risk_data.get('atr_percent', 'N/A'):.2%}
+• Suggested Stop Loss: ${risk_data.get('suggested_stop_loss', 'N/A'):.2f}
+• Stop Loss Risk: ${risk_data.get('stop_loss_risk_dollars', 'N/A'):.2f} ({risk_data.get('stop_loss_risk_percent', 'N/A'):.2%})""")
+        
+        # Value at Risk
+        if 'value_at_risk_95' in risk_data:
+            sections.append(f"""
+**VALUE AT RISK (95% CONFIDENCE)**
+• Daily VaR: ${risk_data.get('value_at_risk_95', 'N/A'):.2f}
+• Position Risk Assessment: {"High" if risk_data.get('atr_percent', 0) > 0.04 else "Moderate" if risk_data.get('atr_percent', 0) > 0.02 else "Low"} volatility stock""")
+        
+        # Position sizing recommendation
+        if 'position_size_shares' in risk_data:
+            total_position_value = risk_data.get('current_price', 0) * risk_data.get('position_size_shares', 0)
+            sections.append(f"""
+**POSITION SIZING RECOMMENDATION**
+• Recommended Shares: {risk_data.get('position_size_shares', 'N/A')} shares
+• Total Position Value: ${total_position_value:.2f}
+• Based on 2% portfolio risk with ATR stop loss
+• Risk per trade optimized for momentum strategy""")
+        
+        return "\n".join(sections)
+    
     def _format_enhanced_data(self, enhanced_data: Dict[str, Any]) -> str:
-        """Format EODHD enhanced data section"""
+        """Format comprehensive enhanced data section"""
         if not enhanced_data or 'error' in enhanced_data:
-            return "\n## ENHANCED MARKET DATA\nNo enhanced data provided.\n"
+            return "\n## COMPREHENSIVE MARKET ANALYSIS\nNo enhanced data provided.\n"
         
         sections = ["\n## COMPREHENSIVE MARKET ANALYSIS"]
         
-        # Current market data
-        if 'current_market_data' in enhanced_data:
-            market = enhanced_data['current_market_data']
-            sections.append(f"""
-**LIVE MARKET DATA**
-• Current Price: ${market.get('current_price', 'N/A')}
-• Change: ${market.get('change', 'N/A')} ({market.get('change_percent', 'N/A')}%)
-• Volume: {market.get('volume', 'N/A')}""")
+        # Market context (VIX, S&P500, dollar strength)
+        if 'market_context' in enhanced_data:
+            sections.append(self._format_market_context(enhanced_data['market_context']))
         
-        # Fundamental analysis
+        # Fundamental analysis (complete financials)
         if 'fundamental_analysis' in enhanced_data:
-            sections.append(self._format_fundamentals_section(enhanced_data['fundamental_analysis']))
+            sections.append(self._format_detailed_fundamentals(enhanced_data['fundamental_analysis']))
         
-        # Recent news
+        # Recent news with full content
         if 'recent_news' in enhanced_data:
-            sections.append(self._format_news_section(enhanced_data['recent_news']))
+            sections.append(self._format_detailed_news(enhanced_data['recent_news']))
         
         # Earnings calendar
         if 'earnings_calendar' in enhanced_data:
             sections.append(self._format_earnings_section(enhanced_data['earnings_calendar']))
         
-        # Sentiment analysis
-        if 'sentiment_analysis' in enhanced_data:
-            sections.append(self._format_sentiment_section(enhanced_data['sentiment_analysis']))
+        # Price history analysis
+        if 'price_history' in enhanced_data:
+            sections.append(self._format_price_history(enhanced_data['price_history']))
         
-        # Economic context
-        if 'macro_economic_context' in enhanced_data:
-            sections.append(self._format_economic_context(enhanced_data['macro_economic_context']))
+        # Trend momentum analysis
+        if 'trend_momentum_analysis' in enhanced_data:
+            sections.append(self._format_trend_momentum_analysis(enhanced_data['trend_momentum_analysis']))
+        
+        # Squeeze breakout analysis
+        if 'squeeze_breakout_analysis' in enhanced_data:
+            sections.append(self._format_squeeze_breakout_analysis(enhanced_data['squeeze_breakout_analysis']))
+        
+        # Liquidity risk analysis
+        if 'liquidity_risk_analysis' in enhanced_data:
+            sections.append(self._format_liquidity_risk_analysis(enhanced_data['liquidity_risk_analysis']))
+        
+        # Local rating analysis
+        if 'local_rating_analysis' in enhanced_data:
+            sections.append(self._format_local_rating_analysis(enhanced_data['local_rating_analysis']))
         
         return "\n".join(sections)
     
@@ -467,6 +503,220 @@ Your analysis should be objective, systematic, and focused on the specific oppor
         
         return "\n".join(sections) if len(sections) > 1 else ""
     
+    def _format_market_context(self, market_data: Dict[str, Any]) -> str:
+        """Format market context section"""
+        if not market_data:
+            return ""
+            
+        sections = ["\n**MARKET CONTEXT**"]
+        
+        # Market status and trend
+        sections.append(f"• Market Status: {market_data.get('market_status', 'N/A')}")
+        sections.append(f"• Market Trend: {market_data.get('market_trend', 'N/A')}")
+        
+        # VIX data
+        if 'volatility_index' in market_data:
+            vix = market_data['volatility_index']
+            sections.append(f"• VIX Level: {vix.get('level', 'N/A')} (Risk: {vix.get('risk_level', 'N/A')})")
+        
+        # S&P500 context
+        if 'sp500' in market_data:
+            sp = market_data['sp500']
+            sections.append(f"• S&P500: ${sp.get('price', 'N/A')} ({sp.get('change_percent', 'N/A'):.2f}%)")
+            sections.append(f"• Market Momentum: {sp.get('momentum', 'N/A')}")
+        
+        return "\n".join(sections)
+    
+    def _format_detailed_fundamentals(self, fundamentals: Dict[str, Any]) -> str:
+        """Format comprehensive fundamentals data"""
+        if not fundamentals:
+            return ""
+        
+        sections = ["\n**COMPREHENSIVE FUNDAMENTAL ANALYSIS**"]
+        
+        # Company overview
+        if 'company_overview' in fundamentals:
+            overview = fundamentals['company_overview']
+            sections.append(f"• Company: {overview.get('name', 'N/A')}")
+            sections.append(f"• Sector: {overview.get('sector', 'N/A')} | Industry: {overview.get('industry', 'N/A')}")
+            if overview.get('employees'):
+                sections.append(f"• Employees: {overview['employees']:,}")
+        
+        # Financial metrics
+        if 'financial_metrics' in fundamentals:
+            financial = fundamentals['financial_metrics']
+            sections.append("• **Key Financials:**")
+            if financial.get('eps_ttm'):
+                sections.append(f"  - EPS (TTM): ${financial['eps_ttm']}")
+            if financial.get('profit_margin'):
+                sections.append(f"  - Profit Margin: {financial['profit_margin']:.1%}")
+            if financial.get('operating_margin'):
+                sections.append(f"  - Operating Margin: {financial['operating_margin']:.1%}")
+            if financial.get('roe'):
+                sections.append(f"  - ROE: {financial['roe']:.1%}")
+            if financial.get('revenue_growth_yoy') is not None:
+                sections.append(f"  - Revenue Growth (YoY): {financial['revenue_growth_yoy']:.1%}")
+            if financial.get('earnings_growth_yoy') is not None:
+                sections.append(f"  - Earnings Growth (YoY): {financial['earnings_growth_yoy']:.1%}")
+        
+        # Valuation metrics
+        if 'valuation' in fundamentals:
+            valuation = fundamentals['valuation']
+            sections.append("• **Valuation:**")
+            if valuation.get('pe_ratio'):
+                sections.append(f"  - P/E Ratio: {valuation['pe_ratio']:.1f}")
+            if valuation.get('forward_pe'):
+                sections.append(f"  - Forward P/E: {valuation['forward_pe']:.1f}")
+            if valuation.get('price_to_sales'):
+                sections.append(f"  - P/S Ratio: {valuation['price_to_sales']:.1f}")
+            if valuation.get('price_to_book'):
+                sections.append(f"  - P/B Ratio: {valuation['price_to_book']:.1f}")
+        
+        # Technical data (beta, 52-week range)
+        if 'technical_data' in fundamentals:
+            tech = fundamentals['technical_data']
+            if tech.get('beta'):
+                sections.append(f"• Beta: {tech['beta']:.2f}")
+            if tech.get('52_week_high') and tech.get('52_week_low'):
+                sections.append(f"• 52-Week Range: ${tech['52_week_low']:.2f} - ${tech['52_week_high']:.2f}")
+        
+        # Analyst ratings
+        if 'analyst_ratings' in fundamentals:
+            ratings = fundamentals['analyst_ratings']
+            if ratings.get('avg_rating') and ratings.get('target_price'):
+                sections.append(f"• Analyst Rating: {ratings['avg_rating']:.1f} | Target: ${ratings['target_price']:.2f}")
+                total_analysts = sum([ratings.get('strong_buy', 0), ratings.get('buy', 0), 
+                                    ratings.get('hold', 0), ratings.get('sell', 0), ratings.get('strong_sell', 0)])
+                if total_analysts > 0:
+                    sections.append(f"  - Coverage: {total_analysts} analysts")
+        
+        # Balance sheet highlights
+        if 'balance_latest_sheet' in fundamentals:
+            balance = fundamentals['balance_latest_sheet']
+            if balance.get('debt_to_equity') is not None:
+                sections.append(f"• Debt-to-Equity: {balance['debt_to_equity']:.2f}")
+            if balance.get('cash_and_equivalents'):
+                sections.append(f"• Cash: ${balance['cash_and_equivalents']:.0f}M")
+        
+        return "\n".join(sections)
+    
+    def _format_detailed_news(self, news_data: Dict[str, Any]) -> str:
+        """Format detailed news with content"""
+        if not news_data or not news_data.get('articles'):
+            return ""
+        
+        sections = [f"\n**RECENT NEWS ANALYSIS ({news_data.get('articles_count', 0)} articles)**"]
+        
+        # Show top 3 articles with content excerpts
+        for i, article in enumerate(news_data['articles'][:3]):
+            if article.get('title') and article.get('content'):
+                sections.append(f"• **{article['date'][:10]}**: {article['title']}")
+                # First 200 characters of content
+                content_excerpt = article['content'][:200] + "..." if len(article['content']) > 200 else article['content']
+                sections.append(f"  Summary: {content_excerpt}")
+                sections.append("")  # Add spacing
+        
+        return "\n".join(sections)
+    
+    def _format_price_history(self, price_data: Dict[str, Any]) -> str:
+        """Format price history analysis"""
+        if not price_data or not price_data.get('daily_prices'):
+            return ""
+        
+        sections = ["\n**PRICE HISTORY ANALYSIS**"]
+        
+        prices = price_data['daily_prices']
+        if len(prices) >= 5:
+            recent_prices = prices[-5:]  # Last 5 days
+            sections.append("• **Recent Price Action (Last 5 days):**")
+            for price_data_point in recent_prices:
+                change = price_data_point['close'] - price_data_point['open']
+                change_pct = (change / price_data_point['open']) * 100
+                sections.append(f"  - {price_data_point['date']}: ${price_data_point['close']:.2f} ({change_pct:+.1f}%) Vol: {price_data_point['volume']:,}")
+        
+        return "\n".join(sections)
+    
+    def _format_trend_momentum_analysis(self, trend_data: Dict[str, Any]) -> str:
+        """Format trend momentum analysis"""
+        if not trend_data:
+            return ""
+        
+        sections = ["\n**TREND & MOMENTUM DETAILS**"]
+        
+        if trend_data.get('return_21d') is not None:
+            sections.append(f"• 21-Day Return: {trend_data['return_21d']:.2f}%")
+        if trend_data.get('return_63d') is not None:
+            sections.append(f"• 63-Day Return: {trend_data['return_63d']:.2f}%")
+        if trend_data.get('rsi') is not None:
+            sections.append(f"• RSI(14): {trend_data['rsi']:.1f}")
+        if trend_data.get('adx') is not None:
+            sections.append(f"• ADX: {trend_data['adx']:.1f}")
+        if trend_data.get('trend_quality_score') is not None:
+            sections.append(f"• Trend Quality Score: {trend_data['trend_quality_score']:.2f}")
+        
+        return "\n".join(sections)
+    
+    def _format_squeeze_breakout_analysis(self, squeeze_data: Dict[str, Any]) -> str:
+        """Format squeeze breakout analysis"""
+        if not squeeze_data:
+            return ""
+        
+        sections = ["\n**SQUEEZE & BREAKOUT ANALYSIS**"]
+        
+        if squeeze_data.get('atr_pct') is not None:
+            sections.append(f"• ATR Percentage: {squeeze_data['atr_pct']:.2f}%")
+        if squeeze_data.get('in_squeeze') is not None:
+            sections.append(f"• In Squeeze: {squeeze_data['in_squeeze']}")
+        if squeeze_data.get('bb_width') is not None:
+            sections.append(f"• Bollinger Band Width: {squeeze_data['bb_width']:.2f}")
+        if squeeze_data.get('keltner_width') is not None:
+            sections.append(f"• Keltner Channel Width: {squeeze_data['keltner_width']:.2f}")
+        
+        return "\n".join(sections)
+    
+    def _format_liquidity_risk_analysis(self, liquidity_data: Dict[str, Any]) -> str:
+        """Format liquidity risk analysis"""
+        if not liquidity_data:
+            return ""
+        
+        sections = ["\n**LIQUIDITY & RISK ANALYSIS**"]
+        
+        if liquidity_data.get('adv_dollars') is not None:
+            sections.append(f"• Avg Daily Value: ${liquidity_data['adv_dollars']:,.0f}")
+        if liquidity_data.get('liquidity_tier'):
+            sections.append(f"• Liquidity Tier: {liquidity_data['liquidity_tier']}")
+        if liquidity_data.get('news_activity'):
+            sections.append(f"• News Activity: {liquidity_data['news_activity']}")
+        
+        return "\n".join(sections)
+    
+    def _format_local_rating_analysis(self, rating_data: Dict[str, Any]) -> str:
+        """Format local rating analysis"""
+        if not rating_data:
+            return ""
+        
+        sections = ["\n**LOCAL QUANTITATIVE RATING**"]
+        
+        if rating_data.get('final_score') is not None:
+            sections.append(f"• Local Score: {rating_data['final_score']:.1f}")
+        
+        if 'sub_scores' in rating_data:
+            sub_scores = rating_data['sub_scores']
+            sections.append("• **Component Breakdown:**")
+            for component, score in sub_scores.items():
+                sections.append(f"  - {component.replace('_', ' ').title()}: {score:.1f}")
+        
+        if 'key_features' in rating_data:
+            features = rating_data['key_features']
+            sections.append("• **Key Technical Features:**")
+            for feature, value in features.items():
+                if isinstance(value, float) and 'ret_' in feature:
+                    sections.append(f"  - {feature}: {value:.2f}%")
+                else:
+                    sections.append(f"  - {feature}: {value}")
+        
+        return "\n".join(sections)
+    
     def _get_response_format(self) -> str:
         """Define required JSON response format"""
         return '''## REQUIRED RESPONSE FORMAT
@@ -479,11 +729,9 @@ You MUST respond with ONLY a valid JSON object in exactly this format:
     "rating": 85,
     "component_scores": {
         "trend_momentum": 28,
-        "options_quality": 18,
-        "iv_value": 12,
-        "squeeze_volatility": 8,
-        "fundamentals": 9,
-        "event_news": 10
+        "technical_quality": 25,
+        "squeeze_volatility": 15,
+        "fundamentals_quality": 7
     },
     "confidence": "high",
     "thesis": "2-3 sentence overall investment thesis based on the data",
@@ -497,10 +745,10 @@ You MUST respond with ONLY a valid JSON object in exactly this format:
         "Specific risk factor 2",
         "Specific risk factor 3"
     ],
-    "option_contract": {
-        "recommendation": "Specific actionable recommendation",
-        "entry_timing": "Assessment of entry timing",
-        "risk_management": "Key risk management considerations"
+    "position_sizing": {
+        "recommended_action": "Buy/Hold/Avoid with specific reasoning",
+        "entry_timing": "Assessment of optimal entry timing",
+        "risk_management": "Stop-loss levels and position sizing guidance"
     },
     "red_flags": [
         "Critical warning if any (leave empty array if none)"
@@ -521,17 +769,17 @@ CRITICAL REQUIREMENTS:
         """Final analysis instructions"""
         return f"""## ANALYSIS INSTRUCTIONS FOR {symbol}
 
-1. **Systematic Scoring**: Evaluate each component (trend/momentum, options quality, IV value, squeeze/volatility, fundamentals, event/news) independently using the point allocations above.
+1. **Systematic Scoring**: Evaluate each component (trend/momentum, technical quality, squeeze/volatility, fundamentals/quality) independently using the point allocations above.
 
-2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers in your reasoning.
+2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers from the comprehensive dataset.
 
 3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.
 
-4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor liquidity, imminent earnings, deteriorating fundamentals).
+4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor fundamentals, negative news sentiment, high volatility, earnings risk).
 
-5. **Strategy Alignment**: Consider how well this opportunity fits options strategies (directional bias, volatility conditions, time decay considerations).
+5. **Stock Purchase Strategy**: Consider momentum patterns, squeeze setups, risk/reward ratios, and position sizing for stock purchase decisions.
 
-6. **Completeness Check**: If critical data is missing, note it in your analysis but don't penalize the opportunity excessively for data gaps.
+6. **Enhanced Data Utilization**: Leverage all available data including market context, news sentiment, detailed financials, price history, and technical analysis.
 
 Analyze the {symbol} opportunity now using this framework and respond with the required JSON format."""
 

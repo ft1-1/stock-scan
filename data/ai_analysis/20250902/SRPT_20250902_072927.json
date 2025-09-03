@@ -1,0 +1,591 @@
+{
+  "success": true,
+  "symbol": "SRPT",
+  "timestamp": "2025-09-02T07:29:27.936604",
+  "data_package": {
+    "metadata": {
+      "symbol": "SRPT",
+      "package_timestamp": "2025-09-02T07:29:17.753608",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 48.75,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "SRPT",
+        "current_price": 18.2,
+        "overall_score": 60.743399125566874,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 17.7632,
+        "sma_200": 69.7492
+      },
+      "momentum_metrics": {
+        "momentum_21d": 10.840438489646756,
+        "momentum_63d": -51.59574468085106,
+        "momentum_126d": -82.95081967213115,
+        "momentum_acceleration": 62.43618317049782,
+        "roc_21d": 10.840438489646756,
+        "trend_strength_20d": 0.09568780053373753,
+        "trend_direction": 1,
+        "ma_ribbon_score": 49.91762286093252,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.019769536247009854
+      },
+      "squeeze_detection": {
+        "is_squeeze": "True",
+        "squeeze_duration": 3.0,
+        "squeeze_momentum": -0.07250349085770455,
+        "volatility_compression": 70.79898628984908,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "technical": 67.0,
+        "momentum": 60.0,
+        "squeeze": 55.61984794347736,
+        "quality": 51.69429536871397
+      },
+      "risk_assessment": {
+        "warnings": [
+          "Failed weekly breakout"
+        ],
+        "ranking": 17,
+        "percentile": 99.0
+      }
+    },
+    "selected_option_contract": {
+      "error": "No option data provided"
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-09-02T07:11:47.171788",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 16.12,
+          "change": 0.76,
+          "change_percent": 4.9479,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 74522192,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-08-29T20:29:12+00:00",
+            "title": "After Hours Most Active for Aug 29, 2025 :  ELAN, NVDA, GOOG, PPBI, SRPT, COLB, MSFT, SNAP, KMI, XOM, NEE, PFE",
+            "content": "The NASDAQ 100 After Hours Indicator is down -7.17 to 23,408.25.  The total After hours volume is currently 173,977,891 shares traded.\r\n\r\nThe following are the most active stocks for the after hours session: \r\n\r\nElanco Animal Health Incorporated (ELAN) is unchanged at $18.35, with 22,912,351 shares traded. Over the last four weeks they have had 4 up revisions for the earnings forecast, for the fiscal quarter ending Jun 2026.  The consensus EPS forecast is $0.3.  As reported by Zacks, the current mean recommendation for ELAN is in the \"buy range\".\r\n\r\nNVIDIA Corporation (NVDA) is -0.1303 at $174.05, with 6,348,499 shares traded. Over the last four weeks they have had 4 up revisions for the earnings forecast, for the fiscal quarter ending Oct 2025.  The consensus EPS forecast is $1.12.  As reported by Zacks, the current mean recommendation for NVDA is in the \"buy range\".\r\n\r\nAlphabet Inc. (GOOG) is -0.1 at $213.43, with 5,238,602 shares traded., following a 52-week high recorded in today's regular session.\r\n\r\nPacific Premier Bancorp Inc (PPBI) is +0.22 at $24.71, with 5,082,734 shares traded. PPBI's current last sale is 98.84% of the target price of $25.\r\n\r\nSarepta Therapeutics, Inc. (SRPT) is -0.05 at $18.15, with 4,891,937 shares traded. SRPT's current last sale is 95.53% of the target price of $19.\r\n\r\nColumbia Banking System, Inc. (COLB) is +0.12 at $26.89, with 4,750,632 shares traded. COLB's current last sale is 99.59% of the target price of $27.\r\n\r\nMicrosoft Corporation (MSFT) is -0.0101 at $506.68, with 4,009,598 shares traded. Over the last four weeks they have had 10 up revisions for the earnings forecast, for the fiscal quarter ending Sep 2025.  The consensus EPS forecast is $3.65.  As reported by Zacks, the current mean recommendation for MSFT is in the \"buy range\".\r\n\r\nSnap Inc. (SNAP) is +0.0198 at $7.16, with 3,682,014 shares traded. Over the last four weeks they have had 3 up revisions for the earnings forecast, for the fiscal quarter ending Sep 2025.  The consensus EPS forecast is $-0.1. SNAP's current last sale is 79.55% of the target price of $9.\r\n\r\nKinder Morgan, Inc. (KMI) is unchanged at $26.98, with 2,685,938 shares traded. KMI's current last sale is 84.31% of the target price of $32.\r\n\r\nExxon Mobil Corporation (XOM) is -0.09 at $114.20, with 2,186,537 shares traded. Over the last four weeks they have had 4 up revisions for the earnings forecast, for the fiscal quarter ending Sep 2025.  The consensus EPS forecast is $1.71.  As reported by Zacks, the current mean recommendation for XOM is in the \"buy range\".\r\n\r\nNextEra Energy, Inc. (NEE) is -0.25 at $71.80, with 1,942,179 shares traded. As reported by Zacks, the current mean recommendation for NEE is in the \"buy range\".\r\n\r\nPfizer, Inc. (PFE) is +0.0091 at $24.77, with 1,937,924 shares traded. PFE's current last sale is 88.46% of the target price of $28.</p>\n\nThe views and opinions expressed herein are the views and opinions of the author and do not necessarily reflect those of Nasdaq, Inc.",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T19:13:00+00:00",
+            "title": "SRPT Stock Alert: Investors with Large Losses Should Contact Robbins LLP for Information About the Pending Lead Plaintiff Deadline in the Sarepta Therapeutics, Inc. Class Action",
+            "content": "SAN DIEGO, Aug.  29, 2025  (GLOBE NEWSWIRE) -- Robbins LLP reminds stockholders that a class action was filed on behalf of investors who purchased or otherwise acquired Sarepta Therapeutics, Inc. (NASDAQ: SRPT) securities between June 22, 2023 and June 24, 2025. Sarepta is a commercial-stage biopharmaceutical company that focuses on RNA and gene therapies for the treatment of rare diseases. During the class period, Sarepta was engaged in the development of therapies to treat Duchenne muscular dystrophy (“Duchenne”), including ELEVIDYS. ELEVIDYS is a prescription gene therapy intended for a limited category of people with Duchenne.\n\nFor more information, submit a form, email attorney Aaron Dumas, Jr., or give us a call at (800) 350-6003.\n\nThe Allegations: Robbins LLP is Investigating Allegations that Sarepta Therapeutics, Inc. (SRPT) Mislead Investors Regarding the Safety its ELEVIDYS Drug\n\nAccording to the complaint, during the class period, defendants failed to disclose that: (i) ELEVIDYS posed significant safety risks to patients; (ii) ELEVIDYS trial regimes and protocols failed to detect severe side effects; and (iii) the severity of adverse events from ELEVIDYS treatment would cause the Company to halt recruitment and dosing in ELEVIDYS trials, attract regulatory scrutiny, and create greater risk around the therapy’s present and expanded approvals.\n\nPlaintiff alleges that on March 18, 2025, Sarepta issued a safety update on ELEVIDYS announcing that a patient had died following treatment with ELEVIDYS. On this news, Sarepta’s stock price fell $27.81 per share, or 27.44%, to close at $73.54 per share on March 18, 2025. Then, on June 15, 2025, Sarepta disclosed a second patient had died of acute liver failure following treatment with ELEVIDYS. The Company announced it was suspending shipments of ELEVIDYS for non-ambulatory patients while Sarepta took time to evaluate trial regimens and discussed findings with regulatory authorities. Sarepta also revealed that it was pausing dosing in one of its ELEVIDYS clinical studies. On this news, Sarepta’s stock price fell $15.24 per share, or 42.12%, to close at $20.91 per share on June 15, 2025.\n\nFinally, on June 24, 2025, the FDA announced it was investigating the risk of acute liver failure with serious outcomes following treatment with ELEVIDYS. On this news, Sarepta's stock price fell $1.52 per share, or 8.01%, to close at $17.46 per share on June 25, 2025.\n\nWhat Now: You may be eligible to participate in the class action against Sarepta Therapeutics, Inc. Shareholders who want to serve as lead plaintiff for the class must file a motion for lead plaintiff by August 25, 2025. The lead plaintiff is a representative party who acts on behalf of other class members in directing the litigation. You do not have to participate in the case to be eligible for a recovery. If you choose to take no action, you can remain an absent class member. For more information, click here.\n\nAll representation is on a contingency fee basis. Shareholders pay no fees or expenses.\n\nAbout Robbins LLP: A recognized leader in shareholder rights litigation, the attorneys and staff of Robbins LLP have been dedicated to helping shareholders recover losses, improve corporate governance structures, and hold company executives accountable for their wrongdoing since 2002.\n\nTo be notified if a class action against Sarepta Therapeutics, Inc. settles or to receive free alerts when corporate executives engage in wrongdoing, sign up for Stock Watch today.\n\nAttorney Advertising. Past results do not guarantee a similar outcome.\n\nContact:\r\nAaron Dumas, Jr. \r\nRobbins LLP\r\n5060 Shoreham Pl., Ste. 300\r\nSan Diego, CA 92122\r\nadumas@robbinsllp.com\r\n(800) 350-6003\r\nwww.robbinsllp.com https://www.facebook.com/RobbinsLLP/ https://www.linkedin.com/company/robbins-llp/",
+            "url": null
+          },
+          {
+            "date": "2025-08-29T14:30:18+00:00",
+            "title": "BC-Most Active Stocks",
+            "content": "NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.\n\nNasdaq most active stocks:\n\nStock Name Volume High Low Last Change Opendoor Technologies Inc. 123,765,170 4.93 4.47 4.625 +0.355 Gamehaus Holdings Inc. 111,180,060 2.66 2.06 2.1089 +0.9789 NVIDIA Corp. 69,742,301 178.15 173.76 174.315 -5.855 Professional Diver.Network Inc 68,894,702 5.51 2.79 5.51 +3.58 Movano Inc. 62,767,224 1.31 1.00 1.07 +0.4524 Nukkleus Inc. 50,533,138 5.85 4.51 4.525 +0.835 Next Technology Holding Inc. 47,668,486 0.385 0.3257 0.353 +0.063 SMX (Security Matters) PLC 46,271,387 2.39 2.02 2.2101 +0.4701 IREN Ltd. 33,459,064 29.50 26.42 26.716 +3.676 TNF Pharmaceuticals Inc. 32,226,949 0.0507 0.045 0.0452 -0.0164 Marvell Technology Inc. 32,002,646 65.49 63.3101 64.435 -12.795 Incannex Healthcare Inc. 28,884,584 0.6589 0.6067 0.6325 +0.0145 Ondas Holdings Inc. 23,072,734 6.188 5.54 5.645 -0.055 Richtech Robotics Inc. 22,386,086 3.59 3.11 3.1535 +0.0585 Rigetti Computing Inc. 21,772,297 16.79 16.24 16.245 -0.335 iShares Ethereum Trust ETF 21,373,572 33.27 32.31 32.325 -1.245 Lucid Group Inc. 20,993,002 2.08 2.00 2.01 -0.06 Erayak Power Solut.Group Inc. 18,929,682 0.0525 0.048 0.0483 -0.0049 Affirm HLDGS INC 17,822,592 100.00 91.072 93.8594 +13.8694 Tesla Inc. 17,114,497 348.75 338.5363 338.8804 -7.0996 Tilray Brands Inc. 16,451,851 1.455 1.37 1.38 -0.09 Intel Corp. 16,222,875 24.97 24.38 24.405 -0.525 iShares Bitcoin Trust ETF 15,812,507 62.83 61.59 61.63 -1.95 SoFi Technologies Inc. 14,653,918 26.42 25.3116 25.395 -0.645 reAlpha Tech Corp. 14,418,081 0.468 0.4041 0.4098 +0.0198 Soundhound AI Inc. 13,931,954 12.83 12.2128 12.2332 -0.2968 Connexa Sports Technologies I. 12,707,583 3.005 1.31 1.49 -2.33 Palantir Technologies Inc. 12,542,707 158.42 153.00 154.615 -3.505 Gryphon Digital Mining Inc. 11,652,629 1.73 1.54 1.58 -0.14 Canopy Growth Corp. 11,666,672 1.8099 1.70 1.715 -0.165 Applied Digital Corp. 11,494,171 17.29 15.71 15.7582 -0.8418 Advanced Micro Devices Inc. 11,523,408 168.57 161.90 162.31 -6.27 Western Acquisition Vent.Corp. 10,296,775 0.2219 0.207 0.2091 -0.0483 Super Micro Computer Inc. 9,941,701 42.86 41.46 41.5987 -2.3713 Cipher Mining Inc. 9,904,942 7.5999 6.98 6.99 -0.03 Petco Health+Wellness Co.Inc. 9,040,070 4.19 3.70 3.925 +0.695 Terawulf Inc. 8,767,839 9.775 9.1401 9.18 -0.26 Plug Power Inc. 7,995,521 1.635 1.57 1.57 -0.06 ALT5 Sigma Corp. 7,994,656 8.74 7.83 7.97 -0.38 Alphabet Inc. 7,937,631 212.34 210.20 211.29 -0.35 Webull Corp. 7,804,313 14.9103 13.9102 13.93 -0.74 COREWEAVE INC. 7,686,425 101.09 96.6913 96.78 -6.01 Apple Inc. 7,550,381 233.38 231.37 232.255 -0.305 MARA Holdings Inc. 7,540,281 16.10 15.58 15.585 -0.375 SharpLink Gaming Inc. 6,985,488 18.45 17.575 17.68 -0.78 Rivian Automotive Inc. 6,785,191 13.885 13.325 13.325 -0.315 American Airlines Group Inc. 6,755,187 13.28 13.1432 13.195 -0.055 Robinhood Markets Inc. 6,097,376 104.40 101.93 102.4291 -1.2609 Bit Digital Inc. 6,021,029 2.625 2.50 2.505 -0.105 WARNER BROS. DISCOVERY INC. 5,939,045 12.04 11.70 11.7201 -0.3349 Top Kingwin Ltd. 5,665,642 0.175 0.145 0.157 -0.0315 Outlook Therapeutics Inc. 5,297,603 1.07 0.9022 0.91 -0.18 Fangdd Network Group Ltd. 5,462,352 2.4799 1.54 2.33 +0.77 Bitfarms Ltd. 5,210,824 1.35 1.28 1.28 -0.04 Micron Technology Inc. 4,701,886 122.7699 118.65 118.90 -3.10 Amazon.com Inc. 4,697,235 231.8125 229.16 229.18 -2.42 Riot Platforms Inc. 4,658,017 13.98 13.47 13.475 -0.325 Rezolve AI PLC 4,611,675 3.67 3.52 3.57 -0.03 HIVE Digital Technologies Ltd. 4,382,441 2.95 2.82 2.835 -0.105 Broadcom Inc. 4,307,357 307.01 295.59 295.755 -12.895 Bollinger Innovations Inc. 4,149,488 0.308 0.28 0.2882 -0.0323 Recursion Pharmaceuticals Inc. 4,016,383 4.895 4.66 4.675 -0.19 Rocket Lab Corp. 3,968,331 48.80 46.02 46.1896 -1.7204 Navitas Semiconductor Corp. 3,685,574 6.0599 5.81 5.818 -0.222 Garden Stage Ltd. 3,539,901 0.0991 0.0965 0.0975 -0.0082 Skyline Builders Group Holding 3,378,860 1.20 0.95 1.07 +0.163 Tharimmune Inc. 3,383,363 7.25 6.07 6.16 +0.11 Cleanspark Inc. 3,302,830 9.635 9.35 9.355 -0.195 ETHZilla Corp. 3,251,715 2.90 2.69 2.7007 -0.1693 Strata Skin Sciences Inc. 3,235,799 2.44 1.95 2.355 +0.325 CaliberCos Inc. 3,231,248 3.79 2.9246 3.2602 -1.1998 QUALCOMM Inc. 3,123,017 161.48 159.40 160.00 -0.80 Celsius Holdings Inc. 3,060,866 63.29 60.82 63.00 +3.31 Galaxy Digital Inc. 3,033,487 24.41 23.17 23.17 -1.34 Alphabet Inc. 3,002,549 213.09 210.97 212.015 -0.355 Oriental Rise Holdings Ltd. 2,994,331 0.1146 0.11 0.1107 -0.0043 NeoGenomics Inc. 2,881,804 9.01 8.10 8.6401 +1.4301 Keurig Dr Pepper Inc. 2,860,944 29.74 29.265 29.695 +0.405 AGNC Investment Corp. 2,850,661 9.71 9.635 9.6981 -0.0919 Grab Holdings Limited 2,821,153 4.99 4.91 4.93 -0.04 Microsoft Corp. 2,791,858 509.60 504.4915 505.395 -4.245 Quantum Computing Inc. 2,800,034 16.17 15.48 15.49 -0.61 Esperion Therapeutic.Inc.(New) 2,764,824 2.28 2.13 2.155 -0.055 Innoviz Technologies Ltd. 2,760,337 1.76 1.64 1.65 -0.06 Lam Research Corp. 2,675,456 102.6899 98.92 98.92 -5.17 Rockwell Medical Inc. 2,593,460 2.10 1.86 1.88 +0.08 Lyft Inc. 2,563,387 16.2899 15.77 15.805 -0.33 Intensity Therapeutics Inc. 2,453,818 0.2979 0.2832 0.29 -0.001 Solid Power Inc. 2,399,138 4.58 4.23 4.23 -0.34 Raytech Holding Ltd. 2,389,516 0.7018 0.63 0.6889 -0.0011 Nebius Group N.V. 2,365,053 71.69 68.40 68.5851 -3.4549 Serve Robotics Inc. 2,356,975 11.748 10.7838 10.817 -0.433 Ambarella Inc. 2,352,840 93.44 82.26 82.42 +11.79 Moleculin Biotech Inc. 2,296,356 0.4025 0.375 0.3806 -0.0125 ASP Isotopes Inc. 2,287,264 10.20 9.2101 9.2166 -1.3184 Eos Energy Enterprises Inc. 2,187,248 7.21 6.77 6.805 -0.325 Upstart Holdings Inc. 2,149,520 76.95 73.62 74.212 +0.452 Bit Origin Ltd. 2,105,307 0.44 0.4111 0.4142 -0.0078 Meta Platforms Inc. 2,070,973 747.14 737.77 737.88 -13.23 SNDL Inc. 2,060,574 2.71 2.59 2.625 -0.065\n\nNYSE most active stocks:\n\nStory Continues\n\nStock Name Volume High Low Last Change BigBear.ai Holdings Inc. 12,356,391 5.18 4.95 4.975 -0.185 Offerpad Solutions Inc. 12,038,980 5.45 4.60 5.10 -1.13 Snap Inc. 9,812,415 7.175 7.09 7.1142 +0.0142 Dell Technologies Inc. 9,147,724 124.90 119.63 120.67 -13.38 fuboTV Inc. 8,689,446 3.81 3.54 3.5863 +0.1063 Pfizer Inc. 7,615,409 24.8582 24.511 24.825 +0.225 Ford Motor Co. 6,701,601 11.83 11.72 11.755 +0.045 Uber Technologies Inc. 6,185,500 96.15 91.82 92.4003 -3.5597 SentinelOne Inc. 5,838,827 19.18 18.40 18.745 +1.135 Archer Aviation Inc. 5,721,550 9.2285 8.88 8.8842 -0.3158 D-Wave Quantum Inc. 5,676,853 15.9896 15.46 15.515 -0.405 Gap Inc. 5,767,382 22.60 21.3435 21.965 +0.285 Wheels Up Experience Inc. 4,919,888 3.33 3.00 3.0567 -0.2433 NexGen Energy Ltd. 4,648,315 8.27 7.71 7.72 +0.28 Oklo Inc. 4,284,865 78.50 72.81 73.105 -4.785 Nu Holdings Ltd. 4,255,251 14.7965 14.59 14.74 -0.03 Joby Aviation Inc. 4,188,194 14.3698 13.77 13.786 -0.484 IonQ Inc. 3,884,890 43.27 41.945 41.98 -1.32 Hims & Hers Health Inc. 3,788,412 44.49 42.89 43.085 -1.035 Cameco Corp. 3,513,686 83.02 76.855 76.92 -1.71 Snowflake Inc. 3,430,979 241.50 233.29 234.2545 -6.7455 AT & T Inc. 3,361,159 29.28 28.95 29.2658 +0.3258 First Majestic Silver Corp. 3,176,955 9.075 8.90 8.995 +0.035 CMB.Tech NV 3,073,903 8.78 8.57 8.63 +0.28 Bloom Energy Corp. 3,036,551 54.524 52.70 53.22 -1.58 Pure Storage Inc. 2,962,677 80.31 78.11 78.60 -1.94 Oracle Corp. 2,912,164 238.22 227.50 228.22 -12.10 Bank of America Corp. 2,886,616 50.76 50.51 50.62 +0.13 Elastic N.V. 2,800,638 94.44 83.7669 85.45 -2.34 QuantumScape Corp. 2,903,127 8.19 7.78 7.79 -0.31 Carnival Corp. 2,733,421 32.6151 31.89 31.905 -0.585 Hewlett Packard Enterprise Co. 2,702,727 22.865 22.575 22.65 -0.51 CNH Industrial N.V. 2,615,059 11.81 11.62 11.68 -0.25 Baytex Energy Corp. 2,546,899 2.24 2.2001 2.215 +0.005 Wolfspeed Inc. 2,487,426 1.29 1.20 1.255 +0.065 Oscar Health Inc. 2,490,015 17.43 16.56 16.565 -0.675 UnitedHealth Group Inc. 2,447,538 306.645 300.91 303.75 +1.46 PG & E Corp. 2,406,626 15.48 15.00 15.45 +0.46 NuScale Power Corp. 2,354,848 36.5763 34.5518 34.6201 -1.8599 Chipotle Mexican Grill Inc. 2,323,310 42.40 41.92 41.925 -0.485 Rocket Companies Inc. 2,229,991 18.06 17.805 17.835 -0.055 Keycorp 2,148,968 19.50 19.32 19.335 -0.015 Walmart Inc. 2,113,000 96.35 95.795 96.295 +0.185 Circle Internet Group Inc. 2,039,567 133.67 129.00 129.682 -1.258 Exxon Mobil Corp. 2,038,104 114.79 113.58 114.25 +0.90 Unity Software Inc. 1,956,291 40.08 38.84 38.9165 -1.2535 Planet Labs PBC 1,872,961 7.1616 6.8401 6.87 -0.34 MP Materials Corp. 1,796,448 73.87 71.6124 71.7054 -1.7946 Coca-Cola Co., The 1,777,302 68.9258 68.425 68.875 +0.515 Hecla Mining Co. 1,768,887 8.235 8.075 8.19 +0.12 Cleveland-Cliffs Inc. 1,723,958 10.995 10.662 10.69 -0.19 Lumen Technologies Inc. 1,685,962 5.0308 4.93 4.99 -0.03 AMCOR PLC 1,680,974 8.69 8.56 8.635 +0.085 Dow Inc. 1,678,692 24.89 24.24 24.555 -0.015 Verizon Communications Inc. 1,658,750 44.29 43.925 44.215 +0.285 Barrick Mining Corp. 1,628,929 26.50 26.16 26.445 +0.165 ConAgra Brands Inc. 1,610,067 19.11 18.81 19.035 +0.245 Schlumberger N.V. (Ltd.) 1,615,114 37.0453 36.505 36.73 +0.25 JBS N.V. 1,580,240 16.655 16.195 16.285 -0.045 Transocean Ltd. 1,549,107 3.12 3.0735 3.085 -0.015 Elanco Animal Health Inc. 1,535,603 18.57 18.35 18.395 -0.055 Zeta Global Holdings Corp. 1,515,115 20.17 19.52 19.778 +0.228 Endeavour Silver Corp. 1,510,947 6.015 5.89 5.965 +0.075 Informatica Inc. 1,503,621 24.952 24.90 24.945 -0.005 United Parcel Service Inc. 1,494,477 88.54 87.04 87.585 +0.315 Bristol-Myers Squibb Co. 1,484,972 47.36 46.88 47.12 +0.24 Wells Fargo & Co. 1,504,391 82.43 81.80 82.11 +0.13 AMC Entertainment Holdings Inc 1,475,812 2.85 2.81 2.8165 -0.0135 Chevron Corp. 1,454,875 160.99 159.45 160.07 +0.75 Vertiv Holdings Co. 1,439,678 133.34 127.53 127.58 -6.65 Stellantis N.V. 1,429,685 9.70 9.56 9.585 -0.055 Babcock & Wilcox Enterpr. Inc. 1,428,754 2.32 2.1066 2.275 +0.225 Centene Corp. 1,427,164 28.93 28.38 28.67 +0.29 HP Inc. 1,423,866 28.70 28.01 28.235 -0.115 Arista Networks Inc. 1,372,236 137.671 134.69 135.04 -1.19 ACCELERANT HLDGS 1,366,061 21.66 18.26 18.64 -2.93 Hormel Foods Corp. 1,365,855 25.82 25.24 25.735 +0.515 Lithium Americas Corp. 1,349,427 3.04 2.9502 2.955 -0.015 Salesforce Inc. 1,272,551 257.64 253.64 254.16 -0.37 Newmont Corp. 1,265,670 73.656 72.775 73.63 +0.66 Occidental Petroleum Corp. 1,260,463 48.03 47.47 47.59 +0.08 Kinross Gold Corp. 1,251,128 20.505 20.19 20.465 +0.245 Charles Schwab Corp. 1,237,024 97.40 95.38 95.645 -1.445 Nextera Energy Inc. 1,230,655 72.83 72.05 72.235 +0.145 Norwegian Cruise Line Holdings 1,236,043 25.52 24.975 25.035 -0.355 NIKE Inc. 1,223,057 79.13 77.75 78.39 +0.47 Cenovus Energy Inc. 1,234,541 17.02 16.7747 16.88 -0.07 Under Armour Inc. 1,212,823 5.0789 5.01 5.035 +0.015 Coty Inc. 1,202,798 4.39 4.24 4.32 -0.01 Block Inc. 1,204,484 82.25 80.5509 80.65 -0.13 Coeur Mining Inc. 1,198,802 12.75 12.54 12.6899 +0.1299 AMPRIUS TECHNOLOGIES INC 1,256,918 7.36 6.82 6.8276 -0.5524 C3 AI Inc. 1,197,018 17.51 16.905 16.9445 -0.3655 Fortuna Mining Corp. 1,199,096 7.62 7.455 7.5803 +0.1303 Foot Locker Inc. 1,170,438 25.13 24.425 24.615 -0.445 Orchid Island Capital Inc. 1,140,941 7.05 6.97 7.045 -0.025 Energy Transfer L.P. 1,142,642 17.71 17.6087 17.66 0.00 Frontline PLC 1,137,675 20.85 20.43 20.65 -0.07 Avantor Inc. 1,117,271 13.485 13.15 13.385 +0.175 BlackBerry Ltd. 1,102,723 3.84 3.79 3.795 -0.035\n\nNYSE American most active stocks:\n\nStock Name Volume High Low Last Change SRX HealthSolutions Inc. 65,619,924 0.4373 0.4018 0.4139 +0.049 Denison Mines Corp. 20,770,207 2.39 2.26 2.265 +0.065 BitMine Immersion Techno. Inc. 10,875,129 46.23 44.33 44.6235 -0.9465 Energy Fuels Inc. 6,004,265 12.50 11.30 11.32 -0.36 Novabay Pharmaceuticals Inc. 5,015,519 2.13 1.75 1.85 +0.20 Uranium Energy Corp. 4,796,810 11.29 10.46 10.575 +0.095 B2Gold Corp. 3,266,135 4.11 4.0227 4.095 +0.055 Equinox Gold Corp. 2,662,034 8.62 8.24 8.5866 +0.3166 Ur-Energy Inc. 1,772,545 1.43 1.37 1.375 -0.015 New Gold Inc. 1,639,040 5.81 5.69 5.79 +0.11 Ocean Power Technologies Inc. 1,526,928 0.553 0.5201 0.526 -0.0184 United States Antimony Corp. 1,316,427 4.6928 4.43 4.485 -0.085 Nuburu Inc. 1,252,582 0.166 0.161 0.1634 +0.0022 Galiano Gold Inc. 1,073,364 2.185 2.12 2.175 +0.055 Gold Royalty Corp. 989,630 3.52 3.31 3.505 +0.225 I-80 Gold Corp. 985,518 0.807 0.7683 0.795 +0.0268 Unusual Machines Inc. 865,424 9.96 9.64 9.6774 -0.4926 Silvercorp Metals Inc. 721,158 4.69 4.58 4.665 +0.025 Northern Dynasty Minls Ltd. 673,023 0.92 0.90 0.9105 +0.004 Senseonics Holdings Inc. 646,818 0.4685 0.458 0.4602 +0.0002 Avino Silver & Gold Mines Ltd. 631,736 4.435 4.35 4.375 +0.025 AgEagle Aerial Systems Inc. 614,756 2.06 1.95 1.9665 -0.0135 Atlasclear Holdings Inc. 618,261 0.1949 0.19 0.1901 -0.0048 Vizsla Silver Corp. 506,157 3.561 3.49 3.515 -0.025 NovaGold Resources Inc. 521,000 6.785 6.47 6.765 +0.305 Gold Resource Corp. 437,665 0.49 0.462 0.4798 +0.0128 Centrus Energy Corp. 403,110 212.00 195.43 195.80 -13.58 Castellum Inc. 398,842 1.035 1.00 1.0092 -0.0208 IGC Pharma Inc. 396,192 0.44 0.401 0.4226 -0.0023 NORTHANN CORP. 383,519 0.1476 0.1401 0.1417 +0.0007 KAIROS Pharma Ltd. 392,338 1.35 1.26 1.3199 +0.0599 Perfect Moment Ltd. 370,367 0.5249 0.488 0.5201 +0.01 Genius Group Ltd. 317,998 0.9599 0.9001 0.9032 -0.0391 Aris Mining Corp. 294,081 8.29 8.10 8.24 +0.04 Taseko Mines Ltd. 294,449 3.25 3.185 3.1897 -0.0003 Americas Gold & Silver Corp. 279,195 2.62 2.52 2.555 -0.015 Standard Lithium Ltd. 275,256 2.9654 2.8699 2.905 -0.035 Paramount Gold Nevada Corp. 245,534 0.99 0.93 0.9662 -0.0258 Cornerstone Strat.Val.Fd Inc. 240,523 8.18 8.14 8.145 -0.005 Ring Energy Inc. 231,208 1.1382 1.10 1.105 +0.005 EMX Royalty Corp. 229,428 3.64 3.58 3.622 +0.062 Westwater Resources Inc. 227,298 0.785 0.7571 0.7585 -0.0115 EON Resources Inc. 221,834 0.36 0.3468 0.3546 -0.0074 Credit Suisse High Yld Bd Fd 219,494 2.11 2.09 2.095 +0.005 Vantage Corp. 216,933 5.71 5.62 5.67 -0.04 KULR Technology Group Inc. 212,341 4.86 4.73 4.7486 -0.1114 Myomo Inc. 209,735 1.09 1.03 1.03 -0.04 Spirit Aviation Holdings Inc. 208,503 1.31 1.25 1.28 +0.03 IT Tech Packaging Inc. 204,031 0.2099 0.194 0.205 -0.0049 Platinum Group Metals Ltd. 202,428 1.54 1.485 1.5351 +0.0451 Hyperscale Data Inc. 201,563 0.5567 0.54 0.5443 -0.0124 Azitra Inc. 205,344 1.00 0.9532 0.9998 +0.0198 Comstock Inc. 194,621 2.375 2.28 2.28 -0.08 Pedevco Corp. 187,368 0.6561 0.596 0.631 +0.051 Metalla Royalty&Streaming Ltd. 187,193 5.32 5.17 5.30 +0.11 Integra Resources Corp. 185,403 2.1958 2.15 2.165 +0.005 TRX Gold Corp. 178,090 0.37 0.3525 0.3615 +0.0042 Cornerstone Total Return Fund 160,024 7.88 7.84 7.8465 -0.0235 Dolly Varden Silver Corp. 157,876 3.65 3.53 3.6206 +0.0406 Lineage Cell Therapeutics Inc. 141,221 1.23 1.1811 1.19 -0.02 Tecogen Inc. (New) 140,125 7.93 7.2525 7.325 -0.405 Hyliion Holdings Corp. 131,317 1.74 1.66 1.6699 -0.0501 New Found Gold Corp. 124,014 1.82 1.76 1.80 +0.05 Cleancore Solutions Inc. 119,594 7.82 6.70 6.9001 +0.4401 Cel-Sci Corp. 117,058 9.5053 9.06 9.44 +0.13 DSS Inc. 116,029 1.25 1.12 1.225 -0.065 Vista Gold Corp. 114,074 1.17 1.15 1.165 +0.015 Brazil Potash Corp. 113,346 1.84 1.77 1.78 -0.07 Mixed Martial Arts Group Ltd. 105,197 0.9425 0.85 0.90 -0.015 GoldMining Inc. 104,442 0.9273 0.9102 0.9127 -0.0118 Orla Mining Ltd. (new) 103,847 10.89 10.6751 10.88 +0.14 New Concept Energy Inc. 101,404 1.03 0.97 0.9961 -0.1139 Indonesia Energy Corp. Ltd. 100,034 2.98 2.922 2.93 +0.01 Reaves Utility Income Fund 101,362 38.4899 37.96 37.98 -0.31 OS Therapies Inc. 98,334 2.3218 2.20 2.2162 -0.0438 Volato Group Inc. 94,626 1.82 1.72 1.72 -0.08 Idaho Strategic Resources Inc. 94,227 28.50 27.83 27.87 -0.04 InfuSystems Holdings Inc. 93,834 11.04 10.7001 10.8255 +0.0955 Western Copper & Gold Corp. 91,448 1.41 1.39 1.39 -0.03 Mag Silver Corp. 89,721 24.15 23.91 24.0898 +0.1198 Birks Group Inc. 92,025 0.8379 0.7525 0.8325 +0.0243 Evolution Petroleum Corp. 86,893 5.23 5.15 5.19 +0.06 Cybin Inc. 83,740 7.71 7.46 7.51 -0.13 USBC Inc. 87,300 1.04 1.00 1.00 -0.02 Protalix BioTherapeutics Inc. 75,714 1.562 1.5201 1.5399 -0.0101 Power REIT 75,153 1.2699 1.20 1.20 +0.025 Ivanhoe Electric Inc. 74,195 8.8836 8.74 8.7607 -0.1293 Cboe Global Markets Inc. 73,537 237.43 235.50 236.41 +1.15 Frankl. Ltd Duration Income T. 73,269 6.45 6.40 6.41 -0.05 Perspective Therapeutics Inc. 74,355 3.47 3.325 3.33 -0.05 Flexible Solutions Intl Inc. 71,023 11.4791 11.00 11.01 +0.18 Theriva Biologics Inc. 68,424 0.4137 0.3938 0.405 -0.0088 Impact Biomedical Inc. 64,499 0.6074 0.5754 0.58 -0.0074 Stereotaxis Inc. 60,735 2.88 2.82 2.875 +0.065 cbdMD Inc. 60,751 0.78 0.7405 0.769 -0.006 Neuberger Berman Hgh Yld St.Fd 57,639 7.56 7.5299 7.54 +0.01 Neuberger Berman Municipal Fd 57,201 9.95 9.87 9.905 +0.005 MAIA Biotechnology Inc. 57,116 1.5399 1.50 1.505 -0.015 Eaton Vance Municipal Bond Fd 51,910 9.8091 9.7627 9.7865 +0.0265 Neub.Ber.Real Est.Secs Inc.Fd 48,855 3.25 3.23 3.24 0.00\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T20:55:00+00:00",
+            "title": "Top Analyst Reports for Berkshire Hathaway, Toyota Motor &amp; McDonald's",
+            "content": "Wednesday, August 27, 2025\r\n\r\nThe Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including Berkshire Hathaway Inc. (BRK.B), Toyota Motor Corp. (TM) and McDonald's Corp. (MCD), as well as two micro-cap stocks Elite Pharmaceuticals, Inc. (ELTP) and BK Technologies Corp. (BKTI). The Zacks microcap research is unique as our research content on these small and under-the-radar companies is the only research of its type in the country.\r\n\r\nThese research reports have been hand-picked from the roughly 70 reports published by our analyst team today.\r\n\r\nYou can see all of today’s research reports here >>>\r\n\r\nAhead of Wall Street\r\n\r\nThe daily 'Ahead of Wall Street' article is a must-read for all investors who would like to be ready for that day's trading action. The article comes out before the market opens, attempting to make sense of that morning's economic releases and how they will affect that day's market action. You can read this article for free on our home page and can actually sign up there to get an email notification as this article comes out each morning.\r\n\r\nYou can read today's AWS here >>> Countdown to NVIDIA Earnings, PCE Report Friday\r\n\r\nToday's Featured Research Reports\r\n\r\nBerkshire Hathaway’s shares have outperformed the Zacks Insurance - Property and Casualty industry over the year-to-date period (+9% vs. +7.8%). The company is one of the largest property and casualty insurance companies, with numerous diverse business activities. A strong cash position supports earnings-accretive bolt-on buyouts and is indicative of its financial flexibility. \r\n\r\nContinued insurance business growth fuels an increase in float, drives earnings and generates maximum return on equity. The non-insurance businesses have also been doing well in the last few years. The insurer has also started increasing its investment in Japan. A sturdy capital level provides further impetus. \r\n\r\nHowever, exposure to cat(astrophic) loss induces earnings volatility and also affects underwriting results. Huge capital expenditures remain a headwind. Also, it remains to be seen how the conglomerate behemoth fares when Greg Abel succeeds Warren Buffett as CEO of Berkshire.\r\n\r\n(You can read the full research report on Berkshire Hathaway here >>>)\r\n\r\nShares of Toyota Motor have gained +0.8% over the year-to-date period against the Zacks Automotive - Foreign industry’s gain of +5%. The company’s sales are getting a boost from the surge in hybrid adoption. The RAV4 model, with hybrid variants that make up about half of Toyota’s sales, is America's top-selling SUV. \r\n\r\nToyota Motor aims to lower hydrogen costs by promoting its use in commercial vehicles. It plans to sell its hydrogen-powered units externally, encouraging broader adoption beyond its own fleet. By increasing overall hydrogen demand, the company expects economies of scale to drive down production costs. \r\n\r\nHowever, Toyota expects its operating income for fiscal 2026 to decline year over year due to material prices, the impact of the forex rate and tariffs imposed by the U.S. government on vehicle and vehicle parts imports. Pretax profit is also expected to decline. Thus, the stock warrants a cautious stance.\r\n\r\n(You can read the full research report on Toyota Motor here >>>)\r\n\r\nMcDonald's shares have outperformed the Zacks Retail - Restaurants industry over the year-to-date period (+10.1% vs. -2.3%). The company reported second-quarter 2025 results, wherein earnings and revenues beat the Zacks Consensus Estimate. Both the top and bottom lines increased year over year, driven by robust international comps, strong brand-led campaigns, loyalty expansion and solid menu innovation. \r\n\r\nThe Accelerating the Arches strategy, supported by value platforms and unit expansion, continues to drive momentum. Management remains confident in its long-term growth trajectory, underpinned by unit expansion toward 50,000 restaurants by 2027.\r\n\r\nEarnings estimates for 2025 have increased in the past 30 days, depicting analysts' optimism regarding the stock’s growth potential. However, higher beef and labor costs in Europe, and soft traffic trends in the United States, pose concerns.\r\n\r\n(You can read the full research report on McDonald's here >>>)\r\n\r\nShares of Elite Pharmaceuticals have outperformed the Zacks Medical - Drugs industry over the past year (+98.3% vs. -0.3%). This microcap company with a market capitalization of $586.35 million is capitalizing on the $3.5 billion U.S. ADHD market with its December 2024 launch of generic Lisdexamfetamine, quickly reaching 8–10% share while generic penetration lags peers, leaving room for growth. \r\n\r\nThe first-quarter fiscal 2026 revenues surged 113.9% to $40.2 million, with gross margins expanding to 68% on the back of the shift to direct commercialization. Core Adderall IR/ER franchises provide stable cash flow as CNS and opioid analgesic launches diversify revenue. \r\n\r\nStrong liquidity ($21.7 million net cash, $67.1 million working capital) supports pipeline, M&A and global expansion. Risks include heavy reliance on Lisdexamfetamine amid pricing pressure, customer concentration, inventory build and offshore competition. The valuation reflects optimism around growth momentum, but also embeds risks tied to product concentration.\r\n\r\n(You can read the full research report on Elite Pharmaceuticals here >>>)\r\n\r\nBK Technologies’ shares have outperformed the Zacks Wireless Equipment industry over the past year (+225.3% vs. +30.1%). This microcap company with market capitalization of $255.79 million is driving growth through its BKR Series, notably the BKR 9000, which is gaining adoption across federal, state and local agencies due to competitive pricing, full P25 compliance and interoperability. \r\n\r\nStrong orders support revenue growth, with higher ASPs boosting margins. Gross margins expanded to 47.4% in Q2 2025, aided by mix shift and outsourced manufacturing, with guidance raised above 47%. SaaS platform BK ONE introduces high-margin recurring revenue streams, expanding TAM beyond hardware. \r\n\r\nBKTI has a debt-free balance sheet, supporting R&D and market expansion. Risks include customer concentration, software execution challenges, tariff exposure and delayed BKR 9500 launch. The valuation implies a discounted entry point, offering investors upside as BKTI scales high-margin products and SaaS, while managing execution risks.\r\n\r\n(You can read the full research report on BK Technologies here >>>)\r\n\r\nOther noteworthy reports we are featuring today include Eaton Corp. plc (ETN), American International Group, Inc. (AIG) and Ryanair Holdings plc (RYAAY).\r\n\r\nMark Vickery\r\nSenior Editor\r\n\r\nNote: Sheraz Mian heads the Zacks Equity Research department and is a well-regarded expert of aggregate earnings. He is frequently quoted in the print and electronic media and publishes the weekly Earnings Trends and Earnings Preview reports. If you want an email notification each time Sheraz publishes a new article, please click here>>>\n\nStory Continues\n\nToday's Must Read\n\nBerkshire Hathaway (BRK.B) Gains from Strong Underwriting.\n\nCost Saving Efforts Aid Toyota (TM) Amid Rising Debt Levels\n\nMcDonald's (MCD) Banks on Strategic Initiatives, High Costs Ail\n\nFeatured Reports\n\nNew Product Development, Wide Market Reach Aid Eaton (ETN)\r\nPer the Zacks analyst Eaton's operations in 160 countries across the world and development of new products through ongoing R&D investments will continue to drive demand and boost profitability.\n\nAIG Benefits From Divestitures Amid High Combined Ratio\r\nPer the Zacks Analyst, business streamlining by selling low returning units and focusing on high growth units boosts operational capacities. However, a deteriorating combined ratio remains a concern.\n\nSanmina (SANM) Rides on Portfolio Strength, Customer-Focused Approach\r\nPer the Zacks analyst, Sanmina is likely to benefit from a diverse portfolio, solid technology leadership and end-to-end product lifecycle management that helps to reduce complexity in operations.\n\nLoan Growth, Buyouts Aid Valley National (VLY), Costs Ail\r\nPer the Zacks analyst, decent loan growth and Valley National's inorganic expansion efforts will support the top line. As it invests in revenue growth areas, costs will be elevated, hurting profits.\n\nFirdapse & Agamree Sales Boost CPRX Amid Fycompa Patent Loss\r\nPer the Zacks analyst, solid demand for Firdapse and Agamree should fuel strong growth for Catalyst in the quarters ahead. However, the loss of the Fycompa patent triggers generic competition.\n\nSarepta (SRPT) Growth Outlook Dimmed by Elevidys Concerns\r\nThough Sarepta's pipeline expansion across CNS and rare pulmonary disorders holds potential, the Zacks analyst is concerned with two Elevidys-linked deaths and their impact on topline growth.\n\nDelek (DK) Benefits from Strong, Integrated Refining Network\r\nThe Zacks analyst believes that Delek US Holdings benefits from strategic refinery placement and integration, but its significant debt load poses challenges to the company's financial health.\n\nNew Upgrades\n\nRyanair (RYAAY) Continues to Benefit From Improved Traffic\r\nThe Zacks Analyst is impressed with Ryanair's improved traffic growth, which implies increased passenger volume. Measures to expand its fleet to cater to the rising travel demand are encouraging.\n\nGrowth in Direct-To-Consumer Business Aids Skechers (SKX) \r\nPer the Zacks analyst, Skechers' direct-to-consumer business gains from growth in international and domestic markets. During second-quarter 2025, direct-to-consumer sales increased 11% year over year.\n\nGovernment Contracts & Strong Liquidity Aids Maximus (MMS)\r\nPer the Zacks analyst, long-term contracts with governments generate predictable recurring revenues for Maximus. The company also maintains strong liquidity, with a current ratio above 1.\n\nNew Downgrades\n\nMacro & Demand Headwinds Hurt Molson Coors' (TAP) Volumes\r\nPer the Zacks analyst, Molson Coors faces soft volumes as macro headwinds, weak demand, and lost contracts hit key regions hard. In Q2 2025, volumes fell 6.6% in Americas and 7.8% in EMEA&APAC.\n\nExport Controls, Softening IT Spending Hurts Marvell (MRVL)\r\nPer the Zacks analyst, the U.S. government's chip export restrictions on China and weakening enterprise spending amid macroeconomic uncertainties are likely to hurt Marvell's near-term prospects.\n\nMounting Expenses Irk Bruker (BRKR) Amid Tough Competition\r\nThe Zacks analyst is worried about Bruker's escalating expenses that are putting pressure on the company's bottom line. Also, a tough competitive environment in broader healthcare market is a worry.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nToyota Motor Corporation (TM) : Free Stock Analysis Report\n\nMcDonald's Corporation (MCD) : Free Stock Analysis Report\n\nBerkshire Hathaway Inc. (BRK.B) : Free Stock Analysis Report\n\nElite Pharmaceuticals Inc. (ELTP): Free Stock Analysis Report\n\nBK TECHNOLOGIES, INC. (BKTI): Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-08-27T16:31:00+00:00",
+            "title": "Why Elanco (ELAN) Stock Is Trading Up Today",
+            "content": "What Happened?\n\nShares of animal health company Elanco (NYSE:ELAN) jumped 4.4% in the morning session after the company announced it will be joining the S&P MidCap 400 index.\n\nThe animal health company is set to replace Sarepta Therapeutics in the index, with the change becoming effective before the market opens on Tuesday, September 2. This inclusion is a significant positive catalyst because it typically forces index funds and exchange-traded funds (ETFs) that track the S&P MidCap 400 to purchase shares of Elanco to align their portfolios. The anticipated increase in demand from these institutional investors is expected to boost the stock's liquidity and valuation. Reflecting the positive sentiment, the company's shares also touched a new 52-week high.\n\nAfter the initial pop the shares cooled down to $18.60, up 3.9% from previous close.\n\nIs now the time to buy Elanco? Access our full analysis report here, it’s free.\n\nWhat Is The Market Telling Us\n\nElanco’s shares are somewhat volatile and have had 13 moves greater than 5% over the last year. In that context, today’s move indicates the market considers this news meaningful but not something that would fundamentally change its perception of the business.\n\nThe biggest move we wrote about over the last year was 4 months ago when the stock gained 21.2% on the news that the company reported decent first quarter 2025 results which beat analysts' EPS expectations and included constant currency revenue outperformance. Organic sales were up 4%, thanks to strong demand in cattle health and good traction from new pet meds like Credelio Quattro. Even though sales were flat, operating margins improved, a sign they're managing prices and costs pretty well. On the other hand, its full-year EBITDA guidance missed. Overall, we think this was a decent quarter with some key metrics above expectations.\n\nElanco is up 54.3% since the beginning of the year, and at $18.60 per share, has set a new 52-week high. Investors who bought $1,000 worth of Elanco’s shares 5 years ago would now be looking at an investment worth $661.12.\n\nToday’s young investors likely haven’t read the timeless lessons in Gorilla Game: Picking Winners In High Technology because it was written more than 20 years ago when Microsoft and Apple were first establishing their supremacy. But if we apply the same principles, then enterprise software stocks leveraging their own generative AI capabilities may well be the Gorillas of the future. So, in that spirit, we are excited to present our Special Free Report on a profitable, fast-growing enterprise software stock that is already riding the automation wave and looking to catch the generative AI next.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Sarepta Therapeutics Inc",
+          "sector": "Healthcare",
+          "industry": "Biotechnology",
+          "employees": 1372,
+          "description": "Sarepta Therapeutics, Inc., a commercial-stage biopharmaceutical company, focuses on the discovery and development of RNA-targeted therapeutics, gene therapies, and other genetic therapeutic modalities for the treatment of rare diseases. It offers EXONDYS 51 injection to treat Duchenne muscular dyst"
+        },
+        "financial_metrics": {
+          "eps_ttm": -0.68,
+          "profit_margin": -0.0234,
+          "operating_margin": 0.1891,
+          "roe": -0.0476,
+          "roa": -0.0002,
+          "revenue_growth_yoy": 0.684,
+          "earnings_growth_yoy": 26.638,
+          "eps_estimate_current_year": -1.7309,
+          "eps_estimate_next_year": 3.6309,
+          "revenue_ttm": 2481530880,
+          "revenue_per_share": 25.645,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 0,
+          "forward_pe": 9.8425,
+          "price_to_sales": 0.7677,
+          "price_to_book": 1.4035,
+          "enterprise_value": 2458767253,
+          "ev_to_revenue": 0.9908,
+          "ev_to_ebitda": 68.1628
+        },
+        "technical_data": {
+          "beta": 0.455,
+          "52_week_high": 138.81,
+          "52_week_low": 10.415,
+          "50_day_ma": 17.7632,
+          "200_day_ma": 69.7492,
+          "short_interest": 0.219,
+          "short_ratio": 0.87
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2012-07-12",
+          "last_split_factor": "1:6"
+        },
+        "analyst_ratings": {
+          "avg_rating": 4.3846,
+          "target_price": 23.84,
+          "strong_buy": 14,
+          "buy": 8,
+          "hold": 4,
+          "sell": 0,
+          "strong_sell": 0
+        },
+        "institutional_data": {
+          "shares_outstanding": 104672000,
+          "percent_institutions": 86.118,
+          "percent_insiders": 4.458,
+          "shares_float": 88269434
+        },
+        "balance_latest_sheet": {
+          "total_assets": 3679.814,
+          "total_debt": 1353.877,
+          "net_debt": 843.279,
+          "working_capital": 1737.037,
+          "shareholders_equity": 1357.385,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 1.0
+        },
+        "income_latest_statement": {
+          "total_revenue": 611.091,
+          "gross_profit": 447.693,
+          "operating_income": 115.577,
+          "net_income": 196.892,
+          "ebitda": 173.728,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 73.26,
+          "operating_margin": 18.91,
+          "net_margin": 32.22
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 261.337,
+          "free_cash_flow": 231.779,
+          "capex": 29.558,
+          "net_income": 196.892,
+          "cash_change": 269.731,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": -0.5644,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 12.815,
+            "high": 13.95,
+            "low": 12.6,
+            "close": 13.32,
+            "volume": 25673920
+          },
+          {
+            "date": "2025-07-22",
+            "open": 12.45,
+            "high": 14.54,
+            "low": 12.24,
+            "close": 13.615,
+            "volume": 22787529
+          },
+          {
+            "date": "2025-07-23",
+            "open": 13.44,
+            "high": 14.07,
+            "low": 12.73,
+            "close": 13.32,
+            "volume": 9099229
+          },
+          {
+            "date": "2025-07-24",
+            "open": 12.78,
+            "high": 13.82,
+            "low": 10.415,
+            "close": 12.88,
+            "volume": 44545273
+          },
+          {
+            "date": "2025-07-25",
+            "open": 11.14,
+            "high": 12.2948,
+            "low": 11.12,
+            "close": 11.93,
+            "volume": 15890960
+          },
+          {
+            "date": "2025-07-28",
+            "open": 11.71,
+            "high": 14.04,
+            "low": 11.68,
+            "close": 13.86,
+            "volume": 25564760
+          },
+          {
+            "date": "2025-07-29",
+            "open": 18.23,
+            "high": 18.35,
+            "low": 15.7701,
+            "close": 15.83,
+            "volume": 67570430
+          },
+          {
+            "date": "2025-07-30",
+            "open": 17.685,
+            "high": 19.24,
+            "low": 16.715,
+            "close": 16.75,
+            "volume": 39278207
+          },
+          {
+            "date": "2025-07-31",
+            "open": 16.49,
+            "high": 17.5799,
+            "low": 16.11,
+            "close": 16.42,
+            "volume": 14274330
+          },
+          {
+            "date": "2025-08-01",
+            "open": 16.11,
+            "high": 16.37,
+            "low": 15.6413,
+            "close": 15.91,
+            "volume": 9413449
+          },
+          {
+            "date": "2025-08-04",
+            "open": 16.05,
+            "high": 17.275,
+            "low": 15.34,
+            "close": 17.1,
+            "volume": 17615840
+          },
+          {
+            "date": "2025-08-05",
+            "open": 16.99,
+            "high": 17.4,
+            "low": 16.52,
+            "close": 16.75,
+            "volume": 8624156
+          },
+          {
+            "date": "2025-08-06",
+            "open": 16.59,
+            "high": 16.755,
+            "low": 15.82,
+            "close": 16.26,
+            "volume": 13905070
+          },
+          {
+            "date": "2025-08-07",
+            "open": 18.25,
+            "high": 19.26,
+            "low": 17.17,
+            "close": 17.96,
+            "volume": 16576779
+          },
+          {
+            "date": "2025-08-08",
+            "open": 18.14,
+            "high": 19.05,
+            "low": 17.62,
+            "close": 18.23,
+            "volume": 10416170
+          },
+          {
+            "date": "2025-08-11",
+            "open": 17.41,
+            "high": 19.25,
+            "low": 17.28,
+            "close": 17.94,
+            "volume": 11116430
+          },
+          {
+            "date": "2025-08-12",
+            "open": 17.95,
+            "high": 18.85,
+            "low": 17.68,
+            "close": 18.8,
+            "volume": 7549539
+          },
+          {
+            "date": "2025-08-13",
+            "open": 18.95,
+            "high": 20.61,
+            "low": 18.82,
+            "close": 20.4,
+            "volume": 11216890
+          },
+          {
+            "date": "2025-08-14",
+            "open": 20.16,
+            "high": 20.5938,
+            "low": 19.57,
+            "close": 20.3,
+            "volume": 8058217
+          },
+          {
+            "date": "2025-08-15",
+            "open": 20.43,
+            "high": 22.09,
+            "low": 19.89,
+            "close": 21.81,
+            "volume": 8850490
+          },
+          {
+            "date": "2025-08-18",
+            "open": 21.81,
+            "high": 22.0508,
+            "low": 20.95,
+            "close": 20.99,
+            "volume": 6125726
+          },
+          {
+            "date": "2025-08-19",
+            "open": 21.01,
+            "high": 21.08,
+            "low": 20.16,
+            "close": 20.18,
+            "volume": 6030935
+          },
+          {
+            "date": "2025-08-20",
+            "open": 20.17,
+            "high": 20.66,
+            "low": 19.32,
+            "close": 20.58,
+            "volume": 6123826
+          },
+          {
+            "date": "2025-08-21",
+            "open": 19.37,
+            "high": 20.12,
+            "low": 18.515,
+            "close": 20.06,
+            "volume": 16701650
+          },
+          {
+            "date": "2025-08-22",
+            "open": 20.13,
+            "high": 20.25,
+            "low": 19.415,
+            "close": 20.22,
+            "volume": 9540270
+          },
+          {
+            "date": "2025-08-25",
+            "open": 20.27,
+            "high": 20.35,
+            "low": 18.04,
+            "close": 18.06,
+            "volume": 12934080
+          },
+          {
+            "date": "2025-08-26",
+            "open": 18.1,
+            "high": 18.295,
+            "low": 17.5701,
+            "close": 18.26,
+            "volume": 8138710
+          },
+          {
+            "date": "2025-08-27",
+            "open": 18.26,
+            "high": 18.45,
+            "low": 17.86,
+            "close": 18.07,
+            "volume": 6752520
+          },
+          {
+            "date": "2025-08-28",
+            "open": 18.26,
+            "high": 19.13,
+            "low": 18.15,
+            "close": 18.34,
+            "volume": 5522392
+          },
+          {
+            "date": "2025-08-29",
+            "open": 18.3,
+            "high": 18.65,
+            "low": 17.79,
+            "close": 18.2,
+            "volume": 22536168
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 14.393463230672527,
+        "return_63d": -51.775304716481195,
+        "pct_above_sma50": 2.460746837509626,
+        "sma_50": 17.762900000000002,
+        "new_55d_high": "False",
+        "high_55d": 38.09,
+        "rsi": 51.334702258726885,
+        "rsi_in_range": "True",
+        "adx": 34.91109934104926,
+        "adx_above_20": "True",
+        "trend_quality_score": 1.0
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 7.736126373626373,
+        "bb_width": 32.267739466883036,
+        "keltner_width": 29.84684934466401,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 202820664.02894998,
+        "adv_shares": 10716792.9,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 43.341339898856965,
+        "final_score": 38.341339898856965,
+        "sub_scores": {
+          "trend_momentum": 12.841339898856965,
+          "squeeze_breakout": 4.0,
+          "fundamentals": 12.5,
+          "market_quality": 14
+        },
+        "red_flags": [
+          "Failed weekly breakout"
+        ],
+        "penalties_applied": {
+          "failed_breakout": 5
+        },
+        "key_features": {
+          "ret_21d": 10.840438489646754,
+          "ret_63d": -51.59574468085106,
+          "rsi14": 51.334702258726885,
+          "adx14": 33.10335265753408,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 0.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 48.75,
+      "missing_fields": [
+        "option_data"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative stock analyst specializing in systematic stock screening and momentum-squeeze strategy evaluation. Your role is to analyze stock purchase opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific stock purchase opportunity presented. Evaluate stocks for their momentum potential, technical strength, volatility patterns, and overall quality. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. TECHNICAL QUALITY ASSESSMENT (35 points)**\n   • Chart Pattern & Support/Resistance (15 points):\n     - Strong bullish patterns, clean breakouts: 13-15 points\n     - Moderate technical setup: 10-12 points\n     - Neutral/consolidating patterns: 5-9 points\n     - Bearish patterns, weak support: 0-4 points\n   \n   • Volume & Liquidity Quality (10 points):\n     - High volume confirmation, excellent liquidity: 8-10 points\n     - Good volume, adequate liquidity: 6-7 points\n     - Moderate volume/liquidity: 3-5 points\n     - Low volume, poor liquidity: 0-2 points\n     \n   • Risk/Reward Profile (10 points):\n     - Excellent risk/reward setup (>3:1): 8-10 points\n     - Good risk/reward (2-3:1): 6-7 points\n     - Adequate risk/reward (1.5-2:1): 3-5 points\n     - Poor risk/reward (<1.5:1): 0-2 points\n\n**3. SQUEEZE/VOLATILITY DYNAMICS (20 points)**\n   • Volatility Compression Assessment (10 points):\n     - Strong squeeze with expansion potential: 8-10 points\n     - Moderate compression: 6-7 points\n     - Normal volatility: 3-5 points\n     - High/unstable volatility: 0-2 points\n   \n   • Breakout Probability (10 points):\n     - High probability directional move: 8-10 points\n     - Moderate breakout potential: 5-7 points\n     - Low breakout probability: 2-4 points\n     - No clear directional bias: 0-1 points\n\n**4. FUNDAMENTALS & QUALITY (10 points)**\n   • Financial Health & Position Sizing (5 points):\n     - Strong balance sheet, manageable risk metrics: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but acceptable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Event Risk & News Sentiment (5 points):\n     - Positive news, no near-term events: 4-5 points\n     - Neutral conditions: 2-3 points\n     - Negative sentiment or event risk: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## KEY FOCUS AREAS FOR STOCK ANALYSIS:\n- **Position Sizing**: Evaluate ATR-based stop losses and position sizing recommendations\n- **Risk Management**: Assess Value-at-Risk (VaR) and volatility metrics for trade sizing\n- **Entry Timing**: Analyze squeeze patterns and momentum for optimal entry points\n- **Exit Strategy**: Consider technical levels and risk/reward for profit targets\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: SRPT\n• Current Price: $18.2\n• Overall Score: 60.743399125566874\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 17.7632\n• Sma 200: 69.7492\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 10.840438489646756\n• Momentum 63D: -51.59574468085106\n• Momentum 126D: -82.95081967213115\n• Momentum Acceleration: 62.43618317049782\n• Roc 21D: 10.840438489646756\n• Trend Strength 20D: 0.09568780053373753\n• Trend Direction: 1\n• Ma Ribbon Score: 49.91762286093252\n• Breakout Strength: 0.0\n• Price Velocity: -0.019769536247009854\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: True\n• Squeeze Duration: 3.0\n• Squeeze Momentum: -0.07250349085770455\n• Volatility Compression: 70.79898628984908\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Technical: 67.0\n• Momentum: 60.0\n• Squeeze: 55.61984794347736\n• Quality: 51.69429536871397\n\n## RISK ASSESSMENT & POSITION SIZING\nNo risk metrics data provided.\n\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**MARKET CONTEXT**\n• Market Status: pre_market\n• Market Trend: neutral\n• VIX Level: 16.12 (Risk: low)\n• S&P500: $645.05 (-0.60%)\n• Market Momentum: bearish\n\n**COMPREHENSIVE FUNDAMENTAL ANALYSIS**\n• Company: Sarepta Therapeutics Inc\n• Sector: Healthcare | Industry: Biotechnology\n• Employees: 1,372\n• **Key Financials:**\n  - EPS (TTM): $-0.68\n  - Profit Margin: -2.3%\n  - Operating Margin: 18.9%\n  - ROE: -4.8%\n  - Revenue Growth (YoY): 68.4%\n  - Earnings Growth (YoY): 2663.8%\n• **Valuation:**\n  - Forward P/E: 9.8\n  - P/S Ratio: 0.8\n  - P/B Ratio: 1.4\n• Beta: 0.46\n• 52-Week Range: $10.41 - $138.81\n• Analyst Rating: 4.4 | Target: $23.84\n  - Coverage: 26 analysts\n• Debt-to-Equity: 1.00\n\n**RECENT NEWS ANALYSIS (5 articles)**\n• **2025-08-29**: After Hours Most Active for Aug 29, 2025 :  ELAN, NVDA, GOOG, PPBI, SRPT, COLB, MSFT, SNAP, KMI, XOM, NEE, PFE\n  Summary: The NASDAQ 100 After Hours Indicator is down -7.17 to 23,408.25.  The total After hours volume is currently 173,977,891 shares traded.\r\n\r\nThe following are the most active stocks for the after hours s...\n\n• **2025-08-29**: SRPT Stock Alert: Investors with Large Losses Should Contact Robbins LLP for Information About the Pending Lead Plaintiff Deadline in the Sarepta Therapeutics, Inc. Class Action\n  Summary: SAN DIEGO, Aug.  29, 2025  (GLOBE NEWSWIRE) -- Robbins LLP reminds stockholders that a class action was filed on behalf of investors who purchased or otherwise acquired Sarepta Therapeutics, Inc. (NAS...\n\n• **2025-08-29**: BC-Most Active Stocks\n  Summary: NEW YORK (AP) — prices for the Nasdaq composite, NYSE and NYSE American listed most active stocks.\n\nNasdaq most active stocks:\n\nStock Name Volume High Low Last Change Opendoor Technologies Inc. 123,76...\n\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n\n**PRICE HISTORY ANALYSIS**\n• **Recent Price Action (Last 5 days):**\n  - 2025-08-25: $18.06 (-10.9%) Vol: 12,934,080\n  - 2025-08-26: $18.26 (+0.9%) Vol: 8,138,710\n  - 2025-08-27: $18.07 (-1.0%) Vol: 6,752,520\n  - 2025-08-28: $18.34 (+0.4%) Vol: 5,522,392\n  - 2025-08-29: $18.20 (-0.5%) Vol: 22,536,168\n\n**TREND & MOMENTUM DETAILS**\n• 21-Day Return: 14.39%\n• 63-Day Return: -51.78%\n• RSI(14): 51.3\n• ADX: 34.9\n• Trend Quality Score: 1.00\n\n**SQUEEZE & BREAKOUT ANALYSIS**\n• ATR Percentage: 7.74%\n• In Squeeze: False\n• Bollinger Band Width: 32.27\n• Keltner Channel Width: 29.85\n\n**LIQUIDITY & RISK ANALYSIS**\n• Avg Daily Value: $202,820,664\n• Liquidity Tier: very_high\n• News Activity: very_low\n\n**LOCAL QUANTITATIVE RATING**\n• Local Score: 38.3\n• **Component Breakdown:**\n  - Trend Momentum: 12.8\n  - Squeeze Breakout: 4.0\n  - Fundamentals: 12.5\n  - Market Quality: 14.0\n• **Key Technical Features:**\n  - ret_21d: 10.84%\n  - ret_63d: -51.60%\n  - rsi14: 51.334702258726885\n  - adx14: 33.10335265753408\n  - days_to_earnings: 30\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 48.8%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"technical_quality\": 25,\n        \"squeeze_volatility\": 15,\n        \"fundamentals_quality\": 7\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"position_sizing\": {\n        \"recommended_action\": \"Buy/Hold/Avoid with specific reasoning\",\n        \"entry_timing\": \"Assessment of optimal entry timing\",\n        \"risk_management\": \"Stop-loss levels and position sizing guidance\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR SRPT\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, technical quality, squeeze/volatility, fundamentals/quality) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers from the comprehensive dataset.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor fundamentals, negative news sentiment, high volatility, earnings risk).\n\n5. **Stock Purchase Strategy**: Consider momentum patterns, squeeze setups, risk/reward ratios, and position sizing for stock purchase decisions.\n\n6. **Enhanced Data Utilization**: Leverage all available data including market context, news sentiment, detailed financials, price history, and technical analysis.\n\nAnalyze the SRPT opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-09-02T07:29:27.936050",
+    "estimated_tokens": 2721
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"SRPT\",\n    \"rating\": 52,\n    \"component_scores\": {\n        \"trend_momentum\": 15,\n        \"technical_quality\": 18,\n        \"squeeze_volatility\": 12,\n        \"fundamentals_quality\": 7\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"SRPT shows mixed signals with recent positive short-term momentum (+10.84% 21D) but significant longer-term weakness (-51.60% 63D). While experiencing a volatility squeeze with 70.8% compression, the stock's technical structure remains challenged below major moving averages with concerning fundamental metrics.\",\n    \"opportunities\": [\n        \"Short-term momentum improvement with 21-day return of +10.84%\",\n        \"Active volatility squeeze setup with 70.8% compression\",\n        \"Strong revenue growth (68.4% YoY) with reasonable forward P/E of 9.8\"\n    ],\n    \"risks\": [\n        \"Severe downtrend from highs with -82.95% 126-day momentum\",\n        \"Trading well below 200-day SMA ($69.75)\",\n        \"Negative earnings (-$0.68 TTM) and poor ROE (-4.8%)\"\n    ],\n    \"position_sizing\": {\n        \"recommended_action\": \"Avoid - Wait for stronger technical structure and trend confirmation\",\n        \"entry_timing\": \"Current squeeze setup suggests potential movement, but direction unclear given mixed signals\",\n        \"risk_management\": \"If trading, use tight stops below recent support with max 2% portfolio risk given 7.74% ATR\"\n    },\n    \"red_flags\": [\n        \"Significant bearish price history (-51.78% 63-day return)\",\n        \"Pending class action lawsuit mentioned in recent news\",\n        \"Negative earnings and poor profitability metrics\"\n    ],\n    \"notes\": \"Analysis confidence affected by 48.8% data completeness. Upcoming earnings in 30 days adds event risk. High liquidity ($202.8M daily value) provides clean execution capability if setup improves.\"\n}",
+    "parsed_analysis": {
+      "symbol": "SRPT",
+      "rating": 52,
+      "component_scores": {
+        "trend_momentum": 15,
+        "technical_quality": 18,
+        "squeeze_volatility": 12,
+        "fundamentals_quality": 7
+      },
+      "confidence": "medium",
+      "thesis": "SRPT shows mixed signals with recent positive short-term momentum (+10.84% 21D) but significant longer-term weakness (-51.60% 63D). While experiencing a volatility squeeze with 70.8% compression, the stock's technical structure remains challenged below major moving averages with concerning fundamental metrics.",
+      "opportunities": [
+        "Short-term momentum improvement with 21-day return of +10.84%",
+        "Active volatility squeeze setup with 70.8% compression",
+        "Strong revenue growth (68.4% YoY) with reasonable forward P/E of 9.8"
+      ],
+      "risks": [
+        "Severe downtrend from highs with -82.95% 126-day momentum",
+        "Trading well below 200-day SMA ($69.75)",
+        "Negative earnings (-$0.68 TTM) and poor ROE (-4.8%)"
+      ],
+      "position_sizing": {
+        "recommended_action": "Avoid - Wait for stronger technical structure and trend confirmation",
+        "entry_timing": "Current squeeze setup suggests potential movement, but direction unclear given mixed signals",
+        "risk_management": "If trading, use tight stops below recent support with max 2% portfolio risk given 7.74% ATR"
+      },
+      "red_flags": [
+        "Significant bearish price history (-51.78% 63-day return)",
+        "Pending class action lawsuit mentioned in recent news",
+        "Negative earnings and poor profitability metrics"
+      ],
+      "notes": "Analysis confidence affected by 48.8% data completeness. Upcoming earnings in 30 days adds event risk. High liquidity ($202.8M daily value) provides clean execution capability if setup improves."
+    },
+    "tokens_used": 2990,
+    "cost": 0.0299,
+    "response_time": 10.179919004440308,
+    "success": true
+  },
+  "cost": 0.0299,
+  "processing_metadata": {
+    "data_completeness_score": 48.75,
+    "prompt_length": 10143,
+    "response_length": 1820
+  }
+}

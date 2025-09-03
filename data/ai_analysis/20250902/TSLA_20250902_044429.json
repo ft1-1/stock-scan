@@ -1,0 +1,583 @@
+{
+  "success": true,
+  "symbol": "TSLA",
+  "timestamp": "2025-09-02T04:44:29.329693",
+  "data_package": {
+    "metadata": {
+      "symbol": "TSLA",
+      "package_timestamp": "2025-09-02T04:44:19.672861",
+      "analysis_type": "options_screening_ai_rating",
+      "data_completeness_score": 48.75,
+      "meets_quality_threshold": false,
+      "package_version": "1.0"
+    },
+    "opportunity_analysis": {
+      "basic_info": {
+        "symbol": "TSLA",
+        "current_price": 333.87,
+        "overall_score": 49.536273875911675,
+        "confidence_level": "medium",
+        "strategy_type": "options_screening"
+      },
+      "technical_analysis": {
+        "sma_50": 323.7944,
+        "sma_200": 330.0418
+      },
+      "momentum_metrics": {
+        "momentum_21d": 8.304408473091778,
+        "momentum_63d": -3.6338971309819246,
+        "momentum_126d": 13.956584067171814,
+        "momentum_acceleration": 11.938305604073703,
+        "roc_21d": 8.304408473091778,
+        "trend_strength_20d": 0.4627737335288042,
+        "trend_direction": 1,
+        "ma_ribbon_score": 71.42619646021654,
+        "breakout_strength": 0.0,
+        "price_velocity": -0.0034466637029897827
+      },
+      "squeeze_detection": {
+        "is_squeeze": "False",
+        "squeeze_duration": 0.0,
+        "squeeze_momentum": 0.5465242527662222,
+        "volatility_compression": 52.65136034009381,
+        "is_consolidating": "False",
+        "breakout_score": 0.0,
+        "multi_timeframe_squeeze_count": 1
+      },
+      "quantitative_scores": {
+        "technical": 57.0,
+        "momentum": 66.0,
+        "squeeze": 12.89770405101407,
+        "quality": 39.06733065708866
+      },
+      "risk_assessment": {
+        "ranking": 1,
+        "percentile": 0.0
+      }
+    },
+    "selected_option_contract": {
+      "error": "No option data provided"
+    },
+    "enhanced_stock_data": {
+      "market_context": {
+        "timestamp": "2025-09-02T04:44:09.805738",
+        "market_status": "pre_market",
+        "market_trend": "neutral",
+        "volatility_index": {
+          "level": 16.12,
+          "change": 0.76,
+          "change_percent": 4.9479,
+          "interpretation": "normal_volatility",
+          "risk_level": "low"
+        },
+        "sp500": {
+          "price": 645.05,
+          "change": -3.87,
+          "change_percent": -0.5964,
+          "volume": 74522192,
+          "momentum": "bearish"
+        },
+        "dollar_strength": {
+          "level": 0,
+          "change": 0,
+          "change_percent": 0,
+          "trend": "weakening"
+        }
+      },
+      "recent_news": {
+        "articles": [
+          {
+            "date": "2025-09-01T20:10:19+00:00",
+            "title": "Tesla’s Europe Slump Deepens as BYD Surges",
+            "content": "Tesla’s European slump deepened in August as tougher competition and brand headwinds weighed on sales, with a few notable exceptions.\n\nRegistrations fell sharply across several key markets: France (-47.3% year over year while the overall market rose 2.2%), Sweden (-84% with EV sales flat and the market up 6%), Denmark (-42%), the Netherlands (-50%), and Italy (-4.4%). Norway bucked the trend—Tesla registrations rose 21.3%—but BYD surged 218% there. After seven consecutive monthly declines, Portugal saw a 28.7% Tesla uptick. In Spain, where EV subsidies can reach €7,000, Tesla deliveries jumped 161% to 1,435, yet BYD outpaced it with more than 400% growth to 1,827. Year to date in Spain, BYD sales are up 675% (14,181 units) versus Tesla’s 11.6% (9,303).\n\nSwitch Auto Insurance and Save Today!\n\nThe Insurance Savings You Expect  Learn More\n\nAffordable Auto Insurance, Customized for You  Learn More\n\nGreat Rates and Award-Winning Service  Learn More\n\nPowered by Money.com - Yahoo may earn commission from the links above.\n\nAnalysts point to a tougher landscape and an aging lineup. Tesla hasn’t launched a new mass-market model since the Model Y in 2020, while Chinese entrants and legacy automakers flood showrooms with fresh EVs. Schmidt Automotive notes Europe-wide market share for Tesla in Western Europe slid to 1.7% in H1 2025 from 2.5% in 2024, calling Elon Musk’s July claim of “no issues” on volumes out of step with reality. Tesla previously blamed a production shift to a refreshed Model Y, but August data still showed steep Model Y declines in Denmark (-46.5%) and Sweden (-87%).\n\nBrand perception is an added drag. Elon Musk’s polarizing politics—support for Donald Trump and European far-right parties—have sparked a consumer backlash. EV site Electrifying.com says over half of surveyed buyers are put off purchasing a Tesla because of Musk.\n\nAggressive 2023 price cuts have also depressed residual values, swelling the used market and undercutting new-car pricing power. U.K. tracker Marketcheck reported record used-Tesla sales in July (+270%) and a new low for average used Model Y prices.\n\nMeanwhile, supply dynamics favor rivals. BYD continues to scale rapidly across Europe, capitalizing on the breadth of its lineup and sharp pricing. With competition intensifying and secondhand values under pressure, Tesla’s path back to growth in Europe likely hinges on new product, steadier pricing, and rebuilding brand appeal.\n\nRead this article on OilPrice.com\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-09-01T16:48:54+00:00",
+            "title": "Koreans Dump $657M in Tesla--Crypto Mania Sparks Mass Exodus",
+            "content": "This article first appeared on GuruFocus.\n\nSouth Korea's retail crowdthe same cohort that once turbocharged Tesla's (NASDAQ:TSLA) meteoric risehas started bailing. In August alone, Korean individuals sold a net $657 million worth of Tesla shares, marking the biggest monthly exit since at least early 2019, based on Bloomberg's calculation of Korea Securities Depository data. Over the past four months, the total pullback has hit $1.8 billion. The message? Momentum is shifting. Traders who once clung to Tesla's EV and AI promises are chasing something spicier.\n\nIs TSLA fairly valued? Test your thesis with our free DCF calculator.\n\nThat something is crypto proxies. Bitmine Immersion Technologies, seen by some as a side-door play on Ether, pulled in $253 million in net inflows. Even the double-leveraged TSLL ETF (NASDAQ:TSLL), which gives twice the exposure to Tesla stock, suffered its worst month since early 2024, hemorrhaging $554 million. The shift isn't just about performanceit's about narrative. As one former Tesla bull who first bought in 2019 put it: Tesla used to inspire. Now it's failing to lead with its own AI story. He's rotated out entirely.\n\nYet even with the cooling interest, Tesla still holds the No. 1 spot among foreign stocks held by Korean retail investors, with $21.9 billion in exposure. Nvidia and Palantir trail far behind. But popularity isn't immunity. Retail appetite is fickle, and narratives matter. Right now, crypto is stealing Tesla's thunderand for a trader base hungry for adrenaline, that may be all it takes.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-09-01T15:40:02+00:00",
+            "title": "BLBD or TSLA: Which Is the Better Value Stock Right Now?",
+            "content": "Investors with an interest in Automotive - Domestic stocks have likely encountered both Blue Bird (BLBD) and Tesla (TSLA). But which of these two stocks presents investors with the better value opportunity right now? Let's take a closer look.\n\nEveryone has their own methods for finding great value opportunities, but our model includes pairing an impressive grade in the Value category of our Style Scores system with a strong Zacks Rank. The Zacks Rank is a proven strategy that targets companies with positive earnings estimate revision trends, while our Style Scores work to grade companies based on specific traits.\n\nRight now, Blue Bird is sporting a Zacks Rank of #1 (Strong Buy), while Tesla has a Zacks Rank of #4 (Sell). This system places an emphasis on companies that have seen positive earnings estimate revisions, so investors should feel comfortable knowing that BLBD is likely seeing its earnings outlook improve to a greater extent. But this is just one factor that value investors are interested in.\n\nValue investors also try to analyze a wide range of traditional figures and metrics to help determine whether a company is undervalued at its current share price levels.\n\nThe Style Score Value grade factors in a variety of key fundamental metrics, including the popular P/E ratio, P/S ratio, earnings yield, cash flow per share, and a number of other key stats that are commonly used by value investors.\n\nBLBD currently has a forward P/E ratio of 14.47, while TSLA has a forward P/E of 201.41. We also note that BLBD has a PEG ratio of 1.58. This metric is used similarly to the famous P/E ratio, but the PEG ratio also takes into account the stock's expected earnings growth rate. TSLA currently has a PEG ratio of 8.41.\n\nAnother notable valuation metric for BLBD is its P/B ratio of 8.31. Investors use the P/B ratio to look at a stock's market value versus its book value, which is defined as total assets minus total liabilities. By comparison, TSLA has a P/B of 13.8.\n\nThese metrics, and several others, help BLBD earn a Value grade of B, while TSLA has been given a Value grade of D.\n\nBLBD sticks out from TSLA in both our Zacks Rank and Style Scores models, so value investors will likely feel that BLBD is the better option right now.\n\nWant the latest recommendations from Zacks Investment Research? Today, you can download 7 Best Stocks for the Next 30 Days. Click to get this free report\n\nBlue Bird Corporation (BLBD) : Free Stock Analysis Report\n\nTesla, Inc. (TSLA) : Free Stock Analysis Report\n\nThis article originally published on Zacks Investment Research (zacks.com).\n\nZacks Investment Research\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-09-01T15:00:48+00:00",
+            "title": "Tesla's sales rout in some European markets continues for eighth month",
+            "content": "STORY: Tesla's sales woes in some European markets dragged on to an eighth month in August.\n\nThe electric vehicle giant was hit by competition from both Chinese rivals and traditional automakers.\n\nA backlash against CEO Elon Musk's support of far-right parties has also continued.\n\nCar registration numbers from France, Denmark and Sweden showed Tesla's revamped Model Y had little impact on stopping falling sales.\n\nData from France on Monday showed registrations of new Tesla cars fell over 47% in August against the same month last year.\n\nThat was despite the overall car market growing over 2%.\n\nTesla registrations fell more than 84% in Sweden, and dropped 42% in Denmark.\n\nNorway broke the trend with registrations up more than a fifth, but China's BYD saw its numbers fly up 218%.\n\nTesla has several problems in Europe.\n\nThe company has a small aging lineup, and hasn't released a new mass-market model since the Model Y five years ago.\n\nWhile new Chinese rivals and traditional automakers are flooding the market with fresh designs. Related Videos\n\n02:12\n\nOpenAI Plans Massive India Data Center\n\nBloomberg • 5 hours ago 02:24\n\nUS Appeals Court Rules Trump's Global Tariffs Illegal\n\nBloomberg • 2 days ago 05:34\n\nAlibaba Shares Soar on AI and E-Commerce\n\nBloomberg • 2 days ago 00:56\n\nAlligator Alcatraz in Florida Ordered to Shut Down\n\nBloomberg • 2 days ago\n\nThe EV giant's competitive problems have been further affected by Musk's politics.\n\nHe helped bankroll Donald Trump's U.S. presidential election win last year.\n\nAnd he's shown support for European far-right parties - which has led to a fierce consumer backlash.\n\nView Comments",
+            "url": null
+          },
+          {
+            "date": "2025-09-01T14:55:30+00:00",
+            "title": "Tesla and Alphabet's Waymo Chart Different Paths for Robotaxis",
+            "content": "This article first appeared on GuruFocus.\n\nTesla (TSLA, Financials) is moving forward with its plans for robotaxis at a far different pace than Alphabet's (GOOGL, Financials) Waymo. business experts think that the autonomous ride-hailing business might be worth trillions of dollars over the next ten years. These two techniques could help determine the early winners in this market.Tesla started a test program in Austin in June, and CEO Elon Musk has said that \"half the U.S. population\" would be able to use it by the end of the year. The business is putting its money on cameras and AI instead of comprehensive maps and more sensors. Musk has said that if the system works in a few places, it can easily spread throughout the country.Waymo has gone a different way. The Alphabet business has been experimenting since 2017 and currently offers paid trips with no drivers in certain regions, including Phoenix and San Francisco. It uses high-definition maps, a lot of sensor data, and years of slow rollouts to improve safety and responsiveness in the area.Analysts say the distinction is clear: Tesla's way is cheaper and quicker to scale, but it has more hazards. Waymo's way is slower but thought to be safer in the near term. According to Bank of America analysts, Waymo lost as much as $1.5 billion last year. Morningstar, on the other hand, says that Tesla won't have completely self-driving robotaxis until 2028.Both companies face regulatory hurdles and community pushback. Waymo's cars have had problems in Austin with interpreting traffic police and even drove into floods. Tesla has also come under fire when one of its cars rushed past a school zone near a college for the deaf.For investors, the race shows that Tesla is betting on self-driving cars to make up for falling EV sales, while Alphabet is supporting Waymo's slow growth even if the company is losing money.\n\nView Comments",
+            "url": null
+          }
+        ],
+        "articles_count": 5
+      },
+      "fundamental_analysis": {
+        "company_overview": {
+          "name": "Tesla Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Manufacturers",
+          "employees": 125665,
+          "description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive; and Energy Generation and Storage. The Automotive segment offers electric ve"
+        },
+        "financial_metrics": {
+          "eps_ttm": 1.67,
+          "profit_margin": 0.0634,
+          "operating_margin": 0.041,
+          "roe": 0.0818,
+          "roa": 0.0291,
+          "revenue_growth_yoy": -0.118,
+          "earnings_growth_yoy": -0.175,
+          "eps_estimate_current_year": 1.6902,
+          "eps_estimate_next_year": 2.3965,
+          "revenue_ttm": 92719996928,
+          "revenue_per_share": 28.862,
+          "most_recent_quarter": "2025-06-30"
+        },
+        "valuation": {
+          "pe_ratio": 199.9174,
+          "forward_pe": 178.5714,
+          "price_to_sales": 11.6141,
+          "price_to_book": 13.9287,
+          "enterprise_value": 1053232620570,
+          "ev_to_revenue": 11.3593,
+          "ev_to_ebitda": 77.7753
+        },
+        "technical_data": {
+          "beta": 2.331,
+          "52_week_high": 488.5399,
+          "52_week_low": 209.64,
+          "50_day_ma": 323.7944,
+          "200_day_ma": 330.0418,
+          "short_interest": 0.0273,
+          "short_ratio": 0.87
+        },
+        "dividend_data": {
+          "forward_dividend_rate": 0,
+          "forward_dividend_yield": 0,
+          "payout_ratio": 0,
+          "last_split_date": "2022-08-25",
+          "last_split_factor": "3:1"
+        },
+        "analyst_ratings": {
+          "avg_rating": 3.383,
+          "target_price": 306.3207,
+          "strong_buy": 14,
+          "buy": 7,
+          "hold": 16,
+          "sell": 3,
+          "strong_sell": 7
+        },
+        "institutional_data": {
+          "shares_outstanding": 3225449984,
+          "percent_institutions": 50.954,
+          "percent_insiders": 12.875,
+          "shares_float": 2711602626
+        },
+        "balance_latest_sheet": {
+          "total_assets": 128567.0,
+          "total_debt": 13134.0,
+          "cash_and_equivalents": 963.0,
+          "net_debt": -2453.0,
+          "working_capital": 31125.0,
+          "shareholders_equity": 77314.0,
+          "quarter_date": "2025-06-30",
+          "debt_to_equity": 0.17
+        },
+        "income_latest_statement": {
+          "total_revenue": 22496.0,
+          "gross_profit": 3878.0,
+          "operating_income": 923.0,
+          "net_income": 1172.0,
+          "ebitda": 3068.0,
+          "quarter_date": "2025-06-30",
+          "gross_margin": 17.24,
+          "operating_margin": 4.1,
+          "net_margin": 5.21
+        },
+        "cash_latest_flow": {
+          "operating_cash_flow": 2540.0,
+          "free_cash_flow": 146.0,
+          "capex": 2394.0,
+          "net_income": 1190.0,
+          "cash_change": -515.0,
+          "quarter_date": "2025-06-30"
+        }
+      },
+      "earnings_calendar": {
+        "upcoming_earnings": [
+          {
+            "date": "2025-09-30",
+            "estimate": 0.49,
+            "symbol": null
+          }
+        ],
+        "next_earnings_date": "2025-09-30"
+      },
+      "price_history": {
+        "daily_prices": [
+          {
+            "date": "2025-07-21",
+            "open": 334.4,
+            "high": 338,
+            "low": 326.88,
+            "close": 328.49,
+            "volume": 75768797
+          },
+          {
+            "date": "2025-07-22",
+            "open": 329.74,
+            "high": 335.4098,
+            "low": 321.55,
+            "close": 332.11,
+            "volume": 77370367
+          },
+          {
+            "date": "2025-07-23",
+            "open": 330.9,
+            "high": 336.2,
+            "low": 328.67,
+            "close": 332.56,
+            "volume": 92553758
+          },
+          {
+            "date": "2025-07-24",
+            "open": 310,
+            "high": 310.15,
+            "low": 300.41,
+            "close": 305.3,
+            "volume": 156966000
+          },
+          {
+            "date": "2025-07-25",
+            "open": 308.74,
+            "high": 323.63,
+            "low": 308.01,
+            "close": 316.06,
+            "volume": 148227016
+          },
+          {
+            "date": "2025-07-28",
+            "open": 318.45,
+            "high": 330.49,
+            "low": 315.69,
+            "close": 325.59,
+            "volume": 112673797
+          },
+          {
+            "date": "2025-07-29",
+            "open": 325.55,
+            "high": 326.25,
+            "low": 318.25,
+            "close": 321.2,
+            "volume": 87358867
+          },
+          {
+            "date": "2025-07-30",
+            "open": 322.18,
+            "high": 324.4499,
+            "low": 311.6164,
+            "close": 319.04,
+            "volume": 83931938
+          },
+          {
+            "date": "2025-07-31",
+            "open": 319.605,
+            "high": 321.37,
+            "low": 306.1,
+            "close": 308.27,
+            "volume": 85270922
+          },
+          {
+            "date": "2025-08-01",
+            "open": 306.205,
+            "high": 309.31,
+            "low": 297.82,
+            "close": 302.63,
+            "volume": 89121445
+          },
+          {
+            "date": "2025-08-04",
+            "open": 309.08,
+            "high": 312.1186,
+            "low": 303.0001,
+            "close": 309.26,
+            "volume": 78683914
+          },
+          {
+            "date": "2025-08-05",
+            "open": 308.95,
+            "high": 312.4499,
+            "low": 305.5,
+            "close": 308.72,
+            "volume": 57961281
+          },
+          {
+            "date": "2025-08-06",
+            "open": 307.89,
+            "high": 320.47,
+            "low": 306.9345,
+            "close": 319.91,
+            "volume": 78523586
+          },
+          {
+            "date": "2025-08-07",
+            "open": 319.79,
+            "high": 322.4,
+            "low": 316.16,
+            "close": 322.27,
+            "volume": 66658672
+          },
+          {
+            "date": "2025-08-08",
+            "open": 321.43,
+            "high": 335.15,
+            "low": 320.98,
+            "close": 329.65,
+            "volume": 91200320
+          },
+          {
+            "date": "2025-08-11",
+            "open": 335,
+            "high": 346.64,
+            "low": 334.15,
+            "close": 339.03,
+            "volume": 105320203
+          },
+          {
+            "date": "2025-08-12",
+            "open": 345,
+            "high": 345.26,
+            "low": 332.94,
+            "close": 340.84,
+            "volume": 80690109
+          },
+          {
+            "date": "2025-08-13",
+            "open": 341.5,
+            "high": 348.98,
+            "low": 338.2,
+            "close": 339.38,
+            "volume": 67838891
+          },
+          {
+            "date": "2025-08-14",
+            "open": 335.76,
+            "high": 340.4699,
+            "low": 330.4,
+            "close": 335.58,
+            "volume": 75000656
+          },
+          {
+            "date": "2025-08-15",
+            "open": 337.655,
+            "high": 339.3,
+            "low": 327.02,
+            "close": 330.56,
+            "volume": 74319789
+          },
+          {
+            "date": "2025-08-18",
+            "open": 329.62,
+            "high": 336.27,
+            "low": 329.59,
+            "close": 335.16,
+            "volume": 56956551
+          },
+          {
+            "date": "2025-08-19",
+            "open": 335.79,
+            "high": 340.55,
+            "low": 327.85,
+            "close": 329.31,
+            "volume": 75956000
+          },
+          {
+            "date": "2025-08-20",
+            "open": 329.22,
+            "high": 331.37,
+            "low": 314.6,
+            "close": 323.9,
+            "volume": 77481766
+          },
+          {
+            "date": "2025-08-21",
+            "open": 322.08,
+            "high": 324.9,
+            "low": 318.68,
+            "close": 320.11,
+            "volume": 55744449
+          },
+          {
+            "date": "2025-08-22",
+            "open": 321.66,
+            "high": 340.25,
+            "low": 319.69,
+            "close": 340.01,
+            "volume": 94016352
+          },
+          {
+            "date": "2025-08-25",
+            "open": 338.9,
+            "high": 349.53,
+            "low": 335.03,
+            "close": 346.6,
+            "volume": 86670039
+          },
+          {
+            "date": "2025-08-26",
+            "open": 344.93,
+            "high": 351.9,
+            "low": 343.72,
+            "close": 351.67,
+            "volume": 76651555
+          },
+          {
+            "date": "2025-08-27",
+            "open": 351.94,
+            "high": 355.39,
+            "low": 349.156,
+            "close": 349.6,
+            "volume": 65519008
+          },
+          {
+            "date": "2025-08-28",
+            "open": 350.91,
+            "high": 353.55,
+            "low": 340.26,
+            "close": 345.98,
+            "volume": 67903219
+          },
+          {
+            "date": "2025-08-29",
+            "open": 347.23,
+            "high": 348.7499,
+            "low": 331.7,
+            "close": 333.87,
+            "volume": 81145660
+          }
+        ],
+        "data_points": 30,
+        "date_range": {
+          "start": "2025-07-21",
+          "end": "2025-08-29"
+        }
+      },
+      "trend_momentum_analysis": {
+        "return_21d": 10.322836466972875,
+        "return_63d": -2.5737547054188896,
+        "pct_above_sma50": 3.1117276889285326,
+        "sma_50": 323.7944,
+        "new_55d_high": "False",
+        "high_55d": 357.54,
+        "rsi": 46.81874229346488,
+        "rsi_in_range": "False",
+        "adx": 25.722875520731456,
+        "adx_above_20": "True",
+        "trend_quality_score": 0.5
+      },
+      "squeeze_breakout_analysis": {
+        "atr_pct": 3.519450684398119,
+        "bb_width": 14.841285331344627,
+        "keltner_width": 14.148098351244887,
+        "weekly_breakout": "False",
+        "above_55d_high": "False",
+        "in_squeeze": "False"
+      },
+      "liquidity_risk_analysis": {
+        "adv_dollars": 25179611285.620502,
+        "adv_shares": 75712101.0,
+        "liquidity_tier": "very_high",
+        "news_count_10d": 0,
+        "news_activity": "very_low"
+      },
+      "local_rating_analysis": {
+        "pre_score": 48.87938202490765,
+        "final_score": 48.87938202490765,
+        "sub_scores": {
+          "trend_momentum": 13.379382024907649,
+          "squeeze_breakout": 4.0,
+          "fundamentals": 12.5,
+          "market_quality": 19
+        },
+        "key_features": {
+          "ret_21d": 8.304408473091772,
+          "ret_63d": -3.6338971309819224,
+          "rsi14": 46.81874229346488,
+          "adx14": 24.2978352018881,
+          "days_to_earnings": 30
+        }
+      }
+    },
+    "data_quality": {
+      "fundamental_score": 100.0,
+      "technical_score": 20.0,
+      "options_score": 0.0,
+      "calendar_score": 100.0,
+      "news_score": 50.0,
+      "overall_score": 48.75,
+      "missing_fields": [
+        "option_data"
+      ]
+    }
+  },
+  "claude_submission": {
+    "prompt": "You are an expert quantitative stock analyst specializing in systematic stock screening and momentum-squeeze strategy evaluation. Your role is to analyze stock purchase opportunities using a data-driven approach that combines technical analysis, fundamental research, volatility assessment, and risk management principles.\n\nYour analysis should be objective, systematic, and focused on the specific stock purchase opportunity presented. Evaluate stocks for their momentum potential, technical strength, volatility patterns, and overall quality. Base all conclusions strictly on the provided data, and maintain consistency in your scoring methodology across different opportunities.\n## SCORING FRAMEWORK (0-100 TOTAL POINTS)\n\n**1. TREND & MOMENTUM ANALYSIS (35 points)**\n   • Price Trend Strength (15 points):\n     - Strong uptrend with momentum: 13-15 points\n     - Moderate uptrend: 10-12 points  \n     - Sideways/weak trend: 5-9 points\n     - Downtrend: 0-4 points\n   \n   • Momentum Acceleration (10 points):\n     - Strong accelerating momentum: 8-10 points\n     - Steady momentum: 6-7 points\n     - Weak/declining momentum: 3-5 points\n     - Negative momentum: 0-2 points\n   \n   • Relative Strength (10 points):\n     - Significantly outperforming market/sector: 8-10 points\n     - Moderate outperformance: 6-7 points\n     - In-line performance: 4-5 points\n     - Underperforming: 0-3 points\n\n**2. TECHNICAL QUALITY ASSESSMENT (35 points)**\n   • Chart Pattern & Support/Resistance (15 points):\n     - Strong bullish patterns, clean breakouts: 13-15 points\n     - Moderate technical setup: 10-12 points\n     - Neutral/consolidating patterns: 5-9 points\n     - Bearish patterns, weak support: 0-4 points\n   \n   • Volume & Liquidity Quality (10 points):\n     - High volume confirmation, excellent liquidity: 8-10 points\n     - Good volume, adequate liquidity: 6-7 points\n     - Moderate volume/liquidity: 3-5 points\n     - Low volume, poor liquidity: 0-2 points\n     \n   • Risk/Reward Profile (10 points):\n     - Excellent risk/reward setup (>3:1): 8-10 points\n     - Good risk/reward (2-3:1): 6-7 points\n     - Adequate risk/reward (1.5-2:1): 3-5 points\n     - Poor risk/reward (<1.5:1): 0-2 points\n\n**3. SQUEEZE/VOLATILITY DYNAMICS (20 points)**\n   • Volatility Compression Assessment (10 points):\n     - Strong squeeze with expansion potential: 8-10 points\n     - Moderate compression: 6-7 points\n     - Normal volatility: 3-5 points\n     - High/unstable volatility: 0-2 points\n   \n   • Breakout Probability (10 points):\n     - High probability directional move: 8-10 points\n     - Moderate breakout potential: 5-7 points\n     - Low breakout probability: 2-4 points\n     - No clear directional bias: 0-1 points\n\n**4. FUNDAMENTALS & QUALITY (10 points)**\n   • Financial Health & Position Sizing (5 points):\n     - Strong balance sheet, manageable risk metrics: 4-5 points\n     - Adequate financial health: 3 points\n     - Weak but acceptable: 1-2 points\n     - Poor financial condition: 0 points\n   \n   • Event Risk & News Sentiment (5 points):\n     - Positive news, no near-term events: 4-5 points\n     - Neutral conditions: 2-3 points\n     - Negative sentiment or event risk: 0-1 points\n\n**TOTAL POSSIBLE: 100 POINTS**\n\n## KEY FOCUS AREAS FOR STOCK ANALYSIS:\n- **Position Sizing**: Evaluate ATR-based stop losses and position sizing recommendations\n- **Risk Management**: Assess Value-at-Risk (VaR) and volatility metrics for trade sizing\n- **Entry Timing**: Analyze squeeze patterns and momentum for optimal entry points\n- **Exit Strategy**: Consider technical levels and risk/reward for profit targets\n\n## OPPORTUNITY ANALYSIS DATA\n\n**OPPORTUNITY OVERVIEW**\n• Symbol: TSLA\n• Current Price: $333.87\n• Overall Score: 49.536273875911675\n• Strategy Type: options_screening\n\n**TECHNICAL INDICATORS**\n• Sma 50: 323.7944\n• Sma 200: 330.0418\n\n**MOMENTUM ANALYSIS**\n• Momentum 21D: 8.304408473091778\n• Momentum 63D: -3.6338971309819246\n• Momentum 126D: 13.956584067171814\n• Momentum Acceleration: 11.938305604073703\n• Roc 21D: 8.304408473091778\n• Trend Strength 20D: 0.4627737335288042\n• Trend Direction: 1\n• Ma Ribbon Score: 71.42619646021654\n• Breakout Strength: 0.0\n• Price Velocity: -0.0034466637029897827\n\n**VOLATILITY SQUEEZE ANALYSIS**\n• Is Squeeze: False\n• Squeeze Duration: 0.0\n• Squeeze Momentum: 0.5465242527662222\n• Volatility Compression: 52.65136034009381\n• Is Consolidating: False\n• Breakout Score: 0.0\n• Multi Timeframe Squeeze Count: 1\n\n**QUANTITATIVE SCORING**\n• Technical: 57.0\n• Momentum: 66.0\n• Squeeze: 12.89770405101407\n• Quality: 39.06733065708866\n\n## RISK ASSESSMENT & POSITION SIZING\nNo risk metrics data provided.\n\n\n## COMPREHENSIVE MARKET ANALYSIS\n\n**MARKET CONTEXT**\n• Market Status: pre_market\n• Market Trend: neutral\n• VIX Level: 16.12 (Risk: low)\n• S&P500: $645.05 (-0.60%)\n• Market Momentum: bearish\n\n**COMPREHENSIVE FUNDAMENTAL ANALYSIS**\n• Company: Tesla Inc\n• Sector: Consumer Cyclical | Industry: Auto Manufacturers\n• Employees: 125,665\n• **Key Financials:**\n  - EPS (TTM): $1.67\n  - Profit Margin: 6.3%\n  - Operating Margin: 4.1%\n  - ROE: 8.2%\n  - Revenue Growth (YoY): -11.8%\n  - Earnings Growth (YoY): -17.5%\n• **Valuation:**\n  - P/E Ratio: 199.9\n  - Forward P/E: 178.6\n  - P/S Ratio: 11.6\n  - P/B Ratio: 13.9\n• Beta: 2.33\n• 52-Week Range: $209.64 - $488.54\n• Analyst Rating: 3.4 | Target: $306.32\n  - Coverage: 47 analysts\n• Debt-to-Equity: 0.17\n• Cash: $963M\n\n**RECENT NEWS ANALYSIS (5 articles)**\n• **2025-09-01**: Tesla’s Europe Slump Deepens as BYD Surges\n  Summary: Tesla’s European slump deepened in August as tougher competition and brand headwinds weighed on sales, with a few notable exceptions.\n\nRegistrations fell sharply across several key markets: France (-4...\n\n• **2025-09-01**: Koreans Dump $657M in Tesla--Crypto Mania Sparks Mass Exodus\n  Summary: This article first appeared on GuruFocus.\n\nSouth Korea's retail crowdthe same cohort that once turbocharged Tesla's (NASDAQ:TSLA) meteoric risehas started bailing. In August alone, Korean individuals ...\n\n• **2025-09-01**: BLBD or TSLA: Which Is the Better Value Stock Right Now?\n  Summary: Investors with an interest in Automotive - Domestic stocks have likely encountered both Blue Bird (BLBD) and Tesla (TSLA). But which of these two stocks presents investors with the better value opport...\n\n\n**EARNINGS CALENDAR**\n• Next Earnings: 2025-09-30\n\n**PRICE HISTORY ANALYSIS**\n• **Recent Price Action (Last 5 days):**\n  - 2025-08-25: $346.60 (+2.3%) Vol: 86,670,039\n  - 2025-08-26: $351.67 (+2.0%) Vol: 76,651,555\n  - 2025-08-27: $349.60 (-0.7%) Vol: 65,519,008\n  - 2025-08-28: $345.98 (-1.4%) Vol: 67,903,219\n  - 2025-08-29: $333.87 (-3.8%) Vol: 81,145,660\n\n**TREND & MOMENTUM DETAILS**\n• 21-Day Return: 10.32%\n• 63-Day Return: -2.57%\n• RSI(14): 46.8\n• ADX: 25.7\n• Trend Quality Score: 0.50\n\n**SQUEEZE & BREAKOUT ANALYSIS**\n• ATR Percentage: 3.52%\n• In Squeeze: False\n• Bollinger Band Width: 14.84\n• Keltner Channel Width: 14.15\n\n**LIQUIDITY & RISK ANALYSIS**\n• Avg Daily Value: $25,179,611,286\n• Liquidity Tier: very_high\n• News Activity: very_low\n\n**LOCAL QUANTITATIVE RATING**\n• Local Score: 48.9\n• **Component Breakdown:**\n  - Trend Momentum: 13.4\n  - Squeeze Breakout: 4.0\n  - Fundamentals: 12.5\n  - Market Quality: 19.0\n• **Key Technical Features:**\n  - ret_21d: 8.30%\n  - ret_63d: -3.63%\n  - rsi14: 46.81874229346488\n  - adx14: 24.2978352018881\n  - days_to_earnings: 30\n\n## SPECIAL ANALYSIS CONTEXT\nNote: Data completeness is 48.8%. Some analysis components may have limited data. Please adjust confidence levels accordingly and note any data gaps in your analysis.\n\n## REQUIRED RESPONSE FORMAT\n\nYou MUST respond with ONLY a valid JSON object in exactly this format:\n\n```json\n{\n    \"symbol\": \"TICKER\",\n    \"rating\": 85,\n    \"component_scores\": {\n        \"trend_momentum\": 28,\n        \"technical_quality\": 25,\n        \"squeeze_volatility\": 15,\n        \"fundamentals_quality\": 7\n    },\n    \"confidence\": \"high\",\n    \"thesis\": \"2-3 sentence overall investment thesis based on the data\",\n    \"opportunities\": [\n        \"Specific positive factor 1\",\n        \"Specific positive factor 2\",\n        \"Specific positive factor 3\"\n    ],\n    \"risks\": [\n        \"Specific risk factor 1\", \n        \"Specific risk factor 2\",\n        \"Specific risk factor 3\"\n    ],\n    \"position_sizing\": {\n        \"recommended_action\": \"Buy/Hold/Avoid with specific reasoning\",\n        \"entry_timing\": \"Assessment of optimal entry timing\",\n        \"risk_management\": \"Stop-loss levels and position sizing guidance\"\n    },\n    \"red_flags\": [\n        \"Critical warning if any (leave empty array if none)\"\n    ],\n    \"notes\": \"Any additional important context or caveats\"\n}\n```\n\nCRITICAL REQUIREMENTS:\n• Respond with ONLY the JSON object - no additional text\n• All component scores must sum to your overall rating\n• Base ALL analysis strictly on the provided data\n• Use specific data points to justify scores\n• Confidence levels: \"low\", \"medium\", \"high\"\n\n## ANALYSIS INSTRUCTIONS FOR TSLA\n\n1. **Systematic Scoring**: Evaluate each component (trend/momentum, technical quality, squeeze/volatility, fundamentals/quality) independently using the point allocations above.\n\n2. **Data-Driven Decisions**: Base all scores on specific quantitative metrics provided in the data. Reference actual numbers from the comprehensive dataset.\n\n3. **Consistency**: Apply the same scoring standards regardless of the stock. A score of 85 should represent the same quality level across all analyses.\n\n4. **Risk Focus**: Pay special attention to red flags that could invalidate the opportunity (poor fundamentals, negative news sentiment, high volatility, earnings risk).\n\n5. **Stock Purchase Strategy**: Consider momentum patterns, squeeze setups, risk/reward ratios, and position sizing for stock purchase decisions.\n\n6. **Enhanced Data Utilization**: Leverage all available data including market context, news sentiment, detailed financials, price history, and technical analysis.\n\nAnalyze the TSLA opportunity now using this framework and respond with the required JSON format.",
+    "model": "claude-3-5-sonnet",
+    "timestamp": "2025-09-02T04:44:29.329049",
+    "estimated_tokens": 2697
+  },
+  "claude_response": {
+    "raw_response": "{\n    \"symbol\": \"TSLA\",\n    \"rating\": 49,\n    \"component_scores\": {\n        \"trend_momentum\": 18,\n        \"technical_quality\": 15,\n        \"squeeze_volatility\": 8,\n        \"fundamentals_quality\": 8\n    },\n    \"confidence\": \"medium\",\n    \"thesis\": \"TSLA shows mixed signals with moderate momentum (21D return +8.3%) but concerning technical weakness (price below 200SMA, recent -3.8% drop). Fundamentals reveal high valuation concerns (P/E 199.9) and declining revenue growth (-11.8% YoY), while European market share faces increasing competition.\",\n    \"opportunities\": [\n        \"Strong 21-day momentum at +8.30% with positive momentum acceleration\",\n        \"Healthy balance sheet with low debt-to-equity ratio of 0.17\",\n        \"Very high trading liquidity ($25.2B daily value)\"\n    ],\n    \"risks\": [\n        \"Price trading below 200 SMA (330.04) with bearish short-term momentum\",\n        \"Significant valuation concerns with P/E ratio of 199.9\",\n        \"Declining revenue growth (-11.8% YoY) and earnings growth (-17.5% YoY)\"\n    ],\n    \"position_sizing\": {\n        \"recommended_action\": \"Avoid - Multiple technical and fundamental headwinds suggest waiting for better entry\",\n        \"entry_timing\": \"Current setup shows weakness with price below key moving averages and declining volume\",\n        \"risk_management\": \"If entering, use ATR-based stop loss at 3.52% below entry with reduced position size due to high beta (2.33)\"\n    },\n    \"red_flags\": [\n        \"Significant revenue and earnings decline YoY\",\n        \"Extreme valuation metrics relative to growth\",\n        \"Recent negative news regarding European market share loss\"\n    ],\n    \"notes\": \"Upcoming earnings in 30 days adds event risk. Analysis confidence moderated by incomplete data (48.8% completeness) and high market volatility.\"\n}",
+    "parsed_analysis": {
+      "symbol": "TSLA",
+      "rating": 49,
+      "component_scores": {
+        "trend_momentum": 18,
+        "technical_quality": 15,
+        "squeeze_volatility": 8,
+        "fundamentals_quality": 8
+      },
+      "confidence": "medium",
+      "thesis": "TSLA shows mixed signals with moderate momentum (21D return +8.3%) but concerning technical weakness (price below 200SMA, recent -3.8% drop). Fundamentals reveal high valuation concerns (P/E 199.9) and declining revenue growth (-11.8% YoY), while European market share faces increasing competition.",
+      "opportunities": [
+        "Strong 21-day momentum at +8.30% with positive momentum acceleration",
+        "Healthy balance sheet with low debt-to-equity ratio of 0.17",
+        "Very high trading liquidity ($25.2B daily value)"
+      ],
+      "risks": [
+        "Price trading below 200 SMA (330.04) with bearish short-term momentum",
+        "Significant valuation concerns with P/E ratio of 199.9",
+        "Declining revenue growth (-11.8% YoY) and earnings growth (-17.5% YoY)"
+      ],
+      "position_sizing": {
+        "recommended_action": "Avoid - Multiple technical and fundamental headwinds suggest waiting for better entry",
+        "entry_timing": "Current setup shows weakness with price below key moving averages and declining volume",
+        "risk_management": "If entering, use ATR-based stop loss at 3.52% below entry with reduced position size due to high beta (2.33)"
+      },
+      "red_flags": [
+        "Significant revenue and earnings decline YoY",
+        "Extreme valuation metrics relative to growth",
+        "Recent negative news regarding European market share loss"
+      ],
+      "notes": "Upcoming earnings in 30 days adds event risk. Analysis confidence moderated by incomplete data (48.8% completeness) and high market volatility."
+    },
+    "tokens_used": 2961,
+    "cost": 0.02961,
+    "response_time": 9.653587102890015,
+    "success": true
+  },
+  "cost": 0.02961,
+  "processing_metadata": {
+    "data_completeness_score": 48.75,
+    "prompt_length": 10037,
+    "response_length": 1808
+  }
+}

@@ -59,11 +59,11 @@ class LocalRatingSystem:
         self.min_earnings_days = settings.rating_min_earnings_days
         self.max_data_missing_pct = settings.rating_max_data_missing_pct
         
-        # Options requirements from settings
-        self.min_dte = settings.rating_min_dte
-        self.max_dte = settings.rating_max_dte
-        self.min_oi = settings.rating_min_oi
-        self.max_spread_pct = settings.rating_max_spread_pct
+        # Stock quality requirements from settings (replaces options requirements)
+        self.max_bid_ask_spread_pct = settings.max_bid_ask_spread_pct
+        self.max_acceptable_volatility = settings.max_acceptable_volatility
+        self.min_avg_daily_dollar_volume = settings.min_avg_daily_dollar_volume
+        self.max_short_interest_pct = settings.max_short_interest_pct
         
     def check_eligibility(
         self,
@@ -142,33 +142,9 @@ class LocalRatingSystem:
         )
     
     def _find_valid_options(self, options_chain: List[Dict]) -> List[Dict]:
-        """Find options meeting basic criteria."""
-        valid = []
-        for opt in options_chain:
-            if opt.get('option_type') != 'call':
-                continue
-            
-            dte = opt.get('days_to_expiration', 0)
-            if not (self.min_dte <= dte <= self.max_dte):
-                continue
-            
-            oi = int(opt.get('open_interest') or 0)
-            if oi < self.min_oi:
-                continue
-            
-            bid = float(opt.get('bid', 0))
-            ask = float(opt.get('ask', 0))
-            if bid > 0 and ask > 0:
-                mid = (bid + ask) / 2
-                spread_pct = ((ask - bid) / mid) * 100
-                if spread_pct > self.max_spread_pct:
-                    continue
-            else:
-                continue
-            
-            valid.append(opt)
-        
-        return valid
+        """Find options meeting basic criteria - DEPRECATED for stock-only workflow."""
+        # Return empty list since we're not filtering based on options anymore
+        return []
     
     def compute_features(
         self,

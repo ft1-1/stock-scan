@@ -278,11 +278,12 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
             
             # Update score breakdown with local rating sub-scores (stock-focused)
             if rating_result.sub_scores:
+                # Map LocalRatingSystem components to expected component names
                 analysis_result['score_breakdown'] = {
-                    'trend_momentum': rating_result.sub_scores.get('trend_momentum', 0),
-                    'squeeze_breakout': rating_result.sub_scores.get('squeeze_breakout', 0),
-                    'fundamentals': rating_result.sub_scores.get('fundamentals', 0),
-                    'market_quality': rating_result.sub_scores.get('market_quality', 0)
+                    'technical': rating_result.sub_scores.get('trend_momentum', 0),
+                    'momentum': rating_result.sub_scores.get('trend_momentum', 0),  # Use same as technical for now
+                    'squeeze': rating_result.sub_scores.get('squeeze_breakout', 0),
+                    'quality': rating_result.sub_scores.get('fundamentals', 0) + rating_result.sub_scores.get('market_quality', 0)
                 }
             
             # Options analysis removed - focusing on stock metrics only
@@ -383,9 +384,7 @@ class TechnicalAnalysisExecutor(WorkflowStepExecutor):
             try:
                 scoring_result = self.quantitative_scorer.calculate_comprehensive_score(
                     ohlcv_data=ohlcv_df,
-                    options_chain=None,  # No options for stock-only workflow
-                    current_stock_price=current_price,
-                    iv_percentile=None   # No IV analysis needed
+                    current_stock_price=current_price
                 )
                 
                 # Extract scores (stock-focused components only)

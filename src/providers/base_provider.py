@@ -143,7 +143,7 @@ class BaseProvider(ABC):
         self.provider_type = ProviderType(config.get("type", "unknown"))
         self.rate_limiter = RateLimiter(config.get("requests_per_minute", 60))
         self.circuit_breaker = CircuitBreaker(
-            failure_threshold=config.get("failure_threshold", 5),
+            failure_threshold=config.get("failure_threshold", 50),  # Increase threshold to be more tolerant
             recovery_timeout=config.get("recovery_timeout", 300)
         )
         self.session: Optional[aiohttp.ClientSession] = None

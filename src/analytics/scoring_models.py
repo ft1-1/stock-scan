@@ -14,9 +14,9 @@ import warnings
 from .technical_indicators import TechnicalIndicators
 from .momentum_analysis import MomentumAnalysis, PercentileCalculator
 from .squeeze_detector import SqueezeDetector, VolatilityRegimeDetector
-from .options_selector import OptionsSelector
-from .greeks_calculator import GreeksCalculator
-from src.models.base_models import OptionContract, OptionType
+# from .options_selector import OptionsSelector  # Not used in stock-focused workflow
+# from .greeks_calculator import GreeksCalculator  # Not used in stock-focused workflow
+# from src.models.base_models import OptionContract, OptionType  # Not used in stock-focused workflow
 
 # Suppress warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -27,8 +27,8 @@ class QuantitativeScorer:
     
     def __init__(self):
         """Initialize scorer with sub-components."""
-        self.options_selector = OptionsSelector()
-        self.greeks_calculator = GreeksCalculator()
+        # self.options_selector = OptionsSelector()  # Not used in stock-focused workflow
+        # self.greeks_calculator = GreeksCalculator()  # Not used in stock-focused workflow
         
         # Scoring weights (must sum to 100) - Stock-focused weights
         self.weights = {
@@ -308,63 +308,8 @@ class QuantitativeScorer:
             'components': components
         }
     
-    def calculate_options_score(self, best_calls: List[Dict], best_puts: List[Dict],
-                              iv_percentile: float = None) -> Dict[str, float]:
-        """Calculate options opportunity score (0-100).
-        
-        Args:
-            best_calls: List of best call options
-            best_puts: List of best put options
-            iv_percentile: IV percentile for additional scoring
-            
-        Returns:
-            Dictionary with options score and components
-        """
-        score = 0.0
-        components = {}
-        
-        # Call options availability and quality (50 points)
-        if best_calls:
-            best_call_score = best_calls[0]['scoring']['total_score']
-            # Scale from 100-point system to 50 points
-            call_score = (best_call_score / 100) * 50
-        else:
-            call_score = 0
-        
-        components['call_options'] = call_score
-        score += call_score
-        
-        # Put options availability and quality (30 points)
-        if best_puts:
-            best_put_score = best_puts[0]['scoring']['total_score']
-            # Scale from 100-point system to 30 points
-            put_score = (best_put_score / 100) * 30
-        else:
-            put_score = 0
-        
-        components['put_options'] = put_score
-        score += put_score
-        
-        # IV percentile consideration (20 points)
-        if iv_percentile is not None and not np.isnan(iv_percentile):
-            if iv_percentile < 30:  # Low IV - good for buying
-                iv_score = 20
-            elif iv_percentile < 50:  # Moderate IV
-                iv_score = 15
-            elif iv_percentile < 70:  # High IV
-                iv_score = 10
-            else:  # Very high IV
-                iv_score = 5
-        else:
-            iv_score = 10  # Neutral
-        
-        components['iv_percentile'] = iv_score
-        score += iv_score
-        
-        return {
-            'options_score': min(100, score),
-            'components': components
-        }
+    # Options scoring removed - not used in stock-focused workflow
+    # def calculate_options_score(...) - REMOVED
     
     def calculate_quality_score(self, data_quality: Dict[str, Any]) -> Dict[str, float]:
         """Calculate data quality and filter score (0-100).
@@ -429,18 +374,14 @@ class QuantitativeScorer:
         }
     
     def calculate_comprehensive_score(self, ohlcv_data: pd.DataFrame,
-                                    options_chain: Optional[List[OptionContract]] = None,
                                     benchmark_data: Optional[pd.DataFrame] = None,
-                                    current_stock_price: Optional[float] = None,
-                                    iv_percentile: Optional[float] = None) -> Dict[str, Any]:
+                                    current_stock_price: Optional[float] = None) -> Dict[str, Any]:
         """Calculate comprehensive quantitative score.
         
         Args:
             ohlcv_data: OHLCV DataFrame
-            options_chain: Optional list of option contracts
             benchmark_data: Optional benchmark data for relative strength
             current_stock_price: Current stock price
-            iv_percentile: IV percentile
             
         Returns:
             Dictionary with comprehensive scoring results
@@ -495,7 +436,7 @@ class QuantitativeScorer:
             # Calculate data quality score
             try:
                 quality_metrics = self._assess_data_quality(
-                    ohlcv_data, options_chain, technical_indicators)
+                    ohlcv_data, technical_indicators)
                 quality_score = self.calculate_quality_score(quality_metrics)
                 results['component_scores']['quality'] = quality_score
                 results['data_quality'] = quality_metrics
@@ -534,7 +475,6 @@ class QuantitativeScorer:
             }
     
     def _assess_data_quality(self, ohlcv_data: pd.DataFrame,
-                           options_chain: Optional[List[OptionContract]],
                            technical_indicators: Dict[str, float]) -> Dict[str, Any]:
         """Assess data quality metrics."""
         quality = {}

@@ -587,15 +587,18 @@ class MailgunClient:
             notes = ai_analysis.get('notes', '')
             confidence = ai_analysis.get('confidence', 'medium')
             
-            # Format option details
-            best_call = opp.get('best_call', {})
-            option_str = "N/A"
-            if best_call:
-                option_str = f"Strike: ${best_call.get('strike', 'N/A')} | Bid: ${best_call.get('bid', 0):.2f} | Ask: ${best_call.get('ask', 0):.2f}"
-                if best_call.get('delta'):
-                    option_str += f" | Delta: {best_call.get('delta'):.3f}"
-                if best_call.get('expiration'):
-                    option_str += f" | Exp: {best_call.get('expiration')}"
+            # Format risk and position sizing details
+            risk_metrics = opp.get('enhanced_data', {}).get('risk_metrics', {})
+            position_sizing = opp.get('enhanced_data', {}).get('position_sizing', {})
+            risk_str = "N/A"
+            if risk_metrics:
+                current_price = risk_metrics.get('current_price', 0)
+                atr_pct = risk_metrics.get('atr_percent', 0)
+                stop_loss = risk_metrics.get('suggested_stop_loss', 0)
+                risk_str = f"Price: ${current_price:.2f} | ATR: {atr_pct:.2%} | Stop: ${stop_loss:.2f}"
+                if position_sizing and 'position_size_shares' in position_sizing:
+                    shares = position_sizing.get('position_size_shares', 0)
+                    risk_str += f" | Size: {shares} shares"
             
             html += f"""
                     <div class="opportunity-card">
@@ -642,22 +645,22 @@ class MailgunClient:
                             </div>
                             
                             <div class="option-recommendation">
-                                <div class="option-title">Option Contract Details</div>
+                                <div class="option-title">Position Sizing & Risk Management</div>
                                 <div class="option-section">
-                                    <span class="option-label">Selected Option:</span>
-                                    <span class="option-value">{option_str}</span>
+                                    <span class="option-label">Risk Profile:</span>
+                                    <span class="option-value">{risk_str}</span>
                                 </div>
                                 <div class="option-section">
-                                    <span class="option-label">Recommendation:</span>
-                                    <span class="option-value">{option_contract.get('recommendation', 'N/A')}</span>
+                                    <span class="option-label">Entry Strategy:</span>
+                                    <span class="option-value">{ai_analysis.get('entry_strategy', 'Momentum breakout entry')}</span>
                                 </div>
                                 <div class="option-section">
-                                    <span class="option-label">Entry Timing:</span>
-                                    <span class="option-value">{option_contract.get('entry_timing', 'N/A')}</span>
+                                    <span class="option-label">Risk Level:</span>
+                                    <span class="option-value">{"High" if risk_metrics.get('atr_percent', 0) > 0.04 else "Moderate" if risk_metrics.get('atr_percent', 0) > 0.02 else "Low"} Volatility</span>
                                 </div>
                                 <div class="option-section">
-                                    <span class="option-label">Risk Management:</span>
-                                    <span class="option-value">{option_contract.get('risk_management', 'N/A')}</span>
+                                    <span class="option-label">Stop Loss:</span>
+                                    <span class="option-value">${risk_metrics.get('suggested_stop_loss', 0):.2f} ({risk_metrics.get('stop_loss_risk_percent', 0):.1%} risk)</span>
                                 </div>
                             </div>
             """
@@ -745,8 +748,14 @@ TOP {min(len(opportunities), 10)} RANKED OPPORTUNITIES:
             red_flags = ai_analysis.get('red_flags', [])
             confidence = ai_analysis.get('confidence', 'medium')
             
-            best_call = opp.get('best_call', {})
-            option_str = f"Strike ${best_call.get('strike', 'N/A')}" if best_call else "N/A"
+            # Get risk metrics for text display
+            risk_metrics_text = opp.get('enhanced_data', {}).get('risk_metrics', {})
+            risk_display = "N/A"
+            if risk_metrics_text:
+                price = risk_metrics_text.get('current_price', 0)
+                atr = risk_metrics_text.get('atr_percent', 0)
+                stop = risk_metrics_text.get('suggested_stop_loss', 0)
+                risk_display = f"Price: ${price:.2f} | ATR: {atr:.2%} | Stop: ${stop:.2f}"
             
             text += f"""
 {'='*60}
@@ -767,11 +776,11 @@ OPPORTUNITIES:
                 text += f"  • {risk}\n"
             
             text += f"""
-OPTION CONTRACT:
-  Selected: {option_str}
-  Recommendation: {option_contract.get('recommendation', 'N/A')}
-  Entry Timing: {option_contract.get('entry_timing', 'N/A')}
-  Risk Management: {option_contract.get('risk_management', 'N/A')}
+POSITION SIZING & RISK:
+  Risk Profile: {risk_display}
+  Entry Strategy: {ai_analysis.get('entry_strategy', 'Momentum breakout entry')}
+  Risk Level: {"High" if risk_metrics_text.get('atr_percent', 0) > 0.04 else "Moderate" if risk_metrics_text.get('atr_percent', 0) > 0.02 else "Low"} Volatility
+  Stop Loss: ${risk_metrics_text.get('suggested_stop_loss', 0):.2f} ({risk_metrics_text.get('stop_loss_risk_percent', 0):.1%} risk)
 """
             
             if red_flags:

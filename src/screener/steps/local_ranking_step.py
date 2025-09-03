@@ -369,7 +369,7 @@ class LocalRankingExecutor(WorkflowStepExecutor):
         
         # Validate score breakdown
         score_breakdown = opportunity.get('score_breakdown', {})
-        expected_components = ['technical', 'momentum', 'squeeze', 'options', 'quality']
+        expected_components = ['technical', 'momentum', 'squeeze', 'quality']
         for component in expected_components:
             if component not in score_breakdown:
                 errors.append(f"Missing score component: {component}")

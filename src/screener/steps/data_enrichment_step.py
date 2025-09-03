@@ -73,7 +73,7 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             return {'enriched_data': {}, 'symbols_processed': 0, 'symbols_failed': 0}
         
         logger.info(f"Starting MINIMAL data collection for local rating of {len(symbols)} symbols")
-        logger.info("Collecting only: historical prices, options chain, and current quote")
+        logger.info("Collecting only: historical prices, current quote, and technical indicators")
         
         # Initialize provider manager
         await self._initialize_providers()
@@ -93,8 +93,8 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
         
         async def process_symbol_with_semaphore(symbol: str) -> tuple[str, Optional[Dict[str, Any]]]:
             async with semaphore:
-                # Add 1 second delay between each stock to respect MarketData rate limits
-                await asyncio.sleep(1.0)
+                # Small delay between symbols for rate limiting
+                await asyncio.sleep(0.2)
                 # Use minimal data collection for local rating instead of full enhanced data
                 return symbol, await self._collect_minimal_data_for_rating(symbol, context)
         
@@ -124,12 +124,8 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
         
         logger.info(f"Minimal data collection completed: {symbols_processed} successful, {symbols_failed} failed")
         
-        # Clean up provider sessions to avoid unclosed session warnings
-        try:
-            if self.provider_manager:
-                await self.provider_manager.__aexit__(None, None, None)
-        except Exception as e:
-            logger.debug(f"Provider cleanup warning: {e}")
+        # Note: Keep provider sessions alive for potential reuse in enhanced data collection
+        # Sessions will be cleaned up at the end of the full workflow
         
         return {
             'enriched_data': enriched_data,
@@ -171,23 +167,9 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             )
             provider_configs.append(eodhd_config)
             
-            # MarketData configuration  
-            marketdata_config = ProviderConfig(
-                provider_type=ProviderType.MARKETDATA,
-                config={
-                    'type': 'marketdata',  # Add type field for BaseProvider (lowercase to match enum)
-                    'api_key': self.settings.marketdata_api_key,  # Changed from api_token to api_key
-                    'base_url': self.settings.marketdata_base_url,
-                    'max_requests_per_minute': self.settings.marketdata_requests_per_minute,
-                    'timeout_seconds': self.settings.request_timeout
-                },
-                priority=2,
-                capabilities=['stock_quotes', 'options_chains', 'options_greeks'],
-                max_requests_per_minute=100,
-                cost_per_request=0.005,
-                enabled=True
-            )
-            provider_configs.append(marketdata_config)
+            # MarketData configuration - DISABLED (not needed for stock-only workflow)
+            # marketdata_config = ProviderConfig(...)
+            # provider_configs.append(marketdata_config)
             
             # Initialize provider manager
             self.provider_manager = ProviderManager(
@@ -364,7 +346,6 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             'symbol': symbol,
             'quote': None,
             'historical_prices': None,
-            'options_chain': [],
             'technicals': {},
             'trading_dates': self._trading_dates_cache,
             'data_collection_timestamp': datetime.now().isoformat(),
@@ -376,26 +357,32 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             return None
             
         try:
-            # Collect essential data for comprehensive local rating
-            tasks = []
+            # Collect essential data sequentially with delays to avoid rate limiting
+            data_keys = ['historical_prices', 'quote', 'technicals']
+            results = []
             
             # 1. Historical Price Data - CRITICAL for technical analysis
-            tasks.append(self._collect_historical_data(symbol))
+            try:
+                result = await self._collect_historical_data(symbol)
+                results.append(result)
+                await asyncio.sleep(0.1)  # 100ms delay between API calls
+            except Exception as e:
+                results.append(e)
             
-            # 2. Options Chain - CRITICAL for options scoring
-            tasks.append(self._collect_options_data(symbol))
+            # 2. Current Quote - for current price/volume
+            try:
+                result = await self._collect_quote_data(symbol)
+                results.append(result)
+                await asyncio.sleep(0.1)  # 100ms delay between API calls
+            except Exception as e:
+                results.append(e)
             
-            # 3. Current Quote - for current price/volume
-            tasks.append(self._collect_quote_data(symbol))
-            
-            # 4. Technical Indicators - for enhanced scoring
-            tasks.append(self._collect_technical_indicators(symbol))
-            
-            # Execute tasks with minimal concurrency
-            results = await asyncio.gather(*tasks, return_exceptions=True)
-            
-            # Process results
-            data_keys = ['historical_prices', 'options_chain', 'quote', 'technicals']
+            # 3. Technical Indicators - for enhanced scoring
+            try:
+                result = await self._collect_technical_indicators(symbol)
+                results.append(result)
+            except Exception as e:
+                results.append(e)
             
             for i, result in enumerate(results):
                 key = data_keys[i]
@@ -444,7 +431,6 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             'news': None,
             'earnings': None,
             'sentiment': None,
-            'options_chain': [],
             'trading_dates': self._trading_dates_cache,
             'data_collection_timestamp': datetime.now().isoformat(),
             'data_sources': []
@@ -505,7 +491,7 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
                     eodhd_results.append(result)
                 except Exception as e:
                     eodhd_results.append(e)
-                await asyncio.sleep(0.07)  # 70ms delay between EODHD calls
+                await asyncio.sleep(0.05)  # 50ms delay between EODHD calls
             
             # Execute other tasks concurrently
             other_results = await asyncio.gather(*other_tasks, return_exceptions=True)
@@ -583,37 +569,56 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
                     
                 logger.info(f"Enriching data for qualified stock: {symbol}")
                 
-                # Add 1 second delay between each stock to respect MarketData rate limits
-                await asyncio.sleep(1.0)
+                # Add moderate delay between enhanced data collection for stocks
+                await asyncio.sleep(0.5)
                 
                 try:
-                    # Collect additional enhanced data
-                    tasks = []
+                    # Collect additional enhanced data sequentially to avoid rate limits
+                    data_keys = ['market_context', 'news', 'fundamentals', 'earnings', 'sentiment']
+                    results = []
                     
                     # 1. Market Context - for AI understanding of market conditions
-                    tasks.append(self._collect_market_context(symbol))
+                    try:
+                        result = await self._collect_market_context(symbol)
+                        results.append(result)
+                        await asyncio.sleep(0.2)  # 200ms delay between enhanced API calls
+                    except Exception as e:
+                        results.append(e)
                     
                     # 2. Recent News - for AI sentiment and event analysis
-                    tasks.append(self._collect_news(symbol))
+                    try:
+                        result = await self._collect_news(symbol)
+                        results.append(result)
+                        await asyncio.sleep(0.2)
+                    except Exception as e:
+                        results.append(e)
                     
                     # 3. Fundamental Data - for AI valuation analysis
-                    tasks.append(self._collect_fundamental_data(symbol))
+                    try:
+                        result = await self._collect_fundamental_data(symbol)
+                        results.append(result)
+                        await asyncio.sleep(0.2)
+                    except Exception as e:
+                        results.append(e)
                     
                     # 4. Earnings Data - for AI timing analysis
-                    tasks.append(self._collect_earnings_data(symbol))
+                    try:
+                        result = await self._collect_earnings_data(symbol)
+                        results.append(result)
+                        await asyncio.sleep(0.2)
+                    except Exception as e:
+                        results.append(e)
                     
                     # 5. Sentiment Data - for AI market sentiment understanding
-                    tasks.append(self._collect_sentiment_data(symbol))
-                    
-                    # Execute enhancement tasks
-                    results = await asyncio.gather(*tasks, return_exceptions=True)
+                    try:
+                        result = await self._collect_sentiment_data(symbol)
+                        results.append(result)
+                    except Exception as e:
+                        results.append(e)
                     
                     # Merge enhanced data with existing opportunity data
                     enhanced_opp = opp.copy()
                     enhanced_data = enhanced_opp.get('enhanced_data', {})
-                    
-                    # Process results
-                    data_keys = ['market_context', 'news', 'fundamentals', 'earnings', 'sentiment']
                     
                     for i, result in enumerate(results):
                         key = data_keys[i]
@@ -830,9 +835,20 @@ class DataEnrichmentExecutor(WorkflowStepExecutor):
             return None
     
     async def _collect_quote_data(self, symbol: str) -> Optional[Dict[str, Any]]:
-        """Collect live quote data with provider fallback."""
+        """Collect live quote data from EODHD only (stock-focused workflow)."""
         try:
-            quote = await self.provider_manager.get_stock_quote(symbol)
+            # Use EODHD directly for quotes - more reliable than provider manager fallback
+            eodhd_provider = self.provider_manager.providers.get('eodhd')
+            if not eodhd_provider:
+                logger.warning(f"EODHD provider not available for quote data for {symbol}")
+                return None
+            
+            # Debug: Check provider and session state
+            logger.debug(f"Getting quote for {symbol} - Provider session state: {eodhd_provider.session is not None}")
+            logger.debug(f"Getting quote for {symbol} - Circuit breaker state: {eodhd_provider.circuit_breaker.state}")
+                
+            quote = await eodhd_provider.get_stock_quote(symbol)
+            logger.debug(f"Quote result for {symbol}: {quote is not None}")
             
             if quote:
                 # Convert StockQuote model to dict
